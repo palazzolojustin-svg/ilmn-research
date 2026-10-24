@@ -1,0 +1,229 @@
+Rates & Billing – QB3 Berkeley
+Skip to content
+UC Berkeley
+Give to QB3-Berkeley
+Search for:
+Search
+Home
+AboutAbout
+Contact QB3 staff
+Contact a Core Research Facility
+NewsNews
+Research News
+Faculty News
+Press Room & Media Mentions
+PeoplePeople
+Core Research Facilities Contacts
+Faculty Affiliates
+Staff
+ResearchResearch
+Supergroups
+Core Research FacilitiesCore Research Facilities
+Biomolecular Nanotechnology Center
+Pines Magnetic Resonance Center @QB3
+Cal-Cryo @QB3-Berkeley
+QB3 Cell & Tissue Analysis Facility / High-Throughput Screening Facility
+$2310 |
+$2415 |
+Revio NX SMRTcell – Per Use |
+5-10M (varies by application)
+(no <5kb molecules) |
+60-120Gb (varies by application/sample) |
+$700 |
+$770 |
+$805 |
+ONT
+Please inquire for Oxford Nanopore Sequencing. At this time we do not have the bandwidth for library preparations but have a self-service P2 Solo instrument available for use after a training or core staff are available to load and sequence user prepared libraries. |
+iTag/Amplicon Sequencing
+We are no longer able to offer amplicon services at the facility but highly recommend our colleagues at Rush University. Please reach out to Kevin and Stefan and they can assist you as they have many of our former users with gold star reviews. |
+All MiSeq and NextSeq Run Types can be customized based on the cycles in the kit as they are single lane runs. Read 1 must always be 25 cycles minimum and no read can surpass 300 cycles.
+Illumina Sequencing MiSeq
+|
+Reads |
+Data |
+UC |
+Affiliate |
+External |
+Pricing unit |
+MiSeq i100 300cycle 300SR/150PE |
+5M |
+1.5Gbp |
+$600 |
+$660 |
+$690 |
+Per lane |
+MiSeq i100 600cycle (300PE) |
+5M |
+9Gbp |
+$830 |
+$913 |
+$952 |
+Per lane |
+MiSeq i100 100cycle (100SR) |
+25M |
+5Gbp |
+$760 |
+$836 |
+$874 |
+Per lane |
+MiSeq i100 300cycle (150PE/300SR) |
+25M |
+15Gbp |
+$1150 |
+$1265 |
+$1322.50 |
+Per lane |
+MiSeq i100 600cycle (300PE) |
+25M |
+30 Gbp |
+$1,500 |
+$1,650 |
+$1,725 |
+Per lane |
+MiSeq i100 1000cycle (500PE) |
+25M |
+??? 50 Gbp ??? |
+$2040 |
+$2244 |
+$2346 |
+Per lane |
+NextSeq2000 (All XLeap Chemistry)
+|
+Reads |
+Data |
+UC |
+Affliate |
+External |
+Pricing unit |
+NextSeq 2000 P1 100 Cycle (100SR/10x) |
+100 M |
+10 Gbp |
+$975 |
+$1072.50 |
+$1211.25 |
+Per lane |
+NextSeq 2000 P1 300 Cycle (150PE) |
+100 M RP |
+30 Gbp |
+$1230 |
+$1353 |
+$1414.5 |
+Per lane |
+NextSeq 2000 P1 600 Cycle (300PE) |
+100 M RP |
+60 Gbp |
+$2000 |
+$2200 |
+$2300 |
+Per lane |
+NextSeq 2000 P2 100 Cycle (100SR/10x) |
+400 M |
+40 Gbp |
+$1575 |
+$1732.50 |
+$1811.25 |
+Per lane |
+NextSeq 2000 P2 200 Cycle (100PE) |
+400 M RP |
+80 Gbp |
+$2500 |
+$2750 |
+$2875 |
+Per lane |
+NextSeq 2000 P2 300 Cycle (150PE) |
+400 M RP |
+120 Gbp |
+$2730 |
+$3003 |
+$3139.50 |
+Per lane |
+NextSeq 2000 P2 600 Cycle (300PE) |
+400 M RP |
+180 Gbp |
+$3050 |
+$3355 |
+$3507.50 |
+Per lane |
+NextSeq 2000 P3 100 Cycle (100SR/10x) |
+1.2 B |
+120 Gbp |
+$2775 |
+$3052.50 |
+$3191.25 |
+Per lane |
+NextSeq 2000 P4 50 Cycle* |
+1.8 B |
+90 Gbp |
+$1350 |
+$1485 |
+$1552.5 |
+Per lane |
+NextSeq 2000 P4 100 Cycle (100SR/10x) |
+1.8 B |
+180Gbp |
+$2600 |
+$2860 |
+$2990 |
+Per lane |
+NextSeq 2000 Custom Read/Index Primer* |
+*only charge once per lane |
+$350 |
+$385 |
+$420 |
+Per lane |
+**Rates subject to change but should be stable for 2026** |
+NovaSeq X (lanes)
+|
+Reads Billion |
+Data GB |
+UC |
+Affliate |
+External |
+Pricing unit |
+NovaSeq X 10B 10X |
+1.25 |
+125 |
+$1,205 |
+$1,325.50 |
+$1,385 |
+Per lane |
+NovaSeq X 10B 100SR (6-8 week) |
+1.25 |
+125 |
+$1,205 |
+$1,325.50 |
+$1,385 |
+Per lane |
+NovaSeq X 10B 150PE |
+1.25 RP |
+375 |
+$1,535 |
+$1,688 |
+$1,765 |
+Per lane |
+NovaSeq X 25B 10X only |
+3.2 |
+375 |
+$1,565 |
+$1,721.50 |
+$1800 |
+Per lane |
+NovaSeq X 25B 150PE |
+3.2 RP |
+875 |
+$2,600 |
+$2,860 |
+$2,990 |
+Per lane |
+Turnaround Time on ready to sequence (already pooled) 150PE 10B and 25B lanes is 5-7 days post QC passing. Specs for Novaseq listed are conservative, generally data returns are 25-30% higher. |
+UCB does not have a NovaSeq X, all lanes are sent to the UCSF CAT Lab at this time and was transitioned in the summer of 2026 from all other partners. |
+QC Services
+Quantification
+|
+UC |
+Affliate |
+External |
+Pricing unit |
+Qubit |
+$7 |
+$7.7 |

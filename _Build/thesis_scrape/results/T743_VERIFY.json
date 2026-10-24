@@ -1,0 +1,132 @@
+```json
+{
+  "verdicts": [
+    {
+      "id": "F863",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "supports",
+      "note": "Numbers check out against the PCC record: one bidder (Genetech), bid NT$332,927,500, award NT$296,999,880 against a NT$297,000,000 base price, term 1 Mar 2026 to 28 Feb 2029. The first call drew no bids. Two corrections. First, the NT$297M is the base price (底價), not a 'floor' the vendor was pushed to. When a bid comes in above the base price, Taiwanese procurement law requires the vendor to cut down to it, so this is a routine step and not evidence of a large buyer using leverage. The award is also an estimate: unit prices are applied after the award. Second, the contract run-rate jump itself (NT$16.25M a year to NT$99M a year) is already known from F715. No brand is named, so 'Illumina X' is inferred from the distributor."
+    },
+    {
+      "id": "F869",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "against",
+      "note": "This repeats F861, which already covers NTUH signing new three-year legacy-platform contracts running to 2028–29. The NextSeq 500/550 is a mid-throughput instrument, not the NovaSeq 6000, so it says little about the 6000 tail in 1A. The award is NT$1.47M a year (about US$47K), which is immaterial."
+    },
+    {
+      "id": "F870",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2B",
+      "direction": "supports",
+      "note": "The IMB AVITI award (115-IMBE016, NT$9.20M) is already in F747 and F885. The only new piece is the lineage: the same institute bought a NextSeq 500 in 2016. The '22% less' compares two different instruments bought ten years apart, so it says nothing about pricing and should be dropped. We could not confirm that the AVITI replaced the NextSeq. Keep this only as a weak refresh anecdote."
+    },
+    {
+      "id": "F871",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "supports",
+      "note": "The ratios contradict each other. The claim says '2.5x', but the detail works out to 1.9x on consumables (3.15/1.635) and 3.0x including the sequencer (4.93/1.635). The claim should say 1.9x for consumables only. The US-origin reagent lot (NT$1.635M) has no brand and could be Illumina or Thermo. The Taiwan-origin chips are not Illumina. 'Likely ONT' is an inference. This is a long-read grant purchase of about US$0.3M in total, so it is tangential to the short-read discounting argument and adds little beyond the known F750 (ONT at Taiwanese medical centers)."
+    },
+    {
+      "id": "F876",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "against",
+      "note": "The components repeat F848 (MiSeq v3) and F861/F869 (NextSeq). Neither platform is the 6000, and a locked-in legacy tail supports management's 'permanent tail' claim, so the 'supports' label is the wrong direction. The 12.7% share is fragile. The denominator is dominated by K114031, which names no brand, and it mixes award years and leaves out unbranded lots. It is not a usable metric."
+    },
+    {
+      "id": "F877",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1C",
+      "direction": "against",
+      "note": "This repeats F713 (the same NT$201,000 per set, 9 sets then 18 sets). The periods overlap: the first contract runs Apr 2025 to Apr 2027 and the second Jul 2026 to Jun 2027. So '+100%' is not a clean y/y comparison. Annualized it is 4.5 sets a year versus 18, or the first contract was used up early. The account is immaterial."
+    },
+    {
+      "id": "F878",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "against",
+      "note": "This repeats F751 and D071, which already give the award-versus-budget cuts of −6%, −6%, −21% and −15%. The buyer sets the budget, so award versus budget measures how padded the budget was, not discounting. D071 shows the P3 price about 18% above US list, which cuts against 1B. The bid-to-award −12% on P3 is the only new detail and is too thin to stand on its own."
+    },
+    {
+      "id": "F885",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2B",
+      "direction": "supports",
+      "note": "This largely aggregates the known F747 and F748. The new element is the NTU AVITI24 open reagent contract (NT$13.318M, 9 Dec 2025 to 31 Dec 2028, Art. 22(1)(4)). The Chi Mei unit has no brand, so the confirmed Element total is NT$41.5M and NT$51.5M is an upper bound. Note that F870 and F885 use different Chinese names for the vendor (亞洲準誠 vs 亞洲準譯). The NOWnews article confirms 亞洲準譯."
+    },
+    {
+      "id": "F888",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "supports",
+      "note": "Verified: the NOWnews article (2 Aug 2023) says 亞洲準譯 signed an mNGS MOU with Illumina's Taiwan branch at the Asia Biotech Expo. It is new that a former Illumina clinical partner is now Element's channel. The sequencer behind its hospital mNGS contracts is not verified, and the CTO's Element presentation is only a search snippet. So clinical displacement is not shown. It is a channel-defection anecdote."
+    },
+    {
+      "id": "F896",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "Verified in policy CN 1107421 (effective 18 Jul 2024), §4. The policy applies only to resold, pre-owned instruments after end of sale or end of life. It does not cover existing owners. It also says Illumina 'will not refuse to support an instrument solely because it was the subject of a third-party resale', and it can still supply billable services and consumables with approval. The finding therefore limits a secondhand 6000 market after an end-of-sale notice. It does not make the tail clock hard for current owners, and with no notice issued it has no effect today."
+    },
+    {
+      "id": "F897",
+      "verdict": "accept",
+      "strength": "medium",
+      "label": "1A",
+      "direction": "supports",
+      "note": "Verified in §2: the end-of-service-life date is 'typically… five (5) years after the End-of-Life notice date', and it 'may be shorter' or can be extended case by case. Last Ship is 2–6 months after notice for RUO and at least 6 months for Dx. Service contract offers are subject to price increases from the notice date, renewals are allowed up to 12 months before end of service life, and individual consumable kits may be discontinued early if demand is low. Caveat on direction: the five-year window also means a 6000 notice would let the regulated tail run to about 2031–32. That supports 'not permanent' but cuts against a fast 2027 conversion. The service-price and kit-discontinuation levers are the genuinely new part."
+    },
+    {
+      "id": "F899",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "This is new as procurement evidence that third-party 6000 service is absent, and it fits F896 and the known F619. Correction: the CDC figure of $144,910 covers a NovaSeq 6000 plus a MiSeq, so it is not a per-6000 price. The Navy $141,313 comes from a snippet. A fair range is about $110–141K per 6000 per year (NHRI F800 ~US$110K). Service retention says little about the consumables mix shift, so the link to 1A is indirect: owners cannot extend boxes cheaply outside Illumina."
+    }
+  ],
+  "derived": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Under Illumina's own end-of-life policy and the MiSeq precedent, an end-of-sale notice cannot force the regulated NovaSeq 6000 tail off before about 2031, even if the notice came in early 2027. A 2027 conversion step would therefore have to come from economics or Illumina's price levers, not from the platform being retired.",
+      "detail": "Policy CN 1107421 (Jul 2024) sets end of service life at 'typically five years' after the notice and Last Ship at least 6 months after notice for Dx instruments. The MiSeq was announced Mar 2025, with end of sale 30 Sep 2025 and service to 31 Dec 2029, which is about 4.75 years from notice and matches the rule. As of Oct 2026 the 6000 product page shows no notice. So a Q1'27 notice implies service and consumables to about Q4'31. The policy does give Illumina two levers that could pull conversion forward. Service prices can rise from the notice date, and individual 6000 kits can be discontinued early 'if demand is low'.",
+      "url": "https://emea.illumina.com/content/dam/illumina-marketing/documents/terms-conditions/1000000117071_01_Product_End_of_Sale_End_of_Life_Policy.pdf",
+      "date": "2024-07-18",
+      "source_name": "Illumina Product End-of-Life Policy 1000000117071 v01; Illumina retirement page (MiSeq)",
+      "source_type": "other",
+      "quote": "may discontinue any individual Instrument Consumable kit(s) at any time",
+      "strength": "medium",
+      "why_new": "The known ~2031–32 date was our own extrapolation. This ties it to the written policy, checks it against the MiSeq's 4.75-year actual, and adds two levers: post-notice service price increases and early kit discontinuation.",
+      "based_on": ["F897", "F896"]
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "The NTU AVITI24 reagent contract implies a ceiling of about US$140K a year in consumables for a single Element box. That is above Illumina's own FY26 pull-through guide for its competing NextSeq 1000/2000 ($80–100K), so research consumables dollars that leave Illumina are not trivial per site.",
+      "detail": "NTU College of Medicine signed an AVITI24 open reagent contract (1143A024) for NT$13.318M covering 9 Dec 2025 to 31 Dec 2028, about 3.06 years. That works out to about NT$4.35M a year, or about US$140K at 31 NT$/US$, for the AVITI24 it bought in Jul 2025 (NT$17.0M). Illumina guided FY26 NextSeq 1000/2000 pull-through at $80–100K and NextSeq 500/550 at $90–110K. Open contracts are estimated ceilings, not committed spend, so actual draw may be lower.",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=亞洲準",
+      "date": "2025-12-09",
+      "source_name": "Taiwan Government e-Procurement (pcc-api.openfun.app mirror)",
+      "source_type": "procurement",
+      "quote": "AVITI24定序平台專用試劑一批(至117.12.31止)(開口合約)",
+      "strength": "weak",
+      "why_new": "Earlier items counted Element's Taiwan instrument wins. None turned the reagent contract into a per-box consumables run-rate or compared it with Illumina's mid-throughput pull-through guide.",
+      "based_on": ["F885", "F747"]
+    }
+  ]
+}
+```

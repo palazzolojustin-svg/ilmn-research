@@ -1,0 +1,36 @@
+Newsletters - Lausanne Genomic Technologies Facility
+Skip to content
+Lausanne Genomic Technologies Facility
+Access to and assistance with cutting edge technologies for nucleic acid analysis
+Menu
+Home
+Technologies
+Short Read Sequencing >
+Short Read Sequencing
+Sequencers
+Library preparation
+Long Read Sequencing >
+Technology
+Applications
+Practical information
+Single Cell
+Quantitative PCR
+Bioinformatics support
+LIMS
+Contact
+Find us
+The team
+Utilities
+LGD-2026
+Newsletters
+Newsletters
+Read the September 2026 Newsletter (PDF)
+Curious how PacBio long-read sequencing could take your project further? In this edition, we walk you through the SMRT sequencing technology behind our PacBio Revio system, the applications it unlocks — from de novo assembly to full-length RNA isoform sequencing — and what you need to know practically to get started, from DNA input requirements to multiplexing options.
+Read the June 2026 Newsletter (PDF)
+Wondering which single-cell approach is right for your project? In this edition, we walk you through the full range of workflows we support at the Lausanne Genomic Technologies Facility — from fresh and fixed cells to combinatorial barcoding, primary analysis, and long-read isoform sequencing.
+Read the May 2026 Newsletter (PDF)
+The GTF at UNIL (Lausanne) has become the first lab in Europe to reach 500 runs on the AVITI sequencing platform, now upgraded to AVITI24 for higher throughput and single-cell workflows, with competitive pricing and fast local service for the UNIL/CHUV community.
+Contact
+contactGTF@unil.ch
+Copyright © 2026 Lausanne Genomic Technologies Facility. All rights reserved.
+Theme: Accelerate by ThemeGrill. Powered by WordPress.

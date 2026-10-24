@@ -1,0 +1,68 @@
+Centre for Health Genomics and Informatics 
+dnaseq@ucalgary.ca   403-220-4503 
+cumming.ucalgary.ca/research/cat/health-genomics/home 
+University of Calgary Internal Prices 
+Valid April 1, 2023 to March 31, 2024 
+NGS DNA/RNA Library Preparations: 
+Item # Service Price 
+112.4 DNA fragment library $105.00 
+125.3 DNA fragment library, PCR-free $105.00 
+118 High throughput DNA bulk library, per 96 samples (variable coverage) $2,230.00 
+113.4 ChIPseq and Amplicon sequencing – DNA fragment library no shearing $90.00 
+620.3 Amplicon that already contains Illumina Nextera adapters for Illumina indexing only  $15.00 
+160.2 Stranded poly (A) RNA library $110.00 
+170.2 Stranded rRNA-depletion RNA library (human/mouse/rat, bacterial) $170.00 
+175.2 Stranded RNA library - no poly A capture/rRNA depletion (e.g. RIPseq, viral RNAseq) $105.00 
+351.1 Small RNA library preparation $155.00 
+610.3 16S Metagenomic rRNA V3/4 $21.00 
+613.0 ITS library with/without one 16S region of choice, combined library  $30.00 
+151.1 Enzymatic Methyl-seq (can be reduced representation with Msp l) $105.00 
+Looking for other library preparations? Contact CHGI 
+NGS Enrichment Library Preparations: 
+Item # Service Price 
+860.1 IDT human exome - 12 libraries per capture, libraries not included: see item 112.4 above  $435.00 
+820.1 Agilent SureSelect Clinical Research v2 human exome – libraries included, 8 libraries per capture $200.00 
+825.1 Agilent SureSelect Mouse exome – library included, single-plex capture $270.00 
+Other Services: 
+Item # Service Price 
+93.0 User prepared library QC $15.00 
+15.0 Bioinformatics support per hour $100.00 
+Sizing/Quality Assay via Agilent TapeStation– (HS)DNA, gDNA, (HS)RNA $10.00 - $15.00
+Sanger sequencing – Economy $8.00 
+Sanger sequencing – Full $21.00 
+Fragment Analysis $4.25 
+Illumina Sequencing: 
+Item # Instrument Reagent kit Total Output - M Read Pairs Total Output - Gbp Price 
+8020.5 NovaSeq 6000 v1.5 * SP 100 cycles (bp) 800 80 $4,640.00 
+8025.4 SP 200 cycles (bp) 800 167 $6,000.00 
+8030.5 SP 300 cycles (bp) 800 250 $6,520.00 
+8040.5 SP 500 cycles (bp) 800 400 $9,030.00 
+8050.51 S1 100 cycles (bp) 1,600 167 $5,869.00 
+8060.5 S1 200 cycles (bp) 1,600 333 $10,380.00 
+8070.5 S1 300 cycles (bp) 1,600 500 $11,220.00 
+8080.5 S2 100 cycles (bp) 4,100 417 $14,020.00 
+8090.5 S2 200 cycles (bp) 4,100 833 $17,340.00 
+8100.5 S2 300 cycles (bp) 4,100 1,250 $18,480.00 
+8110.5 S4 200 cycles (bp) 10,000 2,000 $26,020.00 
+8120.5 S4 300 cycles (bp) 10,000 3,000 $28,960.00 
+6800.6 MiSeq V2 50 cycles (bp) 15 0.85 $1,940.00 
+6810.7 V2 300 cycles (bp) 15 5.1 $2,410.00 
+6820.7 V2 500 cycles (bp) 15 8.5 $2,680.00 
+6830.7 V2 nano 300 cycles (bp) 1 0.3 $750.00 
+6840.6 V2 nano 500 cycles (bp) 1 0.5 $870.00 
+6850.6 V2 micro 300 cycles (bp) 4 1.2 $1,060.00 
+6860.7 V3 150 cycles (bp) 25 3.8 $2,120.00 
+6870.91 V3 600 cycles (bp) 25 15 $3,410.00 
+7040.9 NextSeq Mid-output 150 cycles (bp) 130 19 $2,480.00 
+7050.8 Mid-output 300 cycles (bp) 130 39 $3,840.00 
+7000.9 High-output 75 cycles (bp) 400 30 $3,310.00 
+* NovaSeq 6000 reagent kits contain enough reagents for an additional 38 cycles of sequencing.  This is to support the sequencing
+o
+f 10x Genomics libraries. For example, the 100 cycle (bp) kits contain enough reagents for 138bp of sequencing.
+Other add-on NGS project services: 
+Item # Service Price 
+7080.2 QuantiFluor DNA Assay Plate $90.00 
+7090.1 E-Gel - per 96 samples, 2% Agarose Gel Assay $100.00 
+1420.4 Kapa qPCR Library Quantification plate for Illumina, per sequencing run  $190.00 
+7071.2 Plate normalization, robotic, per 96 samples $60.00 
+XP workflow – individual manual lane loading for the NovaSeq 6000 instrument, per lane  $340.00

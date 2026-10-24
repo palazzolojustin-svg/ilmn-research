@@ -1,0 +1,69 @@
+NGI Sweden » Exciting Update from Illumina: Sequencing Costs Now Aligned Across Flow Cells!
+Home
+Services
+Applications
+De novo sequencing
+DNA extractions
+DNA resequencing
+Environmental sequencing
+Epigenetics
+Genotyping
+NGI OpenLab
+Proteomics with NGS readout
+Single-cell sequencing
+Spatial
+Transcriptomics
+User-prepared libraries
+Technologies
+Element Biosciences
+Genotyping
+Illumina
+Oxford Nanopore Technologies
+Pacific Biosciences
+Olink Proteomics
+Bioinformatics
+Resources
+Index guidelines for Illumina sequencing
+Getting started at NGI
+Sample submission
+Generic selectors
+Exact matches only
+Search in title
+Search in content
+Post Type Selectors
+Search in posts
+Search in pages
+Home
+News
+Updates
+Exciting Update from Illumina: Sequencing Costs Now Aligned Across Flow Cells!
+Exciting Update from Illumina: Sequencing Costs Now Aligned Across Flow Cells!
+Great news for NGI users! Illumina has now harmonised the sequencing cost per read across the 10B and 25B flow cells — and this new pricing structure is already reflected in our services. Even better, the upcoming 5B flow cell is expected early next year and will also follow this simplified pricing.
+What does this mean for you?
+Previously, the cost per read decreased with larger flow cells. To offer competitive pricing for smaller projects, we have been selling partial lanes on the 25B flow cell — a solution that can sometimes complicate scheduling, extend turnaround times, and is only available when NGI prepares libraries.
+With the new pricing model, we gain greater flexibility to choose the best flow cell for each project — optimizing both data yield and turnaround time. Once the 5B flow cell is available, it will significantly reduce costs for ready-made library pools that don’t require the high data output of a full lane on a large flow cell.
+A simpler way to plan your sequencing.
+Sequencing will now be purchased in units of 600 million read pairs:
+• 5B flow cell: 1 lane = 1 unit (not yet available)
+• 10B flow cell: 1 lane = 2 units
+• 25B flow cell: 1 lane = 5 units
+All you need to do is specify the number of units you require — we will take care of selecting the most suitable flow cell for your project.
+This streamlined pricing makes it easier to design and budget sequencing projects while enabling smoother scaling from small to large studies. We’re excited about the flexibility and efficiency this brings to NGI users and look forward to supporting your future research with more predictable sequencing costs!
+Last Updated: 17th November 2025
+Details
+17th November 2025
+By Mattias Ormestad
+Categories
+Updates
+Keywords
+pricing illumina flowcell
+Contact information
+E-mail: support@ngisweden.se
+For further contact information, visit Contact page.
+Website login
+Follow us
+Sign up to our newsletter
+Subscribe to our newsletter
+×
+Your email address:
+Sign up to our newsletter to get updates about the platform delivered directly to your inbox.

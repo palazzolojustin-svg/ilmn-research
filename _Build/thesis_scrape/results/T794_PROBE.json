@@ -1,0 +1,46 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The primary source, Aktstykke 246 on ft.dk, returned HTTP 403 to WebFetch, so I could not read it. I did not open the NGC 2025 annual report or the Estonian Feb 2026 slide deck. Searches found no 2025 genome count. They did return useful 2022–2024 context: the 60,000-genome target was set for 2022–2024, only 1,500 patients had been sequenced by May 2022, and about 14,500 genomes were in the database by Jul 2023. A regional-agenda snippet seen in search results (not opened) puts Region Syddanmark's expected activity at ~11,800 WGS for 2022–24 against an estimate of ~14,300. From mid-2024 sequencing moved to the regions. Nothing opened is dated 2025 or later, and the 2025 per-year throughput that would test 1C is still unknown. The Danish data is a Novo Nordisk Foundation-funded national program, so it is a weak ceiling proxy for US clinical WGS.",
+  "how_to_mine": "1) Fetch the aktstykke via a different route: the ft.dk page https://www.ft.dk/samling/20241/aktstykke/aktstk246/index.htm, or retry the PDF with a browser user-agent (curl via Bash). 2) Search for the NGC / Sundhedsdatastyrelsen annual report 2025 ('Årsrapport 2025 Nationalt Genom Center', 'Danmarks Genomdatabase', 'Sundhedsdatastyrelsen helgenomsekventering opgørelse'). 3) Read the Region Syddanmark agenda PDFs at dagsordener-referater.regionsyddanmark.dk. They give regional budgets, per-genome costs and equipment (~DKK 21.6M sequencer purchase, platform not seen). 4) Open the Estonian slide deck https://www.akadeemia.ee/wp-content/uploads/2026/02/uus.-lene-cividanes-10.02.2026.pdf for any genome count. 5) Check Danske Regioner and the Novo Nordisk Foundation grant pages for the final 2022–24 count against the 60,000 target. 6) Look for the sequencer model in regional tenders (udbud.dk, TED).",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Denmark's national clinical WGS program ran far below its 60,000-genome target, which suggests slow ramp even in a single-payer system.",
+      "detail": "A Novo Nordisk Foundation grant of ~DKK 1bn funded sequencing of up to 60,000 genomes in 2022-2024. By May 2022 NGC had delivered WGS to only 1,500 patients, and by Jul 2023 about 14,500 genomes were in the database, with interpreter shortages cited as the bottleneck. A Region Syddanmark paper (seen as a search snippet only, not opened) expected ~11,800 sequencings in 2022-24 against an estimate of ~14,300. These are 2022-23 data, and the final 2024 and 2025 counts were not found.",
+      "url": "https://ing.dk/artikel/fortolkere-efterlyses-20000-danskere-skal-helgenom-sekventeres-om-aaret",
+      "date": "2023-07-03",
+      "source_name": "Ingeniøren (ing.dk), plus search snippet from Region Syddanmark agendas",
+      "source_type": "press",
+      "quote": "20.000 danskere skal helgenom-sekventeres om året",
+      "strength": "weak",
+      "why_new": "The known list has no Danish national WGS counts or target-vs-actual data, but the data is old (2022-23) and the final 2025 count is missing."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Denmark moved WGS sequencing to the regions from mid-2024 with small regional budgets, which suggests modest Gb demand per region.",
+      "detail": "From mid-2024 the regions took over sequencing and data processing from NGC, and NGC kept only reporting and data sharing. Region Syddanmark's 2025 budget (search snippet, not opened) showed ~DKK 30M a year of operating cost for handling and interpretation. It also approved ~DKK 21.6M for sequencing equipment at Odense and Lillebælt, with the platform unknown. The plan was ~20,000 genomes a year nationally from 2024, but no actual figure was found.",
+      "url": "https://dagsordener-referater.regionsyddanmark.dk/pdf/GetDagsorden/cb1a8b3b-bc5f-4c02-a3f9-128f01b56636",
+      "date": "2024-2025",
+      "source_name": "Region Syddanmark committee agendas (search snippet)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no Danish regional sequencing budgets or sequencer procurement."
+    }
+  ],
+  "new_candidates": [
+    "Region Syddanmark agenda PDFs (dagsordener-referater.regionsyddanmark.dk): sequencer purchase, platform and per-genome costs for the regional WGS build-out",
+    "Danske Regioner or regional annual reports 2024/2025 for WGS volume per region",
+    "Novo Nordisk Foundation final report on the DKK 1bn genome grant (60,000-genome target vs actual)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Ingeniøren, Jul 2023](https://ing.dk/artikel/fortolkere-efterlyses-20000-danskere-skal-helgenom-sekventeres-om-aaret)
+- [Region Syddanmark agenda](https://dagsordener-referater.regionsyddanmark.dk/pdf/GetDagsorden/cb1a8b3b-bc5f-4c02-a3f9-128f01b56636)

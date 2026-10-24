@@ -1,0 +1,40 @@
+```json
+{
+  "status": "productive",
+  "notes": "The E-utilities esearch endpoint works through WebFetch with no login, and date-ranged GPL counts come back. I have no scripting tool in this probe, so I could not run the esummary/SOFT institution loop. The INST cohort curve was not built, and neither the top-30 institution analysis nor the y/y rival-platform-added analysis was done. Only platform-level GSE counts were pulled. Counts are GSEs by public release date (PDAT) in Q3 of each year. NovaSeq 6000 is GPL24676, which I know from memory. GPL34281 was ASSUMED to be NovaSeq X; I did not confirm the platform name, and the counts below are only as good as that guess. I did not query AVITI, DNBSEQ-T7 or UG100 GPLs; their accession numbers are unverified.",
+  "how_to_mine": "Run a Python script with requests against eutils. (1) Verify each GPL name with esummary db=gds on the GPL accession, and find the GPLs for NovaSeq X, AVITI, DNBSEQ-T7 and UG100 with esearch term 'AVITI[Title] AND gpl[ETYP]'. (2) For each GPL and each of Q3'25 and Q3'26, run esearch with usehistory=y on 'GPLxxxx[ACCN] AND gse[ETYP] AND date[PDAT]'. (3) Run esummary in batches of 200, then fetch the SOFT files (acc.cgi?acc=GSEx&targ=self&form=text) and parse !Series_contact_institute. (4) Normalize institution names and keep the top 30 US/EU academic institutions by GSE count. (5) For each, flag whether it had zero rival-platform GSEs in Q3'25 and at least one in Q3'26. Also compute each institution's 6000 share vs X share of GSEs, which gives the conversion curve. Throttle to 3 requests/s, or use an API key (free) for 10/s. Caveat: GEO release lags submission, and many GSEs list multiple platforms.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Public GEO deposits on the NovaSeq 6000 platform rose y/y in Q3'26, so the 6000 tail is not visibly shrinking in academic data.",
+      "detail": "GEO series (GSE) released in Jul-Sep 2026 on GPL24676 (NovaSeq 6000) numbered 1,647, vs 1,441 in Jul-Sep 2025 (+14%). The X platform GPL34281 (identity assumed, not verified) went from 123 to 251 (about 2x). The 6000 still produces the large majority of new public datasets (roughly 87% of the 6000+X sum in Q3'26, vs 92% a year earlier). Release dates lag sequencing by 6-24 months, so this is a lagging indicator of installed-base use. It also covers research labs, not the clinical tail.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL24676[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First GEO release-count datapoint on 6000 vs X; not in the known list."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "X-platform GEO deposits roughly doubled y/y, which fits continued conversion in research data.",
+      "detail": "GPL34281 GSEs released in Q3'26 were 251 vs 123 in Q3'25 (+104%), while 6000 GSEs grew +14%. The X share of the combined count moved from about 8% to about 13%. Conversion in public data lags behind Illumina's 83% X share of Gb shipped, which is consistent with deposits trailing actual use. The GPL identity is unverified.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL34281[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies the publication-lagged conversion in GEO, which prior notes did not use."
+    }
+  ],
+  "new_candidates": [
+    "SRA/ENA run-level metadata (instrument_model: NovaSeq 6000 / NovaSeq X / AVITI / DNBSEQ-T7 / UG 100) by submission month and submitting center. This is a cleaner, less lagged conversion and rival-adoption series than GEO. ENA portal API: https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=%22Illumina%20NovaSeq%20X%22"
+  ],
+  "apify_requests": []
+}
+```

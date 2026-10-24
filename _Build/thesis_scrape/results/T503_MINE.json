@@ -1,0 +1,136 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "GEO studies that deposit data from both a NovaSeq 6000 and a NovaSeq X in the same series rose about 4.5x from 2024 to the first nine months of 2026, which shows labs moving to the X partway through a study.",
+      "detail": "Counts of human and mouse series (gse) tagged with both a 6000 platform (GPL24676/GPL24247) and an X platform (GPL34284/34281/34290/34328), by public-release date: 69 in 2024, 226 in 2025, and 309 in Jan–Sep 2026 (~412 annualized). As a share of all 6000 series that is 0.66% (69/10,483), then 2.0% (226/11,139), then 3.3% (309/9,226). As a share of X series it fell from 19.5% to 10.9% to 8.8%, because X-only studies are growing faster. Within-study mixing is still a small share of 6000 output, but it is still rising, so the 6000 base is still feeding the X.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN]+OR+GPL24247[ACCN])+AND+(GPL34284[ACCN]+OR+GPL34281[ACCN]+OR+GPL34290[ACCN]+OR+GPL34328[ACCN])+AND+gse[ETYP]+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12 (query date; data 2024–Sep 2026)",
+      "source_name": "NCBI GEO via E-utilities esearch",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "First count of series that use both platforms (the mixed fleet within a single study). Earlier items only counted each platform separately."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "On full calendar years, the NovaSeq 6000's share of 6000+X GEO series fell from 97.4% (2024) to 85.8% (2025) to 74.2% (Jan–Sep 2026), while X series more than doubled each year.",
+      "detail": "Series counts (human+mouse): 6000 10,483 / 11,139 / 9,226; X 354 / 2,064 / 3,513; both 69 / 226 / 309. Share = 6000 ÷ (6000 + X − both): 10,483/10,768 = 97.4%; 11,139/12,977 = 85.8%; 9,226/12,430 = 74.2%. Annualized, 2026 gives 6000 ~12,300 series (+10% y/y) against X ~4,680 (+127%). The yearly decline in share is ~11–12 points with no flattening, but GEO release dates lag sequencing by about two years (D052).",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL34284[ACCN]+OR+GPL34281[ACCN]+OR+GPL34290[ACCN]+OR+GPL34328[ACCN])+AND+gse[ETYP]+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Full-year series totals, corrected for series counted on both platforms. F578 gave only Q3 snapshots and did not net out the overlap."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Mayo Clinic, a major clinical and academic center, went from zero NovaSeq X series in GEO in 2024 to 16 in Jan–Sep 2026, so its 6000 share fell from 100% to 60% and conversion there is still under way.",
+      "detail": "Series submitted under the institute 'Mayo Clinic': 6000 had 21 in 2024 and 24 in Jan–Sep 2026; X had 0 in 2024 and 16 in Jan–Sep 2026. The absolute number of 6000 series has not fallen (~32 annualized in 2026, against 21), which fits the publication lag. Still, the arrival of X data shows the clinical-hospital segment converting rather than frozen.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Mayo+Clinic%22[INST]+AND+gse[ETYP]+AND+(GPL34284[ACCN]+OR+GPL34281[ACCN]+OR+GPL34290[ACCN]+OR+GPL34328[ACCN])+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch (INST field)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First institution-level conversion reading from GEO, using the submitter-institute field."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "At Memorial Sloan Kettering, NovaSeq 6000 series in GEO are still rising in absolute terms, at 38 in 2024 and 52 in just Jan–Sep 2026, and the 6000 is still 71% of its 6000+X series.",
+      "detail": "MSK 6000 series: 38 (2024) and 52 (Jan–Sep 2026, ~69 annualized, +82%). X series: 13 across 2024–25 combined and 21 in Jan–Sep 2026. Share in 2026 = 52/73 = 71%. The lag in release dates explains part of this, but a top-tier oncology hospital still turning out most of its public data on the 6000 in 2026 fits a slow, sticky hospital tail.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Memorial+Sloan+Kettering+Cancer+Center%22[INST]+AND+gse[ETYP]+AND+(GPL24676[ACCN]+OR+GPL24247[ACCN])+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch (INST field)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A named institution-level time series for a large clinical/oncology account. It has not been reported before."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Stanford University's 6000 share of GEO series dropped from ~94% in 2024 to ~55% in Jan–Sep 2026, the fastest conversion among the institutions sampled.",
+      "detail": "Stanford University 6000 series: 89 (2024) and 76 (Jan–Sep 2026); X series: 6 (2024) and 62 (Jan–Sep 2026). Share = 89/95 = 94% in 2024 and 76/138 = 55% in 2026. This academic flagship shows research converting faster than the hospitals sampled (Mayo 60%, St. Jude 68%, MSK 71%). That fits Illumina's research-ahead-of-clinical pattern, though the samples are small.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Stanford+University%22[INST]+AND+gse[ETYP]+AND+(GPL34284[ACCN]+OR+GPL34281[ACCN]+OR+GPL34290[ACCN]+OR+GPL34328[ACCN])+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch (INST field)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First split of GEO conversion into academic and hospital submitters."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "In the 2026 GEO data, hospital and cancer-center submitters still have 60–71% of their 6000+X series on the 6000, against ~55% at Stanford, so the clinical-leaning tail is visibly thicker.",
+      "detail": "Jan–Sep 2026 series counts (6000 / X / 6000 share): Mayo Clinic 24 / 16 / 60%; St. Jude Children's Research Hospital 54 / 25 / 68%; MSK 52 / 21 / 71%; Stanford University 76 / 62 / 55%. Overlapping series were not netted out at institution level. This matches Illumina's disclosure that clinical work is less converted (78% X) than research (92%), but GEO lags both by roughly two years.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22St.+Jude+Children%27s+Research+Hospital%22[INST]+AND+gse[ETYP]+AND+(GPL24676[ACCN]+OR+GPL24247[ACCN])+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch (INST field)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A named hospital-versus-academic cross-section of the 6000 tail in public data. It is new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Chinese universities are not visibly more 6000-heavy in GEO than US hospitals, so China's import ban is not the main reason the 6000 persists in GEO.",
+      "detail": "Jan–Sep 2026 series (6000 / X / share): Fudan University 76 / 18 / 81%; Sun Yat-sen University 30 / 18 / 63%. These sit inside the 60–71% hospital range, except Fudan, which runs higher. The persistence of the 6000 in GEO is therefore broad-based rather than a China artifact (X sales into China have been constrained since the 2025 import ban). The sample is small: two institutions.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Fudan+University%22[INST]+AND+gse[ETYP]+AND+(GPL24676[ACCN]+OR+GPL24247[ACCN])+AND+2026/01/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch (INST field)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This tests whether China drives the GEO 6000 tail (raised as an open question in the probe notes). It was not tested before."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Annualized, 2026 6000 series in GEO grow only ~10% y/y while X series grow ~127%, so the 6000 is losing publication share even though its absolute count still rises.",
+      "detail": "6000 series: 11,139 (2025) against 9,226 × 12/9 ≈ 12,301 (2026E), +10.4%. X series: 2,064 against 3,513 × 12/9 ≈ 4,684, +127%. In 2025, 6000 series grew +6.3% over 2024 (10,483→11,139), so 6000 growth is not yet negative in this lagged dataset. The X's incremental series (+2,620) are about 2.2x the 6000's (+1,162).",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN]+OR+GPL24247[ACCN])+AND+gse[ETYP]+AND+2025/01/01:2025/12/31[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities esearch",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Full-year growth rates in series units. F580 gave Q3-only y/y figures."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "The GEO esearch INST field (Submitter Institute) works for exact phrases such as \"Mayo Clinic\"[INST]. Generic words like 'hospital' return almost nothing. That makes institution-level conversion curves feasible, but only with a script. I had no shell, so I could not run the cohort the strategist asked for (top ~150 institutions with 6000-only output in 2024, tracked for first X series). That needs: (1) esearch to pull all 2024 6000 gse UIDs with usehistory; (2) esummary or GSE SOFT for each to get the contact institute; (3) one esearch count per institute and year on the X GPLs. Also not done: lab-level (contact-author) cohorts; netting overlap at institution level; the share of 2026 6000 deposits from labs already on the X (only the within-series 'both' count, 3.3%, was measured). Platform IDs: human 6000 GPL24676, mouse 6000 GPL24247; X Plus human GPL34284, X human GPL34281, X Plus mouse GPL34290, X mouse GPL34328, mixed human/mouse X Plus GPL35012. Main caveat: PDAT is the public release date, which lags sequencing by about 1–3 years.",
+  "leads": [
+    {
+      "name": "GEO E-utilities INST-field institution cohort (scripted)",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=gds",
+      "access": "Free API, no login; needs a Python loop (esearch usehistory → esummary/SOFT Contact_institute)",
+      "labels": ["1A"],
+      "rationale": "This is the full 150-institution conversion curve and permanent-tail test. INST phrase search is confirmed to work, so the curve can be built properly."
+    },
+    {
+      "name": "GEO AUTH field lab-level cohort",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL24676[ACCN]+AND+gse[ETYP]",
+      "access": "Free API",
+      "labels": ["1A"],
+      "rationale": "The [AUTH] field allows a per-PI check of 6000-only labs against X adoption. It gives a finer cohort than institutions, which mix many labs."
+    },
+    {
+      "name": "SRA run-level instrument_model with center_name",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/advanced",
+      "access": "Free; SRA has run dates closer to sequencing than GEO release dates, and center_name for clinical labs",
+      "labels": ["1A", "2B"],
+      "rationale": "This avoids GEO's 1–3-year publication lag. center_name can also isolate clinical submitters (for example Natera, Guardant, Broad Clinical Labs, CLIA labs) and track their switches between the 6000 and the X."
+    }
+  ],
+  "apify_requests": []
+}
+```

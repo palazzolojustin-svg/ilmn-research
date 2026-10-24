@@ -1,0 +1,72 @@
+```json
+{
+  "sources": [
+    {
+      "name": "Qiagen Q2 2026 earnings call transcript (Webull) and press release",
+      "url": "https://www.webull.com/news/15394070942606336",
+      "access": "Free, no login. The Q2 press release PDF is at s28.q4cdn.com/125951340/files/doc_financials/2026/q2/2026-08-05-Press-release-QIAGEN_Q2-2026_EN_FINAL.pdf.",
+      "labels": ["1C", "2A"],
+      "status": "productive",
+      "notes": "The transcript has US academic/NIH funding comments and NGS growth. It has no pricing or discount commentary and doesn't mention Illumina, Roche, Element or Ultima. It gives a small peer read on 2A: funding is improving sequentially but is still below last year.",
+      "how_to_mine": "Open the press release PDF and read the Genomics/NGS segment and the US academic commentary. Compare the Q1 2026 call to see whether the tone changed. Qiagen's third-party-sequencer NGS panels (>20% growth) could be a clean read on non-Illumina sequencer demand.",
+      "difficulty": "easy",
+      "items": [
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "Qiagen's CEO said NIH outlays in 2026 are still below 2025, so US research funding remains weak.",
+          "detail": "On the Q2 2026 call (Aug 2026), Qiagen CEO Bernard said funding is improving sequentially but is still lower year to date than in 2025. He said low funding limits instrument purchases because labs have less ability to buy. The CFO named 'modestly improving' US life-science trends as only a small contributor to the H2 outlook. This supports the view that research volume stays flat and has little pricing power.",
+          "url": "https://www.webull.com/news/15394070942606336",
+          "date": "2026-08-05",
+          "source_name": "Qiagen Q2 2026 call transcript (Webull)",
+          "source_type": "earnings_call",
+          "quote": "NIH outlay year-to-date '26 is still lower than '25",
+          "strength": "weak",
+          "why_new": "Qiagen's own Q2 2026 call comments on NIH outlays were not in the known list; the known list has only Thermo, Bruker and 10x funding reads."
+        },
+        {
+          "label": "1C",
+          "direction": "against",
+          "claim": "Qiagen's universal NGS panel consumables for third-party sequencers grew over 20% in Q2 2026, which shows demand for sequencing-adjacent products is still strong.",
+          "detail": "Qiagen's Genomics/NGS group grew 2% at constant exchange rates, but universal-panel consumables used on third-party sequencers grew more than 20% (Q2 2026). The segment's total sales were $61M (+3%). This is a watch-out against the 'volume slows' thesis, though it measures panel demand and not Illumina gigabases.",
+          "url": "https://www.webull.com/news/15394070942606336",
+          "date": "2026-08-05",
+          "source_name": "Qiagen Q2 2026 call transcript (Webull)",
+          "source_type": "earnings_call",
+          "quote": "consumables for universal NGS panels used on third-party sequencers grew more than 20% CER",
+          "strength": "weak",
+          "why_new": "The known list already has 'Qiagen panels for third-party sequencers >20%'. This only adds the Genomics/NGS segment figures ($61M, +2–3%)."
+        }
+      ]
+    },
+    {
+      "name": "Danaher, Thermo Fisher, Agilent, Bio-Techne, Azenta and Revvity Q2/Q3 2026 call coverage",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000933974/000162828026052642/azta-2026q326erxexx991.htm",
+      "access": "Press releases are free on SEC EDGAR 8-K Exhibit 99.1 and on company IR sites. Full transcripts are mostly paywalled or only available as syndicated summaries.",
+      "labels": ["2A", "2B", "1C"],
+      "status": "dry",
+      "notes": "Searches turned up only headline numbers and call previews. Danaher and Thermo report Q3 2026 later in October. Azenta Multiomics grew 8% organically in the June quarter, and management cautioned that North American Multiomics may reflect delayed project activity. Revvity Life Sciences was -2% (-3% pro forma organic) in Q2 2026. No pricing or discount commentary was found for any of these companies. Bio-Techne's most recent academic commentary found was the fiscal Q2 call ('soft yet stable'), and Agilent's Q3 call was not retrieved. The Azenta marketbeat fetch returned an unrelated page.",
+      "how_to_mine": "After 20–29 Oct 2026, pull the Danaher and Thermo Q3 transcripts and the 10x and PacBio Q3 decks. For Azenta, fetch the 8-K Ex. 99.1 and look for Genewiz pricing and volume language. For Revvity, read the Q2 call for the life-sciences academic line. Search the transcripts for 'price', 'discount', 'academic' and 'NIH'.",
+      "difficulty": "easy",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Danaher and Thermo Fisher Q3 2026 earnings calls (Danaher on 20–22 Oct, Thermo on about 22 Oct)",
+      "url": "https://www.hudson-labs.com/research/thermo-fisher-q3-2026-earnings-preview-tmo-results-preview",
+      "access": "Free press releases and webcasts. Transcripts are on syndication sites such as Motley Fool, Investing.com and Webull.",
+      "labels": ["2A", "2B"],
+      "rationale": "These are the next dated catalysts for academic/government demand and for pricing language on research consumables. They arrive before the Illumina Q3 print on 29 Oct. They are not yet published as of 12 Oct 2026."
+    },
+    {
+      "name": "Azenta 8-K Ex. 99.1, fiscal Q3 2026 (Genewiz Multiomics)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000933974/000162828026052642/azta-2026q326erxexx991.htm",
+      "access": "Free on EDGAR.",
+      "labels": ["1B", "2A", "2B"],
+      "rationale": "Genewiz is an outsourced sequencing service provider, so it is a channel read on research sequencing volume and price. Its commentary may show per-sample price trends and the share of work going to low-cost competitors."
+    }
+  ],
+  "apify_requests": []
+}
+```

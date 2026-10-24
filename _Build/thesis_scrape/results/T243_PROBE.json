@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "The Mercell permalink opens, but it is only the 2017 UiO NSC-IBV baseline. I found no successor notice and no Nordic 2025-26 notice in which Illumina lost or price was weighted 60% or more. Mercell is not well indexed for the 2025 notices. Search snippets did surface three 2025-26 notices, but I could not open any of them. TED PDF fetches (703171-2025, 197476-2025) returned empty pages. I used 6 tool calls. I did not run the DNBSEQ or AVITI searches.",
+  "how_to_mine": "1) Open TED notice 703171-2025 (Københavns Universitet, 'Supply of Consumables for Illumina Sequencing Machines', published 24 Oct 2025, ref 043-1666/25-7000) in HTML form at ted.europa.eu/en/notice/-/detail/703171-2025. Check the procedure type (open vs negotiated without publication), the award criteria and weights, the winner, the value and any lots. 2) Check TED 197476-2025 (Danish university NovaSeq X Plus purchase replacing a NovaSeq 6000 and NextSeq 500) for the same fields. 3) Check TED 257282-2026 and the Statsbygg/UiO ex-ante notice of 15 Apr 2026 (sequencer for the Department of Medical Genetics, FOA §13-4 sole-supplier justification). 4) Check the UK Find a Tender notices ocds-h6vhtk-0545b9 and 031102-2025 (Northumbria, 3-year consumables call-off, June 2025). 5) Check the bidsfactory.com Estonian notice 'Purchase of consumables for Illumina genome sequencing equipment'. 6) Search doffin.no for 'sekvensering' and 'Illumina' for 2024-26.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "url": "https://ted.europa.eu/da/notice/703171-2025/pdf",
+      "why": "University of Copenhagen consumables tender for Illumina sequencers, published 24 Oct 2025, split into sample-prep reagents and analysis reagents. It could show whether the university competed the consumables or sole-sourced them."
+    },
+    {
+      "url": "https://ted.europa.eu/da/notice/197476-2025/pdf",
+      "why": "Danish university NovaSeq X Plus purchase, an upgrade replacing a NovaSeq 6000 and NextSeq 500. It may show the award basis and the price paid."
+    },
+    {
+      "url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-0545b9",
+      "why": "Northumbria University 3-year sequencing consumables agreement (June 2025) tied to a MiSeq i100 Plus purchase. It may show the lot structure and value."
+    },
+    {
+      "url": "https://bidsfactory.com/en/tenders/illumina-genoomiuuringute-aparatuuri-jooksevvahend-ted-85bd6b66f7807f66",
+      "why": "Estonian purchase of consumables for Illumina equipment, which could show whether it was a direct award and what it cost."
+    }
+  ],
+  "apify_requests": []
+}
+```

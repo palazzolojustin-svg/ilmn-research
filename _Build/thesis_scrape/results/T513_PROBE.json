@@ -1,0 +1,33 @@
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR full-text search URL is reachable and returned 99 hits for 'Illumina' AND 'supply agreement'. Almost all are pre-2022 (Sequenom, Foundation Medicine, HTG, Guardant S-1 2018, Natera 2015-2021). The 2023+ hits are already known: Caris S-1 Ex.10.2(A), Tempus S-1 Ex.10.13, Natera Tenth Amendment (10-K Feb 2025), Natera Eleventh Amendment (10-Q May 2026), GRAIL filings, and the Guardant Ex.10.19 refile. The only unreviewed 2023+ items are four Natera exhibits filed with the 10-Q of 7 Aug 2026 (accession 0001628280-26-054525, ntra-20260630xex101 to xex104). I opened 10.1 (part) and 10.2. Both are 2013-2015 agreements refiled with redactions: the 2013 Supply Agreement as amended 18 Sep 2014, and the Second Amendment of 23 Sep 2015. Every price, discount percentage and tier threshold is redacted ([*]). They are historical, not current terms. No BillionToOne, Personalis or GeneDx exhibit with Illumina pricing turned up in the index or the web search.",
+  "how_to_mine": "Low payoff. Optionally open ntra-20260630xex103.htm and xex104.htm (Third and Fourth Amendments, the clinical oncology field and Non-TG consumables for NIPT) and read the unredacted structure only. Read 10.1 from offset 100000 for the exclusivity-linked discount and the Section 17 term. Also run EDGAR full-text search separately for 'Illumina' in BillionToOne (S-1 2025), Personalis, GeneDx and Exact exhibits. Check any 'Confidential treatment' refile wave in Aug 2026, because Natera refiled old agreements in unredacted-structure form and other customers may have done the same.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Natera's Illumina agreements tie consumable discounts to trailing-12-month spend tiers that are recalculated quarterly, so discounts ratchet up with volume.",
+      "detail": "The Second Amendment (23 Sep 2015) replaced Exhibit B with separate TG and Non-TG consumable discount tables keyed to 'Consumable Spend'. Spend is trailing-12-month invoiced Illumina sales plus NIPT test fees, recalculated quarterly after Sep 2014. Hardware discounts depend on exclusivity. All percentages and thresholds are redacted, so this shows the mechanism, not the size. It was refiled with Natera's 10-Q of 7 Aug 2026. The mechanism is old, and the later Tenth and Eleventh Amendments are already known.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630xex102.htm",
+      "date": "2015-09-23 (refiled 2026-08-07)",
+      "source_name": "Natera 10-Q Q2'26, Ex. 10.2 (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "tiered table of discounts off base price, keyed to Consumable Spend",
+      "strength": "weak",
+      "why_new": "Shows the original spend-tier discount mechanism and exclusivity link, which the known list lacks. The numbers are redacted and the terms are 2015-era."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Natera 10-Q Q2'26 Ex. 10.3 and 10.4 (Third and Fourth Amendments)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630xex103.htm",
+      "why": "They show how exclusivity was loosened for clinical oncology and Non-TG consumables, but they are probably historical (2016-2019 era)."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [Natera 10-Q Ex. 10.2](https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630xex102.htm), [Natera 10-Q Ex. 10.1](https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630xex101.htm)

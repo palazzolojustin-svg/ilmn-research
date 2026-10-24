@@ -1,0 +1,191 @@
+Pricing | mbcf at Dana-Farber Cancer Institute
+Skip to main content
+Home
+About Us
+Services
+​Sequencing Only
+RNA Services
+mRNAseq
+TotalRNAseq
+Low Input mRNAseq
+Low Input TotalRNAseq
+Targeted RNAseq
+small RNAseq
+mRNAseq
+TotalRNAseq
+Low Input mRNAseq
+Low Input TotalRNAseq
+Targeted RNAseq
+small RNAseq
+DNA Services
+Whole Genome Sequencing
+Whole Exome Sequencing
+Methylation Profiling
+ChIPseq/Cut & Run
+ATACseq
+Peak Calling
+Copy Number Analysis
+Variant Calling
+Instrumentation
+Sample Submission
+Data Transfer
+Pricing
+FAQ
+Price Schedule
+Molecular Biology Core Pricing
+Researchers can prepare libraries in their own lab and purchase a flow cell for sequencing. The prices below are are for the cost of the flow cell. There are additional charges for QC and data analysis (see bottom of page).
+NOTE: We do our best to keep website prices as accurate and current as possible, but for the most up-to-date pricing please log into iLab. And keep in mind that prices almost never go up. In other words, you may be pleasantly surprised to see lower prices in iLab.
+Illumina NovaSeq X Plus
+Reagents
+|
+Run
+|
+Clusters (reads)
+|
+Internal
+|
+External
+|
+1.5B_100c
+|
+Flowcell
+|
+1.5B
+|
+$ 2,500.00
+|
+$ 2,875.00
+|
+1.5B_200c
+|
+Flowcell
+|
+1.5B
+|
+$ 3,000.00
+|
+$ 3,500.00
+|
+1.5B_300c
+|
+Flowcell
+|
+1.5B
+|
+$ 3,200.00
+|
+$ 3,750.00
+|
+|
+|
+|
+|
+|
+10B_100c
+|
+Flowcell
+|
+10B
+|
+$ 9,500.00
+|
+$ 11,200.00
+|
+10B_200c
+|
+Flowcell
+|
+10B
+|
+$ 11,500.00
+|
+$ 13,500.00
+|
+10B_300c
+|
+Flowcell
+|
+10B
+|
+$ 12,000.00
+|
+$ 14,000.00
+|
+10B_300c
+|
+Lane
+|
+1.2B
+|
+$ 1,650.00
+|
+$ 1,950.00
+|
+10B_300c
+|
+100M reads
+|
+$ 200.00
+|
+|
+|
+|
+|
+|
+25B_300c
+|
+Flowcell
+|
+25B
+|
+$ 20,000.00
+|
+$ 23,000.00
+|
+Clusters = Reads/Read-pairs
+c = reagent cycles; 1 cycle = 1bp. For example, 100c kit can be used for paired-end 50bp or single-end 100bp. Reads do not need to be symmetrical; 100c could also be 25bp x 75bp
+Full Service RNAseq
+All RNAseq services include initial RNA QC, library prep, library QC, pooling, and sequencing. RNAseq analysis services are available upon request for additional charges. Please contact us if you would like customized read counts (we can do this) or support for specific type of analysis not in our existing pipeline (we'll talk)
+Application
+$ 300.00
+|
+RNA Exome Capture (Twist Core Exome 2.0)
+|
+30M
+|
+$ 400.00
+|
+$ 475.00
+|
+For all new projects, we encourage you to take advantage of the improved pricing available using the NovaSeq X plus. However, for ongoing projects where data were initially generated on the NovaSeq 6000, we encourage you to request our legacy services. If you're unsure of what the most appropriate platform is for your project, please contact us.
+DNA Sequencing Services
+Application
+|
+Clusters (reads)
+|
+Internal
+|
+External
+|
+ATACseq (Sequencing only)
+$ 30.00
+|
+$ 40.00
+|
+Custom Bioinformatics/Computational Biology
+|
+$ 1,000.00
+|
+$ 1,000.00
+|
+Illumina NextSeq500/550
+Reagents
+|
+Clusters (reads)
+|
+DFCI/BWH
+|
+External
+|
+High Output 75c
+|

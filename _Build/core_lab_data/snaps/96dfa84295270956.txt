@@ -1,0 +1,73 @@
+Sequencing Core launches Illumina X Plus sequencer | Duke University School of Medicine
+Skip to main content
+Utility
+Faculty Directory
+Contact Us
+Give
+Search
+Menu
+Close
+Main navigation
+About Us
+toggle sub nav items
+Leadership and Administration
+Facts & Figures
+History
+Named Professorships
+Faculty Resources
+Staff Resources
+Duke In Durham
+Alumni
+Giving
+Anatomical Gifts Program
+Calendar of Events
+Contact Us
+Education
+Multimedia Highlights
+Magazines and Annual Reports
+Podcasts
+Utility
+Faculty Directory
+Contact Us
+Give
+Home
+Sequencing Core launches Illumina X Plus sequencer
+November 1, 2023
+The Sequencing and Genomics Technologies Core Facility is running orders for the Illumina NovaSeq X Plus.
+The X Plus provides high quality short read sequences for a fraction of the cost of the Illumina NovaSeq 6000. Additionally custom read-length projects can now purchase lanes instead of full flow cells (e.g. 75 SR for miRNA-seq, single cell protocols).
+The available products are listed below, with more read options available towards the end of the year.
+Product
+|
+Duke Pricing
+|
+External Pricing
+|
+1 – 1.25 B reads – one lane (up to 300 cycles)*
+|
+$1465
+|
+$1492
+|
+8 - 10 B reads – full flow cell (100 cycles)
+|
+$8900
+|
+$9117
+|
+8 - 10 B reads – full flow cell (200 cycles)
+|
+$11000
+|
+$11217
+|
+8 - 10 B reads – full flow cell (300 cycles)
+|
+$11700
+|
+$11917
+|
+* one cycle is equivalent to a base pair call. Default read length configurations are symmetrical paired end reads (e.g. default 100 cycles is 50 bp paired-end reads). To determine which cycle kit to choose, add the base pairs in read 1 and read 2 (e.g. 100 bp paired-end reads is equivalent to read 1 = 100 bp and read 2 = 100 bp; 100 bp + 100 bp = 200 bp = 200 cycle).
+Share
+Primary footer menu
+About Us
+Education

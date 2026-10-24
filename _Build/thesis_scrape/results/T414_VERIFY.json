@@ -1,0 +1,146 @@
+```json
+{
+  "verdicts": [
+    {
+      "id": "F449",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2A",
+      "direction": "supports",
+      "note": "The row-level arithmetic is plausible: C$57K/C$591K = −90%. The headline overstates the case, though. F487 shows NRC moved most of this work to SickKids/TCAG and Génome Québec, which run Illumina instruments, so this is mostly a channel shift and not lost Illumina volume. The Element awards are real: C$337K in Jul 2025, and the C$141K award in Jun 2026 was already in F046. Read this as weak support that one research lab is diversifying vendors. It is not evidence of a 90% demand collapse."
+    },
+    {
+      "id": "F451",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "2A",
+      "direction": "supports",
+      "note": "This mostly restates F447/F448 (calendar-2025 −56%, PHAC −54%) sliced by quarter. It is also mislabeled. Canadian federal buyers are government/public-health and research customers, so the item bears on 2A funding, not 1C clinical volume. At ~C$1–3M a quarter it is immaterial to Illumina's ~US$4.6B revenue. F454 also suggests the decline is budget-driven across vendors, and F487 shows some spend moving to cores. The 'duplicate row' netting adds noise. The quarterly cut adds nothing decision-useful."
+    },
+    {
+      "id": "F454",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "against",
+      "note": "The direction is right: the federal decline hit ONT too (−46% vs Illumina −56%), which points to budgets rather than share loss. But ONT is a long-read vendor, not one of the short-read price rivals in 1B. The share calculation also leaves out Element's C$337K NRC award (Jul 2025). Including it, Illumina's 2025 share of Illumina+ONT+Element+PacBio is about 4.88/(4.88+0.98+0.34+0.13) = 77%, against 86% on the Illumina+ONT basis alone. That shows some vendor diversification. Read this as neutral-to-mildly-against 1B, and as support for the 2A funding story."
+    },
+    {
+      "id": "F470",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "2A",
+      "direction": "supports",
+      "note": "Duplicate: F473 fully contains it (same Leicester LUV01297 award). The framework value (£1.0M over 3+1 years) is too small to matter, and the item has no price or platform data. 'Non-EU foreign firms' is a post-Brexit form artifact (UK buyer), not a sign of a global price race."
+    },
+    {
+      "id": "F473",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2A",
+      "direction": "supports",
+      "note": "Edinburgh (2022) and Leicester (2025) frameworks are new to the corpus. 'Overwhelmingly low-cost outsourcers' overstates them: Earlham Institute and Anthony Nolan are not commodity providers. Novogene and Genewiz mostly run Illumina, so outsourcing moves Illumina volume to large accounts and does not remove it. The item supports the consolidation and leverage mechanism, not lost volume. Both frameworks are £1M-scale."
+    },
+    {
+      "id": "F474",
+      "verdict": "accept",
+      "strength": "medium",
+      "label": "2A",
+      "direction": "against",
+      "note": "The direction was mis-set. The claim itself says weighting quality at 70–90% cuts against a price-only research buyer, so this is 'against' 2A. The rising price weight (10% in 2021 → 25–30% in 2025) is a mild offset. These weights apply to choosing sequencing-service providers, not sequencer vendors."
+    },
+    {
+      "id": "F479",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "I checked the UConn page: the Feb 2026 prices match ($15,938.08 S4-300, $10,473.28 S2-300, $5,726.08 S1-300, $3,273.36 SP-300). The Jan 2025 comparison ($16,578) was not visible on the current page, so it rests on the agent's archive read. The page lists no NovaSeq X prices, so 'X held flat or raised' is not supported at UConn; it relies on other cores (TxGen, TGen). The finding that legacy 6000 prices are still falling is already known (Salk, EPFL). This adds a small, measured cut of −3.9% to −5.2%."
+    },
+    {
+      "id": "F480",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "This restates D026/F259 (UConn S4 ≈ 73.5% of the GSA price, $5.31/Gb). The $21,683 figure is the GSA distributor price, not Illumina's 'published list'. The 1.73x cross-institution ratio compares UConn's contract price with TxGen's core recharge price, which are not like-for-like. Core-level 6000/X ratios of 1.6–3.0x are already covered in D022/D025/D027/D029."
+    },
+    {
+      "id": "F481",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "against",
+      "note": "New core-level data point, consistent with TGen's +8.8% (F222). It is stale: May 2024 → Feb 2025, before the 35B launch and before AXELIOS/VITARI shipped. Per D019, core recharge rates mostly reflect core overhead and do not show Illumina's net price. The flat 10B:25B ratio of 1.63x contrasts with the compression in D018."
+    },
+    {
+      "id": "F487",
+      "verdict": "accept",
+      "strength": "medium",
+      "label": "2A",
+      "direction": "supports",
+      "note": "I verified this on the search portal. The 2025 SickKids rows sum to C$213.1K (19,845 + 97,167 + 41,310.25 + 10,655.25 + 14,721 + 14,721 + 14,647.50), H1'26 sums to C$110.3K, and the 7 Jan 2026 row carries the quoted '4 LANES OF ILLUMINA NOVASEQ X 25B 300 CYCLE' text. Two caveats. First, every other row is generic 'Scientific services', and TCAG also sells PacBio and ONT, so not all of it is Illumina sequencing. Second, the portal shows 22 records against the 17 counted. The finding mainly corrects F449/F447: NRC's Illumina-ecosystem spend shifted channel and did not vanish. That cuts against reading the Canadian federal decline as lost volume, and supports the claim that volume is consolidating at large, high-leverage accounts. It is therefore medium strength, not strong."
+    },
+    {
+      "id": "F488",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "against",
+      "note": "Verified: the TCAG April 2025 list prices a 25B-300 lane at C$3,470, in Canadian dollars. NRC paid C$3,652.69 per lane, +5.3%, which is consistent with 5% GST. This is a core resale price paid by an end user, not Illumina's price to a large account. A flat core list price with no volume concession goes against visible discount acceleration, not for it, so the item is relabeled to 'against'. At ~0.72 USD/CAD the lane is ≈US$2.50/Gb, which sits in the known US core band."
+    },
+    {
+      "id": "F489",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "Verified: 'Illumina NovaSeq 6000 Sequencing — Contact facility', with nine X lane prices and human WGS at C$650 on the X. TCAG is mainly a research core, and research is already ~92% on the X, so this repeats the known pattern of research conversion (Dana-Farber, Novogene, UMN). It says little about the clinical 6000 tail that 1A is really about."
+    }
+  ],
+  "derived": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Counting direct orders plus outsourced core work, NRC's Illumina-ecosystem sequencing spend fell only ~40–45% from 2022 to 2025, not 90%, and H1'26 is running near 2022 levels annualized. More of each dollar now goes to the core's markup instead of Illumina.",
+      "detail": "Direct Illumina plus SickKids/Génome Québec outsourcing comes to C$591K + 0 (2022), C$251K + 39K = C$290K (2023), C$120K + 224K = C$344K (2024), C$57K + 282K = C$339K (2025, −43% vs 2022) and C$74K + 217K = C$291K in H1'26 (~C$580K annualized). TCAG's 25B-300 lane is C$3,470. Illumina's list is US$16,480/8 ≈ US$2,060 per lane, or ≈C$2,860 at 1.39 CAD/USD, so the core charges ≈21% above Illumina list. At most ~80% of outsourced dollars can therefore reach Illumina, and less once library prep and non-Illumina services are included. On that basis NRC's Illumina-attributable spend in 2025 was ≲C$57K + 0.8×282K ≈ C$283K, about −50% vs 2022. NRC also bought an Element system (C$337K, Jul 2025).",
+      "url": "https://search.open.canada.ca/contracts/?search_text=%22Hospital+for+Sick+Children%22+%22National+Research+Council%22&sort=contract_date+desc",
+      "date": "2022–2026H1",
+      "source_name": "Government of Canada Proactive Disclosure; TCAG NGS Price List Apr 2025",
+      "source_type": "procurement",
+      "quote": "4 LANES OF ILLUMINA NOVASEQ X 25B 300 CYCLE SEQUENCING",
+      "strength": "weak",
+      "why_new": "Nets F449's −90% against F487's outsourcing and TCAG's core markup to estimate a channel-adjusted decline.",
+      "based_on": ["F449", "F487", "F488", "F146"]
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "At TCAG (Apr 2025) the X 10B-300 lane costs ~1.6x the 25B-300 per Gb, above the 1.03–1.50x range at US cores in 2026. Not every core shows a compressing 10B premium.",
+      "detail": "TCAG per-lane prices in CAD: 10B-300 C$2,080 for ~375 Gb = C$5.55/Gb; 25B-300 C$3,470 for ~1,000 Gb = C$3.47/Gb; ratio 1.60x. 1.5B-300 is C$2,485 for ~250 Gb ≈ C$9.9/Gb (2.9x the 25B). Against D018/D034/D035 (TGen 1.13x, Berkeley 1.38x, KUMC 1.03x in 2026), the TCAG sheet is a year older and matches TxGen's flat 1.63x (F481). Narrowing of the 10B premium may be a 2026 effect or specific to US cores.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List%20April%202025.pdf",
+      "date": "2025-04",
+      "source_name": "The Centre for Applied Genomics (SickKids) NGS price list",
+      "source_type": "price_list",
+      "quote": "NovaSeq X Series 10B Reagent Kit (300 Cycle) $ 2,080.00",
+      "strength": "weak",
+      "why_new": "First non-US data point on the 10B/25B per-Gb ladder; it qualifies the D018 compression finding.",
+      "based_on": ["F488", "F481", "D018", "D034", "D035"]
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A research core's all-in 30x genome on the NovaSeq X costs ~US$470 (C$650), of which Illumina reagents at core lane rates are only ~US$240, still well above rival marketing claims of ~$80–150 per genome.",
+      "detail": "TCAG quotes human 30x WGS on the X at C$650 including library prep (90–100 Gb). Its PCR-free prep is C$140, and ~95 Gb at the C$3.47/Gb 25B lane rate is ≈C$330 (≈US$240). The remaining ≈C$180 covers QC and analysis. Ultima markets ~$80/genome and Roche AXELIOS lists $150 (duplex 30x, prep excluded). The sequencing component at a research core is therefore ~1.6–3x the rival list claims, which leaves room for pricing pressure in research. These are core resale prices, not Illumina's net price.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List%20April%202025.pdf",
+      "date": "2025-04",
+      "source_name": "TCAG NGS price list; Roche Investor Day May 2026; Ultima marketing",
+      "source_type": "price_list",
+      "quote": "Human WGS (NovaSeq X), including library prep, 90-100 Gb (30X diploid genome) $ 650.00",
+      "strength": "weak",
+      "why_new": "Splits a published core genome price into prep, sequencing and residual components and compares the sequencing part with rival per-genome claims.",
+      "based_on": ["F488", "F489"]
+    }
+  ]
+}
+```

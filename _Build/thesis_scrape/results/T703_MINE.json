@@ -1,0 +1,136 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Bauer's FY27 10B NovaSeq X lane prices are flat to up at every read length, so the cheapest X flow cells show no further price cuts.",
+      "detail": "FY27 10B lane prices are $1,030 / $1,193 / $1,314 at 100 / 200 / 300 cycles, effective 1 Jul 2026 to 30 Jun 2027. The FY26 100-cycle price was $1,011, so the FY27 price is +1.9%. The 300-cycle price is +0.8%, which matches the earlier T665 reading. The 1.5B 100-cycle lane went from $1,288 to $1,679, +30.4% (1679/1288). A core's internal rate is a pass-through of Illumina's net kit price, so this is consistent with Illumina not cutting small X flow-cell prices in 2026.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27 rates, effective 2026-07-01",
+      "source_name": "Harvard Bauer Core FY27 NGS Sequencing (search-result snippet; the page returned 403 to fetch)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "T665 had 10B 300-cycle +0.8%; the 100-cycle 10B and 1.5B 100-cycle moves are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The 25B's per-read advantage over the 10B differs a lot by read length, and it is largest at 100 cycles, so price steps within the X are deepest where a 35B-style cut would land.",
+      "detail": "FY27 per million reads, using the page's stated reads per lane (25B 2.5B, 10B 1.0B): 100-cycle 25B $0.561 vs 10B $1.030, so the 25B is 45.5% cheaper. 200-cycle is $0.857 vs $1.193, 28.2% cheaper. 300-cycle is $0.970 vs $1.314, 26.2% cheaper. The ~26% narrowing the strategist noted at 300 cycles is confirmed. The 100-cycle 25B lane is flagged 'infrequently run', so that price is less meaningful.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27 rates, effective 2026-07-01",
+      "source_name": "Harvard Bauer Core FY27 NGS Sequencing (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "T665 and F777 cover the 300-cycle 10B/25B premium only. The 100- and 200-cycle discounts are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The 1.5B flow cell is priced at about 3.5x the 25B per read, so small X flow cells carry a very high $/Gb. That is the price tier most exposed to low-cost rivals and to reconsolidation onto larger flow cells.",
+      "detail": "FY27 1.5B 300-cycle is $2,028 for 0.6B reads per lane, or $3.38 per million reads. The 25B 300-cycle is $2,426 for 2.5B reads per lane, or $0.97 per million, a ratio of 3.5x. The 10B is $1.31 and the 5B is $1.42 per million. The 1.5B costs more per lane than the 10B ($2,028 vs $1,314) at 300 cycles, the same pattern as at 100 and 200 cycles.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27 rates, effective 2026-07-01",
+      "source_name": "Harvard Bauer Core FY27 NGS Sequencing (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F770 gave the 5B/10B/25B per-read costs; the 1.5B per-read ratio to the 25B and the 1.5B-above-10B inversion are new."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Harvard's external (PO) premium over its internal price is unchanged at 40% in FY27 across the whole X ladder, so there is no sign of external research users winning bigger discounts.",
+      "detail": "FY27 25B 300-cycle is $2,426 internal vs $3,396 PO, a ratio of 1.400. 10B 300-cycle is $1,314 vs $1,840, 1.400. 5B 300-cycle is $799 vs $1,119, 1.400. 1.5B 300-cycle is $2,028 vs $2,840, 1.400. A fixed multiplier means the spread moves with the underlying reagent price and is not negotiated per customer. FY26's 5B was $745 vs $1,043, also 1.40.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27 rates, effective 2026-07-01",
+      "source_name": "Harvard Bauer Core FY27 NGS Sequencing (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F771 gave the 25B 40% external gap; the exact 1.40 multiplier across 10B, 5B and 1.5B and the NextSeq/MiSeq rows is new."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Bauer offers no AVITI, Ultima or Roche SBX service in FY26 or FY27, so a Harvard core shows no rival-platform price pressure on research Illumina volume.",
+      "detail": "The FY27 and FY26 NGS pages list only NovaSeq X Plus (25B, 10B, 5B, 1.5B), NextSeq 1000 and MiSeq. Searches of the core's pages found no AVITI, Ultima or SBX pricing. The long-read page lists only PacBio Revio. No NovaSeq 6000 row appears. Absence is inferred from snippets only, because the direct fetch was blocked.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27, 2026-10",
+      "source_name": "Harvard Bauer Core (search snippets)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F773 said the 6000 row was unseparated. This extends it to a no-AVITI/Ultima/SBX check on FY27."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Bauer's PacBio Revio cell price barely moved (−1.1%) in FY27, so long-read pricing shows no discounting pressure either, and long-read is about 7x Illumina's per-Gb cost.",
+      "detail": "A FY27 Revio SMRT cell (25M) costs $1,564 internal and $2,190 PO, vs $1,581 / $2,213 in FY26 (−1.1%). The page describes the cell as about 90 Gb, so $17.4/Gb. The new Nx option (3 acquisitions) costs $2,578 internal. The FY26 25B 300-cycle was about $2.06 per Gb on 1,000 Gb, and the FY27 one is about $2.43, so long-read is roughly 7x. Kinnex prep fell from $1,605 to $1,543 (−3.9%).",
+      "url": "https://bauercore.fas.harvard.edu/fy27-long-read-library-prep-sequencing",
+      "date": "FY27 rates, effective 2026-07-01",
+      "source_name": "Harvard Bauer Core FY27 Long Read page (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The FY27 long-read rows were the stated gap from T665."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Bauer's FY27 25B 200- and 300-cycle prices rose 17–18% while the 100-cycle price fell 7%, so Illumina or the core is shifting price from short-read to long-read kits.",
+      "detail": "Harvard-account 25B lane moves FY26→FY27: 100-cycle $1,511→$1,403 (−7.1%), 200-cycle $1,830→$2,143 (+17.1%), 300-cycle $2,059→$2,426 (+17.8%). The 100-cycle result matches F769. The core's stated reason for the changes was not obtainable because /sequencing-announcements returned 403. A uniform tariff or memory pass-through would have raised all three, so a core-side repricing is more likely.",
+      "url": "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing",
+      "date": "FY27 rates",
+      "source_name": "Harvard Bauer Core (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Mostly confirms F766/F768/F769; the mixed-direction reading is the only addition."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Bauer's NextSeq 1000 P2 lane prices on an undated sheet are above the FY26 ones, so mid-throughput prices are not falling at this core.",
+      "detail": "An undated Bauer NGS fee page lists P2 300-cycle at $3,759 internal vs $3,344 on the FY26 page (+12.4%), and P1 300-cycle at $1,451 vs $1,382 (+5.0%). The page may be the FY27 schedule but is not labelled. Combined with the flat or rising 10B, this suggests mid- and high-throughput consumables pricing is firm at this core.",
+      "url": "https://bauercore.fas.harvard.edu/ngs-sequencing-fees",
+      "date": "undated, likely FY27",
+      "source_name": "Harvard Bauer Core NGS Sequencing page (snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "T665 did not cover NextSeq 1000 or MiSeq rows."
+    }
+  ],
+  "source_status": "blocked",
+  "notes": "Direct fetches of every Bauer page (.md variants, announcements, fee pages, long-read pages) returned 403, and web.archive.org is not fetchable here. All numbers come from search-engine summaries of the page, not from the tables themselves. Not obtained: the FY27 MiSeq rows, footnotes, the fee-effective-date text, and any stated reason for the changes (6000 retirement, tariff). Unverified: whether the unlabelled page is FY27. Also assumed: 25B ≈ 1,000 Gb per 300-cycle lane. A browser or the Google cache would be needed to finish.",
+  "leads": [
+    {
+      "name": "Bauer Core FY27 fees overview",
+      "url": "https://bauercore.fas.harvard.edu/fy27-fees",
+      "access": "public HTML, 403 to fetch tool",
+      "labels": ["1B", "2A"],
+      "rationale": "May carry the stated reason for changes and the internal/external definitions."
+    },
+    {
+      "name": "Bauer sequencing announcements",
+      "url": "https://bauercore.fas.harvard.edu/sequencing-announcements",
+      "access": "public HTML, 403 to fetch tool",
+      "labels": ["1A", "1B"],
+      "rationale": "Dated notices on 5B launch, price changes and platform retirements."
+    },
+    {
+      "name": "OpenWetWare BioMicroCenter Pricing (MIT)",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:Pricing",
+      "access": "public wiki",
+      "labels": ["1A", "1B"],
+      "rationale": "Has a revision history by fiscal year (e.g. PricingFY2025), giving a dated 6000 vs X price series."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,83 @@
+IRB Barcelona - CF Biostatistics/Bioinformatics 2026
+Microarrays: Prices based on projects consisting of 50 samples maximum
+MA1: Quality control 320,00
+MA2: Differential expression 512,00
+MA3: GSEA GO and KEGG 512,00
+MA4: Pattern analysis (gaga) 576,00
+MA5: Signature discovery 640,00
+RNAseq: Prices based on projects consisting of 50 samples maximum
+RNAS1.1: Quality control (per sample) 16,00
+RNAS1.2: Processing + alignment (per GBs of raw data) 2,00
+RNAS2: Differential expression gene level 576,00
+RNAS3: Differential expression isoform level 576,00
+RNAS4: GSEA analysis GO and KEGG 576,00
+RNAS5: Pattern analysis (gaga) 640,00
+RNAS6: Isoform switching 768,00
+RNAS7.1: SNP calling (per GBs of raw data) 6,00
+RIPSeq: Prices based on projects consisting of 50 samples maximum
+RIPS1.1: Quality control (per sample) 16,00
+RIPS1.2: Alignment + rRNA cleaning (per GBs of raw data) 2,50
+RIPS2: RBP site definition + annotation + visualization 704,00
+RIPS3: Gene-level / UTR-level binding assessment 704,00
+RIPS4: GSEA analysis GO and KEGG 576,00
+RIPS5: Regulatory motif search & assessment 704,00
+Public and CERCA 
+Institutions (€) Service
+IRB Barcelona - CF Biostatistics/Bioinformatics 2026
+ChipSeq: Prices based on projects consisting of 50 samples maximum
+CHS1.1: Quality control  (per sample) 16,00
+CHS1.2: Processing + alignment  (per GBs of raw data) 2,50
+CHS2: Peak definition + annotation visualization 704,00
+CHS3: Differential Binding + Integrative analysis 832,00
+Whole Genome Sequencing: Prices based on projects consisting of 25 samples maximum
+WGS1.1: Quality control (per sample) 16,00
+WGS1.2: Processing + alignment  (per GBs of raw data) 2,50
+WGS2.1: SNP calling (per GBs of raw data) 1,00
+WGS3.1: Copy number alteration calling  (per GBs of raw data) 1,00
+Whole Exome Sequencing: Prices based on projects consisting of 25 samples maximum
+WES1.1: Quality control (per sample) 16,00
+WES1.2: Processing + alignment  (per GBs of raw data) 2,00
+WES2.1: SNP calling (per GBs of raw data) 1,00
+WES3.1: Copy number alteration calling  (per GBs of raw data) 1,00
+Proteomics: 
+PR1: Quality control 320,00
+PR2: Differential expression 576,00
+PR3: GSEA GO and KEGG 576,00
+Public databases mining/analysis: 
+PD1: Selection 640,00
+PD2: Curation of clinical data 896,00
+PD3: Processing of expression data 896,00
+PD4: Analysis: association of expression and clinical data/ copy number/ mutations 896,00
+Public and CERCA 
+expression
+832,00
+TCGA3: Data integration: copy number, expression, mutations, etc 832,00
+Microbiome: 
+MB1.1: Quality control + OTU estimation + differential abundance (per 4 samples) 960,00
+MB2: Differential analysis 576,00
+MB3: Phylogenetic analysis 640,00
+Binding site prediction: 
+BS1: Prediction of binding sites for a given gene in a set of regions or genome wide 420,00
+Single Cell Sequencing: 
+SCS1.1: Ful gene data: Quality control + alignment (per GBs of raw data) 15,00
+SCS1.2: 10X data: Quality control + alignment (per GBs of raw data) 15,00
+SCS3: Clustering + DE expression of clusters 640,00
+SCS2.1: Differential expression between conditions 576,00
+SCS4: GSEA GO and KEGG 576,00
+SCS6: Annotation of clusters or cell populations 640,00
+SCS7: Trajectory inference - based on unspliced reads (per GBs of raw data)*** 15,00
+SCS8: Trajectory inference - based on expression matrix 640,00
+SCS9: Intergration with RNASeq/signatures 576,00
+ATACSeq
+ATS1: Quality control (per sample) 16,00
+ATS2: Processing + alignment (per GBs of raw data) 2,50
+ATS3: Peak definition + annotation visualization 704,00
+ATS4: Differential Binding + Integrative analysis 832,00
+Public and CERCA 
+Institutions (€) Service
+IRB Barcelona - CF Biostatistics/Bioinformatics 2026
+Drug Screening
+DS1: Experimental design 640,00
+DS2: Ranking of candidate compunds with no controls 640,00
+DS3: Compound vs control comparison 768,00
+Multiomic data integration

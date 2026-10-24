@@ -1,0 +1,40 @@
+Project Planning | HSC Cores - BookStack
+Skip to main content
+HSC Cores - BookStack
+View All
+Search
+Shelves
+Books
+Log in
+Info
+Content
+Details
+Revision #1
+Created 2 years ago by Derek Warner
+Updated 2 years ago by Derek Warner
+Actions
+Revisions
+Export
+Contained Web File.html
+PDF File.pdf
+Plain Text File.txt
+Markdown File.md
+Portable ZIP.zip
+Book Navigation
+Next Gen Sequencing on the AVITI
+Project Planning
+RNA Sequencing
+Books
+Next Gen Sequencing on...
+Project Planning
+Project Planning
+Each project is unique with Next Gen Sequencing. For all projects, please consult with us at no charge. We will work with you to determine the best method to answer your question. Below is an example of how pricing will vary depending on what the needs of the project are:
+The Element Biosciences AVITI sequencer runs multiple flow cell sizes. The costs to run aren’t calculated on a “per sample” basis, but rather on the cost of the flow cell, any library kits (if we are building libraries for you), and labor. Other factors also come into play such as how much depth of coverage the project needs, and how many samples are being run (this is where cost/sample starts to mean something). For example, if a user wants to run 2 human genomes at ~45x coverage, that would fit on one large flow cell and would cost approximately $2700 from receipt of the DNA to delivery of the data, which is $1350/sample. If a user had only one genome they wanted sequenced, unless we are able to collect more genomes from others to fill up the flow cell, the cost would still be the cost of the library, flow cell, and labor, approximately $2700. If a user has three genomes they want to run at ~30x coverage, costs would be $2700/3 samples or $900/sample. Similarly, other projects not WGS, costs are based on the same factors mentioned above. In short, please discuss each project with core staff.
+Enter section select mode
+Next
+RNA Sequencing
+0 Comment Threads
+0 Archived
+No comments to display
+No comments to display
+Back to top

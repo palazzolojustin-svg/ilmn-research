@@ -1,0 +1,250 @@
+Next Generation Sequencing – La Jolla Institute for Immunology
+Skip to content
+Skip to content
+Research
+Databases
+Cancer Epitope Database and Analysis Resource
+Database of Immune Cell Epigenomics
+Immune Epitope Database
+Immune Space
+Diseases
+Licensing Opportunities
+Publications
+Research Centers
+Center for Autoimmunity and Inflammation
+Center for Cancer Immunotherapy
+Center for Sex-based Differences in the Immune System
+Center for Vaccine Innovation
+Research Services
+Bioinformatics
+Clinical Studies
+Cryo-Em
+DLAC
+Flow Cytometry
+Histopathology
+Immunometabolism
+Planned Giving
+Clinical Studies
+DONATE
+Search
+Menu
+Next Generation Sequencing
+High-throughput sequencing is an extremely fast developing technology that has profoundly altered our understanding of biology, human diversity, and disease.
+Suzanne Alarcón
+Sequencing Core Director
+Services
+Please acknowledge the use of the Sequencing Core Facility at the La Jolla Institute in publications. In addition, the NovaSeq 6000 and the HiSeq 2500 were acquired through the Shared Instrumentation Grant (SIG) Program (S10) and must be cited for their use: NovaSeq 6000 S10OD025052 and HiSeq 2500 S10OD016262.
+Instrumentation
+Illumina Miseq
+The baby brother to the popular Hiseq. It also uses Illumina sequencing by synthesis and can complete a 500 cycle paired-end run in a couple of days on its one-lane flowcell. Depending on the type of library, it can produce anywhere from 7M to 16M reads on a full Flowcell kit. If you are interested in a smaller amount of reads, Illumina also offers Nano and Micro version kits. The most popular applications for the Miseq are enriched/targeted samples, bisulfite treated, and amplicons.
+Agilent 2200 Tapestation
+The Tapestation is an automated electrophoretic-based nucleic acid / protein analyzer that is indispensible for QC steps in library prep for NGS. In comparison to Bioanalyzer, the Tapestation provides savings on consumables, faster and more accurate data, and is capable of high throughput processing of 96-well plates. The automated loading reduces user error and the potential to waste precious samples. The pre-cast gel strips provide scalable throughput at a constant cost per sample, therefore it makes an excellent solution for high throughput and also eliminates unnecessary costs associated with low sample numbers.
+Covaris Model E220
+Currently, Covaris technology is the gold standard for fragmenting DNA in order to get a consistently tight size range. Although we use the Covaris E220 primarily for Chromatin shearing and fragmenting DNA in our library preparation pipeline, it has many other uses. The instrument achieves a high level of consistency and efficiency through its use of isothermal processing and the proprietary Covaris Adaptive Focused Acoustic technology. It can process 1 to 96 samples in a single batch, which is much more efficient than using our S2 model for large arrays of samples.
+Beckman Coulter Biomek FXP
+The La Jolla Institute is currently engaged in a partnership with Beckman Coulter and Illumina for the purposes of developing and validating Illumina library preparation methods on the Biomek FXP automation platform. Currently, we have the Truseq mRNA Stranded, Truseq Nano DNA and Nextera based protocols installed on the system. Implementing automation for library preparation should reduce inconsistency and risks associated with human errors. The ability to generate libraries, either from a single sample to as many as 96 at a time, will benefit both small-scale and particularly large-scale experiments. We wish to keep a long-standing intimate relationship with both Illumina and Beckman Coulter to continue improving our and other’s NGS needs.
+NovaSeq 6000
+The La Jolla Institute is currently engaged in a partnership with Beckman Coulter and Illumina for the purposes of developing and validating Illumina library preparation methods on the Biomek FXP automation platform. Currently, we have the Truseq mRNA Stranded, Truseq Nano DNA and Nextera based protocols installed on the system. Implementing automation for library preparation should reduce inconsistency and risks associated with human errors. The ability to generate libraries, either from a single sample to as many as 96 at a time, will benefit both small-scale and particularly large-scale experiments. We wish to keep a long-standing intimate relationship with both Illumina and Beckman Coulter to continue improving our and other’s NGS needs.
+Rates
+Technical Training and Assistance
+|
+INSTITUTE AFFILIATE |
+3RD PARTY NON-PROFIT |
+3RD PARTY FOR-PROFIT |
+Technical Training – Sequencing and Library Prep Specialist (per hour)
+|
+$93.54
+$307.44
+|
+MiSeq Self Service (v2, v3; after Core training, does not include reagents)
+|
+$336.00
+|
+$369.60
+|
+$614.88
+|
+MiSeq v2 Nano Kit 300 Cycle Full Flowcell
+|
+$882.99
+|
+$971.29
+|
+$1,615.88
+|
+MiSeq v2 Nano Kit 500 Cycle Full Flowcell
+|
+$958.18
+|
+$1,054.00
+|
+$1,753.47
+|
+Miseq v2 50 Cycle Full Flowcell
+|
+$1,576.69
+|
+$1,734.35
+|
+$2,885.33
+|
+Miseq v2 300 Cycle Full Flowcell
+|
+$1,882.30
+|
+$2,070.53
+|
+$3,444.61
+|
+Miseq v2 500 Cycle Full Flowcell
+|
+$2,050.87
+|
+$2,255.96
+|
+$3,753.07
+|
+MiSeq v3 150 Cycle Full Flowcell
+|
+$1,695.53
+|
+$1,865.09
+|
+$3,102.83
+|
+MiSeq v3 600 Cycle Full Flowcell
+|
+$2,526.27
+|
+$2,778.90
+|
+$4,623.07
+|
+NovaSeq Sequencing
+|
+INSTITUTE AFFILIATE |
+3RD PARTY NON-PROFIT |
+3RD PARTY FOR-PROFIT |
+SP 100 Cycle Full Flowcell
+|
+$3,258.33
+|
+$3,584.17
+|
+$5,962.75
+|
+SP 200 Cycle Full Flowcell
+|
+$4,130.91
+|
+$4,544.00
+|
+$7,559.57
+|
+SP 300 Cycle Full Flowcell
+|
+$4,432.49
+|
+$4,875.74
+|
+$8,111.45
+|
+SP 500 Cycle Full Flowcell
+|
+$5,928.80
+|
+$6,521.68
+|
+$10,849.70
+|
+S1 100 Cycle Full Flowcell
+|
+$6,150.18
+|
+$6,765.20
+|
+$11,254.83
+|
+S1 200 Cycle Full Flowcell
+|
+$7,400.69
+|
+$8,140.76
+|
+$13,543.26
+|
+S1 300 Cycle Full Flowcell
+|
+$7,978.23
+|
+$8,776.05
+|
+$14,600.16
+|
+S2 100 Cycle Full Flowcell
+|
+$10,493.57
+|
+$11,542.93
+|
+$19,203.23
+|
+S2 200 Cycle Full Flowcell
+|
+$12,832.34
+|
+$14,115.57
+|
+$23,483.18
+|
+S2 300 Cycle Full Flowcell
+|
+$13,784.58
+|
+$15,163.04
+|
+$25,225.79
+|
+S4 35 Cycle Full Flowcell
+|
+$16,275.00
+|
+$17,902.50
+|
+$29,783.25
+|
+S4 200 Cycle Full Flowcell
+|
+$21,054.39
+|
+$23,159.82
+|
+$38,529.53
+|
+S4 300 Cycle Full Flowcell
+|
+$23,431.51
+|
+$25,774.66
+|
+$42,879.66
+|
+XP Workflow; 2 Lane
+|
+$395.69
+|
+$435.36
+|
+$724.11
+|
+XP Workflow; 4 Lane
+|
+$1,266.66
+|
+$1,393.33
+|
+$2,317.99
+|
+Bioinformatics
+For more information, please visit the Bioinformatics page.
+|

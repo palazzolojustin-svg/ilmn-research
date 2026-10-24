@@ -1,0 +1,30 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Every job-board page I tried was bot-blocked: findajob.dwp.gov.uk search and detail pages returned 503, and jobs.nhs.uk, beta.jobs.nhs.uk and healthjobsuk.com returned 403. One web search found 2026 NHS genomics postings (Leeds, Salisbury, London, Royal Marsden, Oxford), but the snippets named no sequencer model. I could not count postings that name only the 6000, only the X, or both. I recorded no evidence items because I opened no posting text that names an instrument. The Royal Marsden, Oxford and Leeds postings are candidates to check.",
+  "how_to_mine": "Use a headless-browser or Apify scrape of NHS Jobs and Find a Job. Search 'NovaSeq', 'NovaSeq 6000', 'NovaSeq X', 'NovaSeq X Plus' and 'Illumina sequencing', restricted to postings from 2026-01-01 onward. For each posting, capture employer, posting date, closing date and full text. Then regex the text for 6000, X/X Plus, NextSeq and MiSeq, and tabulate counts by employer. Also check the Wayback Machine for archived jobs.nhs.uk adverts, and the GLH trust career pages. The search-result URLs found in this probe are candidates: findajob.dwp.gov.uk/details/17618109, /17791164 and /17997186, plus the Royal Marsden healthjobsuk/nhsjobs adverts (v8205193, v8272765, v8147898).",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Royal Marsden (North Thames GLH) Clinical Scientist adverts v8205193, v8272765 and v8147898: check the full text for sequencer names",
+    "Oxford University Hospitals Band 7 Clinical Scientist advert (posted 17 Aug 2026)",
+    "Leeds NE&Y GLH Bioinformatician advert (closed 6 Jan 2026): check the diagnostic platforms named"
+  ],
+  "apify_requests": [
+    {
+      "actor": "generic web scraper (apify/web-scraper or playwright-scraper)",
+      "input": {
+        "startUrls": [
+          {"url": "https://www.jobs.nhs.uk/candidate/search/results?keyword=NovaSeq"},
+          {"url": "https://www.jobs.nhs.uk/candidate/search/results?keyword=NovaSeq%206000"},
+          {"url": "https://www.jobs.nhs.uk/candidate/search/results?keyword=NovaSeq%20X"},
+          {"url": "https://findajob.dwp.gov.uk/search?q=NovaSeq"}
+        ],
+        "note": "Follow each result link to its advert page and extract the full text, employer, posting date and closing date."
+      },
+      "why": "Both job boards block simple fetches. A browser-based scraper may get through and give countable 2026 postings that name the 6000 versus the X in regulated UK labs.",
+      "max_items": 200
+    }
+  ]
+}
+```

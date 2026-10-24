@@ -1,0 +1,211 @@
+Pricing – Frederick Sequencing and Genomics Core
+Pricing
+Supported by CCR Office of Science and Technology Resources (OSTR)
+CRTP
+Home
+Services
+Assay Development
+Next-Gen Sequencing
+Technologies
+Bioinformatics
+Publications
+Contact Us
+Search
+Next-Gen Sequencing Pricing
+CRTP
+Frederick Sequencing and Genomics Core
+Services
+NGS Services
+Next-Gen Sequencing Pricing
+NGS Services
+Pricing
+Protocols
+FAQ
+Pricing Calculator
+Get an instant pricing estimate* on your next sequencing project.
+Service Cost Estimate
+Illumina Library Construction | NCI Price | Non NCI Price |
+Project Type | Cost/Sample | Cost/Sample |
+gDNA-Seq | $60 + (Sequencing Cost) | $120 + (Sequencing Cost) |
+Nextera XT | $57 + (Sequencing Cost) | $114 + (Sequencing Cost) |
+Whole Genome Methyl-Seq* | $116 + (Sequencing Cost) | $232 + (Sequencing Cost) |
+Total RNA-Seq | $91 + (Sequencing Cost) | $182 + (Sequencing Cost) |
+mRNA-Seq | $76 + (Sequencing Cost) | $152 + (Sequencing Cost) |
+miRNA-Seq | $137 + (Sequencing Cost) | $274 + (Sequencing Cost) |
+*Illumina 5-Base protocol, if you need other methylation protocol please discuss with the FSGC-NGS team |
+NovaSeq X Series | NCI Price | Non NCI Price |
+Run Type | Cost/Flowcell | Cost/Flowcell |
+X Plus 1.5B 100 cycle | $2,042 | $4,084 |
+X Plus 1.5B 200 cycle | $2,580 | $5,160 |
+X Plus 1.5B 300 cycle | $2,794 | $5,588 |
+X Plus 5B 100 cycle | $5,046 | $10,092 |
+X Plus 5B 200 cycle | $6,383 | $12,766 |
+X Plus 5B 300 cycle | $6,831 | $13,662 |
+X Plus 10B 100 cycle | $7,598 | $15,196 |
+X Plus 10B 200 cycle | $9,626 | $19,252 |
+X Plus 10B 300 cycle | $10,275 | $20,550 |
+X Plus 25B 100 cycle | $11,911 | $23,822 |
+X Plus 25B 200 cycle | $15,131 | $30,262 |
+X Plus 25B 300 cycle | $17,196 | $34,392 |
+NextSeq XLEAP | NCI Price | Non NCI Price |
+Run Type | Cost/Flowcell | Cost/Flowcell |
+P1 100 cycle | $755 | $1,510 |
+P1 300 cycle | $1,049 | $2,098 |
+P1 600 cycle | $3,107 | $6,214 |
+P2 100 cycle | $1,145 | $2,290 |
+P2 200 cycle | $2,153 | $4,306 |
+P2 300 cycle | $2,854 | $5,708 |
+P2 600 cycle | $3,107 | $6,214 |
+P3 100 cycle | $2,445 | $4,890 |
+P3 200 cycle | $3,386 | $6,772 |
+P3 300 cycle | $4,514 | $9,028 |
+P4 50 cycle | $1,887 | $3,774 |
+P4 100 cycle | $2,831 | $5,662 |
+P4 200 cycle | $4,004 | $8,008 |
+P4 300 cycle | $5,096 | $10,192 |
+iSeq | NCI Price | Non NCI Price |
+Run Type | Cost/Flowcell | Cost/Flowcell |
+iSeq 100 i1 Reagent v2 | $713 | $1,426 |
+Single Cell Services
+Single Cell 10X Library Construction | NCI Price | Non NCI Price |
+Project Type | Cost/Sample | Cost/Sample |
+GEM-X Universal Gene Expression | $2025 + (Sequencing Cost) | $4050 + (Sequencing Cost) |
+GEM-X Universal Gene Expression On-Chip-Multiplex (4-plex) | $887 + (Sequencing Cost) | $1774 + (Sequencing Cost) |
+GEM-X Flex Gene Expression singleplex | $2078 + (Sequencing Cost) | $4156 + (Sequencing Cost) |
+GEM-X Flex Gene Expression multiplex | $1103 + (Sequencing Cost) | $2206 + (Sequencing Cost) |
+GEM-X VDJ Enrichment | $111 + (10X Capture) + (Sequencing Cost) | $222 + (10X Capture) + (Sequencing Cost) |
+GEM-X Feature Barcode | $130 + (10X Capture) + (Sequencing Cost) | $260 + (10X Capture) + (Sequencing Cost) |
+Single Cell Illumina PIPSeq Library Construction | NCI Price | Non NCI Price |
+Project Type | Cost/Sample | Cost/Sample |
+Illumina PIPseq T2 | $324 + (Sequencing Cost) | $648 + (Sequencing Cost) |
+Illumina PIPseq T10 | $692 + (Sequencing Cost) | $1384 + (Sequencing Cost) |
+Illumina PIPseq T20 | $954 + (Sequencing Cost) | $1908 + (Sequencing Cost) |
+Illumina PIPseq T100 | $3369 + (Sequencing Cost) | $6738 + (Sequencing Cost) |
+Single Cell QC Run | |
+Number of libraries | QC Run Type Required |
+1 | N/A |
+2-6 | NextSeq P1 |
+7-12 | NextSeq P2 |
+13+ | NovaSeq 1.5B |
+Long Read Sequencing Services
+Pacbio Library Construction | NCI Price | Non NCI Price |
+Project Type | Cost/Sample | Cost/Sample |
+Amplicon | $107 + (Sequencing Cost) | $214 + (Sequencing Cost) |
+Bulk Iso-seq V2 | $174 + (Sequencing Cost) | $348 + (Sequencing Cost) |
+Bulk Kinnex Iso-seq | $522 + (Sequencing Cost) | $1044 + (Sequencing Cost) |
+WGS | $151 + (Sequencing Cost) | $302 + (Sequencing Cost) |
+Single Cell Kinnex Iso-seq* | $448 + (Sequencing Cost) | $896 + (Sequencing Cost) |
+* Single cell capture is not included |
+Pacbio Sequencing | NCI Price | Non NCI Price |
+Project Type | Cost/SMRT Cell | Cost/Flowcell |
+Revio SPRQ SMRT Cell | $1,087 | $2,174 |
+Oxford Nanopore Library Construction | NCI Price | Non NCI Price |
+Project Type | Cost/Sample | Cost/Sample |
+WGS and Adaptive sampling | $188 + (Sequencing Cost) | $376 + (Sequencing Cost) |
+Direct RNA-Seq | $174 + (Sequencing Cost) | $348 + (Sequencing Cost) |
+Ultra-Long | $212 + (Sequencing Cost) | $424 + (Sequencing Cost) |
+RNA-seq (cDNA-PCR) | $203 + (Sequencing Cost) | $406 + (Sequencing Cost) |
+Single cell transcriptomics | $209 + (Sequencing Cost) | $418 + (Sequencing Cost) |
+Oxford Nanopore Sequencing | NCI Price | Non NCI Price |
+Project Type | Cost/Flowcell | Cost/Flowcell |
+Nanopore flow cell | $1,092 | $2,184 |
+1 Wash and Reload* | $32 | $64 |
+*Wash and Reload is for WGS samples, will wash and reload up to 2 times |
+X
+Sequencing Cost Calculator
+Next
+Download
+Back
+Service
+Select...
+Next Generation Sequencing
+Total Output Needed:
+Already Pooled?
+Yes
+No
+Affiliate:
+NCI-NIAID
+Non-NCI
+Kit:
+Reads Per Kit:
+Read Length:
+Output Per Flowcell:
+Samples per Kit:
+Kit Qty:
+Total Reads in Kit(s):
+Estimated Kit(s) Price:
+*For full estimate, including library prep., etc., click "Next".
+Project Type:
+Single-cell library
+Number of Samples:
+Sample Parameters:
+By Sample Avg.
+Total Reads Needed:
+Affiliate:
+NCI-NIAID
+Non-NCI
+Already Pooled?
+Yes
+No
+QC Kit:
+Select...
+iSeq 100 i1 Reagent v2
+NextSeq XLEAP P1 100 cycles
+NextSeq XLEAP P2 100 cycles
+NovaSeq X Plus 1.5B 100 cycles
+QC Kit Reads:
+Kit:
+Reads Per Kit:
+Kit Qty:
++ Add Kit
+Calculate Cheapest Option
+Total Reads in Kit(s):
+Estimated Kit(s) Price:
+*For full estimate, including library prep., etc., click "Next".
+Sample Type:
+Select...
+Human hg38
+Mouse mm10
+Number of Samples:
+Needed Coverage:
+Reads Per Sample (in millions):
+Affiliate:
+NCI-NIAID
+Non-NCI
+Samples per
+Flowcell:
+Flowcells per
+Sample:
+Flowcell Qty:
+Estimated Cost of Flow Cell(s):
+*For full estimate, including library prep., washing kits, etc., click "Next".
+Sample Type:
+Select...
+DNA
+RNA
+Project Type:
+Select...
+Reference Genome:
+Select...
+Human hg38
+Description |
+Unit |
+Quantity |
+|
+Total |
+|
+Library Prep |
+|
+|
+|
+Nanopore flow cell |
+Consumable |
+|
+|
+|
+Washing kit |
+Consumable |
+|
+|
+|
+Reloading reagents |

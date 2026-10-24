@@ -1,0 +1,134 @@
+Another AVITI sequencing price drop for a happier new year! | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Research
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Breadcrumb
+Home
+Another AVITI sequencing price drop for a happier new year!
+News
+Events
+In the News
+Another AVITI sequencing price drop for a happier new year!
+December 19, 2024
+As was announced in mid-2024, the UMGC introduced faster, higher-quality, and more affordable sequencing to the UMN last June by installing a suite of five Element AVITI next-generation sequencers. The response from you, our users, has been overwhelmingly positive. Over the past six months, most of you have transitioned your work onto the AVITI (see Figure 1).
+Figure 1: AVITI run volume has grown rapidly in 2024
+This increased adoption has allowed us to purchase AVITI reagents at steeper discounts, enabling us to pass along further cost reductions in an end-of-year price drop—just in time for the holidays! On top of the ≈ 40% price reductions announced just last July, AVITI sequencing now falls a further 20%, on average. View our new reduced AVITI rates.
+A plot of the drop in our rates over the past 18 months illustrates how dramatically our users’ shift to the AVITI, and the resulting volume discounts achievable have lowered your costs for NGS experimentation (see Figure 2).
+Figure 2: Evolution of UMGC AVITI pricing for 2023-2024
+In fact, with the new pricing now in place, sequencing on the AVITI is less expensive than on the Illumina NovaSeq X Plus 25B, which until now had been our most affordable option (see Figure 3).
+Figure 3: Cost per 1B 2X150-bp reads
+For Illumina users who are considering transitioning to the AVITI, we have conducted benchmarking studies to evaluate and compare the quality metrics between the two platforms. Results demonstrate that AVITI delivers comparable performance for 16S V4V5 libraries and RNA-Seq libraries, ensuring a smooth transition without compromising data quality.
+Sincerely,
+Kenny Beckman, Ph.D.
+Director, University of Minnesota Genomics Center
+[email protected]
+GENOMICS CENTER
+Dr. Kenneth Beckman, Director
+2231 6th Street SE
+Minneapolis, MN 55455
+[email protected]
+Contact Us
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

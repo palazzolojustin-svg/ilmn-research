@@ -1,0 +1,129 @@
+Non-Virginia Tech 
+Researchers
+Total 1244R 1341X
+$129.00 $97.00 $32.00 $188.17
+$27.00 $27.00 $0.00 $43.47
+Total 1244R 1341X
+$150.00 $113.00 $37.00 $218.93
+$171.00 $73.00 $98.00 $215.53
+$195.00 $82.00 $113.00 $245.02
+$350.00 $207.00 $143.00 $476.27
+$420.00 $277.00 $143.00 $588.97
+Total 1244R 1341X
+$3,045.00 $762.00 $2,283.00 $3,509.82
+$3,584.00 $600.00 $2,984.00 $3,950.00
+$3,853.00 $600.00 $3,253.00 $4,219.00
+$5,146.00 $600.00 $4,546.00 $5,512.00
+$5,042.00 $874.00 $4,168.00 $5,575.14
+$6,184.00 $938.00 $5,246.00 $6,756.18
+$6,625.00 $948.00 $5,677.00 $7,203.28
+$9,484.00 $1,631.00 $7,853.00 $10,478.91
+$11,457.00 $1,717.00 $9,740.00 $12,504.37
+$12,207.00 $1,821.00 $10,386.00 $13,317.81
+$13,236.00 $2,719.00 $10,517.00 $14,894.59
+$16,143.00 $2,196.00 $13,947.00 $17,482.56
+$17,779.00 $2,242.00 $15,537.00 $19,146.62
+Available Services and Rates
+Library Preps for Illumina Sequencing: *Please contact the GSC for current turnaround time estimates.
+Services Virginia Tech Researchers
+DNA Library Preps
+DNA-Seq (per sample)
+16S Amplicon (multiplexing up to 200 samples)
+RNA Library Preps
+mRNA -Stranded-Seq (per sample)
+Small RNA-Seq (miRNA) (per sample)
+Total Stranded RNA-Seq (per sample)
+Nanopore DNA Library Prep 1 sample/flowcell (per sample)
+Nanopore DNA Library Prep multiplexing samples on 1 flowcell (per sample)
+Illumina NovaSeq Services: *Please contact the GSC for current turnaround time estimates.
+Services Virginia Tech Researchers Non-Virginia Tech 
+Researchers
+NovaSeq SP v1.5 100 Cycles
+NovaSeq SP v1.5 200 Cycles
+NovaSeq SP v1.5 300 Cycles
+NovaSeq SP v1.5 500 Cycles
+NovaSeq S1 v1.5 100 Cycles (100SR or 50PE)
+NovaSeq S1 v1.5 200 Cycles (100PE)
+NovaSeq S1 v1.5 300 Cycles 150PE (150SR)
+NovaSeq S2 v1.5 100 Cycles (50PE)
+NovaSeq S2 v1.5 200 Cycles (100PE)
+NovaSeq S2 v1.5 300 Cycles 150PE
+NovaSeq S4 v1.5 35 Cycles
+NovaSeq S4 v1.5 200 Cycles (100PE)
+NovaSeq S4 v1.5 300 Cycles 150PE
+NovaSeq SP, S1, S2 Lane Split
+NovaSeq S4 Lane Split
+Illumina NextSeq Services: *Please contact the GSC for current turnaround time estimates. **For Mid Output kits 130 million Single Reads (260 million Paired-End 
+reads) Passing Filter. For High Output Kits 400 million Single reads (800 Million
+Paired-End reads). There is no lane sharing in NextSeq.
+Services Virginia Tech Researchers Non-Virginia Tech 
+Researchers
+NextSeq 1000 v3 P1 100 Cycles (per run)
+NextSeq 1000 v3 P1 300 Cycles (per run)
+NextSeq 1000 v3 P1 600 Cycles (per run)
+NextSeq 1000 v3 P2 100 Cycles (per run)
+NextSeq 1000 v3 P2 200 Cycles (per run)
+NextSeq 1000 v3 P2 300 Cycles (per run)
+NextSeq 1000/2000 P4 XLEAP-SBS 300 Cycles (per run)
+NextSeq 1000/2000 P4 XLEAP-SBS 100 Cycles (per run)
+NextSeq 1000/2000 P4 XLEAP-SBS 200 Cycles (per run)
+NextSeq 1000 v3 P2 600 Cycles (per run)
+NextSeq 1000/2000 P1 XLEAP-SBS 100 Cycles (per run)
+NextSeq 1000/2000 P1 XLEAP-SBS 300 Cycles (per run)
+NextSeq 1000/2000 P1 XLEAP-SBS 600 Cycles (per run)
+NextSeq 1000/2000 P2 XLEAP-SBS 100 Cycles (per run)
+NextSeq 1000/2000 P2 XLEAP-SBS 200 Cycles (per run)
+NextSeq 1000/2000 P2 XLEAP-SBS 300 Cycles (per run)
+NextSeq 1000/2000 P3 XLEAP-SBS 100 Cycles (per run)
+NextSeq 1000/2000 P2 XLEAP-SBS 600 Cycles (per run)
+NextSeq 1000/2000 P3 XLEAP-SBS 200 Cycles (per run)
+NextSeq 1000/2000 P3 XLEAP-SBS 300 Cycles (per run)
+NextSeq 1000/2000 P4 XLEAP-SBS 50 Cycles (per run)
+Total 1244R 1341X
+$775.00 $200.00 $575.00 $897.00
+$595.00 $200.00 $395.00 $717.00
+$666.00 $200.00 $466.00 $788.00
+$1,234.00 $200.00 $1,034.00 $1,356.00
+$1,513.00 $200.00 $1,313.00 $1,635.00
+$1,671.00 $200.00 $1,471.00 $1,793.00
+$1,344.00 $200.00 $1,144.00 $1,466.00
+$2,103.00 $200.00 $1,903.00 $2,225.00
+Total 1244R 1341X
+$4.50 $3.71 $0.79 $6.76
+$80.00 $80.00 $0.00 $128.80
+Email: flsi-illuminaseq-g@vt.edu
+Please request an official quote from the lab
+Illumina MiSeq: *Please contact the GSC for current turnaround time estimates. **15 million Single Reads or 30 million Paired End reads for V2 kits and 25 million 
+Single Reads or 50 million Paired End reads for V3 kits.
+Services
+SR/PE, flexible sequencing lengths based on researcher needs
+Virginia Tech Researchers Non-Virginia Tech 
+Researchers
+Micro 300-Cycle, V2
+Nano 300-Cycle, V2
+Nano 500-Cycle, V2
+50-Cycle, V2 (50SR)
+300-Cycle, V2 (150PE)
+150-Cycle, V3 (150SR or 75PE)
+600-Cycle, V3 (300PE)
+Sanger Sequencing: 48 hrs turnaround Virginia Tech Researchers Non-Virginia Tech 
+Researchers
+Lab: 540-231-1229
+Qubit (per sample)
+Specialized Services per hour
+Pricing effective as of 9/1/2024
+* Turnaround Times for library preparation: Depends on sample quality and approval, time taken for sample resubmission, library quality / 
+failures, previous samples in queue.
+* Turnaround Times for NovaSeq Sequencing: If projects from multiple customers are pooled together for more economical pricing, the 
+turnaround time will be longer, depending on whether there are enough samples to maximize sequencing capacity.
+* For Faster Turnaround on NovaSeq: Choose entire run.
+** The expected read numbers listed depends on the type of libraries.
+FOR MORE INFORMATION:
+https://fralinlifesci.vt.edu/core-services/genomics-sequencing-center.html
+Other Services Virginia Tech Researchers Non-Virginia Tech 
+Researchers
+Covaris Fragmentation
+qPCR of Investigator Libraries
+Full Reactions (per sample)
+Tapestation: 48 hrs turnaround Virginia Tech Researchers Non-Virginia Tech 
+Researchers

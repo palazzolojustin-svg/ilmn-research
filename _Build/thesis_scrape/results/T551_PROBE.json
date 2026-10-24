@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "The op.europa.eu detail pages load, but they give only a summary: buyer, award date, winner and total value. Quantities and unit prices are mostly missing, so they can't be turned into $/Gb. I opened three pages. The assigned one is a University of Copenhagen award for a single NovaSeq X Plus, which replaces a 6000 and a NextSeq 500. The Helmholtz Zentrum München award shows a placeholder value of 1.00 EUR. The Barcelona 2026 tender is a pre-award notice that I saw only in search-result snippets. The CIBER and IDIBAPS tenders are already known. The Copenhagen award does show a 6000 being retired and replaced by an X, but it has no pricing.",
+  "how_to_mine": "Open the full TED notice PDFs (ted.europa.eu/en/notice/<id>/xml, or the TED API v3 at api.ted.europa.eu) for 2025-2026 consumables awards. Searches: CPV 33696500, 38000000 or 33141625, plus the keywords NovaSeq, '25B' and 'flow cell'. Look for lot-level values and quantities, which give unit prices. Check these specifically. (1) FRCB Barcelona 528143-2026 / 536530-2026: 12 25B-100-cycle flow cells, 64 lanes, 760 days, estimated value. A later award notice would give $/lane. (2) The CIBER award result. Compare the winning price with the estimate to see the discount to budget. Contracts on the Catalan platform (contractaciopublica.cat) list unit prices in their tender documents.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A European university retired a NovaSeq 6000 and a NextSeq 500 for a single NovaSeq X Plus, which suggests continued 6000 retirements.",
+      "detail": "University of Copenhagen awarded Illumina Denmark ApS a NovaSeq X Plus contract on 28 Feb 2025 (ref 043-1395/24-7000) for a final value of USD 2,878,114. The page describes it as replacing an older NovaSeq 6000 and a NextSeq 500. This is one more 6000 decommission in a research setting. It has no price per Gb and no quantities, so it is weak evidence of tail shrinkage.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+      "date": "2025-02-28",
+      "source_name": "Publications Office of the EU (TED)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A named European research buyer replacing a 6000 plus a NextSeq 500; the known list has no Copenhagen award."
+    }
+  ],
+  "new_candidates": [
+    "Fundació de Recerca Clínic Barcelona tender 528143-2026 / change notice 536530-2026: NovaSeq X Plus sequencing, 12 x 25B-100 flow cells, 64 lanes, 760 days. The estimated value would give $/lane. https://ted.europa.eu/en/notice/536530-2026/pdf",
+    "Helmholtz Zentrum München 'various NovaSeq X kits' award, 6 Dec 2024 (value shown as 1.00 EUR, which is a placeholder). The full notice may carry lot values. https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/82eb7f2c-2f02-4f85-8c65-61482f7f69ba"
+  ],
+  "apify_requests": []
+}
+```

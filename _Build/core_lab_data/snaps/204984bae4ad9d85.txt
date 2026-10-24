@@ -1,0 +1,102 @@
+Genomics and Spatial Transcriptomics - Sanford Burnham Prebys
+Skip to content
+Sanford Burnham Prebys
+Primary Menu
+Research
+Research
+Overview
+Disease-Focused Centers
+Research
+Disease-Focused Centers
+NCI-Designated Cancer Center
+Research
+NCI-Designated Cancer Center
+Overview
+Shared Resources
+Community Advisory Board
+Collaborations
+Leadership
+Training
+Events
+Center for Cardiovascular and Muscular Diseases
+Center for Neurologic Diseases
+Center for Metabolic and Liver Diseases
+Enabling Technology Centers
+Research
+Global Search
+Search for:
+Search
+Donate
+Genomics and Spatial Transcriptomics
+OverviewServicesEquipment & ResourcesPrice ListContact
+Overview
+The Sanford Burnham Prebys Genomics and Spatial Transcriptomics Core Facility offers a comprehensive range of genomics services, including:
+Full-service library preparation: Utilizing an automated liquid handler for fast turnaround times and minimal sample variation.
+RNA and DNA quality assessment: Precise sizing and quantification using the Qubit Instrument and Agilent TapeStation System.
+Next-Generation Sequencing (NGS): Cost-effective and high-accuracy sequencing with the Element Biosciences AVITI24 system.
+Epigenomics: Full-service epigenomic profiling from cells, including CUT&RUN, CUT&TAG, TIP-CHIP, and ATAC-seq for chromatin accessibility and protein-DNA interaction analysis.
+Single-cell/nuclei library preparation: Detailed cellular analysis with the 10X Genomics Chromium X and Illumina PIPseq systems.
+Spatial transcriptomics analysis: High-resolution spatial gene expression mapping with the 10x Genomics CytAssist system and Nanostring GeoMx Digital Spatial Profiler.
+Cytoprofiling: Multiomic cytoprolfiling with the AVITI24 platform from Element Biosciences.
+To complement our technical services, we offer scientific advising to assist with experimental design and data analysis. Our close collaboration with the Bioinformatics Core ensures comprehensive support for data interpretation and meaningful insights.
+For all inquiries, please contact core director Rebecca Porritt at rporritt@sbpdiscovery.org.
+Services
+Next-Generation Sequencing (NGS)
+We offer full-service library preparation and sequencing on the Element Biosciences AVITI24 platform, which provides industry-leading accuracy at competitive pricing. With dual independent flow cells and a 1.5B read capacity, the AVITI enables high-throughput sequencing for RNA and DNA libraries. Flexible flow cell configurations available.
+NGS Library Preparation
+We provide quality control (QC) and library preparation for various sequencing applications:
+RNA Sequencing: Poly-A RNA-seq and Whole Transcriptome RNA-seq (ribo-depleted)
+Genomic Sequencing: Whole Genome Sequencing, Whole Exome Sequencing
+Epigenomics: ChIP-Seq, CUT&RUN
+Indexing & Molecular Barcoding
+Our epMotion 5075 liquid handling system supports high-throughput library preparation, processing up to 96 samples per batch with minimal handling variation.
+Single-Cell Library Preparation
+We provide single-cell library preparation from user-supplied single-cell or single-nuclei suspensions. Our available platforms include:
+10X Genomics Chromium X: A highly versatile system supporting:
+Single-cell RNA-seq
+Single-cell ATAC-seq
+Single-cell multiomics (RNA-seq + ATAC-seq)
+Single-cell immune profiling
+Feature barcoding (CITE-seq, Cell Multiplexing)
+Targeted library preparation
+Illumina PIP-seq System: A cost-effective platform optimized for 3′ single-cell RNA sequencing (scRNA-seq).
+Spatial Transcriptomics
+We offer three spatial transcriptomics technologies:
+AVITI24 Teton Cytoprofiling
+Multiomic cytoprolfiling including Cell Paint (morphology), RNA and protein.
+Direct In Sample Sequencing (DISS).
+Subcellular resolution.
+10X Genomics Visium HD
+Provides 2µm-resolution whole-transcriptome spatial analysis.
+Compatible with FFPE and FF tissues, processed via the CytAssist Instrument to transfer probes to a barcoded capture slide.
+Enables precise spatial transcript expression mapping.
+GeoMx Digital Spatial Profiler (NanoString)
+Enables whole-transcriptome RNA or multiplex protein analysis in FFPE and fresh-frozen tissue.
+Regions of interest (ROIs) are defined using antibody-based tissue staining.
+We provide quality assessment using:
+Qubit Fluorometer (ThermoFisher): Highly accurate DNA/RNA/protein quantification.
+Agilent TapeStation 4200: Provides sizing, quantification, and integrity assessment for DNA and RNA.
+NanoDrop Spectrophotometer: Measures nucleic acid concentration with microvolume capabilities.
+Cell Line Authentication
+We offer STR-based human cell line authentication using the GenePrint 10 (Promega) system.
+Training
+We offer instrumentation training for personnel who want to reserve, and use select instruments on their own.
+Equipment & Resources
+NGS Library Preparation and Sequencing
+Element Biosciences AVITI24 Sequencer: Cost-effective and high-accuracy sequencing.
+Eppendorf epMotion 5075 Liquid Handler: Automated, high-throughput library preparation.
+Single-Cell Library Preparation
+10X Genomics Chromium X: Single-cell transcriptomics and ATAC.
+Illumina PIP-seq: Cost-effective 3′ scRNA-seq with flexible scaling.
+Spatial Transcriptomics
+AVITI24 Teton Cytoprofiling: High resolution and flexible multiomic cell profiling.
+10X Genomics CytAssist for Visium HD: High-resolution whole transcriptome mapping.
+NanoString GeoMx Digital Spatial Profiler: Whole transcriptome & protein spatial profiling.
+Common-Use Instruments
+qPCR Systems: Roche LC480 & LC96, ABI 7900HT, Stratagene Mx3000p.
+Plate Reader: ThermoFisher Varioskan™ LUX for absorbance, fluorescence, luminescence, and more.
+Price List
+For a complete list of services, please call (858) 646-100 ext. 5130 or email us.
+Leadership
+Peter D. Adams, PhD
+Scientific Director

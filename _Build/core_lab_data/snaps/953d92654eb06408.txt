@@ -1,0 +1,97 @@
+Service Fees | USEQ
+ServicesServices we support
+Spatial Omics – Nanostring GeoMX and CosMX
+SNP Fingerprinting
+Next Generation Sequencing
+Library Preparation
+Single Cell Sequencing
+DNA / RNA isolation
+Bioinformatics Data Analysis
+Consultancy Service
+Service FeesPricing overview
+Sample SubmissionSample & account details
+USEQ user portalPersonal environment
+ContactGet in touch!
+FAQ
+Menu
+Service Fees
+We provide support for a broad range of services, including Next Generation Sequencing, sample preparation, DNA/RNA isolation and SNP fingerprinting. UMC Utrecht, and NWO subsidize the facility allowing clients to pay only running and personell costs.
+UMCU clients: login for the internal price list
+Please contact us for a quotation.
+Pricing overview
+Note that prices can be updated regularly. This list is published 01-08-2026.
+Cost at the date of experiment execution will be applied on your invoice, so this might be different from the automatic quote during submission.
+Service | Reads (M) | Type | Price per | Price (excl VAT) |
+Qiagen DNA isolation | | Isolation | Sample | € 27 |
+Qiagen RNA isolation | | Isolation | Sample | € 28 |
+| | | | |
+mRNA Ribo depletion | | Sample prep | Sample | € 176 |
+mRNA Poly-A | | Sample prep | Sample | € 90 |
+DNA Truseq nano | | Sample prep | Sample | € 96 |
+Nanopore Library prep | | Sample prep | Sample | € 81 |
+| | | | |
+SNP Fingerprinting (64 SNPs; >= 48 samples) | | Fingerprinting | Sample | € 56 |
+| | | | |
+NextSeq™ 2000 P4 XLEAP-SBS™ (50 Cycles) | 1.800 | Sequencing | Run | € 3.503 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (100 Cycles) | 1.800 | Sequencing | Run | € 4.533 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (200 Cycles) | 1.800 | Sequencing | Run | € 5.848 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (300 Cycles) | 1.800 | Sequencing | Run | € 7.210 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (600 Cycles) | 100 | Sequencing | Run | € 2.532 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (300 Cycles) | 100 | Sequencing | Run | € 1.959 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (100 Cycles) | 100 | Sequencing | Run | € 1.650 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (600 Cycles) | 400 | Sequencing | Run | € 4.148 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (300 Cycles) | 400 | Sequencing | Run | € 3.881 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (200 Cycles) | 400 | Sequencing | Run | € 3.136 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (100 Cycles) | 400 | Sequencing | Run | € 2.070 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (300 Cycles) | 1.200 | Sequencing | Run | € 5.680 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (200 Cycles) | 1.200 | Sequencing | Run | € 4.474 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (100 Cycles) | 1.200 | Sequencing | Run | € 3.469 |
+| | | | |
+iSeq 100, 2x 150bp, 4M reads | 4 | Sequencing | Run | € 1.425 |
+| | | | |
+Novaseq X 1.5B (100 cycles) | 1.500 | Sequencing | Run | € 4.050 |
+Novaseq X 1.5B (200 cycles) | 1.500 | Sequencing | Run | € 4.565 |
+Novaseq X 1.5B (300 cycles) | 1.500 | Sequencing | Run | € 4.772 |
+Novaseq X 10B (100 cycles) | 10.000 | Sequencing | Run | € 7.046 |
+Novaseq X 10B (200 cycles) | 10.000 | Sequencing | Run | € 8.126 |
+Novaseq X 10B (300 cycles) | 10.000 | Sequencing | Run | € 8.926 |
+Novaseq X 10B (single lane, 300 cycles) * | 1.250 | Sequencing | Run | € 1.251 |
+Novaseq X 25B (300 cycles) | 25.000 | Sequencing | Run | € 19.088 |
+Novaseq X 25B (200 cycles) | 25.000 | Sequencing | Run | € 17.107 |
+Novaseq X 25B (100 cycles) | 25.000 | Sequencing | Run | € 14.077 |
+| | | | |
+Nanopore MinIon | | Sequencing | Run | € 1.517 |
+Nanopore PromethION | | Sequencing | Run | € 2.105 |
+Nanopore MinIon Flowcell only | | Sequencing | Flowcell | € 718 |
+Nanopore PromethION Flowcell only | | Sequencing | Flowcell | € 1.180 |
+| | | | |
+10X 3' RNA sc prep GEM-X | | Single Cell | Sample | € 1.889 |
+10X Flex sc prep | | Single Cell | Sample | € 2.217 |
+10X 5' RNA sc prep GEM-X | | Single Cell | Sample | € 1.889 |
+10X TCR/BCR | | Single Cell | Sample | € 182 |
+10X 3' RNA sc prep GEM-X on chip multiplex 4 samples | | Single Cell | Sample | € 2.022 |
+10X FLEX (singleplex) | | Single Cell | Sample | € 2.402 |
+Cell surface protein | | Single Cell | Sample | |
+10X FLEX (4 x 4 plex) | | Single Cell | Sample | € 3.991 |
+10X FLEX (4 x 16 plex) | | Single Cell | Sample | € 8.689 |
+RNAseq (PolyA prep + 20 M reads)* | 20 | RNAseq | Sample | € 119 |
+WGS 15x (prep + 50 Gbases)* | 166 | WGS | Sample | € 277 |
+WGS 30x (prep + 100 Gbases)* | 333 | WGS | Sample | € 449 |
+WGS 90x (prep + 300 Gbases)* | 1.000 | WGS | Sample | € 1.137 |
+* Turn around time can vary | | | | |
+Consultancy Service
+For expert advice on your NGS-based research and the possibilities USEQ offers to get the most out of your samples: request a meeting at our consulting hour, each Friday at 1:30pm. Experimental design, technology, platform and library preparation choice, standard bioinformatics analysis, results and follow-up experiments are discussed. The facility manager ensures to bring the right experts from any of the participating organisations to the table.
+You can request a meeting at useq@umcutrecht.nl.
+NEWS
+Check out our new Spatial Omics services with nanostring GeoMX & CosMX
+NovaSeq X 10B, single lane (1250M reads, 2x150bp) is often a very cost effective choice!
+UTRECHT SEQUENCING FACILITY
+Please contact us to discuss the possibilities for your research
+Email: useq@umcutrecht.nl
+Visiting Address:
+Utrecht Sequencing Facility Stratenumgebouw UMCU
+Universiteitsweg 100, STR 2.203
+3584 CG Utrecht
+The Netherlands
+route
+Our Partners

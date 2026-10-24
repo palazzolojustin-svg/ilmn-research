@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "Only 3 tool calls used. NCSU GSL page loads but shows no lane prices. It has dated outsourcing wording only, and the prices are in a Unity-ID-gated sheet. The FAU PDF came back as raw compressed binary (saved locally) and was not parsed. Cornell BRC has no public price. I saw only a search snippet of its spotlight page. The search also surfaced a UChicago 25B lane price not in the corpus. No 14B, 35B, 6000 or AVITI line appeared anywhere. One weak, new data point on 25B dispersion and one on platform switching to outsourced X lanes. Neither is evidence of an Illumina price cut.",
+  "how_to_mine": "1) Parse the saved FAU PDF locally. Path: C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\867d0ca5-6e05-46e0-a47a-972fc95540f1\\tool-results\\webfetch-1791797496426-4dcjtg.pdf. Use pypdf or pdftotext and run with python -I. 2) Fetch the Cornell spotlight page, https://biotech.cornell.edu/spotlight/new-services-brc-genomics-facility-lower-cost-novaseqx-novaseq6000-sequencing-runs-udi. Get its date and any lane prices. 3) Fetch https://voices.uchicago.edu/genomicsfacility/pricing-new and confirm the effective date and the 10B and 25B rows. Also check for 6000 and AVITI rows. 4) Re-check the NCSU page after Jan 2027 for a 35B line. Prices there are Unity-ID-gated, so contact-only.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UChicago Genomics Facility lists a NovaSeq X 25B-300 (PE150) lane at $2,461 for academic users, within a wide core-to-core spread.",
+      "detail": "Search snippet only (not opened): $2,461 per 25B-300 lane for internal, affiliated and academic users, and $2,599 for commercial. At roughly 1,000 Gb a lane (the corpus's own Novogene assumption, not stated in the snippet) that is about $2.46/Gb. It sits between Harvard's $2,059 and UConn's $2,934 per lane, which adds one more point to the evidence that core pricing is policy-driven. The effective date is unconfirmed.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "2026 (undated in snippet)",
+      "source_name": "UChicago Genomics Facility pricing (search snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UChicago is not among the core rate cards already used."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NCSU GSL now offers outsourced NovaSeq X sequencing with a $149 GSL processing fee, effective 24 Apr 2026.",
+      "detail": "The page states the new service rates take effect 24 Apr 2026 and that outsourced NovaSeq X sequencing adds a $149 fee for GSL processing. Lane prices are not public, and the internal-rate sheet needs a Unity ID. Cornell's BRC similarly says it contracts external sequencing at low rates and no longer loads NovaSeq in-house (search snippet; date unseen). Two university cores moving X work to outside providers fits the research-customer price-sensitivity thesis, but neither source gives a price or an Illumina discount.",
+      "url": "https://research.ncsu.edu/gsl/pricing/",
+      "date": "2026-04-24",
+      "source_name": "NCSU Genomic Sciences Lab pricing page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "NCSU and Cornell outsourcing are not in the known core-facility list."
+    }
+  ],
+  "new_candidates": [
+    "UChicago Genomics Facility pricing-new page: confirm the date and read 10B, 25B, 6000 and AVITI rows.",
+    "Cornell biotech.cornell.edu spotlight on lower-cost NovaSeq X and 6000 runs through an external provider: identify the provider and the rates.",
+    "University of Illinois DNA Services pricing, https://biotech.illinois.edu/dna-services-core/dna-services-pricing/, surfaced in search and is not in the corpus."
+  ],
+  "apify_requests": []
+}
+```

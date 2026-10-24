@@ -1,0 +1,84 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A large Illinois core's Illumina reagent discount rose from 10% (2012) to 20.1% off list (2019), and the 2024 sole-source renewal states no discount at all.",
+      "detail": "The Board's 2012 purchase item (est. $3.0M) cites a negotiated 10% volume discount off list. The Mar 2019 renewal (est. $5.0M, first of five options) reports added price cuts bringing the total to 20.1% off suggested retail. The May 2024 item (est. $25M over Jul 2024–Jun 2029, one five-year renewal option) shows no discount wording in the snippets. The Board's 2018 filing (per one search summary) cited 5%/10%/12% item discounts. The figures come from search-result summaries, not from text I read in the files. A buyer that had been extracting concessions for a decade now has a five-year lock with no visible discount language, which is ambiguous.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/March-14-2019/036-mar-Purchases-Renewal-Report.pdf",
+      "date": "2019-03-14 (series 2012–2024)",
+      "source_name": "University of Illinois Board of Trustees purchase reports",
+      "source_type": "procurement",
+      "quote": "total discount to 20.1% off suggested retail",
+      "strength": "medium",
+      "why_new": "Gives a dated discount-depth series (10% → 20.1%) for one large academic Illumina account; the exclusion list has only the 5/10/12% tiers (F1079)."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "In the Mar 2020 renewal, Illinois reported negotiated discounts of 3% to 30% across consumable types, which shows wide, item-level dispersion in net pricing.",
+      "detail": "A search summary of the Mar 2020 Purchases/Renewal Report says 'negotiations resulted in discounts of 3% to 30% for a majority of the different consumable types'. The report is a sole-source Illumina reagent renewal for the Carver Biotechnology Center. A 27-point spread within one account fits individualized quoting and room to deepen discounts. Snippet-level only; the 2020 item amount quoted ($2.08M) may be a separate line.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/March-12-2020/027-mar-Purchases-Renewal-Report.pdf",
+      "date": "2020-03-12",
+      "source_name": "University of Illinois Board of Trustees purchase report",
+      "source_type": "procurement",
+      "quote": "discounts of 3% to 30% for a majority of the different consumable types",
+      "strength": "medium",
+      "why_new": "A new data point on discount dispersion at one named account, dated 2020."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Illinois's Carver Center Illumina reagent budget was $5M/yr in 2018–2023 and the 2024 five-year approval ($25M) works out to the same $5M/yr, so research spend authority was flat rather than falling.",
+      "detail": "Annual estimates were $3M (2013–2016) and $5M (2018 renewal schedule, Jul 2018–Jun 2024). May 2024 approves $25,000,000 for Jul 2024–Jun 2029, which is $25M/5 = $5M/yr. Spend is flat in nominal terms while the center added a NovaSeq X Plus (Mar 2023, est. $1,078,438 one-time). These are ceiling estimates, not actual spend, so they don't show price versus volume. They do show no budget cut despite X-era per-Gb deflation.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/May-16-2024/19a-May-24-Purchase-Recommendations.docx",
+      "date": "2024-05-16",
+      "source_name": "University of Illinois Board of Trustees purchase recommendations",
+      "source_type": "procurement",
+      "quote": "Cost $25,000,000.00 (estimated)",
+      "strength": "weak",
+      "why_new": "The exclusion list has only the $25M ceiling (F1078). This adds the $5M/yr arithmetic against the 2013–2023 budget history."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illinois's Carver Center bought a NovaSeq X Plus in Mar 2023 but still ran six Illumina sequencers in 2024, and its DNA Services lab lists a NovaSeq 6000 alongside the X Plus.",
+      "detail": "The Mar 2023 Board item approved a NovaSeq X Plus system at an estimated $1,078,438 (sole source). The May 2024 item says the center 'currently owns six Illumina DNA Sequencing Instruments'. The center's DNA Services page lists both a NovaSeq 6000 and a NovaSeq X Plus. About 2 years after the X purchase, a large academic core keeps both platforms, which fits a slow-converting tail. The 6000 listing is from a search snippet and the page was not opened or dated.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/March-30-2023/025-mar-23-purchases-and-renewals.docx",
+      "date": "2023-03-30 / 2024-05-16",
+      "source_name": "University of Illinois Board of Trustees; Carver Biotechnology Center",
+      "source_type": "procurement",
+      "quote": "currently owns six Illumina DNA Sequencing Instruments",
+      "strength": "weak",
+      "why_new": "A named academic core running both the 6000 and the X Plus, with a purchase price for the X Plus ($1.08M)."
+    }
+  ],
+  "source_status": "blocked",
+  "notes": "WebFetch returns binary for the .docx and PDF files. They are saved locally under C:\\Users\\palaz\\.claude\\projects\\...\\1ffba8bc-f215-4b51-b3b5-a55ec86f2eec\\tool-results\\ (webfetch-1791800799044-siv4yk.docx is the May 2024 file; webfetch-1791800828525-xo4pvv.pdf is the Mar 2020 file; webfetch-1791800829285-pdogc9.pdf is the Mar 2018 file). Read cannot open them, and Bash/PowerShell and poppler are unavailable here. A later agent with a shell should unzip the docx (word/document.xml) and run pdftotext. Priorities are the exact 2024 discount language, the 2020 $2.08M line and the 2019 20.1% context. No 2025 or 2026 Illumina item was found in search. Because the 2024 contract runs to 2029, a new item is unlikely. The Sep 2019 and 2021–2023 renewals and any UIC or UIS items are unchecked. All numbers above come from search summaries, not from text I read in the files.",
+  "leads": [
+    {
+      "name": "UIUC Carver HTS DNA Services pricing page",
+      "url": "https://biotech.illinois.edu/htdna",
+      "access": "public web",
+      "labels": ["1A", "1B", "2A"],
+      "rationale": "It lists the NovaSeq 6000 and the X Plus with rates, so it could show internal vs external prices and the 6000-to-X per-Gb gap."
+    },
+    {
+      "name": "Board of Trustees agenda archive (Sep 2019 and 2021–2023 purchase reports)",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/",
+      "access": "public web; docx/pdf need local extraction",
+      "labels": ["1B"],
+      "rationale": "These would fill in the discount-percentage time series for each renewal year."
+    },
+    {
+      "name": "Illumina Reagents and Consumables solicitation (NIH 75N92025R00033)",
+      "url": "https://oversight.govsignals.ai/opportunity/illumina-reagents-and-consumables-75n92025r00033",
+      "access": "public web",
+      "labels": ["2A", "1B"],
+      "rationale": "It may be the same NIH vehicle already known (F765), but it could carry discount terms."
+    }
+  ],
+  "apify_requests": []
+}
+```

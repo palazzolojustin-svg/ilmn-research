@@ -1,0 +1,30 @@
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR full-text search endpoint (efts.sec.gov) is reachable, but through the fetch tool it returns only filer, form and date metadata with no text snippets. Its top hits for 'Illumina' + 'purchase commitment' were PacBio and Standard BioTools, which are not Illumina customers. A follow-up web search found no Guardant, GeneDx, Tempus, Exact or BillionToOne filing with a minimum Illumina purchase commitment. Illumina's own FY25 10-K shows only $184M of aggregate non-cancelable purchase obligations, mostly due in 2026. That is Illumina's outbound commitments, not customer commitments to Illumina. The one possibly new item is an Illumina-hosted 'Open Offer Addendum Section 4(g) disclosure' (22 Apr 2024). Its GRAIL tier schedule is visible only as a search-result summary, and both PDF URLs I tried returned 404. I stopped after 4 tool calls because the source gave no new customer-side data.",
+  "how_to_mine": "Do not use EDGAR full-text search through a text-only fetcher, because it returns no snippets. Instead, open each issuer's 10-K exhibit index directly (Natera CIK 1604821, Caris CIK 2019410, Guardant, Tempus, GRAIL, GeneDx). Compare the Illumina amendments year over year and look for 'Ultima', 'Element' or 'second source' language in the risk-factor and supplier sections. Separately, locate a working copy of the Illumina Open Offer Addendum 4(g) PDF, for example via the Illumina test-terms page or web.archive.org, and read the GRAIL discount tiers and any later addenda.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's April 2024 Open Offer addendum reportedly gives GRAIL a tiered consumables discount that rises to 22% at $100M+ of annual spend.",
+      "detail": "Seen only as a search-result summary, not opened. The summary says the 22 Apr 2024 Section 4(g) disclosure sets discounts from 0% at the lowest spend tier up to 22% at $100M or more of annual sequencing consumables spend. If accurate, it puts a number on the largest-account discount ladder. The earlier GRAIL agreement was described as priced at list in Illumina's discretion, so this would show a formal volume discount, and it caps at 22%. Both PDF URLs returned 404, so the figure is unverified.",
+      "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf",
+      "date": "2024-04-22",
+      "source_name": "Illumina Open Offer Addendum Section 4(g) disclosure (search-result snippet)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has Open Offer and GRAIL terms but no GRAIL tiered-discount schedule with a 22% top tier."
+    }
+  ],
+  "new_candidates": [
+    "Illumina Open Offer Addendum Section 4(g) disclosure PDF (Apr 2024), via web.archive.org or the Illumina test-terms page: GRAIL discount tiers",
+    "Natera, Caris, Guardant, Tempus and GRAIL exhibit-index pages on sec.gov for Illumina amendments filed in 2025-2026"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [Illumina FY2025 10-K](https://www.sec.gov/Archives/edgar/data/1110803/000111080326000024/ilmn-20251228.htm), [Illumina test terms](https://www.tst-web.illumina.com/areas-of-interest/cancer/test-terms.html)

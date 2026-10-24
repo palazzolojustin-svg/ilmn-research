@@ -1,0 +1,11 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 4 tool calls. WebFetch returned HTTP 404 for ab0475462, ab0466128 and ab0451995, so the PDFs are no longer served. A web search for the AgriLife PDFs returned the same URLs as indexed titles with no text. That search's summary said the indexed orders are all from 2018-2019 and none lists a NovaSeq X or 25B kit (cat. 20104706). I did not try the other listed PDFs, probe higher ab05*/ab06* numbers, or search the LBB Contracts Database. The 404s suggest the posting is stale or removed. The only price data available is the 2018-19 NovaSeq 6000 pricing from the search snippet (S4-300 about $18,776, S2-300 $14,962.50, S1-300 $8,550). That predates the thesis window and is too old to establish a trend.",
+  "how_to_mine": "If revisited: (1) Search the LBB Contracts Database (lbb.texas.gov) and the Texas SmartBuy/CMBL (Centralized Master Bidders List) for vendor 'Illumina'. (2) Check the Texas A&M AgriLife purchasing 'contracts posted' page for current document paths, since the old /documents/ab0*.pdf URLs return 404. (3) Check UT System campus purchasing disclosure pages. Look for 25B or 10B catalog numbers 20104706 and 20104704, and compare net price with the roughly $14,500 list price (Jan 2025).",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

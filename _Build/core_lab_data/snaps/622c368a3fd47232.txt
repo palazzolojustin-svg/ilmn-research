@@ -1,0 +1,121 @@
+Genomics Core | Cleveland Clinic Research
+About
+Science
+Laboratories
+Office of Research Development
+Clinical Research
+Participating in Research
+Departments
+Biomedical Engineering Cancer Sciences Computational Life Sciences Florida Research & Innovation Center Genomic Sciences & Systems Biology
+Heart, Blood & Kidney Research Inflammation & Immunity Microbial Sciences in Health Neurosciences Ophthalmic Research Quantitative Health Sciences
+Centers & Programs
+Advanced Musculoskeletal Imaging Angiogenesis Center Cardiovascular Diagnostics & Prevention Cell Therapy & Immunoengineering Program Consortium for Pain Genitourinary Malignancies Research Genome Center Global Center for Immunotherapy & Precision Immuno-Oncology Microbiome & Human Health
+Musculoskeletal ResearchNeuro-Oncology ProgramNorthern Ohio Alcohol Center Pathogen & Human Health Research Populations Health Research Quantitative Metabolic Research Therapeutics Discovery Translational and Correlative Sciences Service Tumor Pathophysiology & Evolution Program Women's Cancers Program
+Core Services
+Ohio
+3D Printing Bioimage AnalysisBioRobotics & Mechanical Testing Cell Culture Cleveland Clinic BioRepository Computational Oncology Platform Discovery Lab Electron Microscopy Electronics Engineering
+Flow CytometryGenomic Medicine Institute Biorepository Genomics Glassware Histology Hybridoma Immunohistochemistry Immunomonitoring Lab Instrument Refurbishing & Repair Laboratory Diagnostic
+Lerner Research Institute BioRepository Light MicroscopyMechanical Prototyping Microbial Culturing & Engineering Microbial Sequencing & Analytics Media Preparation Molecular Biotechnology Nitinol Polymer Proteomics & Metabolomics SomaScan & Biomarker
+Florida
+Flow Cytometry
+Imaging
+Education & Training
+Graduate Programs Molecular Medicine PhD Program Postdoctoral Program
+Global Research Education Research Intensive Summer Experience (RISE) Undergraduate & High School Programs
+News
+❮Core Services Genomics Core
+Genomics Core
+About
+Services
+Equipment
+Grant & Publications
+Acknowledgment Guidance
+About Us
+About Us
+The mission of Cleveland Clinic Research Genomics Core is to provide easy access to state-of-the-art DNA and RNA services to Cleveland Clinic investigators, as well as external academic and commercial users.
+The Genomics Core uses cutting-edge genomics technology to generate top-quality data with a rapid turn-around time at an affordable cost. We offer a wide range of services, including Illumina microarray-based gene expression profiling, genotyping and next-generation sequencing (NGS). Our lab is equipped with the renowned Illumina MiSeq desktop sequencer and the Illumina NovaSeq 6000, which enable rapid and effective targeted and whole genome analyses. We prepare and normalize libraries for RNA-seq, miRNA-seq, DNA-Seq, whole genome sequencing, and single-cell RNA-seq. Other services include DNA/RNA QC on an Agilent Technologies Bioanalyzer and Tapestation systems, shearing of DNA and chromatin with Covaris S2 technology and microarray data analysis support. We also collaborate with the Genomic Medicine Biorepository to extract DNA and RNA for our users.
+The Genomics Core team can work with individual users to provide services not listed here. We also provide letters of support for federal and nonfederal grant applications and are open to research collaborations. Please contact the Genomics Core at [email protected] or 216.444.7124 for service requests and daily communication. All scientific questions or questions on design should be directed to Dr. Lim at [email protected].
+To recognize the Genomics Core personnel or technology for support of your research, please refer to the Acknowledgment tab.
+Contacts
+Min Hui Lim, PhD
+Program Manager
+[email protected]
+Flavia Austin, MS
+Shared Laboratory Resource Specialist
+[email protected]
+Juwuk Kim
+[email protected]
+Services
+Services
+Next-Generation Sequencing (NGS)
+The advent of next-generation sequencing (NGS) has revolutionized scientific discovery in fields ranging from human disease research to environmental and agricultural sciences. On a per-sample basis, NGS is significantly cheaper, quicker, needs significantly less DNA than Sanger sequencing and possesses several other advantages:
+Whole transcriptome profiling of model and non-model organisms with a great sensitivity for the discovery of novel transcripts and splice variation, and the ability to obtain strand specific expression patterns
+Accurate detection of SNPs at low coverage and characterization of structural rearrangements including balanced translocations
+Accurate global assessment of DNA-protein binding interactions
+Efficient and cheap microbiome and metagenomic sequencing
+NGS services offered in the Genomics Core include library preparations and sequencing for a wide range of applications, including RNA-seq, miRNA-seq, DNA-Seq, single-cell sequencing, and whole genome sequencing.
+The Genomics Core is equipped with the latest upgrade of the Illumina NovaSeq 6000 as well as the Illumina MiSeq benchtop sequencer allowing us to provide the whole range of next-generation sequencing services at an affordable cost with rapid turnaround time.
+Data Delivery:
+The Genomics Core will send FastQ data to investigators with information about samples processing. Data for Cleveland Clinic users will be deposited investigators’ respective folders that are accessible on the Genomics Core share drives. Users will be informed by email upon completion of projects.
+Outside Cleveland Clinic users will receive an email upon completion of projects with information about how to download their data from our secured FTP server.
+Array-Based Genotyping
+Custom protocols for microarray hybridization depending on RNA concentration (from 500ng/µl to 500pg/µl). RNA is first converted to cRNA and hybridized to probes on chip.
+Illumina iScan
+Microarray chips are scanned using the Illumina iScan.
+Users provide arrays (human or mouse) and total RNA. The Core will perform an RNA quality control step, process the RNA samples if they pass, hybridize to the arrays and produce relevant output files (suitable for Illumina GenomeStudio software).
+DNA, RNA and NGS Library QC
+Quality of samples is one of the most important factors that determines the success of sample processing. The Genomics Core uses well-established quality control procedures to deliver the highest quality of data to our users.
+4200 Tapestation is a high-throughput QC instrument which allows for fragment analysis of RNA and DNA (including gDNA) samples.
+Invitrogen’s Qubit Fluorometer is a fluorometric-based platform and is the best choice for DNA and RNA quantitation. Qubit is more accurate than Nanodrop.
+The QuantaBio Q qPCR instrument is used for NGS library quantification and gene expression analysis.
+DNA, RNA Extraction:
+No time to extract RNA/DNA from samples? No problem. We have partnered with the Genomic Medicine Biorepository in the Genomic Medicine Institute to provide this service to our users. Please contact us for assistance.
+Self Service Chromatin/DNA Shearing
+The Covaris S220 Focused-ultrasonicator is a high-powered system that uses controlled Adaptive Focused Acoustic (AFA) Ultrasonic Technology for shearing DNA, RNA or chromatin to specific fragment lengths in sample volumes ranging from 25 µl to 10 ml. The system can also be used for tissue sonication. Please contact us to inquire about the self-service Covaris S220.
+Single Cell Sequencing
+For Single Cell Sequencing, the Genomics Core and Flow Cytometry Core work as a team to ensure the most efficient and effective workflow.
+When cell sorting is required, the Flow Cytometry Core utilizes the 10X Chromium controller to isolate cells into individual partitions. The Chromium controller can then perform many types of Next Generation Sequencing library preparations, including single-cell gene expression and other protocols found on the 10X website.Once the cells are prepped and cDNA is generated, the Flow Cytometry Core passes the cDNA samples to the Genomics Core.
+When cell sorting is NOT required, the Genomics Core performs from the 10X Chromium controller step to the sequencing. There are several quality control checks and additional steps of the library preparation. Depending on the protocol followed, the library can then be sequenced on the NovaSeq 6000 or MiSeq.
+We provide free consultation on experimental design and sample preparation.
+Ingenuity Pathway Analysis (IPA)
+We also offer license access to the following Qiagen Ingenuity Analysis software. More information can be found by visiting the Qiagen Ingenuity website. Please contact us to request access to IPA licence.
+Equipment
+Equipment
+NovaSeq 6000
+The NovaSeq 6000 is a powerful and efficient ultra-high-throughput sequencing system that supports the broadest range of NGS applications and study sizes. The system uses the unrivaled data quality using Illumina's proven Sequencing by Synthesis (SBS) chemistry. The NovaSeq is a modular system which allows for the generation of massively-parallel sequencing data using a variety of different flow cells necessary for processing of pilot and large-scale genomics projects. Please visit the Illumina website for specifications on the diversity of sequencing capabilities.
+Illumina MiSeq
+The Illumina MiSeq is a powerful desktop sequencing system that is suitable for more focused applications such as amplicon sequencing, small genome sequencing, metagenomics, miRNA-seq, targeted gene expression, and HLA typing as well as cancer and custom gene panel assays. The MiSeq reagent enables up to 15 Gb of output with 25 M sequencing reads and 2 x 300 bp read lengths (600 bp-long fragment) and up to 50 million reads depending on run type.
+Each run on MiSeq is on a one-lane flowcell.
+Samples can be barcoded and highly multiplexed for cost savings.
+Read lengths range from 50 nt, 75 nt, 250 nt to 300 nt.
+Sequencing can be done in one direction (single-end read) or from both ends (paired-ends).
+For sequencing, we can generate all Illumina libraries in the Genomics Core. We also accept libraries prepared by users. All libraries, including those submitted by users will be QC’d at user’s expense to ensure quality. We are not responsible for sequencing failure for libraries submitted by users unless this is caused by sequencer breakdown. Please provide at least 10 µl of pooled libraries with a minimum concentration of 10 nM (see run specifications below).
+MiSeq read lengths and outputs:
+1x 75 nt /2 x 75 nt PE reads (15/50 million reads/flow cell)
+1 x 150 nt /2 x 150 nt PE reads (10/30 million reads/flow cell)
+1 x 250 nt /2 x 250 nt PE reads (10/30 million reads/flow cell
+1 x 300 nt /2 x 300 nt PE reads (25/50 million reads/flow cell)
+Illumina iScan
+Microarray chips are scanned using the Illumina iScan.
+Users provide arrays (human or mouse) and total RNA. The Core will perform an RNA quality control step, process the RNA samples if they pass, hybridize to the arrays and produce relevant output files (suitable for the Illumina GenomeStudio software)
+Agilent Bioanalyzer and Tapestation
+Agilent’s Bioanalyzer and Tapestation systems allow for rapid qualitative analysis of RNA and DNA samples. From degraded to low quantity samples, automated electrophoresis systems allow for accurate analysis of RNA and DNA quality.
+The QuantaBio Q qPCR instrument
+The QuantaBio Q qPCR instrument is used for NGS library quantification and gene expression analysis.
+Covaris S220 Focused-ultrasonicator
+The Covaris S220 Focused-ultrasonicator is a high- powered system that uses controlled Adaptive Focused Acoustic (AFA) Ultrasonic Technology for shearing DNA, RNA or chromatin to specific fragment lengths in sample volumes ranging from 25 µl to 10 ml. The system can also be used for tissue sonication. Please contact us to inquire about the self-service Covaris S220.
+10X Chromium Controller
+The Core utilizes the 10X Chromium controller to isolate cells into individual partitions. The Chromium controller can then perform many different types of Next Generation Sequencing library preparations including single-cell gene expression and other protocols that can be found on the 10X website
+Grant & Publications
+Grant & Publications
+The Genomics Core offers a wide range of genomics services, including high-throughput sequencing, single-cell RNA sequencing, DNA and RNA library preparation, microarray and genotyping applications, and sample quality control. We are equipped with a Novaseq 6000 and MiSeq systems for a variety of sequencing applications. The Genomics Core utilizes an Illumina iScan for genotyping/microarray chip scanning, and sample quality control using an Agilent 2100 Bioanalyzer, 4200 Tapestation, Qubit Fluorometer, qPCR, and a Covaris S2 sonicator. In addition, the Genomics Core is a hub for all external capillary sequencing and oligo synthesis needs for Cleveland Clinic researchers. An Ingenuity Pathway Analysis (IPA) license is maintained by the genomics core and is available to users of the genomics and/or proteomics cores. The Genomics Core is a shared resource of the NCI designated Case Comprehensive Cancer Center (P30CA043703-35) and the NIH Cleveland Clinical and Translational Science Collaborative (CTSC). 
+Several library preparation options which are available for researchers interested in RNA-seq or DNA-seq, including samples with degraded or low-concentration genomic material. In collaboration with the Flow Cytometry Core, the Genomics Core prepares libraries of 10X single cell RNA transcriptomes, which allows for the simultaneous processing of up to ten-thousand individual cells per sample. Constructed genomic libraries can be assessed for quality using microfluidic chips which allow for accurate quantification of RNA and DNA fragments. Genomic libraries are consecutively sequenced on one of our Illumina HTS platforms with the ability to provide between 300 Mb – 3000 Gb of data and can sequence fragments up to 300 bp in length (either unidirectional or paired-end). Genomics Core personnel are here to assist for consultation on which library prep and sequencing options are best for your experiment, resulting in the most cost-effective and robust data sets you need to confidently explore answers to your research questions.
+The Genomics Core team can work with individual users to provide services not listed here. We collaborate with the Genomic Medicine Biorepository for customers who need tissues processed to nucleic acids. We also provide letters of support for federal and nonfederal grant applications and are open to research collaborations. Please contact LRI Genomics Core at [email protected] or Dr. MinHui Lim at [email protected] or 216.444.7124 for service requests and daily communication. All scientific questions/questions on design should be directed to Dr. Lim at [email protected].
+Acknowledgment Guidance
+Acknowledgment Guidance
+Acknowledgments and Authorship
+All work performed by Cleveland Clinic Shared Laboratory Resources should be acknowledged or considered for co-authorship in scholarly publications, presentations, and posters. By acknowledging shared resource expertise and instrumentation, you play a critical role in supporting our mission to maintain access to cutting-edge technology and services on our campus into the future.
+The Cleveland Clinic Shared Laboratory Resources participate in the Research Resource Identifier Initiative to promote transparency and reproducibility of scientific methods. Please include the unique Research Resource Identifier, RRID number, in the Methods or Acknowledgments sections of your manuscripts.
+Example Acknowledgments:
+We acknowledge the Cleveland Clinic Research Genomics Core (RRID: SCR_027093), especially [staff name], for their assistance with [technique/technology].
+This research was supported in part by Cleveland Clinic Research Genomics Core (Cleveland, OH) (RRID: SCR_027093).

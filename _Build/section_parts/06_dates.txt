@@ -1,0 +1,36 @@
+2022-10-01 :: Illumina Investor Day sets mid-teens growth and 25% operating margin targets (month approximate).
+2023-03-01 :: Illumina announces its first long-read sequencing offering (month approximate).
+2023-05-01 :: Illumina long-read product rollout begins (month approximate).
+2023-07-01 :: Illumina receives SEC document request letter (month approximate).
+2023-08-17 :: UBS summit: Schwartz explains 2023 core guidance cut from 6-9% to ~flat; ~260 NovaSeq X orders.
+2023-09-11 :: Morgan Stanley conference: Goswami says ~110 NovaSeq X sold; calls 2024 25% margin target a stretch.
+2023-10-25 :: NovaSeq X 25B flow cell launches (late October; day approximate).
+2023-11-28 :: Evercore conference: Goswami says 2024 revenue roughly flat to 2023; Q3 orders 50 vs 60 expected.
+2023-11-29 :: Piper Sandler conference: new CEO Thaysen rules out large acquisitions; China ~10% of revenue.
+2023-12-15 :: EU Court of Justice hearing on GRAIL jurisdiction (mid-December; day approximate).
+2023-12-17 :: Illumina announces it will divest GRAIL.
+2024-01-09 :: JPM conference: preliminary Q4 2023 beat; 352 NovaSeq X shipped in 2023; $175M cost savings; GRAIL terms targeted by end Q2 2024.
+2024-02-08 :: Q4 2023 earnings and 2024 guidance.
+2024-03-15 :: XLEAP on NextSeq 1000/2000 and P4 flow cell launch (mid-March; day approximate).
+2024-04-15 :: Ankur Dhingra joins Illumina as CFO (mid-April; day approximate).
+2024-05-14 :: RBC conference: Dhingra holds guidance after Q1 beat; GRAIL max cash ~$1B.
+2024-05-29 :: Bernstein conference: Dhingra targets GRAIL decision by end of June 2024.
+2024-08-06 :: Q2 2024 earnings call.
+2024-08-13 :: Strategy update: HSD growth by 2027, +500bps operating margin, $1.5B buyback, 5-base and comprehensive genome previewed.
+2024-11-20 :: Wolfe conference: Dhingra says Q3 volume +40% vs consumables ~+5% "largely price"; China ~$75M/quarter.
+2024-12-03 :: Evercore conference: 528 NovaSeq X installed; 2025 placements framed at 200-240; ≥75% of volume on X targeted for H2 2025.
+2025-01-01 :: Illumina Protein Prep full launch planned for early 2025 (approximate).
+2024-08-01 :: Illumina strategy update sets 2027 targets (high single-digit growth, 26% operating margin); buybacks resume (approximate date)
+2024-10-01 :: MiSeq i100 benchtop sequencer announced (month only)
+2024-12-01 :: MiSeq i100 shipments begin; more than 70 placed by year-end (month only)
+2025-01-13 :: Illumina announces NVIDIA and Truveta partnerships
+2025-01-14 :: JPM 2025: preliminary Q4 2024 (~$1.1B revenue, 91 NovaSeq X placements) and 2025 outlook (low single-digit growth, ~23% margin)
+2025-02-01 :: Illumina placed on China's unreliable entity list after US tariffs (month only)
+2025-02-06 :: Q4 2024 earnings call with full 2025 guidance
+2025-02-25 :: AGBT 2025 investor session: Constellation priced in "hundreds of dollars," 5-billion-cell atlas with Broad, Roche technology overview revealed
+2025-03-01 :: China sanctions bar Illumina from importing/placing new instruments (approximate)
+2025-05-28 :: Bernstein conference: Thaysen reaffirms 2027 plan ex-China, ~$100M cost cuts, explains insider share purchase
+2025-11-19 :: Wolfe conference: Thaysen says China sanctions lifted after Q3 call and 2027 growth target now ex-China
+2026-01-13 :: JPM 2026: preliminary Q4 2025 (+4% cc, +7% ex-China, 95+ X placements, FY EPS ~$4.76–4.79) and BioInsight launch
+2026-02-05 :: Q4 2025 earnings call with 2026 guidance (1%–3% growth incl. China)
+2026-03-03 :: TD Cowen conference: TruPath launched at $395/genome, Q70 and 35B flow cell on roadmap, 2026 guide called prudent

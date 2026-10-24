@@ -1,0 +1,19 @@
+2025-02-01 :: Illumina completes $200M buyback (about 1.73M shares at $115.74) and announces spatial technology (month only)
+2025-03-01 :: China export restrictions on Illumina instruments begin (early March) and Illumina launches $100M cost reduction program; EPS guidance held at about $4.50 (month only)
+2025-04-02 :: US "Liberation Day" tariff announcement (approximate, early April)
+2025-05-08 :: Q1 2025 call: revenue $1.04B, EPS $0.97; FY25 guidance cut to $4.18-4.26B revenue and $4.20-4.30 EPS; China guided separately; Scott Gottlieb named board chair, Keith Meister joins board
+2025-06-01 :: Illumina announces agreement to acquire SomaLogic from Standard BioTools for $350M plus up to $75M (month only)
+2025-07-01 :: US legislation makes domestic R&D spending tax-deductible, lowering Illumina's tax rate (month only)
+2025-07-31 :: Q2 2025 call: revenue ~$1.06B, EPS $1.19; FY25 EPS guidance raised to $4.45-4.55; instrument outlook cut
+2025-08-01 :: Base MiSeq i100 model launch (month only)
+2025-10-01 :: Illumina launches 5-base solution at ASHG and introduces BioInsight (month only)
+2025-10-30 :: Q3 2025 call: revenue $1.08B, EPS $1.34; return to growth ex-China (+2%); NovaSeq X year-end targets exceeded; FY25 EPS guidance raised to $4.65-4.75
+2026-01-01 :: Billion Cell Atlas introduced at JPMorgan healthcare conference with AstraZeneca, Merck and Eli Lilly; new geographic reporting segments take effect (month only)
+2026-01-30 :: Illumina closes SomaLogic acquisition for $350M upfront
+2026-02-05 :: Q4 2025 call: revenue $1.16B, EPS $1.35; FY25 EPS $4.84; 2026 guidance $4.5-4.6B revenue, EPS $5.05-5.20; Eric Green named CMO
+2026-02-15 :: AGBT conference with Illumina as Gold sponsor (approximate, later February)
+2026-01-30 :: Illumina closes the SomaLogic proteomics acquisition for a $363M net cash payment plus potential royalties and milestones.
+2026-04-30 :: Q1 2026 call: revenue of $1.09B (+4.8%) and non-GAAP EPS of $1.15 beat guidance and consensus; more than 80 NovaSeq X placements; 2026 revenue guidance raised $20M to $4.52–4.62B and EPS guidance to $5.15–5.30.
+2026-04-30 :: Illumina's Board authorizes an additional $1.5B of share repurchases.
+2026-07-30 :: Q2 2026 call: revenue of $1.16B (+9.5%), the fastest growth since Thaysen joined, and non-GAAP EPS of $1.31; more than 95 NovaSeq X placements; RoW organic guidance raised to above 5%, clinical consumables to mid-teens, and EPS to $5.30–5.40.
+2026-07-30 :: Illumina announces Michael Sullivan and Julie Coletti joining management and David King and Dan Skovronsky joining the Board; the Billion Cell Atlas reaches six pharma partners.

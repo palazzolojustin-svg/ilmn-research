@@ -1,0 +1,100 @@
+Last update: December 2025 
+FACILITIES AND OTHER RESOURCES 
+University of Idaho 
+Institute of Interdisciplinary Data Sciences (IIDS) 
+IIDS Genomics and Bioinformatics Resources Core Facility 
+Advances in DNA sequencing and transcriptome analysis have ushered in a new era of 
+biological inquiry. To take advantage of these technologies, IIDS has developed a state-
+of-the-art core facility so researchers can study biological processes at the genome-
+scale. To enable the use of these technologies, the IIDS Genomics and Bioinformatics 
+Resources Core not only provides access to technology, but access to staff with the 
+experience and expertise in molecular biology methods and bioinformatics needed to 
+acquire, analyze, and visualize data generated from high throughput technologies in 
+genomic research. 
+Core Facility Infrastructure 
+The Genomics and Bioinformatics Resources Core Facility has equipment necessary to 
+generate data for applications including DNA and RNA sequencing, high throughput 
+sample preparation and quality assurance, and computational resources described 
+below. In addition, there are thermocyclers, centrifuges, microcentrifuges, freezers, 
+refrigerators, gel-imaging systems, vacuum/refrigerated-centrifuges, quantification 
+instruments, and computational resources. The Core facility occupies approximately 780 
+sq. feet of laboratory space in the Integrated Research and Innovation Center (IRIC) 
+room 210 for GBRC technicians, 620 sq. feet of laboratory space in IRIC 142 for users to 
+access equipment, and approximately 300 sq. feet of office space in IRIC rooms 224 
+and 226 at the University of Idaho main campus in Moscow, Idaho. The GBRC has 616 
+sq. feet of space in the Gibb 241/A COVID sequencing lab. The Core facility 
+DNA and RNA Sequencing 
+Sequencing has become an indispensable tool for basic biological research, biomedical 
+research, diagnostics, and biological systematics. Current applications using sequencing 
+include whole genome shotgun sequencing (including de novo sequencing of previously 
+unknown genomes), RNA sequencing (transcriptome sequencing, mRNA sequencing, 
+single-cell RNA sequencing), targeted re-sequencing, single nucleotide polymorphism 
+(SNP) discovery, amplicon sequencing (e.g., 16S microbial community composition 
+analysis, metabarcoding, population genetics, and phylogenetics), methylation 
+identification, structural variant analysis, and many other applications. Equipment for 
+sequence generation includes: 
+AVITI24 High-Throughput Sequencing 
+The Element AVITI24 delivers highly accurate short-read sequencing with exceptional 
+cost efficiency. Its dual-flowcell design provides flexible run scheduling and output up to 
+720 Gb per run, supporting applications from whole-genome sequencing to RNA-seq, 
+targeted panels, metagenomics, and degraded or low-input samples. AVITI’s Avidity 
+Sequencing chemistry produces Q30+ accuracy across the vast majority of bases, with 
+low duplication rates and excellent GC balance. This platform offers a powerful 
+combination of high data quality, fast turnaround, and significantly reduced per-Gb 
+sequencing costs, enabling affordable large-scale or high-depth projects without 
+Last update: December 2025 
+compromising performance. The AVITI24’s 100, 250, 300, 500, and 1,000 million read 
+kit offerings are desirably broad, and when considered in conjunction with its simple to 
+use individually addressable lanes, the result is that the instrument delivers very flexible 
+options to answer a variety of researcher’s questions affordably and dynamically. 
+The AVITI24 integrates high-accuracy sequencing with advanced multiomic cytoprofiling, 
+enabling simultaneous measurement of RNA, protein, morphology, and spatial features. 
+The system supports sensitive transcript detection (up to thousands of transcripts per 
+cell), comprehensive protein mapping of up to 138 targets, and visualization of six key 
+cellular structures for integrated morphological context. High-throughput dynamic assays 
+allow screening of compounds, doses, and gene perturbations across multiple well 
+formats, with up to 96 samples processed in under 24 hours. Spatial resolution at single-
+cell precision captures intracellular localization of RNA and protein expression, providing 
+a unified platform for functional genomics, drug discovery, and mechanistic cell biology.  
+Fluidigm Access Array and Juno Systems 
+The Access Array and Juno Systems provide PCR based, high-throughput, target-
+enrichment designed to work with all the major next-generation sequencing instruments. 
+These systems enable the user to simultaneously enrich multiple unique targets (such 
+as exons) from a large number of samples by using micro-fluidics and PCR. This results 
+in quality sequence data while minimizing the time, cost, and labor required for targeted 
+re-sequencing projects. The Access array can amplify up to 480 loci in 48 samples 
+simultaneously, while the Juno can amplify as many as 2400 loci in 192 samples 
+simultaneously. 
+Advanced Analytical Fragment Analyzer 
+The Fragment Analyzer is a 12-lane electrophoresis array that provides accurate 
+fragment quantification and qualification. It can quantify and qualify genomic DNA, total 
+or purified mRNA, and prepared libraries in a range of sensitivities. 
+High Throughput Sample Preparation and Quality Assurance 
+Access to equipment for high throughput sample preparation gives investigators abilities 
+for increased throughput and reduction of sample-to-sample variability over manual 
+methods. In addition to providing high-end equipment for generating sample data, the 
+Core enables researchers to perform accurate assessment of sample quality before 
+committing extensive financial resources to a project. Equipment for sample preparation 
+and QA in the Core include: 
+Kingfisher Flex: The Kingfisher Flex is a bead-based sample preparation system that 
+Sage Science BluePippin: The BluePippin allows selection of high molecular weight 
+DNA for long-range genomic applications such as genome sequencing. 
+Fluorometry: The DNA or RNA in samples can be quantified using fluorescent assays. 
+For multiple samples in a 96-well plate format these assays can be conducted using the 
+Gemini XPS microplate reader from Molecular Devices.  Smaller numbers of samples 
+can be assayed using the Qubit 2 and 3 from Life Technologies. Accessible by clients in 
+the user-core also. 
+Applied Biosystems StepOne Plus qPCR instrument: Accurate quantification of 
+sequenceable library is essential for a successful sequence run. This instrument allows 
+rapid and accurate quantification of Illumina libraries, thus improving cluster 
+management on the flow cell and sequence quality. Also accessible by clients in the 
+user-core. 
+Applied Biosystems 7500 Fast Dx Real-Time PCR Instrument: The Applied Biosystems 
+7500 Fast Dx Real-Time PCR Instrument with SDS Software is a real-time nucleic acid 
+amplification and five-color fluorescence detection system available for in vitro diagnostic 
+use in addition to library quantification.  Accessible by clients in the user-core. 
+Bio-Rad QX220 Droplet Digital PCR System: Bio-Rad’s second-generation digital PCR 
+system provides absolute quantification of target DNA or RNA molecules using 
+EvaGreen or TaqMan Hydrolysis Probes. Unmatched sensitivity and precision for 
+various applications including library quantification. Accessible by clients in the user-
+core. 

@@ -1,0 +1,170 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Pitt's CAP/CLIA clinical-grade sequencing core added a second NovaSeq X Plus between April 2025 and late 2026 but kept its NovaSeq 6000 running, so the two platforms run side by side at a clinical lab and the 6000 is not being retired 1-for-1.",
+      "detail": "The April 2025 Pitt Shared Research Facilities feature lists the HTGC fleet as one NovaSeq 6000, one NovaSeq X Plus and a MiSeqDx. The current HTGC equipment page lists '2 – NovaSeq X Plus' and '1 – Novaseq 6000'. HTGC calls itself a CAP/CLIA, 'clinical-grade' facility where research and clinical specimens share one workflow. The new capacity went onto the X while the 6000 stayed in service, and its June 2025 price sheet still sells S2, SP and S4-35 6000 flow cells.",
+      "url": "https://www.genomics.pitt.edu/about/equipment",
+      "date": "2025-04 (feature) vs page accessed 2026-10-12",
+      "source_name": "University of Pittsburgh HTGC equipment page; Pitt Shared Research Facilities April 2025 RRN feature (https://www.sharedfacilities.pitt.edu/news/april-2025-rrn-feature-center-advanced-genomics-high-throughput-genomics-core)",
+      "source_type": "other",
+      "quote": "The NovaSeq 6000 ... is still used to deliver robust and accurate data",
+      "strength": "medium",
+      "why_new": "F264 used only Pitt's price sheet. The fleet change (X added, 6000 kept) at a CLIA core is not in the ledger."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Pittsburgh's clinical high-throughput genome effort launched in 2018 with five NovaSeq 6000s. The Pitt HTGC, which looks like a related Shadyside CLIA lab, now lists one 6000 and two X Plus, so most 6000 capacity there has gone but one unit survives.",
+      "detail": "UPMC's June 2018 release says the UPMC/Pitt Genome Center opened with 'five next-generation NovaSeq 6000 systems' as a CLIA whole-genome center. The current HTGC equipment page lists one 6000 and two X Plus, and HTGC calls the 6000 'the first of HTGC's sequencing instruments.' That fits roughly 4 of 5 6000s gone with 2 X Plus added, about 2 X per 4 retired 6000s, which is consolidation. The link between the two entities is not confirmed: the UPMC Genome Center domain now redirects to the UPMC Enterprises portfolio page.",
+      "url": "https://www.upmc.com/media/news/062618-genome-center",
+      "date": "2018-06-26 vs 2026-10",
+      "source_name": "UPMC press release; Pitt HTGC equipment page",
+      "source_type": "press",
+      "quote": "five next-generation NovaSeq 6000 systems",
+      "strength": "weak",
+      "why_new": "A 2018-to-2026 fleet count at a US academic/clinical genome center is not in the ledger. The entity link is unverified."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Pitt HTGC cut its internal NovaSeq X 1.5B lane prices by about 8% to 20% between the 11/01/2024 sheet and the 6/01/2025 sheet.",
+      "detail": "A search-result snippet of the 11/01/2024 Pitt internal sheet shows 1.5B lanes at $1,854 (100-cycle) and $2,554 (200-cycle). The 6/01/2025 live sheet shows $1,714 and $2,054. That is -7.6% (1,714/1,854) and -19.6% (2,054/2,554) in seven months, on the mid-throughput X flow cell. It matches the UCLA cuts on 10B/1.5B lanes (F059) at a second core. The 25B and 10B rows for Nov 2024 were not visible, so it is unknown whether the flagship held.",
+      "url": "https://www.genomics.pitt.edu/about/pricing",
+      "date": "2024-11-01 vs 2025-06-01",
+      "source_name": "Pitt HTGC internal price sheet (2024 values from search-result snippet)",
+      "source_type": "price_list",
+      "quote": "Pitt/UPMC Internal prices effective 6/01/2025",
+      "strength": "medium",
+      "why_new": "The first time series for Pitt, which the ledger had only as a single June 2025 snapshot."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Pitt's X ladder carries one of the steepest within-X premiums seen: the 10B costs ~1.5x and the 1.5B ~3.1x the 25B per Gb. A 35B on the same ladder would cut flagship per-Gb prices further.",
+      "detail": "Internal full flow-cell prices at 300 cycles (output = reads x 300 bases): 25B $21,393 / 7,500 Gb = $2.85/Gb ($0.86 per million reads); 10B $12,792 / 3,000 Gb = $4.26/Gb (+49%); 1.5B $4,032 / 450 Gb = $8.96/Gb (+214%). The 10B premium of 1.49x sits at the top of the 1.13–1.50x range across five US cores (D018), well above UCLA's ~26%.",
+      "url": "https://www.genomics.pitt.edu/about/pricing",
+      "date": "2025-06-01",
+      "source_name": "Pitt HTGC internal price sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds Pitt's X-ladder data point. F264 covered only the 6000 vs X ratio."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Pitt's '2 or more flow cells' discount is a flat ~8.7% applied to every product, including the NovaSeq 6000 and the MiSeq. It is a core recharge rule, not evidence that Illumina's volume discounts reach the buyer.",
+      "detail": "The ratio of the 2+ price to the single price is 0.913 on every row checked: 25B-100 $14,280/$15,640, 1.5B-100 $2,879/$3,154, 6000 S4-35 $13,131/$14,381, MiSeq Nano $643/$705. Buying a full flow cell instead of 8 lanes saves a further uniform 8.0% (25B-100 8 x $2,125 = $17,000 vs $15,640; 10B-100 8 x $1,309 = $10,472 vs $9,632). The total lane-to-2+ ladder is about -16%, and it is identical across the X, the 6000 and the MiSeq, so it reflects core policy. This weakens reading core tier discounts (F003) as a sign of vendor discounting to large accounts.",
+      "url": "https://www.genomics.pitt.edu/about/pricing",
+      "date": "2025-06-01",
+      "source_name": "Pitt HTGC internal price sheet",
+      "source_type": "price_list",
+      "quote": "2 or More Full Flowcells",
+      "strength": "weak",
+      "why_new": "Shows the tier is uniform across platforms, which F003 did not test."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Pitt's internal 25B prices sit 27–34% above Illumina's published kit list at every cycle count. Even the 2+ tier is ~18.5% above list, so this core passes no visible discount through to research users.",
+      "detail": "Pitt full 25B flow cell vs Illumina's published Jan 2025 list: 100-cycle $15,640 vs $11,700 (+34%); 200-cycle $18,400 vs $14,500 (+27%); 300-cycle $21,393 vs $16,480 (+30%); 300-cycle 2+ tier $19,533 (+18.5%). The markup is consistent across cycle counts, which fits a fixed overhead uplift on a contract cost. It matches the 26–70% core markup in D019, now with every cycle length at one core.",
+      "url": "https://www.genomics.pitt.edu/about/pricing",
+      "date": "2025-06-01",
+      "source_name": "Pitt HTGC internal price sheet vs Illumina published list (known)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A Pitt-specific markup across all three 25B cycle kits. D019 used other cores."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At Pitt's sister core (HSSC, Oct 2025) a NextSeq 2000 P4/P3 300-cycle run costs 4.2–5.7x the HTGC X 25B per Gb, and 1.35x even the X 1.5B. The mid-throughput Illumina tier is the most exposed to cheaper rivals, even inside one university.",
+      "detail": "HSSC (UPMC Children's) Oct 1, 2025 rates: P4-300 $6,540 for 1.8B reads (540 Gb) = $12.11/Gb ($3.63 per million reads); P3-300 $5,880 for 1.2B reads (360 Gb) = $16.33/Gb. HTGC 25B-300 costs $2.85/Gb and the 1.5B-300 $8.96/Gb. Users who stay on benchtop runs pay a 4–6x per-Gb premium for turnaround and convenience. That is the price umbrella AVITI, MiSeq-class rivals and pooled X lanes can attack.",
+      "url": "https://www.advancedgenomics.pitt.edu/pricing/health-sciences-sequencing-core-pricing",
+      "date": "2025-10-01",
+      "source_name": "Pitt Center for Advanced Genomics, Health Sciences Sequencing Core pricing",
+      "source_type": "price_list",
+      "quote": "All PITT/UPMC prices below are effective October 1, 2025",
+      "strength": "weak",
+      "why_new": "A new same-institution comparison of NextSeq 2000 P4/P3 and X pricing. The HSSC sheet was not in the corpus."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A Pitt research center (Pittsburgh Liver Research Center) offers members AVITI 600-cycle sequencing at $8 per million reads. Its leaders co-authored an Element-sponsored AVITI evaluation, so Element is present in Pitt's research channel even though HTGC is all-Illumina.",
+      "detail": "The PLRC service-charge sheet (Jan 2025) lists custom bulk/single-cell RNA and DNA sequencing at $1 per million reads (150 cycles) and $2 per million reads (300 cycles), and '600 cycles AVITI sequencing' at $8 per million reads. It also lists bulk RNA-seq at $24/$44 per sample and WES/WGS at $30/$50 per sample, which look like subsidized sequencing-only member rates. A 2024 bioRxiv preprint on AVITI chemistry lists the PLRC directors (Luo, Liu) with Element co-authors. Taking 300 cycles as 2x150 per pair, $2 per million reads is ≥$6.7/Gb, above HTGC's 25B internal rate (~$0.93 per million reads per lane), so the PLRC price is not an undercut.",
+      "url": "https://livercenter.pitt.edu/wp-content/uploads/2025/01/Service-charge-PLRC-202501085.pdf",
+      "date": "2025-01-29",
+      "source_name": "Pittsburgh Liver Research Center service-charge sheet",
+      "source_type": "price_list",
+      "quote": "For 600 cycles AVITI sequencing, the cost is $8 per million reads.",
+      "strength": "weak",
+      "why_new": "A new Pitt AVITI user and price point, not in the ledger."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "None of Pitt's three sequencing cores (HTGC, HSSC and the Single Cell Core) lists an Element, Ultima, MGI or Roche sequencer as of late 2026. Research sequencing at this large academic medical center is still all-Illumina at the core level.",
+      "detail": "HTGC equipment: 2 X Plus, 1 NovaSeq 6000, 1 MiSeqDx, plus arrays and mass spectrometry. The HSSC price sheet (Oct 2025) lists only NextSeq 2000 and MiSeq runs. The Center for Advanced Genomics pricing hub lists no non-Illumina sequencer. AVITI appears only at a departmental center (PLRC). This contrasts with the Iowa, MSU and UMN moves to AVITI or Ultima (F305, F139, F200).",
+      "url": "https://www.advancedgenomics.pitt.edu/pricing",
+      "date": "2025-10 to 2026-10",
+      "source_name": "Pitt Center for Advanced Genomics pricing hub; HTGC equipment page",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A whole-institution fleet check at Pitt, not in the ledger."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "There is no external-rate PDF: the Pitt pricing page and the HSSC page say external rates are 'upon request' only. Prior-year full sheets (FY23/FY24) cannot be reached because WebFetch is blocked from web.archive.org, archive.ph and mementoweb. Only the 11/01/2024 1.5B lane values surfaced via a search snippet; the 25B/10B/6000 rows from 2024 and the date the S4-300 was dropped still need Wayback. Two HTGC Executive Summary .docx files (12/04/2024 and 09/05/2025) were downloaded but could not be decoded without unzip tooling. They may hold instrument counts and clinical/research volumes, and they show a lab-director change (Bellissimo to Fen Guo). Per-read 6000-vs-X ratios for short-cycle kits (S4-35 vs 25B-100 about 2.3x; SP-100 vs 1.5B-100 about 1.95x) were left out because they overlap F264 and D022/D025.",
+  "leads": [
+    {
+      "name": "Wayback snapshots of Pitt HTGC pricing (2023–2025)",
+      "url": "https://web.archive.org/web/*/genomics.pitt.edu/about/pricing*",
+      "access": "Public archive; needs a browser or Apify, since WebFetch is blocked",
+      "labels": ["1A", "1B"],
+      "rationale": "Would date the removal of S4-300 and the 25B/10B price path from the 11/2024 sheet, which the snippet showed carried different 1.5B prices."
+    },
+    {
+      "name": "Pitt HTGC Executive Summary docx (Dec 2024, Sep 2025)",
+      "url": "https://www.genomics.pitt.edu/sites/default/files/Executive%20Summary%20High%20Throughput%20Genomics%20Core_09052025.docx",
+      "access": "Public download; needs docx text extraction",
+      "labels": ["1A", "1C"],
+      "rationale": "May give dated instrument counts, sample volumes and clinical vs research mix at a CLIA core running both the 6000 and the X."
+    },
+    {
+      "name": "UPMC Enterprises portfolio (UPMC Genome Center redirect)",
+      "url": "https://enterprises.upmc.com/our-portfolio/?pg=1&portfolio-company-status=current",
+      "access": "Public",
+      "labels": ["1A"],
+      "rationale": "Could show what happened to the five-6000 UPMC Genome Center (spun out, merged into HTGC or closed)."
+    },
+    {
+      "name": "Pitt iLab HTGC service center listing",
+      "url": "https://pitt.ilab.agilent.com/service_center/show_external/6429/high-throughput-genomics-core",
+      "access": "Public external view (may show price list without login)",
+      "labels": ["1A", "1B", "2A"],
+      "rationale": "iLab external pages sometimes show full price lists, including external academic and industry rates that the website withholds."
+    },
+    {
+      "name": "bioRxiv: Utility Analyses of AVITI Sequencing Chemistry (Pitt/Element)",
+      "url": "https://www.biorxiv.org/node/3925498",
+      "access": "Public",
+      "labels": ["2B"],
+      "rationale": "Pitt-vs-Illumina cost and quality comparisons by an academic group co-authored with Element."
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/website-content-crawler (or a Wayback Machine scraper)",
+      "input": {"startUrls": [{"url": "https://web.archive.org/web/2023*/https://www.genomics.pitt.edu/about/pricing"}, {"url": "https://web.archive.org/web/2024*/https://www.genomics.pitt.edu/about/pricing"}, {"url": "https://web.archive.org/web/2025*/https://www.genomics.pitt.edu/about/pricing"}, {"url": "https://web.archive.org/web/2024*/https://www.genomics.pitt.edu/about/equipment"}], "maxCrawlPages": 40},
+      "why": "Recover the FY23–FY25 Pitt price tables (6000 S4-300, 25B, 10B) and the equipment counts to build the 6000-vs-X price and fleet time series.",
+      "max_items": 40
+    }
+  ]
+}
+```

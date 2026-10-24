@@ -1,0 +1,73 @@
+```json
+{
+"sources": [
+{
+"name": "REUZEit (resale marketplace) NovaSeq 6000 listing",
+"url": "https://reuzeit.com/product/3374237",
+"access": "Public product page, no login. Price history is visible only by re-fetching the page over time (or from archive snapshots).",
+"labels": ["1A"],
+"status": "productive",
+"notes": "One near-new NovaSeq 6000 with UPS, 15 S4 buffer cartridges and PC, sold as received. A search snippet showed $150,000 (25% off $200,000). The fetched page showed $99,000 (51% off $200,000). Availability is inconsistent: '1 In Stock', but another section says 'This item has sold'. The page has no listing date, so the snippet-to-page markdown could be a cut within a few weeks or months. I could not pin the timing.",
+"how_to_mine": "Check the Wayback Machine/CDX for reuzeit.com/product/3374237 to date the $150K to $99K cut. Search reuzeit.com for other 'NovaSeq' and 'HiSeq' listings to build a price series by model year.",
+"difficulty": "easy (plain extraction)",
+"items": [
+{"label":"1A","direction":"supports","claim":"A near-new used NovaSeq 6000 is being marked down to about half of the $200K resale anchor, so the second-hand market is oversupplied.","detail":"REUZEit lists an 'Excellent', 'very little prior use' NovaSeq 6000 with UPS and 15 S4 buffer cartridges at $99,000 (51% off a $200,000 anchor). A search-result snippet of the same site showed $150,000 (25% off $200,000), so the ask appears to have been cut by about a third. The instrument launched at $985K. The listing is undated, and the page is inconsistent on whether it has sold.","url":"https://reuzeit.com/product/3374237","date":"2026-10-12 (page accessed; listing undated)","source_name":"REUZEit","source_type":"price_list","quote":"Near-new, with very little prior use and minimal cosmetic wear.","strength":"weak","why_new":"No resale-market prices for the 6000 are in the known list; this is the first used-instrument price datapoint."}
+]
+},
+{
+"name": "MSU Surplus Store NovaSeq 6000 listing",
+"url": "https://msusurplusstore.com/products/illumina-novaseq-sequencing-system",
+"access": "Public Shopify page, no login. Local pickup only.",
+"labels": ["1A"],
+"status": "productive",
+"notes": "A retired university 6000 (SKU 150822) listed at $30,000, 50% off a $60,000 regular price. It is in stock and sold offsite by appointment. The image timestamps suggest a listing around Aug 2025, which is an inference. A search snippet showed the price at $60,000, so the cut to $30,000 happened after the snippet was indexed. This is the clearest dated example of a university retiring a 6000 and the price falling over time.",
+"how_to_mine": "Wayback snapshots of the URL to date the $60K to $30K cut. Check msusurplusstore.com and other university surplus stores (e.g. search 'surplus store sequencer') for more retired sequencers.",
+"difficulty": "easy (plain extraction)",
+"items": [
+{"label":"1A","direction":"supports","claim":"A university-retired NovaSeq 6000 has been halved from $60K to $30K, which points to a tail of unwanted, retiring 6000 units.","detail":"MSU Surplus Store lists a retired NovaSeq 6000 (includes 2 APC UPS units; drive wiped) at a $30,000 sale price vs a $60,000 regular price. An earlier search snippet showed $60,000. That is about 3% of the $985K launch price. A flat-to-falling resale value suggests institutions are retiring 6000s rather than keeping them indefinitely. It is one unit, so it says nothing on pace.","url":"https://msusurplusstore.com/products/illumina-novaseq-sequencing-system","date":"2025-08 (inferred from image timestamps; accessed 2026-10-12)","source_name":"MSU Surplus Store","source_type":"price_list","quote":"It came from a working environment and was retired from use","strength":"weak","why_new":"The known list names core retirements (Dana-Farber, Georgia) but has no resale-price evidence."}
+]
+},
+{
+"name": "Surplus Solutions LLC (SSLLC) NovaSeq 6000 listings and biotech-closure auctions",
+"url": "https://ssllc.com/product/illumina-novaseq-6000-sequencing-system-a203796",
+"access": "Product pages are public in search results but returned HTTP 403 to my fetch. Prices are hidden ('See price in Cart' or quote on request). Auction pages show lots and closing dates, and may show results.",
+"labels": ["1A"],
+"status": "blocked",
+"notes": "Search results show at least 8 separate NovaSeq 6000 product pages (builds 2017, 2018, 2020, 2021; serials A01376, A01249, A01390, A00439, A01486; sites in Woonsocket RI and Murrieta CA). Auctions with a NovaSeq 6000 include Rubius/Omnia Bio (Dec 2023, 2022 unit), ChromaCode (Aug 2024, 2021 unit) and Biotech Beach #3 (2-5 Dec 2024). I could not read lot details, bids or sold results. The count of listings is a weak signal of supply, mostly from closed biotechs rather than a research-core 6000 tail.",
+"how_to_mine": "Use a browser-like fetch or Wayback to open ssllc.com product and auction pages and read price, year and status. Look at ssllc.com/auctions for closed-lot results. Count distinct NovaSeq 6000 serials listed per quarter from 2023 to 2026.",
+"difficulty": "easy (plain extraction)",
+"items": []
+},
+{
+"name": "UK public-sector purchase of a refurbished NovaSeq 6000 (University of Birmingham, Contracts Finder)",
+"url": "https://www.contractsfinder.service.gov.uk/Notice/e2666696-238a-4ef7-8c0a-3146ea112daf",
+"access": "Public UK procurement notice. Returned HTTP 403 to my fetch; the figures below come from a search-result summary only.",
+"labels": ["1A"],
+"status": "blocked",
+"notes": "The search summary said the University of Birmingham bought an RUO pre-owned NovaSeq 6000 in 2023 for about £498,000 by direct award from a framework (notice dated 13 Jun 2023). I could not verify the details. If correct, this is a 2023 reference for refurbished pricing, roughly 10x the 2025-26 listing prices above, though the scope (installation, warranty) may differ.",
+"how_to_mine": "Open the notice in a browser or via Wayback. Confirm value, supplier and scope. Search Contracts Finder and Find a Tender for 'pre-owned NovaSeq' or 'refurbished sequencer' notices from 2024 to 2026 to see whether prices fell.",
+"difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+"items": []
+},
+{
+"name": "eBay, LabX, BioSurplus, GovDeals, Liquidity Services",
+"url": "https://www.labx.com",
+"access": "Not reached. Neither the search tool nor the fetch tool surfaced NovaSeq 6000 listings on eBay, LabX, BioSurplus or GovDeals. Sold-price history on eBay needs a scraper.",
+"labels": ["1A"],
+"status": "dry",
+"notes": "A search summary mentioned a March 2024 Liquidity Services auction in Peterborough, UK of a 2021 NovaSeq 6000 with an 18% buyer's premium. I did not verify it or see the hammer price. A netbid.com lot for a NovaSeq 6000Dx returned 404.",
+"how_to_mine": "Apify run on eBay sold/completed listings for 'NovaSeq 6000' (see apify_requests). Manual search of liquidation.com and bidspotter for 'NovaSeq'.",
+"difficulty": "easy (plain extraction)",
+"items": []
+}
+],
+"new_candidates": [
+{"name":"Wayback Machine snapshots of REUZEit, MSU Surplus and SSLLC NovaSeq pages","url":"https://web.archive.org/web/2026*/reuzeit.com/product/3374237","access":"Free CDX/Wayback lookup","labels":["1A"],"rationale":"Dates the price cuts and shows how long the units sat unsold, which gives a time series for 6000 resale values."},
+{"name":"UK Find a Tender / Contracts Finder 'pre-owned sequencer' notices","url":"https://www.find-tender.service.gov.uk","access":"Free search","labels":["1A"],"rationale":"Refurbished 6000 purchase prices from public buyers (e.g. Birmingham 2023 about £498K) to compare against 2025-26 asks."},
+{"name":"Biotech closure auctions (SSLLC, Bid on Equipment, Heritage Global, Hilco) with NovaSeq 6000 lots","url":"https://ssllc.com/auctions","access":"Public auction pages","labels":["1A"],"rationale":"Hammer prices and the count of 6000s from closed biotechs. They indicate the used-market glut but not the research or clinical tail."}
+],
+"apify_requests": [
+{"actor":"eBay sold/completed listings scraper (e.g. a generic eBay search scraper that supports sold items)","input":{"searchQueries":["Illumina NovaSeq 6000","NovaSeq 6000 sequencer"],"soldItemsOnly":true,"maxItems":200},"why":"eBay completed-sale prices and dates for used NovaSeq 6000 units would give a price trend for the used market; the search tool could not reach them.","max_items":200}
+]
+}
+```

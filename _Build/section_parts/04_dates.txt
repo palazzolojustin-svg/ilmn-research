@@ -1,0 +1,36 @@
+2022-07-15 :: NHS-Galleri trial completes enrollment of 140,000 participants (July 2022)
+2022-11-15 :: Illumina announces initial cost actions (November 2022)
+2023-01-01 :: Czech Republic adds comprehensive genomic profiling to national fee schedule
+2023-02-07 :: Illumina issues original 2023 guidance (7–10% consolidated revenue growth, EPS $1.25–$1.50)
+2023-03-15 :: First NovaSeq X customer shipments; $500M of 2023 term notes repaid (March 2023)
+2023-04-25 :: Q1 2023 call: 67 NovaSeq X shipped, X target raised to >330, 2023 guidance held, >$100M cost cuts and 25%/27% Core margin targets for 2024/2025
+2023-06-15 :: Francis deSouza departs; Charles Dadswell becomes interim CEO; NovaSeq X software update released (June 2023)
+2023-06-30 :: Late-June 8-K discloses headcount and real-estate reductions
+2023-07-12 :: European Commission fines Illumina €432M for closing GRAIL deal during review
+2023-08-09 :: Q2 2023 call: 109 NovaSeq X shipped, 2023 guidance cut to ~flat Core revenue, X supply raised to >390
+2023-08-15 :: Illumina repays $750M of convertible notes (August 2023)
+2023-09-25 :: Jacob Thaysen becomes CEO (late September 2023)
+2023-10-25 :: 25B flow cell launched for NovaSeq X (late October per prepared remarks; also described as late November)
+2023-11-09 :: Q3 2023 call: second 2023 guidance cut, X shipments cut to 330–340, GRAIL special committee announced, 2024 expected "very similar" to 2023
+2023-12-15 :: Illumina announces it will divest GRAIL; EU court oral hearing scheduled for mid-December
+2024-01-15 :: NovaSeq X 1.5B kit launched; further workforce reduction brings cumulative role cuts to ~12% (January 2024)
+2024-02-08 :: Q4 2023 call: 352 X installed, 2024 Core guidance flat revenue and ~20% operating margin, GRAIL divestiture targeted by end-June 2024
+2024-03-31 :: XLEAP-SBS chemistry made available on NextSeq 1000/2000 (Q1 2024)
+2024-06-30 :: Target date to finalize GRAIL divestiture terms
+2023-03-01 :: NovaSeq X Plus begins shipping globally (month only: March 2023)
+2023-12-31 :: Q4 2023: 25B flow cell for NovaSeq X launched (quarter only)
+2024-03-01 :: Illumina merges marketing and commercial teams; 1.5B flow cell and XLEAP P4 flow cell launched in Q1 (month only: March 2024)
+2024-04-01 :: European Commission approves Illumina's GRAIL divestment plan (month only: April 2024)
+2024-05-02 :: Q1 2024 call: Core revenue ~$1.06B (−2%); FY2024 flat-revenue, ~20% margin guidance reiterated; Dhingra's first call as CFO
+2024-06-20 :: Illumina fully draws $750M delayed-draw term loan
+2024-06-30 :: GRAIL spin-off completed in June 2024; Illumina keeps 14.5% stake; Goswami advisory role ends (month only)
+2024-08-06 :: Q2 2024 call: FY2024 revenue cut to −2% to −3%, margin raised to 20.5–21%, EPS guidance $3.80–3.95 introduced, $200M savings plan, new X transition disclosures
+2024-08-13 :: Strategy update: high-single-digit growth by 2027, +500bp operating margin, double-digit-to-teens EPS growth
+2024-09-30 :: Q3 2024: $500M 4.65% bonds issued, term loan repaid, Fluent BioSciences acquired, buybacks begun (quarter only)
+2024-11-04 :: Q3 2024 call: FY2024 revenue cut to ~−3%, margin raised to 21–21.5%, EPS raised to $4.05–4.15; "clinical cliff" debate
+2024-11-05 :: US presidential election, flagged by Thaysen as a source of uncertainty
+2024-12-01 :: Single-flow-cell NovaSeq X begins shipping (month only: December 2024)
+2025-01-15 :: 2025 guidance given around JPMorgan Healthcare Conference (approximate: mid-January 2025)
+2025-02-04 :: China Ministry of Commerce action against Illumina announced (approximate: days before Feb 6, 2025 call)
+2025-02-06 :: Q4 2024 call: revenue $1.1B (+1%), 91 X placements, 2025 guidance reaffirmed excluding China impact
+TERMS_END_PLACEHOLDER_REMOVED

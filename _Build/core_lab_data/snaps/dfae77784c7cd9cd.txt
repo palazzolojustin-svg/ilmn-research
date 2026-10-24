@@ -1,0 +1,47 @@
+AZGC Current Pricing | Office of Research and Partnerships (ORP) Core Facilities
+Skip to main content
+Search
+search
+search
+Search
+menu
+Menu
+home
+Home
+close
+Close
+Search
+search
+Main Menu
+Home
+Aboutchevron_right
+News & Events
+Facilities
+Resourceschevron_right
+Contact Directory
+Main navigation
+Home
+About
+Submenu for About
+Sequencing Rate Summary |
+High Volume DNA Sequencing | plate | $195.00 | $234.00 | $292.50 |
+Low Volume DNA Sequencing | sample | $6.25 | $7.50 | $9.38 |
+Plate Cleanup | plate | $80.00 | $96.00 | $120.00 |
+Plate Quant (96 well plate) | plate | $50.00 | $60.00 | $75.00 |
+Single Sample Cleanup - Column | sample | $8.50 | $10.20 | $12.75 |
+Next Gen Sequencing Rate Summary |
+Library Prep-Complex | sample | $160.00 | $192.00 | $240.00 |
+Library Prep-Standard | each | $110.00 | 132.00 | 165.00 |
+Post build Library QC | sample | $30.00 | $36.00 | $45.00 |
+NextSeq550 (Flow Cell Not Included) | run | $300.00 | $360.00 | $450.00 |
+AVITI Run (Flow Cell Not Included) | run | $250.00 | $300.00 | $300.00 |
+Genotyping Rate Summary |
+Autosomal STR/Cell-line Authentication | each | $65.00 | $78.00 | $97.50 |
+cDNA Synthesis | each | $27.00 | $32.40 | $40.50 |
+Fragment Analysis | sample | $2.00 | $2.40 | $3.00 |
+Gel Electrophoresis | each | $30.00 | $36.00 | $45.00 |
+Mouse Genotype | each | $5.00 | $6.00 | $7.50 |
+Mycoplasma Detection | sample | $25.00 | $30.00 | $37.50 |
+NanoString Research Run | each | $575.00 | $690.00 | $862.50 |
+Polymerase Chain Reaction | each | $3.00 | $3.60 | $4.50 |
+Real Time 7300/7900 | hour | $27.00 | $32.40 | $40.50 |

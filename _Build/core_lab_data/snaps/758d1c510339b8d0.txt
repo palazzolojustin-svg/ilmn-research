@@ -1,0 +1,82 @@
+Genomics Research Price List: Internal (Rutgers) Pricing
+Item Description Base Price: Rutgers
+QC BioAnalyzer
+QC BioAnalyzer: DNA/cDNA QC BioAnalyzer: DNA/cDNA (Up to 11 Samples) $80.00
+QC BioAnalyzer: Small RNA QC BioAnalyzer: Small RNA (Up to 11 Samples) $80.00
+QC BioAnalyzer: Total RNA QC QC BioAnalyzer: Total RNA  (Up to 11 Samples) $70.00
+QC Qubit
+QC Qubit:Broad Range QC Qubit: Broad Range $5.00
+QC Qubit:High Sensitivity QC Qubit: High sensitivity $5.00
+QC Miseq (for Novaseq)
+QC MiSeq (for Novaseq, S1, S2 & S4 runs) QC MiSeq (for Novaseq, S1, S2 & S4 runs) $400.00
+QC TapeStation
+QC TapeStation: DNA 1000 QC Tapestation: D1000 $5.00
+QC TapeStation: Genomic DNA QC Tapestation: Genomic DNA $5.00
+QC TapeStation: DNA High Sensitivity QC Tapestation: High Sensitivity D1000 $5.00
+QC Tapestation: RNA QC Tapestation: RNA $5.00
+QC Tapestation: RNA High Sensitivity QC Tapestation: RNA High Sensitivity $5.00
+Nucleic Acid Extraction
+RNA Extraction RNA Extraction $50.00
+DNA Extraction DNA Extraction $40.00
+Library Prep DNA
+Library Prep DNA: 16S/18S rRNA_Bacterial/Fungal Library Prep DNA: 16S/18S rRNA_Bacterial/Fungal $75.00
+Library Prep DNA: Chip DNA Library Prep DNA: Chip DNA $175.00
+Library Prep DNA: Whole Genome Library Prep DNA: Whole Genome $175.00
+Library Prep DNA: Targeted (amplicon based) Library Prep DNA: Targeted (amplicon based) $75.00
+10X Hashtag Library 10X Hashtag Library $150.00
+10X VDJ Library 10X VDJ Library $300.00
+Whole Exome (WES) Single Flex Whole Exome (WES) Single Flex $300.00
+Whole Exome (WES) 4-Flex Whole Exome (WES) 4-Flex $250.00
+RNA Exome Library RNA Exome Library $250.00
+Library Prep RNA: RIP/CLIP RNA Library Prep RNA: RIP/CLIP RNA $200.00
+Library Prep RNA: RNA w/Ribominus Library Prep RNA: RNA w/Ribominus $250.00
+Library Prep RNA: RNA Library Prep RNA: RNA $200.00
+Library Prep RNA: Small RNA Library Prep RNA: Small RNA $225.00
+Library Prep RNA: Ultra low input RNA/Low Ribominus RNA Library Prep RNA: Ultra low input RNA/Low Ribominus RNA $250.00
+10X Genomics Flow Cells
+10X Genomics Flow Chip 10X Genomics Flow Chip $275.00
+MiniSeq Illumina
+MiniSeq Illumina: Mid Output Kit- 300 cycles MiniSeq Illumina: Mid Output Kit- 300 cycles $830.00
+MiniSeq Illumina: High Output Kit- 75 cycles MiniSeq Illumina: High Output Kit- 75 cycles $1,110.00
+MiniSeq Illumina: High Output Kit- 150 cycles MiniSeq Illumina: High Output Kit- 150 cycles $1,260.00
+MiniSeq Illumina: High Output Kit- 300 cycles MiniSeq Illumina: High Output Kit- 300 cycles $1,870.00
+MiSeq Illumina
+MiSeq Illumina:Nano-300 cycle MiSeq Illumina_Nano-300 cycle $560.00
+MiSeq Illumina:Micro-300 cycle MiSeq Illumina_Micro-300 cycle $710.00
+MiSeq Illumina:V2-50 cycle MiSeq Illumina_V2-50 cycle $1,100.00
+MiSeq Illumina:V2-300 cycle MiSeq Illumina_V2-300 cycle $1,350.00
+MiSeq Illumina:V2-500 cycle MiSeq Illumina_V2-500 cycle $1,480.00
+MiSeq Illumina:V3-600 cycle MiSeq Illumina_V2-600 cycle $1,860.00
+MiSeq Illumina:V3-150 cycle MiSeq Illumina_V3-150 cycle $1,200.00
+NextSeq 500 Illumina
+NextSeq 500 Illumina:1X150 Mid Nextseq 1x150 Mid $1,380.00
+NextSeq 500 Illumina:2X150 Mid Nextseq 2x150 Mid $2,070.00
+NextSeq 500 Illumina:1X75 High Nextseq 1X75 High $1,800.00
+NextSeq 500 Illumina:1X150 High Nextseq 1X150 High $3,220.00
+NextSeq 500 Illumina:2X150 High Nextseq 2X150 High $5,010.00
+Novaseq Illumina
+NovaSeq 6000 SP Reagent Kit v1.5 (100 cycles) NovaSeq 6000 SP Reagent Kit v1.5 (100 cycles) $2,430.00
+NovaSeq 6000 SP Reagent Kit v1.5 (200 cycles) NovaSeq 6000 SP Reagent Kit v1.5 (200 cycles) $3,110.00
+NovaSeq 6000 SP Reagent Kit v1.5 (300 cycles) NovaSeq 6000 SP Reagent Kit v1.5 (300 cycles) $3,370.00
+NovaSeq 6000 SP Reagent Kit v1.5 (500 cycles) NovaSeq 6000 SP Reagent Kit v1.5 (500 cycles) $4,620.00
+NovaSeq 6000 S1 Reagent Kit v1.5 (100 cycles) NovaSeq 6000 S1 Reagent Kit v1.5 (100 cycles) $4,250.00
+NovaSeq 6000 S1 Reagent Kit v1.5 (200 cycles) NovaSeq 6000 S1 Reagent Kit v1.5 (200 cycles) $5,300.00
+NovaSeq 6000 S1 Reagent Kit v1.5 (300 cycles) NovaSeq 6000 S1 Reagent Kit v1.5 (300 cycles) $5,710.00
+NovaSeq 6000 S2 Reagent Kit v1.5 (100 cycles) NovaSeq 6000 S2 Reagent Kit v1.5 (100 cycles) $7,790.00
+NovaSeq 6000 S2 Reagent Kit v1.5 (200 cycles) NovaSeq 6000 S2 Reagent Kit v1.5 (200 cycles) $9,610.00
+NovaSeq 6000 S2 Reagent Kit v1.5 (300 cycles) NovaSeq 6000 S2 Reagent Kit v1.5 (300 cycles) $10,230.00
+NovaSeq 6000 S4 Reagent Kit v1.5 (35 cycles) NovaSeq 6000 S4 Reagent Kit v1.5 (35 cycles) $11,170.00
+NovaSeq 6000 S4 Reagent Kit v1.5 (200 cycles) NovaSeq 6000 S4 Reagent Kit v1.5 (200 cycles) $13,695.00
+NovaSeq 6000 S4 Reagent Kit v1.5 (300 cycles) NovaSeq 6000 S4 Reagent Kit v1.5 (300 cycles) $15,230.00
+NovaSeq Xp 4-Lane Kit NovaSeq Xp 4-Lane Kit $668.00
+NovaSeq Xp 2-Lane Kit NovaSeq Xp 2-Lane Kit $342.00
+Genomics Research Price List: Internal (Rutgers) Pricing
+Item Description Base Price: Rutgers
+Data Analysis
+Variant Analysis Variant Analysis $80.00
+Small Genome De Novo Assembly Small Genome De Novo Assembly $60.00
+Large Genome De Novo Assembly Large Genome De Novo Assembly Custom
+RNA-Seq Analysis RNA-Seq Analysis $70.00
+Methyl-Seq Analysis Methyl-Seq Analysis $70.00
+ChIP-Seq Analysis ChIP-Seq Analysis $50.00
+Cut&Run Analysis Cut&Run Analysis $50.00

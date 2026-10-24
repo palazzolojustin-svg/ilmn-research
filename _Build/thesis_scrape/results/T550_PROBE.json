@@ -1,0 +1,43 @@
+```json
+{
+  "status": "productive",
+  "notes": "Opened 3 of the 5 OCDS notices (060131-2025, 032387-2025, 071003-2025). I did not open 081054-2025, 067970-2025 or the Contracts Finder notice. The key notice is 032387-2025 (13 Jun 2025), the Genomics England–Illumina Cambridge extension. It confirms the shift from central sequencing at Hinxton to a distributed NHS model during 2026, and it is short-read only. It gives a value of £4.67M and a 300K whole-genome-equivalent (WGE) target. It does NOT give a platform (6000 vs X) or a per-genome price. The 2025/26 annual report was not found: one standard search returned only 2020–22 reports and an unopened Sept 2025 participant panel minute. 060131-2025 is a long-read Generation Study tender (ONT, PacBio) and 071003-2025 is an unrelated UKCEH instrument upgrade, so neither is material to the thesis. The evidence is mostly neutral to mildly supportive of 1C and 1A, and weak overall.",
+  "how_to_mine": "1) Open the OCDS releases for 081054-2025 and 067970-2025 (not yet read) and Contracts Finder notice d25d80cf-25cb-4024-b361-641d7b9a0447, and look for 'distributed', 'GLH', platform, or per-sample price. 2) Look for the original VEAT notice GeL-CR-101-19 (Sept 2019) for the original pricing and volume basis. 3) Find the NHS England/Genomics England reprocurement of sequencing for the Genomic Medicine Service (the GLH network), which may name the platform and price per genome. Search Find a Tender for 'Genomic Medicine Service sequencing' and 'NHS England whole genome sequencing reprocurement 2026'. 4) Open the Genomics England annual report 2025/26 at genomicsengland.co.uk or Companies House for the sequencing cost per genome and the Illumina contract section.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NHS's central Illumina WGS stream (Hinxton) is being moved to a distributed model in 2026, and the 300K-genome contract target was missed and extended.",
+      "detail": "Genomics England extended its 2019 short-read WGS contract with Illumina Cambridge to 31 Mar 2027 for £4.67M (notice 13 Jun 2025). The notice says the target of 300,000 WGE could not be met in the original five-year term because sample supply fell short (delays largely outside the buyer's control, including Covid). The extra payment covers lab and staff costs only and 'does not cover any additional volumes'. This is a small, public-sector volume stream that under-delivered against plan, consistent with clinical WGS being slower than hoped. It is not evidence of a volume decline at Illumina overall.",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/032387-2025",
+      "date": "2025-06-13",
+      "source_name": "Find a Tender (OCDS), Genomics England Ltd",
+      "source_type": "procurement",
+      "quote": "more time is required to enable the target number of samples to be met",
+      "strength": "weak",
+      "why_new": "Known list cites NHS WGS volumes (42K rare-disease genomes) but not the contract's missed 300K WGE target or the £4.67M extension."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Genomics England says the Illumina contract extension is needed to manage the move to distributed WGS in the NHS during 2026; this is a dated transition of a large clinical WGS stream, but the notice names no platform.",
+      "detail": "The notice says the NHS is 'transitioning from a central location for WGS in Hinxton to a distributed model' and the extension 'is necessary to manage the move to distributed WGS'. It covers short-read services only and argues that data consistency requires Illumina's own equipment and materials. Contract value is £4.67M against a 300K WGE target, so a rough ~£15.6 per WGE (my calculation, not stated, and it may not cover reagents). The notice does not say whether the move is to NovaSeq X or the 6000, so it cannot be tied directly to the 6000 tail.",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/032387-2025",
+      "date": "2025-06-13",
+      "source_name": "Find a Tender (OCDS), Genomics England Ltd",
+      "source_type": "procurement",
+      "quote": "The extension is necessary to manage the move to distributed WGS within the NHS.",
+      "strength": "weak",
+      "why_new": "Gives an official dated NHS WGS transition from Illumina's own lab to regional labs; not in the known list."
+    }
+  ],
+  "new_candidates": [
+    "Find a Tender OCDS releases 081054-2025 and 067970-2025 and Contracts Finder d25d80cf-25cb-4024-b361-641d7b9a0447, not yet read",
+    "VEAT notice GeL-CR-101-19 (Sept 2019), original Genomics England–Illumina pricing basis",
+    "NHS England Genomic Medicine Service sequencing reprocurement notices (distributed WGS across GLHs), likely to name platforms and per-genome prices",
+    "Genomics England Limited annual report and accounts 2025/26 (Companies House or genomicsengland.co.uk), not located yet"
+  ],
+  "apify_requests": []
+}
+```

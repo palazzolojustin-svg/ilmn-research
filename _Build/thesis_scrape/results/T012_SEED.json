@@ -1,0 +1,152 @@
+```json
+{
+  "sources": [
+    {
+      "name": "Illumina pricing, contracts and commercial-ops postings (Workday, mirrored on aggregators such as resumegeni, xtalks, builtin, monster)",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "access": "Aggregator mirrors are open with no login. Illumina's own Workday board is not reachable by search. The xtalks mirror returned a 404 when fetched, so the resumegeni copy is the one I read.",
+      "labels": ["1B", "2A"],
+      "status": "productive",
+      "notes": "Illumina is building a new Enterprise Pricing and Financing function. A 28 Jun 2026 posting for an Associate Director, Pricing Transformation is a critical hire reporting to a Sr. Director, Enterprise Pricing and Financing. Aggregators also show open Sr Manager Contracts and Senior Contracts Analyst roles (APAC and Greater China, Singapore) and a Staff Contract Analyst role (US/Canada, remote). The Singapore contracts role covers asset-financing and bioinformatics deals and CLM automation. This is process evidence rather than price evidence. It shows pricing is being centralized and segmented. It does not show that prices are being cut.",
+      "how_to_mine": "Search aggregators for Illumina titles such as 'Pricing', 'Deal Desk', 'Contracts', 'Strategic Accounts', 'Commercial Finance' and 'Customer Success'. Record each posting date and its first-seen and removed dates in the Wayback Machine. A rise in pricing and contract headcount after Q4'25 would support 1B. Compare against the 2024 and 2025 equivalents. Check whether there is a predecessor 'Pricing Strategy' posting that shows when the function started.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "Illumina is building a new Enterprise Pricing and Financing function and hiring a senior pricing lead to run personalized, segmented pricing.",
+          "detail": "The 28 Jun 2026 Associate Director, Pricing Transformation posting (base $170.6K–$255.8K) is described as a critical hire to build out Enterprise Pricing and Financing. It sets pricing at the customer-type level under a 'pay for ownership, pay for consumption, and pay for performance' vision. It also calls for 'personalized pricing' by region, tier or channel, competitive-intelligence-driven pricing scenarios, and approval-workflow governance. This is consistent with more bespoke discounting for large accounts. The posting does not mention discounting or large accounts, so the link to the thesis is inferential.",
+          "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+          "date": "2026-06-28",
+          "source_name": "Illumina job posting via resumegeni (xtalks copy also exists)",
+          "source_type": "jobs",
+          "quote": "Implement advanced customer segmentation and personalized pricing strategies",
+          "strength": "weak",
+          "why_new": "The known list has management quotes on application-specific pricing but no posting showing a new enterprise pricing and financing organization."
+        },
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "Illumina's pricing posting adds a 'pay for consumption' and financing model, which is the structure used for reagent rental and usage-based deals.",
+          "detail": "The same posting describes a pricing vision of 'pay for ownership, pay for consumption, and pay for performance' inside a unit named 'Enterprise Pricing and Financing'. This hints at formalized usage-based and financed deals for instruments, in addition to the ad hoc reagent rental already known. An Illumina contracts role in Singapore also lists 'asset financing' deals. If so, the price cut would sit in instrument and consumable bundles and be harder to see in list prices.",
+          "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+          "date": "2026-06-28",
+          "source_name": "Illumina job posting via resumegeni; Monster Singapore contracts postings",
+          "source_type": "jobs",
+          "quote": "pay for ownership, pay for consumption, and pay for performance",
+          "strength": "weak",
+          "why_new": "The known list says rental count is undisclosed (~5 of 100+ placements). This is the first sign that financing and consumption pricing is being institutionalized."
+        }
+      ]
+    },
+    {
+      "name": "Roche AXELIOS/SBX hiring (builtin, jobrxiv, jobboardly mirrors)",
+      "url": "https://builtin.com/job/principal-research-scientist-ii-sequencing-applications/7417983",
+      "access": "Open aggregator pages. Roche's own careers site was not tested.",
+      "labels": ["2B", "1B"],
+      "status": "productive",
+      "notes": "Roche is hiring across the AXELIOS stack. Roles include Principal Research Scientist II Sequencing Applications (Pleasanton, removed Oct 2025), Principal Scientist I Molecular Lab (builds assays on AXELIOS), Sr. Manager Bioinformatics (Santa Clara, $171K–$317K, customer-facing, drives adoption of the 'XOOS' ecosystem), Field Service Specialist (Sweden, SBX), and Scientist SBX Molecular Engineering (Seattle). These point to a post-launch commercial build-out of applications, bioinformatics and field service. They are not demand data. Roche's 12 May 2026 Investor Day already supplied launch and price facts.",
+      "how_to_mine": "Count open AXELIOS/SBX postings by function (applications, field service, sales, bioinformatics) and by country monthly on Roche's career site, and compare against Illumina's field-service and applications postings. Field service hiring by country is a proxy for installed-base build-out. The Apify request below covers this.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "Roche is hiring customer-facing bioinformatics, applications and field-service staff to support AXELIOS adoption, consistent with a push into counting and research workflows.",
+          "detail": "A Santa Clara Sr. Manager, Bioinformatics ($171K–$317K) leads a customer-facing software team 'to drive adoption' of the Axelios XOOS ecosystem. A Sweden Field Service Specialist role keeps SBX systems running at customer labs. Roche also lists application-development scientists building assays on AXELIOS. This is qualitative. It shows Roche resourcing a customer-adoption push but gives no unit counts.",
+          "url": "https://www.builtinsf.com/job/sr-manager-bioinformatics/9783620",
+          "date": "2026 (undated page; 'posted 11 days ago' at crawl)",
+          "source_name": "Roche via builtin / jobrxiv",
+          "source_type": "jobs",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list covers AXELIOS buyers and pricing but not Roche's commercial and field hiring."
+        }
+      ]
+    },
+    {
+      "name": "Core-facility employment pages listing platform fleets (Northwestern NUSeq, UC Davis DNA Tech, MSU RTSF, Arizona Genetics Core)",
+      "url": "https://www.cgm.northwestern.edu/about/employment.html",
+      "access": "Open university pages.",
+      "labels": ["2A", "2B"],
+      "status": "productive",
+      "notes": "A Northwestern NUSeq Senior Core Technologist posting (Job ID 54295, undated) lists the fleet as NovaSeq X Plus, MiSeq i100, Element AVITI, Complete Genomics T1+, PacBio Revio and Oxford Nanopore. It asks for 'evaluating and implementing sequencing technologies'. UC Davis says AVITI gives 'significantly lower costs' than Illumina. Arizona Genetics Core now sells high-throughput AVITI. This confirms that cores are multi-vendor but does not quantify share shift. NUSeq's fleet was already in the known list through its rate card.",
+      "how_to_mine": "Run a systematic sweep of 30–50 core-facility employment and 'instruments' pages. Record which platforms each core lists and the date. Look for cores that have added AVITI, Ultima, Complete Genomics or DNBSEQ in 2025–26 or removed the 6000. Wayback snapshots can date additions.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "A major academic core (Northwestern NUSeq) staffs an Illumina X Plus alongside AVITI, Complete Genomics T1+, Revio and ONT, and its job asks for evaluating new sequencing technologies.",
+          "detail": "The NUSeq Senior Core Technologist posting lists six platforms from five vendors. Complete Genomics T1+ (the MGI DNBSEQ line) is new relative to the known Northwestern pricing. The role's duty is 'evaluating and implementing sequencing technologies', so the core is actively shopping. The page has no date and no volume data, so this is weak adoption evidence.",
+          "url": "https://www.cgm.northwestern.edu/about/employment.html",
+          "date": "2026 (undated)",
+          "source_name": "Northwestern NUSeq core employment page",
+          "source_type": "jobs",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has the NUSeq rate card but not the Complete Genomics T1+ presence or the technology-evaluation mandate."
+        }
+      ]
+    },
+    {
+      "name": "Ultima Genomics postings (Khosla job board, Simplify, compbiojobs)",
+      "url": "https://jobs.khoslaventures.com/companies/ultima-genomics-2/jobs/76172675-senior-bioinformatics-scientist",
+      "access": "Open pages.",
+      "labels": ["1B", "1C"],
+      "status": "dry",
+      "notes": "Ultima's openings are mostly internal: Staff Bioinformatics Scientist for Oncology Applications (remote US, $135–170K, posted 24 Apr 2026, reposted 28 Aug 2026), Bioinformatics Researcher II (Tel Aviv, 22 Apr 2026), and Fremont production and sequencing technicians (May 2026, $25–27/hr, contract). None names the UG100 as a customer requirement. The oncology-applications build-out matches the known Ultima MRD collaborations but adds no new facts. The technician contract hiring shows manufacturing ramp but no volumes.",
+      "how_to_mine": "Not worth a deeper pass. Count only if a monthly time series is available through Apify.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Customer-lab postings that require AVITI, Ultima, DNBSEQ or AXELIOS experience (Indeed, LinkedIn, Greenhouse/Lever, university HR)",
+      "url": "https://www.indeed.com/jobs?q=AVITI+sequencing",
+      "access": "Indeed and LinkedIn need heavy scraping and may require a login for depth. Plain search returned no matching clinical-lab postings.",
+      "labels": ["1B", "1C", "2B"],
+      "status": "blocked",
+      "notes": "Standard web search did not return any clinical or large-lab posting that requires AVITI, Ultima UG100, DNBSEQ or AXELIOS experience. Search engines do not index job-board text well. The test needs a purpose-built scrape with keyword counts split by employer type.",
+      "how_to_mine": "Use the Apify request below. Use keyword counts by month for AVITI, 'Ultima', 'UG100', 'DNBSEQ', 'MGI', 'Axelios', 'SBX' and 'NovaSeq X' versus 'NovaSeq 6000', split by employer type (clinical lab, core, pharma) and tracked over time.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Wayback Machine history of Illumina Workday and Roche career-site listings",
+      "url": "https://web.archive.org/web/2026*/illumina.wd1.myworkdayjobs.com*",
+      "access": "Open CDX/Wayback API. Coverage of job boards may be patchy.",
+      "labels": ["1B"],
+      "rationale": "Snapshot dates would show when pricing, deal-desk and strategic-account roles appeared or were removed, and whether the Enterprise Pricing and Financing team was staffed before 2026."
+    },
+    {
+      "name": "Natera, Tempus, Guardant, Caris and Exact Sciences careers pages for 'NovaSeq X', 'AVITI' and 'Ultima' in lab-operations roles",
+      "url": "https://www.natera.com/careers/",
+      "access": "Most use Greenhouse, Lever or Workday boards with public JSON endpoints (for example boards-api.greenhouse.io).",
+      "labels": ["1A", "1C", "2B"],
+      "rationale": "Counts of lab roles naming a sequencer family are a direct read on parallel running of the 6000 and X, and on any shift to rivals at large accounts. The known list has about 12 postings only."
+    },
+    {
+      "name": "NIH RePORTER and NSF S10 instrument awards naming AVITI, Ultima, UG100 or AXELIOS",
+      "url": "https://reporter.nih.gov/",
+      "access": "Open API.",
+      "labels": ["2A", "2B"],
+      "rationale": "Shared-instrument grants show which sequencer academic buyers choose when they must justify cost. The known list has only one S10 award."
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "Indeed jobs scraper (e.g. misceres/indeed-scraper or equivalent) for multi-keyword job counts",
+      "input": {
+        "queries": ["AVITI sequencing", "Element Biosciences AVITI", "Ultima Genomics UG100", "DNBSEQ OR MGI sequencer", "Axelios OR \"Roche SBX\"", "NovaSeq X", "\"NovaSeq 6000\"", "Illumina pricing manager", "Illumina deal desk OR contracts"],
+        "country": "US",
+        "maxAgeDays": 365,
+        "maxItemsPerQuery": 25
+      },
+      "why": "No login-free route exists to count postings by sequencer family. This gives text, employer and date for each posting, so a later agent can split customer labs from vendors and compare AVITI, Ultima, DNBSEQ and AXELIOS mentions against NovaSeq 6000 and X.",
+      "max_items": 200
+    }
+  ]
+}
+```

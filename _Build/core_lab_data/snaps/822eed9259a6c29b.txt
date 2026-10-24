@@ -1,0 +1,148 @@
+Illumina NovaSeq X Plus Sequencing | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Model Organism
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Mission Bio
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+NGS Queues
+PacBio Queues
+Contact Us
+Breadcrumb
+Home
+Illumina NovaSeq X Plus Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Illumina NovaSeq X Plus Sequencing
+Overview
+Pricing
+Submission
+Overview
+The NovaSeq X Plus offers Illumina’s most advanced, powerful sequencing to date, surpassing the performance of the previous workhorse, the NovasSeq 6000, while dramatically lowering costs. It features a 2.5-fold increase in output, lower cost per gigabase and per read, streamlined informatics, and sustainability advancement.
+The new XLEAP-SBS chemistry delivers increased speed and greater fidelity. Ultrahigh-density patterned flow cells contain tens of billions of nanowells at fixed locations, a design that provides even spacing of sequencing clusters. Flow cells are named according to the billions (B) of clusters each are capable of producing, and the UMGC offers the 10B and the 25B flow cells. Each flow cell contains 8 independent lanes, which can be used to load up to 8 separate library pools.
+Highlighted applications
+Whole-genome or whole-transcriptome sequencing
+Whole-genome metagenomic sequencing
+Population-scale sequencing
+Learn more about the NovaSeq X Plus.
+Expand all
++
+Outsourcing
+The UMGC has determined that for the time being, access to the NovaSeq X Plus will be both faster and less expensive when outsourced, and we have partnered with reputable sequencing facilities to achieve this.
++
+Output
+The UMGC offers the 10B and the 25B flow cells only in the 300-cycle format (2 x 150 PE).
++
+Benefits
+Affordably analyze whole genomes: Expand research with whole-genome sequencing
+Add statistical power: Manage bigger sample cohort sizes for population-scale studies.
+Sequence more deeply: Identify rare genetic events for cancer and genetic disease applications.
+Examine multiple dimensions: Combine data from genomes, transcriptomes, and epigenomes for a more vivid picture of biological systems.
+Transition to high-resolution approaches: Including single-cell sequencing and spatial analysis for insights into complex tissues.
+Questions
+Please contact Aaron Becker or Elyse Cooper at [email protected] to receive a project proposal using the NovaSeq X Plus platform.
+Pricing
+Contact us at [email protected] for a project quote on the Illumina instruments.
+Submission
+Fill out the sample submission form and email the completed form to [email protected].
+NGS – Sample Submission Form
+NGS – Pre-made Library Submission Form
+Campus drop-off locations:
+1-210 Cancer & Cardiovascular Research Building (Minneapolis campus)
+20 Snyder Hall (St. Paul campus)
+Shipping address:
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Model Organism
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Mission Bio
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview

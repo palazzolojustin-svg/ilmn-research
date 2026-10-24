@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "Opened the WP REST API and the news archive (2 fetches). The 'Spring Forward' post is dated 12 Mar 2025 and was modified 20 Feb 2026. The news archive has no other 2025-26 posts, so there is no later price-move record. The post gives no old prices, so the size of each cut cannot be computed from it. The 'significant price reductions' wording is from the archive summary, not a quote I saw. The 'strong demand' survey line is already known. The page gives no survey data (n, percentages, price-sensitivity numbers). It does not say whether the cuts came from vendor reagent pricing or from subsidy. The 2023 'Illumina Library Preparation Costs' page (modified 18 Sep 2025) shows full-plate DNA at $1,920 ($20 per sample), which matches the 2025 post, so it is unclear which prices are old and which are new. Net new data is a dated Georgia core lane price list: $2,000 per X Plus 10B lane and $3,000 per 25B lane, UGA rate. Per-Gb values below are my own calculation on 2x150 read counts (~375 Gb and ~937 Gb). The Georgia core has outsourced sequencing, and the 2025 post says pools ship off-campus twice a week. The provider is not named. The 2018 and 2019 posts record Illumina raising kit prices to the core by about 5% per year. That shows an older trend of price rises that is now being reversed.",
+  "how_to_mine": "1) Fetch the Wayback Machine snapshots of https://dna.uga.edu/ for 2024 and early 2025, plus the old sequencing price page, to get the pre-cut lane and prep prices. Then compute the exact % cut by service. 2) Fetch the current GGBC rate sheet pages (search dna.uga.edu for 'sequencing prices' or 'NovaSeq X Plus') and diff them against the 12 Mar 2025 post. The post was modified in Feb 2026, so check what changed. 3) Query https://dna.uga.edu/wp-json/wp/v2/pages?per_page=100 for rate pages and their modified dates. 4) Look for the off-campus sequencing provider in the 'Submit samples' pages.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A Georgia academic core cut library-prep prices in March 2025, citing UGA researcher demand for cheaper genomics, and now lists X Plus lanes at $2,000 (10B) and $3,000 (25B).",
+      "detail": "The GGBC post of 12 Mar 2025 (modified 20 Feb 2026) lists UGA rates of $20/sample for full-plate DNA-Seq ($1,920) and $50/sample for full-plate stranded RNA-Seq ($4,800). Small batches cost $40-45 for DNA and $70-80 for RNA. It cites surveys of UGA researchers showing 'a strong demand for more cost-effective genomics options'. The 10B lane (1.25B reads) is $2,000, about $5.3/Gb by my calc. The 25B lane (3.125B reads) is $3,000, about $3.2/Gb by my calc. The post gives no prior prices, no survey data, and no subsidy-versus-vendor-cost explanation, so the size of the cuts is unquantified.",
+      "url": "https://dna.uga.edu/spring-forward-with-lower-prices-at-the-georgia-genomics-and-bioinformatics-core/",
+      "date": "2025-03-12",
+      "source_name": "UGA Georgia Genomics and Bioinformatics Core (WordPress REST API)",
+      "source_type": "price_list",
+      "quote": "strong demand for more cost-effective genomics options",
+      "strength": "weak",
+      "why_new": "It is a dated, public record from the core behind the Georgia expert call. Its 25B lane price ($3,000, ~$3.2/Gb) is not among the known core prices."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "The same core shipped sequencing pools off-campus twice weekly (Tue/Thu) from March 2025, which points to outsourcing of sequencing.",
+      "detail": "The 12 Mar 2025 post says pools for off-campus sequencing ship on Tuesdays and Thursdays and does not name the provider. It also says libraries prepared at GGBC but sequenced elsewhere cost 'significantly more' (2023 prep page). The core prices its own X Plus lanes at $2,000 and $3,000 while also outsourcing. That is consistent with a Georgia core buying capacity from low-cost providers.",
+      "url": "https://dna.uga.edu/illumina-library-preparation-costs/",
+      "date": "2025-09-18",
+      "source_name": "UGA GGBC library prep page (modified date)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It documents the core's off-campus sequencing routing on a dated page. Before this, the outsourcing claim was expert hearsay."
+    }
+  ],
+  "new_candidates": [
+    "Wayback Machine snapshots of dna.uga.edu sequencing price pages from 2024 to Feb 2026 (before-and-after lane prices)",
+    "The dna.uga.edu wp-json 'pages' endpoint, for rate-sheet modified dates",
+    "The 2018 and 2019 GGBC posts on Illumina kit price rises of about 5% per year (trend context)"
+  ],
+  "apify_requests": []
+}
+```

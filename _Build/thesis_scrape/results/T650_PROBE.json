@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "I ran two standard searches, one for Mayo test-change notices and one for ARUP test updates, plus NovaSeq wording. Neither surfaced a NovaSeq 6000 or NovaSeq X mention or any instrument-change notice. Mayo's 2026 notices were about sequencing assays but not about instruments. They covered a Jan 2026 sarcoma panel method change (effective 29 Jan 2026, DNA capture plus PCR-based NGS changed to capture NGS alone), MCRSP RNA panel delays from a chemistry reagent change (Feb 2026, resolved Apr 2026), and a further technical delay in Aug 2026. The ARUP exome (EXOME PRO, 3016583) change dated 20 Apr 2026, replacing the version effective 19 Aug 2024, only tightened specimen wording. Reference-lab catalogs generally state the method, such as 'NGS' or 'exome', and rarely name the instrument. A count of catalogs citing the 6000 therefore seems unlikely to be feasible. I did not fetch any pages directly or run the Apify sweep (I used 2 tool calls). The result is inferred from search snippets only and is not exhaustive. I found no evidence for or against the thesis.",
+  "how_to_mine": "Low priority. If revisited, run the Apify Google sweep for site:mayocliniclabs.com, aruplab.com, baylorgenetics.com and preventiongenetics.com with the strings 'NovaSeq 6000' and 'NovaSeq X'. Only pages whose Method or Instrument fields name the sequencer would count. The Mayo test-notifications index is filterable by 'test change'. Some labs (PreventionGenetics, Ambry, Fulgent) put instrument names in validation PDFs or technical-specification pages rather than in the catalog.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Laboratory validation or technical-specification PDFs from PreventionGenetics, Ambry, Baylor Genetics and Fulgent, which sometimes name the sequencer",
+    "ARUP Laboratory Test Directory individual test PDFs (ltd.aruplab.com/api/ltd/pdf/...) searched for the 'NovaSeq' string"
+  ],
+  "apify_requests": []
+}
+```

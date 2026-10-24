@@ -1,0 +1,48 @@
+Sequencing Core Calculator | Tulane School of Medicine
+Skip to main content
+Search the Tulane site
+Apply
+Give
+News
+Request Info
+Our Guiding Principles
+Search
+Menu
+Information for
+Information for
+Alumni
+Current Students
+Faculty & Staff
+Parents & Families
+Visitors
+Apply
+Give
+News
+Request Info
+Our Guiding Principles
+University Info
+Departments
+Basic Sciences
+Centers & Institutes
+Tulane Center for Translational Research in Infection & Inflammation
+Tulane Center for Transla...
+NextGen Sequencing Core
+NextGen Sequencing Core
+Sequencing Core Calculator
+Sequencing Core Calculator
+Sequencing Core Calculator
+CTRII NGS Core — Estimator (Internal Rates 2026)
+Select Service Workflow:
+Bulk Sequencing (NextSeq 2000)
+Single-Cell Sequencing (10x Chromium)
+Select Flow Cell / Kit Type:
+Library Preparation (Optional):
+No Prep (User-provided Ready Libraries)
+Standard Poly-A mRNA Prep ($120 / sample)
+Total RNA Prep w/ Ribosomal Depletion ($160 / sample)
+Standard DNA-Seq Prep ($95 / sample)
+Number of Samples:
+Target Genome/Transcriptome Size (Mb):
+Calculate Coverage & Cost
+Est. Read Output per Sample: 0 Million reads
+Est. Depth of Coverage: 0x

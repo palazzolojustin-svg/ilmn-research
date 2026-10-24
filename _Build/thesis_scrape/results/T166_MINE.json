@@ -1,0 +1,117 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The University of Minnesota Genomics Center is not scrapping its retired NovaSeq 6000. It is sending the unit back to the medical school for clinical sequencing.",
+      "detail": "The UMGC page says that from 2 Jan 2024 it no longer accepts new NovaSeq 6000 projects. The instrument is 'returning to the UMN Medical School for critical clinical sequencing'. Researchers needing high output are sent to the X Plus. So at least one research core's 6000 moved to clinical use, not to the scrap heap. That fits management's claim of a permanent clinical 6000 tail and the 'legacy assays stay' cohort. It does not support fast retirement. No date for the clinical move and no price change are given.",
+      "url": "https://genomics.umn.edu/service/novaseq-6000-sequencing",
+      "date": "2024-01-02 (page text; page opened Oct 2026)",
+      "source_name": "University of Minnesota Genomics Center (UMGC)",
+      "source_type": "other",
+      "quote": "returning to the UMN Medical School for critical clinical sequencing",
+      "strength": "medium",
+      "why_new": "Prior items cover UMN's Ultima and AVITI pricing but not this redeployment of a retired research 6000 into clinical work."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Emory's primate-center genomics core still lists the NovaSeq 6000 next to its NovaSeq X Plus, each bought with its own NIH S10 grant. The same core has also asked NIH to fund replacing the 6000.",
+      "detail": "The ENPRC services page lists the X Plus (S10 OD038274), the NovaSeq 6000 (S10 OD026799) and a MiSeq, with no retirement note or date. A search snippet says a 2025 NIH request states the core 'requires replacing' its 6000 with an X Plus to shorten turnaround and cut costs. I did not open that grant text. Net: the research-core 6000 still runs while a replacement is being funded, so dual running is slow rather than instant.",
+      "url": "https://enprc.emory.edu/nhp_genomics_core/services/index.html",
+      "date": "2025-2026 (undated page; grant request 2025 per search snippet)",
+      "source_name": "Emory National Primate Research Center genomics core",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Emory is not in the known list of cores, and the dual-instrument S10 funding history is new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The Rochester Genomics Center, the Cornell BRC and other cores still list or sell NovaSeq 6000 runs alongside the X. None posts a retirement notice.",
+      "detail": "Rochester's instruments page (footer 2026) lists the NovaSeq X Plus as a 'New Addition' and the NovaSeq 6000 with no retirement note. The only replacement note there is for the NextSeq 550 on 1 Jan 2024. Cornell's BRC (14 May 2024) advertises 'NovaSeqX and NovaSeq6000 sequencing runs' through contracted external sequencing. It says shared lanes will bring 'lower pricing' to projects under 1 billion reads, with no price listed. Together with the Emory, UMN and UNMC examples already in the file, this shows most cores have no public 6000 sunset date.",
+      "url": "https://www.urmc.rochester.edu/research/rochester-genomics-center/instrumentation/instruments.aspx",
+      "date": "2026 (page footer); Cornell 2024-05-14",
+      "source_name": "University of Rochester Genomics Center; Cornell BRC Genomics Facility",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Rochester and Cornell are not in the known core list."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The University of Missouri core said its move to the X cut user sequencing rates by 40%. It calls the 6000 the 'previous' instrument.",
+      "detail": "A Sept 2024 Missouri research-news item says the XLEAP-SBS chemistry lets the core 'reduce sequencing rates by 40%'. It describes the 25B flow cell as giving 2.5x the output of the NovaSeq 6000, and it calls the 6000 the 'previous NovaSeq 6000'. No dollar rates are given on the page. Known Missouri pricing ($2.70/Gb on the 25B) is a level, not a pass-through of the cut. This item adds the size of the user-facing step-down at the time of conversion: 40% in one move.",
+      "url": "https://research.missouri.edu/news/new-genomics-tool",
+      "date": "2024-09-06",
+      "source_name": "University of Missouri Office of Research",
+      "source_type": "press",
+      "quote": "reduce sequencing rates by 40%",
+      "strength": "medium",
+      "why_new": "The known file has Missouri's $2.70/Gb level only. This is the stated user-rate cut at conversion."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Core directors quote 40-60% cost-per-Gb reductions on moving from the 6000 to the X, which is consistent with deep price steps at conversion.",
+      "detail": "Indiana University's Center for Medical Genomics (29 Aug 2023) says the X Plus 'will lower the cost per gigabase by up to 60% compared to the NovaSeq 6000'. It launched 16 Aug 2023 and began services 1 Sep, and the 6000 stays on the center's instrument list. Nantes' GenoA platform (10 Dec 2025) claims 'up to 50% for certain applications' on a >€1M X Plus, bought with CPER Phenomics funds. Missouri claims 40% (above). Together these show how much price the conversion takes out, at about 40-60% across independent cores. That matches the roughly 60-70% consumables gap used in the thesis. The claims are promotional and the dollar baselines are not given.",
+      "url": "https://medicine.iu.edu/blogs/research-updates/powerful-new-genomic-sequencing-tool-nova-seq-x-plus",
+      "date": "2023-08-29; GenoA 2025-12-10",
+      "source_name": "Indiana University School of Medicine; Biogenouest (GenoA, Nantes)",
+      "source_type": "press",
+      "quote": "lower the cost per gigabase (Gb) by up to 60%",
+      "strength": "weak",
+      "why_new": "The known file cites UAMS and UF grant claims, Texas A&M and Salk. It has no Indiana, Nantes or Missouri statements."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The UW-Madison announcement gives no retirement date and no price, so it cannot be used as a conversion-pace or price datapoint.",
+      "detail": "The 27 Jun 2024 page says only that the swap brings 'expanded capacity' and 'lower consumable costs', and that mixed sample types can share a run. It gives no grant amount, no per-sample price and no retirement or disposal detail for the 6000. This confirms the probe note that the page has little further to mine. It is a 1-for-1 swap, which reduces the 6000 count but not total Gb.",
+      "url": "https://research.wisc.edu/uncategorized/2024/06/27/replacement-of-an-illumina-novaseq-6000-with-a-novaseq-x-plus/",
+      "date": "2024-06-27",
+      "source_name": "UW-Madison Office of the VC for Research",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Confirms the page is exhausted, which saves later agents from re-opening it."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Search surfaced the same few cores repeatedly: Dana-Farber, Northwestern, UW-Madison, Novogene and UMN. No core announcement from Jan 2026 onward about a 6000 retirement, last run or S4/SP end was indexed, so the 2026 window is empty on this route. Only 6 institutions were reached (UMN, IU, Emory, Rochester, Cornell, Missouri), plus GenoA, so the 12-institution target was not met. The Northwestern 'state of the core 2024' PDF could not be read because the PDF renderer is missing (pdftoppm) and the fetch returned raw bytes. It may hold 6000 vs X run counts. TU Dresden failed on a certificate error. The ICR page returned 403, and a snippet says the ICR NIHR-funded X Plus was delivered on 9 Apr 2025, with no 6000 detail. The UF ICBR page returned 404.",
+  "leads": [
+    {
+      "name": "Northwestern NUSeq State of the Core 2024 PDF",
+      "url": "https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf",
+      "access": "Public PDF, needs a proper PDF text reader (pdftotext)",
+      "labels": ["1A", "1B", "2B"],
+      "rationale": "A core retired its 6000 in Jan 2024. The report may give lane counts, 6000 vs X run shares, revenue and AVITI/Element adoption."
+    },
+    {
+      "name": "Emory ENPRC S10 grants OD026799 and OD038274 (NIH RePORTER)",
+      "url": "https://enprc.emory.edu/nhp_genomics_core/services/index.html",
+      "access": "Public",
+      "labels": ["1A"],
+      "rationale": "A 6000 plus a later X Plus request shows the replacement timing. The abstract may give cost-reduction claims."
+    },
+    {
+      "name": "ICR Genomics Facility (X Plus delivered 9 Apr 2025, NIHR-funded)",
+      "url": "https://www.icr.ac.uk/research-and-discoveries/cancer-blogs/detail/science-talk/icr-ramps-up-genomics-capability-with-latest-sequencing-technology",
+      "access": "403 on direct fetch. Try the facility page icr.ac.uk/our-research/facilities/genomics-facility",
+      "labels": ["1A", "1C"],
+      "rationale": "A UK cancer center adding an X Plus, possibly alongside or replacing a 6000. Funding amount and cost claims are not yet read."
+    },
+    {
+      "name": "NIH Genetic Testing Registry or CAP/CLIA lab pages for the UMN Medical School clinical sequencing unit",
+      "url": "https://genomics.umn.edu/service/novaseq-6000-sequencing",
+      "access": "Public",
+      "labels": ["1A"],
+      "rationale": "Find where the redeployed clinical 6000 sits (probably an M Health Fairview or UMN clinical lab). It could be a named clinical 6000 holdout."
+    }
+  ],
+  "apify_requests": []
+}
+```

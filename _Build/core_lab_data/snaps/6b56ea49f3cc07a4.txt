@@ -1,0 +1,55 @@
+Price - Cancer Genomics Center - UTHealth Houston
+Skip Navigation and Go To Content
+About
+Careers
+News
+Events
+A-Z
+Webmail
+Inside the University
+Search
+Search
+Cancer Genomics Center
+Menu
+Sequencing Service
+mRNA
+scRNA
+ChIP Seq
+sRNA
+Multiome
+CellPlex
+Total RNA-seq
+ATAC-seq
+Ultra-low Input mRNAseq
+scRNA Immune
+Visium CytAssist
+Ultra-low Input total RNA-seq (40M, 150PE) |
+$269/sample |
+$339/sample |
+ATAC-seq (60M, 150PE) |
+$339/sample |
+$424/sample |
+|
+|
+|
+Sequencing |
+NextSeq 400M reads 75SE***/36PE |
+$2199 |
+$2799 |
+NextSeq 400M reads 75PE**** |
+$3999 |
+$4999 |
+NextSeq 130M reads 75PE |
+$1799 |
+$2299 |
+Novaseq 1000M reads 150PE |
+$2100 |
+$2600 |
+|
+|
+|
+Other***** |
+RNA RIN assay |
+$50/11 samples |
+$60/11 samples |
+DNA bioanalyzer assay |

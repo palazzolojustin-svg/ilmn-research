@@ -1,0 +1,104 @@
+June 15th, 2026 
+To Whom It May Concern: 
+Please find attached the fee schedule for the Genomics and Microbiome Core Facility (GMCF) at 
+Rush University. This fee schedule is active as of June 2026 and is currently valid. We retain the 
+right to modify pricing as needed unless a specific quote or other contract has been provided to 
+an investigator.  
+A few notes about the fee schedule: 
+(a) Pricing is shown for internal (Rush University) and external (non-Rush, academic and 
+non-academic) investigators. Please contact the GMCF staff (including myself) for more 
+information. 
+(b) Also, please note that we utilize tiered pricing for some workflows. For example, for 
+“Amplicon Library Prep from gDNA” – the internal rate for 1-10 samples is $14/sample. 
+Starting at sample 11, the cost per sample drops to $13/sample. Starting at sample 97, 
+cost/sample drops to $11/sample, and at sample 384, cost is $10/sample. Thus, in the 
+attached sheet you will see a column labeled “threshold” indicating at what number of 
+samples that pricing is reached. 
+(c) Some items are custom charges (e.g., “oligonucleotide synthesis”) and listed at $1/unit. 
+The number of required units will depend on custom costs.  
+(d) Finally, please note that DNA sequencing costs decrease with the larger unit (e.g., 25 
+billion clusters is cheaper on a 25 billion cluster flow cell than on 2.5x 10 billion cluster 
+flow cells). We can pro-rate costs but require a minimum of 10% of a flow cell. 
+Sincerely, 
+Stefan J. Green, Ph.D. 
+Professor, Department of Internal Medicine, Division of Infectious Diseases 
+Faculty Advisor, Genomics and Microbiome Core Facility (GMCF) 
+Director, Core Laboratory Services, Office of Research Affairs 
+Institutional Official, Rush University Medical Center  
+Bookitlab: https://core.bookitlab.com/rush-GMCF/  
+Rush website: https://www.rushu.rush.edu/research-rush-university/rush-core-laboratories/rush-
+genomics-microbiome-core-facility  
+Genomics and Microbiome Core Facility Fee Schedule (JUNE 2026)
+Bisulfite, reduced representation DNA libraries 48 171.45$           180.02$                  
+Bisulfite, reduced representation DNA libraries 205.20$           215.46$                  
+Building a new database (per hr) 100.00$           150.00$                  
+COVID WGS from VTM using SWIFT Multi-amplicon (incl: RNA ext, RT, qPCR, library, 0.5M clusters) 129.00$           193.50$                  
+Digital PCR (per plate, high density); 24 sample plate; Assay costs separate 240.00$           290.00$                  
+Digital PCR (per plate, high density); 8 sample plate; Assay costs separate 136.00$           165.00$                  
+Digital PCR (per well, lower density); 96 sample plate; Assay costs separate 476.00$           578.00$                  
+DNA Isolation 24.00$             36.00$                    
+DNA/RNA Sample Dilution 2.00$               3.00$                      
+DNAse Treatment 18.00$             27.00$                    
+E-Gel (10 lane) 25.00$             37.50$                    
+E-Gel (48 lane) 60.00$             75.00$                    
+ERCC RNA Spike-In 2.00$               3.00$                      
+Establishing new ref database (custom, per hr) 100.00$           150.00$                  
+Fluidigm Amplicon Library Prep from PCR 11 7.74$               11.61$                    
+Fluidigm Amplicon Library Prep from PCR 97 6.97$               10.46$                    
+Fluidigm Amplicon Library Prep from PCR 385 6.27$               9.41$                      
+Fluidigm Amplicon Library Prep from PCR 8.60$               12.90$                    
+HMW DNA Size Selection 250.00$           375.00$                  
+Hybridization Capture (Reagents) 1.00$               1.00$                      
+IDT Primer 20.00$             20.00$                    
+Illumina iSeq Run 750.00$           787.50$                  
+Illumina MiniSeq QC 600.00$           660.00$                  
+Illumina MiniSeq Run 1,200.00$        1,320.00$               
+Illumina MiSeq i100 100M cluster 300 cycle 2,030.00$        2,465.00$               
+Illumina MiSeq i100 25M cluster 100 cycle 770.00$           935.00$                  
+Illumina MiSeq i100 25M cluster 300 cycle 1,260.00$        1,530.00$               
+Illumina MiSeq i100 25M cluster 600 cycle 1,540.00$        1,810.00$               
+Illumina MiSeq i100 50M cluster 300 cycle 1,540.00$        1,870.00$               
+Illumina MiSeq i100 50M cluster 600 cycle 2,030.00$        2,465.00$               
+Illumina MiSeq i100 5M cluster 25 cycle 500.00$           550.00$                  
+Illumina MiSeq i100 5M cluster 300 cycle 625.00$           714.00$                  
+Illumina MiSeq i100 5M cluster 600 cycle 910.00$           1,105.00$               
+Illumina MiSeq Nano 2x250 750.00$           787.50$                  
+Illumina MiSeq V2 2x250 2,200.00$        2,420.00$               
+Illumina MiSeq V3 2x300 2,800.00$        3,080.00$               
+Illumina NovaSeq S1 1x100 3,600.00$        3,780.00$               
+Illumina NovaSeq S2 1x100 4,880.00$        5,124.00$               
+Illumina NovaSeq S4 2x150 6,615.00$        6,945.75$               
+Illumina NovaSeq SP 1x100 1,806.00$        1,896.30$               
+Illumina NovaSeq SP 2x150 2,499.00$        2,623.95$               
+Illumina NovaSeq SP 2x250 3,800.00$        4,180.00$               
+Illumina NovaSeq X lane (10B cluster flow cell), 100 cycle (1250 M clusters; 125 Gb) 1,900.00$        2,090.00$               
+Illumina NovaSeq X lane (10B cluster flow cell), 300 cycle (1250 M clusters; 375 Gb) 2,400.00$        2,640.00$               
+Illumina NovaSeq X lane (25B cluster flow cell), 300 cycle (3100 M clusters; 930 Gb) 4,200.00$        4,620.00$               
+Illumina QC Sequencing Run (iSeq/MiniSeq/MiSeqNano) 625.00$           714.00$                  
+Infectious sample add-on cost 5.00$               7.50$                      
+Installing a new genome 300.00$           450.00$                  
+JumpCode rRNA Depletion 1,300.00$        1,950.00$               
+Locked nucleic acid blockers, per sample 3.00$               4.50$                      
+Matrix barcoded tube 3.00$               4.50$                      
+Metagenomic Data Analysis - Only Read-based (First 10 samples) 15.00$             22.50$                    
+Metagenomic Data Analysis - Only Read-based (Starting 11th samples) 10.00$             15.00$                    
+Metagenomic Data Analysis (First 10 samples) 50.00$             75.00$                    
+Metagenomic Data Analysis (per hr) 100.00$           150.00$                  
+Metagenomic Data Analysis (Starting 11th sample) 25.00$             37.50$                    
+Misc 1.00$               1.00$                      
+Oligonucleotide synthesis 1.00$               1.00$                      
+Oxford nanopore 1D library barcoded 310.00$           325.00$                  
+Oxford Nanopore Flongle 500.00$           750.00$                  
+Oxford Nanopore Flongle Flowcell each (up to 1.8 Gb of data) 300.00$           315.00$                  
+Oxford Nanopore GridION flowcell each (uo to 50 Gb of data) 1,174.80$        1,233.54$               
+Oxford Nanopore P2 Flow Cell 1,900.00$        2,090.00$               
+PacBio Amplicon Library Preparations 19.80$             29.70$                    
+PacBio Kinnex + REVIO + Demultiplex 4,200.00$        4,620.00$               
+PacBio Kinnex Library Preparation 1,200.00$        1,320.00$               
+PacBio Sequencing on SMRT 8M cell Sequel 30h movie 2,574.00$        2,702.70$               
+PacBio Sequencing on SMRT REVIO cell, 30h movie + Demultiplexing 3,000.00$        3,300.00$               
+PacBio SMRTBell Library Consrtuction barcoded 825.00$           866.25$                  
+PCR Cleanup 4.00$               6.00$                      
+Pippin Prep Size Selection with Bead Clean-up 175.00$           262.50$                  
+Poly(A) RNAseq Library Prep / No Depletion Library 11 125.00$           187.50$                  
+Poly(A) RNAseq Library Prep / No Depletion Library 24 95.00$             142.50$                  

@@ -1,0 +1,155 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In GEO, the NovaSeq 6000's share of combined human and mouse 6000+X samples fell from 96.9% in Q3'24 to 82.4% in Q3'25 and 70.5% in Q3'26, still losing about 12 points a year with no plateau.",
+      "detail": "GSM counts by submission quarter, 6000 (GPL24676 human + GPL24247 mouse) vs X (GPL34284/GPL34281 human X Plus/X, GPL34290/GPL34328 mouse X Plus/X). 6000/X: Q3'24 51,824/1,647 (96.9%); Q4'24 46,153/1,818 (96.2%); Q1'25 48,076/6,782 (87.6%); Q2'25 47,263/7,603 (86.1%); Q3'25 53,830/11,513 (82.4%); Q4'25 76,169/10,889 (87.5%, a mouse mega-series spike); Q1'26 54,773/17,070 (76.2%); Q2'26 75,151/21,228 (78.0%); Q3'26 57,557/24,114 (70.5%). Year-on-year change: Q3 −14.5 then −11.9 pts; Q4'25 −8.7; Q1'26 −11.4; Q2'26 −8.1. The decline has slowed a little but is still about 2x the 5 pts/yr threshold.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN] OR GPL24247[ACCN]) AND gsm[ETYP] AND 2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12 (data Q3'24–Q3'26)",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Earlier probes gave human-only levels and a Q1–Q3'26 human X ratio. This is the first combined human+mouse quarterly share series with y/y pace."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Counting series instead of samples gives the same result: the 6000's share of 6000+X GEO series fell 95.4% → 81.6% → 69.5% (Q3'24/Q3'25/Q3'26), so mega-series are not driving the trend.",
+      "detail": "GSE counts by quarter: 6000 2,555 / X 123 (Q3'24); 2,816 / 636 (Q3'25); 3,149 / 1,379 (Q3'26). H1'26: 6,077 / 2,134 (74.0%). The series-level y/y declines (−13.8, −12.1 pts) match the sample-level ones (−14.5, −11.9). This stands in for the requested 5% per-series cap, which could not be run by hand (no script tool). A series that lists both platforms counts in each group.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL34284[ACCN] OR GPL34281[ACCN] OR GPL34290[ACCN] OR GPL34328[ACCN]) AND gse[ETYP] AND 2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F551/F552 only bounded the top-10 series. This is a full series-unit robustness check across three years."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A linear fit to the Q1'25–Q3'26 GEO 6000 share (−2.6 pts/qtr) projects about 60% by Q4'27, with no sign of flattening toward a permanent floor.",
+      "detail": "Ordinary least squares on 7 quarterly sample shares (87.6, 86.1, 82.4, 87.5, 76.2, 78.0, 70.5): mean 81.2%, Sxy −73.7, Sxx 28, slope −2.63 pts/qtr (~−10.5 pts/yr). Q4'27 is x=11, giving 81.2 − 8×2.63 ≈ 60%. GEO deposits lag sequencing by 6–18 months, so instrument use is probably further along than this. GEO is mostly academic research, where Illumina says ~92% of HT Gb is already on the X, so the level is not comparable. Only the direction and pace are informative.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN] OR GPL24247[ACCN]) AND gsm[ETYP] AND 2025/01/01:2025/03/31[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (our regression)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First extrapolation of the GEO platform share to the 2027 horizon."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Absolute NovaSeq 6000 deposits in GEO are still rising, with Q3 samples up 3.9% then 6.9% y/y and series up 10% then 12%, so the 6000 base still produces more published data even as its share falls.",
+      "detail": "Q3 6000 samples: 51,824 (2024), 53,830 (2025), 57,557 (2026). Q3 6000 series: 2,555, 2,816, 3,149. Total 6000+X samples grew +22% and then +25% y/y (53,471 → 65,343 → 81,671), so the share loss comes from X growth on top, not a shrinking 6000 count. Because of the 6–18 month deposit lag, this partly reflects 2025 sequencing. It fits management's slow-tail narrative, but the data is research, not clinical.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN] OR GPL24247[ACCN]) AND gse[ETYP] AND 2025/07/01:2025/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F528 noted a single human Q3'26 high. This is a three-year same-quarter series and a combined species count."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Published Illumina high-throughput research output in GEO is accelerating, with 6000+X samples up 25% y/y in Q3'26 after +22% in Q3'25, driven by X samples more than doubling.",
+      "detail": "X samples (human+mouse): Q3'24 1,647 → Q3'25 11,513 → Q3'26 24,114 (+109% y/y). Over the trailing four quarters (Q4'25–Q3'26) there were 263,650 6000 samples and 73,301 X samples (336,951 total). Sample counts are not Gb, and GEO lags sequencing, but this does not show research usage slowing. It cuts against a 'research volume flat' reading for 2025 activity.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL34284[ACCN] OR GPL34281[ACCN] OR GPL34290[ACCN] OR GPL34328[ACCN]) AND gsm[ETYP] AND 2025/07/01:2025/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F424 (literature flat) and F554 (mouse only) differ. This is a combined human+mouse HT Illumina growth rate from GEO."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Non-Illumina short-read platforms (AVITI, Ultima, DNBSEQ-T7) rose from 0.75% of human+mouse HT sequencing samples in GEO in Q3'24 to 3.9% in Q3'25 and 4.5% in Q3'26.",
+      "detail": "Rival GSMs (GPL34295/GPL34475 AVITI, GPL34762/GPL36595 UG 100, GPL29480/GPL28330 DNBSEQ-T7): 402 (Q3'24), 2,680 (Q3'25), 3,544 (Q2'26), 3,808 (Q3'26). As a share of 6000+X+rivals: 402/53,873 = 0.75%; 2,680/68,023 = 3.94%; 3,544/99,923 = 3.55%; 3,808/85,479 = 4.45%. At the series level, rivals had 254 of 4,782 in Q3'26 (5.3%). Share is rising but remains small.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL34295[ACCN] OR GPL34475[ACCN] OR GPL34762[ACCN] OR GPL36595[ACCN] OR GPL29480[ACCN] OR GPL28330[ACCN]) AND gsm[ETYP] AND 2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F530 covered AVITI human only. This is the first all-rival, human+mouse share with a 2024 baseline."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "AVITI plus Ultima GEO samples grew 79% y/y in Q3'26 (834 → 1,494), against +25% for Illumina HT, so Element's research footprint is compounding faster from a small base.",
+      "detail": "Derived by subtraction: rivals Q3'25 2,680 minus DNBSEQ 1,846 = 834; Q3'26 3,808 minus 2,314 = 1,494. AVITI+UG share of HT samples rose from 1.23% to 1.75%. Ultima is negligible (next item), so this is almost all AVITI, which fits the core-level AVITI adoption already in the ledger.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL29480[ACCN] OR GPL28330[ACCN]) AND gsm[ETYP] AND 2025/07/01:2025/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F425 gave AVITI literature-mention growth only. This is a GEO sample growth rate with DNBSEQ removed."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Ultima barely registers in public research data: only 187 human+mouse UG 100 samples were deposited in GEO in the four quarters to Q3'26, about 0.06% of Illumina HT samples.",
+      "detail": "GPL34762 (UG 100, Homo sapiens, 564 lifetime samples) and GPL36595 (UG 100, Mus musculus, 27 lifetime) give 187 GSMs from 1 Oct 2025 to 30 Sep 2026, against 336,951 6000+X samples. Ultima's low $/genome has not yet shown up in academic deposits. Its use is concentrated in genome centers and population or atlas projects that may deposit elsewhere (SRA/dbGaP).",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL34762[ACCN] OR GPL36595[ACCN]) AND gsm[ETYP] AND 2025/10/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The UG100 GPL had never been identified or counted in prior probes."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "DNBSEQ-T7, not AVITI, is the largest non-Illumina platform in GEO human+mouse deposits, at 2,314 samples in Q3'26 (+25% y/y), or 61% of rival samples.",
+      "detail": "GPL29480 (human, 7,415 lifetime) and GPL28330 (mouse, 7,506 lifetime): 1,846 (Q3'25) and 2,314 (Q3'26). This is about 2.7% of Q3'26 HT samples. These deposits are likely China-heavy, which fits Illumina's Greater China declines more than the US. Our GPL list misses DNBSEQ-G400/MGISEQ-2000 and the new T7+ (GPL37606, 0 samples), so the true MGI share is understated.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL29480[ACCN] OR GPL28330[ACCN]) AND gsm[ETYP] AND 2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No DNBSEQ GEO counts existed in the ledger."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "GEO's research 6000 share (~70%) is far above Illumina's reported ~8% of research HT Gb on the 6000, so GEO platform labels lag reality heavily and cannot size the tail.",
+      "detail": "Q3'26 GEO 6000 share is 70.5% (samples) or 69.5% (series), against Illumina's statement that ~92% of research HT Gb was on the X in Q2'26. The gap reflects the 6–18 month deposit lag, submitters reusing the default 6000 GPL, and samples not being Gb (X runs carry more Gb per sample). Use GEO only for direction and pace, not as a level estimate of the tail.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(GPL24676[ACCN] OR GPL24247[ACCN]) AND gse[ETYP] AND 2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities vs Illumina Q2'26 deck",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This calibration caveat makes the prior GEO items (F523, F528) interpretable. It has not been stated before."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "This run used 38 E-utility GETs, all by hand (no Python/Bash tool). The quarterly 6000 vs X sample series covers Q3'24–Q3'26 (Q1'23–Q2'24 not pulled; X GPLs barely existed then, so the 6000 share was ~99%+). Series counts cover Q3'24, Q3'25, H1'26 and Q3'26. Not done: the strict 5% per-series cap (needs esummary per GSE with n_samples; a Python loop is required), quarterly rival splits for Q4'24–Q2'26, mouse-vs-human splits for rivals, and DNBSEQ-G400/MGISEQ-2000 and NextSeq 2000/HiSeq 4000 GPLs. GPL map: human 6000 GPL24676, mouse 6000 GPL24247, human X Plus GPL34284, human X GPL34281, mouse X Plus GPL34290, mouse X GPL34328, AVITI human GPL34295 / mouse GPL34475, UG 100 human GPL34762 / mouse GPL36595, DNBSEQ-T7 human GPL29480 / mouse GPL28330, T7+ human GPL37606. Multi-species GPLs (e.g., GPL35012 X Plus human+mouse, 968 samples) were excluded.",
+  "leads": [
+    {
+      "name": "NCBI SRA run metadata by instrument_model (Gb, not samples)",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=\"Illumina NovaSeq X Plus\"[Platform]",
+      "access": "Free E-utilities. SRA Run Selector or BigQuery nih-sra-datastore gives instrument_model plus bases per run.",
+      "labels": ["1A", "2B", "1C"],
+      "rationale": "SRA records bases per run by instrument, so it can measure Gb share (6000 vs X vs AVITI vs Ultima) directly rather than sample counts, and it includes dbGaP-controlled clinical-adjacent projects."
+    },
+    {
+      "name": "GEO DNBSEQ-G400 / MGISEQ-2000 and NextSeq 2000 GPLs",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(DNBSEQ-G400[Title] OR MGISEQ-2000[Title] OR \"NextSeq 2000\"[Title]) AND gpl[ETYP]",
+      "access": "Free E-utilities",
+      "labels": ["2B", "2A"],
+      "rationale": "Completes the MGI share and tests whether mid-throughput research is moving to the X 1.5B or to rivals."
+    }
+  ],
+  "apify_requests": []
+}
+```

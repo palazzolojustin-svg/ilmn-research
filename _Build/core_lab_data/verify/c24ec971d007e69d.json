@@ -1,0 +1,27 @@
+{
+ "core_name_on_page": "Center for Genome Innovation",
+ "document_date": null,
+ "effective_from": "2026-01",
+ "effective_to": "2026-12",
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_25B",
+   "flow_cell_raw": "300 cycle, 25B NovaX (JAX-GM)",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": null,
+   "price": 2936.57,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 6.5,
+   "stated_output_unit": "B_reads",
+   "line_quote": "NovaSeq Xplus 25B lane sequencing for 6.5B total PE reads per lane. 8 lanes of sequencing possible on 1 flow cell... 2,936.57 each"
+  }
+ ],
+ "_model": "sonnet-verified",
+ "_reason": "implausible $/Gb 0.28 for NSX_25B (2936.57 USD per flow_cell x1.0)"
+}

@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "I ran 4 searches and 1 page fetch. The Uppsala page confirms the NovaSeq X Plus went live in May 2024 and that hereditary-disease samples rose about 40% in 2024 vs 2023. It does not say whether any NovaSeq 6000 was kept or retired. No other hospital or clinical-genetics news page found says a 6000 was retired or kept, so I could not build a 'kept' vs 'retired' list; the English and Swedish searches returned only Illumina launch press and a UW–Madison research-core page. The Agilus (Mumbai, Jan 2026) and Metropolis (Jan 2026) X installs, and the Graz accredited lab's X Plus listing, also say nothing about the 6000. The searches gave no sign that hospital announcements routinely state the fate of the old instrument. Illumina's TruSight Whole Genome page (via search snippet) says the kit runs on the NovaSeq 6000Dx, which hints that regulated or IVD assays stay on the 6000 series. That was not confirmed for any lab. Cohort 2 (old assays stay on the 6000) is therefore untested by this source.",
+  "how_to_mine": "Skip generic news searches. Target validation papers and accreditation or tender documents that name both instruments. Examples: Genomic Medicine Sweden, Rigshospitalet and Karolinska annual reports (PDF); NHS GLH annual reports and board papers (Find a Tender); US academic medical centre CAP/CLIA validation preprints on PMC. Also try ISO 15189 scope-of-accreditation listings (SWEDAC, UKAS) that name the sequencer models. Swedish and Danish PDFs would need to be read directly.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "A European university-hospital clinical genetics lab with the X Plus live for under a year grew hereditary-disease samples about 40%, but the page ties this to in-sourcing capacity, not to lower prices or elasticity.",
+      "detail": "Clinical Genomics Uppsala put a NovaSeq X Plus into clinical use in May 2024. Samples from patients with suspected hereditary disease rose roughly 40% in 2024 vs 2023, and many samples previously sent to external labs are now analysed in-house. Initial assays were rare-disease WGS and WGS plus transcriptome for paediatric leukaemia, with exome and gene panels still in progress. The page does not mention the NovaSeq 6000. The +40% is a sample count, not Gb, and it is partly in-sourced work. Clinical volume growth of this size is therefore not evidence of broad-based elasticity. If anything it shows that the pull comes from a capacity and in-sourcing step, which is one-time. It is also a single site, so weak.",
+      "url": "https://www.uu.se/en/research/clinical-genomics-uppsala/news/archive/2025-03-26-new-technology-enables-faster-diagnoses-of-genetic-health-conditions",
+      "date": "2025-03-26",
+      "source_name": "Uppsala University / Clinical Genomics Uppsala",
+      "source_type": "press",
+      "quote": "approximately 40 percent more samples",
+      "strength": "weak",
+      "why_new": "A hospital-level, dated go-live and sample-growth datapoint (X Plus May 2024, +40% samples in 2024) is not in the known list; the in-sourcing explanation is also new."
+    }
+  ],
+  "new_candidates": [
+    "Genomic Medicine Sweden and Karolinska/Rigshospitalet annual-report PDFs (instrument lists)",
+    "SWEDAC/UKAS ISO 15189 accreditation scopes naming NovaSeq 6000 vs X",
+    "Illumina TruSight Whole Genome IVD kit: runs only on NovaSeq 6000Dx (a clinical-tail anchor for 1A cohort 2)"
+  ],
+  "apify_requests": []
+}
+```

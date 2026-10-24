@@ -1,0 +1,78 @@
+Sequencing Core | UCLA BSCRC
+Skip to main content
+Secondary
+For Members
+For Patients & Families
+Search
+Support Us
+Main navigation
+Menu
+About
+What is the BSCRC?
+Milestones
+About the Broads
+Become a Member
+Careers
+Contact Us
+People
+Member Directory
+Leadership Team
+Trainees
+BSCRC Staff
+Research
+Research Areas
+Shared Resources
+Funding We Offer
+Equipment
+Pricing
+FAQs
+Overview
+The High-Throughput Sequencing Core provides the UCLA research community with access to next-generation DNAShort for deoxyribonucleic acid, DNA is a double-stranded molecule that serves as the genetic blueprint for living organisms. Composed of four chemical bases, DNA encodes the instructions necessary for protein synthesis and governs the development, function, and inheritance of traits in an organism. DNAShort for deoxyribonucleic acid, DNA is a double-stranded molecule that serves as the genetic blueprint for living organisms. Composed of four chemical bases, DNA encodes the instructions necessary for protein synthesis and governs the development, function, and inheritance of traits in an organism. sequencing technology.
+The technology in this Core offers capabilities including SNP mapping, RNAShort for RiboNucleic Acid, this molecule carries genetic messages from DNA and is found inside living cells. These messages tell cells to make the proteins that play many critical roles in the body. RNAShort for RiboNucleic Acid, this molecule carries genetic messages from DNA and is found inside living cells. These messages tell cells to make the proteins that play many critical roles in the body. expression measurements, ChIP-seq and DNA methylationA natural biochemical process of modifying certain structures within DNA that plays crucial roles during development and differentiation. Dysregulation of this process is linked to diseases like cancer, loss-of-imprinting syndromes and neurological disorders. Additionally, DNA methylation patterns vary across cells, tissues and organisms, with changes occurring as we age.methylationA natural biochemical process of modifying certain structures within DNA that plays crucial roles during development and differentiation. Dysregulation of this process is linked to diseases like cancer, loss-of-imprinting syndromes and neurological disorders. Additionally, DNA methylation patterns vary across cells, tissues and organisms, with changes occurring as we age. analysis at a genome-wide scale.
+Such capabilities enable researchers to study the regulation of thousands of genes in a single experiment, providing critical insights into the molecular biology of a cell.
+The Core is located in the Terasaki Life Sciences Building, Room 3110.
+Submissions & Training
+Sequencing Submissions:
+The Illumina NovaSeq X Plus and NovaSeq 6000 are technician operated. Sequencing requests are submitted through the Sequencing Core request site.
+QC Equipment Training:
+Training is required prior to using the Perkin-Elmer Janus G3 liquid handler or the Agilent TapeStation 4200. Contact Giorgia Del Vecchio at giodelv@g.ucla.edu to schedule a training and request access to the scheduling site.
+Equipment
+Sequencers
+Illumina NovaSeq X Plus
+State-of-the-art next-generation sequencing (NGS) system that offers unparalleled accuracy, speed and throughput at the lowest possible cost for RNA-seq, whole genome, whole exome and targeted DNA sequencing.
+Illumina iSeq
+A flexible sequencing system with a wide range of applications that is ideal for small genome sequencing, targeted and amplicon sequencing as well as viral and microbial sequencing.
+QC Equipment
+Perkin Elmer Janus G3 liquid handler
+A library preparation device programmed to execute several protocols for DNA-seq (whole genome, ChIP) and RNA-seq library preparation.
+Agilent TapeStation 4200
+A quality control system used for automated electrophoresis of 1 to 96 samples. It is strongly recommended that this platform be used for all quality control steps of next-generation sequencing experiments.
+Pricing
+*Read number based on Illumina specs
+Service Description | Unit | Read Number | Internal Rate | External Rate |
+iSeq Sequencing | Per Lane | 4 million | $887 | $1,029 |
+NovaSeq X Plus - 1.5B 2x50 | Per Lane | 800 million | $1,377 | $1,874 |
+NovaSeq X Plus - 1.5B 1x100 | Per Lane | 800 million | $1,377 | $1,874 |
+NovaSeq X Plus - 1.5B 2x100 | Per Lane | 800 million | $1,679 | $2,189 |
+NovaSeq X Plus - 1.5B 2x150 | Per Lane | 800 million | $1,815 | $2,339 |
+NovaSeq X Plus - 1.5B 2x300 | Per Lane | 800 million | $2,936 | $3,473 |
+NovaSeq X Plus - 5B 2x50 | Per Lane | 640 million | $713 | $1,210 |
+NovaSeq X Plus - 5B 2x100 | Per Lane | 640 million | $713 | $1,210 |
+NovaSeq X Plus - 5B 2x100 | Per Lane | 640 million | $841 | $1,352 |
+NovaSeq X Plus - 5B 2x150 | Per Lane | 640 million | $939 | $1,463 |
+NovaSeq X Plus - 10B 2x50 | Per Lane | 1.25 billion | $960 | $1,457 |
+NovaSeq X Plus - 10B 2x100 | Per Lane | 1.25 billion | $1,155 | $1,666 |
+NovaSeq X Plus - 10B 2x150 | Per Lane | 1.25 billion | $1,242 | $1,766 |
+NovaSeq X Plus -25B 2x50 | Per Lane | 3.25 billion | $1,475 | $2,165 |
+NovaSeq X Plus -25B 2x100 | Per Lane | 3.25 billion | $2,499 | $3,202 |
+NovaSeq X Plus - 25B 2x150 | Per Lane | 3.25 billion | $2,796 | $3,512 |
+FAQs
+1. How much does sequencing cost?
+Please see the pricing section of this page.
+2. How do I make the library pool?
+Libraries can be quality controlled by DNA gel, TapeStation, or BioAnylzer. To make a library pool for sequencing, please use Qubit BR assay to measure the library concentration, figure out the molarity of the library (using online tools such as this weight to molar quantity converter), dilute all the libraries that you want to pool to the same concentration (10nM is preferred, but we can accept libraries as low as 1nM) and then pool them by equal volume. The volume of the final 10nM pool should be at least 10ul (more volume is needed if the concentration is lower than 10nM). Please only submit the final pool, not individual libraries, for sequencing.
+3. Who can I contact with billing questions?
+Please contact Charlie Stough at CStough@mednet.ucla.edu for all billing inquiries.
+4. Are you open to external customers?
+Yes, please see our pricing section of this page to find external pricing. For more information about the process of sending samples to the Core, please contact Suhua Feng at SFeng@mcdb.ucla.edu.
+5. How can I acknowledge the sequencing core in my upcoming publication or presentation?

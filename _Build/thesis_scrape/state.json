@@ -1,0 +1,6424 @@
+{
+ "stage": "complete",
+ "cost_usd": 332.1718,
+ "tasks_done": 618,
+ "running": {},
+ "history": [
+  {
+   "id": "T008",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 3: Used NovaSeq 6000 resale market",
+   "source_id": "",
+   "outcome": "5 sources (S001:productive, S002:productive, S003:blocked, S004:blocked, S005:dry); 0 new med/strong items; $0.35",
+   "t": "2026-10-12 01:06:51"
+  },
+  {
+   "id": "T001",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "scout 1A",
+   "source_id": "",
+   "outcome": "9 candidates (S011, S012, S013, S014, S015, S016, S017, S018, S019); $0.76",
+   "t": "2026-10-12 01:07:09"
+  },
+  {
+   "id": "T006",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 1: Core-lab recharge rates",
+   "source_id": "",
+   "outcome": "7 sources (S010:productive, S020:productive, S022:productive, S023:dry, S024:productive, S026:productive, S027:productive); 0 new med/strong items; $0.42",
+   "t": "2026-10-12 01:08:02"
+  },
+  {
+   "id": "T009",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 4: Sequencing service provider price lists",
+   "source_id": "",
+   "outcome": "6 sources (S009:productive, S021:productive, S025:productive, S028:dry, S029:productive, S035:dry); 3 new med/strong items; $0.36",
+   "t": "2026-10-12 01:08:09"
+  },
+  {
+   "id": "T007",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 2: Government tenders and awards",
+   "source_id": "",
+   "outcome": "6 sources (S033:productive, S034:productive, S039:productive, S040:productive, S041:blocked, S042:dry); 0 new med/strong items; $0.47",
+   "t": "2026-10-12 01:08:34"
+  },
+  {
+   "id": "T026",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine REUZEit (resale marketplace) NovaSeq 6000 listing",
+   "source_id": "S001",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 01:08:38"
+  },
+  {
+   "id": "T027",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine MSU Surplus Store NovaSeq 6000 listing",
+   "source_id": "S002",
+   "outcome": "0 new med/strong items; $0.36",
+   "t": "2026-10-12 01:09:02"
+  },
+  {
+   "id": "T040",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Univ. of Michigan Advanced Genomics Core Ultima UG 100",
+   "source_id": "S027",
+   "outcome": "4 new med/strong items; $0.34",
+   "t": "2026-10-12 01:09:46"
+  },
+  {
+   "id": "T043",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UK Contracts Finder / Find a Tender (via bidsfactory aggrega",
+   "source_id": "S034",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 01:09:57"
+  },
+  {
+   "id": "T046",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CMS claims volumes: MRD/NIPT/WGS codes",
+   "source_id": "S056",
+   "outcome": "S056 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:10:31"
+  },
+  {
+   "id": "T047",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Customer filings: Illumina purchase commitments",
+   "source_id": "S057",
+   "outcome": "S057 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:11:13"
+  },
+  {
+   "id": "T044",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine SAM.gov sole-source / intent notices (via govsignals, samdai",
+   "source_id": "S039",
+   "outcome": "2 new med/strong items; $0.54",
+   "t": "2026-10-12 01:11:23"
+  },
+  {
+   "id": "T048",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GSA/govsci Illumina kit price history",
+   "source_id": "S017",
+   "outcome": "S017 blocked; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 01:11:43"
+  },
+  {
+   "id": "T045",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Canada Buy and Sell / CanadaBuys",
+   "source_id": "S040",
+   "outcome": "0 new med/strong items; $0.84",
+   "t": "2026-10-12 01:12:08"
+  },
+  {
+   "id": "T055",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "FSS Illumina price list & discounts",
+   "source_id": "S073",
+   "outcome": "S073 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 01:13:28"
+  },
+  {
+   "id": "T035",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UCLA TCGB pricing (current page; 2023 PDF for comparison)",
+   "source_id": "S022",
+   "outcome": "3 new med/strong items; $0.65",
+   "t": "2026-10-12 01:14:00"
+  },
+  {
+   "id": "T042",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Other core and provider price lists (TCAG, JHU GRCF, MD Ande",
+   "source_id": "S029",
+   "outcome": "1 new med/strong items; $0.89",
+   "t": "2026-10-12 01:14:07"
+  },
+  {
+   "id": "T041",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine TED / Publications Office of the EU (EU tenders)",
+   "source_id": "S033",
+   "outcome": "0 new med/strong items; $0.89",
+   "t": "2026-10-12 01:14:19"
+  },
+  {
+   "id": "T049",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Dated Illumina kit prices in research channel",
+   "source_id": "S059",
+   "outcome": "S059 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 01:14:29"
+  },
+  {
+   "id": "T002",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "scout 1B",
+   "source_id": "",
+   "outcome": "7 candidates (S096, S097, S098, S099, S100, S101, S102); $0.89",
+   "t": "2026-10-12 01:14:51"
+  },
+  {
+   "id": "T056",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BillionToOne NIPT volume growth",
+   "source_id": "S075",
+   "outcome": "S075 productive; 1 new med/strong items; $0.19",
+   "t": "2026-10-12 01:14:53"
+  },
+  {
+   "id": "T057",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Academic Illumina discount tiers",
+   "source_id": "S074",
+   "outcome": "S074 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 01:15:51"
+  },
+  {
+   "id": "T010",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 5: Ultima and Element pricing and wins",
+   "source_id": "",
+   "outcome": "4 sources (S009:productive, S103:productive, S104:productive, S110:blocked); 1 new med/strong items; $0.43",
+   "t": "2026-10-12 01:16:11"
+  },
+  {
+   "id": "T063",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F005..F058",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 5; $0.93",
+   "t": "2026-10-12 01:16:45"
+  },
+  {
+   "id": "T050",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NHS/GEL WGS sequencing tenders",
+   "source_id": "S058",
+   "outcome": "S058 productive; 0 new med/strong items; $0.29",
+   "t": "2026-10-12 01:16:47"
+  },
+  {
+   "id": "T071",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "SRA/ENA run share by instrument, 2023-2026",
+   "source_id": "S105",
+   "outcome": "S105 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:17:04"
+  },
+  {
+   "id": "T068",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine BillionToOne SEC filings (10-Q/10-K/S-1): NIPT and oncology ",
+   "source_id": "S075",
+   "outcome": "2 new med/strong items; $0.45",
+   "t": "2026-10-12 01:17:16"
+  },
+  {
+   "id": "T079",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Ultima Genomics press releases and JPM 2026 / Precure (UG200",
+   "source_id": "S104",
+   "outcome": "0 new med/strong items; $0.39",
+   "t": "2026-10-12 01:17:37"
+  },
+  {
+   "id": "T070",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Element Biosciences JPM 2026 presentation and press coverage",
+   "source_id": "S103",
+   "outcome": "4 new med/strong items; $0.35",
+   "t": "2026-10-12 01:17:53"
+  },
+  {
+   "id": "T081",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine ENA portal API and NCBI SRA E-utilities: public run counts b",
+   "source_id": "S105",
+   "outcome": "0 new med/strong items; $0.34",
+   "t": "2026-10-12 01:18:31"
+  },
+  {
+   "id": "T072",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NHS GLH trust payments to Illumina",
+   "source_id": "S106",
+   "outcome": "S106 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:18:32"
+  },
+  {
+   "id": "T073",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "6000 end-of-sale/support dates",
+   "source_id": "S107",
+   "outcome": "S107 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:19:10"
+  },
+  {
+   "id": "T080",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NHS England / Genomics England WGS sequencing procurements 2",
+   "source_id": "S058",
+   "outcome": "1 new med/strong items; $0.48",
+   "t": "2026-10-12 01:19:37"
+  },
+  {
+   "id": "T069",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UMN Genomics Center (UMGC) human whole-genome service page (",
+   "source_id": "S009",
+   "outcome": "2 new med/strong items; $0.29",
+   "t": "2026-10-12 01:19:53"
+  },
+  {
+   "id": "T082",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GTR clinical tests naming 6000 vs X",
+   "source_id": "S125",
+   "outcome": "S125 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:20:00"
+  },
+  {
+   "id": "T058",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Forum evidence of research discounting",
+   "source_id": "S077",
+   "outcome": "S077 blocked; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 01:20:09"
+  },
+  {
+   "id": "T084",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Natera unit volume trend 2024-26",
+   "source_id": "S126",
+   "outcome": "S126 productive; 2 new med/strong items; $0.24",
+   "t": "2026-10-12 01:20:47"
+  },
+  {
+   "id": "T083",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "scout 1A: who remains on the 6000",
+   "source_id": "",
+   "outcome": "7 candidates (S145, S146, S147, S148, S149, S150, S151); $0.84",
+   "t": "2026-10-12 01:21:20"
+  },
+  {
+   "id": "T092",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NIH X 25B kit sole-source award price",
+   "source_id": "S102",
+   "outcome": "S102 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:21:40"
+  },
+  {
+   "id": "T089",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F061..F116",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 3; $0.53",
+   "t": "2026-10-12 01:21:42"
+  },
+  {
+   "id": "T090",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NIH Genetic Testing Registry (GTR): instrument platform list",
+   "source_id": "S125",
+   "outcome": "2 new med/strong items; $0.39",
+   "t": "2026-10-12 01:21:49"
+  },
+  {
+   "id": "T094",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BC PHSA 6000 + X consumables award split",
+   "source_id": "S061",
+   "outcome": "S061 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 01:22:11"
+  },
+  {
+   "id": "T074",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "State university payments to Illumina FY22-26",
+   "source_id": "S108",
+   "outcome": "S108 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 01:22:16"
+  },
+  {
+   "id": "T093",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GRAIL supply terms and Galleri volume",
+   "source_id": "S140",
+   "outcome": "S140 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:22:26"
+  },
+  {
+   "id": "T085",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK uni consortia sequencing framework discounts",
+   "source_id": "S128",
+   "outcome": "S128 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 01:22:34"
+  },
+  {
+   "id": "T091",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Natera 10-Q and Q2/Q3 2026 calls: oncology and women's-healt",
+   "source_id": "S126",
+   "outcome": "2 new med/strong items; $0.44",
+   "t": "2026-10-12 01:22:49"
+  },
+  {
+   "id": "T095",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Caris platform and volume",
+   "source_id": "S141",
+   "outcome": "S141 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:23:20"
+  },
+  {
+   "id": "T011",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 6: Forums and social media on Illumina pricing",
+   "source_id": "",
+   "outcome": "6 sources (S161:blocked, S162:dry, S163:blocked, S164:dry, S165:productive, S166:productive); 1 new med/strong items; $0.31",
+   "t": "2026-10-12 01:23:38"
+  },
+  {
+   "id": "T096",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Element AVITI euro price list (Tampere)",
+   "source_id": "S100",
+   "outcome": "S100 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 01:23:39"
+  },
+  {
+   "id": "T108",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Non-Natera MRD and Shield volumes",
+   "source_id": "S158",
+   "outcome": "S158 productive; 1 new med/strong items; $0.24",
+   "t": "2026-10-12 01:24:01"
+  },
+  {
+   "id": "T087",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Roche SBX research pricing and sites",
+   "source_id": "S130",
+   "outcome": "S130 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 01:24:19"
+  },
+  {
+   "id": "T113",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina price/discount snippets in web search (wastewater l",
+   "source_id": "S166",
+   "outcome": "1 new med/strong items; $0.21",
+   "t": "2026-10-12 01:24:32"
+  },
+  {
+   "id": "T109",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Research buys justified on price vs Illumina",
+   "source_id": "S159",
+   "outcome": "S159 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 01:25:03"
+  },
+  {
+   "id": "T075",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "UCLA TCGB 2019 and 6/2024 PDFs: longer series",
+   "source_id": "S022",
+   "outcome": "2 new med/strong items; $0.49",
+   "t": "2026-10-12 01:25:36"
+  },
+  {
+   "id": "T097",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core funding stress and research price sensitivity",
+   "source_id": "S144",
+   "outcome": "S144 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:25:40"
+  },
+  {
+   "id": "T115",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core 6000 discontinuation notices late 2025+",
+   "source_id": "S151",
+   "outcome": "S151 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 01:26:03"
+  },
+  {
+   "id": "T110",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Sanger/Broad platform mix and cost",
+   "source_id": "S160",
+   "outcome": "S160 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 01:26:19"
+  },
+  {
+   "id": "T116",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Public university Illumina contracts/board approvals",
+   "source_id": "S129",
+   "outcome": "S129 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:26:28"
+  },
+  {
+   "id": "T059",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "US births ceiling for NIPT",
+   "source_id": "S076",
+   "outcome": "S076 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:26:51"
+  },
+  {
+   "id": "T117",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UCR IIGB mailing list: price/discount talk",
+   "source_id": "S168",
+   "outcome": "S168 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:26:57"
+  },
+  {
+   "id": "T114",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine MRD/oncology volume disclosures of Guardant (Reveal, Shield)",
+   "source_id": "S158",
+   "outcome": "2 new med/strong items; $0.65",
+   "t": "2026-10-12 01:27:14"
+  },
+  {
+   "id": "T112",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core-facility announcements and mailing lists (UMN, MSU, UC ",
+   "source_id": "S165",
+   "outcome": "2 new med/strong items; $0.84",
+   "t": "2026-10-12 01:28:06"
+  },
+  {
+   "id": "T129",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina quotes showing research discount %",
+   "source_id": "S183",
+   "outcome": "S183 dry; 0 new med/strong items; $0.28",
+   "t": "2026-10-12 01:28:23"
+  },
+  {
+   "id": "T127",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine US public university regents/board approvals and contract da",
+   "source_id": "S129",
+   "outcome": "0 new med/strong items; $0.47",
+   "t": "2026-10-12 01:28:29"
+  },
+  {
+   "id": "T118",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Rhymes with Haystack AGBT/JPM/ASHG 2026 notes",
+   "source_id": "S113",
+   "outcome": "S113 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 01:28:40"
+  },
+  {
+   "id": "T130",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core minutes on Illumina negotiations",
+   "source_id": "S184",
+   "outcome": "S184 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:28:57"
+  },
+  {
+   "id": "T128",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F121..F158",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 4; $0.64",
+   "t": "2026-10-12 01:29:08"
+  },
+  {
+   "id": "T131",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Element academic placements replacing Illumina",
+   "source_id": "S112",
+   "outcome": "S112 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:29:27"
+  },
+  {
+   "id": "T132",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "FDA summaries: 6000Dx vs X lock-in",
+   "source_id": "S181",
+   "outcome": "S181 blocked; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:30:02"
+  },
+  {
+   "id": "T111",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Natera Signatera clinical vs total volume and payer limits",
+   "source_id": "S126",
+   "outcome": "2 new med/strong items; $0.66",
+   "t": "2026-10-12 01:30:14"
+  },
+  {
+   "id": "T088",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GeneDx exome/genome volume growth",
+   "source_id": "S127",
+   "outcome": "S127 productive; 1 new med/strong items; $0.20",
+   "t": "2026-10-12 01:30:20"
+  },
+  {
+   "id": "T120",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EU hospital 6000Dx service tenders",
+   "source_id": "S149",
+   "outcome": "S149 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 01:30:31"
+  },
+  {
+   "id": "T133",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK FOI replies on Illumina spend/discounts",
+   "source_id": "S195",
+   "outcome": "S195 blocked; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 01:30:43"
+  },
+  {
+   "id": "T098",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Forensic angles on research-customer price sensitivity",
+   "source_id": "",
+   "outcome": "7 candidates (S204, S205, S206, S207, S208, S209, S210); $1.04",
+   "t": "2026-10-12 01:30:56"
+  },
+  {
+   "id": "T134",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Brazil realized Illumina kit prices",
+   "source_id": "S196",
+   "outcome": "S196 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:31:10"
+  },
+  {
+   "id": "T135",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Roche investor disclosures on Axelios",
+   "source_id": "S198",
+   "outcome": "S198 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:31:40"
+  },
+  {
+   "id": "T012",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 7: Job postings as an adoption proxy",
+   "source_id": "",
+   "outcome": "5 sources (S211:productive, S212:productive, S213:productive, S217:dry, S218:blocked); 0 new med/strong items; $0.34",
+   "t": "2026-10-12 01:32:05"
+  },
+  {
+   "id": "T100",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Myriad prenatal volume trend",
+   "source_id": "S142",
+   "outcome": "S142 productive; 1 new med/strong items; $0.23",
+   "t": "2026-10-12 01:32:30"
+  },
+  {
+   "id": "T143",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GeneDx 10-Q: exome/genome test volume growth and sequencing-",
+   "source_id": "S127",
+   "outcome": "5 new med/strong items; $0.52",
+   "t": "2026-10-12 01:32:35"
+  },
+  {
+   "id": "T150",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EDGAR sweep: who still names the 6000",
+   "source_id": "S214",
+   "outcome": "S214 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 01:32:45"
+  },
+  {
+   "id": "T101",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Tempus oncology volume and platform",
+   "source_id": "S143",
+   "outcome": "S143 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:33:21"
+  },
+  {
+   "id": "T149",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Roche AXELIOS/SBX hiring (builtin, jobrxiv, jobboardly mirro",
+   "source_id": "S212",
+   "outcome": "0 new med/strong items; $0.48",
+   "t": "2026-10-12 01:34:33"
+  },
+  {
+   "id": "T159",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Portugal realized Illumina kit prices",
+   "source_id": "S224",
+   "outcome": "S224 blocked; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 01:34:34"
+  },
+  {
+   "id": "T158",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F159..F193",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 5; $0.70",
+   "t": "2026-10-12 01:34:56"
+  },
+  {
+   "id": "T160",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Spain bid-vs-award discount on NovaSeq kits",
+   "source_id": "S225",
+   "outcome": "S225 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 01:35:12"
+  },
+  {
+   "id": "T151",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "FDA supplements adding NovaSeq X to regulated assays",
+   "source_id": "S215",
+   "outcome": "S215 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 01:35:17"
+  },
+  {
+   "id": "T156",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core-facility employment pages listing platform fleets (Nort",
+   "source_id": "S213",
+   "outcome": "3 new med/strong items; $0.85",
+   "t": "2026-10-12 01:35:42"
+  },
+  {
+   "id": "T161",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina 6000 trade-in credit history",
+   "source_id": "S226",
+   "outcome": "S226 blocked; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 01:35:45"
+  },
+  {
+   "id": "T148",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina pricing, contracts and commercial-ops postings (Wor",
+   "source_id": "S211",
+   "outcome": "0 new med/strong items; $0.30",
+   "t": "2026-10-12 01:36:06"
+  },
+  {
+   "id": "T157",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Myriad Genetics 10-Q / Q2-Q3 2026 calls: prenatal (Prequel/N",
+   "source_id": "S142",
+   "outcome": "5 new med/strong items; $0.65",
+   "t": "2026-10-12 01:36:07"
+  },
+  {
+   "id": "T162",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GovSci list prices: 6000 S4 vs X 25B per Gb",
+   "source_id": "S069",
+   "outcome": "S069 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 01:36:18"
+  },
+  {
+   "id": "T124",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "TGen price list Sep 2024 vs Aug 2026",
+   "source_id": "S101",
+   "outcome": "S101 productive; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:36:40"
+  },
+  {
+   "id": "T167",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Validation studies of clinical 6000→X migration",
+   "source_id": "S019",
+   "outcome": "S019 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 01:36:44"
+  },
+  {
+   "id": "T137",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "India GeM NovaSeq reagent bids",
+   "source_id": "S197",
+   "outcome": "S197 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 01:36:55"
+  },
+  {
+   "id": "T164",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Element/Ultima competitive trade-in offers",
+   "source_id": "S227",
+   "outcome": "S227 dry; 1 new med/strong items; $0.23",
+   "t": "2026-10-12 01:37:37"
+  },
+  {
+   "id": "T172",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine TGen Collaborative Sequencing Center academic price lists, S",
+   "source_id": "S101",
+   "outcome": "2 new med/strong items; $0.33",
+   "t": "2026-10-12 01:37:50"
+  },
+  {
+   "id": "T169",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Guardant SSED: which sequencer is named",
+   "source_id": "S011",
+   "outcome": "S011 blocked; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 01:38:31"
+  },
+  {
+   "id": "T166",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "2026 core announcements retiring the 6000",
+   "source_id": "S024",
+   "outcome": "2 new med/strong items; $0.75",
+   "t": "2026-10-12 01:38:32"
+  },
+  {
+   "id": "T013",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 8: EDGAR supply agreements and pricing terms",
+   "source_id": "",
+   "outcome": "1 sources (S243:productive); 1 new med/strong items; $0.46",
+   "t": "2026-10-12 01:38:34"
+  },
+  {
+   "id": "T173",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "6000 vs X per-Gb user price in 2026",
+   "source_id": "S245",
+   "outcome": "S245 productive; 1 new med/strong items; $0.33",
+   "t": "2026-10-12 01:39:54"
+  },
+  {
+   "id": "T165",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Forensic signs of research-consumables price erosion 2026",
+   "source_id": "",
+   "outcome": "7 candidates (S253, S254, S255, S256, S257, S258, S229); $0.91",
+   "t": "2026-10-12 01:40:33"
+  },
+  {
+   "id": "T177",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F200..F227",
+   "source_id": "",
+   "outcome": "accepted 12, rejected 0, derived 4; $0.71",
+   "t": "2026-10-12 01:40:36"
+  },
+  {
+   "id": "T174",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NCI recharge history 6000 vs X",
+   "source_id": "S244",
+   "outcome": "S244 productive; 1 new med/strong items; $0.19",
+   "t": "2026-10-12 01:41:27"
+  },
+  {
+   "id": "T176",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine SEC EDGAR full-text search (efts.sec.gov/LATEST/search-index",
+   "source_id": "S243",
+   "outcome": "1 new med/strong items; $0.67",
+   "t": "2026-10-12 01:41:46"
+  },
+  {
+   "id": "T183",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Grant budgets: quoted Illumina discounts",
+   "source_id": "S259",
+   "outcome": "S259 dry; 0 new med/strong items; $0.28",
+   "t": "2026-10-12 01:42:07"
+  },
+  {
+   "id": "T014",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 9: Roche SBX/Axelios, MGI and new entrants",
+   "source_id": "",
+   "outcome": "2 sources (S263:dry, S264:productive); 0 new med/strong items; $0.28",
+   "t": "2026-10-12 01:42:36"
+  },
+  {
+   "id": "T168",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Core rate sheets: price gap between X lanes and AVITI/UG100",
+   "source_id": "S026",
+   "outcome": "1 new med/strong items; $1.61",
+   "t": "2026-10-12 01:43:04"
+  },
+  {
+   "id": "T184",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NCI CCR Sequencing Facility / NCI Frederick recharge rate hi",
+   "source_id": "S244",
+   "outcome": "1 new med/strong items; $0.48",
+   "t": "2026-10-12 01:43:44"
+  },
+  {
+   "id": "T185",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Complete Genomics / MGI DNBSEQ-T7+ US launch",
+   "source_id": "S264",
+   "outcome": "2 new med/strong items; $0.40",
+   "t": "2026-10-12 01:43:56"
+  },
+  {
+   "id": "T178",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core rate sheets that list BOTH NovaSeq 6000 S4 and NovaSeq ",
+   "source_id": "S245",
+   "outcome": "7 new med/strong items; $0.87",
+   "t": "2026-10-12 01:44:19"
+  },
+  {
+   "id": "T175",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Natera NIPT vs MRD sequencing intensity",
+   "source_id": "S126",
+   "outcome": "5 new med/strong items; $1.84",
+   "t": "2026-10-12 01:49:50"
+  },
+  {
+   "id": "T186",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Labcorp/Quest Q2'26 prenatal volumes",
+   "source_id": "S239",
+   "outcome": "S239 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 02:41:14"
+  },
+  {
+   "id": "T192",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "WordPress REST modified stamps on core rate pages",
+   "source_id": "S258",
+   "outcome": "S258 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 02:41:24"
+  },
+  {
+   "id": "T191",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UT Austin GSAF Jul 2026 rates vs prior",
+   "source_id": "S276",
+   "outcome": "S276 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 02:41:37"
+  },
+  {
+   "id": "T193",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "William Blair OB-GYN NIPT survey Mar 2026",
+   "source_id": "S237",
+   "outcome": "S237 blocked; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 02:42:13"
+  },
+  {
+   "id": "T015",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 10: Clinical lab calls and filings 2026",
+   "source_id": "",
+   "outcome": "7 sources (S288:productive, S155:productive, S289:productive, S290:productive, S291:dry, S292:dry, S293:dry); 1 new med/strong items; $0.38",
+   "t": "2026-10-12 02:42:32"
+  },
+  {
+   "id": "T190",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F230..F259",
+   "source_id": "",
+   "outcome": "accepted 7, rejected 5, derived 3; $0.75",
+   "t": "2026-10-12 02:42:48"
+  },
+  {
+   "id": "T196",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Natera Q2 2026 results, financial-results PDF and 8-K Exhibi",
+   "source_id": "S155",
+   "outcome": "0 new med/strong items; $0.37",
+   "t": "2026-10-12 02:43:28"
+  },
+  {
+   "id": "T188",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Research price-sensitivity forensics (0 items so far)",
+   "source_id": "",
+   "outcome": "8 candidates (S304, S305, S306, S307, S308, S309, S310, S311); $1.08",
+   "t": "2026-10-12 02:43:42"
+  },
+  {
+   "id": "T197",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Caris Q2 2026 8-K Ex. 99.1 and call (ChromoSeq WGS)",
+   "source_id": "S289",
+   "outcome": "1 new med/strong items; $0.28",
+   "t": "2026-10-12 02:44:16"
+  },
+  {
+   "id": "T200",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GenoHub cross-provider lane prices",
+   "source_id": "S300",
+   "outcome": "S300 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 02:44:43"
+  },
+  {
+   "id": "T195",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GeneDx Q2 2026 call transcript (Motley Fool) plus 8-K deck a",
+   "source_id": "S288",
+   "outcome": "0 new med/strong items; $0.31",
+   "t": "2026-10-12 02:44:51"
+  },
+  {
+   "id": "T216",
+   "type": "APIFY_MINE",
+   "model": "sonnet",
+   "title": "mine Apify dataset A02 (misceres/indeed-scraper)",
+   "source_id": "",
+   "outcome": "0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:45:18"
+  },
+  {
+   "id": "T194",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "AVITI vs X lane prices at research cores (2A)",
+   "source_id": "S026",
+   "outcome": "2 new med/strong items; $0.65",
+   "t": "2026-10-12 02:45:25"
+  },
+  {
+   "id": "T217",
+   "type": "APIFY_MINE",
+   "model": "sonnet",
+   "title": "mine Apify dataset A03 (apify/google-search-scraper)",
+   "source_id": "",
+   "outcome": "0 new med/strong items; $0.30",
+   "t": "2026-10-12 02:45:36"
+  },
+  {
+   "id": "T198",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Tempus Q2 2026 call (GenomeNext WGS launch)",
+   "source_id": "S290",
+   "outcome": "1 new med/strong items; $0.33",
+   "t": "2026-10-12 02:45:42"
+  },
+  {
+   "id": "T199",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Research-buyer discount depth: new forensic angles",
+   "source_id": "",
+   "outcome": "9 candidates (S321, S322, S323, S324, S325, S326, S327, S328, S329); $1.05",
+   "t": "2026-10-12 02:45:57"
+  },
+  {
+   "id": "T201",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UConn CGI dated product price ranges",
+   "source_id": "S267",
+   "outcome": "S267 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 02:46:11"
+  },
+  {
+   "id": "T202",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UNC flowcell tracker: run counts by instrument",
+   "source_id": "S268",
+   "outcome": "S268 dry; 0 new med/strong items; $0.15",
+   "t": "2026-10-12 02:46:27"
+  },
+  {
+   "id": "T016",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 11: NIPT maturation data",
+   "source_id": "",
+   "outcome": "4 sources (S333:productive, S334:productive, S240:productive, S337:dry); 1 new med/strong items; $0.36",
+   "t": "2026-10-12 02:47:18"
+  },
+  {
+   "id": "T017",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 12: MRD adoption limits",
+   "source_id": "",
+   "outcome": "2 sources (S335:productive, S336:productive); 1 new med/strong items; $0.36",
+   "t": "2026-10-12 02:47:19"
+  },
+  {
+   "id": "T018",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 13: Clinical WGS scale",
+   "source_id": "",
+   "outcome": "3 sources (S343:productive, S344:productive, S345:productive); 0 new med/strong items; $0.29",
+   "t": "2026-10-12 02:47:34"
+  },
+  {
+   "id": "T218",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F260..F286",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 3; $0.77",
+   "t": "2026-10-12 02:47:43"
+  },
+  {
+   "id": "T223",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2A: research price sensitivity, untried geographies and formats",
+   "source_id": "",
+   "outcome": "8 candidates (S348, S349, S350, S351, S254, S352, S326, S353); $1.08",
+   "t": "2026-10-12 02:48:43"
+  },
+  {
+   "id": "T237",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine OIG Medicare Part B lab spending 2024 (data snapshot OEI-09-",
+   "source_id": "S336",
+   "outcome": "2 new med/strong items; $0.41",
+   "t": "2026-10-12 02:48:45"
+  },
+  {
+   "id": "T241",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Cores migrating fully off Illumina",
+   "source_id": "S326",
+   "outcome": "S326 productive; 1 new med/strong items; $0.16",
+   "t": "2026-10-12 02:49:09"
+  },
+  {
+   "id": "T236",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine BillionToOne Q2 2026 results (prenatal)",
+   "source_id": "S240",
+   "outcome": "2 new med/strong items; $0.45",
+   "t": "2026-10-12 02:49:22"
+  },
+  {
+   "id": "T240",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Genomics England Generation Study and GNBS costing",
+   "source_id": "S345",
+   "outcome": "1 new med/strong items; $0.47",
+   "t": "2026-10-12 02:49:28"
+  },
+  {
+   "id": "T242",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UGA GGBC survey-driven price cuts",
+   "source_id": "S309",
+   "outcome": "S309 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 02:49:48"
+  },
+  {
+   "id": "T203",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina Japan campaign flyers: list vs campaign price",
+   "source_id": "S206",
+   "outcome": "S206 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 02:49:55"
+  },
+  {
+   "id": "T258",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core migrations away from Illumina, newly found: University ",
+   "source_id": "S326",
+   "outcome": "1 new med/strong items; $0.33",
+   "t": "2026-10-12 02:50:12"
+  },
+  {
+   "id": "T243",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Nordic tenders won on lowest price",
+   "source_id": "S311",
+   "outcome": "S311 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:50:37"
+  },
+  {
+   "id": "T224",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: is the 6000 tail permanent or migrating?",
+   "source_id": "",
+   "outcome": "8 candidates (S371, S372, S002, S133, S373, S374, S375, S376); $0.98",
+   "t": "2026-10-12 02:50:42"
+  },
+  {
+   "id": "T259",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine University of Georgia GGBC core news archive: price cuts jus",
+   "source_id": "S309",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 02:51:05"
+  },
+  {
+   "id": "T264",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Natera TG Consumables Supply Agreement terms",
+   "source_id": "S251",
+   "outcome": "S251 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 02:51:20"
+  },
+  {
+   "id": "T244",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "PMDA CGP tests locked to 6000",
+   "source_id": "S146",
+   "outcome": "S146 blocked; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 02:51:53"
+  },
+  {
+   "id": "T265",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Japanese national-university contract disclosures: NovaSeq kit prices",
+   "source_id": "S204",
+   "outcome": "S204 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:51:55"
+  },
+  {
+   "id": "T019",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 14: Constraints other than sequencing cost",
+   "source_id": "",
+   "outcome": "6 sources (S382:productive, S383:productive, S384:productive, S385:dry, S386:dry, S387:dry); 0 new med/strong items; $0.31",
+   "t": "2026-10-12 02:52:07"
+  },
+  {
+   "id": "T245",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ukspending supplier pages: Element vs Illumina",
+   "source_id": "S308",
+   "outcome": "S308 productive; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 02:52:13"
+  },
+  {
+   "id": "T271",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine AMP/CAP NGS biomarker report consensus (Oct 2025)",
+   "source_id": "S383",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 02:52:45"
+  },
+  {
+   "id": "T270",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Leung et al. technologist-shortage survey (Genetics in Medic",
+   "source_id": "S382",
+   "outcome": "2 new med/strong items; $0.48",
+   "t": "2026-10-12 02:53:37"
+  },
+  {
+   "id": "T273",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UK contract aggregator ukspending.com: supplier pages for El",
+   "source_id": "S308",
+   "outcome": "2 new med/strong items; $0.44",
+   "t": "2026-10-12 02:53:39"
+  },
+  {
+   "id": "T272",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Physician NGS-barriers survey (PubMed 39606845) and Yale USC",
+   "source_id": "S384",
+   "outcome": "4 new med/strong items; $0.45",
+   "t": "2026-10-12 02:54:08"
+  },
+  {
+   "id": "T275",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Adaptive clonoSEQ MRD volumes and platform",
+   "source_id": "S399",
+   "outcome": "S399 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 02:54:33"
+  },
+  {
+   "id": "T266",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Clinical test menus still naming the NovaSeq 6000",
+   "source_id": "S377",
+   "outcome": "S377 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 02:55:01"
+  },
+  {
+   "id": "T225",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Pitt HTGC external vs internal rates and prior-year sheets",
+   "source_id": "S010",
+   "outcome": "1 new med/strong items; $1.49",
+   "t": "2026-10-12 02:55:12"
+  },
+  {
+   "id": "T274",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F289..F335",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.67",
+   "t": "2026-10-12 02:55:18"
+  },
+  {
+   "id": "T277",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NIH NISC Ultima presolicitation",
+   "source_id": "S233",
+   "outcome": "S233 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 02:55:39"
+  },
+  {
+   "id": "T246",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core subsidy cuts (Nebraska and peers)",
+   "source_id": "S310",
+   "outcome": "S310 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 02:55:56"
+  },
+  {
+   "id": "T276",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: evidence the clinical 6000 tail migrates in 2027",
+   "source_id": "",
+   "outcome": "9 candidates (S413, S414, S415, S416, S417, S418, S419, S024, S420); $0.91",
+   "t": "2026-10-12 02:56:00"
+  },
+  {
+   "id": "T278",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "archive.ph core rate history",
+   "source_id": "S401",
+   "outcome": "S401 blocked; 0 new med/strong items; $0.15",
+   "t": "2026-10-12 02:56:07"
+  },
+  {
+   "id": "T226",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Myriad: prenatal volumes, risk factors and sequencer commentary",
+   "source_id": "S142",
+   "outcome": "1 new med/strong items; $0.56",
+   "t": "2026-10-12 02:56:08"
+  },
+  {
+   "id": "T267",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "German institute award notices for Illumina reagents",
+   "source_id": "S378",
+   "outcome": "S378 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:56:52"
+  },
+  {
+   "id": "T288",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Research switchers citing cost",
+   "source_id": "S421",
+   "outcome": "S421 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 02:56:54"
+  },
+  {
+   "id": "T279",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Mega-scale research projects moved off Illumina",
+   "source_id": "S402",
+   "outcome": "S402 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 02:56:56"
+  },
+  {
+   "id": "T289",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Procurement-office Illumina discount brags",
+   "source_id": "S422",
+   "outcome": "S422 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:56:58"
+  },
+  {
+   "id": "T283",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NIH NISC Ultima presolicitation (HHS 75N98026Q00652)",
+   "source_id": "S233",
+   "outcome": "0 new med/strong items; $0.48",
+   "t": "2026-10-12 02:57:09"
+  },
+  {
+   "id": "T290",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Census of 2026 NovaSeq 6000 run sellers",
+   "source_id": "S375",
+   "outcome": "S375 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 02:57:31"
+  },
+  {
+   "id": "T280",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Mid-size clinical labs: sequencer and supply terms",
+   "source_id": "S400",
+   "outcome": "S400 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 02:57:31"
+  },
+  {
+   "id": "T291",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "6000 control-software investment",
+   "source_id": "S376",
+   "outcome": "S376 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 02:57:37"
+  },
+  {
+   "id": "T268",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "French DECP awards: Illumina vs rivals in research",
+   "source_id": "S379",
+   "outcome": "S379 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 02:57:47"
+  },
+  {
+   "id": "T292",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Roche Axelios US launch PDF: $/Gb and research targeting",
+   "source_id": "S266",
+   "outcome": "S266 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 02:58:05"
+  },
+  {
+   "id": "T247",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Clinical lab job boards: 6000 vs X vs AVITI",
+   "source_id": "S220",
+   "outcome": "S220 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 02:58:25"
+  },
+  {
+   "id": "T293",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Cores losing research volume on price",
+   "source_id": "S423",
+   "outcome": "S423 productive; 1 new med/strong items; $0.22",
+   "t": "2026-10-12 02:58:25"
+  },
+  {
+   "id": "T295",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Natera Q2'26 + Canaccord: NIPT/MRD volume detail",
+   "source_id": "S334",
+   "outcome": "0 new med/strong items; $0.40",
+   "t": "2026-10-12 02:59:25"
+  },
+  {
+   "id": "T227",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "More core employment and fleet pages: who still runs 6000s",
+   "source_id": "S213",
+   "outcome": "1 new med/strong items; $0.49",
+   "t": "2026-10-12 02:59:35"
+  },
+  {
+   "id": "T296",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Azenta NGS services price vs volume",
+   "source_id": "S428",
+   "outcome": "S428 dry; 0 new med/strong items; $0.28",
+   "t": "2026-10-12 02:59:37"
+  },
+  {
+   "id": "T282",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2A: research buyers' discount demands, untried formats",
+   "source_id": "",
+   "outcome": "9 candidates (S440, S441, S442, S443, S444, S445, S446, S043, S447); $0.82",
+   "t": "2026-10-12 02:59:38"
+  },
+  {
+   "id": "T228",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "KUMC: 6000 vs X vs alternatives per-Gb",
+   "source_id": "S020",
+   "outcome": "1 new med/strong items; $0.30",
+   "t": "2026-10-12 03:00:48"
+  },
+  {
+   "id": "T020",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 15: NIH funding data",
+   "source_id": "",
+   "outcome": "4 sources (S448:productive, S449:productive, S450:dry, S451:productive); 2 new med/strong items; $0.33",
+   "t": "2026-10-12 03:00:53"
+  },
+  {
+   "id": "T303",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core-facility notices of volume lost to outsourcing (Novogen",
+   "source_id": "S423",
+   "outcome": "4 new med/strong items; $0.72",
+   "t": "2026-10-12 03:01:17"
+  },
+  {
+   "id": "T297",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Novogene research price deflation",
+   "source_id": "S429",
+   "outcome": "S429 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:01:33"
+  },
+  {
+   "id": "T311",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine FY2027 appropriations: NSF and NIH (House CJS, Labor-HHS; Wh",
+   "source_id": "S451",
+   "outcome": "0 new med/strong items; $0.38",
+   "t": "2026-10-12 03:01:55"
+  },
+  {
+   "id": "T313",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "S10 sequencer awards by platform",
+   "source_id": "S459",
+   "outcome": "S459 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:02:02"
+  },
+  {
+   "id": "T310",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F338..F383",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 2; $0.73",
+   "t": "2026-10-12 03:02:24"
+  },
+  {
+   "id": "T309",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Grant Witness (grant-termination and reinstatement tracker)",
+   "source_id": "S449",
+   "outcome": "0 new med/strong items; $0.39",
+   "t": "2026-10-12 03:02:35"
+  },
+  {
+   "id": "T314",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina list-price change notices 2025-27",
+   "source_id": "S460",
+   "outcome": "S460 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:02:41"
+  },
+  {
+   "id": "T308",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine AAMC Tracking NIH Awards FY2026 (monthly briefs)",
+   "source_id": "S448",
+   "outcome": "5 new med/strong items; $0.30",
+   "t": "2026-10-12 03:02:57"
+  },
+  {
+   "id": "T312",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2A: hard evidence of research price fights, new formats",
+   "source_id": "",
+   "outcome": "8 candidates (S474, S367, S475, S108, S476, S477, S478, S479); $1.07",
+   "t": "2026-10-12 03:03:21"
+  },
+  {
+   "id": "T299",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core 35B vs 25B per-Gb rates",
+   "source_id": "S431",
+   "outcome": "S431 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:03:38"
+  },
+  {
+   "id": "T021",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 16: Academic buying behavior",
+   "source_id": "",
+   "outcome": "4 sources (S481:blocked, S482:dry, S186:productive, S483:blocked); 0 new med/strong items; $0.33",
+   "t": "2026-10-12 03:04:04"
+  },
+  {
+   "id": "T300",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Big genome centers' external WGS prices",
+   "source_id": "S432",
+   "outcome": "S432 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:04:12"
+  },
+  {
+   "id": "T316",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AusTender Illumina contract series",
+   "source_id": "S458",
+   "outcome": "S458 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:04:14"
+  },
+  {
+   "id": "T315",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Canadian federal Illumina contract series",
+   "source_id": "S457",
+   "outcome": "S457 productive; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:04:21"
+  },
+  {
+   "id": "T321",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Europe PMC platform-mention share by year",
+   "source_id": "S480",
+   "outcome": "S480 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:04:23"
+  },
+  {
+   "id": "T327",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine University core facility platform-switch and retirement noti",
+   "source_id": "S186",
+   "outcome": "0 new med/strong items; $0.42",
+   "t": "2026-10-12 03:05:10"
+  },
+  {
+   "id": "T322",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CMS Part B utilization for MRD PLA codes",
+   "source_id": "S340",
+   "outcome": "S340 productive; 1 new med/strong items; $0.26",
+   "t": "2026-10-12 03:05:19"
+  },
+  {
+   "id": "T301",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GUARDIAN newborn WGS scale (watch-out)",
+   "source_id": "S344",
+   "outcome": "1 new med/strong items; $0.41",
+   "t": "2026-10-12 03:05:27"
+  },
+  {
+   "id": "T329",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Europe PMC full-text search API: counts of methods-section m",
+   "source_id": "S480",
+   "outcome": "1 new med/strong items; $0.38",
+   "t": "2026-10-12 03:05:34"
+  },
+  {
+   "id": "T330",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GSA/VA FSS Illumina kit prices: 6000 vs X",
+   "source_id": "S488",
+   "outcome": "S488 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:05:53"
+  },
+  {
+   "id": "T331",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Used NovaSeq 6000 resale volume and prices",
+   "source_id": "S489",
+   "outcome": "S489 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:06:09"
+  },
+  {
+   "id": "T323",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Japanese WTO tenders: NovaSeq X kit realized prices",
+   "source_id": "S098",
+   "outcome": "S098 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 03:06:42"
+  },
+  {
+   "id": "T334",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F384..F414",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.69",
+   "t": "2026-10-12 03:06:51"
+  },
+  {
+   "id": "T335",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Federal Illumina orders: 6000 vs X kit mix by quarter",
+   "source_id": "S495",
+   "outcome": "S495 blocked; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 03:07:45"
+  },
+  {
+   "id": "T332",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Distributor list prices: 6000 vs X kits over time",
+   "source_id": "S490",
+   "outcome": "S490 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:08:25"
+  },
+  {
+   "id": "T324",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ASHG 2026 $/genome benchmarks",
+   "source_id": "S332",
+   "outcome": "S332 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:08:26"
+  },
+  {
+   "id": "T333",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine CMS Part B Provider & Supplier Utilization by HCPCS (data.cm",
+   "source_id": "S340",
+   "outcome": "2 new med/strong items; $0.66",
+   "t": "2026-10-12 03:08:42"
+  },
+  {
+   "id": "T336",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Published Axelios $/Gb or $/genome at customer sites",
+   "source_id": "S496",
+   "outcome": "S496 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 03:09:05"
+  },
+  {
+   "id": "T253",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: Axelios and large-lab discount pressure in research",
+   "source_id": "",
+   "outcome": "8 candidates (S499, S500, S501, S502, S503, S504, S505, S506); $1.07",
+   "t": "2026-10-12 03:09:17"
+  },
+  {
+   "id": "T337",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Certified providers: 6000-only share over time",
+   "source_id": "S497",
+   "outcome": "S497 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 03:09:29"
+  },
+  {
+   "id": "T302",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: elasticity of remaining 6000 users",
+   "source_id": "",
+   "outcome": "7 candidates (S507, S508, S509, S510, S061, S511, S512); $1.00",
+   "t": "2026-10-12 03:10:40"
+  },
+  {
+   "id": "T022",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 17: International research funding and buying",
+   "source_id": "",
+   "outcome": "5 sources (S513:dry, S514:productive, S515:productive, S516:productive, S517:dry); 1 new med/strong items; $0.42",
+   "t": "2026-10-12 03:11:20"
+  },
+  {
+   "id": "T338",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: who is still on the 6000 and why, untried forensic formats",
+   "source_id": "",
+   "outcome": "8 candidates (S012, S147, S520, S521, S522, S523, S524, S525); $1.03",
+   "t": "2026-10-12 03:11:24"
+  },
+  {
+   "id": "T207",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core annual reports: sample and run volumes",
+   "source_id": "S109",
+   "outcome": "S109 dry; 0 new med/strong items; $0.28",
+   "t": "2026-10-12 03:11:26"
+  },
+  {
+   "id": "T343",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Medicare Part B: competitor MRD and WGS codes 2022-24",
+   "source_id": "S340",
+   "outcome": "2 new med/strong items; $0.47",
+   "t": "2026-10-12 03:11:44"
+  },
+  {
+   "id": "T355",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UKRI Delivery Plan 2026-27 and RCIF (Research Capital Invest",
+   "source_id": "S516",
+   "outcome": "2 new med/strong items; $0.50",
+   "t": "2026-10-12 03:12:59"
+  },
+  {
+   "id": "T353",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine MGI Tech H1'26 results (GenomeWeb, SSE filing)",
+   "source_id": "S514",
+   "outcome": "1 new med/strong items; $0.39",
+   "t": "2026-10-12 03:13:11"
+  },
+  {
+   "id": "T328",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Canada Proactive Disclosure of contracts over $10K (open.can",
+   "source_id": "S457",
+   "outcome": "5 new med/strong items; $1.04",
+   "t": "2026-10-12 03:13:11"
+  },
+  {
+   "id": "T354",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine European and Asian university tender notices (TED, Find a Te",
+   "source_id": "S515",
+   "outcome": "0 new med/strong items; $0.64",
+   "t": "2026-10-12 03:13:36"
+  },
+  {
+   "id": "T344",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GRAIL and 10x Q2'26 10-Q: Illumina pricing terms",
+   "source_id": "S252",
+   "outcome": "S252 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:13:50"
+  },
+  {
+   "id": "T232",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EU core price-list revisions",
+   "source_id": "S331",
+   "outcome": "S331 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:14:01"
+  },
+  {
+   "id": "T360",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "APHL public-health lab sequencer inventory",
+   "source_id": "S525",
+   "outcome": "S525 blocked; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:14:04"
+  },
+  {
+   "id": "T361",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UW-Madison 6000-to-X replacement justification",
+   "source_id": "S512",
+   "outcome": "S512 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:14:23"
+  },
+  {
+   "id": "T345",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Karolinska 2026 sequencing-reagent tenders",
+   "source_id": "S476",
+   "outcome": "S476 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:14:31"
+  },
+  {
+   "id": "T373",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F416..F448",
+   "source_id": "",
+   "outcome": "accepted 10, rejected 2, derived 3; $0.75",
+   "t": "2026-10-12 03:15:08"
+  },
+  {
+   "id": "T363",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Roswell Park/board agendas: Illumina contract terms",
+   "source_id": "S511",
+   "outcome": "S511 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:15:13"
+  },
+  {
+   "id": "T362",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Natera Illumina purchase-commitment delta",
+   "source_id": "S283",
+   "outcome": "S283 dry; 0 new med/strong items; $0.31",
+   "t": "2026-10-12 03:15:16"
+  },
+  {
+   "id": "T023",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 18: Tools-peer read-through Q2-Q3 2026",
+   "source_id": "",
+   "outcome": "2 sources (S549:productive, S550:dry); 0 new med/strong items; $0.34",
+   "t": "2026-10-12 03:15:26"
+  },
+  {
+   "id": "T376",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NHS GLH payments to Illumina, 2023-26",
+   "source_id": "S546",
+   "outcome": "S546 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:15:49"
+  },
+  {
+   "id": "T364",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NSF MRI sequencer awards by platform",
+   "source_id": "S305",
+   "outcome": "S305 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:16:06"
+  },
+  {
+   "id": "T346",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK sequencing-services framework awards via OCDS",
+   "source_id": "S477",
+   "outcome": "S477 productive; 1 new med/strong items; $0.28",
+   "t": "2026-10-12 03:16:09"
+  },
+  {
+   "id": "T379",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Qiagen Q2 2026 earnings call transcript (Webull) and press r",
+   "source_id": "S549",
+   "outcome": "0 new med/strong items; $0.36",
+   "t": "2026-10-12 03:16:27"
+  },
+  {
+   "id": "T208",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ABRF core surveys on pricing and switching",
+   "source_id": "S302",
+   "outcome": "S302 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:16:59"
+  },
+  {
+   "id": "T377",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BC university supplier payments to Illumina",
+   "source_id": "S547",
+   "outcome": "S547 blocked; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 03:17:04"
+  },
+  {
+   "id": "T378",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "State checkbook payments to Illumina vs Element",
+   "source_id": "S548",
+   "outcome": "S548 blocked; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:17:32"
+  },
+  {
+   "id": "T382",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core 6000 retirement dates 2025-26",
+   "source_id": "S558",
+   "outcome": "S558 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:17:39"
+  },
+  {
+   "id": "T380",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UK university sequencing-services frameworks: award notices ",
+   "source_id": "S477",
+   "outcome": "2 new med/strong items; $0.45",
+   "t": "2026-10-12 03:17:41"
+  },
+  {
+   "id": "T347",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK consortium sequencing-consumables VEAT/call-offs",
+   "source_id": "S443",
+   "outcome": "S443 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:18:05"
+  },
+  {
+   "id": "T383",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Same-sheet $/Gb: AVITI/Ultima vs X 25B at cores",
+   "source_id": "S556",
+   "outcome": "S556 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:18:41"
+  },
+  {
+   "id": "T024",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 19: Illumina list-price forensics",
+   "source_id": "",
+   "outcome": "4 sources (S564:blocked, S565:dry, S566:blocked, S567:productive); 0 new med/strong items; $0.32",
+   "t": "2026-10-12 03:19:08"
+  },
+  {
+   "id": "T386",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Kyoto ASHBi fee-table revisions Nov 2024 vs Jul 2025",
+   "source_id": "S350",
+   "outcome": "S350 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:19:11"
+  },
+  {
+   "id": "T384",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Ontario/Alberta supplier payments to Illumina",
+   "source_id": "S557",
+   "outcome": "S557 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:19:33"
+  },
+  {
+   "id": "T387",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NGI Sweden SEK per 25B lane, current vs history",
+   "source_id": "S349",
+   "outcome": "S349 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:20:12"
+  },
+  {
+   "id": "T367",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2A/2B: forensic proof of research discount depth",
+   "source_id": "",
+   "outcome": "7 candidates (S205, S515, S569, S570, S571, S572, S573); $0.89",
+   "t": "2026-10-12 03:20:46"
+  },
+  {
+   "id": "T395",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Core-facility price sheets with dated history (TxGen, UConn ",
+   "source_id": "S567",
+   "outcome": "3 new med/strong items; $0.73",
+   "t": "2026-10-12 03:21:53"
+  },
+  {
+   "id": "T400",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NYS Wadsworth: 6000-to-X assay modification approvals",
+   "source_id": "S415",
+   "outcome": "S415 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:22:21"
+  },
+  {
+   "id": "T385",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: forensic proof that research pricing is falling in 2026",
+   "source_id": "",
+   "outcome": "7 candidates (S580, S478, S205, S581, S582, S583, S584); $1.11",
+   "t": "2026-10-12 03:22:41"
+  },
+  {
+   "id": "T388",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Macrogen NGS price/volume 2025-26",
+   "source_id": "S562",
+   "outcome": "S562 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:22:54"
+  },
+  {
+   "id": "T401",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NCBI GTR: instrument named per clinical test",
+   "source_id": "S509",
+   "outcome": "S509 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:23:01"
+  },
+  {
+   "id": "T381",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Canada federal: 6000-kit vs X-kit spend by department, 2022-26",
+   "source_id": "S457",
+   "outcome": "7 new med/strong items; $1.77",
+   "t": "2026-10-12 03:23:02"
+  },
+  {
+   "id": "T368",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Oslo/Nordic NIPT platform replacement tenders",
+   "source_id": "S524",
+   "outcome": "S524 blocked; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:23:22"
+  },
+  {
+   "id": "T402",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AMP 2025 abstracts: 6000-to-X revalidations",
+   "source_id": "S420",
+   "outcome": "S420 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:23:58"
+  },
+  {
+   "id": "T389",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illinois Carver: Ultima wafer vs X 25B on one sheet",
+   "source_id": "S253",
+   "outcome": "S253 productive; 1 new med/strong items; $0.21",
+   "t": "2026-10-12 03:24:19"
+  },
+  {
+   "id": "T403",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Hospital genetics labs retiring the 6000",
+   "source_id": "S419",
+   "outcome": "S419 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:24:45"
+  },
+  {
+   "id": "T414",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F449..F489",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 3; $0.81",
+   "t": "2026-10-12 03:25:00"
+  },
+  {
+   "id": "T416",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Novogene lane-price series 2024-26",
+   "source_id": "S582",
+   "outcome": "S582 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:25:19"
+  },
+  {
+   "id": "T415",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine University of Illinois Roy J. Carver Biotechnology Center, D",
+   "source_id": "S253",
+   "outcome": "1 new med/strong items; $0.35",
+   "t": "2026-10-12 03:25:30"
+  },
+  {
+   "id": "T404",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CIDR per-sample cost schedule, current vs prior",
+   "source_id": "S504",
+   "outcome": "S504 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:26:05"
+  },
+  {
+   "id": "T025",
+   "type": "SEED",
+   "model": "sonnet",
+   "title": "seed 20: Illumina promotions forensics",
+   "source_id": "",
+   "outcome": "5 sources (S591:blocked, S592:dry, S189:productive, S593:dry, S101:dry); 0 new med/strong items; $0.34",
+   "t": "2026-10-12 03:26:07"
+  },
+  {
+   "id": "T429",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Novogene landing-page series (web.novogene.com slugs): a ful",
+   "source_id": "S582",
+   "outcome": "1 new med/strong items; $0.40",
+   "t": "2026-10-12 03:26:41"
+  },
+  {
+   "id": "T417",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: research price erosion, untried forensic angles",
+   "source_id": "",
+   "outcome": "8 candidates (S599, S515, S600, S601, S255, S602, S603, S604); $1.06",
+   "t": "2026-10-12 03:27:11"
+  },
+  {
+   "id": "T375",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Canada federal Illumina line items: 6000 vs X kit mix",
+   "source_id": "S457",
+   "outcome": "8 new med/strong items; $2.29",
+   "t": "2026-10-12 03:27:23"
+  },
+  {
+   "id": "T418",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "TED repeat research kit awards, per-buyer price",
+   "source_id": "S414",
+   "outcome": "S414 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:27:28"
+  },
+  {
+   "id": "T390",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Genome Quebec standard prices and promotions",
+   "source_id": "S254",
+   "outcome": "S254 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:28:00"
+  },
+  {
+   "id": "T419",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "FY27 core recharge memos: why rates changed",
+   "source_id": "S588",
+   "outcome": "S588 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:28:10"
+  },
+  {
+   "id": "T435",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GEO sample counts: 6000 vs X vs AVITI/UG100 by quarter",
+   "source_id": "S607",
+   "outcome": "S607 productive; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:28:23"
+  },
+  {
+   "id": "T436",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Analyze Apify A02/A03 outputs: 6000-only labs",
+   "source_id": "S608",
+   "outcome": "S608 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:28:33"
+  },
+  {
+   "id": "T405",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Ultima CSP / BaseClear per-genome service pricing",
+   "source_id": "S231",
+   "outcome": "S231 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:28:40"
+  },
+  {
+   "id": "T441",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F490..F512",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.65",
+   "t": "2026-10-12 03:29:01"
+  },
+  {
+   "id": "T420",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Helmholtz Munich NovaSeq X kit framework value",
+   "source_id": "S584",
+   "outcome": "S584 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:29:35"
+  },
+  {
+   "id": "T437",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Sanger/GRL sequencing contract awards and platform mix",
+   "source_id": "S418",
+   "outcome": "S418 blocked; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:29:35"
+  },
+  {
+   "id": "T443",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GENEWIZ X Plus academic promo $/Gb over time",
+   "source_id": "S602",
+   "outcome": "S602 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:30:00"
+  },
+  {
+   "id": "T442",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NCBI GEO platform (GPL) sample counts by submission quarter:",
+   "source_id": "S607",
+   "outcome": "1 new med/strong items; $0.54",
+   "t": "2026-10-12 03:30:11"
+  },
+  {
+   "id": "T438",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Mega-account per-genome contract prices",
+   "source_id": "S609",
+   "outcome": "S609 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:30:13"
+  },
+  {
+   "id": "T444",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Italian hospital acts: 6000 vs X reagent buys 2025-26",
+   "source_id": "S521",
+   "outcome": "S521 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:30:24"
+  },
+  {
+   "id": "T210",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "IVDR 6000Dx lock-in (watch-out)",
+   "source_id": "S148",
+   "outcome": "S148 productive; 1 new med/strong items; $0.20",
+   "t": "2026-10-12 03:30:45"
+  },
+  {
+   "id": "T446",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Forum evidence of research discounts and switching",
+   "source_id": "S613",
+   "outcome": "S613 blocked; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:30:46"
+  },
+  {
+   "id": "T445",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Japan yen list prices: 6000 S4 vs X 25B kits",
+   "source_id": "S612",
+   "outcome": "S612 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:30:51"
+  },
+  {
+   "id": "T450",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina IVDR guidance page and NovaSeq 6000Dx IVD-compatibi",
+   "source_id": "S148",
+   "outcome": "2 new med/strong items; $0.32",
+   "t": "2026-10-12 03:31:37"
+  },
+  {
+   "id": "T421",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UC campus approved recharge lists 24-25 vs 25-26 vs 26-27",
+   "source_id": "S307",
+   "outcome": "S307 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:31:42"
+  },
+  {
+   "id": "T430",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina oncology supply-agreement appendices / addenda with",
+   "source_id": "S189",
+   "outcome": "5 new med/strong items; $2.35",
+   "t": "2026-10-12 03:32:02"
+  },
+  {
+   "id": "T447",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina pricing/deal-desk job postings",
+   "source_id": "S230",
+   "outcome": "S230 productive; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:32:28"
+  },
+  {
+   "id": "T440",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ILMN Q2'26 10-Q: 6000 vs X disclosure wording",
+   "source_id": "S261",
+   "outcome": "S261 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:32:28"
+  },
+  {
+   "id": "T448",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AXELIOS early-access academic pricing",
+   "source_id": "S604",
+   "outcome": "S604 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:33:11"
+  },
+  {
+   "id": "T439",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B/2A: research volume flat, price down: untried forensic angles",
+   "source_id": "",
+   "outcome": "7 candidates (S625, S626, S627, S628, S629, S630, S631); $1.07",
+   "t": "2026-10-12 03:33:28"
+  },
+  {
+   "id": "T453",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK FOI responses on Illumina spend and discounts",
+   "source_id": "S603",
+   "outcome": "S603 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:33:48"
+  },
+  {
+   "id": "T449",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Eurofins NGS service prices and H1'26 commentary",
+   "source_id": "S563",
+   "outcome": "S563 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:33:50"
+  },
+  {
+   "id": "T451",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F513..F548",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.77",
+   "t": "2026-10-12 03:33:53"
+  },
+  {
+   "id": "T454",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Test Wayback CDX via curl, then core price history",
+   "source_id": "S595",
+   "outcome": "S595 blocked; 0 new med/strong items; $0.15",
+   "t": "2026-10-12 03:34:05"
+  },
+  {
+   "id": "T452",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: decompose Q3'26 6000 jump, add mouse and DNBSEQ",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.56",
+   "t": "2026-10-12 03:34:22"
+  },
+  {
+   "id": "T423",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Element 'AVITI for All' giveaway terms",
+   "source_id": "S583",
+   "outcome": "S583 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:34:25"
+  },
+  {
+   "id": "T455",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UKAS/DAkkS schedules: 6000 vs X in accredited labs",
+   "source_id": "S507",
+   "outcome": "S507 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:34:38"
+  },
+  {
+   "id": "T407",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NovaSeq 6000 end-of-sale/support notices",
+   "source_id": "S574",
+   "outcome": "S574 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:34:41"
+  },
+  {
+   "id": "T456",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "DOE JGI sequencing output and platform mix",
+   "source_id": "S403",
+   "outcome": "S403 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:34:51"
+  },
+  {
+   "id": "T370",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Asia-Pacific AXELIOS launch pricing",
+   "source_id": "S505",
+   "outcome": "S505 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 03:35:13"
+  },
+  {
+   "id": "T457",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Regeneron/Truveta 10M exomes: platform and timing",
+   "source_id": "S506",
+   "outcome": "S506 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:35:30"
+  },
+  {
+   "id": "T392",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GeneDx exome/genome volume growth and ASP trend",
+   "source_id": "S346",
+   "outcome": "S346 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:35:41"
+  },
+  {
+   "id": "T469",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Slovak CRZ: NovaSeq/Illumina reagent contracts with prices",
+   "source_id": "S600",
+   "outcome": "S600 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:35:43"
+  },
+  {
+   "id": "T458",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CanadaBuys: CFIA Element AVITI and PHAC sole sources",
+   "source_id": "S539",
+   "outcome": "S539 productive; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:36:18"
+  },
+  {
+   "id": "T473",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine CanadaBuys tender notices for CFIA Element AVITI (Feb 2026) ",
+   "source_id": "S539",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 03:37:17"
+  },
+  {
+   "id": "T470",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NHGRI center renewals: flat $ vs more genomes",
+   "source_id": "S634",
+   "outcome": "S634 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:38:07"
+  },
+  {
+   "id": "T463",
+   "type": "MINE",
+   "model": "opus",
+   "title": "mine Illumina careers (Workday) Enterprise Pricing posts",
+   "source_id": "S230",
+   "outcome": "4 new med/strong items; $1.63",
+   "t": "2026-10-12 03:38:23"
+  },
+  {
+   "id": "T472",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GeneDx 10-Q/call exome and genome volumes and ASP",
+   "source_id": "S346",
+   "outcome": "3 new med/strong items; $0.60",
+   "t": "2026-10-12 03:38:36"
+  },
+  {
+   "id": "T475",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EDGAR: Element/Ultima S-1 or Form D disclosures",
+   "source_id": "S635",
+   "outcome": "S635 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:38:40"
+  },
+  {
+   "id": "T468",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Appendix 1 versions 2024-26 incl. 25B/35B tiers (mirrors)",
+   "source_id": "S569",
+   "outcome": "1 new med/strong items; $4.06",
+   "t": "2026-10-12 03:40:00"
+  },
+  {
+   "id": "T476",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: research price erosion, angles not yet tried",
+   "source_id": "",
+   "outcome": "5 candidates (S648, S649, S650, S651, S652); $1.01",
+   "t": "2026-10-12 03:40:21"
+  },
+  {
+   "id": "T219",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S321",
+   "source_id": "S321",
+   "outcome": "S321 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:40:30"
+  },
+  {
+   "id": "T372",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: price-elasticity of the 6000 tail, untried formats",
+   "source_id": "",
+   "outcome": "6 candidates (S145, S653, S146, S654, S655, S656); $1.02",
+   "t": "2026-10-12 03:40:41"
+  },
+  {
+   "id": "T474",
+   "type": "MINE",
+   "model": "opus",
+   "title": "GEO: 6000 share of high-throughput samples, trend and 2027 extrapolation",
+   "source_id": "S607",
+   "outcome": "7 new med/strong items; $1.23",
+   "t": "2026-10-12 03:40:43"
+  },
+  {
+   "id": "T478",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina Cambridge Ltd / Illumina Korea statutory accounts",
+   "source_id": "S630",
+   "outcome": "S630 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:40:46"
+  },
+  {
+   "id": "T479",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BillionToOne Q2'26 10-Q: prenatal (NIPT) volume growth",
+   "source_id": "S358",
+   "outcome": "S358 productive; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 03:41:23"
+  },
+  {
+   "id": "T480",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Aachen University Hospital NovaSeq 6000 maintenance tender",
+   "source_id": "S642",
+   "outcome": "S642 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:41:32"
+  },
+  {
+   "id": "T477",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Twist FQ3'26: academic NGS demand and pricing",
+   "source_id": "S636",
+   "outcome": "S636 productive; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:42:22"
+  },
+  {
+   "id": "T491",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F551..F578",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.71",
+   "t": "2026-10-12 03:42:30"
+  },
+  {
+   "id": "T460",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Barcelona NovaSeq X services tender: lots and award prices",
+   "source_id": "S543",
+   "outcome": "S543 blocked; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 03:42:37"
+  },
+  {
+   "id": "T492",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine BillionToOne Q2'26 10-Q on SEC EDGAR",
+   "source_id": "S358",
+   "outcome": "0 new med/strong items; $0.35",
+   "t": "2026-10-12 03:42:38"
+  },
+  {
+   "id": "T493",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: non-Illumina share by country plus AXELIOS check",
+   "source_id": "S607",
+   "outcome": "0 new med/strong items; $0.37",
+   "t": "2026-10-12 03:42:41"
+  },
+  {
+   "id": "T481",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Enterprise Pricing sibling roles (LinkedIn public, xtalks)",
+   "source_id": "S624",
+   "outcome": "S624 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:43:31"
+  },
+  {
+   "id": "T494",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "SRA bases by instrument: 6000 share of Gb, not samples",
+   "source_id": "S657",
+   "outcome": "S657 productive; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:43:43"
+  },
+  {
+   "id": "T502",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NCBI SRA run metadata by instrument_model (Gb, not samples)",
+   "source_id": "S657",
+   "outcome": "2 new med/strong items; $0.33",
+   "t": "2026-10-12 03:44:33"
+  },
+  {
+   "id": "T500",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Twist Bioscience FQ3'26 10-Q and earnings call: academic NGS",
+   "source_id": "S636",
+   "outcome": "2 new med/strong items; $0.48",
+   "t": "2026-10-12 03:45:01"
+  },
+  {
+   "id": "T501",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Sibling roles under 'Enterprise Pricing and Financing' (Sr. ",
+   "source_id": "S624",
+   "outcome": "0 new med/strong items; $0.51",
+   "t": "2026-10-12 03:45:03"
+  },
+  {
+   "id": "T220",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S322",
+   "source_id": "S322",
+   "outcome": "S322 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:45:08"
+  },
+  {
+   "id": "T496",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Utah HSC Cores FY25 annual report: reagent cost and discount narrative",
+   "source_id": "S570",
+   "outcome": "S570 blocked; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:45:36"
+  },
+  {
+   "id": "T495",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2A: hard evidence of research price sensitivity, new angles",
+   "source_id": "",
+   "outcome": "7 candidates (S674, S675, S676, S677, S678, S679, S680); $1.62",
+   "t": "2026-10-12 03:45:52"
+  },
+  {
+   "id": "T254",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S348",
+   "source_id": "S348",
+   "outcome": "S348 blocked; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:47:14"
+  },
+  {
+   "id": "T504",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: who is still on the 6000 and why; untried forensic angles",
+   "source_id": "",
+   "outcome": "4 candidates (S145, S683, S684, S685); $1.12",
+   "t": "2026-10-12 03:47:37"
+  },
+  {
+   "id": "T503",
+   "type": "MINE",
+   "model": "opus",
+   "title": "GEO depositor cohort: do 6000-only labs ever convert?",
+   "source_id": "S607",
+   "outcome": "0 new med/strong items; $1.21",
+   "t": "2026-10-12 03:47:49"
+  },
+  {
+   "id": "T506",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Rival-platform tool downloads as an adoption proxy",
+   "source_id": "S668",
+   "outcome": "S668 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:48:10"
+  },
+  {
+   "id": "T505",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: realized research price erosion, angles not yet tried",
+   "source_id": "",
+   "outcome": "6 candidates (S690, S100, S691, S692, S693, S694); $1.36",
+   "t": "2026-10-12 03:48:20"
+  },
+  {
+   "id": "T511",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA Gb share: AVITI/UG100/DNBSEQ vs Illumina HT, 2024-26",
+   "source_id": "S657",
+   "outcome": "3 new med/strong items; $0.47",
+   "t": "2026-10-12 03:48:22"
+  },
+  {
+   "id": "T497",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AGRF annual reports FY24 vs FY25: revenue vs volume",
+   "source_id": "S631",
+   "outcome": "S631 blocked; 0 new med/strong items; $0.30",
+   "t": "2026-10-12 03:48:46"
+  },
+  {
+   "id": "T513",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Customer-filed Illumina supply agreements and amendments",
+   "source_id": "S681",
+   "outcome": "S681 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 03:49:33"
+  },
+  {
+   "id": "T261",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S372",
+   "source_id": "S372",
+   "outcome": "S372 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 03:49:34"
+  },
+  {
+   "id": "T512",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA: who still releases 6000 runs (clinical/consortium vs academic)",
+   "source_id": "S657",
+   "outcome": "0 new med/strong items; $0.53",
+   "t": "2026-10-12 03:49:58"
+  },
+  {
+   "id": "T531",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F580..F611",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 3; $0.72",
+   "t": "2026-10-12 03:50:00"
+  },
+  {
+   "id": "T514",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Natera Q2'26 10-Q exhibits: Illumina supply amendments",
+   "source_id": "S623",
+   "outcome": "S623 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:50:25"
+  },
+  {
+   "id": "T533",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EDGAR: which public labs name a rival sequencer",
+   "source_id": "S698",
+   "outcome": "S698 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:50:43"
+  },
+  {
+   "id": "T515",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Personalis-Illumina Master Quotation Agreement terms",
+   "source_id": "S646",
+   "outcome": "S646 blocked; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:51:05"
+  },
+  {
+   "id": "T540",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ENA read_run: 6000 tail by center_name, clinical vs academic",
+   "source_id": "S704",
+   "outcome": "S704 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 03:52:14"
+  },
+  {
+   "id": "T538",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine US federal NovaSeq 6000 maintenance notices that are new sin",
+   "source_id": "S372",
+   "outcome": "1 new med/strong items; $0.76",
+   "t": "2026-10-12 03:52:18"
+  },
+  {
+   "id": "T534",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Customer 10-Qs: test volume growth and reagent cost per test",
+   "source_id": "S699",
+   "outcome": "S699 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 03:52:18"
+  },
+  {
+   "id": "T305",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S441",
+   "source_id": "S441",
+   "outcome": "S441 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 03:52:58"
+  },
+  {
+   "id": "T532",
+   "type": "MINE",
+   "model": "opus",
+   "title": "SRA: Gb-weighted 6000 vs X share, run-rate to 2027",
+   "source_id": "S657",
+   "outcome": "4 new med/strong items; $1.29",
+   "t": "2026-10-12 03:53:52"
+  },
+  {
+   "id": "T539",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine EDGAR full-text search: rival-platform mentions (Ultima, Ele",
+   "source_id": "S698",
+   "outcome": "1 new med/strong items; $0.63",
+   "t": "2026-10-12 03:54:02"
+  },
+  {
+   "id": "T542",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina supply-agreement appendices 2022-2026: tier deepening",
+   "source_id": "S594",
+   "outcome": "S594 dry; 0 new med/strong items; $0.47",
+   "t": "2026-10-12 03:55:06"
+  },
+  {
+   "id": "T541",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Quantify remaining 6000 mix shift: price premium and who converts in 2027",
+   "source_id": "",
+   "outcome": "8 candidates (S719, S033, S720, S721, S722, S723, S724, S725); $1.22",
+   "t": "2026-10-12 03:55:31"
+  },
+  {
+   "id": "T547",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA single-cell transcriptomic runs and Gb by platform",
+   "source_id": "S657",
+   "outcome": "1 new med/strong items; $0.40",
+   "t": "2026-10-12 03:56:07"
+  },
+  {
+   "id": "T516",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CMS Part B by provider: NIPT (81420/81507) and MRD PLA volumes by lab, 2022-24",
+   "source_id": "S354",
+   "outcome": "S354 productive; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 03:56:18"
+  },
+  {
+   "id": "T546",
+   "type": "MINE",
+   "model": "opus",
+   "title": "mine ENA Portal API read_run with instrument_model and center_nam",
+   "source_id": "S704",
+   "outcome": "5 new med/strong items; $1.17",
+   "t": "2026-10-12 03:56:19"
+  },
+  {
+   "id": "T543",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Fred Hutch core: internal vs external X Plus lane rates",
+   "source_id": "S680",
+   "outcome": "S680 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 03:56:42"
+  },
+  {
+   "id": "T548",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA human WGS Gb growth by platform 2024-26",
+   "source_id": "S657",
+   "outcome": "0 new med/strong items; $0.42",
+   "t": "2026-10-12 03:57:49"
+  },
+  {
+   "id": "T557",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "California CDPH Prenatal Screening Program cfDNA volumes and contract rates",
+   "source_id": "S722",
+   "outcome": "S722 blocked; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 03:57:52"
+  },
+  {
+   "id": "T556",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Fred Hutch genomics core rate page: internal vs external Nov",
+   "source_id": "S680",
+   "outcome": "2 new med/strong items; $0.37",
+   "t": "2026-10-12 03:58:05"
+  },
+  {
+   "id": "T555",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F619..F649",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 3; $0.80",
+   "t": "2026-10-12 03:58:23"
+  },
+  {
+   "id": "T549",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MRD/WGS trial starts by year",
+   "source_id": "S718",
+   "outcome": "S718 productive; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 03:59:00"
+  },
+  {
+   "id": "T558",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "ENA: top academic research centers' Gb by platform, Q3'25 vs Q3'26",
+   "source_id": "S704",
+   "outcome": "0 new med/strong items; $0.40",
+   "t": "2026-10-12 03:59:49"
+  },
+  {
+   "id": "T559",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Calgary CHGI internal price lists, Jun 2024 vs 2025",
+   "source_id": "S578",
+   "outcome": "S578 productive; 1 new med/strong items; $0.30",
+   "t": "2026-10-12 04:00:04"
+  },
+  {
+   "id": "T535",
+   "type": "MINE",
+   "model": "opus",
+   "title": "GeneDx: Illumina reagent price implied by cost per test",
+   "source_id": "S346",
+   "outcome": "0 new med/strong items; $1.98",
+   "t": "2026-10-12 04:00:50"
+  },
+  {
+   "id": "T565",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine ClinicalTrials.gov v2 API: counts of ctDNA/MRD-guided and ge",
+   "source_id": "S718",
+   "outcome": "2 new med/strong items; $0.39",
+   "t": "2026-10-12 04:00:57"
+  },
+  {
+   "id": "T566",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EDGAR: clinical-lab 6000 impairment and useful-life changes",
+   "source_id": "S725",
+   "outcome": "S725 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 04:00:58"
+  },
+  {
+   "id": "T572",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Calgary CHGI internal price lists June 2024 vs 2025",
+   "source_id": "S578",
+   "outcome": "1 new med/strong items; $0.45",
+   "t": "2026-10-12 04:01:28"
+  },
+  {
+   "id": "T567",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ISPD/ESHG 2026 abstracts: NIPT revalidation from 6000 to X",
+   "source_id": "S723",
+   "outcome": "S723 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:01:29"
+  },
+  {
+   "id": "T560",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "University mailing-list archives: dated core price-cut and platform-switch broadcasts",
+   "source_id": "S648",
+   "outcome": "S648 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:01:45"
+  },
+  {
+   "id": "T554",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine CMS Medicare Physician & Other Practitioners by Provider and",
+   "source_id": "S354",
+   "outcome": "2 new med/strong items; $0.79",
+   "t": "2026-10-12 04:02:04"
+  },
+  {
+   "id": "T568",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Europe PMC monthly mentions of new rivals vs NovaSeq X",
+   "source_id": "S493",
+   "outcome": "S493 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:02:13"
+  },
+  {
+   "id": "T573",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Europe PMC with METHODS: and OPEN_ACCESS:y fields",
+   "source_id": "S493",
+   "outcome": "skipped: source S493 is dry",
+   "t": "2026-10-12 04:02:24"
+  },
+  {
+   "id": "T569",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GitHub: pipeline support requests for SBX/AVITI/Ultima",
+   "source_id": "S738",
+   "outcome": "S738 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 04:02:42"
+  },
+  {
+   "id": "T544",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UMN UMGC Ultima preferred pricing for 10x projects",
+   "source_id": "S693",
+   "outcome": "S693 productive; 1 new med/strong items; $0.21",
+   "t": "2026-10-12 04:02:46"
+  },
+  {
+   "id": "T536",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "35B flow cell realized price and large-account discount forensics",
+   "source_id": "",
+   "outcome": "7 candidates (S064, S751, S752, S753, S754, S755, S756); $0.92",
+   "t": "2026-10-12 04:02:58"
+  },
+  {
+   "id": "T575",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Calgary CHGI price list WITH SALES 2024-25: volume by flow cell",
+   "source_id": "S745",
+   "outcome": "S745 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:03:08"
+  },
+  {
+   "id": "T570",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GEO INST-field cohort: same institutions' platform switching",
+   "source_id": "S686",
+   "outcome": "S686 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:03:55"
+  },
+  {
+   "id": "T545",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BillionToOne S-1 and Illumina v. BillionToOne complaint: supplier and price terms",
+   "source_id": "S661",
+   "outcome": "S661 dry; 0 new med/strong items; $0.28",
+   "t": "2026-10-12 04:03:58"
+  },
+  {
+   "id": "T583",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine University of Minnesota Genomics Center 'preferred Ultima UG",
+   "source_id": "S693",
+   "outcome": "3 new med/strong items; $0.50",
+   "t": "2026-10-12 04:04:38"
+  },
+  {
+   "id": "T588",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GEO E-utilities INST-field institution cohort (scripted)",
+   "source_id": "S686",
+   "outcome": "0 new med/strong items; $0.37",
+   "t": "2026-10-12 04:04:58"
+  },
+  {
+   "id": "T576",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan e-procurement award prices: 6000 S4 vs X 25B kits",
+   "source_id": "S724",
+   "outcome": "S724 productive; 0 new med/strong items; $0.30",
+   "t": "2026-10-12 04:04:59"
+  },
+  {
+   "id": "T577",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Japan PMDA/MHLW CGP test inserts naming NovaSeq 6000 (tail permanence)",
+   "source_id": "S683",
+   "outcome": "S683 productive; 1 new med/strong items; $0.24",
+   "t": "2026-10-12 04:05:57"
+  },
+  {
+   "id": "T591",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: rival-platform share of new research samples by country, Q3'25 vs Q3'26",
+   "source_id": "S607",
+   "outcome": "1 new med/strong items; $0.45",
+   "t": "2026-10-12 04:06:27"
+  },
+  {
+   "id": "T589",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F657..F688",
+   "source_id": "",
+   "outcome": "accepted 9, rejected 3, derived 2; $0.83",
+   "t": "2026-10-12 04:06:28"
+  },
+  {
+   "id": "T562",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Core voucher and subsidy programs, FY26",
+   "source_id": "S676",
+   "outcome": "S676 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:07:07"
+  },
+  {
+   "id": "T596",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Japan PMDA package inserts (添付文書) and MHLW insurance-coverag",
+   "source_id": "S683",
+   "outcome": "0 new med/strong items; $0.51",
+   "t": "2026-10-12 04:07:08"
+  },
+  {
+   "id": "T592",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "FDA clearances naming 6000Dx vs X",
+   "source_id": "S765",
+   "outcome": "S765 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:07:10"
+  },
+  {
+   "id": "T574",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA: 2026 NovaSeq 6000 holdouts by center_name",
+   "source_id": "S657",
+   "outcome": "2 new med/strong items; $0.50",
+   "t": "2026-10-12 04:07:20"
+  },
+  {
+   "id": "T593",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MRD volumes at labs other than Natera, Q2'26",
+   "source_id": "S766",
+   "outcome": "S766 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:07:47"
+  },
+  {
+   "id": "T578",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Spain PLACSP minor contracts: repeat Illumina reagent unit prices",
+   "source_id": "S629",
+   "outcome": "S629 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:07:49"
+  },
+  {
+   "id": "T597",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "India customs unit values for X 25B and 6000 S4 kits",
+   "source_id": "S774",
+   "outcome": "S774 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:08:35"
+  },
+  {
+   "id": "T594",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "ClinicalTrials.gov: NIPT/prenatal cfDNA trial starts by year",
+   "source_id": "S718",
+   "outcome": "1 new med/strong items; $0.42",
+   "t": "2026-10-12 04:09:16"
+  },
+  {
+   "id": "T571",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: forensic signs of 6000 holdouts converting in 2027",
+   "source_id": "",
+   "outcome": "4 candidates (S368, S780, S781, S782); $0.98",
+   "t": "2026-10-12 04:09:37"
+  },
+  {
+   "id": "T595",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "SRA: clinical-lab center_name 6000 vs X run share 2025 vs 2026",
+   "source_id": "S657",
+   "outcome": "0 new med/strong items; $0.45",
+   "t": "2026-10-12 04:09:56"
+  },
+  {
+   "id": "T580",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UGAP France catalog: NovaSeq X framework price and lot terms",
+   "source_id": "S651",
+   "outcome": "S651 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:10:04"
+  },
+  {
+   "id": "T599",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ENA Gb-weighted 6000 vs X vs rivals by month",
+   "source_id": "S776",
+   "outcome": "S776 productive; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 04:10:27"
+  },
+  {
+   "id": "T537",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "Research consumables: realized price vs flat volume, untried angles",
+   "source_id": "",
+   "outcome": "7 candidates (S353, S784, S459, S785, S786, S332, S101); $1.14",
+   "t": "2026-10-12 04:10:33"
+  },
+  {
+   "id": "T606",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine ENA Portal API read_run base_count summed by instrument_mode",
+   "source_id": "S776",
+   "outcome": "0 new med/strong items; $0.27",
+   "t": "2026-10-12 04:10:46"
+  },
+  {
+   "id": "T598",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: quarterly X share of 6000+X series Q1'24-Q3'26, S-curve and 2027 projection",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.46",
+   "t": "2026-10-12 04:10:47"
+  },
+  {
+   "id": "T340",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S500",
+   "source_id": "S500",
+   "outcome": "S500 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:11:26"
+  },
+  {
+   "id": "T350",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S508",
+   "source_id": "S508",
+   "outcome": "S508 blocked; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 04:11:34"
+  },
+  {
+   "id": "T590",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Taiwan Government e-Procurement System (政府電子採購網) award notic",
+   "source_id": "S724",
+   "outcome": "3 new med/strong items; $0.71",
+   "t": "2026-10-12 04:12:05"
+  },
+  {
+   "id": "T601",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Colombia SECOP: Illumina reagent contracts and repeat-buy prices",
+   "source_id": "S775",
+   "outcome": "S775 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:12:07"
+  },
+  {
+   "id": "T611",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Medicare Part B volume for MRD/NIPT/WGS lab codes 2022-24",
+   "source_id": "S527",
+   "outcome": "S527 productive; 0 new med/strong items; $0.31",
+   "t": "2026-10-12 04:12:29"
+  },
+  {
+   "id": "T600",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "NIPT volume maturity: alternative data",
+   "source_id": "",
+   "outcome": "8 candidates (S200, S791, S292, S792, S793, S794, S795, S796); $0.96",
+   "t": "2026-10-12 04:12:33"
+  },
+  {
+   "id": "T434",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S601",
+   "source_id": "S601",
+   "outcome": "S601 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 04:12:56"
+  },
+  {
+   "id": "T431",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S599",
+   "source_id": "S599",
+   "outcome": "S599 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 04:13:02"
+  },
+  {
+   "id": "T487",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S145",
+   "source_id": "S145",
+   "outcome": "skipped: source S145 is dry",
+   "t": "2026-10-12 04:13:04"
+  },
+  {
+   "id": "T489",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S146",
+   "source_id": "S146",
+   "outcome": "skipped: source S146 is blocked",
+   "t": "2026-10-12 04:13:07"
+  },
+  {
+   "id": "T612",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: total research series volume, all sequencers, Q3'24-Q3'26",
+   "source_id": "S607",
+   "outcome": "1 new med/strong items; $0.50",
+   "t": "2026-10-12 04:13:13"
+  },
+  {
+   "id": "T465",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S626",
+   "source_id": "S626",
+   "outcome": "S626 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:13:30"
+  },
+  {
+   "id": "T490",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S654",
+   "source_id": "S654",
+   "outcome": "S654 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 04:13:44"
+  },
+  {
+   "id": "T507",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S674",
+   "source_id": "S674",
+   "outcome": "S674 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 04:14:12"
+  },
+  {
+   "id": "T528",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S100",
+   "source_id": "S100",
+   "outcome": "skipped: source S100 is dry",
+   "t": "2026-10-12 04:14:16"
+  },
+  {
+   "id": "T508",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S675",
+   "source_id": "S675",
+   "outcome": "S675 productive; 1 new med/strong items; $0.22",
+   "t": "2026-10-12 04:14:19"
+  },
+  {
+   "id": "T613",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine CMS Clinical Laboratory Fee Schedule PLA code list and Part ",
+   "source_id": "S527",
+   "outcome": "0 new med/strong items; $0.57",
+   "t": "2026-10-12 04:15:04"
+  },
+  {
+   "id": "T620",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO mouse/model-organism series by platform Q3'24-Q3'26",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.47",
+   "t": "2026-10-12 04:15:45"
+  },
+  {
+   "id": "T619",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "UMGC rate history FY24→FY27: Illumina vs UG100 vs AVITI",
+   "source_id": "S693",
+   "outcome": "0 new med/strong items; $0.50",
+   "t": "2026-10-12 04:16:02"
+  },
+  {
+   "id": "T626",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F694..F727",
+   "source_id": "",
+   "outcome": "accepted 7, rejected 5, derived 4; $0.77",
+   "t": "2026-10-12 04:16:15"
+  },
+  {
+   "id": "T628",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Korea KONEPS NovaSeq kit award prices",
+   "source_id": "S799",
+   "outcome": "S799 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:16:47"
+  },
+  {
+   "id": "T625",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Plasmidsaurus $50/sample academic 3' RNA-seq and the core-fa",
+   "source_id": "S675",
+   "outcome": "2 new med/strong items; $0.41",
+   "t": "2026-10-12 04:16:54"
+  },
+  {
+   "id": "T550",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S719",
+   "source_id": "S719",
+   "outcome": "S719 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:17:25"
+  },
+  {
+   "id": "T621",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "2B: research realized-price erosion, untried forensic angles",
+   "source_id": "",
+   "outcome": "7 candidates (S064, S810, S811, S258, S309, S353, S307); $1.08",
+   "t": "2026-10-12 04:19:08"
+  },
+  {
+   "id": "T629",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: rival short-read share at top-30 US research institutions",
+   "source_id": "S607",
+   "outcome": "0 new med/strong items; $0.62",
+   "t": "2026-10-12 04:19:20"
+  },
+  {
+   "id": "T633",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Health Canada MDALL: NovaSeq X Dx vs 6000Dx licences",
+   "source_id": "S413",
+   "outcome": "S413 blocked; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:19:58"
+  },
+  {
+   "id": "T551",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S033",
+   "source_id": "S033",
+   "outcome": "S033 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:20:41"
+  },
+  {
+   "id": "T631",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Genomics England–Illumina Cambridge WGS contract extension a",
+   "source_id": "S719",
+   "outcome": "0 new med/strong items; $0.45",
+   "t": "2026-10-12 04:20:46"
+  },
+  {
+   "id": "T632",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: forensic signs the clinical 6000 tail is migrating in 2027",
+   "source_id": "",
+   "outcome": "8 candidates (S816, S508, S817, S818, S819, S820, S413, S821); $1.07",
+   "t": "2026-10-12 04:20:50"
+  },
+  {
+   "id": "T630",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Singapore GeBIZ NovaSeq award values",
+   "source_id": "S800",
+   "outcome": "S800 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:21:22"
+  },
+  {
+   "id": "T634",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NovaSeq 6000Dx vs any X Dx: spec sheets and EUDAMED",
+   "source_id": "S617",
+   "outcome": "S617 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:21:36"
+  },
+  {
+   "id": "T618",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan: NovaSeq X 10B/25B and rival kit award prices 2024-26",
+   "source_id": "S724",
+   "outcome": "8 new med/strong items; $2.17",
+   "t": "2026-10-12 04:21:58"
+  },
+  {
+   "id": "T635",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "BillionToOne FY25 10-K: sequencer fleet, Illumina terms",
+   "source_id": "S662",
+   "outcome": "S662 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 04:22:35"
+  },
+  {
+   "id": "T622",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Harvard Bauer Core FY27 NGS rates vs FY26",
+   "source_id": "S735",
+   "outcome": "S735 productive; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 04:23:25"
+  },
+  {
+   "id": "T652",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO human series by contact country: 6000 vs all X GPLs (incl. X Plus), Q3'24-Q3'26",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.60",
+   "t": "2026-10-12 04:23:32"
+  },
+  {
+   "id": "T654",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F731..F751",
+   "source_id": "",
+   "outcome": "accepted 10, rejected 2, derived 4; $0.79",
+   "t": "2026-10-12 04:24:01"
+  },
+  {
+   "id": "T627",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan research institutes: NovaSeq kit award prices 2023-26",
+   "source_id": "S724",
+   "outcome": "4 new med/strong items; $1.97",
+   "t": "2026-10-12 04:24:09"
+  },
+  {
+   "id": "T636",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GeneDx Q2'26 10-Q: sequencing cost per test",
+   "source_id": "S643",
+   "outcome": "S643 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:24:31"
+  },
+  {
+   "id": "T584",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S064",
+   "source_id": "S064",
+   "outcome": "S064 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:24:53"
+  },
+  {
+   "id": "T623",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Japanese univ. NovaSeq X 25B award prices 2025 vs 2026",
+   "source_id": "S756",
+   "outcome": "S756 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:25:22"
+  },
+  {
+   "id": "T655",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Harvard Bauer Core FY27 NGS",
+   "source_id": "S735",
+   "outcome": "4 new med/strong items; $0.53",
+   "t": "2026-10-12 04:25:24"
+  },
+  {
+   "id": "T658",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Prozorro NovaSeq kit unit prices",
+   "source_id": "S831",
+   "outcome": "S831 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:25:56"
+  },
+  {
+   "id": "T585",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S751",
+   "source_id": "S751",
+   "outcome": "S751 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:26:17"
+  },
+  {
+   "id": "T659",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Portugal BASE NovaSeq kit contracts",
+   "source_id": "S832",
+   "outcome": "S832 blocked; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 04:26:49"
+  },
+  {
+   "id": "T639",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "IDIBAPS/FRCB NovaSeq X Plus 25B service tender values",
+   "source_id": "S659",
+   "outcome": "S659 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:27:23"
+  },
+  {
+   "id": "T665",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Bauer Core FY24-FY26 rate history (S833/S834)",
+   "source_id": "S735",
+   "outcome": "2 new med/strong items; $0.56",
+   "t": "2026-10-12 04:28:49"
+  },
+  {
+   "id": "T669",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F753..F777",
+   "source_id": "",
+   "outcome": "accepted 8, rejected 4, derived 3; $0.70",
+   "t": "2026-10-12 04:30:24"
+  },
+  {
+   "id": "T664",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan NIPT kit award quantities 2021-26",
+   "source_id": "S724",
+   "outcome": "5 new med/strong items; $1.28",
+   "t": "2026-10-12 04:31:12"
+  },
+  {
+   "id": "T653",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Cores steering research volume to Ultima/AVITI with price incentives (beyond UMGC)",
+   "source_id": "S693",
+   "outcome": "5 new med/strong items; $2.68",
+   "t": "2026-10-12 04:31:18"
+  },
+  {
+   "id": "T660",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "France ADNlc (NIPT) annual test counts",
+   "source_id": "S794",
+   "outcome": "S794 blocked; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 04:31:24"
+  },
+  {
+   "id": "T624",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NCSU GSL, FAU Erlangen, Cornell BRC core rates",
+   "source_id": "S754",
+   "outcome": "S754 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:31:58"
+  },
+  {
+   "id": "T656",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan clinical 6000 S4 vs X kit awards by hospital, 2022-26",
+   "source_id": "S724",
+   "outcome": "3 new med/strong items; $1.81",
+   "t": "2026-10-12 04:32:05"
+  },
+  {
+   "id": "T666",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO rival-platform share Q3'24-Q3'26 (AVITI/UG100/DNBSEQ/SBX)",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.54",
+   "t": "2026-10-12 04:33:16"
+  },
+  {
+   "id": "T657",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan outsourced WGS/WES per-genome award prices, 2021-26 time series",
+   "source_id": "S724",
+   "outcome": "3 new med/strong items; $2.07",
+   "t": "2026-10-12 04:33:35"
+  },
+  {
+   "id": "T675",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F778..F800",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 4; $0.74",
+   "t": "2026-10-12 04:34:00"
+  },
+  {
+   "id": "T667",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: quantify the 6000 consumables-revenue tail (price per Gb, 6000 vs X)",
+   "source_id": "",
+   "outcome": "7 candidates (S857, S061, S858, S859, S860, S861, S478); $1.02",
+   "t": "2026-10-12 04:34:32"
+  },
+  {
+   "id": "T586",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S752",
+   "source_id": "S752",
+   "outcome": "S752 productive; 2 new med/strong items; $0.22",
+   "t": "2026-10-12 04:34:39"
+  },
+  {
+   "id": "T672",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "OICR Ultima vs Illumina price history",
+   "source_id": "S847",
+   "outcome": "S847 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:35:52"
+  },
+  {
+   "id": "T680",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UC Berkeley QB3 → UCSF CAT consolidation: Berkeley moved all",
+   "source_id": "S752",
+   "outcome": "2 new med/strong items; $0.50",
+   "t": "2026-10-12 04:36:25"
+  },
+  {
+   "id": "T681",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Clinical/NIPT labs: remaining 6000 fleets and X-migration timelines",
+   "source_id": "S809",
+   "outcome": "S809 productive; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 04:36:30"
+  },
+  {
+   "id": "T668",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "OPBG Rome Jan 2026 tender annex: 6000 v1.5 kit prices",
+   "source_id": "S520",
+   "outcome": "S520 productive; 1 new med/strong items; $0.20",
+   "t": "2026-10-12 04:36:41"
+  },
+  {
+   "id": "T682",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO 6000 vs X share by organism class (who is the 6000 tail?)",
+   "source_id": "S607",
+   "outcome": "1 new med/strong items; $0.50",
+   "t": "2026-10-12 04:38:16"
+  },
+  {
+   "id": "T689",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Ospedale Pediatrico Bambino Gesù (Rome) Jan 2026 Illumina te",
+   "source_id": "S520",
+   "outcome": "2 new med/strong items; $1.05",
+   "t": "2026-10-12 04:40:21"
+  },
+  {
+   "id": "T690",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F801..F828",
+   "source_id": "",
+   "outcome": "accepted 8, rejected 4, derived 2; $0.91",
+   "t": "2026-10-12 04:41:45"
+  },
+  {
+   "id": "T688",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Clinical-lab and NIPT-lab investor materials naming remainin",
+   "source_id": "S809",
+   "outcome": "2 new med/strong items; $1.48",
+   "t": "2026-10-12 04:42:15"
+  },
+  {
+   "id": "T673",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Canadian cores: rival vs X pricing",
+   "source_id": "S848",
+   "outcome": "S848 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 04:42:38"
+  },
+  {
+   "id": "T671",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan research institutes: rival-platform (MGI/Element/Ultima) kit and instrument awards vs Illumina 2023-26",
+   "source_id": "S724",
+   "outcome": "4 new med/strong items; $2.16",
+   "t": "2026-10-12 04:42:58"
+  },
+  {
+   "id": "T683",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Federal per-genome WGS service POs (NIH/VA to Broad etc.)",
+   "source_id": "S499",
+   "outcome": "S499 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 04:43:22"
+  },
+  {
+   "id": "T693",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Thailand e-GP NovaSeq kit awards",
+   "source_id": "S866",
+   "outcome": "S866 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:43:48"
+  },
+  {
+   "id": "T692",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Other UC cores' X lane price history (UCSD IGM, UCLA TCGB, UCI GRCF, UC Davis)",
+   "source_id": "S752",
+   "outcome": "1 new med/strong items; $0.57",
+   "t": "2026-10-12 04:43:58"
+  },
+  {
+   "id": "T684",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CMS provider-level Medicare volumes for MRD/NIPT/WGS lab codes",
+   "source_id": "S748",
+   "outcome": "S748 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 04:44:15"
+  },
+  {
+   "id": "T670",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan: NovaSeq 6000 S4/SP kit vs X kit award quantities by year, all buyers 2022-26",
+   "source_id": "S724",
+   "outcome": "4 new med/strong items; $2.54",
+   "t": "2026-10-12 04:44:15"
+  },
+  {
+   "id": "T704",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F829..F862",
+   "source_id": "",
+   "outcome": "accepted 7, rejected 5, derived 2; $0.74",
+   "t": "2026-10-12 04:46:00"
+  },
+  {
+   "id": "T674",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: who still runs 6000 consumables at scale in 2026, forensic angles not yet tried",
+   "source_id": "",
+   "outcome": "7 candidates (S885, S147, S520, S414, S371, S061, S886); $0.99",
+   "t": "2026-10-12 04:46:23"
+  },
+  {
+   "id": "T700",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Caris Q2'26 10-Q/call: 6000 fleet and X migration",
+   "source_id": "S874",
+   "outcome": "S874 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:47:11"
+  },
+  {
+   "id": "T587",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S753",
+   "source_id": "S753",
+   "outcome": "S753 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 04:47:45"
+  },
+  {
+   "id": "T710",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MonotaRO yen list prices: S4 v1.5 vs 25B kits",
+   "source_id": "S861",
+   "outcome": "S861 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:48:17"
+  },
+  {
+   "id": "T691",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan NovaSeq X 25B/10B award price per kit 2023-26",
+   "source_id": "S724",
+   "outcome": "3 new med/strong items; $2.00",
+   "t": "2026-10-12 04:49:05"
+  },
+  {
+   "id": "T699",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Taiwan legacy-chemistry tail contracts (6000/MiSeq/NextSeq 500) running into 2027+",
+   "source_id": "S724",
+   "outcome": "3 new med/strong items; $0.72",
+   "t": "2026-10-12 04:49:26"
+  },
+  {
+   "id": "T711",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UT Austin GSAF price wiki version history",
+   "source_id": "S811",
+   "outcome": "S811 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:49:41"
+  },
+  {
+   "id": "T696",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: large clinical labs' 6000→X conversion evidence in 2026 job posts, validation docs, state lab licensure",
+   "source_id": "",
+   "outcome": "10 candidates (S891, S892, S012, S414, S893, S894, S895, S896, S897, S898); $0.96",
+   "t": "2026-10-12 04:50:53"
+  },
+  {
+   "id": "T686",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Federal research labs outsourcing to Novogene/Psomagen/Azenta",
+   "source_id": "S677",
+   "outcome": "S677 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:50:56"
+  },
+  {
+   "id": "T718",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Government surplus auctions: NovaSeq 6000 decommission lots",
+   "source_id": "S821",
+   "outcome": "S821 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 04:50:58"
+  },
+  {
+   "id": "T719",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Third-party 6000 service/refurb market",
+   "source_id": "S890",
+   "outcome": "S890 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:51:31"
+  },
+  {
+   "id": "T712",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UCLA TCGB rate PDFs 2023-2024 vs 2026",
+   "source_id": "S881",
+   "outcome": "S881 blocked; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 04:51:51"
+  },
+  {
+   "id": "T698",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan Illumina-distributor award totals vs rivals 2021-26",
+   "source_id": "S724",
+   "outcome": "2 new med/strong items; $2.07",
+   "t": "2026-10-12 04:53:00"
+  },
+  {
+   "id": "T737",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Independent third-party service organizations (ISOs) and ref",
+   "source_id": "S890",
+   "outcome": "3 new med/strong items; $0.64",
+   "t": "2026-10-12 04:53:24"
+  },
+  {
+   "id": "T703",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Harvard Bauer FY27 vs peers: rival-platform lanes next to X",
+   "source_id": "S735",
+   "outcome": "2 new med/strong items; $0.49",
+   "t": "2026-10-12 04:54:30"
+  },
+  {
+   "id": "T709",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan NIPT per-test award prices and volumes 2021-26",
+   "source_id": "S724",
+   "outcome": "1 new med/strong items; $1.80",
+   "t": "2026-10-12 04:54:30"
+  },
+  {
+   "id": "T720",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AMP 2025 / ASHG 2026 abstracts: 6000→X clinical revalidations",
+   "source_id": "S820",
+   "outcome": "S820 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 04:54:59"
+  },
+  {
+   "id": "T738",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO: top-50 research institutions switching off Illumina to AVITI/UG100/SBX",
+   "source_id": "S607",
+   "outcome": "0 new med/strong items; $0.62",
+   "t": "2026-10-12 04:55:20"
+  },
+  {
+   "id": "T739",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NSF awards naming rival sequencers / MRI awards",
+   "source_id": "S900",
+   "outcome": "S900 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:55:21"
+  },
+  {
+   "id": "T743",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F863..F899",
+   "source_id": "",
+   "outcome": "accepted 8, rejected 4, derived 2; $0.88",
+   "t": "2026-10-12 04:55:27"
+  },
+  {
+   "id": "T741",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK NIPT uptake series 2024-25 (FASP standards data)",
+   "source_id": "S796",
+   "outcome": "S796 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 04:56:09"
+  },
+  {
+   "id": "T697",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO 6000 share in human clinical-style series (cfDNA, tumor, WGS) Q3'24-Q3'26",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.47",
+   "t": "2026-10-12 04:57:01"
+  },
+  {
+   "id": "T740",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1C: alt-data on MRD/WGS clinical volume ramp being too small (2026)",
+   "source_id": "",
+   "outcome": "8 candidates (S909, S910, S911, S912, S913, S914, S915, S916); $1.00",
+   "t": "2026-10-12 04:57:06"
+  },
+  {
+   "id": "T721",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MolDX TA: does a 6000→X switch force revalidation?",
+   "source_id": "S684",
+   "outcome": "S684 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:57:24"
+  },
+  {
+   "id": "T736",
+   "type": "MINE",
+   "model": "opus",
+   "title": "mine Federal obligations to low-cost sequencing providers (Novoge",
+   "source_id": "S677",
+   "outcome": "4 new med/strong items; $1.75",
+   "t": "2026-10-12 04:57:50"
+  },
+  {
+   "id": "T742",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "US births 2025 provisional and 2026 quarterly: NIPT denominator",
+   "source_id": "S791",
+   "outcome": "S791 productive; 1 new med/strong items; $0.23",
+   "t": "2026-10-12 04:58:06"
+  },
+  {
+   "id": "T722",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NovaSeq 6000Dx support docs: software cadence and X Dx status",
+   "source_id": "S819",
+   "outcome": "S819 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 04:58:15"
+  },
+  {
+   "id": "T744",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO total research sample volume y/y, all platforms, Q3'24-Q3'26",
+   "source_id": "S607",
+   "outcome": "1 new med/strong items; $0.69",
+   "t": "2026-10-12 04:58:16"
+  },
+  {
+   "id": "T750",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine CDC NCHS: Births, Provisional Data for 2025, plus the quarte",
+   "source_id": "S791",
+   "outcome": "6 new med/strong items; $0.33",
+   "t": "2026-10-12 04:59:17"
+  },
+  {
+   "id": "T751",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina NovaSeq 6000Dx support documentation and download p",
+   "source_id": "S819",
+   "outcome": "0 new med/strong items; $0.33",
+   "t": "2026-10-12 04:59:18"
+  },
+  {
+   "id": "T643",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Non-US listed labs: 6000 to X move and cost per test",
+   "source_id": "S655",
+   "outcome": "S655 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 05:00:02"
+  },
+  {
+   "id": "T724",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Freenome S-1/DRS: sequencing supplier and cost terms",
+   "source_id": "S715",
+   "outcome": "S715 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 05:00:35"
+  },
+  {
+   "id": "T745",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Multi-campus/system consolidation of X volume onto single accounts and resulting price tiers",
+   "source_id": "S752",
+   "outcome": "1 new med/strong items; $1.41",
+   "t": "2026-10-12 05:00:44"
+  },
+  {
+   "id": "T755",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F903..F940",
+   "source_id": "",
+   "outcome": "accepted 10, rejected 2, derived 3; $0.66",
+   "t": "2026-10-12 05:00:48"
+  },
+  {
+   "id": "T754",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "CMS Part B MRD/WGS PLA code allowed services 2023-2025 growth",
+   "source_id": "S910",
+   "outcome": "0 new med/strong items; $0.29",
+   "t": "2026-10-12 05:01:22"
+  },
+  {
+   "id": "T648",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S816",
+   "source_id": "S816",
+   "outcome": "S816 productive; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:01:24"
+  },
+  {
+   "id": "T650",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S817",
+   "source_id": "S817",
+   "outcome": "S817 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:01:51"
+  },
+  {
+   "id": "T753",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GEO rival-platform share of research series by country, Q3'25 vs Q3'26",
+   "source_id": "S607",
+   "outcome": "2 new med/strong items; $0.51",
+   "t": "2026-10-12 05:02:02"
+  },
+  {
+   "id": "T677",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S061",
+   "source_id": "S061",
+   "outcome": "skipped: source S061 is dry",
+   "t": "2026-10-12 05:02:07"
+  },
+  {
+   "id": "T757",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NHS/UK job postings naming the NovaSeq 6000 at GLHs",
+   "source_id": "S894",
+   "outcome": "S894 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:02:23"
+  },
+  {
+   "id": "T758",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "France PFMG2025 genomes sequenced vs 235K target",
+   "source_id": "S913",
+   "outcome": "S913 blocked; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 05:03:00"
+  },
+  {
+   "id": "T759",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine NCBI Genetic Testing Registry (GTR): clinical test records w",
+   "source_id": "S816",
+   "outcome": "4 new med/strong items; $0.47",
+   "t": "2026-10-12 05:03:01"
+  },
+  {
+   "id": "T678",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S858",
+   "source_id": "S858",
+   "outcome": "S858 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:03:48"
+  },
+  {
+   "id": "T764",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F941..F963",
+   "source_id": "",
+   "outcome": "accepted 10, rejected 2, derived 2; $0.63",
+   "t": "2026-10-12 05:04:04"
+  },
+  {
+   "id": "T761",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina IVD kit docs: has any IVD/CE kit (VeriSeq NIPT v2, TSO Comp) added NovaSeq X?",
+   "source_id": "S780",
+   "outcome": "S780 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:04:25"
+  },
+  {
+   "id": "T731",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "1A: quantify which customer segments hold the remaining 41% of 6000 revenue",
+   "source_id": "",
+   "outcome": "6 candidates (S941, S061, S942, S943, S016, S944); $0.93",
+   "t": "2026-10-12 05:06:13"
+  },
+  {
+   "id": "T752",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan 6000 S4/S2 kit award quantities by hospital 2023-26: who is still buying",
+   "source_id": "S724",
+   "outcome": "0 new med/strong items; $1.65",
+   "t": "2026-10-12 05:06:35"
+  },
+  {
+   "id": "T762",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GSA distributor 6000 vs X kit SKU availability, prices and lead-time flags",
+   "source_id": "S898",
+   "outcome": "S898 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 05:06:42"
+  },
+  {
+   "id": "T766",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UC system Illumina strategic-sourcing contract: discount tiers",
+   "source_id": "S862",
+   "outcome": "S862 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 05:07:14"
+  },
+  {
+   "id": "T765",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GTR 6000 vs X by large lab and test category (ex-Mayo)",
+   "source_id": "S816",
+   "outcome": "5 new med/strong items; $0.61",
+   "t": "2026-10-12 05:07:32"
+  },
+  {
+   "id": "T767",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "System-wide university Illumina agreements (SUNY, UT, BTAA, Cal State)",
+   "source_id": "S711",
+   "outcome": "S711 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 05:07:57"
+  },
+  {
+   "id": "T756",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan NovaSeq X 25B/10B award unit prices vs rival bids 2024-26",
+   "source_id": "S724",
+   "outcome": "4 new med/strong items; $1.55",
+   "t": "2026-10-12 05:08:06"
+  },
+  {
+   "id": "T705",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S885",
+   "source_id": "S885",
+   "outcome": "S885 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:08:26"
+  },
+  {
+   "id": "T760",
+   "type": "MINE",
+   "model": "opus",
+   "title": "Taiwan VeriSeq NIPT / NIPT kit awards: platform named, per-test price, quantities 2021-26",
+   "source_id": "S724",
+   "outcome": "2 new med/strong items; $1.55",
+   "t": "2026-10-12 05:08:33"
+  },
+  {
+   "id": "T708",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S414",
+   "source_id": "S414",
+   "outcome": "skipped: source S414 is dry",
+   "t": "2026-10-12 05:08:34"
+  },
+  {
+   "id": "T706",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S147",
+   "source_id": "S147",
+   "outcome": "S147 productive; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:09:03"
+  },
+  {
+   "id": "T768",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Illumina pilot-grant / free-reagent concessions at academic cores",
+   "source_id": "S571",
+   "outcome": "S571 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:09:09"
+  },
+  {
+   "id": "T778",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "AccessGUDID: 6000Dx kit DIs still in distribution vs any X Dx DIs",
+   "source_id": "S944",
+   "outcome": "S944 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:09:36"
+  },
+  {
+   "id": "T769",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Guardant FY25 10-K: Illumina purchase commitments and supply terms",
+   "source_id": "S873",
+   "outcome": "S873 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:09:54"
+  },
+  {
+   "id": "T777",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "GTR version history: 6000-to-X switch rate among records re-versioned in 2025-26",
+   "source_id": "S816",
+   "outcome": "2 new med/strong items; $0.46",
+   "t": "2026-10-12 05:10:10"
+  },
+  {
+   "id": "T784",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Federal sole-source NovaSeq 6000 maintenance renewals, FY25–",
+   "source_id": "S147",
+   "outcome": "0 new med/strong items; $0.47",
+   "t": "2026-10-12 05:10:34"
+  },
+  {
+   "id": "T786",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Netherlands NIPT Monitor 2024: uptake plateau",
+   "source_id": "S792",
+   "outcome": "S792 productive; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:11:11"
+  },
+  {
+   "id": "T785",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine FDA AccessGUDID: NovaSeq 6000Dx device and kit DIs, commerci",
+   "source_id": "S944",
+   "outcome": "1 new med/strong items; $0.40",
+   "t": "2026-10-12 05:11:17"
+  },
+  {
+   "id": "T790",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F970..F995",
+   "source_id": "",
+   "outcome": "accepted 8, rejected 4, derived 2; $0.63",
+   "t": "2026-10-12 05:11:22"
+  },
+  {
+   "id": "T779",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UK core grant-costing pages: per-sample figures and assumed platform",
+   "source_id": "S678",
+   "outcome": "S678 blocked; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:11:31"
+  },
+  {
+   "id": "T787",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GUARDIAN newborn WGS enrollment vs 100K target",
+   "source_id": "S916",
+   "outcome": "S916 productive; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:12:01"
+  },
+  {
+   "id": "T732",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S891",
+   "source_id": "S891",
+   "outcome": "S891 blocked; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:12:05"
+  },
+  {
+   "id": "T783",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Brazil PNCP (Portal Nacional de Contratações Públicas) searc",
+   "source_id": "S885",
+   "outcome": "0 new med/strong items; $0.44",
+   "t": "2026-10-12 05:12:18"
+  },
+  {
+   "id": "T791",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Netherlands RIVM/PNS NIPT Monitor 2024 and Professionalsmoni",
+   "source_id": "S792",
+   "outcome": "2 new med/strong items; $0.45",
+   "t": "2026-10-12 05:12:44"
+  },
+  {
+   "id": "T788",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "US NIPT payer coverage saturation",
+   "source_id": "S795",
+   "outcome": "S795 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:13:05"
+  },
+  {
+   "id": "T795",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GUARDIAN (NYC) newborn genome sequencing enrollment versus t",
+   "source_id": "S916",
+   "outcome": "1 new med/strong items; $0.30",
+   "t": "2026-10-12 05:13:16"
+  },
+  {
+   "id": "T782",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Bluesky public search: academics comparing sequencing quotes",
+   "source_id": "S786",
+   "outcome": "S786 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:13:32"
+  },
+  {
+   "id": "T734",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S012",
+   "source_id": "S012",
+   "outcome": "skipped: source S012 is dry",
+   "t": "2026-10-12 05:13:40"
+  },
+  {
+   "id": "T793",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Germany statutory-insurance NIPT uptake trend (BARMER/bifg)",
+   "source_id": "S793",
+   "outcome": "S793 productive; 1 new med/strong items; $0.31",
+   "t": "2026-10-12 05:13:52"
+  },
+  {
+   "id": "T792",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Other UC campuses' FY27 NovaSeq X lane rates after QB3-to-UCSF consolidation",
+   "source_id": "S752",
+   "outcome": "2 new med/strong items; $0.62",
+   "t": "2026-10-12 05:14:11"
+  },
+  {
+   "id": "T794",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Denmark National Genome Center WGS volumes vs plan",
+   "source_id": "S914",
+   "outcome": "S914 blocked; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 05:14:27"
+  },
+  {
+   "id": "T772",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Adaptive Q2'26 call: clonoSEQ MRD volume growth and run-rate",
+   "source_id": "S875",
+   "outcome": "S875 productive; 1 new med/strong items; $0.19",
+   "t": "2026-10-12 05:14:39"
+  },
+  {
+   "id": "T746",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S909",
+   "source_id": "S909",
+   "outcome": "S909 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:14:51"
+  },
+  {
+   "id": "T802",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Germany: statutory-insurance NIPT uptake (BARMER/bifg claims",
+   "source_id": "S793",
+   "outcome": "1 new med/strong items; $0.35",
+   "t": "2026-10-12 05:14:58"
+  },
+  {
+   "id": "T773",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S941",
+   "source_id": "S941",
+   "outcome": "S941 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:15:21"
+  },
+  {
+   "id": "T797",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "EPFL GECF price list Sep 2026 vs earlier versions",
+   "source_id": "S843",
+   "outcome": "S843 blocked; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:15:30"
+  },
+  {
+   "id": "T796",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan Genetech (Illumina distributor) full award history: X kit unit-price trend",
+   "source_id": "S946",
+   "outcome": "S946 productive; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 05:15:43"
+  },
+  {
+   "id": "T803",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Adaptive Biotechnologies Q2'26 call transcript",
+   "source_id": "S875",
+   "outcome": "0 new med/strong items; $0.40",
+   "t": "2026-10-12 05:16:04"
+  },
+  {
+   "id": "T805",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "openFDA recall product_quantity: US 6000Dx installed units",
+   "source_id": "S892",
+   "outcome": "S892 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:16:10"
+  },
+  {
+   "id": "T804",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UCSD IGM current rates vs prior: research lane price trend",
+   "source_id": "S976",
+   "outcome": "S976 productive; 2 new med/strong items; $0.28",
+   "t": "2026-10-12 05:16:34"
+  },
+  {
+   "id": "T799",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan NIPT per-test procurement price series (VGH, NYCU, MND)",
+   "source_id": "S855",
+   "outcome": "S855 dry; 0 new med/strong items; $0.15",
+   "t": "2026-10-12 05:16:39"
+  },
+  {
+   "id": "T798",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Baylor GARP core price-list history: research $/lane trend 2024-26",
+   "source_id": "S806",
+   "outcome": "S806 blocked; 0 new med/strong items; $0.32",
+   "t": "2026-10-12 05:16:41"
+  },
+  {
+   "id": "T806",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Freenome S-4/A: Illumina supply terms, pricing and sequencing COGS",
+   "source_id": "S928",
+   "outcome": "S928 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:16:50"
+  },
+  {
+   "id": "T800",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MIT BioMicroCenter OpenWetWare pricing: page revision history",
+   "source_id": "S905",
+   "outcome": "S905 productive; 1 new med/strong items; $0.20",
+   "t": "2026-10-12 05:17:57"
+  },
+  {
+   "id": "T810",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UCSD IGM rates page (current)",
+   "source_id": "S976",
+   "outcome": "0 new med/strong items; $0.46",
+   "t": "2026-10-12 05:18:01"
+  },
+  {
+   "id": "T812",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "OPBG (Bambino Gesù) Illumina tender documents: 6000 vs X kit unit prices 2024-26",
+   "source_id": "S868",
+   "outcome": "S868 blocked; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:18:05"
+  },
+  {
+   "id": "T813",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "China CCGP: NovaSeq 6000 reagent and maintenance (维保) awards 2025-26",
+   "source_id": "S942",
+   "outcome": "S942 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:18:44"
+  },
+  {
+   "id": "T807",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UC Davis DNA Tech Core rate docx: X vs AVITI research pricing",
+   "source_id": "S736",
+   "outcome": "S736 dry; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 05:18:48"
+  },
+  {
+   "id": "T811",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F996..F1038",
+   "source_id": "",
+   "outcome": "accepted 8, rejected 4, derived 4; $0.85",
+   "t": "2026-10-12 05:18:57"
+  },
+  {
+   "id": "T816",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine OpenWetWare BioMicroCenter Pricing (MIT)",
+   "source_id": "S905",
+   "outcome": "2 new med/strong items; $0.38",
+   "t": "2026-10-12 05:19:25"
+  },
+  {
+   "id": "T814",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "CDC provisional births 2026 Q1-Q2: NIPT denominator trend",
+   "source_id": "S791",
+   "outcome": "0 new med/strong items; $0.29",
+   "t": "2026-10-12 05:19:33"
+  },
+  {
+   "id": "T801",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "JAX Genome Technologies external sequencing rates",
+   "source_id": "S929",
+   "outcome": "S929 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:19:55"
+  },
+  {
+   "id": "T808",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MLSC biobank WGS RFP award: per-genome contract price and vendor",
+   "source_id": "S690",
+   "outcome": "S690 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 05:20:07"
+  },
+  {
+   "id": "T818",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC: Illumina Taiwan direct vs Element Biosciences direct awards",
+   "source_id": "S901",
+   "outcome": "S901 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:20:13"
+  },
+  {
+   "id": "T809",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine PCC award notices for Genetech (均泰, Illumina distributor), f",
+   "source_id": "S946",
+   "outcome": "0 new med/strong items; $0.78",
+   "t": "2026-10-12 05:20:25"
+  },
+  {
+   "id": "T815",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Oregon State GC3F Illumina pricing: research lane rate trend",
+   "source_id": "S733",
+   "outcome": "S733 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 05:20:54"
+  },
+  {
+   "id": "T817",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC award totals: Illumina distributor vs rival distributors 2021-26",
+   "source_id": "S880",
+   "outcome": "S880 productive; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 05:20:59"
+  },
+  {
+   "id": "T820",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NovaSeq 6000 software/LIMS release cadence: is Illumina sunsetting the 6000?",
+   "source_id": "S895",
+   "outcome": "S895 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:21:00"
+  },
+  {
+   "id": "T819",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GSA price list: NovaSeq 6000 service plans vs X service plans",
+   "source_id": "S685",
+   "outcome": "S685 dry; 0 new med/strong items; $0.30",
+   "t": "2026-10-12 05:21:24"
+  },
+  {
+   "id": "T821",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NIH SIS/S10 internal competitions: which sequencers cores are requesting",
+   "source_id": "S649",
+   "outcome": "S649 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:21:29"
+  },
+  {
+   "id": "T825",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "CMS Part B 2025 summary file: MRD and WGS PLA-code service counts",
+   "source_id": "S931",
+   "outcome": "S931 blocked; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:21:49"
+  },
+  {
+   "id": "T827",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Freenome DRS/A exhibits EX-10.16 and EX-10.25: Illumina supply pricing",
+   "source_id": "S927",
+   "outcome": "S927 dry; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:22:18"
+  },
+  {
+   "id": "T826",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UMGC AVITI and tier pricing vs NovaSeq X: research price pressure",
+   "source_id": "S803",
+   "outcome": "S803 productive; 2 new med/strong items; $0.29",
+   "t": "2026-10-12 05:22:41"
+  },
+  {
+   "id": "T824",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Illumina NovaSeq 6000 software release cadence (Control Soft",
+   "source_id": "S895",
+   "outcome": "3 new med/strong items; $0.58",
+   "t": "2026-10-12 05:22:57"
+  },
+  {
+   "id": "T829",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UCLA TCGB 2022 rate sheet vs current: research $/lane trend",
+   "source_id": "S899",
+   "outcome": "S899 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 05:23:27"
+  },
+  {
+   "id": "T828",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Freenome-Roche AXELIOS agreement: SBX economics and Illumina displacement",
+   "source_id": "S987",
+   "outcome": "S987 productive; 0 new med/strong items; $0.37",
+   "t": "2026-10-12 05:23:49"
+  },
+  {
+   "id": "T830",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "PIPseq launch discounts at academic cores (HKU half-price, SAPAC deals)",
+   "source_id": "S691",
+   "outcome": "S691 dry; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:24:07"
+  },
+  {
+   "id": "T833",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UCSD IGM 2026 rate-sheet PDF: lane prices vs 2025",
+   "source_id": "S988",
+   "outcome": "S988 blocked; 0 new med/strong items; $0.21",
+   "t": "2026-10-12 05:24:26"
+  },
+  {
+   "id": "T831",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "cninfo annual reports: Chinese labs' Illumina vs MGI supplier mix",
+   "source_id": "S943",
+   "outcome": "S943 blocked; 0 new med/strong items; $0.17",
+   "t": "2026-10-12 05:24:38"
+  },
+  {
+   "id": "T834",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Cores with AXELIOS early access: research SBX pricing",
+   "source_id": "S1004",
+   "outcome": "S1004 dry; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 05:25:04"
+  },
+  {
+   "id": "T835",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "MIT BMC official site: current pricing and X-outsourcing news",
+   "source_id": "S991",
+   "outcome": "S991 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:25:24"
+  },
+  {
+   "id": "T832",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UMGC AVITI pricing sheet (Google Sheet)",
+   "source_id": "S803",
+   "outcome": "6 new med/strong items; $0.54",
+   "t": "2026-10-12 05:25:28"
+  },
+  {
+   "id": "T836",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Ultima-equipped cores: same-page Ultima vs NovaSeq X research prices",
+   "source_id": "S1005",
+   "outcome": "S1005 dry; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:26:04"
+  },
+  {
+   "id": "T841",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Freenome / Roche AXELIOS development agreement and Illumina ",
+   "source_id": "S987",
+   "outcome": "4 new med/strong items; $0.58",
+   "t": "2026-10-12 05:26:10"
+  },
+  {
+   "id": "T843",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UIUC Board of Trustees purchase reports: Illumina sole-source renewal values 2023-26",
+   "source_id": "S950",
+   "outcome": "S950 productive; 0 new med/strong items; $0.25",
+   "t": "2026-10-12 05:26:33"
+  },
+  {
+   "id": "T838",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Genohub NovaSeq X $/Gb baseline (Apr 2024) vs current Genohub platform pages",
+   "source_id": "S692",
+   "outcome": "S692 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:26:44"
+  },
+  {
+   "id": "T844",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC VeriSeq NIPT kit awards: unit prices and quantities 2021-26",
+   "source_id": "S837",
+   "outcome": "S837 dry; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:27:36"
+  },
+  {
+   "id": "T849",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine University of Illinois Board of Trustees purchase reports (2",
+   "source_id": "S950",
+   "outcome": "0 new med/strong items; $0.54",
+   "t": "2026-10-12 05:27:49"
+  },
+  {
+   "id": "T842",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F1040..F1067",
+   "source_id": "",
+   "outcome": "accepted 10, rejected 2, derived 3; $0.87",
+   "t": "2026-10-12 05:28:06"
+  },
+  {
+   "id": "T845",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Czech E-ZAK award reports: Illumina kit unit prices (6000 vs X)",
+   "source_id": "S860",
+   "outcome": "S860 blocked; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:28:16"
+  },
+  {
+   "id": "T846",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Turkey EKAP / Chile Mercado Publico: NovaSeq 6000 S4 kit tenders 2025-26",
+   "source_id": "S886",
+   "outcome": "S886 blocked; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 05:28:30"
+  },
+  {
+   "id": "T850",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "ENA count endpoint: NovaSeq 6000 vs X run counts and base_count buckets by quarter, 2024-2026",
+   "source_id": "S727",
+   "outcome": "S727 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:29:03"
+  },
+  {
+   "id": "T851",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC: Genomics BioSci (基龍米克斯) full award history, X vs 6000 reagent unit prices",
+   "source_id": "S884",
+   "outcome": "S884 productive; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:29:27"
+  },
+  {
+   "id": "T840",
+   "type": "SCOUT",
+   "model": "opus",
+   "title": "New alt-data angles for research pricing erosion (2B/2A)",
+   "source_id": "",
+   "outcome": "6 candidates (S455, S365, S1013, S1014, S1015, S1016); $1.09",
+   "t": "2026-10-12 05:29:30"
+  },
+  {
+   "id": "T847",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Germany KBV/G-BA EBM billing counts for NIPT GOP 01870, by year",
+   "source_id": "S979",
+   "outcome": "S979 dry; 0 new med/strong items; $0.36",
+   "t": "2026-10-12 05:29:49"
+  },
+  {
+   "id": "T855",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine ENA Portal API count endpoint with base_count buckets plus t",
+   "source_id": "S727",
+   "outcome": "0 new med/strong items; $0.37",
+   "t": "2026-10-12 05:30:06"
+  },
+  {
+   "id": "T853",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taipei VGH 115A2A55M Illumina high-throughput system 2-year maintenance tender (Oct 2026)",
+   "source_id": "S952",
+   "outcome": "S952 dry; 0 new med/strong items; $0.15",
+   "t": "2026-10-12 05:30:30"
+  },
+  {
+   "id": "T857",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S455",
+   "source_id": "S455",
+   "outcome": "skipped: source S455 is blocked",
+   "t": "2026-10-12 05:30:37"
+  },
+  {
+   "id": "T861",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "SAM.gov NovaSeq 6000 support/service notices 2025-26 (remaining-fleet tail)",
+   "source_id": "S641",
+   "outcome": "S641 productive; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:30:58"
+  },
+  {
+   "id": "T823",
+   "type": "MINE",
+   "model": "opus",
+   "title": "mine Taiwan PCC award totals by Illumina's Taiwan distributor (均泰",
+   "source_id": "S880",
+   "outcome": "3 new med/strong items; $1.79",
+   "t": "2026-10-12 05:30:59"
+  },
+  {
+   "id": "T862",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "6000Dx Clarity integration release notes: support cadence and end-of-life signals",
+   "source_id": "S1003",
+   "outcome": "S1003 dry; 0 new med/strong items; $0.18",
+   "t": "2026-10-12 05:31:03"
+  },
+  {
+   "id": "T852",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "UMGC NGS Sequencing Queues sheet: research run volumes by platform (Illumina vs AVITI vs Ultima)",
+   "source_id": "S1008",
+   "outcome": "S1008 productive; 0 new med/strong items; $0.22",
+   "t": "2026-10-12 05:31:27"
+  },
+  {
+   "id": "T858",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S365",
+   "source_id": "S365",
+   "outcome": "S365 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 05:31:39"
+  },
+  {
+   "id": "T856",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine Genomics BioSci (基龍米克斯) full award history",
+   "source_id": "S884",
+   "outcome": "0 new med/strong items; $0.48",
+   "t": "2026-10-12 05:32:18"
+  },
+  {
+   "id": "T865",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine SAM.gov notice N3239826Q4072 and similar 6000 support notice",
+   "source_id": "S641",
+   "outcome": "0 new med/strong items; $0.59",
+   "t": "2026-10-12 05:32:47"
+  },
+  {
+   "id": "T859",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S1013",
+   "source_id": "S1013",
+   "outcome": "S1013 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:33:05"
+  },
+  {
+   "id": "T863",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC Down-syndrome NGS screening open contracts: per-test price and volume",
+   "source_id": "S889",
+   "outcome": "S889 dry; 0 new med/strong items; $0.27",
+   "t": "2026-10-12 05:33:14"
+  },
+  {
+   "id": "T868",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GTR non-Mayo labs still naming NovaSeq 6000",
+   "source_id": "S955",
+   "outcome": "S955 dry; 0 new med/strong items; $0.16",
+   "t": "2026-10-12 05:33:15"
+  },
+  {
+   "id": "T864",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "SAM.gov NovaSeq X service notices 2026 vs 6000 notices",
+   "source_id": "S957",
+   "outcome": "S957 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:33:36"
+  },
+  {
+   "id": "T866",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine UMGC NGS Sequencing Queues (Google Sheet)",
+   "source_id": "S1008",
+   "outcome": "2 new med/strong items; $0.34",
+   "t": "2026-10-12 05:33:54"
+  },
+  {
+   "id": "T869",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "GTR version history: dated 6000-to-X instrument switches",
+   "source_id": "S947",
+   "outcome": "S947 productive; 0 new med/strong items; $0.20",
+   "t": "2026-10-12 05:34:12"
+  },
+  {
+   "id": "T860",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "probe S1014",
+   "source_id": "S1014",
+   "outcome": "S1014 dry; 0 new med/strong items; $0.23",
+   "t": "2026-10-12 05:34:35"
+  },
+  {
+   "id": "T870",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "NIH Illumina reagents solicitation 75N92025R00033: discount and pricing terms",
+   "source_id": "S1012",
+   "outcome": "S1012 dry; 0 new med/strong items; $0.19",
+   "t": "2026-10-12 05:34:36"
+  },
+  {
+   "id": "T874",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Indian clinical labs' 2025-26 fleet releases: X added vs 6000 kept",
+   "source_id": "S897",
+   "outcome": "S897 dry; 0 new med/strong items; $0.26",
+   "t": "2026-10-12 05:35:16"
+  },
+  {
+   "id": "T871",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Taiwan PCC per-test FoundationOne/Guardant360 outsourcing prices over time",
+   "source_id": "S1019",
+   "outcome": "S1019 productive; 0 new med/strong items; $0.24",
+   "t": "2026-10-12 05:35:39"
+  },
+  {
+   "id": "T879",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine GTR version pages /gtr/tests/<id>.<n>/",
+   "source_id": "S947",
+   "outcome": "2 new med/strong items; $0.42",
+   "t": "2026-10-12 05:35:40"
+  },
+  {
+   "id": "T873",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "6000 software/support cadence vs X: end-of-support signals",
+   "source_id": "S895",
+   "outcome": "2 new med/strong items; $0.55",
+   "t": "2026-10-12 05:35:42"
+  },
+  {
+   "id": "T872",
+   "type": "PROBE",
+   "model": "sonnet",
+   "title": "Medi-Cal genome sequencing rate (Jul 2026): WGS reimbursement expansion watch-out",
+   "source_id": "S740",
+   "outcome": "S740 productive; 2 new med/strong items; $0.24",
+   "t": "2026-10-12 05:36:14"
+  },
+  {
+   "id": "T867",
+   "type": "MINE",
+   "model": "opus",
+   "title": "均泰 award history 2016-22: extend the discount series back",
+   "source_id": "S880",
+   "outcome": "0 new med/strong items; $1.43",
+   "t": "2026-10-12 05:37:00"
+  },
+  {
+   "id": "T882",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine California DHCS Medi-Cal genome sequencing rate (effective 1",
+   "source_id": "S740",
+   "outcome": "2 new med/strong items; $0.42",
+   "t": "2026-10-12 05:37:25"
+  },
+  {
+   "id": "T881",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "mine PCC title search for FoundationOne / Guardant360 per-test ou",
+   "source_id": "S1019",
+   "outcome": "1 new med/strong items; $0.50",
+   "t": "2026-10-12 05:37:40"
+  },
+  {
+   "id": "T880",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F1068..F1106",
+   "source_id": "",
+   "outcome": "accepted 11, rejected 1, derived 3; $0.79",
+   "t": "2026-10-12 05:38:00"
+  },
+  {
+   "id": "T883",
+   "type": "MINE",
+   "model": "sonnet",
+   "title": "Taiwan PCC: rival-platform distributors' awards vs 均泰, 2023-26",
+   "source_id": "S880",
+   "outcome": "1 new med/strong items; $0.75",
+   "t": "2026-10-12 05:41:04"
+  },
+  {
+   "id": "T889",
+   "type": "VERIFY",
+   "model": "opus",
+   "title": "verify F1107..F1129",
+   "source_id": "",
+   "outcome": "accepted 6, rejected 3, derived 2; $0.62",
+   "t": "2026-10-12 05:42:08"
+  }
+ ],
+ "cycles": [
+  {
+   "n": 1,
+   "t": "2026-10-12 01:09:55",
+   "new_ms": 7,
+   "item_mark": 36,
+   "queued": 9,
+   "exhausted": false,
+   "cost": 0.26
+  },
+  {
+   "n": 2,
+   "t": "2026-10-12 01:12:55",
+   "new_ms": 2,
+   "item_mark": 54,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.25
+  },
+  {
+   "n": 3,
+   "t": "2026-10-12 01:16:05",
+   "new_ms": 6,
+   "item_mark": 83,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.3
+  },
+  {
+   "n": 4,
+   "t": "2026-10-12 01:18:28",
+   "new_ms": 6,
+   "item_mark": 102,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.27
+  },
+  {
+   "n": 5,
+   "t": "2026-10-12 01:21:00",
+   "new_ms": 5,
+   "item_mark": 123,
+   "queued": 12,
+   "exhausted": false,
+   "cost": 0.28
+  },
+  {
+   "n": 6,
+   "t": "2026-10-12 01:23:08",
+   "new_ms": 4,
+   "item_mark": 138,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.27
+  },
+  {
+   "n": 7,
+   "t": "2026-10-12 01:25:15",
+   "new_ms": 3,
+   "item_mark": 150,
+   "queued": 12,
+   "exhausted": false,
+   "cost": 0.28
+  },
+  {
+   "n": 8,
+   "t": "2026-10-12 01:27:29",
+   "new_ms": 4,
+   "item_mark": 164,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.28
+  },
+  {
+   "n": 9,
+   "t": "2026-10-12 01:30:13",
+   "new_ms": 4,
+   "item_mark": 178,
+   "queued": 10,
+   "exhausted": false,
+   "cost": 0.32
+  },
+  {
+   "n": 10,
+   "t": "2026-10-12 01:32:01",
+   "new_ms": 1,
+   "item_mark": 183,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.32
+  },
+  {
+   "n": 11,
+   "t": "2026-10-12 01:34:15",
+   "new_ms": 6,
+   "item_mark": 194,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.3
+  },
+  {
+   "n": 12,
+   "t": "2026-10-12 01:36:07",
+   "new_ms": 8,
+   "item_mark": 220,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.3
+  },
+  {
+   "n": 13,
+   "t": "2026-10-12 01:38:30",
+   "new_ms": 3,
+   "item_mark": 227,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.31
+  },
+  {
+   "n": 14,
+   "t": "2026-10-12 01:41:07",
+   "new_ms": 3,
+   "item_mark": 237,
+   "queued": 1,
+   "exhausted": false,
+   "cost": 0.27
+  },
+  {
+   "n": 15,
+   "t": "2026-10-12 01:43:42",
+   "new_ms": 3,
+   "item_mark": 247,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.29
+  },
+  {
+   "n": 16,
+   "t": "2026-10-12 02:14:12",
+   "new_ms": 15,
+   "item_mark": 273,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.29
+  },
+  {
+   "n": 17,
+   "t": "2026-10-12 02:43:41",
+   "new_ms": 1,
+   "item_mark": 280,
+   "queued": 13,
+   "exhausted": false,
+   "cost": 0.38
+  },
+  {
+   "n": 18,
+   "t": "2026-10-12 02:46:27",
+   "new_ms": 4,
+   "item_mark": 295,
+   "queued": 10,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 19,
+   "t": "2026-10-12 02:48:43",
+   "new_ms": 2,
+   "item_mark": 301,
+   "queued": 13,
+   "exhausted": false,
+   "cost": 0.38
+  },
+  {
+   "n": 20,
+   "t": "2026-10-12 02:50:44",
+   "new_ms": 7,
+   "item_mark": 324,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 21,
+   "t": "2026-10-12 02:53:42",
+   "new_ms": 4,
+   "item_mark": 345,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.48
+  },
+  {
+   "n": 22,
+   "t": "2026-10-12 02:56:07",
+   "new_ms": 5,
+   "item_mark": 366,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.4
+  },
+  {
+   "n": 23,
+   "t": "2026-10-12 02:57:59",
+   "new_ms": 1,
+   "item_mark": 376,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 24,
+   "t": "2026-10-12 03:00:58",
+   "new_ms": 5,
+   "item_mark": 390,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.45
+  },
+  {
+   "n": 25,
+   "t": "2026-10-12 03:03:31",
+   "new_ms": 9,
+   "item_mark": 409,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 26,
+   "t": "2026-10-12 03:05:14",
+   "new_ms": 0,
+   "item_mark": 414,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 27,
+   "t": "2026-10-12 03:07:16",
+   "new_ms": 2,
+   "item_mark": 426,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 28,
+   "t": "2026-10-12 03:10:02",
+   "new_ms": 2,
+   "item_mark": 431,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 29,
+   "t": "2026-10-12 03:13:10",
+   "new_ms": 11,
+   "item_mark": 455,
+   "queued": 14,
+   "exhausted": false,
+   "cost": 0.47
+  },
+  {
+   "n": 30,
+   "t": "2026-10-12 03:14:49",
+   "new_ms": 0,
+   "item_mark": 468,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.4
+  },
+  {
+   "n": 31,
+   "t": "2026-10-12 03:16:33",
+   "new_ms": 1,
+   "item_mark": 473,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 32,
+   "t": "2026-10-12 03:18:44",
+   "new_ms": 2,
+   "item_mark": 478,
+   "queued": 9,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 33,
+   "t": "2026-10-12 03:21:48",
+   "new_ms": 0,
+   "item_mark": 479,
+   "queued": 10,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 34,
+   "t": "2026-10-12 03:24:35",
+   "new_ms": 11,
+   "item_mark": 499,
+   "queued": 13,
+   "exhausted": false,
+   "cost": 0.45
+  },
+  {
+   "n": 35,
+   "t": "2026-10-12 03:27:31",
+   "new_ms": 10,
+   "item_mark": 522,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.48
+  },
+  {
+   "n": 36,
+   "t": "2026-10-12 03:29:36",
+   "new_ms": 0,
+   "item_mark": 527,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 37,
+   "t": "2026-10-12 03:32:18",
+   "new_ms": 9,
+   "item_mark": 549,
+   "queued": 11,
+   "exhausted": false,
+   "cost": 0.5
+  },
+  {
+   "n": 38,
+   "t": "2026-10-12 03:34:45",
+   "new_ms": 2,
+   "item_mark": 555,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 39,
+   "t": "2026-10-12 03:36:50",
+   "new_ms": 0,
+   "item_mark": 556,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 40,
+   "t": "2026-10-12 03:40:02",
+   "new_ms": 8,
+   "item_mark": 577,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.45
+  },
+  {
+   "n": 41,
+   "t": "2026-10-12 03:41:37",
+   "new_ms": 7,
+   "item_mark": 588,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 42,
+   "t": "2026-10-12 03:44:00",
+   "new_ms": 0,
+   "item_mark": 595,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.45
+  },
+  {
+   "n": 43,
+   "t": "2026-10-12 03:46:43",
+   "new_ms": 4,
+   "item_mark": 603,
+   "queued": 12,
+   "exhausted": false,
+   "cost": 0.44
+  },
+  {
+   "n": 44,
+   "t": "2026-10-12 03:49:20",
+   "new_ms": 3,
+   "item_mark": 613,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 45,
+   "t": "2026-10-12 03:51:23",
+   "new_ms": 0,
+   "item_mark": 619,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 46,
+   "t": "2026-10-12 03:54:53",
+   "new_ms": 6,
+   "item_mark": 639,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.44
+  },
+  {
+   "n": 47,
+   "t": "2026-10-12 03:57:07",
+   "new_ms": 6,
+   "item_mark": 655,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 48,
+   "t": "2026-10-12 03:59:59",
+   "new_ms": 2,
+   "item_mark": 664,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 49,
+   "t": "2026-10-12 04:02:19",
+   "new_ms": 6,
+   "item_mark": 682,
+   "queued": 9,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 50,
+   "t": "2026-10-12 04:05:06",
+   "new_ms": 4,
+   "item_mark": 694,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.44
+  },
+  {
+   "n": 51,
+   "t": "2026-10-12 04:08:05",
+   "new_ms": 4,
+   "item_mark": 702,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 52,
+   "t": "2026-10-12 04:11:01",
+   "new_ms": 3,
+   "item_mark": 712,
+   "queued": 2,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 53,
+   "t": "2026-10-12 04:13:22",
+   "new_ms": 4,
+   "item_mark": 724,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 54,
+   "t": "2026-10-12 04:16:00",
+   "new_ms": 3,
+   "item_mark": 736,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 55,
+   "t": "2026-10-12 04:18:14",
+   "new_ms": 2,
+   "item_mark": 743,
+   "queued": 12,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 56,
+   "t": "2026-10-12 04:21:17",
+   "new_ms": 0,
+   "item_mark": 744,
+   "queued": 2,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 57,
+   "t": "2026-10-12 04:24:11",
+   "new_ms": 10,
+   "item_mark": 765,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 58,
+   "t": "2026-10-12 04:26:36",
+   "new_ms": 4,
+   "item_mark": 774,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 59,
+   "t": "2026-10-12 04:31:47",
+   "new_ms": 10,
+   "item_mark": 798,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 60,
+   "t": "2026-10-12 04:35:05",
+   "new_ms": 8,
+   "item_mark": 819,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 61,
+   "t": "2026-10-12 04:39:07",
+   "new_ms": 4,
+   "item_mark": 829,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 62,
+   "t": "2026-10-12 04:43:36",
+   "new_ms": 8,
+   "item_mark": 854,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 63,
+   "t": "2026-10-12 04:46:47",
+   "new_ms": 1,
+   "item_mark": 868,
+   "queued": 9,
+   "exhausted": false,
+   "cost": 0.41
+  },
+  {
+   "n": 64,
+   "t": "2026-10-12 04:50:23",
+   "new_ms": 6,
+   "item_mark": 881,
+   "queued": 14,
+   "exhausted": false,
+   "cost": 0.42
+  },
+  {
+   "n": 65,
+   "t": "2026-10-12 04:52:50",
+   "new_ms": 0,
+   "item_mark": 885,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.43
+  },
+  {
+   "n": 66,
+   "t": "2026-10-12 04:55:30",
+   "new_ms": 4,
+   "item_mark": 919,
+   "queued": 2,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 67,
+   "t": "2026-10-12 04:58:22",
+   "new_ms": 8,
+   "item_mark": 940,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 68,
+   "t": "2026-10-12 05:01:17",
+   "new_ms": 7,
+   "item_mark": 952,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 69,
+   "t": "2026-10-12 05:02:54",
+   "new_ms": 2,
+   "item_mark": 960,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 70,
+   "t": "2026-10-12 05:05:12",
+   "new_ms": 1,
+   "item_mark": 966,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.4
+  },
+  {
+   "n": 71,
+   "t": "2026-10-12 05:08:22",
+   "new_ms": 9,
+   "item_mark": 987,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.39
+  },
+  {
+   "n": 72,
+   "t": "2026-10-12 05:10:06",
+   "new_ms": 2,
+   "item_mark": 995,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 73,
+   "t": "2026-10-12 05:12:00",
+   "new_ms": 3,
+   "item_mark": 1006,
+   "queued": 3,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 74,
+   "t": "2026-10-12 05:13:47",
+   "new_ms": 3,
+   "item_mark": 1019,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 75,
+   "t": "2026-10-12 05:15:23",
+   "new_ms": 5,
+   "item_mark": 1033,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 76,
+   "t": "2026-10-12 05:17:06",
+   "new_ms": 2,
+   "item_mark": 1040,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.35
+  },
+  {
+   "n": 77,
+   "t": "2026-10-12 05:19:26",
+   "new_ms": 3,
+   "item_mark": 1049,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 78,
+   "t": "2026-10-12 05:21:25",
+   "new_ms": 0,
+   "item_mark": 1051,
+   "queued": 7,
+   "exhausted": false,
+   "cost": 0.38
+  },
+  {
+   "n": 79,
+   "t": "2026-10-12 05:23:47",
+   "new_ms": 5,
+   "item_mark": 1060,
+   "queued": 8,
+   "exhausted": false,
+   "cost": 0.38
+  },
+  {
+   "n": 80,
+   "t": "2026-10-12 05:25:40",
+   "new_ms": 6,
+   "item_mark": 1073,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 81,
+   "t": "2026-10-12 05:28:17",
+   "new_ms": 4,
+   "item_mark": 1081,
+   "queued": 5,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 82,
+   "t": "2026-10-12 05:30:20",
+   "new_ms": 0,
+   "item_mark": 1087,
+   "queued": 4,
+   "exhausted": false,
+   "cost": 0.35
+  },
+  {
+   "n": 83,
+   "t": "2026-10-12 05:32:07",
+   "new_ms": 3,
+   "item_mark": 1098,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.37
+  },
+  {
+   "n": 84,
+   "t": "2026-10-12 05:34:00",
+   "new_ms": 2,
+   "item_mark": 1104,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.38
+  },
+  {
+   "n": 85,
+   "t": "2026-10-12 05:36:36",
+   "new_ms": 6,
+   "item_mark": 1117,
+   "queued": 6,
+   "exhausted": false,
+   "cost": 0.39
+  }
+ ],
+ "next_task": 890,
+ "next_src": 1043,
+ "next_item": 1134,
+ "next_apify": 8,
+ "stop": true,
+ "since_strat": 6,
+ "last_strat": 1791801396.554888,
+ "pid": 22968,
+ "started": "2026-10-12 01:00:50",
+ "heartbeat": 1791814063.7519433,
+ "heartbeat_human": "2026-10-12 09:07:43",
+ "strat_fails": 0,
+ "stop_reason": "budget winddown (est 42.1%)",
+ "finished": "2026-10-12 06:00:03",
+ "published": "https://claude.ai/artifact/RiZ8vo9hoooukAgVnAkG6Z"
+}

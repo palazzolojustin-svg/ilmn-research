@@ -1,0 +1,113 @@
+NovaSeqX Plus sequencing | UT MD Anderson
+Skip to Content
+MyChart
+Log in to our secure, personalized website to manage your care (formerly myMDAnderson).
+Request an Appointment
+Request an Appointment
+If you are ready to make an appointment, select a button on the right. If you have questions about UT MD Anderson’s appointment process, our information page may be the best place to start.
+Appointment Information
+New Patients
+Current Patients
+Referring Physicians
+Donate Today
+Every Breakthrough
+Begins With You
+Gifts to UT MD Anderson’s historic philanthropic campaign help accelerate discovery, transform lives and bring hope to more patients than ever before.
+Learn more about Only Possible Here
+Donate Today
+Search
+Close
+Menu
+Close
+Clinical Trials
+Locations
+Careers
+Contact Us
+Apply to SHP
+Choose from 12 allied health programs at School of Health Professions.
+Research Trainees
+View open postdoctoral and other research trainee positions.
+GME Fellowships
+Learn about our graduate medical education residency and fellowship opportunities.
+Research Resources
+Core Facilities and Services
+Advanced Technology Genomics Core (ATGC)
+Services
+NovaSeqX Plus sequencing
+Jump To:
+Back
+Services
+Next-Generation Sequencing Services
+Sanger Sequencing
+Single Cell Sequencing
+Microarray Services
+Fluorescent Fragment Length Analysis
+Spatial Transcriptomics
+Nanopore Sequencing
+NovaSeqX Plus sequencing
+|
+Close
+Share this article
+Via social media:
+Or copy the link:
+Copy to clipboard
+Copy
+NovaSeqX Plus sequencing
+The NovaSeqX Plus is Illumina’s newest and most advanced sequencer
+This platform offers:
+Up to 60% reduction in sequencing price (depending upon sequencing type)
+Up to 3X greater sequencing accuracy- New XLEAP SBS chemistry
+Greater flexibility of run format- combine different run formats on the same flow cell
+Key Applications
+Whole Genome: Human, Mouse, Rat…
+Exomes
+RNA seq
+Methyl seq
+Metagenomic profiling
+Targeted regions
+Single Cell applications
+Spatial transcriptome
+Sequencing Run Types and Output
+Flow Cell
+|
+Reagent Kit Cycles
+|
+Lanes per Flow Cell
+|
+# Paired Reads per lane (Billions)
+|
+25B lane |
+300 cycle |
+8 |
+3.2 |
+10B Lane |
+300 cycle |
+8 |
+1.25 |
+200 cycle |
+1.25 |
+100 cycle |
+1.25 |
+1.5B |
+300 cycle |
+2 |
+0.8 |
+200 cycle |
+0.8 |
+100 cycle |
+0.8 |
+Key Considerations when transitioning from the NovaSeq6000 to the NovaSeqX
+When sending premade libraries for NovaSeqX sequencing there are a few things you should consider:
+Small fragments form colonies much more efficiently on the NovaSeqX than on the NovaSeq6000. You must remove all adapter dimers from your libraries to prevent over-representation of these and other small fragments.
+All libraries in your pool must be the same size. You cannot pool different sized libraries for sequencing on the X. If you have multiple sized libraries, you must use separate lanes or select the NovaSeq6000.
+Median insert size shifts to smaller lengths on the NovaX. You may have to size select to a larger fragment size when sequencing on the NovaSeqX.
+Give Now
+Your gift will help make a tremendous difference.
+Donate
+Research Areas
+Find out about the four types of research taking place at UT MD Anderson.
+Learn more
+Subscribe
+Get the latest information on our cancer breakthroughs.
+Sign up
+Subscribe to our Cancerwise newsletter

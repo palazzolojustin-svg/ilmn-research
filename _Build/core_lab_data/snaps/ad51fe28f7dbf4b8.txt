@@ -1,0 +1,46 @@
+Rates for Genomics and Spatial Biology Services
+Skip to navigation menu
+Skip to content
+Researcher Resources
+Back to...
+➝
+Researcher Resources
+Labs
+Research
+SeattleChildrens.org
+Donate Now
+×
+BSL-3 Laboratory
+CGIDR Flow Cytometry Core
+CGIDR Imaging Core
+CGIDR Insectary
+Click Portal
+Clinical Research Support Office
+Cystic Fibrosis Isolate Core
+Flow Cytometry Core
+Genomics and Spatial Biology CoLab
+Institutional Animal Care and Use Committee
+Institutional Biosafety Committee
+Institutional Review Board (IRB)
+Investigational Drug Service
+Library preparation: $320.00 per plate. Does not include sequencing.
+Dry run: $200.00 per slide. Includes slide preparation through the standard Nanostring protocol without the overnight hybridization to test conditions for morphology marker staining. Customer provides a test slide and morphology markers to be tested.
+Single kit full run: $400.00 per slide. This includes slides prep through the standard Nanostring protocol for one DSP kit (whole transcriptome or IO Proteome kit). Please provide sample slide(s), morphology markers, DSP kit. Does not include library prep. Users provide GeoMx kit (protein or transcriptome), slide preparation kit, code sequencing plates and morphology markers. The CoLab provides instrument buffers, collection plates, PBS, SSC, antigen retrieval buffer and Syto13 DNA marker.
+Add RNAscope staining: $200.00 per slide. Includes labor cost for RNAscope staining instead of antibody morphology marker staining. Customer provides reagent and probes for RNAscope stain.
+NanoString CosMx Spatial Molecular Imager
+SMI run: $375.00 for up to four slides. Includes slide processing and CosMx run.
+Genomics Services
+PacBio Revio
+$1400.00 per SMRT Cell
+Library preparation and sample QC: $400.00 per sample
+Illumina NextSeq 2000
+Labor cost: $250.00 per run. Total cost to include labor plus cost of kit, supplied by the CoLab. CoLab staff will generate a quote based on the kit requested.
+10x Genomics Chromium X
+Library preparation: $450.00 per library
+Agilent 4200 TapeStation
+Library evaluation: $15.00 per sample
+Mission Bio Tapestri
+Library preparation: $450.00 per library
+About Us
+About Seattle Children’s
+Contact Us

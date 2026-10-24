@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The target URL (illumina.com/science/customer-stories/certified-service-providers.html) returns HTTP 404. I also tried the guessed path /services/sequencing-services/service-provider-locator.html, which is also a 404. Illumina's /services.html and /services/sequencing-services.html pages have no provider directory, no instruments per provider and no JSON/API endpoint. Illumina handles provider matching through a 'get in touch' form (per the fetch summary of the sequencing-services page), so there is no public list. A search for 'Illumina Propel' and certified providers returned only the 2009 Certified Service Provider press release and individual provider pages. archive.ph is blocked for the fetch tool in this environment ('unable to fetch'), so no 2024-2025 snapshots could be tested. No evidence on the 6000-only vs X-only split was produced. Reconstructing it from provider pages is a different method. Two search-snippet leads exist, neither with a 6000-vs-X count: Novogene's page lists NovaSeq X Plus alongside the 6000 and PacBio, and GENEWIZ/Azenta lists X Plus among its platforms. Novogene's 6000 phase-out (1 Jun 2025) is already known.",
+  "how_to_mine": "Do not pursue the Illumina directory; it does not exist publicly. If the idea is worth keeping, build a substitute panel by hand. Pick about 30 to 40 service providers and core facilities (Novogene, Azenta/GENEWIZ, Psomagen, Macrogen, BGI, Admera, Psomagen, Fulgent, university cores, Illumina Solutions Centers). Record the instruments listed on each provider's own 'platforms' or 'instruments' page now, and compare them with the 2024-2025 versions. The comparison needs a working archive route, which this environment lacked: archive.ph was blocked and Wayback is the fallback. The Illumina Solutions Centers page (illumina.com/services/training/solutions-centers.html) is a second small panel.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Per-provider 'platforms' pages (Azenta/GENEWIZ ngs-platforms, Novogene, Psomagen, Macrogen) compared across Wayback snapshots, to count providers dropping the NovaSeq 6000 from their lists",
+    "Illumina Solutions Centers page (illumina.com/services/training/solutions-centers.html), a small panel of labs that may name the instruments they run"
+  ],
+  "apify_requests": []
+}
+```

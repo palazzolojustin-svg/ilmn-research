@@ -1,0 +1,101 @@
+100 mio 995 CHF
+500 mio 1'280 CHF
+1'000 mio 1'595 CHF
+250 mio 1'265 CHF
+500 mio 1'495 CHF
+1'000 mio 2'250 CHF
+100 mio 2'020 CHF
+300 mio 2'800 CHF
+200 cycles 10'000 mio 11'880 CHF
+300 cycles 10'000 mio 16'890 CHF
+500 cycles 800 mio 5'475 CHF
+50 cycles 15mio 1'240 CHF
+150 cycles 25mio 1'375 CHF
+1mio 605 CHF
+4mio 800 CHF
+15mio 1'535 CHF
+1mio 675 CHF
+15mio 1'710 CHF
+600 cycles 25mio 2'130 CHF
+Reagents fee per sample 85 CHF
+1-16 samples 308 CHF
+17-32 samples 370 CHF
+33-48 samples 432 CHF
+Reagents fee per sample 135 CHF
+1-16 samples 308 CHF
+17-32 samples 370 CHF
+33-48 samples 432 CHF
+GECF list price, March 2018 
+Sequencing
+Library preparation
+Watchmaker mRNA
+Watchmaker total RNA
+SMART-seq mRNA (ultra low input mRNA)
+SMART-seq Total Pico UMIs (mammalian)
+https://www.epfl.ch/research/facilities/gene-expression-core-facility/page-154614-en-html/
+NovaSeq 6000
+MiSeq
+300 cycles
+Aviti
+300 cycles
+600 cycles
+500 cycles
+Labour fee
+Labour fee
+Labour fee
+Labour fee
+150 cycles
+GECF price list, internal users 
+01 July 2025
+Page 1 of 4
+1 slide (2 samples)
+2 slides (4 samples)
+2 slides (4 samples)
+All prices without assistance, assistance available on demand.
+Quantification and QC of nucleic acids and libraries
+Per sample, reagents + ladder + pos.ctrl incl., user-operated
+Robotized 384w qPCR plate assembly, plasticware incl., per plate
+qPCR instrument booking, per hour (no reagent included)
+Qubit HS RNA, per sample
+Qubit HS dsDNA, per sample
+1 lane (11 samples), reagents+ladder incl., user-operated
+No mastermix/primers provided. Users can also provide the nanoplates.
+TapeStation 4200 profiling (RNA)
+qPCR-based library quantification (GECF-operated)
+Qubit
+Picogreen and ribogreen also available on demand for large projects
+Nanoplate 8.5K 24-well
+Assistance, per lane
+QIAcuity One
+dPCR instrument booking, per hour (no plastic/reagent included)
+Prices include labour, but not sequencing.
+Other methods on demand (Curio Trekker).
+Digital PCR
+All prices without assistance, assistance available on demand.
+Nanoplate 26K 8-well
+2 slides (4 samples)
+Fluidigm BioMark high-throughput qPCR on-demand
+1 slide (2 samples)
+Labour (total)
+ORF clones
+PromethION Solo2 run
+Ligation prep
+MinION run
+Sequencing runs (labour included)
+Per sample
+Prices of other preps on demand.
+Oxford Nanopore
+01 July 2025 (edited slightly end of July to decrease further RNA-seq and Visium prices): 
+- NGS: Strong decrease of NovaSeq prices and of RNA-seq and DNA-seq preps. Switch to 
+Watchmaker for most preps.
+- Single cell:  Addition of FLASH-seq
+- Spatial: decrease of Visium prices. Addition of VisiumHD polyA.
+- dPCR: addition of 8-well nanoplate option.
+01 March 2025: 
+- NGS: Decrease of Aviti prices. Addition of 100mio 150 cycles run.
+- 10XG: Addition of the new cheaper "On-Chip Multiplexing" option.
+- Oxford Nanopore: removal of flongle option since terminated by ONT.
+01 November 2024:   SMART-seq Total Pico with UMIs instead of SMARTer pico v3; 
+Addition of totalseq multiplexing options. New FLEX version and prices adjustements; 
+Flongle runs now sold by packages of 2 runs done within 3 months.
+Page 4 of 4

@@ -1,0 +1,83 @@
+Services and Pricing | Hubbard Center for Genome Studies
+Skip to main content
+Search
+Menu
+Search UNH.edu
+Search Hubbard Center for Genome Studies
+Search UNH.edu
+Search
+Search
+Commonly Searched Items:
+About
+Affiliates
+Request Services
+Services and Pricing
+Hubbard Center for Genome Studies
+About
+Contact Us
+Request Services
+Services and Pricing
+Library Generation
+Available Sequencing Technology
+Spatial Technologies
+Automation
+Olink Proteomics
+Genomic Analysis Services
+at 25 M reads | $282 |
+Illumina Ribo-Depleted RNA
+Total RNA, non-coding RNA, degraded or prokaryotic | $164 | $125
+at 25 M reads | $289 |
+PacBio Whole Genome (HiFi)
+De novo assembly, structural variants, repeats | $589 | $500
+at 1 M HiFi reads | $1,089 |
+PacBio Full-Length Transcriptome
+Isoform discovery and full-length transcripts | $925 | $500
+at 1 M HiFi reads | $1,425 |
+Totals assume you supply purified nucleic acid; extraction is available as an add-on. Read counts are read pairs for Illumina and HiFi reads for PacBio. Illumina sequencing is on the NovaSeq X Plus. A $100 minimum sequencing charge applies per project, which is why the amplicon figure assumes a full 96-sample plate; smaller amplicon projects pay the $100 minimum. Every step is available separately and depth is adjustable. Prices are UNH internal rates; external academic and commercial rates are available on request. Bioinformatics is priced separately below.
+New Instrumentation
+We are in the middle of a significant instrument refresh, and the practical effect for users is that sequencing costs a fraction of what it used to.
+Illumina NovaSeq X Plus. Replacing our NovaSeq 6000. Per-read costs are roughly a tenth of what they were, which changes the calculus on sequencing depth for almost every project. Read lengths from 2 x 50 bp through 2 x 300 bp.
+PacBio Vega. Benchtop HiFi long-read sequencing, up to 60 Gb per SMRT Cell on a 24-hour run. Supports whole genome assembly and Kinnex full-length RNA.
+Extraction and Sample QC
+Extraction is an add-on to any of the services above. Our standard workflow uses MagMAX bead chemistry on a KingFisher system, which keeps handling to a minimum and gives consistent yields across large sample sets. High molecular weight extraction uses Nanobind chemistry to preserve fragment length for long-read applications.
+Service | Cost | Notes |
+DNA extraction | $13 | Automated, MagMAX and KingFisher |
+RNA extraction | $13 | Automated, MagMAX and KingFisher |
+DNA and RNA co-extraction | $18 | Both nucleic acids from a single sample |
+FFPE extraction | $36 | DNA and/or RNA from slides or blocks |
+High molecular weight DNA extraction | $87 | Nanobind, for PacBio and Omni-C |
+Fluorometric quantification (Qubit) | $3 | Per sample |
+Methyl-seq library | $108 | Enzymatic methyl sequencing |
+Amplicon PCR (one locus) | $10 | Includes gel verification and cleanup |
+Nested amplicon PCR | $20 | Two rounds of locus amplification |
+Indexing PCR | $10 | Adds dual indices to amplicons or GBS libraries |
+Multi-GBS library | $14 | Restriction digest and adapter ligation; pair with indexing PCR |
+Bacterial rRNA depletion | $67 | Add-on for prokaryotic transcriptomes |
+PacBio HiFi library | $589 | SMRTbell prep for whole genome sequencing |
+PacBio Kinnex full-length RNA library | $925 | Full-length transcript sequencing |
+All prices per sample.
+Sequencing
+All Illumina sequencing is now on the NovaSeq X Plus, which replaced our NovaSeq 6000. Most users are best served by pooling into a shared run, and we handle the pooling, so you only pay for the depth you use.
+Shared-run rates are based on the 1.5B flow cell, which is our standard format and the one most pooled projects run on. The 2 x 300 bp option uses 600-cycle chemistry and costs more per read; it is the right choice when read length matters, particularly for amplicons and metabarcoding.
+Large projects can do considerably better. The 5B, 10B and 25B flow cells carry the same chemistry at far lower cost per read, so if your project can fill one, ask us for a dedicated flow cell quote rather than using the shared rate above.
+Shared runs, priced by depth
+Configuration | Cost | Best for |
+Illumina, 2 x 150 bp
+NovaSeq X Plus, 1.5B flow cell | $3.00 per million read pairs | Genomes, transcriptomes, GBS, most applications |
+Illumina, 2 x 300 bp
+NovaSeq X Plus, 1.5B flow cell | $5.00 per million read pairs | Amplicons and metabarcoding, where read length matters |
+PacBio HiFi
+Vega, per SMRT Cell share | $500 per million HiFi reads | Long-read assembly and full-length transcripts |
+Minimum sequencing charge of $100 per project. For low-depth work such as amplicon sequencing this is the effective floor, so those projects are most economical at 96 samples or more. PacBio pricing assumes the remainder of the SMRT Cell is filled; we will let you know if we need to hold your samples to combine with another project, or quote a dedicated cell.
+Dedicated flow cells
+Whole flow cells on the NovaSeq X Plus are available in 1.5B, 5B, 10B and 25B formats at 2 x 50, 2 x 100, 2 x 150 and 2 x 300 bp. Cost per read falls sharply with flow cell size: a dedicated 25B flow cell works out at well under half the shared-run rate. Contact us for a configuration recommendation and quote.
+Specialty Assays
+Service | Cost | Notes |
+CUT&Tag | $158 | Chromatin profiling from low cell input; tagmentation in place |
+CUT&RUN | $203 | Chromatin profiling with broader target compatibility |
+Omni-C proximity ligation | $611 | Chromosome-scale scaffolding; endonuclease based, even coverage |
+Genome scaffolding analysis | $1,428 | Per genome, from Omni-C data |
+Single cell RNA-seq (Parse Evercode) | From $6,530 | Per kit. Mini, 100K and Mega formats; contact us to size a project |
+Sequencing is quoted separately for these services, since depth varies widely by application.
+Proteomics (Olink)
+Olink uses proximity extension assay technology for highly multiplexed protein biomarker analysis from small sample volumes. We are the only certified Olink service provider in New England.

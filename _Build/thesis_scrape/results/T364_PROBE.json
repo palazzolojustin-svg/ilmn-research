@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "The NSF API is reachable without a login, but it returns too few sequencer awards to show a trend. I ran the AVITI, Element Biosciences, Ultima, NovaSeq, Illumina and sequencer queries with dateStart=01/01/2023. Ultima and NovaSeq returned 0 results. I did not run DNBSEQ or Axelios. Platform tally of MRI sequencer awards with 2023+ starts: Element AVITI 1 ($585K, Idaho, Sep 2025); Illumina NextSeq 2000 2 (Boston Univ. $640K, Sep 2023; South Dakota State $495K, Aug 2026); PacBio Revio 1 (Texas Tech $935K, Oct 2024); Ultima 0; NovaSeq 0. By year: 2023 had 1 Illumina award; 2024 had 1 PacBio award; 2025 had 1 Element award; 2026 had 1 Illumina award. Those counts are too small to read as a non-Illumina share rising from 2024 to 2026. The Idaho AVITI abstract has no cost language. The South Dakota abstract says the purchase will cut outsourcing costs. That supports an in-house-versus-outsourcing choice, not a case against Illumina on price. The 'sequencer' keyword search is also incomplete, because it returned only 2 awards and missed the Idaho and South Dakota awards.",
+  "how_to_mine": "Not worth a deep extraction through this API. If anyone revisits it, run DNBSEQ and Axelios, and also the Element-related queries 'AVITI24' and 'Element Biosciences', plus 'PromethION', 'Revio' and 'MiSeq', with the MRI program filter. Other routes would be to scrape NSF's web Award Search for 'Major Research Instrumentation sequencing' or to query NIH RePORTER S10 shared-instrumentation awards for AVITI/NovaSeq X/Ultima. NIH S10 is far larger than NSF MRI and may show the platform choice, but it is outside this probe's scope.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "NSF MRI awards for sequencers since 2023 are too sparse to show research buyers moving off Illumina on price.",
+      "detail": "The NSF API returns one Element AVITI MRI award (Idaho, $584,845, Sep 2025) against two Illumina NextSeq 2000 MRI awards (Boston Univ. $639,794, Sep 2023; South Dakota State $495,290, Aug 2026). It also returns one PacBio Revio award (Texas Tech, $934,500, Oct 2024) and no Ultima or NovaSeq awards. The Idaho abstract has no cost language. The South Dakota abstract cites lower outsourcing costs as the reason to buy.",
+      "url": "https://api.nsf.gov/services/v1/awards.json?keyword=Illumina&dateStart=01/01/2023&printFields=id,title,awardeeName,startDate,fundsObligatedAmt,abstractText",
+      "date": "2026-10-12",
+      "source_name": "NSF Award Search API",
+      "source_type": "dataset",
+      "quote": "significantly reduce costs and turnaround times associated with outsourcing sequencing services",
+      "strength": "weak",
+      "why_new": "The NSF MRI award tally by sequencer vendor is not in the known evidence; it shows a continuing Illumina mid-throughput purchase (NextSeq 2000, Aug 2026) and no price-driven switching."
+    }
+  ],
+  "new_candidates": [
+    "NIH RePORTER S10 shared-instrumentation awards (NovaSeq X, AVITI, Ultima, Revio), searchable by project title and abstract; this program funds far more sequencers than NSF MRI.",
+    "University capital-equipment justifications and board minutes for AVITI or Ultima purchases, available as public PDFs."
+  ],
+  "apify_requests": []
+}
+```

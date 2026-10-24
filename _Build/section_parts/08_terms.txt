@@ -1,0 +1,199 @@
+consumables :: the reagent kits customers must buy for every sequencing run, Illumina's main recurring revenue
+sequencing :: the technology of reading the order of letters in DNA
+next-generation sequencing (NGS) :: high-throughput methods that read millions of DNA fragments at once
+NovaSeq X / X Plus :: Illumina's flagship high-throughput sequencer launched in 2022
+NovaSeq 6000 :: Illumina's previous-generation high-throughput sequencer being replaced by NovaSeq X
+NextSeq :: Illumina's mid-throughput sequencer line, important in clinical labs
+iSeq and MiSeq :: Illumina's small benchtop sequencers for smaller labs
+HiSeq X Ten :: Illumina system from 2014 that first broke the $1,000-per-genome cost barrier
+mid-throughput :: mid-sized sequencers between benchtop and production-scale machines
+XLEAP-SBS :: an upgraded version of Illumina's sequencing chemistry projected to cut costs
+sequencing by synthesis (SBS) :: Illumina's core chemistry that reads DNA as a new strand is built
+gigabase :: one billion DNA letters, the standard unit of sequencing output
+terabase :: one trillion DNA letters
+cost per genome :: the consumables cost to sequence one human genome
+flow cell :: the consumable chip or slide on which sequencing takes place
+reads :: the short DNA fragments a sequencer outputs
+library prep :: the step that converts DNA samples into a form a sequencer can read
+duplex sequencing :: reading both strands of a DNA molecule for higher accuracy
+simplex mode :: reading a single strand, giving more output but lower accuracy than duplex
+sensor module :: Roche Axelios' reusable equivalent of a flow cell
+SBX :: Roche's sequencing-by-expansion technology used in its Axelios instrument
+Axelios 1 :: Roche's new sequencing instrument priced at AGBT in February 2026
+VITARI :: Element Biosciences' new sequencer announced in February 2026, shipping in 2H26
+AGBT :: Advances in Genome Biology and Technology, a major annual genomics conference held each February
+counting applications :: uses such as RNAseq that measure how many molecules are present, priced per million reads
+RNAseq :: sequencing RNA to measure how active each gene is
+cell barcodes :: DNA tags that record which cell a read came from
+UMI :: unique molecular identifier, a tag that lets individual molecules be counted accurately
+single-cell analysis :: measuring molecules within individual cells rather than tissue averages
+spatial transcriptomics :: mapping gene activity according to its location within a tissue
+constellation mapped reads :: Illumina technology announced for 1H26 that adds long-range positional information to short reads
+multiomics :: measuring several types of molecules, such as DNA, RNA and proteins, together
+proteomics :: the large-scale measurement of proteins
+high-plex proteomics :: measuring many proteins at once in a single sample
+SomaLogic :: protein-measurement company Illumina acquired in January 2026 for $350M upfront
+BioInsight :: Illumina's data, AI and drug-discovery business unit launched in 4Q25
+Billion Cell Atlas :: BioInsight's single-cell, CRISPR-perturbation dataset for drug discovery
+CRISPR perturbation :: using gene editing to switch genes off and observe the effect
+DRAGEN :: Illumina's data-analysis software
+Illumina Connected Multiomics :: Illumina software that integrates genomic, protein and single-cell data
+whole-genome sequencing (WGS) :: reading a patient's entire genome rather than selected genes
+comprehensive genomic profiling (CGP) :: broad DNA testing of a tumor across many genes
+minimal residual disease (MRD) :: testing for tiny traces of cancer remaining after treatment
+liquid biopsy :: a blood test that detects disease such as cancer from DNA circulating in the blood
+cfDNA :: cell-free DNA, fragments of DNA floating in the blood
+coverage :: how many times on average each DNA letter is read
+biomarker profiling :: testing patients for specific molecular markers
+long-read technology :: sequencing that reads much longer continuous DNA stretches than standard methods
+microarrays :: chips that read preselected DNA variants rather than full sequences
+installed base :: the number of instruments in use at customers
+utilization :: how heavily customers run their instruments, which drives consumables sales
+pull-through :: annual consumables revenue generated per placed instrument
+placements :: instruments shipped and installed at customers
+pull-forward :: customers buying earlier than normal, borrowing demand from later periods
+clinical customers :: labs using sequencing for patient testing rather than research
+research and applied :: academic, government, pharma and other non-clinical customers
+A&G :: academic and government research customers
+NIH :: US National Institutes of Health, the main funder of academic biomedical research
+unreliable entity list (UEL) :: a Chinese government list that restricts business with named foreign companies
+budget sequestration :: automatic across-the-board US federal spending cuts
+Grail :: Illumina's former cancer-screening subsidiary, spun off in June 2024
+Solexa :: company whose technology underpins Illumina's sequencing, bought for $480M
+Helix :: consumer-genomics venture Illumina helped launch in 2015 and deconsolidated in 2019
+deconsolidate :: remove a business from a company's reported financial results
+spin-off :: separating a business into an independent public company
+core (Core Illumina) :: Illumina's results excluding Grail
+preannouncement :: release of preliminary results before the formal earnings report
+self-help :: profit gains from actions a company controls, such as cost cuts
+organic growth :: revenue growth excluding acquisitions
+constant currency (cc) :: growth with exchange-rate effects removed
+basis point (bp) :: one hundredth of a percentage point
+LSD / MSD / HSD :: low-, mid- and high-single-digit percentage growth
+y/y :: year over year, compared with the same period a year earlier
+consensus :: the average forecast of Wall Street analysts
+Street :: shorthand for the consensus of Wall Street analysts
+guidance :: a company's own forecast of its future results
+2H-weighted :: a forecast in which most of the year's growth comes in the second half
+sell-side :: brokers and banks whose analysts publish ratings and targets for investors
+independent research :: research from firms that do not trade or bank the stock, such as Bloomberg Intelligence
+price target :: the share price an analyst expects in about 12 months
+Buy / Neutral / Underweight :: ratings meaning expected to beat, match or trail a benchmark or peer group
+Equal Weight :: Barclays' middle rating, expecting performance in line with the coverage universe
+Core Banding Exception (CBE) :: UBS's widened ±15% rating band for volatile stocks
+market return assumption :: UBS's expected market return, the one-year interest rate plus 5%
+forecast excess return :: an analyst's expected stock return minus the market return assumption
+EPS :: earnings per share, profit divided by the number of shares
+adjusted / non-GAAP EPS :: EPS excluding items such as acquisition costs and stock compensation
+diluted EPS :: EPS counting shares that options and convertible securities could create
+cash EPS :: EPS with depreciation and amortization added back
+P/E :: share price divided by earnings per share
+forward P/E :: P/E based on expected earnings for the next year
+trailing P/E :: P/E based on the past twelve months' earnings
+price-to-book :: share price divided by accounting equity per share
+price-to-sales :: market value divided by annual revenue
+EV (enterprise value) :: equity market value plus net debt
+EBITDA :: earnings before interest, taxes, depreciation and amortization
+EBIT :: earnings before interest and taxes, roughly operating profit
+EV/EBITDA :: enterprise value divided by EBITDA, a valuation multiple
+EV/Sales :: enterprise value divided by revenue
+NTM / TTM :: next twelve months / trailing twelve months
+DCF :: discounted cash flow, valuing a company on its discounted future cash flows
+WACC :: weighted average cost of capital, the discount rate in a DCF
+CAPM :: capital asset pricing model, a formula used to derive the cost of equity
+terminal growth :: the assumed perpetual growth rate after a DCF's forecast period
+terminal value :: the portion of a DCF value attributed to years beyond the forecast period
+FCFF :: free cash flow to the firm, cash available to all capital providers
+free cash flow :: operating cash flow minus capital spending
+FCF yield :: free cash flow divided by market value
+operating cash flow :: cash generated by the business's day-to-day operations
+capex :: capital expenditure on equipment and facilities
+operating margin :: operating profit as a percentage of revenue
+gross margin :: revenue minus direct costs, as a percentage of revenue
+operating leverage :: profits growing faster than revenue because costs are partly fixed
+SG&A :: selling, general and administrative expenses
+gross leverage :: total debt divided by EBITDA
+net debt / net cash :: debt minus cash; negative net debt means net cash
+book value per share :: accounting equity divided by shares outstanding
+ROIC :: return on invested capital, operating profit relative to capital employed
+ROE :: return on equity, net income relative to shareholders' equity
+ROCE :: return on capital employed
+CAGR :: compound annual growth rate
+buyback :: a company repurchasing its own shares
+dilution :: reduction in per-share earnings from new shares or an acquisition's losses
+market capitalization :: total stock market value of a company's shares
+free float :: the share of stock available for public trading
+beta :: a measure of how much a stock moves relative to the market
+volatility :: how much a stock's price swings over time
+idiosyncratic factors :: stock moves driven by company-specific news rather than the market
+TAM :: total addressable market, the total revenue opportunity
+tariffs :: import taxes that raised Illumina's costs in 2025
+PAMA :: Protecting Access to Medicare Act, a US law setting Medicare lab-test prices
+proxy battle :: a fight for board control, here the 2023 Icahn campaign
+channel checks :: analysts' conversations with customers and experts to gauge demand
+Quantitative Risk Profile :: Ameriprise's statistical risk score built from beta, correlation, volatility and drawdown
+sell-side research :: Research written by brokerage firms for investors, often by firms that also do business with the company.
+price target :: The share price an analyst expects the stock to reach within about 12 months.
+Overweight / Underweight :: Ratings meaning the stock should beat or trail the average return of the analyst's coverage group.
+Neutral / Equal Weight / Hold :: Ratings meaning the stock should perform roughly in line with peers or the benchmark.
+consensus :: The average of analysts' forecasts.
+adjusted (non-GAAP) EPS :: Earnings per share excluding items such as amortization, stock compensation and one-off charges.
+organic growth :: Revenue growth excluding currency moves and acquisitions.
+ROW (rest of world) :: Illumina's results excluding Greater China.
+basis point (bps) :: One-hundredth of a percentage point.
+consumables :: Reagent kits and flow cells customers must buy for every sequencing run.
+pull-through :: Consumables revenue each installed instrument generates per year.
+placements :: Instruments sold, leased or installed at customers.
+installed base :: The total number of a company's instruments in use at customers.
+NovaSeq X :: Illumina's newest high-throughput sequencer, launched in 2023.
+NovaSeq 6000 :: Illumina's previous-generation high-throughput sequencer.
+flow cell :: The consumable slide on which DNA is sequenced.
+gigabase (Gb) :: A billion DNA bases, a unit of sequencing output.
+price per Gb :: Revenue earned per gigabase of sequencing output.
+reagent rental :: A deal where a customer gets an instrument in exchange for committed reagent purchases.
+Axelios 1 :: Roche's new sequencer, launched in late June 2026.
+sequencing by expansion (SBX) :: Roche's DNA-reading chemistry used in Axelios.
+CLIA lab :: A US clinical laboratory certified to run patient tests.
+MRD (minimal residual disease) :: Testing for small amounts of cancer remaining after treatment.
+MCED (multi-cancer early detection) :: Blood tests that screen for several cancers at once.
+therapy selection :: Sequencing a tumor to choose the right drug.
+whole-genome sequencing (WGS) :: Reading a person's entire DNA.
+whole-exome sequencing (WES) :: Reading only the protein-coding parts of DNA.
+sequencing intensity :: The amount of sequencing data used per test or sample.
+multiomics :: Measuring several types of biological molecules, such as DNA and proteins, together.
+proteomics :: The large-scale measurement of proteins.
+spatial transcriptomics :: Measuring gene activity while keeping track of location within tissue.
+SomaLogic :: A protein-measurement business Illumina acquired in January 2026.
+BioInsight :: Illumina's data and AI unit that builds datasets for drug discovery.
+Billion Cell Atlas :: BioInsight's large dataset showing how altering genes changes cells.
+research and applied :: Academic, government and industrial customers, as opposed to clinical ones.
+NIH :: The US National Institutes of Health, the main funder of academic research.
+A&G (academic and government) :: Customers funded by universities and governments.
+microarrays :: An older Illumina technology for reading known genetic variants.
+Unreliable Entity List (UEL) :: A Chinese government list that restricts business by named foreign firms.
+LSD / MSD / HSD / DD :: Low-, mid- and high-single-digit and double-digit percentage growth.
+beat-and-raise :: A quarter where results top forecasts and guidance is then raised.
+pull-forward :: Customers buying earlier than planned, borrowing demand from later periods.
+operating leverage :: Profits growing faster than revenue as fixed costs are spread.
+gross margin :: Profit after direct production costs, as a share of revenue.
+operating margin :: Operating profit as a share of revenue.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization.
+EBIT :: Operating profit before interest and taxes.
+free cash flow (FCF) :: Cash generated after operating costs and capital spending.
+FCFF :: Free cash flow available to all providers of capital.
+FCF yield :: Free cash flow divided by market value.
+discounted cash flow (DCF) :: A valuation that sums the present value of projected future cash flows.
+WACC :: Weighted average cost of capital, the discount rate used in a DCF.
+terminal growth :: The long-run growth rate assumed after a DCF's forecast period.
+P/E :: Share price divided by earnings per share.
+EV/EBITDA :: Enterprise value divided by EBITDA.
+EV/sales :: Enterprise value divided by revenue.
+enterprise value :: Market capitalization plus net debt.
+NTM / TTM :: Next twelve months and trailing twelve months.
+CAGR :: Compound annual growth rate.
+beta :: A measure of how much a stock moves relative to the market.
+Core Tools :: J.P. Morgan's group of traditional life-science tools companies such as Danaher and Thermo Fisher.
+performance obligations :: Contracted revenue not yet delivered.
+backlog :: Orders received but not yet shipped.
+government incentives :: Subsidies or credits recorded as a benefit to profit.
+IEEPA tariffs :: US tariffs imposed under emergency-powers law, struck down in February 2026.

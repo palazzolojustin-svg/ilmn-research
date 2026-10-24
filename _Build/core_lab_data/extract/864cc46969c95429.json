@@ -1,0 +1,26 @@
+{
+ "core_name_on_page": "Cornell Institute of Biotechnology",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "UG100_WAFER",
+   "flow_cell_raw": "UG 100 wafer",
+   "unit": "per_million_reads",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": null,
+   "tier": "unspecified",
+   "tier_raw": null,
+   "price": 0.24,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "at a cost of about $0.24 per million reads"
+  }
+ ],
+ "_model": "haiku"
+}

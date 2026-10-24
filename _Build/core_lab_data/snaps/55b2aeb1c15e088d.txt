@@ -1,0 +1,91 @@
+Rates | Genomics and Cell Characterization Core Facility
+Skip to main content
+One Stop
+Apply
+Visit
+Give
+Search
+Search this site
+Search
+Menu
+Genomics and Cell Characterization Core Facility Menu
+Home
+Request Services
+View Queues
+Services & Instruments
+Admin
+Rates
+Take Action
+One Stop
+Apply
+Visit
+Give
+Office of the Vice President for Research and Innovation
+Genomics and Cell Characterization Core Facility
+Home
+Library Prep Services
+Fragment Analyzer Services
+Purchase Reagents
+Schedule Equipment
+Request Services
+Downloading Your Data
+View Queues
+View Queues
+Illumina Sequencing
+PacBio Sequencing
+NextSeq 2000 Sequencing
+Library Prep Services
+Services & Instruments
+Services & Instruments
+Illumina Sequencing
+PacBio Sequencing
+Oxford Nanopore Sequencing
+Sample Prep Services
+Sample Prep Instruments
+Quantification Instruments
+Liquid Handling
+Rates
+Rates
+Internal pricing is available for University of Oregon, Oregon State University, Oregon Health & Science University, and Portland State University. External pricing applies for all other requesters.
+Request Services
+Sequencing Rates
+PacBio Sequencing Rates
+Instrument | Run Size | Run Type and Configuration | Internal Rate | External Rate |
+PacBio Revio | SPRQ 25M | All types | $1,475 | $1,700 |
+Illumina Sequencing Rates
+Instrument | Run Size | Run Type and Configuration | Internal Rate | External Rate |
+NovaSeq 6000 | S4, 2-2.5 billion+ read pairs | 300 Cycle (PE 2x150) | $4,711 | $6,414 |
+35 Cycle (SR 53 or PE 2x32) | $3,621 | $4,931 |
+S1, 650-800 million+ read pairs | 300 Cycle (PE 2x150) | $3,621 | $4,928 |
+100 Cycle (SR 118, PE 2x59, or 10X scRNA) | $2,708 | $3,687 |
+SP, 325-400 million+ read pairs | 500 Cycle (PE 2x250) | $2,960 | $4,029 |
+300 Cycle (PE 2x150) | $2,154 | $2,934 |
+100 Cycle (SR 118, PE 2x59, or 10X scRNA) | $1,564 | $2,128 |
+NextSeq 2000 | P3, up to 1.2 billion read pairs | 300 cycle (PE 2x150) | $4,316 | $6,046 |
+200 cycle (PE 2x100) | $3,365 | $4,714 |
+100 cycle (SR 100, PE 2x50, 10X scRNA) | $2,574 | $3,605 |
+50 cycle (SR 50) | $1,941 | $2,718 |
+P2, up to 300 million read pairs | 600 cycle (PE 2x300) | $3,770 | $5,281 |
+P2, up to 400 million read pairs | 300 cycle (SR 300, PE 2x150) | $3,504 | $4,910 |
+200 cycle (SR 200, PE 2x100) | $2,770 | $3,879 |
+100 cycle (SR 100, PE 2x50, 10X scRNA) | $1,714 | $2,401 |
+P1, up to 100 million read pairs | 600 cycle (PE 2x300) | $2,276 | $3,189 |
+300 cycle (SR 300, PE 2x150) | $1,674 | $2,345 |
+100 cycle (SR 100, PE 2x50, 10X scRNA) | $1,349 | $1,890 |
+MiSeq | v3 , ~22-25 million read pairs | 600 cycle (PE 2x300) | $1,893 | $2,819 |
+150 cycle (SR 150, PE 2x75) | $1,149 | $1,711 |
+v2, ~12-15 million read pairs | 500 cycle (PE 2x250) | $1,458 | $2,171 |
+50 cycle (SR 50) | $1,037 | $1,543 |
+v2 micro, ~4 million read pairs | 300 cycle (PE 2x150) | $599 | $892 |
+v2 nano, ~1 million read pairs | 500 cycle (PE 2x250) | $497 | $740 |
+300 cycle (PE 2x150) | $429 | $640 |
+Back to Top
+Sample Prep Rates
+Descriptions for all of the listed services can be found on the Sample Prep Services page.
+Illumina Library Preparation
+Service | Internal | External |
+Mini Echo DNA Prep | 8-79 samples | $9.06 | $13.39 |
+80-349 samples | $3.71 | $5.46 |
+350+ samples | $2.37 | $3.50 |
+Whole Genome Shotgun (with or without PCR) | $140.00 | $230.00 |
+Stranded RNAseq (with or without mRNA capture) | $155.00 | $255.00 |

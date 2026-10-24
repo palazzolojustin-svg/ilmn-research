@@ -1,0 +1,43 @@
+Bio-Tech update: Sequencing’s Best Bang for the Buck – Center for Genomic Science Innovation – UW–Madison
+Skip to main content
+University of Wisconsin–Madison
+Center for Genomic Science Innovation
+Developing new approaches for genome analysis & interpretation.
+Search
+Menu
+About
+Seminars
+People
+Core Faculty
+Affiliate Faculty
+Become an Affiliate
+Administration
+Research
+Research Overview
+Core Faculty
+Wisconsin Nathan Shock Center (WiNSC)
+Resources
+Campus Connections
+Education
+Genomic Courses
+Graduate Education
+QBio Doctoral Minor
+Postdoctoral Training
+Training Grants
+Outreach
+Newsletter
+Contact Us
+Giving
+Bio-Tech update: Sequencing’s Best Bang for the Buck
+The NovaSeq X Plus, recently installed in the DNA Sequencing Core (UW Biotechnology Center), is driving down sequencing costs. Sequencing on the 10B (Billion) flowcell is 30% cheaper. The reads per $ output are shown below, with a significant enhancement to the pipeline and turnaround time:
+In short, it delivers 60% more data than the Element Aviti and 280% to 360% more data than the Illumina NextSeq2000 per dollar. That only becomes more appealing when considering that a lane on the UWBC’s NovaSeq X Plus 10B flowcell delivering 1.25 billion 2×150 reads is priced at $2,050. This is very competitive with commercial pricing but includes consulting, support, and protected data. Your data is kept confidential.
+The new flowcells also revert to an eight-lane configuration rather than the four-lane one on the S4 flowcell. Researchers with lower read count requirements can now take advantage of full lane pricing for projects needing more than 340M reads, far lower than the 940M read breakpoint on the older S4 flowcell. If your data needs don’t reach that level, 450M reads cost just $1,025.
+Researchers performing 10X projects are in luck because they can run their libraries on this larger flowcell but only pay for the needed lanes. The NovaSeq X Plus can mask out portions of a read on any lane so a flowcell that is running a 2×150 run for other researchers can simply ignore the unnecessary bases in the 10X lane(s). Prices are greatly reduced for the sequencing step of the 10X experiment with the added benefit of improving turnaround times for all researchers.
+For more details, visit https://dnaseq.biotech.wisc.edu/
+Site footer content
+Part of the Universities of Wisconsin
+Contact Us
+425 Henry Mall
+Madison, WI 53706
+Website feedback, questions or accessibility issues: cgsi-communications@wisc.edu | Learn more about accessibility at UW–Madison.
+This site was built using the UW Theme Classic | Privacy Notice | © 2026 Board of Regents of the University of Wisconsin System.

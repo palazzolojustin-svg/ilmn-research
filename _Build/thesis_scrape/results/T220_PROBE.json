@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The Iowa State page (SCN-1016397) was opened. It shows a Pricing Agreement with a term of 07/1/2019 to 06/30/2026, which has now expired. It says only 'discounts off retail prices' and gives no percentage. It posts no renewal, extension or new term, and no contract number other than SCN-1016397. The UC and CalUsource percentages were not checked: CalUsource is login-gated, and I did not open the UCOP post. A generic search for university Illumina discount percentages returned only tender notices with no discount terms. One side find: NHGRI/NIH IDIQ 75N98026D00035 'Illumina Reagents and Consumables (EO 14398)', awarded May 2026. It runs 5/21/26 to 5/21/31 with a $90M ceiling, $5.35M obligated (6%), and pricing 'Order Dependent'. It gives no discount data, so it neither supports nor cuts against the thesis. It does show that a federal buyer concentrated Illumina reagent buying into one 5-year vehicle.",
+  "how_to_mine": "Low priority. If revisited: (1) search Govly or HigherGov for Iowa State or other university POs to Illumina in 2026, and for IDV 75N98026D00035 task-order line items showing unit prices versus list; (2) file public-records (open-records) requests for the Iowa State, UC and other university Illumina agreements, which carry the actual discount schedules; (3) check the UC Illumina agreement PDFs on UCOP/UC Davis/UCSD procurement sites for reagent discount tiers, and the Univ. of Oslo NSC-IBV Mercell tender (framework value 1,400,000) for award price detail.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {"source": "HigherGov/USAspending line items for NIH IDV 75N98026D00035 (Illumina reagents, EO 14398)", "url": "https://www.highergov.com/idv/75N98026D00035/", "why": "Task orders could show unit prices and the 5-year federal buying pattern; $5.35M obligated by Oct 2026."},
+    {"source": "University of Oslo NSC-IBV Illumina consumables framework (Mercell 78642085)", "url": "https://www.mercell.com/en/tender/78642085/framework-agreement-on-the-delivery-of-instrument-specific-consumables-to-illumina-sequencing-equipment-at-nsc-ibv-uio-tender.aspx", "why": "A European university tender with a stated value (1.4M) and a 2+2 year term. It may name winning price or discount."}
+  ],
+  "apify_requests": []
+}
+```

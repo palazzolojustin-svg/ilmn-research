@@ -1,0 +1,143 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taiwan's NHRI paid about 58% less in NT$ per NovaSeq 6000 S4 v1.5 300-cycle kit in Dec 2023 than in Dec 2020, and bought far fewer kits.",
+      "detail": "Dec 2020 (09GD-0002): 25 kits for NT$10,797,000 is NT$431,880 per kit, or about US$14.6K at the record's 29.5 FX. Jul 2020 (09GD-0001, S4 300-cycle): NT$17,337,600 for 32 kits is NT$541,800, or US$18.0K at the record's 30.1 FX; this assumes 32 kits is the real quantity, since the award notice lists 1. Dec 2023 (112A0C0676): 16 kits for NT$2,929,920 is NT$183,120, or about US$5.9K (my FX estimate of ~31) and about $2/Gb on 3,000 Gb. Kits fell from 57 in 2020 to 16 in 2023, and each purchase was a single-bidder award direct from Illumina. Caveat: the 2023 notice may define a 'set' differently, because a per-kit price this low is far below the $11–14K list prices the analyst already tracks. Treat the cut as indicative until the unit is confirmed.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112A0C0676",
+      "date": "2023-12-21 (2020 comparisons: 2020-07-27, 2020-12-07)",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; NHRI awards",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "First dated per-kit 6000 award series from a public research institute; the known list covers core rate cards and tenders only for the X."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taipei VGH paid the identical NT$201,000 per P4 XLEAP-SBS reagent set in Apr 2025 and Apr 2026, so there was no discount acceleration at this hospital.",
+      "detail": "1140134V (award 10 Apr 2025): 9 sets at NT$201,000 each, total NT$1,809,000, floor NT$1,827,000, one bidder (Genetech). 1150157V (awarded 29 Apr 2026): 18 sets at NT$201,000 each, total NT$3,618,000, floor equal to award, one bidder (Genetech). That is flat unit price over 12 months with estimated quantity doubled (9 to 18 over 2 years). The P3 set was awarded at NT$235,000 (15 sets) on 7 May 2026. This is mid-throughput NextSeq-class, not NovaSeq, so it only partly tests the thesis.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1150157V",
+      "date": "2026-05-12",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; Taipei VGH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known evidence covers core rate cards and list prices; this is a same-buyer, same-SKU award price repeated a year apart with quantity doubling."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Hospital buyers are setting budgets well above what they pay. Awards land at the floor price with a single bidder after repeated failed tenders, so buyers are extracting concessions from the Illumina distributor.",
+      "detail": "Taipei VGH P3 set: budget NT$293,750 (4,406,250 / 15) vs award NT$235,000, 20% below. P4: budget NT$228,750 vs NT$201,000, 12% below (both 1150157V). Taichung VGH 115A018 (Sep 2026, P1-P4 300-cycle kits): total budget NT$23.39M vs award NT$19.92M (−14.8%), with P3 NT$12.0M budget vs NT$9.48M award (−21%) and P4 −15%. Almost every tender here failed (流標) at least once before a single bidder accepted the floor: 1140134V twice, 1150157V twice, K114031, 115A018, TD14E170, M11476V three times, and M11405V cancelled after two failures. This reads as buyer leverage, but the budgets are estimates, not past prices, so the gap is only a proxy for a discount.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=115A018",
+      "date": "2026-09-17",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; Taichung VGH, Taipei VGH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies buyer-set price floors and the failed-tender dynamic at hospital level, which no known item covers."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "NTUH's whole-genome 'reagents with instrument' contract was flat at NT$32.5M per 2 years through Oct 2025, then jumped to NT$297M over 3 years in Feb 2026 (about 6x the annual run-rate).",
+      "detail": "TD13E080 (Sep 2024): NT$32.5M for 2 years (about NT$16.25M/yr), against a NT$40.57M budget. TD14E170 (Oct 2025): the same NT$32.5M for 2 years, against a NT$36.8M budget (a budget cut of 9.3%, award flat). K114031 (award 4 Feb 2026): NT$296,999,880 for 1 Mar 2026 to 28 Feb 2029, about NT$99M/yr, awarded to Genetech at the floor. That is about 6.1x the earlier annual commitment. The notices name no brand, only US origin, and the earlier two went to a different distributor (Genomics BioSci), so K114031 may be a different platform or a bundled capex and instrument deal. A price per genome cannot be derived from the notices.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=K114031",
+      "date": "2026-02-05",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; NTUH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "A new, dated hospital WGS volume signal; the known list only covers NHS and Western genome programs."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "For NTUH WGS reagents, the award held at the same NT$32.5M floor in Sep 2024 and Oct 2025 even as the hospital cut its own budget estimate by 9%.",
+      "detail": "Budget NT$40.574M (Jul 2024) vs NT$36.804M (Aug 2025). The award was NT$32.5M both times, 80.1% and 88.3% of budget. A fixed award with a shrinking budget means the price ceiling the buyer will pay is tightening. Illumina's share of these awards is unconfirmed, because no brand field is given.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD14E170",
+      "date": "2025-10-22",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; NTUH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A hospital-level tightening of budget against a fixed award; not in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taipei VGH's 'high-throughput reagent set' price was roughly unchanged between Dec 2023 and May 2026 (about NT$230K vs NT$235K).",
+      "detail": "1120652Y (Dec 2023): 29 sets, budget NT$250,000/set, award NT$6.67M, which is NT$230,000/set. 1150157V P3 (May 2026): NT$235,000/set, about 2% higher. The product match is assumed (the 2023 notice says only 'high-throughput reagent set'), so a like-for-like read is not confirmed. Taipei VGH's NT$3.94M lot award in 1140732E item 1 (Nov 2025) was 15% below its NT$4.635M budget, with quantity unspecified.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1120652Y",
+      "date": "2023-12-14",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; Taipei VGH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A 2.5-year price comparison at one hospital; the known list has none for Taiwan."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NHRI, Taiwan's main public research institute, stopped issuing NovaSeq-titled reagent and maintenance tenders after Dec 2023 and instead outsources whole-genome work.",
+      "detail": "Searching the PCC API for 'NovaSeq 6000' returned 17 records, none later than 21 Dec 2023. NHRI bought S4 kits in Jul 2020, Dec 2020 and Dec 2023. It renewed 'NovaSeq 6000 4-system' maintenance every year from 2018 to Dec 2023. From Sep to Oct 2024 NHRI issued two 'NGS WGS sequencing, 150 samples' tenders (1113MG1722, 113B0C0270), which are outsourced services. A query for 'NovaSeq X' returned 0 records. This could reflect retitled tenders rather than retirement, so it is weak evidence of 6000 retirement or reduced research purchasing.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=NovaSeq",
+      "date": "2024-10-31",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API; NHRI",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Procurement-title evidence of a research institute's 6000 fleet (4 units) and the absence of later purchase notices."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taiwan hospitals' sequencing tenders in 2025-26 are mostly mid-throughput (P1-P4) kits with large estimated quantities, so volume demand is intact at mid-throughput.",
+      "detail": "Taichung VGH 115A018 (award 15 Sep 2026) covers estimated quantities of 30 P1, 69 P2, 60 P3 and 12 P4 300-cycle kits over a contract from 1 Oct 2026 to 30 Sep 2028 (note: the award notice itself lists 1 EA per item, so these come from the tender notices). Taipei VGH's P4 estimate doubled from 9 to 18 sets and P3 is 15. No NovaSeq-class (S4 or 25B) reagent tender appears at Taipei VGH, Taichung VGH or NCKU in 2024-26. Some NovaSeq-class demand may be in outsourced or bundled contracts such as K114031.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序試劑",
+      "date": "2026-09-17",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Names buyers and quantities for Taiwan hospital mid-throughput demand."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "The API gives total award amounts and quantities but rarely an explicit unit price or brand. Per-kit prices have to be derived, and brand is blank on nearly all hospital tenders; the winning distributors are Genetech (均泰) and Genomics BioSci (基龍米克斯), and I did not confirm which brands they carry. Not mined: searchbytitle pages 2-6 for 定序試劑 (about 400 records, mostly 2022-2024), 次世代定序 pages 2-9, 高通量 pages 2-15, and Kaohsiung VGH MCP14099 and NCKU awards. Also not mined: the Taipei VGH 2026 NGS maintenance tender 115A2A55M ('ILLUMINA' named), the Chi Mei high-throughput sequencer purchase 114B01342H1, and the NTUH Cancer Center branch mid-throughput sequencer tender PA2600139 (Oct 2026). 'NovaSeq X' returned 0 records, so X purchases are hidden under generic titles. I made 22 tool calls.",
+  "leads": [
+    {
+      "name": "Taipei VGH 115A2A55M: 2-year maintenance for the pathology department's Illumina high-throughput NGS system",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=次世代定序",
+      "access": "Public API; fetch /api/tender?unit_id=3.32.80&job_number=115A2A55M",
+      "labels": ["1A"],
+      "rationale": "May name the model (6000 or X) and give an annual service price, which tests whether the 6000 is being serviced into 2028."
+    },
+    {
+      "name": "NTUH TD14E130 (Aug 2025, nanopore high-throughput reagents with instrument) and CDC KA115024 / KA115057 (nanopore)",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD14E130",
+      "access": "Public API",
+      "labels": ["1B", "2B"],
+      "rationale": "Shows NTUH and Taiwan's CDC moving volume to ONT, with award prices to compare against Illumina WGS awards."
+    },
+    {
+      "name": "Chi Mei Medical Center 114B01342H1 (high-throughput sequencer purchase, Feb 2026) and NTUH Cancer Center branch PA2600139 (Oct 2026)",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=06606103&job_number=114B01342H1",
+      "access": "Public API",
+      "labels": ["1A", "1C"],
+      "rationale": "May reveal which platform (NovaSeq X, 6000 or a rival) hospitals bought in 2026, and at what price."
+    },
+    {
+      "name": "Remaining pages of searchbytitle for 定序試劑 (2022-2024) and NCKU / Kaohsiung VGH awards",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序試劑&page=2",
+      "access": "Public API",
+      "labels": ["1B"],
+      "rationale": "Would extend the same-buyer price series back to 2022 and add other hospitals."
+    }
+  ],
+  "apify_requests": []
+}
+```

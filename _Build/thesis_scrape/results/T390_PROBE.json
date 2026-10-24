@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "The Génome Québec page opened and the prices match the search snippet: mRNA-seq 25M reads C$172, 50M C$237, exome 100x C$316, human WGS C$525, metabarcoding C$26. The page has no date, no promotion dates and no earlier prices, only a '© 2026' footer. The wp-json 'modified' query returned empty. web.archive.org and archive.ph are blocked in this tool, although the Wayback availability API did return a snapshot dated 2024-11-01 (http://web.archive.org/web/20241101133427/https://genomequebec.com/en/technological-services/promotions/). I could not open that snapshot, so there is no price series and no 2025-26 change to quantify. I did not open ?p=29787 or ?p=26647 directly. ?p=29787 appears in search results with the same title.",
+  "how_to_mine": "Open the 2024-11-01 Wayback snapshot (20241101133427) in a browser or with curl, since the fetch tool is blocked there. Compare its WGS and mRNA-seq prices with the current C$525 and C$172/C$237 to get the first data point of a price series. Query the Wayback CDX API (web.archive.org/cdx/search/cdx?url=genomequebec.com/en/technological-services/promotions/&output=json) for all snapshot dates, then open one per quarter from 2024 to 2026. Also fetch ?p=26647, which may be an older version of the page. Compare the prices with the TCAG Toronto April 2025 list of C$650 per NovaSeq X WGS including library prep.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A national Canadian research sequencing provider publishes all-inclusive per-sample prices and explicitly credits NovaSeq X and the 25B flow cell for lowering them.",
+      "detail": "The Génome Québec standard price list (undated, 2026 footer) shows human WGS at C$525, exome 100x at C$316, and mRNA-seq at C$172 (25M reads) and C$237 (50M reads), library prep included. The same-source claim is that it 'introduced lower prices' through early X/25B adoption. This is a single snapshot with no earlier prices, so the pass-through rate is unquantified. For comparison, TCAG Toronto (Apr 2025) lists NovaSeq X WGS at C$650 including prep, so Génome Québec is about C$125 (19%) cheaper.",
+      "url": "https://genomequebec.com/en/technological-services/promotions/",
+      "date": "2026 (undated page, 2026 footer)",
+      "source_name": "Génome Québec Centre d'expertise et de services",
+      "source_type": "price_list",
+      "quote": "introduced lower prices, thanks to our position as world leader",
+      "strength": "weak",
+      "why_new": "A per-sample all-inclusive Canadian price point; the known list covers per-lane or per-Gb core prices only."
+    }
+  ],
+  "new_candidates": [
+    "Wayback snapshot of the Génome Québec promotions page, 2024-11-01 (web.archive.org/web/20241101133427/...), for an earlier price point",
+    "Wayback CDX listing for genomequebec.com/en/technological-services/promotions/ to find other snapshot dates",
+    "TCAG Toronto NGS price lists across years, for a per-sample WGS series (Apr 2025 NovaSeq X WGS C$650 including prep)"
+  ],
+  "apify_requests": []
+}
+```

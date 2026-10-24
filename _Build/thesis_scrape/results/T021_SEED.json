@@ -1,0 +1,94 @@
+```json
+{
+  "sources": [
+    {
+      "name": "UK Find a Tender / Contracts Finder (university Illumina consumables award notices)",
+      "url": "https://www.find-tender.service.gov.uk/Notice/031102-2025",
+      "access": "Public notice pages. The notice returned HTTP 403 to WebFetch. The search-result snippet and the OCDS or PDF variants may still load in a browser or through the OCDS API.",
+      "labels": ["1B", "2A"],
+      "status": "blocked",
+      "notes": "A search snippet shows Univ. of Northumbria 'Sequencing System Consumables' (T24/0068), award notice published 9 Jun 2025. The supplier and value were not visible. A University of Dundee notice (concluded 9 Feb 2024) is sole-source and says Illumina consumables cannot be bought through distributors; only one tender was received. A UKRI-type body, the Centre for Ecology & Hydrology, awarded Illumina Cambridge about GBP 215K in Sep 2025. These are sole-source awards, so they give no price-discount evidence. NIH NHLBI Illumina reagents (75N92025R00033) is a sole-source notice.",
+      "how_to_mine": "Pull the OCDS JSON for ocds-h6vhtk-06ef73 and the T24/0068 notice. Extract value, supplier (Illumina vs distributor), and number of tenders. Search Find a Tender and Contracts Finder for 'Illumina' and 'NovaSeq' consumables awards from 2025 onward. Compare awarded value with estimated value, as in the known IDIBAPS −16.7% case. Also check the highergov.com and govly pages for NIH sole-source justifications that quote price terms.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": []
+    },
+    {
+      "name": "Cooperative purchasing contracts (E&I, BTAA, UC, Texas DIR/TxSmartBuy, Internet2) for Illumina",
+      "url": "https://www.waters.com/nextgen/us/en/about-waters/academic-resources/e-i-cooperative-services.html",
+      "access": "Public portals (eandi.org, BTAA, UC SCM, Texas CMBL) mostly show vendor lists only. Pricing sits behind member portals.",
+      "labels": ["2A"],
+      "status": "dry",
+      "notes": "No published E&I, Big Ten Academic Alliance or similar consortium contract with Illumina turned up in two searches. E&I does list other life-science vendors such as Waters. Pricing is not publicly indexed, so the idea that consortium deals show steep academic discounts could not be tested.",
+      "how_to_mine": "Check the eandi.org supplier directory and the BTAA purchasing page directly for Illumina or Thermo/Fisher bundles. Check the UC Strategic Sourcing and Texas DIR/CMBL contract listings. Likely nothing public.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "University core facility platform-switch and retirement notices (Michigan State RTSF, Rockefeller, UNIL, Arizona, Northwestern)",
+      "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf",
+      "access": "Public PDF (9.4 MB). WebFetch could not extract the text, but the file was saved locally in the tool-results folder. It can be read with a PDF reader or via the Read tool with the pages parameter.",
+      "labels": ["2A", "2B", "1B"],
+      "status": "productive",
+      "notes": "A search snippet says Michigan State's Genomics Core is replacing its NovaSeq 6000 with an Element AVITI, with retirement planned for late December (the deck is dated Oct 2024). The deck gives lower flow-cell pricing and very low duplication rates as the reasons. Rockefeller adopted an AVITI in Nov 2024. UNIL reached 500 AVITI runs and upgraded to AVITI24 (May 2026 newsletter). Northwestern and Dana-Farber retirements are already known. The MSU case is not in the known list, but it dates from late 2024 and I could not read price numbers, so I treat it as weak, sourced from the search snippet.",
+      "how_to_mine": "Read the saved MSU PDF page by page for per-lane or per-Gb comparisons and the retirement date. Then check the MSU RTSF genomics price list for the current AVITI vs NovaSeq X rates. Also read the Rockefeller and UNIL newsletters for price statements.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "Michigan State's genomics core planned to replace its NovaSeq 6000 with an Element AVITI, citing lower flow-cell pricing.",
+          "detail": "A search snippet of an MSU RTSF planning deck (Oct 2024) says the AVITI would replace the NovaSeq 6000, with retirement planned for late December. Reasons given were lower flow-cell pricing, low duplication rates and that Illumina-style libraries carry over. I could not open the PDF text, so the numbers are unverified. It is one more academic core moving volume off Illumina on price.",
+          "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf",
+          "date": "2024-10-09",
+          "source_name": "Michigan State University RTSF Genomics Core",
+          "source_type": "conference",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "MSU is not among the named cores in the known list (Dana-Farber, Northwestern, Georgia, Arizona, SC), though the date is older than the Jan 2025 cutoff."
+        }
+      ]
+    },
+    {
+      "name": "SEQanswers 'Switching from Illumina to Element Biosciences' thread",
+      "url": "https://www.seqanswers.com/forum/sequencing-technologies-companies/element-biosciences/325592-switching-from-illumina-to-element-biosciences",
+      "access": "Public forum, but WebFetch got HTTP 403. It may load in a normal browser, or from the Google or Wayback cache.",
+      "labels": ["2A", "1B"],
+      "status": "blocked",
+      "notes": "The thread exists, per the search result. I could not read its content.",
+      "how_to_mine": "Fetch via the Wayback Machine or a browser. Extract poster affiliations (core vs company), the price comparisons they quote, and the dates.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "NIH sole-source justifications and Illumina contract pages (HigherGov, Govly, SweetSpot)",
+      "url": "https://www.highergov.com/idv/75N98026D00035/",
+      "access": "Public aggregator pages, no login for basic views.",
+      "labels": ["1B", "2A"],
+      "rationale": "Federal Illumina reagent purchases and IDIQs might show unit prices, discount tiers or award ceilings. The pages are worth one pass for unit-price lines, but the sole-source status limits what they show."
+    },
+    {
+      "name": "Mercell / TED / UK tender portals, searched for 'Illumina' with 'framework' and 'NovaSeq X'",
+      "url": "https://mercell.com/lt-lt/pirkimas/78642085/framework-agreement-on-the-delivery-of-instrument-specific-consumables-to-illumina-sequencing-equipment-at-nsc-ibv-uio-pirkimas.aspx",
+      "access": "Public notices. The Oslo framework shown is from 2017, so use it only as a template for finding newer ones.",
+      "labels": ["1B", "2A"],
+      "rationale": "University framework agreements for Illumina-specific consumables in Europe (Oslo, Dundee, Northumbria) are renewed periodically. Awarded vs estimated value gives a discount read, as with the known IDIBAPS tender."
+    },
+    {
+      "name": "Wayback captures of core-facility rate cards (Utah HTG, Harvard Bauer, UCLA TCGB, TGen)",
+      "url": "https://uofuhealth.utah.edu/huntsman/shared-resources/gcb/htg/pricing",
+      "access": "Public pages; the Wayback Machine holds the history.",
+      "labels": ["1B", "2A", "2B"],
+      "rationale": "Utah ($2,600 internal / $3,120 external 25B kit, Jan 2026) and UConn are already in the known list. Their price changes from 2024 to 2026 may not have been compared. Archived captures would show whether academic 25B pricing fell or rose year over year, which bears directly on 2B."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+I used 8 tool calls. Two WebFetch calls came back 403: the SEQanswers thread and the Find a Tender notice. The MSU PDF was saved locally but not parsed.
+
+The seed itself was mostly dry:
+- No public consortium contract or discount (E&I, BTAA, UC, Texas) turned up for Illumina.
+- The other core-facility notices that surfaced (Dana-Farber, Northwestern, Novogene, and the 2026 lane-price lists) are already in the known list.

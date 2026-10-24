@@ -1,0 +1,71 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Natera Q2'26 (and Q3'26, out early Nov 2026) 10-Q, 8-K Ex. 99.2 deck and call: women's-health growth rate as a split from total tests",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630.htm",
+      "access": "Free on EDGAR. Also read Ex. 99.2 at https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex992.htm and the call summaries (gurufocus 9015362, marketbeat 2026-08-07). Search snippets say women's health grew only 'high-single-digit… on a seasonally adjusted basis' in Q2'26 and credit Fetal Focus and the enhanced Panorama (launched May 2026). Do this: (1) Pull the women's-health growth rate for each quarter from Q1'25 to Q2'26, using the call transcripts on roic.ai/quote/NTRA/transcripts. (2) Back out women's-health units as total tests minus oncology (MRD, Signatera) minus organ health. (3) Check whether the growth comes from new accounts, i.e. share taken from Labcorp, Quest or BillionToOne, rather than from the market growing.",
+      "labels": ["1C"],
+      "rationale": "This is the largest US NIPT provider saying its own prenatal growth is only HSD even after seasonal adjustment, and that the growth comes from new products and account wins, not market expansion. That is new: the known list has only Natera's blended 'non-MRD ~+13%'. A quarterly women's-health unit series would show prenatal volume settling at single digits, which is what market maturity looks like.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "CDC NCHS: Births, Provisional Data for 2025, plus the quarterly provisional natality dashboard (the denominator for NIPT)",
+      "url": "https://cdc.gov/nchs/pressroom/releases/20260409.html",
+      "access": "Open. Report: https://stacks.cdc.gov/view/cdc/252434. Quarterly series: https://cdc.gov/nchs/nvss/vsrr/natality-dashboard.htm and the data.cdc.gov dataset 'NCHS - VSRR Quarterly provisional estimates for selected birth indicators' (Socrata JSON, no login). Confirmed: 3,606,400 births in 2025, −1% y/y, general fertility rate 53.1, −1%. Do this: pull the 12-month-ending births for Q1'26 and Q2'26, then combine them with the ~70–80% penetration that experts cite and ACMG's Dec 2025 first-line recommendation to cap the US NIPT test pool at roughly 2.9–3.4M per year.",
+      "labels": ["1C"],
+      "rationale": "This is a hard ceiling on US NIPT volume: births are falling and penetration is already high. NIPT unit growth across the whole market can therefore be no more than about −1% plus the remaining penetration gain. Fast growers like BillionToOne (+35%) must be taking share, which adds no Gb for Illumina in aggregate. It quantifies the 'NIPT maturing' drag with an official dataset.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "BillionToOne 10-Qs, Q1'26 and Q2'26: how volume growth splits between prenatal share gain and sales-force expansion",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000050/blln-20260630.htm",
+      "access": "Free on EDGAR. Q1 10-Q: https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000031/blln-20260331.htm. Investor deck: investors.billiontoone.com/static-files/a088792e-0f91-4b2c-8d56-11ee385c1bdc. Snippets confirm about 196K tests in Q2'26 (+35%, down from +44% in Q1) and prenatal revenue of $94.2M (+55%), with the gain credited to 'expansion of our sales force.' Do this: read the MD&A for prenatal units, ASP and payer mix, and for any comment on taking share from competitors. Then compare it with Natera's women's health in the same quarter.",
+      "labels": ["1C"],
+      "rationale": "Growth is decelerating (+44% to +35%) and is attributed to the sales force, not to more patients being tested. Combined with US births at −1%, that suggests the NIPT growth on the surface is a reshuffling of share between labs. The watch-out is BillionToOne's single-molecule counting design, which may use more reads per test than older NIPT designs. If so, its share gains could add Gb even while patient counts stay flat. Check its reads per sample.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Netherlands RIVM/PNS NIPT Monitor 2024 and Professionalsmonitor 2024 (national NIPT uptake from the Peridos registry)",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "access": "Open PDF in English. Regional detail: https://www.pns.nl/sites/default/files/2026-01/professionalsmonitor-2024-nipt-seo.pdf. Earlier year: https://pns.nl/sites/default/files/2025-01/20250109_Monitor%20prenatale%20screening%20%202023.pdf. Confirmed from snippets: NIPT uptake was 51.2% (2020), 67.8% (2023) and 73.5% (2024) of 171,349 pregnancies; the abnormal rate was flat at 0.5%. The 2025 monitor is expected around Jan 2027. Watch pns.nl and the Kamerbrieven (berthub.eu/tkconv 2026D03959, 2026D06644).",
+      "labels": ["1C"],
+      "rationale": "This is a clean national series for a free NIPT offered to every pregnancy. Uptake rose fast after 2023 and is now near the ceiling (73.5% against 79.8% uptake of the 13-week scan), so growth from 2025 on should be low single digits. It is an EU proof that NIPT volume flattens once access is universal. Watch-out: 2024 still grew about +8% in share terms, so the evidence 'against' is that it was still growing as recently as 2024.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Germany: statutory-insurance NIPT uptake (BARMER/bifg claims analyses) and the Bundestag cross-party motion for NIPT monitoring (Drucksache 21/3873)",
+      "url": "https://dserver.bundestag.de/btd/21/038/2103873.pdf",
+      "access": "Open PDFs. bifg Trisomien factsheet: https://www.bifg.de/media/dl/ePaper/factsheets/bifg-Factsheet-Trisomien.pdf. Gynäkologische Praxis 2026: https://www.bifg.de/media/dl/Journals/gynaekologische_praxis_2026.pdf. Bundestag hib 76/2026: https://www.bundestag.de/presse/hib/kurzmeldungen-1140288. Snippets: NIPT has been covered by statutory insurance since 1 Jul 2022; uptake was about 50% of pregnancies in 2024, with the prior-year figure conflicting (32%, or +18%). The motion asks for monitoring results by June 2027. Do this: extract the BARMER uptake by quarter (2022 to 2025) and any policy proposal to narrow the indication.",
+      "labels": ["1C"],
+      "rationale": "Germany is the largest EU market (~680K births). Uptake jumped after coverage began and now faces political pressure to narrow its use. Saturation plus regulatory risk caps further volume. Watch-out: ~50% leaves headroom, so this source cuts both ways.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "France: Agence de la biomédecine annual prenatal-diagnosis activity reports (RAMS 'DPN' chapter), with counts of cfDNA aneuploidy tests ('ADNlc') by year",
+      "url": "https://rams-archives2019.agence-biomedecine.fr/sites/default/files/2020-09/200720_DPN2018_RAMS2020%20VF.pdf",
+      "access": "Open PDFs. Older years are on the rams-archives20XX subdomains. Find the current years (2022–2024 activity) at rams.agence-biomedecine.fr (search 'diagnostic prénatal ADNlc 2023'). Known points: 2,988 tests (2014) and 21,161 (2016). Build the 2019–2024 series. Note that HAS widened the risk band to 1/1000–1/51 in Sep 2024, so 2025 should step up once and then flatten.",
+      "labels": ["1C"],
+      "rationale": "This is a regulator-mandated census of every lab, giving a multi-year national NIPT count (~650K births a year). It can show the curve going flat between guideline changes, and that each guideline step is a one-off level shift rather than lasting growth.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "US payer coverage saturation: UHC removed prior authorization for 81420 (1 Apr 2025), Nevada Medicaid added NIPT (1 Jan 2026), New Mexico Medicaid covered all pregnancies (1 Jul 2024)",
+      "url": "https://www.uhcprovider.com/en/resource-library/news/2025/prior-auth-non-invasive-prenatal.html",
+      "access": "Open. Nevada: https://www.medicaid.nv.gov/Downloads/provider/web_announcement_3804_20251231.pdf. New Mexico: https://hca.nm.gov/wp-content/uploads/Final-LOD-32-Prenatal-Genetic-Screening.pdf. Do this: list the states whose Medicaid programs still restrict 81420 to high-risk pregnancies (search '81420 Medicaid high risk only 2026'). Few holdouts would mean the coverage lever is used up.",
+      "labels": ["1C"],
+      "rationale": "These are the last coverage expansions. Once the largest commercial payer drops prior authorization and the final Medicaid holdouts add coverage, no access lever remains to lift average-risk NIPT volume. That supports the claim that NIPT maturity will drag on volume.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "UK: Antenatal screening standards data report 2024 to 2025 (Official Statistics, published 26 Mar 2026), FASP NIPT data, and the NDRS NIPT page",
+      "url": "https://www.gov.uk/government/statistics/antenatal-screening-standards-data-report-2024-to-2025",
+      "access": "Open gov.uk page with a downloadable FASP standards data file (XLSX/ODS). Archived NDRS page: https://tnaqa.mirrorweb.com/ukgwa/20260505171503mp_/https://digital.nhs.uk/ndrs/our-work/screening-programmes/nipt. Pull combined-test uptake and NIPT offers and uptake for 2022-23, 2023-24 and 2024-25.",
+      "labels": ["1C"],
+      "rationale": "The NHS offers NIPT only after a higher-chance result (1 in 2 to 1 in 150), so volumes are small and capped by protocol. It is a strong example of a big European system where NIPT volume is fixed by policy, not by sequencing cost. Lower payoff because the absolute numbers are small.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "Opened 2 of the ~8 requested SKU pages (6000 SP v1.5 20028400 and X 25B-300 20104706). Both are reachable, public HTML. The 25B-300 price is $24,155.04, identical to the GSA price already in the corpus ($24,155), so there is no price change. Both pages show 'Call for Lead Time', no 'discontinued' or 'limited' text, and ambiguous 'In Stock Now' and 'Clearance' icons (the icons are inferred from filenames and are not explained on the page). The 6000 SP-300 SKU is still active at $4,345.45. I could not compare it with the prior capture for that SKU, because the exclusion list gives no earlier SP price. Nothing here is a discontinuation or repricing tell. This weakly supports the 6000 tail persisting on the federal schedule. I did not open the S1/S2/S4 pages, the 6000Dx page (20068232) or the other X SKUs.",
+  "how_to_mine": "Fetch each remaining SKU page (20028312, 20028313, 20028314, 20068232, 20104705, 20125967, 20125968) at https://www.govsci.com/product-detail/Illumina-----Inc/<SKU>/EA. Record price, the lead-time text and any discontinued flag. Compare the prices with the earlier GSA capture. Re-check periodically for a change in the 'Clearance' or 'In Stock' icon or a price move. Check the Wayback Machine for earlier govsci captures to date any change.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "NovaSeq 6000 SP v1.5 300-cycle kit remains an active federal-schedule SKU with no discontinued or limited flag as of Oct 2026.",
+      "detail": "The Government Scientific Source page for 20028400 lists $4,345.45 per kit with 'Call for Lead Time' and no discontinued or limited text. The X 25B-300 kit (20104706) is unchanged at $24,155.04, matching the earlier GSA capture. A live 6000 SKU with no end-of-life flag is consistent with the 6000 tail persisting rather than an imminent notice. The page carries a 'Clearance' icon that is unexplained and could be a mild repricing tell.",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20028400/EA",
+      "date": "2026-10-12",
+      "source_name": "Government Scientific Source (GSA/ECAT distributor)",
+      "source_type": "price_list",
+      "quote": "Call for Lead Time",
+      "strength": "weak",
+      "why_new": "Status check of the 6000 SP SKU on the federal schedule in Oct 2026 shows no end-of-life flag; the prior capture had prices only."
+    }
+  ],
+  "new_candidates": [
+    "Wayback Machine captures of govsci.com 6000 SKU pages, to date the 'Clearance' icon and any price changes",
+    "GSA Advantage / ECAT listings for 20028400 and 20104706 for cross-check of contract price"
+  ],
+  "apify_requests": []
+}
+```

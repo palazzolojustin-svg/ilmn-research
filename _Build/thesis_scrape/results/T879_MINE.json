@@ -1,0 +1,90 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Tempus xT (Chicago lab) kept the NovaSeq 6000 on its GTR record across at least four edits from Aug 2023 to Nov 2025.",
+      "detail": "GTR000558436 has 14 versions. Versions .11 (2023-08-28), .12 (2024-11-05) and .14 (2025-11-07) each list 'Illumina NovaSeq 6000' for both the MSI and sequence-analysis methods. Version .13 (2024-11-08) was not opened. The test was edited in Nov 2024 and again in Nov 2025 and still names the 6000 each time. The edits only prove the record was reviewed, not that the lab runs only 6000s. Tempus's own job postings list both the 6000 and the X.",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/558436/",
+      "date": "2025-11-07",
+      "source_name": "NCBI Genetic Testing Registry (GTR) version pages",
+      "source_type": "dataset",
+      "quote": "Illumina NovaSeq 6000",
+      "strength": "medium",
+      "why_new": "Adds a dated multi-year version history for Tempus xT. The known list only has a single GTR note for it (reviewed Nov 2025)."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A Tempus xT record for the Research Triangle Park (RTP) lab was registered on the 6000 in Nov 2024, so a new Tempus registration was filed on the 6000 two years after the X launched.",
+      "detail": "GTR000613444.1 was registered 2024-11-06 with the NovaSeq 6000 for both methods. Its lab-level annual review date is 2025-11-12. The Chicago xT record (558436) shows the same instrument. Tempus's main tissue test is therefore declared on the 6000 at both labs.",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/613444/",
+      "date": "2024-11-06",
+      "source_name": "NCBI GTR",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives the registration date and the RTP-lab record for Tempus, which was not itemised before."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The one confirmed instrument change in GTR for an X Plus lab is Labcorp's MaterniT NIPT line, and it moved from the HiSeq 2000 straight to the X Plus.",
+      "detail": "MaterniT21 (501985) and MaterniT GENOME (569955) both list 'Illumina HiSeq 2000' in versions dated 2020-01-09 and 'Novaseq X Plus' in versions dated 2024-11-01. Version .4 of 501985 is the switch. The 4 X Plus hits for Integrated Genetics–Sequenom are 501985, 569955, 593063 and 593064. This is a clean, dated platform change by a price-sensitive NIPT line. No 6000-to-X switch was found, because the 6000 step was skipped (see F995, F963 and D091).",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/501985.4/",
+      "date": "2024-11-01",
+      "source_name": "NCBI GTR",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives the exact before and after instruments and version dates (HiSeq 2000 in Jan 2020 to X Plus in Nov 2024). Earlier items only say 'switches came from older platforms'."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Mayo's aortopathy panel (CAORG) has been re-versioned four times since 2024 and still lists the 6000, so the registry's largest 6000 declarer keeps re-committing to it.",
+      "detail": "GTR000603752 has seven versions. The dates are 2022-12-15, 2023-03-30, 2024-05-14, 2025-04-03, 2025-07-15, 2025-09-16 and 2026-04-09. The latest version (.7) lists the NovaSeq 6000 for both methods. Three of the edits fall in the last 12 months, and none changes the sequencer.",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/603752.7/",
+      "date": "2026-04-09",
+      "source_name": "NCBI GTR",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list already says Mayo re-versioned its 6000 tests (F961). This only adds the exact version dates for one test."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "The GTR instrument field is unreliable for two big NGS reporters, so GTR cannot support a count of the 6000 versus the X.",
+      "detail": "Guardant360 (527948) was last updated 2021-08-12 and lists 'Other' as the instrument with a platform of 'None/not applicable'. Natera's Panorama (503131) was last updated 2020-07-21 and gives no instrument. The tokenised 'NovaSeq X' search returns tests that name only the 6000, as with the Tempus and Mayo hits. Search listings also show no instrument.",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/527948/",
+      "date": "2021-08-12",
+      "source_name": "NCBI GTR",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a data-quality caveat for the GTR counts (11x, 130 vs 12). It is not evidence for or against the thesis itself."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I opened about 14 pages and fetched search results for X Plus, Natera, Tempus and Guardant. I found no 6000-to-X version change. The only dated switch is Labcorp MaterniT, from the HiSeq 2000 to the X Plus (Nov 2024). Natera and Guardant records give no usable instrument. Tempus and Mayo stay on the 6000 through Nov 2025 and Apr 2026. The remaining paging (13 pages of 20) is unlikely to change this, because F995 and D090 already reach the same conclusion. I did not open Tempus xT version .13 (2024-11-08). I did not check Caris, Labcorp Plasma Detect or Natera's Signatera records.",
+  "leads": [
+    {
+      "name": "GTR Labcorp / Integrated Genetics test list",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/labs/?term=Integrated+Genetics",
+      "access": "free HTML",
+      "labels": ["1A"],
+      "rationale": "Check whether any other Labcorp test moved from the 6000 to the X Plus, and when."
+    },
+    {
+      "name": "GTR Caris Life Sciences records",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/labs/?term=Caris",
+      "access": "free HTML",
+      "labels": ["1A"],
+      "rationale": "Caris says it runs both the 6000 and the X, so its record versions might show the timing."
+    }
+  ],
+  "apify_requests": []
+}
+```

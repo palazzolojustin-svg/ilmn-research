@@ -1,0 +1,17 @@
+```json
+{
+  "items": [],
+  "source_status": "blocked",
+  "notes": "I could not extract the Gb figures this mine needs. I had no Python or shell in this session, only WebFetch and WebSearch. The task needs a scripted stream of the ENA read_run TSV, summing base_count by month and model. WebFetch returns small-model summaries, so a base_count sum is not feasible and I will not estimate one. I only confirmed that the ENA /count endpoint works with range queries on first_public. Two run counts for Sep 2026 came back: NovaSeq 6000 = 174,633 runs and NovaSeq X = 19,795 runs. A run count is not Gb, and the 'ENA Sep-2026' 6000 and X run counts are not comparable with the earlier SRA-based items (F593, F596, F698). That is because the date filters and the instrument_model strings differ, and I did not check that those strings match exactly. Those counts are therefore not reported as evidence. Everything this source was meant to deliver is still unmined. That covers the 6000, X, AVITI, UG 100 and T7 Gb by month for 2024-01 to 2026-09, the 6000 share of Illumina Gb and of total Gb by quarter, the AVITI+UG100 share, and the center_name split between clinical or commercial and academic labs. Next step: run the scripted job from a machine with Python. Use `python -I`, one file per model and month in an empty directory, and 1-2 s pauses. Query `instrument_model=\"...\" AND first_public>=YYYY-MM-01 AND first_public<=YYYY-MM-last`, with fields=run_accession,base_count,center_name. Check the exact instrument_model strings first with /count (for example 'Element AVITI', 'UG 100', 'DNBSEQ-T7'). Note that first_public is the release date, so it lags the sequencing date by months, as F615 found.",
+  "leads": [
+    {
+      "name": "ENA Portal API read_run (scripted base_count sum)",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=%22Illumina%20NovaSeq%20X%22&fields=run_accession,base_count,center_name,first_public&format=tsv&limit=0",
+      "access": "Free, no login. Needs Python with streaming.",
+      "labels": ["1A", "1C", "2B"],
+      "rationale": "The Gb-weighted 6000 vs X vs AVITI/UG100 series, plus a center_name split into clinical/commercial and academic, is the one cut that could test how fast the 6000 tail is shrinking in public data. Earlier items (F644, F627, F647) show Gb-weighted public data differs from run counts."
+    }
+  ],
+  "apify_requests": []
+}
+```

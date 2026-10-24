@@ -1,0 +1,13 @@
+2023-12-31 :: Illumina fiscal 2023 ends; revenue $4,504M, adjusted EPS $0.86, GAAP EPS −$7.34
+2024-12-29 :: Illumina fiscal 2024 ends; revenue $4,372M (−2.9%), adjusted EPS $2.45; total assets fall to $6,303M from $10,111M and GRAIL drops out of the data
+2025-03-30 :: Illumina 2025Q1 ends; revenue $1,041M, adjusted EPS $0.97
+2025-06-29 :: Illumina 2025Q2 ends; revenue $1,059M, adjusted EPS $1.19, buyback $370M
+2025-09-28 :: Illumina 2025Q3 ends; revenue $1,084M, adjusted operating margin peaks at 24.5%; both $500M notes classified as current
+2025-12-28 :: Illumina fiscal 2025 ends; revenue $4,343M (−0.7%), adjusted EPS $4.84, adjusted operating margin 23.1%, FCF $931M; $500M debt repaid in Q4
+2026-03-29 :: Illumina 2026Q1 ends; revenue $1,091M (+4.8% YoY), adjusted EPS $1.15; goodwill rises $171M and intangibles $220M, pointing to an acquisition
+2026-06-28 :: Illumina 2026Q2 ends; revenue $1,159M (+9.4% YoY), adjusted EPS $1.31, adjusted operating margin 22.4%, FCF $162M
+2026-10-04 :: Illumina 2026Q3 ends (14-week quarter); consensus revenue $1,154M, adjusted EPS $1.36
+2026-10-10 :: Bloomberg consensus snapshot: FY2026 revenue $4,624.8M, adjusted EPS $5.36; FY2032 revenue $7,370.5M, adjusted EPS $12.30
+2027-01-03 :: Illumina fiscal 2026 (53 weeks) ends; consensus 2026Q4 revenue $1,220M, adjusted EPS $1.54
+2028-01-02 :: Illumina fiscal 2027 ends; consensus revenue $4,918M, adjusted EPS $6.11
+2028-12-31 :: Illumina fiscal 2028 ends; consensus revenue $5,263M, adjusted EPS $7.01; 2028Q4 adjusted operating margin 28.9%

@@ -1,0 +1,146 @@
+Genomics Facility | Advanced Analysis Centre
+Skip to main content
+Skip to main content
+About AAC
+Genomics Facility
+Mass Spectrometry Facility
+Molecular and Cellular Imaging Facility
+NMR Centre
+Phytotron Facility
+All Equipment
+Genomics Equipment
+MS Equipment
+MCI Equipment
+NMR Equipment
+Phytotron Equipment
+All Services
+Genomics Services
+MS Services
+MCI Services
+NMR Services
+General Safety
+AAC Safety Handbook
+SponsorsContact Us
+AAC Genomics Facility
+Equipment List Book Equipment Services Fees Forms Useful Links Contact Us
+Contact Facility
+|
+Contact Facility
+|
+Contact the facility to discuss project design and sample requirements.
+Sequencing Request Form - Use this form to submit DNA templates (e.g. PCR amplicons, Plasmids) for sequencing. Recommended at least 100 ng DNA. Recommended concentration 10 ng/µL in 10 µL in molecular grade water or TE buffer. Concentration should be estimated by fluorometric methods such as Qubit/PicoGreen.
+Fill out all three tabs of the request form (first two tabs are mandatory)
+Signed request form emailed to genomics@uoguelph.ca
+Drop the samples off at room SSC 1401 with facility staff or in the Sample Drop-Off Freezer
+PromethION Sequencing
+The PromethION 24 is a high-throughput nanopore sequencer capable of natively sequencing both RNA and DNA with rapid turn-around times. The PromethION can load up to 24 flow cells, each capable of multiplexing 96 samples or more. It is also possible to re-use flow-cells, decreasing cost and waste. The PromethION 24 is suitable for long-read applications, including genome assembly, native methylation seq., direct RNA transcript sequencing (including alternate splicing), and metagenomics.
+SERVICE
+|
+INTERNAL
+|
+EXTERNAL
+|
+PromethION
+|
+Plasmid (1 Kb reads) Sequencing
+|
+Shotgun Metagenomics (1 Gbp), includes taxonomic classification, and optionally, pathway analysis
+|
+$125 (+$15/sample for optional pathway analysis)
+|
+|
+Bacterial Whole Genome Sequencing (400 Mbp), includes assembly and annotation
+|
+$100 ea; $75 ea for 48+ samples batched and submitted at once
+|
+|
+Whole flow cell for DIY libraries (80–100 Gbps+)
+|
+$1,200
+|
+|
+Optional PromethION Sample Processing
+|
+Purification and Quantification + Sample Normalization
+|
+$10
+|
+|
+PCR Amplification of low-input sample
+|
+$10
+|
+|
+Contact the facility to discuss project design and sample requirements.
+Illumina Sequencing Fees
+The Illumina NextSeq 1000 is an NGS sequencing system designed to miniaturize sample and reagent volumes and increase read output. The NextSeq 1000 is capable of many sequencing applications, including targeted metagenomics, whole genome sequencing, transcriptomics, immune repertoire profiling, sequencing of targeted panels, exomes and large panels, circulating tumor DNA, single-cell sequencing, and spatial profiling.
+Contact the facility to discuss services and applications.
+SERVICE
+|
+INTERNAL
+|
+EXTERNAL
+|
+Library prep. & seq.
+|
+Amplicon library preparation and sequencing (250k reads/sample, 2x300 cycles)
+|
+$50
+|
+Contact Facility
+|
+Amplicon library preparation and sequencing (50k reads/sample, 2x300 cycles)
+|
+$30
+|
+Contact Facility
+|
+16S Profiling (250k reads/sample, 2x300 cycles)
+|
+$50
+|
+Contact Facility
+|
+Library Preparation
+|
+Illumina DNA library preparation
+|
+$130
+Contact Facility
+|
+Library QC
+|
+$25
+|
+Contact Facility
+|
+Sequencing
+|
+NextSeq cartridges
+|
+|
+Contact Facility
+|
+300 cycle (1 x 150) P1
+|
+Contact facility
+|
+Contact Facility
+|
+600 cycle (2 x 300) P1 25M Reads
+|
+$1425 per 25M reads
+|
+Contact Facility
+|
+NovaSeq X
+|
+Contact Facility (est. installation June 2026)
+|
+Gene Expression Services
+Request Forms:
+Digital Droplet PCR Request
+Real-Time PCR Registration
+Real-Time PCR Request
+QuantStudio 7 Pro Subscription
+Equipment Used:

@@ -1,0 +1,13 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The Utah FY25 PDF (6.8MB) is reachable with no login, but its text is Flate-compressed. WebFetch could not read it. The only local tools I had were Read, WebFetch and WebSearch. Bash and PowerShell were unavailable, and Read needs pdftoppm, which isn't installed. So I could not extract the text with pypdf. Two web searches found no peer FY25 core annual report with Illumina discount or reagent narratives. The only snippet from the Utah PDF was a financial table row for a 'Genomics' core: FY25 total expenses ~$290K and revenue ~$257K. That is a search-engine snippet. I could not confirm that this row is the HTG sequencing core, and the snippet mentioned no Illumina, discount, Element or Ultima. The one relevant narrative that came up is the UTHSC FY23 Illumina discount negotiation (core leadership negotiated a larger percentage discount with its regional Illumina manager, running to June 2024). That report is S461, which is already covered, so I skipped it. I found no other core with a comparable narrative.",
+  "how_to_mine": "Run the PDF locally with python -I and pypdf (or pdftotext) from a separate, empty directory. The file is cached at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\83d903ef-d243-436e-8534-95c51fdb3cd4\\tool-results\\webfetch-1791794715856-w9qw1x.pdf. Otherwise re-download https://cores.utah.edu/wp-content/uploads/2025/09/FY25.pdf. Grep the text for 'High-Throughput Genomics', 'HTG', 'Illumina', 'NovaSeq', 'Element', 'Ultima', 'subsid' and 'rate'. Pull the per-core revenue, expense and subsidy table. Then fetch the FY24 and FY23 versions by changing the year and month in the URL path (/2024/..., /2023/...) to build a revenue and volume trend. For peers, search each university's research-cores annual-report page (for example 'research cores annual report FY25 sequencing recharge rates') one at a time, instead of one broad query.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Utah HSC Cores annual reports FY23-FY25 (cores.utah.edu/wp-content/uploads/YYYY/MM/FYxx.pdf): per-core revenue, expense and subsidy trend, once the text is extracted locally"
+  ],
+  "apify_requests": []
+}
+```

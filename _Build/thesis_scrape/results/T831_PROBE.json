@@ -1,0 +1,14 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The cninfo full-text search page is a JavaScript single-page app. WebFetch returned only unrendered template placeholders such as {{kwSearch}}, with no results. A standard web search for Berry Genomics' 2025 annual report returned no supplier table and no Illumina purchase figures. I made 2 tool calls and did not test cninfo's backend JSON API. That endpoint, which the site's own search box calls, may work with a POST request from a script, but I did not verify it. Without a rendered cninfo page, I could not read supplier-concentration percentages, any statement on moving off Illumina, or reagent-cost trends.\n\nThe only usable fact was the Berry Genomics figures on 10jqka: top-5 customers were RMB 109M, or 11.76% of revenue. That page showed no supplier data. The search also confirmed China's MOFCOM ban on Illumina sequencer exports, announced 4 Mar 2025. That ban is already in the known corpus context, and I did not open the source myself.",
+  "how_to_mine": "Do not use cninfo's front-end search. Option 1: POST to the cninfo backend endpoint http://www.cninfo.com.cn/new/fulltextSearch/full with searchkey=因美纳 (or NovaSeq, 华大智造), sdate/edate set to 2025-01-01 to 2026-10-12, and the annual-report category. Parse the JSON for announcement IDs, then download the PDFs from static.cninfo.com.cn. Option 2: pull the 年报 PDFs for 000710, 603882, 300244 and Annoroad directly from the cninfo or SZSE announcement lists. Read the 前五名供应商 table, 主要原材料, 采购模式 and risk-factor sections, and the 国产替代 / 华大智造 passages. Option 3: use eastmoney or 10jqka F10 pages (e.g. basic.10jqka.com.cn/000710/operate.html) for the supplier tables. Those pages may show supplier names and percentages as static text, but the snippet I saw was truncated.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "10jqka F10 'operate' pages (basic.10jqka.com.cn/<code>/operate.html) for the top-5 supplier tables of Berry Genomics, KingMed and Dian",
+    "cninfo backend endpoint /new/fulltextSearch/full, called with a script"
+  ],
+  "apify_requests": []
+}
+```

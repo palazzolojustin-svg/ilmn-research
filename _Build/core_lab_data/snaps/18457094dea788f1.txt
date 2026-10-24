@@ -1,0 +1,75 @@
+Next Gen Sequencing - iGE3 Genomics Platform - UNIGE
+About the University
+General Policy
+Teaching
+Excellence in research
+Community Services
+International
+University structure
+Rectorate
+Statistics
+History
+Sciences
+Medicine
+Humanities
+Social Sciences
+Economics and Management
+Law
+Theology
+Psychology and Educational Sciences
+Translation and Interpreting
+Centres and Institutes
+Admission
+Student Exchange
+Bachelor Programs (in French)
+Master Programs
+preparation
+mRNA-, DNA- or ChIP-seq
+110 CHF
+RNA-seq library
+with ribo-depletion
+Human, mouse, rat, bacteria
+140 CHF
+Low input RNA-seq
+library preparation
+160 CHF
+1 NovaSeq sequencing
+fraction
+- Single read 100 n -
+200 M of reads (+/- 20%)
+350 CHF
+1 NovaSeq sequencing
+fraction
+- Paired-end read 50 n -
+200 M of paired-end reads (+/- 20%)
+375 CHF
+1 NovaSeq sequencing
+fraction
+- Paired-end read 100 n -
+200 M of paired-end reads (+/- 20%)
+400 CHF
+1 NovaSeq sequencing
+fraction
+- Paired-end read 150 n -
+400 M of paired-end reads (+/- 20%)
+2,100 CHF
+800 M of paired-end reads (+/- 20%)
+2,900 CHF
+1 NovaSeq sequencing
+fraction
+- Paired-end read 250 n -
+400 M of paired-end reads (+/- 20%)
+3,100 CHF
+800 M of paired-end reads (+/- 20%)
+3,900 CHF
+1 NovaSeq sequencing
+fraction
+- Paired-end read 28-90 n -
+200 M of paired-end reads (+/- 20%)
+350 CHF
+Day of analysis
+350 CHF
+Newsletter
+By subscribing to our mailing list you will always be updated with the latest news.
+> Subscribe
+> Unsubscribe

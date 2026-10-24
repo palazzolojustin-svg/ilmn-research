@@ -1,0 +1,26 @@
+2020-01-01 :: Illumina's attempt to acquire PacBio (announced 2018) is abandoned after FTC opposition (Barclays cites 2020).
+2023-05-10 :: Barclays initiates PacBio at Equal Weight with a $14 price target.
+2024-03-28 :: UBS drops its rating on PacBio (previously Buy).
+2024-11-01 :: UBS reinstates PacBio at Neutral with a $2 target.
+2025-02-13 :: UBS sets PacBio Neutral target at $1.50.
+2025-06-24 :: Barclays cuts PacBio price target to $1.50.
+2025-08-07 :: PacBio Q2 2025 results: $40M revenue beats; FY25 guide narrowed to $155-165M.
+2025-10-01 :: First All of Us HiFi long-read data published.
+2025-11-05 :: PacBio Q3 2025 results: $38.4M revenue misses; FY25 guide cut to $155-160M; SPRQ-Nx paid beta begins.
+2025-12-15 :: Barclays raises PacBio target to $2.00.
+2026-01-15 :: PacBio closes sale of short-read (Onso) assets to Illumina for about $48.1M net cash.
+2026-02-03 :: Anthropic's Claude clinical-research plug-in triggers the "Claude crash" in Tools and CRO stocks.
+2026-02-12 :: PacBio Q4 2025 results ($44.6M revenue) and initial 2026 guidance of $165-180M revenue and 41-44% gross margin.
+2026-02-13 :: UBS keeps PacBio at Neutral with $1.50 target after Q4 2025.
+2026-02-25 :: PacBio and DNAstack announce federated HiFi rare-disease dataset via HiFi Solves.
+2026-03-06 :: Barclays sector note downgrades PacBio to Underweight ($1.50 target), citing Illumina TruPath and Roche Axelios competition.
+2026-03-15 :: PacBio's Basecamp Research Trillion Gene Atlas deal press-released (100,000 metagenomic samples).
+2026-04-14 :: Barclays cuts PacBio target to $1.00.
+2026-05-07 :: PacBio Q1 2026 results: $37.2M revenue misses; FY26 guide cut to $165-175M.
+2026-05-08 :: Barclays raises PacBio target to $1.50 on Basecamp deal, keeps Underweight.
+2026-05-31 :: SPRQ-Nx with multi-use SMRT Cells begins commercial shipments on Revio.
+2026-06-13 :: NEJM publishes clinical long-read genome sequencing rare-disease study showing 96.4% concordance.
+2026-08-05 :: PacBio Q2 2026 results; CEO Christian Henry steps down, COO Mark Van Oene becomes CEO; about 40 job cuts; FY26 guide cut to $155-165M; breakeven pushed to 2028.
+2026-08-05 :: Barclays cuts PacBio target to $1.25, keeps Underweight.
+2026-08-31 :: SPRQ-Nx launches on Vega (90 gigabases per run).
+2026-09-15 :: New PacBio CEO Van Oene at Morgan Stanley conference targets $40M 2027 savings and HT platform launch in 2027.

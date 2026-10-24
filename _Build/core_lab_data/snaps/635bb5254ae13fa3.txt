@@ -1,0 +1,163 @@
+Fees | Genomics Facility
+The University of Chicago
+OSRF FTP
+OSRF Home
+Genomics Facility
+FAQ
+Services
+NGS Sequencing
+RNA-Sequencing
+Quality Control
+10x Genomics
+Micro-Arrays
+Nano-String
+Methyl Sequencing
+Whole Genome Sequencing
+Forms
+Fees
+About Us
+Select Page
+Close
+NovaSEQ
+Service name |
+Unit |
+Internal rate |
+External rate |
+Industry rate |
+NovaCS-30M |
+sample |
+$225.00 |
+$239.00 |
+$249.00 |
+NovaRS-RZ-30M |
+sample |
+$275.00 |
+$299.00 |
+$309.00 |
+NovaRS-RZ-60M |
+sample |
+$375.06 |
+$399.00 |
+$409.00 |
+NovaSEQ-SP-500-FC-v1.5 |
+flowcell |
+$6,051.25 |
+$6,051.25 |
+$7,261.50 |
+NovaSEQ-SP-500-LN-v1.5 |
+lane |
+$3,191.97 |
+$3,191.97 |
+$3,830.36 |
+NovaX-10B-100-(SR100/PE50) |
+lane |
+$1,175.00 |
+$1,175.00 |
+$1,275.00 |
+NovaX-10B-200-(PE100) |
+lane |
+$1,475.00 |
+$1,475.00 |
+$1,599.00 |
+NovaX-10B-300-(PE150) |
+lane |
+$1,499.00 |
+$1,499.00 |
+$1,624.00 |
+Illumina Genotyping
+Service name |
+Unit |
+Internal Rate |
+External Rate |
+Industry Rate |
+Infinium processing |
+each |
+$15 |
+$15 |
+$15 |
+Methylation-Asthma-Array-processing fee |
+each |
+$25.52 |
+$25.52 |
+$25.52 |
+Multiplexing |
+lane |
+$50 |
+$50 |
+$50 |
+MiSEQv2-500bp |
+each |
+$1,499 |
+$1,499 |
+$1,799 |
+MiSEQv3-150bp |
+each |
+$1,149 |
+$1,149 |
+$1,449 |
+MiSEQv3-600bp |
+each |
+$1,949 |
+$1,949 |
+$2,249 |
+NextSeq-75bp-High |
+each |
+$1,899 |
+$1,899 |
+$2,399 |
+NextSeq-150bp-Mid |
+each |
+$1,499 |
+$1,499 |
+$1,899 |
+NextSeq-150bp-High |
+each |
+$3,399 |
+$3,399 |
+$3,799 |
+NextSeq-300bp-Mid |
+each |
+$2,199 |
+$2,199 |
+$2,499 |
+NextSeq-300-cyc |
+each |
+$5,499 |
+$5,499 |
+$5,599 |
+NanoString-GeoMx-CoreReagents |
+each |
+$500 |
+$550 |
+$600 |
+NanoString-GeoMx-labor |
+hour |
+$50 |
+$55 |
+$60 |
+RS-LowInput-Lib |
+sample |
+$234.06 |
+$249 |
+$249 |
+AVITI-seq-150bp-fc |
+each |
+$1,175 |
+$1,175 |
+$1,855.69 |
+AVITI-seq-300bp-fc |
+each |
+$1,836 |
+$1,836 |
+$2,897.33 |
+AVITI-seq-600bp-fc |
+each |
+$2,699 |
+$2,699 |
+$4,233.51 |
+Illumina Next Generation Sequencing Library Prep
+Service name |
+Unit |
+Internal Rate |
+External Rate |
+Industrial Rate |

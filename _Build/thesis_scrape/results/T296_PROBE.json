@@ -1,0 +1,30 @@
+Status update: I've used about 8 tool calls. The fetcher cuts off before the 10-Q's MD&A (Item 2), so I'm stopping and returning what I have.
+
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR filing list and the Q3 FY26 8-K press release were reachable with no login. The 10-Q main document (azta-20260630.htm) is readable only through the financial statement notes. The fetch tool truncated it before Item 2 (MD&A, p.41), so the 10-Q's pricing and academic language was not read. The press release and search summaries give Multiomics revenue, gross margin and guidance, but nothing on NGS price versus volume, academic discounts or NIH funding. I did not open the FY25 10-K or a call transcript. Azenta's reported recovery is largely NIH-project catch-up. That is mildly against the thesis on research volume, though the revenue is outsourced service work, not Illumina consumables.",
+  "how_to_mine": "Fetch the raw 10-Q at https://www.sec.gov/Archives/edgar/data/933974/000162828026054295/azta-20260630.htm with a fetcher that returns the full page, or use curl and extract text from Item 2 (page 41 onward). Search for 'Multiomics', 'pricing', 'NGS', 'academic' and 'NIH'. Do the same on the FY25 10-K (fiscal year ends 30 Sep 2025) and the Q2 FY26 10-Q, to compare the goodwill impairment language and price/volume bridges. Get the Q3 FY26 call transcript (5 Aug 2026) from Azenta's investor relations site or Quartr. Search it for 'pricing', 'NIH', 'catch-up' and 'competitive'. Also check the Q2 FY26 8-K ($112.4M Multiomics goodwill impairment) for what the impairment test assumed about pricing and demand.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Azenta's Multiomics NGS revenue grew in Jun-2026 quarter, helped by NIH-funded project catch-up, which suggests research outsourcing volume is not falling further.",
+      "detail": "Azenta Multiomics revenue was $73M in the quarter ended 30 Jun 2026, +10% y/y (+8% organic), driven by higher NGS and gene synthesis and partly offset by lower Sanger. Search summaries say North America NGS benefited from catch-up on delayed projects, including some NIH-funded ones. Management said this is not yet a broad-based recovery and research spend remains below prior-year levels. Full-year Multiomics organic guide was raised to -1% to flat, from down mid-single digits. The Multiomics GAAP gross margin was 45.6% vs 39.2% in Q2, which does not show NGS price pressure in the margin this quarter. The sources give no price versus volume split.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000933974/000162828026052642/azta-2026q326erxexx991.htm",
+      "date": "2026-08-04",
+      "source_name": "Azenta 8-K Ex. 99.1 (Q3 FY26 press release)",
+      "source_type": "filing",
+      "quote": "a modest improvement in Multiomics in North America",
+      "strength": "weak",
+      "why_new": "Azenta was only known for multiomics +8% organic (partly one-off catch-up); the guide raise and the 45.6% gross margin vs 39.2% in Q2 are new."
+    }
+  ],
+  "new_candidates": [
+    "Azenta Q3 FY26 earnings call transcript (5 Aug 2026), Q&A on NGS pricing and NIH catch-up",
+    "Azenta Q2 FY26 10-Q and 8-K: $112.4M Multiomics goodwill impairment assumptions"
+  ],
+  "apify_requests": []
+}
+```

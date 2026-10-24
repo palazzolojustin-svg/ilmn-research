@@ -1,0 +1,92 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "FDA PMA P250027 SSED (Guardant360 Liquid CDx): which sequencer is named, compared with Guardant's Q2'26 claim that the 'NovaSeq X transition' is complete",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/P250027B.pdf",
+      "access": "Open P250027B.pdf (the SSED) and search for 'NovaSeq', 'sequenc' and 'instrument' in the Device Description and Analytical Performance sections. Also open P250027A.pdf (the approval order) and P250027D.pdf. Cross-check the supplement list at https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250027. Then read the Guardant Q2'26 transcript (fool.com, 7 Aug 2026), which reports 'completion of the NovaSeq X transition for the liquid biopsy portfolio', and check whether that wording covers the approved CDx.",
+      "labels": ["1A"],
+      "rationale": "This gap is flagged as open in the known list. If the SSED names the NovaSeq 6000 (or 6000Dx), then a test approved in May 2026 locks one of the largest clinical accounts' regulated volume onto the 6000. Moving it to the X needs a PMA supplement (7–17 month clocks), which supports a sticky but priced tail. If the SSED names the X, it is the first FDA-approved test on the X. That cuts against permanence and implies faster conversion.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "US government purchase-order and award mirrors (Govly public awards, GovSignals, SweetSpot, govcontractfinder, SAM.gov): NovaSeq 6000 kit purchases and 6000 service renewals in 2026",
+      "url": "https://app.govly.com/public/awards/9a6e6f283609fb535504774bb62169a4",
+      "access": "The Govly award above was seen as a search snippet: Iowa State, awarded 26 May 2026, $14,374, covering a NovaSeq 6000 S2 kit plus two MiSeq kits. Search Govly, GovSignals and SweetSpot for 'NovaSeq 6000', 'S4 Reagent Kit', 'SP Reagent Kit', '20028313', '20028312', '20028400' and 'NovaSeq X 25B'/'20104706', for 2024, 2025 and 2026. Two 2026 6000 service notices are already confirmed: NCI sole-source maintenance on serial A01064 (posted 14 Aug 2026, https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014) and Navy NMRC full-service plan N3239826Q4072 (posted 22 Dec 2025). Tabulate by year: count of 6000 kit purchases vs X kit purchases, unit prices, and service renewals vs decommissions.",
+      "labels": ["1A", "2A"],
+      "rationale": "Federal and university buyers publish line-item buys. Comparing 6000 and X kit orders year by year gives an independent proxy for the research and government 6000 tail and its decay rate. Unit prices give price realization on 6000 kits; Illumina stopped disclosing 6000 revenue after Q4'25. Agencies still renewing 6000 service contracts in late 2026 (NCI, Navy) show the instruments are being kept, not retired.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Secondary market for used NovaSeq 6000s: asking prices and listing counts (SSLLC/Surplus Solutions, LabExchange, Exapro, MSU Surplus, Unigreenscheme, Liquidity Services/Fedequip, BidSpotter)",
+      "url": "https://ssllc.com/product/illumina-novaseq-6000-sequencing-system-a203798",
+      "access": "Confirmed live listings: SSLLC has several 6000 units (A203796, A203798, A203799, A104378, A117632; ask via quote or cart); MSU Surplus asks $60,000 (https://msusurplusstore.com/products/illumina-novaseq-sequencing-system); LabExchange/Labprocure asks €200,000 (https://shop.labexchange.com/en/illumina-novaseq-6000-sequencing-systemillumina-no.html); Exapro lists a 2022 unit (https://www.exapro.com/illumina-novaseq-6000-p241113061/); Unigreenscheme lists spares/repair units at ~£8,000. Use the Wayback Machine to date when each SSLLC SKU first appeared, and count 6000 lots in SSLLC/Liquidity auctions for 2024, 2025 and 2026. Note that $60K vs a ~$1M launch price is about a 94% value loss.",
+      "labels": ["1A"],
+      "rationale": "Rising listing counts and collapsing resale prices are a direct read on how fast labs are decommissioning the 6000, which is the denominator of the tail. A glut of cheap used 6000s also cuts both ways. Low-volume holdouts (Thaysen's cohort 1) can buy cheap spare boxes and stay on the 6000 longer, which supports permanence but on a shrinking, price-sensitive base. Units sold 'for spares' also feed a parts market that could extend lives past an end-of-service date.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "NIH RePORTER S10 instrument grants: 'replace NovaSeq 6000' abstracts, FY24–FY26",
+      "url": "https://reporter.nih.gov/",
+      "access": "On RePORTER, search abstract text for 'NovaSeq 6000' AND ('replace' OR 'replacement' OR 'NovaSeq X'), activity code S10, fiscal years 2024–2026. Export the CSV: institution, award amount, stated $/Gb or cost savings, and whether the 6000 is retired or kept. UAMS S10OD036394 is already known; others to test include UW–Madison ('Replacement of an Illumina NovaSeq 6000 with a NovaSeq X Plus', https://research.wisc.edu/uncategorized/2024/06/27/replacement-of-an-illumina-novaseq-6000-with-a-novaseq-x-plus/) and UF ICBR. Also search 'AVITI' or 'Element' S10 awards that replace a NovaSeq.",
+      "labels": ["1A", "2A", "2B"],
+      "rationale": "S10 abstracts state why a core replaces its 6000 and the cost saving it expects (UF 'up to 60%', UAMS ~80%). The count of FY26 replacement grants shows how many research 6000s remain and are being funded out. Awards replacing a 6000 with Element or other non-Illumina boxes show research share leaking at the 6000 end-of-life window, which supports 2B.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "European device-safety notices for the NovaSeq 6000Dx (BfArM, MHRA, HALMED): installed Dx base and catalog scope",
+      "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/08/2025/01263-25_kundeninfo_en.pdf",
+      "access": "Open BfArM notices 01263/25, 31889/24 and 14389/24 (same path pattern), the HALMED Croatian republication, and the MHRA FSN list for 13–17 Jan 2025. Look for affected serial ranges, unit counts per country, software versions, and any language on support duration. Also search the Swissmedic, ANSM and FDA recall databases (accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES) for 'NovaSeq 6000Dx', where recall entries list the number of units in commerce.",
+      "labels": ["1A"],
+      "rationale": "Field safety notices and FDA recall records often state the number of units in distribution. That would give the first hard count of the regulated 6000Dx base, the clinical units most likely to be 'permanent', and some countries show the split by country. Notices that commit to continued software or security patches imply Illumina is still supporting the platform.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Public tenders in the UK, EU and Canada (Contracts Finder, Find a Tender, TED, CanadaBuys): 6000 maintenance renewals and consumables frameworks split between 6000 and X",
+      "url": "https://www.contractsfinder.service.gov.uk/Notice/2b3405cc-ee07-410c-a3b2-17114c293cd9",
+      "access": "Confirmed: NHS Leeds 6000 maintenance contract £119,360 from 18 Jan 2026 (Contracts Finder, published 11 Feb 2026); Uniklinik Aachen 6000 maintenance tender (Mar 2026, https://auftrag.ai/en/notices/wartungsvertrag-fuer-ein-novaseq6000-system-firma-illumina); BC PHSA 6000 + X Plus consumables, $4.3M (2023, https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/bcphsa12658). Check whether BC PHSA renewed in 2024–26 and whether the 6000 was dropped from scope. On TED, search 'NovaSeq 6000' with CPV 33696500 and 50421000 (maintenance), 2025–2026. Record multi-year maintenance terms: a 3–5 year service contract signed in 2026 implies a planned use horizon to 2029–31.",
+      "labels": ["1A"],
+      "rationale": "Hospital and public-lab maintenance contracts reveal how long clinical labs expect to keep their 6000s, which tests the 'permanent tail' claim directly. Renewal of a combined 6000 + X consumables framework with the 6000 dropped would be hard evidence of conversion. The contract values also give a price per instrument for service, a revenue stream Illumina does not disclose.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Distributor catalog price history for NovaSeq 6000 kits (Government Scientific Source GSA SKUs) via the Wayback Machine",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20028313/EA/",
+      "access": "Open govsci.com SKU pages 20028313 (S4 v1.5, 200 cycles), 20028312 (S4, 300 cycles), 20028400 (SP, 300 cycles), 20028315 (S2), and the X 10B/25B SKUs. Pull every Wayback snapshot (web.archive.org/web/*/govsci.com/product-detail/Illumina*20028313*) from 2023 to Oct 2026 and chart list price over time, 6000 vs X. Look especially for 6000 price increases in 2026 (CNAG showed +4%), which would fit a strategy of milking the tail.",
+      "labels": ["1A", "1B"],
+      "rationale": "The known list has single-point GSA prices, not a time series. A rising 6000 kit price alongside a flat or falling X price would show Illumina harvesting an inelastic tail, which matches the 41%-of-revenue-on-17%-of-Gb gap and suggests the tail's dollars are being propped up by pricing. Any 6000 cut would point to Illumina pre-emptively repricing the tail, a new headwind.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Clinical job postings that still require NovaSeq 6000 experience (2026), compared with X-only postings",
+      "url": "https://www.indeed.com/jobs?q=%22NovaSeq+6000%22",
+      "access": "Run the Apify request below. Filter to clinical employers (CLIA/CAP labs, hospital molecular pathology, NIPT/oncology labs other than the known Tempus and Natera). For each, record whether the posting lists the 6000 only, both instruments, or the X only. Repeat for Wayback-archived 2025 postings where possible.",
+      "labels": ["1A"],
+      "rationale": "Postings that name only the 6000 in late 2026 mark labs with no conversion plan, which is the permanent tail. 'Both' marks dual-running labs mid-conversion. The mix across roughly 100–200 postings is a cheap proxy for Thaysen's cohort map, which is not otherwise disclosed.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Peer-reviewed and conference validation studies of 6000→X migrations in regulated or clinical assays (medRxiv, PubMed, AMP 2025, ESHG/ASHG 2026 abstracts)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%22NovaSeq+X%22+AND+(clinical+validation+OR+CLIA+OR+concordance)&filter=years.2025-2026",
+      "access": "Search PubMed and medRxiv for 'NovaSeq X' with 'clinical validation', 'CLIA', 'bridging' or 'NovaSeq 6000', 2025–2026. Also search the AMP 2025 abstract supplement (J Mol Diagn) and the ASHG 2026 abstract site for 'NovaSeq X' validation posters. Record lab, assay type, validation date, and whether the 6000 is retired after validation. Illumina tech notes (TSO500 ctDNA v2 6000/X concordance, M-GL-03016) show the vendor is supplying migration kits.",
+      "labels": ["1A", "1C"],
+      "rationale": "Each published clinical validation on the X is a dated conversion event. A burst of 2026 validations from oncology, NIPT and rare-disease labs means the '20% never moves' tail is shrinking faster than management claims, which supports ~5 points of 2027 conversion. A drought would support the frozen-tail watch-out.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "misceres/indeed-scraper",
+      "input": {"position": "\"NovaSeq 6000\"", "country": "US", "maxItems": 200, "parseCompanyDetails": false, "saveOnlyUniqueItems": true},
+      "why": "Identify clinical labs that still list only the NovaSeq 6000 (permanent tail) vs both instruments (mid-conversion) in Oct 2026 postings. Proxy for the undisclosed cohort map and the 2027 conversion pace.",
+      "max_items": 200
+    },
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {"queries": "\"NovaSeq 6000\" maintenance contract 2026\n\"NovaSeq 6000\" reagent kit award 2026\n\"NovaSeq 6000\" decommission OR retire 2026 core facility\n\"NovaSeq 6000\" for sale used\n\"NovaSeq 6000\" site:govly.com\n\"NovaSeq 6000\" site:ted.europa.eu", "resultsPerPage": 50, "maxPagesPerQuery": 2, "countryCode": "us"},
+      "why": "Bulk-collect 2026 procurement, retirement and resale mentions of the 6000 across government, tender, core and resale sites, so a later agent can count service renewals vs retirements and kit purchases by year.",
+      "max_items": 200
+    }
+  ]
+}
+```

@@ -1,0 +1,31 @@
+Sequencing « Center for Quantitative Life Sciences
+Oregon State University
+Blogs @Oregon State University
+Center for Quantitative Life Sciences
+The official blog of the CQLS
+Skip to primary content
+Skip to secondary content
+Home
+Category Archives: Sequencing
+Coming soon: Illumina MiSeq i100
+Posted on October 17, 2025 by Brent Kronmiller |
+Leave a reply
+The CQLS was awarded a 2025 Research Equipment Reserve Fund (RERF) to purchase a new Illumina MiSeq i100.
+The CQLS has run an Illumina MiSeq for 12 years as the center of a highly successful low-range sequencing service. Primarily used for microbiome, environmental, and amplicon samples, the MiSeq offers a lower volume of Illumina high-throughput sequencing compared to the CQLS’ Illumina NextSeq. Illumina is transitioning the original MiSeq to end-of-life service. By upgrading to the new MiSeq i100, the CQLS will replicate our current sequencing abilities while drastically reducing instrument maintenance costs for the CQLS and consumable costs for OSU researchers.
+The Illumina MiSeq i100 is a next-generation sequencer that sequences low-volume flow cells, 5 Million sequences in 300 or 600 base-pair lengths or 25 Million sequences in 100, 300, or 600 base-pair lengths. The MiSeq i100 is quicker and cheaper to run than other short-read sequencers.
+Key features include:
+Cost efficiency: Cost-effective consumables enable more affordable sequencing
+Speed: Dramatic reduction in run times: as fast as four hours, with same-day results (4× faster than MiSeq)
+Room-temperature shipping and storage for reagents: Allowing for greater flexibility to sequence on demand without the need to thaw reagents
+Simplicity: Simpler, streamlined operations for various levels of sequencing experience
+The new MiSeq i100 is upgraded from the original MiSeq in several ways. Flow cells are lower-cost and higher volume so researchers will be able to obtain more sequence at a lower price. The small volume sequencing (1M) of the original MiSeq is no longer offered but researchers will be able to sequence higher volume runs at a lower or similar price. Running the instrument is also more streamlined: run times are 4x faster; many reagents and consumables are now stored in room temperature; the instrument is simpler to maintain resulting in a lower yearly service contract price.
+MiSeq i100 overview:
+https://www.illumina.com/systems/sequencing-platforms/miseq-i100.html
+MiSeq i100 specification:
+https://www.illumina.com/systems/sequencing-platforms/miseq-i100/specifications.html
+MiSeq i100 research applications:
+https://www.illumina.com/systems/sequencing-platforms/miseq-i100/applications.html
+Posted in laboratory, Sequencing.
+Interview: Pacific Biosciences (PacBio) Sequel Service
+Posted on September 27, 2019 by gibbond
+Aaron Trippe discusses the changes and challenges of working with the PacBio Sequel since 2016. He discusses improvements in the technology since 2016 and has advice for user who would like to utilize this service.

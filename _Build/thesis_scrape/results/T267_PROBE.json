@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 2 searches and 4 fetches. German ex-post notices for Illumina reagents do exist, but I found no unit prices, quantities or non-Illumina awards. (1) The FLI Jena notices (Nov 2022, May 2024, Dec 2025) name the Illumina GmbH award but give no value in the search snippets. The FLI PDF URLs returned 404 on fetch. (2) The auftragone.com (formerly auftrag.ai) aggregator shows an HZI NovaSeq X 10B/1.5B reagent-kit award notice from 17 Nov 2025. Its value and awardee fields are locked behind signup, so it is effectively paywalled. (3) The search tool returned a Publications Office record for Helmholtz Munich, NovaSeq X kits, status Awarded 06/12/2024, with a final value of EUR 1.00. That is a placeholder, not a price. I did not open it. (4) The TED PDFs (502315-2023 and others) came back empty. (5) A search snippet showed Universität zu Köln (West German Genome Center) tendering NovaSeq 6000 chemicals at about EUR 100K and EUR 1.66M net. I did not open it and it is outside the Max Planck, Helmholtz and Leibniz scope. I found no Max Planck hits. I found no awards to Element, Ultima, MGI or Roche. The German UVgO direct-award route (negotiated procedure for existing instruments) routinely names Illumina as sole supplier, which is consistent with lock-in. It offers no price series.",
+  "how_to_mine": "Use the TED API or search (ted.europa.eu, CPV 33696500 or 38000000, text 'Illumina' or 'NovaSeq', country DE, award notices, 2023-2026). Pull the XML or eForms for 'Result' notices, which carry total value, number of tenders and winner. Check the Publications Office procurement-details record for Helmholtz Munich 06/12/2024. Fetch the Köln WGGC notices on evergabe.nrw / TED for quantities. The FLI PDFs need the live URL from leibniz-fli.de/public_allocations. Only notices that give a quantity and a value yield EUR/flow-cell prices. Expect few of these.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "TED eForms result notices (DE, 2023-2026) for Illumina NovaSeq X reagent kits: total value plus quantity gives EUR per 10B/25B flow cell",
+    "Universität zu Köln West German Genome Center NovaSeq 6000 chemicals tenders (about EUR 100K and EUR 1.66M net) on evergabe.nrw / TED",
+    "Publications Office record for Helmholtz Munich NovaSeq X kits (awarded 6 Dec 2024)"
+  ],
+  "apify_requests": []
+}
+```

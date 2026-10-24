@@ -1,0 +1,68 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Massachusetts Life Sciences Center (MLSC) Biobank Program RFP for whole-genome sequencing (Mar 2026), plus its award",
+      "url": "https://www.masslifesciences.com/wp-content/uploads/RFP_-Whole-Genome-Sequencing.pdf",
+      "access": "I opened the PDF. Only the metadata was readable: title 'Request for Proposal (RFP): Whole Genome Sequencing for MLSC Biobank Program', created 2 Mar 2026. The body is Flate-compressed. A copy is saved at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\25530552-7a1d-4f41-8a29-d4e2ed7e95a6\\tool-results\\webfetch-1791794755552-wyitb4.pdf. Next steps: (1) Extract the text locally with pypdf or pdftotext (python -I). Pull the sample count, platform requirements, any per-genome ceiling, the price weight in scoring and the award timeline. A search snippet says responses were due Fri 17 Apr 2026. (2) Search masslifesciences.com for the award: board-meeting minutes and votes (search 'Biobank' 'sequencing' 'award' 2026) and news releases. Record the winning vendor, total value and per-genome price.",
+      "labels": ["2B", "2A"],
+      "rationale": "This is a 2026 publicly funded research buy of a commodity WGS dataset with an explicit price competition. If the award, or its board vote, gives a per-genome price, it is a dated realized research price that can be compared with the ~$200 Illumina list genome and the $150 AXELIOS / $80–100 Ultima/Element claims. It would show whether research buyers are clearing below Illumina-economics levels, and whether a non-Illumina platform or a low-cost provider won.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Element Biosciences 'AVITI EURO 2025 Price List V7', hosted by Tampere University (created 12 Nov 2025, modified 2 Apr 2026)",
+      "url": "https://content-webapi.tuni.fi/proxy/public/2026-05/element-biosciences-aviti-euro-2025-price-list.pdf",
+      "access": "I opened it. It is a compressed PDF, saved locally at ...\\25530552-7a1d-4f41-8a29-d4e2ed7e95a6\\tool-results\\webfetch-1791794757128-5eb00j.pdf. A search snippet showed: Cloudbreak FS High Output 2x150 (1B reads, 300 Gb) €1,676.51 (≈€5.59/Gb); Medium Output €1,077.75; 2x300 HO €1,876.09. Extract the text locally and record every kit, including any AVITI24/Trinity lines. Then read the Tampere upload folder context: search 'content-webapi.tuni.fi/proxy/public/2026-05' and Tampere procurement 'hankinta' 'sekvensointi' 2026. That may be an attachment to a Finnish direct-award or tender justification that also carries an Illumina quote. Compare with the GSA 25B-300 ($2.30–3.02/Gb) and 10B-300 ($3.62–4.83/Gb) prices already in the corpus.",
+      "labels": ["2B", "2A", "1B"],
+      "rationale": "This is a dated vendor list price (not a core recharge rate) for Element in Europe, posted on a university procurement host in May 2026. Element's mid-throughput list price at ~€5.6/Gb, fixed for life, is close to Illumina's 10B and 1.5B per-Gb economics. That squeezes mid-throughput research pricing, where Illumina admitted it has 'premium cost per gigabase'. If the attachment comes from a Finnish procurement file, it may also show the Illumina price Tampere was offered or paid.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Illumina Single Cell 3' RNA Prep (PIPseq) launch discounts at academic service cores: HKU CPOS half-price launch (24 Nov 2025–13 Feb 2026) and Illumina SAPAC 'democratize single-cell' positioning",
+      "url": "https://cpos.hku.hk/illumina-single-cell-service-launch/",
+      "access": "Seen in a search result only; not opened. Open the page and record the price before and after, the dates and whether the 50% covers sequencing or only prep. I opened the Illumina SAPAC webinar page (https://sapac.illumina.com/events/webinar/2026/Webinar-Revolutionising-scRNA-Seq-accessibility-overview.html; 4 Feb 2026). It is dry: there is only a 'cost-effective solution designed to democratize single-cell sequencing' claim with no numbers. Then search 'Illumina Single Cell Prep' with 'introductory price', 'launch promotion', 'per sample' and '2026' on .edu and .hk/.sg core pages to collect any $/sample figures.",
+      "labels": ["2B", "2A"],
+      "rationale": "Single-cell counting work is the research segment most exposed to AXELIOS and Ultima (10x partners with both). Evidence that Illumina-linked single-cell workflows are launched at 50% off at academic cores is a concrete research price concession in a counting application. It ties directly to the AXELIOS/10x threat named in 2B. The HKU item is Asia-based and small, so its value is qualitative unless more instances turn up.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Genohub per-sequencer reagent-cost pages (NovaSeq X Plus page dated 9 Apr 2024) as a fixed baseline vs current Genohub pages for other platforms",
+      "url": "https://genohub.com/ngs-sequencer/3/illumina-novaseq-x-plus",
+      "access": "I opened the page. It shows MSRP $1.25M (Feb 2024) and reagent $/Gb by flow cell: 1.5B $5.20, 5B $3.38, 10B $3.20, 25B $2.00, 'up-to-date as of April 9, 2024'. Iterate the IDs in genohub.com/ngs-sequencer/<id>/<slug> (try 1–60) and record every platform's $/Gb and 'as of' date, looking for AVITI24, UG100/UG200, AXELIOS, VITARI and DNBSEQ-T7. Also check whether Genohub has updated the X page since 2024 (a later date would give a time series).",
+      "labels": ["1B", "2B"],
+      "rationale": "Genohub is a neutral research-marketplace reference that research buyers use. A platform-by-platform $/Gb table with dates would show the per-Gb gap research buyers see, and any post-2024 update to Illumina's line would show list-price movement. Payoff is low unless the pages were refreshed in 2025–26; the X page itself is stale (2024).",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "University of Minnesota Genomics Center 'preferred Ultima UG 100 pricing for 10x Genomics projects' (steering research single-cell volume off Illumina with a $500/wafer discount)",
+      "url": "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects",
+      "access": "Seen in a search result only; not opened. The snippet says: −$500/wafer (10–12B reads), −$250/half wafer; preferred $2,409 UMN / $2,712 external per wafer. Open it and record the date and the equivalent UMGC NovaSeq X 25B lane price on the same date. Also open https://genomics.umn.edu/news-events for any 2026 follow-ups (UG 200, AXELIOS, any matching NovaSeq price cut).",
+      "labels": ["2B", "2A"],
+      "rationale": "This is dated evidence that a large academic core actively subsidizes a non-Illumina platform for counting (10x) work, roughly $0.20–0.27 per million reads vs ~$0.85–1.20 per million reads on a 25B lane. It is a mechanism by which research counting volume leaves Illumina or forces a price match. Caveat: UMN Ultima pricing is partly in the corpus (~$12/50M reads), so only the dated 10x-specific subsidy and any 2026 Illumina response are new.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Google-at-scale sweep for 2026 grant-budget and AXELIOS research price statements (needs Apify; see request)",
+      "url": "https://www.google.com/search?q=%22AXELIOS%22+%22per+sample%22+site%3A.edu",
+      "access": "Run through the Apify request below; WebSearch returned nothing on point. Queries: '\"AXELIOS\" (\"per sample\" OR \"per genome\" OR \"per lane\") site:.edu'; '\"SBX\" sequencing \"rate\" core 2026'; '\"NovaSeq X\" \"budget justification\" 2026 filetype:pdf'; '\"sequencing costs\" \"per sample\" \"FY27\" budget guidance site:.edu'; '\"price reduction\" (\"NovaSeq X\" OR \"25B\") 2026 site:.edu -novogene'; '\"Illumina\" \"price increase\" OR \"price decrease\" 2027 reagents site:.edu'.",
+      "labels": ["2B", "2A", "1B"],
+      "rationale": "Twelve WebSearch probes found no public AXELIOS service rate, no FY27 sponsored-programs 'standard sequencing cost' guidance and no 2026 Illumina academic promotion. The remaining places such data could sit (grant-budget PDFs, early-access core announcements, internal FY27 budgeting memos) are long-tail and need many queries with deep result pages, which is what a Google SERP scraper does cheaply.",
+      "expected_payoff": "medium"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "\"AXELIOS\" \"per sample\" site:.edu\n\"AXELIOS\" \"per genome\" core facility\n\"SBX\" sequencing rate core facility 2026\n\"NovaSeq X\" \"budget justification\" 2026 filetype:pdf\n\"sequencing\" \"per sample\" \"FY27\" budget guidance site:.edu\n\"price reduction\" \"NovaSeq X\" 2026 site:.edu -novogene\n\"25B\" \"price\" \"effective\" 2026 \"reduced\" genomics core\n\"Illumina\" reagent \"price increase\" 2027 site:.edu\n\"Illumina\" \"price decrease\" 2026 sequencing core\n\"AXELIOS\" \"early access\" core facility sequencing rates",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "countryCode": "us",
+        "languageCode": "en"
+      },
+      "why": "2B needs realized 2026–27 research price evidence tied to AXELIOS or to large-lab negotiation. Standard WebSearch hits are saturated with core rate cards already in the corpus. A deeper SERP pull (100 results per query) can surface long-tail grant-budget PDFs, AXELIOS early-access rate notices and FY27 core price-change memos for a later agent to open and verify.",
+      "max_items": 200
+    }
+  ]
+}
+```

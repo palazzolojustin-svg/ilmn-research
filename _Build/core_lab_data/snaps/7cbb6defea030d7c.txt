@@ -1,0 +1,106 @@
+Sequencing Core | Research Cores
+Skip to main content
+University of California, Los Angeles
+Translate
+Search
+Research Cores
+Cores
+Cores sub-navigation
+Animal Models & Preclinical Research
+Biorepository & Database
+Cellular & Molecular Analysis
+Center for AIDS Research
+Clinical Research
+Data Sciences
+Imaging
+Materials Science
+Microbiome Research
+Plant Taxonomy
+Research Coordination
+University of California, Los Angeles
+Close the search dialog
+Search
+Try looking up topics of interest.
+Search
+Press to search
+The technology in this Core offers capabilities including SNP mapping, RNA expression measurements, ChIP-seq and DNA methylation analysis at a genome-wide scale.
+Such capabilities enable researchers to study the regulation of thousands of genes in a single experiment, providing critical insights into the molecular biology of a cell.
+The Core is located in the Terasaki Life Sciences Building, Room 3110.
+Leadership
+Steve Jacobsen, Ph.D.
+Distinguished Professor, Molecular, Cell, and Developmental Biology
+Contact
+Website: Sequencing Core
+Equipment
+Sequencers
+Illumina NovaSeq X Plus
+State-of-the-art next-generation sequencing (NGS) system that offers unparalleled accuracy, speed and throughput at the lowest possible cost for RNA-seq, whole genome, whole exome and targeted DNA sequencing.
+Illumina iSeq
+A flexible sequencing system with a wide range of applications that is ideal for small genome sequencing, targeted and amplicon sequencing as well as viral and microbial sequencing.
+QC Equipment
+Perkin Elmer Janus G3 liquid handler
+A library preparation device programmed to execute several protocols for DNA-seq (whole genome, ChIP) and RNA-seq library preparation.
+Agilent TapeStation 4200
+A quality control system used for automated electrophoresis of 1 to 96 samples. It is strongly recommended that this platform be used for all quality control steps of next-generation sequencing experiments.
+Pricing
+﻿"Service Description" |
+Read Number |
+Internal Rate |
+External Rate Non-Profits |
+External Rate |
+iSeq 100 2x150bp |
+4 million |
+$716 |
+$806 |
+$838 |
+NovaSeq X Plus - 1.5B 2x50bp |
+800 million |
+$2,046 |
+$2,433 |
+$2,846 |
+NovaSeq X Plus - 1.5B 1x100bp |
+800 million |
+$2,046 |
+$2,433 |
+$2,846 |
+NovaSeq X Plus - 1.5B 2x100bp |
+800 million |
+$2,542 |
+$3,014 |
+$3,518 |
+NovaSeq X Plus - 1.5B 2x150bp |
+800 million |
+$2,784 |
+$3,307 |
+$3,866 |
+NovaSeq X Plus - 10B 2x50bp |
+1.25 billion |
+$1,556 |
+$1,798 |
+$2,057 |
+NovaSeq X Plus - 10B 1x100bp |
+1.25 billion |
+$1,556 |
+$1,798 |
+$2,057 |
+NovaSeq X Plus - 10B 2x100bp |
+1.25 billion |
+$1,850 |
+$2,109 |
+$2,386 |
+NovaSeq X Plus - 10B 2x150bp |
+1.25 billion |
+$1,962 |
+$2,234 |
+$2,524 |
+NovaSeq X Plus - 25B 2x150bp |
+3.25 billion |
+$3,168 |
+$3,538 |
+$3,933 |
+Geffen Hall
+885 Tiverton Drive
+Los Angeles, CA 90095
+Facebook
+X-Twitter
+Instagram

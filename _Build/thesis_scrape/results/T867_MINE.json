@@ -1,0 +1,136 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "The ~15% concession that Illumina's Taiwan distributor 均泰 gives off its opening bid is a long-standing constant going back to 2013–2020. It is not new in 2022–25, and across the same recurring buyers the median concession is lower after 2021 than before.",
+      "detail": "Concession vs opening bid, recurring single-bid lots. 2017–2020: CDC 11.5/14.1/15.0/11.1%; Forensic Institute 20.2 (vs budget)/15.2/15.5/15.8/17.2%; Academia Sinica 19.4 (2013, vs budget)/20.0/20.0%; NTU Medicine 18.0%; Taipei VGH ~19.5–21%; Veterinary Research Institute (VRI) 0.8/2.3%. Median is ~15.5%. 2021–2026: CDC 11.1/5.6/5.0/9.0/17.4%; VRI 10.2/10.6/15.1/15.1/16.6%; NTU Medicine 8.5%; Taipei VGH 20.0%; Forensic 11.5% (2026, from F984). Median is ~11%. All lots are single-bid awards to 均泰 with US- or Singapore-origin goods.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=次世代定序儀專用建庫試劑及晶片",
+      "date": "2013-08-14 to 2026-10-08",
+      "source_name": "Taiwan PCC (Government e-Procurement) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F1087 covered only 2022–25. This adds the 2013–2021 baseline from 15 extra awards and shows no widening."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan CDC's annual Illumina library-reagent and chip lot shows no widening discount over nine years. The concession ran 11–15% in 2017–21, narrowed to 5–9% in 2022–24, and reached 17.4% only when the 2025 lot grew about 5x.",
+      "detail": "Opening bid → award (NT$): 2017 1,503,125→1,330,000 (−11.5%); 2018 1,121,625→964,000 (−14.1%); 2019 1,123,625→955,000 (−15.0%); 2020 4,895,790→4,350,000 (−11.1%); 2021 4,445,540→3,950,000 (−11.1%); 2022 4,967,500→4,690,000 (−5.6%); 2023 2,420,060→2,299,000 (−5.0%); 2024 2,515,500→2,290,000 (−9.0%); 2025 12,322,375→10,180,000 (−17.4%). Every year had one bidder (均泰), and most years needed a re-tender after an initial no-bid (流標).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.1&job_number=KA114045",
+      "date": "2017-10-02 to 2025-08-28",
+      "source_name": "Taiwan PCC – 衛生福利部疾病管制署 award notices (ZH106102, ZH107007, ZH107085, JK109036, HP109058, LA111003, HP112030, HP113021, KA114045)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "First nine-year concession series for one buyer and one item family. F983 had only the 2026 CDC lot."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At Taiwan's Veterinary Research Institute (VRI), the concession on the same Illumina library-reagent and chip lot widened steadily, from ~1% (2019) to ~10% (2021–22) to 15–17% (2024–26).",
+      "detail": "Opening bid → award (NT$): 2019 1,891,000→1,876,000 (−0.8%); 2020 870,000→850,000 (−2.3%, related reagent lot A-109-0260); 2021 2,773,100→2,490,000 (−10.2%); 2022 616,725→551,500 (−10.6%); 2024 1,324,375→1,125,000 (−15.1%); 2025 1,467,375→1,246,000 (−15.1%); 2026 1,912,500→1,595,000 (−16.6%, origin now Singapore). All were single-bid awards to 均泰. This is the only recurring buyer in the set whose discount clearly widened.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.19.13&job_number=115-2013",
+      "date": "2019-07-15 to 2026-10-08",
+      "source_name": "Taiwan PCC – 家畜衛生試驗所 / 農業部獸醫研究所 (B-108-0506, A-109-0260, B-110-0226, B-111-0155, B-113-0618, B-114-0880, 115-2013)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F1094 saw a constant ~15% in 2024–26. The 2019–22 baseline of 1–11% is new and shows widening at this small account."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan's Institute of Forensic Medicine got its biggest Illumina NGS reagent concessions in 2017–2020 (15–20%). Its 2026 concession of 11.5% is smaller.",
+      "detail": "Award vs opening bid or budget (NT$): Feb 2017 budget 1,422,500→1,135,000 (−20.2%); Jul 2018 872,250→740,000 (−15.2%); Jan 2019 2,817,750→2,380,000 (−15.5%); Nov 2019 855,000→720,000 (−15.8%); May 2020 2,415,000→2,000,000 (−17.2%). The 2026 lot got 11.5% off after two failed rounds (F984). All lots had one bidder (均泰).",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=基因鑑定用次世代定序儀器試劑",
+      "date": "2017-03-09 to 2020-05-18",
+      "source_name": "Taiwan PCC – 法務部法醫研究所 (621060207, 621070620, 621071227, 621081023, 621090318)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Pre-2021 history for the forensic buyer; only the 2026 lot was known."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Academia Sinica's research Illumina high-throughput reagent buys were awarded at exactly 20% off the opening bid in both 2019 and 2020, and about 19% off budget in 2013. That is a fixed formula, not research buyers forcing ever deeper discounts.",
+      "detail": "BRCAS10899-1 (Dec 2019): 5,395,500→4,316,400 (−20.0%; 101 estimated items). BRCAS10991 (Dec 2020): 9,050,125→7,240,000 (−20.0%). BRCAS10238 (Aug 2013): budget 1,600,000→1,289,000 (−19.4%). All were single-bid awards to 均泰 under restricted tender. No later lots under this title appear after 2020.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=2.1&job_number=BRCAS10991",
+      "date": "2013-08-14 to 2020-12-31",
+      "source_name": "Taiwan PCC – 中央研究院 生物多樣性研究中心",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Academia Sinica's Illumina reagent concession history was not in the corpus (only its 2026 AVITI buy was, F870)."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taipei VGH's two-year Illumina reagent open contract was priced at a uniform 20.0% off list on every line in 2022, the same as in 2019. That points to a fixed distributor discount schedule, not account-specific deepening.",
+      "detail": "111206Q (May 2022, 2-yr): all 8 items were awarded at exactly 80% of the bid, e.g. 240 sets of MiSeq Micro v2 500-cycle kits 4,590,000→3,672,000 (NT$15,300/set) and 10 sets of v3 600-cycle kits 842,500→674,000 (NT$67,400/set). The total was 8,523,000→6,816,000. In 108491N (Nov 2019), line items ran −19.4% to −21% (Micro kit 2,716,000→2,182,600), and the 13 visible lines total 4,505,600→3,551,230 (−21.2%). F1089 later shows the CGP lot's discount shrinking to 7.5%.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=111206Q",
+      "date": "2019-12-02; 2022-05-11",
+      "source_name": "Taiwan PCC – 臺北榮民總醫院",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Itemized 2019/2022 reagent lines with unit prices at Taipei VGH; the corpus had only 2023+ lots for this hospital."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "NTU College of Medicine's Illumina sequencing-reagent concession narrowed from 18.0% in 2019 to 8.5% in 2022, while the lot value shrank.",
+      "detail": "1083C002 (May 2019, ~1-yr open contract): 8,262,500→6,775,250 (−18.0%). 1111A009 (May 2022, ~22-month contract): 2,350,000→2,150,000 (−8.5%). Both were single-bid awards to 均泰. The award value fell ~68%, or ~83% annualized, so this research account bought far less, and it got a smaller discount rather than a bigger one.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20&job_number=1111A009",
+      "date": "2019-05-22; 2022-05-05",
+      "source_name": "Taiwan PCC – 國立臺灣大學 醫學院",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F1088 covered NTU Medicine's ceiling decline for 2022–25. The 2019 baseline and the narrowing concession are new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina's concession on NHRI's four-unit NovaSeq 6000 service contract went from small to nothing (2.5% in 2018, 1.4% in 2019, 0% in 2022), so Illumina is not discounting to keep 6000 service.",
+      "detail": "07HD-0001 (Oct 2018): 15,378,600→15,000,000 (−2.5%). 08HD-0001 (Nov 2019): 14,400,000→14,200,000 (−1.4%). 111B0D0444 (Dec 2022): 13,800,000→13,800,000 (0%). All were single-bid awards to 均泰. Budgets were trimmed (−10% over four years), but there was no negotiated concession.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=111B0D0444",
+      "date": "2018-10-26 to 2022-12-14",
+      "source_name": "Taiwan PCC – 財團法人國家衛生研究院",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F800 noted near-flat service cost. The bid-to-award concession falling to zero is new detail."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Concession table (opening bid → award; one bidder in every lot; no Element, ONT or MGI distributor bid on any lot checked):\nCDC: 2017 −11.5 | 2018 −14.1 | 2019 −15.0 | 2020 −11.1 | 2021 −11.1 | 2022 −5.6 | 2023 −5.0 | 2024 −9.0 | 2025 −17.4\nVRI: 2019 −0.8 | 2020 −2.3 | 2021 −10.2 | 2022 −10.6 | 2024 −15.1 | 2025 −15.1 | 2026 −16.6\nForensic: 2017 −20.2* | 2018 −15.2 | 2019 −15.5/−15.8 | 2020 −17.2 | 2026 −11.5 (F984)\nAcademia Sinica: 2013 −19.4* | 2019 −20.0 | 2020 −20.0\nNTU Medicine: 2019 −18.0 | 2022 −8.5\nTaipei VGH reagents: 2019 ~−21 | 2022 −20.0 (uniform)\nNHRI 6000 service: 2018 −2.5 | 2019 −1.4 | 2022 0\n(*vs budget; original bid not shown)\nConclusion: the ~15% concession is long-standing (back to 2013–17), and the post-2021 median (~11%) is lower than the pre-2021 median (~15.5%). Only VRI widened. Overall this cuts against 1B in this channel. Not mined: page 2 offset >100000 (2021–22 records beyond #39), pages 4–7 (2016 and earlier), Genomics BioSci's 608 records, and rival-distributor company searches (Element channel 亞洲準譯, ONT importers). One caveat: the 'original bid' in these single-bid lots usually equals the budget, so the concession measures negotiation down from budget, not off Illumina list. Pages were read through the WebFetch summarizer, so figures should be spot-checked against the raw JSON before publication.",
+  "leads": [
+    {
+      "name": "PCC company search for Element's Taiwan channel 亞洲準譯 (Asia Pathogenomics)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=亞洲準譯",
+      "access": "public JSON API",
+      "labels": ["2B", "1B"],
+      "rationale": "Build an AVITI award and concession series to compare with 均泰's ~11–20% and test whether Element buys share on reagent price."
+    },
+    {
+      "name": "Taipei VGH reagent open contracts 2024–26 (successors to 111206Q)",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序試劑組",
+      "access": "public JSON API",
+      "labels": ["1B"],
+      "rationale": "Itemized unit prices per kit (NT$/set) allow a like-for-like Illumina kit price series from 2019 to 2026 at one hospital."
+    },
+    {
+      "name": "均泰 company search, pages 4–7 (2011–2018)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=均泰生物科技&page=4",
+      "access": "public JSON API (large pages; use offset)",
+      "labels": ["1B"],
+      "rationale": "Extends the concession baseline to the HiSeq era for a full-cycle comparison."
+    }
+  ],
+  "apify_requests": []
+}
+```

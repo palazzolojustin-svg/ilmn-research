@@ -1,0 +1,86 @@
+Scouting is finished. I confirmed the source with the highest expected payoff, the NCBI Genetic Testing Registry: on 12 Oct 2026, 130 test records named the NovaSeq 6000 against 12 that named the NovaSeq X. I ranked the remaining candidates below; the JSON follows.
+
+```json
+{
+  "candidates": [
+    {
+      "name": "NCBI Genetic Testing Registry (GTR): clinical test records whose methodology 'Instrument' field names the NovaSeq 6000 vs the NovaSeq X, with lab names and last-updated dates",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22NovaSeq%206000%22",
+      "access": "Free E-utilities, no login. I checked it live on 12 Oct 2026: esearch db=gtr term=\"NovaSeq 6000\" returns Count=130 and term=\"NovaSeq X\" returns Count=12. Next steps: (1) run esearch with retmax=500 and usehistory=y for each term, plus \"NovaSeq\", \"NovaSeq X Plus\", \"NovaSeqX\", \"NovaSeq 6000Dx\", \"AVITI\" and \"Ultima\"; (2) run esummary db=gtr on the IDs to get the test name, the lab name and CLIA number, and the last-updated/creation dates; (3) open sample HTML records at https://www.ncbi.nlm.nih.gov/gtr/tests/<id>/ to read the Methodology > Instrument field; (4) build lab-level tables of labs listing only the 6000, only the X, or both, with update year; (5) save the snapshot and re-run it each quarter to catch records that switch from 6000 to X.",
+      "labels": ["1A"],
+      "rationale": "This is the only structured, public, lab-reported list of which sequencer each US and international clinical test runs on. A 130:12 ratio of 6000 to X citations (even allowing for GTR records going stale) is a forensic count of clinical menus still validated on the 6000. Listing the 6000-only labs by name and by test type (NIPT, oncology panel, exome, rare disease) shows whether the regulated tail is concentrated in many small labs (a never-convert profile) or a few large ones (likely to convert in 2027). Records updated in 2025–26 that still name the 6000 are the strongest sign the tail is staying put, which would cut against the thesis's call for further conversion. Records that switch to the X in 2026 would be live migration evidence.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "EMQN/GenQA NGS germline and somatic EQA summary reports (European clinical-lab external quality assessment), with the platform/instrument breakdown of participants, compared year over year",
+      "url": "https://www.emqn.org/wp-content/uploads/2026/05/NGS-germline-EQA-Summary-Report_Final_v1.pdf",
+      "access": "Public PDFs, no login. WebFetch returns compressed streams, so download the file and extract the text locally with `python -I -m pypdf` or pdfplumber in a clean directory. Also get the 2024 somatic report at https://www.emqn.org/wp-content/uploads/2025/08/NGS-Somatic-EQA-Summary-report-2024-v1.pdf and earlier years by searching site:emqn.org 'NGS EQA Summary Report'. In each, search for 'NovaSeq', 'NextSeq', 'platform', 'instrument', 'sequencer', 'AVITI', 'DNBSEQ' and record the number of labs per platform per scheme year.",
+      "labels": ["1A", "1B"],
+      "rationale": "EQA schemes survey hundreds of accredited diagnostic labs each year, and their summary reports often tabulate the instrument each participant used. A year-on-year share of 6000 vs X vs rivals among European clinical labs is a direct, unbiased read of how far regulated conversion has gone and where it is heading. It also shows rival platforms (MGI/Element) entering clinical labs (1B). I have not yet confirmed that the 2026 PDF contains a platform table; only its existence and scope (all participants, EMQN plus GenQA) are confirmed.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Clinical-lab test-catalog methodology text (Mayo Clinic Labs, ARUP, Baylor Genetics, PreventionGenetics, Blueprint/Quest, Labcorp/Invitae, Ambry, Fulgent, GeneDx, Natera, BillionToOne), counting 'NovaSeq 6000' vs 'NovaSeq X' in the methods sections",
+      "url": "https://www.mayocliniclabs.com/",
+      "access": "Open web, no login. WebSearch ignores combined site: operators, so the Apify Google run below does the sweep (one query per lab domain and per instrument string). Then fetch the hit pages directly and record the test code, instrument wording, and 'last revised' or 'test change notification' dates. Mayo and ARUP also publish public 'test change notifications' / 'Test Updates' pages; search those for 'NovaSeq' to find dated instrument-change notices.",
+      "labels": ["1A"],
+      "rationale": "Reference labs must state the method and often the instrument in their test catalogs, and they issue dated test-change notices when a platform changes. A count of catalogs still citing the 6000 in Oct 2026, plus any 2026 'instrument change' notices, shows directly whether big reference labs are revalidating onto the X ahead of 2027 or leaving regulated menus on the 6000.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Europe PMC / PubMed / medRxiv full-text counts of clinical-validation and bridging studies naming the NovaSeq X vs the 6000, by publication year",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=METHODS%3A%22NovaSeq%20X%22%20AND%20(clinical%20validation%20OR%20diagnostic)&format=json&pageSize=100",
+      "access": "Free REST APIs, no login. Checked: PubMed esearch with '\"NovaSeq X\"[tiab] AND (clinical OR validation)[tiab]' gives Count=17. On Europe PMC, run METHODS:\"NovaSeq X\" vs METHODS:\"NovaSeq 6000\", each AND (clinical OR diagnostic OR CLIA OR ISO 15189), with PUB_YEAR:2024, 2025, 2026. On medRxiv, use https://api.biorxiv.org or a site search for 'NovaSeq X validation'. Record the labs (affiliations) that published 6000-to-X bridging validations and the assay types.",
+      "labels": ["1A"],
+      "rationale": "Before moving a regulated assay, a clinical lab must run a bridging validation, and many publish them. The trend in X-validation papers relative to new papers still validating on the 6000 (as at Siena and Providence, already known) is a leading indicator of 2027 migration. Named affiliations give a list of tail labs that are actively migrating vs still revalidating on the 6000.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Illumina NovaSeq 6000Dx support documentation and download pages: release cadence of 6000Dx software, assay-compatibility documents, and any NovaSeq X Dx / IVD assay additions",
+      "url": "https://emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/documentation.html",
+      "access": "Public, no login. Also open https://emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/downloads.html, https://sapac.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/documentation.html and https://www.illumina.com/systems/ivd-instruments/novaseq-6000dx/applications.html. Record every document and software item with its date (a search snippet shows a 18 May 2026 doc on DNA Prep with Enrichment Dx for the US/Canada and a 9 Apr 2026 EEA doc; the latest software seen is the 6000Dx Software Suite v2.4.0 / DRAGEN Germline v1.0.8, dated Aug 2024). Then search support.illumina.com for 'NovaSeq X' under clinical_support to check whether any Dx instrument page exists.",
+      "labels": ["1A"],
+      "rationale": "If Illumina is still adding new IVD assay documents for the 6000Dx in 2026 and has no NovaSeq X Dx page, regulated labs have no approved path to migrate IVD menus. That would support the 'permanent tail' view, which is against the thesis. A stall in 6000Dx software updates, or a first NovaSeq X Dx clinical page, would signal a planned 2027 migration. This is distinct from S780, which covers kit-level revision histories, not the 6000Dx instrument page or software cadence.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "AMP 2025 annual-meeting abstracts (J Mol Diagn, Nov 2025 supplement) and ASHG 2026 abstracts: clinical-lab posters on moving NIPT, oncology and exome assays from the 6000 to the X",
+      "url": "https://www.sciencedirect.com/journal/the-journal-of-molecular-diagnostics",
+      "access": "Open web. In the JMD issue list, find vol 27 issue 11 (Nov 2025) and its abstract supplement (AMP abstracts are usually open access; I have not confirmed the 2025 supplement URL). Full-text search the supplement for 'NovaSeq X', 'NovaSeq 6000', 'bridging', 'platform transition'. For ASHG 2026, use the public abstract/itinerary site found by searching 'ASHG 2026 abstract NovaSeq X clinical'. Count the abstracts and name the labs.",
+      "labels": ["1A"],
+      "rationale": "Clinical labs present platform-migration validations at AMP before going live. A spike of 6000-to-X bridging posters in late 2025 and 2026 would point to 2027 go-lives. Their absence, especially for NIPT and FDA-approved assays, would back the never-converts view. Unlike ESHG/ISPD (S723, dry), AMP is the US clinical molecular lab meeting.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Health Canada MDALL and Australia TGA ARTG public device registers: IVD licences for the NovaSeq 6000Dx vs any NovaSeq X (Dx) listing, with licence dates",
+      "url": "https://health-products.canada.ca/mdall-limh/",
+      "access": "Public search, no login. On MDALL, search manufacturer 'Illumina' and device 'NovaSeq' and record the licence number, class and first-issue/amendment dates. On the TGA ARTG (https://www.tga.gov.au/resources/artg), search 'Illumina' and 'NovaSeq' and record the ARTG entries for the 6000Dx and the X with their start dates.",
+      "labels": ["1A"],
+      "rationale": "Outside the US, regulated labs can only move IVD workflows to the X if it is registered as an IVD. If no X IVD registration exists in Canada or Australia while 6000Dx licences are being amended in 2025–26, that is hard evidence the regulated tail has no migration path before a Dx launch. That would support persistence, which is against the thesis, unless a new X registration appears, which would favor the thesis.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Government surplus auction sites (GovDeals, PublicSurplus, Liquidity Services/BidSpotter, Federal Equipment Co. auctions): NovaSeq 6000 decommission lots with seller and date",
+      "url": "https://www.govdeals.com/search?kWord=novaseq",
+      "access": "Public listings, no login to browse. Search 'NovaSeq', 'NovaSeq 6000', 'Illumina sequencer' on GovDeals, https://www.publicsurplus.com (search 'Illumina') and BidSpotter, plus closed/sold lots where shown. Record the seller (state university or hospital), the date, the price and whether the seller is a clinical lab. This is distinct from S654, which covered dealers and EquipNet/MSU only.",
+      "labels": ["1A"],
+      "rationale": "Public institutions must auction retired equipment publicly, so the timing and number of NovaSeq 6000 disposals is a direct proxy for the decommission pace that Illumina stopped disclosing after Q4'25. Clinical or hospital sellers would be evidence that the clinical tail is retiring. Collapsing resale prices would suggest supply exceeds demand from labs keeping the 6000.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "site:mayocliniclabs.com \"NovaSeq 6000\"\nsite:mayocliniclabs.com \"NovaSeq X\"\nsite:ltd.aruplab.com \"NovaSeq\"\nsite:arupconsult.com \"NovaSeq\"\nsite:baylorgenetics.com \"NovaSeq\"\nsite:preventiongenetics.com \"NovaSeq\"\nsite:blueprintgenetics.com \"NovaSeq\"\nsite:invitae.com \"NovaSeq\"\nsite:labcorp.com \"NovaSeq\"\nsite:questdiagnostics.com \"NovaSeq\"\nsite:ambrygen.com \"NovaSeq\"\nsite:fulgentgenetics.com \"NovaSeq\"\nsite:genedx.com \"NovaSeq\"\nsite:natera.com \"NovaSeq\"\nsite:caris.com OR site:carislifesciences.com \"NovaSeq\"\nsite:foundationmedicine.com \"NovaSeq\"\nsite:tempus.com \"NovaSeq\"\n\"test change notification\" \"NovaSeq X\"\n\"methodology\" \"sequenced on\" \"NovaSeq 6000\" clinical test 2026\n\"performed on the Illumina NovaSeq X\" CLIA test",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "countryCode": "us",
+        "languageCode": "en"
+      },
+      "why": "WebSearch does not honor site: operators. This sweep gives a lab-by-lab census of clinical test catalogs and test-change notices that name the NovaSeq 6000 vs the X, which is the reference-lab layer of the regulated tail.",
+      "max_items": 200
+    }
+  ]
+}
+```

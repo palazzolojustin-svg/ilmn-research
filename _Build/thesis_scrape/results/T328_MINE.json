@@ -1,0 +1,182 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Illumina's contract revenue from Canadian federal departments (PHAC, NRC, AAFC, CFIA, DFO, Health Canada, ECCC) fell about 56% in calendar 2025, and order count fell about 31%.",
+      "detail": "I summed the CKAN rows by hand. Calendar-year Illumina totals were about C$12.5M (2022, 175 rows), about C$12.8M (2023, 183 rows), about C$11.06M (2024, 165 rows by the search-UI facet; I counted about 170), and about C$4.88M (2025, 113-114 rows). The 2025 figure is 4.88/11.06 = 0.44, so −56%. If I drop the 2024 CFIA March NextSeq-package rows (C$2.61M, which include an original/amended duplicate pair), 2024 is about C$8.45M and 2025 is −42%. Average order size fell from about C$65K (2024) to about C$43K (2025). The 2022-23 totals come from the tool's own summing and are less reliable than the 2024-26 figures I summed myself. This is Canadian federal spending only, so it also reflects Canada's budget review. It is not a global read.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Illumina\"}&limit=100&sort=contract_date%20desc",
+      "date": "data through 2026-06-29; pulled 2026-10-12",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts >$10K (CKAN datastore)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file has only individual Canadian orders (F051, F053, F411). It has no multi-year spend series, order counts or YoY decline."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "At the Public Health Agency of Canada, Illumina's largest Canadian federal account, annual contract value fell from about C$9.6M (2022) to about C$3.4M (2025).",
+      "detail": "PHAC totals were C$9.63M (2022, 87 rows in the tool's summary of that batch), C$7.26M (2024; total C$11.06M less C$3.80M non-PHAC) and C$3.35M (2025; total C$4.88M less C$1.53M non-PHAC). That is −54% from 2024 to 2025 and −65% from 2022 to 2025. H1 2026 PHAC was C$1.87M gross, or about C$1.24M if I drop a C$630K row that duplicates the C$645K amended row (same procurement ID 6D06353301). H1 2025 was about C$2.62M, so H1'26 is −29% gross or about −53% net. PHAC holds 813 of the 1,692 rows in the search UI. This is a government research and public-health buyer cutting Illumina spend, which fits tight-funding behavior.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=illumina&sort=contract_value+desc&page=1",
+      "date": "2022-2026H1",
+      "source_name": "search.open.canada.ca contracts + CKAN datastore",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file does not quantify any government research buyer's Illumina spend over time."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The National Research Council (NRC) cut Illumina purchases by about 90% between 2022 and 2025 and bought an Element AVITI in the same period.",
+      "detail": "NRC Illumina contract value was about C$591K (2022, 22 rows), about C$251K (2023, Jan to mid-Sep, 10 rows), about C$120K (2024, 7 rows), and about C$57K (2025, 3 rows: C$26.8K, C$17.4K, C$12.4K). The 2025 figure is 57/591, so −90% vs 2022. H1'26 is C$74K across 3 rows (C$28.0K, C$20.8K, C$25.6K). NRC also awarded Element Biosciences C$337,265 in Jul 2025 and C$141,250 in Jun 2026 (the latter the upgrade already in F046). The Element contract is one item, but the NRC trend shows a research lab spending far less on Illumina.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Element\"}&limit=50",
+      "date": "2022-2026",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F046 shows NRC's Element upgrade only. The 5-year NRC Illumina spend decline is new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Illumina's October-December billings to Canadian federal buyers dropped two years running: about C$3.26M (Q4'23), C$1.94M (Q4'24) and C$1.20M (Q4'25).",
+      "detail": "I summed the rows by month. Q4'23 = Oct 1.313M + Nov 0.927M + Dec 1.022M = C$3.26M. Q4'24 = 0.903M + 0.308M + 0.726M = C$1.94M. Q4'25 = C$1.198M (rows dated 3 Oct to 29 Dec 2025). The declines are −41% and −38% y/y. Calendar Q4 is also the quarter in which Illumina's H2 consumables push usually lands. The Apr-Mar fiscal year shows the same pattern: FY24/25 about C$8.56M against FY25/26 about C$4.58M gross (about C$3.95M net of the duplicate row), roughly −47%. Reporting lag is small for these quarters, so this is not a data-gap artifact.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Illumina\"}&limit=100&offset=100&sort=contract_date%20desc",
+      "date": "Q4 2023-Q4 2025",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This gives quarterly and fiscal-year dollar series for a government account. Nothing like it is in the file."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "The Canadian federal decline stopped in H1 2026: gross Illumina contract value was about C$3.19M, versus about C$3.29M in H1 2025 (−3%).",
+      "detail": "H1'26 (46 rows to 29 Jun) is C$3.19M gross. H1'25 (79 rows) is C$2.37M for Jan to 25 Feb, plus C$0.92M for 4 Mar to 26 Jun, so C$3.29M. Gross dollars are flat even though order count fell 42% (79 to 46). Average order size therefore rose to about C$69K from about C$42K. About C$0.81M of H1'26 is two C$404,867 orders and one C$644,850 order, so large single instrument or contract buys drive it. Net of the likely C$630K duplicate, H1'26 is C$2.56M (−22%). Reporting lag could still add June 2026 rows. Read this as stabilization, not a rebound.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Illumina\"}&limit=47&sort=contract_date%20desc",
+      "date": "H1 2026",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a counter-trend datapoint for the same series, not in the known file."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Oxford Nanopore's Canadian federal sales also fell in 2025, and Illumina's share of Illumina-plus-ONT spend barely moved (about 86% in 2024, about 83% in 2025). The 2025 decline looks like budget-driven, not share loss.",
+      "detail": "ONT federal contract value was about C$1.83M in 2024 (50 rows, including a C$767,704 CFIA award on 25 Jun 2024). It was about C$0.98M in 2025 (31 rows), which is −46%, versus Illumina −56%. Illumina's share of the Illumina-plus-ONT total is 11.06/(11.06+1.83) = 86% in 2024 and 4.88/(4.88+0.98) = 83% in 2025. PacBio totals only about C$130K in 2025 (6 rows). Ultima Genomics has zero records, and MGI Americas has none since a C$3.03M pair at PHAC in Oct 2020 and two small 2024 rows. ONT's 346 records show no wave of rival awards at PHAC, the main account. ONT H1'26 is only about C$206K (11 rows to 8 Jun), but the file may still be catching up.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Oxford Nanopore\"}&limit=100&sort=contract_date%20desc",
+      "date": "2024-2026H1",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file has no cross-vendor government spend comparison. It shows rival competitive pressure is not yet visible in Canadian federal dollars."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina's largest 2026 Canadian federal awards were single-bid. The PHAC C$630K award cites a limited-tendering reason, and Health Canada and AAFC paid an identical price.",
+      "detail": "PHAC procurement 6D06353301 (4 Feb 2026) was C$630,439.40 original plus C$14,410.12 amended, giving C$644,849.52. It has solicitation procedure TN, limited_tendering_reason 71 and number_of_bids 1. Health Canada (30 Jan 2026, HT28253534) and AAFC (17 Feb 2026, 20260485A) each booked exactly C$404,866.81, both single-bid TN awards. Two departments paying an identical price for an apparently identical item shows no negotiated differential. Across 2024-26 amendments the pattern is upward: +C$101,589 and +C$101,243 on the CFIA NextSeq package (Mar 2024), +C$58,280 (AAFC), +C$31,689 (Health Canada) and +C$14,410 (PHAC). I saw one negative amendment in about 330 rows (−C$13,169 on a C$7,251 CFIA row, 9 Dec 2024). The product behind the C$405K price is not stated, so it may be a NextSeq-class instrument.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Illumina\"}&limit=47&sort=contract_date%20desc",
+      "date": "2026-01-30 to 2026-02-17",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F040 and F050 say sole-source in general. This adds specific amounts, a limited-tendering code, duplicate pricing across departments and the amendment direction."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "CFIA, which bought a C$1.0-1.2M Illumina NextSeq package in March 2024, then diversified: ONT C$768K (Jun 2024), ONT license/warranty C$94.5K (Jun 2025) and Element C$300K (Feb 2026, open bid, 2 bids).",
+      "detail": "CFIA's Illumina package was C$1,003,821 original plus C$101,589 amendment, shown as C$1,206,653 (5 Mar 2024). CFIA's 2026 Illumina rows are small: MiSeq Silver Support Plan renewals (C$31.6K on 16 Mar; C$32.2K on 6 Feb), a reagent kit and consumable reagents, each about C$24-32K. Elsewhere in the same department it awarded Oxford Nanopore C$767,704 (25 Jun 2024) and Element C$300,000 (18 Feb 2026, open bidding, 2 bids). The Element amount is likely the F047 award, so I count only the CFIA pattern as new: after a large Illumina buy, follow-on awards went to rivals. This is one department and one example of a buyer adding a second vendor.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Oxford Nanopore\"}&limit=100&offset=50",
+      "date": "2024-03 to 2026-03",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F047 covers the Element award only. The 2024 NextSeq package and ONT C$768K link show the department's multi-vendor trajectory."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "PHAC's recurring monthly Illumina reagent orders have stayed near C$22-25K per order for two years and show no growth in order size.",
+      "detail": "PHAC orders (commodity N6640, 'Laboratory Supplies') include C$23,931 (the same value in Jun, Jul, Aug, Sep and Oct 2024), C$23,649 (Oct 2024 to Feb 2025), C$24,892 (Aug 2025), C$24,522 (Sep 2025), C$21,988.50 (twice in Jun 2026), C$21,585 (Jun 2026) and C$21,420 (Jan 2026). Six of the ten latest PHAC rows fall between C$21.4K and C$22.5K. The 2026 orders have delivery dates to 31 Mar 2027. The sample suggests a standing monthly buy of a fixed kit at a flat or slightly lower price. The product name is not disclosed, and the per-order value could simply be set by purchasing thresholds.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Illumina\"}&limit=3&sort=contract_date%20desc",
+      "date": "2024-06 to 2026-06",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is new line-level time-series evidence for a standing reagent order."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Federal research buyers have now awarded Element about C$0.78M across three contracts (Jul 2025, Feb 2026, Jun 2026), while Ultima has no Canadian federal records.",
+      "detail": "Element Biosciences contracts at NRC are C$337,265.31 (30 Jul 2025, 'special industry machinery', advance contract award notice, 1 bid) and C$141,250 (1 Jun 2026). At CFIA it is C$300,000 (18 Feb 2026, open bidding, 2 bids). Total is C$778,515. This is about 16% of Illumina's 2025 federal total (C$4.88M), and large enough to place Element as a recurring federal vendor. By contrast, the CKAN datastore holds zero Ultima Genomics records. The file also shows no Roche or AXELIOS awards yet.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"Element\"}&limit=50",
+      "date": "2025-07 to 2026-06",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a consolidated federal Element total and an Ultima null result. F046 and F047 are single items."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "PHAC has bought a competing high-throughput platform before (MGI Americas, C$3.03M in Oct 2020), but nothing comparable since. Its pandemic-era multi-vendor experiment did not become a lasting shift.",
+      "detail": "MGI Americas Inc. has two PHAC rows dated 30 Oct 2020 of C$1,499,726 and C$1,534,376 (together C$3,034,102), described as laboratory equipment and supplies. The only later MGI Americas rows are C$28,250 (management consulting, Jul 2024) and C$11,606 (repair, Aug 2024). Meanwhile Illumina rows at PHAC continue every month. This shows a public buyer testing a lower-cost platform and then returning to Illumina. It is a small precedent, not a trend, and I could not confirm the 2020 item was a sequencer.",
+      "url": "https://open.canada.ca/data/en/api/3/action/datastore_search?resource_id=fac950c0-00d5-4ec1-a4d3-9cbebf98a305&q={\"vendor_name\":\"MGI\"}&limit=30",
+      "date": "2020-10-30; 2024",
+      "source_name": "Government of Canada Proactive Disclosure of Contracts",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The file mentions MGI only at the platform and BIOSECURE level, not as a government buyer's past choice."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "I had no code execution, so every total comes from paging the datastore through WebFetch and summing by hand (rounded to the dollar). Please recompute from the full CSV before using exact figures. 2024-26 sums are mine. 2022-23 sums came from the tool's own arithmetic and are less reliable. Counts differ slightly: the datastore q-match returned 1,733 rows, the search UI returned 1,692, and the UI facets give 2023: 183, 2024: 165, 2025: 114, 2026: 46. The datastore may include name variants such as ILLUMINA CANADA INC. Data runs to 29 Jun 2026, so Q2'26 may still be filling in. Contract values are order or contract totals, not annualized, and not all rows are sequencing consumables (some are service plans, repair and instruments). Product names are mostly absent, so there is no 6000 vs X read. Not done: the 2016-2021 pre-COVID baseline and the 2021 PHAC C$23.2M COVID-era contract (4 Jun 2021) for a peak-to-now comparison, a full 2023 monthly check, a per-owner-org table for 2023, ONT rows older than Feb 2023, and rows for Complete Genomics, Element Bio at other departments, and Roche or Sequencing-service vendors. Best next step is to stream contracts.csv locally with python -I, which the next agent with a shell can do.",
+  "leads": [
+    {
+      "name": "Full contracts.csv bulk file (local aggregation)",
+      "url": "https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+      "access": "open",
+      "labels": ["1C", "2A", "1B"],
+      "rationale": "Exact annual and per-department totals, plus de-duplication of original/amended pairs and the rivals' total spend."
+    },
+    {
+      "name": "CanadaBuys tender notices for CFIA Element AVITI (Feb 2026) and PHAC sole-source notices",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities",
+      "access": "open",
+      "labels": ["1B", "2B"],
+      "rationale": "Might expose bidder prices, evaluation criteria and the stated reason for the PHAC reason-71 award."
+    },
+    {
+      "name": "USAspending.gov awards to Illumina Inc. by agency (NIH, CDC, VA, DoD)",
+      "url": "https://www.usaspending.gov/search",
+      "access": "open",
+      "labels": ["2A", "1B", "1C"],
+      "rationale": "Same time-series approach for the US federal account, with comparison vendors Element, Ultima, PacBio, ONT and MGI, and obligations by fiscal year."
+    },
+    {
+      "name": "AusTender contract notices (Illumina Australia)",
+      "url": "https://www.tenders.gov.au/",
+      "access": "open",
+      "labels": ["1C", "1B"],
+      "rationale": "Another government-sector spend series across years with competitor awards."
+    }
+  ],
+  "apify_requests": []
+}
+```

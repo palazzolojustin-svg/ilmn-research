@@ -1,0 +1,25 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Nationwide Children's Hospital's clinical genomics lab (IGM) lists both the NovaSeq 6000 and NovaSeq X Plus in a Sept 2026 job posting, so it is still running the two side by side.",
+      "detail": "A Sept 2026 Indeed posting for a Genetic Technologist I in a clinical NGS lab (genome, exome, RNA-seq, Sanger, FragileX) names 'MiSeq, NovaSeq 6000, NovaSeq X+, SeqStudio Flex'. A hospital genomics lab is a clinical 'mid-conversion' cohort, and it still staffs for the 6000 about 11 months after its peers' stated end-2026 target window began. This is one lab, so it does not show the pace of conversion. It fits the existing view that the clinical tail is converting slowly. The posting is hiring for the 6000 skill set.",
+      "url": "https://www.indeed.com/viewjob?jk=358e2872153d296f",
+      "date": "2026-09-08",
+      "source_name": "Indeed via Apify misceres/indeed-scraper (A02.json); employer Workday req R-27891-1",
+      "source_type": "jobs",
+      "quote": "MiSeq, NovaSeq 6000, NovaSeq X+, SeqStudio Flex",
+      "strength": "weak",
+      "why_new": "A children's-hospital clinical lab with both instruments is not among the named dual-running examples (Tempus, Natera, Caris, Mayo, Siena, Providence)."
+    }
+  ],
+  "notes": "The dataset has only 2 postings, not the 200 requested: Tempus (Chicago, Molecular Technologist I/II, dated 28 Feb 2026) and Nationwide Children's (Columbus, dated 8 Sep 2026). I read the whole file and did not open the URLs with WebFetch. The excerpt fields in the file appear to be summaries, not verbatim posting text, so the quotes may not be exact. The Tempus posting lists both the 6000 and the X, but this is already known, so I did not make it an item. No lab in the sample lists the 6000 alone. With n=2 I cannot build a cohort map (6000-only vs both) or estimate 2027 conversion pace. The file's counts are not usable as statistics, and the actor probably returned a small or truncated sample. Salary data for Tempus is $23.25-25.50/hr, which says nothing about the thesis.",
+  "leads": [
+    "Re-run the Indeed scrape with broader queries ('NovaSeq X', 'NovaSeq 6000 clinical laboratory', 'NGS technologist CLIA'), and with LinkedIn or the employers' own career sites (Workday), since 2 hits suggests the actor input was too narrow.",
+    "Check the Nationwide Children's IGM Workday req R-27891-1 directly, and look at other children's hospital genomics postings (Rady, CHOP, Children's Mercy) for the same dual-fleet pattern.",
+    "Compare the count of postings that name only 'NovaSeq 6000' with those that name the X on the same career sites over time. Postings are dated, so a trend can be built."
+  ]
+}
+```

@@ -1,0 +1,136 @@
+```json
+{
+  "sources": [
+    {
+      "name": "CDC/NCHS Births: Provisional Data for 2025 (VSRR No. 43)",
+      "url": "https://www.cdc.gov/nchs/data/vsrr/vsrr043.pdf",
+      "access": "Free PDF and press release, no login. Quarterly provisional estimates and the CDC WONDER natality database are also public.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "The 2025 count is 3,606,400 births, down 1% from 2024. The general fertility rate was 53.1 per 1,000 females aged 15-44. This is the NIPT denominator: a shrinking birth cohort caps prenatal test volume. I only read the press release (cdc.gov/nchs/pressroom/releases/20260409.html), not the PDF. The press release does not give 35+ age-specific rates or any 2026 data. 2026 provisional quarterly data was not checked.",
+      "how_to_mine": "Open the VSRR 43 PDF and pull the births-by-maternal-age table, especially 35+ and 40+, which is the high-risk NIPT cohort. Then pull the NCHS quarterly provisional estimates for Q1 and Q2 2026 births (VSRR quarterly dashboard) to see whether 2026 is still falling. Compare with Natera and BillionToOne prenatal test growth (low-teens and higher) to show that growth comes from penetration, not births.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "The US birth cohort shrank 1% in 2025, so NIPT volume growth must come from penetration or share, not more pregnancies.",
+          "detail": "NCHS provisional data show 3,606,400 births in 2025, down 1% from 2024, with the general fertility rate at 53.1 per 1,000 (about -1%). Earlier coverage called the 2024 uptick short-lived. With NIPT already reaching an estimated 70-80% of US pregnancies (known list), a falling denominator is a structural drag on prenatal Gb. Natera's Q2 2026 women's health growth was described as high single digit.",
+          "url": "https://cdc.gov/nchs/pressroom/releases/20260409.html",
+          "date": "2026-04-09",
+          "source_name": "CDC NCHS press release / VSRR 43",
+          "source_type": "dataset",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list has NIPT penetration and ACMG guidance but no birth-denominator data from CDC/NCHS."
+        }
+      ]
+    },
+    {
+      "name": "Natera Q2 2026 call, Canaccord conference summary and 10-Q (women's health / Panorama)",
+      "url": "https://quartr.com/events/natera-inc-ntra-canaccord-genuity-s-46th-annual-growth-conference_3sL0wI8K",
+      "access": "Free. The Quartr summary is AI-generated. The SEC 10-Q is free. The Q2 deck is at s201.q4cdn.com/354493536/files/doc_financials/2026/q2/NTRA-Q2-26-Financial-Results.pdf.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "The Quartr Canaccord summary (13 Aug 2026) gives women's health growth as 'high single-digit year-over-year', driven by Fetal Focus uptake and a new, more sensitive Panorama. Total tests grew 22% and oncology +57%, so women's health is the slow segment. Gurufocus's call summary has no women's health numbers. The CEO said Natera was 'definitely benefiting from share gains in women's health' and that Q2 is seasonally soft. Fetal Focus is margin-dilutive. I could not get the 10-Q MD&A: the page fetch stopped before it, so the women's health revenue and test count are not captured. The Q1 call (secondary summary) said Panorama plus Horizon volume rose 63K sequentially and Fetal Focus ran at about 200K/yr.",
+      "how_to_mine": "Fetch the Q2 2026 call transcript (Natera IR or Quartr) and search for 'women's health', 'Panorama', 'volume' and 'ASP'. Get the 10-Q Item 2 MD&A, or the deck's volume slide, for women's health tests processed Q2'26 vs Q2'25 (853K total). Check whether the high-single-digit figure is revenue or volume. Compare with BillionToOne prenatal volume (+35% total tests; prenatal revenue +55%) to quantify share shift versus market growth.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "Natera's women's health (NIPT/carrier) growth was only high single digit in Q2 2026, against total tests +22%, so the mature NIPT base is a volume drag.",
+          "detail": "A Canaccord conference summary dated 13 Aug 2026 gives women's health growth as high single digit year over year, attributed to Fetal Focus and an enhanced Panorama. Total Natera tests grew 22% to 1.04M and oncology +57%. This is the largest NIPT franchise, and it is growing far slower than the clinical Gb growth that Illumina needs. The source is an AI-generated summary and the figure is unverified against the transcript.",
+          "url": "https://quartr.com/events/natera-inc-ntra-canaccord-genuity-s-46th-annual-growth-conference_3sL0wI8K",
+          "date": "2026-08-13",
+          "source_name": "Quartr (AI summary) of Natera at Canaccord",
+          "source_type": "conference",
+          "quote": "high single-digit year-over-year growth",
+          "strength": "weak",
+          "why_new": "The known list has Natera total, oncology and MRD growth, but not women's health growth. It says only that NIPT is maturing."
+        },
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "Natera's women's health growth leans on a product refresh (enhanced Panorama) and share gains rather than market expansion.",
+          "detail": "The CEO credited share gains and an enhanced Panorama that fixes the low-fetal-fraction no-call gap, plus new account wins. Management said Q2 is seasonally soft in this business. Share gains from rivals do not add Gb to the market. Fetal Focus is described as a cost-heavy product that weighs on gross margin.",
+          "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+          "date": "2026-08-07",
+          "source_name": "GuruFocus Natera Q2 2026 call highlights",
+          "source_type": "earnings_call",
+          "quote": "definitely benefiting from share gains in women's health",
+          "strength": "weak",
+          "why_new": "The Natera Q2'26 call is in the known list for tests and MRD, but not for women's health share-gain framing."
+        }
+      ]
+    },
+    {
+      "name": "BillionToOne Q2 2026 results (prenatal)",
+      "url": "https://investors.billiontoone.com/news-releases/news-release-details/billiontoone-reports-second-quarter-2026-results-and-reiterates",
+      "access": "Free press release, 8-K exhibit (sec.gov/Archives/edgar/data/0002070849/000207084926000048/a991blln-earningspressrele.htm) and earnings deck.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "Q2'26 total revenue was $109.4M (+64%). Tests were about 196K (+35%) and ASP was $551 (+21%). Prenatal revenue was $94.2M (+55%) from $60.9M (the release; MarketBeat says $95.8M). Revenue grew 64% on test growth of 35%, and the rest came from higher ASP, so BillionToOne is gaining share and price, not riding a growing market. The release does not split prenatal volume or average-risk volume. UnityConfirm launched 28 May 2026, and the fetal antigen screen expands to 130 genes on 17 Aug.",
+      "how_to_mine": "Read the 8-K deck and call transcript for prenatal tests by risk category, payer mix and average-risk coverage. Look for statements on cost per test and sequencer use. Compare BillionToOne's high-risk-only UNITY Confirm against Natera. BillionToOne already sues Illumina (known).",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "against",
+          "claim": "BillionToOne's prenatal revenue grew 55% in Q2 2026 on 35% test growth, so some NIPT-adjacent volume is still growing fast.",
+          "detail": "Total tests were about 196K (+35%) and total revenue $109.4M (+64%), with ASP up 21% to $551. Prenatal revenue was $94.2M versus $60.9M. This cuts against a blanket 'NIPT maturing' claim, though it comes from share gain and menu expansion (single-gene and antigen screens) and it is one customer-sequencer relationship (BillionToOne is a known Illumina litigant).",
+          "url": "https://investors.billiontoone.com/news-releases/news-release-details/billiontoone-reports-second-quarter-2026-results-and-reiterates",
+          "date": "2026-08-05",
+          "source_name": "BillionToOne press release",
+          "source_type": "filing",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list has BillionToOne tests +35% only. This adds the prenatal revenue growth of 55%, the ASP +21% and the share-gain read."
+        }
+      ]
+    },
+    {
+      "name": "China / global NIPT market-research pages",
+      "url": "https://www.marketsandmarkets.com/Market-Reports/geography/non-invasive-prenatal-testing-market/China",
+      "access": "Marketing teaser pages only. Full reports are paywalled.",
+      "labels": ["1C"],
+      "status": "dry",
+      "notes": "Generic CAGR figures: China NIPT about $327M in 2024 growing 14.6%, with expansion into tier 2/3 cities. They show no penetration rate, no methodology and no BGI/Berry volumes. Not usable as evidence.",
+      "how_to_mine": "Skip the market-research pages. Instead use BGI Genomics' H1 2026 report (cninfo / Shenzhen exchange) for NIPT volume and revenue, China NHC births (NBS annual births data for 2025) and Chinese press on NIPT price cuts and provincial reimbursement. The known list uses Chinese press for Novogene and MGI, so the same route works here.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "NCHS quarterly provisional estimates and CDC WONDER natality (2026 YTD births, maternal age 35+)",
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/natality-dashboard.htm",
+      "access": "Free dashboard and CSV download (URL not opened; may differ)",
+      "labels": ["1C"],
+      "rationale": "It gives 2026 YTD births and the share of mothers aged 35+. That is the high-risk NIPT cohort and sets the volume ceiling."
+    },
+    {
+      "name": "Natera Q2 2026 call transcript and deck women's health slides (verify the 'high single digit' figure and volume)",
+      "url": "https://s201.q4cdn.com/354493536/files/doc_financials/2026/q2/NTRA-Q2-26-Financial-Results.pdf",
+      "access": "Free PDF",
+      "labels": ["1C"],
+      "rationale": "It would confirm women's health volume and ASP, and Fetal Focus mix and cost. That tells whether NIPT Gb per test is rising while tests flatten."
+    },
+    {
+      "name": "BGI Genomics / Berry Genomics H1 2026 reports (cninfo) and China NBS 2025 births",
+      "url": "https://www.cninfo.com.cn",
+      "access": "Free, in Chinese (not opened)",
+      "labels": ["1C"],
+      "rationale": "It would show Chinese NIPT volumes, price per test and birth decline. China is a mature NIPT market, and an Illumina-sequencer-share read is possible."
+    },
+    {
+      "name": "Payer policy trackers for average-risk NIPT coverage (e.g., Aetna, UHC, Medicaid state coverage; ACOG/ACMG Dec 2025 guidance)",
+      "url": "https://www.acog.org",
+      "access": "Free policy pages (not opened)",
+      "labels": ["1C"],
+      "rationale": "Coverage already extended to all pregnancies would show there is little coverage-led upside left. Any remaining average-risk coverage gaps are the one volume lever left."
+    }
+  ],
+  "apify_requests": []
+}
+```

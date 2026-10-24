@@ -1,0 +1,90 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At Taichung VGH's 2026-28 NextSeq 2000 kit award, the discount to budget grows with kit size: 5.6% on P2 but 21% on P3.",
+      "detail": "Award BDM-1-71284672 (17 Sep 2026, one bidder, Genomics BioSci) compares each tier's floor-price award with its budget. P1: NT$1.38M vs NT$1.47M, −6.1%. P2: NT$6.417M vs NT$6.7965M, −5.6%. P3: NT$9.48M vs NT$12.0M, −21.0%. P4: NT$2.64M vs NT$3.12M, −15.4%. On the hospital's own budgeted quantities (60 P3 kits), P3 works out to about NT$158K per kit against a NT$200K budget. The deepest cuts land on the high-output tiers, and no rival was needed to produce them. The award equals the floor on every line, so the hospital was pricing against its own reserve rather than a bid war. This is a mid-throughput lot, so it is only an analogy for large accounts' extra discounts on the X.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=115A018",
+      "date": "2026-09-17",
+      "source_name": "Taiwan PCC (g0v pcc-api.openfun.app), Taichung VGH 115A018",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Earlier items give only the P3/P4 headline or a Taipei-vs-Taichung gap. This is the item-by-item discount ladder, which shows concessions rising with volume tier."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan public sequencer-system awards show no rival-driven price war. Element's AVITI discount to budget (5.8%) sits inside Illumina's distributor range (0.8% to 15.3%).",
+      "detail": "Each of these had one bidder. Academia Sinica AVITI (29 May 2026) awarded NT$9.20M vs NT$9.768M budget, −5.82%, a restricted-tender award under Art. 22(1)(2) with no competing platform. Genetech (Illumina's distributor) awards: Chang Gung Linkou Illumina NGS system NT$2.245M vs NT$2.264M (−0.84%, Aug 2025); NTU Yunlin high-throughput sequencer NT$5.05M vs NT$5.35M (−5.6%, May 2025); NTU sequencer upgrade NT$3.98M vs NT$4.7M (−15.3%, Apr 2025). The Genetech mean is about −7.2%, a similar range to Element's. Buyers using sole-source clauses for AVITI also never test Illumina's price.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=2.1&job_number=115-IMBE016",
+      "date": "2026-05-29",
+      "source_name": "Taiwan PCC, Academia Sinica 115-IMBE016; Chang Gung 0C-1L0324; NTU Yunlin YL-A24008; NTU 1140299",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This puts the AVITI and Illumina-distributor instrument discounts side by side from the same API, with the arithmetic. Earlier items cover each channel separately."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Ultima and MGI/DNBSEQ are absent from Taiwan's public procurement system, so the rival price pressure in Taiwan's public sector comes only from Element and nanopore.",
+      "detail": "Title searches on the PCC API returned 0 records for 'DNBSEQ', and 'Ultima' returned only Horiba ICP spectrometer notices. 'AVITI' returned a single record (Academia Sinica, 29 May 2026). Searching '定序儀' returns 793 records, and none on page 1 (99 rows, Apr 2025 to Oct 2026) names an MGI or Ultima instrument. The rival short-read threat to Taiwanese public research buyers is therefore Element (about 5 platform or reagent awards) plus nanopore, not the cheapest per-Gb platforms. I read only page 1 of 8 of the sequencer search.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=DNBSEQ",
+      "date": "2026-10-12",
+      "source_name": "Taiwan PCC (pcc-api.openfun.app) title searches",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A zero-count check that other items did not run. It is a watch-out that rivals' lowest $/Gb platforms have no visible public-tender presence in Taiwan."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "When two bidders competed on a Taiwan CDC high-throughput sequencing service, the award fell 15.7% below budget, and the Illumina-based incumbent outsourcer lost by 13%.",
+      "detail": "CDC tuberculosis NGS case KA115047 (award 31 Jul 2026) had a NT$3,696,000 budget and a NT$3,660,000 floor. 圖爾思生物科技 (a Taiwan-origin service) won at NT$3,115,200, which is 15.7% below budget. Genomics BioSci, the usual Illumina-platform outsourcer, bid NT$3,590,400, 15.3% higher than the winner. The first public tender in June 2026 had failed with no bidders. Where a second bidder appears, the price drops far more than in single-bidder lots at 0 to 6%. The sequencing platform used by the winner is not stated.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.1&job_number=KA115047",
+      "date": "2026-07-31",
+      "source_name": "Taiwan PCC, Taiwan CDC KA115047",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a named lot where an Illumina-channel vendor was undercut. Platform is unconfirmed, and the general 10-16% two-bidder range is already known."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taiwan's Ministry of Defense is trying to buy a NT$40M 'new-generation high-precision' sequencer, so some public capital spending on sequencing is still being planned.",
+      "detail": "Case HE15001L162 had a NT$40,000,000 budget (about US$1.3M) and was first tendered 14 Apr 2026. It failed 10 Jun 2026 and was re-tendered 17 Jun 2026. The National Defense Medical University had run a reference-price solicitation for the same item class in Oct and Nov 2025, going from 3 items to 2. The platform is not named, and 'high-precision' likely points to a long-read or high-accuracy system, not Illumina. I found no award record.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.5&job_number=HE15001L162",
+      "date": "2026-06-17",
+      "source_name": "Taiwan PCC, Ministry of National Defense HE15001L162; NDMC HE15001L",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The lot is new, but its platform is unknown and the dollar value is too small to move Illumina's volume."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "This used about 26 summarized fetches, not a script. The 608 Genomics BioSci records (page 1 read to record 40) and 629 Genetech records (pages 2-7) remain. The 793-record '定序儀' title search (pages 2-8, 2016-2025) is unread. 瑞林 and 華大 were not searched effectively: the 華大 query returned 6,565 irrelevant records. Best next step is a scripted pull: award-type notices only, award/budget ratio by year and by awardee, bidder counts. Known items F1087-F1094 and the NHRI/Taichung/Taipei VGH series cover most of the large lots I opened, so this pass added few new numbers. Four lots (CDC nanopore KA115024 at NT$11.59M, KA115057 at NT$3.45M, the Taichung VGH chips AA115A001 at NT$1.50M, and the Kaohsiung WGS lots at NT$12,800/genome) match findings already on the list, so I did not report them.",
+  "leads": [
+    {
+      "name": "PCC full 定序儀 title search pages 2-8 and 基龍米克斯 pages 2-7",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序儀&page=2",
+      "access": "public JSON API; needs a script, since summarizer truncates at about 100K characters",
+      "labels": ["1B", "2B", "1A"],
+      "rationale": "Builds a 2016-2025 award/budget ratio series and gives win counts by awardee, including any 2024-25 NovaSeq 6000 lots."
+    },
+    {
+      "name": "臺北市立聯合醫院 NGS reagent lot 115C01 (award 3 Jul 2026)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=研毅企業",
+      "access": "public JSON API",
+      "labels": ["1B"],
+      "rationale": "Appears in the ANTEC (nanopore) company search and is an NGS reagent lot not yet opened; it may show a public hospital splitting reagent spend across platforms."
+    }
+  ],
+  "apify_requests": []
+}
+```

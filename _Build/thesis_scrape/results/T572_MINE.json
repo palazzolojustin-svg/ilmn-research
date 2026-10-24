@@ -1,0 +1,90 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Calgary's internal NovaSeq 6000 S4 price path is a 26% cut in 2024 followed by a 4.9% rise in 2025, so the tail is not being repriced downward.",
+      "detail": "The CHGI internal list (CAD) shows S4 300-cycle full flow cell (3,000 Gb) at $28,960 in 2023-24 (item 8120.5), $21,371 in June 2024 (8120.60) and $22,420 in 2025 (8120.70). That is -26.2% (21,371/28,960) and then +4.9% (22,420/21,371). Per Gb it is 9.65 → 7.12 → 7.47 CAD. The 2023-24 row is not labelled v1.5, so part of the first step may be a kit-generation change. The 2025 list is a re-issue, not a cut. All numbers are from search snippets, not the PDFs.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "date": "2025 (lists for 2023-24, Jun 2024, 2025)",
+      "source_name": "University of Calgary Cumming School of Medicine, CHGI internal price lists",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F664 gave only the +4.9% 2024→2025 step. This adds the 2023-24 baseline and a 3-point price path."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At Calgary the 6000 S4 lane costs 1.7x the X 25B lane per Gb, and the gap widened from 1.64x because the 6000 rose while the X stayed flat.",
+      "detail": "S4 one lane (750 Gb) was $5,600 in June 2024 and $5,820 in 2025: 7.47 → 7.76 CAD/Gb. The X 25B lane (900 Gb) was $4,100 in both: 4.56 CAD/Gb. The ratio went from 1.64x to 1.70x. Converting labs here would get roughly a 41% per-Gb cut (1 − 4.56/7.76). That is smaller than the 60–70% implied by Illumina's reported 3.4x. This agrees with the other core-level ratios already logged, which also run below 3.4x. The X lane price does not sit on a lane-by-lane list from Illumina, so a core's own markup is mixed in.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Price%20List%20June%202024.pdf",
+      "date": "Jun 2024 and 2025",
+      "source_name": "University of Calgary CHGI internal price lists",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F664/F665 report the two prices separately. This is the derived per-Gb ratio and its drift."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Calgary does not run the X in-house. Its 25B lane is sequenced at the BC Genome Sciences Centre, so this internal user base still buys 6000 flow cells directly.",
+      "detail": "The 2025 list notes the NovaSeq X 25B lane (item 9000.00) is 'in partnership with BC Genome Sequencing Centre', with billing through CHGI and possibly longer turnaround. The 6000 S4 stays as the in-house product at $22,420. This is a hybrid arrangement that keeps the 6000 as the local default. It is consistent with a partial, slow migration, though one core is thin evidence.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "date": "2025",
+      "source_name": "University of Calgary CHGI internal price list",
+      "source_type": "price_list",
+      "quote": "In partnership with BC Genome Sequencing Centre.",
+      "strength": "weak",
+      "why_new": "F664/F665 do not mention the outsourced-X arrangement. F489 covers a different Canadian core (TCAG)."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Calgary's smaller 6000 flow cells are also being repriced upward or held flat, not cut.",
+      "detail": "The S2 300-cycle price was $18,480 in 2023-24 (8100.5), $14,301 in June 2024 (8100.60) and $14,810 in 2025 (8100.70): -22.6% then +3.6%. The SP 500-cycle price was $9,030 in 2023-24, $9,290 in June 2024 and $9,290 in 2025: +2.9% then flat. The 2022-23 SP 500 price was $8,290, so SP is +12% over three years. Only the 2023-24 to 2024 S2 step is a cut, and kit versioning may explain it. These are snippet-level readings.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Library%20%26%20Seq%20Price%20List%202023-2024%20v2_0.pdf",
+      "date": "2022-2025",
+      "source_name": "University of Calgary CHGI internal price lists",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list covers only the S4. S2 and SP three-year paths are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Calgary's flat X 25B lane price at $4,100 from Jun 2024 to 2025 shows no sign of deepening X discounting at an academic core.",
+      "detail": "The X 25B lane (900 Gb) was $4,100 CAD in both lists, flat at 4.56 CAD/Gb. Over the same year the 6000 S4 lane rose 3.9% ($5,600 → $5,820). A core passing through Illumina costs would reflect any accelerating price cuts. This is one core with a partner-run X, so it is a weak watch-out and not a rebuttal of 1B. It sits alongside the flat or rising X prices logged at TxGen and Fred Hutch.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "date": "Jun 2024 vs 2025",
+      "source_name": "University of Calgary CHGI internal price lists",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F665 notes the flat X price. This adds the 3.9% S4 lane rise and frames the X result as a 1B watch-out."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I could not read the PDFs directly. WebFetch returned compressed binary, Read PDF mode needs poppler (not installed), and Bash was not available in this session. All figures are from search-engine snippets that quote the PDFs, so they are unverified against the originals. Still unread: the 2024-25 'with sales' list (valid 1 Apr 2024 to 31 Mar 2025; sale prices not seen), the 2022-23 S4 row, the 2025 validity dates and the 200-cycle S4 rows. A later agent with pdftotext or pypdf could fill those gaps. Currency is stated as CAD in the snippets, but the label was not seen in the PDFs.",
+  "leads": [
+    {
+      "name": "CHGI Internal UofC Price List with sales 2024-2025",
+      "url": "https://live-cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20UofC%20Price%20List%20with%20sales%202024-2025.pdf",
+      "access": "public PDF; needs a local PDF text extractor",
+      "labels": ["1A", "1B"],
+      "rationale": "It may show sale or discount pricing on 6000 flow cells and the X lane, which would test whether the 6000 tail is being discounted."
+    },
+    {
+      "name": "CHGI Internal Library & Seq Price List 2022-2023",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Library%20%26%20Seq%20Price%20List%202022-2023.pdf",
+      "access": "public PDF; needs a local PDF text extractor",
+      "labels": ["1A"],
+      "rationale": "The S4 row was cut off in the snippet. It would extend the S4 price path to four years and show whether the 2023-24 level was already above 2022-23."
+    }
+  ],
+  "apify_requests": []
+}
+```

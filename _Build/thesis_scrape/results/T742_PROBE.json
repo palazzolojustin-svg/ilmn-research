@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "Opened the CDC press release, the stacks.cdc.gov landing page and the Socrata dataset 76vv-a7x8 (VSRR quarterly provisional estimates, no login). The release confirms 3,606,400 births in 2025 (-1%) and a general fertility rate (GFR) of 53.1. It gives no 2023 or 2024 totals. The report PDF came back as binary and was unreadable through WebFetch. The Socrata dataset holds rates only, not birth counts, and the rates are 12-month-ending per 1,000 females aged 15-44. The data runs through 2026 Q2, so the 2026 Q1 and Q2 trend is available but the counts for those quarters are not. The GFR fell from 54.6 (2024 Q4) to 52.7 (2026 Q2), which is -3.5% over six quarters. The y/y drop is accelerating: -1.5% at 2025 Q4 vs 2024 Q4, -1.5% at 2026 Q1 vs 2025 Q1, and -1.9% at 2026 Q2 vs 2025 Q2. The rate falls faster than the 1% headline count, partly because the female 15-44 population is still growing. Births probably run about -1.5% to -2% y/y by mid-2026 (my inference; counts not pulled). Rates for ages 35-39 and 40-44 are still rising: 35-39 was 54.0, 54.6, 55.4 and 40-44 was 12.6, 12.7, 12.9 at 2024, 2025 and 2026 Q2. This matters for NIPT because the oldest group is the highest-intensity and highest-penetration cohort, so the mix is not hurting volume. Caveat on the thesis arithmetic: 3.6M births x 70-80% penetration gives about 2.5-2.9M NIPT tests, below the 2.9-3.4M ceiling proposed in the task. Reaching 2.9-3.4M needs non-birth pregnancies, repeat draws or about 85-95% penetration. The ceiling and the penetration figures are not verified here.",
+  "how_to_mine": "1) Pull the report PDF https://stacks.cdc.gov/view/cdc/252434/cdc_252434_DS1.pdf with a PDF reader (for example pdftotext) to get the 2024 and 2023 births, TFR and age-specific counts. NCHS final 2024 data (NVSR) should show 2024 and 2023 totals. 2) For the Socrata API, use https://data.cdc.gov/resource/76vv-a7x8.json?$where=indicator='15-44 years' AND race_ethnicity='All races and origins'&$order=year_and_quarter DESC. Note the columns are only year_and_quarter, topic, topic_subgroup, indicator, race_ethnicity, rate, unit. 3) For counts, use CDC WONDER natality or the NVSS provisional quarterly count tables. 4) Build the NIPT ceiling as births x penetration plus about 1M non-delivery pregnancies, and check against Natera, BillionToOne and Myriad prenatal volumes.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The US birth denominator for NIPT is shrinking, and the shrinkage accelerated through mid-2026.",
+      "detail": "The CDC 12-month-ending general fertility rate fell from 54.6 per 1,000 women aged 15-44 (2024 Q4) to 53.7 (2025 Q2), 53.3 (2025 Q4), 53.0 (2026 Q1) and 52.7 (2026 Q2). The y/y decline was -1.5% at 2026 Q1 and -1.9% at 2026 Q2, versus the -1% headline for full-year 2025 (3,606,400 births). A falling denominator caps NIPT test growth for the whole market, since the ACMG first-line recommendation and 70-80% penetration leave little room to add tests.",
+      "url": "https://data.cdc.gov/resource/76vv-a7x8.json?$where=indicator='15-44 years' AND race_ethnicity='All races and origins'&$order=year_and_quarter DESC",
+      "date": "2026 Q2 data (accessed 2026-10-12)",
+      "source_name": "CDC NCHS VSRR Quarterly provisional estimates for selected birth indicators (data.cdc.gov)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives the 2026 Q1 and Q2 quarterly fertility-rate trend (-1.5% and -1.9% y/y); known notes cite only the 2025 -1% figure."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Births to older mothers, the highest-intensity NIPT cohort, are still rising, which partly cushions test volume.",
+      "detail": "The CDC birth rate for women aged 35-39 rose from 54.0 (2024 Q2) to 54.6 (2025 Q2) and 55.4 (2026 Q2), about +1.5% y/y. The rate for women aged 40-44 rose from 12.6 to 12.7 to 12.9. Older mothers are more likely to get NIPT and to get follow-on tests, so the mix partly offsets the falling overall GFR.",
+      "url": "https://data.cdc.gov/resource/76vv-a7x8.json?$where=(indicator='35-39 years' OR indicator='40-44 years') AND race_ethnicity='All races and origins'",
+      "date": "2026 Q2 data (accessed 2026-10-12)",
+      "source_name": "CDC NCHS VSRR quarterly provisional estimates (data.cdc.gov)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Offers an official-data watch-out on age mix for the NIPT-maturing argument; not in the known notes."
+    }
+  ],
+  "new_candidates": [
+    "CDC WONDER natality or NVSS provisional quarterly count tables for 12-month-ending birth counts in 2026 Q1/Q2",
+    "NCHS final 2024 births NVSR (2023 and 2024 totals) to complete the series",
+    "Population-level NIPT penetration data (for example claims data or ACOG/SMFM surveys) to check the 70-80% claim and the 2.9-3.4M ceiling"
+  ],
+  "apify_requests": []
+}
+```

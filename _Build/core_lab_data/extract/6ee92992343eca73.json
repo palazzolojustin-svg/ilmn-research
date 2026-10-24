@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "NGI Sweden",
+ "document_date": "2026-06",
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_25B",
+   "flow_cell_raw": "NovaSeq 25B-300 flowcell",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 32000,
+   "currency": "SEK",
+   "includes_library_prep": false,
+   "stated_output_value": 3,
+   "stated_output_unit": "B_pairs",
+   "line_quote": "Sequencing on 1 lane of an Illumina NovaSeq 25B-300 flowcell will generate ~3 billion read-pairs in total ... 32000 SEK"
+  },
+  {
+   "platform_fc": "NSX_25B",
+   "flow_cell_raw": "NovaSeq 25B-300 (2x150 bp)",
+   "unit": "per_sample",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 6000,
+   "currency": "SEK",
+   "includes_library_prep": true,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "library preparation and sequencing ... NovaSeq 25B-300 (2×150 bp) to approximately 30X coverage is approx. 6000 SEK total/sample"
+  }
+ ],
+ "_model": "haiku"
+}

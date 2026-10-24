@@ -1,0 +1,123 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Novogene, a main outsourcing channel for research sequencing, now sells a whole 25B flow cell for as little as about $2,462 per lane, which is $2.46/Gb.",
+      "detail": "The 'Sequencing Savings' page (code SEQ_Save) lists a full 25B flow cell from $19,699. Novogene says a 25B lane is up to 1,000 Gb. A 25B flow cell has 8 lanes (my assumption), so $19,699/8 = $2,462 per lane, or $2.46/Gb. That is 3.4% below the single-lane promo of $2,549 and 5% below the $2,599 spring price. The 4-lane price of $9,899 works out to $2,475 per lane, or $2.47/Gb. So a volume ladder exists (smaller lots cost more) and the lowest rung is about $2.46/Gb. This is the lowest $/Gb I found on an open-web Novogene page. It is below most core-lab internal rates in the known list (CWRU $2.63, UCLA $3.51/lane, Rush $4.20+), and those cores are the outsourcers' competitors.",
+      "url": "https://web.novogene.com/Website_Sequencing_Savings_Promotion_2026",
+      "date": "2026-09 (quotes by 30 Sep 2026; samples by 31 Oct 2026)",
+      "source_name": "Novogene landing page, Sequencing Savings Promotion 2026",
+      "source_type": "price_list",
+      "quote": "25B, full flow cell: from $19,699",
+      "strength": "medium",
+      "why_new": "The known list has only the $2,549 single-lane price. The 4-lane ($9,899) and full-flow-cell ($19,699) tiers and the implied $2.46/Gb are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Novogene's 25B lane price has fallen about 12% per Gb since the Nov 2023 to Mar 2024 launch promo, and the 10B lane about 9% per Gb.",
+      "detail": "Per-Gb arithmetic from dated Novogene pages: Nov 2023 to Mar 2024, 25B at 'as low as $2,799' on a ~950 Gb yield = $2.95/Gb, and that price needed ≥16 lanes. Q2 2025: $2,599 / 1,000 Gb = $2.60. Spring 2026: $2,599 = $2.60. Sep 2026: $2,549 = $2.55 single-lane. The full flow cell is $2.46. From $2.95 to $2.55 is −13.5%, and to $2.46 is −16.6%. The 2024 price needed the 16-lane commitment and the 2026 price is a single lane. The yield basis also changed (950 → 1,000 Gb). The 10B lane went $1,699 (Q2'25) → $1,599 (Spring'26) → $1,549 (Sep'26), which is $4.53 → $4.26 → $4.13/Gb (−8.8%). This is steady and modest erosion at a low-price research channel, with no cliff.",
+      "url": "https://web.novogene.com/Facebook_25Q2_Premade_X",
+      "date": "2023-11 to 2026-09",
+      "source_name": "Novogene landing pages (Website_NovaSeqXPlus25B_PremadeLibrarySeq, Facebook_25Q2_Premade_X, Website_Premade_2026_Spring, Sequencing Savings 2026)",
+      "source_type": "price_list",
+      "quote": "as low as $2,799 per lane",
+      "strength": "medium",
+      "why_new": "The known list has only the Q2'25 to Sep'26 10B/25B moves. The Nov 2023 to Mar 2024 anchor and the per-Gb series from 2023 are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The Novogene 10B-versus-25B per-Gb premium has widened to about 1.6x, so within-X price steps are steep for smaller buyers and the 25B is the price-setting flow cell.",
+      "detail": "Sep 2026: 10B $1,549/375 Gb = $4.13/Gb versus 25B $2,549/1,000 Gb = $2.55/Gb, a ratio of 1.62x. Q2 2025: $4.53 vs $2.60 = 1.74x. Spring 2026: $4.26 vs $2.60 = 1.64x. On the 4-lane tier, the 10B (4 lanes from $5,799 = $1,450 per lane, $3.87/Gb) vs the 25B 4-lane ($2.47/Gb) gives 1.57x. The steep step supports the view that mix migrates toward the largest flow cell and that a 35B (+40% output) priced on this ladder would reset outsourcers' $/Gb again.",
+      "url": "https://web.novogene.com/Website_Sequencing_Savings_Promotion_2026",
+      "date": "2026-09",
+      "source_name": "Novogene landing page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list gives the 10B/25B ratio for cores (1.03-1.62x). A dated outsourcer ratio series is new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Novogene's full 25B flow-cell price of $19,699 is 18% below Illumina's GSA list of $24,155 for the 300-cycle kit, so the largest outsourcer is funding a retail price below distributor list.",
+      "detail": "$19,699 / $24,155 = 0.816. Novogene's price also includes library QC, Q30 ≥85% guarantee, data delivery, lab labour and a margin. NCI's recharge is ~71% of GSA (~$17.15K), and IDIBAPS paid €16,000 for a 25B-300. Novogene's price is ~15% above NCI's level and ~23% above IDIBAPS's pre-conversion price. Rough implied reagent cost for Novogene is likely $14-17K (my estimate: it needs to buy at roughly the NCI/IDIBAPS level or better to earn a margin). It is not observable, but it means a mid-teens gross spread, consistent with its falling platform-service gross margin (32.5% in FY25). Novogene's volume buys give it purchasing leverage, a channel for extra Illumina discounting.",
+      "url": "https://web.novogene.com/Website_Sequencing_Savings_Promotion_2026",
+      "date": "2026-09",
+      "source_name": "Novogene landing page vs known GSA/NCI/IDIBAPS prices",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This compares Novogene's all-in full-flow-cell price with GSA, NCI and the tender. Margin inference is new but unobservable."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Novogene runs discounts every quarter with aggressive deadlines, and the Americas-only promos keep coming, which suggests sustained price competition for research volume.",
+      "detail": "Dated, coded promos: 2024_PAG (quotes 11 Jan to 31 Mar 2024), XPlus_25B_Lane (15 Nov 2023 to 31 Mar 2024), Premade_2025Q2 (1 Apr to 30 Jun 2025, 'extra savings for 9+ lanes'), 26Spring_PML/PMP (to 30 Jun 2026, partial data buckets 'as low as 50 Gb for $350'), SEQ_Save (to 30 Sep 2026, 4-lane and full-flow-cell tiers). The Sep 2026 page adds new volume tiers (4 lanes, full flow cell) that earlier pages lacked, and the spring page adds 5+ lanes 'contact for volume pricing'. In Europe, 30% off human WGS (≥90 Gb, ≥6 samples) and 40% off plant/animal WGS (≥5 Gb, ≥24 samples) on X Plus are open-ended with no end date. A search snippet showed an Aug 31 deadline for the summer version, while the page shows 30 Sep, so the promo was extended or reissued. The cadence is a signal of steady rather than accelerating discounting.",
+      "url": "https://web.novogene.com/30-percent-off-human-WGS",
+      "date": "2023-11 to 2026-09",
+      "source_name": "Novogene landing pages (30-percent-off-human-WGS, 40-percent-off-plant-and-animal-WGS and others)",
+      "source_type": "price_list",
+      "quote": "30% off Human WGS samples sequenced on the latest Novaseq X plus system",
+      "strength": "weak",
+      "why_new": "The known list names the spring and summer lane promos. The European 30%/40% WGS offers, the volume-tier additions, and the extended deadline are new."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Novogene no longer prices the NovaSeq 6000 anywhere on its promo pages; every lane price is on the X Plus, which supports an outsourcer-led shift off the 6000 in research.",
+      "detail": "I read the six pages: Sequencing Savings 2026, Facebook_25Q2, Premade_2026_Spring, PremadeLibrarySeq, 40%/30% WGS, and 2024 PAG. None lists an S4 or NovaSeq 6000 price. The late-2023 page benchmarks the 25B at '3x the S4 FC' on data output instead. Novogene ended all 6000 support on 1 Jun 2025 (known). Because this outsourcer takes work from cores and large labs, its fleet conversion pushes research volume to X pricing, with the price step already taken.",
+      "url": "https://web.novogene.com/Website_NovaSeqXPlus25B_PremadeLibrarySeq",
+      "date": "2023-11 to 2026-09",
+      "source_name": "Novogene landing pages",
+      "source_type": "price_list",
+      "quote": "up to a staggering 8TB of data per flow cell",
+      "strength": "weak",
+      "why_new": "The 6000 phase-out notice is known. The absence of any 6000 price across the 2023-26 promo series is new but absence-based."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Novogene's promo prices have moved only −2% to −4% on a like-for-like basis in the last 15 months, so there is no sign of a price collapse at this channel.",
+      "detail": "25B single lane: $2,599 (Q2'25, spring '26) → $2,549 (Sep '26), −1.9%. 10B: $1,699 → $1,549, −8.8% (known). The 25B lane has been flat at $2,599 from Q2'25 through spring '26, i.e. no cut for about a year. Half of the apparent decline since 2024 comes from the volume condition ($2,799 needed ≥16 lanes). The 25B is still above rival-platform pricing at the Illinois-type cores, but there is no proof that Ultima or Element competition has forced a deeper cut at Novogene. This lowers the weight of the 'discounting accelerates' reading.",
+      "url": "https://web.novogene.com/Website_Premade_2026_Spring",
+      "date": "2025-04 to 2026-09",
+      "source_name": "Novogene landing pages",
+      "source_type": "price_list",
+      "quote": "$2,599 per lane for 1,000G output (25B Flow Cell)",
+      "strength": "medium",
+      "why_new": "This is the flat-year observation on the 25B (Q2'25 to spring '26 unchanged), a watch-out against the acceleration claim."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Fetched 8 slugs. No Q3/Q4 2025 or Q1 2026 premade pages were found (Website_Premade_2025Q4 gives 404). The 2024 PAG page has prices only in images, which could be OCRed if the image URLs are found. The Wayback CDX API is blocked in this tool, so the history gaps (Q3'25 to Q1'26) need archive.org access through another route. The per-lane figure for the full flow cell assumes 8 lanes (not stated on the page). Single-page prices are promo prices and they require RUO and sample volume thresholds.",
+  "leads": [
+    {
+      "name": "Novogene Blog_NovaSeqXPlus25B_PremadeLibrarySeq",
+      "url": "https://web.novogene.com/Blog_NovaSeqXPlus25B_PremadeLibrarySeq",
+      "access": "open",
+      "labels": ["1B", "2B"],
+      "rationale": "Companion blog to the 2023-24 launch promo; may hold dated yield and price statements. I did not fetch it."
+    },
+    {
+      "name": "Novogene www.novogene.com/us-en/111",
+      "url": "https://www.novogene.com/us-en/111",
+      "access": "open",
+      "labels": ["1B"],
+      "rationale": "Surfaced in search results; another promo or pricing page I did not open."
+    },
+    {
+      "name": "Wayback CDX for web.novogene.com/*",
+      "url": "https://web.archive.org/cdx/search/cdx?url=web.novogene.com/*",
+      "access": "blocked in WebFetch; try from a shell with curl",
+      "labels": ["1B", "2A"],
+      "rationale": "Would fill Q3'25 to Q1'26 and 2024 gaps for the price time series."
+    }
+  ],
+  "apify_requests": []
+}
+```

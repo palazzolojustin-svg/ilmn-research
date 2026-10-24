@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "Baylor College of Medicine, Genomic & RNA Profiling Core Facility",
+ "document_date": "2025-03",
+ "effective_from": "2025-03",
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X – 10B, 300 cycles. 1 lane PE 150",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "Regular Baylor Pricing",
+   "price": 1650,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 1.2,
+   "stated_output_unit": "B_reads",
+   "line_quote": "NovaSeq X – 10B, 300 cycles. 1 lane PE 150 1.2B $1650"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X - 10B, 300 cycles. 1 lane",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "Dan L. Duncan Comprehensive Cancer Center Member Pricing",
+   "price": 1550,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 1.2,
+   "stated_output_unit": "B_reads",
+   "line_quote": "NovaSeq X - 10B, 300 cycles. 1 lane PE 150 1.2B $1550"
+  }
+ ],
+ "_model": "haiku"
+}

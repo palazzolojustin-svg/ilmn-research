@@ -1,0 +1,161 @@
+Pricing - Pathology | UCLA Health
+Skip to main content
+Explore links (header)
+Explore UCLA Health
+UCLA Health Home
+About Us
+Cancer Center
+Hospitals & Clinics
+School of Medicine
+Academic Departments
+News & Insights
+Community & Equity
+Refer a Patient
+Universal links (header)
+myUCLAhealth
+Donate
+Contact Us
+Translate
+English
+العربية
+中文
+Italiano
+日本語
+한국어
+فارسی
+Contact Us
+Pricing
+Internal Rates
+UCLA Technology Center for Genomics & Bioinformatics Rates Effective July 1, 2026
+Internal Rates
+External Rates
+Sequencing
+Product/Service Description |
+Unit |
+External Rate |
+MiSeq v2 PE 300 Cycles |
+Per Run |
+$2,014.56 |
+MiSeq v2 PE 500 Cycles |
+Per Run |
+$2,224.51 |
+MiSeq v3 PE 150 Cycles |
+Per Run |
+$1,791.45 |
+MiSeq v3 PE 600 Cycles |
+Per Run |
+$2,755.43 |
+MiSeq i100 5M 300 Cycles |
+Per Run |
+$1,131.67 |
+MiSeq i100 5M 600 Cycles |
+Per Run |
+$1,476.63 |
+MiSeq i100 25M 100 Cycles |
+Per Run |
+$1,357.78 |
+MiSeq i100 25M 300 Cycles |
+Per Run |
+$1,788.76 |
+MiSeq i100 25M 600 Cycles |
+Per Run |
+$2,055.15 |
+MiSeq i100 25M 1000 Cycles |
+Per Run |
+$2,713.78 |
+MiSeq i100 50M 100 Cycles |
+Per Run |
+$1,698.46 |
+MiSeq i100 50M 300 Cycles |
+Per Run |
+$2,119.83 |
+MiSeq i100 50M 600 Cycles |
+Per Run |
+$2,541.19 |
+MiSeq i100 100M 100 Cycles |
+Per Run |
+$2,249.45 |
+MiSeq i100 100M 300 Cycles |
+Per Run |
+$2,589.09 |
+NextSeq v2 SR 75 Cycles - High Output |
+Per Run |
+$2,703.41 |
+NextSeq v2 PE 150 Cycles - High Output |
+Per Run |
+$4,468.01 |
+NextSeq v2 PE 150 Cycles - Mid Output |
+Per Run |
+$2,144.63 |
+NextSeq v2 PE 300 Cycles - Mid Output |
+Per Run |
+$3,028.85 |
+NovaSeq X Plus 1.5B 100 Cycles |
+Per Lane |
+$1,874.17 |
+NovaSeq X Plus 1.5B 200 Cycles |
+Per Lane |
+$2,189.40 |
+NovaSeq X Plus 1.5B 300 Cycles |
+Per Lane |
+$2,338.81 |
+NovaSeq X Plus 1.5B 600 Cycles |
+Per Lane |
+$3,473.10 |
+NovaSeq X Plus 5B 100 Cycles |
+Per Lane |
+$1,210.42 |
+NovaSeq X Plus 5B 200 Cycles |
+Per Lane |
+$1,351.61 |
+NovaSeq X Plus 5B 300 Cycles |
+Per Lane |
+$1,462.87 |
+NovaSeq X Plus 10B 100 Cycles |
+Per Lane |
+$1,457.26 |
+NovaSeq X Plus 10B 200 Cycles |
+Per Lane |
+$1,665.53 |
+NovaSeq X Plus 10B 300 Cycles |
+Per Lane |
+$1,765.67 |
+NovaSeq X Plus 25B 100 Cycles |
+Per Lane |
+$2,164.94 |
+NovaSeq X Plus 25B 200 Cycles |
+Per Lane |
+$3,202.38 |
+NovaSeq X Plus 25B 300 Cycles |
+Per Lane |
+$3,512.47 |
+Illumina TruPath Genome C8 (WGS+SVs) |
+Per Lane |
+$1,336.10 |
+Illumina TruPath Genome C2 (WGS+SVs) |
+Per Lane |
+$1,819.35 |
+DNBseq T7 150 Cycles |
+Per Flowcell |
+$3,651.20 |
+DNBseq T7 200 Cycles |
+Per Flowcell |
+$2,688.95 |
+DNBseq T7 300 Cycles |
+Per Flowcell |
+$3,043.00 |
+Oxford Nanopore GridIon |
+Per Flowcell |
+$1,951.33 |
+Oxford Nanopore PromethIon 2 Solo |
+Per Flowcell |
+$2,176.33 |
+≤ 2% Spike-in (6-8M Reads) |
+Per Pool |
+$811.40 |
+Bulk Library Construction
+Product/Service Description |
+Unit |
+External Rate |
+RNAseq Library Prep (Stranded mRNA (Poly-A)) |
+Per Sample |

@@ -1,0 +1,76 @@
+SECUENCIACIÓN ILLUMINA Tarifa A Tarifa B Tarifa C
+Librerías y secuenciación illumina de amplicones 2x300pb 30,41 €        32,19 €          37,87 €         
+Librerías de amplicones para illumina sin secuenciación 16,64 €        17,62 €          21,24 €         
+Librerías y secuenciación illumina de amplicones (prioridad alta) 
+≤10 muestras  2x250pb 101,33 €      107,24 €       116,53 €      
+Librerías y secuenciación illumina de amplicones (prioridad alta) 
+2x300pb 80,89 €        85,61 €          93,02 €         
+Librerías y secuenciación illumina de metagenomas  6 Gb por 
+muestra (2x150pb) 156,41 €      165,54 €       189,66 €      
+Librerías y secuenciación illumina de metagenomas  15 Gb por 
+muestra (2x150pb) 268,29 €      283,94 €       324,84 €      
+Librerías y secuenciación illumina de genomas 0,5Gb (2x150pb) 103,05 €      109,06 €       130,25 €      
+Librerías y secuenciación illumina de genomas <10Mb  1Gb por 
+muestra (2x150pb)  ≤ 25 muestras 140,14 €      148,31 €       184,64 €      
+Librerías y secuenciación illumina de genomas <10Mb 1Gb por 
+muestra  (2x150pb) > 25 muestras 103,56 €      109,60 €       125,62 €      
+Librerías de genomas/ metagenomas para illumina sin 
+secuenciación 72,63 €        76,86 €          93,30 €         
+Librerías y secuenciación illumina de RNA-seq/ 
+metatranscriptomas  6Gb por muestra  (2x150pb) 271,69 €      287,54 €       322,23 €      
+Librerías y secuenciación illumina de  RNA-seq/ 
+metatranscriptomas 15Gb  por muestra (2x150pb) 386,39 €      408,93 €       460,65 €      
+Librerías y secuenciación illumina  de RNA-seq/ 
+metatranscriptomas (low input) 15Gb por muestra (2x150pb)
+513,01 €      542,93 €       606,27 €      
+Librerías y secuenciación illumina de RNA-seq eucariota 376,27 €      398,22 €       449,02 €      
+Librerías y secuenciación illumina  de small Rnas / microRNAs 5 
+millions reads per sample 1(x50pb) 310,92 €      329,06 €       396,69 €      
+Carrera de NextSeq1000/2000 P1 Reagents(100cycles) 878,86 €      930,13 €       1.015,67 €   
+Carrera de  NextSeq™1000/2000 P1 Reagents(300Cycles) 1.204,79 €   1.275,07 €    1.390,49 €   
+Carrera de  NextSeq1000/2000 P1 Reagents(600cycles) 1.811,05 €   1.916,69 €    2.087,69 €   
+Carrera de  NextSeq™1000/2000 P2 Reagents(100Cycles) 1.322,71 €   1.399,86 €    1.526,09 €   
+Carrera de  NextSeq™1000/2000 P2 Reagents(200Cycles) 2.447,34 €   2.590,10 €    2.819,43 €   
+Carrera de  NextSeq™1000/2000 P2 Reagents(300Cycles) 3.233,81 €   3.422,45 €    3.723,86 €   
+Carrera de NextSeq1000/2000 P2 300M RGTSKit(600cyc) 3.515,25 €   3.720,30 €    4.047,52 €   
+Carrera de NextSeq™ 2000 P3 Reagents (100 Cycles) 2.798,86 €   2.962,13 €    3.223,67 €   
+SECUENCIACIÓN MASIVA Y BIOINFORMÁTICA
+(Tarifas aprobadas en la Junta de Gobierno, 05 de febrero de 2026)                                                                                           
+FS_FOR216  AQ_02.02.26
+Carrera de NextSeq™ 2000 P3 Reagents (200 Cycles) 3.858,98 €   4.084,09 €    4.442,81 €   
+Carrera de NextSeq™ 2000 P3 Reagents (300 Cycles) 5.131,56 €   5.430,91 €    5.906,28 €   
+Carrera de NextSeq™ 2000 P4 Reagents (50 Cycles) 2.835,57 €   3.000,98 €    3.265,89 €   
+Carrera de NextSeq™ 2000 P4 Reagents (100 Cycles) 3.921,27 €   4.150,01 €    4.514,45 €   
+Carrera de  NextSeq™ 2000 P4 Reagents (200 Cycles) 5.308,44 €   5.618,09 €    6.109,68 €   
+Carrera de  NextSeq™ 2000 P4 Reagents (300 Cycles) 6.745,66 €   7.139,15 €    7.762,49 €   
+Carrera de Miseq nano 2x250pb 559,71 €      592,36 €       643,67 €      
+Carrera de Miseq v3 2x300pb 2.323,98 €   2.459,55 €    2.672,58 €   
+Cargar un secuenciador con muestra y cartuchos del cliente 82,57 €        87,38 €          144,76 €      
+SECUENCIACIÓN PACBIO Tarifa A Tarifa B Tarifa C
+Carrera de PacBio VEGA  (50-60Gb) 1.438,65 €   1.522,58 €    1.659,68 €   
+Librerías de amplicones hasta 2Kb PACBIO y secuenciación 40,22 €        42,57 €          51,18 €         
+Librerías amplicones hasta 2Kb PacBio sin secuenciar 24,39 €        25,82 €          32,98 €         
+Librerías de genomas < 10Mb PACBIO o metagenomas sin 
+secuenciar 118,27 €      125,17 €       144,37 €      
+Metagenomas para ensamblado (6Gb por muestra) 394,90 €      417,94 €       506,43 €      
+Tratamiento con Rnasa 1,71 €           1,81 €            1,97 €           
+Cuantifcación con Qubit 1,39 €           1,48 €            1,60 €           
+SECUENCIACIÓN NANOPORE Tarifa A Tarifa B Tarifa C
+Librerías de amplicones 16S y secuenciacion nanopore 142,88 €      146,56 €       159,99 €      
+Librerías de amplicones custom y secuenciación nanopore ≤20 65,62 €        68,34 €          75,15 €         
+Librerías de amplicones custom y secuenciación nanopore >20 41,61 €        42,83 €          46,83 €         
+Librerías de amplicones custom sin secuenciación 29,28 €        30,42 €          33,41 €         
+Librerías de amplicones extra largos y secuenciación nanopore 331,44 €      345,08 €       379,42 €      
+Librerías de genomas < 10Mb y secuenciación nanopore 102,36 €      105,39 €       115,26 €      
+Librerías de plásmidos y secuenciación nanopore 86,28 €        89,33 €          97,95 €         
+Cargar una flowcell de nanopore R10.4.1 1.027,85 €   1.077,62 €    1.188,79 €   
+FS_FOR216  AQ_02.02.26
+ANÁLISIS BIOINFORMÁTICOS Tarifa A Tarifa B Tarifa C
+Anotación taxonómica de amplicones upstream (16S, 18S, ITS) 18,37 €        19,44 €          21,12 €         
+Análisis comparado de amplicones downstream (16S, 18S, ITS) 29,51 €        31,23 €          33,93 €         
+Mapeo de metagenomas/metatranscriptomas 42,85 €        45,35 €          49,28 €         
+Mapeo y análisis diferencial de 
+metagenomas/metatranscriptomas 62,43 €        66,07 €          71,80 €         
+Ensamblado y anotación de metagenomas/metatranscriptomas 47,16 €        49,91 €          54,24 €         
+Ensamblado, anotación y análisis diferencial de 
+metagenomas/metatranscriptomas 66,74 €        70,63 €          76,75 €         

@@ -1,0 +1,169 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GeneDx, the largest US rare-disease exome/genome lab, is now steering its test mix away from whole genomes because genomes are reimbursed less, so its WGS growth is capped by reimbursement rather than by sequencing cost.",
+      "detail": "Q1'26 deck: genomes were 45% of the exome/genome portfolio, and blended revenue per test fell to ~$3,300 (from ~$3,750 in Q4'25) 'due to higher genome mix and lower parental samples mix'. The deck also says 'pricing and collection rates are relatively unchanged.' The new action plan: 'Improving blended ARR by actively managing test mix to focus on healthy unit economics' and 'Optimizing cost per test for genome by advancing… automation and AI.' The plan names no lever on sequencing price. FY26 total revenue guidance was cut from $540–555M to $475–490M (−12% at midpoint).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000039/wgsq12026earningspresent.htm",
+      "date": "2026-05-04",
+      "source_name": "GeneDx Q1 2026 earnings presentation (8-K Ex. 99.3)",
+      "source_type": "filing",
+      "quote": "Improving blended ARR by actively managing test mix to focus on healthy unit economics",
+      "strength": "strong",
+      "why_new": "F569 notes only that genome mix fell. This adds management's stated intent to manage mix toward exome, and the reason: genome reimbursement, not sequencing cost."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GeneDx's exome/genome volume growth is slowing each quarter, and its own guidance implies roughly +29% in Q3'26 and about +26% in Q4'26, down from +34% in Q4'25 and Q1'26.",
+      "detail": "Volumes and y/y growth: Q3'25 25,702 (+33%), Q4'25 27,761 (+34.3%), Q1'26 27,488 (+34%), Q2'26 30,785 (+32%). The Q3'26 guide is 33,200 tests, which is +29.2% vs 25,702. The FY floor of +30% on 97,271 is 126,452 tests. Subtracting H1 58,273 and Q3 33,200 leaves Q4 at ≥34,979, or +26.0% vs 27,761.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051852/q22026earningspresentati.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2 2026 earnings presentation / Q3'25–Q2'26 press releases",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F555 gave sequential Q3 growth and the FY guide only. This is the quarterly y/y path, including the Q4 rate implied by the floor."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx's exome/genome revenue per test swung from about +18% in FY25 to about −12% y/y in Q2'26, and the Q3 guide implies −12% to −14%, so a large Illumina clinical customer has a strong incentive to squeeze reagent cost.",
+      "detail": "Revenue per test (exome/genome revenue ÷ volume): Q1'25 ~$3,478 (backed out of +27%/+34%, ±2%), Q2'25 $3,700, Q3'25 $3,848, Q4'25 $3,746, Q1'26 $3,296 (−5%), Q2'26 $3,258 (−11.9%). The Q3'26 guide ($110–112M ÷ 33,200) gives $3,313–3,373, which is −12% to −14% y/y. The FY25 10-K credits the year's exome/genome revenue gain of $126.8M to a 30% volume increase and an 'increase in average reimbursement rates' of 18%.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000015/wgs-20251231.htm",
+      "date": "2026-02-23 to 2026-08-03",
+      "source_name": "GeneDx FY25 10-K MD&A; Q3'25–Q2'26 8-K press releases",
+      "source_type": "filing",
+      "quote": "an 18% increase in average reimbursement rates",
+      "strength": "medium",
+      "why_new": "D055/F567 cover only the FY26 average (~−8%). This adds the quarterly series, the Q3 guide's −12% to −14%, and the FY25 +18% baseline."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "GeneDx's cost of services per exome/genome test is falling about 12–15% y/y, but the decline is not accelerating, and the Q3 guide implies it slows to about −7%. This account shows no sign of faster supplier discounting.",
+      "detail": "Adjusted cost of services ÷ exome/genome tests: Q1'25 $1,336, Q2'25 $1,300, Q3'25 $1,191, Q4'25 $1,260, Q1'26 $1,171 (−12.3% y/y), Q2'26 $1,100 (−15.3%). The Q3'26 guide (~70% adjusted gross margin on $122–124M revenue) gives about $36.9M ÷ 33,200 = ~$1,111, or −6.7% vs $1,191. Stripping out panel tests at an assumed $150–350 each leaves exome/genome-only unit cost down ~5–12% in Q2'26. Fewer parental samples per case also lowers cost, so the reagent-price share of the decline is likely smaller still.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000039/exhibit992-supplementalfin.htm",
+      "date": "2026-05-04 / 2026-08-03",
+      "source_name": "GeneDx supplemental recast financials (Ex. 99.2) and Q2'26 10-Q segment note",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is the first quarterly cost-per-test series at GeneDx. F568 says only that cost of services is growing faster than revenue."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GeneDx's FY26 guidance needs a Q4 revenue-per-test rebound of about +12% q/q, which it ties to collection-rate gains. Reimbursement, not sequencing cost, is the binding constraint on its genome revenue.",
+      "detail": "FY floors: exome/genome revenue ≥$432.4M (1.2 × $360.3M). With H1 at $190.9M and Q3 at a $111M midpoint, Q4 needs ≥$130.5M (+25.5% y/y vs $104.0M). Q4 volume of ≥34,979 then implies about $3,731 per test, up from ~$3,343 in Q3 and flat y/y. The total-revenue midpoint gives Q4 ~$142.8M (+18%). Management expects collection-rate improvement in Q4 2026, with the main uplift in 2027 (Quartr AI summary).",
+      "url": "https://quartr.com/events/genedx-holdings-corp-wgs-q2-2026_3Y3yADSW",
+      "date": "2026-08-03",
+      "source_name": "Quartr Q2'26 call summary; GeneDx Q2'26 press release guidance",
+      "source_type": "earnings_call",
+      "quote": "Meaningful improvements in collection rates expected in Q4 2026",
+      "strength": "medium",
+      "why_new": "F567 called the price drop front-loaded. This quantifies the Q4 step needed to hit the floor and ties it to collections."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GeneDx's Q1'26 miss came from mix (more genomes, fewer parental samples) and weaker non-core lines, not from price. Fewer parental samples per case also means fewer genomes sequenced per billable test.",
+      "detail": "Management said Q1 revenue was ~$12M below plan: ~$5.5M from a lower blended exome/genome reimbursement rate and ~$6.5M from weaker non-core lines. The deck says pricing and collections were 'relatively unchanged', and other-panel revenue fell to $10.6M from $12.1M (−12%). Trio-to-singleton drift cuts the samples sequenced per case and partly offsets the Gb gain from the genome mix.",
+      "url": "https://www.insidermonkey.com/blog/genedx-holdings-corp-nasdaqwgs-q1-2026-earnings-call-transcript-1753979/",
+      "date": "2026-05-04",
+      "source_name": "GeneDx Q1'26 call (search-result snippet of transcript; page login-walled) plus Q1 deck",
+      "source_type": "earnings_call",
+      "quote": "Pricing and collection rates are relatively unchanged",
+      "strength": "medium",
+      "why_new": "Splits the Q1 miss into $5.5M and $6.5M and adds the parental-sample (samples per case) effect, neither of which is in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "GeneDx's FY25 10-K describes switching sequencer or reagent suppliers as slow, costly and requiring revalidation, so even a large, price-pressed customer is locked into Illumina in the near term.",
+      "detail": "The 10-K names Illumina as a key supplier of reagents and sequencers. It says 'there are only a few other manufacturers' and that a switch may require revalidating tests. GeneDx's mix of falling revenue per test and high switching cost points to concessions negotiated within Illumina rather than platform defection. This tempers F283's 'alternative suppliers exist' reading.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000015/wgs-20251231.htm",
+      "date": "2026-02-23",
+      "source_name": "GeneDx FY25 10-K, Item 1 Raw Materials and Suppliers",
+      "source_type": "filing",
+      "quote": "Transitioning to a new supplier would be time consuming and expensive",
+      "strength": "medium",
+      "why_new": "The known list has GeneDx's supplier-spend share only (F283), not its own statement of Illumina lock-in and revalidation cost."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx carries no multi-year reagent purchase commitments. All of its $41.5M of commitments are with software and equipment providers, so Illumina has no take-or-pay protection at this account.",
+      "detail": "Contractual purchase commitments were $35.7M at 31 Dec 2025 (10-K) and $41.5M at 30 Jun 2026 (Q2'26 10-Q), both described as with software and equipment providers. The 10-Q says material supply contracts 'generally do not require multi-year purchase commitments'. Like Guardant and Tempus, GeneDx can re-bid volume at will, which feeds large-account leverage.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051878/wgs-20260630.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2 2026 10-Q, commitments note",
+      "source_type": "filing",
+      "quote": "These contracts generally do not require multi-year purchase commitments",
+      "strength": "medium",
+      "why_new": "GeneDx was absent from the known customer-commitment tally (Natera, GRAIL, Guardant, Tempus, Caris)."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx credits much of its cost decline since inception to industry-wide sequencing price cuts and expects costs to keep falling, so it plans on continued supplier price deflation.",
+      "detail": "The FY25 10-K says GeneDx has significantly lowered sequencing costs since inception, much of it from 'reduced sequencing costs shared across the industry'. It expects further declines in wet-lab, processing and interpretation costs. FY25 gross-margin gains were attributed to test mix and 'continued cost per test leverage'.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000015/wgs-20251231.htm",
+      "date": "2026-02-23",
+      "source_name": "GeneDx FY25 10-K",
+      "source_type": "filing",
+      "quote": "reduced sequencing costs shared across the industry",
+      "strength": "weak",
+      "why_new": "This is new language from GeneDx's own filing. Known GeneDx items (F284) cite only an expectation that reagent costs will fall."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Exome capture purchases from Twist, a related party, are only about 5% of GeneDx's adjusted cost of services, so non-sequencing inputs and labor dominate the lab's costs.",
+      "detail": "The Q2'26 10-Q shows related-party purchases of testing kits and lab materials from Twist of $1.6M in Q2'26 and $3.6M in H1'26, against adjusted cost of services of $33.9M and $66.1M (~5%). The disclosure gives no breakdown of the remaining ~95% between Illumina reagents, labor and overhead.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000162828026051878/wgs-20260630.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2 2026 10-Q, related-party note",
+      "source_type": "filing",
+      "quote": "at arm's length and represent market rates",
+      "strength": "weak",
+      "why_new": "Twist's dollar flows from GeneDx are not in the known list."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Six filings or exhibits read (FY25 10-K, Q2'26 10-Q, Q3'25/Q4'25/Q1'26/Q2'26 releases, Q1 supplemental and decks). Neither filing names Illumina pricing, volume tiers or a supply agreement, and the 10-K exhibit index has no supply contract. The MD&A cost-of-services narrative in the Q2'26 10-Q could not be retrieved (the fetch stopped before it). The FY25 10-K gives no line-item drivers for cost of services beyond test mix and 'cost per test leverage'. Reagent cost per test cannot be isolated, so the 'accelerating discounts at this account' question cannot be answered. Unit costs fell 12–15% y/y in H1'26 and the guide implies about −7% in Q3. The Q3'26 print (early Nov 2026) will test the Q4 rebound math.",
+  "leads": [
+    {
+      "name": "GenomeWeb/360dx coverage of GeneDx shifting toward exome over genome",
+      "url": "https://www.genomeweb.com/node/656396",
+      "access": "403/paywall; only a search snippet was seen",
+      "labels": ["1C"],
+      "rationale": "May quantify the genome-to-exome steering and genome reimbursement gaps."
+    },
+    {
+      "name": "California DHCS Medi-Cal genome sequencing rate (effective 1 Jul 2026, 100% of Medicare)",
+      "url": "https://www.dhcs.ca.gov",
+      "access": "open rate schedules",
+      "labels": ["1C"],
+      "rationale": "A public price point for clinical WGS reimbursement. Tests whether payers, not sequencing cost, gate genome volume."
+    },
+    {
+      "name": "GeneDx Q3 2026 8-K (expected early Nov 2026)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1818331&type=8-K",
+      "access": "open EDGAR",
+      "labels": ["1C", "1B"],
+      "rationale": "Checks the 33,200 volume guide, revenue per test of ~$3,343, and whether the Q4 collection-driven rebound is on track."
+    },
+    {
+      "name": "Carelon genome sequencing coverage policy (effective 14 Jun 2026)",
+      "url": "https://guidelines.carelonmedicalbenefitsmanagement.com",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "A commercial payer's coverage expansion for outpatient WGS. A counterpoint to reimbursement-gated genome volume."
+    }
+  ],
+  "apify_requests": []
+}
+```

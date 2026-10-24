@@ -1,0 +1,175 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taipei Veterans General Hospital's (VGH) price for an outsourced human whole genome fell 47%, from NT$24,000 to NT$12,800 per test, between its 2023 and 2025 two-year contracts. Its exome price fell 24%.",
+      "detail": "Contract X11204H (awarded 20 Jul 2023, one bidder, Genomics BioSci & Tech) set NT$24,000 per WGS test and NT$12,700 per WES test. Contract X11326H (awarded 20 Feb 2025, two bidders) set NT$12,800 per WGS and NT$9,600 per WES; the losing bidder, Taiwan Genome Alliance (台基盟), bid ~NT$13,980 per WGS (6,850,200/490). WGS fell 46.7% over about 19 months, roughly −33% a year compounded; WES fell 24.4%. Even the hospital's own budget per WGS fell from NT$32,500 to NT$20,000. This is the clearest dated sign we have of Asian outsourced 30x-genome prices collapsing in the NovaSeq X era.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11326H",
+      "date": "2025-02-24",
+      "source_name": "Taiwan Government e-Procurement (via g0v/openfun API), Taipei VGH X11204H and X11326H",
+      "source_type": "procurement",
+      "quote": "人類全基因體定序服務委外 … 12,800元",
+      "strength": "strong",
+      "why_new": "The F712–F719 Taiwan items covered kit prices only; this is the first like-for-like per-genome service price series."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "At Taipei VGH, a 47% cut in the per-genome price came with a 183% rise in contracted WGS volume, so total WGS spend rose 51%. That looks like real price elasticity in clinical WGS.",
+      "detail": "Estimated WGS quantity rose from 173 tests (2023–25 contract) to 490 (2025–27), while WES rose only from 576 to 663 (+15%). WGS spend went from NT$4.152M to NT$6.272M (+51%). WES spend fell from NT$7.315M to NT$6.365M (−13%). Exome-to-genome substitution plus price elasticity made the high-Gb product the growth line here, which cuts against 'WGS too small'. The counts are estimated maximums under an open-ended unit-price contract, not actual consumption.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11204H",
+      "date": "2023-07-21",
+      "source_name": "Taiwan e-Procurement, Taipei VGH X11204H / X11326H",
+      "source_type": "procurement",
+      "quote": "人類全基因體定序服務 173 TEST 24,000元",
+      "strength": "medium",
+      "why_new": "This is new quantified evidence of exome-to-genome mix shift and elasticity at a named Asian medical center."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "In Aug 2025 Taichung VGH awarded a NT$117.55M (~US$3.7M), three-year outsourced WGS contract, a large new clinical-genome volume source.",
+      "detail": "Contract 114Y-R5 ('high-throughput WGS testing, outsourced, unit-price contract') had a budget of NT$145.45M and a base price of NT$117.82M. It was awarded on 27 Aug 2025 to Genomics BioSci & Tech at NT$117.55M, beating Taiwan Genome Alliance (NT$122.73M). It runs from 28 Aug 2025 to 27 Aug 2028. The notice gives no quantity. At the NT$12,800 per-genome rate paid by two other VGHs (2025–26), it implies ~9,200 genomes, or ~3,000 a year (our inference). At ~100–125 Gb per genome, that is ~0.3–0.4M Gb a year.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=114Y-R5",
+      "date": "2025-09-25",
+      "source_name": "Taiwan e-Procurement, Taichung VGH 114Y-R5",
+      "source_type": "procurement",
+      "quote": "高通量全基因體定序檢測委外代檢 … 117,550,800元",
+      "strength": "medium",
+      "why_new": "This contract is not in the corpus. It is a new public-hospital WGS program that is large by Taiwan standards."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Outsourced 30x-genome prices in Taiwan have converged on NT$12,800 (~US$400) at three VGHs, and a research institute paid only NT$9,800 (~US$305).",
+      "detail": "Kaohsiung VGH paid NT$12,800 per genome in both of its awards. The oral-cancer WGS contract (ST1411027, 30 Dec 2025, one bidder) was NT$2,688,000 for 210 genomes. The women's-medicine WGS contract, including blood collection (ST1412017, 30 Jan 2026), was NT$3,200,000 for 250 genomes, and the rival bidder, Centogene APAC, was disqualified on specs. Taipei VGH also pays NT$12,800 (2025). At ~US$400 all-in, including library prep, analysis and vendor margin, the sequencing-reagent share is a fraction of that. This implies very low effective $/Gb at the two vendors (Genomics, Taiwan Genome Alliance) that dominate Taiwan's market.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.82&job_number=ST1412017",
+      "date": "2026-01-30",
+      "source_name": "Taiwan e-Procurement, Kaohsiung VGH ST1411027 / ST1412017",
+      "source_type": "procurement",
+      "quote": "預估需求數量 \"250\" … 決標金額 \"3,200,000元\"",
+      "strength": "medium",
+      "why_new": "These are new per-genome award prices from 2025–26, from buyers not previously in the corpus."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Taiwan's National Health Research Institutes (NHRI, a research buyer) bought outsourced WGS at NT$9,800 per genome in Oct 2024, 23% below the hospital rate. The winning bid came in 19% under NHRI's own base price.",
+      "detail": "Tender 113B0C0270 was for 150 next-generation genomes. Budget was NT$2.25M and the base price NT$1.82M. It was awarded on 29 Oct 2024 to Taiwan Genome Alliance at NT$1.47M (NT$9,800 per genome). The rival, Genomics BioSci, bid NT$1.90M (NT$12,665). The research institute captured a price 23% below the NT$12,800 hospital rate and 19% below its own base price. This happened through a two-bidder price fight after NHRI stopped buying NovaSeq S4 kits for its in-house fleet.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=113B0C0270",
+      "date": "2024-10-31",
+      "source_name": "Taiwan e-Procurement, NHRI 113B0C0270",
+      "source_type": "procurement",
+      "quote": "次世代全基因體定序150個",
+      "strength": "medium",
+      "why_new": "F718 noted that NHRI outsources. This item adds the per-genome price, the bid spread and the gap to hospital prices."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "NHRI paid a flat ~NT$13.8M a year (~NT$3.45M, or ~US$110K, per unit) to service four NovaSeq 6000s from 2020 to 2023. No renewal appears after the contract ending Dec 2024, so a research 6000 fleet appears to have gone dark.",
+      "detail": "The four-unit, one-year maintenance contracts were awarded to Illumina's distributor Genetech Biotech (均泰), each with a single bidder: NT$14.0M (Dec 2020), NT$13.8M (Dec 2021), NT$13.8M (Dec 2022) and NT$13.8M (Dec 2023, covering 14 Dec 2023 to 13 Dec 2024, under a restricted tender). Title searches for NovaSeq and Illumina show no 2024–26 renewal. NHRI's last S4 kit buy was 16 kits in Dec 2023, and it then outsourced 150 genomes (Oct 2024). Illumina likely lost ~US$0.43M a year of service plus the reagent pull-through at this site.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112B0D0681",
+      "date": "2023-12-12",
+      "source_name": "Taiwan e-Procurement, NHRI 09HD-0001 / 10HD-0001 / 111B0D0444 / 112B0D0681",
+      "source_type": "procurement",
+      "quote": "Illumina NovaSeq 6000定序系統4台維護1年",
+      "strength": "medium",
+      "why_new": "This adds the dollar series and fleet size (4 units, flat NT$13.8M) behind F718's qualitative 'stopped' finding."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Taiwanese research buyers write Illumina into tender qualifications: a government livestock institute requires bidders to own a NovaSeq X Plus in Taiwan, which excludes rival platforms by design.",
+      "detail": "The Livestock Research Institute (Ministry of Agriculture) required proof of purchase of an 'Illumina NovaSeq X Plus' in Taiwan, plus serial number and maintenance reports, in tender 114B006-2 (2025) and tender 115B005-2 (Feb 2026). The 2025 award drew three bidders and went to KIMFOREST at NT$1,595,880, 28% below the NT$2.22M base price. The 2026 award drew a single bidder and went at NT$2,499,500 against a NT$2.5M base price. Competition among Illumina-X service vendors pushes price down, but Roche, Element and Ultima are excluded from these research tenders.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.19.12&job_number=115B005-2",
+      "date": "2026-03-17",
+      "source_name": "Taiwan e-Procurement, Livestock Research Institute 114B006-2 / 115B005-2",
+      "source_type": "procurement",
+      "quote": "位於臺灣地區Illumina NovaSeq X Plus定序設備購買證明",
+      "strength": "medium",
+      "why_new": "This is the first evidence of tender specs that lock in the Illumina platform at research buyers."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Taipei Medical University's Sep 2026 research WGS tender required at least two Illumina high-throughput sequencers plus a PacBio Sequel IIe, again specifying Illumina into research outsourcing.",
+      "detail": "Tender TMU115-029 (subsidized by the Ministry of Education with NT$3.37M) failed once for lack of bidders. It was then awarded on 24 Sep 2026 to the single bidder, Taiwan Genome Alliance, at NT$3,057,600, exactly the base price, against an original bid of NT$3,346,512. The vendor qualification read 'two (or more) Illumina high-throughput NGS instruments' and required MOHW LDT certification. The notice gives no sample count.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=03724606&job_number=TMU115-029",
+      "date": "2026-09-29",
+      "source_name": "Taiwan e-Procurement, Taipei Medical University TMU115-029",
+      "source_type": "procurement",
+      "quote": "二台(含)以上Illumina高通量次世代定序儀",
+      "strength": "medium",
+      "why_new": "This is a new 2026 university tender that writes Illumina into the spec."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taipei VGH's two-year service budget for its Illumina high-throughput system rose 17.6% between the 2024 and 2026 tenders, so there is no sign of service discounting at this pathology lab.",
+      "detail": "Contract 113A2019M (May 2024, single bidder Genetech) carried a NT$2.096M budget and was awarded at NT$1.89M for Oct 2024 to Oct 2026. The renewal tender 115A2A55M (5–6 Oct 2026, award pending) carries a NT$2.465M budget, 17.6% above the 2024 budget and 30% above the 2024 award. The instrument model is not named.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=115A2A55M",
+      "date": "2026-10-06",
+      "source_name": "Taiwan e-Procurement, Taipei VGH 113A2019M / 115A2A55M",
+      "source_type": "procurement",
+      "quote": "高通量次世代定序與分析系統(ILLUMINA)二年期維護保養",
+      "strength": "weak",
+      "why_new": "This Taiwan service-price series is new (the F517 service-pricing evidence was Canadian federal)."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina instrument buys in Taiwan in 2025–26 went to its distributor as single bidders, at only 1–2% below budget, so these buyers show no competitive price tension.",
+      "detail": "Four awards went to Genetech Biotech (均泰), each with one bidder: NTU Yunlin high-throughput sequencer at NT$5.05M vs a NT$5.35M budget (May 2025); NTU College of Life Science 'NGS upgrade' at NT$3.98M vs NT$4.70M (Apr 2025, restricted tender); Linkou Chang Gung 'ILLUMINA' NGS system at NT$2.245M vs NT$2.264M (Aug 2025); and the Veterinary Research Institute NGS instrument at NT$2.295M vs NT$2.35M (May 2026). The origin is mostly listed as Singapore, which suggests Illumina mid-throughput boxes. The vet institute's follow-on library kits and chips cost NT$1.246M (Oct 2025) and then NT$1.595M (Oct 2026), also from a single bidder.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=YL-A24008",
+      "date": "2025-05-06",
+      "source_name": "Taiwan e-Procurement, NTUH Yunlin YL-A24008, NTU 1140299, Chang Gung 0C-1L0324, Vet Research Institute 115-2003 / 115-2013",
+      "source_type": "procurement",
+      "quote": "次世代定序儀系統 … 廠牌:ILLUMINA",
+      "strength": "weak",
+      "why_new": "These are new Taiwan instrument awards. F714 covered reagent awards at hospitals."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taiwan's outsourced clinical WGS market is effectively a two-vendor contest (Genomics BioSci vs Taiwan Genome Alliance), and prices fell sharply once both bid.",
+      "detail": "Across seven WGS service awards from 2023 to 2026, every winner was one of these two firms. Where both bid, the spread was 4–29% (NHRI 2024: 9,800 vs 12,665 per genome; Taipei VGH 2025: 12,800 vs ~13,980; Taichung 2025: 117.6M vs 122.7M). The 2023 single-bid award at NT$24,000 per genome was nearly halved once a second bidder appeared. Centogene APAC tried and was disqualified (Jan 2026). Genomics listed on Taiwan's Innovation Board in May 2026 and also runs an instrument-distribution business, so it may supply rival platforms (lead).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.82&job_number=ST1411027",
+      "date": "2025-12-31",
+      "source_name": "Taiwan e-Procurement (multiple notices)",
+      "source_type": "procurement",
+      "quote": "權拓基因股份有限公司 … 規格文件未附或不符合規定",
+      "strength": "weak",
+      "why_new": "This is the first mapping of the vendor structure and bid spreads in Taiwan's WGS outsourcing."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "The pcc.g0v.ronny.tw mirror now redirects to pcc-api.openfun.app, which works without login (/api/searchbytitle?query=, /api/tender?unit_id=&job_number=). No Academia Sinica (unit 2.1) NGS reagent or instrument awards turned up in title searches. The only Academia Sinica hits were 3730 Sanger consumables, so it likely buys through internal core funds or framework orders with titles we did not match. Still to mine: (1) NTU 1131A012, the 'Illumina sequencer reagents' framework to Jul 2027 (NT$1.49M budget, Aug 2024 limited tender), whose award notice was not returned; (2) Chi Mei 114B01342H1, a NT$9.96M US-origin 'high-throughput NGS instrument' bought from 亞洲準誠 (brand unknown, possibly a non-Illumina platform); (3) Taipei VGH 1140732E and Taichung VGH 114A08/115A018 (these overlap T618); (4) pages 2–9 of the 次世代定序 and 定序儀 searches for 2023–24 university buys; (5) CDC KA115051 and KA114045 library kits and chips; (6) Cathay General Hospital's 'Healthy Taiwan' sequencing reagents CGH115005. No AVITI, MGI or Ultima award was found by title. Currency: NT$31–32 per US$ was used for the US$ figures.",
+  "leads": [
+    {
+      "name": "Genomics BioSci & Tech (基米, TPEx Innovation Board 4195) IPO prospectus and annual report",
+      "url": "https://mops.twse.com.tw/",
+      "access": "Public (MOPS), no login",
+      "labels": ["1B", "1C", "2A"],
+      "rationale": "Taiwan's largest WGS outsourcer, which wins most of the hospital WGS tenders. Its prospectus should disclose sequencer platforms, supplier concentration (Illumina share), WGS volumes and reagent cost trends."
+    },
+    {
+      "name": "pcc-api.openfun.app full-text queries by unit (Academia Sinica 2.1, NYCU A.9.6M, NCKU, NTHU)",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序",
+      "access": "Public JSON API",
+      "labels": ["2A", "2B"],
+      "rationale": "Research-buyer awards are sparse under the obvious titles. Paging through broader terms (定序, 基因體, 試劑) for these units could surface X kit or AVITI purchases."
+    },
+    {
+      "name": "Taiwan 'Healthy Taiwan Deepening' (健康台灣深耕計畫) and Taiwan Precision Medicine Initiative sequencing procurement",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=04129719&job_number=CGH115005",
+      "access": "Public JSON API",
+      "labels": ["1C"],
+      "rationale": "A government-funded hospital sequencing build-out (Cathay, Taichung VGH WGS) that may be a new Asian WGS volume driver. Worth sizing its total contracted genomes."
+    }
+  ],
+  "apify_requests": []
+}
+```

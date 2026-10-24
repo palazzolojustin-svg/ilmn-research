@@ -1,0 +1,135 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illumina's reagent-rental schedule adds about $10.4K to every NovaSeq X run to recover the instrument cost, so each rental X books roughly $520K a year of instrument payback as consumables revenue. That inflates reported X pull-through.",
+      "detail": "Illumina's financing page (test-web mirror) lists reagent-rental per-run prices of $10,409 for the NovaSeq X Series, $8,378 for the NovaSeq 6000 and $9,045 for the 6000Dx, assuming 50 runs a year. Our arithmetic: $10,409 × 50 = $520K a year, and $10,409 × 150 runs = $1.56M over 3 years. The 36-month lease is $41,500 × 36 = $1.49M, so the per-run uplift recovers about the full instrument value. $520K equals ~42% of the ~$1.24M implied X pull-through in Q2'26 and ~63% of the $16,480 list price of a 25B-300 kit. Any rental placement therefore makes X consumables per box look ~40% higher than true reagent pricing. The page is undated and still lists the retired iSeq and MiniSeq, so treat it as an older schedule.",
+      "url": "https://www.tst-web.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "undated (pre-2026 schedule; page lists retired iSeq/MiniSeq)",
+      "source_name": "Illumina Financial Solutions page (tst-web mirror)",
+      "source_type": "price_list",
+      "quote": "Reagent rental requires a reagent commitment. Per-run pricing assumes 50 runs per year.",
+      "strength": "medium",
+      "why_new": "Known notes only say rental 'may inflate X pull-through'. This is the first per-run dollar figure that quantifies the effect."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's new Enterprise Pricing and Financing function is designing pay-for-consumption and pay-for-performance models by application, and it owns pricing for new product introductions, which would include the 35B launch.",
+      "detail": "The Associate Director, Pricing Transformation posting (req ~42825, posted 28 Jun 2026, $170.6K–$255.8K, San Diego) describes a pricing vision 'by market, by customer type, and by application'. That vision spans 'pay for ownership, pay for consumption, and pay for performance'. The role also builds the 'New Product Introduction pricing process' and sets customer segmentation by tier. Application-level and performance-based pricing is the mechanism for giving price-elastic segments and large accounts deeper effective cuts without a list-price change. That fits a 35B priced per segment rather than globally.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "Illumina job posting (resumegeni mirror of Workday)",
+      "source_type": "jobs",
+      "quote": "pay for ownership, pay for consumption, and pay for performance",
+      "strength": "medium",
+      "why_new": "F181 and F549 recorded the function and its governance role. The pay-for-consumption/performance models, by-application pricing and NPI pricing ownership were not recorded."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's live financing page now offers an instrument 'Subscription' (12-month minimum, pay as you go) and no longer shows per-run rental prices. That is a new consumption-style option that makes the realized price per run less visible.",
+      "detail": "The current illumina.com and sapac pages (©2026) list four options: reagent rental, Subscription ('access to the latest Illumina technology', minimum 12 months, pay as you go), leasing and instrument rental. The per-run reagent-rental column shown on the older mirror is gone. Starting 3-year leases are X $41,500/mo, 6000 $32,700/mo (79% of X), 6000Dx $35,900/mo (87% of X) and NextSeq 1k/2k $11,100/mo, 'for well-qualified buyers' with 0% offers. Dropping the published per-run figures and adding subscription matches the pay-for-consumption vision in the pricing posting.",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026 (page copyright; accessed 2026-10-12)",
+      "source_name": "Illumina Financial Solutions page",
+      "source_type": "price_list",
+      "quote": "Subscription",
+      "strength": "weak",
+      "why_new": "F210 captured the 6000-vs-X lease ratio only. The subscription option, the removed per-run pricing and the 6000Dx lease were not recorded."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Element earned ISO 13485 and plans an AVITI Dx Class A IVDR sequencer in 'select countries' in late 2026, so a rival may have a certified EU clinical path before Illumina has any NovaSeq X Dx.",
+      "detail": "Element's 17 Jun 2026 release says ISO 13485 certification is the base for AVITI Dx, its 'forthcoming Class A IVDR sequencing platform', with availability expected in late 2026. Revvity is an IVD co-development partner for newborn screening. Illumina's IVDR roadmap shows only the 6000Dx in high throughput and no X Dx (F531–F536). EU regulated 6000Dx sites converting to a certified platform would therefore have a non-Illumina option first. Element also has an open Director, Regulatory Affairs role on Greenhouse (Oct 2026).",
+      "url": "https://www.elementbiosciences.com/news/element-biosciences-achieves-iso-13485-certification-establishing-quality-foundation-for-forthcoming-diagnostic-applications",
+      "date": "2026-06-17",
+      "source_name": "Element Biosciences press release; Element Greenhouse job board",
+      "source_type": "press",
+      "quote": "forthcoming Class A IVDR sequencing platform",
+      "strength": "medium",
+      "why_new": "Known material covers Illumina's missing X Dx and Element's general clinical intent. Element's ISO 13485 status and AVITI Dx IVDR timing were not recorded."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Element's open roles show a thin commercial build: 18 openings, only 3 in sales, and none for VITARI, clinical accounts or pricing, months before VITARI ships.",
+      "detail": "Element's Greenhouse board (accessed 12 Oct 2026) lists 18 roles. Sales roles are a Channel Account Manager in Italy, a Country Manager in Japan and a Senior Inside Sales Rep in the Northeast. The rest are field service (2), field applications (1), R&D, software, operations and one reagent-manufacturing supervisor. No posting names VITARI, a strategic or key-account role, or pricing. VITARI is marketed for H2'26 shipment. Hiring this light does not point to an aggressive high-throughput sales push into Illumina's large accounts in the near term.",
+      "url": "https://job-boards.greenhouse.io/elementbiosciences",
+      "date": "2026-10-12",
+      "source_name": "Element Biosciences Greenhouse job board",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known jobs work covered Roche AXELIOS hiring. No count of Element's commercial openings existed."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Ultima posted a Phoenix-based field service engineer in Aug 2026 to serve 'customers primarily in the Phoenix area', which points to a local installed base in a city with big Illumina clinical customers.",
+      "detail": "The Field Service Engineer II, Arizona role (posted 7 Aug 2026, on-site in Phoenix, $37–42/hr) covers installation, repair and lab inventory for Phoenix-area customers. Ultima's 16 open roles (Greenhouse, Oct 2026) also include a UAE field engineer, a NorCal sales manager, an Associate Strategic Accounts Director for pharma and biotech, and a Senior Commercial Operations Manager for 'lead-to-cash' ($150–190K, updated 23 Jun 2026). Phoenix hosts Caris's NovaSeq labs and Sonora Quest, a Quest/Banner joint venture (Quest has an Ultima MRD collaboration). Which customer the role serves is our inference; no source confirms a Phoenix Ultima site.",
+      "url": "https://jobs.khoslaventures.com/companies/ultima-genomics-2/jobs/89130878-field-service-engineer-ii-arizona",
+      "date": "2026-08-07",
+      "source_name": "Ultima Genomics job posting (Khosla board / Greenhouse)",
+      "source_type": "jobs",
+      "quote": "Provide on-site service to customers primarily in the Phoenix, Arizona area",
+      "strength": "weak",
+      "why_new": "No known item places Ultima service capacity in Phoenix, and none counts Ultima's commercial openings."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Ultima has no open clinical, regulatory or IVD roles, and only a 2025 reagent quality-engineer posting cites ISO 13485, so it is not building the regulated footprint needed to win validated clinical volume soon.",
+      "detail": "Ultima's 16 open roles break down as R&D 5, Sales & Marketing 5, Engineering 2, Manufacturing 2 and G&A 2. None is in regulatory affairs or clinical. ISO 13485 appears only as 'preferred' in a Senior Process Engineer role (Apr 2026) and in a May 2025 reagent quality-engineer posting. Element, by contrast, has ISO 13485 and an IVDR product. This supports the known finding that no large US clinical customer runs production on Ultima.",
+      "url": "https://job-boards.greenhouse.io/ultimagenomics",
+      "date": "2026-10-12",
+      "source_name": "Ultima Genomics Greenhouse job board",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First check of Ultima's hiring mix for regulatory and clinical build-out."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A US Navy lab put out a sole-source notice for a full year of Illumina NovaSeq 6000 Silver Support, posted 28 Dec 2025 and open through Dec 2026, so government 6000s are being kept under contract.",
+      "detail": "Naval Medical Research Command notice N3239826Q4072 states the intent to award Illumina a sole-source contract for Silver Support Plans (CAT 20019988, 4 line items, one year) on NovaSeq 6000 S/N A01716 in Silver Spring, MD. The posting date is 28 Dec 2025 and responses are due 31 Dec 2026. A search snippet also shows Universitätsklinikum Aachen published a NovaSeq 6000 maintenance tender on 10 Mar 2026. Both add to the known NHS Leeds and Aug 2026 sole-source service contracts.",
+      "url": "https://fundinglandscape.com/opportunity/cmjpvereb01b7lepjszv8pb5w",
+      "date": "2025-12-28",
+      "source_name": "fundinglandscape (mirror of SAM.gov notice); auftrag.ai (Aachen, search snippet)",
+      "source_type": "procurement",
+      "quote": "intends to award a sole source contract",
+      "strength": "weak",
+      "why_new": "This is a specific new DoD 6000 service award plus a German hospital tender. Earlier finds were NHS, Canadian and unnamed public buyers."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina was staffing a Bengaluru 'Value Engineering & Should-Cost' team (manager plus analysts) in May–Jun 2026, a cost-down program that could fund future price cuts.",
+      "detail": "Postings for a Senior Analyst (dated 9 May and 6 Jun 2026), a junior analyst and a Manager (10+ years, leading a team of cost analysts) ask for should-cost models across plastics, metals, electronics and assemblies, using aPriori, SAP and CAD tools, on shifts that support US stakeholders. A dedicated should-cost function points to a structured COGS reduction on instruments and components. That would give room for 35B and large-account pricing while defending margin. It could equally be read as margin defense against tariffs and memory costs.",
+      "url": "https://simplify.jobs/p/c7472639-c67e-4059-ab56-fb4e05f24fc8/Sr-Analyst",
+      "date": "2026-06-06",
+      "source_name": "Illumina job postings (Simplify, Built In Bengaluru)",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Illumina cost-engineering hiring program was not in the corpus."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "WebFetch cannot render Workday, and I had no Bash or script tool, so I could not query the CXS JSON endpoint. Aggregators show only one pricing posting, the AD Pricing Transformation role. The Sr. Director is not named and no other sibling pricing role surfaced. One aggregator snippet lists a 'Director, Competitive Intelligence and Market Response' ($183.7K–$275.5K, San Diego, on-site) next to Illumina results, but the page returned 404 and the employer is unconfirmed, so I excluded it. The Sr. Sales Operations Analyst posting (req ~42565, 23 Apr 2026) returned 503 and is unread. The reagent-rental per-run table needs a date: a Wayback check of the illumina.com financing page would show when the per-run column was removed.",
+  "leads": [
+    {"name": "Wayback snapshots of Illumina Financial Solutions page", "url": "https://web.archive.org/web/2025*/illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html", "access": "open", "labels": ["1A", "1B"], "rationale": "Would date the $10,409/run X reagent-rental figure and any changes to it, and show when Subscription was added."},
+    {"name": "Klue competitive-enablement board: Director CI & Market Response", "url": "https://competitiveenablementjobs.com/", "access": "open (posting 404)", "labels": ["1B"], "rationale": "May be an Illumina San Diego CI/market-response role tracking rival pricing moves. Confirm the employer."},
+    {"name": "SAM.gov notice N3239826Q4072 and similar 6000 support notices", "url": "https://sam.gov/", "access": "open", "labels": ["1A"], "rationale": "A SAM keyword search for '20019988' or 'NovaSeq 6000 support' would count federal 6000 service renewals in 2025–26."},
+    {"name": "Universitätsklinikum Aachen NovaSeq 6000 maintenance tender", "url": "https://auftrag.ai/en/notices/wartungsvertrag-fuer-ein-novaseq6000-system-firma-illumina", "access": "open", "labels": ["1A"], "rationale": "German clinical 6000 service contract term and value."},
+    {"name": "Element AVITI Dx launch announcement (late 2026)", "url": "https://www.elementbiosciences.com/news", "access": "open", "labels": ["1A", "1B"], "rationale": "Countries, assays and pricing of the first IVDR rival to the 6000Dx."}
+  ],
+  "apify_requests": [
+    {"actor": "Workday jobs scraper (e.g. 'fantastic-jobs/workday-jobs' or a generic Workday CXS scraper)", "input": {"startUrls": ["https://illumina.wd1.myworkdayjobs.com/illumina-careers"], "searchTerms": ["pricing", "commercial finance", "deal", "contracts", "key account", "strategic account", "competitive", "leasing", "financing", "reagent rental"]}, "why": "WebFetch cannot render Workday. A full pull of Illumina's open requisitions with posting dates would show sibling Enterprise Pricing and Financing roles, deal-desk or contracts build-out, and CI roles, and gives a dated count.", "max_items": 300}
+  ]
+}
+```

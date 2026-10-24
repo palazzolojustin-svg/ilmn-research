@@ -1,0 +1,59 @@
+The Centre for Applied Genomics -                                                                                                                              
+Next Generation Sequencing Facility
+Last updated:     
+April  2025
+Illumina platforms - Whole Genome Sequencing (WGS) Price / sample
+Human WGS (NovaSeq X), including library prep, 90-100 Gb (30X diploid genome) 650.00$                 
+Non-human WGS (NovaSeq) library prep and sequencing Contact facility
+Whole Genome Enzymatic Sequencing (EM-Seq) library preparation (NEBNext) 165.00$                 
+Whole Genome Enzymatic Sequencing - NovaSeq X Contact facility
+Illumina platforms - Exome Sequencing (WES) Price / sample
+SureSelect XT Human All Exon V5 library preparation Contact facility
+SureSelect XT Mouse All Exon library preparation Contact facility
+Exome sequencing Illumina plaftorm Contact facility
+Illumina platforms - DNA library preparation Price / sample
+PCR-free genomic library preparation (Illumina) 140.00$                 
+Genomic low input DNA library preparation (Illumina) 140.00$                 
+ChIP-Seq library preparation (NEB) 155.00$                 
+Nextera DNA library preparation (Illumina) 165.00$                 
+Illumina platforms - RNA-Seq library preparation Price / sample
+Stranded poly(A) mRNA library prep (NEBNext) 175.00$                 
+Stranded rRNA-depletion RNA library prep (Ribo-Zero Plus rRNA Kit; bacterial, 
+human/rat/mouse rRNA depletion and human globin depletion) (Illumina)
+290.00$                 
+Stranded rRNA-depletion RNA library prep (Ribo-Zero Plus Microbiome rRNA Depletion 
+Kit;  human, pan-bacterial, rat, mouse rRNA depletion (Illumina)
+295.00$                 
+Single cell/low input RNA library prep (NEBNext) 190.00$                 
+Small RNA library prep (NEBNext) 325.00$                 
+16S (V3-V4 regions) or ITS library prep (96 reactions, including 8 controls) (Zymo) 30.00$                   
+Illumina MiSeq Sequencing (SR - Single Read; PE - Paired End) Price / run
+MiSeq Reagent Nano Kit v2 (300-cycles) - PE150 - 1 million clusters 985.00$                 
+MiSeq Reagent Nano Kit v2 (500-cycles) - PE250 - 1 million clusters 1,100.00$             
+MiSeq Reagent Micro Kit v2 (300-cycles) - PE150 - 4 million clusters 1,280.00$             
+MiSeq Reagent Kit v2 (50-cycles) - SR36, SR50, PE25  - 12-15 million clusters 2,020.00$             
+MiSeq Reagent Kit v2 (300-cycles) - PE150  - 12-15 million clusters 2,470.00$             
+MiSeq Reagent Kit v2 (500-cycles) -PE250  - 12-15 million clusters 2,725.00$             
+MiSeq Reagent Kit v3 (600-cycles) - PE300 - 22-25 million clusters 3,420.00$             
+MiSeq Reagent Kit v3 (150-cycles) - SR150, PE75  - 22-25 million clusters 2,195.00$             
+Illumina NovaSeq X Sequencing (SR - Single Read; PE - Paired End) Price / lane
+NovaSeq X Series 1.5B Reagent Kit (100 Cycle) 1,850.00$             
+NovaSeq X Series 1.5B Reagent Kit (200 Cycle) 2,300.00$             
+NovaSeq X Series 1.5B Reagent Kit (300 Cycle) 2,485.00$             
+NovaSeq X Series 10B Reagent Kit (100 Cycle) 1,550.00$             
+NovaSeq X Series 10B Reagent Kit (200 Cycle) 1,950.00$             
+NovaSeq X Series 10B Reagent Kit (300 Cycle) 2,080.00$             
+NovaSeq X Series 25B Reagent Kit (100 Cycle) 2,500.00$             
+NovaSeq X Series 25B Reagent Kit (200 Cycle) 3,085.00$             
+NovaSeq X Series 25B Reagent Kit (300 Cycle) 3,470.00$             
+Illumina NovaSeq 6000 Sequencing Contact facility
+PacBio Revio - Library prep and Sequencing Price / sample
+PacBio - HiFi Library prep - 1-3 samples 625.00$                 
+PacBio - HiFi Library prep - batch of 4 samples or more 425.00$                 
+PacBio - Amplicon library prep 575.00$                 
+PacBio - Kinnex bulk RNA library prep - 1-plex (40M reads per sample) 1,600.00$             
+PacBio - Kinnex bulk RNA library prep - 2-plex (20M reads per sample) 1,800.00$             
+PacBio - Kinnex bulk RNA library prep - 4-plex (10M reads per sample) 2,250.00$             
+PacBio - Kinnex bulk RNA library prep - custom plexing Please enquire
+PacBio Revio sequencing - 1 cell 1,675.00$             
+Oxford Nanopore - Library preparation and Sequencing Price / sample

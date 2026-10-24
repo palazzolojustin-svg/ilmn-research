@@ -1,0 +1,150 @@
+Human Whole Genome Sequencing with Analysis | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Human Whole Genome Sequencing with Analysis
+Overview
+Pricing
+Submission
+Overview
+Offering the $221 human genome
+High-quality human whole-genome sequencing with data analysis is available at the UMGC in flexible coverage options (30x, 60x, and 90x). Advances in the Ultima Genomics UG 100 platform enable us to offer the $221 human genome, giving researchers one of the most cost-effective paths to WGS available today (to our knowledge). The UMGC delivers research-grade human WGS on the latest sequencing technologies:
+Ultima UG 100 — population-scale efficiency. The UG 100 is an ultra-high-throughput instrument that processes up to 480 human genomes per week at 30x minimum depth. It enables scalable, high-quality human WGS for large cohorts.
+Element AVITI24 — exceptional accuracy for precision studies. The AVITI's paired-end chemistry and UltraQ mode deliver exceptional SNV and indel accuracy, making it ideal for clinical research, tumor/normal comparisons, and applications where precision is critical.
+Mouse whole-genome sequencing and data analysis are available at the same rates and sequencing options as human WGS.
+Analysis Quality
+Instrument | Read Type | Raw SNV Quality | Indel Quality |
+Ultima UG 100 | Single-end reads (≈200–300 bp) | Q40 | Good |
+Element AVITI | Paired-end 2x150-bp reads | Q40 | Excellent |
+Element AVITI Ultra Q | Paired-end 2x150-bp reads | Q50 | Excellent |
+What’s Included
+Sample Quality Control: Rigorous assessment of sample integrity and quantity.
+Library Creation: PCR-free workflows to maximize coverage uniformity and minimize bias.
+Next-Generation Sequencing: Sequencing is performed on either the UG 100 or AVITI.
+Primary Data QC: Comprehensive evaluation of sequencing metrics to verify data completeness and quality prior to analysis.
+Data Analysis: Includes mapping to the reference genome and variant analysis (including SNVs and indels) with Google DeepVariant and GATK.
+Getting Started
+The UMGC is a Certified Service Provider for the UG 100 system, one of a few select labs worldwide with this distinction. This certification underscores our expertise in delivering high-quality, research-grade human WGS on cutting-edge technology. To discuss a human or mouse WGS project, contact us at [email protected].
+Pricing
+Pricing for human and mouse whole genome sequencing. Includes sample QC, PCR-free library preparation, 30x sequencing, data QC and analysis.
+30x Minimum Coverage
+Instrument | Batch Size | Cost/sample (UMN) | Cost/sample (External) |
+Ultima UG 100 | 24 samples | $192 | $221 |
+Element AVITI | 4 samples | $407 | $469 |
+Element AVITI Ultra Q | 2 samples | $1,015 | $1,168 |
+60x Mean Coverage
+Instrument | Batch Size | Cost/sample (UMN) | Cost/sample (External) |
+Ultima UG 100 | 18 samples | $238 | $274 |
+90x Mean Coverage
+Instrument | Batch Size | Cost/sample (UMN) | Cost/sample (External) |
+Ultima UG 100 | 12 samples | $329 | $379 |
+For projects that need customized coverage, such as ultra-deep sequencing and de novo assemblies, or special WGS projects with non-standard experimental design or accelerated timelines, we offer library preparation and sequencing priced separately.
+Submission
+Fill out the NGS sample submission form and email the completed form to [email protected].
+Campus drop-off locations:
+1-210 Cancer & Cardiovascular Research Building (Minneapolis campus)
+20 Snyder Hall (St. Paul campus)
+Shipping address:
+UMN Genomics Center
+ATTN: NGS Staff
+3510 Hopkins Place N.
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

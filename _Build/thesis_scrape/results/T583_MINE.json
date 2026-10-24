@@ -1,0 +1,143 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A large US academic core has set a dedicated, dated $500/wafer discount on Ultima UG 100 for 10x single-cell and spatial projects, about 15.6% off its standard UMN wafer price.",
+      "detail": "UMGC news item dated 2 Aug 2026: preferred rates of $2,704 UMN / $3,188 external per full wafer (10-12B reads) and $1,857 / $2,175 per half wafer, a saving of $500 / $250. The standard Savings-tier table shows $3,204 UMN / $3,688 external per wafer and $2,107 / $2,425 per half wafer. So the discount is $500/$3,204 = 15.6% (UMN) or 13.6% (external) per wafer, and $250/$2,107 = 11.9% per half wafer. It applies to UMN and external users and is routed through the local 10x Genomics account executive. That makes 10x the sales channel for a non-Illumina platform.",
+      "url": "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects",
+      "date": "2026-08-02",
+      "source_name": "UMN Genomics Center news",
+      "source_type": "price_list",
+      "quote": "savings of $500 per wafer (10–12B reads) or $250 per half-wafer (5–6B reads)",
+      "strength": "medium",
+      "why_new": "Resolves the page's true prices ($2,704/$3,188, not $2,409/$2,712) and adds the base-price arithmetic. It also ties the discount to 10x single-cell workflows, which the known list lacks."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "On UMGC's preferred pricing, Ultima reads cost about $0.25 per million, roughly 3x to 4x cheaper than the 25B lane prices at cores that publish them.",
+      "detail": "$2,704 / 11,000M reads (mid of 10-12B) = $0.246 per M reads (preferred UMN). Standard UMN is $3,204 / 11,000 = $0.291 and external standard is $3,688 / 11,000 = $0.335. A 25B lane carries about 3.1-3.25B clusters. Published lane prices are Missouri $2,317, MD Anderson $2,595, TGen $3,137 and Northwestern $3,000-3,750. That is about $0.74, $0.83, $1.00 and $0.96-1.20 per M clusters. The gap is roughly 3x to 4x per read before read-length and quality differences (UG 100 reads are single-end ~300 bp). The Missouri, MD Anderson and Northwestern figures came from search-result snippets I did not open. Per-read parity is not per-Gb parity.",
+      "url": "https://genomics.umn.edu/ug-100-sequencing",
+      "date": "2026-10-12",
+      "source_name": "UMN Genomics Center UG 100 rates; Missouri, MD Anderson, TGen and Northwestern price pages (search snippets)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives a per-read comparison from a single university core's published Ultima prices against peer 25B lane prices. The known list has Ultima at about $0.24/M from a secondary post and Broad's $0.50."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UMGC, a large academic core, has stopped running the NovaSeq X Plus in-house because outsourcing is 'faster and less expensive'.",
+      "detail": "The UMGC X Plus service page (© 2026) says it 'has determined that for the time being' X Plus access is 'both faster and less expensive when outsourced' through unnamed partner facilities. It lists no price table and only a project quote. It offers the 10B and 25B flow cells only in 300-cycle format. The core instead runs the Ultima UG 100 in-house (service launched 2 Jan 2025) and AVITI. That fits cores consolidating Illumina volume into cheaper outsourcers while installing rival platforms for their own in-house capacity.",
+      "url": "https://genomics.umn.edu/service/illumina-novaseq-x-plus-sequencing",
+      "date": "2026",
+      "source_name": "UMN Genomics Center service page",
+      "source_type": "other",
+      "quote": "access to the NovaSeq X Plus will be both faster and less expensive when outsourced",
+      "strength": "medium",
+      "why_new": "Adds UMN to the cores that outsource X lanes (Georgia, Berkeley, Cornell, Mainz). The core states its rationale in writing."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMGC's AVITI upgrade in Sep 2025 delivered 50% more output at the same price, a 33% cut per million reads.",
+      "detail": "UMGC news item of 15 Sep 2025: the upgrade gives 'a 50% increase in output for 150-cycle and 300-cycle kits, while AVITI pricing remains the same.' The page says AVITI is 'now 33% less expensive per million reads'. The check is 1/1.5 = 0.667, a 33% cut. This is a hidden $/read cut with no list change. Together with the Ultima preferred pricing 11 months later, it shows UMGC repeatedly cutting rival-platform prices. The known list has UMN's 62-71% AVITI decline since FY24 but not this dated step.",
+      "url": "https://genomics.umn.edu/news-events",
+      "date": "2025-09-15",
+      "source_name": "UMN Genomics Center news index",
+      "source_type": "price_list",
+      "quote": "AVITI sequencing is now 33% less expensive per million reads",
+      "strength": "medium",
+      "why_new": "Gives the dated step (15 Sep 2025, -33%/M reads) within the known 62-71% AVITI decline. The detail came from the news-index summary, because the item's own URL returned 404."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMGC's news cadence shows only non-Illumina price actions in 2025-26: Ultima preferred pricing, an AVITI cut, a Parse free-sequencing offer and an Ultima seminar.",
+      "detail": "Index entries: 2 Sep 2026 seminar 'Rethinking the Cost of NGS with Ultima Genomics' (held 15 Sep 2026; UMGC speaker cites about 18 months of UG 100 experience); 1 Nov 2025 Parse free sequencing at 10,000 reads per cell; 15 Sep 2025 AVITI upgrade; 2 Aug 2026 Ultima preferred pricing. No NovaSeq X price news appears on page 1 of the index (15 items, Sep 2025 to Sep 2026). Vendor-sponsored promotions use the core as a channel for competitor platforms. Page 2 of the index and Illumina-side pages were not checked.",
+      "url": "https://genomics.umn.edu/seminar-ultima-genomics",
+      "date": "2026-09-02",
+      "source_name": "UMN Genomics Center news and events",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Extends the known UMGC price-cut pattern to a second dated item (Parse free sequencing) and the Sep 2026 Ultima seminar."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UMGC states a 30x human genome on Ultima costs $192 UMN / $221 external all-in, against an Illumina 25B all-in of roughly $470 at one core.",
+      "detail": "The UMGC human WGS page lists $192 (UMN) / $221 (external) per 30x sample on the UG 100, with a 24-sample batch. It includes QC, PCR-free library prep, sequencing, data QC and analysis. Known D043 puts an all-in X 30x genome at about US$470 at a Canadian core. The two are different cores, so this is not like-for-like. The wafer arithmetic is consistent: $2,704-3,204 / 16 genomes per wafer (UMGC's own figure) = $169-200 of raw sequencing per genome. That would put the 30x genome in the same range as the 'raw' cost Ultima markets, and below Illumina's UBS-cited ~$175-200 customer cost.",
+      "url": "https://genomics.umn.edu/service/human-whole-genome-sequencing",
+      "date": "2026",
+      "source_name": "UMN Genomics Center WGS service page; UMGC 'UG 100 arrives' news",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives a core-level published all-in 30x price on Ultima ($192/$221) and a wafer-to-genome calculation. The known list has the $221 external WGS figure only through F409."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "UMGC's standard Ultima UG 100 wafer price appears to have risen, not fallen, from an earlier table. Ultima does not price like a chain of cuts at this core.",
+      "detail": "A search snippet of an older UMGC UG 100 table gave a full wafer at $2,909 UMN / $3,212 external and a half wafer at $1,709 / $2,012. The fetched live page now shows $3,204 / $3,688 (full) and $2,107 / $2,425 (half) in the Savings tier. That is +10% and +15% for the full wafer, and +23% and +21% for the half wafer. The older snippet was cached and undated, so the timing is unverified. A related UMGC webinar page says about $2,600 for 10-12B reads after the Solaris upgrade. The page also adds Speed and Priority tiers at +4.7% and +9.5% over Savings for UMN. This is the cheaper platform raising its own list, so the 'preferred' $500 off may be restoring the earlier price level (2,704 vs 2,909).",
+      "url": "https://genomics.umn.edu/ug-100-sequencing",
+      "date": "2026",
+      "source_name": "UMN Genomics Center UG 100 rates",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A watch-out the known list lacks: a rival platform's core price rose or recovered. The older snippet is undated and was not opened, so treat it as a lead."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UMGC speakers say the center has about 18 months of Ultima production experience, yet UMGC still lists X Plus only via outsourced Illumina capacity, not as an exit from Illumina.",
+      "detail": "The UMGC X Plus page keeps the 10B and 25B 300-cycle products on offer, via partners, so Illumina consumables still flow to UMN users, but at partners' prices. Ultima and AVITI sit alongside as in-house options. The core's own news index shows 15 events and news items over a year and no announcement dropping Illumina. This is channel shift (a cheaper Illumina route), not displacement of Illumina volume. The first-order effect for Illumina is lower realized price per lane through an outsourcer such as Novogene.",
+      "url": "https://genomics.umn.edu/service/illumina-novaseq-x-plus-sequencing",
+      "date": "2026",
+      "source_name": "UMN Genomics Center service page",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Frames the UMGC finding as outsourcing, not abandonment of Illumina."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Resolved: the live UMGC page shows $2,704/$3,188 per wafer and $1,857/$2,175 per half wafer. The Savings tier is $3,204/$3,688 and $2,107/$2,425. The snippet's $2,409/$2,712 matched an older base of $2,909/$3,212 minus $500. No UMGC NovaSeq X 25B lane price exists, because UMGC outsources the X Plus and publishes only a quote route. The Wayback Machine is blocked in this tool, and the UG 100 webinar page returned 403. The AVITI page URL guessed returned 404. Remaining: UMGC AVITI rate page and 'lower FY2024 rates' tiers page; page 2 of the news index; UMGC partner names; the older UG 100 table with a date (needs Wayback or another browser).",
+  "leads": [
+    {
+      "name": "UMGC AVITI sequencing rate page",
+      "url": "https://genomics.umn.edu/service/element-aviti-sequencing",
+      "access": "public, URL unverified",
+      "labels": ["2B", "1B"],
+      "rationale": "Would give dollar AVITI prices to pair with the 33% per-read cut on 15 Sep 2025."
+    },
+    {
+      "name": "UMGC pricing tiers explanation page (lower-fy-2024-rates-and-service-tiers)",
+      "url": "https://genomics.umn.edu/ug-100-sequencing",
+      "access": "public, link on the UG 100 page",
+      "labels": ["1B"],
+      "rationale": "Its slug refers to lower FY2024 rates. It may show how UMGC cut core rates and whether the UG 100 table has changed since."
+    },
+    {
+      "name": "UMGC news-events index, later pages",
+      "url": "https://genomics.umn.edu/news-events?page=1",
+      "access": "public",
+      "labels": ["2B", "2A"],
+      "rationale": "Earlier price-cut announcements (Solaris upgrade, UG 100 launch, any X Plus outsourcing notice with a date)."
+    },
+    {
+      "name": "UMN Cancer Center event 'What would you do if DNA sequencing were free'",
+      "url": "https://cancer.umn.edu/events/what-would-you-do-if-dna-sequencing-were-free-its-time-start-planning-ultima-ug-100-and",
+      "access": "public",
+      "labels": ["2B"],
+      "rationale": "Another UMN-hosted Ultima promotion with possible price or cost-per-genome claims."
+    }
+  ],
+  "apify_requests": []
+}
+```

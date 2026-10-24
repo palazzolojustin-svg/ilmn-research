@@ -1,0 +1,126 @@
+Sequencing – Genomics Shared Resource
+Skip to main content
+Activate Menu
+Geisel School of Medicine
+Dartmouth
+Departments & Centers
+Find People
+Dartmouth Directory
+Geisel Faculty Directory
+Giving
+Make a Gift
+Anatomical Gifts Program
+Alumni
+Quick Links
+Admissions
+Clery Act Notification
+Diversity & Inclusion
+Events Calendar
+Financial Aid
+Geisel Computing
+Geisel Human Resources
+Geisel’s Strategic Plan
+Medical and Health Sciences Libraries
+News
+Registrar
+Single Cell |
+Spatial |
+Microarray |
+Sequencing |
+Plasmid/Amplicon-seq |
+The GMBSR provides Illumina and Oxford Nanopore next-generation sequencing services. Prices include library normalization, pooling, sequencing, and raw data storage.
+Use our Cost Estimator Tool for detailed project pricing.
+Illumina Sequencing
+Variable / see pricing table below
+FASTQ files are stored on Dartmouth's DartFS storage system, accessible to the entire Dartmouth community. Please review our Data Retention Policy for details on storage timelines. Contact Research Computing for a DartFS account.
+All kits can be run in single-end or paired-end configurations. Sequencing can be purchased as entire flow cells or on a per-read basis for shared runs.
+NovaSeq runs must be purchased as full flow cells. Most common flow cells are shown below; others available upon request.
+|
+NextSeq 2000 |
+Flow Cell |
+Reads |
+Cycles |
+Price |
+P1 |
+120M |
+100 |
+$1,181.38 |
+300 |
+$1,415.88 |
+600 |
+$2,005.13 |
+P2 |
+500M |
+100 |
+$1,507.57 |
+300 |
+$1,799.78 |
+600 |
+$3,533.63 |
+P3 |
+1.3B |
+100 |
+$2,105.22 |
+300 |
+$3,113.77 |
+P4 |
+2B |
+100 |
+$2,810.13 |
+300 |
+$4,285.23 |
+NovaSeq 6000 |
+Flow Cell |
+Reads |
+Cycles |
+Price |
+S2 |
+3.3B |
+300 |
+$7,921.80 |
+S4 |
+8.5B |
+300 |
+$11,742.89 |
+Shared Runs (Per-Read Pricing) |
+Option |
+Reads |
+Price |
+10M reads |
+10M |
+$53.33 |
+50M reads |
+50M |
+$151.81 |
+250M reads |
+250M |
+$803.50 |
+Shared run prices are based on partial NextSeq 2000 P4 100-cycle run costs. Contact us about partial runs for 300-cycle configurations.
+MiniSeq |
+Kit |
+Reads |
+Cycles |
+Price |
+Mid Output |
+8M |
+300 |
+$957.52 |
+High Output |
+Oxford Nanopore Sequencing |
+Platform |
+Description |
+Price |
+PromethION |
+High-throughput long-read sequencing |
+$1,264.00 |
+MinION |
+Portable long-read sequencing |
+$954.00 |
+Oxford Nanopore prices are per flow cell and include sequencing and raw data storage. Contact the core for project-specific guidance on platform selection.
+Prices shown reflect internal Dartmouth rates for FY2027. External users and those with large projects should contact the core directly for pricing information. Actual prices may vary based on batch size.
+All services provided by the GMBSR are supported by an NCI Cancer Center Support Grant (5P30CA023108) which MUST be cited in any publications or other materials using data generated in the core.
+Single cell sequencing services are provided through the Single Cell Genomics Core and are subsidized by a COBRE grant (P20GM130454). This grant MUST be cited in all publications and materials using single cell data generated in the core.
+Copyright © 2026 Trustees of Dartmouth College
+Higher Education Act Information
+Dartmouth Compliance and Ethics Hotline
+This page may link to PDF files. Use this link to download Adobe Reader if needed.

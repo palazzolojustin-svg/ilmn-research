@@ -1,0 +1,8 @@
+```json
+{"status":"dry","notes":"Two standard searches found no end-of-sale, end-of-service, last-order-date or PCN notice for the NovaSeq 6000, the v1.5 S1/S2/S4/SP kits or the 6000Dx. Illumina's kit pages, the Government Scientific Source (GovSci) distributor SKUs and the UDI regulatory listings all still show these kits as current. I did not open the pages. I'm going on search snippets only. A UConn core price window for the SP v1.5 300-cycle kit (1 Jul to 31 Dec 2025) is only a price-period label. The RevMed 6000Dx S2 v1.5 'Out of Stock' flag may be a supply issue, but I could not verify it. No new quantifiable data. Illumina's PCN and customer-notice portal is probably login-gated or not indexed. That is consistent with the 6000 product page being live with no end-of-life (already known), but I saw no extension notice either. So this is neither for nor against the thesis.",
+"how_to_mine":"Low payoff. If revisited, open https://www.illumina.com/products/by-type/ivd-products/novaseq-6000dx-reagents.html and the support kit_contents pages directly and look for a 'discontinued' flag. Check the GovSci and RevMed SKU pages for status changes on 20028312/20028313/20028314/20028400 (v1.5 S4/S2/SP) and 20046931/20046933 (6000Dx). Then re-check after the 29 Oct 2026 Q3 print for any new retirement-page entry.",
+"difficulty":"hard",
+"items":[],
+"new_candidates":["Distributor SKU status pages (govsci.com, revmedconnect.com, beudamed UDI) for NovaSeq 6000 and 6000Dx v1.5 kits, as a free way to track discontinuation or out-of-stock flags over time.","Illumina retirement page (retired-products list) re-check after the 29 Oct 2026 print for a NovaSeq 6000 notice."],
+"apify_requests":[]}
+```

@@ -1,0 +1,38 @@
+I'm wrapping up this probe. The Justia page returned a 403 to my fetch, so I'm reporting what the search summaries and the Personalis 10-K showed.
+
+```json
+{
+  "status": "blocked",
+  "notes": "Direct fetch of the Justia mirror (contract/93225) returned HTTP 403, so I could not read the exhibit text. The search-result summaries of the page say it is the Illumina–Personalis Master Quotation Agreement dated 19 Nov 2019 (Exhibit 10.25), expiring 31 Dec 2020. Discounts apply to Illumina's then-current list price, only to listed product families, and exclude promotional consumables, software, hardware and new instruments. Illumina may change discount percentages for future products or list-price adjustments at its sole discretion. Product and discount tables are redacted as [***], so no percentages or volume tiers are public. The FY2019 10-K (which I opened) confirms the Master Quote term to 31 Dec 2020. It also describes a separate NovaSeq S4 pricing agreement that replaced a 22 Nov 2017 agreement on 26 Mar 2019, ran to 31 Dec 2022, and carried a $1.7M purchase commitment by 30 Jun 2019. The contract is 2019–20 vintage, so it is not current evidence. The 'sole discretion' clause is only a summary-level reading, not a verified quote. The Q1 2019 S-1 describes an earlier Master Quote (22 Feb 2019, term to 14 Feb 2020).",
+  "how_to_mine": "Try the exhibit on EDGAR directly (Personalis CIK 1527753, FY2019 10-K or 10-Q exhibit index, Exhibit 10.25) or via Google cache or Wayback of the Justia URL. Also check Justia contract/62414 and contract/62420 (earlier quotation/supply agreements) for the same adjust-discount clause. Confirm the verbatim wording of the 'sole discretion' discount-change clause. Compare it with Natera §7(k)/(l) and the Caris Open Offer. Personalis's 2025–26 10-K/10-Q Illumina exhibits might carry a newer pricing agreement, since Tempus is acquiring Personalis.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's standard customer quotation lets it reset discount percentages on new products or list changes at its sole discretion, a template for how a 35B could be priced.",
+      "detail": "Per summaries of the Personalis Master Quotation Agreement (19 Nov 2019, Exhibit 10.25, expiry 31 Dec 2020), discounts are taken off Illumina's then-current list price. They cover only listed product families and exclude promotional consumables and new instruments. Illumina reserves the right to change discount percentages for future products or list-price changes. This means a new flow cell's discount is not locked in by the existing contract. The tables are redacted and I could not open the page (403), so the clause is secondhand and the contract is old.",
+      "url": "https://contracts.justia.com/companies/personalis-inc-8225/contract/93225",
+      "date": "2019-11-19",
+      "source_name": "Justia contracts mirror of SEC Exhibit 10.25 (search-result snippet, not opened)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list covers Natera, Caris, Guardant and Tempus contracts but not this Personalis quotation or its adjustable-discount clause."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Personalis–Illumina NovaSeq S4 Pricing Agreement (26 Mar 2019, term to 31 Dec 2022)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1527753/000156459020012826/psnl-10k_20191231.htm",
+      "why": "It carried a $1.7M purchase commitment and replaced a 2017 agreement. Look for later Personalis filings (2023–26) with newer Illumina pricing agreements or amendments, which could show current X-era terms."
+    },
+    {
+      "name": "Justia Personalis–Illumina contracts 62414 and 62420",
+      "url": "https://contracts.justia.com/companies/personalis-inc-8225/contract/62414",
+      "why": "They may hold the same discount-change language with less redaction."
+    }
+  ],
+  "apify_requests": []
+}
+```

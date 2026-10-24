@@ -1,0 +1,196 @@
+```json
+{
+"items": [
+{
+"label": "1A",
+"direction": "supports",
+"claim": "In Illumina's own Open Offer catalogue, 6000 reagent list prices rose 15.1% between Sep 2022 and Feb 2024 while the X 10B stayed flat, so part of the tail's high price per Gb is a list-price effect.",
+"detail": "NovaSeq 6000 S4 300-cycle list was $14,400 (Sep 2022), $15,940 (Feb 2023, +10.7%) and $16,578 (Feb 2024, +4.0%), which is +15.1% cumulative. S2 300 went $9,600→$10,627→$11,052, SP 300 went $3,000→$3,321→$3,454, and NextSeq 550 HO 300 rose by the same +15.1%. The X 10B 300-cycle stayed at $9,600 in all three revisions, and the 6000 instrument stayed at $985K. Illumina raised the blade price on the legacy platform while holding the X, which widens the 6000/X gap independently of volume. Part of the reported revenue-per-Gb ratio drift (2.2x→3.4x) therefore comes from price moves on the 6000 side, and tail users have absorbed these rises. List prices only; net prices depend on the discount tiers.",
+"url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf",
+"date": "2022-09-29 (compared with 2024-01-25 and 2024-05-31 revisions)",
+"source_name": "Illumina Open Offer, Appendix 1 to Exhibit A (list-price catalogue), three revisions",
+"source_type": "price_list",
+"quote": "",
+"strength": "strong",
+"why_new": "The known list covers core and distributor prices and the 4% CNAG rise. This is Illumina's own contract catalogue, showing +10.7% (Feb 2023) and +4.0% (Feb 2024) on 6000 consumables against 0% on the X 10B."
+},
+{
+"label": "1A",
+"direction": "supports",
+"claim": "At published Open Offer discounts the 6000-to-25B gap is only 2.45–2.82x per Gb, well below the 3.4x revenue-per-Gb ratio in Illumina's disclosures, so reported X pricing sits 17–28% below the published schedule.",
+"detail": "Feb 2024 list per Gb, using spec outputs of ~3,000 Gb for S4-300 and ~8,000 Gb for 25B-300 (my assumption): S4 $16,578/3,000 = $5.53 and 25B $16,000/8,000 = $2.00, a 2.76x gap. Net at the top spend tier (≥$100M) is S4 $5.53×0.78 = $4.31 against 25B $2.00×0.88 = $1.76, a 2.45x gap. At $20–30M it is $4.97 against $1.86 (2.67x), and at $5–10M it is $5.36 against $1.90 (2.82x). Reported 3.4x implies X realized price per Gb 1 − (2.45 to 2.82)/3.4 = 17–28% below what the published schedule gives. That points to off-schedule discounts on X, or Gb shipped versus Gb consumed differences. This matches the 2.4–2.5x core-level result and is an independent contract-side check.",
+"url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+"date": "2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1 (rev. 31 May 2024), Table 1 and list catalogue",
+"source_type": "price_list",
+"quote": "",
+"strength": "medium",
+"why_new": "The known notes derive 3.4x from reported shares and cross-check it only with core rate cards. This computes the ratio from Illumina's contract list and discount tiers (my arithmetic, spec-output assumption stated)."
+},
+{
+"label": "1B",
+"direction": "supports",
+"claim": "The 25B's published consumables discount tops out at 12% (≥$100M annual spend) against 22% for the 6000 and 10B, so the schedule leaves wide room for off-schedule deals with large accounts.",
+"detail": "Table 1 (identical in the 25 Jan and 31 May 2024 revisions): 25B discount runs 3% ($1–5M), 5% ($5–15M), 7% ($15–30M), 10% ($30–50M) and 12% (≥$50M). The 6000/10B column runs 0%, 3%, 5%, 10%, 13%, 15%, 17%, 20% and 22%. The 25B is richer below $20M and shallower above it. At the top tier the 25B nets $1.76/Gb (12% off $16,000) against $2.50/Gb for the 10B (22% off $9,600), a 29.5% drop in net price per Gb. Open Offer customers include US oncology labs such as Caris. Expert claims that big accounts pay 'half or a quarter' of small accounts therefore cannot come from the published schedule, so they must be bespoke contracts, which is where extra discounting would show up. Only the schedule is visible here, not the bespoke terms.",
+"url": "https://supportassets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/1-25-2024_appendix-1.pdf",
+"date": "2024-01-25",
+"source_name": "Illumina Open Offer Appendix 1 (rev. 25 Jan 2024)",
+"source_type": "price_list",
+"quote": "",
+"strength": "medium",
+"why_new": "The known notes mention the Open Offer's MFN and price-only-falls clauses but none of the actual tier percentages by flow cell."
+},
+{
+"label": "1B",
+"direction": "supports",
+"claim": "Illumina's 25B list was set 37.5% below the 10B per Gb at launch, and the same price curve would put a 35B at about −15% per Gb versus the 25B.",
+"detail": "10B-300 list is $9,600 for ~3,000 Gb ($3.20/Gb) and 25B-300 is $16,000 for ~8,000 Gb ($2.00/Gb), so the price went up 66.7% for 2.67x the output. That is a price-to-output exponent of ln(1.667)/ln(2.667) = 0.52. If a 35B (+40% output, per the roadmap) followed the same curve, price would be 1.4^0.52 = 1.19x, about $19.1K, or $1.70/Gb, which is −15% versus the 25B. That is milder than the known ~20% and ~25% estimates, so the 35B depends on Illumina choosing a steeper step than its last one. At the top Open Offer tier the net per-Gb path is 10B $2.50 (Sep 2022) to 25B $1.76 (Jan 2024), −29.5% in about 16 months.",
+"url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+"date": "2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1 (list catalogue); my extrapolation",
+"source_type": "price_list",
+"quote": "",
+"strength": "weak",
+"why_new": "The known 35B estimates are hearsay or UBS arithmetic. This derives a 35B price from the observed 10B→25B list step; the exponent is mine and spec outputs are assumed."
+},
+{
+"label": "1B",
+"direction": "against",
+"claim": "The published discount tiers did not move between Jan and May 2024, and no 2025–26 Appendix 1 revision appears in the index, so the public contract shows no acceleration of discounting.",
+"detail": "The 25 Jan 2024 and 31 May 2024 revisions have identical Table 1 (consumables), Table 2 (hardware), Table 3 (credits) and Table 4 (service) percentages. Only the list-price base changed, from Feb 2023 to Feb 2024. The page's dated changes after Oct 2023 are new NovaSeq X and NextSeq XLEAP consumables becoming eligible, and a 18 Mar 2024 amendment for reduced NovaSeq 6000Dx pricing. Search returned no revision dated 2025 or 2026. The top X Plus/6000 tier has been 22% since Sep 2022. If large accounts are getting deeper discounts, it is happening off-schedule. A site that stopped being updated or an unindexed newer file would both look the same, so this is weak-to-medium.",
+"url": "https://www.tst-web.illumina.com/areas-of-interest/cancer/test-terms.html",
+"date": "2026-10-12 (page state); latest revision found 2024-05-31",
+"source_name": "Illumina Open Offer test-terms page and Appendix 1 revisions",
+"source_type": "price_list",
+"quote": "",
+"strength": "weak",
+"why_new": "It tests discount acceleration directly on the contract schedule, comparing revisions Jan 2022, Sep 2022, Jan 2024 and May 2024."
+},
+{
+"label": "1B",
+"direction": "against",
+"claim": "The Open Offer's 'at least 43% lower' price-per-Gb commitment was already met on list by Feb 2024, so the contract does not force further cuts.",
+"detail": "The Jan 2022 catalogue has S4 v1.5 300-cycle at $14,400, about $4.80/Gb on a ~3,000 Gb spec, or $3.74 at the 22% top discount. A 43% reduction implies ≤$2.74/Gb. The 25B-300 at $16,000 is $2.00/Gb on list (−58% vs S4 list), or $1.76 at the 12% top discount (−53% vs S4 net). The 2025 commitment was therefore cleared roughly a year early. The known notes list the 43% clause and an unverified ~$4/Gb baseline but no check against actual catalogue prices. Whether Illumina measures against this 'S4 standard terms' baseline is unconfirmed. If the clause is already satisfied, it is not what drives the next price cut.",
+"url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+"date": "2022-01-06 and 2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1 (Jan 2022 and May 2024 revisions); test-terms page",
+"source_type": "price_list",
+"quote": "",
+"strength": "medium",
+"why_new": "The known notes cite the 43% clause but report no remedy or measurement found. This tests it against the published catalogue prices."
+},
+{
+"label": "1A",
+"direction": "against",
+"claim": "The Open Offer discount tiers are keyed to annual consumables spend, so when conversion shrinks a customer's spend the discount percentage falls and cushions some of the price cut.",
+"detail": "Worked example: a customer spending $40M net on the 6000 (15% tier) moves the same Gb to 25B. List cost is 1/2.76 of the 6000's, so net spend falls to about $15.8M, which puts it in the 7% tier. Net price falls 60.4% ($40M→$15.8M), against a 63.8% list-to-list cut at equal discounts, about 3.4 points of cushion. Spend is defined as net invoiced sequencing consumables by contract year (15 Feb–14 Feb), with a refund or credit true-up within 60 days of the baseline period. Illumina's per-Gb revenue loss on conversion is therefore slightly smaller than a list-price comparison suggests, for tier-based customers. The reverse also applies: customers that grow volume rise through tiers and earn bigger discounts.",
+"url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+"date": "2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1, Table 1 and spend/true-up definitions",
+"source_type": "price_list",
+"quote": "",
+"strength": "weak",
+"why_new": "The known notes' conversion cost calcs use revenue-per-Gb ratios and do not model the contract's spend-tier mechanics."
+},
+{
+"label": "1A",
+"direction": "supports",
+"claim": "Instrument credits depend only on the installed instruments, not on consumables volume, and the program gives an X Plus 13 credits against 10 for a 6000, a small contractual nudge to swap boxes.",
+"detail": "Table 3 credits: NovaSeq X Plus 13, NovaSeq 6000Dx 11, NovaSeq X 10, NovaSeq 6000 10, NextSeq 500/550/1000/2000 3 and MiSeq 1, counted only for instruments under an active Illumina service contract in the customer's or affiliates' US facilities. The consumables discount (Table 1) uses annual spend and does not use credits. Credits drive the hardware discount (Table 2: 5% at 1–30 credits up to 24% at ≥900 for NovaSeq-family instruments, 20% for NextSeq) and the service-contract discount (Table 4: 0% at 1 credit to 22% at ≥201). Reaching the 22% service tier takes 16 X Plus (208 credits) or 21 6000s (210). A 50-box fleet moving from 6000s to X Plus goes from 500 to 650 credits, moving the hardware discount from 20% to 22%. The effect is small, but it favors conversion. The Sep 2022 addendum is the Open Offer Appendix 1 (the same program as Core Notes 17), not a separate one.",
+"url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf",
+"date": "2022-09-29 (Table 3 unchanged through 2024-05-31 except the NovaSeq X row added)",
+"source_name": "Illumina Open Offer Appendix 1, Tables 2–4",
+"source_type": "price_list",
+"quote": "For each Installed Instrument, Customer shall be entitled to a specific number of Instrument Credits",
+"strength": "weak",
+"why_new": "It answers the open question on credits: they scale with installed boxes, not consumables, and X Plus carries 30% more credits than the 6000."
+},
+{
+"label": "1B",
+"direction": "supports",
+"claim": "In the Aug–Sep 2022 revision Illumina switched service-contract discounts to instrument credits, which raised discounts for NovaSeq 6000 fleets by 4–12 points.",
+"detail": "The Jan 2022 service table used instrument counts: 5–10 instruments 8%, 11–30 10%, 31–50 12%, 51–75 15%. The Sep 2022 table keeps the same percentages but applies them to credits, and a 6000 counts as 10 credits. A single 6000 now gets 8% (was 0%), 3 6000s get 10% (was 5%), 10 6000s get 20% (was 8%), 21 6000s get 22% (was 10%), and 50 6000s get 22% (was 12%). The test-terms page describes the change as revised 'in customers' favor', dated Aug 19, 2022. It came during the GRAIL antitrust review, so it may reflect remedy pressure rather than competition. Illumina has deepened discounts for large fleets at least once when pushed. It affects service revenue (about 15% of revenue), not consumables.",
+"url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+"date": "2022-08-19 / 2022-09-29",
+"source_name": "Illumina Open Offer Appendix 1, Table 4 (Jan 2022 vs Sep 2022); test-terms page",
+"source_type": "price_list",
+"quote": "",
+"strength": "weak",
+"why_new": "It is a dated, quantified change in discount structure that the known notes do not cover; the known list says only that tiers were added."
+},
+{
+"label": "1A",
+"direction": "against",
+"claim": "Illumina keeps refurbishing and selling 6000s, with a certified pre-owned 6000 at $785K and a 6000Dx list cut 21%, which extends the tail rather than shrinking it.",
+"detail": "The May 2023 revision made Certified Pre-Owned NovaSeq 6000 systems eligible, and the Jan and May 2024 catalogues list a CPO 6000 RUO at $785,000, 20.3% below the new 6000's $985,000. The NovaSeq 6000Dx instrument list was $1,080,000 (Sep 2022, Jan 2024) and $850,000 in the May 2024 catalogue, a 21.3% cut. The 18 Mar 2024 amendment is described as reflecting newly reduced 6000Dx pricing. For comparison the X list is $985K for the single-flow-cell X and $1.25M for X Plus. A cheaper 6000/6000Dx purchase path adds installed boxes that later pull reagents, which supports management's claim that part of the tail stays. The count of CPO and 6000Dx units sold is not disclosed.",
+"url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+"date": "2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1 instrument catalogue; test-terms page change log",
+"source_type": "price_list",
+"quote": "",
+"strength": "weak",
+"why_new": "The known notes mention a 79% lease price and '>10 new 6000s' but not the CPO list price or the 21% 6000Dx instrument cut."
+},
+{
+"label": "1B",
+"direction": "supports",
+"claim": "In May 2024 Illumina cut NextSeq 1000/2000 list prices 20–36% per read by moving to XLEAP-SBS kits, showing price-per-Gb deflation below the X as well.",
+"detail": "P3 300-cycle XLEAP is $4,305 for up to 1.2B reads against the legacy P3 300 at $6,150 for 1.1B reads: −30.0% per kit and about −35.8% per read ($3,587 vs $5,591 per billion). P3 200-cycle is $3,229 against $4,612 (−30.0%), and P3 100-cycle is $2,332 against $3,331 (−30.0%). P2 300-cycle is $2,722 against $3,628 (−25.0%) for the same 400M reads, and P1 300-cycle is $1,000 against $1,250 (−20.0%). Legacy NextSeq 2000 kits were left at their old list, so the new line is a price-cut-plus-upgrade path. Mid-throughput is where known notes find buyers losing to cheaper rivals. List only; it says nothing about volume response.",
+"url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+"date": "2024-05-31",
+"source_name": "Illumina Open Offer Appendix 1 list catalogue (rev. 31 May 2024)",
+"source_type": "price_list",
+"quote": "",
+"strength": "medium",
+"why_new": "The known notes cover X-family steps and a 'harmonised' per-read cost, not Illumina's own XLEAP list cuts on NextSeq 2000 with the arithmetic."
+}
+],
+"source_status": "productive",
+"notes": "Method note: the web fetch tool cannot decode these PDFs, so I read the saved files with the Read tool (it renders PDFs directly) for the 29 Sep 2022 addendum, the 6 Jan 2022, 25 Jan 2024 and 31 May 2024 revisions. Table values above are as printed. All per-Gb numbers assume spec outputs of ~3,000 Gb (S4 300-cycle, 10B 300-cycle) and ~8,000 Gb (25B 300-cycle); that assumption is mine. Identity answered: the 09-29-2022_Addendum.pdf is the 'Appendix 1 to Exhibit A' of the Illumina Open Offer (the Core Notes 17 program), not a separate one. The test-terms page lists the Mar 2021 offer, the Sep 2021 GRAIL addendum, and Appendix 1 updates. Not obtained: the 18 Mar 2024 revision (404 on the tst-web host), the 10 Oct 2023 (25B launch), 16 Dec 2022, 22 Aug 2022 and 16 May 2023 revisions (the fetch returned the terms index page instead), and any 2025–26 revision (none found in search). Still worth doing: pull those versions to date the first appearance of the shallower 25B tier and the Feb 2023 list rise precisely. The GRAIL Section 4(g) addenda carry the same tables plus GRAIL-specific purchasing data.",
+"leads": [
+{
+"name": "Open Offer Appendix 1 revision of 16 Dec 2022 (illumina.com.cn mirror)",
+"url": "https://www.illumina.com.cn/content/dam/illumina-marketing/documents/applications/cancer/12-16-2022_appendix-1.pdf",
+"access": "open PDF, read directly with the Read tool",
+"labels": ["1B"],
+"rationale": "Shows the X Plus and 6000Dx tiers before the 25B existed, so the first step of the shallower 25B tier can be dated."
+},
+{
+"name": "Open Offer Appendix 1 revision of 16 May 2023 (Certified Pre-Owned 6000 added)",
+"url": "https://www.illumina.com.cn/content/dam/illumina-marketing/documents/applications/cancer/2023-05-16_appendix-1.pdf",
+"access": "open PDF",
+"labels": ["1A", "1B"],
+"rationale": "Gives the 2023 list prices (Feb 2023 +10.7% step on the 6000) and the CPO 6000 launch terms."
+},
+{
+"name": "Open Offer Section 4(g) addenda (23 May 2023, 26 Oct 2023, 22 Apr 2024)",
+"url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf",
+"access": "open PDF; GRAIL-specific, country-by-country credit counting",
+"labels": ["1B", "1C"],
+"rationale": "These GRAIL purchasing disclosures reuse the same tier tables and may show GRAIL's actual spend tier and discount."
+},
+{
+"name": "Illumina Open Offer original contract (Mar 2021)",
+"url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/illumina-open-offer.pdf",
+"access": "open PDF",
+"labels": ["1B"],
+"rationale": "Defines the baseline for the 43% price-per-Gb commitment so the check in this report can use Illumina's own reference price."
+},
+{
+"name": "Natera 10-Q Q2'26 exhibits (supply agreement amendments)",
+"url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630xex103.htm",
+"access": "open SEC filing",
+"labels": ["1B"],
+"rationale": "One search result describes an Illumina amendment (clustering and sequencing consumables) whose appendix may carry per-instrument credit or discount tables for the largest customer."
+},
+{
+"name": "Perceptive Capital S-4 Exhibit 10.24 (Illumina agreement with 'Updated Appendix A Terms')",
+"url": "https://www.sec.gov/Archives/edgar/data/0002017526/000114036126017428/ny20061080x8_ex10-24.htm",
+"access": "open SEC filing",
+"labels": ["1B", "1C"],
+"rationale": "It says Illumina may post additional discount tiers on the test-terms site, which would give a 2026-dated agreement and tier language for a clinical customer."
+}
+],
+"apify_requests": []
+}
+```

@@ -1,0 +1,61 @@
+Service Fees | USEQ
+ServicesServices we support
+Spatial Omics – Nanostring GeoMX and CosMX
+SNP Fingerprinting
+Next Generation Sequencing
+Library Preparation
+Single Cell Sequencing
+DNA / RNA isolation
+Bioinformatics Data Analysis
+Consultancy Service
+Service FeesPricing overview
+Sample SubmissionSample & account details
+USEQ user portalPersonal environment
+ContactGet in touch!
+FAQ
+Menu
+Service Fees
+We provide support for a broad range of services, including Next Generation Sequencing, sample preparation, DNA/RNA isolation and SNP fingerprinting. UMC Utrecht, and NWO subsidize the facility allowing clients to pay only running and personell costs.
+Please contact us for a quotation.
+Pricing overview
+Note that prices can be updated over time quarterly due to inflation and changed euro/dollar rates.
+Pricing status at the date of submission will be applied.
+Service | Type | Price per | Price (excl VAT) |
+Nanopore Flongle | Sequencing | Run | € 492 |
+Nanopore MinIon (R10) | Sequencing | Run | € 1.055 |
+Nanopore PromethIon (R10) | Sequencing | Run | € 1.566 |
+Nanopore MinIon (R10) - Flowcell only | Sequencing | Flowcell | € 488 |
+Nanopore PromethIon (R10) - Flowcell only | Sequencing | Flowcell | € 845
+|
+| | | |
+iSeq 100 (4 M clusers; all configs) | Sequencing | Run | € 1.309 |
+| | | |
+NextSeq2000 2 x 50 bp (P1 -100 M clusters) | Sequencing | Run | € 1.555 |
+NextSeq2000 2 x 150 bp (P1 -100 M clusters) | Sequencing | Run | € 1.846 |
+NextSeq2000 2 x 300 bp (P1 -100 M clusters) | Sequencing | Run | € 2.388 |
+NextSeq2000 2 x 50 bp (P2 -400 M clusters) | Sequencing | Run | € 1.951 |
+NextSeq2000 2 x 100 bp (P2 -400 M clusters) | Sequencing | Run | € 2.959 |
+NextSeq2000 2 x 150 bp (P2 -400 M clusters) | Sequencing | Run | € 3.662 |
+NextSeq2000 2 x 300 bp (P2 -400 M clusters) | Sequencing | Run | € 3.915 |
+NextSeq2000 100 cycles (P3-1000M clusters) | Sequencing | Run | € 3.447 |
+NextSeq2000 200 cycles (P3-1000M clusters) | Sequencing | Run | € 4.512 |
+NextSeq2000 300 cycles (P3-1000M clusters) | Sequencing | Run | € 5.792 |
+Nextseq 2000 50 Cycles (P4 - 1800M clusters) | Sequencing | Run | € 3.306 |
+Nextseq 2000 100 Cycles (P4 - 1800M clusters) | Sequencing | Run | € 4.278 |
+Nextseq 2000 200 Cycles (P4 - 1800M clusters) | Sequencing | Run | € 5.521 |
+Nextseq 2000 300 Cycles (P4 - 1800M clusters) | Sequencing | Run | € 6.807 |
+| | | |
+Novaseq X 10B (100 cycles) | Sequencing | Run | € 8.466 |
+Novaseq X 10B (200 cycles) | Sequencing | Run | € 10.226 |
+Novaseq X 10B (300 cycles) | Sequencing | Run | € 10.782 |
+Novaseq X 25B (300 cycles) | Sequencing | Run | € 17.166 |
+| | | |
+| | | |
+Truseq DNA nano | Sample prep | Sample | € 79 |
+Truseq RNA stranded polyA | Sample prep | Sample | € 102 |
+Truseq RNA stranded RiboZeroPlus (human, mouse, rat,viral, bacterial) | Sample prep | Sample | € 150 |
+Nanopore | Sample prep | Sample | € 70 |
+| | | |
+SNP Open Array (60 SNPs) | Fingerprinting | Run (45 samples) | € 1.987 |
+| | | |
+DNA isolation | Isolation | Sample | € 27 |

@@ -1,0 +1,77 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina's live financing page still sells NovaSeq 6000 leases at a price only about 21% below the X, which treats the 6000 as a product with a future.",
+      "detail": "The 3-year lease starting prices are NovaSeq X $41,500/month, NovaSeq 6000 $32,700, NovaSeq 6000Dx $35,900, and NextSeq 1000/2000 $11,100. Over 36 months that is about $1.49M for the X, $1.18M for the 6000 and $1.29M for the 6000Dx. The 6000 lease costs 79% of the X lease (32.7/41.5), so a lab pays a modest premium to move to the X. Illumina is offering new multi-year 6000 leases in 2026, which fits a tail that lasts longer than end-2026. It also fits Illumina's earlier statement that a few new 6000s were sold in Q2'26.",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026 (page footer 2026; undated snapshot read 2026-10-12)",
+      "source_name": "Illumina Financial Solutions page (US and SAPAC versions)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known items cover only the X lease at $41,500 (F592) and Illumina's 6000 product page. The 6000, 6000Dx and NextSeq lease price ladder was not captured."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina is building a dedicated pricing function to sell by customer type and application, and the job post names pay-for-performance and personalized pricing by tier.",
+      "detail": "The Associate Director, Pricing Transformation post (mirrored on resumegeni, dated 28 Jun 2026) reports to the 'Sr. Director, Enterprise Pricing and Financing'. A summary of the page says the role will 'implement customer segmentation and personalized pricing by region, customer type or tier, or channel'. It also covers competitive positioning analysis, new-product pricing, and approval workflows, compliance monitoring and documentation. The base salary range is $170.6K–$255.8K and the role requires 15+ years of experience. A senior-level hire to run segmented pricing suggests discounting is being formalized and targeted at large accounts. The fetch tool paraphrased the page, so the wording needs checking against the raw text.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "resumegeni.com mirror of the Illumina Workday posting; xtalks copy returns 404",
+      "source_type": "jobs",
+      "quote": "define enterprise-wide pricing strategy at the customer type level",
+      "strength": "medium",
+      "why_new": "Known items (F549, F559, F560) cover the existence of the post and the pricing governance. This adds the segmentation, personalized-pricing-by-tier and KPI/post-implementation-review duties, plus the $170.6–255.8K pay band."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's pricing leadership comes from a medical-device background focused on limiting price erosion, so the company is managing price decline as an explicit goal.",
+      "detail": "A Berkeley Executive Education faculty bio lists David Mok as Vice President, Pricing, Analytics & Insights, Illumina. He previously ran worldwide pricing at J&J's DePuy Synthes Spine, where the bio says he improved ASP erosion. He also led the pricing transformation at Xilinx and worldwide retail pricing at Seagate. The bio does not mention Illumina or give a start date, so the Illumina link rests on the directory title alone. This is only a weak signal about management intent.",
+      "url": "https://executive.berkeley.edu/faculty-directory/david-mok",
+      "date": "undated",
+      "source_name": "UC Berkeley Haas Executive Education faculty directory",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The VP of pricing is not among the known facts, and the profile shows a pricing-transformation specialist leads Illumina pricing."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's live offer pairs 0% financing with a no-commitment subscription, and neither offer shows an end date or per-run price.",
+      "detail": "The page headlines 0% financing as a 'Limited time offer' for well-qualified buyers with no end date. It lists reagent rental at 0% interest (instrument price spread over reagent purchases, with a commitment), a pay-as-you-go subscription with a 12-month minimum, leasing with 0% for qualified buyers, and short-term instrument rental. Reagent rental and subscription prices were not shown. Qualification takes about five business days, and multiple instruments can sit under one agreement. Financing is offered to universities and government entities as well as private labs. This is a financial concession on the instrument rather than on consumables, and it is aimed at the same buyers Roche and Element are targeting.",
+      "url": "https://sapac.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026 (page footer)",
+      "source_name": "Illumina Financial Solutions page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F560 and F592 mention subscription and 0% financing. This adds the offer structure, the missing end date, public-sector eligibility, the 5-day qualification time and the instrument-rental bridge option."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Only one pricing job post was found: the Associate Director, Pricing Transformation role. The xtalks URL returns 404, and no Sr Director, pricing analyst, deal desk or leasing sibling roles exist in search results. resumegeni's Sr Director Business Dev post returned HTTP 410. The Wayback Machine is blocked in this tool, so there are no time-series snapshots of the financing page. The financing flyer PDF (Nov 2023) came back as binary, saved at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\b2c36c22-c10e-4675-a25f-f0a44d066cd3\\tool-results\\webfetch-1791794662624-dcmghz.pdf. It could be parsed locally with pdftotext to compare the 2023 lease prices with today's. A search snippet suggested a regional page showing leasing from $7,900/month and reagent rental from $2,074/run. The fetched page did not confirm this, and $7,900 is the iScan lease, so ignore it.",
+  "leads": [
+    {
+      "name": "Illumina financing flyer PDF (Nov 2023)",
+      "url": "https://assets-web.prd-web.illumina.com/content/dam/illumina-marketing/documents/company/illumina-financial-services-flyer-web.pdf",
+      "access": "public PDF; parse locally with pdftotext (file already downloaded)",
+      "labels": ["1B", "1A"],
+      "rationale": "A 2023 lease and rental price baseline against today's $41,500 (X) and $32,700 (6000) would show how instrument financing terms have moved."
+    },
+    {
+      "name": "Illumina Vice President, Data Products and Sr Director Business Development postings",
+      "url": "https://resumegeni.com/jobs/illumina-vice-president-data-products-41591job",
+      "access": "public mirror",
+      "labels": ["1C"],
+      "rationale": "These posts cover data-product monetization and pricing models and may show non-consumable revenue priorities as sequencing volume slows."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,91 @@
+DNA sequencing :: Reading the order of the chemical letters (A, C, G, T) in a DNA molecule.
+genome :: The complete set of DNA in an organism, about three billion letters in a human.
+next-generation sequencing (NGS) :: Technology that reads millions of DNA fragments in parallel, Illumina's core market.
+sequencing by synthesis (SBS) :: Illumina's method of reading DNA by recording each tagged letter as a DNA copy is built.
+XLEAP-SBS :: Illumina's latest, faster and more robust version of its SBS chemistry.
+gigabase (Gb) :: One billion DNA letters read; the standard unit of sequencing output.
+terabase :: One trillion DNA letters read.
+flow cell :: The glass slide on which DNA is read inside a sequencer, sold as a consumable in sizes such as 1.5B to 25B.
+long-read sequencing :: Sequencing that reads much longer continuous stretches of DNA than Illumina's standard short reads.
+microarray (array) :: A chip with DNA probes that checks a sample for a preset list of known variants.
+BeadArray :: Illumina's bead-based microarray technology.
+SNP genotyping :: Testing which version of single-letter DNA variants a sample carries.
+library prep :: Preparing DNA samples so they can be loaded onto a sequencer.
+consumables :: Reagent kits and flow cells customers must buy for every sequencing run.
+instruments :: The sequencing machines themselves.
+installed base :: The number of Illumina instruments in active use at customer sites.
+pull-through :: Average annual consumables revenue generated per installed instrument.
+reagent rental :: A model in which a customer gets an instrument and pays for it through consumable purchases.
+recurring revenue :: Revenue that repeats, defined by Illumina as consumables plus services and other.
+high-throughput (HT) :: Illumina's largest production sequencers (NovaSeq X and NovaSeq 6000).
+NovaSeq X transition :: Customers' shift from the NovaSeq 6000 to the newer, cheaper-per-gigabase NovaSeq X.
+backlog :: Orders received but not yet shipped.
+remaining performance obligations :: Contracted revenue not yet recognized.
+multiomics :: Measuring several biological layers (DNA, RNA, proteins, chemical marks) from the same sample.
+proteomics :: Large-scale measurement of proteins.
+SOMAmer :: SomaLogic's engineered binding molecule that captures a specific protein for measurement.
+methylome :: The pattern of methyl chemical tags on DNA that helps switch genes on and off.
+single-cell sequencing :: Measuring gene activity in individual cells rather than tissue averages.
+spatial genomics :: Mapping gene activity to its location within tissue.
+Perturb-Seq :: Experiments that disrupt genes and sequence cells to see what each gene does.
+phasing :: Determining which parent each DNA variant was inherited from.
+structural variant :: A large rearrangement, deletion or duplication of DNA.
+foundation model :: A large AI model trained on huge datasets that can be adapted for many tasks.
+BioInsight :: Illumina's data and AI business building datasets and models for pharma and clinical partners.
+DRAGEN :: Illumina's software for secondary analysis (aligning reads and calling variants).
+BaseSpace :: Illumina's cloud platform for managing runs and analyzing and sharing data.
+whole exome sequencing (WES) :: Sequencing only the protein-coding portion of the genome, about 8 Gb per sample.
+whole genome sequencing (WGS) :: Sequencing the entire genome, more than 120 Gb per sample.
+liquid biopsy :: A blood test that detects disease such as cancer from DNA shed into the bloodstream.
+comprehensive genomic profiling (CGP) :: Broad tumor testing across many genes to guide cancer treatment.
+minimal residual disease (MRD) :: Testing for small amounts of cancer remaining after treatment.
+multi-cancer early detection (MCED) :: Screening tests aiming to detect many cancer types early from blood.
+noninvasive prenatal testing (NIPT) :: A blood test of a pregnant person that screens the fetus for chromosomal conditions.
+Research Use Only (RUO) :: A product label meaning the product is not cleared for diagnostic use.
+laboratory-developed test (LDT) :: A diagnostic test designed and run within a single lab.
+510(k) :: The shorter FDA clearance pathway showing equivalence to an existing device.
+PMA :: Premarket approval, the FDA's longer, costlier pathway requiring clinical evidence.
+IVDR :: The EU regulation governing in-vitro diagnostic devices, fully enforced from May 2022.
+CLIA / CAP :: U.S. certification and accreditation required to run clinical laboratories.
+ISO 13485 :: International quality-management standard for medical devices.
+unreliable entities list (UEL) :: A Chinese government blacklist permitting trade, investment and staffing penalties on foreign firms.
+IEEPA :: The U.S. emergency-powers law used to impose tariffs that courts ruled improper in 2026.
+Hart-Scott-Rodino :: The U.S. law requiring antitrust review before large acquisitions close.
+GAAP :: Standard U.S. accounting rules for reported results.
+non-GAAP :: Company-adjusted results excluding items such as amortization, acquisition costs and investment gains.
+constant currency (CC) :: Growth with exchange-rate effects removed.
+organic growth :: Growth excluding currency effects and acquisitions.
+ROW organic growth :: Organic growth excluding Greater China.
+Core Illumina :: Illumina's results excluding GRAIL, used for 2024 comparisons.
+year over year (YoY) :: Compared with the same period a year earlier.
+sequential :: Compared with the immediately preceding quarter.
+basis point (bp) :: One-hundredth of a percentage point.
+gross margin :: Share of revenue left after direct costs of making products and services.
+operating margin :: Operating profit as a share of revenue.
+EPS :: Earnings per share, net income divided by shares outstanding.
+R&D :: Research and development spending.
+SG&A :: Selling, general and administrative expenses.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization.
+gross leverage :: Gross debt divided by trailing twelve-month EBITDA.
+free cash flow :: Operating cash flow minus capital expenditures.
+capital expenditures (capex) :: Spending on property, plant and equipment.
+free cash flow conversion :: Free cash flow divided by non-GAAP net income.
+return on invested capital (ROIC) :: Profit generated per dollar of capital invested in the business.
+market capitalization :: The total stock-market value of a company.
+goodwill :: The premium paid in an acquisition above the fair value of identifiable assets.
+intangible amortization :: The gradual expensing of acquired intangible assets such as technology.
+impairment :: A write-down when an asset is judged worth less than its book value.
+contingent consideration :: Future acquisition payments that depend on the acquired business's performance.
+contingent value right (CVR) :: A security paying holders based on a future outcome, here GRAIL revenue.
+Monte Carlo simulation :: A statistical method that values an uncertain liability by simulating many possible outcomes.
+valuation allowance :: A write-down of deferred tax assets unlikely to be used.
+tax holiday :: A temporary government tax exemption, here for Singapore manufacturing.
+deconsolidate :: Remove a subsidiary from a company's consolidated financial statements.
+spin-off :: Separating a business by distributing its shares to the parent's shareholders.
+derivative suit :: A shareholder lawsuit brought on the company's behalf against its directors.
+demurrer :: A California court motion arguing a complaint fails legally.
+share repurchase (buyback) :: A company buying back its own stock.
+reportable segment :: A business unit whose results a company must disclose separately.
+ERP :: Enterprise resource planning, the core business software system.
+total addressable market :: The total revenue opportunity available for a product category.
+sequestration :: Automatic across-the-board U.S. federal spending cuts.

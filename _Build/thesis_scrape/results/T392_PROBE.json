@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "I opened the GeneDx Q2'26 press release (EX-99.1) and the Q2'26 earnings deck on EDGAR. The only new data point I could verify is revenue per test, which I calculated: exome and genome volume grew 32% but exome and genome revenue grew only 17%. That implies revenue per test fell about 12% y/y, from about $3,700 to about $3,260. The deck itself attributes the decline to mix shift into whole genome. I could not read the prior four quarters of y/y growth: the deck's chart labels were garbled, and the Business Wire page returned 403. The +32% volume growth figure is already on the known list and is not resurfaced as an item. The Q3'26 guide implies sequential volume growth of about 7.8% (33,200 vs 30,785). The Q3'25 volume is unknown, so I could not compute y/y deceleration.",
+  "how_to_mine": "Open the GeneDx 8-K exhibit 99.1 press releases for Q3'25, Q4'25, Q1'26 and Q2'26 on EDGAR (CIK 1818331). Each one states exome and genome volume and revenue with y/y percentages. Compute revenue per test per quarter and the y/y growth rates, and check whether volume growth is decelerating (the FY guide is 'at least 30%', the Q3 guide is 33,200 tests). Then check the Q2'26 10-Q MD&A for wording on whole-genome mix, pricing and cost of services. The 2026 guide (volume +30% or more, exome/genome revenue +20% or more) implies revenue per test falling about 8-10% for the year. Verify this.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx's revenue per exome/genome test fell about 12% y/y in Q2'26 as it shifted to whole genome, the sort of price-for-volume trade that large Illumina clinical customers are making.",
+      "detail": "Exome and genome volume was 30,785 in Q2'26, up 32% y/y. Exome and genome revenue was $100.3M, up only 17%. That implies revenue per test of about $3,260 vs about $3,700 in Q2'25 (my calculation from the 8-K figures). The deck says the main driver of the y/y change is mix shift into whole genome. A genome uses far more Gb per test than an exome, so Illumina gets more volume, but GeneDx's revenue per test and its unit economics deteriorate. This is evidence that the customer is pushing the cost per sample down. It is consistent with large accounts having leverage.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001818331/000162828026051852/exhibit991-q22026pressrele.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx 8-K Ex. 99.1 and Q2'26 earnings deck (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "Primary driver of YoY ARR variability is product mix shift into whole genome.",
+      "strength": "weak",
+      "why_new": "The known list has only the +32% test growth for GeneDx; the revenue-per-test decline and the revenue growth gap (17% vs 32%) are not listed."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GeneDx's Q3'26 guide implies slowing sequential volume growth to about 8%, and its FY26 volume guide of 30% or more sits below Q2's +32%.",
+      "detail": "Q2'26 volume was 30,785. Q3'26 guidance is 33,200 tests, which is about +7.8% q/q (my calculation). Q1'26 volume was reportedly 23,246, but the deck chart was garbled and this figure may be a misread of the Q2'25 base, so it is unverified. FY26 guidance is volume growth of at least 30% and exome/genome revenue growth of at least 20%, reiterated on 3 Aug 2026. That implies FY revenue per test falling by high single digits to about 10%. Customers are growing volume faster than revenue, and the Q3 sequential step is smaller than a +32% y/y pace implies.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001818331/000162828026051852/q22026earningspresentati.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2'26 earnings deck (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no GeneDx guidance, Q3 volume guide or sequential growth figure."
+    }
+  ],
+  "new_candidates": [
+    "GeneDx 8-K Ex. 99.1 for Q3'25, Q4'25 and Q1'26: exome and genome volume and revenue by quarter, to build the 4-quarter y/y deceleration and revenue-per-test series",
+    "GeneDx Q2'26 10-Q MD&A and cost of services note: the sequencing cost per test commentary and any Illumina reagent pricing language"
+  ],
+  "apify_requests": []
+}
+```

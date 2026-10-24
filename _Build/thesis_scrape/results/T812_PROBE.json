@@ -1,0 +1,29 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I could not read any of the five OPBG PDFs. I fetched two (2026/03/18 and 2025/08/08). Both came back as compressed streams with embedded images, and the fetch tool could not extract text from either, so they are probably scanned or image-heavy. Read needs poppler/pdftoppm for PDFs, which is not installed. Bash is disabled, so I could not run pdftotext or Python. I did not open the 2024/10/17, 2025/04/28 or 2026/03/31 PDFs, because I only had URLs for 2026/03/18 and 2025/08/08. I have no kit SKUs, quantities, unit prices, discounts or base-auction figures from any of them. A search found other OPBG Illumina documents (2025/04/10, 2025/12/01, 2026/01/26, 2026/03/30, 2025/08/08) that look like infungibilità reports and capitolati. The snippet-level details below come from search-result summaries only, not from opened text.",
+  "how_to_mine": "Download the PDFs (they are public) and run OCR on them (tesseract with Italian, or pdftotext first, since some may have a text layer). Run it on a machine with poppler installed. Fetch every img.ospedalebambinogesu.it URL for the five dates, plus the neighbours found by search: 2025/04/10 172342867-8af5942d-a769-41df-aa5c-16d02493f5b2, 2025/12/01 170712615-29493de4-e17b-4fdf-96b0-64956a066e51 and 165933338-95b8e396-99b0-48cb-8995-b67aa17b45d9, 2026/01/26 113019842-0c39e018-ed95-43f1-9026-19aad12be1c2, 2026/03/30 103952346-31780345-badb-403a-9185-e798facfdd67. For each, look for catalog numbers (20028312 is the S4 v1.5 300-cycle SKU; X kits start 20085xxx), quantities, 'importo a base di gara', 'prezzo unitario', 'sconto' and the 'art. 76 c.2 lett. b)' sole-source citation. Then compare the unit price per kit across 2024 to 2026. Also check whether 6000 S1/S2/S4 v1.5 are still ordered after the X is available. This is a pediatric hospital doing small-scale RNA work, so it is a weak proxy for Illumina's overall pricing. The most useful output would be any dated unit price for 6000 vs X kits to compare year over year.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "A pediatric hospital (OPBG, Rome) justified a sole-source buy of NovaSeq 6000 S1/S2/S4 v1.5 reagents in 2025 because its installed 6000 only accepts Illumina kits.",
+      "detail": "A search-result snippet (not opened in full) describes an OPBG infungibilità report dated 6 May 2025. It covers Illumina Italy NovaSeq 6000 S1, S2 and S4 v1.5 200-cycle kits and the Stranded Total RNA Prep Ribo-Zero Plus. It says the 6000 already on site is not compatible with other makers' reagents. This is one small site, with no prices or quantities, and it shows a 6000 kit buy continuing in 2025 rather than a move to the X. It is weak anecdotal support for the point that some 6000 volume stays on the 6000.",
+      "url": "https://img.ospedalebambinogesu.it/images/2025/04/10/172342867-8af5942d-a769-41df-aa5c-16d02493f5b2.pdf",
+      "date": "2025-05-06",
+      "source_name": "Ospedale Pediatrico Bambino Gesù, infungibilità report (search snippet)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no OPBG or Italian hospital sole-source buy of 6000 v1.5 kits. The URL-to-snippet mapping is uncertain."
+    }
+  ],
+  "new_candidates": [
+    "https://img.ospedalebambinogesu.it/images/2026/01/26/113019842-0c39e018-ed95-43f1-9026-19aad12be1c2.pdf (capitolato for Illumina Italy consumables, PNC project; may list SKUs and prices)",
+    "https://img.ospedalebambinogesu.it/images/2025/12/01/170712615-29493de4-e17b-4fdf-96b0-64956a066e51.pdf (other OPBG Illumina act, Dec 2025)",
+    "https://img.ospedalebambinogesu.it/images/2026/03/30/103952346-31780345-badb-403a-9185-e798facfdd67.pdf (OPBG act dated 30 Mar 2026)"
+  ],
+  "apify_requests": []
+}
+```

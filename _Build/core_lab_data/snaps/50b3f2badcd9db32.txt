@@ -1,0 +1,267 @@
+Pricing: Center for Genetic Medicine: Feinberg School of Medicine
+Skip to main content
+Feinberg School of Medicine
+Northwestern Medicine | Northwestern University
+News Center | Faculty Profiles
+Northwestern University Feinberg School of Medicine
+Center for Genetic Medicine
+Center for Genetic Medicine Home
+About Us
+About Us Overview
+Director's Message
+News
+Events
+Giving
+Alumni
+Employment
+Contact Us
+Contact Us Overview
+Administrative Staff
+dictyBase, Dicty Stock and Gene Ontology Staff
+Education
+Education Overview
+Graduate Program in Genetic Counseling
+Scott Lecture Series
+Silverstein Lecture Series
+Technologies
+Services
+Access NUSeq Services
+Pricing
+NUgene Project
+Transgenic and Targeted Mutagenesis Laboratory
+Pricing
+View FY25 pricing by service below, or download the PDF here. If you need a quote for a project, please contact us. Initial project consultations are available free of charge.
+Pricing by Service
+Service Index
+Illumina NovaSeq X Plus Sequencing
+Illumina NextSeq 500 Sequencing
+Illumina MiSeq Sequencing
+Complete Genomics DNBSEQ-G400 Sequencing
+Element Aviti Sequencing
+General Short-Read Sequencing
+Nanopore Long-Read Sequencing
+PacBio Revio Long-Read Sequencing
+NGS Library Prep
+Single-Cell Sequencing Library Prep
+Spatial Transcriptomics
+Sample Prep and QC
+DNA Extraction
+Cell Line Authentication
+Array Processing
+NanoString
+Bioinformatics and Staff Time
+Equipment Use
+Illumina NovaSeq X Plus Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+NovaSeq X Plus, 10B Flow Cell, PE50 Sequencing |
+Lane (900-1,000 M Read Pairs) |
+$1,250 |
+$1,500 |
+$1,537 |
+NovaSeq X Plus, 10B Flow Cell, PE150 Sequencing |
+Lane (900-1,000 M Read Pairs) |
+$1,550 |
+$1,860 |
+$1,927 |
+NovaSeq X Plus, 1.5B Flow Cell, PE50 Sequencing |
+Lane (600-700 M Read Pairs) |
+$1,350 |
+$1,620 |
+$1,702 |
+NovaSeq X Plus, 1.5B Flow Cell, P1E50 Sequencing |
+Lane (600-700 M Read Pairs) |
+$1,800 |
+$2,160 |
+$2,230 |
+NovaSeq X Plus, 25B Flow Cell, PE150 Sequencing |
+Lane (2,000-2,500 M Read Pairs) |
+$2,800 |
+$ 3,360 |
+$3,468 |
+Illumina NextSeq 500 Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+NextSeq HO SE75 Sequencing |
+Flow Cell (up to 400 M Reads) |
+$1,960 |
+$2,450 |
+$2,462 |
+NextSeq MO SE150/PE75 Sequencing |
+Flow Cell (up to 130 M Reads) |
+$1,560 |
+$1,950 |
+$1,990 |
+NextSeq HO SE150/PE75 Sequencing |
+Flow Cell (up to 400 M Reads) |
+$3,400 |
+$4,250 |
+$4,260 |
+Illumina MiSeq Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+MiSeq 600 Cycle V3 Sequencing |
+Flow Cell (22-25 M Read Pairs) |
+$2,020 |
+$2,525 |
+$2,631 |
+MiSeq 500 Cycle V2 Sequencing |
+Flow Cell (12-15 M Read Pairs) |
+$1,620 |
+$2,025 |
+$2,109 |
+MiSeq Micro 300 Cycle V2 Sequencing |
+Flow Cell (4 M Read Pairs) |
+$710 |
+$887.50 |
+$939 |
+MiSeq Nano 500 Cycle V2 Sequencing |
+Flow Cell (1 M Read Pairs) |
+$710 |
+$887.50 |
+$939 |
+MiSeq Nano 300 Cycle V2 Sequencing |
+Flow Cell (1 M Read Pairs) |
+$410 |
+$512.50 |
+$514 |
+Complete Genomics DNBSEQ-G400 Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+DNBSEQ-G400 FCL, SE50 Sequencing |
+100 M Reads |
+$300 |
+$375 |
+$379 |
+DNBSEQ-G400 FCL, SE100 Sequencing |
+Lane (300-400 M Reads) |
+$675 |
+$810 |
+$831 |
+DNBSEQ-G400 FCS, SE100 Sequencing |
+Flow Cell (450-550 M Reads) |
+$1,450 |
+$1,812.50 |
+$1,868 |
+DNBSEQ-G400 FCS, PE100 Sequencing |
+Flow Cell (450-550 M Reads) |
+$1,950 |
+$2,437.50 |
+$2,530 |
+DNBSEQ-G400 FCL, PE100 Sequencing |
+Lane (300-400 M Read Pairs) |
+$975 |
+$1,218.75 |
+$1,243 |
+DNBSEQ-G400 FCS, PE300 Sequencing |
+Flow Cell (300 M Read Pairs) |
+$3,500 |
+$4,375 |
+$4,387 |
+DNBSEQ-G400 FCL Flowcell, SE400/PE200 Sequencing |
+Flow Cell (1,400-1,500 M Read Pairs) |
+$7,500 |
+$9,000 |
+$9,236 |
+Library Conversion for DNBSEQ-G400 |
+Sample |
+$25 |
+$30 |
+$32 |
+Element Aviti Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+PE75 Sequencing, High-Ouput |
+Lane (400-500 M Read Pairs) |
+$1,000 |
+$1,200 |
+$1,221 |
+PE75 Sequencing, Mid-Ouput |
+Flow Cell (400-500 M Read Pairs) |
+$1,200 |
+$1,440 |
+$1,502 |
+PE150 Sequencing, High-Output |
+Lane (400-500 M Read Pairs) |
+$1,300 |
+$1,560 |
+$1,564 |
+PE150 Sequencing, Mid-Output |
+Flow Cell (400-500 M Read Pairs) |
+$1,500 |
+$1,800 |
+$1,888 |
+PE150 Sequencing, Low-Output |
+Flow Cell (200-250 M Read Pairs) |
+$1,200 |
+$1,440 |
+$1,502 |
+PE300 Sequencing, High-Output |
+Flow Cell (200-300 M Read Pairs) |
+$3,500 |
+$4,375 |
+$4,387 |
+PE300 Sequencing, Mid-Output |
+Flow Cell (100 M Read Pairs) |
+$2,600 |
+$3,120 |
+$3,128 |
+General Short-Read Sequencing (by number of reads needed, sequencer used may vary)
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+General SE50 Sequencing |
+Unit |
+NU/CBC |
+External |
+Industrial |
+Nanopore Long-Read Sequencing Library Prep |
+Sample |
+$350 |
+$437.50 |
+$440 |
+Nanopore MinION Sequencing |
+Flow Cell (up to 50 Gb data) |
+$950 |
+$1,187.50 |
+$1,241 |
+Nanopore PromethION Sequencing |
+Flow Cell (up to 290 Gb data) |
+$1,750 |
+$2,187.50 |
+$2,259 |
+PacBio Revio Long-Read Sequencing
+Services |
+Unit |
+NU/CBC |
+External |
+Industrial |
+PacBio Revio Sequencing |
+Flow Cell |
+$2,050 |
+$2,460 |
+$2,526 |
+PacBio HiFi Lib Prep |
+Sample |
+$600 |
+$720 |
+$737 |
+PacBio Iso-Seq Lib Prep |
+Sample |

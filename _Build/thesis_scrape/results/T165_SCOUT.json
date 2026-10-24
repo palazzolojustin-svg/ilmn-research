@@ -1,0 +1,76 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "University of Illinois Roy J. Carver Biotechnology Center, DNA Services core pricing (NovaSeq X Plus lanes and Ultima wafers on the same sheet)",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "access": "Public HTML, no login, opened directly. The page says 'All pricing is updated, effective Aug. 1, 2026.' It lists 25B 2x150 at $3,380/lane standard and $3,180/lane for 8+ lanes, 10B 2x150 at $2,000 / $1,710 / $1,160 (split), and 1.5B rates. On the same page, Ultima wafer pricing is Full $3,310, Split High $2,730, Split Low $1,990. External users pay +30.8% overhead. Next step: get earlier versions from archive.ph (archive.ph/https://biotech.illinois.edu/dna-services-core/dna-services-pricing/), plus any older Carver price PDFs (search site:biotech.illinois.edu 'pricing' pdf 2024 OR 2025). Use them to measure the year-over-year change in the 25B lane price and in the Ultima-wafer-to-25B price gap.",
+      "labels": ["2A", "2B", "1B"],
+      "rationale": "This is the only core sheet found so far that prices a full Ultima wafer next to a 25B lane at one institution, on one date, for the same users. A full wafer ($3,310) costs about the same as one 25B lane ($3,380) but gives several times the reads. Ultima's ≥8B reads per wafer vs ≥2.8B per 25B lane is our inference from Broad Clinical Labs specs, not from this page. That is a direct, in-house research price gap. If archived versions show the 25B lane flat or rising while the wafer price fell, it measures the competitive pressure in research. If the 25B lane was cut in Aug 2026, it is direct evidence of 2026 research price erosion. A flat 25B price is a watch-out (against).",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Génome Québec Centre d'expertise et de services: standard all-inclusive per-sample prices and promotions page (CAD)",
+      "url": "https://genomequebec.com/en/technological-services/promotions/",
+      "access": "Public HTML, no login. The search snippet shows standard prices for all Canadian customers: mRNA-seq 25M reads $172, 50M $237, exome 100x $316, human WGS $525, metabarcoding $26 (CAD). These are tied to 'lower prices' from being first to run NovaSeq X and the 25B. The page carries no date. Also open https://genomequebec.com/en/?p=29787 and ?p=26647 (same content under WordPress post IDs). Try https://genomequebec.com/wp-json/wp/v2/pages?search=pricing to get the 'modified' timestamp. Get archive.ph snapshots for 2024–2026 to build a CAD per-sample price series.",
+      "labels": ["2A", "2B", "1B"],
+      "rationale": "This is a national, non-US research provider that publishes per-sample (not per-lane) prices. Per-sample pricing captures the whole research price a buyer pays, and the provider explicitly credits the 25B. A series of falling WGS and RNA-seq prices from 2024 to 2026 would show how quickly the X/25B gain is passed through to research users, and how much of the value Illumina keeps. The page text says it 'introduced lower prices' tied to the 25B.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "AGRF (Australian Genome Research Facility) 25B promotions, 2025 page plus any 2026 successors",
+      "url": "https://www.agrf.org.au/25b-promo-2025",
+      "access": "Public HTML, no login. The 2025 page offers '10% off' the next NovaSeq X 25B lane (2.8–3.1B read pairs), 2–30 May 2025, applied to the list price at the time of order. Next step: try sibling slugs (agrf.org.au/25b-promo-2026, /promotions, /news-and-media-releases/2026), and search site:agrf.org.au promo OR discount 2026 NovaSeq OR Ultima OR AVITI OR Axelios. Use archive.ph to capture AGRF's list price page if one exists.",
+      "labels": ["2A", "2B"],
+      "rationale": "AGRF is Australia's national non-profit sequencing facility. A run of time-limited 25B discounts, and any 2026 deepening (for example 15–20% off or bundled library prep), would show research-lane prices being pushed down outside the US. That widens the evidence that research price erosion is global, not only driven by NIH funding. Australia is also an early Element/Ultima/MGI market, so promotions may name a rival platform.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Edinburgh Genomics (UK national facility) pricing-change notices",
+      "url": "https://genomics.ed.ac.uk/node/75",
+      "access": "Public Drupal node, no login (search result 'Pricing changes at Edinburgh Genomics'; it announces a new Illumina price list effective 1 April, year not shown in the snippet). Next step: walk nearby node IDs (genomics.ed.ac.uk/node/60 to /node/140) for later pricing notices. Search site:genomics.ed.ac.uk 'price' 2025 OR 2026 'NovaSeq X' OR 'Ultima' OR 'AVITI'. Look for downloadable price-list PDFs and get archive.ph versions.",
+      "labels": ["2A", "2B"],
+      "rationale": "UK national facilities reprice once a year (1 April). Two or three consecutive April notices give a clean series of UK research list prices for 6000 S4 vs X 10B/25B per lane. That shows whether the 2025 to 2026 change was a cut (erosion) or a rise (watch-out). Edinburgh has also evaluated non-Illumina platforms, so a notice may cite rival pricing as the reason for a cut.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "FAU Erlangen (Germany) NGS core price list PDFs in date-stamped upload folders",
+      "url": "https://www.med.fau.de/files/2024/11/NGS.pdf",
+      "access": "Public PDF, no login, but compressed. WebFetch returned binary; a copy is saved locally at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\22147f65-e3ae-41fa-82ad-a9a5c6ca7073\\tool-results\\webfetch-1791787181646-iubbxv.pdf. Extract it with `python -I` and pypdf, keeping the file in its own folder. Then look for newer versions by searching site:med.fau.de NGS.pdf 2025 OR 2026 and by trying /files/2025/MM/NGS.pdf and /files/2026/MM/NGS.pdf.",
+      "labels": ["2A", "2B", "1A"],
+      "rationale": "The WordPress-style dated folder (/files/YYYY/MM/) means each repricing gets a new, dated URL. That gives a German academic euro price series without the Wayback Machine. If the Nov 2024 list prices both 6000 S4 and X lanes, it also gives a European 6000-vs-X per-Gb ratio for the research tail. A 2025/26 version would show the size of the euro research price cut.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "WordPress REST API 'modified' stamps and full content for core rate pages (NCSU GSL as proof of concept; also TxGen, Genome Québec)",
+      "url": "https://research.ncsu.edu/gsl/wp-json/wp/v2/pages/1622",
+      "access": "Public JSON, no login, opened directly. It returned page 'Pricing', date 2026-04-22, modified 2026-07-07. NovaSeq X pricing is not posted ('available from gsl_support'), but NextSeq 2000 P1–P4 and PacBio prices are. Method: for any core site on WordPress (search inurl:wp-content genomics core pricing), call /wp-json/wp/v2/pages?search=pricing&_fields=id,link,modified,content to get the exact repricing date and full text. The /revisions endpoint usually needs authentication, so do not try to log in. Capture snapshots now and re-pull each quarter.",
+      "labels": ["2A", "2B"],
+      "rationale": "Rate pages rarely show the date they changed. The REST API gives a machine-readable repricing timestamp, which lets later agents tie price cuts to events such as the 35B launch, the AXELIOS launch or the start of a fiscal year. On its own NCSU is thin, because NovaSeq X is quote-only and the core outsources it for a $149 fee. That outsourcing is itself a weak 2A signal: a research core giving up in-house high-throughput sequencing.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "GenomeWeb AXELIOS commercial-launch coverage (Roche on service pricing)",
+      "url": "https://www.genomeweb.com/sequencing/roche-sets-sight-clinic-following-commercial-launch-axelios-1-sequencer",
+      "access": "Possibly paywalled; the headline and snippet are visible in search. Use only what is visible without a login. Related nodes: https://www.genomeweb.com/node/654936 and /node/649916. The snippet says Roche service-contract pricing 'is tailored to individual customer needs and is not something we publish as standard.'",
+      "labels": ["2B", "1B"],
+      "rationale": "Roche publicly claims 'no volume-based discounting' (Investor Day, already known). This snippet says service and contract pricing is tailored per customer and not published. That suggests Roche negotiates account by account in practice, which would let it match Illumina's large-account discounts in research. It is a small, snippet-level item; confirm the date and exact wording before using it.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "\"NovaSeq X\" \"25B\" price per lane 2026 filetype:pdf\n\"NovaSeq X\" \"25B\" rates \"effective\" 2026 site:.edu\n\"NovaSeq X\" 25B Preisliste 2026\n\"NovaSeq X\" 25B tarifs 2026 plateforme\n\"Ultima\" wafer price core facility 2026\n\"AVITI\" \"NovaSeq X\" price per lane 2026 core",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "countryCode": "us",
+        "languageCode": ""
+      },
+      "why": "To list, at scale, research-core rate cards worldwide (US, German, French) that carry 2026 effective dates, so a later agent can build a matched-core panel of 2025 vs 2026 25B lane prices and Illumina-vs-Ultima/AVITI gaps on the same sheet. The standard search tool keeps returning the same ~10 known cores (TGen, UConn, UCLA, Harvard).",
+      "max_items": 200
+    }
+  ]
+}
+```

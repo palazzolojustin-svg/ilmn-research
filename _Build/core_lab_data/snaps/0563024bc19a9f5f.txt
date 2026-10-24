@@ -1,0 +1,286 @@
+BioMicroCenter:PricingFY2021 - OpenWetWare
+BioMicroCenter:PricingFY2021
+From OpenWetWare
+Jump to navigationJump to search
+Error creating thumbnail: File missing
+HOME --
+|
+SEQUENCING --
+|
+LIBRARY PREP --
+|
+HIGH-THROUGHPUT --
+|
+COMPUTING --
+|
+DATA MANAGEMENT --
+|
+OTHER TECHNOLOGY
+|
+Contents
+1 SEQUENCING
+1.1 HISEQ2000 SEQUENCING
+1.2 NEXTSEQ500 SEQUENCING
+1.3 MISEQ SEQUENCING
+1.4 NOVASEQ SEQUENCING
+1.5 OTHER ILLUMINA SERVICES
+1.6 LONG READ SEQUENCING
+2 LIBRARY GENERATION
+2.1 ILLUMINA LIBRARY - DNA
+2.2 ILLUMINA LIBRARY - RNA
+2.3 LONG READ LIBRARIES
+3 SINGLE CELL SERVICES
+3.1 SEQWELL
+3.2 10X CHROMIUM
+3.3 NAMOCELL
+Notes
+|
+Single End 40nt
+|
+$1,200
+|
+$1,320
+|
+$1,800
+|
+per lane
+|
+Includes final pool quality control (RT-PCR and BioAnalyzer), sequencing, genome alignment and data storage of FASTQ files for 1y.
+|
+Other read lengths
+|
+7/1/18: Custom only. Requires purchase of full flowcell.
+|
+NEXTSEQ500 SEQUENCING
+NEXTSEQ SEQUENCING
+|
+CORE LAB
+|
+MIT
+|
+Non-MIT
+|
+unit
+|
+Notes
+|
+91nt kit
+(eg. 40PE or 75SE)
+|
+$2,270
+|
+$2,497
+|
+$3,405
+|
+per flowcell
+|
+Includes final pool quality control (RT-PCR and BioAnalyzer), sequencing, genome alignment and data storage of FASTQ files for 1 year
+|
+166nt kit
+(eg. 80PE or 150SE)
+|
+$3,460
+|
+$3,807
+|
+|
+70nt V2 kit
+(eg. 30PE or 70SE)
+|
+$1,250
+|
+$1,375
+|
+$1,875
+|
+per lane
+|
+Includes final pool quality control (RT-PCR and BioAnalyzer), sequencing, genome alignment and data storage of FASTQ files for 1 year
+|
+150nt V3 kits
+(eg. 75PE)
+|
+$1,350
+|
+$1,485
+|
+|
+500nt NANO Run
+(eg. 250PE)
+|
+$730
+|
+$803
+|
+$1,095
+|
+NOVASEQ SEQUENCING
+MISEQ SEQUENCING
+|
+CORE LAB
+|
+MIT
+|
+Non-MIT
+|
+unit
+|
+Notes
+|
+NovaSeq SP 100nt
+|
+$3,533
+|
+$3,886
+|
+$5,300
+|
+Per flowcell
+|
+Includes final pool quality control (RT-PCR and BioAnalyzer), sequencing, genome alignment and data storage of FASTQ files for 1 year
+|
+NovaSeq SP 300nt
+|
+$5,545
+|
+$6,100
+|
+$8,316
+|
+NovaSeq SP 500nt
+|
+$7,613
+|
+$8,375
+|
+$11,420
+|
+NovaSeq S1 100nt
+|
+$5,565
+|
+$6,121
+|
+$8,348
+|
+NovaSeq S1 200nt
+|
+$7,245
+|
+$7,970
+|
+$10,868
+|
+NovaSeq S1 300nt
+|
+$8,610
+|
+$9,471
+|
+$12,915
+|
+NovaSeq S2 100nt
+|
+$11,445
+|
+$12,590
+|
+$17,168
+|
+NovaSeq S2 200nt
+|
+$15,435
+|
+$16,800
+|
+$23,153
+|
+NovaSeq S2 300nt
+|
+$18,060
+|
+$19,866
+|
+$27,090
+|
+NovaSeq S4 300nt
+|
+Contact BioMicro
+|
+NA
+|
+OTHER ILLUMINA SERVICES
+ILLUMINA SUPPORTING SERVICES
+|
+CORE LAB
+|
+MIT
+|
+Non-MIT
+|
+unit
+|
+Notes
+|
+Quality Control Only -only one QC is included per sequencing lane.
+|
+$20
+|
+$26
+|
+$30
+|
+per sample
+|
+Includes RT-PCR and Frag.Analyzer
+CORE LAB
+|
+MIT
+|
+Non-MIT
+|
+unit
+|
+Notes
+|
+72 hour Flowcell
+|
+$2,000
+|
+$2,200
+|
+$3,000
+|
+per Flowcell
+|
+Includes 1-2 nuclease wash & reload.
+Fastq stored for 1y. Trace data stored only 30d.
+|
+LIBRARY GENERATION
+ILLUMINA LIBRARY - DNA
+ILLUMINA Sample Preparation
+|
+Type
+|
+includes two instrument runs.
+|
+PIPPIN PREP
+|
+Gel Isolation
+|
+$50
+|
+$75
+|
+per gel (5 lanes)
+|
+TBA
+|
+|
+Training
+|
+$25
+|
+$50
+|

@@ -1,0 +1,68 @@
+Services and Fees
+Skip to main content
+North Dakota State University
+cta
+Apply
+Visit
+Request Info
+Search Toggle
+Main Navigation
+main
+Academics
+Academics Menu
+Study at NDSU
+Study at NDSU
+Undergraduate Programs
+Graduate Programs
+Accelerated Programs
+Colleges
+Colleges Menu
+Agriculture, Food Systems, and Natural Resources
+Arts and Sciences
+Business
+Engineering
+Health and Human Sciences
+Graduate School
+Metagenome |
+$120/sample |
+$174/sample |
+RNAseq |
+inquire |
+inquire |
+DNA/RNA extraction |
+inquire |
+inquire |
+NOTE: All library prep services come with initial quantification, library prep, clean up, normalization, and QC included in the pricing |
+Nextseq1000 kits
+Equipment/Service |
+Internal Charge (NDSU) |
+External Charge |
+P1 2x50 bp (10Gb output) |
+$1,220/run |
+$1,769/run |
+P2 2x50 bp (40Gb output) |
+$1,592/run |
+$2,308.40/run |
+P2 2x100 bp (80Gb output) |
+$2,553/run |
+$3,701.85/run |
+P1 2x150bp (30Gb output) |
+$1,500/run |
+$2,175/run |
+P2 2x150bp (120Gb output) |
+$3,222/run |
+$4,671.90/run |
+P1 2x300bp (60Gb output) |
+$2,020/run |
+$2,929/run |
+P2 2x300bp (240Gb output) |
+$3,463/run |
+$5,021.35/run |
+NOTE: Kit pricing is subject to Illumina pricing at the time of service. Price includes kit, shipping costs, and instrument run fees. |
+Bioinformatics
+Equipment/Service |
+Internal Charge (NDSU) |
+External Charge |
+Single amplicon - 16S or ITS |
+$10/sample |
+$14.50/sample |

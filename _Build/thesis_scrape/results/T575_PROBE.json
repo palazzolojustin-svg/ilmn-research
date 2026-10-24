@@ -1,0 +1,46 @@
+```json
+{
+  "status": "dry",
+  "notes": "The target PDF (S745, live-cumming host) redirects (301) to cumming.ucalgary.ca. WebFetch downloaded it, but the file is FlateDecode-compressed binary and came back unreadable. The Read tool needs pdftoppm, which isn't installed. No shell tool was available, so I could not run pypdf or pdftotext. Nothing in S745 was verified. A search snippet for the sibling 2025 and June 2024 CHGI lists gave one price datapoint. The name 'with sales' probably means promotional pricing, not unit counts. I could not check this, and the snippets show no unit counts. Do not assume 2024 vs 2025 volume data exists in these PDFs.",
+  "how_to_mine": "Download the PDF locally (cumming.ucalgary.ca/... path, not live-cumming) into an empty folder. Run `python -I` with pypdf or pdftotext -layout from a separate script folder. Search for NovaSeq, S4, SP, 10B, 25B, 'sale' and 'discount'. Diff the lines against '2025 CHGI Internal Price List.pdf', 'CHGI Internal Price List June 2024.pdf', 'CHGI Internal Library & Seq Price List 2023-2024 v2_0.pdf' and '2022-2023' (all in the same /teams/97/ folder). The goal is a multi-year $/Gb series for the 6000 S4/S2 and the X 10B/25B lanes. Check whether any 6000 line is discounted or withdrawn, and whether a 'sales' column holds unit counts. Convert CAD to USD before comparing with the known US core prices.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Calgary CHGI's internal NovaSeq X 25B lane price was unchanged between the June 2024 and 2025 price lists.",
+      "detail": "Search-result snippets show item 9000.00, NovaSeq X 25B one lane, 300-cycle PE150, 900 Gbp rated output, listed at CA$4,100 in both the June 2024 and 2025 internal lists (about CA$4.56/Gb). The service is run in partnership with the BC Genome Sequencing Centre and is outsourced, so it is not an in-house cost. A flat list price year over year is a small data point against the idea of steady research $/Gb erosion at this core. It also shows no 6000 discounting. Only snippets were seen; the PDFs were not read.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "date": "2025",
+      "source_name": "University of Calgary CHGI internal price lists (search snippet)",
+      "source_type": "price_list",
+      "quote": "NovaSeq X 25 B, One lane 300 cycles PE150 3,000 900 $4,100.00",
+      "strength": "weak",
+      "why_new": "Calgary appears in the known list only as a core rate card, with no X 25B price or 2024-vs-2025 comparison."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "CHGI Internal Price List June 2024",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Price%20List%20June%202024.pdf",
+      "why": "Gives a 2024 baseline for 6000 and X lanes. Compare it with the 2025 list and with the 2022-2023 and 2023-2024 lists to build a multi-year Calgary $/Gb series."
+    },
+    {
+      "name": "2025 CHGI Internal Price List",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "why": "Current list. Check whether S4 or SP 6000 lanes were dropped or repriced."
+    },
+    {
+      "name": "CHGI Internal Library & Seq Price List 2023-2024 v2_0",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Library%20%26%20Seq%20Price%20List%202023-2024%20v2_0.pdf",
+      "why": "Older 6000-era prices to trend against."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [2025 CHGI Internal Price List](https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf)
+- [CHGI Internal Price List June 2024](https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Price%20List%20June%202024.pdf)
+- [CHGI Internal UofC Price List with sales 2024-2025](https://live-cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20UofC%20Price%20List%20with%20sales%202024-2025.pdf)

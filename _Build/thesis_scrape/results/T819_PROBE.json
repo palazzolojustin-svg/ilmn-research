@@ -1,0 +1,49 @@
+```json
+{
+  "status": "dry",
+  "notes": "Opened both govsci.com 6000 pages and got a price for each. Neither page shows a date beyond the 'Copyright 2026' footer. Searches found no NovaSeq X support-plan SKU on govsci.com. Only the Illumina GRAIL Open Offer Section 4(g) disclosure of 22 Apr 2024 (search snippet) shows an X service price: NovaSeq X Plus Parts Only Support Plan, cat 20086750, US list $82,000 as of 15 Feb 2024. That PDF and its siblings returned 404 or unreadable binary on fetch. The 6000 and X plans are not like-for-like: the X plan is parts-only, the 6000 plans are full parts/labor/travel. There is no time series and no flag of end-of-support or withdrawal. The Gold page is a 'Warranty Upgrade' (year 1) while the Silver page is a standard annual plan, so the Gold price is not directly comparable to the Silver price. Nothing here supports or contradicts the tail-push hypothesis. The 6000 plans are still catalogued in 2026 with no end-of-life flag, which is weakly consistent with management's 'stays for years' view.",
+  "how_to_mine": "(1) Use the Wayback Machine to pull dated snapshots of govsci.com product-detail 20020137 and 20019988 (2023-2026) and compare prices. (2) Download the Illumina Open Offer Section 4(g) disclosures and Appendix 1 PDFs (2022, 2023, 2024; paths under /content/dam/illumina-marketing/documents/applications/cancer/) with curl, then run pdftotext. Compare the 6000 Gold/Silver plan list prices and the X Plus plans (20086750 and any Gold/Silver X SKUs) across 15 Feb 2023 and 15 Feb 2024. Look for 6000 plan price increases or plans dropped. (3) Search govsci.com for the NovaSeq X Plus Gold/Silver SKUs by catalogue number.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "NovaSeq 6000 service plans are still sold in the 2026 GSA distributor catalog with no end-of-support flag.",
+      "detail": "Government Scientific Source lists NovaSeq 6000 Silver Support Plan (20019988) at $175,653.32 per year. It lists the Gold Warranty Upgrade (20020137, year 1 upgrade) at $113,750. Both pages carry only a 2026 copyright footer, with no end-of-life or phase-out wording. This is weakly consistent with the 6000 tail staying in service. The price is not dated, so no change over time can be shown.",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20019988/EA/",
+      "date": "2026 (undated page, copyright 2026)",
+      "source_name": "Government Scientific Source (GSA distributor)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Service-plan prices for the 6000 were not in the known set, which covers reagent SKUs only."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A 2024 Illumina price schedule shows an X Plus parts-only plan at $82,000, a cheaper service tier than the 6000's full-coverage plans.",
+      "detail": "Search snippet only. Illumina's 22 Apr 2024 Open Offer Section 4(g) disclosure lists the NovaSeq X Plus Parts Only Support Plan (cat 20086750) at $82,000 US list as of 15 Feb 2024. The 6000 Silver plan sits at $175,653 on govsci in 2026, but it is a full parts/labor/travel plan, so this is not like-for-like. It shows only that an X can be run on a cheaper service tier, with no evidence of a push from the 6000.",
+      "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf",
+      "date": "2024-04-22 (prices as of 2024-02-15)",
+      "source_name": "Illumina Open Offer Addendum 4(g) disclosure (search snippet; fetch returned 404)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The X service-plan list price and cat number were not in the known set, but the comparison is not like-for-like."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Illumina Open Offer Section 4(g) disclosures and Appendix 1 PDFs (2022, 2023, 2024)",
+      "why": "They give dated list prices for systems, service plans and the discount schedule, so year-over-year changes in 6000 and X plans can be compared. Snippets also show 6000 and X Plus system list prices of $985K and $1.25M, unchanged between Feb 2023 and Feb 2024.",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2023_05_23-Open_Offer_Addendum_Section_4(g)_disclosure.pdf"
+    },
+    {
+      "source": "Wayback Machine snapshots of govsci.com 6000 plan pages",
+      "why": "They would give a dated price history for the 6000 plans.",
+      "url": "https://web.archive.org/web/2024*/https://www.govsci.com/product-detail/Illumina-----Inc/20019988/EA/"
+    }
+  ],
+  "apify_requests": []
+}
+```

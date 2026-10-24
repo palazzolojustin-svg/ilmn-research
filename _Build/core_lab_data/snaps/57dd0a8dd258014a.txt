@@ -1,0 +1,127 @@
+DNA Services Pricing - Carver Biotech
+Skip to content
+UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN
+Apply
+Visit
+Give
+Cores
+CMtO
+DNA Services
+Functional Genomics
+HPCBio
+Metabolomics
+Proteomics
+Leadership
+Staff
+News
+Acknowledgments
+Contact
+Contact Us
+Testing Services Customer Information Form For Non-University Of Illinois Client
+Cores
+CMtO
+DNA Services
+Functional Genomics
+HPCBio
+Contact
+X
+Home
+DNA Services Core
+DNA Services Pricing
+DNA Services Pricing
+DNA Pricing
+Pricing
+Prior to project initiation, a meeting is required with CBC staff to discuss each project. If mutually agreed that the CBC can support the project, we will deliver a quote outlining the approach, timeline, and cost for the agreed service(s). As this is cutting-edge science, we cannot guarantee success. In all cases the user will be billed for cost and labor for CBC effort per our fee structure. After acceptance of the quote, the user will fill out and return the sample submission form provided with the quote. All samples are assumed to be safe, and no greater than BSL1, unless otherwise agreed upon in advance. The user must diligently and transparently follow all University of Illinois sample acquisition, movement, and safety protocols.
+All pricing is updated, effective July 1st, 2024. Listed rates do not include the off-campus overhead (see bottom of page for overhead details).
+Illumina NovaSeq X Plus and 6000: Ultra high-throughput sequencing of mRNA, genomic DNA, ChIP-DNA, small RNAs, bisulfite-treated DNA, single-cell transcriptomics, etc. For descriptions of library construction requirements and sequencing platform metrics, please visit our Sample Submission Page.
+PacBio REVIO: accurate long reads for de novo genome assembly and sequencing of long amplicons or cDNA.
+Illumina Library Prep Services
+| Price |
+QC, PURIFICATION, EXTRACTION, COVARIS Hourly rate, cell test counts, other (per hour) | $134 |
+Quality Check (QC) – one library (Qubit, Fragment Analyzer & qPCR) | $104 |
+Quality Check (QC) – 2-8 libraries (Qubit, Fragment Analyzer & qPCR) | $245 |
+Sample QC: Qubit & Fragment Analyzer (Minimum charge is for 8 samples) | $14 |
+AATI Fragment Analyzer service (up to 96 samples or libraries) | $417 |
+AATI Fragment Analyzer service (up to 48 samples or libraries) | $279 |
+AATI Fragment Analyzer service (1-12 samples or libraries) | $107 |
+| |
+10X Single Nuclei ATAC Library, each | $2,890 |
+10X Single Nuclei ATAC Library (2-7 samples, each) | $2,490 |
+10X Single Nuclei ATAC Library (8 samples submitted at once, each) | $2,090 |
+| |
+10X Single Nuclei ATAC+RNA Combined Library, each | $4,490 |
+10X Single Nuclei ATAC+RNA Combined Library (2-7 samples, each) | $3,960 |
+10X Single Nuclei ATAC+RNA Combined Library (8 samples at once, each) | $3,560 |
+| |
+10X Visium Spatial library (cDNA & kit provided) | $129 |
+ILLUMINA NovaSeq X Plus (available now!)
+| Price |
+10B Flowcell= 1 Billion Read-Pairs Per Lane | |
+Nova X 10B paired-reads 300-cycle, per lane | $2,190 |
+Nova X 10B paired-reads 300-cycle, per lane (8 or more lanes) | $1,720 |
+10B Flowcell= 1 Billion Single-Reads Per Lane | |
+Nova X 10B single-reads 100-cycle, per lane | $1,690 |
+Nova X 10B single-reads 100-cycle, per lane (8 or more lanes) | $1,420 |
+25B Flowcell= 3.2 Billion Read-Pairs Per Lane | |
+Nova X 25B paired-reads 300-cycle, per lane | $3,290 |
+ILLUMINA NOVASEQ-STANDARD
+| Price |
+SP flowcell (per lane) (750+ million reads) | |
+NovaSeq SP-per lane 2x250nt Paired-Read | $3,440 |
+ILLUMINA MISEQ
+|
+Price |
+i100 titration of pools (26nt + index reads) |
+$395 |
+i100 5M 2x150nt (5 million read-pairs) |
+$596 |
+i100 5M 2x300nt (5 million read-pairs) |
+$687 |
+i100 25M 2x150nt (25 million read-pairs) |
+$1,330 |
+i100 25M 2x300nt (25 million read-pairs) |
+$1,650 |
+|
+|
+ISeq 2x150nt PE |
+$885 |
+Iseq- Titration of library pools (26nt+index reads) |
+$669 |
+MiSeq Titration of library pools (26nt+index reads) |
+$397 |
+MiSeq – 1x150nt SR v3 |
+$1,370 |
+MiSeq – 2x150nt PE NANO v2 |
+$612 |
+MiSeq – 2x150nt PE v2 |
+$1,560 |
+MiSeq – 2x250nt PE NANO v2 |
+$665 |
+MiSeq – 2x250nt PE MICRO v2 |
+$774 |
+MiSeq – 2x250nt PE v2 |
+$1,710 |
+MiSeq – 2x250nt PE v3 |
+$2,120 |
+MiSeq – 1x300nt SR v2 |
+Sequencing on Revio SMRTcell | $2,150 |
+PACBio 8M CCS demultiplexing fee | $200 |
+PACBIO DISCOUNTED SEQUENCING
+Sequencing on Revio SMRTcell, 4+ | $2,020 |
+OXFORD NANOPORE GRIDION
+| Price |
+Construction of Oxford-Nanopore 1D libraries, standard | $485 |
+Construction of Oxford-Nanopore 1D libraries, barcoded (2+) | $385 |
+Construction of Oxford-Nanopore Direct RNA libraries | $377 |
+Construction of Oxford-Nanopore Direct RNA libraries (2-6) | $304 |
+Oxford-Nanopore GridION flowcell, each | $1,180 |
+SANGER CORE SEQUENCING
+| Price |
+Sanger – High-Throughput Ready to Load (96-well Plate) – no clean up | $83 |
+Sanger – High-Throughput Ready to Load (96-well Plate) – with clean up | $216 |
+Sanger – High-Throughput Sequencing (96-well plate) | $460 |
+Sanger – Low-Throughput Sequencing (One Sample) | $6.10 |
+Sanger – Low-Throughput Ready to Load (One Sample, includes clean-up) | $3.10 |
+Fragment Analysis – High-Throughput (96-well Plate) | $105 |
+Fragment Analysis – Low-Throughput (One Sample) | $4.00 |
+Please visit the Sanger Sequencing and Fragment Analysis page for details regarding each service option. Please contact Core staff at 217-265-6814 or dna-seq@illinois.edu for any additional questions on Sanger Sequencing or Fragment Analysis.

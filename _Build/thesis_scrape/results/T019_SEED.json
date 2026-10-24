@@ -1,0 +1,135 @@
+```json
+{
+"sources": [
+{
+"name": "Leung et al. technologist-shortage survey (Genetics in Medicine Open, via CAP Today)",
+"url": "https://www.captodayonline.com/survey-probes-staff-shortage-in-genomics-labs/",
+"access": "Open web page. I fetched it with no login.",
+"labels": ["1C"],
+"status": "productive",
+"notes": "The survey went to more than 330 CLIA lab directors in July 2022. 70 labs answered the workforce questions. It was published in March 2023, so it is older than the Jan 2025 cutoff. It shows a staffing limit in molecular and cytogenetics labs. It reports no testing-volume effect. The sample is small and the data is stale.",
+"how_to_mine": "Look for a follow-up technologist survey, which the authors said was planned, or a 2025-26 update. Search Genetics in Medicine Open and the Journal of Molecular Diagnostics for 'technologist workforce' with 2025/2026. Check ASCP and ASCLS vacancy-rate surveys, which are plain extraction.",
+"difficulty": "easy",
+"items": [
+{
+"label": "1C",
+"direction": "supports",
+"claim": "Clinical genomics labs face a measured shortage of technologists, a non-sequencing-cost limit on volume.",
+"detail": "Survey of US CLIA molecular and cytogenetics lab directors (fielded Jul 2022, published Mar 2023, 70 labs answered). About 10% of molecular positions went unfilled, against 31% in cytogenetics and 44% in combined labs. Average time to fill was 16.5 weeks. Only 8 accredited molecular programs exist, so the pipeline is thin. The survey reports no direct effect on test volume, and it predates 2025.",
+"url": "https://www.captodayonline.com/survey-probes-staff-shortage-in-genomics-labs/",
+"date": "2023-03-27 (data Jul 2022)",
+"source_name": "CAP Today / Genetics in Medicine Open (Leung et al.)",
+"source_type": "other",
+"quote": "",
+"strength": "weak",
+"why_new": "The known list has the 'samples/library prep' constraint but no lab-staffing vacancy data."
+}
+]
+},
+{
+"name": "AMP/CAP NGS biomarker report consensus (Oct 2025)",
+"url": "https://www.amp.org/about/newsroom/press-releases/2025/association-for-molecular-pathology-develops-standardized-biomarker-report-template-for-providers",
+"access": "Open press release. I saw it only as a search-result snippet and did not open it.",
+"labels": ["1C"],
+"status": "productive",
+"notes": "The snippet says NGS use is limited by shortages of qualified lab professionals and by interpretation complexity. It is a consensus statement, not a survey, and has no numbers.",
+"how_to_mine": "Open the press release and the underlying paper (likely J Mol Diagn or Arch Pathol Lab Med). Look for any cited vacancy or turnaround data.",
+"difficulty": "easy",
+"items": [
+{
+"label": "1C",
+"direction": "supports",
+"claim": "AMP/CAP state that NGS use is limited by lab-professional shortages and interpretation complexity.",
+"detail": "The AMP press release of 8 Oct 2025 introduces a standardized NGS biomarker report template. It says solid-tumor NGS use is limited by 'widespread shortages of qualified clinical laboratory professionals' and by data-interpretation complexity. This is a qualitative society statement, not a survey. I saw it only as a search snippet.",
+"url": "https://www.amp.org/about/newsroom/press-releases/2025/association-for-molecular-pathology-develops-standardized-biomarker-report-template-for-providers",
+"date": "2025-10-08",
+"source_name": "Association for Molecular Pathology",
+"source_type": "other",
+"quote": "",
+"strength": "weak",
+"why_new": "It is a society-level 2025 statement of the non-cost constraint. The known list cites only library prep and interpretation costs."
+}
+]
+},
+{
+"name": "Physician NGS-barriers survey (PubMed 39606845) and Yale USCAP 2026 denial analysis",
+"url": "https://pubmed.ncbi.nlm.nih.gov/39606845/",
+"access": "PubMed is open. The Yale item is a blog summary at discoveriesinhealthpolicy.com (2026/03/korie-et-al-2026-what-drives-next-gen.html).",
+"labels": ["1C"],
+"status": "productive",
+"notes": "Reimbursement and prior authorization are the top barriers for ordering physicians. The survey data are from about 2020, though published in 2025. The Yale figure is one center and comes from an AI-written blog summary, so check the original abstract.",
+"how_to_mine": "Read the full Yale abstract (USCAP 2026, Lab Invest supplement). Search for payer denial or prior-authorization data for liquid biopsy and MRD in 2025-26.",
+"difficulty": "easy",
+"items": [
+{
+"label": "1C",
+"direction": "supports",
+"claim": "Prior authorization and reimbursement, not sequencing cost, are the top-cited barriers to NGS in oncology.",
+"detail": "A US physician survey (n about 200, published 2025) found reimbursement challenges were the top barrier at 87.5%. Prior authorization was the most common reimbursement challenge at 72%. A Yale Pathology USCAP 2026 review, known only from a blog summary, found 20% of 1,392 NGS tests were denied (2022-23). It attributed most denials to administrative coding errors. The data are old and from one center.",
+"url": "https://pubmed.ncbi.nlm.nih.gov/39606845/",
+"date": "2025",
+"source_name": "PubMed (US physician survey); Discoveries in Health Policy (Yale/USCAP 2026 summary)",
+"source_type": "other",
+"quote": "",
+"strength": "weak",
+"why_new": "The known list has a Tegus expert and CMS pricing, but no quantified prior-authorization or denial data."
+}
+]
+},
+{
+"name": "NSGC Professional Status Survey",
+"url": "https://www.nsgc.org/Research-and-Publications/Professional-Status-Survey",
+"access": "Open web page. The 2024 executive summary is public.",
+"labels": ["1C"],
+"status": "dry",
+"notes": "NSGC paused the survey for 2025. The 2026 survey is closed, with no results yet. I did not find a public shortage or wait-time figure in the results.",
+"how_to_mine": "Open the 2024 PSS executive summary and read the Service Delivery and Access chapter for wait times. Re-check when 2026 results are released.",
+"difficulty": "easy",
+"items": []
+},
+{
+"name": "Data storage, interpretation backlog and vendor white papers",
+"url": "https://pediatricsnationwide.org/2025/04/07/genomic-analysis-overcoming-a-formidable-challenge/",
+"access": "Open web.",
+"labels": ["1C"],
+"status": "dry",
+"notes": "Results were mostly old reviews or vendor marketing. I found no 2026 survey or benchmark of a bioinformatics or storage constraint.",
+"how_to_mine": "Not worth a deeper pass. The one 2025 item is a single-institute narrative about rapid-genome turnaround.",
+"difficulty": "easy",
+"items": []
+},
+{
+"name": "Customer earnings-call capacity and turnaround remarks (Guardant Q1'26, Caris Q2'26, Natera 8-Ks)",
+"url": "https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex991.htm",
+"access": "SEC 8-K exhibits are open. The call summaries are low-quality aggregators.",
+"labels": ["1C"],
+"status": "dry",
+"notes": "Summaries say Guardant is scaling lab capacity and turnaround, and Caris plans to invest in inventory and capacity. Neither names a binding non-sequencing constraint. The aggregator pages are unreliable.",
+"how_to_mine": "Pull the full official transcripts for Guardant (Q1/Q2'26), Caris and Natera. Grep for 'turnaround', 'accessioning', 'capacity', 'automation' and 'staffing'.",
+"difficulty": "easy",
+"items": []
+}
+],
+"new_candidates": [
+{
+"name": "ASCP / ASCLS laboratory vacancy-rate surveys",
+"url": "https://www.ascp.org/content/news-archive/ascp-wage-and-vacancy-survey",
+"access": "Likely open summary pages. I did not test them.",
+"labels": ["1C"],
+"rationale": "These could give 2025 vacancy and wage data for molecular and cytogenetics technologists, updating the stale 2022 survey."
+},
+{
+"name": "Yale USCAP 2026 abstract on NGS denials (Laboratory Investigation supplement)",
+"url": "https://www.discoveriesinhealthpolicy.com/2026/03/korie-et-al-2026-what-drives-next-gen.html",
+"access": "Open blog. The original abstract is in the Lab Invest supplement.",
+"labels": ["1C"],
+"rationale": "It gives denial rates by tumor type. Verify the figures against the original abstract."
+}
+],
+"apify_requests": []
+}
+```
+
+This seed was mostly dry. I found no 2025-26 survey that quantifies a staffing, bioinformatics, storage or turnaround limit on NGS volume. The CAP, AMP and NSGC searches returned nothing usable. NSGC paused its 2025 survey. The three items above are weak and qualitative.
+
+I made 7 tool calls: 6 searches and 2 fetches. One fetch was blocked with a 403 (the medRxiv variant-scientist preprint).

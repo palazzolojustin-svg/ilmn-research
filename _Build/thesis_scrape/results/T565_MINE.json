@@ -1,0 +1,103 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Registered interventional trials mentioning ctDNA have started at a rising rate every year since 2021, with 2026 year-to-date already above full-year 2025.",
+      "detail": "Interventional trials with start dates in each calendar year and the term 'ctDNA': 2021 = 116, 2022 = 140, 2023 = 153, 2024 = 167, 2025 = 188. 2026 through 12 Oct = 195. That is +62% from 2021 to 2025, a compound rate of about 13% a year. The count is of trials, not patients or Gb. It points to MRD/ctDNA clinical-use momentum continuing, which cuts against the idea that MRD cannot add volume. Counts came through WebFetch's summarizer, not raw JSON that I opened.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ctDNA&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[StartDate]RANGE[2025-01-01,2025-12-31]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known notes cite MRD guideline and coverage events but give no registry time series of trial starts."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "On a like-for-like window, ctDNA trial starts in 2026 are running about 29% above 2025.",
+      "detail": "Start dates from 1 Jan to 12 Oct: 2026 = 195, 2025 = 151, so +29% (195/151 − 1). Late registration affects 2026 more than 2025, so the true gap is probably larger. The growth rate is faster than the 2021–25 trend of about 13% a year. It suggests MRD research activity is accelerating, a watch-out for the 'MRD too small' argument. It is a leading indicator of clinical-use evidence, not of Gb.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ctDNA&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[StartDate]RANGE[2026-01-01,2026-10-12]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is a new quantified YTD-versus-YTD registry comparison."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Industry-sponsored ctDNA trial starts fell from 2021 to 2025 but jumped in 2026 year-to-date.",
+      "detail": "Industry-led interventional ctDNA starts: 2021 = 30, 2023 = 22, 2025 = 21. For 1 Jan to 12 Oct, 2025 = 17 and 2026 = 27 (+59%). Pharma and diagnostics sponsors are the ones who fund large sequencing-linked MRD programs. The 2026 rebound is a possible sign of MRD-guided drug trials restarting. The 2021–25 dip fits a plateau, so the signal is mixed.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ctDNA&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[LeadSponsorClass]INDUSTRY%20AND%20AREA[StartDate]RANGE[2026-01-01,2026-10-12]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No sponsor-class split of MRD trials is in the known notes."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Phase 3 ctDNA trial starts, the late-stage trials that change practice, rose from 13 in 2021 to 21 in 2025.",
+      "detail": "Phase 3 interventional ctDNA starts: 2021 = 13, 2025 = 21 (+62%). 2026 through 12 Oct = 17, so 2026 is on pace to pass 2025. Phase 3 trials matter more than early-phase ones because their results can set guidelines and reimbursement. Small counts mean this is directional only.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ctDNA&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[Phase]PHASE3%20AND%20AREA[StartDate]RANGE[2025-01-01,2025-12-31]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known notes cover individual trials (DYNAMIC-III, ALTAIR) but not aggregate Phase 3 counts."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Interventional trials with genome sequencing as a term have fallen since 2022, adding numbers to the known WGS-trial decline.",
+      "detail": "Starts with the phrase 'genome sequencing': 2022 = 45, 2023 = 36, 2024 = 32, 2025 = 33. For 1 Jan to 12 Oct, 2026 = 24 versus 2025 = 26 (−8%). From 2022 to 2025 that is −27%. The pattern fits the thesis that WGS is not a growing source of new clinical-use momentum. The phrase is broad (it includes non-WGS uses) and the counts are small.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22genome%20sequencing%22&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[StartDate]RANGE[2022-01-01,2022-12-31]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F663 states a decline without numbers. This gives a year-by-year series with an equal-window 2026 check."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera appears in 18 interventional trial records started from Jan 2025 to Oct 2026.",
+      "detail": "A term search for 'Natera' among interventional studies starting 2025-01-01 to 2026-10-12 returns 18. This shows Natera is still funding or supplying MRD evidence generation, which supports a durable Signatera volume pipeline. The term search matches any field, so it mixes sponsor and supplier roles. I did not split by sponsor or MRD relevance.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=Natera&filter.advanced=AREA[StudyType]INTERVENTIONAL%20AND%20AREA[StartDate]RANGE[2025-01-01,2026-10-12]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov API v2",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new registry count of Natera-linked trials."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "All counts came through WebFetch's summarizer, which returned bare totalCount values, so I did not verify them against raw JSON. Not done: enrollment-weighted counts (needs a script over pageSize=1000), newborn/rare-disease/rapid-genome WGS splits, query.cond/query.intr variants, the 'MRD-guided' and 'tumor-informed' phrase variants, and the Natera/Guardant sponsor-only split. A bare 'ctDNA' term catches many trials that use ctDNA only as an endpoint. The 2026 numbers are a partial year with a registration lag. Overall, MRD trial starts cut against thesis 1C, while the WGS series mildly supports it. Both are weak proxies for sequencing Gb.",
+  "leads": [
+    {
+      "name": "ClinicalTrials.gov API v2 with fields=EnrollmentInfo",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ctDNA&fields=NCTId,EnrollmentInfo,StartDate,LeadSponsorName&pageSize=1000",
+      "access": "Free JSON; needs a script or curl to sum enrollment by start year",
+      "labels": ["1C"],
+      "rationale": "Patient-weighted MRD enrollment by year, and sponsor tables for Natera, Guardant, Personalis and Tempus, would test whether MRD scale is really growing."
+    },
+    {
+      "name": "ClinicalTrials.gov newborn/rare-disease WGS splits",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22genome%20sequencing%22%20AND%20(newborn%20OR%20%22rare%20disease%22%20OR%20%22critically%20ill%22)&countTotal=true&pageSize=1",
+      "access": "Free JSON",
+      "labels": ["1C"],
+      "rationale": "Isolates the clinical WGS segments management cites as growth drivers."
+    }
+  ],
+  "apify_requests": []
+}
+```

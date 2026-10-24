@@ -1,0 +1,14 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Found the real FY2024-25 report URL, but WebFetch refused it because the PDF is over 10 MB (maxContentLength exceeded), and I have no shell or download tool here, so I could not read the text. No financial figures were obtained, so no revenue-per-volume comparison is possible. I found no FY2023-24 report URL. Two other fetches failed: agrf.org.au pages other than /store did not resolve from WebFetch (DNS error), and the CivicGraph page returned 403. So the source is reachable but needs a local download. It is not a login or paywall block. CivicGraph's free snippet shows AGRF 2023 revenue of $25.7M. That figure is unverified and it is a single data point.",
+  "how_to_mine": "1) Download the FY24-25 PDF with curl or Invoke-WebRequest into a new empty directory: https://static1.squarespace.com/static/5c6a2bfa11f7845bc7a99405/t/69c07c684ef93c2da01eaf62/1774222440143/AGRFReport_24-25_Digital.pdf (reached via the 302 from https://www.agrf.org.au/s/AGRFReport_24-25_Digital-mnbl.pdf, linked on https://www.agrf.org.au/store). 2) Read it with the Read tool using the pages parameter, 20 pages at a time, or extract text with `python -I` and pypdf. 3) Pull the financial statements (revenue from services, grants, NCRIS), samples or projects processed, platform mix (NovaSeq X, AVITI, MGI, PromethION, Revio), and the chair/CEO text on competition, pricing and funding. Reports usually include prior-year comparatives, so the FY23-24 figures should be in the same PDF. 4) For a separate FY23-24 report, try the blog pattern https://www.agrf.org.au/agrf-blog/annualreport23 (FY22-23) and the same /s/ link style (for example AGRFReport_23-24_Digital), or ask CustomerCare@agrf.org.au. 5) Check ACNC (acnc.gov.au) for AGRF Ltd's ABN 63 097 086 292, whose financial reports are public and give FY24 and FY25 revenue without a login. 6) Compute revenue per sample and revenue per Gb for each year, and the change between them.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {"name": "ACNC Charity Register: AGRF Ltd (ABN 63 097 086 292) annual information statement and financial reports", "url": "https://www.acnc.gov.au/charity/charities", "why": "Public, no login. It would give audited revenue (services vs NCRIS grants) for FY23-24 and FY24-25 if the FY24-25 PDF cannot be read. I did not open the page, so the URL is the register search page and not the AGRF record."},
+    {"name": "AGRF store page link to the FY24-25 PDF (squarespace static)", "url": "https://static1.squarespace.com/static/5c6a2bfa11f7845bc7a99405/t/69c07c684ef93c2da01eaf62/1774222440143/AGRFReport_24-25_Digital.pdf", "why": "Confirmed PDF location (via 302 redirect). It needs a local download because it is over 10 MB."}
+  ],
+  "apify_requests": []
+}
+```

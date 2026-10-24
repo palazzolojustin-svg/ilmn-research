@@ -1,0 +1,104 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "GRAIL's Illumina royalty is now quantified at about $3.1M a quarter, so it adds a revenue stream that does not fall with sequencing $/Gb once it resumes.",
+      "detail": "GRAIL's Q2'26 10-Q excludes $3.1M (Q2'26) and $6.0M (H1'26) of royalty expense 'calculated in accordance with the Illumina Supply Agreement' from its non-GAAP gross loss. The royalty is suspended until recognition starts on 24 Dec 2026. That is about $12M a year at the current run-rate, and about $6.0M / 2 = $3.0M a quarter on average in H1. It is tiny against about $4.6B of revenue, but it is a royalty on GRAIL's revenue, so it is not a per-Gb price. The known file had only the resume date and the 7% floor, not the dollar run-rate.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1699031/000162828026054307/gral-20260630.htm",
+      "date": "2026-08-06",
+      "source_name": "GRAIL 10-Q Q2'26 (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "royalties owing under the terms of the Illumina Supply Agreement on December 24, 2026",
+      "strength": "weak",
+      "why_new": "Adds the dollar run-rate ($3.1M a quarter, $6.0M H1'26) to the known 24 Dec 2026 resume date."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Natera's 2016 Fourth Amendment, re-filed as Exhibit 10.4 to the Q2'26 10-Q, shows Illumina earns a per-test fee from Natera in addition to consumable revenue.",
+      "detail": "Section 3(b) sets an 'NIPT Test Fee' per NIPT test performed in whole or in part in a quarter. For structural-anomaly tests the fee is the greater of two redacted amounts. The Second Amendment counts NIPT Test Fees inside the trailing-12-month 'Consumable Spend' that sets the volume-discount tier. The fee amounts and tiers are redacted, and the amendment predates 2016 (the signature dates are blank in the filed copy). Whether this fee survives in the current agreement is unverified. If it does, part of Illumina's take from the largest NIPT customer is per test and not per Gb.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1604821/000162828026054525/ntra-20260630xex104.htm",
+      "date": "2026-08-07",
+      "source_name": "Natera 10-Q Q2'26, Exhibit 10.4 (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file covers the Eighth, Tenth and Eleventh Amendments. This is the per-test fee mechanism from the Fourth Amendment, newly re-filed."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "GeneDx's FY25 10-K says it has not validated an alternative sequencing platform, which limits its leverage to extract extra discounts.",
+      "detail": "GeneDx writes that it has 'not, to date, validated a viable alternative sequencing platform' for commercial use. It also says its 'significant supply contracts' are short-term and 'may face material price increases upon renewal'. This is a large clinical exome and genome customer that is not threatening to move to Ultima, Element or Roche, and it expects renewal price rises. That cuts against the thesis of accelerating extra discounts for large accounts, at least for GeneDx.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818331/000181833126000015/wgs-20251231.htm",
+      "date": "2026-02-23",
+      "source_name": "GeneDx FY25 10-K (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "not, to date, validated a viable alternative sequencing platform",
+      "strength": "medium",
+      "why_new": "The known file lists no GeneDx statement on alternative-platform validation or renewal price increases."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Guardant's FY25 10-K says switching sequencers is 'time-consuming and expensive' and names Ultima only as a general market participant.",
+      "detail": "Guardant names Illumina as sole supplier of sequencers and sole provider of maintenance and repair. It says switching may require revalidating tests and that equipment 'can take several months or more to procure, setup and validate'. Ultima appears only in the competitor list, not as an alternative Guardant is using. The supply agreement runs to Jan 2033 on 90 days' notice from Guardant. This tempers the idea that large accounts can quickly shift volume to rivals.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000013/gh-20251231.htm",
+      "date": "2026-02-19",
+      "source_name": "Guardant Health FY25 10-K (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "time-consuming and expensive",
+      "strength": "weak",
+      "why_new": "Updates the known 2020 Guardant exhibit with FY25 10-K wording on switching cost, procurement lead time and Ultima."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Tempus's average oncology NGS reimbursement per test is rising, which gives large labs room to absorb costs and keep sequencing volume growing.",
+      "detail": "Tempus's FY25 10-K gives average oncology NGS reimbursement of about $1,450 (2023), $1,510 (2024) and $1,600 (2025). That is +4.1% in 2024 and +6.0% in 2025. This is revenue per test, not sequencing cost. It shows the lab's economics are not tightening while its sequencing cost per Gb falls, so volume is not limited by cost.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526066961/tem-20251231.htm",
+      "date": "2026-02-24",
+      "source_name": "Tempus AI FY25 10-K (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has Natera's ASP and the Medicare Signatera cut but no Tempus per-test reimbursement series."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I opened every exhibit, filing and probe hit that came back. The EDGAR full-text index returned few hits for competitive phrases: 'NovaSeq X', 'Ultima', 'AXELIOS', 'Element Biosciences' and 'cost per test' in 2026 10-Qs returned only the Illumina 10-Qs or nothing, and the 6000 decommission search returned nothing. The 'Illumina supply agreement' 10-Q search returned the Natera, GRAIL, 10x and Alamar filings. Natera's Q2'26 Exhibits 10.1–10.4 are re-filed 2013–2016 documents (the supply agreement and its First to Fourth Amendments) with prices and tiers redacted, and they contain no tariff or MFN clauses. Both Natera and GRAIL 10-Qs are already used. Not mined: Caris FY25 10-K beyond offset 200000, Quest, Fulgent beyond offset 100000, and Alamar Biosciences (a new proteomics IPO, possibly a Roche or Illumina competitor). The Caris Nov 2022 supply agreement text adds only that it carries 'volume discounts and other promotions', has no minimum purchases, and that Illumina cannot terminate it before Aug 2033.",
+  "leads": [
+    {
+      "name": "Alamar Biosciences 10-Qs (CIK 2104204)",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Illumina%22%20%22supply%20agreement%22&dateRange=custom&startdt=2026-03-01&enddt=2026-10-12&forms=10-Q",
+      "access": "open",
+      "labels": ["2B"],
+      "rationale": "The 10-Q search hit on Illumina and a supply agreement. Alamar sells a proteomics platform that runs on NGS readout and is a Roche collaborator, so the filing may show sequencing-cost assumptions."
+    },
+    {
+      "name": "Caris FY25 10-K, MD&A cost of revenue section (offset 200000 onward)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2019410/000201941026000016/cai-20251231.htm",
+      "access": "open",
+      "labels": ["1B", "1C"],
+      "rationale": "Offsets 200000+ were not read. They may hold cost-of-revenue drivers, sequencer counts and the Illumina cost per case."
+    },
+    {
+      "name": "Illumina Q2'26 10-Q (ilmn-20260628.htm)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080326000160/ilmn-20260628.htm",
+      "access": "open",
+      "labels": ["1A", "1B"],
+      "rationale": "Full-text search for 'NovaSeq X' hits it. A diff of its 'NovaSeq X' sentences against the Q1'26 10-Q could show wording changes on price and mix."
+    },
+    {
+      "name": "Standard BioTools / Illumina 8-K EX-2.1 (Jun 2026 and Jun 2025)",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Illumina%22%20%22most%20favored%22&dateRange=custom&startdt=2025-01-01&enddt=2026-10-12&forms=10-K,10-Q,8-K",
+      "access": "open",
+      "labels": ["1B"],
+      "rationale": "The 'most favored' search matched merger exhibits. These are probably not pricing-relevant, but they are the only Illumina-linked 'most favored' hits."
+    }
+  ],
+  "apify_requests": []
+}
+```

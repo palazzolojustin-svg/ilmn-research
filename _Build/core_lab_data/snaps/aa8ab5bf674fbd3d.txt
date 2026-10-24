@@ -1,0 +1,46 @@
+CQLS Service Fees | Center for Quantitative Life Sciences | Oregon State University
+Skip to main content
+Center for Quantitative Life Sciences
+Search
+Search
+Open Search Page
+Home
+Contact Us
+People
+Mailing Lists
+Citations and Grants
+Service Fees
+Core Facilities
+Genomics Core
+Illumina NGS Sequencing
+Genotyping by Sequencing
+Pacific Biosciences Sequencing
+DNA/RNA Extraction Service
+DNA Size Selection
+Agilent Bioanalyzer 2100
+Agilent TapeStation 4200
+Sanger Sequencing
+3730 Genotyping
+Microscopy Core
+Shared Instrumentation Core
+Center for Quantitative Life Sciences
+CQLS Service Fees
+CQLS Service Fees
+HPC, Research Consulting Fees effective July 1, 2025 New fees will show up on this page when available. Please contact us if you need new fees early for planning or proposals or with any questions.
+Listed Genomics, Shared Instrumentation and Microscopy fees effective November 1, 2026.
+New fees will show up in RELMS at the time of the change.
+When filtering categories, multiple categories can be selected (or deselected) using the control/command key. For new searches, the reset button must be pressed. Underlined categories can be used to sort.
+Service
+BioinformaticsExtractionGenotypingHPCIllumina SequencingLaboratoryMicroscopyMultiuserPacBioQC Sizing AnalysisSanger Sequencing
+Service Type
+3730 GenotypingAccessAnimalBioanalyzerCustomCycle Sequencing Rxn IncludedData StorageEconomy (no cycle sequencing)HMWHourlyItemKeyence ExternalLibrary PrepMiSeq i100 SequencingMultiuserNextSeq SequencingPlant/FungiProcessingQuantificationSample TransformationSequencingSoilTapeStationTraining and AssistedVisualizationWeb Server
+Items per page
+51020406080100
+Service |
+Service Type |
+Title |
+Fee Description |
+Internal Fee |
+External Non-Profit Fee |
+External For-Profit Fee |
+Per Item |

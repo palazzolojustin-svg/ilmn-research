@@ -1,0 +1,43 @@
+```json
+{
+  "status": "dry",
+  "notes": "Adaptive's Q2'26 results are public, but almost everything usable is already on the exclusion list (MRD +43%, sequencing gross margin 72% vs 64% helped by the NovaSeq X transition). I opened the Q2'26 10-Q on EDGAR, but WebFetch returned a truncated document with no MD&A. It showed cost of revenue only ($20.2M Q2'26 vs $18.0M Q2'25; $38.9M vs $35.0M for six months). No NovaSeq 6000, Illumina, supply agreement, re-validation or FDA supplement text was seen. A third-party call summary (vectorshift) says Illumina was not mentioned and cost per test is not disclosed. I did not open the Q1'26 10-Q or the call transcript itself, and the AOL transcript link returned 404. The tests-delivered series is only partly recovered: Q2'26 36,111 (+43% y/y, +11% q/q), Q1'26 about 32,500 (derived), Q2'25 about 25,250 (derived). The only new points are the sequential rate and the unusually weak cost-per-test disclosure. These show volume is not decelerating on the sequencing side, which cuts slightly against 1C.",
+  "how_to_mine": "Fetch the 10-Q pages with a tool that handles large HTML, or use the EDGAR full-text search for NovaSeq in CIK 1478320. Pull the MD&A 'Cost of revenue' and 'Key operating metrics' sections from the Q1'25, Q2'25, Q3'25, Q1'26 and Q2'26 10-Qs, and the FY25 10-K risk factors on sole-source sequencing suppliers. Also pull the quarterly press-release tables (8-K Ex. 99.1) for clonoSEQ tests delivered. Search the 10-K for 'NovaSeq 6000', 'clearance' and 'validation' to find whether the FDA-cleared clonoSEQ assay is tied to a specific sequencer (the 510(k)/De Novo summary may name it). Consider a short FDA database check for the clonoSEQ clearance and any sequencer-change supplement.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "clonoSEQ volume was still accelerating sequentially in Q2'26 (+11% q/q, +43% y/y), so heme MRD shows no volume slowdown.",
+      "detail": "Tests delivered were 36,111 in Q2'26, about 3,500 above Q1'26 (derived ~32.5K). The year-ago base is about 25.3K (derived from +43%). The y/y rate was already known; the sequential rate and absolute test counts are not on the list. Heme MRD is a growing but small Gb contributor (tests carry low Gb per draw), so this is only weak evidence against 1C.",
+      "url": "https://vectorshift.ai/research/companies/adaptive-biotechnologies/earnings/2026-q2",
+      "date": "2026-07-29",
+      "source_name": "Adaptive Q2'26 call (third-party summary) / press release",
+      "source_type": "earnings_call",
+      "quote": "representing 11% sequential growth",
+      "strength": "weak",
+      "why_new": "Adds sequential rate and absolute tests-delivered counts; the y/y +43% was already known."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Adaptive gives no Illumina cost-per-test disclosure, and its margin gain is credited to its own NovaSeq X move, which reduced its Illumina reagent cost per test.",
+      "detail": "The CFO cited 'lower assay costs following our NovaSeq X transition' for the sequencing gross margin of 72% vs 64% a year ago. US ASP rose 7% to $1,382 while the sequencing cost per test fell. This is a customer capturing the X price cut as margin, not reinvesting it in depth. That contrasts with Natera and Caris, who reinvest in depth, though it is one datapoint. Cost per test is not disclosed, so the Illumina revenue loss cannot be quantified.",
+      "url": "https://vectorshift.ai/research/companies/adaptive-biotechnologies/earnings/2026-q2",
+      "date": "2026-07-29",
+      "source_name": "Adaptive Q2'26 call (third-party summary)",
+      "source_type": "earnings_call",
+      "quote": "lower assay costs following our NovaSeq X transition",
+      "strength": "weak",
+      "why_new": "Margin figures were known; this adds the CFO's attribution of the gain to lower assay cost (Illumina price) and the non-disclosure of cost per test."
+    }
+  ],
+  "new_candidates": [
+    "clonoSEQ FDA clearance summary: which sequencer is named, and any sequencer-change supplement (tests the 1A regulated-tail claim)",
+    "Adaptive 10-K FY25 risk factors and supply section on sole-source sequencing reagents (Illumina terms)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [Adaptive Q2'26 call summary (vectorshift)](https://vectorshift.ai/research/companies/adaptive-biotechnologies/earnings/2026-q2), [Adaptive Q2'26 10-Q](https://www.sec.gov/Archives/edgar/data/0001478320/000119312526332940/adpt-20260630.htm), [BioSpace press release](https://www.biospace.com/press-releases/adaptive-biotechnologies-reports-second-quarter-2026-financial-results)

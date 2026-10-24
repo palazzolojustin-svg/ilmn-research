@@ -1,0 +1,59 @@
+{
+ "core_name_on_page": "MU Genomics Technology Core",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_25B",
+   "flow_cell_raw": "25B",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 2529,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 975,
+   "stated_output_unit": "Gb",
+   "line_quote": "NovaSeq X 25B (300 cycle/lane) | $2,529"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "10B",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 1188,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 375,
+   "stated_output_unit": "Gb",
+   "line_quote": "NovaSeq X 10B (300 cycle/lane) | $1,188"
+  },
+  {
+   "platform_fc": "NSX_1.5B",
+   "flow_cell_raw": "1.5B",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x300",
+   "total_cycles": 600,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 5851,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "NovaSeq X 1.5B (600 cycle/lane) | $5,851"
+  }
+ ],
+ "_model": "sonnet-verified",
+ "_reason": "implausible $/Gb 32.69 for NSX_1.5B (5851.0 USD per lane x1.0)"
+}

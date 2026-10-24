@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not reach the Note 10 supplier table in Natera's FY25 10-K or the Q2'26 10-Q. WebFetch truncates the 387K-character 10-K text before Note 10, the XBRL instance is 2.7M characters, and the xlsx is compressed binary. app.edgar.tools returned 403. A search snippet (not an opened filing) summarizing Natera's FY24 10-K XBRL gives 'Laboratory instruments' commitments of about $27.7M at 31 Dec 2024, split $8.8M (2025), $9.2M (2026) and $9.7M (2027). If that is right, a laboratory-instruments commitment running through 2027 already existed a year before the FY25 10-K. The tested premise, that the $13.4M item to Dec 2027 is new in 2026, therefore looks wrong. I could not confirm the $13.4M figure. The MD&A contractual-obligations table in the FY25 10-K (opened) shows 'inventory purchase and other contractual obligations' of $256,942K at 31 Dec 2025 ($171,251K under 1 year, $78,315K in 1-3 years). This matches the already-known $256.9M, and no supplier is named. Illumina is described only as sole validated supplier under an agreement to Aug 2033. There is no Illumina-specific minimum purchase commitment in the text I read. Nothing here supports an implied lower $ commitment against rising volume.",
+  "how_to_mine": "Open https://www.sec.gov/Archives/edgar/data/1604821/000110465926020881/ntra-20251231x10k.htm with a tool that can page past about 345K characters, or read the R-page for 'Commitments and Contingencies (Details)' from the FY25 10-K index (0001104659-26-020881). Pull the 'Laboratory instruments supplier' row by year (2026, 2027, total). Do the same for the Q2'26 10-Q, then diff against FY24 (0001558370-25-001869) and FY23. Check the sequencer-purchase hypothesis by seeing whether the instruments row steps up between FY25 and Q2'26. Sensible years to compare are the FY22 row (~$16.9M, from a search snippet) and FY24 ($27.7M).",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Natera 10-Q Q2'26 Note on commitments (EDGAR filing index for Natera, CIK 1604821): compare the laboratory-instruments row with the FY25 10-K and FY24 10-K to test for a sequencer buy (Austin)",
+    "Natera Financial_Report.xlsx / R-pages for FY22-FY25 'Commitments and Contingencies (Details)': time series of the laboratory-instruments commitment ($3.49M FY20, $16.9M FY22, $27.7M FY24 per snippets)"
+  ],
+  "apify_requests": []
+}
+```

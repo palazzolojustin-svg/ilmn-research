@@ -1,0 +1,77 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The Georgia core's own X Plus price ladder puts the 10B lane about 67% above the 25B per Gb, so within-X price steps are steep and mid-throughput buyers carry the premium.",
+      "detail": "The core's 12 Mar 2025 post lists 10B at $2,000 per lane (1.25B reads) and 25B at $3,000 per lane (3.125B reads). At PE150 (300 bases per read pair), that is about 375 Gb vs about 937 Gb. The price is about $5.33/Gb on the 10B vs $3.20/Gb on the 25B, a 67% premium. The 25B carries a 40% lower price per read: $0.80 vs $0.96 per million reads, or 17% lower when calculated per read. This is my arithmetic on nominal read counts, not measured yield. This extends the known 10B-to-25B gap at other cores to a Georgia core.",
+      "url": "https://dna.uga.edu/spring-forward-with-lower-prices-at-the-georgia-genomics-and-bioinformatics-core/",
+      "date": "2025-03-12 (modified 2026-02-20)",
+      "source_name": "UGA Georgia Genomics and Bioinformatics Core (WordPress REST API)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list gives only the lane prices. The per-Gb conversion and the 10B premium at this core are new."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The Georgia core has discontinued single-cell, Visium spatial and PacBio services, and dropped them in a single 27 Jan 2026 edit. It has narrowed its menu to short-read bulk work.",
+      "detail": "The REST API shows three pages relabelled 'Discontinued': Single Cell Genomics, Visium Spatial Genomics, and PacBio Single Molecule Sequencing. All three were modified on 2026-01-27. Single-cell library prep was priced at $2,758 for 1 sample and $16,333 for 8 (UGA rate). The pages give no reason. Consistent with thin core margins and a retreat from the counting applications, which fits the research-funding story.",
+      "url": "https://dna.uga.edu/single-cell-genomics/",
+      "date": "2026-01-27",
+      "source_name": "UGA GGBC pages (WP REST API)",
+      "source_type": "archive",
+      "quote": "Single Cell Genomics: Discountinued",
+      "strength": "weak",
+      "why_new": "Prior notes only cover the Mar 2025 library-prep price cut at this core, not the Jan 2026 service closures."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The Georgia core does not run X Plus in-house. It ships pools off campus twice a week and says library prep is 'significantly higher' if sequenced elsewhere. This is the outsourcing channel that cuts out Illumina's core-level pricing.",
+      "detail": "The Mar 2025 post says pools for off-campus sequencing ship Tuesdays and Thursdays. The library-prep page (modified 18 Sep 2025) says prices are significantly higher if libraries are prepared at GGBC but sequenced elsewhere. The post names no vendor, so the provider's identity and price remain unknown.",
+      "url": "https://dna.uga.edu/illumina-library-preparation-costs/",
+      "date": "2025-09-18",
+      "source_name": "UGA GGBC",
+      "source_type": "price_list",
+      "quote": "Prices are significantly higher if libraries are prepared at GGBC but sequenced elsewhere",
+      "strength": "weak",
+      "why_new": "The known list notes the Georgia core's outsourcing and promised-discount complaints, not the twice-weekly off-campus pooling or the library-prep surcharge."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "The Georgia core's library-prep rates show no evidence of 'insane' research discounts. Prices are essentially unchanged from the 2023 table, and its core history shows annual list rises.",
+      "detail": "The Mar 2025 'lower prices' post gives DNA-Seq at $45 (1–12 libraries), $40 (13–47) and $20 per sample on a full plate ($1,920). The 2023 library-prep table shows the same numbers ($45/$40, $1,920 plate, Stranded RNA $80/$70, $4,800). The 2023 page was edited in Sep 2025, so it may have been overwritten, and the size of the cut cannot be determined. In 2018 and 2019 the core raised Illumina run prices about 5% a year when Illumina raised list prices, and passed the increases on.",
+      "url": "https://dna.uga.edu/new-prices-for-illumina-sequencing-runs-2/",
+      "date": "2019-03-29",
+      "source_name": "UGA GGBC news archive",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Wayback Machine was blocked, so the pre-cut prices could not be recovered. This sets a 2018–19 baseline of pass-through list increases of about 5% a year."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Wayback Machine fetches were blocked (web.archive.org refused), so pre-cut prices could not be recovered and the size of the Mar 2025 cuts cannot be calculated. The 2023 library-prep table appears to have been overwritten in Sep 2025. The news archive has no other 2025-26 posts. The REST API lists no page with sequencing-lane prices. The 'Non UGA labs', 'Quick Quote' and 'Ordering' pages were not read and may hold lane prices. The pages list was truncated at 100K chars of ~1M.",
+  "leads": [
+    {
+      "name": "UGA GGBC Quick Quote / Non-UGA labs / ordering pages",
+      "url": "https://dna.uga.edu/quick-quote-feature/",
+      "access": "Public HTML",
+      "labels": ["1B", "2A"],
+      "rationale": "May hold current lane prices and external-vs-internal rate gaps for a Georgia research core."
+    },
+    {
+      "name": "UGA GGBC WP REST pages feed, offset beyond 100K chars",
+      "url": "https://dna.uga.edu/wp-json/wp/v2/pages?per_page=100",
+      "access": "Public JSON, large",
+      "labels": ["1B", "1A"],
+      "rationale": "Only the first 10% of the output was read. Later pages may include sequencing price pages and modified dates."
+    }
+  ],
+  "apify_requests": []
+}
+```

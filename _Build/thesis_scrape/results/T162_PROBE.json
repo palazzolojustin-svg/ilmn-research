@@ -1,0 +1,27 @@
+```json
+{
+  "status": "dry",
+  "notes": "Opened 3 govsci.com SKU pages. Two prices match figures already in the exclusion list: NovaSeq 6000 S4 v1.5 300-cycle (20028312) is $21,682.58, and X 25B 300-cycle (20104706) is $24,155.04. The 6000 S4-300 price is the same as the $21,683 already known. The 25B-100 page (20125967) shows $13,650. That is not the Illumina-published $11,700 (Jan 2025), and it is the only new data point. The GSA-style price for the 100-cycle kit may be a different, older or distributor-marked-up price. Search snippets showed no price on the SP kit (20028400) page. I did not open 6000 S4 200-cycle or X 10B pages (no part numbers verified) because it was likely to repeat known data. Only 3 of 8 SKUs were checked. The list $/Gb ratio is already covered by the known list (S4-300 ~$7.23/Gb vs 25B-300 $2.30-3.02/Gb, i.e. 6000 ~2.4-3.1x the X at list). I have not compared the page against archived copies, so I cannot say when these prices were set.",
+  "how_to_mine": "Only worth a deeper pass if time-series is wanted: pull Wayback Machine snapshots of govsci.com/product-detail/Illumina-----Inc/20028312/EA, /20104706/EA and /20125967/EA, and compare dated prices. Other candidate SKUs to try: 6000 S4 200-cycle (20028313), X 10B 300-cycle, X 1.5B. A fall in S4 prices over time would add to the known Salk and EPFL list-cut evidence.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A government reseller lists the NovaSeq X 25B 100-cycle kit at $13,650, but Illumina's published Jan 2025 price is $11,700.",
+      "detail": "Government Scientific Source lists NovaSeq X 25B 100-cycle (20125967) at $13,650 and 25B 300-cycle (20104706) at $24,155.04. The 300-cycle price matches the known GSA price. The 100-cycle price is ~17% above the Illumina-published figure the analyst already has. This could be reseller markup or a stale price. If the Illumina figure is the true price, the X kit price paid by small and government buyers sits above the list, which shows how much of the gap to large accounts' prices is negotiated rather than list.",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20125967/EA",
+      "date": "2026-10-12 (page fetched)",
+      "source_name": "Government Scientific Source (govsci.com)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The $13,650 100-cycle GSA price differs from the known $11,700 Illumina list, and no earlier source in the exclusion list gives it."
+    }
+  ],
+  "new_candidates": [
+    "Wayback Machine snapshots of govsci.com Illumina SKU pages (20028312, 20104706, 20125967) to build a dated GSA price series for the 6000 and X kits"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "status": "productive",
+  "notes": "Only the University of Illinois Board of Trustees agendas were productive. The UT System, UC, SUNY and Big Ten regents sites did not turn up in two searches. Illinois posts open, indexed 'Purchase Recommendations' documents with sole-source Illumina reagent items. The dollar figures below come from search-result summaries only. I tried to open the May 2024 .docx, but WebFetch could not parse the binary file. The saved copy is at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\edd6af48-5737-4624-a1fb-6ce961036ee3\\tool-results\\webfetch-1791786364015-axsv3y.docx. Unzip it and read word/document.xml to confirm. The agendas show the recommendation, not the final vote. No Element, Ultima or Roche comparison appeared; sole-source language says Illumina is the only source. Only about 2 tool calls used.",
+  "how_to_mine": "Open trustees.uillinois.edu/trustees/agenda/<Month-DD-YYYY>/ and search each 2019-2026 'Purchases' or 'Purchase Recommendations' document for 'Illumina' and 'DNA Analyzer'. Unzip the .docx files and parse word/document.xml with python -I. Build the series of annual ceilings and discount percentages: 2018 $5M/yr with 5/10/12% discounts, 2023 renewal about $5M, May 2024 $25M over 5 years. Check the Mar 2023 NovaSeq X Plus item ($1.078M) and any 2025-26 items for a Carver mid-term amendment or a competitor purchase such as AVITI. Repeat the exercise on the same kind of document for other public systems: UT System (Board of Regents contract reports), UC Regents, SUNY, Purdue, Michigan, Wisconsin, Minnesota, Ohio State. Search 'sole source' plus 'Illumina' in each trustees domain.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A large public research core (UIUC Carver) set a 5-year Illumina reagent ceiling of $25M, about $5M a year, the same annual ceiling as its 2018-19 contract.",
+      "detail": "The May 2024 Illinois trustees agenda recommends Illumina DNA Analyzer reagents for 1 Jul 2024 to 30 Jun 2029, plus one 5-year renewal option, at an estimated $25M, with sole-source justification. The core owns six Illumina sequencers. The 2018-19 contract and the 2023-24 renewal were each estimated at about $5M a year. A flat nominal ceiling over six years while per-Gb prices fell and conversion to the X progressed is consistent with flat or shrinking research dollars. The ceiling is an authorization cap, not actual spend, so it is weak proof of demand.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/May-16-2024/19a-May-24-Purchase-Recommendations.docx",
+      "date": "2024-05-16",
+      "source_name": "University of Illinois Board of Trustees, May 2024 Purchase Recommendations",
+      "source_type": "procurement",
+      "quote": "Cost $25,000,000.00 (estimated)",
+      "strength": "weak",
+      "why_new": "No university board contract ceilings are in the known corpus; this gives a research-core spend ceiling flat since 2018."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Illinois's negotiated discount from Illumina was only 5%, 10% and 12% on most items in the 2018-19 contract, a baseline for judging later 'insane' discounts.",
+      "detail": "The Mar 2018 trustees agenda for the $5M/yr Illumina reagent contract says negotiation produced 5%, 10% and 12% discounts on the majority of items. A 2012 purchase had a 10% volume discount. This is a low historical research-core discount tier against which expert claims of 'half or even a quarter' pricing for large accounts can be measured. The 2024 entry's discount language has not been confirmed because the .docx was not read.",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/March-15-2018/025-mar-Purchases-Renewal-Report.pdf",
+      "date": "2018-03-15",
+      "source_name": "University of Illinois Board of Trustees, Mar 2018 Purchases Renewal Report",
+      "source_type": "procurement",
+      "quote": "5%, 10%, and 12% discount on the majority of items",
+      "strength": "weak",
+      "why_new": "The known corpus has no university board discount tiers; this is a dated baseline for research-core discount levels."
+    }
+  ],
+  "new_candidates": [
+    "University of Illinois trustees agendas (trustees.uillinois.edu) as a time series of Illumina contract ceilings and discount tiers, 2009-2026",
+    "Govly public awards pages (app.govly.com/public/awards) for Illumina public-university awards",
+    "Clemson and other South Carolina sole-source notices (scbo.sc.gov) for Illumina MiSeq i100 and consumables",
+    "Maine DAFS procurement justification forms for Illumina WGS supplies"
+  ],
+  "apify_requests": []
+}
+```

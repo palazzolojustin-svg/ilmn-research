@@ -1,0 +1,54 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The PDFs are public and need no login, but I could not extract their text. WebFetch returns the compressed PDF stream as unreadable binary. The Read tool's PDF mode needs pdftoppm, which is not installed. I had no Bash or Python tool in this session. Both PDFs were saved locally. The figures below come from a web-search summary of the three PDFs, not from text I read myself. I have not verified them against the PDF tables. The search summary also gave an undated UCLA pricing page with 25B lane prices of $2,164.94 (100 cycles), $3,202.38 (200 cycles) and $3,512.47 (300 cycles). It did not say which rate tier those are, and I did not open that page.",
+  "how_to_mine": "Run a script with python -I and pypdf, or pdftotext -layout, on the 8/1/2023, 3/12/2024 and 6/18/2024 PDFs. Add the 7/1/2022 PDF (https://www.uclahealth.org/sites/default/files/documents/UCLA%20TCGB%20rates%20for%20publication%207-1-22.pdf). Extract every NovaSeq 6000 S1/S2/S4 and NovaSeq X 1.5B/10B/25B row, by cycle count and by tier (internal, JCCC, external non-profit, external profit). Then fetch the current pricing page (https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing) and identify which tier the $3,512.47 25B-300 figure belongs to. Compute $/Gb with Illumina's per-flow-cell output spec, and check whether a lane is a single flow cell or half of one.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UCLA's NovaSeq 6000 S4-300 lane price in Aug 2023 can be set against its 2024 X Plus 25B-300 lane price. This is a one-core price series.",
+      "detail": "The search summary of the 1 Aug 2023 sheet says S4-300 was $4,817 internal, $5,057 JCCC and $5,313 external for-profit per lane. It says the 1 Mar 2024 sheet had X Plus 25B-300 at $3,168 internal, $3,538 JCCC and $3,933 external for-profit. That is a lane-to-lane cut of about 34% internal and 26% external for-profit. A 25B lane holds much more output than an S4 lane, so $/Gb fell far more. Unverified: this comes from a search summary, and I did not confirm that the lanes are comparable.",
+      "url": "https://www.uclahealth.org/sites/default/files/documents/9e/ucla-tcgb-rates-publication-8-1-23-final-version.pdf?f=df27dbc8",
+      "date": "2023-08-01 and 2024-03-01",
+      "source_name": "UCLA Technology Center for Genomics & Bioinformatics rate sheets (search-result summary)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives dated 2023 and 2024 internal and external lane prices at one core, with the S4 to 25B step. The known list has only the 1 Jul 2026 UCLA $3.51/lane."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UCLA's external for-profit 25B-300 lane price may have fallen from $3,933 (Mar 2024) to about $3,512 (2026), but the tier of the 2026 figure is unconfirmed.",
+      "detail": "The Mar 2024 and Jun 2024 sheets list external for-profit at $3,933 and internal at $3,168. The current page lists 25B-300 at $3,512.47, which matches F856 (the 1 Jul 2026 external figure). If the tiers match, that is about −10.7% over roughly 28 months, or about −4.6% a year. If the 2026 price is a lower tier, the cut is smaller or the series is not comparable. This is a modest decline, not the 'insane discounts' the thesis expects. It cuts both ways on thesis 2B.",
+      "url": "https://uclahealth.org/sites/default/files/documents/48/ucla-tcgb-rates-publication-revised-6-18-2024.pdf?f=d042f1b9",
+      "date": "2024-06-18 vs 2026-07-01",
+      "source_name": "UCLA TCGB rate sheets (search-result summary)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies a 2024-to-2026 same-lane change at one core. Prior notes had only the 2026 point."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "UCLA TCGB 7/1/2022 rate sheet",
+      "url": "https://www.uclahealth.org/sites/default/files/documents/UCLA%20TCGB%20rates%20for%20publication%207-1-22.pdf",
+      "why": "Gives a 2022 pre-X baseline. The search summary showed an S4-200 internal rate of $4,793.55 per lane."
+    },
+    {
+      "name": "UCSF CAT service rates",
+      "url": "https://cat.ucsf.edu/node/706",
+      "why": "Another core with an archived rate card that could give a second price series."
+    },
+    {
+      "name": "UCLA TCGB current pricing page",
+      "url": "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing",
+      "why": "Needed to identify the tier behind the $3,512.47 25B-300 figure and to see whether S4 lanes are still listed."
+    }
+  ],
+  "apify_requests": []
+}
+```

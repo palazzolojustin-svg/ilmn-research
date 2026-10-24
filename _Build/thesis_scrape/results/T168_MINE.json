@@ -1,0 +1,148 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "At UChicago's Genomics Facility, Element cut the AVITI 300-cycle flow-cell price by 20–31%, and it now matches the price of a NovaSeq X 10B lane, so the rival has moved onto Illumina's mid-output research price points.",
+      "detail": "The older UChicago 'fees' page lists AVITI-seq-300bp-fc at $1,836 internal/external and $2,897.33 industrial. The newer 'pricing-new' page lists $1,475 internal and $1,999 commercial: −19.7% internal ($1,475/$1,836−1) and −31.0% commercial ($1,999/$2,897−1). The new AVITI-300 price equals the 10B-200 lane exactly ($1,475) and sits 1.6% below the 10B-300 lane ($1,499). The AVITI-150 flow cell equals the 10B-100 lane ($1,175 each). Per Gb, AVITI-300 works out to $3.28–4.92 (1.0–1.5B reads × 300 cycles = 300–450 Gb, before and after the AVITI24 upgrade), against $3.33–4.16 for the 10B-300 lane (1.2–1.5B reads/lane, per the core). The two are now at per-Gb parity for mid-output research runs. Neither page is dated, but the newer page adds 1.5B and 25B-100 rows.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "undated (older page vs current page; X examples labelled 2024)",
+      "source_name": "University of Chicago Genomics Facility pricing pages (pricing-new vs fees)",
+      "source_type": "price_list",
+      "quote": "AVITI-seq-300bp-fc ... $1,475.00",
+      "strength": "medium",
+      "why_new": "The known file has UChicago's commercial premium and its qualitative AVITI positioning. The AVITI price cut and its exact match to 10B lanes are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "UChicago did not cut its NovaSeq X lane prices from 2024 to the current sheet, even after AVITI was cut to match, so Illumina-side lane pricing did not move at this core.",
+      "detail": "The NGS page gives '2024' example costs: 10B-300 lane ~$1,499, 10B-100 lane ~$1,175, 25B lane (3–3.2B reads) ~$2,461, full 25B flow cell ~$20,400. The current pricing-new sheet shows the same $1,499, $1,175 and $2,461 internal, so there was no X price change while the AVITI-300 fell ~20%. The 25B-300 lane is still cheapest at ~$2.56–2.73/Gb ($2,461 / 900–960 Gb). The core calls the X the 'lowest cost per base sequenced'.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/ngs",
+      "date": "2024 examples vs current undated sheet",
+      "source_name": "University of Chicago Genomics Facility",
+      "source_type": "price_list",
+      "quote": "NovaX, 25B flowcell, 3-3.2B reads (1 lane): ~$2,461",
+      "strength": "medium",
+      "why_new": "This dated 2024-vs-current X lane comparison for UChicago is not in the known file."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "UNMC, a research core still running only a NovaSeq 6000 on the Illumina side, charges about 4x the going 25B-lane rate per Gb for 6000 runs, and its own AVITI24 runs undercut the 6000 by 30–50%.",
+      "detail": "UNMC internal 6000 prices (v1.5): S4-200 $19,905, which is $9.95–12.44/Gb on 1.6–2.0 Tb spec. S2-300 is $14,785, or $11.83–14.79/Gb on 1.0–1.25 Tb. External rates are 1.5x higher (S4-200 $29,858). In-house AVITI24 2x150 High Output costs $2,601 internal, or $5.78–8.67/Gb on 300–450 Gb. Peer-core 25B-300 lanes run ~$2.5–3.0/Gb (e.g. Pitt $2,907/~975 Gb = $2.98, eff. 1 Jun 2025). Holdout research users are paying tail prices to Illumina. But the core's in-house alternative is Element/Ultima, not the X, so the conversion revenue may go to rivals.",
+      "url": "https://www.unmc.edu/research-resources/resources/cores/genomics-core/pricing.html",
+      "date": "undated (live Oct 2026)",
+      "source_name": "University of Nebraska Medical Center Genomics Core pricing",
+      "source_type": "price_list",
+      "quote": "S4 (200 cycles) v1.5 ... $19,905.00",
+      "strength": "medium",
+      "why_new": "UNMC was known as a 6000 holdout (F169/F201), but its 6000 and AVITI prices and the per-Gb gaps were not."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Across the cores checked, AVITI is still 1.2–2.6x more expensive per Gb than an Illumina 25B-300 lane. Element competes only against Illumina's 10B, 1.5B and benchtop tiers, not the high-throughput lane.",
+      "detail": "Same-core or same-system pairs: UChicago AVITI-300 $3.28–4.92/Gb vs 25B lane $2.56–2.73 (1.2–1.9x). Cornell AVITI 800M flow cell $1,598 internal, or $6.66/Gb assuming 2x150 (240 Gb), against outsourced 25B lanes at ~$2.55/Gb (Novogene promo) to ~$2.9 (UCSD UC rate $2,800/975 Gb): ~2.3–2.6x. UC Davis AVITI PE150 run $2,000 (probe notes; page returned 403 to me), or $4.44–6.67/Gb, against sister-campus UCSD 25B-300 at $2.87/Gb (1.5–2.3x) and UCSD 10B-300 at $1,700/375 Gb = $4.53/Gb (parity). MSU's 2024 Element deck shows 2x150 High at $2,089 for 300 Gb ($6.96/Gb). This means per-Gb price pressure on the 25B is not coming from Element at research cores.",
+      "url": "https://www.biotech.cornell.edu/core-facilities-brc/price-list/404",
+      "date": "undated sheets 2024–2026; UCSD 2025 rates",
+      "source_name": "Cornell BRC, UChicago, UC Davis (probe), UCSD IGM, MSU RTSF",
+      "source_type": "price_list",
+      "quote": "Re-sequencing (no biochem), AVITI flow cell (800M) $1598",
+      "strength": "medium",
+      "why_new": "This cross-core per-Gb comparison of AVITI vs 25B lanes at the same core or system, with Cornell and UC Davis AVITI rates, is new. The known file only flags conflicting AVITI $/Gb at Northwestern and UMN."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Cornell keeps no Illumina high-throughput sequencer in-house: it runs AVITI24 as an official Element service provider and sends NovaSeq work to an outside contractor.",
+      "detail": "Cornell's BRC spotlight (14 May 2024) says NovaSeq X/6000 runs are 'external contracted sequencing' at 'low rates', with ~3-week turnaround. In-house, the Epigenomics Facility sells AVITI lanes (400M) at $799/$999 and flow cells (800M) at $1,598/$1,998 internal/external, and is an Element service provider. Cornell's Illumina HT dollars therefore reach Illumina through a service provider's discounted lane pricing, and in-house growth goes to Element.",
+      "url": "https://biotech.cornell.edu/spotlight/new-services-brc-genomics-facility-lower-cost-novaseqx-novaseq6000-sequencing-runs-udi",
+      "date": "2024-05-14 (spotlight); AVITI sheet undated",
+      "source_name": "Cornell Institute of Biotechnology BRC",
+      "source_type": "price_list",
+      "quote": "performed by external contracted sequencing",
+      "strength": "medium",
+      "why_new": "Cornell's outsourced-Illumina plus in-house-AVITI structure is new. The known file only had Cornell offering AVITI at prices that undercut 25B on a per-read-batch basis."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "UCSF's CAT core still sold NovaSeq 6000 lanes alongside X lanes in late 2024, at ~2.6x the X 25B's per-Gb price, with a full 6000 menu (SP to S4, 35 to 500 cycles).",
+      "detail": "UC internal rates on a page tied to Sep 2024, with 25B-100/200 'Coming Nov. 2024': S4-300 lane $5,778 at 2.5B reads × 300 = 750 Gb → $7.70/Gb. The 25B-300 lane is $2,850 at 3.25B × 300 = 975 Gb → $2.92/Gb, a ratio of 2.6x. The 10B-300 lane is $1,724 → $4.60/Gb. External for-profit 6000 S4-300 is $9,101 (1.58x internal). The core kept selling 6000 output at a large premium while the X was available on the same menu.",
+      "url": "https://cat.ucsf.edu/node/706",
+      "date": "c. Sep–Nov 2024 (page undated)",
+      "source_name": "UCSF CAT service rates",
+      "source_type": "price_list",
+      "quote": "Coming Nov. 2024",
+      "strength": "weak",
+      "why_new": "This is a UCSF data point. Comparable ratios are known for UCLA (1.9x) and MD Anderson (2.5x), but not for UCSF."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "MSU's 6000 retirement went to AVITI at a per-Gb price ~12% below its last 6000 lane price, not to an X.",
+      "detail": "MSU's NovaSeq 6000 by-the-lane sheet (19 Jul 2023, search snippet; PDF now 404) lists the S4 lane at $5,953 and S1 lane at $4,204. At ~2.5B reads × 300 cycles = 750 Gb, the S4 lane is ~$7.94/Gb (cycle count assumed). The Element deck MSU posted (10 Sep 2024, snippet) prices 2x150 High (1,000M read pairs, 300 Gbp) at $2,089, or $6.96/Gb. MSU then retired the 6000 for AVITI (known F139). This quantifies that the swap happened at similar or lower per-Gb cost with no Illumina capture.",
+      "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf",
+      "date": "2023-07-19 (6000 sheet) / 2024-09-10 (AVITI deck)",
+      "source_name": "Michigan State University RTSF Genomics Core (search-result snippets)",
+      "source_type": "price_list",
+      "quote": "2 x 150 bp High ... 300 Gbp, $2,089",
+      "strength": "weak",
+      "why_new": "This is the first per-Gb quantification of MSU's 6000→AVITI swap. The known file only notes that the swap happened."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UChicago's newer price sheet drops all NextSeq and NovaSeq 6000 SP lines and replaces them with X 1.5B lanes, so mid-throughput research work moved to cheaper-per-Gb X lanes, a form of hidden deflation.",
+      "detail": "The older 'fees' page lists NextSeq runs from $1,499 (150bp Mid) to $5,499 (300-cycle), plus a NovaSeq SP-500 lane at $3,191.97 and flow cell at $6,051.25. The newer page has no NextSeq or SP rows. It has 1.5B lanes at $1,325 (100c), $1,750 (200c) and $1,775 (300c), each ~750M reads, i.e. 300-cycle ≈ $7.89/Gb on 225 Gb. Any NextSeq run carrying under ~330 Gb (P3-class or lower) costs more per Gb than this ($5,499/$7.89). Illumina's NextSeq 1k/2k pull-through ($80–100K) is being swapped for 1.5B lanes on the X.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/fees",
+      "date": "undated (older vs newer sheet)",
+      "source_name": "University of Chicago Genomics Facility",
+      "source_type": "price_list",
+      "quote": "NextSeq-300-cyc ... $5,499",
+      "strength": "weak",
+      "why_new": "This NextSeq→1.5B substitution at a named core is not in the known file."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "UConn's NovaSeq X 25B-300 lane price was flat from 2025 to 2026 (+0.3%), so this core shows no 25B price cut going into 2026.",
+      "detail": "UConn CGI product listings (search snippets): 25B-300 lane 2,924.04 with an end date of 31 Dec 2025, and 2,933.99 from 1 Jan 2026 (+0.34%). The 25B-200 lane is 2,534.74 from 1 Jul 2025. Prices include tariff and shipping surcharges. Together with Harvard's FY27 +17.8% (known) and UChicago's freeze, the 2025→2026 record shows held or raised 25B lane prices.",
+      "url": "https://honeycrisp.core.uconn.edu/products/657",
+      "date": "2025-07-01 to 2026-01-01",
+      "source_name": "UConn Center for Genome Innovation (search-result snippets)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has UConn's $2.94/Gb point but not its dated 2025→2026 lane-price series."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UChicago's 'NoReagents' lane rows imply a 10B-300 reagent cost of about $9.0K per flow cell, ~38% below Illumina's GSA price, so a mid-size research core gets well under catalog prices.",
+      "detail": "The NoReagents rows are exactly 25% of the full lane price ($374.75/$1,499; $293.75/$1,175; $368.75/$1,475). The implied reagent share is $1,124.25 per 10B-300 lane, or ×8 = $8,994 per flow cell, against the known GSA 10B-300 price of $14,493 (−38%). On a 3 Tb spec that is ~$3.00/Gb of reagent. This is our derivation and assumes the 75/25 split is a cost basis, not just a policy formula.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "undated",
+      "source_name": "University of Chicago Genomics Facility",
+      "source_type": "price_list",
+      "quote": "NovaX-10B-300-ln (PE150) - NoReagents $374.75",
+      "strength": "weak",
+      "why_new": "This implied core-level net reagent price for the 10B is new. Known items cover 25B core rates and GSA prices only."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Wayback and archive.ph are blocked for WebFetch, and dnatech.ucdavis.edu returns 403 (old domain refused), so I could not build a UC Davis or Cornell time series. UC Davis AVITI figures come only from the probe notes. KUMC (F166) and Pitt (likely F003/F004) were already covered, so I did not resurface them. No core showed an X lane price cut from 2025 to 2026 or an X price set to match AVITI. The match at UChicago came from Element cutting. Remaining: dated snapshots of the UChicago fees vs pricing-new pages, UC Davis, Cornell and UNMC via Wayback (requested below); and text of the MSU Element deck (65 pp; PDF saved, but there is no renderer).",
+  "leads": [
+    {"name": "UConn CGI product pages with dated start/end prices", "url": "https://honeycrisp.core.uconn.edu/products/657", "access": "public HTML; each product carries effective-date ranges", "labels": ["1B", "2B"], "rationale": "These are the only core pages found that embed dated price ranges. Iterating product IDs (328, 358, 368, 391, 657…) gives an X/6000 lane time series without Wayback."},
+    {"name": "UNC High-Throughput Sequencing flowcell tracker", "url": "https://www.med.unc.edu/genomics/tracker/", "access": "public HTML", "labels": ["1C", "2B"], "rationale": "A live run log could show flow-cell type mix (10B/25B vs 6000) and run frequency, i.e. research volume over time."},
+    {"name": "UChicago genomics 'services__trashed' page", "url": "https://voices.uchicago.edu/genomicsfacility/services__trashed", "access": "public HTML", "labels": ["2B"], "rationale": "An older retired page might carry earlier AVITI, X, 6000 or NextSeq prices to date the AVITI cut."},
+    {"name": "Univ. of Iowa Microbiome Core 2026 AVITI24 rates", "url": "https://microbiomecore.sites.uiowa.edu/services-rates", "access": "public HTML", "labels": ["2A", "2B"], "rationale": "A dated 2026 per-sample AVITI24 tiered price list at a research core that may have earlier Illumina MiSeq/NextSeq rates."},
+    {"name": "UC Riverside IIGB genomics rates", "url": "https://genomics.iigb.ucr.edu/rates", "access": "public HTML", "labels": ["1B", "2A"], "rationale": "Another UC campus with three-tier X 10B lane pricing, useful for a UC-system comparison under the UC-wide Illumina agreement (F081)."}
+  ],
+  "apify_requests": [
+    {"actor": "apify/website-content-crawler (or a Wayback Machine snapshot scraper)", "input": {"startUrls": ["https://web.archive.org/web/2024*/https://dnatech.ucdavis.edu/element-bio-aviti-sequencing/", "https://web.archive.org/web/2024*/https://voices.uchicago.edu/genomicsfacility/pricing-new", "https://web.archive.org/web/2024*/https://voices.uchicago.edu/genomicsfacility/fees", "https://web.archive.org/web/2024*/https://www.biotech.cornell.edu/core-facilities-brc/price-list/404", "https://web.archive.org/web/2024*/https://www.unmc.edu/research-resources/resources/cores/genomics-core/pricing.html", "https://web.archive.org/web/2024*/https://cat.ucsf.edu/node/706"], "maxCrawlDepth": 1}, "why": "WebFetch cannot reach web.archive.org. Dated snapshots would place the UChicago AVITI cut and any X lane changes at UC Davis, Cornell, UNMC and UCSF in a 2024–2026 time series, which the strategist asked for.", "max_items": 120}
+  ]
+}
+```

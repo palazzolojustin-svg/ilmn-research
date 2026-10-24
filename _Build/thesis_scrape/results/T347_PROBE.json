@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "Contracts Finder and Find a Tender both returned 403 to WebFetch, so I could not read the Northumbria T24/0068 notice directly. A search snippet confirmed the basics: Northumbria, £300K ex-VAT, 3-year call-off from 13 Jun 2025 to 12 May 2028, consumables for a new MiSeq i100 Plus plus existing NovaSeq and MiSeq. The snippet did not name the supplier or any justification text. The bidsfactory 'VEAT for Sequencing Consumables and Servicing' notice (031424-2026) is not Illumina. It is the University of Edinburgh's £3.95M award to Oxford Nanopore for PromethION flow cells and servicing, and the sole-source reason is ONT's patent and sole-manufacturer status. It has no price-negotiation or discount language. A ukspending page for the Animal and Plant Health Agency (APHA) shows a £1.598M Illumina Cambridge call-off under the UKHSA framework (14 Aug 2024). It gives no term, no per-unit price and no earlier award from the same buyer for comparison. Nothing relevant to pricing was found. VEAT and call-off notices only give total values, not $/Gb, so year-on-year comparisons cannot isolate price from volume. I did not get to the tenderbase 1610374 page or the CEFAS notices, and I ran no Contracts Finder keyword searches (the site is bot-blocked). The unvisited sources are therefore unresolved rather than confirmed empty.",
+  "how_to_mine": "Use the Find a Tender OCDS API (find-tender.service.gov.uk/api/1.0/ocdsReleasePackages, no login) or the Contracts Finder OCDS API (contractsfinder.service.gov.uk/Published/Notices/OCDS/Search?keyword=...) through a script with a browser User-Agent. Filter on 'Illumina', 'NovaSeq' and 'sequencing consumables' from 2025 onward. Pull the supplier, value, term and any justification text, then group by buyer to compare value per year with earlier awards. Prioritise the UKHSA framework call-offs: APHA, CEFAS and Genomics England are likely buyers.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "UKHSA Illumina framework call-offs (APHA £1.598M, Aug 2024; look for CEFAS, Genomics England, university equivalents) via the OCDS API",
+    "ukspending.com/contracts search for 'Illumina Cambridge Limited' by buyer and year"
+  ],
+  "apify_requests": []
+}
+```

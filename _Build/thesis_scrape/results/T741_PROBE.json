@@ -1,0 +1,16 @@
+```json
+{
+  "status": "dry",
+  "notes": "The gov.uk landing page has no NIPT figures, only attachment links. The FASP file is an ODS, which is a zipped XML spreadsheet. WebFetch could not read it and saved the raw file to a local .bin path, and I have no shell or Python tool in this session to unzip it. The archived NDRS NIPT page URL returned 404. No numbers were extracted, so nothing new for the thesis from this probe. The data likely exists in the file, but it is low-payoff. NHS NIPT is a contingent test offered only after a higher-chance combined-test result, so volumes are small and set by protocol. Even with the numbers, this would only weakly support the NIPT-maturing point in 1C.",
+  "how_to_mine": "Download https://assets.publishing.service.gov.uk/media/6a54dc8ac3d64d94cacab859/2024-25_Publication_ANNB_Annual_Standards_Data_V2_fasp.ods. Unzip it into a fresh empty directory and run Python with -I, or open it with pandas read_excel(engine='odf'). Look for the FASP standards on combined/quadruple test coverage and uptake, plus any NIPT or cfDNA offer and uptake lines. Then fetch the prior-year reports from the collection page 'NHS screening programmes: antenatal data standards reports' for 2021-22 to 2023-24. Search separately for the NHS England NIPT contingent-offer evaluation, which gives the higher-chance cutoffs (1 in 2 to 1 in 150) and NIPT counts. Use the Screening Programme annual report as a fallback.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "url": "https://assets.publishing.service.gov.uk/media/6a54dc8ac3d64d94cacab859/2024-25_Publication_ANNB_Annual_Standards_Data_V2_fasp.ods",
+      "why": "FASP 2024-25 standards data file, whose contents were unread. It may hold NIPT or combined-test uptake."
+    }
+  ],
+  "apify_requests": []
+}
+```

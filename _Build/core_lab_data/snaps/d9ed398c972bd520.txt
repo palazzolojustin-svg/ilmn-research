@@ -1,0 +1,47 @@
+Pricing - Heflin Center for Genomic Sciences
+Jump to navigation
+Jump to content
+Explore UAB
+MyUAB
+BlazerNet
+Canvas
+Email
+Future Students
+Visit UAB opens a new website
+Apply to UAB opens a new website
+Request Info opens a new website
+Undergraduate Students
+Advising opens a new website
+Undergraduate Catalog opens a new website
+Request Info opens a new website
+Research and Service Learning opens a new website
+Graduate Students
+Graduate School opens a new website
+Graduate Catalog opens a new website
+Online Degrees opens a new website
+Parents & Family
+Services opens a new website
+Resources opens a new website
+Family Visits opens a new website
+|
+$9
+|
+Fragment Analysis/Microsatellite Analysis
+Analysis of repeats within a gene can be accomplished with fluorescently tagged PCR primers and separation with capillary electrophoresis. Price includes the LIZ standard and running the instrument.
+Fragment Analysis $3.50/sample
+Human Cell Line Identification
+The proper identification of human cell lines is important for determining if the cells you have are the cells you think you have. The Core uses 15 separate microsatellite markers to differentiate human cell lines.
+HCID $75/cell line
+Next-Generation Sequencing Costs
+When pricing a Next-Gen Sequencing project (aka Deep Sequencing) there are several factors that should be taken into account. First, what is the nature of the experiment (RNA expression, microbiome, ChIP-Seq, etc.). Next, what do I want out of the data (e.g. differential gene expression or alternative splicing) and what read length and depth are sufficient to answer my question. Finally, can I do the analysis myself or do I need bioinformatics and at what level (just gene lists or IPA). All of these questions will affect the overall cost of your experiment. The core runs the NextSeq500 and two MiSeq sequencers. Cost per samples varies depending on the assay, platform and sequencing length, as mentioned above.
+Many different samples can be multiplexed and run together as long as they have the same read length. We can run either single read or paired end reads ranging from 75bp to 150bp; however, one flow cell can only run one type of chemistry at a time. For example, samples that require paired end 75bp runs will be run together. It is possible to extract shorter read length data from longer read data but you’ll pay the longer read price.
+Sequencing Costs ONLY
+Single End 75bp sequencing
+|
+$4.50/million reads
+|
+Paired End 75bp sequencing
+|
+$7.80/million reads
+|
+Paired End 150bp sequencing

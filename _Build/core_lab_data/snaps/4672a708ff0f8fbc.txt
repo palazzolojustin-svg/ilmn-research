@@ -1,0 +1,118 @@
+Penn Genomics and Sequencing Core | Department of Genetics | Perelman School of Medicine at the University of Pennsylvania
+Penn Genomics and Sequencing Core | Department of Genetics | Perelman School of Medicine at the University of Pennsylvania
+Skip to main content
+Menu
+Home
+Faculty
+Events
+News
+Publications
+Education & Training
+Cores
+Overview
+Cell Center Stockroom
+Cell Center Services
+Penn Genomics and Sequencing Core
+Genetic Diagnostic Laboratory
+Genetically Engineered Mouse Core Facility
+Administration
+Department of Genetics
+Home
+Cores
+Penn Genomics and Sequencing Core
+Penn Genomics and Sequencing Core
+The Penn Genomics and Sequencing Core (PGSC) provides a spectrum of sequencing, genomics and molecular biological services with a team of highly experienced and trained professionals under a Director and Technical Director. The services include consultation on experimental design to performing experiment to downstream data analyses.
+We offer Next-Generation Sequencing on multiple platforms:
+Short Read - Illumina NovaSeq X Plus, NextSeq 2000 and MiSeq
+Long Read - PacBio Revio and Oxford Nanopore MinION
+For more information, go to iLab.
+This includes DNA/RNA extraction from different sources, library preparation with quality control, sequencing followed by bioinformatics.
+Applications include mRNA-Seq, total RNA-Seq, small RNA-Seq, WGS, targeted sequencing, ChIP-Seq on X Plus; WGS and whole methylome on PacBio etc.
+For single-cell genomics we use 10X Genomics Controller; the applications include scRNA-Seq and snRNA-Seq. Soon we are going to introduce multiplexed scRNA-Seq. Multiome including scATAC-Seq are under development.
+Bioinformatics support is available for both core and externally generated datasets.
+Targeted molecular profiling including genotyping and gene expression is performed using ThermoFisher QS6 Pro and Qiagen digital PCR instruments. Mouse genotyping is done using PCR-based approach.
+For more information, go to iLab.
+For further information please contact Director, Tapan Ganguly and Technical Director, Erik Toorens.
+Charges for Major NGS Services
+NovaSeq X Plus
+flow cell |
+cycles |
+Million Reads |
+Gbp |
+Lanes |
+Full Service price/Lane |
+Ready to Sequence price (per flow cell, client provides reagents) |
+X 1.5B |
+100 |
+1500 |
+150 |
+2 |
+$1,319.56 |
+$442.50 |
+X 1.5B |
+200 |
+1500 |
+300 |
+2 |
+$1,609.25 |
+$487.50 |
+X 1.5B |
+300 |
+1500 |
+450 |
+2 |
+$1,725.13 |
+$532.50 |
+X 10B |
+100 |
+10000 |
+1000 |
+8 |
+$1,228.59 |
+$1,087.50 |
+X 10B |
+200 |
+10000 |
+2000 |
+8 |
+$1,534.38 |
+$1,287.50 |
+X 10B |
+300 |
+10000 |
+3000 |
+8 |
+$1,630.94 |
+$1,437.50 |
+X 25B |
+100 |
+25000 |
+2500 |
+8 |
+$1,914.06 |
+$1,437.50 |
+X 25B |
+200 |
+25000 |
+5000 |
+8 |
+$2,351.56 |
+$2,087.50 |
+X 25B |
+300 |
+25000 |
+7500 |
+8 |
+$2,660.94 |
+$2,587.50 |
+NextSeq2000 and MiSeq: Please Contact Us
+Illumina Libraries
+Library |
+Price per Library |
+Illumina Stranded mRNA |
+$150 |
+Illumina Stranded Total RNA |
+$194 |
+Single Cell, 10x3' Gene Expression (GEM-X, 20K cells) |
+from $2182 |
+Single Cell, 10x3' Gene Expression (GEM-X, Multiplexed, 5K cells) |

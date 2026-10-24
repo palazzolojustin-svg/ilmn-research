@@ -1,0 +1,129 @@
+Genomics Services
+2026 Price list Fees 2026. R0
+Valid from: 01/01/2026
+VAT not included
+Item 
+(CRG Code) Fees Ut of measure  PRBB  Academic-CERCA 
+SERGIC100  Bioanalyzer run (DNA high sensitivity)  sample                      7,55 €                    8,00 € 
+SERGIC101  Bioanalyzer run (DNA standard sensitivity)  sample                      5,48 €                    5,81 € 
+SERGIC102  Bioanalyzer run (RNA)  sample                      6,03 €                    6,39 € 
+SERGIC266  DNA Concentration Normalization (96-well plate)  plate                   92,89 €                  98,49 € 
+SERGIC268  DNA Quantification (96-well plate)  plate                 171,71 €               182,09 € 
+SERGIC374  Fragment Analyzer Run (NGS high sensitivity; 47 samples)  run                 170,86 €               181,12 € 
+SERGIC106  Library Quality Control (Bioanalyzer + qPCR) (per sample)  sample                   28,36 €                  30,06 € 
+SERGIC206  Library Quantification (qPCR)  sample                   20,55 €                  21,78 € 
+SERGIC103  Sample Quality Control (DNA)  sample                      8,77 €                    9,37 € 
+SERGIC320  Sample Quality Control (DNA, 96 well-plate)  set of samples                 460,17 €               488,07 € 
+SERGIC375  Sample Quality Control (Microbiome)  plate                 236,89 €               251,10 € 
+SERGIC104  Sample Quality Control (RNA)  sample                   11,30 €                  11,98 € 
+SERGIC322  Sample Quality Control (RNA, 96 well-plate)  set of samples                 387,31 €               410,56 € 
+SERGIC299  Sample Quality Control HMW gDNA  sample                   40,92 €                  43,74 € 
+SERGIC168  Data QC and Bioinformatics Analysis  hour                   29,83 €                  31,62 € 
+SERGIC131  Addition of sequencing adaptors by PCR  sample                   33,28 €                  35,30 € 
+SERGIC218  Custom Capture Roche (CSP, baits provided by the col.)  hybridization                 130,44 €               138,40 € 
+SERGIC117  Human Exome Capture (CSP, Roche)  hybridization                 380,12 €               403,07 € 
+SERGIC222  Library Preparation DNA (CSP, for Roche exome capture)  sample                   74,49 €                  79,03 € 
+Item 
+(CRG Code) Fees Ut of measure  PRBB  Academic-CERCA 
+Fees
+SERGIC449  Library Preparation Flex 16-plex (10x Genomics)  set of samples              9.308,88 €            9.867,70 € 
+SERGIC450  Library Preparation Flex 4-plex (10x Genomics)  set of samples              5.354,75 €            5.676,32 € 
+SERGIC451  Library Preparation WT (Parse Biosciences)  set of samples            11.518,01 €          12.209,66 € 
+SERGIC452  Library Preparation WT Mega (Parse Biosciences)  set of samples            20.546,76 €          21.780,14 € 
+SERGIC453  Library Preparation WT Mini (Parse Biosciences)  set of samples              5.476,16 €            5.805,30 € 
+SERGIC463  Library Preparation PacBio DNA  sample                 644,66 €               683,55 € 
+SERGIC472  Sequencing PacBio (Revio SMRT)  run              1.010,59 €            1.071,23 € 
+SERGIC406  iSeq100 (300 cycles, v2)  run                 516,63 €               547,63 € 
+SERGIC161  MiSeq (150 cycles, v3)  run                 963,17 €            1.020,96 € 
+SERGIC159  MiSeq (300 cycles, v2)  run              1.097,64 €            1.163,50 € 
+SERGIC158  MiSeq (50 cycles, v2)  run                 833,85 €               883,88 € 
+SERGIC160  MiSeq (500 cycles, v2)  run              1.248,22 €            1.323,11 € 
+SERGIC162  MiSeq (600 cycles, v3)  run              1.610,54 €            1.707,17 € 
+SERGIC215  MiSeq (Micro Kit 300 cycles, v2)  run                 533,48 €               565,49 € 
+SERGIC340  NextSeq 500 (150 cycles, High Output - self-service)  M reads                      0,42 €                    0,45 € 
+SERGIC341  NextSeq 500 (150 cycles, High Output)  M reads                      7,97 €                    8,45 € 
+SERGIC342  NextSeq 500 (150 cycles, Mid Output - self-service)  M reads                      0,99 €                    1,05 € 
+SERGIC343  NextSeq 500 (150 cycles, Mid Output)  M reads                   11,10 €                  11,77 € 
+SERGIC344  NextSeq 500 (300 cycles, High Output - self-service)  M reads                      0,52 €                    0,55 € 
+SERGIC345  NextSeq 500 (300 cycles, High Output)  M reads                   12,00 €                  12,72 € 
+SERGIC346  NextSeq 500 (300 cycles, Mid Output - self-service)  M reads                      1,38 €                    1,46 € 
+SERGIC347  NextSeq 500 (300 cycles, Mid Output)  M reads                   16,43 €                  17,42 € 
+SERGIC348  NextSeq 500 (75 cycles, High Output - self-service)  M reads                      0,32 €                    0,34 € 
+SERGIC349  NextSeq 500 (75 cycles, High Output)  M reads                      4,50 €                    4,77 € 
+SERGIC409  NextSeq 2000 (100 cycles, P1)  M reads                   12,16 €                  12,89 € 
+SERGIC364  NextSeq 2000 (100 cycles, P2)  M reads                      3,99 €                    4,23 € 
+SERGIC365  NextSeq 2000 (100 cycles, P3)  M reads                      2,78 €                    2,95 € 
+SERGIC366  NextSeq 2000 (200 cycles, P2)  M reads                      6,53 €                    6,92 € 
+SERGIC367  NextSeq 2000 (200 cycles, P3)  M reads                      3,75 €                    3,98 € 
+SERGIC394  NextSeq 2000 (300 cycles, P1)  M reads                   15,73 €                  16,67 € 
+SERGIC368  NextSeq 2000 (300 cycles, P2)  M reads                      8,29 €                    8,79 € 
+SERGIC369  NextSeq 2000 (300 cycles, P3)  M reads                      4,96 €                    5,26 € 
+SERGIC370  NextSeq 2000 (50 cycles, P3)  M reads                      2,34 €                    2,48 € 
+SERGIC405  NextSeq 2000 (50 cycles, P4)  M reads                      1,70 €                    1,80 € 
+SERGIC410  NextSeq 2000 (600 cycles, P1)  M reads                   19,24 €                  20,39 € 
+SERGIC330  NovaSeq 6000 (100 cycles, S1)  M reads                      2,78 €                    2,95 € 
+SERGIC331  NovaSeq 6000 (100 cycles, S2)  M reads                      1,99 €                    2,11 € 
+SERGIC336  NovaSeq 6000 (100 cycles, SP)  M reads                      4,24 €                    4,49 € 
+SERGIC326  NovaSeq 6000 (200 cycles, S1)  M reads                      3,34 €                    3,54 € 
+SERGIC327  NovaSeq 6000 (200 cycles, S2)  M reads                      2,45 €                    2,60 € 
+SERGIC332  NovaSeq 6000 (200 cycles, S4)  M reads                      1,42 €                    1,51 € 
+SERGIC356  NovaSeq 6000 (200 cycles, SP)  M reads                      5,32 €                    5,64 € 
+SERGIC328  NovaSeq 6000 (300 cycles, S1)  M reads                      3,74 €                    3,96 € 
+SERGIC329  NovaSeq 6000 (300 cycles, S2)  M reads                      2,64 €                    2,80 € 
+Pacific Biosciences (PacBio)
+Sequencing - iSeq 100
+Sequencing - MiSeq
+Sequencing - NextSeq 500
+Sequencing - NextSeq 2000
+Sequencing - NovaSeq 6000
+Fees 2023 10/12/2025
+Genomics Services
+2026 Price list Fees 2026. R0
+Valid from: 01/01/2026
+VAT not included
+Item 
+(CRG Code) Fees Ut of measure  PRBB  Academic-CERCA 
+Fees
+SERGIC325  NovaSeq 6000 (300 cycles, S4)  M reads                      1,63 €                    1,73 € 
+SERGIC333  NovaSeq 6000 (300 cycles, SP)  M reads                      5,79 €                    6,14 € 
+SERGIC324  NovaSeq 6000 (35 cycles, S4)  M reads                      1,18 €                    1,25 € 
+SERGIC335  NovaSeq 6000 (500 cycles, SP)  M reads                      7,76 €                    8,23 € 
+SERGIC408  DNBSEQ-G400 (150 cycles, STO)  run              2.083,27 €            2.208,27 € 
+SERGIC456  Aviti24 (150 cycles, LO)  run                   13,55 €                  14,36 € 
+SERGIC457  Aviti24 (150 cycles, MO)  run                      3,05 €                    3,23 € 
+SERGIC455  Aviti24 (150 cycles, HO)  run                      1,81 €                    1,92 € 
+SERGIC459  Aviti24 (300 cycles, LO)  run                      6,05 €                    6,41 € 
+SERGIC460  Aviti24 (300 cycles, MO)  run                      3,55 €                    3,76 € 
+SERGIC458  Aviti24 (300 cycles, HO)  run                      2,65 €                    2,81 € 
+SERGIC461  Aviti24 (600 cycles, MO)  run                   39,03 €                  41,37 € 
+SERGIC462  Aviti24 (600 cycles, HO)  run                   18,02 €                  19,10 € 
+SERGIC465  NovaSeq X plus (100 cycles, 1.5B)  M reads                      1,90 €                    2,01 € 
+SERGIC466  NovaSeq X plus (100 cycles, 10B)  M reads                      0,85 €                    0,90 € 
+SERGIC467  NovaSeq X plus (200 cycles, 1.5B)  M reads                      2,33 €                    2,47 € 
+SERGIC468  NovaSeq X plus (200 cycles, 10B)  M reads                      1,06 €                    1,12 € 
+SERGIC469  NovaSeq X plus (300 cycles, 1.5B)  M reads                      2,50 €                    2,65 € 
+SERGIC470  NovaSeq X plus (300 cycles, 10B)  M reads                      1,13 €                    1,20 € 
+SERGIC471  NovaSeq X plus (300 cycles, 25B)  M reads                      0,88 €                    0,93 € 
+SERGIC226  Library Preparation Nanopore Direct cDNA  sample                 337,86 €               358,34 € 
+SERGIC227  Library Preparation Nanopore Direct RNA  sample                 253,42 €               268,76 € 
+SERGIC230  Library preparation Nanopore DNA Ligation  sample                 263,16 €               279,16 € 
+SERGIC263  Library preparation Nanopore DNA Ligation with barcoding  unit                 263,41 €               279,32 € 
+SERGIC407  Library preparation Nanopore DNA Transposase  sample                 140,68 €               149,19 € 
+SERGIC232  Library Preparation Nanopore DNA Transposase with barcoding  sample                 189,90 €               201,43 € 
+SERGIC353  Library Preparation Ultra HMW DNA Nanopore  sample                 498,50 €               528,42 € 
+SERGIC216  Sequencing Nanopore (MinION)  run                 856,53 €               966,00 € 
+SERGIC404  Sequencing Nanopore (PromethION 2 Solo)  run              1.091,61 €            1.234,55 € 
+SERGIC445  Spatial transcriptomics FF (STEREO-seq)  sample              2.612,87 €            2.770,00 € 
+SERGIC446  Spatial transcriptomics FFPE (STEREO-seq)  sample              3.335,19 €            3.535,87 € 
+SERGIC447  Spatial transcriptomics permeabilization test FF (STEREO-seq)  sample              1.178,82 €            1.250,05 € 
+SERGIC196  DNA Purification Beads  mL                 213,79 €               226,79 € 
+SERGIC171  Fragmentation 100-1500 bp (COVARIS, microTube)  sample                   11,13 €                  11,80 € 
+SERGIC135  Sample preparation  unit                      1,00 €                    1,06 € 
+SERGIC134  Sample preparation Labour  hour                   33,05 €                  35,03 € 
+Acces to
+Oxford Nanopore Technologies
+Sequencing - DNBSEQ-G400
+Spatial transcriptomics
+Sequencing - Aviti24
+Sequencing - NovaSeq X plus
+Fees 2023 10/12/2025

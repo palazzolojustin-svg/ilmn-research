@@ -1,0 +1,110 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Rival short-read platforms (AVITI, DNBSEQ/MGISEQ, Ultima) grew from 3.8% to 5.5% of US-tagged GEO sequencing series in a year, with rival series up 97% against 34% for NovaSeq.",
+      "detail": "US-tagged GEO series released in Q3'25 vs Q3'26. Rival terms: 69 → 136 series. NovaSeq: 1,753 → 2,351. Rival share = 69/(1,753+69) = 3.79% → 136/(2,351+136) = 5.47%, +1.7 pts. NovaSeq series grew +34% and rival series +97%. Rivals took about 11% of the US year-on-year series increase: (136−69)/((136−69)+(2,351−1,753)) = 67/665 = 10%. This is the first US-specific rival-share datapoint. It is small and below the 3-point flag, but the direction fits rival capture of academic work.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+USA[All+Fields]+AND+(AVITI[All+Fields]+OR+DNBSEQ[All+Fields]+OR+MGISEQ[All+Fields]+OR+Ultima[All+Fields])&retmax=0&retmode=json",
+      "date": "2026-10-12 (data for Q3'25 and Q3'26 release quarters)",
+      "source_name": "NCBI GEO DataSets via E-utilities (esearch db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Prior GEO items were by platform record or a contact-country proxy and did not give a text-based rival share of series by country."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "In no country tested did the rival-platform share of GEO series rise by more than 3 points, so the strategist's flag threshold was not hit anywhere.",
+      "detail": "Share change, Q3'25 → Q3'26. US 3.8% → 5.5% (+1.7). China 12.1% → 13.6% (+1.5). Germany 6.7% → 9.1% (+2.4). Japan 16.4% → 18.3% (+1.9). France 10.5% → 12.0% (+1.5). UK was not usable (1 and 1 rival series; NovaSeq 21 and 25). The text match on 'UK' is unreliable because GEO usually writes 'United Kingdom'. Germany had the largest rise, but on small numbers: 13 → 18 rival series, and NovaSeq series were flat at 182 → 180. Rival capture is real but gradual in public research data.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+Germany[All+Fields]+AND+(AVITI[All+Fields]+OR+DNBSEQ[All+Fields]+OR+MGISEQ[All+Fields]+OR+Ultima[All+Fields])&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO DataSets via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is the requested country screen. It shows no country with a rival-share jump above 3 points, a watch-out for the 2B pricing-pressure story."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Germany shows NovaSeq series flat (182 → 180) while rival-platform series rose 13 → 18, the only country where Illumina volume stalled in public research data.",
+      "detail": "Germany-tagged GEO series, Q3'25 vs Q3'26. NovaSeq −1%, rivals +38%. The rival share rose 6.7% → 9.1% (+2.4 pts), the largest move of the five usable countries. US NovaSeq series grew +34%, China +28.6% and Japan −1%. Japan's NovaSeq series are also flat (163 → 161) with rivals 32 → 36. Counts are tiny, so this is directional only.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+Germany[All+Fields]+AND+NovaSeq[All+Fields]&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO DataSets via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No earlier item split public Illumina series growth by country, and Germany and Japan flat NovaSeq counts were not in the corpus."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Public NovaSeq series from Japan and Germany were flat y/y in Q3'26 (−1% each), so the 'volume keeps accelerating' read does not hold outside the US and China.",
+      "detail": "Japan 163 → 161 NovaSeq series, Germany 182 → 180, France 68 → 95 (+40%), China 1,098 → 1,412 (+29%), US 1,753 → 2,351 (+34%). Combined, the five countries rose from 3,264 to 4,199 (+29%), and the US and China account for most of it. This is a series count, not Gb, and prior items show Gb growth in public data is much weaker (~12%). Growth is therefore concentrated in two markets.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+Japan[All+Fields]+AND+NovaSeq[All+Fields]&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO DataSets via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This gives country-level y/y series counts, where the corpus had only global GEO growth."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "In China-tagged GEO series, rival platforms (mostly DNBSEQ) are 13.6% of sequencing series, up from 12.1%, and rival series grew +48% vs +29% for NovaSeq.",
+      "detail": "China-tagged series, Q3'25 → Q3'26. Rivals 151 → 223. NovaSeq 1,098 → 1,412. Share = 151/1,249 = 12.1% → 223/1,635 = 13.6% (+1.5 pts). Rivals took about 19% of the y/y series increase (72/386). China is already outside Illumina's reach for consumables (import ban), so this is a read on research behaviour, not Illumina revenue.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+China[All+Fields]+AND+(AVITI[All+Fields]+OR+DNBSEQ[All+Fields]+OR+MGISEQ[All+Fields]+OR+Ultima[All+Fields])&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO DataSets via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The earlier China proxy covered 6000/X conversion only, not rival share of series."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Japan's 18% and China's 14% rival shares are the highest, but both sit in markets where Illumina's exposure is limited or already stable, and none rose faster than 2 points.",
+      "detail": "Japan rival share 16.4% (32/195) → 18.3% (36/197), +1.9 pts, flat NovaSeq. France 10.5% → 12.0% (+1.5 pts). The US is the market that matters most for Illumina research consumables, and its rival share is only 5.5%. This lowers the weight of rival-driven research price pressure in the US over the last year.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+France[All+Fields]+AND+(AVITI[All+Fields]+OR+DNBSEQ[All+Fields]+OR+MGISEQ[All+Fields]+OR+Ultima[All+Fields])&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO DataSets via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a watch-out that quantifies where rival share is low and where it is not rising fast."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The 30-query budget is mostly used. Method caveats: 'country' is a free-text All Fields match (GEO has no country field in esearch, and [Contact Country] was translated to All Fields). The rival block is a text match on AVITI/DNBSEQ/MGISEQ/Ultima, and 'Ultima' may hit non-vendor uses. The denominator is NovaSeq-text series plus rival series, ignoring overlap. UK ('UK' token) is unusable and would need 'United Kingdom' or England/Scotland variants. No Roche SBX/AXELIOS term was tested (no GPL known). GPL-level species lists (377 DNBSEQ GPLs, 64 AVITI GPLs, 2,456 NovaSeq GPLs) are too many to OR in a URL, and UG100 has no GPL titled 'Ultima' or 'UG100'. A scripted loop (Python) with GPL ID lists derived from UID−100000000 would be needed for sample-level counts.",
+  "leads": [
+    {
+      "name": "GEO esummary on AVITI GPL UIDs (64 UIDs from esearch 'AVITI[Title] AND gpl[ETYP]', e.g. 100037604)",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=100037604,100037593,100037575",
+      "access": "free E-utilities",
+      "labels": ["2B"],
+      "rationale": "Get exact species and technology per AVITI GPL so a sample-level rival loop can be scripted."
+    },
+    {
+      "name": "GEO esearch with 'United Kingdom' and 'England' country text",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=gse[ETYP]+AND+%22United+Kingdom%22[All+Fields]",
+      "access": "free E-utilities",
+      "labels": ["2B", "1C"],
+      "rationale": "Redo the UK row, which failed here because of token mismatch."
+    },
+    {
+      "name": "GEO series with Roche SBX/AXELIOS text mentions",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=(AXELIOS[All+Fields]+OR+%22Sequencing+by+Expansion%22[All+Fields])+AND+gse[ETYP]",
+      "access": "free E-utilities",
+      "labels": ["2B"],
+      "rationale": "Check for any first public Roche SBX deposits, which would be the leading edge of the AXELIOS research story."
+    }
+  ],
+  "apify_requests": []
+}
+```

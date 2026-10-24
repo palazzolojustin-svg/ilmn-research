@@ -1,0 +1,254 @@
+All prices by resource name | Cornell Institute of Biotechnology | Cornell University
+Skip to main content
+Search:
+Submit search
+Search filters
+Search This site
+Search Cornell
+Main Menu
+Toggle Search Form
+Cornell Institute of Biotechnology
+Home
+About Us
+Leadership
+People
+Facility and Institute Advisory Boards
+Spotlights
+Organization
+Our History
+Contact Us
+Core Facilities (BRC)
+Services
+Applications
+Instruments
+Facilities
+Commercialization (CAT)
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+TruSeq DNA library prep (per sample) |
+$115 |
+$190 |
+Nextera DNA library prep (per sample) |
+$115 |
+$190 |
+For RNA Seq Preps, please see https://www.biotech.cornell.edu/core-facilities-brc/services/rna-seq-standard-package |
+Illumina sequencing
+More info about Illumina sequencing
+Illumina sequencing (stocked flowcells)
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+MiSeq Nano kit, 300 bp (1 M/fc, 0.3 Gbp/run) |
+$445 |
+$730 |
+MiSeq Nano kit, 500 bp (1 M/fc, 0.5 Gbp/run) |
+$525 |
+$860 |
+MiSeq Micro kit, 300 bp (4 M/fc, 1.2 Gbp/run) |
+$650 |
+$1065 |
+MiSeq V2 kit, 500 bp (12-15 M/fc, 7.2-9 Gbp/run) |
+$1,825 |
+$2,995 |
+NextSeq 500/550 High-output kit, 75 bp (333-400 M/fc, 25-30 Gbp/run) |
+$2,355 |
+$3,865 |
+NextSeq 500/550 Mid-output kit, 150 bp (100-130 M/fc, 19-30 Gbp/run) |
+$1,675 |
+$2,750 |
+NextSeq 2000 P2, 100bp (400 M/fc, 40 Gbp/run) |
+$2,010 |
+$3,300 |
+NovaSeq6000 S4 flowcell (1 lane), 2x150bp (2000 M/lane, 600 Gbp/lane) |
+$5,015 |
+$8,225 |
+NovaSeqX 10B flowcell (1 lane), 2x150bp (1100 M/lane, 330 Gbp/lane) |
+$1,735 |
+$2,845 |
+NovaSeqX 25B flowcell (1 lane), 2x150bp (3000 M/lane, 900 Gbp/lane) |
+$2,995 |
+$4,910 |
+NovaSeqX shared lane, first 50M reads |
+$200 |
+$330 |
+NovaSeqX shared lane, additional 50M reads |
+$100 |
+$165 |
+M/fc -> Reads passing filter (millions of reads per flowcell - single-end - double for paired-end)
+Gbp/run -> Pass filter output (Gbp/run) |
+Illumina sequencing (custom order flowcell, longer turnaround)
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+MiSeq V2 kit, 50 bp (12-15 M/fc, 0.6-0.75 Gbp/run) |
+$1,285 |
+$2,110 |
+MiSeq V2 kit, 300 bp (12-15 M/fc, 3.6-4.5 Gbp/run) |
+$1,625 |
+$2,665 |
+MiSeq V3 kit, 150 bp (22-25 M/fc, 3.3-3.75 Gbp/run) |
+$1,410 |
+$2,315 |
+MiSeq V3 kit, 600 bp (22-25 M/fc, 13-15 Gbp/run) |
+$2,320 |
+$3,805 |
+NextSeq 500/550 High-output kit, 150 bp (333-400 M/fc, 50-60 Gbp/run) |
+$4,255 |
+$6,980 |
+NextSeq 500/550 High-output kit, 300bp (333-400 M/fc, 100-120 Gbp/run) |
+$6,635 |
+$10,885 |
+NextSeq 500/550 Mid-output kit, 300 bp (100-130 M/fc, 38-60 Gbp/run) |
+$2,660 |
+$4,365 |
+NextSeq 2000 P1, 100bp (100 M/fc, 10 Gbp/run) |
+$1,975 |
+$3,240 |
+NextSeq 2000 P1, 300bp (100 M/fc, 30 Gbp/run) |
+$2,245 |
+$3,685 |
+NextSeq 2000 P1, 600bp (100 M/fc, 60 Gbp/run) |
+$2,550 |
+$4,185 |
+NextSeq 2000 P2, 200bp (400 M/fc, 80 Gbp/run) |
+$3,040 |
+$4,985 |
+NextSeq 2000 P2, 300bp (400 M/fc, 120 Gbp/run) |
+$3,445 |
+$5,650 |
+NextSeq 2000 P2, 600bp (400 M/fc, 240 Gbp/run) |
+$4,520 |
+$7415 |
+NextSeq 2000 P3, 50bp (1100 M/fc, 55 Gbp/run) **XLEAP not available |
+$3,175 |
+$5,210 |
+NextSeq 2000 P3, 100bp (e.g. 2 x 50) (1100 M/fc, 110 Gbp/run) |
+$3,420 |
+$5,610 |
+NextSeq 2000 P3, 200bp (e.g. 2 x 100) (1100 M/fc, 220 Gbp/run) |
+$4,465 |
+$7,325 |
+NextSeq 2000 P3, 300bp (e.g. 2 x 150) (1100 M/fc, 330 Gbp/run) |
+$5,155 |
+$8,455 |
+NextSeq 2000 P4, 50bp (1700 M/fc, 85 Gbp/run) |
+$3,285 |
+$5,390 |
+NextSeq 2000 P4, 100bp (e.g. 2 x 50) (1700 M/fc, 170 Gbp/run) |
+$4,040 |
+$6,625 |
+NextSeq 2000 P4, 200bp (e.g. 2 x 100) (1700 M/fc, 340 Gbp/run) |
+$5,365 |
+$8,800 |
+NextSeq 2000 P4, 300bp (e.g. 2 x 150) (1700 M/fc, 510 Gbp/run) |
+$6,110 |
+$10,020 |
+NovaSeqX and NovaSeq 6000 services using flowcells/run types not listed above |
+Inquire |
+Inquire |
+For Nextseq 2000 flowcells, pricing is shown for new XLEAP chemistry; flowcells using the standard SBS chemistry can be ordered, however the price is often higher (please inquire). |
+Info |
+Info |
+M/fc -> Reads passing filter (millions of reads per flowcell - single-end - double for paired-end)
+Gbp/run -> Pass filter output (Gbp/run) |
+Other Illumina-Related Services
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+Custom lab work (per hour) |
+$55 |
+$90 |
+Consultation and custom data analysis (per hour) |
+$125 |
+$205 |
+Indexing reactions for Amplicon sequencing
+Nucleic acid quantification (per sample) |
+$5 |
+$8 |
+Oxford Nanopore sequencing
+More info about Oxford Nanopore sequencing
+Oxford Nanopore sequencing
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+Short fragment elimination for HMW gDNA (per sample) |
+$125 |
+$205 |
+Ligation library preparation and PromethION R10 flowcell (1 sample) |
+$2,455 |
+$4,035 |
+Barcoded ligation library preparation and PromethION R10 flowcell (6 samples*) |
+$3,695 |
+$6,065 |
+Ligation library preparation and MinION R10 flowcell (1 sample) |
+$1,860 |
+$3,055 |
+Barcoded ligation library preparation and MinION R10 flowcell (6 samples*) |
+$3,100 |
+$5,085 |
+Alternate** library preparation and PromethION R10 flowcell (1 sample) |
+$2,295 |
+$3,770 |
+Alternate** barcoded library preparation and PromethION R10 flowcell (6 samples*) |
+$2,735 |
+$4,475 |
+Alternate** library preparation and MinION R10 flowcell (1 sample) |
+$1,700 |
+$2,790 |
+Alternate** barcoded library preparation and MinION R10 flowcell (6 samples*) |
+$2,140 |
+$3,495 |
+* Other multiplex sample numbers available on request / ** Kits required for alternative library prep methods and flowcells are not included in the price and must be provided |
+Related services
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+DNA/RNA size QC (FA5200) |
+$15 |
+$25 |
+HMW DNA size QC (Femto) |
+$22 |
+$36 |
+Instrument prices
+Digital PCR QX200 (Bio-Rad)
+GELFrEE 8100 |
+$100/week |
+$164/week |
+SpeedVac vacuum concentrators
+More info about SpeedVac vacuum concentrators
+SpeedVac vacuum concentrators
+Description | Internal price (Cornell and Cornell affiliates) | External Price |
+SpeedVac access (per hour) |
+$20 |
+$32.80 |
+UltiMate 3000 RSLCnano / 7500 QTrap
+More info about UltiMate 3000 RSLCnano / 7500 QTrap
+UltiMate 3000 RSLCnano / 7500 QTrap
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+7500 QTRAP (<4 hours) |
+$400 |
+$656 |
+7500 QTRAP (<12 hours) |
+$600 |
+$984 |
+7500 QTRAP (24 hours) |
+$750 |
+$1,230 |
+7500 Q Trap training - vendor training is pre-requisite (per hour) |
+$250 |
+$410 |
+UltiMate 3000 RSLCnano / Orbitrap Eclipse
+More info about UltiMate 3000 RSLCnano / Orbitrap Eclipse
+UltiMate 3000 RSLCnano / Orbitrap Eclipse
+Description | Internal price (Cornell and Cornell affiliates) |
+Orbitrap Eclipse (<12 hours) |
+$1100/day |
+$1804/day |
+Orbitrap Eclipse (>12 hours) |
+$1600/day |
+$2624/day |
+Orbitrap Eclipse training - vendor training is pre-requisite (per hour) |
+$200 |
+$328 |
+UltiMate 3000 RSLCnano / Orbitrap Fusion
+More info about UltiMate 3000 RSLCnano / Orbitrap Fusion
+UltiMate 3000 RSLCnano / Orbitrap Fusion
+Description | Internal price (Cornell and Cornell affiliates) | External price |
+Orbitrap Fusion (<12 hours) |
+$1100/day |
+$1760/day |
+Orbitrap Fusion (>12 hours) |
+$1600/day |
+$2560/day |
+Orbitrap Fusion training - vendor training is pre-requisite (per hour) |
+$200 |
+$328 |

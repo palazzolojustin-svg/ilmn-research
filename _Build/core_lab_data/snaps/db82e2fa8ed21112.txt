@@ -1,0 +1,87 @@
+CGI Service Rates | Center for Genome Innovation | Institute for Systems Genomics | University of Connecticut
+Skip to Navigation
+Skip to UConn Search
+Skip to Content
+UConn Cookie Information
+What are Cookies?
+Authentication Cookies
+Analytics Cookies
+Opt Out
+Web cookies (also called HTTP cookies, browser cookies, or simply cookies) are small pieces of data that websites store on your device (computer, phone, etc.) through your web browser. They are used to remember information about you and your interactions with the site.
+Purpose of Cookies:
+Session Management:
+Keeping you logged in
+Remembering items in a shopping cart
+Saving language or theme preferences
+Personalization:
+Tailoring content or ads based on your previous activity
+Tracking & Analytics:
+Monitoring browsing behavior for analytics or marketing purposes
+Types of Cookies:
+Session Cookies:
+Temporary; deleted when you close your browser
+Used for things like keeping you logged in during a single session
+Persistent Cookies:
+Stored on your device until they expire or are manually deleted
+$29.19/sample |
+The Center for Genome Innovation also offers NGS sample preparation solutions for the following applications:
+ChIP-Seq (“standard input” and “low input” using Swift Biosciences kits)
+Whole Genome Methylation (using the NEBNext Enzymatic Methyl-Seq kit; EM-Seq)
+Illumina RNA for Enrichment
+Custom Enrichment Panels using KAPA HyperPrep
+Low input RNA-Seq with various TakaraBio kits (mRNA and total RNA options available)
+Genotyping by Sequencing (ddRAD)
+Single Cell RNA-Seq (10x Chromium)
+For more information on pricing for these applications or to inquire about assistance in developing an application that is not shown please contact us!
+Sequencing Instrument Access Fees for the Illumina NovaSeq 6000:
+Sequencing Instrument Access:
+Single Sequencing Run Access Fee w/ Labor: $490.00
+Sequencing Reagent Kit Costs for the Illumina NovaSeq 6000 (Prices shown are for full runs. Lane sharing is available. Please inquire for single lane costs and other important project considerations):
+Reagent costs change yearly and are also subject to a 6.5% charge for shipping. Rates are internal per contract price to UCONN at time of service. Prices below are current through Feb 2025:
+NovaSeq SP v1.5 100 cycle = $2,417
+NovaSeq SP v1.5 200 cycle = $3,166
+NovaSeq SP v1.5 300 cycle = $3,454
+NovaSeq SP v1.5 500 cycle = $4,835
+NovaSeq S1 v1.5 100 cycle = $4,431
+NovaSeq S1 v1.5 200 cycle = $5,538
+NovaSeq S1 v1.5 300 cycle = $6,043
+NovaSeq S2 v1.5 100 cycle = $8,346
+NovaSeq S2 v1.5 200 cycle = $10,362
+NovaSeq S2 v1.5 300 cycle = $11,052
+NovaSeq S4 v1.5 35 cycle = $11,192
+NovaSeq S4 v1.5 200 cycle = $14,879
+NovaSeq S4 v1.5 300 cycle = $16,578
+Lane Sharing is available on all NovaSeq kits. SP, S1 and S2 flow cells have 2 lanes; S4 flow cells have 4 lanes. An Xp lane loading kit is necessary to separate pools:
+Xp 2-lane loading kit = $343.00
+Xp 4-lane loading kit = $690.00
+Sequencing Instrument Access Fees for the Illumina NextSeq 550:
+1. Assisted Sequencing Instrument Access:
+Single Sequencing Run Access Fee w/ Labor: $301.00
+Sequencing Reagent Kit Costs for the Illumina NextSeq 550:
+Reagent costs change yearly and are also subject to a 6.5% charge for shipping. Rates are internal per contract price to UCONN at time of service. Prices below are current through Feb 2024:
+Prices available upon request
+Sequencing Instrument Access Fees for the Illumina MiSeq:
+1. Unassisted Sequencing Instrument Access:
+Single Sequencing Run Access Fee: $118.50
+2. Assisted Sequencing Instrument Access:
+Single Sequencing Run Access Fee w/ Labor: $156.00 (v2/v3 runs); $78.00 (Nano or Micro runs)
+Sequencing Reagent Kit Costs for the Illumina MiSeq:
+Reagent costs change yearly and are also subject to a 6.5% charge for shipping. Rates are internal per contract price to UCONN at time of service. Prices below are current through Feb 2024:
+MiSeq Reagent Kit v2 (50 cycle) = $976.12
+MiSeq Reagent Kit v2 (300 cycle) = $1,250.28
+MiSeq Reagent Kit v2 (500 cycle) = $1,405.76
+MiSeq Reagent Kit v3 (150 cycle) = $1,038.76
+MiSeq Reagent Kit v3 (600 cycle) = $1,829.88
+MiSeq Reagent Kit Nano v2 (300 cycle) = $347.76
+MiSeq Reagent Kit Nano v2 (500 cycle) = $417.68
+MiSeq Reagent Kit Micro v2 (300 cycle) = $525.32
+Instrument Access Fee for the BioRad CFX 96:
+1. Unassisted/Assisted Instrument Access:
+Access Fee: $15.00/day
+Instrument Access Fee for the 10X Chromium:
+1. Unassisted/Assisted Instrument Access:
+Access Fee: $100
+Please inquire about sample preparation costs for single cell RNA-Seq.
+Instrument Access Fee for the BioRad Digital Droplet PCR QX200:
+1. Unassisted/Assisted Instrument Access:
+Access Fee: $100

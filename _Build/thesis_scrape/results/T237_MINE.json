@@ -1,0 +1,84 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Medicare Part B genetic-test spending grew 20% in 2024, with the per-enrollee payment up 26%, so government-paid demand for genomic testing was still accelerating.",
+      "detail": "Genetic tests were $3.6B in 2024 (43% of $8.4B Part B lab spend), up from about $3.0B in 2023 ($3.6B / 1.20). The OIG work plan puts the increase at about $500M. Average Part B genetic payment per enrollee approached $800, up 26%, while enrollees receiving any lab test fell 15% from 2018 to 2024. This is dollars of a fee-for-service payer, not Gb. It includes pathogen and non-sequencing molecular tests, so it overstates Illumina-relevant growth.",
+      "url": "https://clpmag.com/lab-management/medicare-part-b-lab-spending-2024-genetic-tests-drive-growth/",
+      "date": "2026-01",
+      "source_name": "HHS-OIG data snapshot OEI-09-25-00330 (via CLP Magazine)",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has only the '20% growth' headline. This adds the per-enrollee +26%, the implied 2023 base and the +$500M increase."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The biggest single genetic line in Part B is a pathogen test (CPT 87798), not human sequencing, so the headline $3.6B overstates Illumina-relevant spend.",
+      "detail": "Code 87798 (infectious organism detection) was the top-spending lab test at $442.5M, a median payment of $447 per claim, up 51% vs 2023. The top 10 genetic tests total $1.5B. Excluding 87798, the other nine genetic tests total about $1.06B, roughly $118M each on average. Because OIG's 'genetic' class includes infectious-disease molecular assays, the 43% share cannot be read as sequencing-heavy demand.",
+      "url": "https://clpmag.com/lab-management/medicare-part-b-lab-spending-2024-genetic-tests-drive-growth/",
+      "date": "2026-01",
+      "source_name": "HHS-OIG OEI-09-25-00330 (via CLP Magazine and MedTech Dive)",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Not in the exclusion list. It qualifies the Medicare 'genetic tests +20%' datapoint (F298), which was presented as a demand signal."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare's rate-setting for genetic tests was static through 2024, so 2024 spend growth was volume and mix, and the 2027 CLFS cuts are a new price headwind for the test volume that feeds Illumina.",
+      "detail": "CLP Magazine says fee schedule rates have been unchanged since 2020, so the 20% rise is not price-driven. That means about 20% growth in volume or mix, a measure of pre-cut demand. The known CMS preliminary CY2027 CLFS cuts (genomic sequencing codes −23%) break this regime. Generic panels are the most exposed, while branded MRD/CGP is largely protected.",
+      "url": "https://clpmag.com/lab-management/medicare-part-b-lab-spending-2024-genetic-tests-drive-growth/",
+      "date": "2026-01",
+      "source_name": "HHS-OIG OEI-09-25-00330 (via CLP Magazine)",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It links the 2024 volume-driven growth to the CMS 2027 cuts, which the known list covers only separately."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare genetic spend is concentrated in a small set of high-priced tests, and OIG is opening a fraud and waste probe that could chill volume.",
+      "detail": "346 labs were paid more than $1M each for genetic tests and 55 labs more than $10M. Most genetic tests in the top 25 grew 30% or more. OIG announced a follow-up project, OEI-09-26-00270, on 15 Jun 2026, to find tests vulnerable to fraud, waste and abuse, and to compare MolDX and non-MolDX jurisdictions. A crackdown would be a risk to volume growth, not a certainty.",
+      "url": "https://oig.hhs.gov/reports/work-plan/browse-work-plan-projects/trends-and-vulnerabilities-in-genetic-tests-covered-under-medicare-part-b/",
+      "date": "2026-06-15",
+      "source_name": "HHS-OIG work plan OEI-09-26-00270",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has the CMS cuts and an OIG report cite (OEI-09-25-00330), but not this active 2026 OIG audit or the lab concentration counts."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I could not read the top-25 table. The PDF is binary, there is no Bash or pdftotext, and WebFetch and Read returned no text (Read needs pdftoppm). I do not know whether 0340U (Signatera) is listed, so I could not derive Medicare Signatera draws. The press and OIG pages name only 87798. Anyone with Python or pdftotext can download https://www.oig.hhs.gov/documents/evaluation/11453/OEI-09-25-00330.pdf (and the highlights PDF 11454) and read the table directly. The CMS Part B by Geography & Service or by Provider & Service files would give 0340U allowed amounts, which are the next step. The source is mostly a macro data point and adds little for the Illumina thesis beyond the items above.",
+  "leads": [
+    {
+      "name": "CMS Medicare Physician & Other Practitioners by Provider and Service (lab HCPCS)",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-provider/medicare-physician-other-practitioners",
+      "access": "public, large CSV or API",
+      "labels": ["1C"],
+      "rationale": "It may list 0340U or other MRD/PLA codes with services and allowed amounts, which would allow Medicare Signatera draw counts. Part B clinical lab file coverage is uncertain, because many lab claims are not in this file."
+    },
+    {
+      "name": "CMS Clinical Laboratory Fee Schedule public use files, Calendar Year 2024 to 2027 (PLA codes)",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/clinical-laboratory-fee-schedule/clfs-files",
+      "access": "public zip or CSV",
+      "labels": ["1C"],
+      "rationale": "It shows year-by-year payment rates for 0340U and the other MRD/CGP codes. It would test how much of the 2027 cuts hits Illumina-fed tests and what share of MRD is protected."
+    },
+    {
+      "name": "OIG full report PDF OEI-09-25-00330",
+      "url": "https://www.oig.hhs.gov/documents/evaluation/11453/OEI-09-25-00330.pdf",
+      "access": "public, needs local pdftotext or OCR",
+      "labels": ["1C"],
+      "rationale": "It holds the top-25 table with codes, spend and median payment. It could show whether any MRD or oncology PLA code is among the genetic top 10."
+    }
+  ],
+  "apify_requests": []
+}
+```

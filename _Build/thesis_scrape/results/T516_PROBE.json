@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "The data.cms.gov API works with no login and returns JSON. The file is partial. It holds a 'Clinical Laboratory' provider type, but only for some lab codes. 0340U (Natera Signatera MRD) is present with one row: 11,922 beneficiaries, 25,746 services, about $3,519 average Medicare allowed per service. That is about $90M of Medicare allowed dollars and about 2.2 draws per beneficiary. I could not determine the data year. The API returned only one year (the default, likely the latest, probably CY2023 or CY2024), and the version endpoint returned 404. 81420 (NIPT aneuploidy) shows only tiny counts: Labcorp 39 services and Quest 11, at $743.87 allowed. Natera and others bill NIPT mostly through other channels or in too few Medicare claims, so this file cannot show NIPT flattening. 81507, 81415, 0306U and 0307U returned empty. 81425 was not queried. The y/y growth requested could not be computed, because I got a single year and could not reach prior-year dataset ids. The dataset landing page is JavaScript-rendered, so WebFetch could not read the year list.",
+  "how_to_mine": "1) Open the dataset page in a browser or use the data.cms.gov catalog JSON at https://data.cms.gov/data.json to get the per-year dataset ids (the 'by Provider and Service' dataset exists for CY2013-latest). 2) For each year id, query /data-api/v1/dataset/{id}/data?filter[HCPCS_Cd]=0340U and 81420, plus the other Natera/Guardant/Tempus MRD PLA codes: 0239U, 0326U, 0306U, 0307U, 0388U, 0361U, 0356U. Also try the 'Medicare Physician & Other Practitioners by Provider' summary file. 3) Build a time series of Tot_Srvcs, Tot_Benes and Avg_Mdcr_Alowd_Amt per NPI. 4) Use the allowed-amount series to cross-check the $3,920 to $3,590 Signatera rate cut (Jan 2026). Use services per beneficiary as a draw-cadence proxy, which feeds the Gb/draw argument. 5) For NIPT, 81420 volume in this file is too small to use. Use CLFS paid-claims data or the Part B 'Clinical Laboratory Fee Schedule' utilization file (OIG/CMS) instead.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare-only Signatera (0340U) volume is roughly 26K draws, so Medicare draw counts are checkable and small relative to Natera's roughly 283K quarterly MRD tests.",
+      "detail": "CMS Physician & Other Practitioners by Provider and Service lists Natera 0340U with 11,922 beneficiaries and 25,746 services, about 2.2 draws per beneficiary. Average allowed amount is about $3,519 per service, so about $90M Medicare allowed in the file year (year not confirmed). That is a small share of Natera's Q2'26 run rate of 283K MRD tests, so Medicare is a minor share of MRD Gb and the volume story depends on commercial and other payers. Prior years are needed to measure growth.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U",
+      "date": "file year unconfirmed (latest available CMS release)",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First Medicare claims-based Signatera draw count and draws per beneficiary; prior notes only had company test counts and cadence assumptions."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare NIPT (81420) in the CMS lab file is negligible, so the file cannot show NIPT volume trends.",
+      "detail": "Only Labcorp (39 services) and Quest (11 services) appear for 81420, at $743.87 allowed, and Natera does not appear. This fits NIPT being a commercial and Medicaid market with little Medicare exposure. Any NIPT-flattening evidence has to come from other sources.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=81420",
+      "date": "file year unconfirmed",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A negative result for this source that closes this route for NIPT."
+    }
+  ],
+  "new_candidates": [
+    "https://data.cms.gov/data.json catalog to get per-year dataset ids for a 0340U time series",
+    "CMS Part B clinical lab (CLFS) utilization or the OIG lab spending reports for MRD/PLA code counts by year"
+  ],
+  "apify_requests": []
+}
+```

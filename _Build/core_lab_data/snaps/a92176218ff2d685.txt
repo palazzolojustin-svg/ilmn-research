@@ -1,0 +1,13 @@
+Core Unit NGS – Preisreduktion mit dem neuen Sequenzierer NovaSeq X plus 
+Vergleich alte und neue Preise je Einheit 
+Stand: 07.10.2024 – Prof. Dr. André Reis 
+NGS-Analyse Bisherige Preise Neue Preise mit NovaSeq-X-Plus, ab 01.01.2025 Differenz Preisreduktion 
+Bulk-RNAseq 395 €                  245 €                                       150 €                          38%
+3'-scRNAseq 2.995 €              1.945 €                                    1.050 €                       35%
+Library-Seq für fertige Single Cell-Libraries (3'-scRNAseq) 995 €                  450 €                                       545 €                          55%
+Multiome 3'-scRNAseq & scATACseq 5.395 €              3.700 €                                    1.695 €                       31%
+5'-scRNAseq (plus BCR oder TCR) 3.495 €              2.310 €                                    1.185 €                       34%
+5'-scRNAseq (plus BCR und TCR) 4.095 €              2.675 €                                    1.420 €                       35%
+Enrichment-SEQ (Cut & Run) 110 €                                       110 €-                          Neu
+Enrichment-SEQ (ATAC-Seq/ChIP-Seq etc.) 295 €                  160 €                                       135 €                          46%
+Fragment-Seq 120 €                  95 €                                          25 €                             21%

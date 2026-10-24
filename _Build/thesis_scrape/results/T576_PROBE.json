@@ -1,0 +1,32 @@
+Status: the g0v/openfun API (pcc-api.openfun.app) works without a login or captcha, so I used it and not the official portal. Here is the JSON.
+
+```json
+{
+  "status": "productive",
+  "notes": "Reachable. https://pcc-api.openfun.app/api/searchbytitle?query=<keyword> returns tender titles (Chinese keywords work, e.g. 定序試劑 gave 504 records). https://pcc-api.openfun.app/api/tender?unit_id=<unit>&job_number=<job> returns award detail with quantity, unit price (for open-contract tenders), vendor and award date. The English query 'NovaSeq' only returned the National Health Research Institutes (NHRI), mostly 2018-2023. 'NovaSeq X' returned 0 records. Hospital tenders use generic Chinese names such as 高通量定序試劑組 (high-throughput sequencing reagent set), so the platform and flow cell are hidden in the title. Found no NovaSeq X 25B or 6000 S4 award at NTUH, VGH or CMUH for 2024-26. Hospital 2024-26 awards seen are NextSeq 2000-class or other: Taipei VGH 'P4 XLEAP-SBS' (NextSeq 2000 P4) at NT$201,000/set in Apr 2025 (9 sets) and again Apr 2026 (18 sets), and 'P3' at NT$235,000/set (15 sets, May 2026). Taichung VGH 115A018 (Sep 2026, 'P1' reagent) and Taipei VGH 1140732E (Nov 2025, NT$3.94M lot, platform not stated) were not resolved. NTUH K114031 (whole-genome sequencing reagent, 3 items with instrument, awarded 5 Feb 2026) and TD150300 (mid-throughput 300-cycle v2.5, awarded 10 Jun 2026) were not opened and are the best next targets. Platform for the XLEAP/P3/P4 items is inferred from product names, not stated in the notices.",
+  "how_to_mine": "1) Query searchbytitle with 定序試劑, 次世代定序, 全基因體, 高通量, 中通量, NovaSeq, 25B, S4 and 10B, then page through all pages (6 pages for 定序試劑). 2) For each award (決標) job number, call /api/tender?unit_id=<unit>&job_number=<job>. Unit ids seen: NTUH 3.9.20.1, Taipei VGH 3.32.80, Taichung VGH 3.32.81, NCKU Hospital 3.9.26.3, NHRI 92019239. 3) Prioritize NTUH K114031 (Feb 2026 WGS reagents with instrument) and TD150300, Taichung VGH 114A08 (WES, May 2025) and 115A018, and Taipei VGH 1140732E item 1 (lot of NT$3.94M). 4) Check bidder and brand fields, and NHRI's later NovaSeq X purchases after Dec 2023. 5) Compare per-set prices across years for the same buyer.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A Taiwan government research institute was still buying NovaSeq 6000 S4 v1.5 reagent in Dec 2023, at an implied price far below US list.",
+      "detail": "NHRI awarded 16 sets of NovaSeq 6000 S4 v1.5 (300 cycles) to Illumina Taiwan on 18 Dec 2023 for NT$2,929,920 total. That is about NT$183,120 per set (derived, not stated in the notice). The 'set' unit is not defined, and the figure looks too low to be a full S4 kit at list, so treat it as a direction-only datapoint. NHRI's earlier S4 purchases (25 sets in Dec 2020, 32 in Jul 2020) are in the same series, but I did not open them. I found no NHRI X-series award after this date.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112A0C0676",
+      "date": "2023-12-21",
+      "source_name": "Taiwan Government e-Procurement System via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Procurement-record data on realized 6000 S4 v1.5 unit price in Asia; none of the known tenders (Spain CIBER, IDIBAPS) covers the 6000."
+    }
+  ],
+  "new_candidates": [
+    {"source": "Taiwan e-procurement via pcc-api.openfun.app, NTUH K114031 and TD150300 award details", "why": "Possible NovaSeq X or high-throughput unit prices from a medical center, 2026", "url": "https://pcc-api.openfun.app/api/searchbytitle?query=定序試劑"},
+    {"source": "Taiwan e-procurement open-contract awards for 全基因體 / 高通量 / 外顯子 by VGH hospitals", "why": "Same-buyer price trend across 2024-26", "url": "https://pcc-api.openfun.app/api/searchbytitle?query=次世代定序"}
+  ],
+  "apify_requests": []
+}
+```
+
+Caveats on the results: the one NovaSeq 6000 price is a derived figure on an undefined "set" unit, so I rated it weak. I found no 25B or 6000-versus-X pairing at any hospital.

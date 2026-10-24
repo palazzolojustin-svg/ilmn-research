@@ -1,0 +1,27 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I found no figure for genomes sequenced against the 235,000 target. The named poster URL returns HTTP 404. The two IGAS/IGÉSR evaluation reports (May 2026) are the real final scorecard, but they are image/compressed PDFs. WebFetch could not decode the text, and Read needs pdftoppm, which isn't installed. Bash is also disabled. So the source is reachable but not minable with the tools in this probe. Search snippets give only end-2023 results returned (12,737 rare-disease/cancer-predisposition and 3,109 cancer), from a Lancet Regional Health Europe article that I saw only as a snippet. That is about 15.8K results against a 50K/yr plan. Those counts are results returned, not genomes sequenced, and I did not verify the denominators. I am not logging them as items. The sources disagree on the target: one says 235,000 per year, another says a cumulative 235,000 by 2025 at 50,000 per year. The report should settle which it is.",
+  "how_to_mine": "1) Download both PDFs and run pdftotext (or pypdf) on them. Tome 1: https://www.education.gouv.fr/sites/default/files/document/enjeux-et-perspectives-d-un-deuxi-me-plan-france-m-decine-g-nomique---tome-1-521410.pdf (3.4MB). Tome 2: https://www.education.gouv.fr/sites/default/files/document/enjeux-et-perspectives-d-un-deuxi-me-plan-france-m-decine-g-nomique---tome-2-521413.pdf (1.7MB). IGAS ref. 2025-067R, dated May 2026. Tome 2 has the section evaluating achievement of PFMG2025 objectives. 2) Grep for: 235 000, 50 000, génomes séquencés, résultats rendus, SeqOIA, AURAGEN, NovaSeq, coût par génome, capacité annuelle. 3) Record the cumulative and yearly sequenced counts for 2021-2025, the share of the target reached, and the split between rare disease and cancer. 4) Check whether the report quotes the sequencer fleet (Illumina NovaSeq 6000 or X) and the cost per genome. Also read the Lancet Reg Health Europe article (Jan 2025; PMC11910791) for the end-2023 counts. The PMC page is open access.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "IGAS/IGÉSR evaluation report on PFMG2025, tome 2 (May 2026)",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/enjeux-et-perspectives-d-un-deuxi-me-plan-france-m-decine-g-nomique---tome-2-521413.pdf",
+      "why": "It is the official final scorecard of the plan against its genome targets. It was built from 85 interviews and the PFMG annual reports."
+    },
+    {
+      "name": "PFMG2025 Lancet Regional Health Europe paper (PMC11910791)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11910791/",
+      "why": "It has end-2023 results counts and turnaround times, and says the state invested EUR 239M in the plan."
+    },
+    {
+      "name": "Vie-publique report 164000385",
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/164000385.pdf",
+      "why": "An earlier government report on the plan. It may contain the original 235,000 / 50,000-per-year target wording and mid-plan progress."
+    }
+  ],
+  "apify_requests": []
+}
+```

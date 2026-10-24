@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "The HANDLS solicitation (75N98026R00166) is confirmed: 600 samples on NovaSeq X Plus 25B-300, 30x, DRAGEN, with 'alternative platforms not accepted', posted 14 Sep 2026 and due 24 Sep 2026. It has no price, no award and no named incumbent. The NIH OD Broad sickle-cell sole source (75N98026Q00368, posted 15 May 2026, due 29 May) is a firm-fixed-price non-competitive order to Broad. I only saw it in a search snippet. The only value is an aggregator's own estimate of $0.5-2M on an assumed 250 samples, which is not official. The g2xchange/g2x pages returned 403, and SAM.gov returns only the shell text 'SAM.gov' to WebFetch. The USAspending API needs a POST, which WebFetch cannot send (a GET returned 405), and I have no shell tool in this session. So no award amounts or per-genome prices were retrieved, and no 2023-24 predecessor series was built. The NIAID 'WGS QTY 150' Broad bridge and the VA Broad order were not reached.",
+  "how_to_mine": "Run the POST to https://api.usaspending.gov/api/v2/search/spending_by_award/ from a script. Filter award_type_codes to purchase orders and contracts, with keywords 'whole genome sequencing' and 'WGS', recipients Broad Institute, Psomagen, Macrogen and Novogene, and fiscal years 2023-2026. Pull Award ID, Recipient Name, Award Amount and Description. Then fetch each award's transactions and base-and-all-options value from /api/v2/awards/<id>/. Divide the amount by the sample counts in the solicitation PDFs. The Sol_75N98026Q00368.pdf attachment is on SAM.gov, and a browser fetch may work. Check whether the HANDLS award lands in Q4 2026 (the response date has passed, so an award is likely by about Nov 2026). Also look at highergov.com award pages for the 75N98026 prefix, which show amounts without a login.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "NIH awarded Illumina a new $90M ceiling consumables vehicle in May 2026, and only about 6% of it is used.",
+      "detail": "HigherGov lists IDV 75N98026D00035, 'Illumina Reagents and Consumables Provided Under EO 14398', awarded by NIH OLAO and funded by NHGRI. It starts on 21 May 2026 and has a 5-year ordering period to 2031. Obligations were $5.35M as of 8 Oct 2026. Unit prices are not shown ('Order Dependent'). The vehicle is a federal buyer-side contract with a ceiling that could carry negotiated pricing. The pricing terms need the underlying contract or the EO 14398 text to check for discounts.",
+      "url": "https://www.highergov.com/idv/75N98026D00035/",
+      "date": "2026-10-08",
+      "source_name": "HigherGov (NIH OLAO contract record)",
+      "source_type": "procurement",
+      "quote": "Illumina Reagents and Consumables Provided Under Eo 14398",
+      "strength": "weak",
+      "why_new": "This federal ordering vehicle and its EO 14398 basis are not in the known list; I did not check its pricing terms."
+    }
+  ],
+  "new_candidates": [
+    "Executive Order 14398 and NIH IDV 75N98026D00035: find the text and any price-protection or discount terms in the Illumina vehicle (HigherGov, SAM.gov, Federal Register).",
+    "samsearch.co closed NIH solicitations 75N98026Q00655 (NextSeq 2000) and 75N98026Q00652 (Ultima): possible NIH purchase-order prices and a read on how NIH is buying Ultima.",
+    "bidbanana.thebidlab.com 'NOI - Whole Genome Sequencing-Sickle Cell Patient' and g2xchange 'Q-- NGS services to support clinical research' (bdf70f2c-...): sibling federal WGS orders that may state sample counts or values."
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,83 @@
+Genome Sciences Research Core Facility Services and Rates - Genome Sciences Core - Wayne State University
+Skip to page menu
+Skip to menu
+Skip to main content
+Login
+Search
+Search:
+Search
+GSC
+Genome Sciences Core
+Menu
+Services Provided
+Pricing
+Contact Information
+Pricing
+Genome Sciences Research Core Facility Services and Rates
+| RATES |
+| | External |
+Services Available | Internal | Non-Profit | Commercial |
+ISOLATIONS
+DNA or RNA Isolation (blood, cells, tissue, saliva)
+| $20 | $22 | $24 |
+DNA Isolation Dried Blood Spots | $30 | $33 | $36 |
+DNA or RNA Isolation FFPE | $30 | $33 | $36 |
+| | | |
+| | | |
+Library Prep
+3' mRNA-seq (primed from poly A)
+| $60 | $65 | $70 |
+RNA-seq | $130 | $140 | $155 |
+Whole genome sequencing (PCR free) | $50 | $55 | $60 |
+WGBS-seq (Methyl-seq) | $125 | $135 | $150 |
+scRNA-seq | $2,000 | $2,200 | $2,400 |
+exome sequencing, 16S metagenomics, miRNA-seq | *pricing based on volume |
+| | | |
+MiSeq flow cells:
+|
+| | |
+Nano v2 300 cycle (1 M reads) | $440 | $465 | $490 |
+Nano v2 500 cycle (1 M reads) | $500 | $530 | $560 |
+Micro v2 300 cycle (4 M reads) | $625 | $700 | $775 |
+v2 300 cycle (15 M reads) | $1320 | $1400 | $1480 |
+v2 500 cycle (15 M reads) | $1475 | $1565 | $1655 |
+v3 (600 cycle; 25 M Paired-end reads) | $1950 | $2100 | $2250 |
+NovaSeq (SP, S1 and S2 each have 2 lanes; S4 has 4 lanes)
+SP flow cell (650-800 M single-end reads; 1.3-1.6 B paired end reads):
+| | | |
+100 cycle | $2600 | $2750 | $2900 |
+200 cycle | $3400 | $3550 | $3800 |
+300 cycle | $4150 | $4275 | $4400 |
+500 cycle | $5200 | $5500 | $5800 |
+S1 flow cell (1.3-1.6 B single-end reads; 2.6-3.2 B paired-end reads):
+|
+|
+|
+|
+100 cycle | $4700 | $5000 | $5300 |
+200 cycle | $5190 | $5345 | $5500 |
+300 cycle | $6250 | $6500 | $6750 |
+S2 flow cell (3.3-4.1 B single-end reads; 5.6-6.6 B paired-end reads):
+|
+|
+|
+|
+100 cycle | $8600 | $8800 | $9100 |
+200 cycle | $10,500 | $10,800 | $11,100 |
+300 cycle | $11,200 | $11,600 | $12,000 |
+S4 flow cell (8-10 B single-end reads; 16-20 B paired-end reads):
+| | |
+|
+200 cycle | $15,100 | $15,500 | $16,000 |
+300 cycle | $17,000 | $17,300 | $17,600 |
+Unless otherwise requested, core prepared libraries will be multiplexed with compatible projects for sequencing. A percentage of the flow cell will be charged as determined. |
+| | | |
+Other Services
+Bioinformatics
+| $100/hr | $110/hr | $120/hr |
+EPIC Methylation Array | $300 | $300 | $350 |
+Quantitative rt-PCR or SNP Genotyping | *Pricing based on volume |
+Service requests may be placed through the Genome Sciences Core request form on the iLab core management system site at https://waynestate.ilab.agilent.com/service_center/show_external/2923/genome_sciences_core_gsc or by emailing genomicscore@wayne.edu
+* For more information on volume pricing contact Katherine Gurdziel, Ph.D. Operations and Bioinformatics - Genome Sciences Core - gurdziel@wayne.edu (313) 577 -1002
+Genome Sciences Core
+Wayne State University

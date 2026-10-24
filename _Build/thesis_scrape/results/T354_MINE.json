@@ -1,0 +1,130 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Aachen University Hospital bought an Element AVITI benchtop sequencer in 2026 by negotiated procedure with no competition, while it also services a NovaSeq 6000.",
+      "detail": "TED notice 318692-2026 (8 May 2026) covers an AVITI short-read benchtop sequencer. It was a negotiated procedure without a prior call for competition, linked to earlier notice 52560-2026, and the award criterion was price alone. Separately, the same hospital published a NovaSeq6000 maintenance award on 10 Mar 2026. So a clinical-academic site is adding Element next to a 6000 it still maintains. This is search-snippet level only. The TED PDF fetch returned empty, and I saw no value or winner.",
+      "url": "https://ted.europa.eu/en/notice/318692-2026/pdf",
+      "date": "2026-05-08",
+      "source_name": "TED (EU Publications Office) via search snippet; auftragone mirror for the maintenance notice",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known file covers Element wins at UK and Czech universities and an AVITI buyer list, but not Aachen (hospital) or its 6000 maintenance plus AVITI combination."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Several more European academic and medical buyers have bought AVITI-class systems in the past year, each at roughly €290–300K.",
+      "detail": "MedUni Innsbruck (Neuropathology) awarded an Element AVITI system for €293,439 ex-VAT (tender V24-18r). Leiden UMC filed a voluntary transparency notice for an AVITI24 (L-EU-25-20, 7 Nov 2025). Helsinki reportedly stated the AVITI24 was the only instrument meeting its mid-output requirements. All are single-instrument awards of €290–300K. Combined with the Aachen buy, this is a repeated low-volume, mid-throughput pattern, not a flow-cell displacement. I opened the Innsbruck page but not the Leiden or Helsinki sources; those come from a search summary.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8884f11e-e157-43c5-96c6-bd6e7d923b63",
+      "date": "2025-11 to 2026",
+      "source_name": "EU Publications Office tender record (Innsbruck); TenderNed (Leiden), BidSonar (Helsinki) via search",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds three named European buyers (Innsbruck €293K, Leiden, Helsinki) beyond the Edinburgh, NHM and Czech AVITI buys already known."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Helmholtz Munich, a large research centre, keeps awarding NovaSeq X kits to Illumina by price-only or no-competition procedures, so no visible discount pressure.",
+      "detail": "Procurement 4500217555 (awarded Dec 2024) for 'various NovaSeq X kits' went to Illumina GmbH on a '100% price' basis, with a placeholder value of €1 (a framework, so the real price is not visible). On 19 Aug 2026 it published 'div. NovaSeq X Series 10B Reagent Kits' as a negotiated procedure without prior publication, with Illumina as the counterparty. The 2026 buy is the 10B flow cell, not the 25B, which fits the high within-X premium seen at cores. No quantity or value is disclosed, so it gives no price data.",
+      "url": "https://www.helmholtz-munich.de/en/newsroom/news-all/artikel/div-novaseq-x-series-10b-reagent-kits-1",
+      "date": "2026-08-19",
+      "source_name": "Helmholtz Munich procurement notice; EU Publications Office record",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A named German research centre buying 10B kits sole-source in Aug 2026. The known file has CIBER and IDIBAPS tenders but nothing on Helmholtz."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Swiss and Danish public buyers purchased NovaSeq X Plus systems from Illumina without competitive tension in 2025–26, so opaque pricing is the norm.",
+      "detail": "Univ. of Bern Vetsuisse NGS platform awarded 'NovaSeq X Plus including 1-year service' to Illumina Switzerland by direct award (closed 12 Mar 2026). The University of Copenhagen bought an X Plus by negotiated procedure without publication for USD 2,878,114 (awarded 28 Feb 2025). Both are 100% Illumina wins on non-competitive procedures. Copenhagen's value is a system, not consumables.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+      "date": "2025-02-28 / 2026-03-12",
+      "source_name": "EU Publications Office; tenderlift.ch (Bern)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies two instrument awards ($2.88M Copenhagen; Bern direct award). The known file covers UK and Czech consumables buying but not these."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The University of Copenhagen's 2025 X Plus purchase replaces both a NovaSeq 6000 and a NextSeq 500, which is a 6000-to-X conversion in progress at a European university.",
+      "detail": "Notice 197476-2025 states the X Plus 'upgrades' and replaces the older NovaSeq 6000 and NextSeq 500. The USD 2.878M price covers the system as a single kit. A 6000 retired in 2025 with no sign of dual-running in the notice. This is consistent with the Turku and Missouri replacement pattern already known, so it adds one more dated retirement and little else.",
+      "url": "https://ted.europa.eu/da/notice/197476-2025/pdf",
+      "date": "2025-03-27",
+      "source_name": "TED notice 197476-2025 (OJ S 61/2025)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds a Copenhagen retirement of a 6000 and NextSeq 500 to the known Turku, Dana-Farber and Novogene examples."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Palacký University Olomouc set up a dynamic purchasing system in April 2026 for sequencing chemistry, so each future kit order is competed.",
+      "detail": "The 8 Apr 2026 contract notice covers sequencing chemistry for NGS systems, DNA/RNA isolation kits and antibodies. Orders are placed through later competitions, with no committed volume or platform named. Competed call-offs let a public lab shop NovaSeq X, AVITI or MGI kits against each other, and that structure favours discounting. The article gives no value or quantity.",
+      "url": "https://www.tenderlake.com/news/article/406/university-launches-tender-for-next-generation-sequencing-reagents",
+      "date": "2026-04-08",
+      "source_name": "TenderLake (reporting the Czech notice)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known file lists Czech and Baltic framework buys, but not this DPS structure with competed call-offs."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Japanese national universities buy sequencers and kits through reverse-auction tenders, and the University of Tokyo issued three sequencing-related tenders in July–August 2026.",
+      "detail": "Tokyo notices: no. 21 (13 Jul 2026, 'next-generation sequencer set', delivery 26 Feb 2027), no. 32 (3 Aug 2026, 'high-precision short-read sequencer set', delivery 30 Oct 2026) and no. 36 (12 Aug 2026, library-prep kits on a unit-price contract to Mar 2029). All three use a reverse-auction system, and the platform vendor is not named in the page I opened (JETRO notice, item A). Osaka's Research Institute for Microbial Diseases lists X 10B kits (10 sets, Dec 2023) and, in a later notice, 10B (10) plus 25B (6), from a search summary I could not verify because the PDF would not parse. This is thin: no awards or prices were visible.",
+      "url": "https://www.jetro.go.jp/gov_procurement/national/articles/399889/2026080300390003.html",
+      "date": "2026-08-03",
+      "source_name": "JETRO government procurement database; Univ. of Osaka procurement PDFs",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Opens a Japanese university procurement channel not in the known file, other than the Osaka Sept 2026 MGI-plus-Illumina notice."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "TED PDFs return empty through this fetch tool, and HTML versions did too. Only op.europa.eu record pages parse, and they give a buyer, winner and sometimes a value but usually no quantities, so I could not compute any price per flow cell. Nearly every 2026 Illumina award is a sole-source or direct award with a redacted or placeholder value. Osaka PDFs are compressed and unreadable. I found no MGI, Ultima or Roche university award in Europe or the UK, and no 2026 UK award for X consumables. Remaining: Contracts Finder and Find a Tender have no usable search through this tool.",
+  "leads": [
+    {
+      "name": "Med Uni Graz NovaSeq X Plus award (est. €954,498)",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/0795fa24-fb23-4d98-9e9e-c39d41cc17f9",
+      "access": "open",
+      "labels": ["1A", "1B"],
+      "rationale": "Dec 2024 estimated system value, a reference point for X Plus instrument pricing in Europe."
+    },
+    {
+      "name": "Barcelona research foundation NovaSeq X Plus sequencing services tender (TED 2026, lots)",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/82539bd1-c283-4e74-9e35-9a9b59525d08",
+      "access": "open",
+      "labels": ["1B", "2B"],
+      "rationale": "Per-lot service tenders could give a per-Gb or per-sample price from bids."
+    },
+    {
+      "name": "Riga Stradiņš NGS platform award to Nova natura (€109,671)",
+      "url": "https://bidsfactory.com/en/tenders/jaunas-paaudzes-sekvencesanas-ngs-platformas-iegad-ted-a9f77a9b4e6ce849",
+      "access": "open",
+      "labels": ["2B"],
+      "rationale": "Platform not stated; may be a non-Illumina buy."
+    },
+    {
+      "name": "Cologne West German Genome Center NovaSeq 6000 chemistry (€1.66M, 2023)",
+      "url": "https://ted.europa.eu/en/notice/458387-2023/pdf",
+      "access": "TED PDF returns empty; try the op.europa.eu mirror",
+      "labels": ["1A"],
+      "rationale": "A baseline for 6000 chemistry spend at a large genome centre, to compare with any 2025–26 renewal."
+    }
+  ],
+  "apify_requests": []
+}
+```

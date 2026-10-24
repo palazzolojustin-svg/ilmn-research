@@ -1,0 +1,43 @@
+```json
+{
+  "status": "dry",
+  "notes": "The KBV/G-BA national GOP 01870 counts per year or quarter are not published in any open page I could reach. About 6 calls used. The G-BA/KBV decision PDFs and the bifg journal PDF came back as compressed binary, and I had no PDF text extractor (Bash is disabled and the Read PDF renderer needs poppler). So Table 2 (quarterly frequencies) and the body of the BA-833 evaluation were not read. What I did get is secondary: the BA-833 decision (March 2026) cuts the GOP 01870 fee from 1642 to 1326 points (about -19%) from 1 Jul 2026, after the Institut des Bewertungsausschusses evaluation found use 'significantly more often than expected' and concentrated in 20 labs. The bifg paper in Gynäkologische Praxis 2026 (gp-054-01, March-April 2026) reports 55,441 NIPTs, 301,945 consultations (01789) and 1,037 post-positive consultations (01790) in its observed pregnancy cohort. It also reports uptake in 2025 of about 1 in 3 pregnant women under 26 and about 1 in 2 under 36, with a rising trend in all age groups. Those figures come from search-result snippets, not from a document I read. Direction for Germany: NIPT use is still rising (Barmer 32% in 2023 to ~50% in 2024, and 2025 age data show further rises). This cuts against the 'NIPT maturing' leg of 1C in Germany. The statutory fee cut is a small supporting signal on price deflation in the test chain, but it is not Illumina's price.",
+  "how_to_mine": "1) Download the PDFs and extract text locally, for example with pypdf or pdftotext: https://www.bifg.de/media/dl/Journals/gynaekologische_praxis_2026.pdf (Table 2, quarterly service frequencies per 01870/01789/01790, cohort definition and denominator) and https://www.kbv.de/documents/infothek/rechtsquellen/bewertungsausschuss/ebm/2026/ba-833-teil-b-neugeborenen-screening.pdf (the evaluation section, the Tragende Gründe, may quote national counts or expenditure). 2) Look for the Institut des Bewertungsausschusses evaluation report on institut-ba.de, searching 'Evaluationsbericht NIPT 01870'. 3) The G-BA NIPT monitoring statement is at https://www.g-ba.de/downloads/17-98-5769/2024-10-07_PA_AfG_G-BA_Stellungnahme_NIPT-Monitoring.pdf; it may hold GKV test counts or the EUR 60M expenditure figure. 4) Check Bundestag Drucksache 21/3873 and any Bundesregierung answer to a Kleine Anfrage on NIPT numbers. 5) Check KBV Honorarbericht or Trendreport tables for GOP 01870 Leistungsmenge. Compute test counts divided by about 680K births (GKV about 88%) to get penetration.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "German NIPT use under statutory insurance is still rising into 2025, not maturing.",
+      "detail": "A bifg analysis (Gynäkologische Praxis 2026, search snippet only) reports 2025 uptake of roughly 1 in 3 pregnant women under 26 and about 1 in 2 under 36, with the trend rising in all age groups. Its observed cohort had 55,441 NIPTs (GOP 01870) against 301,945 NIPT consultations (01789), a ratio that suggests many consultations do not become tests. This extends the known 32%->50% (2023->2024) Barmer figure into 2025, but Table 2 was not read, so the quarterly growth rate is unverified.",
+      "url": "https://www.bifg.de/media/dl/Journals/gynaekologische_praxis_2026.pdf",
+      "date": "2026-04",
+      "source_name": "bifg / Gynäkologische Praxis",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds 2025 age-band uptake and cohort service counts, not the earlier 32%->50% figure."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The German NIPT fee was cut about 19% from 1 Jul 2026 to track falling test costs, and the test is concentrated in 20 labs.",
+      "detail": "Bewertungsausschuss decision 833 lowers GOP 01870 from 1642 to 1326 points, effective 1 Jul 2026. The decision cites the Institut des Bewertungsausschusses evaluation: use is 'significantly more than expected', done in 20 labs, and the fee is adjusted to current test costs. This points to lab-level unit cost deflation and buyer concentration, which fits the large-account leverage argument. It does not show an Illumina price effect, and the payer cut could also squeeze lab margins.",
+      "url": "https://www.kvhessen.de/fileadmin/user_upload/kvhessen/Mitglieder/Abrechnung_Honorar/EBM-AENDERUNGEN_01072026_GOP_01870_abgesenkt_Beschluss_BA_833_Teil_B.pdf",
+      "date": "2026-03",
+      "source_name": "KV Hessen / Bewertungsausschuss BA 833",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Not in the known list: a payer-mandated 19% German NIPT fee cut and the 20-lab concentration."
+    }
+  ],
+  "new_candidates": [
+    "institut-ba.de Evaluationsbericht GOP 01870, with national counts",
+    "G-BA NIPT-Monitoring Stellungnahme (Oct 2024) PDF, with GKV counts and the EUR 60M figure",
+    "KBV Honorarbericht / Trendreport quarterly Leistungsmenge for 01870 and 01789",
+    "Bundestag Kleine Anfrage answers on NIPT numbers (Drucksache 21/3873 context)"
+  ],
+  "apify_requests": []
+}
+```

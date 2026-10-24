@@ -1,0 +1,202 @@
+Library Prep & Genome Sequencing Fees | Iowa Institute of Human Genetics - Carver College of Medicine | The University of Iowa
+Skip to main content
+The University of Iowa
+Carver College of Medicine
+Iowa Institute of Human Genetics
+Search
+Submit Search
+Search
+Site Main Navigation
+About us
+IIHG Leadership
+Faculty Members
+Bioinformatics and Biostatistics Division
+Services and Pricing
+Tools we use
+Publications
+Acknowledgements
+Meet our team
+Genomics Division
+About Genomics Division
+Genome Sequencing
+Library Prep & Genome Sequencing Fees
+Library Prep Workflows
+Sequencers
+Long Read Sequencing
+Low coverage WGS (genotyping by sequencing)
+|
+TBD
+|
+inquire
+|
+inquire
+|
+Genome Sequencer Fees
+effective March 1, 2025
+Element AVITI24
+Flow Cell
+|
+~Reads/Lane
+(Million)
+|
+~Yield/Lane
+(Gigabase)
+|
+ui cost
+per lane
+|
+ui cost
+per flow cell*
+|
+external cost
+per lane
+|
+external cost
+per flow cell*
+|
+150 cycle (2x75 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+Cloudbreak FS-Low output
+|
+500-750 M
+250-375 M
+50-75 M
+|
+75-112.5 GB
+37.5-43.5 GB
+7.5-11.25 GB
+|
+$688
+$1,388
+$1,317
+|
+|
+|
+|
+|
+|
+|
+|
+300 cycle (2x150 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+Cloudbreak FS-Low output
+|
+500-750 M
+250-375 M
+125-187.5 M
+|
+150-225 GB
+75-125.5 GB
+37.5-56.25 GB
+|
+$1,042
+$1,245
+$921
+$791
+|
+$2,488
+$1,841
+$1,579
+|
+| | | | | | |
+600 cycle (2x300 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+|
+250-300 M
+75-100 M
+|
+150-180 GB
+45-60 GB
+|
+NA
+NA
+|
+$2,631
+$2,013
+|
+NA
+NA
+|
+$3,242
+$2,540
+|
+*150 and 300 cycle flow cells have two lanes, and the 600 cycle has one.
+Illumina MiSeq
+flow cell/run CONFIGURATION
+|
+Reads (Clusters)
+|
+Yield
+|
+Campus Rate
+|
+Off-Campus Rate
+|
+MiSeq Standard Flow Cell |
+50 Cycle (50 bp SR / 25 bp PE)
+|
+12-15 M
+|
+750-850 Mb
+|
+$1,254
+|
+$1,304
+|
+150 Cycle (150 bp SR / 75 bp PE)
+|
+22-25M
+|
+3.3-3.8 Gb
+|
+$1,467
+|
+$1,567
+|
+300 Cycle (300 bp SR / 150 bp PE)
+|
+12-15M
+|
+4.5-5.1 Gb
+|
+$1,791
+|
+$1,891
+|
+500 Cycle (250 bp PE)
+600 Cycle (300 bp PE)
+|
+22-25 M
+|
+13.2-15 Gb
+|
+$2,547
+|
+$2,747
+|
+MiSeq Micro Flow Cell |
+300 Cycle (300 bp SR / 150 bp PE)
+|
+4M
+|
+1.2 Gb
+|
+$689
+|
+$739
+|
+MiSeq Nano Flow Cell |
+300 Cycle (300 bp SR / 150 bp PE)
+|
+1M
+|
+300 Mb
+|
+$503
+|
+$553
+|
+500 Cycle (250 bp PE)

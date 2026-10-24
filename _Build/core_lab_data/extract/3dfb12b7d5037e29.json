@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "DNA Sequencing Core (UW Biotechnology Center)",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X Plus 10B (Billion) flowcell, single lane",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 2050,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 1.25,
+   "stated_output_unit": "B_reads",
+   "line_quote": "a lane on the UWBC's NovaSeq X Plus 10B flowcell delivering 1.25 billion 2×150 reads is priced at $2,050"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X Plus 10B flowcell, partial-lane read package",
+   "unit": "other",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": null,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 1025,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 450,
+   "stated_output_unit": "M_reads",
+   "line_quote": "450M reads cost just $1,025"
+  }
+ ],
+ "_model": "haiku"
+}

@@ -1,0 +1,73 @@
+Les tarifes són sense IVA inclòs. El preu es veurà incrementat amb l'IVA aplicable d'acord amb la legislació vigent.  
+Descripció 
+(*) 
+Unitats Usuaris interns Usuaris externs 
+Públics 
+Usuaris 
+externs 
+Privats 
+SERVEIS DE PROTEÒMICA _ No ofertat No ofertat No ofertat 
+Preparació de mostra a Mostra Consultar Consultar Consultar 
+1D-SDS-PAGE Gel Consultar Consultar Consultar 
+Immunodetecció per Western Blot: transferència a membrana, 
+immunodetecció (no inclou anticossos), tinció de la membrana 
+amb cromófors i adquisició de imatges 
+Gel Consultar Consultar Consultar 
+2D-SDS-PAGE Gel Consultar Consultar Consultar 
+Anàlisi proteòmic d'alt rendiment plataforma Olink Reveal: placa de 
+86 mostres Mostra 174,00 200,10 220,00 
+SERVEIS DE GENÒMICA _ No ofertat No ofertat No ofertat 
+Preparació de mostra a Mostra Consultar Consultar Consultar 
+Extracció àcids nucleics a Mostra Consultar Consultar Consultar 
+Quantificació àcids nucleics: Nanodrop, Qubit  b Mostra Consultar Consultar Consultar 
+Síntesi de cDNA b Unitat Consultar Consultar Consultar 
+PCR convencional bd Unitat Consultar Consultar Consultar 
+Electroforesi d'ADN Gel Consultar Consultar Consultar 
+Seqüenciació massiva NGS Metagenòmica: construcció llibreria 
+Illumina Metagenome Amplicon  
+Llibreria 25,00 29,00 33,00 
+Seqüenciació massiva NGS WGS: construcció llibreria Illumina 
+Truseq Nano DNA  
+Llibreria 55,00 63,80 72,60 
+Seqüenciació massiva NGS WGS: construcció llibreria Illumina 
+Nextera DNA XT  
+Llibreria 45,00 52,20 59,40 
+Seqüenciació massiva NGS: Illumina MiSeq Sequencing 300PE (1 
+Flow Cell)  
+Flow Cell 
+ 2.500,00 2.900,00 3.300,00 
+PROTEÒMICA I GENÒMICA 
+ÀMBIT CIÈNCIES DE LA SALUT 
+TARIFES DELS SERVEIS CIENTIFICOTÈCNICS 
+Les tarifes són sense IVA inclòs. El preu es veurà incrementat amb l'IVA aplicable d'acord amb la legislació vigent.  
+Seqüenciació massiva NGS: Illumina MiSeq i100 Plus Sequencing 
+(300PE, 0.06Gb, 200K reads/spl)  
+Mostra 
+ 50,00 58,00 66,00 
+Seqüenciació massiva NGS: Illumina Novaseq X 150PE (150x2bp) 
+2 Gb/spl  
+Mostra 15,00 17,40 19,80 
+Seqüenciació massiva NGS: Illumina Novaseq X 150PE (150x2bp) 
+5 Gb/spl  
+Mostra 30,00 34,80 39,60 
+Seqüenciació massiva NGS: Illumina Novaseq X 150PE (150x2bp) 
+9 Gb/spl  
+Mostra 50,00 58,00 66,00 
+Seqüenciació massiva NGS: Illumina Novaseq X 150PE (150x2bp) 
+33 Gb/spl  
+Mostra 170,00 197,20 224,40 
+Seqüenciació massiva NGS: Illumina NovaSeq X 25B (150PE) 1 
+lane (900Gb/lane)  
+Lane 3.095,80 3.591,13 4.087,13 
+Seqüenciació massiva NGS: Illumina NovaSeq6000 S4 lane 150 
+PE (720 Gb/lane)  Lane 5.300,00 6.148,00 7.000,00 
+Seqüenciació massiva NGS: preu emmagatzematge de dades 
+segons temps i Gb.  
+Consultar Consultar Consultar Consultar 
+PCR en temps real (RT-PCR): genotipat d'SNPs, expressió 
+gènica, miRNA, CNV,.. Projecte Pressupost Pressupost Pressupost 
+PCR en temps real (RT-PCR): utilització en autoservei de 
+l'equip de PCR en temps real, bloc 96 
+c 
+Assaig 5,22 8,34 11,46 
+PCR en temps real (RT-PCR): utilització en autoservei de 

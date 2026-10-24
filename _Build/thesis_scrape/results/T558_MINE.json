@@ -1,0 +1,66 @@
+Status: the ENA center-level cut doesn't work with the tools I have, so I'm stopping and reporting what I found. I only have WebFetch, with no shell, so I could run count queries but not stream and sum the data.
+
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "The ENA center_name field is too inconsistent to build the 25-research-center Q3'25 vs Q3'26 platform panel, so the volume-flat and rival-share test for research cannot be run through this field.",
+      "detail": "Wildcard count queries for Q3'26 NovaSeq 6000 runs returned 0 for *BROAD* and 0 for *HARVARD*. *STANFORD* returned 5,032 in Q3'26 against 4 in Q3'25, which looks like one series being released rather than a trend. Stanford had 0 X or X Plus runs in both quarters, and Harvard had 20 X Plus runs in Q3'26 and 0 in Q3'25. A 300-row sample of September 2026 X Plus runs showed submitter-style labels such as ICR, I2SysBio, 'Novikova Lab' and 'SUB14691784'. Large US academic centers mostly deposit under generic labels, and 'GEO' alone held 1,874 Q3'26 6000 runs. A per-center ranking would need base_count summed in Python, with centers grouped by their submitter labels.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model%3D%22Illumina%20NovaSeq%206000%22%20AND%20center_name%3D%22*STANFORD*%22%20AND%20first_public%3E%3D2026-07-01%20AND%20first_public%3C%3D2026-09-30",
+      "date": "2026-10-12",
+      "source_name": "ENA Portal API (count endpoint)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a method finding on what the ENA center field can and cannot show. It is not a number the thesis already holds."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In ENA run counts for Q3'26 (releases 1 Jul to 30 Sep 2026), the X-family runs are about 24% of 6000 plus X-family runs, so the 6000 is still about three-quarters of public NovaSeq run releases.",
+      "detail": "Q3'26 counts were NovaSeq 6000 511,741, NovaSeq X 72,572 and NovaSeq X Plus 90,866, so X-family runs total 163,438. Share = 163,438 / (511,741 + 163,438) = 24.2%. This matches the earlier SRA finding of about 73% 6000 (F593) and adds no new information on conversion. Run counts also lag Illumina's own Gb mix.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model%3D%22Illumina%20NovaSeq%20X%20Plus%22%20AND%20first_public%3E%3D2026-07-01%20AND%20first_public%3C%3D2026-09-30",
+      "date": "2026-10-12",
+      "source_name": "ENA Portal API (count endpoint)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It only confirms F593 and F596 with a second endpoint and the X Plus model string, so it adds little."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Element AVITI had 10,684 ENA run releases in Q3'26, about 2% of the 6000 count, which is consistent with a small but growing rival footprint.",
+      "detail": "The AVITI count of 10,684 matches the SRA figure of 10,838 in F609 within about 1.5%, so ENA mirrors SRA and gives no independent read. The ratio to 6000 runs is 10,684 / 511,741 = 2.1%.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model%3D%22Element%20AVITI%22%20AND%20first_public%3E%3D2026-07-01%20AND%20first_public%3C%3D2026-09-30",
+      "date": "2026-10-12",
+      "source_name": "ENA Portal API (count endpoint)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It adds only the cross-check that ENA mirrors SRA and the 2.1% ratio."
+    }
+  ],
+  "source_status": "dry",
+  "notes": "Count endpoints with wildcard center_name work, but the center_name field is free-text and inconsistent, so major US academic centers (Broad, Harvard, Stanford) show near-zero or lumpy counts. WebFetch cannot sum base_count over more than about 300 to 1,000 rows. To finish the task, a Python run is needed: stream tsv per month with fields center_name, first_public, base_count, instrument_model for the 6000, X, X Plus, AVITI, UG 100 and DNBSEQ-T7, normalise center_name, and rank the top 25. Alternatively, join to the BioSample or SRA submitter field. The sandbox has no Python available to me.",
+  "leads": [
+    {
+      "name": "ENA read_run streamed TSV by month, with Python",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model%3D%22Illumina%20NovaSeq%206000%22%20AND%20first_public%3E%3D2026-07-01&fields=center_name,first_public,base_count,instrument_model&format=tsv&limit=0",
+      "access": "free, no login, needs a shell or Python",
+      "labels": ["1A", "2A", "2B"],
+      "rationale": "It would give per-center Gb by platform, which a count-only fetch cannot."
+    },
+    {
+      "name": "NCBI SRA metadata (RunInfo) with submitter organisation",
+      "url": "https://www.ncbi.nlm.nih.gov/sra",
+      "access": "free, via the Entrez efetch runinfo endpoint",
+      "labels": ["2B", "1A"],
+      "rationale": "It carries a cleaner submitter and center field than ENA for the US centers, so the center panel would work there."
+    }
+  ],
+  "apify_requests": []
+}
+```

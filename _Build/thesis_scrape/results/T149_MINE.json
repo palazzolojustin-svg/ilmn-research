@@ -1,0 +1,123 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "By Mar 2026 Roche had posted installation and field-service roles for AXELIOS in the Nordics and the UK/Ireland, so a customer-facing build-out was under way before the 29 Jun 2026 launch.",
+      "detail": "A Field Service Engineer (SBX sequencing technology) role, listed for the Nordics and posted 2026-03-03, covers installing and commissioning new platforms 'from checking the customer's technical infrastructure through final handover'. It also covers travel across EMEA-LATAM. A separate UK/Ireland 'Technical Specialist' field-service post for the 'new Axelios Sequencing System' (NHS, university labs, private service providers) was removed 28 Feb 2026. Neither post states unit counts. This is directionally supportive for 2B only, and it shows Roche investing ahead of revenue.",
+      "url": "https://jobbsafari.se/jobb/field-service-specialist-scsom-20051627",
+      "date": "2026-03-03",
+      "source_name": "jobbsafari.se mirror of Roche posting; builtinlondon.uk mirror",
+      "source_type": "jobs",
+      "quote": "the guarantor of maximum system uptime in our customers' laboratories",
+      "strength": "weak",
+      "why_new": "Known file lists Roche hiring generally (F182). This adds dated, country-level field-service posts (Nordics, UK/Ireland) tied to SBX/AXELIOS."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Roche is building a customer-facing bioinformatics organization around AXELIOS and is hiring a senior manager at $170.5K–$316.6K.",
+      "detail": "A Roche Sr. Manager, Bioinformatics post was dated 18 Jun 2026, 11 days before launch, and has since expired. It pays $170,500–$316,600 in the US. Aggregator text says the hire is the 'primary executive-level technical contact for new customers' and manages customer-facing bioinformatics scientists and solutions architects. The role is based in Santa Clara or San Diego and is tied to the XOOS open-source tool ecosystem. A senior-manager-level customer-facing team implies Roche expects enough accounts to need a managed team.",
+      "url": "https://jobrxiv.org/job/sr-manager-bioinformatics/",
+      "date": "2026-06-18",
+      "source_name": "jobrxiv.org (Roche posting mirror); Built In SF",
+      "source_type": "jobs",
+      "quote": "Serve as the primary executive-level technical contact for new customers",
+      "strength": "weak",
+      "why_new": "Adds the post date (18 Jun 2026), the salary range and the team-management scope. Prior notes only name Roche bioinformatics hiring."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Roche has posted a Global Technical Product Manager role for AXELIOS inside Global Customer Support, which signals an on-market product support structure.",
+      "detail": "The Bay Area post pays $109,300–$203,100 and is described as supporting 'on-market products' with second-level troubleshooting. A Wilmington, MA 'Technical Customer Experience Manager' role runs customer visits and proof-of-concept studies showing AXELIOS 1 with KAPA library prep. Together they point to a support layer for post-launch customers and for converting evaluators. Neither post gives counts. These are search-result snippets, and the jobboardly page returned 404 when I tried to open it.",
+      "url": "https://xtalks.com/job/technical-customer-experience-manager-sequencing/",
+      "date": "2026",
+      "source_name": "xtalks.com / jobboardly aggregator (search snippet)",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Names two further AXELIOS support and pre-sales roles (Global TPM, Technical Customer Experience Manager) that are not in the known file."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Roche's research and early-development hiring is aimed at single-cell, spatial and protein-by-sequencing applications, which are the counting workloads where AXELIOS price per read would hit Illumina research volume.",
+      "detail": "The Pleasanton Principal Research Scientist II role (removed 21 Oct 2025; CA pay $108.4K–$201.2K) builds 'the application ecosystem for the Axelios Sequencing platform'. Desired experience is single-cell sequencing, protein detection by sequencing and spatial sequencing. A parallel Principal Scientist I Molecular Lab role develops assays on AXELIOS. The lead time shows Roche was building counting-type applications about 8 months before launch. It is qualitative and says nothing about pricing.",
+      "url": "https://builtin.com/job/principal-research-scientist-ii-sequencing-applications/7417983",
+      "date": "2025-10-21",
+      "source_name": "Built In (Roche posting); jobrxiv.org mirror",
+      "source_type": "jobs",
+      "quote": "build the application ecosystem for the Axelios Sequencing platform",
+      "strength": "weak",
+      "why_new": "The known file cites the 10x and single-cell partnership. This adds the dated job-description evidence that Roche is staffing single-cell, spatial and protein applications."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Roche is staffing sales in Asia-Pacific for sequencing, with a Seoul Technical Sales Specialist post dated 12 Mar 2026 and an April 2026 Seoul application-specialist post.",
+      "detail": "The Seoul Molecular Lab sales role covers 'targeted accounts that incorporate Roche's Sequencing portfolio'. The April 2026 Seoul Application Specialist role is Molecular Lab service and support. Both come from a resumegeni aggregator snippet, and neither is explicitly tagged AXELIOS. Roche said its launch covers North America plus 'select' Europe and APAC markets. This shows a country-by-country sales build, which is hard evidence only on the pace of the rollout.",
+      "url": "https://resumegeni.com/jobs/application-specialist-at-roche-seoul",
+      "date": "2026-04-08",
+      "source_name": "resumegeni.com (Roche Korea postings, search snippets)",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has no Roche APAC sales hiring."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Roche's open AXELIOS roles are few, clustered in R&D, support and the US, and mostly not sales, so the roles I found do not show a mass-market commercial push.",
+      "detail": "Across about 8 searches I found roughly 8 distinct Roche postings tied to AXELIOS or sequencing. They split by function as follows: R&D or applications 2, bioinformatics 1, field service 2 (Nordics, UK), product or customer support 2, sales 1 (Seoul, not AXELIOS-specific). The main sales roles found were not AXELIOS-tagged. Reuters-cited analyst Stefan Schneider expects a gradual ramp because of institutional tenders. This is a thin and incomplete aggregator sample, so it is a weak counterpoint.",
+      "url": "https://www.genomeweb.com/sequencing/roche-sets-sight-clinic-following-commercial-launch-axelios-1-sequencer",
+      "date": "2026-06-29",
+      "source_name": "GenomeWeb (search snippet); aggregators",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first function-by-function tally of AXELIOS-related postings. Prior notes list roles without a count."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's launch-date comparator shows its own list price is far above Roche's: NovaSeq X at about $985K–$1.25M against AXELIOS at $750K.",
+      "detail": "GenomeWeb and Reuters snippets give the AXELIOS 1 US list as $750,000 and about $150 per 30x duplex genome in a 16-genome run, with the sensor reused up to 20 times or for 90 days. Reuters puts NovaSeq X list at about $985K–$1.25M. The instrument is about 24% cheaper than the low end of the X range ($750K vs $985K). Analysts say the recurring consumable cost matters more than the instrument price. CNAG is reported as an early commercial customer.",
+      "url": "https://www.stockopedia.com/share-prices/illumina-NSQ:ILMN/news/roche-launches-axelios-gene-sequencer-in-a-bid-to-loosen-illumina-apos-s-grip-updated-019f12a9-b9cb-74c1-a6b6-72d35d2a29ad/",
+      "date": "2026-06-29",
+      "source_name": "Reuters via Stockopedia; GenomeWeb (search snippets)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has the $750K and $150 figures. It does not have the X instrument price range, so the 24% discount to the low end is new arithmetic."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The jobs data is thin and mostly qualitative. I could not open Roche's own careers site, so the monthly counts by function and country that the strategist asked for were not built. The aggregators carry no posting counts or timestamps beyond single dates. The Sr. Manager page had no job description, so the XOOS and customer-facing detail comes from search snippets. The jobboardly Global TPM page returned 404. GenomeWeb returned 403. The Illumina field-service comparison also failed, because the searches returned no count and no NovaSeq X-specific roles. A counted time series needs a heavy scraper on Roche's Workday site, but the payoff is small: field-service or sales counts do not map to $/Gb, so I did not request an Apify run.",
+  "leads": [
+    {
+      "name": "Roche careers (Workday) sequencing search",
+      "url": "https://careers.roche.com",
+      "access": "open, JS-heavy",
+      "labels": ["2B"],
+      "rationale": "Source of truth for counting AXELIOS and SBX postings by function and country over time."
+    },
+    {
+      "name": "CNAG early commercial AXELIOS customer",
+      "url": "https://www.genomeweb.com/sequencing/roche-sets-sight-clinic-following-commercial-launch-axelios-1-sequencer",
+      "access": "paywalled (403)",
+      "labels": ["2B", "1B"],
+      "rationale": "CNAG is named as an early AXELIOS buyer. CNAG's public price list (known: it raised 6000 prices about 4%) could show whether Illumina prices change after the AXELIOS install."
+    },
+    {
+      "name": "Illumina careers (Workday) Enterprise Pricing posts",
+      "url": "https://illumina.wd1.myworkdayjobs.com",
+      "access": "open",
+      "labels": ["1B"],
+      "rationale": "Counts of field service and applications postings, and dated pricing-function hires (see F181), to compare with Roche's build-out."
+    }
+  ],
+  "apify_requests": []
+}
+```

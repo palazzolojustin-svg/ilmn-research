@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I did not reach any NHS trust spend-over-£25k file with Illumina payment rows for the target trusts (GOSH, GSTT, Manchester, Birmingham, Leeds, Cambridge, Royal Marsden, Newcastle). I ran 3 searches and 2 fetches. Search results returned only 2018 Public Health England files (which do list Illumina Cambridge lines), a stale Central Manchester dataset page on data.gov.uk, and procurement notices. Trust files are scattered across individual trust sites and data.gov.uk, in inconsistent formats, and usually cover only a few years. Many Genomic Laboratory Hub trusts do not buy Illumina consumables directly. Purchases often go through distributors, NHS Supply Chain, or the lead GLH host. The half-year time series the probe wanted looks impractical to build cheaply. The one new datapoint is a UKHSA contract. It is a call-off from a framework for proprietary consumables, so it is multi-year framework ceiling spend and not a run-rate. I could not read the Contracts Finder page directly (403), so the bidsfactory mirror is the only source I saw. That mirror carries an internally inconsistent submission date.",
+  "how_to_mine": "1) Use data.gov.uk CKAN search (ckan.publishing.service.gov.uk) for each trust name plus 'spend over 25k', then download the CSV or XLSX files and filter the supplier column for ILLUMINA, ELEMENT BIOSCIENCES, OXFORD NANOPORE and distributors (Fisher, VWR, Cytiva). Sum by half-year. 2) Pull the UKHSA contract detail from Find a Tender or Contracts Finder (OCDS JSON API) and check for framework ceiling, term and extension options. 3) Search Find a Tender for GLH sequencing tenders, such as NHS England genomic sequencing procurement and the GOSH/GSTT library-prep notices. They may state expected annual consumables spend and unit prices. 4) Expect low yield: only trusts that buy direct will show rows, and the files often lack descriptions that separate consumables from instruments.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UKHSA awarded Illumina Cambridge a £12M framework call-off for proprietary consumables, which suggests institutional buyers still lock in Illumina on a fixed ceiling.",
+      "detail": "The notice was published 3 Dec 2025 and updated 19 Jun 2026. The reported ceiling is £12M and the end date is 30 Aug 2028. It was a call-off from a framework, so the pricing structure and discounts are not visible. The value is a ceiling and not spend, so it says nothing about volume growth or slowing. It is a weak datapoint on institutional contracting and is mildly against the idea of an imminent price collapse at public buyers. Its direction is ambiguous.",
+      "url": "https://bidsfactory.com/en/tenders/illumina-consumables-uk_contracts_finder-ffed3e2189e44127",
+      "date": "2025-12-03",
+      "source_name": "Contracts Finder (UKHSA) via bidsfactory mirror",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UKHSA £12M Illumina consumables call-off is not in the known procurement list (which had only Spanish tenders)."
+    }
+  ],
+  "new_candidates": [
+    "Find a Tender / Contracts Finder OCDS API: NHS England GLH sequencing consumables frameworks, with unit prices or annual-value estimates",
+    "UKHSA framework (£12M, to Aug 2028): look for the parent framework's pricing schedule or other call-offs by NHS bodies"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the PDF (4 pages, 197 KB) and read the full text. It is a marketing release with no price, $/genome, throughput figure, named early-access list, or shipping date. I did not follow the linked Roche pages because the release has no pricing content to chase, and the Roche Investor Day figures are already known. The only items not already in the exclusion list are the launch date of 29 Jun 2026, the 'global launch' framing, the RUO-only status, the 'research laboratories today, clinical in the future' positioning and the ~1500bp read-length claim. These are weak and only partly relevant to the thesis.",
+  "how_to_mine": "Not worth a deeper pass on this PDF. For AXELIOS pricing, look instead at the Roche Diagnostics AXELIOS product or ordering page, the Roche Investor Day deck (12 May 2026) and customer-side quotes or core-facility rate cards. The 'Roche Diagnostics web site' footnote link in the PDF may point to a specs page, which I did not open.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Roche positioned AXELIOS 1 at its 29 Jun 2026 global launch as a research-first RUO platform aimed at replacing existing technologies in research.",
+      "detail": "The release says AXELIOS 1 'holds promise for research laboratories today' and clinical use only 'potentially... in the future'. It says the platform has 'the potential to replace existing technologies in pivotal research areas'. The platform is RUO only, and the named launch collaborators are Hartwig Medical Foundation, Broad Clinical Labs and 10x Genomics (single-cell and spatial kits). The release gives no prices, $/genome, throughput or shipping dates.",
+      "url": "https://diagnostics.roche.com/content/dam/diagnostics/us/en/news-releases/pdf/pr-us-axelios-20260629.pdf",
+      "date": "2026-06-29",
+      "source_name": "Roche Diagnostics US media and investor release",
+      "source_type": "press",
+      "quote": "potential to replace existing technologies in pivotal research areas",
+      "strength": "weak",
+      "why_new": "This is the primary-source launch release and confirms a research-first target. The known list has the AXELIOS buyers and Investor Day pricing but not this launch positioning."
+    }
+  ],
+  "new_candidates": [
+    "Roche Diagnostics AXELIOS product or ordering page (the 'Roche Diagnostics web site' footnote link), for the consumable list price, run output and shipping terms.",
+    "Roche 'free open-source XOOS' analysis suite and DeepVariant support. This lowers the total workflow cost for AXELIOS buyers and could be tracked as a bundling point against Illumina."
+  ],
+  "apify_requests": []
+}
+```

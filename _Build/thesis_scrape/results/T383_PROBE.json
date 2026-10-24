@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "Only ~3 tool calls used. Searches turned up the same core rate cards already in the exclusion list (Salk, UCLA, TGen, UConn, Rush, EPFL, Novogene). I found no 2026 page that lists AVITI or Ultima lanes next to X 25B lanes. The one new thing is the Salk AVITI rows, from a July 2025 page. Our calculation gives Salk AVITI at about 2x the X 25B per Gb, which cuts against the idea of a rival price umbrella at cores. I found no Element or Ultima list-price cut announcements for 2025-26 (the Ultima search only returned old UG100 prices: $1.00/Gb at launch, $0.80/Gb with Solaris, per a secondary blog). I did not open elementbiosciences.com/news.",
+  "how_to_mine": "Open the EPFL GECF PDFs (Feb and Sep 2026) and read the AVITI24 CHF rows next to the Illumina 25B rows. Search '.edu AVITI24 cloud lane rate 2026' and 'Ultima UG100 core rate .edu'. Open elementbiosciences.com/news and ultimagenomics.com/news for any 2025-26 price or cut announcements.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "At Salk's July 2025 external rates, AVITI cost about twice as much per Gb as the NovaSeq X 25B, so no rival price umbrella shows on this sheet.",
+      "detail": "Salk external nonprofit rates, effective 07/01/25: 25B-300 lane $5,320 and AVITI High Output 300-cycle lane $1,805. We assumed 25B at 3.125B reads/lane x 2x150 = ~940 Gb/lane, giving ~$5.7/Gb. We assumed AVITI HO at 1B reads/flow cell split over 2 lanes x 2x150 = ~150 Gb/lane, giving ~$12/Gb. That is a gap of about 2.1x in Illumina's favor. The page states reads per flow cell only, not yield per lane, so both figures are our own estimates. The page is about 15 months old and the rates are Salk's own policy, not vendor list prices.",
+      "url": "https://www.salk.edu/science/core-facilities/integrative-genomics-and-bioinformatics-core/scheduling-and-rates/",
+      "date": "2025-07-01",
+      "source_name": "Salk Integrative Genomics and Bioinformatics Core rate card",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Earlier work used Salk only for the S4 and 6000 price cuts. The same-sheet AVITI vs X 25B $/Gb gap is not in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Cores price AVITI per lane at a premium to the X 25B once yield is counted, so rival pricing is not yet pulling core $/Gb down.",
+      "detail": "The Salk sheet shows the AVITI High Output 600-cycle lane at $2,085 (nonprofit) and $2,607 (for-profit). The 25B-300 lane is $5,320 and $6,650. The AVITI lane is cheaper per lane but delivers about 1/6 of the output, based on our yield estimates. This matches the known Northwestern AVITI ~$10.8-19/Gb vs 25B $3.2-5.0 conflict, and it adds one more core on the same side of it.",
+      "url": "https://www.salk.edu/science/core-facilities/integrative-genomics-and-bioinformatics-core/scheduling-and-rates/",
+      "date": "2025-07-01",
+      "source_name": "Salk Integrative Genomics and Bioinformatics Core rate card",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It adds Salk as another core where AVITI is priced above the 25B per Gb, with all rows captured. The date is stale (Jul 2025)."
+    }
+  ],
+  "new_candidates": [
+    "EPFL GECF price list PDFs (Feb and Sep 2026) with AVITI24 CHF rows: https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2026/09/GECF-price-list-for-EPFL-users-09-September-2026.pdf",
+    "Penn Genomics and Sequencing Core page: https://genetics.med.upenn.edu/penn-genomics-and-sequencing-core",
+    "EMBL Genomics Core equipment page: https://www.embl.org/groups/genomics/equipment/"
+  ],
+  "apify_requests": []
+}
+```

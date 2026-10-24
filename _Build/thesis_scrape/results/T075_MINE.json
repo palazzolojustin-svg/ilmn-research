@@ -1,0 +1,106 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At UCLA the NovaSeq 6000 S4 lane price per read fell about 62% from Nov 2019 to the Mar 2024 X Plus 25B lane. The 6000 itself fell 27% in 3.75 years, so the X step is a further large cut on top.",
+      "detail": "Internal S4 2x150 lane: $6,603.67 (Nov 2019) → $5,356 (S4-300, Jul 2022, −18.9%) → $4,817 (Aug 2023, −27.1% cumulative). The Mar 2024 X Plus 25B-300 internal lane was $3,168, −34% vs Aug 2023 S4 and −52% vs 2019. Assuming ~2.5B reads per S4 lane and 3.125B per 25B lane (spec), cost per M reads is $2.64 → $2.14 → $1.93 → $1.01. The 2022 and 2023 S4 figures come from my earlier probe of those sheets, not re-read this session. The 2019 anchor and the per-read series are new.",
+      "url": "https://www.uclahealth.org/sites/default/files/documents/NewApprovedRatesEffective11012019.pdf",
+      "date": "2019-11-01 vs 2024-03-01",
+      "source_name": "UCLA TCGB rate sheets (Nov 2019, Mar 2024; Jul 2022 and Aug 2023 from earlier probe)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The 2019 S4 anchor and the 2019→2024 per-read series are not in F054–F062; those start in 2022."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Each Illumina high-throughput generation reprices per read by 60–75% at this core, a precedent for the 35B step. HiSeq 3000 to NovaSeq S4 was about −73%, and S4 to X 25B about −62%.",
+      "detail": "HiSeq 3000 2x150 lane was $2,933.56 (Nov 2019 internal). Assuming ~300M reads per lane, that is ~$9.8 per M reads. S4 2x150 lane was $6,603.67 at ~2.5B reads, or $2.64 per M (−73%). The Mar 2024 25B-300 internal lane was $3,168 at ~3.125B reads, or $1.01 per M (−62% vs 2019 S4). Read counts per lane are spec assumptions, since the sheets carry no yields. Under this ladder a 35B priced like the 25B would be a large per-Gb step, not the ~20% in the known file.",
+      "url": "https://www.uclahealth.org/sites/default/files/documents/NewApprovedRatesEffective11012019.pdf",
+      "date": "2019-11-01 / 2024-03-01",
+      "source_name": "UCLA TCGB rate sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The HiSeq 3000 price point and the two-generation per-read ladder at one core are new. The known file only covers the HiSeq precedent via revenue/Gb."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Long-run per-Gb deflation at UCLA is about −17% a year, in line with management's mid-teens. It is not accelerating, because the 25B has been flat since 2024.",
+      "detail": "A 30x genome (~100 Gb, assumed) on the external S4 lane in Nov 2019 was ~$12.15/Gb ($9,113/750 Gb assumed) plus $237 DNA prep, or ~$1,452. In Jul 2026 it is ~$3.51/Gb (25B-300 external lane $3,512.47/~1,000 Gb) plus $68.90 prep, or ~$420, a 71% fall. Over 6.67 years that is ln(0.289)/6.67 ≈ −18.6% per year, or −17% compounded. The external column in 2026 may be the non-profit rate, so the comparison to the 2019 external rate is approximate. The 2024 non-profit 25B-300 lane was $3,538 vs $3,512 in 2026, about flat.",
+      "url": "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing",
+      "date": "2026-07-01",
+      "source_name": "UCLA TCGB pricing page and 2019 sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The seven-year all-in genome-cost CAGR at one core is new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Mid-throughput and benchtop run prices at UCLA rose from 2019 to 2024 while 6000 and X lanes fell. Illumina list-price increases are being passed through where there is no rival.",
+      "detail": "Internal rates, 2019 approved → Mar 2024: NextSeq 500 Mid-Output 2x75 $1,505.86 → PE150 $2,116 (+40.5%), and Mid-Output 2x150 $2,331.75 → PE300 $3,074 (+31.8%). NextSeq High-Output 2x75 $3,876.10 → $4,210 (+8.6%). MiSeq v3 2x75 $1,389.68 → v3 PE150 $1,619 (+16.5%), and MiSeq v2 2x150 $1,534.28 → v2 PE300 $1,804 (+17.6%). Cycle-count mapping between sheets is my inference, and internal rates also carry core overhead. Over the same period the HT lane (S4 to 25B) fell about 52%.",
+      "url": "https://uclahealth.org/sites/default/files/documents/48/ucla-tcgb-rates-publication-revised-6-18-2024.pdf?f=d042f1b9",
+      "date": "2019-11 to 2024-03",
+      "source_name": "UCLA TCGB rate sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has only 2024+ mid-throughput ladders (F064). The 2019→2024 mid-throughput price increases are new."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UCLA's pass-through X lane prices imply per-flow-cell costs at or above Illumina list. That shows no deep research-side discount at this UC core.",
+      "detail": "The Mar 2024 internal lane prices carry the footnote 'Material Pass Through rates are at cost'. 25B-300 at $3,168 × 8 lanes = $25,344 vs list $24,155 (+4.9%). 10B-300 at $1,962 × 8 = $15,696 vs list $14,493 (+8.3%). By Jul 2026 the external 25B-300 is $3,512 × 8 = $28,100 (+16% vs list). This assumes 8 lanes per flow cell and the list prices from the known file (Jan 2025), and lane prices may include handling and PhiX. The external premium over internal fell from 38% (2019: $9,113 vs $6,604) to 11.7% (2024 non-profit: $3,538 vs $3,168), consistent with the move to pass-through pricing.",
+      "url": "https://uclahealth.org/sites/default/files/documents/48/ucla-tcgb-rates-publication-revised-6-18-2024.pdf?f=d042f1b9",
+      "date": "2024-03-01",
+      "source_name": "UCLA TCGB rate sheet",
+      "source_type": "price_list",
+      "quote": "Material Pass Through rates are at cost and are subject to change",
+      "strength": "weak",
+      "why_new": "Comparing pass-through lane prices to Illumina list at a research core is new. F080 is a different (Oxford) data point."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "At this research core, sequencing has stayed about a quarter to 30% of per-sample RNA-seq cost since 2019 because library prep fell as fast. Further sequencing price cuts, such as Roche's, move counting-work economics less than a per-read comparison suggests.",
+      "detail": "External rates, 2019 → Jul 2026: DNA prep $237.28 → $68.90 (−71%), stranded RNA prep $255.91 → $68.14 (−73%), exome prep (NimbleGen) $406.91 → $123.88 (−70%). The 2026 prep prices are the page's external column. Take a 25M-read RNA-seq sample. In 2019 sequencing was 25M × ~$3.65 per M = ~$91 vs $256 prep, or 26% of the total. In 2026 it is 25M × $1.12 = ~$28 vs $68 prep, or 29%. The share has not fallen, so the lab still faces the prep cost and cutting sequencing price by half moves total cost ~14%. Reads per lane are spec assumptions.",
+      "url": "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing",
+      "date": "2019-11 vs 2026-07",
+      "source_name": "UCLA TCGB rate sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A same-core 2019→2026 library-prep series and the sequencing share of per-sample cost are new. This quantifies the workflow-cost defense in the known file."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UCLA's 2026 external 25B 100-cycle lane costs about $0.69 per million reads. That is already the ~$0.68 per M cluster figure UBS contrasts with Roche's $0.06, so a 11x gap to Roche is visible in a core price list.",
+      "detail": "Jul 2026 external lanes: 25B-100 $2,164.94, 25B-200 $3,202.38, 25B-300 $3,512.47. At ~3.125B reads per lane (spec assumption) these are $0.69, $1.02 and $1.12 per M reads. 10B-300 is $1,765.67 / 1.25B = $1.41. 1.5B-300 is $2,338.81 / 0.75B = $3.12. The 200-cycle lane is only 8.8% cheaper than the 300-cycle lane for a third fewer cycles. Roche's $0.06 is simplex and not like-for-like (known).",
+      "url": "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing",
+      "date": "2026-07-01",
+      "source_name": "UCLA TCGB pricing page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The 25B-100 and 25B-200 lane prices and the per-read ladder across 1.5B/10B/25B are new. F054–F060 list 10B/1.5B changes and the 5B/25B-100 only as existence."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Read all three requested documents. The 2019 sheet (S081) and the 6/18/2024 file (S080) decoded. The 6/18/2024 file's header says 'Effective March 1, 2024', so it is the same as the Mar 2024 sheet. The 2026 internal/JCCC Box PDF, the 2025 sheet and the 2019 TCGB HiSeq 4000 price were not found. I did not re-read the Jul 2022 and Aug 2023 sheets, so those figures come from my earlier probe and snippets. No sheet gives flow-cell yields, so all per-read and per-Gb figures use spec assumptions: S4 750 Gb or 2.5B reads per lane, 25B ~1,000 Gb or 3.125B reads per lane, 10B 1.25B reads per lane, 1.5B 0.75B reads per lane, HiSeq 3000 ~300M reads per lane.",
+  "leads": [
+    {"name": "UCLA TCGB internal 2026 rates (Box)", "url": "https://uclahs.app.box.com/s/ger1oivcyn9c1or940dsjha2pvtz1tnn", "access": "public Box link, may need JS rendering", "labels": ["1B", "2A"], "rationale": "Would give internal and JCCC 2026 lane prices to reconcile with the 2024 internal column and test the pass-through-at-list point."},
+    {"name": "UC Davis DNA Technologies Core 2019 price list", "url": "https://dnatech.ucdavis.edu/dna-technologies-core-prices-2019", "access": "public HTML", "labels": ["1A", "1B"], "rationale": "Snippet shows HiSeq 4000 and NovaSeq S4 UC rates ($2,346 / $6,400); a second-core history to compare with current UC Davis AVITI and X pages."},
+    {"name": "TxGen 2019 internal pricing PDF", "url": "https://www.txgen.tamu.edu/wp-content/uploads/2019/10/TxGen_pricing_internal_2019_10_01_v05.pdf", "access": "public PDF", "labels": ["1A", "1B"], "rationale": "S4 full flow cell $25,820 (Oct 2019). Texas A&M's current X quote is already known, so this gives a 6000-to-X per-Gb series at one institution."},
+    {"name": "Wayback captures of UCLA TCGB pricing page", "url": "https://web.archive.org/web/2025*/https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing", "access": "public archive", "labels": ["1B"], "rationale": "Could fill the missing 2025 sheet and date the 10B/1.5B cuts and the 5B/25B-100 additions."}
+  ],
+  "apify_requests": []
+}
+```

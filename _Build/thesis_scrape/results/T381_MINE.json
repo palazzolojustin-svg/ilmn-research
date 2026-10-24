@@ -1,0 +1,188 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The National Research Council (NRC) did not stop sequencing when its direct Illumina orders collapsed. It moved the work to outsourced academic cores, SickKids (TCAG) and Génome Québec, which run the NovaSeq X, so research volume is consolidating into larger accounts.",
+      "detail": "NRC contracts with The Hospital for Sick Children (SickKids, TCAG): none from 2013 to 2023. Then 7 in 2024 (C$224.1K: 88,326 + 40,482.75 + 29,442 + 21,761.25 + 18,401.25 + 14,721 + 11,004), 7 in 2025 (C$213.1K) and 3 in H1'26 (C$110.3K). NRC contracts with Génome Québec: C$39.4K in 2023, none in 2024, C$68.6K in 2025 and C$106.3K in Feb 2026 alone. Total outsourced sequencing was therefore about C$39K (2023), C$224K (2024), C$282K (2025) and C$217K (H1'26, roughly C$430K annualized). Over the same period NRC's direct Illumina orders fell from 21 (2022) to 13, 7, 3 and then 3 (H1'26); FY25 direct Illumina spend was only about C$56.7K (26,829.35 + 17,433.21 + 12,428.33), so outsourced spend was about 5x direct spend in 2025. The roughly 90% NRC decline in F449 is therefore mostly a channel shift to big-core accounts that hold more negotiating leverage, not lost sequencing volume.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=%22Hospital+for+Sick+Children%22+%22National+Research+Council%22&sort=contract_date+desc",
+      "date": "2024-06-12 to 2026-06-04",
+      "source_name": "Government of Canada Proactive Disclosure, contracts over $10K",
+      "source_type": "procurement",
+      "quote": "4 LANES OF ILLUMINA NOVASEQ X 25B 300 CYCLE SEQUENCING",
+      "strength": "strong",
+      "why_new": "F447/F449 recorded only Illumina-vendor declines; the substitution into outsourced X-core spending is new and quantified."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A federal lab buying NovaSeq X 25B-300 lanes through SickKids/TCAG pays the core's list rate plus tax, about C$3.47–3.65 per lane-Gb (roughly US$2.5/Gb), with no volume concession visible.",
+      "detail": "On 7 Jan 2026 NRC paid C$14,610.75 for 4 lanes of X 25B-300, or C$3,652.69 per lane. TCAG's April 2025 list price for a 25B-300 lane is C$3,470.00, so NRC paid about 5.3% above list, consistent with tax. At ~1,000 Gb per 25B lane (8 Tb per 8-lane flow cell), that is about C$3.47/Gb before tax. This is in the same band as US core 25B rates (US$2.6–3.5/Gb) and above Novogene's US$2,549 promotional lane.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "2025-04 (list); 2026-01-07 (contract)",
+      "source_name": "TCAG NGS Price List April 2025; Canada Proactive Disclosure",
+      "source_type": "price_list",
+      "quote": "NovaSeq X Series 25B Reagent Kit (300 Cycle) $ 3,470.00",
+      "strength": "medium",
+      "why_new": "First Canadian core X price list (TCAG) and the first matched government purchase against it; not among the cores already logged."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Canada's largest pediatric genomics core (TCAG) prices every X flow cell per lane but lists the NovaSeq 6000 only as 'Contact facility', so the 6000 has dropped to an on-request legacy service.",
+      "detail": "The April 2025 TCAG list publishes 9 NovaSeq X lane prices (1.5B, 10B and 25B at 100/200/300 cycles) and MiSeq run prices. The 6000 row carries no price. Human 30x WGS is quoted only on the NovaSeq X, at C$650 per sample including library prep (90–100 Gb).",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "2025-04",
+      "source_name": "The Centre for Applied Genomics (SickKids)",
+      "source_type": "price_list",
+      "quote": "Illumina NovaSeq 6000 Sequencing Contact facility",
+      "strength": "medium",
+      "why_new": "TCAG has not been surveyed before; adds a large Canadian core to the 6000-delisting evidence (TGen, NCI, Rush)."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "TCAG's X ladder has a steep within-X premium: the 10B-300 costs about 1.6x and the 1.5B-300 about 3.2x the 25B-300 per Gb, so a 35B on the same ladder would cut per-Gb prices for high-volume users further.",
+      "detail": "Per lane: 25B-300 C$3,470 (~1,000 Gb → C$3.47/Gb); 10B-300 C$2,080 (~375 Gb → C$5.55/Gb, 1.6x); 1.5B-300 C$2,485 (~225 Gb → C$11.0/Gb, 3.2x). The outputs used are our calculation from nominal spec (10B ~3 Tb and 25B ~8 Tb per 8 lanes; 1.5B ~450 Gb per 2 lanes). TCAG's 1.6x 10B premium sits at the high end of the 1.13–1.50x range in D018.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "2025-04",
+      "source_name": "TCAG NGS Price List April 2025",
+      "source_type": "price_list",
+      "quote": "NovaSeq X Series 10B Reagent Kit (300 Cycle) $ 2,080.00",
+      "strength": "weak",
+      "why_new": "New core added to the within-X ladder dataset (D018/F358)."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Fisheries and Oceans Canada (DFO) roughly tripled its outsourced sequencing orders to Génome Québec, so federal research sequencing is moving from in-house boxes to core service providers.",
+      "detail": "DFO contracts with Génome Québec: 9 (2022), 20 (2023), 31 (2024), 29 (2025) and 12 in Jan–Feb 2026 alone. The Jan–Feb 2026 orders run about C$11–40K each (e.g. C$40,167.20 twice in Feb 2026). DFO direct Illumina contracts stayed small: 5 in 2025 (~C$95.2K) and 5 by Mar 2026 (~C$139.0K, including one C$71.5K order).",
+      "url": "https://search.open.canada.ca/contracts/?search_text=%22Genome+Quebec%22+%22Fisheries+and+Oceans%22&sort=contract_date+desc",
+      "date": "2022–2026-02",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Outsourcing-vendor time series for DFO not covered by F447–F460 (Illumina-vendor only)."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Agriculture Canada (AAFC), the largest federal buyer from Génome Québec, cut its outsourcing orders sharply while keeping direct Illumina orders steady and buying a ~C$405K Illumina instrument in Feb 2026.",
+      "detail": "AAFC contracts with Génome Québec: 38–39 a year in 2020–22, then 19 (2023), 24 (2024), 16 (2025) and 9 (H1'26). AAFC direct Illumina contracts were 19 (2024), 24 (2025) and 9 (H1'26), including a C$404,866.81 equipment order on 17 Feb 2026. The shift to outsourcing is therefore department-specific, not a uniform research exit from Illumina.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=Illumina+%22Agriculture+and+Agri-Food%22&sort=contract_date+desc",
+      "date": "2020–2026-06",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "AAFC instrument buy and its outsourcing trend are not in F447–F460."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "NRC's direct Illumina spend in H1'26 already exceeded its full-year 2025 total, and DFO's rose too, so the federal decline in F447/F449 is not deepening in 2026.",
+      "detail": "NRC direct Illumina: about C$74.3K across 3 orders in Mar–Jun 2026 (27,962.52 + 25,603.20 + 20,771.10) vs C$56.7K across 3 orders in all of 2025. DFO direct Illumina: about C$139.0K by Mar 2026 vs about C$95.2K in all of 2025. This fits F452 (federal decline stopped in H1'26) and shows the 2026 bottoming is broad, not just at PHAC.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=Illumina+%22National+Research+Council%22&sort=contract_date+desc",
+      "date": "2025–2026-06",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Department-level 2026 rebound figures for NRC and DFO were not previously reported."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "The Canadian Grain Commission stopped buying from Illumina after 2022 and has bought only PacBio consumables and service since, a full federal research platform switch.",
+      "detail": "Illumina contracts with the Grain Commission: C$42.8K (Jan 2021), C$161.8K instrument (Dec 2021) and C$15.6K (Oct 2022), then none. PacBio contracts: 11 from May 2022 to Jan 2026, including a C$182.7K service contract (Mar 2023) and steady C$17.7–23.9K consumable orders (4 in 2024–25, 1 in Jan 2026). The 10 PacBio contracts visible on the results page total about C$362K; the eleventh, on a later page, was not read.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=%22Pacific+Biosciences%22+%22Canadian+Grain+Commission%22&sort=contract_date+desc",
+      "date": "2021–2026-01",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "PacBio substitution at the Grain Commission is not in F454/F459 (ONT and Element only)."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina is monetizing a retired legacy platform: the Canadian Food Inspection Agency (CFIA) keeps renewing MiSeq support plans, and its spend on them is rising. That is a template for a sticky, revenue-producing 6000 tail.",
+      "detail": "CFIA MiSeq Silver/Bronze support contracts totalled about C$92.4K (5 contracts) in 2024, about C$160.9K (7) in 2025 and about C$87.7K (3) in Q1'26 alone. The per-plan price rose from C$20,420.62 (Jul and Nov 2024) to C$21,237.94–22,856.07 (Nov 2025) and C$23,894.87 (Jan 2026), about +4–17%. This continued after the MiSeq's end of sale (30 Sep 2025). ECCC likewise renewed warranty on an Illumina sequencer (C$22,248.29, Feb 2026) after a C$32.8K repair in Jan 2025.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=NextSeq+OR+MiSeq+OR+iSeq+OR+HiSeq&sort=contract_date+desc",
+      "date": "2024-01 to 2026-03",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "MiSeq Silver Plan Renewal",
+      "strength": "medium",
+      "why_new": "Legacy-platform service pricing and persistence at federal labs was not in the corpus."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "CFIA kept buying Illumina hardware even while it diversified to ONT and Element: it bought an Illumina sequencer for C$176.2K in Dec 2025, after its C$1.21M NextSeq package in Mar 2024.",
+      "detail": "On 23 Dec 2025 CFIA bought a 'Sequencer' from Illumina Canada for C$176,193.21; the row was published late ('omitted from a previous proactive publication'). It also bought an Illumina 'Reagent Kit' (C$24,445.88, Feb 2026). Element (C$300K, Feb 2026) and ONT were additions, not replacements.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=sequencing&sort=contract_date+desc",
+      "date": "2025-12-23",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "This contract was omitted from a previous proactive publication.",
+      "strength": "weak",
+      "why_new": "F456 described CFIA diversifying after Mar 2024 but missed the Dec 2025 Illumina sequencer purchase."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The only kit-level NovaSeq reference in Canadian federal contracts since 2019 names the NovaSeq X, and no federal row names a 6000 flow cell (S1/S2/S4/SP).",
+      "detail": "A full-text search of the contracts database for 'NovaSeq' returns 1 record (NRC to SickKids, 4 lanes of X 25B-300, Jan 2026). Searches for '25B', '10B', 'v1.5' and 'reagent kit' return no 6000 kit lines. Illumina's own rows carry only generic commodity codes ('Medical supplies', 'Miscellaneous chemical products'), so the dataset cannot support a 6000/X dollar split.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=NovaSeq&sort=contract_date+desc",
+      "date": "2026-10-12 (search)",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Answers the strategist's 6000/X split request: the split is not available from this source."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Federal use of the low-cost outsourcer Novogene is tiny and flat, so Canadian federal research is not visibly moving to cheap Chinese providers.",
+      "detail": "Novogene has 14 federal contracts in total since 2020, all from AAFC and DFO, at C$10–25K each. Examples: C$24,308.73 (Jan 2026), C$24,718.23 (Nov 2025), C$19,797.63 (Mar 2025) and C$17,791.97 (Dec 2023). There is no step-up in count or size after 2021. Outsourcing goes to domestic academic cores (Génome Québec, SickKids, Dalhousie and others) instead.",
+      "url": "https://search.open.canada.ca/contracts/?search_text=Novogene&sort=contract_date+desc",
+      "date": "2020-03 to 2026-01",
+      "source_name": "Government of Canada Proactive Disclosure",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Novogene's Canadian federal footprint was not previously checked."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "WebFetch could not reach the CKAN datastore API (datastore_search returned 409 and datastore_search_sql returned 400), and no shell was available to stream the CSV, so all mining used the search.open.canada.ca front end (10 rows per page, with facet counts). Illumina's own rows carry only generic commodity descriptions, so a 6000/X kit split is impossible here. The productive new vein is outsourcing-vendor flows (SickKids/TCAG and Génome Québec) by department. What remains: dollar totals for DFO and AAFC from Génome Québec (pages 2–18 not read), PHAC/Health Canada outsourcing, and a full CSV pull by a script with a shell to compute exact yearly sums.",
+  "leads": [
+    {
+      "name": "TCAG (SickKids) NGS price lists, older and newer versions",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "access": "Public PDF; older versions may be in the Wayback Machine (snapshot 20250423 exists; this agent could not reach archive.org)",
+      "labels": ["1A", "1B"],
+      "rationale": "Comparing 2023–24 lists would give a Canadian 6000 S4 vs X lane price path and 25B price trend."
+    },
+    {
+      "name": "Génome Québec (CES) service price list",
+      "url": "https://cesgq.com/en/services",
+      "access": "Public web, if it is posted (URL not opened)",
+      "labels": ["1A", "1B", "2A"],
+      "rationale": "This is the largest outsourcing destination for federal labs; its platform mix (X, 6000, MGI) and lane prices would show where the outsourced dollars land."
+    },
+    {
+      "name": "Canada Proactive Disclosure full CSV (shell-capable rerun)",
+      "url": "https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+      "access": "Open download; needs a script with a shell",
+      "labels": ["2A", "2B"],
+      "rationale": "Exact yearly dollar sums of outsourced sequencing (Génome Québec, SickKids, Dalhousie, Ottawa Hospital RI, Michael Smith Lab, Molecular Research LP) vs direct Illumina spend by department."
+    }
+  ],
+  "apify_requests": []
+}
+```

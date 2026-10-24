@@ -1,0 +1,143 @@
+{
+ "requests": [
+  {
+   "id": "A01",
+   "actor": "eBay sold/completed listings scraper (e.g. a generic eBay search scraper that supports sold items)",
+   "input": {
+    "searchQueries": [
+     "Illumina NovaSeq 6000",
+     "NovaSeq 6000 sequencer"
+    ],
+    "soldItemsOnly": true,
+    "maxItems": 200
+   },
+   "why": "eBay completed-sale prices and dates for used NovaSeq 6000 units would give a price trend for the used market; the search tool could not reach them.",
+   "max_items": 200,
+   "task": "T008",
+   "source_id": "",
+   "status": "failed",
+   "requested": "2026-10-12 01:06:51",
+   "why_failed": "eBay sold-listings actor (caffein.dev) returned 0 sold items for NovaSeq 6000 queries",
+   "done": "2026-10-12 02:44:30"
+  },
+  {
+   "id": "A02",
+   "actor": "misceres/indeed-scraper",
+   "input": {
+    "position": "\"NovaSeq 6000\"",
+    "country": "US",
+    "maxItems": 200,
+    "parseCompanyDetails": false,
+    "saveOnlyUniqueItems": true
+   },
+   "why": "Identify clinical labs that still list only the NovaSeq 6000 (permanent tail) vs both instruments (mid-conversion) in Oct 2026 postings. Proxy for the undisclosed cohort map and the 2027 conversion pace.",
+   "max_items": 200,
+   "task": "T001",
+   "source_id": "",
+   "status": "done",
+   "requested": "2026-10-12 01:07:09",
+   "result_path": "C:\\Users\\palaz\\OneDrive\\Documents\\ILMN Claude Code Local Folder\\_Build\\thesis_scrape\\apify\\A02.json",
+   "done": "2026-10-12 02:44:30",
+   "mined_task": "T216"
+  },
+  {
+   "id": "A03",
+   "actor": "apify/google-search-scraper",
+   "input": {
+    "queries": "\"NovaSeq 6000\" maintenance contract 2026\n\"NovaSeq 6000\" reagent kit award 2026\n\"NovaSeq 6000\" decommission OR retire 2026 core facility\n\"NovaSeq 6000\" for sale used\n\"NovaSeq 6000\" site:govly.com\n\"NovaSeq 6000\" site:ted.europa.eu",
+    "resultsPerPage": 50,
+    "maxPagesPerQuery": 2,
+    "countryCode": "us"
+   },
+   "why": "Bulk-collect 2026 procurement, retirement and resale mentions of the 6000 across government, tender, core and resale sites, so a later agent can count service renewals vs retirements and kit purchases by year.",
+   "max_items": 200,
+   "task": "T001",
+   "source_id": "",
+   "status": "done",
+   "requested": "2026-10-12 01:07:09",
+   "result_path": "C:\\Users\\palaz\\OneDrive\\Documents\\ILMN Claude Code Local Folder\\_Build\\thesis_scrape\\apify\\A03.json",
+   "done": "2026-10-12 02:44:31",
+   "mined_task": "T217"
+  },
+  {
+   "id": "A04",
+   "actor": "apify/google-search-scraper",
+   "input": {
+    "queries": "\"NovaSeq X\" 落札 site:ac.jp\n\"NovaSeq X\" 契約金額 site:ac.jp\n\"NovaSeq X Series 25B\" 落札者等の公示\n\"NovaSeq 6000\" 落札 契約金額 site:ac.jp\n\"25B Reagent Kit\" 決標 site:gov.tw\nweb.archive.org illumina.com applications/cancer appendix-1.pdf\n\"Open Offer Addendum\" Illumina \"4(g)\" 2025\n\"Universal Consumables Discount Schedule\" 2025 OR 2026",
+    "resultsPerPage": 50,
+    "maxPagesPerQuery": 2,
+    "languageCode": "",
+    "countryCode": "jp"
+   },
+   "why": "To find Japanese and Taiwanese public award notices with realized NovaSeq X and 6000 kit prices across 2023–2026, and any later Open Offer discount-schedule revisions or archived copies. These are hard to reach with single searches.",
+   "max_items": 200,
+   "task": "T002",
+   "source_id": "",
+   "status": "pending",
+   "requested": "2026-10-12 01:14:51"
+  },
+  {
+   "id": "A05",
+   "actor": "apify/google-search-scraper",
+   "input": {
+    "queries": "site:.edu \"Illumina\" \"pricing agreement\" procurement\nsite:.edu \"contract\" \"Illumina\" discount \"off list\" sequencing reagents\nsite:.edu \"Illumina\" \"agreement\" \"% off\" consumables procurement 2025\nsite:ac.uk \"preferred supplier\" Illumina discount consumables\nsite:edu.au \"Illumina\" contract register GIPA\nsite:.edu genomics core \"migrated\" OR \"transitioned\" \"AVITI\" Illumina lower cost 2025 2026",
+    "maxPagesPerQuery": 2,
+    "resultsPerPage": 50,
+    "countryCode": "us"
+   },
+   "why": "To build the list of institution-wide Illumina agreement pages with published discount floors, and of cores that left Illumina over price, so a later agent can extract and date each discount percentage and migration. Single searches surfaced Iowa State, UC, Oxford, Illinois and Iowa Genomics; scaled queries should find 20 or more more.",
+   "max_items": 200,
+   "task": "T199",
+   "source_id": "",
+   "status": "pending",
+   "requested": "2026-10-12 02:45:57"
+  },
+  {
+   "id": "A06",
+   "actor": "eBay sold/completed listings scraper (e.g. dtrungtin/ebay-items-scraper or caffein.dev/ebay-sold-listings)",
+   "input": {
+    "searchQueries": [
+     "Illumina NovaSeq 6000",
+     "NovaSeq 6000 flow cell S4",
+     "NovaSeq 6000 reagent kit",
+     "Illumina NovaSeq X"
+    ],
+    "soldItems": true,
+    "maxItems": 200
+   },
+   "why": "Gives sold prices and dates over time for used 6000 instruments and surplus S4 reagent kits. A flood of surplus 6000 reagents or instruments in 2025-26 is a decommission-pace proxy for the installed base Illumina stopped disclosing after Q4'25.",
+   "max_items": 200,
+   "task": "T224",
+   "source_id": "",
+   "status": "pending",
+   "requested": "2026-10-12 02:50:42"
+  },
+  {
+   "id": "A07",
+   "actor": "apify/website-content-crawler (or a Wayback Machine scraper)",
+   "input": {
+    "startUrls": [
+     {
+      "url": "https://web.archive.org/web/2023*/https://www.genomics.pitt.edu/about/pricing"
+     },
+     {
+      "url": "https://web.archive.org/web/2024*/https://www.genomics.pitt.edu/about/pricing"
+     },
+     {
+      "url": "https://web.archive.org/web/2025*/https://www.genomics.pitt.edu/about/pricing"
+     },
+     {
+      "url": "https://web.archive.org/web/2024*/https://www.genomics.pitt.edu/about/equipment"
+     }
+    ],
+    "maxCrawlPages": 40
+   },
+   "why": "Recover the FY23–FY25 Pitt price tables (6000 S4-300, 25B, 10B) and the equipment counts to build the 6000-vs-X price and fleet time series.",
+   "max_items": 40,
+   "task": "T225",
+   "source_id": "S010",
+   "status": "pending",
+   "requested": "2026-10-12 02:55:12"
+  }
+ ]
+}

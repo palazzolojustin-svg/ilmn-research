@@ -1,0 +1,50 @@
+Página 1 de 5 
+PLATAFORMA DE APOYO 
+UNIDAD DE MEDICINA DE  
+PRECISIÓN-INCLIVA 
+INFRAESTRUCTURAS DISPONIBLES 
+Secuenciadores NGS 
+MiSeq         NextSeq 
+Secuenciación masiva de librerías preparadas por el usuario, de paneles comerciales y
+customizados. 
+Droplet digital PCR  
+Identificación altamente sensible de 
+alteraciones genéticas, cuantificación 
+absoluta de carga viral o expresión
+génica, cuantificación de número de 
+copias de una región o gen. 
+Nanostring ‐ nCounter  
+Análisis de la expresión génica utilizando paneles 
+específicos tanto customizados como 
+comerciales: PanCancer IO 360, Immune 
+Profiling, Progression, Gene Fusion, entre otros 
+Página 2 de 5 
+iScan 
+Sistema de escaneado de arrays de 
+genotipado y metilación con química 
+Infinium. 
+Generación Librerías RNA (poly(A) Enrichment)   282.67 €    381.60 €    424.00 €  
+Generación Librerías miRNA  A consultar A consultar A consultar 
+MiSeq Reagent Kit v2 (50 ciclos)   1,242.84 €    1,609.58 €    1,819.78 €  
+MiSeq Reagent Kit v2 (300 ciclos)   1,535.84 €    2,005.13 €    2,306.33 €  
+MiSeq Reagent Kit v2 (500 ciclos)   1,702.84 €    2,230.58 €    2,594.97 €  
+MiSeq Reagent Micro Kit v2 (300 ciclos)   760.84 €    958.88 €     1,096.78 € 
+MiSeq Reagent Nano Kit v2 (300 ciclos)   571.84 €    703.73 €    860.33 €  
+MiSeq Reagent Nano Kit v2 (500 ciclos)   645.84 €    1,766.18 €    2,033.20 €  
+MiSeq Reagent Kit v3 (150 ciclos)   1,358.84 €    1,766.18 €    2,033.20 €  
+MiSeq Reagent Kit v3 (600 ciclos)   2,154.84 €    2,840.78 €    3,316.20 €  
+NextSeq 500/550 High Output Kit v2.5 (75 Cycles)   1,960.14 €    3,471.50 €    3,172.54 €  
+NextSeq 500/550 High Output Kit v2.5 (150 Cycles)   3,730.14 €    5,068.46 €    5,942.12 €  
+NextSeq 500/550 High Output Kit v2.5 (300 Cycles)   5,801.14 €    7,864.31 €  9,228.68 € 
+NextSeq 500/550 Mid Output Kit v2.5 (150 Cycles)   1,486.14 €    2,039.06 €    2,527.02 €  
+NextSeq 500/550 Mid Output Kit v2.5 (300 Cycles)   2,330.61 €    3,179.09 €    3,973.78 €  
+Reactivos incluidos, en caso de adquirir el usuario los reactivos, consultar para precio. 
+Microarrays (Illumina)* 
+  TARIFA A TARIFA B TARIFA C 
+Procesamiento de arrays de 4 muestras    95.44 €    128.85 €    144.85 €  
+Procesamiento de arrays de 8 muestras    28.34 €    38.26 €    43.35 €  
+Procesamiento Infinium Methylation EPIC    40.15 €    54.20 €    61.07 €  
+Procesamiento de arrays de 12 muestras    57.00 €    76.96 €    86.18 €  
+Procesamiento de arrays de 24 muestras    46.89 €    63.30 €    71.46 €  
+Los microarrays no están incluidos. El tratamiento de muestras parafinadas requiere un paso de 
+restauración, consultar precio. 

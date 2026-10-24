@@ -1,0 +1,75 @@
+Service Fees | USEQ
+ServicesServices we support
+Spatial Omics – Nanostring GeoMX and CosMX
+SNP Fingerprinting
+Next Generation Sequencing
+Library Preparation
+Single Cell Sequencing
+DNA / RNA isolation
+Bioinformatics Data Analysis
+Consultancy Service
+Service FeesPricing overview
+Sample SubmissionSample & account details
+USEQ user portalPersonal environment
+ContactGet in touch!
+FAQ
+Menu
+Service Fees
+We provide support for a broad range of services, including Next Generation Sequencing, sample preparation, DNA/RNA isolation and SNP fingerprinting. UMC Utrecht, and NWO subsidize the facility allowing clients to pay only running and personell costs.
+Please contact us for a quotation.
+Pricing overview
+Note that prices can be updated over time quarterly due to inflation and changed euro/dollar rates.
+Pricing status at the date of submission will be applied.
+Service | Reads (M) | Type | Price per | Price (excl VAT) |
+Qiagen DNA isolation | | Isolation | Sample | € 24 |
+Qiagen RNA isolation | | Isolation | Sample | € 25 |
+| | | | |
+mRNA Ribo depletion | | Sample prep | Sample | € 149 |
+mRNA Poly-A | | Sample prep | Sample | € 101 |
+DNA Truseq nano | | Sample prep | Sample | € 79 |
+Nanopore Library prep | | Sample prep | Sample | € 69 |
+| | | | |
+SNP Fingerprinting (64 SNPs; >= 48 samples) | | Fingerprinting | Sample | € 50 |
+| | | | |
+NextSeq™ 2000 P4 XLEAP-SBS™ (50 Cycles) | 1.800 | Sequencing | Run | € 3,212 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (100 Cycles) | 1.800 | Sequencing | Run | € 4,185 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (200 Cycles) | 1.800 | Sequencing | Run | € 5,427 |
+NextSeq™ 2000 P4 XLEAP-SBS™ (300 Cycles) | 1.800 | Sequencing | Run | € 6,714 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (600 Cycles) | 100 | Sequencing | Run | € 2,295 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (300 Cycles) | 100 | Sequencing | Run | € 1,753 |
+NextSeq™ 2000 P1 XLEAP-SBS™ (100 Cycles) | 100 | Sequencing | Run | € 1,461 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (600 Cycles) | 400 | Sequencing | Run | € 3,822 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (300 Cycles) | 400 | Sequencing | Run | € 3,569 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (200 Cycles) | 400 | Sequencing | Run | € 2,866 |
+NextSeq™ 2000 P2 XLEAP-SBS™ (100 Cycles) | 400 | Sequencing | Run | € 1,858 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (300 Cycles) | 1.200 | Sequencing | Run | € 5,269 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (200 Cycles) | 1.200 | Sequencing | Run | € 4,129 |
+NextSeq™ 2000 P3 XLEAP-SBS™ (100 Cycles) | 1.200 | Sequencing | Run | € 3,180 |
+| | | | |
+iSeq 100, 2x 150bp, 4M reads | 4 | Sequencing | Run | € 1,239 |
+| | | | |
+Novaseq X 1.5B (100 cycles) | 1500 | Sequencing | Run | € 3,705 |
+Novaseq X 1.5B (200 cycles) | 1500 | Sequencing | Run | € 4,182 |
+Novaseq X 1.5B (300 cycles) | 1500 | Sequencing | Run | € 4,373 |
+Novaseq X 10B (100 cycles) | 10.000 | Sequencing | Run | € 6,480 |
+Novaseq X 10B (200 cycles) | 10.000 | Sequencing | Run | € 7,481 |
+Novaseq X 10B (300 cycles) | 10.000 | Sequencing | Run | € 8,222 |
+Novaseq X 10B (single lane, 300 cycles) | 1.250 | Sequencing | Run | € 1,170 |
+Novaseq X 25B (300 cycles) | 25.000 | Sequencing | Run | € 17,625 |
+Novaseq X 25B (200 cycles) | 25.000 | Sequencing | Run | € 15,791 |
+Novaseq X 25B (100 cycles) | 25.000 | Sequencing | Run | € 13,198 |
+| | | | |
+Nanopore MinIon | | Sequencing | Run | € 1,312 |
+Nanopore PromethION | | Sequencing | Run | € 1,812 |
+Nanopore MinIon Flowcell only | | Sequencing | Flowcell | € 625 |
+Nanopore PromethION Flowcell only | | Sequencing | Flowcell | € 1,025 |
+| | | | |
+10X 3' RNA sc prep GEM-X | | Single Cell | Sample | € 1,717 |
+10X Flex sc prep | | Single Cell | Sample | € 2,151 |
+10X 5' RNA sc prep GEM-X | | Single Cell | Sample | € 1,717 |
+10X TCR/BCR | | Single Cell | Sample | € 341 |
+10X 3' RNA sc prep GEM-X on chip multiplex 4 samples | | Single Cell | Sample | € 2,524 |
+10X FLEX (singleplex) | | Single Cell | Sample | € 2,184 |
+10X FLEX (4 x 4 plex) | | Single Cell | Sample | € 3,617 |
+10X FLEX (4 x 16 plex) | | Single Cell | Sample | € 7,889 |
+10X sequencing (1 M reads) | 1 | Single Cell | 1 M reads | € 1.50 |

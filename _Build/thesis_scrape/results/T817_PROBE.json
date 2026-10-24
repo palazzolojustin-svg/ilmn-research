@@ -1,0 +1,29 @@
+```json
+{
+  "status": "productive",
+  "notes": "The route works with plain GET calls and no login. Search by company name: /api/searchbycompanyname?query=均泰生物科技 (&page=N). It returns 629 records over 7 pages. Fields per record: date, filename, job_number, unit_id, unit_name, brief.type, brief.title, brief.companies. The company block carries role keys such as '決標品項:第1品項:得標廠商'. The search results contain NO award amounts. Amounts are in the per-case endpoint: /api/tender?unit_id=<unit_id>&job_number=<job_number>. I confirmed it on one case. It returns the award total, floor price, budget, bidders and bid amounts, and line items with quantity, origin and award amount. Unit price and brand were often 'not stated', and line items are often lump sums ('1 batch'). Per-kit NovaSeq X 10B/25B or 6000 S4 prices are therefore unlikely for lump-sum 'reagent and chip' tenders. Open-contract tenders with itemized lines may have them; one is NTUH 'TD150300' (中通量300鹼基循環定序試劑組v2.5開口合約, 10 Jun 2026), and I did not reach its unit_id. Only the first 100K characters of each 380–660K-character search page are readable per fetch (offset parameter needed). I made 7 calls and hit no 429s. The 40-record and 12-minute limits were not reached, but a full 2021-26 build needs hundreds of calls. Rival distributors (研毅/ANTEC, 瑞林, 基龍米克斯) were not queried. Annual totals and share shifts were not built.",
+  "how_to_mine": "Run as a script, not through the summarizing fetch tool. (1) For each distributor name (均泰生物科技, 研毅/ANTEC, 瑞林, 基龍米克斯, plus the MGI/ONT/Element importers), page through /api/searchbycompanyname?query=NAME&page=1..N with a 1-2 s delay and back off on 429. Keep only records whose brief.type is 決標公告 or 更正決標公告 and whose title matches 定序|NovaSeq|晶片|流動槽|試劑|SP|S4|10B|25B. (2) For each hit, GET /api/tender?unit_id=<unit_id>&job_number=<job_number> and read the award total (決標金額), budget, floor price, bidder count and bid amounts. Also read item lines for brand, quantity and unit price. Watch for 'decreasing award vs budget', and for number of bidders (single-bidder = captive). (3) Aggregate by year and by awardee. Award total divided by budget gives a realized discount series. Where itemized lines show a flow-cell price (S4, 10B, 25B, SP), build the NT$/kit series. Compare repeated buyers across years: 農業部獸醫研究所 (115-2003/2013 series), NTUH open contracts (TD150300), CDC (KA115051), 國衛院 (115A0C0221), 法醫研究所. Search for NovaSeq/AVITI/MGI/Nanopore titles directly through /api/searchbykeyword if available (untested). Hard to pull unit prices for tenders awarded as a lump sum.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A Taiwan government NGS reagent tender won by Illumina's distributor cleared at about 16.6% below its budget with a single bidder, which shows how far price is negotiated on small public buys.",
+      "detail": "Taiwan's Animal Health Research Institute (農業部獸醫研究所) awarded job 115-2013, 'NGS library-prep reagents and chips', to 均泰生物科技 (GENETECH) on 8 Oct 2026 for NT$1,595,000. The budget was NT$1,912,500 and the floor price NT$1,620,000, so the award is 16.6% below budget and 1.5% below the floor. It was the only bidder, with origin Singapore, a lowest-price public tender, and a contract period of 6 Oct to 10 Dec 2026. This is one small lump-sum library-prep order, not a flow-cell price, so it is a weak datapoint on distributor-level discounting. It does show that the agency's budget (an estimate set from past quotes) was beaten even with no competing bid.",
+      "url": "http://pcc-api.openfun.app/api/tender?unit_id=A.19.13&job_number=115-2013",
+      "date": "2026-10-08",
+      "source_name": "Taiwan Public Construction Commission procurement data (pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Not in the exclusion list, which has only EU and Spanish tenders and US core rate cards. This is a Taiwan award tied to Illumina's distributor."
+    }
+  ],
+  "new_candidates": [
+    "NTUH open contract TD150300 (中通量300鹼基循環定序試劑組v2.5, 10 Jun 2026): itemized unit prices for NextSeq-class mid-output kits, possibly comparable with earlier years' awards.",
+    "Repeat buyer series: 農業部獸醫研究所 (115-2003 sequencer purchase, 115-2013, MiSeq maintenance 115-1037), CDC KA115051, and 法醫研究所 621150506-1. Compare year-on-year award-to-budget ratios.",
+    "The record's companies block lists losing bidders (投標廠商) with bid amounts. Competitor distributors' bids in the same tender give a direct price gap between Illumina's channel and MGI/Element/ONT channels."
+  ],
+  "apify_requests": []
+}
+```

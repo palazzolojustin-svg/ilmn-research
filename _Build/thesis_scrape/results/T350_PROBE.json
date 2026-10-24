@@ -1,0 +1,17 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Probe could not read the reports, so it found no platform data. Both PDFs are reachable without a login: the 2025 germline report (963KB) and the 2024 somatic report (930KB). However, their text streams are Flate-compressed and WebFetch returned only PDF object dumps, so the summarizer could not read any text. Bash was disabled in this session, so I could not run pypdf. The Read tool's PDF mode failed because pdftoppm (poppler) is not installed. A standard search returned only the PDF links and scheme pages, with no platform figures. The search snippet says the reports contain 'methodologies employed' and a results summary (somatic report from p.5, germline report 26 pages). That suggests a platform table may exist, but this is unverified. Participation is probably a few hundred labs, mostly European. In 2016 the pilot registered 227 labs from 36 countries for germline testing. Images in the germline PDF (e.g. Image107/111/125) may hold platform charts rather than text, in which case pypdf would not extract them. Saved local copies: tool-results\\webfetch-1791796265140-wjmguy.pdf (germline 2025) and tool-results\\webfetch-1791796266047-1fiqhe.pdf (somatic 2024), under the sandbox project folder.",
+  "how_to_mine": "Run in an environment with Bash/PowerShell. (1) `python -I -c` with pypdf: loop over pages, extract_text, and grep for platform|instrument|sequencer|NovaSeq|NextSeq|MiSeq|Ion|MGI|Element|Illumina|Oxford|PacBio. Run it on both saved PDFs, passing paths as arguments and running from a separate scripts directory. (2) If the text comes out empty or garbled, the tables are images. Extract them with pypdf `page.images` or PyMuPDF, then OCR them or view them with Read as PNGs. Alternatively install poppler so the Read tool's pages mode works. (3) Fetch older rounds from https://www.emqn.org/resources/publications/ and scheme pages https://www.emqn.org/scheme/ngs-for-germline-snvs-and-indels/ and ?p=7367, 7368, 7370, 6500. Also search 'site:emqn.org/wp-content/uploads Summary Report NGS' for the 2023 and 2022 germline and somatic reports. (4) Build a table of platform counts or shares (NovaSeq 6000, NovaSeq X, NextSeq, MiSeq, Ion Torrent, MGI, Element) by year. Note that EQA participants skew toward small and mid-size European diagnostic labs, and many run MiSeq or Ion Torrent. Treat any NovaSeq 6000 versus X split as a sample of lab counts, not Gb. Also check the genqa.org and Euformatics EQA reports.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "GenQA (genqa.org) and Euformatics EQA scheme summary reports, which may also list participant platforms",
+    "CAP NGS proficiency testing aggregate platform surveys (public summaries)",
+    "UK NEQAS / ESHG EQA annual reports with sequencer breakdowns"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [2025 germline EQA summary report](https://www.emqn.org/wp-content/uploads/2026/05/NGS-germline-EQA-Summary-Report_Final_v1.pdf), [2024 somatic EQA summary report](https://www.emqn.org/wp-content/uploads/2025/08/NGS-Somatic-EQA-Summary-report-2024-v1.pdf)

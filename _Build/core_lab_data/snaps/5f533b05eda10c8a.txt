@@ -1,0 +1,45 @@
+Page 1 of 3 
+UCLA Technology Center for Genomics & Bioinformatics Rates 
+Effective August 1, 2023 
+Product/Service Description Unit Internal Rate  JCCC Rate  External Rate: Non-Profit External Rate: Profit  
+Sequencing Service – Long Read & Short Read 
+MiSeq v3 PE 150 Cycles Per Run $1,619  $1,814 $1,884 
+MiSeq v2 PE 300 Cycles Per Run $1,804  $2,006 $2,078 
+MiSeq v2 PE 500 Cycles Per Run $2,039  $2,269 $2,351 
+MiSeq v3 PE 600 Cycles Per Run $2,558  $2,821 $2,914 
+NextSeq v2 SR 75 Cycles - High Output Per Run $2,512  $2,820 $2,929 
+NextSeq v2 PE 150 Cycles - High Output Per Run $4,210  $4,565 $4,692 
+NextSeq v2 PE 150 Cycles - Mid Output Per Run $2,116  $2,451 $2,570 
+NextSeq v2 PE 300 Cycles - Mid Output Per Run $3,074  $3,483 $3,629 
+NovaSeq SP 100 Cycles Per Lane $1,693  $1,885 $2,091 
+NovaSeq SP 200 Cycles Per Lane $2,179   $2,403   $2,643  
+NovaSeq SP 300 Cycles Per Lane $2,406   $2,662   $2,935  
+NovaSeq SP 500 Cycles Per Lane $3,282   $3,606   $3,953  
+NovaSeq S1 100 Cycles Per Lane $2,669   $2,861   $3,067  
+NovaSeq S1 200 Cycles Per Lane $3,405   $3,629   $3,868  
+NovaSeq S1 300 Cycles Per Lane $3,719   $3,975   $4,248  
+NovaSeq S2 100 Cycles Per Lane $4,765   $4,973   $5,196  
+NovaSeq S2 200 Cycles Per Lane $5,922   $6,183   $6,462  
+NovaSeq S2 300 Cycles Per Lane $6,407   $6,721   $7,056  
+NovaSeq S4 200 Cycles Per Lane $4,333   $4,551   $4,785  
+NovaSeq S4 300 Cycles Per Lane $4,817   $5,057   $5,313  
+NovaSeq X Plus 1.5B 100 Cycles* Per Lane  $2,046    $2,433   $2,846  
+NovaSeq X Plus 1.5B 200 Cycles* Per Lane  $2,542    $3,014   $3,518  
+NovaSeq X Plus 1.5B 300 Cycles* Per Lane  $2,784    $3,307   $3,866  
+NovaSeq X Plus 10B 100 Cycles* Per Lane  $1,556    $1,798   $2,057  
+NovaSeq X Plus 10B 200 Cycles* Per Lane  $1,850    $2,109   $2,386  
+NovaSeq X Plus 10B 300 Cycles* Per Lane  $1,962    $2,234   $2,524  
+NovaSeq X Plus 25B 300 Cycles* Per Lane  $3,168    $3,538   $3,933  
+Oxford Nanopore Library Construction & Sequencing Per Flowcell $2,376  $2,644 $2,740 
+≤ 2% Spike-in (6-8M reads) Per Library Pool $502  $698 $768 
+Novaseq 6000 XP (for SP/S1/S2/S4) Per Lane $196  $272 $299 
+Library Construction: Conventional 
+Library Prep, RNA (Stranded mRNA (Poly-A)) Per Sample $51   $63   $67  
+Library Prep, RNA (Ribo Depletion, degraded RNA) Per Sample $80   $92   $96  
+RNA library with Ribo Depletion Reagents (Illumina) Per Sample $140   $152   $156  
+Library Prep, DNA (Kapa Hyper DNA) Per Sample $49   $61   $65  
+Library Prep, QiaSeq miRNA Small RNA Per Sample $181   $193   $197  
+Library Prep, Exome   Per Sample $175 $165  $197   $205  
+Library Prep, Methyl Per Sample $104  $116 $120 
+Globin Reduction  Per Sample $40  $56 $61 
+Page 2 of 3 

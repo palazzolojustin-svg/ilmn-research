@@ -1,0 +1,101 @@
+```json
+{
+  "sources": [
+    {
+      "name": "Illumina.com product and order pages (NovaSeq X and NovaSeq 6000 reagent kits)",
+      "url": "https://assets.illumina.com/systems/sequencing-platforms/novaseq-x-plus/order.html",
+      "access": "The pages are public, but the list-price fields are blank until sign-in ('Sign in to add to cart or see pricing').",
+      "labels": ["1A", "1B"],
+      "status": "blocked",
+      "notes": "Catalog numbers are visible: 20028312 (6000 S4 v1.5 300-cycle), 20125967 (25B 100-cycle) and 20125968 (25B 200-cycle). The 25B 300-cycle kit is listed as 20104705, and the 1.5B 300-cycle number may be the same. No prices appear. Several mirror hosts (tst-web, assets, assets-web, ko-kr, spac) return the same gated layout. The only public list prices are the GenomeWeb launch figures ($11,700 and $14,500), which are already known.",
+      "how_to_mine": "Do not retry the gated pages. Use the SKU numbers above as search keys on distributor and GSA pages.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "GSA Advantage / Fisher / VWR distributor listings for Illumina kits",
+      "url": "https://www.gsaadvantage.gov/",
+      "access": "I could not reach it. Searches by SKU (20125967, 20125968, 20104705, 20028312) returned no GSA, Fisher or VWR hits. I did not open GSA Advantage directly.",
+      "labels": ["1A", "1B"],
+      "status": "dry",
+      "notes": "The search index does not surface these listings. Known GSA-linked pages (Government Scientific Source SKU pages) were already used in earlier scrapes.",
+      "how_to_mine": "Run a site-level fetch of gsaadvantage.gov search for 'Illumina NovaSeq' and 'flow cell'. Also try the Government Scientific Source and Cole-Parmer/Avantor catalogs, and compare the same SKU across dated snapshots.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Wayback Machine snapshots of Illumina order pages",
+      "url": "https://web.archive.org/web/2025/https://www.illumina.com/products/by-type/sequencing-kits/novaseq-x-plus-reagent-kits.html",
+      "access": "WebFetch refuses web.archive.org in this environment. Archived copies also likely keep the sign-in gate on prices.",
+      "labels": ["1A", "1B"],
+      "status": "blocked",
+      "notes": "I could not test it. Even if snapshots load, Illumina's price fields are probably blank behind sign-in. Archived core-facility price sheets (TxGen, UConn, MDC) are a better history source.",
+      "how_to_mine": "If a tool that can reach archive.org becomes available, use the CDX API to list snapshots of the TxGen_Prices.pdf, UConn honeycrisp product pages and MDC price PDFs. Then extract the 25B 300-cycle and S4 300-cycle prices per snapshot.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": []
+    },
+    {
+      "name": "Core-facility price sheets with dated history (TxGen, UConn honeycrisp, MDC Berlin)",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf",
+      "access": "Public PDFs and HTML pages. The MDC PDFs have compressed text streams that WebFetch cannot read. The three MDC files were saved locally under tool-results, but Bash was unavailable to extract them.",
+      "labels": ["1A", "1B"],
+      "status": "productive",
+      "notes": "These sheets give versioned kit prices over time. Examples are TxGen v12 (May 2024) against the Feb 2025 sheet, and UConn S4 v1.5 at $16,578 in Jan 2025. The UConn S4 price sits below the S4-300 list of $21,683 already known, so core contract prices appear to run well under list. MDC lists S4 v1.5 300-cycle at €14,435.30. TxGen/TGen/Dana-Farber 25B figures overlap with the known list.",
+      "how_to_mine": "Extract text from the three MDC PDFs (media/38662, 39029, 39941) with a PDF tool, and capture the document dates. Pull every dated TxGen and UConn version and build a time series of 25B-300, 10B-300 and S4-300 kit prices. Compute the S4-to-25B price per Gb ratio for each year.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "Texas A&M's 25B-300 flow cell price rose from $24,224 (May 2024) to $24,951 (Feb 2025), so core pass-through prices on the X were flat to up (+3.0%), not cut.",
+          "detail": "TxGen price sheet v12 (May 2024) lists the NovaSeq X 25B 300-cycle flow cell at $24,224. The Feb 2025 sheet lists $24,951. The TGen academic list valid from 22 Jul 2026 shows $25,093.04, only +0.6% over Feb 2025. This is a three-point cost-pass-through history for the X's largest flow cell. It cuts against an acceleration in X list or contract discounting in 2024–26 at the core level.",
+          "url": "https://www.txgen.tamu.edu/wp-content/uploads/2024/04/TxGen_Prices_v12_2024_05_04_v3.pdf",
+          "date": "2024-05 to 2026-07",
+          "source_name": "TxGen (Texas A&M) price sheets; TGen CSC academic price list 08-2026",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "Known list gives point prices (TGen $3.14/Gb, Harvard). It does not give the dated TxGen 25B history showing flat-to-up prices."
+        },
+        {
+          "label": "1A",
+          "direction": "supports",
+          "claim": "UConn's S4 v1.5 300-cycle kit price was $16,578 in Jan 2025, about 24% below the $21,683 S4-300 list already known.",
+          "detail": "UConn Center for Genome Innovation service rates (Jan 2025) list NovaSeq S4 v1.5 300-cycle at $16,578. That is about $5,100 below the $21,683 list in the exclusion file. A 2023 Genome Medicine table lists S4 v1.5 at $17,700, so the 6000's effective price fell about 6% in the following 1–2 years. This confirms the 6000 kit price is still sliding at the account level. It also means the 6000-to-X per-Gb gap should be measured against contract prices, not list.",
+          "url": "https://draft.genome.center.uconn.edu/cgi_service_rates",
+          "date": "2025-01",
+          "source_name": "UConn Center for Genome Innovation service rates; Genome Medicine (2023) table 2",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "Known notes cover Salk, EPFL and CNAG 6000 prices. They do not cover UConn S4 or the Genome Medicine $17,700 datapoint."
+        }
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "MDC Berlin core price PDFs (media/38662, 39029, 39941)",
+      "url": "https://www.mdc-berlin.de/media/39941",
+      "access": "Public PDF. Text is compressed, so it needs a local PDF text extractor (pypdf or pdftotext).",
+      "labels": ["1A", "1B"],
+      "rationale": "Three dated versions likely show the EUR price history of 6000 and X kits. A search snippet showed S4 v1.5 300-cycle at €14,435.30. Compare it with the 6000 and X prices from other German and European cores."
+    },
+    {
+      "name": "UConn honeycrisp product catalog (products/358, 401) with dated period labels",
+      "url": "https://honeycrisp.core.uconn.edu/products/358",
+      "access": "Public HTML. Each product page carries a price period such as 2025-07-01 to 2025-12-31, so the time series can be built page by page.",
+      "labels": ["1B"],
+      "rationale": "One page shows a 25B-300 lane at $2,933.99 for 2026, including a temporary 5% tariff surcharge. Adjusting for that surcharge gives a lower real price. A 6000 SP kit at $3,649.80 with tariff, for Jul–Dec 2025, is also listed."
+    },
+    {
+      "name": "Distributor catalogs by SKU (Government Scientific Source, Fisher, VWR, regional EU distributors)",
+      "url": "https://www.gsaadvantage.gov/",
+      "access": "I did not test this directly. Search with SKU 20125967, 20125968, 20104705 or 20028312.",
+      "labels": ["1A", "1B"],
+      "rationale": "These would give distributor list or schedule prices, which are independent of Illumina's sign-in gate and of core mark-ups."
+    }
+  ],
+  "apify_requests": []
+}
+```

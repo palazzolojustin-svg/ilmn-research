@@ -1,0 +1,143 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Federal labs are still buying service plans for NovaSeq 6000s in 2025-26, so the 6000 tail is being kept alive. This is the opposite of the rapid-retirement pattern at research cores.",
+      "detail": "The Naval Medical Research Command (NMRC) posted a sole-source notice on 22 Dec 2025 for a one-year Silver Support Plan on NovaSeq 6000 S/N A01716 (CAT# 20019988). A separate NMRC listing shows a Silver Support Plan award of $141,313 for a 6000. NIEHS (June 2025) renewed a 6000 Bronze agreement for 29 Jun 2025-28 Jun 2026. NICHD (Feb 2025-Feb 2026) and CDC (Dec 2024-Dec 2025) renewed 6000 service as well. Each of these is a government 6000 that still has a service contract and is probably still running consumables. Because these are annual renewals, they act as a dated check on whether federal 6000s are retired. Aggregator text is not the SAM.gov record. Four agencies renewing is an anecdote, not a count of the base.",
+      "url": "https://govcontractfinder.com/contracts/comprehensive-full-service-maintenance-repair-plan-for-illum-N3239826Q4072",
+      "date": "2025-12-22",
+      "source_name": "GovContractFinder / SweetSpot mirrors of SAM.gov notices (NMRC, NIEHS, NICHD, CDC)",
+      "source_type": "procurement",
+      "quote": "intends to award a sole source contract to, Illumina Inc., San Diego, CA",
+      "strength": "medium",
+      "why_new": "Prior notes list only Novogene, Dana-Farber and cores retiring 6000s. No federal 6000 service renewals or Silver plan value were captured."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina holds a sole-source federal framework for reagents, so the largest federal account is not forcing extra discounts through competition.",
+      "detail": "NIH OLAO awarded IDC 75N98026D00035 to Illumina on 21 May 2026, funded by NHGRI. It is a 5-year vehicle ending 21 May 2031 with a $90M ceiling, i.e. $18M a year at most. It was not competed (1 bid) and was justified as 'unique capabilities'. Obligations on it rose from $1.30M to $5.35M (about 6% of ceiling) between the first aggregator snapshot and the 8 Oct 2026 page. The page shows no unit prices (pricing is 'order dependent'). Federal demand is therefore small against Illumina's roughly $3B of sequencing consumables, and the buyer has no competitive tension. It is a modest watch-out for the idea that large accounts extract bigger discounts.",
+      "url": "https://www.highergov.com/idv/75N98026D00035/",
+      "date": "2026-10-08",
+      "source_name": "HigherGov IDV record (FPDS mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The 2026 NHGRI sole-source IDC, its $90M ceiling and its obligation growth are not in the known sources. The known federal item is only the 'only one responsible source' notice pattern."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "The government resale catalog sells the 25B-300 kit at Illumina's list price, so federal buyers get no visible discount at the catalog level.",
+      "detail": "Government Scientific Source (govsci.com) shows NovaSeq X 25B Rgt Kit 300 Cyc (20104706) at $24,155.04 each, with no contract vehicle listed. That is exactly the known GSA/list price ($24,155). So the distributor catalog carries no federal discount. At about $24,155 for 8 lanes at roughly 8,000-10,000 Gb output, it implies $2.30-3.02/Gb, the same as the already-known list range. Any real federal price cut would have to appear in the NIH order for 75N98026Q00260, which I could not find an award for. Core-level $2.5-3.0/Gb is therefore at or near list, not below it.",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20104706/EA/",
+      "date": "2026-10-12",
+      "source_name": "Government Scientific Source product page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This confirms that government channel pricing equals list. It was known as a list price but not as evidence about federal discounting."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Federal NovaSeq X 25B purchases are sized in single orders, not volume-ramp programs.",
+      "detail": "NIH OLAO solicitation 75N98026Q00260 (posted 27 Apr 2026, responses due 7 May 2026, NAICS 325414, PSC 6550, Bethesda) is a one-off notice for 25B kits, with no quantity or award found. The 5-year NHGRI vehicle is capped at $90M, and only about $5.4M was obligated in its first 4.5 months, which annualizes to roughly $14M. That is under 0.5% of Illumina's annual sequencing consumables of about $3.1B (consensus FY26). This federal demand is tiny and slow-ramping.",
+      "url": "https://g2xchange.com/app/opportunities/sam/8d4a70f0-e7ff-424b-8aae-ec60c93645cd",
+      "date": "2026-04-27",
+      "source_name": "g2x / SAM.gov mirror; HigherGov",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This adds a quantified obligation pace for the federal Illumina vehicle. No earlier source gave one."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A European university replaced both a NovaSeq 6000 and a NextSeq 500 with one X Plus, showing the typical conversion is consolidation, not extra volume.",
+      "detail": "The University of Copenhagen awarded Illumina Denmark ApS a NovaSeq X Plus sequencer for USD 2,878,114 on 28 Feb 2025, to replace the older NovaSeq 6000 and NextSeq 500. Two boxes consolidating into one X Plus means the old 6000 revenue stream moves to X prices in one step. The figure is a contract value for the instrument, not consumables.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+      "date": "2025-02-28",
+      "source_name": "Publications Office of the EU (TED)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known tenders cover only CIBER and IDIBAS consumables. No instrument-replacement tender was cited."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A federal buyer in New Mexico solicited an Element AVITI24 system in Aug 2026, one sign of competitive systems entering public purchasing.",
+      "detail": "A federal combined synopsis/solicitation for an 'Element Biosciences AVITI 24 sequencing and spatial' system was released 11 Aug 2026 and closed 27 Aug 2026, run by the Indian Education Acquisition Office (New Mexico). Quantity, value and justification are not visible because the attachments are restricted. The buyer is an education agency, so it is weak evidence. It shows Element is being bought by name by federal buyers, in contrast to Illumina's 'only one responsible source' justifications.",
+      "url": "https://starbridge.ai/rfp/element-biosciences-aviti-24-sequencing-and-spati",
+      "date": "2026-08-11",
+      "source_name": "Starbridge RFP listing (SAM.gov mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first federal procurement of a non-Illumina sequencer. The known federal items are all Illumina sole-source buys."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "NIH's intramural sequencing center was renewed on proprietary-reagent grounds in 2025, which shows lock-in at a large federal research account.",
+      "detail": "NHLBI posted a non-competitive modification (75N92025R00033) on 4 Jun 2025 for Illumina reagents at the NIH Intramural Sequencing Center. It extended performance from 3 Sep 2020 to 2 Mar 2026, a 5.5-year run with no competition. The stated reason was that switching reagents 'could jeopardize research outcomes'. The Intramural Sequencing Center is one of the largest federal users, and its follow-on is the 2026 NHGRI $90M vehicle. This shows a research account that has not used a rival to force a re-bid.",
+      "url": "https://console.sweetspotgov.com/federal-contracts/57cd65d9-beca-5d8d-bf5a-dbfbc744dfd7",
+      "date": "2025-06-04",
+      "source_name": "SweetSpot mirror of SAM.gov notice",
+      "source_type": "procurement",
+      "quote": "Illumina's proprietary systems require specific reagents",
+      "strength": "weak",
+      "why_new": "The Intramural Sequencing Center contract history and the continuity into the 2026 vehicle were not in the known sources."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Even DoD buys of Illumina reagents are being routed through overseas distributors on sole-source grounds, which adds channel margin rather than discounts.",
+      "detail": "DHA posted a special notice (PANDHA25P0000028745) on 7 Jan 2026, amended 13 Jan, for a BPA for brand-name Illumina reagents, kits and consumables for AFRIMS/WRAIR in Bangkok. The intended sole-source awardee is Bio-Active Co., Ltd (Thailand), a distributor, not Illumina. No value or discount is stated. This is the same distributor-channel pattern as the IDIBAPS tender. It is weak evidence, but it suggests that overseas federal buyers pay distributor prices.",
+      "url": "https://console.sweetspotgov.com/federal-contracts/27cf21f9-7685-557f-a4a3-3e7fd9eafbc7",
+      "date": "2026-01-07",
+      "source_name": "SweetSpot mirror of SAM.gov notice",
+      "source_type": "procurement",
+      "quote": "validated compatibility with Illumina sequencing platforms",
+      "strength": "weak",
+      "why_new": "This distributor-based DoD BPA is not in the known list."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The mirrors show no prices. I found no award record for NIH solicitation 75N98026Q00260. I could not read the full text of the samdaily FBO-07441605 notice (the fetch failed), and the g2x page redirected to g2x.com and was not read. govsignals did not resolve. USAspending's API needs POST and could not be queried with the tools available. A later agent with a POST-capable fetch could query USAspending award search (keyword NovaSeq / Illumina, PSC 6550/6640, FY26) for line-level obligations and quantities. The govsci 25B-300 price ($24,155.04) equals the known list, so the 'federal discount' check found no discount at the catalog level.",
+  "leads": [
+    {
+      "name": "USAspending.gov award search / API",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "access": "Open API, but it needs a POST body; the keyword filter 'NovaSeq' with PSC 6550/6640 for FY25-26 could return obligations per award",
+      "labels": ["1B", "1A"],
+      "rationale": "This is the only route to real federal award prices, to compare with the $11,700 and $14,500 list prices for the 25B kits."
+    },
+    {
+      "name": "HigherGov IDV 75N98026D00035 task orders",
+      "url": "https://www.highergov.com/idv/75N98026D00035/",
+      "access": "Partly paywalled; the Contract Awards table was empty on the free view",
+      "labels": ["1B", "1C"],
+      "rationale": "Task orders under the $90M NHGRI vehicle would show the obligation pace and any NovaSeq X kit line items."
+    },
+    {
+      "name": "Govly / SweetSpot NIH Illumina notices",
+      "url": "https://app.govly.com/public/opportunities/16859311",
+      "access": "Open mirrors; attachments are sometimes restricted",
+      "labels": ["1A", "1B"],
+      "rationale": "These carry the attachment text of more notices of intent, which sometimes state quantities and part numbers (6000 S4 vs X 25B)."
+    },
+    {
+      "name": "NASA GeneLab sole-source notices 80NSSC24881103Q (NovaSeq 6000, 2024) and 80NSSC25903768Q (2025)",
+      "url": "https://console.sweetspotgov.com/federal-contracts/0b9a708a-3a99-5bd6-91bf-3cce1568887b",
+      "access": "Open",
+      "labels": ["1A"],
+      "rationale": "Reagents for the 6000 were being bought in 2024 and 2025. A 2026 follow-on could show whether NASA moved to the X."
+    }
+  ],
+  "apify_requests": []
+}
+```

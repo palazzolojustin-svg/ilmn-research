@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "genome.gov/Funded-Programs-Projects returned 404. Searches and the grants.gov NOFOs found no 2025-26 CCDG or GSP sequencing-center renewal. The GREGoR renewal (GREGoRi, FY2027) is a small innovation and coordination program with no sequencing-production budget. Neither NOFO gives a target genome count, a $/genome figure or platform language, so no implied $/genome versus the prior cycle can be computed. Only 3 fetches and 1 search were used. The one item below is context, not thesis evidence.",
+  "how_to_mine": "Low payoff, so probably skip. If revisited: (1) get the RFA-HG-27-012 Technology Integration Center NOFO from simpler.grants.gov (opportunities 359279/359280) and check its budget and sequencing language. (2) Check NHGRI Council/Director's Report slides for a Genome Sequencing Program or CCDG successor (the genome.gov Directors-Report PDFs). (3) Check the NIH FY2026 NHGRI funding strategy page for the R24/U24/U41 reduction language. (4) For the real big research buyers (Broad, WashU, Baylor, NYGC), the better sources are NIH RePORTER HTML project pages and sequencing-center annual reports, not these NOFOs.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "NHGRI's FY2027 GREGoR renewal is funded at only about $9.5M in FY2027, with no sequencing production budget, so it signals no growth in federal rare-disease sequencing buying.",
+      "detail": "The GREGoRi renewal (NOFOs updated May 2026, posted Jun 2026) commits $7.5M in FY2027 to 8-10 innovation projects (up to $500K direct costs per year, up to 3 years). It also commits $2M in FY2027 to one data coordination center (up to $1.25M direct costs per year, 5 years). Neither NOFO sets genome counts or per-genome costs or names a platform. The original 2021 GREGoR funding level was not stated in either NOFO, so no change in dollars versus the prior cycle can be computed. The FY2026 NHGRI funding strategy page separately says resource grants (R24/U24/U41) may face further budget reductions.",
+      "url": "https://files.simpler.grants.gov/opportunities/4dd61e81-d44e-4e85-a0e2-c422124fd0b9/attachments/fd397f13-9b2d-4f36-8b1a-818dc263e1a2/RFA-HG-27-013-Full-Announcement.html",
+      "date": "2026-06-18",
+      "source_name": "NHGRI RFA-HG-27-013 and RFA-HG-27-011 via simpler.grants.gov",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The GREGoRi FY2027 NOFO budget figures and the NHGRI reduction caveat on resource grants are not in the known list."
+    }
+  ],
+  "new_candidates": [
+    "RFA-HG-27-012 (GREGoRi Technology Integration Center) NOFO on simpler.grants.gov",
+    "NHGRI Director's Report / Council slides on the Genome Sequencing Program successor",
+    "grants.nih.gov NHGRI FY2026 funding strategy page (resource grant reduction language)"
+  ],
+  "apify_requests": []
+}
+```

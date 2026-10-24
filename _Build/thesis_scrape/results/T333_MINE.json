@@ -1,0 +1,110 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's Medicare fee-for-service MRD billing nearly doubled in 2024, which is a watch-out for any MRD-is-too-small argument.",
+      "detail": "Natera's Medicare FFS billing under HCPCS 0340U (MRD DNA assay, i.e. Signatera) rose from 13,783 services and 7,028 beneficiaries in the prior-year file to 25,746 services and 11,922 beneficiaries in the 2024 file. That is +86.8% in services (25,746/13,783) and +69.6% in beneficiaries. Natera's other unspecified-molecular code, 81479, rose from 22,512 to 30,323 services (+34.7%). Both are clean, publicly queryable CMS rows. 81479 is a catch-all code, so it may include non-MRD tests.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[Rndrng_Prvdr_Last_Org_Name]=Natera, Inc.&size=100",
+      "date": "2024 data year (file published May 2026); prior year from 0e9f2f2b file (2023 data, my inference)",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "strong",
+      "why_new": "Known file only has company-reported test counts; this is a 2023-to-2024 claims time series with exact services and beneficiaries."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's combined Medicare FFS billing across 0340U and 81479 grew roughly 47% in dollars in 2024, so the MRD volume engine is intact.",
+      "detail": "Services across the two codes were 36,295 in the prior-year file (13,783 + 22,512) and 56,069 in 2024 (25,746 + 30,323), +54.5%. Medicare payment dollars are services times average payment. In 2024 that is 25,746 × $3,518.68 = $90.6M for 0340U plus 30,323 × $3,460.65 = $104.9M for 81479, or $195.5M. In the prior-year file it is 13,783 × $3,837.98 = $52.9M plus 22,512 × $3,562.91 = $80.2M, or $133.1M. That is +46.9%. The dollars are Medicare FFS only; Medicare Advantage is excluded.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/0e9f2f2b-7bf9-451a-912c-e02e654dd725/data?filter[Rndrng_Prvdr_Last_Org_Name]=Natera, Inc.&size=100",
+      "date": "2023 and 2024 data years",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Derives Natera's Medicare FFS dollar run-rate and growth from claims, which the file does not have."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "MRD draw cadence per Medicare patient barely rose, so MRD volume growth is coming from more patients, not more draws per patient.",
+      "detail": "For 0340U, services per beneficiary were 13,783/7,028 = 1.96 in the prior-year file and 25,746/11,922 = 2.16 in 2024, a 10% rise. Beneficiaries rose 69.6%. For 81479 it was 22,512/15,483 = 1.45, then 30,323/20,898 = 1.45, flat. A cadence of about 2 draws per patient-year is well below the 4-9 draws per year in the known trial protocols, so the high-Gb-per-patient scenario is not showing in claims. Counts cover the year's billed claims, and patients enrolled mid-year would bias the ratio down.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U&size=100",
+      "date": "2024 data year",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known notes cite protocol cadences (every 6 weeks or 3 months), not observed real-world claims cadence."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Medicare's average payment per Signatera (0340U) test fell 8.3% in 2024, so price pressure is already reaching MRD at Illumina's largest customer.",
+      "detail": "The average Medicare payment per 0340U service fell from $3,837.98 in the prior-year file to $3,518.68 in 2024 (−8.3%). The 81479 payment fell from $3,562.91 to $3,460.65 (−2.9%). Average submitted charge in 2024 was $4,944. A shrinking per-test price supports Natera pushing for lower reagent costs under its supply-agreement re-openers. The known file already has the Jan 2026 rate cut ($3,920 to $3,590), so this adds the 2024 step. It could reflect a changed code or test mix.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U&size=100",
+      "date": "2024 data year",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds an earlier observed per-test payment decline; only the Jan 2026 cut is known."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Guardant360 liquid CGP volume in Medicare FFS was essentially flat in 2024, consistent with a saturated therapy-selection market.",
+      "detail": "Guardant's 0242U plus 0326U services were 21,416 + 16,798 = 38,214 in the prior-year file and 20,206 + 19,695 = 39,901 in 2024, +4.4%. Beneficiaries were 36,091 and 37,300 (+3.3%). 0242U fell 5.7% while 0326U rose 17.2%, so part of the change is code migration. Adding 0334U (1,941 to 2,759, +42%) gives 40,155 to 42,660 (+6.2%). Against Guardant's +63% oncology growth in Q2'26 in the known file, which is mostly Reveal and Shield, the legacy genotyping line is mature. This is Medicare FFS only.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[Rndrng_Prvdr_Last_Org_Name]=Guardant Health, Inc.&size=100",
+      "date": "2023 to 2024 data years",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known notes call CGP 'quite saturated' from experts only; this gives claims-based growth of +4% to +6%."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Foundation Medicine's Medicare FFS CGP billing fell 7.8% in 2024, which adds a data point that comprehensive genomic profiling is not accelerating.",
+      "detail": "FoundationOne CDx tissue (0037U) services were 15,551 in the prior-year file and 13,787 in 2024 (−11.3%); beneficiaries went 15,460 to 13,693 (−11.4%). FoundationOne Liquid CDx (0239U) was flat at 7,188 and 7,181. Combined: 22,739 to 20,968 (−7.8%). Average payment was unchanged at about $3,420. Part of the fall may be a shift to Medicare Advantage, so this is not proof of falling total Foundation volume.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[Rndrng_Prvdr_Last_Org_Name]=Foundation Medicine, Inc.&size=100",
+      "date": "2023 to 2024 data years",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies CGP stagnation at a Roche-owned lab using claims; no Foundation Medicare volumes are in the known file."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Access works with no login via the API. The Rndrng_Prvdr_Last_Org_Name filter returns a provider's full code list, but the HCPCS_Cd filter alone returned only the Natera row for 0340U. The 0e9f2f2b file (prior year) is my inference as 2023 data, and 31dc2c47 (Dec 2021 release) is probably CY2020 or earlier; both are unlabeled. Natera 81479 in the 2021-release file was 12,012 services (2.14/bene), and Guardant 0242U was 8,925, so the series 2021-release to 2023 to 2024 is 12.0K to 22.5K to 30.3K for Natera 81479, but the years are uncertain. Tempus billing is split across 81455, 81456, 81459 and 81464 with code changes between years, so I could not build a trend; its 2024 CGP services are about 50.7K. Caris 2024: 0485U 1,359 services at $3,576 and 81479 29,370 + 947. Adaptive 81479 5,123 services at $7,099. Unmined: Exact, Personalis, GRAIL, Labcorp and Quest MRD codes, the 2022 file UUID, and the Clinical Laboratory Fee Schedule PLA list. All of it is FFS Part B only, excluding Medicare Advantage, and so says little about Illumina Gb directly.",
+  "leads": [
+    {
+      "name": "CMS Clinical Laboratory Fee Schedule (CLFS) PLA/ADLT code list and annual rates",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/clinical-laboratory-fee-schedule/clfs-files",
+      "access": "Public downloads (zip/CSV)",
+      "labels": ["1B", "1C"],
+      "rationale": "Gives the payment rate per MRD and CGP code by year, to check whether MRD price per test is falling and which tests are priced as ADLTs."
+    },
+    {
+      "name": "CMS Provider and Service datasets for other years (2022 file, UUID not found)",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service",
+      "access": "Year dropdown and API tab on the dataset page",
+      "labels": ["1C"],
+      "rationale": "Completes the 2021-2024 series for Natera, Guardant, Foundation, Tempus, Caris and Exact, to test whether claims growth accelerates or decelerates."
+    },
+    {
+      "name": "CMS Medicare Part B Spending by Drug / Clinical Laboratory spending files",
+      "url": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug",
+      "access": "Public API",
+      "labels": ["1C"],
+      "rationale": "Possible cross-check of lab-level Medicare spending, though the file focuses on drugs. It may be a dead end."
+    }
+  ],
+  "apify_requests": []
+}
+```

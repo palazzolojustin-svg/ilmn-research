@@ -1,0 +1,390 @@
+SGT Pricing | Duke University School of Medicine
+Skip to main content
+Utility
+Faculty Directory
+Contact Us
+Give
+Search
+Menu
+Close
+Main navigation
+About Us
+toggle sub nav items
+Leadership and Administration
+Facts & Figures
+History
+Named Professorships
+Faculty Resources
+Staff Resources
+Duke In Durham
+Alumni
+Giving
+Anatomical Gifts Program
+Calendar of Events
+Contact Us
+Education
+$379.98
+|
+FFPE - Total RNA library with Ribo-Zero Plus (human, mouse, rat)
+Sample 49-N |
+LP-FFPE-RNA-seq |
+$192.42 |
+$247.96 |
+Top of Page
+Illumina Sequencing Services
+Platform |
+Flow Cell |
+Read Length** |
+Code |
+Duke Price |
+Non-Duke Price |
+MiSeq i100 |
+100M |
+300 Cycles
+(150x150) |
+I-Mi-100M-300 |
+$2,071.75 |
+$2.399.65 |
+|
+25M |
+100 Cycles
+(50x50) |
+I-Mi-25M-100 |
+$1,032.25 |
+$1,306.18 |
+|
+25M |
+300 Cycles
+(150 x 150) |
+I-Mi-25M-300 |
+$1,436.50 |
+$1,730.65 |
+|
+25M |
+600 Cycles
+(300x300) |
+I-Mi-25M-600 |
+$1,667.50 |
+$2,700.85 |
+|
+50M |
+100 Cycles
+(50x50) |
+I-Mi-50M-100 |
+$1,263.25 |
+$1,550.72 |
+|
+50M |
+300 Cycles
+(150x150)
+|
+I-Mi-50M-300 |
+$1,667.50 |
+$1,975.19 |
+|
+50M |
+600 Cycles
+(300 x 300) |
+I-Mi-50M-600 |
+$2,071.75 |
+$2399.65 |
+|
+5M |
+300 Cycles
+(150x150) |
+I-Mi-5M-300 |
+$882.10 |
+$1,148.53 |
+|
+5M |
+600 Cycles
+(300 x 300) |
+I-Mi-5M-600 |
+$1,147.75` |
+$1,427.46 |
+|
+|
+|
+|
+|
+|
+NextSeq 1000/2000 |
+XLEAP P1 |
+100 Cycles
+(50x50) |
+I-NEXT-P1-X-100 |
+$1,229 |
+$1,535.17 |
+|
+XLEAP P1 |
+300 Cycles
+(150x150) |
+I-NEXT-P1-X-300 |
+$1,537 |
+$1,858.57 |
+|
+XLEAP P1 |
+600 Cycles
+(300x300) |
+I-NEXT-P1-X-600 |
+$2,109 |
+$2,459.17 |
+|
+XLEAP P2 |
+100 Cycles
+(50x50) |
+I-NEXT-P2-X-100 |
+$1,638.20 |
+$1,964.83 |
+|
+XLEAP P2 |
+200 Cycles
+(100x100) |
+I-NEXT-P2-X-200 |
+$2,695.30 |
+$3,074.79 |
+|
+XLEAP P2 |
+300 Cycles
+(150x150) |
+I-NEXT-P2-X-300 |
+$3,431.20 |
+$3,847.48 |
+|
+XLEAP P2 |
+600 Cycles
+(300x300) |
+I-NEXT-P2-X-600 |
+$3,696.30 |
+$4,125.84 |
+|
+XLEAP P3 |
+100 Cycles
+(50x50) |
+I-NEXT-P3-X-100 |
+$3,002.20 |
+$3,3397.57 |
+|
+XLEAP P3 |
+200 Cycles
+(100x100) |
+I-NEXT-P3-X-200 |
+$3,988.90 |
+$4,433.57 |
+|
+XLEAP P3 |
+300 Cycles
+(150x150) |
+I-NEXT-P3-X-300 |
+$5,172.50 |
+$5,676.57 |
+|
+XLEAP P4 |
+100 Cycles
+(50x50) |
+I-NEXT-P4-X-100 |
+$3,407 |
+$3,822.57 |
+|
+XLEAP P4 |
+200 Cycles
+(100x100) |
+I-NEXT-P4-X-200 |
+$4,636.80 |
+$5,113.57 |
+|
+XLEAP P4 |
+300 Cycles
+(150x150) |
+I-NEXT-P4-X-300 |
+$5,783 |
+$6,317.57 |
+|
+|
+|
+|
+|
+|
+NovaSeq X Plus |
+1.5B |
+100 Cycles
+(50x50) |
+I-X-1.5B-100 |
+$3.244.70 |
+$4,018.46 |
+|
+1.5B |
+200 Cycles
+(100x100) |
+I-X-1.5B-200 |
+$3,811.20 |
+$4,613.28 |
+|
+1.5B |
+300 Cycles
+(150x150) |
+I-X-1.5B-300 |
+$4,037.80 |
+$4,851.21 |
+|
+1.5B |
+Any Configuration*** |
+I-X-1.5B-lane |
+$2,018.90 |
+$2,425.61 |
+|
+10B |
+100 Cycles
+(50x50) |
+I-X-10B-100 |
+$10,694.40 |
+$12,976.32 |
+|
+10B |
+200 Cycles
+(100x100) |
+I-X-10B-200 |
+$12,664.96 |
+$15,045.41 |
+|
+10B |
+300 Cycles
+(150x150) |
+I-X-10B-300 |
+$13,392.80 |
+$15,809.64 |
+|
+10B |
+Any Configuration*** |
+I-X-10B-Lane |
+$1,709.73 |
+$2,086.41 |
+|
+25B |
+100 Cycles
+(50x50) |
+I-X-25B-100 |
+$17,053.50 |
+$19,888.58 |
+|
+25B |
+200 Cycles
+(100x100) |
+I-X-25B-200 |
+$20,287.50 |
+$23,284.20 |
+|
+25B |
+300 Cycles
+(150x150) |
+I-X-25B-300 |
+$22,574.40 |
+$25,685.52 |
+|
+25B |
+Any Configuration*** |
+I-X-25B-lane |
+$2,969.30 |
+$3,448.17 |
+**default sequencing protocol; we can run custom sequencing protocols with purchase of full flow cell
+***We can run custom read length protocols on NovaSeq X Plus lanes. Custom primers must be run on a full flow cell
+Top of Page
+PacBio Library Building and Sequencing
+Description |
+Code |
+Duke Price |
+Non-Duke Price |
+IsoSeq prepared cDNA from Total RNA |
+PB_LP_cDNA |
+$262.22 |
+$325.59 |
+Description
+|
+Code
+|
+Duke Price
+|
+Non-Duke Price
+|
+DNA extraction from PBMCs, buffy coat blood, or EDTA blood per specimen
+|
+SP-DNA-blood
+|
+$47.86
+|
+$68.43
+|
+HMW DNA extraction per specimen
+|
+SP-DNA-HMW
+|
+$87.75
+|
+$110.31
+|
+miRNA extraction from serum or plasma per specimen |
+SP-miRNA-serum |
+$46.05 |
+$66.52 |
+RNA extraction from blood per specimen
+|
+SP-RNA-blood |
+$47.75
+|
+$68.31
+|
+RNA extraction from cell pellet per specimen
+|
+SP-RNA-cell
+|
+$45.78
+|
+$66.25
+|
+Quantification (qPCR) per library
+|
+LP-X-qPCR
+|
+$42.55
+|
+$67.64
+|
+AMPure bead cleanup per library |
+LP-X-rm-ad-dim |
+$44.03 |
+$69.19 |
+Additional advanced QC of DNA or library via Qubit + Femto Pulse per sample |
+SP-X-DNA-QC-adv |
+$71 |
+$97.51 |
+Additional basic QC of DNA via Qubit per sample |
+SP-X-DNA-QC-bas |
+$42.16 |
+$67.22 |
+Additional QC of RNA per sample |
+SP-X-RNA-QC |
+$44.30 |
+$69.48 |
+Pooling for up to 12 libraries
+|
+Pooling
+|
+$190
+|
+$275.10
+|
+Replating Charge |
+SP-replate |
+$5 |
+$8.05 |
+NextSeq/MiSeq custom primer |
+I-X-primer |
+$100 |
+$105 |
+Wire transfer |
+X-wire-transfer |
+|
+$31 |
+While we no longer offer QC only services, the Microbiome Core Facility does.
+Top of Page
+Bioinformatics***

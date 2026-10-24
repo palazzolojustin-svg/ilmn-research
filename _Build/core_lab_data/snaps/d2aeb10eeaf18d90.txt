@@ -1,0 +1,116 @@
+35 cycles 10'000 mio 12'765 CHF
+800 mio 2'940 CHF
+1'600 mio 5'245 CHF
+4'100 mio 9'635 CHF
+800 mio 3'790 CHF
+1'600 mio 6'585 CHF
+4'100 mio 11'925 CHF
+10'000 mio 16'635 CHF
+800 mio 4'150 CHF
+1'600 mio 7'145 CHF
+4'100 mio 12'805 CHF
+10'000 mio 18'610 CHF
+500 cycles 800 mio 5'720 CHF
+75 cycles 400 mio 1'905 CHF
+130 mio 1'465 CHF
+400 mio 3'465 CHF
+130 mio 2'255 CHF
+400 mio 5'430 CHF
+50 cycles 15mio 1'240 CHF
+150 cycles 25mio 1'375 CHF
+1mio 605 CHF
+4mio 800 CHF
+15mio 1'535 CHF
+1mio 675 CHF
+15mio 1'710 CHF
+500 mio 1'585 CHF
+1'000 mio 2'410 CHF
+100 mio 2'340 CHF
+300 mio 3'285 CHF
+Reagents fee per sample 95 CHF
+1-16 samples 308 CHF
+17-32 samples 370 CHF
+33-48 samples 432 CHF
+GECF list price, March 2018 
+Sequencing
+NextSeq 500
+Library preparation
+ISML (Illumina Stranded mRNA Ligation)
+https://www.epfl.ch/research/facilities/gene-expression-core-facility/page-154614-en-html/
+NovaSeq 6000
+MiSeq
+200 cycles
+300 cycles
+150 cycles
+300 cycles
+300 cycles
+100 cycles
+150 cycles
+300 cycles
+600 cycles
+For 10XG scRNA-seq or BRB-seq, at least 100 cycles are needed.
+500 cycles
+Labour fee
+Aviti
+GECF price list, internal users 
+01 July 2024
+Page 1 of 4
+Reagents fee per sample 115 CHF
+1-16 samples 308 CHF
+17-32 samples 370 CHF
+33-48 samples 432 CHF
+Reagents fee per sample 185 CHF
+1-16 samples 308 CHF
+17-32 samples 370 CHF
+12.10 CHF
+42 CHF
+159 CHF
+qPCR & BioMark
+qPCR
+TapeStation 4200 profiling (RNA)
+qPCR-based library quantification (GECF-operated)
+Qubit
+Picogreen and ribogreen also available on demand for large projects
+Nanoplate 8.5K 24-well
+Assistance, per lane
+QIAcuity One
+dPCR instrument booking, per hour (no plastic/reagent included)
+Nanoplate 8.5K 96-well
+Per sample (ladder + pos. ctrl free), reagents incl., user-operated
+10X Genomics multiome (scRNA-seq + scATAC-seq)
+Per sample
+Other methods on demand: CRISPR screen, protein detection…; PARSE scRNA-seq; Plate-
+based single-cell (f.sight.omics/i.dot/c.wash)
+1 lane (11 samples + ladder), reagents incl., user-operated
+Per slide of 2 samples
+Visium non-Cytassist 6.5mm x 6.5mm
+Per slide of 4 samples
+Spatial Transcriptomics
+Visium Cytassist 6.5mm x 6.5mm
+Per slide of 2 samples
+Visium Cytassist 11mm x 11mm
+10X Chromium independent use
+Per run
+Quantification and QC of nucleic acids and libraries
+130 CHF
+185 CHF
+310 CHF
+510 CHF
+710 CHF
+247 CHF
+20 CHF
+01 July 2024: General update of pricing and introduction of new FNS table, in most cases 
+slight/modest changes. Worth noting:
+    - Significant increase of qPCR and Fragment Analyzer run prices.
+    - NGS: Addition of Aviti; Suppression of NovaSeq 400mio option; Significant increase of 
+NextSeq prices.
+    - 10XG: Addition of VisiumHD, scATAC-seq, and scRNA-seq 3'GE v4; Labour now 
+included in 10XG prices.
+November 2023: decrease of 10XG FLEX prices. Addition of HiC service.
+October 2023: update of Oxford Nanopore prices.
+Ligation prep (Flongle)
+Per sample
+Labour (total)
+Per multiplexed prep of 9-16 samples
+Per multiplexed prep of 17-24 samples
+Labour (total)

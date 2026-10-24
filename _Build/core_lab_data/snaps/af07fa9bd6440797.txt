@@ -1,0 +1,119 @@
+QC services
+Extra services for NA samples or sequencing libraries price per sample
+Qubit  concentration measurement 0,60 €
+BioAnalyzer QC 2,45 €
+Tapestation QC 2,45 €
+* Fragment Analyser QC (11 samples per run) 2,65 €
+qPCR concentration measurement (KAPA kit) 3,80 €
+* we can run less than 11 samples, but the customer has to pay for the whole run (28.93 Euro)!
+Illumina NGS services 
+RNA-Seq applications price per library
+Illumina TruSeq stranded mRNA, <16 samples 72,29 €
+Illumina TruSeq stranded mRNA, >16 samples 64,59 €
+Illumina TruSeq stranded total RNA library prep with Ribo Zero Gold, <16 samples 136,02 €
+Illumina TruSeq stranded total RNA library prep with Ribo Zero Gold, >16 samples 128,32 €
+Illumina TruSeq small RNA 100,39 €
+NEBNext total RNA 106,98 €
+TAKARA SMARTer® Stranded Total RNA-Seq Pico Input, ≤12 samples 113,39 €
+TAKARA SMARTer® Stranded Total RNA-Seq Pico Input, 13-48 samples 91,58 €
+DNA sequencing applications price per library
+Human exome sequencing: SureSelect XT human All Exon v7 179,44 €
+Mouse exome sequencing: SureSelect XT mouse All Exon 177,44 €
+Illumina ChIp-Seq 62,91 €
+iSeq (up to 4 mln reads or read pairs per flowcell) price per flowcell
+iSeq,  300 cycles (longest read - 150 nt) 625,90 €
+MiniSeq (up to 25 mln reads or read pairs per flowcell) price per flowcell
+MiniSeq High Output, 1x75 801,74 €
+MiniSeq High Output, 1x150 939,97 €
+MiniSeq High Output, 2x75 939,97 €
+MiniSeq High Output, 2x150 1.503,75 €
+MiniSeq Mid Output, 2x150 (up to 8 mln reads or read pairs per flowcell) 536,14 €
+NextSeq500 High Output (up to 400 mln reads or read pairs per FC) price per flowcell
+NextSeq500 High Output, 1x75 1.439,57 €
+NextSeq500 High Output, 1x150 2.758,68 €
+NextSeq500 High Output, 2x75 2.758,68 €
+NextSeq500 High Output, 2x150 4.419,42 €
+NextSeq500 Mid Output (up to 130 mln reads or read pairs per FC) price per flowcell
+NextSeq500 Mid Output, 1x150 1.049,56 €
+NextSeq500 Mid Output, 2x75 1.049,56 €
+NextSeq500 Mid Output, 2x150 1.691,35 €
+ NGS services pricelist (valid from 15.04.2021)
+these are  net prices valid for MDC and Charité users only
+If the service you need is not in the list below, please contact seqteam@mdc-berlin.de
+sequencing library preparation includes QC of initial samples and resulting libraries
+Sequencing services
+Genomics Platform 
+HiSeq4000 (up to 350 mln reads or read pairs per lane, 8 lanes) price per lane
+HiSeq4000, 1x50 835,08 €
+HiSeq4000, 2x75 1.527,59 €
+HiSeq4000, 1x150 1.241,27 €
+HiSeq4000, 2x150 2.149,25 €
+NovaSeq 6000, whole FC loading price per flowcell
+NovaSeq 6000 SP  (up to 800 mln reads or read pairs per flowcell)
+NovaSeq 6000 SP, v1.5, 100 cycles 2.168,10 €
+NovaSeq 6000 SP, v1.5, 200 cycles (longest read - 150 nt) 2.839,10 €
+NovaSeq 6000 SP, v1.5, 300 cycles (longest read - 150 nt) 3.096,50 €
+NovaSeq 6000 SP, v1.5, 500 cycles (longest read - 250 nt) 4.335,10 €
+NovaSeq 6000 S1  (up to 1600 mln reads or read pairs per flowcell)
+NovaSeq 6000 S1, v1.5, 100 cycles 3.974,30 €
+NovaSeq 6000 S1, v1.5, 200 cycles (longest read - 150 nt) 5.006,10 €
+NovaSeq 6000 S1, v1.5, 300 cycles (longest read - 150 nt) 5.419,70 €
+NovaSeq 6000 S2  (up to 4100 mln reads or read pairs per flowcell)
+NovaSeq 6000 S2, v1.5, 100 cycles 7.483,30 €
+NovaSeq 6000 S2, v1.5, 200 cycles (longest read - 150 nt) 9.290,60 €
+NovaSeq 6000 S2, v1.5, 300 cycles (longest read - 150 nt) 9.909,90 €
+NovaSeq 6000 S4  (up to 10000 mln reads or read pairs per flowcell)
+NovaSeq 6000 S4, v1.5, 35 cycles (longest read - 35 nt) 10.838,30 €
+NovaSeq 6000 S4, v1.5, 200 cycles (longest read - 150 nt) 12.956,90 €
+NovaSeq 6000 S4, v1.5, 300 cycles (longest read - 150 nt) 14.435,30 €
+NovaSeq 6000, individual lanes loading per lane
+NovaSeq 6000 SP  (up to 400 mln reads or read pairs per lane)
+NovaSeq 6000 SP, v1.5, 100 cycles 1.238,60 €
+NovaSeq 6000 SP, v1.5, 200 cycles (longest read - 150 nt) 1.574,10 €
+NovaSeq 6000 SP, v1.5, 300 cycles (longest read - 150 nt) 1.702,80 €
+NovaSeq 6000 SP, v1.5, 500 cycles (longest read - 250 nt) 2.322,10 €
+NovaSeq 6000 S1, 2 lanes  (up to 800 mln reads or read pairs per lane)
+NovaSeq 6000 S1, v1.5, 100 cycles 2.141,70 €
+NovaSeq 6000 S1, v1.5, 200 cycles (longest read - 150 nt) 2.657,60 €
+NovaSeq 6000 S1, v1.5, 300 cycles (longest read - 150 nt) 2.864,40 €
+NovaSeq 6000 S2, v1.5, 2 lanes  (up to 2000 mln reads or read pairs per lane)
+NovaSeq 6000 S2, v1.5, 100 cycles 3.896,20 €
+NovaSeq 6000 S2, v1.5, 200 cycles (longest read - 150 nt) 4.799,85 €
+NovaSeq 6000 S2, v1.5, 300 cycles (longest read - 150 nt) 5.109,50 €
+NovaSeq 6000 S4, 4 lanes  (up to 2500 mln reads or read pairs per lane)
+NovaSeq 6000 S4, v1.5, 35 cycles (longest read - 35 nt) 2.864,13 €
+NovaSeq 6000 S4, v1.5, 200 cycles (longest read - 150 nt) 3.393,78 €
+NovaSeq 6000 S4, v1.5, 300 cycles (longest read - 150 nt) 3.763,38 €
+PacBio NGS services (long read sequencing)
+Library type price per library
+PacBio amplicon library 140,79 €
+PacBio pooled library of N samples (N x 21.45 + 117.25) €
+PacBio ISO-Seq library 258,71 €
+PacBio whole genome library 256,62 €
+SMRTcell loading price per SMRTcell
+Sequel™ SMRT® Cell 1M v2 Tray, 4 cells 712,53 €
+Sequel™ SMRT® Cell 1M v2 LR Tray, 4 cells (only for ISO-Seq) 777,15 €
+Sequel sequencing 
+4-cells run, per SMRTcell 183,34 €
+* 4-cells run, per run (for 1,2,3 SMRTcells in a run) 733,35 €
+* we can run individual SMRTcells but the customer has to pay for the whole chemistry plate (4 cells)!
+Oxford Nanopore NGS services (long read sequencing)
+Library type price per library
+WGS library, PCR-free,  ligation-based 149,64 €
+WGS library, PCR-free,  ligation-based, up to 12 barcodes 173,38 €
+WGS library, PCR-free,  transposase-based, up to 12 barcodes 64,63 €
+Direct RNA Sequencing Kit 126,57 €
+PromethION sequencing price per FC
+The PromethION Flow Cell (up to 3000 pores) 1.980,00 €
+MinION sequencing
+TheMinION Flow Cell (up to 512 pores) 891,00 €
+10X Genomics sequencing library preparation
+Droplet encapsulation (up to 8 samples on one Chip) 265,13 € per Chip
+GEX libary preparation per sample 1.418,31 €
+3' CellPlex for sample multiplexing (optional) 71,21 €
+3' feature barcoding library (optional) 51,05 €
+Droplet encapsulation (up to 8 samples on one Chip) 262,53 € per Chip
+GEX libary preparation per sample 1.418,32 €
+Mouse or Human TCR profiling (optional) 76,84 €
+Mouse or Human BCR profiling (optional) 76,84 €
+3' feature barcoding library (optional) 51,05 €

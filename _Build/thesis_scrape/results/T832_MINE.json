@@ -1,0 +1,175 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "The UMGC sheet shows Element AVITI cost per 1B reads falling 46% (150-cycle) and 51% (300-cycle) from FY25 to FY26, steeper than the 32% and 41% cuts of FY24 to FY25.",
+      "detail": "Cost per 1B reads for UMN users, 150/300/600-cycle: FY24 $1,668.58/$2,385.61/$3,293.84; FY25 $1,131.36/$1,417.33/$1,979.64; FY26 $614.44/$689.73/$1,235.28. FY24→FY25 is −32.2%/−40.6%/−39.9%. FY25→FY26 is −45.7%/−51.3%/−37.6%. FY24→FY26 is −63.2%/−71.1%/−62.5%. The known item gives only the aggregate −63%. This adds the per-kit split and shows the cuts are accelerating on the 150- and 300-cycle kits, the ones that compete with the NovaSeq X.",
+      "url": "https://docs.google.com/spreadsheets/d/1j3seGD_1whU9ppFdQOxtUTUsGdgg8fdtA4O6NFFpFRc/export?format=csv",
+      "date": "FY24-FY26 (sheet read 2026-10-12)",
+      "source_name": "UMGC AVITI pricing sheet (Google Sheet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F1051 only had the aggregate -63% and the FY26 endpoints; the per-kit year-by-year path and the acceleration are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Most of UMGC's FY26 AVITI cost drop beyond the Sept 2025 output upgrade must have come from a separate per-run price cut.",
+      "detail": "The Sep 15 2025 news item says the +50% output upgrade at unchanged prices cuts cost per read by 33%. The sheet shows FY25→FY26 falling 45.7% (150-cycle) and 51.3% (300-cycle). Removing the upgrade effect leaves 0.543/0.667 = 0.814 (about −19%) and 0.487/0.667 = 0.730 (about −27%). That is an inference: the page says 'pricing stays the same', so the rest probably came from an earlier FY26 rate reset. A rival's per-run price was therefore also cut at a large academic core, as well as its output being raised.",
+      "url": "https://genomics.umn.edu/news/aviti-upgrade-complete",
+      "date": "2025-09-15",
+      "source_name": "UMGC news plus pricing sheet (derived)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F688 reports only the 33% upgrade effect; the residual 19-27% per-run cut is our derivation from the sheet."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "At UMGC's own list prices an Ultima UG 100 wafer costs roughly 2.7-3.2x less per Gb than an Illumina 25B lane, and AVITI about 23% less per read.",
+      "detail": "UG 100 full wafer (UMN, Savings) is $3,204 for the spec'd 2.5-3.0 Tb, or $1.07-$1.28/Gb. The AVITI High 300-cycle run (UMN Savings) is $1,175 for 1.5B reads (450 Gb), or $2.61/Gb. UMGC's own page gives 25B output of 750 Gb per lane. UCSF CAT's UC 25B-300 lane is $2,551 per lane (F822), which is about $3.40/Gb on that nominal output and $1,020 per B reads. Ultima is therefore about 2.7-3.2x cheaper per Gb. AVITI is about 23% cheaper per read ($783 vs $1,020 per B). Ultima's 10-12B read count and Tb yield are Ultima spec figures, not measured results.",
+      "url": "https://genomics.umn.edu/ug-100-sequencing",
+      "date": "2026-10-12 (page footer 2026)",
+      "source_name": "UMGC UG 100, AVITI24 and NovaSeq X+ service pages",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Earlier items compared reads or other cores; this is a same-page published $/Gb for Ultima and AVITI against Illumina spec output, with the arithmetic shown."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "UMGC's published AVITI list price is higher per Gb than the headline 'cost per 1B reads' sheet suggests, so Element is not far below Illumina on a per-Gb basis for most run sizes.",
+      "detail": "The sheet's FY26 300-cycle cost is $689.73 per 1B reads. The page's High run (1.5B) is $1,175, or $783 per B reads, about 14% above the sheet. The Medium run (750M, $1,002) is $1,336 per B and the Low run (375M, $993) is $2,648 per B. For 150-cycle, the sheet's $614 compares with $799 per B on the High run ($1,199 per 1.5B). The AVITI High 300-cycle run is $2.61/Gb for UMN users and $3.00/Gb external ($1,352/450 Gb). That is similar to Illumina 25B core prices of about $2.4-3.4/Gb. The 'cost drops of 62-71%' headline therefore applies to the best-case, fully loaded run.",
+      "url": "https://genomics.umn.edu/service/aviti24-sequencing",
+      "date": "2026-10-12 (page footer 2026)",
+      "source_name": "UMGC AVITI24 service page vs pricing sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "It reconciles the sheet to the actual per-run price list, which earlier items did not; it also shows the sheet and page disagree."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMGC runs five Element AVITI24 sequencers but offers no in-house high-throughput Illumina X, and says X+ access is cheaper and faster when outsourced.",
+      "detail": "The Sep 2025 news item says the center upgraded 'five Element AVITI24 sequencers'. The Illumina side offers NovaSeq X+ (10B/25B, 300-cycle only) via partner facilities 'for the time being', plus NextSeq 2000 and MiSeq. Illumina pages carry no prices and say 'contact us for a project quote'. The AVITI and Ultima pages carry full public rate tables. A large Midwestern research core has put its own capital into five rival boxes, plus Ultima, instead of a high-throughput Illumina box.",
+      "url": "https://genomics.umn.edu/service/illumina-novaseq-x-plus-sequencing",
+      "date": "2025-09-15 / 2026",
+      "source_name": "UMGC news and NovaSeq X+ service page",
+      "source_type": "price_list",
+      "quote": "faster and less expensive when outsourced",
+      "strength": "medium",
+      "why_new": "Box count (five AVITI24) and the in-house vs outsourced split at UMGC are new; F691 only noted X Plus is outsourced."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UMGC sells a 30x human genome on Ultima at $192 (UMN) all-in, less than half its AVITI price of $407, with 90x at $329.",
+      "detail": "30x PCR-free WGS including QC, prep and analysis: Ultima UG 100 $192 UMN / $221 external (24-sample batch). AVITI is $407 / $469 (4-sample batch). AVITI Ultra Q is $1,015 / $1,168. Ultima 60x is $238 and 90x is $329. Going from 30x to 90x adds only $137 (+71%) for 3x the data, or about $68 per extra 30x. That is a marginal-cost signal that deep Ultima sequencing is very cheap. The page lists no Illumina WGS price. This is the all-in price a research customer sees, and it sits near the $200 Illumina list genome the UBS expert cited, which is a sequencing-only figure.",
+      "url": "https://genomics.umn.edu/service/human-whole-genome-sequencing",
+      "date": "2026-10-12 (page footer 2026)",
+      "source_name": "UMGC human whole genome sequencing page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F794 only says AVITI is about twice Ultima; the 60x/90x ladder and marginal $/30x arithmetic are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Library prep is a second Illumina revenue line at risk: UMGC charges $103.00 for Illumina DNA Prep vs $60.09 for Ultima PCR-free WGS prep (UMN Savings).",
+      "detail": "Illumina DNA Prep is $103.00 / $133.13 / $186.21 across Savings/Speed/Priority for UMN users. Ultima PCR-free whole-genome prep is $60.09 / $81.62 / $117.16, which is 42% lower. Illumina Nextera XT 1/4 reaction with QC is $59.61. Ultima 'library conversion' of non-Ultima libraries is $52.51. The Ultima prep is 31% of the $192 all-in genome price. Switching sequencer for a genome therefore removes both Illumina flow cell revenue and Illumina prep-kit revenue, and the core's price for a competing prep is much lower.",
+      "url": "https://genomics.umn.edu/service/illumina-dna-library-preparation",
+      "date": "2026-10-12 (page footer 2026)",
+      "source_name": "UMGC library preparation rate table",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No earlier item compares Illumina and Ultima prep prices at one core or counts prep revenue at risk."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Library prep is a sizeable share of an all-in genome price: about $60 of $192 on Ultima and $103 of an implied $300+ on Illumina DNA Prep workflows, so sequencing cost is not the binding constraint.",
+      "detail": "The Ultima prep ($60.09) is 31% of the $192 UMN all-in 30x price, and the AVITI genome includes the same PCR-free prep inside the $407. UMGC Priority tier prep for Illumina DNA Prep is $186.21, which is higher than the whole Ultima genome at Savings. If prep and handling cost as much as sequencing, a further sequencing price cut moves total cost less than the sequencer headline implies, so volume elasticity to sequencing price is dampened. This is a single academic core with its own overheads, and the Illumina share of an all-in genome is not priced on the page.",
+      "url": "https://genomics.umn.edu/service/illumina-dna-library-preparation",
+      "date": "2026-10-12",
+      "source_name": "UMGC library prep and WGS pages",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives a priced prep-to-genome ratio at a core; earlier items cited expert statements about prep share."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UMGC's external premium is a uniform ~15% over UMN rates on every sequencing platform, so research tiering here is mild and not an 'insane discount' structure.",
+      "detail": "AVITI 150-cycle Medium: $900 UMN vs $1,036 external (+15.1%). AVITI 300-cycle High: $1,175 vs $1,352 (+15.1%). UG 100 full wafer: $3,204 vs $3,688 (+15.1%). Library prep is similar (Illumina DNA Prep $103.00 vs $118.54, +15.1%). Fred Hutch charges outsiders 76% more and NCI 100% more, so a gap of 15% suggests pricing at UMGC is cost-plus policy, not leverage-driven discounting. The Savings-to-Priority step is +38% on AVITI 300-cycle High ($1,175→$1,617) and +9.5% on Ultima.",
+      "url": "https://genomics.umn.edu/service/aviti24-sequencing",
+      "date": "2026-10-12",
+      "source_name": "UMGC AVITI24 and UG 100 pages",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds a third data point on internal/external research gaps (15%) against the known 76%, 100%, 40% and 33%."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMGC's Aug 2026 Ultima preferred rate for 10x projects cuts the wafer price about 12-16%.",
+      "detail": "The savings are $500 per full wafer and $250 per half-wafer. Against UMN Savings prices that is $500/$3,204 = 15.6% and $250/$2,107 = 11.9%. Against external prices it is 13.6% and 10.3%. Eligible are both UMN and external researchers. The news item (2 Aug 2026) gives no reason, and it targets single-cell and spatial work that Illumina sequences today. Combined with the $3,204 base, a 10x project wafer comes to $2,704 UMN, or about $0.99/Gb on 2.75 Tb.",
+      "url": "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects",
+      "date": "2026-08-02",
+      "source_name": "UMGC news",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F683/F689 note the offer exists; the percentage discounts and resulting $/Gb are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UMGC publishes no Illumina X or NextSeq 2000 price at all ('contact us for a quote') while posting full public rate tables for rivals, so Illumina's real price at this core is opaque and negotiated.",
+      "detail": "The NovaSeq X+ and NextSeq 2000 pages show only 'Contact us for a project quote'. The AVITI24 and UG 100 pages list every run with Savings/Speed/Priority and UMN/external columns. The NextSeq 2000 page says buyers must purchase the full flow cell, with no lane splitting. The opacity matches the expert reports of individualized Illumina quotes. It means a price-sensitive buyer comparing platforms sees only the rivals' published cuts.",
+      "url": "https://genomics.umn.edu/service/illumina-nextseq-2000-sequencing",
+      "date": "2026-10-12",
+      "source_name": "UMGC NextSeq 2000 and NovaSeq X+ pages",
+      "source_type": "price_list",
+      "quote": "Contact us for a project quote",
+      "strength": "weak",
+      "why_new": "It documents the asymmetry of price transparency at one core; earlier items covered opacity only through expert statements."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The sheet has a single tab with 3 rows of data (FY24-FY26, UMN rates only; no external, Illumina or Ultima data). The raw CSV export worked via the redirect URL, so the values are verified. The Wayback Machine is blocked for this tool, so no historical page versions were pulled. The 'announcing lower FY 2024 rates and service tiers' news item does not appear in the news index, in search results, or on the news-events page. The NovaSeq X+ and NextSeq 2000 pages have no prices (quote-only). The sequencing-queue Google Sheets (backlog by platform) were not reachable. Still unmined: Wayback snapshots of the AVITI/UG 100 pages, via a tool that can reach archive.org; the queue sheets; and the CoLab membership PDF, which is not relevant.",
+  "leads": [
+    {
+      "name": "UMGC NGS Sequencing Queues (Google Sheet)",
+      "url": "https://genomics.umn.edu/sequencing-queues",
+      "access": "open link to a Google Sheet; not fetched",
+      "labels": ["2A", "2B"],
+      "rationale": "Queue depth by platform (AVITI vs Illumina vs Ultima) would show where research demand is going at this core."
+    },
+    {
+      "name": "UMGC Ultima UG 100 sequencing and library conversion pages (history)",
+      "url": "https://genomics.umn.edu/ug-100-sequencing",
+      "access": "open; needs archive.org access for earlier price versions",
+      "labels": ["2B", "1B"],
+      "rationale": "Earlier versions would show whether Ultima list prices fell, since F690 says the wafer price may have risen."
+    },
+    {
+      "name": "UMGC AVITI24 news: 'third price drop in two years'",
+      "url": "https://genomics.umn.edu/news/aviti-upgrade-complete",
+      "access": "open",
+      "labels": ["2B"],
+      "rationale": "It references earlier drops; the earlier announcements (FY24, FY25) could be located through the news archive or the linked dataset."
+    }
+  ],
+  "apify_requests": []
+}
+```

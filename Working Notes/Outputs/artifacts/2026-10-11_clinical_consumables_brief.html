@@ -1,0 +1,288 @@
+<title>Illumina Clinical Tail Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one readable column (~68ch) with full-width stat strip and tables in scroll wrappers. Palette: cool slate ground, flow-cell blue accent, amber for caution. */
+:root{
+  --bg:#f5f7f9; --surface:#ffffff; --fg:#17202a; --muted:#56616d; --faint:#8a949e; --rule:#dde3e9;
+  --accent:#1f63a8; --accent-soft:#e6eff8; --x:#1f63a8; --old:#c27a12; --old-soft:#fbf0de;
+  --good:#2d7a4f; --good-soft:#e5f3eb; --bad:#b0423a; --bad-soft:#f8e7e5; --zebra:#f0f3f6;
+  --display:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1418; --surface:#161d23; --fg:#e6ebef; --muted:#a9b4be; --faint:#7d8892; --rule:#28323b;
+  --accent:#6aa6e6; --accent-soft:#16283a; --x:#6aa6e6; --old:#e0a14a; --old-soft:#2e2414;
+  --good:#6cc493; --good-soft:#15291f; --bad:#e58a82; --bad-soft:#331b19; --zebra:#1a2229; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1418; --surface:#161d23; --fg:#e6ebef; --muted:#a9b4be; --faint:#7d8892; --rule:#28323b;
+  --accent:#6aa6e6; --accent-soft:#16283a; --x:#6aa6e6; --old:#e0a14a; --old-soft:#2e2414;
+  --good:#6cc493; --good-soft:#15291f; --bad:#e58a82; --bad-soft:#331b19; --zebra:#1a2229; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.62;padding-inline:16px;padding-block:28px 72px}
+.wrap{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:0}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(28px,4.6vw,38px);line-height:1.15;margin:8px 0 10px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:24px;line-height:1.25;margin:52px 0 12px;text-wrap:balance}
+h3{font-size:17px;font-weight:600;margin:26px 0 8px}
+p{margin:0 0 14px;max-width:68ch}
+.lede{font-size:18.5px;color:var(--muted);margin-bottom:6px}
+.meta{font-size:14px;color:var(--faint);margin:0 0 22px}
+a{color:var(--accent)}
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:8px 0 6px}
+.verdict{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;min-width:0}
+.verdict .q{font-family:var(--mono);font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint)}
+.verdict .a{font-family:var(--display);font-size:20px;font-weight:600;line-height:1.3;margin:6px 0 8px}
+.verdict p{font-size:15.5px;color:var(--muted);margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:22px 0 4px}
+.stat{border-top:2px solid var(--accent);padding:10px 2px 0;min-width:0}
+.stat .v{font-family:var(--display);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums lining-nums;line-height:1.15}
+.stat .l{font-size:13.5px;color:var(--muted);line-height:1.4;margin-top:4px}
+.shares{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin:14px 0 18px}
+.bar-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;align-items:center;margin:8px 0}
+.bar-row .lbl{font-size:14px;color:var(--muted)}
+.bar{display:flex;height:30px;border-radius:6px;overflow:hidden;font-family:var(--mono);font-size:13px}
+.bar span{display:flex;align-items:center;padding:0 8px;white-space:nowrap}
+.bar .sx{background:var(--x);color:var(--bg)}
+.bar .so{background:var(--old);color:var(--bg)}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:0}
+ol.ev{list-style:none;counter-reset:ev;padding:0;margin:6px 0 10px}
+ol.ev>li{counter-increment:ev;position:relative;padding:0 0 0 40px;margin:0 0 14px;max-width:72ch}
+ol.ev>li::before{content:counter(ev);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:13px;display:flex;align-items:center;justify-content:center}
+.tag{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;padding:1px 7px;border-radius:4px;margin-right:4px;vertical-align:1px;background:var(--zebra);color:var(--muted);border:1px solid var(--rule)}
+.tag.fact{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.tag.mgmt{background:var(--old-soft);color:var(--old);border-color:transparent}
+.src{color:var(--faint);font-size:14px}
+.tbl{overflow-x:auto;margin:6px 0 18px;border:1px solid var(--rule);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:13px;font-weight:600;color:var(--muted);background:var(--zebra)}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;white-space:nowrap}
+.neg{color:var(--bad)} .pos{color:var(--good)}
+.chart{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;margin:8px 0 18px}
+.crow{display:grid;grid-template-columns:170px minmax(0,1fr) 64px;gap:10px;align-items:center;margin:9px 0;font-size:14.5px}
+.track{position:relative;height:18px}
+.track .zero{position:absolute;left:35%;top:-4px;bottom:-4px;width:1px;background:var(--faint)}
+.track .fill{position:absolute;top:0;height:18px;border-radius:3px}
+.crow .val{font-family:var(--mono);font-size:13.5px;text-align:right}
+.note{font-size:13.5px;color:var(--faint);margin:6px 0 0}
+.callout{border-left:3px solid var(--old);background:var(--old-soft);padding:12px 16px;border-radius:0;margin:6px 0 18px;max-width:72ch}
+.callout p{margin:0;font-size:15.5px}
+.foot{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
+.foot p{max-width:none}
+code{font-family:var(--mono);font-size:.86em;background:var(--zebra);padding:1px 5px;border-radius:4px}
+.toggle{float:right;font:inherit;font-size:13px;color:var(--muted);background:transparent;border:1px solid var(--rule);border-radius:6px;padding:4px 10px;cursor:pointer}
+.toggle:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){body{font-size:16px}.bar-row{grid-template-columns:1fr}.crow{grid-template-columns:110px minmax(0,1fr) 56px;font-size:13.5px}}
+</style>
+
+<div class="wrap">
+<header>
+  <button class="toggle" id="themeToggle" type="button">Theme</button>
+  <div class="eyebrow">Illumina (ILMN) · Core Notes addendum 16 · short version</div>
+  <h1>Is Illumina over-earning on clinical consumables?</h1>
+  <p class="lede">A readable summary of an overnight research run: 31 waves of research agents, 456 pieces of evidence, a scenario model and a fact-check.</p>
+  <p class="meta">As of 11 October 2026. The full 40,000-word version with every piece of evidence is in <code>Core Notes/16_Addendum_Clinical_Consumables_Thesis.md</code>.</p>
+</header>
+
+<section aria-labelledby="answer">
+<h2 id="answer">The answer</h2>
+<div class="verdicts">
+  <div class="verdict">
+    <div class="q">Question 1 · over-earning</div>
+    <div class="a">Yes, moderately. It is a slow leak, not a cliff.</div>
+    <p>About $0.5B a year of clinical revenue exists only because some labs still pay old-machine prices. In our base case about $150–190M of it disappears each year in 2027–28, and part of that is already in guidance.</p>
+  </div>
+  <div class="verdict">
+    <div class="q">Question 2 · volume vs price</div>
+    <div class="a">So far, comfortably. From 2027, only barely.</div>
+    <p>Clinical volume beat the price cuts in 2025–26. In 2027–28 it only just keeps up in our base case, and falls short if the next flow cell brings a broad price cut. We lean below consensus.</p>
+  </div>
+</div>
+
+<div class="stats" role="list">
+  <div class="stat" role="listitem"><div class="v">3.4×</div><div class="l">Revenue per gigabase on the old NovaSeq 6000 vs the new NovaSeq X (Q2 2026)</div></div>
+  <div class="stat" role="listitem"><div class="v">~$0.73B</div><div class="l">Clinical revenue still on the 6000, per year (our estimate)</div></div>
+  <div class="stat" role="listitem"><div class="v">~$0.5B</div><div class="l">Of that, the "excess" that would vanish at X prices</div></div>
+  <div class="stat" role="listitem"><div class="v">+4%</div><div class="l">Our base case for 2027 clinical consumables growth, vs ~13–14% implied by consensus</div></div>
+</div>
+</section>
+
+<section aria-labelledby="mechanics">
+<h2 id="mechanics">How the machine switch cuts revenue</h2>
+<p>Illumina sells sequencers, then sells the chemistry they run on. The key consumable is the flow cell, the glass slide on which DNA is read, and its output is measured in gigabases (Gb, a billion DNA letters). The newer NovaSeq X reads far more DNA per flow cell than the older NovaSeq 6000 for not much more money per flow cell. So every lab that moves its work to the X pays much less per Gb. Unless it sequences proportionately more, Illumina's revenue falls.</p>
+<p>The chart below shows the gap in Illumina's own numbers. In Q2 2026 the X carried 83% of high-throughput (HT) volume but only 59% of HT consumables revenue. The 6000 did the reverse: 17% of the volume earned 41% of the revenue. That is why the remaining 6000 business matters so much more than its volume suggests.</p>
+<div class="shares" role="img" aria-label="Q2 2026: NovaSeq X had 83% of high-throughput gigabases but 59% of revenue; NovaSeq 6000 had 17% of gigabases and 41% of revenue.">
+  <div class="bar-row"><div class="lbl">Share of HT gigabases</div><div class="bar"><span class="sx" style="width:83%">X 83%</span><span class="so" style="width:17%">17%</span></div></div>
+  <div class="bar-row"><div class="lbl">Share of HT revenue</div><div class="bar"><span class="sx" style="width:59%">X 59%</span><span class="so" style="width:41%">6000 41%</span></div></div>
+  <div class="legend"><span><i style="background:var(--x)"></i>NovaSeq X</span><span><i style="background:var(--old)"></i>NovaSeq 6000</span><span>Source: Illumina Q2 2026 deck. Volume is Gb shipped, not Gb used.</span></div>
+</div>
+<p>The general rule is simple: revenue growth ≈ (1 + volume growth) × (1 − price decline) − 1. With volume up 30% and price down 15%, revenue grows about 10%. With volume up 30% and price down 25%, revenue falls slightly. During the switch the price decline has two parts. The first is mix: work moving to the cheap machine, which ends once the 6000 is gone. The second is repricing within each machine, such as a cheaper new flow cell, which does not end.</p>
+</section>
+
+<section aria-labelledby="q1">
+<h2 id="q1">Question 1: Is clinical revenue over-earning?</h2>
+<p>"Over-earning" here means clinical revenue that exists only because some labs still pay 6000 prices for work the X could do far more cheaply. The evidence below sizes it and explains why it is leaking out slowly.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><span class="tag">Our calc</span><strong>The premium is large.</strong> From Illumina's Q2 2026 shares, each Gb on the 6000 earned about 3.4 times what a Gb on the X did, so the X is about 70% cheaper per Gb. That ratio covers research and clinical customers together. <span class="src">(Q2 2026 deck)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Clinical labs hold most of what is left.</strong> Clinical labs still had 22% of their high-throughput volume on the 6000, against 8% for research labs, which puts about 80% of the remaining 6000 volume in clinical. <span class="src">(Q2 2026 deck)</span></li>
+  <li><span class="tag">Our calc</span><strong>The clinical 6000 business is about $0.73B a year.</strong> That assumes clinical labs pay the same 3.4× gap as research labs, which Illumina does not disclose. It is roughly a third of clinical sequencing consumables, and every clinical dollar figure here inherits that assumption.</li>
+  <li><span class="tag">Our calc</span><strong>The "stock" of excess revenue is about $0.5B a year.</strong> That is what would vanish if every clinical 6000 Gb were priced like an X Gb today, about 23% of our FY26 clinical consumables estimate of $2.17B.</li>
+  <li><span class="tag">Our calc</span><strong>The "flow" is about $150–190M a year.</strong> In our base case conversion removes about $190M of clinical revenue in 2027 and a further $145M in 2028, about 7–9% of clinical consumables. The bear case reaches about $240M in 2027.</li>
+  <li><span class="tag">Our calc</span><strong>Part of the flow is already in guidance.</strong> Illumina's own FY26 pull-through guide (annual consumables revenue per machine) implies 6000 revenue falls about $40M a quarter in the second half of 2026. The Street's numbers therefore already absorb some of the unwind.</li>
+  <li><span class="tag fact">Fact</span><span class="tag mgmt">Mgmt</span><strong>The regulated tail is sticky.</strong> No FDA-approved sequencing test we checked has moved to the X (openFDA, through September 2026), and such a move has taken 11–17 months per change where we found one. Illumina even sold more than 10 new 6000s in Q2 2026. Management targets only 80–85% of clinical volume on the X by end-2026. <span class="src">(openFDA; Q2 2026 call)</span></li>
+  <li><span class="tag fact">Fact</span><strong>The last transition had a long tail too.</strong> About 1,000 older HiSeq machines were still running at end-2020, four years after the 6000 launched, and consumables still grew through that transition. <span class="src">(Illumina calls)</span></li>
+  <li><span class="tag">Our calc</span><strong>The profit at stake is large but uncertain.</strong> If 6000 consumables earn the 80–85% gross margin we assume (Illumina does not disclose margin by machine), the 6000 supplies roughly two-thirds of core operating income. Full conversion would then cost about $1.75–2.63 of annual earnings per share against a run-rate of about $5.24. Tariff-adjusted consumables margin shows no erosion yet, so treat this with low confidence.</li>
+</ol>
+<div class="callout"><p><strong>The key caveat.</strong> Illumina reports the X's clinical share only for volume, not revenue. Applying the 3.4× premium to clinical labs is our assumption. Published price lists also show a smaller gap (the X 35–60% cheaper per Gb) than the revenue data imply (about 70%), probably because 6000 users under-fill flow cells and buy smaller, pricier ones.</p></div>
+</section>
+
+<section aria-labelledby="q2">
+<h2 id="q2">Question 2: Will volume growth offset the price decline?</h2>
+<p>Volume has clearly won so far. In 2025 and the first half of 2026, clinical Gb grew about 40% a year while clinical price per Gb fell about 20–28%, so clinical revenue still grew in the mid-teens. The problem is 2027, when three price cuts stack up: the rest of the 6000 conversion, the next flow cell (the 35B), and normal repricing.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><strong>The trailing record is strong.</strong> Clinical consumables outside China grew 12% in 2025 and about 17% in the first half of 2026, right through the heaviest part of the price cut. <span class="src">(Illumina decks)</span></li>
+  <li><span class="tag">Our calc</span><span class="tag mgmt">Mgmt</span><strong>Implied volume growth is about 42%.</strong> Backing volume out of revenue implies clinical Gb grew about 35–50% a year over 2025 to mid-2026. Management says clinical volume is growing "over 30%". <span class="src">(JPM conference, Jan 2026)</span></li>
+  <li><span class="tag fact">Fact</span><span class="tag">Opinion</span><strong>The 35B is the swing factor.</strong> Illumina's roadmap puts the 35B flow cell in the first half of 2027 with no price. One former employee expects it to cut price per Gb about 20%. That is hearsay, but nothing else matters as much for 2027. <span class="src">(Illumina roadmap; expert call, Jul 2026)</span></li>
+  <li><span class="tag">Our calc</span><strong>The price cuts already fill management's model.</strong> The 6000 conversion, the 35B and normal repricing together use up management's "mid-teens" annual price decline, leaving no room for a price response to competitors.</li>
+  <li><span class="tag fact">Fact</span><span class="tag">Our calc</span><strong>Test counts overstate data growth.</strong> Natera's MRD (minimal residual disease, repeat cancer-relapse blood tests) volume grew 56%, Guardant's oncology tests 63% and GeneDx's exomes and genomes 32% in Q2 2026. But a classic MRD blood test uses well under 1 Gb, against more than 100 Gb for a whole genome, so test growth is not the same as Gb growth. <span class="src">(company Q2 2026 results)</span></li>
+  <li><span class="tag">Our calc</span><span class="tag mgmt">Mgmt</span><strong>Customers spend savings on depth.</strong> Natera's cost per test rose about 9% and Caris's about 5–6% in Q2 2026, despite cheaper sequencing. Caris's CEO put it as "always deeper, not cheaper". That supports volume growth. <span class="src">(10-Qs; Caris Q2 2026 call)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Big customers hold price protection.</strong> Natera's and Caris's supply contracts contain clauses under which their price per Gb can only fall, and Illumina's FY25 10-K newly warns of pricing pressure from "a small number of large, centralized laboratory customers". <span class="src">(SEC exhibits; FY25 10-K)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Customers' own plans are slower.</strong> In JPM's survey of 32 clinical labs, planned volume growth was about 15% for 2027 and 19% for 2028, far below the trailing ~40%. It is a small, self-reported sample. <span class="src">(JPM survey, Jun 2026)</span></li>
+</ol>
+
+<h3>How much volume growth is needed to stand still</h3>
+<p>The table shows the clinical Gb growth needed just to hold 2027 clinical high-throughput revenue flat under different price assumptions. The answer depends almost entirely on the 35B. Our base case assumes +30% growth, only about 3 points above its own hurdle.</p>
+<div class="tbl"><table>
+  <thead><tr><th>2027 price scenario</th><th class="num">Clinical Gb growth needed</th></tr></thead>
+  <tbody>
+    <tr><td>Conversion only, X price flat</td><td class="num">+15%</td></tr>
+    <tr><td>Management's mid-teens price decline</td><td class="num">+18%</td></tr>
+    <tr><td>Our base case: conversion, 35B on half of X volume, −5% repricing</td><td class="num">+27%</td></tr>
+    <tr><td>Mid-teens decline plus a full 20% 35B cut</td><td class="num">+47%</td></tr>
+  </tbody>
+</table></div>
+<p>Against that, backward-looking evidence (+35–50%) clears every hurdle, while forward-looking evidence from customer plans and our test-by-test model (+15–31%) clears only the lower ones.</p>
+</section>
+
+<section aria-labelledby="model">
+<h2 id="model">The scenarios for 2027</h2>
+<p>The chart shows 2027 growth in clinical sequencing consumables under our three scenarios, next to what consensus implies. Consensus sits nearer our bull case. To reach it under our base-case prices, clinical Gb would need to grow about 47% in 2027, slightly faster than the trailing ~42%.</p>
+<div class="chart" role="img" aria-label="2027 clinical consumables growth: bear minus 10.5 percent, base plus 4.2 percent, bull plus 19.4 percent, consensus-implied about plus 13.5 percent.">
+  <div class="crow"><span>Bear</span><div class="track"><div class="zero"></div><div class="fill" style="left:22.4%;width:12.6%;background:var(--bad)"></div></div><span class="val neg">−10.5%</span></div>
+  <div class="crow"><span>Base</span><div class="track"><div class="zero"></div><div class="fill" style="left:35%;width:5%;background:var(--accent)"></div></div><span class="val">+4.2%</span></div>
+  <div class="crow"><span>Bull</span><div class="track"><div class="zero"></div><div class="fill" style="left:35%;width:23.3%;background:var(--good)"></div></div><span class="val pos">+19.4%</span></div>
+  <div class="crow"><span>Consensus (implied)</span><div class="track"><div class="zero"></div><div class="fill" style="left:35%;width:16.2%;background:var(--faint)"></div></div><span class="val">~+13.5%</span></div>
+  <p class="note">Our calc. Clinical sequencing consumables, 2027 vs 2026. Consensus figure is implied from Bloomberg's +8.8% for all sequencing consumables.</p>
+</div>
+<p>The table adds 2028 and the comparison for all sequencing consumables, research included. The base case is low-to-mid single digits, sharply down from about 15% clinical growth in 2026.</p>
+<div class="tbl"><table>
+  <thead><tr><th>Scenario</th><th>Key assumption</th><th class="num">Clinical 2027</th><th class="num">Clinical 2028</th><th class="num">All seq. consumables 2027</th></tr></thead>
+  <tbody>
+    <tr><td>Bear</td><td>Gb +15%; 35B on 60% of X volume</td><td class="num neg">−10.5%</td><td class="num neg">−3.1%</td><td class="num neg">−8.6%</td></tr>
+    <tr><td>Base</td><td>Gb +30%; 35B on half of X volume</td><td class="num">+4.2%</td><td class="num">+6.4%</td><td class="num">+2.3%</td></tr>
+    <tr><td>Bull</td><td>Gb +40%; narrow 35B, slower conversion</td><td class="num pos">+19.4%</td><td class="num pos">+17.4%</td><td class="num pos">+13.6%</td></tr>
+    <tr><td>Bloomberg consensus</td><td>Not modeled by platform</td><td class="num">~+13–14%</td><td class="num">~+13–14%</td><td class="num">+8.8%</td></tr>
+  </tbody>
+</table></div>
+<div class="callout"><p><strong>Hold this loosely.</strong> A back-test of a similar model predicted +1% sequential high-throughput growth for Q2 2026; the actual was +6.8%. Our models may lean bearish. The two biggest unknowns are the 35B's price and scope (worth roughly $60–250M a year) and 2027 clinical volume growth (each 5 points is worth about $60M).</p></div>
+</section>
+
+<section aria-labelledby="mgmt">
+<h2 id="mgmt">Management conduct and credibility</h2>
+<p>We found no accounting misconduct. In our judgement, though, Illumina tends to disclose transition data when it flatters and to blur or drop it when it does not. The items most relevant to this thesis come first.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><span class="tag">Our opinion</span><strong>The over-earning question went unanswered.</strong> Asked directly about over-earning on the 6000, the CEO gave no 6000 revenue, retirement pace or customer count. Asked about the price hit at labs newly converting, the CFO said it was "built into the guide" with no number. <span class="src">(Q2 and Q1 2026 calls)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Disclosures were dropped or widened.</strong> The clinical-versus-research activity split last appeared in Q2 2023. The FY26 pull-through guide has not been repeated since February 2026. The ">30%" volume-growth metric widened from high- to high-and-mid-throughput machines in Q3 2025 and is given only as a floor.</li>
+  <li><span class="tag fact">Fact</span><span class="tag">Our opinion</span><strong>A mislabelled "91%".</strong> The CFO said 91% of HT volume had moved to the X, but her own prepared remarks put 91% on research only; the total was 78%. The wrong denominator made the fading headwind sound stronger than it was. <span class="src">(Q3 2025 call)</span></li>
+  <li><span class="tag fact">Fact</span><strong>The price cut faded from the filings.</strong> Only the Q1 2025 10-Q blamed lower margins on "reduced pricing"; later filings cite tariffs, mix and other causes.</li>
+  <li><span class="tag fact">Fact</span><strong>A claim without a number.</strong> Q2 2026 remarks said pull-through "increased year-over-year", the first time that claim came with no figure.</li>
+  <li><span class="tag fact">Fact</span><strong>Guidance is set low and beaten.</strong> FY25 and FY26 earnings guidance started low and was beaten or raised every time.</li>
+  <li><span class="tag fact">Fact</span><strong>Noise, not signal:</strong> the audit opinion is clean with no restatements, the CEO and CFO bought shares in May 2025 and have sold only to cover tax since, and director Keith Meister's fund sold about $591M of stock in May–September 2026 while buying into GeneDx, a large Illumina customer. That last item is a governance question, not a consumables signal. <span class="src">(10-K; Form 4 and 13D filings)</span></li>
+</ol>
+</section>
+
+<section aria-labelledby="customers">
+<h2 id="customers">What clinical customers tell us</h2>
+<p>The big labs are growing test volumes fast, but their cost per test is mostly not falling, so savings go into deeper testing. Their contracts give them flexibility and price protection rather than lock-in. What actually holds them to Illumina is the cost and time of revalidating tests.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><strong>Natera is validated only on Illumina,</strong> and its contract has price-per-Gb clauses that a new flow cell such as the 35B cannot raise. It also has a discount ladder for genome-based MRD that falls with scale, and a re-opener "if market conditions for MRD Tests materially change". <span class="src">(Natera 10-K and SEC exhibits)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Guardant, Caris and Tempus can leave on 90 days' notice</strong> with no minimum purchases. Across all customers checked, hard commitments that could be Illumina purchases total at most about $53M, under 5% of clinical consumables. <span class="src">(SEC exhibits)</span></li>
+  <li><span class="tag mgmt">Mgmt (customer)</span><strong>Caris is weighing rivals while tripling capacity.</strong> Its CEO said two competitors now offer higher throughput and lower cost, which "create the opportunity to increase our capacity and decrease our cost of goods simultaneously". Caris runs more than 50 NovaSeq systems today. <span class="src">(Caris Q2 2026 call; S-1)</span></li>
+  <li><span class="tag fact">Fact</span><strong>Large labs have opened doors to Ultima.</strong> Labcorp, Quest, Myriad and NeoGenomics all work with Ultima on MRD or related tests, but all of this is development-stage with no disclosed volume.</li>
+  <li><span class="tag fact">Fact</span><strong>No real switch yet.</strong> None of the nine largest US clinical customers we checked has a Roche, Ultima or Element sequencer in production as of October 2026.</li>
+</ol>
+</section>
+
+<section aria-labelledby="competitors">
+<h2 id="competitors">What competitors tell us</h2>
+<p>Rivals are pushing sequencing prices down across the industry. Their direct threat to the 6000 tail is small for now. Their bigger effect is indirect: they cap what Illumina can charge on the 35B and on new tests.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><strong>Roche's AXELIOS sets a price ceiling.</strong> It launched on 29 June 2026 for research use at $150 per genome, about 25% below Illumina's roughly $200 list, with an instrument of about $750K. Roche placed about a third of its ~100 first-year target in 60–80 days, a normal launch pace. <span class="src">(Roche, Jun–Sep 2026)</span></li>
+  <li><span class="tag fact">Fact</span><strong>The real cost gap is smaller than the headline.</strong> The first like-for-like comparison, from research partner Hartwig, put a tumor genome about 29% cheaper on AXELIOS than on the X, with about 99% agreement across 1,229 cancer findings. <span class="src">(European pathology congress, Sep 2026)</span></li>
+  <li><span class="tag">Our opinion</span><strong>Foundation Medicine is the likeliest first big clinical switch.</strong> Roche owns it, it has run more than 1.5M cancer profiling tests, and it plans AXELIOS for whole-genome tumor baselines.</li>
+  <li><span class="tag mgmt">Mgmt (competitor)</span><strong>Ultima and Element compete on price,</strong> at about $80 and about $100 per genome. Their wins so far are research, population and European clinical work, not US clinical production.</li>
+  <li><span class="tag fact">Fact</span><strong>Customers expect Illumina to hold share.</strong> In JPM's survey, 40% of customers were unfamiliar with AXELIOS, and only about 11% of would-be buyers would retire an Illumina machine. <span class="src">(JPM survey, Jun 2026)</span></li>
+</ol>
+</section>
+
+<section aria-labelledby="street">
+<h2 id="street">Where the Street and the stock stand</h2>
+<p>The stock has more than tripled since mid-2025 on the clinical-growth story, closing at $278.17 on 9 October 2026. No broker models the 6000 tail or the 35B explicitly, and consensus is close to management's long-term model. So if our base case is closer to right than consensus, the unwind is not in the price. If trailing volume growth of about 40% persists, it largely is.</p>
+<ol class="ev">
+  <li><span class="tag fact">Fact</span><strong>The average price target is about 16–20% below the stock</strong> ($222–234 across aggregators), though several targets were set when the stock was far lower.</li>
+  <li><span class="tag">Opinion</span><strong>JPM and Barclays disagree on exactly this question.</strong> JPM's upgrade says transition price headwinds are "largely gone exiting this year". Barclays says price per Gb "warrants watching" and calls the stock the most expensive in core tools at about 35 times earnings.</li>
+  <li><span class="tag fact">Fact</span><strong>No broker expects a margin hit from the tail.</strong> Forecast gross margins cluster around 68–69%, and Bloomberg consensus has gross margin rising to 70.8% by FY31.</li>
+  <li><span class="tag fact">Fact</span><strong>Short sellers have not given up.</strong> Short interest was about 6.3–6.5% of tradable shares at end-September, so the Q3 data could move the stock sharply.</li>
+</ol>
+</section>
+
+<section aria-labelledby="watch">
+<h2 id="watch">What to watch</h2>
+<p>The Q3 2026 results on 29 October are the first test. The 35B's price and scope in the first half of 2027 is the decisive one. The single most informative Q3 number is the derived 6000 revenue (total high-throughput minus X), because it shows whether the guided decline is happening.</p>
+<div class="tbl"><table>
+  <thead><tr><th>Q3 2026 metric</th><th>Bull reading</th><th>Bear reading</th></tr></thead>
+  <tbody>
+    <tr><td>Derived 6000 revenue (Q2: $219M)</td><td>$213M or less</td><td>$219M or more</td></tr>
+    <tr><td>X share of HT revenue (Q2: 59%)</td><td>61% or more</td><td>Flat near 59%, or the slide is dropped</td></tr>
+    <tr><td>Ex-China clinical consumables growth</td><td>13–16%</td><td>Below 12%</td></tr>
+    <tr><td>FY26 pull-through guides</td><td>Reaffirmed</td><td>Dropped without comment</td></tr>
+    <tr><td>35B commentary</td><td>H1 2027, selective scope</td><td>January, across-the-board ~20% cut</td></tr>
+    <tr><td>Answers on the 6000 tail</td><td>A retirement pace or machine count</td><td>Another non-answer</td></tr>
+  </tbody>
+</table></div>
+<p>Other tripwires: the first FDA-approved test approved on the X would open the regulated tail to conversion. Whether Guardant's newly approved blood test names the X or the 6000 is unresolved. The first large US clinical lab running a rival sequencer in production would be the first real switch. Customer Q3 results in early to mid November will show whether volumes and cost per test keep the same pattern.</p>
+</section>
+
+<section aria-labelledby="disagree">
+<h2 id="disagree">Where the evidence disagrees</h2>
+<ol class="ev">
+  <li><strong>How fast clinical volume is growing.</strong> The revenue-implied trend says about 42%, management says "over 30%", our test-by-test model says about 31%, and customers' own plans say high teens. Which one holds decides 2027.</li>
+  <li><strong>How fast clinical price is falling.</strong> Management models mid-teens a year, the revenue data imply 20–28%, and the JPM survey implies only 4–5%. They cannot all be right.</li>
+  <li><strong>The size of the 6000-to-X gap.</strong> Revenue shares imply about 70%, the CFO said "easily more than 60% to 70%", and same-core price cards show 34–60%.</li>
+  <li><strong>The 35B's timing and size.</strong> "January 2027" and "20%" are both hearsay. Illumina's roadmap says only "first half of 2027".</li>
+</ol>
+</section>
+
+<footer class="foot">
+  <p><strong>How to read the labels.</strong> <span class="tag fact">Fact</span> is a reported number or document. <span class="tag mgmt">Mgmt</span> is something management said, which is a claim rather than a verified number. <span class="tag">Opinion</span> is a judgement by an analyst, expert or us. <span class="tag">Our calc</span> is our own arithmetic on stated assumptions.</p>
+  <p><strong>How this was built.</strong> 31 waves of research agents read every relevant Core Notes source and searched outside data (customer filings and contracts, price lists, Medicare and FDA records, competitor news, insider filings and job postings), until each wave found little new or the budget ran out. That produced 456 pieces of evidence, a scenario model, a bull-versus-bear review and a fact-check. Expert calls are hearsay, and several experts work for competitors. Illumina does not disclose net price per Gb by machine, the clinical share of high-throughput volume, or the 35B's price, which are the numbers that would settle both questions.</p>
+  <p>Full version with every item and its ledger tag: <code>Core Notes/16_Addendum_Clinical_Consumables_Thesis.md</code>. Evidence ledger: <code>Working Notes/Outputs/analyses/2026-10-11_clinical_consumables_scrape/00_evidence_ledger.md</code>.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+  var btn=document.getElementById('themeToggle');
+  btn.addEventListener('click',function(){
+    var r=document.documentElement;
+    var cur=r.getAttribute('data-theme');
+    var dark=cur?cur==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;
+    r.setAttribute('data-theme',dark?'light':'dark');
+  });
+})();
+</script>

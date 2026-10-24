@@ -1,0 +1,151 @@
+500 mio 1'315 CHF
+1'000 mio 1'645 CHF
+250 mio 1'325 CHF
+500 mio 1'585 CHF
+1'000 mio 2'410 CHF
+100 mio 2'340 CHF
+300 mio 3'285 CHF
+35 cycles 10'000 mi o 12'235 CHF
+800 mio 2'815 CHF
+1'600 mio 5'030 CHF
+4'100 mio 9'225 CHF
+800 mio 3'630 CHF
+1'600 mio 6'310 CHF
+4'100 mio 11'315 CHF
+10'000 mio 14'930 CHF
+800 mio 3'965 CHF
+1'600 mio 6'845 CHF
+4'100 mio 12'285 CHF
+10'000 mio 17'865 CHF
+500 cycles 800 mi o 5'475 CHF
+75 cycles 400 mi o 1'905 CHF
+130 mio 1'465 CHF
+400 mio 3'465 CHF
+130 mio 2'255 CHF
+400 mio 5'430 CHF
+1mio 605 CHF
+4mio 800 CHF
+15mio 1'535 CHF
+1mio 675 CHF
+15mio 1'710 CHF
+600 cycles 25mi o 2'130 CHF
+Reagents fee per sample 95 CHF
+1­16 samples 308 CHF
+17­32 samples 370 CHF
+33­48 samples 432 CHF
+Aviti
+150 cycles
+300 cycles
+600 cycles
+100 cycles
+For 10XG scRNA­seq or BRB­seq, 100 cycles or more are needed.
+500 cycles
+Labour fee
+GECF list price, March 2018 
+Sequencing
+NextSeq 500
+Library preparation
+ISML (Illumina Stranded mRNA Ligation)
+https://www.epfl.ch/research/facilities/gene­expression­core­facility/page­154614­en­html/
+NovaSeq 6000
+MiSeq
+200 cycles
+300 cycles
+150 cycles
+300 cycles
+300 cycles
+GECF price list, internal users 
+01 November 2024
+Page 1 of 4
+Reagents fee per sample 115 CHF
+1­16 samples 308 CHF
+17­32 samples 370 CHF
+33­48 samples 432 CHF
+Reagents fee per sample 185 CHF
+1­16 samples 308 CHF
+17­32 samples 370 CHF
+Per pool
+Each tag
+Visium HD Cytassist 6.5mm x 6.5mm
+Per slide of 2 samples
+10X Genomics scATAC­seq
+Per sample
+10X Genomics multiome (scRNA­seq + scATAC­seq)
+Per sample
+Other methods on demand: CRISPR screen, protein detection…; PARSE scRNA­seq; Plate­
+based single­cell (f.sight.omics/i.dot/c.wash)
+1 lane (11 samples), reagents+ladder incl., user­operated
+Per slide of 2 samples
+Visium non­Cytassist 6.5mm x 6.5mm
+Per slide of 4 samples
+Spatial Transcriptomics
+Visium Cytassist 6.5mm x 6.5mm
+Per slide of 2 samples
+Visium Cytassist 11mm x 11mm
+10X Chromium independent use
+Per run
+Quantification and QC of nucleic acids and libraries
+All prices without assistance, assistance available on demand.
+Fluidigm BioMark high­throughput qPCR on­demand
+Robotized 384w qPCR plate assembly, plasticware incl., per plate
+qPCR instrument booking, per hour (no reagent included)
+Qubit HS RNA, per sample
+Qubit HS dsDNA, per sample
+TapeStation 4200 profiling (RNA)
+qPCR­based library quantification (GECF­operated)
+Qubit
+Picogreen and ribogreen also available on demand for large projects
+Assistance, per lane
+Labour, per project
+Per library
+Assistance, per run
+qPCR & BioMark
+qPCR
+Page 3 of 4
+12.10 CHF
+42 CHF
+159 CHF
+68 CHF
+235 CHF
+185 CHF
+130 CHF
+185 CHF
+310 CHF
+510 CHF
+710 CHF
+247 CHF
+20 CHF
+01 November 2024: 
+    ­ NGS: Decrease of NovaSeq prices, incl. big decrease of 10'000mio reads (200 cycles). 
+    ­ Libraries: SMART­seq Total Pico with UMIs instead of SMARTer pico v3.
+    ­ 10XG: Price increase of 3'GE v3.1 (and cellplex) due to obsolescence. Addition of 
+totalseq multiplexing options. New FLEX version and prices adjustements.
+­ Oxford Nanopore: Flongle runs now sold by packages of 2 runs done within 3 months.
+PromethION Solo2 run
+Ligation prep (Minion/Promethion)
+All prices without assistance, assistance available on demand.
+ORF clones
+Per multiplexed prep of 1­8 samples
+Labour (total)
+Digital PCR
+No mastermix/primers provided. Users can also provide the nanoplates.
+Nanoplate 8.5K 24­well
+QIAcuity One
+dPCR instrument booking, per hour (no plastic/reagent included)
+Nanoplate 26K 24­well
+Nanoplate 8.5K 96­well
+01 July 2024: General update of pricing and introduction of new FNS table, in most cases 
+slight/modest changes. Worth noting:
+    ­ Significant increase of qPCR and Fragment Analyzer run prices.
+    ­ NGS: Addition of Aviti; Suppression of NovaSeq 400mio option; Significant increase of 
+NextSeq prices.
+    ­ 10XG: Addition of VisiumHD, scATAC­seq, and scRNA­seq 3'GE v4; Labour now 
+included in 10XG prices.
+November 2023: decrease of 10XG FLEX prices. Addition of HiC service.
+October 2023: update of Oxford Nanopore prices.
+Ligation prep (Flongle)
+Per sample
+Labour (total)
+Per multiplexed prep of 9­16 samples
+Per multiplexed prep of 17­24 samples
+Labour (total)

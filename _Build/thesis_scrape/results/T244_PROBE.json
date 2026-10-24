@@ -1,0 +1,41 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The PMDA pages are public and reachable, but the package inserts are FlateDecode-compressed PDFs. WebFetch could not read them. No local PDF extractor was available: Bash is disabled, Read needs poppler, and OldPdfData/16 returned HTTP 500. I could not confirm which sequencer the current inserts name, or whether the 7 Oct 2025 partial change added the NovaSeq X. The only sequencer evidence is a WebSearch summary of the inserts, which I did not verify against the PDFs. The PMDA list page showed no 7 Oct 2025 revision for FoundationOne CDx. It showed revisions on 2026-04-21, 2026-08-26 and 2026-09-18 (the 2026-09-18 entry appears to be the current insert, _26). So the 7 Oct 2025 date in the brief may be wrong or may sit on another record. The list page does not name any sequencer. It does not list Oncomine Dx, TSO Comp, or OncoGuide NCC Oncopanel as separate entries.",
+  "how_to_mine": "Run a local PDF text extractor, for example pypdf or pdftotext with Japanese fonts. Do not use WebFetch for this. The PDFs are already saved at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\32a66e73-fb78-4d14-b9f7-7c0523baa6d7\\tool-results\\ as webfetch-1791791448593-bhim1s.pdf (FoundationOne CDx _26) and webfetch-1791791469357-nn4kzr.pdf (Guardant360 CDx 202502_30300BZX00345000_1_03_01). Search both for NovaSeq, HiSeq, NextSeq and シーケンサ. Then fetch these and repeat the search: ResultDataSetPDF/450045_30300BZX00074000_1_01_08 (F1 Liquid CDx), ResultDataSetPDF/290741_30400BZX00155000_1_01_05 (GenMineTOP), OldPdfData/23000BZX00403000_1_01/19 and /20 (the 2026-04-21 and 2026-08-26 FoundationOne CDx revisions), and ResultDataSetPDF/450045_23000BZX00403000_1_01_24 and _25. Compare versions to date the change from HiSeq 4000 or NovaSeq 6000 to NovaSeq 6000 only, and to check whether the X appears anywhere. Also fetch the older review report at https://www.pmda.go.jp/medical_devices/2019/M20190123001/450045000_23000BZX00403000_B100_1.pdf for the original sequencer list.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Japan's PMDA package insert for FoundationOne CDx reportedly names the NovaSeq 6000 as its only sequencer, with no NovaSeq X.",
+      "detail": "This comes from a web-search summary of the PMDA inserts, not a PDF I read myself. A Feb 2024 version (the 22nd edition) reportedly listed 'HiSeq 4000 or NovaSeq 6000', and a later version reportedly names only the NovaSeq 6000. That would show a regulated test staying on the 6000 as of the later versions, which supports a sticky 6000 tail outside the FDA. The edition number and date of the later version are unverified.",
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/450045_23000BZX00403000_1_01_26",
+      "date": "2026-09-18 (insert date per PMDA list page; sequencer text unverified)",
+      "source_name": "PMDA package insert, FoundationOne CDx (search-result summary)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It is a datable Japan regulatory record of the HiSeq 4000 to NovaSeq 6000 change, but it is unverified against the PDF text."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "PMDA's list page shows FoundationOne CDx and Liquid CDx were revised in 2024–26. The latest FoundationOne CDx insert is dated 2026-09-18, and the page shows no X-related approval record.",
+      "detail": "FoundationOne CDx has revisions dated 2026-04-21 and 2026-08-26 and a current insert dated 2026-09-18. FoundationOne Liquid CDx has a revision dated 2024-05-27 and a current insert dated 2026-09-18. The Guardant360 CDx insert is dated 2026-07-16. The list page does not state the sequencer, so this is only a map of which documents to extract.",
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/23000BZX00403000_1_01",
+      "date": "2026-09-18",
+      "source_name": "PMDA medical device search, generic name list page",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It gives PMDA revision dates for the CGP tests that were not in the known list. It does not yet show what changed."
+    }
+  ],
+  "new_candidates": [
+    "Chugai's 'Documents on FoundationOne CDx' review report (https://www.pmda.go.jp/medical_devices/2019/M20190123001/450045000_23000BZX00403000_B100_1.pdf), for the original sequencer specification and process-control criteria.",
+    "FDA SSED P170019S060B (https://www.accessdata.fda.gov/cdrh_docs/pdf17/P170019S060B.pdf) and P190032S010B/S011B (https://www.accessdata.fda.gov/cdrh_docs/pdf19/P190032S010B.pdf). They are FDA FoundationOne CDx and Liquid CDx supplement summaries and may show sequencer changes in the US. They surfaced in search but were not opened."
+  ],
+  "apify_requests": []
+}
+```

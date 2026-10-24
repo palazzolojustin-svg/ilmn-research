@@ -1,0 +1,34 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the HigherGov IDV page for 75N98026D00035. It is Illumina's 'Reagents and Consumables (EO 14398)' vehicle with NIH/NHGRI. It has a $90M ceiling, a 5-year ordering period from 21 May 2026 to 21 May 2031, and was awarded sole source with one bid. Obligations were $5,353,934 (about 6% of the ceiling) in the page I opened, which was last modified 8 Oct 2026. The Contract Awards and Transaction History tables are empty on the free view. The page has no task-order line items, no NovaSeq X kit lines and no unit prices, so it can't show $/Gb or any 6000-to-X mix. A search-result snippet from an aggregator showed $1,298,445 obligated earlier, so obligations rose about $4.1M between the two views (snippet date unknown). This is a small amount of money next to Illumina's roughly $3B of consumables, and NIH intramural demand is a small slice of research. I found no pricing or volume signal for any thesis label.",
+  "how_to_mine": "Use the free USAspending.gov award search or API for PIID 75N98026D00035 and its child task orders (no login needed). It gives dated obligations and descriptions, though line-item detail is usually absent. SAM.gov FPDS-style records show the same. The sole-source justification on sam.gov for related opportunity 75N92026R00019 may name the products and quantities. Only worth doing if the analyst wants a government-demand datapoint.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NIH/NHGRI's new 5-year Illumina consumables vehicle has used only about 6% of its $90M ceiling in roughly 4.5 months.",
+      "detail": "IDV 75N98026D00035 (start 21 May 2026, sole source, one bid) showed $5.35M obligated as of the 8 Oct 2026 page update. That is a pace of about $14M a year against an average ceiling of $18M a year. A search snippet showed $1.30M earlier, so obligations are rising but small. This is only a weak read on government research demand, because it covers one institute's orders and no product detail is public.",
+      "url": "https://www.highergov.com/idv/75N98026D00035/",
+      "date": "2026-10-08",
+      "source_name": "HigherGov (federal contract data)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no NIH/NHGRI Illumina IDV obligation-pace datapoint."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "USAspending award page for PIID 75N98026D00035 and its child task orders",
+      "url": "https://www.usaspending.gov/search",
+      "why": "Free, and gives dated obligations. Could be extended to other NIH Illumina awards, such as the NHLBI/NISC reagents modification, to track federal research spend."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [HigherGov IDV 75N98026D00035](https://www.highergov.com/idv/75N98026D00035/)

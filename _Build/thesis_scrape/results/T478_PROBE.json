@@ -1,0 +1,14 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I opened the Companies House search and the filing history for Illumina Cambridge Ltd (03625145). The filing history lists full accounts for FY2025 (filed 26 Jul 2026, 52 pages), FY2024 (filed 18 Jul 2025, 44 pages), FY2023 (filed 31 Aug 2024, 47 pages) and earlier years back to FY2019. The document-API link redirects (302) to a signed S3 URL that WebFetch will not follow, so I could not read the PDF text. I had no Bash or Python tool in this run, so I could not download and extract it. I did not try DART or the other UK entities (Illumina Ltd 11349228, Illumina Business Ltd 14345812, Illumina Services Ltd 08282218). No turnover, geography or strategic-report figures were obtained, so I have no evidence items. The source is reachable and free with no login. It is blocked only by the tooling.",
+  "how_to_mine": "1) In a shell, open each filing-history document link (under /company/03625145/filing-history/<id>/document?format=pdf&download=0) in a browser, or use curl -L. The redirect gives a 60-second signed URL, so fetch it at once. Save the PDF into a new empty folder. 2) Extract text with python -I and pypdf. 3) Read the strategic report, the turnover note (by geography and activity), the cost-of-sales and gross-margin lines, and the related-party and intercompany notes. Look for any change in the transfer-pricing or cost-plus basis. 4) The three filing IDs are: FY2025 MzUzNDM4MTk2NGFkaXF6a2N4, FY2024 MzQ3NDMyMjg5MWFkaXF6a2N4, FY2023 MzQzMzYyMTUwMWFkaXF6a2N4. 5) Check whether Illumina Cambridge is a manufacturing and R&D entity on a cost-plus basis. If it is, its turnover is intercompany and says little about market price. In that case, look instead at Illumina Ltd (11349228), the UK sales entity, if it files full accounts. 6) For Korea, search dart.fss.or.kr for 일루미나코리아 and open the 감사보고서. Only external-audit filers appear there, so it may not file.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Illumina Ltd (UK sales entity, 11349228) and Illumina Business Ltd (14345812) accounts at Companies House, for UK turnover and gross margin by year",
+    "Statutory accounts of other European Illumina sales subsidiaries (for example Illumina Netherlands, Germany, France, Spain) via their national registers, for a country-level price read"
+  ],
+  "apify_requests": []
+}
+```

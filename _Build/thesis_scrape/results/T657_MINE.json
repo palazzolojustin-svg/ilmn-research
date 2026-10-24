@@ -1,0 +1,188 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taipei VGH's outsourced clinical exome (WES) price fell 24% between contracts once a second bidder appeared, while contracted exome volume rose only 15%, so exome spend fell about 13%.",
+      "detail": "X11204H (awarded 20 Jul 2023, single bidder Genomics BioSci) priced human WES at NT$12,700/test for 576 tests (NT$7.32M over 2 yrs). X11326H (awarded 20 Feb 2025, two bidders, Genomics BioSci beat Taiwan Genome Alliance) priced WES at NT$9,600 for 663 tests (NT$6.36M). Our calc: price −24.4%, volume +15.1%, spend −13.1%. The cut did not buy enough extra exome volume to keep exome dollars flat. D068 used these prices only as a WGS/WES ratio; the WES volume and spend change is new.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11326H",
+      "date": "2025-02-24",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror pcc-api.openfun.app), Taipei Veterans General Hospital",
+      "source_type": "procurement",
+      "quote": "人類全外顯子定序服務委外 … 663 套 … 9,600元",
+      "strength": "medium",
+      "why_new": "Known items cover Taipei VGH WGS (24,000→12,800) and the WGS/WES ratio, not WES volume elasticity or spend."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taipei VGH's hereditary-disease exome-plus-mitochondria test fell 21.7% per test between 2024 and 2025 with no competing bidder, and contracted volume also fell 17%.",
+      "detail": "X11220H (awarded 27 Feb 2024, single bidder Taiwan Genome Alliance) set WES+MT at NT$11,500 for 288 tests (NT$3.31M) and WES-only at NT$10,000 for 288 tests. X11411V (awarded 15 Oct 2025, single bidder, same vendor) set WES+MT at NT$9,000 for 240 tests (NT$2.16M). Our calc: price −21.7%, volume −16.7%, spend on this line −35%. Per-test exome prices are falling even without competition, and the cut is not expanding volume.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11411V",
+      "date": "2025-10-23",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "WES+MT全外顯子加粒線體遺傳性疾病基因定序 … 240 … 9,000元",
+      "strength": "medium",
+      "why_new": "The hereditary-disease contract series (X11220H→X11411V) has not been cited before."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Where there was only one bidder, Taipei VGH's hereditary-disease WGS price stayed at NT$14,260 per genome from Jul 2024 to Oct 2025, while contracted genome volume doubled.",
+      "detail": "X11310H (awarded 4 Jul 2024, 1 bidder, Taiwan Genome Alliance) set WGS at NT$14,260 × 156 tests over 2 yrs. X11411V (Oct 2025, 1 bidder, same vendor) kept NT$14,260 × 312 tests over 2 yrs. That is flat price and +100% volume, about 11% above the NT$12,800 competitive WGS price. Clinical WGS volume is growing fast in this channel, and per-genome price is not falling where tenders are uncontested.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11310H",
+      "date": "2024-07-08",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "全基因體遺傳性疾病基因定序委外 … 156 … 14,260元",
+      "strength": "medium",
+      "why_new": "A new price series (hereditary WGS, two contracts) that is separate from the known NT$12,800 general-WGS awards."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "The hereditary WGS volume doubling at Taipei VGH (156→312 genomes per 2 years) is a clinical genome volume lever in this channel, though the scale is tiny.",
+      "detail": "Combined with X11326H (490 general WGS per 2 yrs, Feb 2025), Taipei VGH now has ~800 contracted outsourced genomes per 2 years, up from 173 + 156 = 329 in the 2023–24 contracts (our calc, about 2.4x). At ~100–125 Gb each, that is still only ~40–50K Gb a year, negligible against Illumina's HT base (see D069).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11411V",
+      "date": "2025-10-23",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Aggregates two Taipei VGH WGS streams over time. F745 covered only the general WGS stream (173→490)."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "NCKU Hospital's annualized spend on its exome sequencing reagent-plus-instrument contract fell about 70% from its 2023 contract to its 2026–28 contract, with a single US-origin bidder each time.",
+      "detail": "I11031 (Nov 2021): NT$9.5M for 1 yr (2022). I11112 (Dec 2022): NT$22.8M for 1 yr (Dec 2022–Dec 2023). I11413 (awarded 13 Jan 2026): NT$13.68M for 2 yrs (Apr 2026–Apr 2028) = NT$6.84M/yr, so −70% annualized vs 2023. The winner was Kim Forest Enterprise every time, with 1 bidder. The new award came in 24% under the NT$18M budget. No title-matching NCKU WES award was found covering 2024–Mar 2026. Price and volume cannot be separated.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.26.3&job_number=I11413",
+      "date": "2026-01-14",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), National Cheng Kung University Hospital",
+      "source_type": "procurement",
+      "quote": "全外顯子定序檢驗試劑套組(含儀器) … 13,680,000元",
+      "strength": "weak",
+      "why_new": "First NCKU exome reagent contract series in the corpus (2021–2026)."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taichung VGH's outsourced NIPT (prenatal blood screening) contract more than doubled in value for 2025–27, driven by expanded-panel tiers, so NIPT spend in this channel is not maturing.",
+      "detail": "112A-R07 (awarded 22 Sep 2023, single bidder GGA/慧智基因): NT$9.5M for Oct 2023–Sep 2025. 114Y-R11 (awarded 23 Oct 2025, same single bidder): NT$21.04M for Oct 2025–Oct 2027 (+121%). It covers 940 tests in three tiers: simple 200 × NT$11,000, standard 440 × NT$21,000, and 'plus' 300 × NT$32,000 (derived from item totals divided by quantities). The 2023 contract does not show quantities, so we cannot say whether price or volume drove the increase. Upsell to the 'plus' tier is consistent with more Gb per sample (F705).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=114Y-R11",
+      "date": "2025-11-10",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taichung VGH",
+      "source_type": "procurement",
+      "quote": "非侵入性產前染色體篩檢(全方位版) … 300",
+      "strength": "weak",
+      "why_new": "No NIPT procurement data was in the corpus; known NIPT items are trials, Medicare and expert claims."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Basic NGS Down-syndrome screening at a Taiwanese university hospital costs only NT$6,000 (~US$190) per test, at small volume, which shows how commoditized the basic NIPT tier is.",
+      "detail": "NYCU Hospital 114155L54 (awarded 31 Dec 2025, single bidder Bionet): NT$6,000 × 150 tests over 2 years (2026–27). That is roughly half of Taichung VGH's 'simple' tier (NT$11,000) and less than a fifth of its 'plus' tier (NT$32,000). Basic aneuploidy NIPT is a low-price, low-Gb product, so growth in Gb has to come from expanded panels.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.6M.1&job_number=114155L54",
+      "date": "2026-01-02",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), NYCU Hospital",
+      "source_type": "procurement",
+      "quote": "唐氏症次世代定序篩檢開口契約 … 6,000元 … 150",
+      "strength": "weak",
+      "why_new": "A new NIPT unit price point."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The value of Taipei VGH's high-throughput sequencing reagent contract with Illumina's Taiwan distributor fell 41% between the 2023–25 and 2025–27 two-year contracts.",
+      "detail": "1120652Y (Dec 2023, single bidder Chun Tai/Genetech Biotech): item 1 high-throughput reagent set, NT$6.67M for 29 sets over 2 yrs (~NT$230K/set). 1140732E item 1 (awarded 25 Nov 2025, Genetech Biotech): NT$3.942M over Dec 2025–Dec 2027, awarded 15% below the NT$4.635M budget. The platform and set count are not stated in 2025, so we cannot split price from volume. The fall coincides with outsourcing WGS to service labs (F745).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1140732E",
+      "date": "2025-11-25",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "高通量定序試劑組 … 3,942,000",
+      "strength": "weak",
+      "why_new": "The probe's priority lot 1140732E item 1 had not been read before. F717 compared only unit prices."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taiwan hospitals budget NextSeq 2000 kits well above the final price: Taipei VGH's 2026 P3 and P4 awards landed 20% and 12% below budget per set, through single-bidder negotiation.",
+      "detail": "1150157V (Apr–May 2026, Genetech Biotech): P4 XLEAP budget NT$4,117,500 for 18 sets (NT$228,750/set) vs award NT$201,000/set (−12%). P3 budget NT$4,406,250 for 15 sets (NT$293,750/set) vs award NT$235,000 (−20%). Combined there are 33 mid-throughput sets over 2 years. Distributor list (budget) vs realized price shows a 12–20% negotiated discount even without rivals.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1150157V",
+      "date": "2026-05-12",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "P3 大通量定序試劑組 … 15 … 235,000元",
+      "strength": "weak",
+      "why_new": "F713/F717 gave unit prices. The budget-vs-award discount by kit and the 2026–28 quantities are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Service on NHRI's four NovaSeq 6000s held at about NT$3.45M (~US$107K) per instrument per year from 2020 to 2023, with no discount drift, through a single-bid distributor.",
+      "detail": "Maintenance for 4 NovaSeq 6000s for 1 year was awarded to Chun Tai Biotech, single bidder: NT$14.0M (Dec 2020), NT$13.8M (Dec 2022), NT$13.8M (Dec 2023, covering Dec 2023–Dec 2024). Our calc: NT$3.45M ≈ US$107K per box per year, about 39% below the US Silver list of $175,653 (F625) and flat (−1.4%) over three years. No renewal appears after the 2024 term (consistent with F718).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112B0D0681",
+      "date": "2023-12-12",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), National Health Research Institutes",
+      "source_type": "procurement",
+      "quote": "Illumina NovaSeq 6000定序系統4台維護1年 … 13,800,000元",
+      "strength": "weak",
+      "why_new": "First per-instrument 6000 service price series outside the US. Known items say only that NHRI stopped tenders."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taipei VGH committed NT$11.3M over three years to long-read ('third-generation') clinical WGS reagents with equipment, after three failed tenders, giving a non-Illumina platform a funded clinical genome line at Taiwan's flagship VGH.",
+      "detail": "M11476V (awarded 10 Mar 2026, single bidder Genomics BioSci, US-origin product, platform unnamed; likely PacBio given US origin, unverified): NT$11.3M for Mar 2026–Mar 2029 (~NT$3.8M/yr, ~US$120K/yr), against a NT$13.66M budget. A 9-item predecessor (M11405V) failed in Apr–Jun 2025, and M11476V failed twice (Feb and Mar 2026) before award. This sits next to the hospital's Illumina-based short-read WGS outsourcing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=M11476V",
+      "date": "2026-03-11",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei VGH",
+      "source_type": "procurement",
+      "quote": "三代定序全基因體基因檢測試劑6項(含設備)三年單價開口契約",
+      "strength": "weak",
+      "why_new": "New. Known Taiwan rival items cover ONT at NTUH/Taiwan CDC and Element at Chi Mei, not Taipei VGH long-read WGS."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "A Sep 2026 research WGS award at Taipei Medical University went to a single bidder at a total consistent with ~NT$12,740 per genome, so outsourced WGS prices look flat from Feb 2025 to Sep 2026 rather than accelerating down.",
+      "detail": "TMU115-029 (awarded 24 Sep 2026 after a failed Aug tender, single bidder Taiwan Genome Alliance): NT$3,057,600, under a NT$3,369,600 Ministry of Education subsidy. Specs require ≥2 Illumina HT sequencers plus a PacBio Sequel IIe. Our inference: both figures divide exactly by 240 (NT$12,740 award, NT$14,040 subsidy per genome), but the notice gives no quantity, so the per-genome price is unverified.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=03724606&job_number=TMU115-029",
+      "date": "2026-09-29",
+      "source_name": "Taiwan Government e-Procurement (g0v mirror), Taipei Medical University",
+      "source_type": "procurement",
+      "quote": "二台(含)以上Illumina高通量次世代定序儀",
+      "strength": "weak",
+      "why_new": "F761 cites the TMU tender specs only. The award amount, winner and implied unit price are new."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "The g0v mirror now redirects to pcc-api.openfun.app (JSON API works without login). It returns HTTP 429 when calls run in parallel, so space them out. Remaining to mine: 定序試劑 pages 2–6; NTUH TD150300 (mid-throughput v2.5, Jun 2026) vs TD130370; Taipei VGH X11415E (singleton NIPT 3-yr) and earlier VGH NIPT contracts for a NIPT per-test series; NYCU 115108L54/115306L54 NIPT (2026); Taipei City Hospital R113118-1; Kaohsiung VGH ST1412017 (probably already in F744); NHRI 114A0C0138 vs 115A0C0221 WES library kits (2025 vs 2026, kit unit price); Cathay General CGH115003/CGH115005 (Health Taiwan program sequencing chips and reagents, Apr 2026); Taichung VGH 114A08's UK-origin '核酸分析晶片' (NT$4.0M, ANTEC, possibly ONT flow cells, unverified). The Taichung VGH NIPT 2023 tender document (TIQ) may give quantities to separate price from volume.",
+  "leads": [
+    {
+      "name": "pcc-api.openfun.app searchbytitle for 健康台灣深耕計畫 (Healthy Taiwan Deep Cultivation program) sequencing buys",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=健康台灣深耕&page=1",
+      "access": "public JSON API, no login; rate-limited",
+      "labels": ["1C", "1B"],
+      "rationale": "A new national program is funding hospital NGS chips and reagents in 2026 (e.g., Cathay CGH115003/005). It could be a Taiwan clinical volume lever and show platform choice."
+    },
+    {
+      "name": "NIPT per-test procurement series (Taipei VGH X11415E, X11409E; NYCU 115306L54; MND HJ15386P142)",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11415E",
+      "access": "public JSON API",
+      "labels": ["1C"],
+      "rationale": "This can build a dated NIPT unit price and volume series across hospitals to test NIPT maturity and the shift to expanded panels."
+    },
+    {
+      "name": "Japan reverse-auction tenders (University of Tokyo, national universities) for NovaSeq X flow cells",
+      "url": "https://www.u-tokyo.ac.jp/ja/about/tender/index.html",
+      "access": "public",
+      "labels": ["1B", "2A"],
+      "rationale": "Reverse auctions publish the winning unit prices for X kits (F465 notes the tenders but no prices were extracted)."
+    }
+  ],
+  "apify_requests": []
+}
+```

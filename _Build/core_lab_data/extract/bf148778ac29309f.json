@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "Georgia Genomics & Bioinformatics Core",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X Plus 10B, 1 lane (1.25 B reads)",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 2000,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 1.25,
+   "stated_output_unit": "B_reads",
+   "line_quote": "NovaSeq X Plus 10B, 1 lane (1.25 B reads): $2,000"
+  },
+  {
+   "platform_fc": "NSX_25B",
+   "flow_cell_raw": "NovaSeq X Plus 25B, 1 lane (3.125 B reads)",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 3000,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 3.125,
+   "stated_output_unit": "B_reads",
+   "line_quote": "NovaSeq X Plus 25B, 1 lane (3.125 B reads): $3,000"
+  }
+ ],
+ "_model": "haiku"
+}

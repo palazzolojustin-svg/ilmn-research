@@ -1,0 +1,15 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I could not read any instrument tables. Only WebFetch, Read and WebSearch were available in this session, with no shell, so I could not run python -I with pypdf. WebFetch returned raw PDF bytes for both CDC Stacks files and for the APHL URL, so the summarizer saw only metadata. Read on the saved PDFs failed because poppler is not installed. The saved files are an APHL 1-page PDF (266 KB) at C:\\Users\\palaz\\.claude\\projects\\...\\tool-results\\webfetch-1791792808637-n4nmx1.pdf, cdc_152529_DS1 (875 KB) as webfetch-1791792809607-hcovtk.pdf, and cdc_156016_DS1 (5.4 MB) as webfetch-1791792826762-dzyzj9.pdf. Both CDC Stacks files carry 'APHL_Long_R' metadata (created Aug 2021). The 156016 file contains a stock photo of a wastewater plant. They look like APHL-branded wastewater or SARS-CoV-2 surveillance supplements, not instrument inventories. Whether the 2024 report has model-level instrument tables is unconfirmed. The only content seen was search-snippet text from the APHL resource page: sequence volume has decreased, equipment and methods vary widely, and labs made significant investments in equipment and staff. A 2014 APHL NGS survey exists as a possible baseline. I found no 2025-data report.",
+  "how_to_mine": "Run locally with a shell. (1) Open the APHL resource page in a browser or with curl and find the actual report PDF link; the WebFetch URL appeared to return a branding PDF. (2) Download it into a fresh empty directory. (3) Run python -I with pypdf (or pdftotext) and grep for NovaSeq, 'NovaSeq X', NextSeq, MiSeq, iSeq, Oxford, Ion, and 'instrument'. (4) Parse the saved CDC Stacks PDFs the same way, which also settles whether they hold any instrument tables. (5) Compare with the APHL 2014 NGS survey (https://aphl.org/resources/resource-detail/next-generation-sequencing-in-public-health-laboratories--2014-survey-results) and any 2021-2022 APHL SARS-CoV-2 capability reports. (6) Search the same PDFs for 'replace', 'funding', 'ELC' and 'sustain' to find replacement plans and funding cliffs.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "https://aphl.org/resources/resource-detail/next-generation-sequencing-in-public-health-laboratories--2014-survey-results (baseline for an instrument-mix comparison)",
+    "https://stories.cste.org/wp-content/uploads/2024/03/MO_Next-gen-sequencing-capabilities_final.pdf (Missouri state lab NGS capabilities, may list instruments)",
+    "https://nj.gov/health/phel/documents/Outreach/phls-amd.pdf (NJ public health lab sequencing platforms)"
+  ],
+  "apify_requests": []
+}
+```

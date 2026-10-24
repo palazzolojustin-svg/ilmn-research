@@ -1,0 +1,84 @@
+Centre for Health Genomics and Informatics 
+    dnaseq@ucalgary.ca         healthgenomics.ca 
+University of Calgary Internal Prices 
+Valid April 1, 2022 to March 31, 2023 
+Library Preparation: WGS, RNAseq, ChIPseq, Amplicon, WGBS, RRBS, per sample 
+Item # Service Kit   Price CAD$ 
+112.4 DNAseq – fragment library, Covaris sheared NEBNext Ultra II $105.00    
+125.3 DNAseq – fragment library, PCR-free, Covaris sheared Kapa HyperPrep  $105.00  
+118.0 DNAseq – bulk seq per 96 samples, variable coverage Twist (FKA iGenomx) $2,230.00 
+160.2 mRNAseq – poly-A capture NEBNext Ultra II RNA $110.00 
+170.2 Total RNAseq – rRNA depletion NEBNext Ultra II RNA $170.00 
+175.2 RIP-seq – RNA requires no preprocessing i.e. poly A capture/rRNA depletion NEBNext Ultra II RNA $105.00 
+351.1 miRNA Lexogen/Illumina $155.00 
+113.4 ChIP-Seq, Amplicon sequencing – fragment library, no shearing required NEBNext Ultra II $90.00    
+620.3 Amplicons with Illumina Nextera adapters – indexing only Illumina $15.00 
+610.3 16S Metagenomic rRNA V3/4 Illumina $21.00 
+151.1 EM-seq, EM-seq reduced representation (with Msp l) NEB EM-seq $105.00 
+Library Preparation and Capture: Whole Exome and Targeted 
+Item # Service Kit     Price CAD$ 
+860.1 Human exome – library not included see item 112.4 above, pooled capture 
+12 libraries/pool 
+IDT xGen Exome v2 $435.00 
+820.1 Clinical human exome – libraries included, pooled capture 8 libraries/pool Agilent SureSelect CR v2 $200.00 
+821.1 Clinical human exome – libraries included, pooled capture 12 libraries/pool Agilent SureSelect CR v2 $170.00 
+825.1 Mouse exome – library included, single-plex capture Agilent SureSelect mouse $270.00 
+various Sample QC Assay TapeStation/Fragment Analyzer– (HS)DNA, gDNA, 
+(HS)RNA 
+Agilent $10.00 
+7060.2 Covaris shearing, AFA fiber microtube Agilent $16.00 
+15.0 Bioinformatics support per hour - $80.00 
+Sanger Sequencing and Fragment Analysis 
+Service Price CAD$ 
+Sanger sequencing – Economy $8.00 
+Sanger sequencing – Full $21.00 
+Fragment Analysis $4.25 
+Illumina NovaSeq 6000 Next Generation Sequencing  
+Item # Flow Cell Cycles 
+(bp) 
+Output 
+(Million read pairs) 
+Output 
+(Gbp) 
+Price CAD$ 
+8020.4 SP 100 (2x50bp) 800 80 $4,270.00 
+8025.3 SP 200 (2x100bp) 800 167 $5,510.00 
+8030.4 SP 300 (2x150bp) 800 250 $5,990.00 
+8040.4 SP 500 (2x250bp) 800 400 $8,290.00 
+8050.4 S1 100 (2x50bp) 1,600 167 $7,620.00 
+8060.4 S1 200 (2x100bp) 1,600 333 $9,530.00 
+8070.4 S1 300 (2x150bp) 1,600 500 $10,290.00 
+8080.4 S2 100 (2x50bp) 4,100 417 $13,490.00 
+8090.4 S2 200 (2x100bp) 4,100 833 $16,680.00 
+8100.4 S2 300 (2x150bp) 4,100 1,250 $17,780.00 
+8110.4 S4 200 (2x100bp) 10,000 2,000 $23,850.00 
+8120.4 S4 300 (2x150bp) 10,000 3,000 $26,550.00 
+Illumina MiSeq and NextSeq 500 Next Generation Sequencing  
+Item # Instrument Flow Cell Cycles 
+(bp) 
+Output 
+(Million read pairs) 
+Output 
+(Gbp) 
+Price CAD$ 
+6800.5 MiSeq V2 50 15 0.85 $1,790.00 
+6810.6 MiSeq V2 300 (2x150bp) 15 5.1 $2,230.00 
+6820.6 MiSeq V2 500 (2x250bp) 15 8.5 $2,470.00 
+6830.6 MiSeq V2 nano 300 (2x150bp) 1 0.3 $700.00 
+6840.5 MiSeq V2 nano 500 (2x250bp) 1 0.5 $810.00 
+6850.5 MiSeq V2 micro 300 (2x150bp) 4 1.2 $980.00 
+6860.6 MiSeq V3 150 (2x75bp) 25 3.8 $1,960.00 
+6870.9 MiSeq V3 600 (2x300bp) 25 15 $3,140.00 
+7040.8 NextSeq Mid 150 (2x75bp) 130 19 $2,290.00 
+7050.7 NextSeq Mid 300 (2x150bp) 130 39 $3,540.00 
+7000.8 NextSeq High 75bp 400 30 $3,050.00 
+Other Library preps available upon request 
+Item # Service Kit Price CAD$ 
+126.1 DNAseq – fragment library, Covaris shearing Kapa HyperPlus Library $120.00 
+660.0 DNAseq – fragment library, Covaris shearing IDT xGen Prism Library $110.00 
+630.0 DNAseq – PCR free, tagmentation Illumina $140.00 
+187.0 TELL-Seq (Transposase Enzyme Linked-Long) read library, small genomes Universal Sequencing $160.00 
+186.0 TELL-Seq (Transposase Enzyme Linked-Long) read library, medium genomes Universal Sequencing $250.00 
+185.1 TELL-Seq (Transposase Enzyme Linked-Long) read library, large genomes Universal Sequencing $340.00 
+116.0 DNAseq – fragment library with enzymatic shearing (has limited use) NEB Ultra II FS $95.00 
+Services to be Combined with Library Prep and Sequencing Projects only 

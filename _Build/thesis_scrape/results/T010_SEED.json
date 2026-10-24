@@ -1,0 +1,164 @@
+```json
+{
+  "sources": [
+    {
+      "name": "UMN Genomics Center (UMGC) human whole-genome service page (Ultima UG 100, AVITI, AVITI Ultra Q)",
+      "url": "https://genomics.umn.edu/service/human-whole-genome-sequencing",
+      "access": "Public web page, no login. WebFetch worked.",
+      "labels": ["1B", "2A", "2B"],
+      "status": "productive",
+      "notes": "It lists current per-sample 30x WGS prices (UMN internal / external), including PCR-free prep, QC and analysis. Ultima UG 100 is $192 / $221 (batch of 24). AVITI is $407 / $469 (batch of 4). AVITI Ultra Q is $1,015 / $1,168 (batch of 2). Other Ultima coverage levels: 60x is $238 / $274 and 90x is $329 / $379. The page has no date (only a 2026 footer) and no price history. It shows no NovaSeq X price, although NovaSeq X+ is listed as a service in the navigation. A search snippet for the same page headlined 'Offering the $199 human genome', while the fetched page says $221 external. The headline may have been the internal price at an earlier time, or the price may have changed. That is unconfirmed.",
+      "how_to_mine": "Pull the page from the Wayback Machine at several dates in 2025–2026 to get the price history (the $199 to $221 move). Fetch the sibling NovaSeq X+ service page and rate card on genomics.umn.edu to get same-core X Plus $/genome. Check for the same pattern at other cores that bought Ultima (Michigan Advanced Genomics Core, Broad Clinical Labs).",
+      "difficulty": "easy (plain extraction), with a hard step: reading the price history from archived snapshots",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "A major US core now sells a 30x PCR-free genome on Ultima for $192 internal / $221 external, an observable market price point below Illumina-based genome quotes.",
+          "detail": "UMGC's 2026 rate page lists Ultima UG 100 30x WGS at $192 (UMN) and $221 (external) per sample in batches of 24. The price includes QC, PCR-free library prep, sequencing and analysis. Johns Hopkins GRCF lists a NovaSeq X Plus 30x genome at $650/sample (search snippet, page returned 403 and the date is unconfirmed). The two prices are from different cores and have not been matched for spec, so this is not like-for-like. It is a core-level end price, not Ultima's vendor $80 claim.",
+          "url": "https://genomics.umn.edu/service/human-whole-genome-sequencing",
+          "date": "2026 (page undated; footer 2026)",
+          "source_name": "University of Minnesota Genomics Center",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list only has UMN '~$12/50M reads' evaluations. This is a per-genome service price on Ultima, AVITI and Ultra Q."
+        },
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "Academic cores are building tiered 'preferred' Ultima pricing to attract research workloads, which is price competition for research volume.",
+          "detail": "UMGC's preferred UG 100 rate for 10x Genomics libraries is $2,704 per wafer (UMN) or $3,188 external (10-12B reads). A half wafer is $1,857 / $2,175. That is $500 off per wafer and $250 off per half wafer versus standard UG 100 pricing. This targets single-cell and spatial work, where Illumina's share is under pressure from 10x's pricing comments.",
+          "url": "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects",
+          "date": "2026 (undated; footer 2026)",
+          "source_name": "University of Minnesota Genomics Center",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "It is a specific per-wafer discount ($500 off) for 10x workloads on Ultima. The known list has no such number."
+        },
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "At the same core, AVITI costs about 2x Ultima per 30x genome ($407–469 vs $192–221), so Ultima, not Element, is the price threat for genome-scale research work.",
+          "detail": "On the UMGC page, AVITI (batch of 4) is $407 / $469 and Ultra Q (batch of 2) is $1,015 / $1,168, against $192 / $221 for UG 100. The page shows no NovaSeq X price. A buyer comparing platforms at this core would see Ultima at roughly one-half to one-third of AVITI's price. That points to Ultima as the sharper research-pricing lever, which sits beside the known Element claims.",
+          "url": "https://genomics.umn.edu/service/human-whole-genome-sequencing",
+          "date": "2026",
+          "source_name": "University of Minnesota Genomics Center",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "It is a same-core Ultima vs AVITI vs Ultra Q comparison. The known list has UMN AVITI $/Gb declines but not these per-genome numbers."
+        }
+      ]
+    },
+    {
+      "name": "Element Biosciences JPM 2026 presentation and press coverage",
+      "url": "https://www.elementbiosciences.com/hubfs/element_biosciences_2025/resources_assets/tofu/Element%20JPM%202026%20V3_Public_With-Notes_2%201.pdf",
+      "access": "Public PDF, but WebFetch returned binary only. The Rhymes with Haystack Substack summary (https://albertvilella.substack.com/p/element-bio-at-jpm26) and GenomeWeb snippets carried the content. Download the PDF and run pdftotext.",
+      "labels": ["1B", "2A"],
+      "status": "productive",
+      "notes": "Search snippets give the 2025 year-end installed base as over 450 AVITI systems (up more than 60%) in 40+ countries. Connected runs and consumable shipments more than doubled. Clinical research is more than 25% of revenue (about 20% in 2024). AVITI24 is more than 35% of new bookings. Revenue figures conflict: GenomeWeb says about $85M for FY25 (+~40% from $60M, below a $100M projection), while a Substack gives $58M. I did not resolve this. I could not read the deck's slide text.",
+      "how_to_mine": "Download the PDF to a clean directory and run pdftotext (the notes version has speaker notes). Look for slides on customer switches, consumables per instrument, clinical wins and pricing programs. Compare against the GenomeWeb figure of $85M.",
+      "difficulty": "easy (plain extraction) once the PDF is downloaded",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "against",
+          "claim": "Element's scale is still small (about 450 systems, $58–85M FY25 revenue), which limits how much price pressure it alone can put on Illumina in the near term.",
+          "detail": "Element ended 2025 with more than 450 AVITI systems (+60%), against about 40 units to 190 in the prior 12-month comparison. Revenue was about $85M per GenomeWeb or $58M per a Substack summary of the JPM talk, missing the $100M target. For scale, Illumina's sequencing consumables run about $775M a quarter. Illumina's X had 352 placements in its first year, versus Element's 112 (known list).",
+          "url": "https://albertvilella.substack.com/p/element-bio-at-jpm26",
+          "date": "Jan 2026",
+          "source_name": "Element JPM 2026 / Rhymes with Haystack / GenomeWeb (search snippets)",
+          "source_type": "conference",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "It gives the year-end 2025 installed base (450+), the FY25 revenue miss versus the $100M target, and the clinical mix (>25%). The known list does not have these."
+        }
+      ]
+    },
+    {
+      "name": "Ultima Genomics press releases and JPM 2026 / Precure (UG200 Ultra)",
+      "url": "https://ultimagenomics.com/blog/ultima-genomics-development-agreement-regeneron-drives-drug-discovery-development",
+      "access": "Public press releases and blog on ultimagenomics.com, plus BioSpace, GenomeWeb and Unite.AI coverage. No login.",
+      "labels": ["1B", "1C", "2B"],
+      "status": "productive",
+      "notes": "Search snippets say the Ultima CEO stated at JPM 2026 that the installed base doubled in 2025 (no number). The split is half research and half clinical. About half of customers have long-term contracts with minimum consumables utilization. Named customers include Arc Institute, Myriad, Quest, Broad and Mayo. On 22 Sep 2026 the UG200 Ultra was selected for the Mayo/Thermo 'Precure' one-million-biospecimen multi-omics effort (up to 60,000 genomes a year per system; who runs the sequencing is unresolved). Solaris 2.0 Max is due H2 2026 with up to 20B reads per wafer and pricing to be announced. I did not open the primary press releases.",
+      "how_to_mine": "Open the Ultima newsroom and read the Precure release (22 Sep 2026), the Solaris 2.0 Max pricing when published, and the JPM 2026 remarks. Pull the Exact Sciences supply-agreement release and any Quest/Myriad production-use announcements.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "Ultima says about half of its customers sign long-term minimum-consumable contracts, a structure that locks large buyers into non-Illumina volume.",
+          "detail": "From search snippets of the JPM 2026 remarks: the installed base doubled in 2025, is split about half research and half clinical, and about half of customers have long-term contracts with minimum utilization. Named customers are Arc, Myriad, Quest, Broad and Mayo. This is a vendor statement and not independently verified. It supports the idea that big accounts use rival commitments as leverage. Quest and Myriad were already known as development-stage collaborations.",
+          "url": "https://www.biospace.com/press-releases/ultima-genomics-announces-ug-100-sequencing-platform-selected-for-uk-biobanks-groundbreaking-human-proteome-study",
+          "date": "Jan 2026",
+          "source_name": "Ultima Genomics JPM 2026 (search-result snippet; primary not opened)",
+          "source_type": "conference",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "It gives installed-base doubling, the research/clinical split and the share of contracted customers. The known list has only collaborations and prices."
+        },
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "A one-million-biospecimen multi-omics program (Precure) picked Ultima's UG200 Ultra, so new population-scale volume is landing outside Illumina.",
+          "detail": "Ultima announced on 22 Sep 2026 that UG200 Ultra was selected for Precure, the Mayo Clinic initiative with Thermo Fisher. It is rated up to 60,000 30x genomes a year. This is volume Illumina does not get, although Precure's Gb size and start date are undisclosed. One report names Helix as the sequencing operator, which conflicts with the Unite.AI account.",
+          "url": "https://www.unite.ai/?p=471658",
+          "date": "2026-09-22",
+          "source_name": "Unite.AI / Ultima press release (search snippet)",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "Precure (22 Sep 2026) is not in the known list, which has only UK Biobank/Truveta proteomics on Ultima."
+        }
+      ]
+    },
+    {
+      "name": "Core-facility 30x WGS price pages: JHU GRCF NovaSeq X Plus, UC Davis AVITI",
+      "url": "https://grcf.jhmi.edu/?p=15308",
+      "access": "Both pages returned HTTP 403 to WebFetch. The JHU figure came from a search-result snippet only. UC Davis AVITI rates come from a snippet of dnatech.ucdavis.edu/element-bio-aviti-sequencing/.",
+      "labels": ["1B", "2A"],
+      "status": "blocked",
+      "notes": "Snippets: JHU GRCF lists a NovaSeq X Plus 30x genome at $650/sample (+20% for saliva), undated. UC Davis lists AVITI at $2,000 for a 300-cycle run and $1,400 for a 150-cycle run, and says AVITI is at a similar per-base cost to the X 10B flow cell. A Lab Manager article quotes a 30x genome of about $374 in mid-2026 at an unidentified core. Neither blocked page was read directly.",
+      "how_to_mine": "Use the Wayback Machine or the cores' PDF rate sheets. Ask whether Element's own pricing program (about $2/Gb at roughly 3,000 genomes a year) shows up in other cores' rates.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Wayback Machine history of genomics.umn.edu WGS and Ultima pages",
+      "url": "https://web.archive.org/web/2025*/genomics.umn.edu/service/human-whole-genome-sequencing",
+      "access": "Public Wayback snapshots, no login.",
+      "labels": ["1B", "2A"],
+      "rationale": "It would show the price path from the '$199 genome' to $221 and any Illumina X Plus price changes at the same core, as a dated price series."
+    },
+    {
+      "name": "Element Biosciences newsroom / customer announcements",
+      "url": "https://elementbiosciences.com/news",
+      "access": "Public.",
+      "labels": ["1B", "1C", "2B"],
+      "rationale": "It may name VITARI or AVITI customers and switches, including any clinical wins. This probe found no customer-switch release, but I only searched twice."
+    },
+    {
+      "name": "Rhymes with Haystack (Albert Vilella) Substack: AGBT and JPM sequencing-vendor summaries",
+      "url": "https://albertvilella.substack.com/p/element-bio-at-jpm26",
+      "access": "Public Substack.",
+      "labels": ["1B", "2B"],
+      "rationale": "It summarizes the vendor decks with numbers (installed base, revenue, pricing programs). Because the Element JPM deck PDF was unreadable via fetch, this is the readable route."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+I made 8 tool calls and found no named customer switching from Illumina to Ultima or Element in either search. The deck and some pages were unreadable (Element's JPM PDF came back as binary, and the JHU and UC Davis pages returned 403). The Ultima installed-base and Precure items come from search snippets, not primary releases I opened.
+
+Sources:
+- [UMN human whole-genome service page](https://genomics.umn.edu/service/human-whole-genome-sequencing)
+- [UMN preferred Ultima UG 100 pricing for 10x projects](https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects)
+- [Rhymes with Haystack on Element at JPM26](https://albertvilella.substack.com/p/element-bio-at-jpm26)
+- [Unite.AI on Ultima and Precure](https://www.unite.ai/?p=471658)
+- [BioSpace on Ultima and UK Biobank](https://www.biospace.com/press-releases/ultima-genomics-announces-ug-100-sequencing-platform-selected-for-uk-biobanks-groundbreaking-human-proteome-study)

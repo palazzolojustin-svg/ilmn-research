@@ -1,0 +1,187 @@
+Rates | Genomics Core Facility
+Skip to main content
+Skip to main content
+College of Natural and Agricultural Sciences
+UCR Home
+Search
+Quick Links
+Services and Billing
+Bioinformatics
+CEPCEB
+Core Facilities
+Metabolomics
+Plants 3D
+Proteomics
+Find People
+UC Riverside
+Genomics Core Facility
+Department of Botany & Plant Sciences
+Search
+Welcome
+About Us
+Services
+Core Guidelines
+Sequencing
+Sanger Sequencing
+PacBio Sequencing
+Oxford Nanopore sequencing
+Library Prep
+DNA/RNA Quality & Quantity Analysis
+HMW DNA Extraction
+Instruments
+DNA Sequencing
+Applied Biosystems 3730xl DNA Sequencer
+Pacific Bioscience RS II
+Illumina MiSeq DNA Sequencer
+Illumina NextSeq500 DNA Sequencer
+DNA Shearing and Size Selection
+Covaris S220 Ultrasonicator
+Sage-Scientific Blue Pippin
+Life Technologies E-Gel System
+Diagenode Bioruptor Standard Sonicator
+Gene Expression
+Quantitative PCR (qPCR)
+Affymetrix GeneChip Workstation
+Imaging
+Typhoon 9410 GE Healthcare
+/ hour |
+Luminometer Turner |
+$7.00 |
+$9.02 |
+$12.48 |
+/ hour |
+MiSeq 150bp (75 bp paired end) |
+$1,388.00 |
+$1,787.74 |
+$2,474.11 |
+/ lane |
+MiSeq 300bp (150 bp paired end) |
+$1,545.00 |
+$1,989.96 |
+$2,753.96 |
+/ lane |
+MiSeq 500bp (250 bp paired end) |
+$1,702.00 |
+$2,192.18 |
+$3,033.82 |
+/ lane |
+MiSeq 600bp (300 bp paired end) |
+$2,234.00 |
+$2,877.39 |
+$3,982.11 |
+/ lane |
+MiSeq Micro V2 (300 cycles) |
+$696.00 |
+$896.45 |
+$1,240.62 |
+/ lane |
+MiSeq Nano V2 (300 cycles) |
+$560.00 |
+$721.28 |
+$998.20 |
+/ lane |
+MiSeq Nano v2 (500 cycles) |
+$660.00 |
+$850.08 |
+$1,176.45 |
+/ lane |
+NextSeq 2000 P1 100 cycle (50 bp paired end) |
+$1,161.00 |
+$1,495.37 |
+$2,069.48 |
+/ lane |
+NextSeq 2000 P1 300 cycle (150 bp paired end) |
+$1,838.00 |
+$2,367.34 |
+$3,276.24 |
+/ lane |
+NextSeq 2000 P1 600 cycle (300 bp paired end) |
+$2,451.00 |
+$3,156.89 |
+$4,368.91 |
+/ lane |
+NextSeq 2000 P2 100 cycle (50 bp paired end) |
+$1,785.00 |
+$2,299.80 |
+$3,181.76 |
+/ lane |
+NextSeq 2000 P2 200 cycle (100 bp paired end) |
+$3,350.00 |
+$4,314.80 |
+$5,971.38 |
+/ lane |
+NextSeq 2000 P2 300 cycle (150 bp paired end) |
+$4,450.00 |
+$5,731.60 |
+$7,932.13 |
+/ lane |
+NextSeq 2000 P2 600 cycle (300 bp paired end) |
+$5,095.00 |
+$6,562.36 |
+$9,081.84 |
+/ lane |
+NextSeq 2000 P3 50 cycle (25 bp paired end) |
+$2,720.00 |
+$3,503.36 |
+$4,848.40 |
+/ lane |
+NextSeq 2000 P3 100 cycle (50 bp paired end) |
+$3,925.00 |
+$5,055.40 |
+$6,996.31 |
+/ lane |
+NextSeq 2000 P3 200 cycle (100 bp paired end) |
+$5,440.00 |
+$7,006,.72 |
+$9,696.80 |
+/ lane |
+NextSeq 2000 P3 300 cycle (150 bp paired end) |
+$7,250.00 |
+$9,338.00 |
+$12,923.13 |
+/ lane |
+NextSeq High Output 75bp Single End |
+$2,134.22 |
+$2,748.88 |
+$3,804.25 |
+/ lane |
+NextSeq High Output 150bp Single End |
+$3,833.94 |
+$4,938.11 |
+$6,834.00 |
+/ lane |
+NextSeq High Output 75bp Paired End |
+$3,833.94 |
+$4,938.11 |
+$6,834.00 |
+/ lane |
+NextSeq High Output 150bp Paired End |
+$5,984.16 |
+$7,707.60 |
+$10,666.77 |
+/ lane |
+NextSeq Mid Output 150bp Single End |
+$1,643.76 |
+$2,117.16 |
+$2,930.00 |
+/ lane |
+NextSeq Mid Output 75bp Paired End |
+$1,643.76 |
+$2,117.16 |
+$2,930.00 |
+/ lane |
+NextSeq Mid Output 150bp Paired End |
+$2,476.48 |
+$3,189.71 |
+$4,414.33 |
+/ lane |
+PacBio Revio Sequencing |
+$1,600.00 |
+$2,061.72 |
+$2,852.58 |
+/ library |
+PacBio Sequel IIe Sequencing |
+$1,942.00 |
+$2,501.30 |
+$3,461.62 |
+/ library |

@@ -1,0 +1,30 @@
+```json
+{
+  "status": "dry",
+  "notes": "The page opened fine (public HTML, no block). It is stale, with no date. It shows NovaSeq 6000 per-lane prices only (S4/S1/SP flow cells), plus NextSeq 500 and MiSeq per-run prices. It has no NovaSeq X, no AVITI, no per-Gb figures, no effective date and no linked prior-year rate sheet. The page wording references 2021 policies and COVID-era rules, so the prices are probably 2021-22 legacy data. The data point only that the facility lists the 6000 and no X, and that is not enough to compute a YoY change. I did not search for an archived version (Wayback) or the /rates page, to stay within the cheap-probe scope. NovaSeq X and AVITI would need to appear on the /rates page or an archived snapshot.",
+  "how_to_mine": "Fetch https://gc3f.uoregon.edu/rates and check for current NovaSeq X 10B/25B and AVITI lane prices and any dated rate PDF. Pull Wayback Machine snapshots of both pages (2022 to 2026) and compare S4-300 internal and external prices (page now shows $4,612 internal and $5,765 external) for a YoY series. Only worth doing if /rates shows X pricing.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "University of Oregon GC3F still lists only NovaSeq 6000 flow cells (no X) at legacy S4 lane prices.",
+      "detail": "The undated page lists NovaSeq 6000 S4-300 at $4,612 internal and $5,765 external per lane (2-2.5B read pairs). SP-300 is $2,029 internal and $2,536 external. There is no NovaSeq X or AVITI listing and no per-Gb figure. It is likely a stale 2021-22 snapshot, so it is a weak datapoint on 6000 persistence at small cores and gives no YoY change.",
+      "url": "https://gc3f.uoregon.edu/illumina-sequencing-copy-rich",
+      "date": "undated (likely 2021-22 content)",
+      "source_name": "University of Oregon GC3F",
+      "source_type": "price_list",
+      "quote": "currently operates",
+      "strength": "weak",
+      "why_new": "GC3F is not among the core-facility rate cards already used, but the page is undated and stale."
+    }
+  ],
+  "new_candidates": [
+    {
+      "url": "https://gc3f.uoregon.edu/rates",
+      "why": "The page's menu links to a general rates page that may list current X and AVITI prices."
+    }
+  ],
+  "apify_requests": []
+}
+```

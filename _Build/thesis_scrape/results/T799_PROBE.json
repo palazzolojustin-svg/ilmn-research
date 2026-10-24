@@ -1,0 +1,11 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made one fetch (X11415E) through a summarizing fetch tool, not raw JSON, and stopped there. The award is real: Taipei VGH, 3-year outsourced non-invasive chromosome test contract, budget NT$2.70M, awarded 26 Nov 2025 to Bionet Corp (訊聯生物科技) for NT$2.16M. There was one bidder and an 11% cut from its original bid of NT$2.43M. Quantity is recorded as 1 lump-sum item, so there is no per-test price or test volume in the award data, and the tender is a lump-sum service contract with no per-test unit price or platform named. The first announcement failed with no award, which is weak evidence of thin competition. The summary also listed no predecessor tenders for this job number. X11409E, 115306L54 and HJ15386P142 were not fetched. A price-decline series would need the tender documents (specs and price schedule attachments), which the JSON API does not expose, or predecessor tenders found by title search. Bidder, platform and price per test are not visible. Even if found, a series of Taiwanese hospital NIPT contracts says little about Illumina volume, since Taiwan NIPT is outsourced to labs like Bionet, and sequencing platform is undisclosed.",
+  "how_to_mine": "Query the API by unit_id and title keyword (e.g. 非侵入性胎兒染色體檢測) to list predecessor contracts at each buyer. Open the raw tender pages on web.pcc.gov.tw to get attached price schedules and per-test quantities. Request each job number with curl, not the summarizing fetch tool, to see the unit price and quantity fields. Even then, expect lump-sum values with no platform info.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,84 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illumina's NovaSeq 6000Dx IVD support site shows only one IVD assay and no NovaSeq X Dx, so the regulated clinical tail has no Illumina-supported X path.",
+      "detail": "The 6000Dx applications page (opened 12 Oct 2026) lists one IVD application, Illumina DNA Prep with Enrichment Dx (blood, gDNA, FFPE). Every other listed application (WGS kits, exome, TSO 500 HT) is research-use-only. NovaSeq X appears only as a navigation link to the 'innovation roadmap', never as supporting any application. Assays locked to the 6000Dx therefore cannot be moved to the X inside Illumina's own regulated stack, which supports a persistent regulated 6000 tail.",
+      "url": "https://www.illumina.com/systems/ivd-instruments/novaseq-6000dx/applications.html",
+      "date": "2026-10-12",
+      "source_name": "Illumina NovaSeq 6000Dx applications page",
+      "source_type": "other",
+      "quote": "not intended for whole-genome or de novo sequencing",
+      "strength": "medium",
+      "why_new": "Quantifies the IVD application list (one IVD assay, everything else RUO). The known list only says no X Dx page exists and no checked FDA test names the X."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The 6000Dx software and DRAGEN downloads have not changed since 13 Aug 2024, about 26 months, so the regulated platform is not being developed even as the X scales.",
+      "detail": "The EMEA downloads page lists DRAGEN Germline 1.0.8 and BCL Convert 1.0.4, both dated 13 Aug 2024 and tied to Software Suite v2.4.0. The earlier pair, Germline 1.0.5 and BCL Convert 1.0.3, is dated 6 Nov 2023 for Suite v2.3.1, so releases ran about 9 months apart. DRAGEN for DNA Prep with Enrichment (RUO) 1.2.37 is dated 23 Jan 2024. There is no v2.5 and no X-based IVD download.",
+      "url": "https://emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/downloads.html",
+      "date": "2024-08-13",
+      "source_name": "Illumina EMEA support: NovaSeq 6000Dx downloads",
+      "source_type": "other",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Adds the full version and date table, including the earlier Nov 2023 cadence. The known list only notes that software has not been released since Aug 2024."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illumina is still maintaining 6000Dx regulatory and documentation content through 2026, which fits a multi-year regulated tail.",
+      "detail": "The documentation page shows these 2026 updates: DNA Prep with Enrichment Dx package insert, US/Canada, 9 Apr 2026. EEA/UK/CH/TR/UAE/AU/NZ version (200038118 v01), 5 Mar 2026. Many insert translations, 11 Feb 2026. Ukrainian translations of the product documentation, DRAGEN documentation and consumables insert, 18–21 May 2026. A 'DRAGEN for DNA Prep with Enrichment Application on NovaSeq 6000Dx (RUO)' document dated 12 Aug 2026. New language additions include Vietnamese (Oct 2025 and Mar 2026) and Icelandic (Dec 2025). Illumina is still expanding regulated 6000Dx labelling to new markets, not winding it down.",
+      "url": "https://emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/documentation.html",
+      "date": "2026-08-12",
+      "source_name": "Illumina EMEA support: NovaSeq 6000Dx documentation",
+      "source_type": "other",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives dated 2026 document activity and new-market language additions, which no known item has. The known list only notes that IVD documentation was still being revised."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The 6000Dx instrument and consumables package inserts are unchanged since Sep 2022 and the library-tube insert since Nov 2024, so the regulated kit set has had no redesign for about four years.",
+      "detail": "Instrument inserts (CE-IVD 200025276, US-IVD 200025284) and the consumables insert (200025483) are all dated 29 Sep 2022. The library-tube insert (200025484) is dated 21 Nov 2024. The English product documentation is dated 29 Sep 2022. A regulated lab on these kits has had no label change to adapt to, and the next change is not signalled.",
+      "url": "https://emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/documentation.html",
+      "date": "2024-11-21",
+      "source_name": "Illumina EMEA support: NovaSeq 6000Dx documentation",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Package-insert document IDs and dates are new. The known list only has the 6000Dx kit price cut."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Opened the EMEA documentation (both offsets), the EMEA downloads page and the applications page. I did not open the US or SAPAC pages (likely near duplicates). The output is thin: a low-priority negative-existence check. It shows no NovaSeq X Dx, one IVD assay and software frozen since Aug 2024. Recheck quarterly for a Software Suite v2.5 release or an X IVD page. Optionally take Wayback snapshots of the downloads page to date the freeze.",
+  "leads": [
+    {
+      "name": "Wayback Machine snapshots of the 6000Dx downloads page",
+      "url": "https://web.archive.org/web/2025*/emea.support.illumina.com/clinical_support/clinical_instruments/novaseq6000dx/downloads.html",
+      "access": "public",
+      "labels": ["1A"],
+      "rationale": "Confirms no software release between Aug 2024 and Oct 2026 and dates earlier cadence."
+    },
+    {
+      "name": "Illumina IVD instruments hub",
+      "url": "https://www.illumina.com/systems/ivd-instruments.html",
+      "access": "public",
+      "labels": ["1A"],
+      "rationale": "Quarterly check for any NovaSeq X Dx or X IVD announcement."
+    },
+    {
+      "name": "Illumina DNA Prep with Enrichment Dx FDA 510(k)/De Novo listing",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/devicesatfda/index.cfm",
+      "access": "public",
+      "labels": ["1A"],
+      "rationale": "Clarifies the US regulatory status of the single IVD assay and which sequencer it is cleared on."
+    }
+  ],
+  "apify_requests": []
+}
+```

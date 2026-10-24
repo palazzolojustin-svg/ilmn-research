@@ -1,0 +1,76 @@
+Center for Health Genomics and Informatics  
+d
+naseq@ucalgary.ca   403-220-4503 
+cumming.ucalgary.ca/research/cat/health-genomics/home 
+University of Calgary Internal Prices 
+Valid April 1, 2024 to March 31, 2025. 
+Sale prices only while quantities lastLibrary Preparations 
+Item # Service Price 
+112.40 DNA fragment library $105.00 
+125.30 DNA fragment library, PCR-free $105.00 
+118.00 High throughput DNA bulk library, per 96 samples (variable coverage) $2,230.00 
+113.40 ChIPseq and Amplicon sequencing – DNA fragment library no shearing $90.00 
+620.40 Amplicons that already contain Illumina Nextera adapters for library prep $20.00 
+160.20 Stranded poly (A) RNA library $110.00 
+170.20 Stranded rRNA-depletion RNA library (human/mouse/rat, bacterial) $170.00 
+175.20 Stranded RNA library - no poly A capture/rRNA depletion (e.g. RIPseq, viral RNAseq) $105.00 
+351.10 Small/Micro RNA library preparation $155.00 
+610.40 16S Metagenomic rRNA V3/4 $25.00 
+151.10 Enzymatic Methyl-seq (can be reduced representation with Msp l) $105.00 
+860.10 Human exome - libraries not included, per capture, up to 12 libraries per capture $435.00 
+870.20 Mouse exome - libraries not included, per capture, up to 8 libraries per capture $1,245.00 
+1020.30 Custom capture with user supplied kit (e.g. myBaits) - library not included $22.00 
+10x Genomics 3’ single cell RNA Library Preparation 
+Item # Service Price 
+902.10 10x Genomics 3’ single cell RNA library - 1 sample  $2900.00 
+various Sizing/Quality Assay via Agilent TapeStation– (HS)DNA, gDNA, (HS)RNA $10.00 
+Sanger sequencing – Economy $8.00 
+Sanger sequencing – Full $21.00 
+Fragment Analysis $4.25 
+NGS project services add-ons 
+Item # Service Price 
+7080.20 Fluorometric Quantification Assay Plate $90.00 
+7090.10 E-Gel assay- per 96 samples, 2% Agarose Gel Assay $100.00 
+1420.40 Kapa qPCR library quantification plate for Illumina, per sequencing run $190.00 
+7071.20 Sample plate normalization, robotic, per 96 samples $60.00 
+XP workflow – individual manual lane loading for the NovaSeq 6000 instrument, per lane $340.00 
+Sequencing 
+Item # Instument Flow cell # of Cycles Read Lengths M read pairs Gbp Price 
+6830.80 MiSeq V2 nano 300 cycles  2x150bp 1 0.3 $850.00 
+6840.70 500 cycles 2x250bp 1 0.5 $970.00 
+6850.70 V2 micro 300 cycles  2x150bp 4 1.2 $1,160.00 
+6810.80 V2 300 cycles  2x150bp 15 5.1 $2,450.00 
+6820.80 500 cycles 2x250bp 15 8.5 $2,730.00 
+6860.80 V3 150 cycles 2x75bp 25 3.8 $2,160.00 
+6870.92 600 cycles 2x300bp 25 15 $3,480.00 
+8200.10 NextSeq 2000 P1 100 cycles  2x50bp 100 10 $1,750.00 
+8201.10 300 cycles  2x150bp 100 30 $2,340.00 
+8202.10 600 cycles 2x300bp 100 60 $3,430.00 
+8210.10 P2 100 cycles  2x50bp 400 40 $2,680.00 
+8211.10 200 cycles 2x100bp 400 80 $4,830.00 
+8212.10 300 cycles  2x150bp 400 120 $6,320.00 
+8213.10 600 cycles 2x300bp 300 180 $6,860.00 
+8221.10 P3 100 cycles  2x50bp 1200 120 $5,820.00 
+8222.10 200 cycles 2x100bp 1200 240 $7,970.00 
+8223.10 300 cycles  2x150bp 1200 360 $10,540.00 
+8230.00 P4 XLEAP 100 cycles  2x50bp 1,800 180 $4,460.00 
+8231.00 200 cycles 2x100bp 1,800 360 $6,210.00 
+8232.00 300 cycles  2x150bp 1,800 540 $7,840.00 
+8020.60 NovaSeq 6000 SP v1.5 100 cycles  2x50bp 800 80 Sale $3,339.00 
+8025.50 200 cycles 2x100bp 800 167 $6,170.00 
+8030.60 300 cycles  2x150bp 800 250 $6,710.00 
+8040.60 500 cycles 2x250bp 800 400 $9,290.00 
+8050.60 S1 v1.5 100 cycles  2x50bp 1,600 167 Sale $4,270.00 
+8060.60 200 cycles 2x100bp 1,600 333 $10,690.00 
+8070.60 300 cycles  2x150bp 1,600 500 $11,560.00 
+8080.60 S2 v1.5 100 cycles  2x50bp 4,100 417 $15,490.00 
+8090.60 200 cycles 2x100bp 4,100 833 $20,430.00 
+8100.60 300 cycles  2x150bp 4,100 1,250 $21,270.00 
+8110.60 S4 v1.5 200 cycles 2x100bp 10,000 2,000 $27,430.00 
+8120.60 300 cycles  2x150bp 10,000 3,000 $30,530.00 
+N
+OTE: The NovaSeq and NextSeq kits contain enough reagents for an additional 38 cycles of sequencing (except for 
+the NextSeq 2000 P2 300 and P3 300 cycle kits which only contain an extra 27 cycles) .  This supports the sequencing 
+of 10x genomics libraries. For example, the 100 cycle (bp) kits contain enough reagents for 138bp of sequencing.  
+Don’t see the service your project needs? 
+Contact us at dnaseq@ucalgary.ca

@@ -1,0 +1,91 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Texas public-university posted purchase orders and contract reports for Illumina (Texas A&M AgriLife PO PDFs, LBB Contracts Database, campus contract-reporting pages)",
+      "url": "https://agrilifeas.tamu.edu/documents/ab0475462.pdf",
+      "access": "Open PDFs, no login. Texas Gov't Code 2261.253 requires agencies and universities to post their executed contracts. (1) Fetch AgriLife PDFs seen in search: ab0475462, ab0466128, ab0463939, ab0451995, ab0439427, ab0415048, ab0385408, ab0361367, ab0354069, p760053 (all under https://agrilifeas.tamu.edu/documents/). Then probe higher ab0xxxxxx numbers (ab05*, ab06*) for 2023-26 NovaSeq X orders. (2) Search the LBB Contracts Database (https://www.lbb.texas.gov, public contract search) with vendor = 'Illumina' for 2024-26 contracts over $50K at UT Southwestern, UT Austin, UTHealth, MD Anderson, Texas A&M, Baylor-affiliated state entities, and open the attached documents. (3) Check campus contract-reporting pages such as https://inside.etamu.edu/facultyStaffServices/purchasing/ContractAdministration/ContractReporting.aspx and the Comptroller open-data contracts page https://comptroller.texas.gov/transparency/open-data/contracts.php.",
+      "labels": ["2A", "2B", "1B"],
+      "rationale": "These are line-item purchase orders with real net unit prices paid by a research buyer, not list prices or anecdotes. A search snippet already shows the AgriLife order 'NovaSeq 6000 S4 Reagent Kit (300 cycles), cat. 20012866, $18,775.80 each' (Sep 2019) under AgriLife contract C2018540. A 2018 order shows S2-300 at $14,962.50 and S1-300 at $8,550. Comparing these with the list price at the time gives the actual research discount depth. Any 2024-26 NovaSeq X 25B/10B orders, whether from AgriLife/TxGen (TxGen consolidated the X's) or from LBB documents, would give a dated net price per Gb for a research buyer to set against the $14,500 list and the GSA $24,155. The AgriLife POs found so far are all 2017-19, so the payoff depends on finding newer ones through LBB.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "University procurement 'contract/illumina' pages and institution-wide Illumina pricing agreements (Iowa State SCN-1016397, UC-wide CalUsource #2023003585, others)",
+      "url": "https://www.procurement.iastate.edu/contract/illumina",
+      "access": "Open HTML. Opened: Iowa State's page shows a 'Pricing Agreement' with Illumina, term 07/1/2019–06/30/2026 (now expired), 'discounts off retail prices,' with no percentage. A May 2026 Govly purchase-order snippet suggests it may have been extended, so check whether a renewal or new term is posted. Opened: the UCOP news post (9 Apr 2024) for the UC-wide Illumina agreement lists a '25% discount on service agreements' and 'discounted product categories' but no reagent percentage. The CalUsource link (smart.gep.com) is probably login-gated, so do not log in. Next: run Google queries for 'procurement' 'contract' 'Illumina' 'pricing agreement' on .edu sites (Purdue, Wisconsin, Michigan, Ohio State, Rutgers, Penn State, UNC, UW, Colorado) and look for agreement PDFs or terms tables. Note that the registry's S074 (UC/Big Ten strategic sourcing) was dry, so prioritize non-UC campuses and the Iowa renewal.",
+      "labels": ["2A"],
+      "rationale": "Institution-wide agreements set the baseline discount for ordinary research labs. If the published floors are shallow (about 5–12%), that is evidence that most research buyers do not get the 'insane' discounts and so feel price gaps against AVITI and Ultima most sharply. If a renewal after Jun 2026 shows a deeper reagent discount, that is direct evidence of discounting accelerating for research. Either way the result is dated and comparable across years.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "University of Oxford Finance preferred-supplier page: 'Sequencing equipment & services' (Illumina Cambridge Ltd agreement terms)",
+      "url": "https://finance.web.ox.ac.uk/node/657961",
+      "access": "The direct fetch 301-redirects to https://www.ox.ac.uk/redirects-finance, so the page has moved. A search snippet shows the terms. To read and date the page, try archive.ph/archive.today for finance.web.ox.ac.uk/node/657961, or search for the page's new location on ox.ac.uk ('preferred supplier Illumina Cambridge'). Also open the sibling https://finance.web.ox.ac.uk/node/2200081 (OEM maintenance pricing). Similar 'preferred supplier' pages likely exist at Cambridge, Imperial, UCL and Edinburgh; search 'preferred supplier' 'Illumina' with site:ac.uk.",
+      "labels": ["2A"],
+      "rationale": "A search snippet (not opened) says the Illumina agreement guarantees at least 10% off published list on consumables and at least 20% on equipment, with delivery waived. This is a hard, citable floor for what a top-tier research university negotiates, and a 10% reagent floor is shallow. Comparing it with the Element and ONT terms on the same page, and with any dated earlier version, would show whether research discounts have deepened. The page is undated, so it needs an archive date.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Taiwan Government e-Procurement (PCC/GEPS) award notices for NovaSeq reagents via the g0v open mirror",
+      "url": "https://web.pcc.gov.tw",
+      "access": "The official site needs JS search, but with no login. Try the community open-data mirror's JSON API (unverified; test it): https://pcc.g0v.ronny.tw/api/searchbytitle?query=NovaSeq and ?query=定序試劑, then open each 決標公告 (award notice) for unit price, quantity and supplier (the Illumina distributor, e.g. 台灣伊路米納 or a distributor). Buyers to target: Academia Sinica, NTU, NHRI and university hospitals' research units. My search did not surface any GEPS record, so the mirror is the main route.",
+      "labels": ["2A", "1B"],
+      "rationale": "Taiwanese award notices publish the winning price and often the budgeted price, so the gap between the two is a discount measure. They also give a 2023-26 time series of net research prices for S4 vs 25B kits, and show whether MGI or Element bids win on price. This market is entirely untouched by the corpus.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "NSW/Queensland university and government contract-disclosure registers (GIPA): Illumina Australia contracts",
+      "url": "https://contrack.mq.edu.au/contracts/17429",
+      "access": "Open HTML, no login. Under GIPA, NSW universities must register contracts of A$150K or more, with an 'Estimated Contract value' field and dates. Search or browse the registers: Macquarie contrack (contrack.mq.edu.au/contracts/<id>, iterate IDs or use site search), Western Sydney https://www.westernsydney.edu.au/ougc/cpu/government-information-public-access-act-2009/contract-reporting, and the UNSW, Sydney, UTS and Newcastle GIPA registers. Also open the Queensland contractor pages https://qld2032.com/contractor/illumina-australia-pty-ltd/ and https://qld2032.com/contractor/illumina-aust-pty-ltd/ (seen in search) for Queensland government contract values by year.",
+      "labels": ["2A", "1B"],
+      "rationale": "These registers give dated contract values for Illumina reagent and service agreements at research universities, and may show competitor contracts (Element, MGI) at the same institutions. Falling or flat contract values, or a switch in vendor at renewal, would be hard evidence of research buyers pushing on price or walking away. No search hit yet confirms an Illumina entry on a GIPA register, but the Queensland contractor pages for Illumina do exist.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Core migrations away from Illumina, newly found: University of Iowa Genomics Division (full move to AVITI), Rockefeller GRC, Cornell Epigenomics Core",
+      "url": "https://humangenetics.medicine.uiowa.edu/genomics-division/genome-sequencing/sequencers",
+      "access": "Open HTML. Iowa's page (search snippet) says sequencing 'has been migrated to the Element AVITI' and runs Illumina libraries 'at a lower sequencing cost.' Date it with archive.ph and pull the current rate sheet. Rockefeller https://www.rockefeller.edu/genomics/news/ (26 Nov 2024: first non-Illumina platform, 'reducing costs'); check for 2025-26 follow-ups on Illumina lane-price changes. Cornell: https://www.elementbiosciences.com/blog/cornell-researcher-epigenomics-core-director-wows-ny-shift-your-science-roadshow (vendor claim: about $130K→$15K for the same reads). The registry's S270 (Iowa Microbiome Core) is a different core.",
+      "labels": ["2A", "2B"],
+      "rationale": "These are named research buyers that walked away from Illumina over cost. Iowa's Genomics Division is an entire university sequencing core moving off Illumina, which is stronger than the dual-platform cores already logged (UMN, UC Davis, Arizona). Each needs a date and, ideally, before-and-after rates to quantify the lost Illumina spend. The Cornell figure is a vendor claim and should be labelled as such.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Singapore GeBIZ awarded-procurement open dataset (data.gov.sg): A*STAR / Duke-NUS Illumina reagent awards",
+      "url": "https://data.gov.sg/datasets?query=government+procurement",
+      "access": "data.gov.sg hosts the dataset 'Government Procurement via GeBIZ' (agency, description, supplier, awarded amount, date) as a free CSV/API with no login. Filter the description for 'Illumina', 'NovaSeq', 'sequencing reagent' and 'flow cell', and the supplier for Illumina Singapore or distributors. My search did not surface a specific award, so this is untested.",
+      "labels": ["2A", "1B"],
+      "rationale": "This would give a time series of research-institute award amounts for Illumina reagents against those for MGI and Element, showing whether public research buyers in Asia are getting lower prices or switching vendors. It is a low-cost check on a structured dataset.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Korea KONEPS (나라장터) award results for NovaSeq X reagent kits at government research institutes (KRIBB, KNIH, NIBR)",
+      "url": "https://www.data.go.kr",
+      "access": "Use the free public-data portal API ('조달청_나라장터 낙찰정보서비스' / bid award service). It needs a free API key, so skip it if a key or account is required, per the rules. Otherwise search 'NovaSeq' and '시퀀싱 시약' award notices on g2b.go.kr result pages that open without a login. Compare the 예정가격 (estimated price) with the 낙찰가 (award price).",
+      "labels": ["2A", "1B"],
+      "rationale": "Korean awards show both the estimated price and the winning price, which together measure the discount depth. Macrogen's presence in Korea (an AXELIOS customer) makes competitive bids plausible. This route is lower priority because the key requirement may block it.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Swiss SIMAP award notices (ETH, EPFL, Uni Basel/Zurich, FMI) for Illumina reagent frameworks",
+      "url": "https://www.simap.ch",
+      "access": "SIMAP is public but JS-heavy and not indexed by search engines; my German query returned nothing from SIMAP. Use a browser-like fetch to search 'Illumina', 'Sequenzierreagenzien', 'NovaSeq' and filter to Zuschlag (award) notices for 2023-26. A related TED notice for German 'Reagenzien' awarded to illumina GmbH (2021, single tender) shows the pattern: https://ted.europa.eu/en/notice/582236-2021/pdf.",
+      "labels": ["2A"],
+      "rationale": "Swiss research institutions publish framework award values and the number of bids. Single-bidder Illumina frameworks being replaced by competed awards, or falling framework values, would show research buyers pushing on price. EPFL is already a known price-list source, so this complements it with contract values.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "site:.edu \"Illumina\" \"pricing agreement\" procurement\nsite:.edu \"contract\" \"Illumina\" discount \"off list\" sequencing reagents\nsite:.edu \"Illumina\" \"agreement\" \"% off\" consumables procurement 2025\nsite:ac.uk \"preferred supplier\" Illumina discount consumables\nsite:edu.au \"Illumina\" contract register GIPA\nsite:.edu genomics core \"migrated\" OR \"transitioned\" \"AVITI\" Illumina lower cost 2025 2026",
+        "maxPagesPerQuery": 2,
+        "resultsPerPage": 50,
+        "countryCode": "us"
+      },
+      "why": "To build the list of institution-wide Illumina agreement pages with published discount floors, and of cores that left Illumina over price, so a later agent can extract and date each discount percentage and migration. Single searches surfaced Iowa State, UC, Oxford, Illinois and Iowa Genomics; scaled queries should find 20 or more more.",
+      "max_items": 200
+    }
+  ]
+}
+```

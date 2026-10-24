@@ -1,0 +1,52 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "SRA's 6000 tail by release date overstates current 6000 activity, because Q3'26 releases include runs registered about a year earlier.",
+      "detail": "Of the 32 runs I read from four sampled offsets in the Q3'26 NovaSeq 6000 result set (407,958 runs), the ANU and Xi'an Jiaotong runs carry SRR345645xx accessions. Those numbers were issued far below the ~SRR4087xxxx range of fresh submissions in the same result set (Chinese Academy of Medical Sciences, SRR40869699), so I infer the data were sequenced and registered roughly 12 months before release. Public 6000 run counts therefore trail real sequencing by about a year, and the 'flat y/y' read (Q3'25 410,548 vs Q3'26 407,958, -0.6%) reflects 2025 activity, not the current tail. The accession-date mapping is my inference and was not verified against SRA submission dates.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=\"Illumina NovaSeq 6000\"[ALL] AND 2026/07/01:2026/09/30[PDAT]&retmax=20&usehistory=y&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI SRA E-utilities (esearch/efetch)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known notes treat SRA/GEO 6000 counts as lagging in GEO but not in SRA; this ties SRA lag to accession ranges and puts the Q3'25 vs Q3'26 comparison at -0.6%."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At six named large sequencing centers, X runs outnumber 6000 runs at five, and none has zero X runs. The exception is HudsonAlpha, which is still 6000-heavy.",
+      "detail": "I searched SRA free text for each center name (a text match, not a center_name filter). The 6000 counts are for Q3'26 and the X counts are for Jan–Sep 2026, so X is a longer window and the ratios are biased toward X. Q3'26 6000 / 2026 YTD X: New York Genome Center 74 / 1,902; Broad 3 / 55; Macrogen 511 / 995; Baylor 95 / 112; HudsonAlpha 130 / 12. Novogene is a same-window match: 7,575 6000 vs 5,802 X in Q3'26, so X is 43% of its NovaSeq-class runs against 27.0% for the whole SRA (150,561 X vs 407,958 6000). That points to outsourced providers converting faster than the average depositor.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=\"Illumina NovaSeq X\"[ALL] AND \"New York Genome Center\"[ALL] AND 2026/01/01:2026/09/30[PDAT]&retmax=0&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI SRA E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First center-level 6000-vs-X read; prior items covered only platform totals and GEO."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The Q3'26 6000 releases I sampled come from academic, environmental and consortium submitters rather than clinical labs, and many contributing labs may never have an X.",
+      "detail": "Sampled Q3'26 6000 runs come from the Leibniz plant-genetics institute (a GBS project), UCSDMI (Qiita microbiome, PRJEB11419), NGDC/Zhejiang University (soil and groundwater pathogens), the Chinese Academy of Medical Sciences, Essen University neurosurgery, ANU mouse RNA-seq, and Xi'an Jiaotong hospital. None is a clinical production lab. That fits the earlier point that SRA labels cannot size the clinical tail, which Illumina puts at ~80% of remaining 6000 Gb. The sample is 4 offsets of 8 runs (about 32 runs, clustered by project), so it is anecdotal.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&query_key=1&WebEnv=MCID_6acc9ec0db00d9c0140a226d&retstart=150000&retmax=8&retmode=xml",
+      "date": "2026-10-12",
+      "source_name": "NCBI SRA efetch",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Names the actual centers behind Q3'26 6000 releases, which prior GEO and SRA counts did not."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The requested top-25 center breakdown could not be done with the available tools. SRA esearch has no Center Name or Instrument field, and efetch XML runs to about 827 KB for 100 runs, which the fetch tool truncates. The 'zero-X share of 6000 volume' therefore remains unmeasured. Date filters do work: Q3'25 and Q3'26 counts differ, though the translation stack misleadingly reports 0. The phrases 'Illumina NovaSeq 6000' and 'Illumina NovaSeq X' work with [ALL], while '... X Plus' and [Platform] return 0. Next steps: BigQuery nih-sra-datastore (free tier, needs a Google login, so not possible here), or a local script that pulls about 500 runs per quarter with efetch. Center-name text matches are noisy and can match fields other than the submitter.",
+  "leads": [
+    {"name": "SRA Run Selector / BigQuery nih-sra-datastore", "url": "https://www.ncbi.nlm.nih.gov/Traces/study/", "access": "Run Selector is free per BioProject; BigQuery needs a Google account", "labels": ["1A", "2B"], "rationale": "Gives center_name, instrument_model and bases per run, so the zero-X share and Gb shares for AVITI, UG 100 and T7 can be computed."},
+    {"name": "ENA Portal API read_run with instrument_model and center_name", "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=%22Illumina%20NovaSeq%206000%22&fields=center_name,base_count,first_public&limit=1000", "access": "Free, no login, tabular output with first_public date", "labels": ["1A", "1B", "2B"], "rationale": "Returns center_name, base_count and release date in compact TSV. This is the best way around the efetch size problem and would also separate sequencing date from release date."}
+  ],
+  "apify_requests": []
+}
+```

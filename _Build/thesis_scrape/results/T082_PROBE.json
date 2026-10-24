@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "E-utilities on db=gtr work with no login through WebFetch. I ran five esearch queries, two esummary batches and one record page. The counts are usable as a rough signal only. Free-text GTR search appears to tokenize loosely: '\"NovaSeq 6000Dx\"' returned 404 hits, more than the 130 for '\"NovaSeq 6000\"', so it is matching on partial tokens. '\"UG 100\"' returned 36 hits, but the first IDs include Tempus and Michigan records that don't plausibly use Ultima, so that count is probably contaminated. esummary JSON does not expose the instrument or a last-updated date. Instrument names sit only on the HTML record pages (/gtr/tests/<id>/), in a Methodology table and in 'Technical Information'. Those pages show 'Registered in GTR' and 'Last annual review date for the lab', not a record-update date. I did not pull ~40 records and so could not compute the share of labs that list only the 6000. I also did not verify whether any single lab lists both the 6000 and the X. WebFetch truncated the large esummary, which is why only one record was fully read.",
+  "how_to_mine": "1) Use a script (Python or curl) rather than WebFetch. Run esearch with retmax=200 for '\"NovaSeq 6000\"[All Fields]' (130 hits), '\"NovaSeq X\"' (12), '\"NovaSeq X Plus\"', 'AVITI' (11) and '\"Ultima Genomics\"'. 2) Fetch each record page at https://www.ncbi.nlm.nih.gov/gtr/tests/<uid>/ and regex out the Instrument column, the offerer, the 'Registered in GTR' date, the 'Last annual review date for the lab', and the test category. 3) Group by lab (lab ID or 'offered by'). For each lab, record whether it lists the 6000 only, the X only, or both. 4) Report the share of labs and tests that list only the 6000, split by type (NIPT, oncology, exome and WGS, germline panels). 5) Check the review dates. Treat labs whose last review is before 2025 as stale, since their listing may not reflect current instruments. Also run the X query with 'NovaSeq X Plus' and 'NovaSeq Xp' spellings to avoid undercounting.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In the NIH Genetic Testing Registry, a phrase search finds about 10x more clinical test records naming the NovaSeq 6000 than the NovaSeq X.",
+      "detail": "On 12 Oct 2026, esearch on db=gtr returned 130 records for \"NovaSeq 6000\" and 12 for \"NovaSeq X\". AVITI returned 11. The 6000 count may include records that also name the X, and the search may be loose. The ratio nonetheless points to a clinical documentation tail that is still mostly 6000. This is directional only, not a volume measure. GTR entries are self-reported and often not refreshed.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gtr&term=%22NovaSeq%206000%22",
+      "date": "2026-10-12",
+      "source_name": "NCBI Genetic Testing Registry (E-utilities)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First registry-level count of clinical tests naming the 6000 versus the X; earlier notes used job postings and FDA PMA files only."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Tempus xT (a large oncology lab test) is still registered on the NovaSeq 6000, with the lab last reviewed in Nov 2025.",
+      "detail": "The GTR record for Tempus xT, offered by Tempus AI - RTP, lists 'Novaseq 6000' in the Methodology Instrument column for both the DNA and RNA workflows. It was registered 2024-11-06 and the lab's last annual review was 2025-11-12. This is consistent with the known Tempus job posting that mentions both the 6000 and the X. It shows the 6000 named in a current-year registry entry, but not that the lab has no X capacity.",
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/tests/613444/",
+      "date": "2025-11-12",
+      "source_name": "NCBI Genetic Testing Registry",
+      "source_type": "dataset",
+      "quote": "on an Illumina NovaSeq 6000",
+      "strength": "weak",
+      "why_new": "Registry-level confirmation that Tempus's flagship panel is documented on the 6000 as of Nov 2025; earlier evidence was a job posting only."
+    }
+  ],
+  "new_candidates": [
+    "GTR record pages: scripted extraction of Instrument, 'Registered in GTR' date, and lab review date for all 130 6000 records and 12 X records, to compute the share of 6000-only labs by lab type.",
+    "GTR 'Last annual review date for the lab' as a staleness test for how current each 6000 listing is."
+  ],
+  "apify_requests": []
+}
+```

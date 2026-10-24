@@ -1,0 +1,65 @@
+life-science tools :: Instruments, consumables and software sold to labs that do biological research, drug development and testing.
+consumables :: Supplies and reagents that customers use up and must keep re-buying, such as reagent kits and lab plastics.
+Ion Torrent :: Thermo Fisher's DNA sequencing platform, a competitor to Illumina's sequencers.
+Olink :: Thermo Fisher's proteomics business, which measures many proteins at once and competes with Illumina's SomaLogic.
+proteomics :: The large-scale measurement of proteins in a sample, as opposed to genomics, which reads DNA.
+multiomics :: Combining several types of molecular data (DNA, RNA, proteins, metabolites) to study biology.
+clinical NGS :: Next-generation DNA sequencing used for medical testing rather than research.
+read-across :: What one company's results imply about another company facing similar markets or customers.
+organic growth :: Revenue growth excluding the effects of acquisitions, divestitures and currency changes.
+adjusted (figures) :: Results that exclude items such as acquisition-related charges to show underlying performance.
+GAAP :: Standard U.S. accounting rules; GAAP figures include items that adjusted figures strip out.
+EPS :: Earnings per share, a company's profit divided by its share count.
+basis point (bp) :: One-hundredth of a percentage point.
+operating margin :: Operating profit as a percentage of revenue.
+gross margin :: Revenue minus the direct cost of goods sold, as a percentage of revenue.
+SG&A :: Selling, general and administrative expenses, the overhead cost of running and selling the business.
+volume leverage :: Margin improvement from spreading fixed costs over higher sales.
+product mix :: The blend of products sold; selling more lower-margin items hurts margins even if sales grow.
+consensus :: The average of Wall Street analysts' forecasts.
+guidance :: A company's own forecast of its future results.
+free cash flow :: Cash generated from operations minus capital spending.
+capital expenditures (capex) :: Spending on long-lived assets such as factories and equipment.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization, a rough proxy for operating cash earnings.
+leverage ratio :: Debt divided by EBITDA, a measure of how indebted a company is.
+ROIC :: Return on invested capital, profit generated per dollar of capital invested in the business.
+dilutive / accretive :: Lowering or raising a metric such as EPS or growth rate.
+share buyback :: A company buying back its own shares, which reduces share count and raises EPS.
+investment-grade credit rating :: A credit rating signalling low default risk, which keeps borrowing costs low.
+divestiture :: The sale of a business unit.
+Investor Day :: A company event where management sets out multi-year strategy and financial targets.
+authorizations :: New contracted work signed by a contract research business, a leading indicator of future revenue.
+bioproduction :: Supplying the media, equipment and consumables used to manufacture biologic drugs.
+biologics :: Drugs made in living cells, such as antibodies, rather than by chemical synthesis.
+cell culture media :: The nutrient mixture used to grow cells that produce biologic drugs.
+single-use technologies :: Disposable bags and components used in drug manufacturing instead of steel equipment.
+bioreactor :: A vessel in which cells are grown to produce biologic drugs.
+DynaDrive :: Thermo Fisher's single-use bioreactor product line.
+purification resins :: Materials used to separate and purify a drug from the cell culture it was made in.
+filtration and separation :: Technologies that filter and separate drug products during manufacturing; Thermo bought this business from Solventum.
+CRO :: Contract research organization, a company that runs clinical trials for drug developers.
+CDMO :: Contract development and manufacturing organization, a company that develops and manufactures drugs for other firms.
+clinical trial endpoint :: The measurement used to decide whether a clinical trial succeeded.
+sterile fill-finish :: Filling a drug into its final sterile vial or syringe.
+drug substance / drug product :: The active drug ingredient versus the finished dosage form patients receive.
+oral solid dose :: Pills and tablets.
+reshoring :: Moving manufacturing back to the home country, here moving drug production to the U.S.
+greenfield facility :: A brand-new plant built from scratch.
+tech transfer :: Moving a drug's manufacturing process from one site to another.
+patent cliff :: The point at which a key drug loses patent protection and faces cheaper generic competition.
+IRA :: The Inflation Reduction Act, a 2022 U.S. law that lets Medicare negotiate some drug prices.
+most-favored-nation (MFN) pricing :: U.S. policy proposals to tie U.S. drug prices to the lowest prices paid in other rich countries.
+antibody-drug conjugate (ADC) :: An antibody linked to a toxic drug that it delivers directly to cancer cells.
+personalized mRNA cancer vaccine :: An mRNA-based therapy designed for one patient's specific tumor.
+foundational biological model :: A large AI model trained on lab data to represent how biology works.
+mass spectrometry :: A technique that identifies and measures molecules by their mass, used for proteomics and chemistry.
+Orbitrap :: Thermo Fisher's family of high-resolution mass spectrometers.
+chromatography / UHPLC :: Methods that separate mixtures into components; UHPLC is an ultra-high-pressure liquid version.
+PCR / thermal cycler :: PCR is the technique for copying DNA; a thermal cycler is the instrument that runs it.
+electron microscopy :: Imaging that uses electron beams to see structures down to the atomic level.
+yield ramp :: Raising the share of good chips produced as a new semiconductor fab starts up.
+spectroscopy :: Measuring how materials absorb or emit light to determine their composition.
+immunodiagnostics :: Blood tests that detect antibodies or antigens.
+research and safety market channel :: Fisher Scientific, Thermo's distribution business for lab supplies and safety products.
+PPI Business System :: Thermo Fisher's continuous-improvement operating method.
+backlog :: Orders received but not yet delivered and recognized as revenue.

@@ -1,0 +1,54 @@
+TTU Center for Biotechnology and Genomics
+T: 806.742.6927  |  E: biotechnology.staff@ttu.edu
+https://www.depts.ttu.edu/biotechnologyandgenomics/
+Service Suggested Internal Rate External Non-Profit Rate External For-Profit Rate
+MALDI TOF
+Run, per sample 30.00 $                       40.00 $                    50.00 $                        
+Run w/protein ID 40.00 $                       50.00 $                    100.00 $                      
+Qexactive-HF
+Sample (2 hr run), Nano-LC (Dionex) 80.00 $                       125.00 $                   220.00 $                      
+Sample (2 hr run), w/protein ID-Nano-LC (Dionex) 100.00 $                     170.00 $                   320.00 $                      
+Metabolomics (ID & quantification) on Vanquish LC 100.00 $                     170.00 $                   320.00 $                      
+LTQ ORBITRAP
+Sample (2 hr run) 80.00 $                       125.00 $                   220.00 $                      
+Sample (2 hr run), w/protein ID 100.00 $                     170.00 $                   320.00 $                      
+OTHER
+Tryptic Digestion, in-gel or in-solution 20.00 $                       30.00 $                    175.00 $                      
+UV-HPLC with fractionation (1 hr run) 40.00 $                       50.00 $                    175.00 $                      
+Service Suggested Internal Rate External Non-Profit Rate External For-Profit Rate
+MiSeq
+50 bp sequencing kit (v2) 950.00 $                     1,425.00$                1,615.00 $                   
+300 bp sequencing kit (v2) 2 x 150 bp 1,200.00 $                  1,800.00 $                2,040.00 $                   
+500 bp sequencing kit (v2) 2 x 250 bp 1,350.00 $                  2,025.00 $                2,295.00 $                   
+150 bp sequencing kit (v3) 2 x 75 bp 1,100.00 $                  1,650.00 $                1,870.00 $                   
+600 bp sequencing kit (v3) 2 x 300 bp 1,800.00 $                  2,700.00 $                3,060.00 $                   
+300 bp Nano kit 419.00 $                     628.50 $                   712.30 $                      
+500 bp Nano kit 810.00 $                     1,215.00$                1,377.00 $                   
+300 bp Micro kit 913.00 $                     1,369.50$                1,552.10 $                   
+NovaSeq 6000
+SP Run (2 Lanes)
+100 bp-sequencing kit 2 x 50 bp 3,150.00 $                  4,725.00 $                5,355.00 $                   
+200 bp sequencing kit 2 x 100 bp 4,270.00 $                  6,405.00 $                7,259.00 $                   
+300 bp sequencing kit 2 x 150 bp 5,390.00 $                  8,085.00 $                9,163.00 $                   
+500 bp sequencing kit 2 x 250 bp 7,700.00 $                  11,550.00 $              13,090.00 $                 
+S1 Run (2 Lanes)
+100 bp-sequencing kit 2 x 50 bp 5,740.00 $                  8,610.00 $                9,758.00 $                   
+200 bp sequencing kit 2 x 100 bp 7,700.00 $                  11,550.00 $              13,090.00 $                 
+300 bp sequencing kit 2 x 150 bp 9,240.00 $                  13,860.00 $              15,708.00 $                 
+S2 Run (2 Lanes)
+100 bp-sequencing kit 2 x 50 bp 13,300.00 $                19,950.00 $              22,610.00 $                 
+200 bp sequencing kit 2 x 100 bp 18,200.00 $                27,300.00 $              30,940.00 $                 
+300 bp sequencing kit 2 x 150 bp 21,350.00 $                32,025.00 $              36,295.00 $                 
+S4 Run
+200 bp sequencing kit 2 x 100 bp Call for quote Call for quote Call for quote
+300 bp sequencing kit 2 x 150 bp Call for quote Call for quote Call for quote
+MASS SPECTROMETRY / PROTEOMICS CORE SERVICE RATES FY21
+GENOMICS CORE SERVICE RATES FY21
+Page 1
+TTU Center for Biotechnology and Genomics
+T: 806.742.6927  |  E: biotechnology.staff@ttu.edu
+https://www.depts.ttu.edu/biotechnologyandgenomics/
+Service Suggested Internal Rate External Non-Profit Rate External For-Profit Rate
+Library Preparation Services
+RNA Library Preps
+RNA-Seq mRNA Stranded 120.00 $                     180.00 $                   216.00 $                      

@@ -1,0 +1,44 @@
+```json
+{
+  "status": "productive",
+  "notes": "The data.cms.gov API works with no login. Dataset 92396110-2aed-4d63-a6a2-5d6207d46a29 is the Physician & Other Practitioners by Provider and Service file. Its file name PHY_R26_P05_V10_D24_Prov_Svc.csv suggests data year 2024 (my inference from the name, not a stated label). Rows carry no year field. Lab-billed PLA codes DO appear, under provider type 'Clinical Laboratory'. This is billed volume for fee-for-service Medicare (Part B) only, so it excludes Medicare Advantage. Only 4 rows came back for my 7-code query: Natera 0340U, Naveris 0356U, LabCorp 81420 and Quest 81420. 0306U, 0307U, 0364U and 81507 returned nothing. They were either suppressed (the file drops cells with 10 or fewer beneficiaries) or billed by other entities or years. I could not get 2021-2023 versions in the budget, so YoY growth and deceleration are NOT computed. The older-year dataset IDs were not found, and the versions endpoint returned 404. NIPT through Medicare FFS is negligible, with 81420 at 39 and 11 services. That fits NIPT being a commercial or Medicaid market and is no signal on Illumina volume. For scale, an OIG report (Jan 2026) says Part B paid for about 18M genetic tests in 2024 (+160% vs 7M in 2018), with genetic tests 43% of $8.4B of lab spend. Signatera's 25,746 services are therefore only about 0.14% of Medicare genetic test count. The file does not give total NGS volume, so this comparison is only against the OIG figure for all genetic tests.",
+  "how_to_mine": "1) Page through https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U&size=5000 and also filter by Rndrng_Prvdr_Type='Clinical Laboratory' with HCPCS_Cd starting '0' to list every PLA code and see which MRD tests (Guardant Reveal 0569U? RaDaR, Haystack, NeXT Personal) appear. 2) Find prior-year dataset UUIDs. On the dataset page choose the year dropdown (2021-2023) and copy each UUID from the 'API' tab, or use https://data.cms.gov/data.json and search 'Provider and Service'. Then re-run the same 0340U filter to build 2021-2024 Tot_Srvcs and Tot_Benes and compute YoY. Also compute services per beneficiary (2024: 25,746/11,922 = 2.16). That ratio is a draw-cadence proxy. 3) Pull the CMS Clinical Laboratory Fee Schedule PLA codes list to map code to company. 4) Cross-check against the OIG top-25 table (OEI-09-25-00330) for allowed dollars by code. Use only Python with -I or API calls with size paging; no CSV download is needed (3.25 GB).",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare fee-for-service Signatera billing is a small share of Natera and of total genetic testing, so Medicare cannot carry MRD volume alone.",
+      "detail": "CMS Part B provider-and-service file (apparently data year 2024) shows Natera billing 25,746 services of code 0340U (Signatera) to 11,922 beneficiaries, about 2.16 draws per beneficiary, at an average Medicare payment of $3,519 (~$90.6M allowed). Natera's Q2'26 MRD volume was 283K tests in a single quarter, so the FFS Medicare slice is a modest share of one year's volume. OIG counts about 18M Part B genetic tests in 2024, so Signatera is about 0.14% of that count.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U&size=5",
+      "date": "2024 data year (inferred from file name), file released May 2026",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "First hard Medicare claims count for Signatera (0340U); not in the known list, which has only Natera-reported test counts."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare FFS NIPT billing is negligible, so there is no public claims read on NIPT maturity from this file.",
+      "detail": "Code 81420 (fetal aneuploidy cfDNA) shows only LabCorp with 39 services and Quest with 11 services in the file. Nothing came back for 81507. NIPT is mostly commercial or Medicaid, so the file is uninformative for the NIPT-maturing leg of the thesis.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=81420&size=5",
+      "date": "2024 data year (inferred)",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Establishes that Medicare data cannot test NIPT; avoids wasted effort."
+    }
+  ],
+  "new_candidates": [
+    "OIG report OEI-09-25-00330 (Jan 2026) top-25 Part B lab tests table, which may list 0340U allowed dollars and claim counts for 2022-2024: https://www.oig.hhs.gov/documents/evaluation/11453/OEI-09-25-00330.pdf",
+    "Earlier-year versions of the same CMS dataset (2021-2023) for 0340U to compute YoY draw growth and services per beneficiary",
+    "CMS Part B National Summary / Clinical Laboratory fee schedule utilization for PLA MRD codes billed by non-lab entities (to catch suppressed rows)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [CMS dataset API, 0340U](https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=0340U&size=5), [OIG OEI-09-25-00330](https://www.oig.hhs.gov/documents/evaluation/11453/OEI-09-25-00330.pdf)

@@ -1,0 +1,4316 @@
+{
+ "cores": {
+  "harvard-university--bauer-core-facility-fas": {
+   "institution": "Harvard University",
+   "core": "Bauer Core Facility (FAS)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "harvard-university",
+   "domains": [
+    "bauercore.fas.harvard.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_us_northeast",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Already known; extra URLs only. From search snippets: FY27 25B 300-cycle lane about $2,426 (Harvard account) / $3,396 (PO); FY26 about $2,059 / $2,883.",
+    "FY26 NovaSeq X Plus 25B 300-cycle lane $2,059 on a Harvard account code, $2,883 by PO.",
+    "Known core. 25B 300-cycle lane Harvard account: $2,059 (FY26), $2,426 (FY27). Prices rose year on year."
+   ]
+  },
+  "case-western-reserve-university--genomics-core": {
+   "institution": "Case Western Reserve University",
+   "core": "Genomics Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "case-western-reserve-university",
+   "domains": [
+    "case.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Known core. Older snippets say 'updated October 2023' (25B 300-cycle $20,000); later snippet says July 2026 with a shared 1.5B lane $1,400-1,800."
+   ]
+  },
+  "dana-farber-cancer-institute--molecular-biology-core-facilit": {
+   "institution": "Dana-Farber Cancer Institute",
+   "core": "Molecular Biology Core Facilities (MBCF)",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "dana-farber-cancer-institute",
+   "domains": [
+    "mbcf.dana-farber.org",
+    "dfci.ilab.agilent.com"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "university-of-connecticut--center-for-genome-innovation": {
+   "institution": "University of Connecticut",
+   "core": "Center for Genome Innovation",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-connecticut",
+   "domains": [
+    "draft.genome.center.uconn.edu",
+    "honeycrisp.core.uconn.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Known core. 25B 300-cycle lane $2,933.99 from 2026-01-01 (was $2,924.04 in 2025); includes 5% temporary Illumina tariff. Honeycrisp pages carry start dates, so history may be visible."
+   ]
+  },
+  "dartmouth-college--genomics-shared-resource": {
+   "institution": "Dartmouth College",
+   "core": "Genomics Shared Resource",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "dartmouth-college",
+   "domains": [
+    "geiselmed.dartmouth.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "university-of-minnesota--university-of-minnesota-genomi": {
+   "institution": "University of Minnesota",
+   "core": "University of Minnesota Genomics Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-minnesota",
+   "domains": [
+    "genomics.umn.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "UG100 wafer (10-12B reads) $2,909 UMN and $3,212 external. 10x preferred pricing is $2,409 and $2,712. AVITI price cuts: about 40% in Jul 2024, about 20% more in Dec 2024, and 33% lower per read in Sep 2025 (output +50%, price flat).",
+    "AVITI cut ~40% Jul 2024, further ~20% Dec 2024, +50% output at same price Sep 2025 (33% lower per M reads vs FY25). Ultima 10x full wafer $2,409 UMN / $2,712 external (reflects $500 off standard). NovaSeq X is outsourced."
+   ]
+  },
+  "duke-university--sequencing-and-genomic-technol": {
+   "institution": "Duke University",
+   "core": "Sequencing and Genomic Technologies Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "duke-university",
+   "domains": [
+    "medschool.duke.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Known core. Launch post; one lane (1-1.25B reads) $1,465 Duke / $1,492 external per search snippet."
+   ]
+  },
+  "university-of-missouri--genomics-technology-core": {
+   "institution": "University of Missouri",
+   "core": "Genomics Technology Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-missouri",
+   "domains": [
+    "mugenomicscore.missouri.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "uc-berkeley--qb3-genomics": {
+   "institution": "UC Berkeley",
+   "core": "QB3 Genomics",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "uc-berkeley",
+   "domains": [
+    "qb3.berkeley.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "weill-cornell-medicine--genomics-resources-core-facili": {
+   "institution": "Weill Cornell Medicine",
+   "core": "Genomics Resources Core Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "weill-cornell-medicine",
+   "domains": [
+    "research.weill.cornell.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "salk-institute--integrative-genomics-and-bioin": {
+   "institution": "Salk Institute",
+   "core": "Integrative Genomics and Bioinformatics Core",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "salk-institute",
+   "domains": [
+    "salk.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "AVITI high output 300-cycle flow cell $3,610 (internal rate). The page is undated. Two older URL paths may be superseded.",
+    "Known core. AVITI High Output 300-cycle flow cell $3,610 internal / $4,513 external."
+   ]
+  },
+  "university-of-utah--huntsman-cancer-institute-high": {
+   "institution": "University of Utah",
+   "core": "Huntsman Cancer Institute High-Throughput Genomics",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-utah",
+   "domains": [
+    "uofuhealth.utah.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "northwestern-university--nuseq-core": {
+   "institution": "Northwestern University",
+   "core": "NUSeq Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "northwestern-university",
+   "domains": [
+    "cgm.northwestern.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "FY26 NovaSeq X Plus 25B PE150 lane $3,000 internal, versus $2,800 in FY25. AVITI PE150 high-output lane $1,300 internal in FY26.",
+    "Known core; FY25 and FY26 PDFs. 25B PE150 lane $3,000 internal (FY26); 10B PE150 lane $1,600; AVITI PE150 High Output lane $1,300."
+   ]
+  },
+  "cnag-centro-nacional-de-analisis-genomic--cnag-sequencing-unit": {
+   "institution": "CNAG (Centro Nacional de Analisis Genomico)",
+   "core": "CNAG Sequencing Unit",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "cnag-centro-nacional-de-analisis-genomic",
+   "domains": [
+    "cnag.eu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "rush-university--genomics-and-microbiome-core-f": {
+   "institution": "Rush University",
+   "core": "Genomics and Microbiome Core Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "rush-university",
+   "domains": [
+    "rushu.rush.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "the-hospital-for-sick-children-sickkids--the-centre-for-applied-genomic": {
+   "institution": "The Hospital for Sick Children (SickKids)",
+   "core": "The Centre for Applied Genomics (TCAG)",
+   "country": "Canada",
+   "kind": "nonprofit_institute",
+   "inst_slug": "the-hospital-for-sick-children-sickkids",
+   "domains": [
+    "tcag.ca"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "tgen-translational-genomics-research-ins--collaborative-sequencing-cente": {
+   "institution": "TGen (Translational Genomics Research Institute)",
+   "core": "Collaborative Sequencing Center",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "tgen-translational-genomics-research-ins",
+   "domains": [
+    "tgen.org"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Known core. Jul 2026 to Mar 2027 list: 25B lane 300-cycle $3,136.63; 25B flow cell $25,093.04."
+   ]
+  },
+  "texas-a-m-university--texas-a-m-agrilife-genomics-tx": {
+   "institution": "Texas A&M University",
+   "core": "Texas A&M AgriLife Genomics (TxGen)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "texas-a-m-university",
+   "domains": [
+    "txgen.tamu.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Known core. Feb 2025 sheet: 25B 300-cycle lane $3,222 ($3.30/Gb)."
+   ]
+  },
+  "university-of-nebraska-medical-center--genomics-core": {
+   "institution": "University of Nebraska Medical Center",
+   "core": "Genomics Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-nebraska-medical-center",
+   "domains": [
+    "unmc.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "AVITI24 2x150 UltraQ $3,763 internal and $5,645 external. 2x150 high output $2,601 internal.",
+    "Known core. NovaSeq 6000 S1 100-cycle v1.5 $5,928 internal / $8,892 external per flow cell; AVITI24 listed. Undated."
+   ]
+  },
+  "university-of-wisconsin-madison--biotechnology-center-gene-expr": {
+   "institution": "University of Wisconsin-Madison",
+   "core": "Biotechnology Center Gene Expression / DNA Sequencing",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-wisconsin-madison",
+   "domains": [
+    "research.wisc.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape"
+   ],
+   "notes": []
+  },
+  "michigan-state-university--research-technology-support-fa": {
+   "institution": "Michigan State University",
+   "core": "Research Technology Support Facility Genomics",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "michigan-state-university",
+   "domains": [
+    "rtsf.natsci.msu.edu"
+   ],
+   "sources": [
+    "seed:clinical_scrape",
+    "discover:w1_us_midwest",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "Already known; extra URLs only, seen in search results. AVITI bundled flat rate seen: $76/sample for SparQ library plus 3 Gbp.",
+    "Oct 2024 overview: 2x150 high-output flow cell $2,089 (about $6.96/Gb)."
+   ]
+  },
+  "massachusetts-institute-of-technology--biomicro-center": {
+   "institution": "Massachusetts Institute of Technology",
+   "core": "BioMicro Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "massachusetts-institute-of-technology",
+   "domains": [
+    "openwetware.org"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "Wiki-hosted. FY2025b: AVITI 150 PE one lane (~400M reads) core lab $1,375 / MIT $1,513 / non-MIT $1,925; NovaSeq X 10B 300nt core lab $1,850 / MIT $2,000 (non-MIT NA). Main page says NovaSeq X pricing is in iLab only. No FY2024 or FY2026 page linked; main page last edited 2025-04-15, so a newer pric"
+   ]
+  },
+  "yale-university--yale-center-for-genome-analysi": {
+   "institution": "Yale University",
+   "core": "Yale Center for Genome Analysis (YCGA)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "yale-university",
+   "domains": [
+    "medicine.yale.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "Page returned HTTP 404 when I fetched it, but it appeared in two search results. The search snippet showed NovaSeq X Plus 25B 2x150 flow cell $2,936 Yale / $3,825 non-Yale and AVITI $1,428 / $1,864. Header said FY2024-25 but also had a stale '7/1/2022 - 6/30/2023' line, so verify the dating."
+   ]
+  },
+  "cornell-university-ithaca--biotechnology-resource-center-": {
+   "institution": "Cornell University (Ithaca)",
+   "core": "Biotechnology Resource Center (BRC) Genomics / Epigenomics Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "cornell-university-ithaca",
+   "domains": [
+    "biotech.cornell.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "AVITI24 re-sequencing lane (400M) $799 internal / $999 external; flow cell (800M) $1,598 / $1,998. NovaSeq runs are outsourced and no dollar amounts are shown publicly (order via portal). The price list page has no date.",
+    "AVITI24 lane (400M reads) $799 internal, $999 external. The UG100 page gives no price, only a quote request and about $0.24 per million reads."
+   ]
+  },
+  "boston-university--microarray-and-sequencing-reso": {
+   "institution": "Boston University",
+   "core": "Microarray and Sequencing Resource (BUMSR)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "boston-university",
+   "domains": [
+    "bumc.bu.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "No NovaSeq/AVITI/UG; NextSeq 2000 P1-P4 only. NextSeq 2000 XLEAP P1 100 cycles $1,300 internal / $1,775 external (per run). The page has no date."
+   ]
+  },
+  "university-of-new-hampshire--hubbard-center-for-genome-stud": {
+   "institution": "University of New Hampshire",
+   "core": "Hubbard Center for Genome Studies (HCGS)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-new-hampshire",
+   "domains": [
+    "hcgs.unh.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "NovaSeq X Plus 1.5B shared run 2x150: $3.00 per million read pairs (internal); 2x300: $5.00. Dedicated 5B/10B/25B are quote-only. PacBio Vega is also listed. Prices reviewed annually."
+   ]
+  },
+  "rockefeller-university--genomics-resource-center": {
+   "institution": "Rockefeller University",
+   "core": "Genomics Resource Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "rockefeller-university",
+   "domains": [
+    "rockefeller.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "Page links a 'Genomics Resource Center Price List FY27' PDF (I did not see its URL; get it from the pricing page). Search results showed the earlier FY2024 list (e.g. NovaSeq SP 2x50 $4,300 RU / $5,800 external academic). AVITI added 2024-11-26 (news post, no prices). Whether the FY27 list has AVITI"
+   ]
+  },
+  "brown-university--genomics-core-facility": {
+   "institution": "Brown University",
+   "core": "Genomics Core Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "brown-university",
+   "domains": [
+    "biomedcorefacilities.brown.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "Weak fit: only NextSeq 2000 assisted-use run fee ($554 internal / $980 external academic, FY26, effective 12/10/2025) plus variable supply fees. NovaSeq and AVITI are not listed."
+   ]
+  },
+  "university-of-connecticut--center-for-genome-innovation-2": {
+   "institution": "University of Connecticut",
+   "core": "Center for Genome Innovation",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-connecticut",
+   "domains": [
+    "genome.center.uconn.edu"
+   ],
+   "sources": [
+    "discover:w1_us_northeast"
+   ],
+   "notes": [
+    "Already known; extra URL only (service rates updated January 2025; S1 v1.5 100-cycle kit $4,431, plus a shipping surcharge)."
+   ]
+  },
+  "baylor-college-of-medicine--genomic-and-rna-profiling-core": {
+   "institution": "Baylor College of Medicine",
+   "core": "Genomic and RNA Profiling Core (GARP)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "baylor-college-of-medicine",
+   "domains": [
+    "bcm.edu",
+    "cdn.bcm.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "NovaSeq X S10B 300cyc 1 lane $1,650 (Feb 2026, also Sep 2025). Late-2024 NovaSeq 6000 S4 lane $4,800. From search snippets; files not opened. Dated files roughly every 3-6 months."
+   ]
+  },
+  "university-of-arizona--arizona-genetics-core-azgc": {
+   "institution": "University of Arizona",
+   "core": "Arizona Genetics Core (AZGC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-arizona",
+   "domains": [
+    "cores.arizona.edu",
+    "azgc.arizona.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "AVITI run (flow cell not included) $250 internal / $300 external (rates eff. 1 Jul 2026). Run fees only; flow cells quoted separately. Older rate PDFs likely exist at the same site but were not seen.",
+    "AVITI is listed as 'varies, contact core', so it has no fixed price."
+   ]
+  },
+  "ut-health-san-antonio--genome-sequencing-facility-gre": {
+   "institution": "UT Health San Antonio",
+   "core": "Genome Sequencing Facility (Greehey CCRI)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "ut-health-san-antonio",
+   "domains": [
+    "gccri.uthscsa.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "Page 'Updated 4/21/26', linked PDF dated 2026/04 (file name Updated260420; PDF URL not captured). NovaSeq 6000 and NextSeq 2000 P1-P4 priced; no AVITI. Three tiers (MCC/UTHSA/External). An older version (3/14/23) was referenced in search results."
+   ]
+  },
+  "boise-state-university--sequencing-core": {
+   "institution": "Boise State University",
+   "core": "Sequencing Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "boise-state-university",
+   "domains": [
+    "boisestate.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "NextSeq P1 100cyc flow cell $1,717 (Rate A), $2,429.56 (B), $2,653.63 (C). No effective date shown. NextSeq flow cells only, no NovaSeq or AVITI seen."
+   ]
+  },
+  "university-of-texas-at-austin--genomic-sequencing-and-analysi": {
+   "institution": "University of Texas at Austin",
+   "core": "Genomic Sequencing and Analysis Facility (GSAF)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-texas-at-austin",
+   "domains": [
+    "cloud.wikis.utexas.edu",
+    "wikis.utexas.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "NovaSeq S1 SR100 lane $3,801.47 internal / $4,803.46 external (search snippet; page fetch returned empty). NovaSeq X is internal-only and not priced publicly. The last three URLs are archived or older price pages per search, not opened."
+   ]
+  },
+  "ut-md-anderson-cancer-center--advanced-technology-genomics-c": {
+   "institution": "UT MD Anderson Cancer Center",
+   "core": "Advanced Technology Genomics Core (ATGC)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "ut-md-anderson-cancer-center",
+   "domains": [
+    "mdanderson.org"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "Snippet: NovaSeq X 25B 300cyc $2,595 per lane; 10B 300cyc $1,523. My fetch of that page showed no prices, so unverified. FY2023 schedule (NovaSeq 6000, tiered MDA/GCC/external) is the older version."
+   ]
+  },
+  "university-of-utah-hsc-cores--next-gen-sequencing-on-the-avi": {
+   "institution": "University of Utah (HSC Cores)",
+   "core": "Next Gen Sequencing on the AVITI (HSC Cores bookstack)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-utah-hsc-cores",
+   "domains": [
+    "bookstack.cores.utah.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "Examples only, not a rate card: RNA-seq 2x75 about $250/sample (16 samples); 2 human genomes about $2,700. Separate from the already-known Huntsman HTG core."
+   ]
+  },
+  "university-of-texas-health-science-cente--cancer-genomics-core-cgc": {
+   "institution": "University of Texas Health Science Center at Houston",
+   "core": "Cancer Genomics Core (CGC)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-texas-health-science-cente",
+   "domains": [
+    "uth.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "Fetch returned 403, so I could not confirm NovaSeq or AVITI lines. Search snippet showed internal and external tiers."
+   ]
+  },
+  "university-of-colorado--cu-genomics-core-atlassian-wik": {
+   "institution": "University of Colorado",
+   "core": "CU Genomics Core (Atlassian wiki)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-colorado",
+   "domains": [
+    "microcollaborative.atlassian.net"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "Titled 'University of Colorado Genomics Core Sequencing Prices'; the fetch was empty. The second page is 'Quotes from CU Genomics Core as of 09-09-2021', so it is old. This may be the CU Anschutz core; unconfirmed."
+   ]
+  },
+  "university-of-texas-southwestern-medical--mcdermott-next-generation-sequ": {
+   "institution": "University of Texas Southwestern Medical Center",
+   "core": "McDermott Next Generation Sequencing Core",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-texas-southwestern-medical",
+   "domains": [
+    "utsouthwestern.edu"
+   ],
+   "sources": [
+    "discover:w1_us_southcentral_mountain"
+   ],
+   "notes": [
+    "The page lists no dollar amounts (estimate by email). It links 'View Internal Pricing' and 'View External Pricing' pages that I could not see. Low value unless those linked pages show prices."
+   ]
+  },
+  "johns-hopkins-university--genetic-resources-core-facilit": {
+   "institution": "Johns Hopkins University",
+   "core": "Genetic Resources Core Facility (GRCF) High Throughput Sequencing Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "johns-hopkins-university",
+   "domains": [
+    "grcf.jhmi.edu",
+    "igc.jhmi.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "Fetch returned 403, so these were seen only in search snippets. Snippets show per-flow-cell NovaSeq X prices, e.g. 25B 100-cycle $13,100 (older) / $13,800 (2026 reference) and 10B single lane 300-cycle $1,200-1,400. The three URLs show different prices, so they may be different versions."
+   ]
+  },
+  "university-of-pittsburgh--health-sciences-sequencing-cor": {
+   "institution": "University of Pittsburgh",
+   "core": "Health Sciences Sequencing Core / Genomics Research Core (genomics.pitt.edu)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-pittsburgh",
+   "domains": [
+    "genomics.pitt.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "Internal (Pitt/UPMC) prices effective 6/01/2025. Sample line: NovaSeq X Plus 1.5B 200-cycle (2 lanes at 750M each) $2,554 in the first price column of the search snippet; the column headers are unclear. Covers 1.5B/10B/25B, lane, full flow cell and 2+ flow cells. External prices are on request. No o"
+   ]
+  },
+  "university-of-pennsylvania--penn-genomics-and-sequencing-c": {
+   "institution": "University of Pennsylvania",
+   "core": "Penn Genomics and Sequencing Core (PGSC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-pennsylvania",
+   "domains": [
+    "genetics.med.upenn.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "NovaSeq X Plus full-service price per lane and ready-to-sequence price per flow cell, plus PacBio Revio. Sample line: 1.5B 100-cycle full-service lane $1,319.56; 10B 100-cycle $1,228.59 / $1,087.50 (two price columns in the snippet). NextSeq 2000 and MiSeq say 'contact us'. No date, PDF, or older ve"
+   ]
+  },
+  "university-of-georgia--georgia-genomics-and-bioinform": {
+   "institution": "University of Georgia",
+   "core": "Georgia Genomics and Bioinformatics Core (GGBC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-georgia",
+   "domains": [
+    "dna.uga.edu",
+    "spa.uga.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Post dated 2025-03-12, 'Announcing New Price Reductions and Sequencing Options at the GGBC'. Sample line: NovaSeq X Plus one 25B lane PE150 $3,000 and 10B lane $2,000 (UGA rate). The spa.uga.edu page is a facility rate index that I did not open. I did not find the core's own current rate page.",
+    "Mar 2025 price cut post. 25B lane $3,000; 10B lane $2,000 (per search snippet)."
+   ]
+  },
+  "north-carolina-state-university--genomic-sciences-laboratory-gs": {
+   "institution": "North Carolina State University",
+   "core": "Genomic Sciences Laboratory (GSL)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "north-carolina-state-university",
+   "domains": [
+    "research.ncsu.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "NextSeq 2000 prices for NC State users, effective 2026-04-24. Sample line: NextSeq 2000 P1 100SE/50PE $1,277.41. An older snippet showed P1 150PE $1,641.40, so history exists, but I have no URL for older versions. NovaSeq X is outsourced, with a $149 GSL fee added and no price listed. The detailed s"
+   ]
+  },
+  "tulane-university--ctrii-nextgen-sequencing-core": {
+   "institution": "Tulane University",
+   "core": "CTRII NextGen Sequencing Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "tulane-university",
+   "domains": [
+    "medicine.tulane.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "The 2026 internal-rate calculator is NextSeq 2000 only. Sample line: standard DNA-Seq prep $95/sample. Run prices appear only in the calculator output. The Illumina pricing page holds prices in an image I could not read, and its upload date of about 2025-10 is inferred from the file path. The core u"
+   ]
+  },
+  "virginia-tech--fralin-life-sciences-genomics-": {
+   "institution": "Virginia Tech",
+   "core": "Fralin Life Sciences Genomics Sequencing Center (GSC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "virginia-tech",
+   "domains": [
+    "fralinlifesci.vt.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "The PDF is dated 2024-09-01 and gives per-sample rates for VT and non-VT users. The fetch returned unreadable binary, so I could not confirm which platforms it covers. This is a good candidate for the PDF extraction step. A newer guide probably exists, but I did not find its URL.",
+    "Known core. Sep 2024 pricing guide, useful as history."
+   ]
+  },
+  "rutgers-university-njms--njms-genomics-center": {
+   "institution": "Rutgers University (NJMS)",
+   "core": "NJMS Genomics Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "rutgers-university-njms",
+   "domains": [
+    "research.njms.rutgers.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midatlantic_southeast"
+   ],
+   "notes": [
+    "A 2022 internal price list covering MiSeq and NovaSeq 6000 kits (SP 500-cycle $4,620 up to S4 300-cycle over $15,000), per a search summary. It predates the NovaSeq X and is too old for the Oct 2024+ window. I found no current Rutgers list."
+   ]
+  },
+  "university-of-illinois-urbana-champaign--roy-j-carver-biotechnology-cen": {
+   "institution": "University of Illinois Urbana-Champaign",
+   "core": "Roy J. Carver Biotechnology Center DNA Services",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-illinois-urbana-champaign",
+   "domains": [
+    "biotech.illinois.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Page states 'All pricing is updated, effective Aug. 1, 2026.' Sample: Nova X 1.5B 2x300 per lane $3,100. Search snippets of the instruments page also showed 10B 2x150 $2,190 and 25B 2x150 $3,290 per lane. No AVITI. No older versions seen.",
+    "Known core. 10B 2x150 lane $2,190; 25B lane $3,290."
+   ]
+  },
+  "university-of-chicago--genomics-facility": {
+   "institution": "University of Chicago",
+   "core": "Genomics Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-chicago",
+   "domains": [
+    "voices.uchicago.edu",
+    "cri.uchicago.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Per-lane NovaX plus AVITI flow cells; internal/affiliated/academic/startup/commercial tiers. Sample: NovaX-10B-200 (PE100) lane internal $1,475; AVITI 150bp flow cell internal $1,175 (industry $1,855.69). Neither page is dated. The 'fees' page may be the older version (it still carries NovaSeq 6000 ",
+    "AVITI flow cell 150 bp $1,175 and 300 bp $1,475, per the 2024 example costs.",
+    "Known core. AVITI 150 full flow cell ~$1,175 internal; FY2026 recharge notice effective 2025-07-01."
+   ]
+  },
+  "university-of-kansas-medical-center--genome-sequencing-facility": {
+   "institution": "University of Kansas Medical Center",
+   "core": "Genome Sequencing Facility",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-kansas-medical-center",
+   "domains": [
+    "kumc.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest"
+   ],
+   "notes": [
+    "NovaSeq X Plus only; full flow cell and single lane, internal vs external academic. Sample: 1.5B 100-cycle internal $3,600 full flow cell / $1,800 per lane. A search snippet showed 25B 300-cycle full flow cell at $23,872 internal and $37,002 external. No effective date shown. No AVITI."
+   ]
+  },
+  "wayne-state-university--genome-sciences-core": {
+   "institution": "Wayne State University",
+   "core": "Genome Sciences Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "wayne-state-university",
+   "domains": [
+    "genomesciencescore.wayne.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest"
+   ],
+   "notes": [
+    "NovaSeq 6000 SP/S1/S2/S4 flow cells and MiSeq, tiers internal/non-profit/commercial. Sample: S4 300-cycle internal $17,000. No NovaSeq X or AVITI listed. Undated; page footer says 2026. Requests go through iLab."
+   ]
+  },
+  "university-of-iowa--institute-of-human-genetics-ii": {
+   "institution": "University of Iowa",
+   "core": "Institute of Human Genetics (IIHG) Genomics Division",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-iowa",
+   "domains": [
+    "humangenetics.medicine.uiowa.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest"
+   ],
+   "notes": [
+    "AVITI24 prices effective April 1, 2026. Sample: AVITI24 300-cycle Cloudbreak FS-High UI $1,042/lane ($2,083 flow cell), external $1,245/lane. NovaSeq X shows 'Please Inquire for Pricing'. Related fee pages (not opened): .../genomics-division/sanger-sequencing/sequencing-fees"
+   ]
+  },
+  "indiana-university-school-of-medicine--center-for-medical-genomics": {
+   "institution": "Indiana University School of Medicine",
+   "core": "Center for Medical Genomics",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "indiana-university-school-of-medicine",
+   "domains": [
+    "geneticslab.medicine.iu.edu"
+   ],
+   "sources": [
+    "discover:w1_us_midwest"
+   ],
+   "notes": [
+    "Seen in search results only. Fetch returned a 301 redirect to medicine.iu.edu/genetics/genetic-testing-laboratories; the working URL is not confirmed. Prices are per sample (12-sample batches), not per lane; a snippet showed WGS 400M reads 2x150 at $611 IU / $693 external university / $914 industry."
+   ]
+  },
+  "university-of-exeter--exeter-sequencing-service": {
+   "institution": "University of Exeter",
+   "core": "Exeter Sequencing Service",
+   "country": "UK",
+   "kind": "university",
+   "inst_slug": "university-of-exeter",
+   "domains": [
+    "exeter.ac.uk"
+   ],
+   "sources": [
+    "discover:w1_uk_ireland"
+   ],
+   "notes": [
+    "Seen in search snippets only; WebFetch returned 404. NovaSeq X 10B single lane 300 cycle internal £1,800 (commercial £2,016), excl. VAT. Full flow cells: 1.5B £3,605, 10B £14,400, 25B £24,075 internal. The two URL patterns (/facilities/sequencing/ and /sequencing/) may be the same page. No dates sho"
+   ]
+  },
+  "university-of-edinburgh--edinburgh-genomics-genetics-co": {
+   "institution": "University of Edinburgh",
+   "core": "Edinburgh Genomics / Genetics Core (Clinical Research Facility)",
+   "country": "UK",
+   "kind": "university",
+   "inst_slug": "university-of-edinburgh",
+   "domains": [
+    "genomics.ed.ac.uk"
+   ],
+   "sources": [
+    "discover:w1_uk_ireland",
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "Post titled 'Pricing changes at Edinburgh Genomics' (new Illumina price list from April 1; year unknown). It redirects (301) to clinical-research-facility.ed.ac.uk/core-services/geneticsnode/75, which returned 404. No prices seen. Contact is the business manager. The CRF Genetics Core page (clinical",
+    "Known core. 'Pricing changes' notice appears to be years old (mentions HiSeq X); not useful for 2024-26."
+   ]
+  },
+  "university-of-calgary-cumming-school-of---centre-for-health-genomics-and": {
+   "institution": "University of Calgary (Cumming School of Medicine)",
+   "core": "Centre for Health Genomics and Informatics (CHGI) NGS",
+   "country": "Canada",
+   "kind": "university",
+   "inst_slug": "university-of-calgary-cumming-school-of-",
+   "domains": [
+    "cumming.ucalgary.ca",
+    "live-cumming.ucalgary.ca"
+   ],
+   "sources": [
+    "discover:w1_canada",
+    "discover:w2_history_announcements",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Internal CAD prices per search snippets; PDFs not readable via fetch. Sample: NovaSeq X 25B one lane 300cyc PE150 $4,100 (June 2024 and 2025 lists, same price; run in partnership with BC Genome Sequencing Centre). NovaSeq 6000 S4 300cyc $22,420 (2025). Possibly a newer 2026 list exists; not found.",
+    "Known core. Jun 2024: 25B single lane PE150 CAD 4,100.",
+    "Extra history for a known core. Sample line from search summaries: NovaSeq X 25B lane 300 cycles PE150 is CAD $4,100 (2025 and June 2024 lists)."
+   ]
+  },
+  "ontario-institute-for-cancer-research--oicr-genomics-ultima-sequencin": {
+   "institution": "Ontario Institute for Cancer Research",
+   "core": "OICR Genomics (Ultima sequencing)",
+   "country": "Canada",
+   "kind": "nonprofit_institute",
+   "inst_slug": "ontario-institute-for-cancer-research",
+   "domains": [
+    "genomics.oicr.on.ca"
+   ],
+   "sources": [
+    "discover:w1_canada",
+    "discover:w1_nonprofit_institutes",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "Academic-only list prices in CAD, undated. Sample: UG100 10B wafer $5,130 (min 2 wafers); 30X WGS $435 (min 20 samples). A search snippet suggested an older page version with a different table; no archived versions found, so the Wayback Machine may help for history. No NovaSeq X prices found.",
+    "UG100 Solaris 10B wafer CAD $5,130 list, minimum 2 wafers, academic use only. The page footer is 2026 and has no price date.",
+    "Wafer (10B) CAD $5,130, minimum 2 wafers. 30X WGS CAD $435."
+   ]
+  },
+  "university-of-british-columbia--biomedical-research-centre-nex": {
+   "institution": "University of British Columbia",
+   "core": "Biomedical Research Centre Next-Gen Sequencing Core (SBME price sheets)",
+   "country": "Canada",
+   "kind": "university",
+   "inst_slug": "university-of-british-columbia",
+   "domains": [
+    "brc.ubc.ca"
+   ],
+   "sources": [
+    "discover:w1_canada"
+   ],
+   "notes": [
+    "All three PDFs returned 404 when opened but appeared in search results; they may have moved. brc.ubc.ca/?p=2723 appeared in a search result and was not opened. Sample from snippet: NextSeq 2000 P3 300cyc $8,200 (Nov 2024 academic). NovaSeq is 'available upon request'. No AVITI seen."
+   ]
+  },
+  "genome-qu-bec--centre-d-expertise-et-de-servi": {
+   "institution": "Genome Québec",
+   "core": "Centre d'expertise et de services Génome Québec (CES)",
+   "country": "Canada",
+   "kind": "nonprofit_institute",
+   "inst_slug": "genome-qu-bec",
+   "domains": [
+    "genomequebec.com"
+   ],
+   "sources": [
+    "discover:w1_canada"
+   ],
+   "notes": [
+    "Per-sample all-in CAD prices, not per lane, undated. Sample: Human WGS $525; Exome 100X $316; mRNA 25M reads $172. Page says prices reflect NovaSeq X and the 25B flow cell. Useful only as a per-sample proxy."
+   ]
+  },
+  "university-of-guelph--advanced-analysis-centre-aac-g": {
+   "institution": "University of Guelph",
+   "core": "Advanced Analysis Centre (AAC) Genomics Facility",
+   "country": "Canada",
+   "kind": "university",
+   "inst_slug": "university-of-guelph",
+   "domains": [
+    "uoguelph.ca"
+   ],
+   "sources": [
+    "discover:w1_canada"
+   ],
+   "notes": [
+    "Low value. NextSeq 1000 P1 600cyc 25M reads $1,425 internal (prices largely from 2018). NovaSeq X listed as 'contact facility' with installation expected June 2026. This may change once NovaSeq X goes live."
+   ]
+  },
+  "uc-san-diego--igm-genomics-center": {
+   "institution": "UC San Diego",
+   "core": "IGM Genomics Center",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "uc-san-diego",
+   "domains": [
+    "igm.ucsd.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "2025 PDF (seen in search): NovaSeq X Plus 25B 300-cycle lane UC $2,800 / outside $3,836. The 2026 PDF and image were not read. The node/123 page shows the NovaSeq X Plus pricing as an image, labelled 'proposed, subject to rates committee'.",
+    "2025 rate PDF; I did not check its contents."
+   ]
+  },
+  "ucla--technology-center-for-genomics": {
+   "institution": "UCLA",
+   "core": "Technology Center for Genomics & Bioinformatics (TCGB)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "ucla",
+   "domains": [
+    "uclahealth.org",
+    "uclahs.app.box.com"
+   ],
+   "sources": [
+    "discover:w1_us_west"
+   ],
+   "notes": [
+    "Gives history across 2019-2026 sheets. The July 2026 page shows NovaSeq X Plus 1.5B/5B/10B/25B flow cells at external rates; it does not list NovaSeq 6000, AVITI or Ultima. Internal rates are in the Box link. 2024 sheets (search snippet): 25B 300-cycle lane $3,168 internal, $3,538 external non-profi"
+   ]
+  },
+  "uc-riverside--genomics-core-facility-institu": {
+   "institution": "UC Riverside",
+   "core": "Genomics Core Facility, Institute for Integrative Genome Biology (IIGB)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "uc-riverside",
+   "domains": [
+    "genomics.iigb.ucr.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "FY24-25 schedule, effective 2025-04-17. Sample line (fetched): MiSeq 150bp lane $1,388 internal UC / $1,787.74 external educational / $2,514.02 commercial. The page also lists NovaSeq X Plus 10B and 25B lanes (search snippet: 25B 300-cycle $3,168 internal UC), plus AVITI, Revio and Nanopore. No olde",
+    "FY24-25 AVITI 300-cycle flow cell $2,000 for UC internal users."
+   ]
+  },
+  "uc-san-francisco--center-for-advanced-technology": {
+   "institution": "UC San Francisco",
+   "core": "Center for Advanced Technology (CAT)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "uc-san-francisco",
+   "domains": [
+    "cat.ucsf.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west"
+   ],
+   "notes": [
+    "Both fetches returned 403 to me, so everything here is from search snippets. A snippet showed 25B 300-cycle lane $2,551 UC rate and 10B 300-cycle $1,439 UC rate. An older snapshot showed 10B 300-cycle at $1,724 internal (Sep 2024). Surcharges for non-UC and for-profit users appear to have changed be"
+   ]
+  },
+  "uc-davis--genome-center-dna-technologies": {
+   "institution": "UC Davis",
+   "core": "Genome Center DNA Technologies and Expression Analysis Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "uc-davis",
+   "domains": [
+    "dnatech.ucdavis.edu",
+    "dnatech.genomecenter.ucdavis.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west",
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "Fetches returned 403, so I could not confirm NovaSeq X rows. The UC price page says 'new prices as of March 2026'. Three tiers: UC, academic/non-profit, industry. The ?p= URLs are search hits and their content is unconfirmed. This core is the most likely to carry older dated versions and the platfor",
+    "UC-rate AVITI PE150 run $2,100 and PE75 run $1,400 on the newer page. The older page showed $2,000 for PE150."
+   ]
+  },
+  "university-of-oregon--genomics-cell-characterization": {
+   "institution": "University of Oregon",
+   "core": "Genomics & Cell Characterization Core Facility (GC3F)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-oregon",
+   "domains": [
+    "gc3f.uoregon.edu",
+    "research.uoregon.edu",
+    "uoresearch.uoregon.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west"
+   ],
+   "notes": [
+    "NovaSeq 6000 S4 300-cycle PE150 lane: $5,070 internal / $6,903 external. NextSeq 2000 P4 300-cycle: $4,228 internal / $5,496 external. The page shows no NovaSeq X or AVITI. A search snippet showed older S4 prices ($4,852 internal), so the page has changed over time and the page date is not stated. A"
+   ]
+  },
+  "oregon-state-university--center-for-quantitative-life-s": {
+   "institution": "Oregon State University",
+   "core": "Center for Quantitative Life Sciences (CQLS) Genomics Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "oregon-state-university",
+   "domains": [
+    "cqls.oregonstate.edu",
+    "blogs.oregonstate.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west"
+   ],
+   "notes": [
+    "The fee table is public; genomics fees are labelled 'effective November 1, 2026'. Page 1 shows no sequencing rows, and the filter lists NextSeq and MiSeq i100 sequencing. The CSV/XLSX download URLs are inferred from the page's links on the same site, so their output wasn't checked. The core runs Nex"
+   ]
+  },
+  "scripps-research--genomics-core-la-jolla": {
+   "institution": "Scripps Research",
+   "core": "Genomics Core (La Jolla)",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "scripps-research",
+   "domains": [
+    "scripps.edu"
+   ],
+   "sources": [
+    "discover:w1_us_west"
+   ],
+   "notes": [
+    "The page lists the Element AVITI and an Illumina NextSeq 2000 but posts no prices (only a $125 external AWS account fee). The order form is login-gated ELAN. Low priority."
+   ]
+  },
+  "national-cancer-institute-nih-frederick--frederick-sequencing-genomics-": {
+   "institution": "National Cancer Institute (NIH), Frederick",
+   "core": "Frederick Sequencing & Genomics Core (FSGC) NGS Production",
+   "country": "US",
+   "kind": "government",
+   "inst_slug": "national-cancer-institute-nih-frederick",
+   "domains": [
+    "crtp.ccr.cancer.gov"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "NovaSeq X Plus 1.5B 100 cycle $2,042 per flow cell NCI, $4,084 non-NCI. No AVITI or UG100. The page has a downloadable cost calculator but no file URL and no date."
+   ]
+  },
+  "la-jolla-institute-for-immunology--sequencing-core": {
+   "institution": "La Jolla Institute for Immunology",
+   "core": "Sequencing Core",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "la-jolla-institute-for-immunology",
+   "domains": [
+    "lji.org"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "NovaSeq SP 100 cycle full flow cell $3,258.33 institute, $3,584.17 non-profit, $5,962.75 for-profit. The page is undated, has no PDFs, and uses NovaSeq 6000 only."
+   ]
+  },
+  "centre-de-regulacio-genomica-crg--crg-genomics-unit": {
+   "institution": "Centre de Regulacio Genomica (CRG)",
+   "core": "CRG Genomics Unit",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "centre-de-regulacio-genomica-crg",
+   "domains": [
+    "crg.eu"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "Genomics Services Price List, valid from 01/01/2026 (R0). A search snippet showed NovaSeq X Plus (300 cycles, 10B) priced per million reads in EUR, with two unlabeled price columns. WebFetch could not read the PDF. Try the earlier editions (e.g. a 2025 equivalent) by changing the year in the filenam"
+   ]
+  },
+  "epfl--gene-expression-core-facility-": {
+   "institution": "EPFL",
+   "core": "Gene Expression Core Facility (GECF)",
+   "country": "Switzerland",
+   "kind": "university",
+   "inst_slug": "epfl",
+   "domains": [
+    "epfl.ch"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes",
+    "discover:w1_nordics_south_europe_israel",
+    "discover:w1_dach_benelux",
+    "discover:w1_platform_ultima_element",
+    "discover:w2_history_announcements",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "University core, outside my slice, kept because it has a dated history. Prices are in CHF, per run plus a per-sample reagent fee. Search snippets showed one AVITI 300-cycle run at 2,330 CHF in the 2025-07 list, but the table layout was unclear. The news page, which I opened, logs price cuts for 2025",
+    "CHF. Frequent dated price lists; the news page mentions NovaSeq/AVITI price decreases (2025, Sep-Nov 2025, Mar 2026). I did not open the PDFs, so the platforms and prices are unconfirmed. Outside the assigned slice, but strong for history.",
+    "CHF, internal EPFL users; per-run price excludes or includes labour/chip depending on item. The news log records cuts: NovaSeq in 2024, AVITI and NovaSeq in 2025 (Mar 2025, Oct 2025 'strong decrease in NovaSeq prices'), NovaSeq 300-cycle in early 2026, AVITI24 upgrade Nov 2025. Unseen: the Feb 2026 ",
+    "Dated price-list PDFs (Mar 2025, Jul 2025, Feb 2026). News log shows AVITI price cuts in Mar 2025 and Nov 2025.",
+    "Known core; full dated price-list history in CHF. Changelog: NovaSeq 10B 300-cycle price drop Mar 2026, AVITI price drop late 2025, AVITI24 +50% output Feb 2026.",
+    "Extra history for a known core. Price lists in CHF. The changelog page mentions a strong NovaSeq price decrease (March 2026 update)."
+   ]
+  },
+  "sanford-burnham-prebys-medical-discovery--genomics-and-spatial-transcrip": {
+   "institution": "Sanford Burnham Prebys Medical Discovery Institute",
+   "core": "Genomics and Spatial Transcriptomics core",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "sanford-burnham-prebys-medical-discovery",
+   "domains": [
+    "sbpdiscovery.org"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "Describes AVITI24 sequencing (the cached copy says AVITI with 1B reads) but no prices were visible. Likely request-based or on a login-gated page. Low priority."
+   ]
+  },
+  "cleveland-clinic-lerner-research-institu--genomics-core": {
+   "institution": "Cleveland Clinic Lerner Research Institute",
+   "core": "Genomics Core",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "cleveland-clinic-lerner-research-institu",
+   "domains": [
+    "lerner.ccf.org"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "No prices on the page. Pricing is in iLab (ccf.ilab.agilent.com), which is login-gated. Skip unless an iLab show_external page exists."
+   ]
+  },
+  "seattle-children-s-research-institute--genomics-and-spatial-biology-c": {
+   "institution": "Seattle Children's Research Institute",
+   "core": "Genomics and Spatial Biology CoLab",
+   "country": "US",
+   "kind": "nonprofit_institute",
+   "inst_slug": "seattle-children-s-research-institute",
+   "domains": [
+    "seattlechildrens.org"
+   ],
+   "sources": [
+    "discover:w1_nonprofit_institutes"
+   ],
+   "notes": [
+    "Internal prices as of 2026-04-01, but only NextSeq 2000 instrument time ($257.50 per day) and prep and QC items. No per-flow-cell NovaSeq X, AVITI or UG100 prices. Marginal value."
+   ]
+  },
+  "scilifelab-uppsala-university-stockholm---ngi-sweden": {
+   "institution": "SciLifeLab / Uppsala University & Stockholm (National Genomics Infrastructure)",
+   "core": "NGI Sweden",
+   "country": "Sweden",
+   "kind": "nonprofit_institute",
+   "inst_slug": "scilifelab-uppsala-university-stockholm-",
+   "domains": [
+    "ngisweden.scilifelab.se"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel"
+   ],
+   "notes": [
+    "SEK examples only, sold in 600M read-pair units. 'NovaSeq 25B-300 lane (~3B read-pairs): 32000 SEK' (page updated 2026-06-24). Nov 2025 post describes the unit-pricing change but gives no amounts. Per-unit SEK price not published."
+   ]
+  },
+  "fisabio-foundation-valencia--fisabio-sequencing-bioinformat": {
+   "institution": "FISABIO Foundation (Valencia)",
+   "core": "FISABIO Sequencing & Bioinformatics Platform",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "fisabio-foundation-valencia",
+   "domains": [
+    "fisabio.san.gva.es"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Spanish tariff PDFs (PDF created 2026-02-20). Text was not readable by the fetch tool, so prices and platforms are unconfirmed. The search result suggests NextSeq 2000 and MiSeq only, no NovaSeq X or AVITI.",
+    "Older 2023 tariff for a known core."
+   ]
+  },
+  "university-of-helsinki-fimm--fimm-genomics": {
+   "institution": "University of Helsinki (FIMM)",
+   "core": "FIMM Genomics",
+   "country": "Finland",
+   "kind": "university",
+   "inst_slug": "university-of-helsinki-fimm",
+   "domains": [
+    "helsinki.fi"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel"
+   ],
+   "notes": [
+    "Page lists NovaSeq X Plus, AVITI24 and MiSeq i100 sequencing-only services but NO prices. Ordering is via iLab (gated). Low value unless an iLab public price page exists."
+   ]
+  },
+  "technion--technion-genome-center": {
+   "institution": "Technion",
+   "core": "Technion Genome Center",
+   "country": "Israel",
+   "kind": "university",
+   "inst_slug": "technion",
+   "domains": [
+    "tgc.net.technion.ac.il"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel"
+   ],
+   "notes": [
+    "Stale ('As of March 2020'), NIS. 'NextSeq High Output 150 cycles 15000 NIS per run'. No NovaSeq, AVITI or Ultima. The page redirects to atgc.net.technion.ac.il, and that URL returned a 404. Check the site for a newer list."
+   ]
+  },
+  "incliva-health-research-institute-valenc--precision-medicine-genomics-pl": {
+   "institution": "INCLIVA Health Research Institute (Valencia)",
+   "core": "Precision Medicine / Genomics platform",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "incliva-health-research-institute-valenc",
+   "domains": [
+    "incliva.es"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "2026 tariff PDF (internal / external public / external private). Search snippet showed only nucleic acid extraction and quantification. NGS content unconfirmed, so low priority.",
+    "Sample line from search summaries: NovaSeq X 25B 2x100 lane EUR 2,141.08 at tier A."
+   ]
+  },
+  "cnag-extra-history-urls-for-known-core--cnag-sequencing-unit": {
+   "institution": "CNAG (extra history URLs for known core)",
+   "core": "CNAG Sequencing Unit",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "cnag-extra-history-urls-for-known-core",
+   "domains": [
+    "cnag.eu",
+    "ccnagdev.cnag.cat"
+   ],
+   "sources": [
+    "discover:w1_nordics_south_europe_israel",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "EUR per Gb, 3 price columns. e.g. 'Large Scale Sequencing Gb (2x150, NovaSeq 6000 S4) 5.58 / 6.25 / 6.70 EUR' (undated version); the 2025_R1 version shows ~4.28/4.79/5.14 for 2x150 S4. 2025_R1 supersedes the plain 2025 version.",
+    "Extra history for a known core, seen in search results only."
+   ]
+  },
+  "university-of-auckland--auckland-genomics": {
+   "institution": "University of Auckland",
+   "core": "Auckland Genomics",
+   "country": "New Zealand",
+   "kind": "university",
+   "inst_slug": "university-of-auckland",
+   "domains": [
+    "genomics.auckland.ac.nz"
+   ],
+   "sources": [
+    "discover:w1_asia_pacific"
+   ],
+   "notes": [
+    "Indicative NZD prices. Sample: NovaSeq X Plus 10B lane 2x150 (overseas partner, client-prepared libraries) NZD 4000; NextSeq 2000 2x300 (NZ partner) NZD 4,640. No AVITI or Ultima. Official quotes are through the InfinityX login at https://infinityx.ideaelan.com/auth/login (gated). No dates on page, "
+   ]
+  },
+  "unsw-sydney--ramaciotti-centre-for-genomics": {
+   "institution": "UNSW Sydney",
+   "core": "Ramaciotti Centre for Genomics",
+   "country": "Australia",
+   "kind": "university",
+   "inst_slug": "unsw-sydney",
+   "domains": [
+    "unsw.edu.au"
+   ],
+   "sources": [
+    "discover:w1_asia_pacific"
+   ],
+   "notes": [
+    "No NovaSeq or NextSeq prices are published. Only 'from $37/sample' for microbiome sequencing. Quotes go through the contact page. Likely not usable."
+   ]
+  },
+  "agrf--australian-genome-research-fac": {
+   "institution": "AGRF",
+   "core": "Australian Genome Research Facility",
+   "country": "Australia",
+   "kind": "nonprofit_institute",
+   "inst_slug": "agrf",
+   "domains": [
+    "agrf.org.au"
+   ],
+   "sources": [
+    "discover:w1_asia_pacific"
+   ],
+   "notes": [
+    "I could not open the promo page (the fetch returned 404). Search results say it offered 10% off a NovaSeq X 25B lane, with samples due 30 May 2025. It shows no prices and rates are quote-based. It is useful only as a dated discount signal."
+   ]
+  },
+  "university-of-geneva--ige3-genomics-platform-next-ge": {
+   "institution": "University of Geneva",
+   "core": "iGE3 Genomics Platform - Next Gen Sequencing",
+   "country": "Switzerland",
+   "kind": "university",
+   "inst_slug": "university-of-geneva",
+   "domains": [
+    "ige3.genomics.unige.ch"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "Indicative only, no date. Sample: NovaSeq PE100 ~350M-read fraction CHF 1,750; SR100 CHF 1,200. Model (NovaSeq X vs 6000) not stated; no AVITI. Prices are per 'fraction' of a flow cell. Quotes on request."
+   ]
+  },
+  "university-of-bern--next-generation-sequencing-ngs": {
+   "institution": "University of Bern",
+   "core": "Next Generation Sequencing (NGS) Platform",
+   "country": "Switzerland",
+   "kind": "university",
+   "inst_slug": "university-of-bern",
+   "domains": [
+    "ngs.unibe.ch"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "Homepage shows a pricelist shortcut and a new NovaSeq X Plus. The May 2024 PDF has Tariff 1 (internal) and Tariff 2 (external); snippet showed only library prep (e.g. PCR-free DNA lib 225/269 CHF). Sequencing run prices unseen, and a newer pricelist likely exists behind the shortcut. Should be check"
+   ]
+  },
+  "university-of-lausanne-chuv--genomic-technologies-facility-": {
+   "institution": "University of Lausanne / CHUV",
+   "core": "Genomic Technologies Facility (GTF)",
+   "country": "Switzerland",
+   "kind": "university",
+   "inst_slug": "university-of-lausanne-chuv",
+   "domains": [
+    "wp.unil.ch"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "No rate card found. The newsletter (May/June 2026) says AVITI pricing starts near CHF 200 for ~100M reads and goes up to 25B reads. Contact contactGTF@unil.ch. Weak lead."
+   ]
+  },
+  "fau-erlangen-n-rnberg--core-unit-ngs-cu-ngs": {
+   "institution": "FAU Erlangen-Nürnberg",
+   "core": "Core Unit NGS (CU NGS)",
+   "country": "Germany",
+   "kind": "academic_medical_center",
+   "inst_slug": "fau-erlangen-n-rnberg",
+   "domains": [
+    "med.fau.de"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux",
+    "discover:w2_history_announcements",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Old-vs-new price comparison dated 2024-10-07, new NovaSeq X Plus prices effective 2025-01-01 (per search snippet; PDF not readable). Sample: bulk RNA-seq EUR 395 -> 245; 3' scRNA-seq 2,995 -> 1,945. Per-service prices, not per lane. A current official list was not found.",
+    "Known core; Oct 2024 old vs new price comparison effective 2025-01-01 (bulk RNA-seq EUR 395 to 245).",
+    "Price-reduction notice dated 7 Oct 2024, effective 1 Jan 2025. Bulk RNA-seq fell from EUR 395 to 245."
+   ]
+  },
+  "mdc-berlin--genomics-platform-ngs": {
+   "institution": "MDC Berlin",
+   "core": "Genomics Platform (NGS)",
+   "country": "Germany",
+   "kind": "nonprofit_institute",
+   "inst_slug": "mdc-berlin",
+   "domains": [
+    "mdc-berlin.de"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "Old lists (the clearest one valid from 2021-04-15), MDC and Charité users only. NovaSeq 6000 S1 300-cycle about EUR 5,420. No 2024 to 2026 list found. Only useful as history."
+   ]
+  },
+  "medical-university-of-innsbruck--moseq-molecular-sequencing-fac": {
+   "institution": "Medical University of Innsbruck",
+   "core": "MOseq (Molecular sequencing facility)",
+   "country": "Austria",
+   "kind": "academic_medical_center",
+   "inst_slug": "medical-university-of-innsbruck",
+   "domains": [
+    "moseq.i-med.ac.at"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "Per-sample cost examples for internal and external users (QuantSeq 3' library prep plus sequencing from about EUR 100 internal / 115 external, per snippet). Platform and lane prices unconfirmed. PDF not readable."
+   ]
+  },
+  "medical-university-of-graz--novaseq-x-plus-institute-for-d": {
+   "institution": "Medical University of Graz",
+   "core": "NovaSeq X Plus (Institute for Diagnosis and Research in Human Genetics)",
+   "country": "Austria",
+   "kind": "academic_medical_center",
+   "inst_slug": "medical-university-of-graz",
+   "domains": [
+    "forschungsinfrastruktur.bmfwf.gv.at"
+   ],
+   "sources": [
+    "discover:w1_dach_benelux"
+   ],
+   "notes": [
+    "Registry listing only, no prices (fees on request). Weak lead; likely not usable."
+   ]
+  },
+  "university-of-michigan--brcf-advanced-genomics-core-ag": {
+   "institution": "University of Michigan",
+   "core": "BRCF Advanced Genomics Core (AGC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-michigan",
+   "domains": [
+    "cores.research.umich.edu",
+    "medresearch.umich.edu"
+   ],
+   "sources": [
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "One of the first UG 100 Certified Service Providers. No public prices found. The NGS page returned HTTP 403 when fetched, so I could not tell whether it links to a rate sheet."
+   ]
+  },
+  "university-of-iowa--holden-comprehensive-cancer-ce": {
+   "institution": "University of Iowa",
+   "core": "Holden Comprehensive Cancer Center Microbiome Core",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-iowa",
+   "domains": [
+    "microbiomecore.sites.uiowa.edu"
+   ],
+   "sources": [
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "AVITI24 small batch (<92 samples) internal $45 per sample, library prep plus sequencing, '2026 Prices' heading. The page also shows a 2024-01-01 date. It is separate from the IIHG core already known."
+   ]
+  },
+  "university-of-idaho--gbrc-genomics-and-bioinformati": {
+   "institution": "University of Idaho",
+   "core": "GBRC (Genomics and Bioinformatics Resources Core) facilities resources",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-idaho",
+   "domains": [
+    "iids.uidaho.edu"
+   ],
+   "sources": [
+    "discover:w1_platform_ultima_element"
+   ],
+   "notes": [
+    "Surfaced in an AVITI24 search. I could not read the PDF, so I don't know whether it has prices or which platforms it covers."
+   ]
+  },
+  "university-of-missouri--genomics-technology-core-2": {
+   "institution": "University of Missouri",
+   "core": "Genomics Technology Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-missouri",
+   "domains": [
+    "research.missouri.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "2024-09-06 post: XLEAP-SBS chemistry lets the core cut sequencing rates 40%. No dollar figures."
+   ]
+  },
+  "university-of-wisconsin-madison--biotechnology-center-dna-seque": {
+   "institution": "University of Wisconsin-Madison",
+   "core": "Biotechnology Center DNA Sequencing",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-wisconsin-madison",
+   "domains": [
+    "cgsi.wisc.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "10B lane 2x150 $2,050; ~30% cheaper than older option. Post undated (chart filename suggests Sep 2023)."
+   ]
+  },
+  "sickkids--tcag": {
+   "institution": "SickKids",
+   "core": "TCAG",
+   "country": "Canada",
+   "kind": "academic_medical_center",
+   "inst_slug": "sickkids",
+   "domains": [
+    "tcag.ca"
+   ],
+   "sources": [
+    "discover:w2_history_announcements",
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Known core; April 2025 NGS price list (URL has a space in it).",
+    "Extra history for a known core. Sample line from search summaries: 25B 300-cycle lane $3,470 (April 2025)."
+   ]
+  },
+  "stanford-university--protein-and-nucleic-acid-pan-f": {
+   "institution": "Stanford University",
+   "core": "Protein and Nucleic Acid (PAN) Facility",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "stanford-university",
+   "domains": [
+    "pan.stanford.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "NEW but low value: page lists MiSeq only, no NovaSeq/AVITI. Has a separate tariff surcharge invoice line (no amount)."
+   ]
+  },
+  "university-of-tennessee-knoxville--genomics-core": {
+   "institution": "University of Tennessee, Knoxville",
+   "core": "Genomics Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-tennessee-knoxville",
+   "domains": [
+    "research.utk.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements",
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "NEW. NovaSeq SP 200 2x100: internal $3,360 / external academic $3,610 / non-academic $4,530, plus tariff fee $134. Page undated; file paths suggest mid-2026. No AVITI.",
+    "P1 100-cycle internal $1,120 / external academic $1,270 / non-academic $1,420 + $36 tariff fee. A search snippet also showed NovaSeq 6000 S4 300 internal $15,700. No NovaSeq X or AVITI listed."
+   ]
+  },
+  "north-dakota-state-university--biotechnology-innovation-core-": {
+   "institution": "North Dakota State University",
+   "core": "Biotechnology Innovation Core, Sequencing",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "north-dakota-state-university",
+   "domains": [
+    "ndsu.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements",
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "NEW. NextSeq1000 P1 2x50 (10 Gb) $1,220/run internal, $1,769 external. Undated.",
+    "P2 2x150 internal $3,222 / external $4,671.90 per run. Kit prices float with Illumina pricing. No date on page."
+   ]
+  },
+  "emory-university--integrated-genomics-core-emory": {
+   "institution": "Emory University",
+   "core": "Integrated Genomics Core (Emory NBRC)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "emory-university",
+   "domains": [
+    "enbrc.emory.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "NEW. Service page lists NovaSeq X Plus, NovaSeq 6000, MiSeq; prices are on a separate 'Pricing' page I did not reach."
+   ]
+  },
+  "oklahoma-state-university--mbgc-fee-sheet": {
+   "institution": "Oklahoma State University",
+   "core": "MBGC (fee sheet)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "oklahoma-state-university",
+   "domains": [
+    "ocrid.okstate.edu"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "NEW, unverified (HTTP 403 on fetch). FY26 fee sheet; the FY25/FY27 sheets likely follow the same URL pattern, but I did not see them."
+   ]
+  },
+  "children-s-hospital-los-angeles--spatial-biology-and-genomics-c": {
+   "institution": "Children's Hospital Los Angeles",
+   "core": "Spatial Biology and Genomics Core",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "children-s-hospital-los-angeles",
+   "domains": [
+    "chla.org"
+   ],
+   "sources": [
+    "discover:w2_history_announcements"
+   ],
+   "notes": [
+    "NEW, unverified (HTTP 403 on fetch); platform coverage unknown."
+   ]
+  },
+  "utrecht-university-medical-center-umc-ut--utrecht-sequencing-facility-us": {
+   "institution": "Utrecht University Medical Center (UMC Utrecht)",
+   "core": "Utrecht Sequencing Facility (USEQ)",
+   "country": "Netherlands",
+   "kind": "academic_medical_center",
+   "inst_slug": "utrecht-university-medical-center-umc-ut",
+   "domains": [
+    "useq.nl",
+    "research.umcutrecht.nl"
+   ],
+   "sources": [
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Runs priced per run in EUR ex-VAT: NovaSeq X 1.5B/10B/25B at 100/200/300 cycles, single-lane 10B, NextSeq 2000 P1-P4. Page says published 01-08-2026 and prices update quarterly. The full internal list is a SharePoint link for UMCU clients only. No older versions found."
+   ]
+  },
+  "university-of-warsaw--cent-sequencing-internal-users": {
+   "institution": "University of Warsaw",
+   "core": "CENT sequencing (Internal Users Pricelist / Sequencing runs)",
+   "country": "Poland",
+   "kind": "university",
+   "inst_slug": "university-of-warsaw",
+   "domains": [
+    "cent.uw.edu.pl"
+   ],
+   "sources": [
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Titled 'Sequencing runs' in search results. Both URLs returned 404 when fetched. Needs a re-check via the CENT site. Platforms and prices unknown."
+   ]
+  },
+  "universitat-de-lleida--scts-proteomics-and-genomics-s": {
+   "institution": "Universitat de Lleida",
+   "core": "SCTS Proteomics and Genomics service",
+   "country": "Spain",
+   "kind": "university",
+   "inst_slug": "universitat-de-lleida",
+   "domains": [
+    "recercaitransferencia.udl.cat"
+   ],
+   "sources": [
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Tariff PDF modified 2026-07-14. The fetch tool could not read the PDF text, so I don't know whether it has NGS run prices."
+   ]
+  },
+  "south-african-medical-research-council--samrc-genomics-platform": {
+   "institution": "South African Medical Research Council",
+   "core": "SAMRC Genomics Platform",
+   "country": "South Africa",
+   "kind": "government",
+   "inst_slug": "south-african-medical-research-council",
+   "domains": [
+    "samrc.ac.za"
+   ],
+   "sources": [
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Price PDF with creation date 2024-04-22. Text unreadable by the fetch tool, so the platforms are unconfirmed."
+   ]
+  },
+  "irb-barcelona--genomics-and-bioinformatics-ta": {
+   "institution": "IRB Barcelona",
+   "core": "Genomics and bioinformatics tariffs 2026",
+   "country": "Spain",
+   "kind": "nonprofit_institute",
+   "inst_slug": "irb-barcelona",
+   "domains": [
+    "irbbarcelona.org"
+   ],
+   "sources": [
+    "discover:w2_intl_gapfill"
+   ],
+   "notes": [
+    "Seen in search results only. The visible items were bioinformatics (QC and alignment per sample or per GB), not run prices. Probably not useful for $/Gb."
+   ]
+  },
+  "arizona-state-university--genomics-core-ngs-tgen-sequenc": {
+   "institution": "Arizona State University",
+   "core": "Genomics Core (NGS, TGen sequencing runs)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "arizona-state-university",
+   "domains": [
+    "cores.research.asu.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "NovaSeq X 10B 300-cycle $1,950/run (ASU and nonprofit/academic); NextSeq 2000 P1 2x150 $1,530 ASU / $2,204 nonprofit. No AVITI. Undated page (images suggest Sep 2025 upload), no PDFs; use Wayback for history."
+   ]
+  },
+  "university-of-california-los-angeles--broad-stem-cell-research-cente": {
+   "institution": "University of California, Los Angeles",
+   "core": "Broad Stem Cell Research Center Sequencing Core (High-Throughput Sequencing Core; distinct from TCGB)",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-california-los-angeles",
+   "domains": [
+    "cores.ucla.edu",
+    "stemcell.ucla.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "NovaSeq X Plus 10B 2x150 lane internal $1,962 / ext non-profit $2,234 / ext $2,524; 1.5B 2x50 per lane $1,377 / $1,874 (stemcell.ucla.edu page, footer 2024). Undated pages."
+   ]
+  },
+  "university-of-florida--icbr-nextgen-dna-sequencing-sh": {
+   "institution": "University of Florida",
+   "core": "ICBR NextGen DNA Sequencing Shared Resource",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-florida",
+   "domains": [
+    "biotech.ufl.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "Rates Updated 07/01/2026. NovaSeq X 1.5B 2x50 full FC $2,546.27 / $3,055.52 / $3,310.15 (UF / non-profit / commercial; column mapping unclear). Announcements say X Plus cut fees by up to 40-60% (undated in my view). Page is very long (284K characters); I did not read its first 100K characters."
+   ]
+  },
+  "massachusetts-general-hospital-mass-gene--mgh-next-generation-sequencing": {
+   "institution": "Massachusetts General Hospital (Mass General Brigham)",
+   "core": "MGH Next-generation Sequencing Core",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "massachusetts-general-hospital-mass-gene",
+   "domains": [
+    "nextgen.mgh.harvard.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "URL appeared in search results; my direct fetch returned 404 (may need retry or different casing). Search snippet: P3 SR100 about $3,666 internal / $5,279 external academic / $6,598 industry. Only NextSeq 2000/MiSeq, no NovaSeq."
+   ]
+  },
+  "university-of-alabama-at-birmingham--heflin-center-for-genomic-scie": {
+   "institution": "University of Alabama at Birmingham",
+   "core": "Heflin Center for Genomic Science, Genomics Core Lab",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "university-of-alabama-at-birmingham",
+   "domains": [
+    "uab.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "Single End 75bp $4.50/million reads. No NovaSeq/AVITI/NextSeq 2000, so likely out of scope; low priority."
+   ]
+  },
+  "georgia-institute-of-technology--high-throughput-dna-sequencing": {
+   "institution": "Georgia Institute of Technology",
+   "core": "High Throughput DNA Sequencing Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "georgia-institute-of-technology",
+   "domains": [
+    "research.gatech.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "Services page links to pricing on sums.gatech.edu (DepartmentId=46 NextSeq-class, DepartmentId=31 HiSeq 2500); I did not open those links. Platforms appear to be older; no NovaSeq/AVITI found."
+   ]
+  },
+  "kansas-state-university--cezid-vet-med-ngs-services": {
+   "institution": "Kansas State University",
+   "core": "CEZID (Vet Med) NGS Services",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "kansas-state-university",
+   "domains": [
+    "k-state.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "Per-sample pricing (e.g. WGS $98 internal / $149 external) with no instrument named; updated 1/29/26. Weak fit for $/Gb tracking."
+   ]
+  },
+  "university-of-kentucky--uk-healthcare-oncogenomics-sha": {
+   "institution": "University of Kentucky",
+   "core": "UK HealthCare Oncogenomics Shared Resource Facility (NGS Illumina Sequencing)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-kentucky",
+   "domains": [
+    "ukhealthcare.uky.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_a_m"
+   ],
+   "notes": [
+    "Seen in search results only; a fetch returned 404. Per search snippet (not verified): S4 300-cycle $17,132 (10,000M reads), S1 300-cycle $6,346 (2022-23). Historical only; no current version located."
+   ]
+  },
+  "university-of-tennessee-health-science-c--molecular-resource-center-of-e": {
+   "institution": "University of Tennessee Health Science Center",
+   "core": "Molecular Resource Center of Excellence (MRC)",
+   "country": "US",
+   "kind": "academic_medical_center",
+   "inst_slug": "university-of-tennessee-health-science-c",
+   "domains": [
+    "uthsc.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "FY26 list effective 2025-07-01, +3% each fiscal year. AVITI HIGH 2x75 1B reads $1,300; NextSeq 2000 P3 $1,900. $100 flat consumables fee per project. A search snippet said a 2024 version also exists, but I found no URL for it."
+   ]
+  },
+  "east-carolina-university--genomics-core-big-core-dept-of": {
+   "institution": "East Carolina University",
+   "core": "Genomics Core (Big Core), Dept. of Pathology and Laboratory Medicine",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "east-carolina-university",
+   "domains": [
+    "pathology.ecu.edu",
+    "biology.ecu.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "Four tiers (internal, federal, non-profit, profit). NextSeq 2000 P1 internal from $936; P4 up to $6,318. Effective 2025-07-01. The June 2024 PDF returned 404 when fetched, so it may have moved."
+   ]
+  },
+  "utah-state-university--center-for-integrated-biosyste": {
+   "institution": "Utah State University",
+   "core": "Center for Integrated BioSystems Genomics Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "utah-state-university",
+   "domains": [
+    "qanr.usu.edu",
+    "biosystems.usu.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "NextSeq 2000 kits internal about $1,080-$5,880, external about $1,580-$8,585. A snippet showed P2 100-cycle at $1,465 / $2,140. No date on page."
+   ]
+  },
+  "texas-tech-university--center-for-biotechnology-and-g": {
+   "institution": "Texas Tech University",
+   "core": "Center for Biotechnology and Genomics (CBG) Core",
+   "country": "US",
+   "kind": "university",
+   "inst_slug": "texas-tech-university",
+   "domains": [
+    "depts.ttu.edu"
+   ],
+   "sources": [
+    "discover:w2_us_gapfill_n_w"
+   ],
+   "notes": [
+    "Low value. The rate page links only the FY23 fee schedule (page updated 2025-10). The FY18 genomics page prices MiSeq only and says 'contact' for NovaSeq 6000. The FY21 PDF reportedly has NovaSeq 6000 SP/S1/S2 prices, unverified."
+   ]
+  }
+ },
+ "urls": {
+  "https://bauercore.fas.harvard.edu/fy26-ngs-sequencing": {
+   "core_id": "harvard-university--bauer-core-facility-fas",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://bauercore.fas.harvard.edu/fy27-ngs-sequencing": {
+   "core_id": "harvard-university--bauer-core-facility-fas",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://case.edu/medicine/genomics/pricing": {
+   "core_id": "case-western-reserve-university--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://mbcf.dana-farber.org/pricing": {
+   "core_id": "dana-farber-cancer-institute--molecular-biology-core-facilit",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://dfci.ilab.agilent.com/service_center/show_external/7607/core-mbcf-genomics": {
+   "core_id": "dana-farber-cancer-institute--molecular-biology-core-facilit",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://draft.genome.center.uconn.edu/cgi_service_rates": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://honeycrisp.core.uconn.edu/products/358": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://geiselmed.dartmouth.edu/gsr/sequencing/": {
+   "core_id": "dartmouth-college--genomics-shared-resource",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://genomics.umn.edu/service/illumina-novaseq-x-plus-sequencing": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://genomics.umn.edu/service/aviti24-sequencing": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://genomics.umn.edu/AVITI-price-drop-2024": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://genomics.umn.edu/news/aviti-upgrade-complete": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://medschool.duke.edu/node/8607": {
+   "core_id": "duke-university--sequencing-and-genomic-technol",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://mugenomicscore.missouri.edu/ngs.html": {
+   "core_id": "university-of-missouri--genomics-technology-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://qb3.berkeley.edu/?p=6524": {
+   "core_id": "uc-berkeley--qb3-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://research.weill.cornell.edu/sites/default/files/full_price_list_wcm_genomics_core_fy2027.pdf": {
+   "core_id": "weill-cornell-medicine--genomics-resources-core-facili",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.salk.edu/science/core-facilities/integrative-genomics-and-bioinformatics-core/scheduling-and-rates/": {
+   "core_id": "salk-institute--integrative-genomics-and-bioin",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://salk.edu/science/core-facilities/omics/scheduling-and-rates": {
+   "core_id": "salk-institute--integrative-genomics-and-bioin",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://uofuhealth.utah.edu/huntsman/shared-resources/gcb/htg/pricing": {
+   "core_id": "university-of-utah--huntsman-cancer-institute-high",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.cgm.northwestern.edu/docs/nuseq/fy26-prices_finalusers.pdf": {
+   "core_id": "northwestern-university--nuseq-core",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.cnag.eu/sites/default/files/CNAG%20PRICES%202026_R0.pdf": {
+   "core_id": "cnag-centro-nacional-de-analisis-genomic--cnag-sequencing-unit",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.cnag.eu/sites/default/files/CNAG%20PRICES%202026_R1.pdf": {
+   "core_id": "cnag-centro-nacional-de-analisis-genomic--cnag-sequencing-unit",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.rushu.rush.edu/sites/default/files/2026-06/GMCF%20Pricing%20June%202026.pdf": {
+   "core_id": "rush-university--genomics-and-microbiome-core-f",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.rushu.rush.edu/sites/default/files/2026-01/gmcfupdates-boyd-122025.pdf": {
+   "core_id": "rush-university--genomics-and-microbiome-core-f",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List": {
+   "core_id": "the-hospital-for-sick-children-sickkids--the-centre-for-applied-genomic",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List%20April%202025.pdf": {
+   "core_id": "the-hospital-for-sick-children-sickkids--the-centre-for-applied-genomic",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.tgen.org/media/x2dmuqf1/tgen_csc_academic_price_list_08-2026.pdf": {
+   "core_id": "tgen-translational-genomics-research-ins--collaborative-sequencing-cente",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf": {
+   "core_id": "texas-a-m-university--texas-a-m-agrilife-genomics-tx",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.txgen.tamu.edu/wp-content/uploads/2024/04/TxGen_Prices_v12_2024_05_04_v3.pdf": {
+   "core_id": "texas-a-m-university--texas-a-m-agrilife-genomics-tx",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://www.unmc.edu/vcr/cores/vcr-cores/genomics/pricing.html": {
+   "core_id": "university-of-nebraska-medical-center--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://research.wisc.edu/?p=57818": {
+   "core_id": "university-of-wisconsin-madison--biotechnology-center-gene-expr",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://rtsf.natsci.msu.edu/_assets/files/genomics/NovaSeq%206000%20Sequencing%20Available%20by%20the%20Lane_19July2023.pdf": {
+   "core_id": "michigan-state-university--research-technology-support-fa",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "seed:clinical_scrape"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:Pricing": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-04",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2025b": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-01",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2025": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2023b": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2023": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2022": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://openwetware.org/wiki/BioMicroCenter:PricingFY2021": {
+   "core_id": "massachusetts-institute-of-technology--biomicro-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://medicine.yale.edu/genetics/research/ycga/service-fees": {
+   "core_id": "yale-university--yale-center-for-genome-analysi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.biotech.cornell.edu/core-facilities-brc/price-list/404": {
+   "core_id": "cornell-university-ithaca--biotechnology-resource-center-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://biotech.cornell.edu/core-facilities-brc/price-list": {
+   "core_id": "cornell-university-ithaca--biotechnology-resource-center-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.biotech.cornell.edu/core-facilities-brc/services/element-aviti24-sequencing-cytoprofiling-situ-rna-seq-atlas-antibody": {
+   "core_id": "cornell-university-ithaca--biotechnology-resource-center-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://biotech.cornell.edu/spotlight/new-services-brc-genomics-facility-lower-cost-novaseqx-novaseq6000-sequencing-runs-udi": {
+   "core_id": "cornell-university-ithaca--biotechnology-resource-center-",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2024-05",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.bumc.bu.edu/microarray/pricing/": {
+   "core_id": "boston-university--microarray-and-sequencing-reso",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_northeast"
+  },
+  "https://hcgs.unh.edu/services-pricing": {
+   "core_id": "university-of-new-hampshire--hubbard-center-for-genome-stud",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.rockefeller.edu/genomics/pricing/": {
+   "core_id": "rockefeller-university--genomics-resource-center",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.rockefeller.edu/genomics/news/": {
+   "core_id": "rockefeller-university--genomics-resource-center",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2024-11",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://biomedcorefacilities.brown.edu/genomics-facility": {
+   "core_id": "brown-university--genomics-core-facility",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-12",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://genome.center.uconn.edu/?p=891": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation-2",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-01",
+   "via": "discover:w1_us_northeast"
+  },
+  "https://www.bcm.edu/research/research-services/atc-core-labs/genomic-and-rna-profiling-core/fees": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-02",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.bcm.edu/sites/default/files/garp_pricingwebsite_-02-10-2026.docx": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "spreadsheet",
+   "current": true,
+   "public": true,
+   "as_of": "2026-02",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2025-09/garp_pricingwebsite_-09-2025.docx": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "spreadsheet",
+   "current": false,
+   "public": true,
+   "as_of": "2025-09",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2025-06/garp_pricingwebsite_-06-2025.docx": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "spreadsheet",
+   "current": false,
+   "public": true,
+   "as_of": "2025-06",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2025-02/garp_pricingwebsite_march2025.pdf": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-03",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2025-02/garp_pricingwebsite_02102025.pdf": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-02",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2024-12/garp_pricingwebsite_12092024.docx": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "spreadsheet",
+   "current": false,
+   "public": true,
+   "as_of": "2024-12",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/2024-09/garp_pricingwebsite_09202024.pdf": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cdn.bcm.edu/sites/default/files/garp_pricingwebsite_110122.pdf": {
+   "core_id": "baylor-college-of-medicine--genomic-and-rna-profiling-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2022-11",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cores.arizona.edu/facilities/azgc/pricing": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cores.arizona.edu/media/476": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cores.arizona.edu/facilities/azgc/resources/element-aviti-24": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cores.arizona.edu/facilities/news/new-technology-introduction-az-genetics-core-sept-7-2024": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://gccri.uthscsa.edu/services/gsf/gsf-pricing/": {
+   "core_id": "ut-health-san-antonio--genome-sequencing-facility-gre",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-04",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.boisestate.edu/sequencing-core/home/rates/": {
+   "core_id": "boise-state-university--sequencing-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cloud.wikis.utexas.edu/wiki/x/eRBPAg": {
+   "core_id": "university-of-texas-at-austin--genomic-sequencing-and-analysi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cloud.wikis.utexas.edu/wiki/x/14wlGw": {
+   "core_id": "university-of-texas-at-austin--genomic-sequencing-and-analysi",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://wikis.utexas.edu/x/zgFNDg": {
+   "core_id": "university-of-texas-at-austin--genomic-sequencing-and-analysi",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://cloud.wikis.utexas.edu/wiki/x/tIJaEw": {
+   "core_id": "university-of-texas-at-austin--genomic-sequencing-and-analysi",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.mdanderson.org/research/research-resources/core-facilities/advanced-technology-genomics-core/services-and-fees/novaseqx-plus-sequencing.html": {
+   "core_id": "ut-md-anderson-cancer-center--advanced-technology-genomics-c",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.mdanderson.org/research/research-resources/core-facilities/advanced-technology-genomics-core/services-and-fees.html": {
+   "core_id": "ut-md-anderson-cancer-center--advanced-technology-genomics-c",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.mdanderson.org/content/dam/mdanderson/documents/core-facilities/sequencing-and-microarray-facility/ATGC%20FY2023%20Price%20Schedule%20v012323.pdf": {
+   "core_id": "ut-md-anderson-cancer-center--advanced-technology-genomics-c",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-01",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://bookstack.cores.utah.edu/books/next-gen-sequencing-on-the-aviti/page/project-planning": {
+   "core_id": "university-of-utah-hsc-cores--next-gen-sequencing-on-the-avi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://bookstack.cores.utah.edu/books/next-gen-sequencing-on-the-aviti/page/rna-sequencing": {
+   "core_id": "university-of-utah-hsc-cores--next-gen-sequencing-on-the-avi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.uth.edu/cgc/price.htm": {
+   "core_id": "university-of-texas-health-science-cente--cancer-genomics-core-cgc",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://microcollaborative.atlassian.net/wiki/x/JQCPZg": {
+   "core_id": "university-of-colorado--cu-genomics-core-atlassian-wik",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://microcollaborative.atlassian.net/wiki/x/KYAcaw": {
+   "core_id": "university-of-colorado--cu-genomics-core-atlassian-wik",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2021-09",
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://www.utsouthwestern.edu/research/core-facilities/next-generation-sequencing/pricing/index.html": {
+   "core_id": "university-of-texas-southwestern-medical--mcdermott-next-generation-sequ",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_southcentral_mountain"
+  },
+  "https://grcf.jhmi.edu/?p=14200": {
+   "core_id": "johns-hopkins-university--genetic-resources-core-facilit",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://igc.jhmi.edu/?p=14200": {
+   "core_id": "johns-hopkins-university--genetic-resources-core-facilit",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://grcf.jhmi.edu/?p=796": {
+   "core_id": "johns-hopkins-university--genetic-resources-core-facilit",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://www.genomics.pitt.edu/about/pricing": {
+   "core_id": "university-of-pittsburgh--health-sciences-sequencing-cor",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-06",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://genomics.pitt.edu/about/pricing": {
+   "core_id": "university-of-pittsburgh--health-sciences-sequencing-cor",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://genetics.med.upenn.edu/penn-genomics-and-sequencing-core": {
+   "core_id": "university-of-pennsylvania--penn-genomics-and-sequencing-c",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://dna.uga.edu/2025/03": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2025-03",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://dna.uga.edu/category/news": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://spa.uga.edu/research-facility-rates": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://research.ncsu.edu/gsl/pricing/": {
+   "core_id": "north-carolina-state-university--genomic-sciences-laboratory-gs",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-04",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://medicine.tulane.edu/centers-institutes/ctrii/nextgen-sequencing-core/calculator": {
+   "core_id": "tulane-university--ctrii-nextgen-sequencing-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://medicine.tulane.edu/centers-institutes/ctrii/nextgen-sequencing-core/illumina-sequencing-pricing": {
+   "core_id": "tulane-university--ctrii-nextgen-sequencing-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-10",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://fralinlifesci.vt.edu/content/dam/fralinlifesci_vt_edu/core-services/gsc/2024-09-01-GSC-Pricing-Guide.pdf": {
+   "core_id": "virginia-tech--fralin-life-sciences-genomics-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://research.njms.rutgers.edu/genomics/clinical/docs/Genomics%20Pricing%202022.pdf": {
+   "core_id": "rutgers-university-njms--njms-genomics-center",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2022",
+   "via": "discover:w1_us_midatlantic_southeast"
+  },
+  "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/": {
+   "core_id": "university-of-illinois-urbana-champaign--roy-j-carver-biotechnology-cen",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-08",
+   "via": "discover:w1_us_midwest"
+  },
+  "https://biotech.illinois.edu/dna-services-core/dna-services-instruments/": {
+   "core_id": "university-of-illinois-urbana-champaign--roy-j-carver-biotechnology-cen",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://voices.uchicago.edu/genomicsfacility/pricing-new": {
+   "core_id": "university-of-chicago--genomics-facility",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://voices.uchicago.edu/genomicsfacility/fees": {
+   "core_id": "university-of-chicago--genomics-facility",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html": {
+   "core_id": "university-of-kansas-medical-center--genome-sequencing-facility",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://genomesciencescore.wayne.edu/pricing": {
+   "core_id": "wayne-state-university--genome-sciences-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://humangenetics.medicine.uiowa.edu/genomics-division/genome-sequencing/library-prep-genome-sequencing-fees": {
+   "core_id": "university-of-iowa--institute-of-human-genetics-ii",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-04",
+   "via": "discover:w1_us_midwest"
+  },
+  "https://geneticslab.medicine.iu.edu/service-cores/facilities/medical-genomics/pricing": {
+   "core_id": "indiana-university-school-of-medicine--center-for-medical-genomics",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://rtsf.natsci.msu.edu/rtsf-core-facilities/genomics/pricing.aspx": {
+   "core_id": "michigan-state-university--research-technology-support-fa",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://rtsf.natsci.msu.edu/genomics/pricing.aspx": {
+   "core_id": "michigan-state-university--research-technology-support-fa",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_midwest"
+  },
+  "https://rtsf.natsci.msu.edu/sites/_rtsf/assets/File/How_much_sequencing_November_2021.pdf": {
+   "core_id": "michigan-state-university--research-technology-support-fa",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2021-11",
+   "via": "discover:w1_us_midwest"
+  },
+  "https://rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf": {
+   "core_id": "michigan-state-university--research-technology-support-fa",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-10",
+   "via": "discover:w1_us_midwest"
+  },
+  "https://exeter.ac.uk/research/facilities/sequencing/pricing/internal": {
+   "core_id": "university-of-exeter--exeter-sequencing-service",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_uk_ireland"
+  },
+  "https://exeter.ac.uk/research/sequencing/pricing/internal": {
+   "core_id": "university-of-exeter--exeter-sequencing-service",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_uk_ireland"
+  },
+  "https://exeter.ac.uk/research/facilities/sequencing/pricing/commercial": {
+   "core_id": "university-of-exeter--exeter-sequencing-service",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_uk_ireland"
+  },
+  "https://exeter.ac.uk/research/sequencing/pricing/commercial": {
+   "core_id": "university-of-exeter--exeter-sequencing-service",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_uk_ireland"
+  },
+  "https://genomics.ed.ac.uk/node/75": {
+   "core_id": "university-of-edinburgh--edinburgh-genomics-genetics-co",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_uk_ireland"
+  },
+  "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf": {
+   "core_id": "university-of-calgary-cumming-school-of---centre-for-health-genomics-and",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2025-01",
+   "via": "discover:w1_canada"
+  },
+  "https://live-cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20UofC%20Price%20List%20with%20sales%202024-2025.pdf": {
+   "core_id": "university-of-calgary-cumming-school-of---centre-for-health-genomics-and",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-04",
+   "via": "discover:w1_canada"
+  },
+  "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Price%20List%20June%202024.pdf": {
+   "core_id": "university-of-calgary-cumming-school-of---centre-for-health-genomics-and",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-06",
+   "via": "discover:w1_canada"
+  },
+  "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Library%20%26%20Seq%20Price%20List%202023-2024%20v2_0.pdf": {
+   "core_id": "university-of-calgary-cumming-school-of---centre-for-health-genomics-and",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-04",
+   "via": "discover:w1_canada"
+  },
+  "https://cumming.ucalgary.ca/sites/default/files/teams/97/CHGI%20Internal%20Library%20%26%20Seq%20Price%20List%202022-2023.pdf": {
+   "core_id": "university-of-calgary-cumming-school-of---centre-for-health-genomics-and",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2022-04",
+   "via": "discover:w1_canada"
+  },
+  "https://genomics.oicr.on.ca/ultima-sequencing/": {
+   "core_id": "ontario-institute-for-cancer-research--oicr-genomics-ultima-sequencin",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_canada"
+  },
+  "https://brc.ubc.ca/?p=2723": {
+   "core_id": "university-of-british-columbia--biomedical-research-centre-nex",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_canada"
+  },
+  "https://genomequebec.com/en/technological-services/promotions/": {
+   "core_id": "genome-qu-bec--centre-d-expertise-et-de-servi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_canada"
+  },
+  "https://www.uoguelph.ca/aac/print/facilities/genomics/fees/next-generation-sequencing": {
+   "core_id": "university-of-guelph--advanced-analysis-centre-aac-g",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_canada"
+  },
+  "https://uoguelph.ca/aac/node/260": {
+   "core_id": "university-of-guelph--advanced-analysis-centre-aac-g",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_canada"
+  },
+  "https://igm.ucsd.edu/genomics/rates": {
+   "core_id": "uc-san-diego--igm-genomics-center",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_us_west"
+  },
+  "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202026%20New%20IDC%20Chloes%20edits_0.pdf": {
+   "core_id": "uc-san-diego--igm-genomics-center",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_us_west"
+  },
+  "https://igm.ucsd.edu/sites/default/files/docs/2026%20rates%20flow%20cell%20fix.png": {
+   "core_id": "uc-san-diego--igm-genomics-center",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_us_west"
+  },
+  "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202025%20New%20IDC.pdf": {
+   "core_id": "uc-san-diego--igm-genomics-center",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-01",
+   "via": "discover:w1_us_west"
+  },
+  "https://igm.ucsd.edu/node/123": {
+   "core_id": "uc-san-diego--igm-genomics-center",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_us_west"
+  },
+  "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w1_us_west"
+  },
+  "https://uclahs.app.box.com/s/ger1oivcyn9c1or940dsjha2pvtz1tnn": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w1_us_west"
+  },
+  "https://uclahealth.org/sites/default/files/documents/48/ucla-tcgb-rates-publication-revised-6-18-2024.pdf?f=d042f1b9": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-06",
+   "via": "discover:w1_us_west"
+  },
+  "https://www.uclahealth.org/sites/default/files/documents/0f/ucla-tcgb-rates-publication-revised-3-12-2024-1.pdf?f=b82588c6": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-03",
+   "via": "discover:w1_us_west"
+  },
+  "https://www.uclahealth.org/sites/default/files/documents/9e/ucla-tcgb-rates-publication-8-1-23-final-version.pdf?f=df27dbc8": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-08",
+   "via": "discover:w1_us_west"
+  },
+  "https://www.uclahealth.org/sites/default/files/documents/UCLA%20TCGB%20rates%20for%20publication%207-1-22.pdf": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2022-07",
+   "via": "discover:w1_us_west"
+  },
+  "https://www.uclahealth.org/sites/default/files/documents/NewApprovedRatesEffective11012019.pdf": {
+   "core_id": "ucla--technology-center-for-genomics",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2019-11",
+   "via": "discover:w1_us_west"
+  },
+  "https://genomics.iigb.ucr.edu/rates": {
+   "core_id": "uc-riverside--genomics-core-facility-institu",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-04",
+   "via": "discover:w1_us_west"
+  },
+  "https://cat.ucsf.edu/sequencing": {
+   "core_id": "uc-san-francisco--center-for-advanced-technology",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://cat.ucsf.edu/node/706": {
+   "core_id": "uc-san-francisco--center-for-advanced-technology",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://cat.ucsf.edu/node/36": {
+   "core_id": "uc-san-francisco--center-for-advanced-technology",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://dnatech.ucdavis.edu/uc-prices/": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-03",
+   "via": "discover:w1_us_west"
+  },
+  "https://dnatech.ucdavis.edu/academicnon-profit-prices": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://dnatech.genomecenter.ucdavis.edu/?p=150": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://dnatech.genomecenter.ucdavis.edu/?p=4468": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://dnatech.ucdavis.edu/faq/what-are-you-prices": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://gc3f.uoregon.edu/rates": {
+   "core_id": "university-of-oregon--genomics-cell-characterization",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://research.uoregon.edu/sites/research1.uoregon.edu/files/2020-10/GC3F%20FY21%20Rate%20Memo%20(4.16.20).pdf": {
+   "core_id": "university-of-oregon--genomics-cell-characterization",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2020-04",
+   "via": "discover:w1_us_west"
+  },
+  "https://uoresearch.uoregon.edu/files/2023-07/GC3%20Core%20Facility.docx": {
+   "core_id": "university-of-oregon--genomics-cell-characterization",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w1_us_west"
+  },
+  "https://cqls.oregonstate.edu/cqls-service-fees": {
+   "core_id": "oregon-state-university--center-for-quantitative-life-s",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-11",
+   "via": "discover:w1_us_west"
+  },
+  "https://cqls.oregonstate.edu/cqls-service-fees/csv?page&_format=csv": {
+   "core_id": "oregon-state-university--center-for-quantitative-life-s",
+   "type": "spreadsheet",
+   "current": true,
+   "public": true,
+   "as_of": "2026-11",
+   "via": "discover:w1_us_west"
+  },
+  "https://cqls.oregonstate.edu/cqls-service-fees/xlsx?page&_format=xlsx": {
+   "core_id": "oregon-state-university--center-for-quantitative-life-s",
+   "type": "spreadsheet",
+   "current": true,
+   "public": true,
+   "as_of": "2026-11",
+   "via": "discover:w1_us_west"
+  },
+  "https://blogs.oregonstate.edu/cqls/category/sequencing/": {
+   "core_id": "oregon-state-university--center-for-quantitative-life-s",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://www.scripps.edu/science-and-medicine/cores-and-services/genomics-ca/index.html": {
+   "core_id": "scripps-research--genomics-core-la-jolla",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_us_west"
+  },
+  "https://crtp.ccr.cancer.gov/fsgc/services/ngs-production/pricing": {
+   "core_id": "national-cancer-institute-nih-frederick--frederick-sequencing-genomics-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://crtp.ccr.cancer.gov/fsgc/?p=61": {
+   "core_id": "national-cancer-institute-nih-frederick--frederick-sequencing-genomics-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://genomics.oicr.on.ca/?p=5935": {
+   "core_id": "ontario-institute-for-cancer-research--oicr-genomics-ultima-sequencin",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://lji.org/research/research-services/sequencing": {
+   "core_id": "la-jolla-institute-for-immunology--sequencing-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.lji.org/?p=12460": {
+   "core_id": "la-jolla-institute-for-immunology--sequencing-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.crg.eu/sites/default/files/crg/genomic_service_fees2026_r0.pdf": {
+   "core_id": "centre-de-regulacio-genomica-crg--crg-genomics-unit",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/page-154614-en-html/": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/news": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2026-10",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2026/09/GECF-price-list-for-EPFL-users-09-September-2026.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-09",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2026/02/GECF-price-list-for-EPFL-users-15-February-2026.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2026-02",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2025/07/GECF-price-list-for-EPFL-users-01-July-2025.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2025/03/GECF-price-list-for-EPFL-users-01-March-2025.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-03",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.sbpdiscovery.org/medical-discovery/shared-resources/genomics": {
+   "core_id": "sanford-burnham-prebys-medical-discovery--genomics-and-spatial-transcrip",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.lerner.ccf.org/cores/genomics/": {
+   "core_id": "cleveland-clinic-lerner-research-institu--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://www.seattlechildrens.org/research/resources/genomics-spatial-biology-colab/rates/": {
+   "core_id": "seattle-children-s-research-institute--genomics-and-spatial-biology-c",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-04",
+   "via": "discover:w1_nonprofit_institutes"
+  },
+  "https://ngisweden.scilifelab.se/resources/price-examples/": {
+   "core_id": "scilifelab-uppsala-university-stockholm---ngi-sweden",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-06",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://ngisweden.scilifelab.se/2025/11/exciting-update-from-illumina-sequencing-costs-now-aligned-across-flow-cells/": {
+   "core_id": "scilifelab-uppsala-university-stockholm---ngi-sweden",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2025-11",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://ngisweden.scilifelab.se/technologies/illumina/novaseq-x-plus/": {
+   "core_id": "scilifelab-uppsala-university-stockholm---ngi-sweden",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://fisabio.san.gva.es/media/upload/arxius/plataformas-cientifico-tecnicas/fs-for216-tarifas-secuenciacion-masiva-y-bioiformatica-es.pdf": {
+   "core_id": "fisabio-foundation-valencia--fisabio-sequencing-bioinformat",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-02",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://fisabio.san.gva.es/media/upload/arxius/servicios/plataformas-cientifico-tec/servicios-cientifico-tec/secuenciacion/tarifas-secuenciacion-2023.pdf": {
+   "core_id": "fisabio-foundation-valencia--fisabio-sequencing-bioinformat",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.helsinki.fi/en/infrastructures/genome-analysis/infrastructures/fimm-genomics/fimm-genomics-services/ngs-sequencing-services/fimm-genomics-sequencing-only-services": {
+   "core_id": "university-of-helsinki-fimm--fimm-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://tgc.net.technion.ac.il/?p=1567": {
+   "core_id": "technion--technion-genome-center",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2020-03",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.incliva.es/wp-content/uploads/2026/03/Tarifas_Web_MP_2026.pdf": {
+   "core_id": "incliva-health-research-institute-valenc--precision-medicine-genomics-pl",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-03",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.cnag.eu/sites/default/files/CNAG PRICES 2025_R1.pdf": {
+   "core_id": "cnag-extra-history-urls-for-known-core--cnag-sequencing-unit",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.cnag.eu/sites/default/files/CNAG PRICES 2025.pdf": {
+   "core_id": "cnag-extra-history-urls-for-known-core--cnag-sequencing-unit",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://ccnagdev.cnag.cat/sites/default/files/CNAG PRICES.pdf": {
+   "core_id": "cnag-extra-history-urls-for-known-core--cnag-sequencing-unit",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2023/09/GECF-price-list-for-EPFL-users-October-2023.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-10",
+   "via": "discover:w1_nordics_south_europe_israel"
+  },
+  "https://www.genomics.auckland.ac.nz/pricing/": {
+   "core_id": "university-of-auckland--auckland-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_asia_pacific"
+  },
+  "https://www.genomics.auckland.ac.nz/?p=237": {
+   "core_id": "university-of-auckland--auckland-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_asia_pacific"
+  },
+  "https://www.unsw.edu.au/science/ramaciotti/services/next-generation-sequencing": {
+   "core_id": "unsw-sydney--ramaciotti-centre-for-genomics",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_asia_pacific"
+  },
+  "https://www.agrf.org.au/25b-promo-2025": {
+   "core_id": "agrf--australian-genome-research-fac",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2025-05",
+   "via": "discover:w1_asia_pacific"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2026-09",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://epfl.ch/research/facilities/gene-expression-core-facility/page-154614-en-html": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-09",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2024/11/GECF-price-list-for-EPFL-users-01-November-2024.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-11",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2024/07/GECF-price-list-for-EPFL-users-01-July-2024.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-07",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2023/07/GECF-price-list-internal-users-July-2023.pdf": {
+   "core_id": "epfl--gene-expression-core-facility-",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-07",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://ige3.genomics.unige.ch/fees": {
+   "core_id": "university-of-geneva--ige3-genomics-platform-next-ge",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.ngs.unibe.ch/": {
+   "core_id": "university-of-bern--next-generation-sequencing-ngs",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://ngs.unibe.ch/unibe/portal/fak_vetmedizin/micro_ngs/content/e1539654/PriceList_NGSP_MAY_2024003.pdf": {
+   "core_id": "university-of-bern--next-generation-sequencing-ngs",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-05",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://wp.unil.ch/gtf/news-letter/": {
+   "core_id": "university-of-lausanne-chuv--genomic-technologies-facility-",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2026-06",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://wp.unil.ch/gtf/files/2026/06/gtf-newsletter-–-fbm-edition.pdf": {
+   "core_id": "university-of-lausanne-chuv--genomic-technologies-facility-",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": "2026-06",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.med.fau.de/files/2024/11/NGS.pdf": {
+   "core_id": "fau-erlangen-n-rnberg--core-unit-ngs-cu-ngs",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-10",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.mdc-berlin.de/media/39029": {
+   "core_id": "mdc-berlin--genomics-platform-ngs",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2021-04",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.mdc-berlin.de/media/39941": {
+   "core_id": "mdc-berlin--genomics-platform-ngs",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://www.mdc-berlin.de/media/38662": {
+   "core_id": "mdc-berlin--genomics-platform-ngs",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://moseq.i-med.ac.at/wp-content/uploads/2025/12/MOseq-Costs-Examples.pdf": {
+   "core_id": "medical-university-of-innsbruck--moseq-molecular-sequencing-fac",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2025-12",
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://forschungsinfrastruktur.bmfwf.gv.at/de/fi/novaseq-x-plus-sequencing-system_6458": {
+   "core_id": "medical-university-of-graz--novaseq-x-plus-institute-for-d",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_dach_benelux"
+  },
+  "https://cores.research.umich.edu/core/brcf-advanced-genomics-core": {
+   "core_id": "university-of-michigan--brcf-advanced-genomics-core-ag",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://medresearch.umich.edu/office-research/about-office-research/biomedical-research-core-facilities/advanced-genomics-core/technologies/next-generation-sequencing": {
+   "core_id": "university-of-michigan--brcf-advanced-genomics-core-ag",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://medresearch.umich.edu/office-research/advanced-genomics-core-among-first-launch-ultima-genomics-ug-100-unlocking-affordable-high": {
+   "core_id": "university-of-michigan--brcf-advanced-genomics-core-ag",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://microbiomecore.sites.uiowa.edu/node/11": {
+   "core_id": "university-of-iowa--holden-comprehensive-cancer-ce",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://iids.uidaho.edu/docs/GBRC_Facilities_Resources_2026.pdf": {
+   "core_id": "university-of-idaho--gbrc-genomics-and-bioinformati",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026",
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://www.biotech.cornell.edu/core-facilities-brc/services/ultima-ug100-sequencing": {
+   "core_id": "cornell-university-ithaca--biotechnology-resource-center-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://genomics.umn.edu/service/aviti-sequencing": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://genomics.umn.edu/service/ug-100-sequencing": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://genomics.umn.edu/service/human-whole-genome-sequencing": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "announcement",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://genomics.umn.edu/news/ultima-ug-100-arrives": {
+   "core_id": "university-of-minnesota--university-of-minnesota-genomi",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2024-11",
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://www.cgm.northwestern.edu/cores/nuseq/pricing.html": {
+   "core_id": "northwestern-university--nuseq-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://www.cgm.northwestern.edu/docs/nuseq/fy25-pricing.pdf": {
+   "core_id": "northwestern-university--nuseq-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://www.cgm.northwestern.edu/docs/nuseq/sg_elements_aviti_overview.pdf": {
+   "core_id": "northwestern-university--nuseq-core",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://azgc.arizona.edu/sites/default/files/2024-07/AZGC%20Rates_Effective%201Aug2024.pdf": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-08",
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://azgc.arizona.edu/services/services/element-aviti-24": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://dnatech.genomecenter.ucdavis.edu/element-bio-aviti-sequencing/": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://dnatech.ucdavis.edu/element-biosciences-aviti-sequencing": {
+   "core_id": "uc-davis--genome-center-dna-technologies",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://www.unmc.edu/research-resources/resources/cores/genomics-core/pricing.html": {
+   "core_id": "university-of-nebraska-medical-center--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://voices.uchicago.edu/genomicsfacility/ngs": {
+   "core_id": "university-of-chicago--genomics-facility",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://salk.edu/science/core-facilities/next-generation-sequencing/scheduling-and-rates": {
+   "core_id": "salk-institute--integrative-genomics-and-bioin",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w1_platform_ultima_element"
+  },
+  "https://dna.uga.edu/spring-forward-with-lower-prices-at-the-georgia-genomics-and-bioinformatics-core/": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2025-03",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://research.missouri.edu/news/new-genomics-tool": {
+   "core_id": "university-of-missouri--genomics-technology-core-2",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://cgsi.wisc.edu/bio-tech-update-sequencings-best-bang-for-the-buck/": {
+   "core_id": "university-of-wisconsin-madison--biotechnology-center-dna-seque",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2023-09",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://tgen.org/media/494096/academic-price-list.pdf": {
+   "core_id": "tgen-translational-genomics-research-ins--collaborative-sequencing-cente",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://honeycrisp.core.uconn.edu/products/328": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://honeycrisp.core.uconn.edu/products/391": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://honeycrisp.core.uconn.edu/products/368": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://honeycrisp.core.uconn.edu/products/657": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf": {
+   "core_id": "sickkids--tcag",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-04",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://cri.uchicago.edu/?p=5394": {
+   "core_id": "university-of-chicago--genomics-facility",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://biotech.illinois.edu/htdna": {
+   "core_id": "university-of-illinois-urbana-champaign--roy-j-carver-biotechnology-cen",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://medschool.duke.edu/blog/sequencing-core-launches-illumina-x-plus-sequencer": {
+   "core_id": "duke-university--sequencing-and-genomic-technol",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://pan.stanford.edu/rates.html": {
+   "core_id": "stanford-university--protein-and-nucleic-acid-pan-f",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://research.utk.edu/?p=125": {
+   "core_id": "university-of-tennessee-knoxville--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-08",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://www.ndsu.edu/biotech-innovation-core/sequencing/services-and-fees": {
+   "core_id": "north-dakota-state-university--biotechnology-innovation-core-",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://enbrc.emory.edu/genomicscore/services/nextgen-sequencing.html": {
+   "core_id": "emory-university--integrated-genomics-core-emory",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://ocrid.okstate.edu/site-files/documents/fy26-fee_sheets/fy26_mbgc.pdf": {
+   "core_id": "oklahoma-state-university--mbgc-fee-sheet",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w2_history_announcements"
+  },
+  "https://www.chla.org/research/core/spatial-biology-and-genomics/fee-structure": {
+   "core_id": "children-s-hospital-los-angeles--spatial-biology-and-genomics-c",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_history_announcements"
+  },
+  "https://useq.nl/service-fees/": {
+   "core_id": "utrecht-university-medical-center-umc-ut--utrecht-sequencing-facility-us",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-08",
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://research.umcutrecht.nl/technologies/utrecht-sequencing-facility/services-fees/": {
+   "core_id": "utrecht-university-medical-center-umc-ut--utrecht-sequencing-facility-us",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://cent.uw.edu.pl/en/?p=10138": {
+   "core_id": "university-of-warsaw--cent-sequencing-internal-users",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://cent.uw.edu.pl/en/?p=10133": {
+   "core_id": "university-of-warsaw--cent-sequencing-internal-users",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://www.recercaitransferencia.udl.cat/export/sites/Recerca/ca/.galleries/SCTS/Tarifas_Proteomica_i_Genomica_20260714.pdf": {
+   "core_id": "universitat-de-lleida--scts-proteomics-and-genomics-s",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://www.samrc.ac.za/sites/default/files/attachments/2023-10/GenomicsPlatformPrices.pdf": {
+   "core_id": "south-african-medical-research-council--samrc-genomics-platform",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-04",
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://www.irbbarcelona.org/sites/default/files/2026-03/71 - Tarifas Bioestadistica 2026 _WEB.pdf": {
+   "core_id": "irb-barcelona--genomics-and-bioinformatics-ta",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": "2026-03",
+   "via": "discover:w2_intl_gapfill"
+  },
+  "https://cores.research.asu.edu/genomics/rates": {
+   "core_id": "arizona-state-university--genomics-core-ngs-tgen-sequenc",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://cores.ucla.edu/cores/cellular-molecular-analysis/sequencing-core": {
+   "core_id": "university-of-california-los-angeles--broad-stem-cell-research-cente",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://stemcell.ucla.edu/high-throughput-sequencing": {
+   "core_id": "university-of-california-los-angeles--broad-stem-cell-research-cente",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://biotech.ufl.edu/lab-services/": {
+   "core_id": "university-of-florida--icbr-nextgen-dna-sequencing-sh",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-07",
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://biotech.ufl.edu/next-gen-dna/resources/": {
+   "core_id": "university-of-florida--icbr-nextgen-dna-sequencing-sh",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://biotech.ufl.edu/icbr-enhances-dna-sequencing-capabilities-with-the-illumina-novaseq-x-plus/": {
+   "core_id": "university-of-florida--icbr-nextgen-dna-sequencing-sh",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://biotech.ufl.edu/new-instruments-in-the-icbr-ngs-shared-resource-will-lower-dna-sequencing-costs-for-uf-investigators/": {
+   "core_id": "university-of-florida--icbr-nextgen-dna-sequencing-sh",
+   "type": "announcement",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://nextgen.mgh.harvard.edu/Pricing.html": {
+   "core_id": "massachusetts-general-hospital-mass-gene--mgh-next-generation-sequencing",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://www.uab.edu/hcgs/hcgspricing": {
+   "core_id": "university-of-alabama-at-birmingham--heflin-center-for-genomic-scie",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://research.gatech.edu/bio/research/core-facilities/high-throughput-dna-sequencing-core/services": {
+   "core_id": "georgia-institute-of-technology--high-throughput-dna-sequencing",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://www.k-state.edu/cezid/research-core-facilities/NGSservices.html": {
+   "core_id": "kansas-state-university--cezid-vet-med-ngs-services",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2026-01",
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://WWW.UKHEALTHCARE.UKY.EDU/sites/default/files/2022-11/OG%20SRF_NGS_Illumina%20Sequencing%202022-2023%20Handout.pdf": {
+   "core_id": "university-of-kentucky--uk-healthcare-oncogenomics-sha",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2022-11",
+   "via": "discover:w2_us_gapfill_a_m"
+  },
+  "https://research.utk.edu/research-facilities/core-facilities/genomics-core/": {
+   "core_id": "university-of-tennessee-knoxville--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://research.utk.edu/oried/core-facilities/genomics-core/": {
+   "core_id": "university-of-tennessee-knoxville--genomics-core",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.uthsc.edu/research/institutional-cores/mrc/price-list.php": {
+   "core_id": "university-of-tennessee-health-science-c--molecular-resource-center-of-e",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://uthsc.edu/research/institutional-cores/mrc/price-list.php": {
+   "core_id": "university-of-tennessee-health-science-c--molecular-resource-center-of-e",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.uthsc.edu/research/institutional-cores/documents/price-list-mrc.pdf": {
+   "core_id": "university-of-tennessee-health-science-c--molecular-resource-center-of-e",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://pathology.ecu.edu/genomics-core/?p=389": {
+   "core_id": "east-carolina-university--genomics-core-big-core-dept-of",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://biology.ecu.edu/wp-content/pv-uploads/sites/26/2023/07/GC-Pricelist.June2024.pdf": {
+   "core_id": "east-carolina-university--genomics-core-big-core-dept-of",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-06",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://biology.ecu.edu/wp-content/pv-uploads/sites/26/2020/05/GC-Pricelist5-2020.pdf": {
+   "core_id": "east-carolina-university--genomics-core-big-core-dept-of",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2020-05",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://qanr.usu.edu/biosystems/core-labs/genomics": {
+   "core_id": "utah-state-university--center-for-integrated-biosyste",
+   "type": "rate_page",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://biosystems.usu.edu/core-labs/genomics/dna-sequencing": {
+   "core_id": "utah-state-university--center-for-integrated-biosyste",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": null,
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.depts.ttu.edu/biotechnologyandgenomics/corelabfacility/Rates/Rates_FY23.php": {
+   "core_id": "texas-tech-university--center-for-biotechnology-and-g",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2023",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.depts.ttu.edu/biotechnologyandgenomics/corelabfacility/Rates/CBG_Rates_FY23.pdf": {
+   "core_id": "texas-tech-university--center-for-biotechnology-and-g",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.depts.ttu.edu/biotechnologyandgenomics/corelabfacility/Rates/CBG_All_Rates_FY21.pdf": {
+   "core_id": "texas-tech-university--center-for-biotechnology-and-g",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2021",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://www.depts.ttu.edu/biotechnologyandgenomics/rates/CBG_Genomics_Rate.html": {
+   "core_id": "texas-tech-university--center-for-biotechnology-and-g",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2020-01",
+   "via": "discover:w2_us_gapfill_n_w"
+  },
+  "https://webcms.rockefeller.edu/assets/83/file/Genomics Resource Center Price List FY27.pdf": {
+   "core_id": "rockefeller-university--genomics-resource-center",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://www.rockefeller.edu/genomics/pricing/"
+  },
+  "https://cores.arizona.edu/sites/default/files/2026-07/AZGC-Rates_Effective-1Jul2026.pdf": {
+   "core_id": "university-of-arizona--arizona-genetics-core-azgc",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://cores.arizona.edu/facilities/azgc/pricing"
+  },
+  "https://gccri.uthscsa.edu/wp-content/uploads/sites/276/2026/04/GSF_FY2026_PriceSchedule_Updated260420.pdf": {
+   "core_id": "ut-health-san-antonio--genome-sequencing-facility-gre",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://gccri.uthscsa.edu/services/gsf/gsf-pricing/"
+  },
+  "https://research.uga.edu/docs/units/urar/AnimalResourcesPerDiemRates.pdf": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://spa.uga.edu/research-facility-rates"
+  },
+  "https://research.uga.edu/docs/units/urar/AnimalResourcesServiceRates.pdf": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://spa.uga.edu/research-facility-rates"
+  },
+  "https://gem.uga.edu/wp-content/uploads/sites/4/2022/06/GEM_FeeScheduleFY23a.pdf": {
+   "core_id": "university-of-georgia--georgia-genomics-and-bioinform",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://spa.uga.edu/research-facility-rates"
+  },
+  "https://www.cgm.northwestern.edu/cores/nuseq/resources/fy27-prices_finalusers.pdf": {
+   "core_id": "northwestern-university--nuseq-core",
+   "type": "pdf",
+   "current": true,
+   "public": true,
+   "as_of": null,
+   "via": "link:https://www.cgm.northwestern.edu/cores/nuseq/pricing.html"
+  },
+  "https://tgen.org/media/494312/tgen_csc_academic_price_list_09_13_24.pdf": {
+   "core_id": "tgen-translational-genomics-research-ins--collaborative-sequencing-cente",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-09",
+   "via": "history:hist_1",
+   "note": "TGen CSC academic price list revised 9/13/2024 (valid Apr 2024-Mar 2025); NovaSeq X Plus 10B lane $1,678.74, 25B lane about $2,883"
+  },
+  "https://bme.ubc.ca/wp-content/uploads/2024/01/2024-Jan-SBME-Seq-Price-Sheet.pdf": {
+   "core_id": "university-of-british-columbia--biomedical-research-centre-nex",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-01",
+   "via": "history:hist_1",
+   "note": "SBME sequencing price sheet Jan 2024; dated by filename; platforms not confirmed"
+  },
+  "https://bme.ubc.ca/wp-content/uploads/2024/11/2024-Nov-SBME-Seq-Price-Sheet.pdf": {
+   "core_id": "university-of-british-columbia--biomedical-research-centre-nex",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-11",
+   "via": "history:hist_1",
+   "note": "SBME sequencing price sheet Nov 2024; dated by filename"
+  },
+  "https://bme.ubc.ca/wp-content/uploads/2025/02/2025-Feb-SBME-Seq-Price-Sheet.pdf": {
+   "core_id": "university-of-british-columbia--biomedical-research-centre-nex",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-02",
+   "via": "history:hist_1",
+   "note": "SBME sequencing price sheet Feb 2025; includes NextSeq 2000 runs per snippet"
+  },
+  "https://incliva.es/wp-content/uploads/2024/06/PLATAFORMA-DE-APOYO_2024.pdf": {
+   "core_id": "incliva-health-research-institute-valenc--precision-medicine-genomics-pl",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-06",
+   "via": "history:hist_1",
+   "note": "INCLIVA support-platform rates 2024; includes NGS library prep; sequencing rows unconfirmed"
+  },
+  "https://www.incliva.es/wp-content/uploads/2023/06/PLATAFORMA-DE-APOYO_2023-1.pdf": {
+   "core_id": "incliva-health-research-institute-valenc--precision-medicine-genomics-pl",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2023-06",
+   "via": "history:hist_1",
+   "note": "INCLIVA support-platform rates 2023; predates the Oct 2024 window start; sequencing rows unconfirmed"
+  },
+  "https://mdanderson.org/documents/core-facilities/sequencing-and-microarray-facility/ATGC FY2024 Price Schedule.docx": {
+   "core_id": "ut-md-anderson-cancer-center--advanced-technology-genomics-c",
+   "type": "spreadsheet",
+   "current": false,
+   "public": true,
+   "as_of": "2023-07",
+   "via": "history:hist_4",
+   "note": "ATGC FY2024 price schedule (fiscal year from filename). Search snippet showed a NovaSeq6000 section. Not verified: WebFetch returned 404."
+  },
+  "https://www.recercaitransferencia.udl.cat/export/sites/Recerca/ca/.galleries/SCTS/Tarifes-2024-Servei-de-proteomica-i-genomica.pdf": {
+   "core_id": "universitat-de-lleida--scts-proteomics-and-genomics-s",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2024-01",
+   "via": "history:hist_4",
+   "note": "2024 tariff for the proteomics and genomics service (PDF metadata created 2024-01-10). Contents unread, and it may list MiSeq only. Not verified."
+  },
+  "https://recercaitransferencia.udl.cat/export/sites/Recerca/ca/.galleries/SCTS/Proteomica-i-genomica-2025.pdf": {
+   "core_id": "universitat-de-lleida--scts-proteomics-and-genomics-s",
+   "type": "pdf",
+   "current": false,
+   "public": true,
+   "as_of": "2025-01",
+   "via": "history:hist_4",
+   "note": "2025 tariff for the proteomics and genomics service (year from filename). Contents unread, and it may list MiSeq only. Not verified."
+  },
+  "https://honeycrisp.dxdev.core.uconn.edu/products/657": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "history:hist_2",
+   "note": "dxdev mirror of NovaSeq Xplus 25B 300-cycle lane listing; $2,924.04 for 2025-07-01 to 2025-12-31 (differs from the main-site listing). Includes tariff and shipping."
+  },
+  "https://honeycrisp.core.uconn.edu/products/329": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "history:hist_2",
+   "note": "Additional honeycrisp NovaSeq X listing in search results (not in our list); dates and prices unverified, check start and end dates."
+  },
+  "https://honeycrisp.dxdev.core.uconn.edu/products/358": {
+   "core_id": "university-of-connecticut--center-for-genome-innovation",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-07",
+   "via": "history:hist_2",
+   "note": "dxdev mirror listing, expired end date 2025-12-31 (e.g. 1.5B 100-cycle lane $1,452.20, 10B 200-cycle $1,576.76 per search text)."
+  },
+  "https://fralinlifesci.vt.edu/Core-Services/gsc/pricing.html": {
+   "core_id": "virginia-tech--fralin-life-sciences-genomics-",
+   "type": "rate_page",
+   "current": false,
+   "public": true,
+   "as_of": "2025-11",
+   "via": "history:hist_3",
+   "note": "GSC pricing page effective 11/1/25: NovaSeq X (1.5B/5B/10B/25B) and NextSeq 1000/2000 P1-P4 rates for VT researchers; no NovaSeq 6000 or AVITI. May be the live page, later than the Sept 2024 PDF alrea"
+  }
+ }
+}

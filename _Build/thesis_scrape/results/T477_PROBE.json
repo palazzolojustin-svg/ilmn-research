@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "Reached via search snippets and the SEC Ex. 99.1 press release. GenomeWeb returned 403, the Nasdaq and Quartr pages gave nothing useful, and the MarketBeat page was an index. I did not read the 10-Q MD&A or a call transcript, so there is no direct NIH, pricing or Illumina/Element/Ultima/Roche commentary. The main new datapoint cuts against the thesis: Twist's academic and government revenue rebounded sharply in the quarter ended Jun 2026. Twist's academic line mixes NGS tools and synthetic DNA, so it is not a clean read on sequencing consumables. Twist says its NIH exposure is small (<1%, from a prior-year CEO interview seen in a snippet). Twist also sells into a different budget (target enrichment, not sequencing runs).",
+  "how_to_mine": "1) Open the FQ3'26 10-Q at https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001581280&type=10-Q and read the MD&A revenue-by-customer-type table and the funding risk language. 2) Get the full FQ3'26 call transcript (3 Aug 2026) from Motley Fool, Investing.com or Seeking Alpha free preview, then search for 'academic', 'NIH', 'large customers returned', 'pricing' and 'Illumina'. 3) Check whether academic NGS (as opposed to synthetic DNA) grew. 4) Compare with the FQ2'26 call, where academic revenue was reportedly $12.8M, to see whether the rebound was lumpy 'returning large customers' or broad. 5) Check the 424B5 (Jun 2026) for risk-factor language on academic funding.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Twist's academic and government revenue jumped 32% y/y and 21% q/q in the quarter ended Jun 2026, a sign of recovering US academic demand.",
+      "detail": "Per a GenomeWeb search snippet, academic and government revenue was $15.5M in FQ3'26, +32% y/y and +21% q/q. Management attributed it to US accounts and the return of several large customers. FQ1'26 academic revenue was reportedly flat y/y at $12.2M. This conflicts with Illumina's R&A guide of MSD-to-HSD declines and its 'no meaningful improvement' stance. It is a segment that mixes synthetic DNA and NGS tools, and the 'large customers returning' pattern may be lumpy.",
+      "url": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug",
+      "date": "2026-08-03",
+      "source_name": "GenomeWeb (search snippet; page returned 403)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known list has Thermo and Bruker funding reads but no Twist academic-segment datapoint; it updates the peer funding divergence toward recovery."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Twist's NGS Applications revenue grew 12% y/y and 8% q/q in the quarter ended Jun 2026, and its customer count rose about 7%.",
+      "detail": "NGS Applications revenue was $61.8M vs $55.3M a year earlier and $57.4M in FQ2'26. Customers shipped were about 2,650 vs about 2,480 a year earlier. Twist already appears in the known list (NGS +12%, target 'return to 20%'), so this is mainly a confirmation. The NGS tools line shows steady end-market demand for sequencing-related consumables, with no sign of volume stress. It is not an Illumina-specific price read.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm",
+      "date": "2026-08-03",
+      "source_name": "Twist Bioscience 8-K Ex. 99.1",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the q/q path and customer-count detail to an NGS +12% figure the folder already carries."
+    }
+  ],
+  "new_candidates": [
+    "Twist FQ3'26 call transcript on Motley Fool or Investing.com for any academic NGS pricing or Illumina commentary",
+    "Twist 424B5 (Jun 2026) risk factors on academic funding and customer concentration"
+  ],
+  "apify_requests": []
+}
+```

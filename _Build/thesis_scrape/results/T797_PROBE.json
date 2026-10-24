@@ -1,0 +1,35 @@
+The EPFL PDFs came back as compressed binary, and I have no working tool to decode them. Bash is disabled and the Read tool needs `pdftoppm`, which isn't installed. I'm stopping the probe and reporting what I could and couldn't get.
+
+```json
+{
+  "status": "blocked",
+  "notes": "The PDF is publicly reachable (no login) but its text could not be extracted. WebFetch returned raw FlateDecode binary for both the 9 Sep 2026 PDF and the Oct 2023 PDF. The Read tool's PDF mode failed because pdftoppm is missing. Bash/pypdf was disabled in this session. No NovaSeq X, 6000 or AVITI per-lane or per-sample prices were read, and no % change per Gb was computed. A web search found these versions of the list: 15 Feb 2026 (/2026/02/GECF-price-list-for-EPFL-users-15-February-2026.pdf), Oct 2023 (/2023/09/GECF-price-list-for-EPFL-users-October-2023.pdf), internal-users Jul 2023 (/2023/07/GECF-price-list-internal-users-July-2023.pdf), and the 9 Sep 2026 list. The search snippet gave one number: the Oct 2023 list had a 300-cycle, 10,000M-read run at CHF 18,590. The facility news page reports an AVITI to AVITI24 upgrade in Nov 2025 with up to 50% more output at no price increase. It also reports 'strong decrease' in NovaSeq prices (Oct 2025, Mar 2026, including the 10B-300 runs) and a 'continued price decrease' note in Sep 2026. The facility's news and price-list pages already appear in the known list (EPFL 'strong decrease', Sep-Nov 2025 and Mar 2026), so the new part would be the table numbers, which I did not obtain.",
+  "how_to_mine": "Download the PDFs (Oct 2023, Feb 2026, 9 Sep 2026) with curl into empty directories. Extract text with `python -I` and pypdf or pdfplumber (table mode), or run pdftotext -layout. Record CHF per run or lane for NovaSeq 6000 (10B, 25B and SP-type flow cells, by cycle count), NovaSeq X, and AVITI/AVITI24 (Cloudbreak, per lane). Convert to CHF/Gb using the nominal read counts and read lengths. Compare Oct 2023, Feb 2026 and Sep 2026 for the % change per Gb. Also check the Wayback Machine (web.archive.org/web/2025*/...GECF-price-list*) for 2024 and 2025 versions. This is a one-hour job with working tools.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "EPFL's sequencing core reports repeated NovaSeq price cuts through Sep 2026, with its Oct 2023 10B-300 run list price as a baseline.",
+      "detail": "The Oct 2023 internal list priced a 300-cycle, 10,000M-read run at CHF 18,590 (search snippet). The facility's news says NovaSeq prices fell 'strongly' in Oct 2025 and again in Mar 2026 (10B-300 runs), and the Sep 2026 list adds a 'continued price decrease'. The current CHF figure was not read, so the size of the cut is unquantified. The AVITI to AVITI24 upgrade (Nov 2025) added up to 50% output at no price increase, which is a falling AVITI $/Gb.",
+      "url": "https://www.epfl.ch/research/facilities/gene-expression-core-facility/news",
+      "date": "2026-09-09",
+      "source_name": "EPFL Gene Expression Core Facility (news and price lists)",
+      "source_type": "price_list",
+      "quote": "continued price decrease across our services",
+      "strength": "weak",
+      "why_new": "It adds the Oct 2023 baseline price of CHF 18,590 and the AVITI24 +50% output at flat price, but the current prices are unread, so this is only a partial update."
+    }
+  ],
+  "new_candidates": [
+    {"url": "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2026/02/GECF-price-list-for-EPFL-users-15-February-2026.pdf", "why": "Feb 2026 version, the mid-point for a three-point price path (Oct 2023, Feb 2026, Sep 2026)"},
+    {"url": "https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2023/09/GECF-price-list-for-EPFL-users-October-2023.pdf", "why": "Oct 2023 baseline, already downloaded to the tool-results folder"}
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [GECF price list, 9 Sep 2026](https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2026/09/GECF-price-list-for-EPFL-users-09-September-2026.pdf)
+- [GECF news](https://www.epfl.ch/research/facilities/gene-expression-core-facility/news)
+- [GECF price list, Oct 2023](https://www.epfl.ch/research/facilities/gene-expression-core-facility/wp-content/uploads/2023/09/GECF-price-list-for-EPFL-users-October-2023.pdf)

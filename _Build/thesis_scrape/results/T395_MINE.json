@@ -1,0 +1,134 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "UConn's contract price for NovaSeq 6000 S4 kits fell about 3.9% in a year, and SP/S1/S2 kits fell about 5.2%, so legacy-platform prices are still being cut even as the X is held flat or raised.",
+      "detail": "UConn's Center for Genome Innovation (CGI) rate sheet dated Jan 2025 lists S4 v1.5 300-cycle at $16,578, 200-cycle at $14,879 and 35-cycle at $11,192. The sheet current through Feb 2026 lists $15,938.08, $14,305.08 and $10,760.32. That is −3.86% on every S4 line (15,938.08/16,578 = 0.9614). S2-300 went $11,052→$10,473.28 and S1-300 $6,043→$5,726.08, both −5.24%. SP-300 went $3,454→$3,273.36 (−5.2%). Xp loading kits went $343→$324.76 and $690→$654.12 (−5.3%). These are internal contract prices that exclude a 6.5% shipping charge. The one tariff-bearing listing I found is a Honeycrisp SP-300 line at $3,649.80 for Jul–Dec 2025.",
+      "url": "https://genome.center.uconn.edu/?p=891",
+      "date": "2025-01 sheet vs Feb 2026 sheet",
+      "source_name": "UConn Center for Genome Innovation service rates",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known list only has Jan 2025 S4 $16,578 as a level. This is a dated 12-month change on every 6000 kit tier, with SP/S1/S2 cut harder than S4."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "UConn's S4-300 contract price is only 73.5–76.5% of Illumina's published S4-300 list and the discount deepened over the year, which points to a persistent price gap between list and contract on the 6000.",
+      "detail": "Illumina's published S4-300 list is $21,683 (known). UConn paid $16,578 in Jan 2025 (76.5% of list) and $15,938 in Feb 2026 (73.5%). On nominal 3,000 Gb that is $5.53/Gb and then $5.31/Gb. TxGen's 25B-300 at $3.20/Gb (Feb 2025) gives a cross-institution S4:25B ratio of about 1.73x ($5.53/$3.20). That is far below the 3.4x revenue-per-Gb gap Illumina reports. Part of the gap is that UConn's price is a contract price and TxGen's is a core recharge. The comparison is also cross-institution.",
+      "url": "https://genome.center.uconn.edu/?p=891",
+      "date": "2025-01 to 2026-02",
+      "source_name": "UConn CGI rates; TxGen price list Feb 2025",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The ratio and the deepening discount (76.5%→73.5% of list) are new. Earlier work cites UConn only at $15,938 against the known S4 list and does not give the year-on-year path."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "TxGen raised its NovaSeq X flow-cell prices about 3% between May 2024 and Feb 2025 across 1.5B, 10B and 25B, so there is no visible X-side deflation at this core.",
+      "detail": "From the TxGen v12 sheet (4 May 2024) to the Feb 2025 sheet (printed Apr 2025), 25B-300 went $24,224→$24,951 (+3.0%, $3.11→$3.20/Gb). 10B-300 went $15,192→$15,648 (+3.0%, $5.06→$5.22/Gb). 1.5B-300 went $3,998→$4,118 (+3.0%, $8.33→$8.58/Gb). The 10B:25B per-Gb ratio stayed at 1.63x in both sheets. The Feb 2025 25B-300 price is 3.3% above Illumina's published $24,155 list. The May 2024 price is about equal to list.",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf",
+      "date": "2024-05-04 and 2025-02-21",
+      "source_name": "TxGen (Texas A&M AgriLife) price sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list gives a single TxGen/TGen 25B point. This gives a dated two-version history and a uniform +3% step across all three X flow cells, plus the constant 1.63x 10B premium."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "In 2025 TxGen added a 3–5% surcharge to single-lane prices over flow-cell/8, on top of the 3% flow-cell increase, so effective per-lane prices rose 6–8% in nine months.",
+      "detail": "May 2024: 25B lane $3,028 = $24,224/8 exactly, and 10B lane $1,899 = $15,192/8 exactly. Feb 2025: 25B lane $3,222 against $24,951/8 = $3,119 (+3.3% surcharge). 10B lane $2,059 against $15,648/8 = $1,956 (+5.3%). Lane price changes were 25B +6.4% and 10B +8.4% over the nine months. The 1.5B lane is listed at $2,162 against $4,118/2 = $2,059 (+5.0%). The snippets that gave me the lane figures may have mislabelled which flow cell they belong to, so treat the surcharge percentages as approximate.",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf",
+      "date": "2025-02-21 vs 2024-05-04",
+      "source_name": "TxGen price sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A lane-vs-flowcell arithmetic check across two dated versions has not been done before."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Per-Gb price of a top-end NovaSeq flow cell at one core fell from $8.61 (S4, 2019) to $3.11 (25B, 2024), about −64%, which sets the scale of the step 6000 labs face on conversion.",
+      "detail": "TxGen internal Oct 2019: S4 2x150 $25,820.42 for 3,000 Gb = $8.61/Gb. A TxGen list dated Sep 2020 shows S4 2x150 at $20,448 = $6.82/Gb. That is −21% vs 2019, but the 2019 sheet is internal and the 2020 sheet's audience is unclear. Kentucky's 2022–23 handout has S4-300 at $17,132 = $5.71/Gb. TxGen's May 2024 25B-300 is $3.11/Gb. S4→25B is therefore −54% from the 2020 S4 and −64% from the 2019 S4. The top-flowcell series 8.61 → 6.82 → 5.71 (a different core) → 3.11 shows the 6000 itself was repriced downward before the X, which fits the claim that the remaining 6000 volume is the high-price tail.",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/2019/10/TxGen_pricing_internal_2019_10_01_v05.pdf",
+      "date": "2019-10 to 2024-05",
+      "source_name": "TxGen price sheets; Univ. of Kentucky SRF handout",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives a multi-year per-Gb path for the S4, which the known list does not (it has only the 2025–26 S4 points)."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Cross-institution S4:25B per-Gb ratios of about 1.7x (UConn S4 vs TxGen 25B) are well below 3.4x, so core-level data on its own gives only a modest conversion price cut.",
+      "detail": "UConn S4-300 $5.53/Gb (Jan 2025) and $5.31/Gb (Feb 2026) against TxGen 25B $3.20/Gb (Feb 2025) give 1.73x and 1.66x. Against the 2024 TxGen 25B at $3.11, the ratio is 1.78x (Jan 2025 UConn) and 1.71x (Feb 2026). This is consistent with the known finding that the core-level ratio sits far below the vendor-level 3.4x. It is partly a different-institution comparison, and contract-priced UConn S4 is likely cheaper than what a near-list lab pays.",
+      "url": "https://genome.center.uconn.edu/?p=891",
+      "date": "2025-01 to 2026-02",
+      "source_name": "UConn CGI; TxGen",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds a lower-bound ratio (1.7x) from a contract-priced S4, below the 2.3–3.1x core ratios already logged."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A large core's published rates give no sign of research-side discounts on the X: its prices are at or just above Illumina list, and it rose in 2025 while the 10B stayed 1.63x the 25B per Gb.",
+      "detail": "TxGen's 25B-300 flow cell was $24,224 in May 2024, about equal to Illumina's $24,155 list. It was $24,951 in Feb 2025, 3.3% above list. A core resells at or above list and funds the discount through lane-level markups and internal-rate tiers. This contradicts the 'insane discounts for research' idea at the core level, though Broad-scale buyers are not represented.",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf",
+      "date": "2025-02-21",
+      "source_name": "TxGen price sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Ties TxGen to the Illumina published list with a dated before-and-after comparison."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "TxGen's 25B 100-cycle flow cell is priced at $17,611, about 1.5x Illumina's published $11,700, while its 300-cycle is about 1.03x list, so cycle-count pricing is compressed at cores.",
+      "detail": "Feb 2025 TxGen: 25B 100-cycle flow cell $17,611, 300-cycle $24,951. The 100/300 price ratio is 0.71, against 0.48 for Illumina's published list ($11,700/$24,155). A core therefore recovers its margin on short-read runs, which sit outside the headline per-Gb comparison. This matches the KUMC pattern already logged.",
+      "url": "https://www.txgen.tamu.edu/wp-content/uploads/txgen/TxGen_Prices.pdf",
+      "date": "2025-02-21",
+      "source_name": "TxGen price sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A second core replicates the compressed cycle-count pattern, using a TxGen 25B-100 flow-cell price of $17,611."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MDC Berlin's SP v1.5 300-cycle price was unchanged at €3,096.50 between its 15 Nov 2020 and 15 Apr 2021 lists, so European core prices on the 6000 were sticky for at least that period.",
+      "detail": "Search snippets of MDC media/38662 (dated 15.11.2020) and media/39029 (15.04.2021) show the same SP v1.5 300-cycle net price. The S4 rows were not readable, so the probe-note S4 v1.5 300-cycle €14,435.30 was not confirmed. The text of the MDC PDFs could not be extracted without a PDF tool.",
+      "url": "https://www.mdc-berlin.de/media/39029",
+      "date": "2020-11-15 and 2021-04-15",
+      "source_name": "MDC Berlin Genomics Platform price list",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Unread until now. This is a single unchanged data point and it is old, so it is only context."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The TxGen/MDC/UConn PDFs are compressed streams that WebFetch cannot decode, Bash is disabled and the Read tool needs pdftoppm, so I worked only from search-snippet text and HTML. I did not get the TxGen S4 6000 row for 2022/2024/2025 or any NovaSeq X rows before May 2024. The MDC S4 and X rows (media 38662, 39029, 39941) are unread, so the €14,435.30 S4 figure is unconfirmed. A later agent with a PDF tool should extract TxGen v4.4 (2022-06-30), v12 (2024-05-04), the Feb 2025 sheet, the Sep 2020 sheet and the MDC PDFs. They should compute S4:25B per-Gb by year and check the Sep 2020 vs 2019 audience question (internal vs external).",
+  "leads": [
+    {"name": "TxGen v4.4 price sheet (30 Jun 2022)", "url": "https://www.txgen.tamu.edu/wp-content/uploads/2022/06/TxGen_Prices_v4.4_2022_06_30_MB.pdf", "access": "public PDF, needs a PDF text tool", "labels": ["1A", "1B"], "rationale": "Would give 2022 S4 and early X prices, which would fill the missing middle of the TxGen S4 series."},
+    {"name": "TxGen v12 (May 2024) full PDF", "url": "https://www.txgen.tamu.edu/wp-content/uploads/2024/04/TxGen_Prices_v12_2024_05_04_v3.pdf", "access": "public PDF, needs a PDF text tool", "labels": ["1A"], "rationale": "Would give the 6000 S4 row alongside the X 25B, so a same-core S4:25B ratio for 2024 could be computed."},
+    {"name": "Kentucky SRF Illumina handout 2022–23", "url": "https://WWW.UKHEALTHCARE.UKY.EDU/sites/default/files/2022-11/OG%20SRF_NGS_Illumina%20Sequencing%202022-2023%20Handout.pdf", "access": "public PDF", "labels": ["1A", "1B"], "rationale": "S4-300 at $17,132 ($5.71/Gb) in 2022. Later Kentucky sheets would give a same-core time series."},
+    {"name": "MSU RTSF NovaSeq 6000 by lane and by flow cell (19 Jul 2023)", "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/NovaSeq%206000%20Sequencing%20Available%20by%20the%20Flow%20Cell_19July2023.pdf", "access": "public PDF", "labels": ["1A"], "rationale": "A dated 6000 price point from a core that retired its 6000 in Dec 2024, so it could be compared with the AVITI replacement price."},
+    {"name": "Calgary CHGI internal price lists June 2024 vs 2025", "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf", "access": "public PDF", "labels": ["1A", "1B"], "rationale": "S4 v1.5 300-cycle PE150 at $22,420 in 2025. The 2024 version would give a year-on-year change."},
+    {"name": "Virginia Tech GSC Pricing Guide Sep 2024", "url": "https://fralinlifesci.vt.edu/content/dam/fralinlifesci_vt_edu/core-services/gsc/2024-09-01-GSC-Pricing-Guide.pdf", "access": "public PDF", "labels": ["1B", "2A"], "rationale": "An additional dated core rate card, not yet used."}
+  ],
+  "apify_requests": []
+}
+```

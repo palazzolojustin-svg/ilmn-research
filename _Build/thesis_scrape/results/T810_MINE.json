@@ -1,0 +1,84 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UCSD IGM's NovaSeq X Plus 10B 300-cycle lane fell 17.6% year on year, the deepest cut among its 300-cycle lanes, while the 1.5B was nearly flat.",
+      "detail": "2025 sheet (search-result snippet) vs 2026 PNG, UC rate per lane. 10B-300 went $1,700 → $1,400 (−17.6%), 10B-200 $1,500 → $1,325 (−11.7%), and 10B-100 $1,250 → $1,100 (−12.0%). The 1.5B-200 went $3,000 → $2,950 (−1.7%). The 25B-300 went $2,800 → $2,550 (−8.9%). So the deflation falls on the large flow cells that carry most Gb. That fits the 35B stacking story, because a 35B priced on the same curve would pull the 25B down further. The 1.5B unit may be per flow cell in 2025 and per lane in 2026 (see notes), so treat that line as unreliable.",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/2026%20rates%20flow%20cell%20fix.png",
+      "date": "2026-10 (PDF created 7 Oct 2026; PNG footnote 'some rates pending committee approval')",
+      "source_name": "UCSD Institute for Genomic Medicine (IGM) rate sheet 2026 vs 2025",
+      "source_type": "price_list",
+      "quote": "Some rates pending committee approval.",
+      "strength": "medium",
+      "why_new": "The known list has IGM 25B cuts of 9–23% and the 10B at $1,100–1,400 (F1037/F1038). It does not have the line-by-line 10B and 1.5B changes or the large-versus-small flow-cell pattern."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At 100 cycles, IGM's 25B lane per-read price fell from about 61% to about 53% of the 10B's, so the big flow cell is being priced more aggressively on short reads.",
+      "detail": "Per million reads, assuming nominal 1.25B reads per 10B lane and 3.125B per 25B lane (my assumption from Illumina's specs). At 100 cycles in 2025: 10B $1,250/1,250 = $1.00 and 25B $1,900/3,125 = $0.61, a ratio of 0.61. At 100 cycles in 2026: 10B $1,100 → $0.88 and 25B $1,465 → $0.47, a ratio of 0.53. The 25B-100 lane fell 22.9% ($1,900 → $1,465). At 300 cycles the ratio instead rose, from 0.66 (1,700/1,250 vs 2,800/3,125) to 0.73 (1,400 vs 2,550), so the pattern is uneven and not a uniform deepening.",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/2026%20rates%20flow%20cell%20fix.png",
+      "date": "2026-10",
+      "source_name": "UCSD IGM rate sheet 2026 vs 2025 (derived)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a derived per-read tier ratio for IGM at 100 vs 300 cycles. Existing items cover Bauer (D085, F906) and not IGM."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "IGM's outside-user premium stayed at exactly 37% over UC in both years, so cuts were passed through to outside research users in proportion and were not deeper for them.",
+      "detail": "2025 25B-300: $3,836 / $2,800 = 1.370. 2026 25B-300: $3,493 / $2,550 = 1.370. 2026 25B-100: $2,007 / $1,465 = 1.370, and 10B-300: $1,918 / $1,400 = 1.370. The outside lane fell 8.9% ($3,836 → $3,493), the same as the UC lane. This is a fixed policy markup, not a price-sensitive 'insane discount' structure.",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/2026%20rates%20flow%20cell%20fix.png",
+      "date": "2026-10",
+      "source_name": "UCSD IGM rate sheet 2026 vs 2025",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A UCSD IGM outside premium of 37% is known in rough form (F793), but the constant ratio across years and lines and the outside-lane price paths are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "IGM's 2026 sheet shows $2.55K UC / $3.49K outside for the 25B-300 lane, which is about $2.55 per Gb at a nominal ~1 Tb lane. That is still above the ~$2.00/Gb that the 35B cut is expected to reach.",
+      "detail": "UC rate $2,550 per 25B-300 lane. At ~1,000 Gb per lane (about the 875–1,000 Gb used by other cores in the known list), that is ~$2.55/Gb for UC users and ~$3.49/Gb for outside users. The 25B-200 lane is $2,320 (UC) and the 25B-100 lane is $1,465. A 20% 35B cut passed through would give ~$2.04/Gb for UC users. The page is a core price, so it includes the core's own overhead and margin, not Illumina's net price.",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/2026%20rates%20flow%20cell%20fix.png",
+      "date": "2026-10",
+      "source_name": "UCSD IGM rate sheet 2026",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a per-Gb anchor for IGM's 2026 sheet. Known IGM items give the lane price changes but not a per-Gb figure against the 35B target."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I could not fetch the PDFs as text (the fetch tool returns binary, and Read needs pdftoppm, which is not installed). I read the 2026 PNG visually in full. The 2025 comparison values come from two search-result snippets of the 2025 PDF, so they are partial: 25B-100 $1,900, 25B-300 $2,800, 10B-100/200/300 $1,250/$1,500/$1,700, and 1.5B-200 $3,000 (labelled 'per flow cell' in the snippet versus 'per lane' in 2026). The 2025 25B-200 line and the 1.5B-100 and 1.5B-300 lines were not seen, so their changes cannot be computed. I did not confirm whether the PDF text matches the PNG, and I did not find the 2025 NovaSeq 6000 line. The 2026 PNG has no NovaSeq 6000 row, only X Plus, MiSeq i100, 10x, Xenium and GeoMx. The IGM node/123 page also does not mention the 6000. A local pdftotext run on the PDFs would complete the 2025 and 2026 comparison. The 2026 sheet also lists a $225 'Combo Fee' (outside $308), a charge on top of the lane price (not explained on the sheet).",
+  "leads": [
+    {
+      "name": "IGM 2025 rate sheet PDF (full text)",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202025%20New%20IDC.pdf",
+      "access": "public (binary; needs pdftotext/OCR)",
+      "labels": ["1A", "1B"],
+      "rationale": "Needed for the 1.5B 100/300, 25B-200 and any 6000 lines for a full 2025→2026 comparison."
+    },
+    {
+      "name": "IGM 2026 rate sheet PDF",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202026%20New%20IDC%20Chloes%20edits_0.pdf",
+      "access": "public (binary)",
+      "labels": ["1B"],
+      "rationale": "Confirm whether it matches the PNG, which is labelled a flow-cell fix. The PNG says rates are pending approval."
+    },
+    {
+      "name": "IGM Illumina platform page",
+      "url": "https://igm.ucsd.edu/node/123",
+      "access": "public",
+      "labels": ["1B", "2A"],
+      "rationale": "Carries run configurations that the page says are 'subject to approval by rates committee'. Archived versions on the Wayback Machine would give an earlier-year baseline."
+    }
+  ],
+  "apify_requests": []
+}
+```

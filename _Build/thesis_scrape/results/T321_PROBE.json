@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "I ran 15 queries against the Europe PMC REST API and read hitCount from each response. The API is open and needed no login. I made the calls with WebFetch, whose small model summarises the page, so each hitCount is a model-reported value. I did not see the raw JSON. Not run: 2022, the OPEN_ACCESS and METHODS: field variants, the FIRST_PDATE quarterly split for 2026, 'NextSeq 2000', and 'Axelios' OR 'SBX'. Counts are all papers whose full text mentions the phrase in any section, not methods-only. 2026 is a partial year (to 12 Oct), and Europe PMC's full-text indexing lags, so 2026 is probably undercounted.\n\nShare among the three Illumina/competitor phrases, using hits that mention 'NovaSeq 6000':\n\n| Year | 6000 | X | AVITI | UG/Ultima | DNBSEQ |\n|---|---|---|---|---|---|\n| 2023 | 8,565 | 20 | n/a | n/a | n/a |\n| 2024 | 11,122 | 382 | 53 | 64 | 1,398 |\n| 2025 | 15,228 | 2,235 | 219 | 70 | 2,352 |\n| 2026 YTD | 13,011 | 3,436 | 292 | n/a | n/a |\n\nX as a share of (6000 + X) mentions: 0.2% (2023), 3.3% (2024), 12.8% (2025), 20.9% (2026 YTD). AVITI mentions as a share of 6000 mentions: 0.5% (2024), 1.4% (2025), 2.2% (2026 YTD). Ultima is flat at 64 to 70 mentions. DNBSEQ is large, at 15% of 6000-mention volume in 2025, and rose 68% in 2025.\n\nRead-through: 6000 mentions are still rising in absolute terms (+37% in 2025, and 2026 YTD is already 85% of the 2025 total). The research literature still describes the 6000 as the dominant platform, with the X only about 13 to 21% of mentions. This is consistent with a long research tail on the 6000, and it supports 1A mildly. It is not consistent with the 'research is ~91% on the X' share of Gb, so the papers lag by roughly 6 to 18 months, plus publication and indexing delay. This is a weak lagging proxy for share. It is weak evidence for 2B: AVITI and Ultima are still tiny against Illumina in papers, and DNBSEQ (an MGI platform) is the larger rival signal. The 6000 count also includes papers that reuse old data or cite reference datasets.",
+  "how_to_mine": "Re-run through the same endpoint with: (1) PUB_YEAR 2022; (2) FIRST_PDATE:[2026-01-01 TO 2026-03-31] and so on for quarters; (3) the field forms METHODS:\"NovaSeq 6000\" AND OPEN_ACCESS:y, which restricts to open-access methods text and is the cleanest share measure; (4) \"NextSeq 2000\", \"Axelios\" OR \"SBX\", \"Revio\", \"NovaSeq X Plus\"; (5) a denominator query such as \"Illumina\" AND the same year. Compute shares with the denominator held fixed, because the open-access full-text corpus grows over time. Check the model-reported counts by fetching raw JSON with curl. Optionally add a spot check of 2026 papers with both 'NovaSeq 6000' and 'NovaSeq X' (dual running).",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Europe PMC full-text mentions of 'NovaSeq 6000' were still rising in 2025 and early 2026, and still far outnumbered 'NovaSeq X' mentions.",
+      "detail": "Papers mentioning 'NovaSeq 6000' were 8,565 in 2023, 11,122 in 2024 and 15,228 in 2025, with 13,011 already in 2026 YTD. 'NovaSeq X' mentions were 20, 382, 2,235 and 3,436 in the same periods. The X share of 6000+X mentions was 12.8% in 2025 and 20.9% in 2026 YTD. These are any-section full-text mentions, not methods-only, and papers lag the sequencing run by 6 to 18 months.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22NovaSeq%206000%22%20AND%20PUB_YEAR:2025&format=json&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "Europe PMC REST API (full-text search)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Publication-count proxy for platform share has not been used before, and it shows the 6000 is still the main platform in the research literature."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Competitor platforms are still very small in research papers: AVITI and Ultima mentions were below 2.5% of NovaSeq 6000 mentions.",
+      "detail": "AVITI mentions were 53 (2024), 219 (2025) and 292 (2026 YTD), versus 6000 mentions of 11,122, 15,228 and 13,011. Ultima/UG100 mentions were flat at 64 (2024) and 70 (2025). DNBSEQ is the larger rival, at 1,398 (2024) and 2,352 (2025), up 68%. The lag means this understates the current share of competitors.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22AVITI%22%20AND%20PUB_YEAR:2025&format=json&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "Europe PMC REST API (full-text search)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first quantified publication-share view of rival platforms, and DNBSEQ's size relative to AVITI and Ultima is not in the known list."
+    }
+  ],
+  "new_candidates": [
+    "Europe PMC METHODS: field with OPEN_ACCESS:y for a cleaner share measure",
+    "SRA/GEO instrument metadata counts by quarter (the earlier ENA/SRA probe was dry)"
+  ],
+  "apify_requests": []
+}
+```

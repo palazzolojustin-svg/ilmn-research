@@ -1,0 +1,49 @@
+```json
+{
+  "status": "dry",
+  "notes": "I read the S-1/A (17 Oct 2025, accession 0001193125-25-242632) across roughly 400K of its 479K characters. The only EDGAR filings listed under the CIK are the S-1 (7 Oct 2025) and the S-1/A, and no 424B4 appeared in the list I fetched. The supplier risk factor is generic. It never names Illumina or a sequencer model, and it gives no supply-agreement terms, price protection or Gb per test. The final ~79K characters were not read, and they are probably the financial-statement notes. The D. Del. complaint (S663) was not found on a free mirror: searches returned only news coverage (Bloomberg Law, 360dx, GenomeWeb), not the CourtListener docket. The cost-of-revenue disclosure below is new, but it cuts mildly against the thesis. Both items are weak to medium and neither is a clean supports/against datapoint for 1C.",
+  "how_to_mine": "1) Fetch the last ~79K characters of d903739ds1a.htm (offset 400000, then 450000) and check the financial-statement notes for 'purchase commitments', 'Illumina' and 'supply agreement'. 2) Check whether a 424B4 exists (filed around early Nov 2025) and the 10-K for FY25 and the 10-Qs for 2026. These may name Illumina in the supplier and legal-proceedings sections and may give the cost per test trend through 2026. 3) Search CourtListener directly for 'Illumina v. BillionToOne' (D. Del., filed 7 May 2026) and read the complaint's allegations on how BillionToOne's Unity tests are run and when they began. Also read BillionToOne's answer or motion to dismiss. 4) Use the S-1 Business section's description of the Unity workflow to find reads per sample or the sequencer platform.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "BillionToOne, a high-volume NIPT lab, cut its cost per test by more than 50% in about three years, partly through higher-throughput sequencing.",
+      "detail": "The S-1/A MD&A says COGS per test fell more than 50% over roughly three years through automation and assay redesign, including higher-throughput sequencing. Gross margin rose from 51% (H1'24) to 65% (H1'25). About 28% of that gain came from lower cost per test and about 72% from higher ASP. This shows the NIPT customer is capturing sequencing cost deflation as margin, rather than reinvesting it in depth. That is consistent with price per Gb falling and with volume per test not rising, which fits the pricing leg of the thesis but not a Gb-per-test increase.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2070849/000119312525242632/d903739ds1a.htm",
+      "date": "2025-10-17",
+      "source_name": "BillionToOne S-1/A (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "higher-throughput sequencing",
+      "strength": "weak",
+      "why_new": "The known list has only 'BillionToOne cost/test relatively stable' and the plateau of cost declines. This is a quantified >50% three-year COGS/test decline from the S-1."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "BillionToOne's prospectus describes sole- and single-source sequencer and reagent suppliers with a 1-9 month replacement time.",
+      "detail": "The risk factors say BillionToOne relies on a limited number of suppliers, some sole- or single-source. They estimate that replacing a supplier could take about 1-9 months, and the company aims to hold at least 3 months of inventory. They also say that if the FDA required clearance for the RUO-labelled sequencers, it 'would have to find an alternative sequencing platform'. The filing does not name Illumina, so this is only weak evidence of lock-in. It implies that volume growth in NIPT is tied to Illumina supply and has no near-term alternative.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2070849/000119312525242632/d903739ds1a.htm",
+      "date": "2025-10-17",
+      "source_name": "BillionToOne S-1/A (SEC EDGAR)",
+      "source_type": "filing",
+      "quote": "we would have to find an alternative sequencing platform",
+      "strength": "weak",
+      "why_new": "The known list notes only the Illumina patent suit against BillionToOne. It does not include the prospectus's supplier-concentration language."
+    }
+  ],
+  "new_candidates": [
+    {
+      "id": "S-new-1",
+      "url": "https://www.courtlistener.com/?q=%22Illumina%22+%22BillionToOne%22",
+      "why": "The D. Del. complaint (filed 7 May 2026) is the only way to see the platform timeline the dry S-1/A did not give. The search did not locate the docket."
+    },
+    {
+      "id": "S-new-2",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070849&type=10-K",
+      "why": "The FY25 10-K and 2026 10-Qs may name Illumina as supplier, give purchase commitments, and show updated cost per test."
+    }
+  ],
+  "apify_requests": []
+}
+```

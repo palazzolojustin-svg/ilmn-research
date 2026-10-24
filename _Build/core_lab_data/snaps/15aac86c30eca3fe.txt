@@ -1,0 +1,197 @@
+Pricing | Microarray & Sequencing Resource
+Skip to Main Content
+Microarray & Sequencing Resource
+Menu
+Search
+Services
+Pricing
+Service Request
+Contact
+Team
+News
+Search
+Search for:
+Pricing
+Agilent Nucleic Acid Quality Analysis
+Application2 |
+Pricing1
+|
+Agilent Bioanalyzer |
+|
+RNA Pico assay for total RNA |
+$15.00 |
+DNA 1000 assay for dsDNA |
+$15.00 |
+DNA high sensitivity assay for dsDNA |
+Enquire |
+Enquire |
+Small Genome |
+|
+|
+– Illumina Nextera XT |
+$135.00 |
+$235.00 |
+Library preparation using reagents from other vendors are available on request
+All library preparation prices listed are cost per sample
+Illumina NextSeq 2000
+Next Generation Sequencing with XLEAP Chemistry
+Unfortunately, Illumina has recently instituted a small surcharge which is reflected in our updated sequencing pricing.
+Application |
+Internal
+Pricing1
+|
+External
+Commerical
+Pricing1 |
+P1 Flow Cell: ~100M Read Pairs or Single Reads2 |
+|
+|
+– 100 Cycles |
+$1300.00 |
+$1775.00 |
+– 300 Cycles |
+$1750.00 |
+$2415.00 |
+– 600 Cycles |
+$2500.00 |
+$3260.00 |
+P2 Flow Cell: ~400M Read Pairs or Single Reads2
+|
+|
+|
+– 100 Cycles |
+$1650.00 |
+$2125.00 |
+– 200 Cycles |
+$1900.00 |
+$2470.00 |
+– 300 Cycles |
+$2150.00 |
+$2815.00 |
+– 600 Cycles |
+$4150.00 |
+$4910.00 |
+P3 Flow Cell: ~1.1B Read Pairs or Single Reads2
+|
+|
+|
+– 100 Cycles |
+$2300.00 |
+$2775.00 |
+– 200 Cycles |
+$3250.00 |
+$3820.00 |
+– 300 Cycles |
+$3450.00 |
+$4115.00 |
+P4 Flow Cell: ~1.7B Read Pairs or Single Reads2 |
+|
+|
+– 50 Cycles |
+$2550.00 |
+$3025.00 |
+– 100 Cycles |
+$3000.00 |
+$3475.00 |
+– 200 Cycles |
+$4400.00 |
+$4970.00 |
+– 300 Cycles |
+$4650.00 |
+$5315.00 |
+All sequencing prices listed are total cost per run, not per sample
+Read pairs are produced in paired-end sequencing, and single reads are produced in single-end sequencing
+Illumina NextSeq 2000
+Next Generation Sequencing with Legacy V3 Chemistry
+Unfortunately, Illumina has recently instituted a small surcharge which is reflected in our updated sequencing pricing.
+Application |
+Internal
+Pricing1
+|
+External
+Commercial
+Pricing1 |
+P1 Flow Cell: ~100M Read Pairs or Single Reads2 |
+|
+|
+– 100 Cycles |
+$1450.00 |
+$1925.00 |
+– 300 Cycles |
+$2000.00 |
+$2665.00 |
+– 600 Cycles |
+$2750.00 |
+$3510.00 |
+P2 Flow Cell: ~400M Read Pairs or Single Reads2
+|
+|
+|
+– 100 Cycles |
+$1800.00 |
+$2275.00 |
+– 200 Cycles |
+$3050.00 |
+$3620.00 |
+– 300 Cycles |
+$3950.00 |
+$4415.00 |
+– 600 Cycles |
+$4150.00 |
+$4615.00 |
+P3 Flow Cell: ~1.1B Read Pairs or Single Reads2
+|
+|
+|
+– 50 Cycles |
+$2450.00 |
+$2925.00 |
+– 100 Cycles |
+$2900.00 |
+$3375.00 |
+– 200 Cycles |
+$3900.00 |
+$4470.00 |
+– 300 Cycles |
+$5150.00 |
+$5815.00 |
+All sequencing prices listed are total cost per run, not per sample
+Read pairs are produced in paired-end sequencing, and single reads are produced in single-end sequencing
+Illumina NextSeq 500 Next Generation Sequencing
+Application |
+Internal
+Pricing1
+|
+External
+Commercial
+Pricing1 |
+Mid Output: ~130M Read Pairs or Single Reads2
+|
+|
+|
+– 150 Cycles |
+$2050.00 |
+$2620.00 |
+– 300 Cycles |
+$3000.00 |
+$3665.00 |
+High Output: ~400M Read Pairs or Single Reads2 |
+|
+|
+– 75 Cycles |
+$2450.00 |
+$2925.00 |
+– 150 Cycles |
+$4300.00 |
+$4870.00 |
+– 300 Cycles |
+$6650.00 |
+$7315.00 |
+All sequencing prices listed are total cost per run, not per sample
+Read pairs are produced in paired-end sequencing, and single reads are produced in single-end sequencing
+Sequencing Data Analysis1
+Number of Samples2 |
+Pricing
+|
+1 – 6 |
+$500.00 |

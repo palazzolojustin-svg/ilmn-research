@@ -1,0 +1,116 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare-FFS tissue and liquid CGP volume at three of Illumina's big oncology customers is growing slowly or not at all, at a CMS-fixed price. That fits a saturated therapy-selection market.",
+      "detail": "Foundation Medicine's tissue code 0037U went from 15,551 services to 13,787 (−11.3%), and its liquid code 0239U was flat at 7,188 vs 7,181 (+0.1%). Combined that is 22,739 → 20,968 (−7.8%). Tempus's genomic-panel services (81455/81456 in the older file; 81455/56/59/64, 0473U, 81450/51/63 in the latest) rose 44,896 → ~50,900 (+13%). Allowed dollars rose $128.3M → ~$145.2M (+13%), with every Tempus panel at ~$2,857. The Tempus comparison is inflated or deflated by a CPT code restructure (81455 fell from 30,175 to 3,203 services), so treat it as approximate. The Medicare-age slice need not match total test growth.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/335e5f35-eca6-482d-87b3-f99883e213e3/data?filter[Rndrng_NPI]=1740733708&size=100",
+      "date": "CMS vintages labelled 2024-12-01 (latest) vs 2023-12-31",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service (data.cms.gov API)",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has the FMI −7.8% figure only. The Tempus time series and the FMI tissue/liquid split are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare-FFS volume at the established hereditary and broad-panel labs is flat or shrinking. Caris, the one large oncology lab in the file that is growing, grew about +17%.",
+      "detail": "Services on code 81479 (the catch-all molecular code, so a proxy only): Caris 25,033 → 29,370 (+17.3%, price $3,382 → $3,421). Myriad 17,148 → 17,612 (+2.7%). Invitae 40,806 → 22,979 (−44%), though Labcorp Genetics now bills 11,242, so the combined drop is −16%. Ambry rose 22,535 → 29,300 (+30%) and CareDx was flat at 35,002 → 34,671. BRCA code 81162 across all labs went 6,676 → 6,532 services (−2%). Caris's Medicare growth sits below its own ~+18% total case growth and below the +35% Natera shows in the same code. Hereditary and other mature lines are therefore not adding Gb.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/335e5f35-eca6-482d-87b3-f99883e213e3/data?filter[HCPCS_Cd]=81479&filter[Rndrng_Prvdr_Type]=Clinical%20Laboratory&size=100",
+      "date": "CMS vintages labelled 2024-12-01 vs 2023-12-31",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Lab-by-lab 81479 and 81162 series for Caris, Myriad, Invitae/Labcorp, Ambry and CareDx are not in the known list. Only Natera and Adaptive Medicare series are."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare billed almost no whole-genome or exome sequencing in this file. WGS is too small a share of mix to offset slower NIPT or CGP volume.",
+      "detail": "Exome code 81415 returned no rows. Genome code 81425 returned one row, Baylor Miraca Genetics, with 127 services at $4,931 allowed (~$0.63M). Signatera's 0340U alone had 25,746 services (~$90.6M) in the same file. NIPT code 81420 has 50 services in total (Labcorp 39, Quest 11, $744 each). Medicare is an older population, so this understates pediatric and prenatal WGS. Still, the largest clinical payer shows no WGS mix to speak of, which matches the thesis that WGS and MRD-WGS are not yet meaningful.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=81425&size=50",
+      "date": "CMS latest vintage (labelled 2024-12-01)",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has 81420/NIPT as negligible but has no exome/WGS claims count."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Guardant's Medicare liquid CGP (0326U) volume grew about +17% in the latest year, not flat or +5%. The price also rose 38.5%, so this customer's Medicare volume is still expanding.",
+      "detail": "Services went 16,798 → 19,695 (+17.2%). Beneficiaries went 15,346 → 17,856 (+16.4%). Average allowed went $3,533 → $4,892 (+38.5%), so allowed dollars went ~$59.4M → ~$96.3M (+62%). This conflicts with the known D038/F429 readings (~5% more tests; essentially flat). The cause could be a different year pairing or a different row, so the analyst should reconcile before using either. A strong Guardant liquid book would support Illumina clinical volume.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/0e9f2f2b-7bf9-451a-912c-e02e654dd725/data?filter[HCPCS_Cd]=0326U&size=50",
+      "date": "CMS vintages labelled 2023-12-31 vs 2024-12-01",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "It updates or contradicts the known Guardant Medicare growth figures with exact row values. Reconcile before use."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's Medicare MRD cadence per patient rose about 10% on code 0340U, and unique patients rose about 70%. Test growth there is real.",
+      "detail": "Code 0340U: 7,028 beneficiaries and 13,783 services (1.96 services per beneficiary, $3,838) → 11,922 beneficiaries and 25,746 services (2.16, $3,519). Services +87%, beneficiaries +70%, price −8.3%. Code 81479 for Natera went 15,483/22,512 → 20,898/30,323 (+35% services), and its cadence was flat at 1.45. Adding the two gives ~$133M → ~$196M allowed (+47%). The services-per-beneficiary ratio is partly a partial-year artifact of newly enrolled patients, so it is only a loose proxy for draws per year. The per-year Gb-per-draw logic is unchanged, but MRD test counts are growing fast.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/0e9f2f2b-7bf9-451a-912c-e02e654dd725/data?filter[Rndrng_NPI]=1558672279&size=50",
+      "date": "CMS vintages labelled 2023-12-31 vs 2024-12-01",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The 0340U cadence delta (1.96 → 2.16) is quantified. D037 and F438 give only the 2.2 level and a direction."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Medicare pays a single administered rate for CGP panels across all labs, about $2,857 per panel. Customers' revenue per test is therefore set by CMS, which leaves the sequencing-cost line as their main lever.",
+      "detail": "Tempus's 81455/81456/81459/81464 all price at $2,846–$2,858 allowed. Circulogene, Bostongene and NeoGenomics sit at $2,853–$2,861 on 81455, and FMI's tissue and liquid codes sit at $3,418–$3,424. A Medicare rate that does not move with labs' sequencing cost, followed by the known CY2027 CLFS cuts of −22/−23% on sequencing codes, puts the pressure on lab margins. That is the inference for why large labs press Illumina on reagent price. It is the analyst's inference, not a customer statement.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data?filter[HCPCS_Cd]=81455&size=50",
+      "date": "CMS latest vintage (labelled 2024-12-01)",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has the CY2027 cuts but not the uniform ~$2,857 administered CGP rate across labs."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Illumina's exposure to Foundation Medicine's liquid biopsy appears stagnant on Medicare claims over a multi-year span.",
+      "detail": "FMI 0239U services were 7,261 (two NPI rows, 1,087 + 6,174 = 7,261, in the older 2021-labelled file), then 7,188, then 7,181 in the latest file. That is flat to −1% over the span, with a price of ~$3,423 vs ~$3,493 earlier. Together with tissue 0037U at −11%, a Roche-owned CGP customer is not adding sequencing volume in the Medicare-age cohort. The year of the oldest file is uncertain.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/31dc2c47-f297-4948-bfb4-075e1bec3a02/data?filter[HCPCS_Cd]=0239U&size=20",
+      "date": "CMS vintages labelled 2021-12-02, 2023-12-31, 2024-12-01",
+      "source_name": "CMS Medicare Physician & Other Practitioners by Provider and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A three-vintage FMI liquid series is not in the known list, which has only a 2024 −7.8% reading."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Dataset ids: 'latest' 92396110-2aed-4d63-a6a2-5d6207d46a29, which matched the 335e5f35-eca6-482d-87b3-f99883e213e3 vintage in every comparison (labelled 2024-12-01). Older ids: 0e9f2f2b-7bf9-451a-912c-e02e654dd725 (2023-12-31), 31dc2c47-f297-4948-bfb4-075e1bec3a02 (2021-12-02), 867b8ac7-ccb7-4cc9-873d-b24340d89e32 (2019), 85bf3c9c-2244-490d-ad7d-c34e4c28f8ea (2017), 7918e22a-fbfb-4a07-9f59-f8aab2b757d4 (2016). The 2022 id was not found. The catalog labels are release dates, so the true calendar year of each vintage is uncertain: the data may be CY2023 for the latest and CY2022 for the prior, not CY2024/CY2023. Prior items assumed CY2024, and the 'Natera −8.3% price' reading is consistent either way. Not mined: Adaptive clonoSEQ, GeneDx and Tempus 81479, and Medicare Advantage, which this file excludes. Row-level numbers were relayed through a summarizer, so spot-check any item before using it.",
+  "leads": [
+    {
+      "name": "CMS Medicare Physician & Other Practitioners - by Provider (summary, NPI-level)",
+      "url": "https://catalog.data.gov/dataset/medicare-physician-other-practitioners-by-provider",
+      "access": "public API",
+      "labels": ["1C"],
+      "rationale": "It could confirm the vintage year and give total Medicare services and beneficiaries per lab NPI, which would normalise the lab-level growth rates above."
+    },
+    {
+      "name": "CMS Clinical Laboratory Fee Schedule (CLFS) PLA code rates by quarter",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/clinical-laboratory-fee-schedule/clfs-files",
+      "access": "public download",
+      "labels": ["1B", "1C"],
+      "rationale": "It gives dated rate histories for 0340U, 0326U and 0239U. These cross-check the $3,920 → $3,590 Signatera cut and the 38% Guardant rise."
+    }
+  ],
+  "apify_requests": []
+}
+```

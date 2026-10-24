@@ -1,0 +1,83 @@
+GSF FY2023 Price Schedule - Greehey Children's Cancer Research Institute
+Skip to main content
+Part of UT Health San Antonio
+Part of UT Health San Antonio
+Desktop Search
+Mobile Search
+Menu
+Home
+About
+Research
+Services
+Labs
+Events
+Get Involved
+Careers
+5K Fun Run
+Summer Program
+Home
+About
+Research Focus
+Services
+Labs
+Events
+Get Involved
+Careers
+Home » Services » Genome Sequencing Facility (GSF) » GSF FY2023 Price Schedule
+GSF FY2023 Price Schedule
+The fee schedule was formulated on the basis of the operating expenses of the laboratory in addition to a comparison with other academic NGS facilities. A project charge is agreed upon for some multi-faceted complex investigations to cover a specific time period and the estimated number of analyses. Fees are reviewed annually and adjusted as necessary, with guidance from the Science Advisory Committee. Please contact Director Dr. Zhao Lai (laiz@uthscsa.edu) for details.
+Illumina
+Illumina NovaSeq6000 Standard workflow (whole flow cell) | MCC | UTHSA | External |
+SP-100 (50PE# module, 650M - 800M CPF*) | $3,300 | $3,500 | $3,700 |
+SP-200 (100PE module) | $4,400 | $4,600 | $4,900 |
+SP-300 (150PE module) | $4,600 | $4,800 | $5,100 |
+SP-500 (250PE module) | $6,000 | $6,200 | $6,500 |
+S1-100 (50PE module, 1.3B -1.6B CPF) | $5,700 | $6,000 | $6,300 |
+S1-200 (100PE module) | $6,700 | $7,000 | $7,300 |
+S1-300 (150PE module) | $7,400 | $7,800 | $8,100 |
+S2-100 (50PE module, 3.3B - 4.1B CPF) | $9,300 | $9,700 | $10,100 |
+S2-200 (100PE module) | $11,900 | $12,400 | $12,800 |
+S2-300 (150PE module) | $12,900 | $13,400 | $13,800 |
+S4-200 (100PE module, 8B - 10B CPF) | $16,200 | $16,800 | $17,100 |
+S4-300 (150PE module) | $18,200 | $18,800 | $19,100 |
+# PE: paired-end sequencing; SR: single read sequencing
+*CPF: clusters passing filter. In the case of PE sequencing, they will be twice as much)
+Illumina NovaSeq6000 Xp workflow (separate lane: SP, S1, S2 with 2 lanes, S4 with 4 lanes) | MCC | UTHSA | External |
+SP-100 Xp (50PE module, 325M - 400M CPF*) | $2,100 | $2,300 | $2,500 |
+SP-200 Xp (100PE module) | $2,500 | $2,700 | $2,900 |
+SP-300 Xp (150PE module) | $2,700 | $2,900 | $3,100 |
+SP-500 Xp (250PE module) | $3,500 | $3,800 | $4,000 |
+S1-100 Xp (50PE module, 650M - 800M CPF) | $3,100 | $3,400 | $3,600 |
+S1-200 Xp (100PE module) | $3,800 | $4,100 | $4,300 |
+S1-300 Xp (150PE module) | $4,100 | $4,400 | $4,700 |
+S2-100 Xp (50PE module, 1.65B - 2.1B CPF) | $5,200 | $5,600 | $5,900 |
+S2-200 Xp (100PE module) | $6,100 | $6,500 | $6,800 |
+S2-300 Xp (150PE module) | $6,400 | $6,900 | $7,200 |
+S4-200 Xp (100PE module, 2B - 2.5B CPF) | $4,500 | $4,900 | $5,300 |
+S4-300 Xp (150PE module) | $5,200 | $5,600 | $6,100 |
+| | | |
+Illumina NextSeq2000 | MCC | UTHSA | External |
+P1 flow cell output with 100M CPF |
+P1 50PE | $1,200 | $1,300 | $1,400 |
+P1 150PE | $1,550 | $1,650 | $1,750 |
+P1 300PE | $2,350 | $2,450 | $2,600 |
+P2 flow cell output with 400M CPF (except P2 300PE with 300M CPF) |
+P2 50PE | $1,900 | $2,000 | $2,150 |
+P2 100PE | $3,300 | $3,400 | $3,600 |
+P2 150PE | $4,300 | $4,400 | $4,600 |
+P2 300PE | $4,600 | $4,800 | $5,000 |
+P3 flow cell output with 1200M CPF |
+P3 50SR | $2,800 | $3,000 | $3,200 |
+P3 50PE | $3,900 | $4,100 | $4,300 |
+P3 100PE | $5,400 | $5,600 | $5,800 |
+P3 150PE | $7,000 | $7,300 | $7,500 |
+Illumina Next Generation Sequencing Library Preparation -per sample | MCC | UTHSA | External |
+DNA-Seq (with Nextera XT for small genomes < 5Mb) | $80 | $90 | $100 |
+DNA-Seq (for large genome) | $100 | $120 | $140 |
+Stranded mRNA-Seq (with PolyA selection) | $120 | $140 | $160 |
+Stranded Total RNA-Seq (with rRNA depletion) | $140 | $160 | $180 |
+Ultralow input mRNA-Seq (SMART-seq2) | $120 | $140 | $160 |
+ChIP-Seq (low input) | $120 | $140 | $160 |
+Small RNA-Seq | $120 | $140 | $160 |
+Whole Exome-Seq | $200 | $240 | $260 |
+16S rRNA-Seq Metagenomics per region (V1_V2 or V3_V4) | $30 | $40 | $50 |

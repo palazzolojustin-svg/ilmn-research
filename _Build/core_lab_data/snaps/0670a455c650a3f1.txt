@@ -1,0 +1,141 @@
+Library Prep & Genome Sequencing Fees | Iowa Institute of Human Genetics - Carver College of Medicine | The University of Iowa
+Skip to main content
+The University of Iowa
+Carver College of Medicine
+Iowa Institute of Human Genetics
+Search
+Submit Search
+Search
+Site Main Navigation
+About us
+IIHG Leadership
+UI Faculty Members of the IIHG
+Bioinformatics and Biostatistics Division
+Services and Pricing
+Tools we use
+Publications
+Acknowledge our Work
+Meet our team
+Genomics Division
+About Genomics Division
+Genome Sequencing
+Library Prep & Genome Sequencing Fees
+Library Prep Workflows
+Sequencers
+Long Read Sequencing
+Low coverage WGS (genotyping by sequencing)
+|
+TBD
+|
+inquire
+|
+inquire
+|
+Genome Sequencer Fees
+effective April 1, 2026
+Element AVITI24
+Flow Cell
+|
+~Reads/Lane
+(Million)
+|
+~Yield/Lane
+(Gigabase)
+|
+UI cost
+per lane
+|
+UI cost
+per flow cell*
+|
+External cost
+per lane
+|
+External cost
+per flow cell*
+|
+150 cycle (2x75 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+Cloudbreak FS-Low output
+|
+500-750 M
+250-375 M
+50-75 M
+|
+75-112.5 GB
+37.5-43.5 GB
+7.5-11.25 GB
+|
+$688
+$1,388
+$1,154
+|
+|
+|
+|
+|
+|
+|
+|
+300 cycle (2x150 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+Cloudbreak FS-Low output
+|
+500-750 M
+250-375 M
+125-187.5 M
+|
+150-225 GB
+75-125.5 GB
+37.5-56.25 GB
+|
+$1,042
+$1,245
+$921
+$791
+|
+$2,488
+$1,841
+$1,579
+|
+| | | | | | |
+600 cycle (2x300 bp)
+Cloudbreak FS-High output
+Cloudbreak FS-Med output
+|
+250-300 M
+75-100 M
+|
+150-180 GB
+45-60 GB
+|
+NA
+NA
+|
+$2,631
+$2,013
+|
+NA
+NA
+|
+$3,242
+$2,540
+|
+*150 and 300 cycle flow cells have two lanes, and the 600 cycle has one.
+Illumina NovaSeq X
+Sequencing the Illumina NovaSeq X is available for large sequencing projects and for sequencing runs in which the entire flow cell is purchased. Please Inquire for Pricing.
+Sequencing Library Pool Quantification
+effective 8/1/26
+Final QC for Element Sequencing: $53/pool
+Final QC (KAPA qPCR) for Illumina Sequencing : $55/pool
+Contact Information:
+116 EMRB
+Phone: (319) 335-6736
+Fax: (319) 335-6737
+dna-genomeseq@uiowa.edu
+For information about downstream bioinformatics support, contact the IIHG Bioinformatics Division at (319) 335-6717.
+The University of Iowa
+Iowa Institute of Human Genetics
+Carver College of Medicine

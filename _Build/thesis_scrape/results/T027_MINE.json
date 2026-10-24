@@ -1,0 +1,117 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MSU's retired NovaSeq 6000 was marked down 50% on a dated schedule and is still unsold after about 17 months, so used 6000s have little resale demand.",
+      "detail": "The Shopify product JSON shows created_at 2025-04-08, published_at 2025-05-07 and a tag 'Markdown Date_01-20-2026'. The price went from $60,000 to $30,000 (-50%) on 20 Jan 2026, which is 258 days after publication. The page was still 'in stock' when I opened it on 12 Oct 2026, about 523 days after publication. The $30K price is about 3% of the ~$985K launch price reported in 2017 (a Korean report). The system was retired from a 'Genomics Lab' (offsite location tag), with the computer wiped. This dates the earlier 'about Aug 2025' inference for the listing: the unit was in the store by 8 Apr 2025.",
+      "url": "https://msusurplusstore.com/products/illumina-novaseq-sequencing-system.json",
+      "date": "2026-10-12 (listing created 2025-04-08; markdown 2026-01-20)",
+      "source_name": "MSU Surplus Store (Shopify product JSON)",
+      "source_type": "price_list",
+      "quote": "Markdown Date_01-20-2026",
+      "strength": "medium",
+      "why_new": "The exact markdown date (20 Jan 2026), the original list date (7 May 2025) and the time unsold are new; the prior F002 had only the $60K to $30K halving."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A retired MSU genomics-lab 6000 sits unsold at 50% off, which is consistent with institutions retiring 6000s and few buyers for second-hand ones.",
+      "detail": "The listing spec is 80-6000 Gb output, 2x250 bp and 13-44 hr run time. It ships with 2 APC battery backups and a data-wiped computer, and is described as 'good physical condition'. It is sold as-is, local pickup only, and viewable offsite by appointment. The tag 'Offsite Location: Genomics Lab' shows it came from a working genomics lab. A buyer would also have to run it with Illumina consumables and service, which may depress resale demand. This is one unit, and the institution that retired it is not named beyond MSU's surplus channel.",
+      "url": "https://msusurplusstore.com/products/illumina-novaseq-sequencing-system",
+      "date": "2026-10-12",
+      "source_name": "MSU Surplus Store",
+      "source_type": "price_list",
+      "quote": "Retired from a working environment",
+      "strength": "weak",
+      "why_new": "Adds the retirement source type (genomics lab) and the sales terms, and supports reading the unit as a retired working asset."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Faulty 6000s are listed in the UK at about £8K each, which sets a floor for the used-6000 price.",
+      "detail": "Unigreenscheme lists two 2018-manufactured NovaSeq 6000s in Wales: ITEM-49972 at £8,000 ex VAT (software fails to initialise at 94%) and ITEM-49973 at £7,950 (pump, XY-stage and tip-tilt motor failures). Both are sold for spares or repair, with a PAT test dated 24 Nov 2025. The source is 'a laboratory where it was surplus to requirements', and no university is named. A 2018 unit is roughly 1 year after launch, so first-generation boxes are already being scrapped for parts. Listed price is about 0.8% of the ~$985K launch price (£8,000 is roughly $10.5K at ~1.3 USD/GBP; the FX rate is my assumption).",
+      "url": "https://shop.unigreenscheme.co.uk/biotechnology/genomics/sequencing/dna-sequencers/illumina-novaseq-6000-dna-sequencer",
+      "date": "2025-11 (PAT test 2025-11-24; listing date not stated)",
+      "source_name": "Unigreenscheme (UK lab equipment reseller)",
+      "source_type": "price_list",
+      "quote": "removed from a laboratory where it was surplus to requirements",
+      "strength": "weak",
+      "why_new": "These are fault-state UK units with a dated PAT test. The known list has only US surplus items."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Unigreenscheme's sequencer catalog shows older Illumina platforms valued at near-scrap levels, which gives the end-state for the 6000 tail.",
+      "detail": "Of the 47 rows I parsed on page 1 of 2, prices run: NextSeq 2000 £90,000 (2020), NextSeq 550 £15,000, NextSeq 500 £5,090-6,000 (six listings), MiSeq £1,000-5,000, HiSeq 1000 £1,000 and Genome Analyzer IIx £2,100. The HiSeq 1000 appears elsewhere on the same site at £15,000, so the same model ranges from £1,000 to £15,000 depending on condition and listing. This shows prior-generation Illumina boxes have near-zero resale value once an upgrade cycle completes. The 6000 listings at £8K already sit in the NextSeq 500 price band. This is a UK reseller sample with mixed condition, not a market index.",
+      "url": "https://shop.unigreenscheme.co.uk/biotechnology/genomics/sequencing?start=0",
+      "date": "2026-10-12",
+      "source_name": "Unigreenscheme",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a priced cross-section of used Illumina platforms, which the known list does not include."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MSU applies stepped markdowns to its other retired Illumina box, so the 6000 price cut follows store policy rather than a 6000-specific signal.",
+      "detail": "Two MSU MiSeq listings (created 30 Mar 2026) carry tags 'Markdown Date_06-15-2026' and 'Markdown Date_09-16-2026'. Both now sell at $1,575 against $3,000 (-47.5%). Both listings carry a '30 Days' tag. The 6000 has the same tag structure and a single recorded markdown (20 Jan 2026). The inference is mine: markdowns look like a scheduled cycle. That weakens the 6000 cut as a demand signal. It still shows the unit failed to sell at $60K for 258 days.",
+      "url": "https://msusurplusstore.com/products/illumina-miseq-desktop-dna-sequencer.json",
+      "date": "2026-10-12",
+      "source_name": "MSU Surplus Store",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a caveat on the 6000 data point and was not in the known list."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Used-box prices say little about Illumina's consumables pricing, and a retired 6000 may simply reflect a lab that moved to a new instrument.",
+      "detail": "A $30K or £8K resale value measures the box, not the pull-through of ~$670-700K per active 6000 per year (from the known list). Retirements at MSU and UK sites could be X conversions at those labs, which is already in the known base decay of ~330 decommissions in FY25. Nothing in the listings states a reason for retirement or the replacement instrument. Treat the listings as corroboration of decommissioning, not as evidence on tail revenue or pricing.",
+      "url": "https://msusurplusstore.com/products/illumina-novaseq-sequencing-system",
+      "date": "2026-10-12",
+      "source_name": "MSU Surplus Store",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a watch-out on how far the resale-market evidence can be used."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Wayback is blocked from this tool (WebFetch refuses web.archive.org), so no snapshots were read. The Shopify JSON dated the markdown instead. The MSU store has only this one sequencer besides two MiSeqs. ssllc.com (Surplus Solutions) returns 403 to WebFetch, so its NovaSeq 6000 lots (2017, 2018, 2021 and 2022 models) and realized prices were not read. Unigreenscheme page 2 (15 items) was not read. For follow-up: LabX, Bidspotter, GovDeals, Rutgers/UC/UW surplus and eBay sold listings for NovaSeq 6000 and X sale prices over time.",
+  "leads": [
+    {
+      "name": "Surplus Solutions NovaSeq 6000 listings and auctions",
+      "url": "https://ssllc.com/product/Illumina-NovaSeq-6000-Sequencing-System-A83047",
+      "access": "Public, but returns 403 to WebFetch. Try a browser-like or Apify fetch.",
+      "labels": ["1A"],
+      "rationale": "Multiple used 6000s (2017, 2018, 2021, 2022 models) from biotech wind-downs. Auction hammer prices over time would give a dated resale series."
+    },
+    {
+      "name": "GovDeals / public-university surplus auctions for Illumina sequencers",
+      "url": "https://www.govdeals.com/",
+      "access": "Public search with no login. Needs a heavy scraper.",
+      "labels": ["1A"],
+      "rationale": "Public institutions list retired sequencers with closing prices and agency names."
+    },
+    {
+      "name": "Unigreenscheme sequencing page 2",
+      "url": "https://shop.unigreenscheme.co.uk/biotechnology/genomics/sequencing?start=50",
+      "access": "Public",
+      "labels": ["1A"],
+      "rationale": "15 unread items, possibly more 6000 or NovaSeq X listings."
+    },
+    {
+      "name": "Auction listing of Rubius/Omnia Bio lab equipment (2022 NovaSeq 6000)",
+      "url": "https://ssllc.com/auction/Late-Model-Lab-Equipment-Formerly-of-Omnia-Bio-and-Rubius-Therapeutics",
+      "access": "Public, 403 to WebFetch",
+      "labels": ["1A"],
+      "rationale": "A 2022-model 6000 in a wind-down auction could give a hammer price for a newer unit."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,136 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad's prenatal volume has slid for five straight quarters, from 173K tests in Q1'25 to 144K in Q2'26 (−17%). This is a sequential series, not just year-over-year.",
+      "detail": "Reported: Q2'25 159K, Q4'25 150K, H1'25 332K, FY25 637K, Q2'26 144K, H1'26 297K. Derived: Q1'25 = 332−159 = 173K. Q3'25 = 637−332−150 = 155K. Q1'26 = 297−144 = 153K. The series runs 173/159/155/150/153/144K. The only up-tick was Q1'26 (+2%). H1'26 is −11% y/y. Management guides Q3'26 revenue flat to slightly above Q2'26, with no rebound in H2. Sequencing demand at the third-largest US NIPT lab is shrinking, which fits NIPT maturing. Earlier findings (F212, F218) gave only the peak-to-trough and y/y figures.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000072/mygn-20260630.htm",
+      "date": "2026-07-31",
+      "source_name": "Myriad Genetics Q2'26 10-Q, FY25 10-K and Q4'25/Q2'26 8-K EX-99.1 (derived)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives the full quarterly volume path with Q1'25, Q3'25 and Q1'26 backed out. Earlier items only had the peak-to-trough and y/y figures."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad's FY25 prenatal volume fell 4% (666K→637K) while revenue rose 5%, so the 2025 'growth' was price-led, and volume decline began a year before the 2026 reimbursement cuts.",
+      "detail": "FY25 prenatal revenue was $186.3M vs $177.1M (+5%). Volume was 637K vs 666K (−4%). The 10-K reports revenue per test up 10%, partly offset by volume, 'mainly' lower SneakPeek testing. Revenue per test is $292 vs $266 (my arithmetic). Q4'25 volume was 150K vs 160K (−6%) on flat revenue of $44.9M. Management tied the Q4 drop to transition dynamics after a new order management system in Q2'25. Volume has therefore fallen y/y in every period from FY25 onward, which is the period the Natera non-oncology and BillionToOne data show as strong for others.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000018/mygn-20251231.htm",
+      "date": "2026-02-24",
+      "source_name": "Myriad Genetics FY25 10-K MD&A; Q4'25 earnings release",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Adds the FY24→FY25 annual baseline and the stated causes. Earlier items start at Q1'25."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad's prenatal revenue per test peaked at ~$299 in Q4'25 and fell to ~$276 in Q2'26 (−8% in the filing). A fall in reimbursement per test is therefore stacked on falling volume.",
+      "detail": "Derived: Q1'25 $285 (49.3M/173K), Q2'25 $299, Q3'25 $287 (44.5M/155K), Q4'25 $299, Q1'26 $274 (41.9M/153K), Q2'26 $276. Peak to Q2'26 is −7.7%. The Q2'26 10-Q MD&A says revenue per test fell 8% in the quarter and 6% in H1 'due to declines in reimbursement'. Lower reimbursement leaves less money for sequencing and reduces buyers' willingness to pay for depth, but the loss here is small in Gb.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000072/mygn-20260630.htm",
+      "date": "2026-07-31",
+      "source_name": "Myriad Genetics Q2'26 10-Q MD&A (derived series)",
+      "source_type": "filing",
+      "quote": "declines in reimbursement",
+      "strength": "medium",
+      "why_new": "Adds the quarter-by-quarter revenue-per-test path. Earlier items had y/y changes only (F213, D021)."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad lists Natera, Labcorp, Quest, BillionToOne, Tempus, Fulgent and Peekaboo as prenatal competitors. Its lost volume shows NIPT share moving to the winners rather than the market shrinking.",
+      "detail": "Company-wide, Myriad's quarterly tests were 379K (−1% y/y). Prenatal fell 9% y/y in Q2'26 (−15K tests). BillionToOne prenatal grew +55% and Natera women's health grew high-single-digit (known items). Management blames 'salesforce expansion timing and competitive dynamics' (call summary); the prenatal sales team is now fully staffed. Illumina gains little from this redistribution: the aggregate NIPT growth is low, and the losers' volume is picked up by Illumina-using rivals.",
+      "url": "https://www.gurufocus.com/news/8993687/myriad-genetics-inc-mygn-q2-2026-earnings-call-highlights-revenue-declines-11-amid-payer-friction-guidance-slashed",
+      "date": "2026-07-30",
+      "source_name": "Myriad FY25 10-K competition section; GuruFocus Q2'26 call summary",
+      "source_type": "earnings_call",
+      "quote": "Salesforce expansion timing and competitive dynamics",
+      "strength": "weak",
+      "why_new": "Names the competitor set in Myriad's own 10-K and the management explanation (summary-level only). The competitor names were not in the earlier notes."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Myriad pays Illumina a royalty on Prequel volume under a non-exclusive Illumina IP licence. As Myriad's prenatal volume falls, Illumina's per-test fee income falls with it, on top of consumables.",
+      "detail": "The FY25 10-K licence table says Myriad pays 'a royalty based on the volume of Prequel testing administered by us'. No rate or dollar amount is given in the sections read. Prenatal volume is −17% from the Q1'25 peak, so this royalty stream is shrinking. This parallels the Natera per-test fee (F238). Illumina's NIPT-linked revenue is therefore not only consumables.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000018/mygn-20251231.htm",
+      "date": "2026-02-24",
+      "source_name": "Myriad Genetics FY25 10-K (licence table)",
+      "source_type": "filing",
+      "quote": "royalty based on the volume of Prequel testing administered by us",
+      "strength": "weak",
+      "why_new": "A new Illumina-royalty datapoint at a third NIPT lab; the amount is undisclosed, so only the direction is known."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Myriad's FY25 10-K credits lower reagent and supply costs, not volume, for the fall in its cost of revenue. This is consistent with falling consumables prices paid by a large Illumina user.",
+      "detail": "FY25 cost of revenue fell $4.3M (−2%) to $247.9M while staying at 30.1% of revenue. The filing attributes this 'mainly' to a lower cost per test from reduced laboratory reagent and supply costs. It does not name Illumina or give a prenatal cost split, so this is indicative only. Tariffs are flagged as a risk in the Q2'26 10-Q.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000018/mygn-20251231.htm",
+      "date": "2026-02-24",
+      "source_name": "Myriad Genetics FY25 10-K MD&A",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Earlier customer cost-per-test items covered Natera, Caris, GeneDx and BillionToOne, not Myriad."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Myriad's Q2'26 cost of revenue per test rose ~5% y/y, and the 10-Q blames fulfillment and personnel, not sequencing price. Myriad shows no visible sequencing-price relief.",
+      "detail": "Q2'26 cost of revenue was $63.7M vs $61.3M (+3.9%). Total tests were 379K (−1%, so ~383K in Q2'25). Derived cost per test is ~$168 vs ~$160, about +5%. The 10-Q cites 'increased fulfillment costs and personnel-related costs'. Adjusted gross margin fell to 66.9% from 71.5%, but this is driven by lower revenue per test (−9% company-wide, including $11.0M of collections adjustments). It is not an Illumina price effect.",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000072/mygn-20260630.htm",
+      "date": "2026-07-31",
+      "source_name": "Myriad Genetics Q2'26 10-Q MD&A and 8-K EX-99.1",
+      "source_type": "filing",
+      "quote": "increased fulfillment costs and increased personnel-related costs",
+      "strength": "weak",
+      "why_new": "A cost-per-test datapoint that cuts against the 1B pricing-relief story."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad cut FY26 revenue guidance to $770–790M, citing 'lower Prenatal Health test volumes'. Management says H2 will roughly equal H1 and assumes no contribution from new launches, including FirstGene.",
+      "detail": "Q3'26 revenue is guided flat to slightly above Q2, with some Q4 improvement. The FirstGene Multiple Prenatal Screen launched in July 2026, but the guide includes nothing for it. With Q2 at 144K, H2'26 prenatal volume of about 288–300K would be roughly −2% to −5% vs H2'25's ~305K (derived: 637−332). Myriad does not give a prenatal-specific guide. Q3'26 results are due in early November, so the next volume print falls shortly after Illumina's 29 Oct print.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000899923/000089992326000070/ex991mygn-xearningsrelease.htm",
+      "date": "2026-07-30",
+      "source_name": "Myriad Genetics Q2'26 earnings release and call summary",
+      "source_type": "earnings_call",
+      "quote": "lower Prenatal Health test volumes",
+      "strength": "weak",
+      "why_new": "Adds the H2 outlook and the derived H2'25 base. Earlier items covered the guidance cut but not the H2 volume arithmetic."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The 10-Q has 'no material changes' to risk factors. It names no sequencer, no Illumina, no NovaSeq and no competitor. The FY25 10-K gives only a generic 'small number of suppliers, some single-source' for sequencing equipment and reagents. I could not read the call transcript Q&A (GuruFocus and MarketBeat gave summaries only). The Illumina royalty dollar amount and rate were not in the 10-K text I read. Fetch FY25 10-K from offset ~350000 (financial statement notes) for Note 12 commitments and the licence terms if wanted. Myriad is a small share of Illumina's Gb (prenatal ~144K tests/qtr at ~1–2 Gb each), and the volume decline looks company-specific (SneakPeek, order management system transition, sales force), so the read-through to Illumina is weak. Items 1 to 3 are partly derived from the same data as F212–F218.",
+  "leads": [
+    {
+      "name": "Myriad Genetics FY25 10-K notes (royalty, Note 12 commitments)",
+      "url": "https://www.sec.gov/Archives/edgar/data/899923/000089992326000018/mygn-20251231.htm",
+      "access": "EDGAR, public, fetch from offset 350000",
+      "labels": ["1B", "1C"],
+      "rationale": "Might give the Illumina royalty rate or amount and any supplier purchase commitment at a third NIPT lab."
+    },
+    {
+      "name": "Myriad Q3'26 earnings release (early Nov 2026)",
+      "url": "https://investor.myriad.com/",
+      "access": "IR site / EDGAR 8-K EX-99.1",
+      "labels": ["1C"],
+      "rationale": "Next prenatal volume print; a bear marker is Q3'26 below ~150K tests."
+    },
+    {
+      "name": "BillionToOne and Natera Q3'26 prenatal volumes",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=899923",
+      "access": "EDGAR, public",
+      "labels": ["1C"],
+      "rationale": "Compare the net NIPT industry volume with Myriad's losses; the sum would show true market growth."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,162 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taichung VGH's outsourced NIPT contract more than doubled, from NT$9.5M (Oct 2023–Sep 2025) to NT$21.04M (Oct 2025–Oct 2027), and most of the new volume is in higher-priced expanded tiers.",
+      "detail": "Award 112A-R07 (16 Oct 2023) was NT$9.5M for two years. Award 114Y-R11 (10 Nov 2025) was NT$21.04M for two years, so the annual run-rate went from about NT$4.75M to about NT$10.5M (+121%). The 2025 tender gives the estimated two-year volumes: 200 'simple' tests for NT$2.2M (NT$11,000 each, ~US$340), 440 'general' tests for NT$9.24M (NT$21,000, ~US$650) and 300 'plus/全方位' tests for NT$9.6M (NT$32,000, ~US$1,000). That is 940 tests in two years, or about 470 a year, and 79% of them are in the general or plus tiers. Expanded NIPT tiers usually sequence deeper per sample, so at this medical center NIPT looks like it is moving up-tier rather than maturing. There was one bidder (慧智基因) each time, and the 2025 award equalled the budget.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=114Y-R11",
+      "date": "2025-11-10",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "non-invasive prental screening(plus)（全方位版）",
+      "strength": "medium",
+      "why_new": "The first NIPT tender series in the corpus. F744–F764 cover WGS and reagent tenders only."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "NTUH used up a NIPT contract meant to run to Dec 2026 in about two years, then awarded a new NT$9.32M lot for calendar 2026 alone, which implies its annual NIPT spend roughly doubled.",
+      "detail": "TH120730 was awarded 17 Jan 2024 at NT$9,545,000, with a term from 18 Jan 2024 to 31 Dec 2026 (about NT$3.2M a year if spread over the full term). TH140450 was awarded 3 Nov 2025 at NT$9,324,500 for 1 Jan to 31 Dec 2026 only. If the first contract's ceiling ran out by the end of 2025, spend was about NT$4.8M a year in 2024–25 and is budgeted at about NT$9.3M in 2026 (~+95%). This is our inference from the overlapping terms, because the notices give no test counts. Both awards went to a single bidder, 台灣尖端先進生技醫藥, at 96–97% of budget.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TH140450",
+      "date": "2025-11-04",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "第二代非侵入性產前染色體檢測一批",
+      "strength": "medium",
+      "why_new": "A new NTUH NIPT series. Earlier NTUH items in the corpus (F715, F752) are about WGS/WES reagents."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "NCKU Hospital's outsourced NIPT spend rose from about NT$1.49M a year (2023–24) to NT$2.79M a year (2025–27), and 71% of the new estimated tests are the 'advanced' tier.",
+      "detail": "NCKU awards to Bionet (訊聯), all one year long unless noted, were: NT$2.28M (Apr 2020, 3 bidders), NT$0.999M (Apr 2022), NT$1.491M (Mar 2023), NT$1.494M (Mar 2024), a NT$0.93M bridge for 7–30 Jan 2025, and then NT$5.58M for Jan 2025–Jan 2027. The 2025 notice gives the estimate: 120 basic NIPT at NT$9,000 plus 300 advanced NIPT at NT$15,000, which is 420 tests over two years (~210 a year) at a blended ~NT$13,300 (~US$415). The run-rate is up ~87% on 2024 but is only ~22% above the 2020 level, so the series is volatile rather than steadily growing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.26.3&job_number=Y11363",
+      "date": "2025-01-21",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "進階型NIPT 300件*15,000元=4,500,000元",
+      "strength": "medium",
+      "why_new": "A new per-test NIPT price and volume series (2020–2027) at a southern medical center."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "At Taipei VGH's Taoyuan branch, the annualized outsourced NIPT spend roughly halved, from ~NT$1.82M a year (2020–21) to ~NT$0.93M a year (2023–26), even though the test menu widened from 15 to 26 items.",
+      "detail": "TYVHD10905-1 (June 2020) was NT$2.8M for 18 Jun 2020 to 31 Dec 2021 (~18.5 months). TYD11211-11 (Dec 2023) was the same NT$2.8M, but for 27 Dec 2023 to 31 Dec 2026 (36 months), a −49% annual run-rate. Both went to one bidder (慧智基因). The 2020 notice lists the country of origin as Germany. At this community-level hospital, prenatal NGS self-pay testing is shrinking, consistent with NIPT saturation and Taiwan's falling births.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80.5&job_number=TYD11211-11",
+      "date": "2023-12-28",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "非侵入性產前染色體基因檢測第26項委外代檢",
+      "strength": "medium",
+      "why_new": "First dated evidence of NIPT outsourcing spend shrinking at a public hospital."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Taipei City Hospital's NIPT outsourcing ran at about NT$3.4M a year in Sep 2024–Dec 2025, about 20% below its 2023 one-year contract of NT$4.23M, and it needed a bridge and a follow-on extension.",
+      "detail": "R111133 was NT$4.23M for 3 Jan 2023 to 2 Jan 2024 (one bidder). R113118 (Sep–Oct 2024) awarded three NIPS tiers totalling NT$4.266M (950K + 1.65M + 1.666M), with a term to 30 Jun 2027. A NT$159.5K bridge (R114133E, 10 Dec 2025 to 8 Jan 2026) shows that ceiling was used up after ~15 months, or ~NT$3.4M a year. A NT$2.295M follow-on (R113118-1, Feb 2026, under procurement-law Art. 22(1)(7)) then runs from Apr 2026 to Jun 2029, which is only ~NT$0.7M a year if spread evenly. The winner each time was 華聯生物科技.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.79.14.14&job_number=R113118-1",
+      "date": "2026-02-13",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A new municipal-hospital NIPT spend series. The run-rate is our derivation from contract terms."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "In the only contested NIPT award found in 2024–26, the winning outsourcer underbid its rival by 30% on the basic tier and 18% on the mid tier.",
+      "detail": "In Taipei City Hospital tender R113118 (award 10 Sep 2024), 華聯生物科技 won NIPS1 at NT$950,000 against 台灣基康 at NT$1,350,000 (−30%), and NIPS2 at NT$1,650,000 against NT$2,000,000 (−18%). The hospital's floor price for the case was NT$2.6M against a budget of NT$4.59M. When a second bidder shows up, NIPT service prices fall sharply, which squeezes the lab's per-test reagent budget.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.79.14.14&job_number=R113118",
+      "date": "2024-09-20",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "資格、規格合於招標文件規定，但非最低標",
+      "strength": "weak",
+      "why_new": "First bid-level NIPT price competition data in the corpus."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan's public-hospital NIPT outsourcing has lost competition: 8 of 9 awards in 2022–26 had a single bidder and landed at 95–100% of budget, against 3 bidders at NCKU in 2020.",
+      "detail": "Single-bidder awards include NCKU 2022/23/24/25, Taichung VGH 2023 and 2025, NTUH 2024 and 2025, Taipei VGH 2025, NYCU 2024 (NT$3.708M vs NT$3.744M budget), Taoyuan VGH 2023 and Fengyuan MOHW 2022. Many followed failed first tenders (流標). Four local labs (訊聯 Bionet, 華聯, 慧智基因, 台灣尖端先進) split the market. In 2020 NCKU drew three bids (NT$2.28M, 2.56M and 2.796M). With weak buyer-side price pressure, NIPT providers here are not being forced to squeeze reagent suppliers.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.26.3&job_number=Y10910",
+      "date": "2020-04-15 to 2026-02-13",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "本案係以廠商原始報價(未優惠)為預算",
+      "strength": "weak",
+      "why_new": "Covers the NIPT market structure. F763/F764 cover instruments and WGS only."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taipei VGH's new three-year NIPT contract is NT$6.17M (~NT$2.06M a year), and two-thirds of the value is the 'advanced' tier.",
+      "detail": "X11409E (awarded 3 Sep 2025, term Nov 2025 to Nov 2028) has 'classic' NIPT at NT$1.998M and 'advanced' at NT$4.176M (68% of value). It had one bidder (台灣尖端先進) and came in 2.6% below the NT$6.336M budget, after a failed first round. The notice tags item 1's origin as the USA, which may point to US-made test kits, but no platform is named. This is another case of medical-center NIPT value tilting to expanded tiers.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11409E",
+      "date": "2025-09-04",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "第二代非侵入性產前染色體檢查(進階款)",
+      "strength": "weak",
+      "why_new": "A new Taipei VGH NIPT award. Earlier Taipei VGH items cover WGS and reagent sets."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Smaller MOHW regional hospitals show NIPT outsourcing stalling: Fengyuan's last award was NT$983K for two years (2022–24) with no successor found, Nantou's 2020 tender failed three times, and Chiayi has only a 2025 quotation notice.",
+      "detail": "Fengyuan Hospital FYH1110701 was an open contract of NT$983,000 for 18 Jan 2022 to 17 Jan 2024 (~NT$0.49M a year, one bidder: Bionet). The title search shows no later Fengyuan NIPT award. Nantou Hospital's '110NIPT' basic tender failed in Sep, Oct and Nov 2020. Chiayi Hospital (CHYI1142722) posted quotation notices in Jul 2025 with no award visible. Volume at this tier is tiny and not growing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.100.35&job_number=FYH1110701",
+      "date": "2022-01-26",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app)",
+      "source_type": "procurement",
+      "quote": "本案為開口契約，採購金額達契約金額即契約終止",
+      "strength": "weak",
+      "why_new": "New regional-hospital NIPT tenders, not previously in the corpus."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Across the four medical centers with comparable series (NTUH, Taichung VGH, NCKU, Taipei VGH), annualized NIPT outsourcing spend rose from ~NT$11–13M (2023–24) to ~NT$24.7M (2025–26), while two lower-tier hospitals shrank.",
+      "detail": "Our sum of annualized run-rates is NTUH ~4.8→9.3M, Taichung VGH 4.75→10.52M and NCKU 1.49→2.79M. Taipei VGH's predecessor contract was not found, so its 2.06M a year is added only to the latest figure. Taoyuan VGH (1.82→0.93M) and Taipei City Hospital (4.23→~3.4M) fell. Spend is consolidating at flagship centers and shifting to expanded-panel tiers (11,000–32,000 NT$ per test). This is spend, not Gb. Expanded tiers likely raise Gb per test, which cuts against the idea that NIPT maturity drags on Gb.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=非侵入性產前",
+      "date": "2026-10-12",
+      "source_name": "Taiwan Government e-Procurement (via pcc-api.openfun.app), our aggregation",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "First cross-hospital NIPT spend aggregation. Prior NIPT evidence is US-only (expert, ACMG, Myriad, Medicare)."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "This mined about 20 NIPT notices: 89 records under the title '非侵入性產前' plus the NIPT and 產前染色體 searches. No notice names a sequencing platform or brand, and only NCKU 2025 and Taichung VGH 2025 give per-test prices and volumes. Still to mine: Taipei VGH's pre-2025 NIPT contract (try searching '產前染色體檢查' or '委外代檢' under unit 3.32.80); the National Defense Medical Center awards HJ11424P405 and HJ11426P404 (Aug 2022); Taoyuan VGH TYVHD11012-5 (Jan 2022, NIPA v1.0 and 15 self-pay tests); Kaohsiung VGH and CMUH, which did not appear (possibly different titles); and tender documents (招標文件), which may name the platform (e.g. VeriSeq or NextSeq) but are not in the API. The pcc-api rate-limited once (HTTP 429).",
+  "leads": [
+    {
+      "name": "Taiwan MOHW birth statistics (內政部戶政司 monthly births)",
+      "url": "https://www.ris.gov.tw/app/portal/346",
+      "access": "public",
+      "labels": ["1C"],
+      "rationale": "Would let the hospital NIPT test counts be normalized to falling births, giving NIPT penetration versus volume."
+    },
+    {
+      "name": "Bionet Corp (訊聯, TPEx 1784) monthly revenue and annual reports",
+      "url": "https://mops.twse.com.tw",
+      "access": "public (MOPS)",
+      "labels": ["1C", "1B"],
+      "rationale": "The largest Taiwan NIPT outsourcer in these awards. Its monthly revenue and annual report may disclose NIPT volume, its sequencing platform and reagent cost per test."
+    },
+    {
+      "name": "pcc-api searches for '委外代檢' plus 'VeriSeq' or '胎兒' under Kaohsiung VGH (3.32.82?) and CMUH",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=胎兒染色體",
+      "access": "public API, rate-limited",
+      "labels": ["1C"],
+      "rationale": "Would fill in the missing medical centers for the NIPT series."
+    }
+  ],
+  "apify_requests": []
+}
+```

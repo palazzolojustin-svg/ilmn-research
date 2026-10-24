@@ -1,0 +1,17 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The PDF was reachable but I could not read it. WebFetch downloaded the 3.1 MB file (SciLifeLab-Annual-Report-2025.pdf) but returned only compressed binary. The WebFetch summary saw metadata only: InDesign file, Feb 2026, sv-SE. The Read tool's PDF mode needs pdftoppm, which isn't installed. This session has no Bash or Python tool, so I could not run pypdf. I did not find or open the 2024 report; the one search for it returned only NGI web pages, not the PDF. No NGI figures were extracted, so I report no evidence items. Search snippets from NGI pages gave only list-price context: about 6000 SEK per 30x human genome on a NovaSeq 25B-300 including library prep, and 1500-3000 SEK per sample on NovaSeq X for 24-94 samples (price page dated 2025-02-01). That is a price point, not trend data, and it is too thin to log as an item. The source is not dry. It is unread, and the blocker is the tooling.",
+  "how_to_mine": "1) With a Python-capable agent, download https://www.scilifelab.se/wp-content/uploads/2026/02/SciLifeLab-Annual-Report-2025.pdf into a fresh empty directory. Run `python -I` with pypdf (or pdftotext) on it and grep for NGI, 'National Genomics Infrastructure', 'user fee', 'avgift', 'Tb', 'samples', 'projects', 'NovaSeq', 'Illumina', 'Element', 'Ultima', 'Roche'. 2) Locate the 2024 report using the scilifelab.se publications page, or try wp-content/uploads/2025/0x/SciLifeLab-Annual-Report-2024.pdf. 3) Build a two-year table for NGI: user-fee income, projects, samples, Tb output, and consumables cost. Compute SEK per sample and SEK per Gb, y/y. 4) Also check the NGI sections of the SciLifeLab 'Facts and Figures' or 'Infrastructure unit' reports and the Uppsala SNP&SEQ and Stockholm NGI annual reports. They may state fee income and sequencer mix more explicitly than the main report. 5) Read the finance tables for user-fee income across all platforms against the SciLifeLab grant; the Swedish wording may be 'användaravgifter' or 'intäkter från avgifter'.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "NGI Sweden price examples page and archived versions (Wayback)",
+      "url": "https://ngisweden.scilifelab.se/resources/price-examples/",
+      "why": "The current page shows NovaSeq X at 1500-3000 SEK per sample (dated 2025-02-01) and about 6000 SEK per 30x genome on the 25B. Wayback snapshots from 2024 to 2026 would give a dated, per-sample price trend for a national academic platform. The earlier S349 probe called the price page dry, but archived versions have not been compared."
+    }
+  ],
+  "apify_requests": []
+}
+```

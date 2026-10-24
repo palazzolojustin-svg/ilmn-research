@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The data.cms.gov Physician & Other Practitioners dataset covers practitioner billing, not independent clinical labs. A probe API call for HCPCS 81425 returned a single row with Tot_Srvcs=127. I did not confirm which year that row is, because the response had no year field. That count is far too small to be the Medicare lab utilization the thesis needs. The MRD PLA codes (0340U and the others) are billed by labs under the Clinical Laboratory Fee Schedule (CLFS) and are probably absent from this dataset. I did not query those codes directly. The better source, the Physician/Supplier Procedure Summary (PSPS), is a limited data set. The full file needs a data use agreement and costs $400, so it fails the no-login, no-paywall rule. Only a public version with small cells suppressed exists, and I did not open it. The search results for CLFS gave only price history, not utilization: 0340U Signatera moved $3,920 to $3,590 for January 2026 (secondary blog, already known). I did not test the 0306U, 0307U, 0242U, 0409U, 81426, 81427, 81420, 81507 or 81479 codes. I stopped after 3 calls because the main premise failed.",
+  "how_to_mine": "Try the CMS Statistics, Trends and Reports public PSPS version, or the 'Medicare Clinical Laboratory Fee Schedule' utilization tables in the Medicare Part B Spending by Drug/CLFS data. Also check whether the 'Medicare Physician & Other Practitioners - by Provider and Service' data lists any PLA codes by lab NPI (Natera, Guardant), which would require querying the API by HCPCS_Cd per year. A cheaper alternative is MolDX or MAC claims counts cited in company 10-Ks, which Natera and Guardant already disclose.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "CMS public (small-cell-suppressed) PSPS file on the Statistics, Trends and Reports page, for annual allowed services of PLA codes 0340U, 0306U and 0307U",
+    "data.cms.gov dataset 'Medicare Physician & Other Practitioners - by Provider and Service', queried with HCPCS_Cd=0340U per year, to test whether any lab NPIs appear"
+  ],
+  "apify_requests": []
+}
+```

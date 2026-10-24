@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "I used 4 searches/fetches. Roche launched AXELIOS 1 globally on 29 Jun 2026 as RUO, not in 2027. The list price ($750K), $150 duplex 30x genome, $0.06 per million reads, Hartwig, Broad Clinical Labs, CNAG, Sanger and Foundation Medicine are all already known. The Roche press-release PDF was image-only and unreadable. GenomeWeb and Fierce returned 403. clpmag has a launch write-up but no price, throughput figure, new customer or comparison. I found no named early-access research genome centers beyond the known list, no ASHG 2026 abstracts and no Rhymes with Haystack post. The one thing not clearly in the exclusion list is the exact launch date and launch geography, a weak timing point.",
+  "how_to_mine": "Read the Roche US press release as HTML at diagnostics.roche.com (news-releases) or the roche.com/media mirror, since the PDF is image-only. Search the ASHG 2026 program (Roche exhibitor page diagnostics.roche.com/se/en/events/american-society-of-human-genetics-ashg.html) for SBX posters and sponsored talks. The seqanswers 'Industry updates from ASHG 2025' page is a lead for what Roche said last year. GenomeWeb and Fierce are 403-blocked, so use search-result snippets only. Check Google News snippets for 'AXELIOS' plus 'first shipments' or 'delivery' to learn the actual ship dates and any 2027 volume ramp.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "AXELIOS 1 is already commercially launched (RUO, 29 Jun 2026) in North America plus select Europe/APAC markets, so research price pressure begins in 2026–27, not later.",
+      "detail": "Roche announced the global launch on 29 Jun 2026. The initial geographic focus is North America and select markets in Europe and Asia-Pacific, and the platform is research-use-only. Trade press says Roche declined to disclose a full list of early-access customers. Hartwig Medical Foundation, Broad Clinical Labs and 10x Genomics (kits for single-cell and spatial) are named collaborators. This fixes the launch date, which the exclusion list does not state, but it adds no new price or customer data.",
+      "url": "https://clpmag.com/diagnostic-technologies/molecular-diagnostics/sequencing-systems/roche-launches-axelios-1-dna-sequencing-platform-2/",
+      "date": "2026-06-29",
+      "source_name": "CLP Magazine (Roche launch coverage)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives the exact 29 Jun 2026 commercial launch date and the NA/select-markets scope; the exclusion list has only the May 2026 Investor Day pricing and the placement counts."
+    }
+  ],
+  "new_candidates": [
+    "Roche US press release 'Roche announces the launch of AXELIOS 1' (diagnostics.roche.com/content/dam/diagnostics/us/en/news-releases/pdf/pr-us-axelios-20260629.pdf): find the HTML version for the quotes and the named-site list.",
+    "Roche ASHG 2026 event page (diagnostics.roche.com/se/en/events/american-society-of-human-genetics-ashg.html): check for SBX talks and early-access data.",
+    "seqanswers ASHG 2025 industry updates article (seqanswers.com/articles/326899-industry-updates-and-innovations-from-ashg-2025): Roche's earlier timing and price signals."
+  ],
+  "apify_requests": []
+}
+```

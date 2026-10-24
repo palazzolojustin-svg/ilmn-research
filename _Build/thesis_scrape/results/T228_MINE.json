@@ -1,0 +1,90 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At KUMC the internal 25B-300 flow cell is priced at 99% of Illumina's published list, while the 10B-300 is priced at 64% of list, so the discount lands on the smaller flow cell and not on the flagship.",
+      "detail": "Internal 25B-300 is $23,872 against the known list of $24,155 (98.8%). Internal 10B-300 is $9,255 for a full 8-lane flow cell against the known list of $14,493 (63.9%). The 1.5B-300 is $5,225 against list $3,928 (133%). The ratios are against already-known list prices and assume the KUMC lines are full-flow-cell prices, as the page states. NCI's uniform 71%-of-GSA ratio is already logged. This core instead shows a 25B at list and a 10B at about two-thirds of list. That fits a core that passes through the vendor's net price on the 10B, and the 25B may have little discount to pass through.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026 (page footer; no effective date)",
+      "source_name": "KU Medical Center Genome Sequencing Facility",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives separate list-relative ratios for the 25B (99%) and the 10B (64%) at one core. The known list only gave 'near list' for the 25B."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "KUMC's 25B-100 cycle flow cell is $19,917 internal, about 1.7x Illumina's published $11,700 list, so cycle-count pricing here is compressed and the long-read configuration carries all the discount.",
+      "detail": "Internal 25B prices are $19,917 (100-cycle), $21,805 (200-cycle) and $23,872 (300-cycle). Against the known Jan 2025 list ($11,700 / $14,500 / $24,155), the ratios are 170%, 150% and 99%. Moving from 100 to 300 cycles adds only +20% at KUMC, against +106% on Illumina's list. Either the core is not passing through Illumina's net prices on the short-cycle kits, or Illumina's short-cycle kits are priced much lower than the core's recharge. This suggests the core's recharge policy, not Illumina's net price, drives the short-cycle prices.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026",
+      "source_name": "KU Medical Center Genome Sequencing Facility",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The cycle-count ladder (+20% from 100 to 300 cycles) and the 1.7x-of-list markup on the 25B-100 are not in the known core data."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "At KUMC the 25B costs slightly more per read than the 10B (about +3%), so the flagship flow cell is not being discounted into a lower per-read price here.",
+      "detail": "Per billion clusters at 300 cycles, internal: 25B $23,872/25 = $955 against 10B $9,255/10 = $926. External: $37,002/25 = $1,480 against $14,346/10 = $1,435. On spec Gb (25B about 8,000 Gb, 10B about 3,000 Gb) the 25B is $2.98/Gb internal and $4.63/Gb external, and the 10B is $3.09 and $4.78. The 25B's per-Gb edge is only about 3.5%. The 1.5B is $5,225/1.5 = $3,483 per billion clusters, 3.6x the 25B. Spec Gb are Illumina's published maxima, and real yields run higher. The large step down is from the 1.5B to the 10B, not from the 10B to the 25B.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026",
+      "source_name": "KU Medical Center Genome Sequencing Facility",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Quantifies the 25B-vs-10B per-read gap (+3%) and the 1.5B premium (3.6x) in numbers. F166 only said 'about the same'."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "KUMC charges external users exactly 55% more than internal on every sequencing line and on library prep, so this research core applies a uniform recharge markup and not negotiated price-fighting.",
+      "detail": "Ratios external/internal: 25B-300 $37,002/$23,872 = 1.550. 10B-300 $14,346/$9,255 = 1.550. 1.5B-300 $8,099/$5,225 = 1.550. Library prep: Tecan mRNA $295/$190 = 1.55, Illumina DNA Prep $303/$195 = 1.55, Human Exome $380/$245 = 1.55. The tiers are fully policy-based. F008 already noted the 55% external premium on X flow cells. The new point is that library prep carries the same 1.55x, so the whole price book is formula-driven.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026",
+      "source_name": "KU Medical Center Genome Sequencing Facility",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Extends the known 55% premium to library prep and all three flow-cell sizes. It adds no new price-pressure evidence."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "KUMC's Illumina menu is NovaSeq X Plus only, with no 6000 and no non-Illumina sequencer, so this core shows no 6000 tail and no rival price pressure.",
+      "detail": "The page lists 1.5B, 10B and 25B X Plus flow cells and library prep. It has no 6000, NextSeq, MiSeq, AVITI or Ultima. Together with the earlier logged cores that have dropped the 6000 (TGen, NCI, Northwestern, UMN), this adds one more fully converted research core. It is consistent with the 'research conversion is largely done' reading (F011, F382). The missing platforms are only an absence on this page. I could not check the Wayback history.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026",
+      "source_name": "KU Medical Center Genome Sequencing Facility",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds KUMC to the list of converted cores. No prior item covers it."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The page was read fully. It has no 6000 or non-Illumina rows, so the strategist's 6000:X comparison cannot be run here. I could not get Wayback snapshots (web.archive.org is blocked for the fetch tool), so the price history and any 25B introduction date are unknown. A browser or Apify run of Wayback CDX for this URL (2024-2026) would show when the 25B was added and whether prices changed. I assumed spec outputs of 8,000 Gb (25B) and 3,000 Gb (10B). The 1.5B per-Gb figure is not given because I was not sure of its spec output.",
+  "leads": [
+    {
+      "name": "Wayback CDX for KUMC pricing page",
+      "url": "https://web.archive.org/cdx/search/cdx?url=kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html&output=json",
+      "access": "Public, but blocked for WebFetch. Needs a browser or script.",
+      "labels": ["1B", "2A"],
+      "rationale": "Would give a dated price history showing 25B introduction and any cuts at a mid-size academic core."
+    },
+    {
+      "name": "KUMC KIDDRC bioinformatics/genomics core pages",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility.html",
+      "access": "Public HTML",
+      "labels": ["2A", "2B"],
+      "rationale": "May list the instrument fleet and any non-Illumina or 6000 instruments, and an update date."
+    }
+  ],
+  "apify_requests": []
+}
+```

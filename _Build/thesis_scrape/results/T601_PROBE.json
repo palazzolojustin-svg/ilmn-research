@@ -1,0 +1,11 @@
+```json
+{
+  "status": "dry",
+  "notes": "The datos.gov.co Socrata API is reachable without a login (via WebFetch). It is not useful for this thesis. q=illumina returned only 8 records and q=novaseq returned 2. Neither query returned a NovaSeq reagent purchase. The Illumina hits are MiSeq maintenance contracts at INS, a MiSeq i100 Plus instrument purchase (INS, 4 Nov 2025, COP 856.8M, supplier Rochem Biocare) and COVID sequencing service contracts. The only repeat purchase is the same MiSeq maintenance contract: COP 12.86M (Jun 2021) rising to COP 15.37M (Jun 2023). That is a service price, not a consumable price. q='reactivos secuenciacion' returned 8 records. The only 2025-to-2026 pair is the forensic institute INMLCF buying Applied Biosystems (Thermo Fisher) reagents: COP 3.48B (29 Jan 2025) and COP 4.47B (30 Jan 2026, +28%). That is a Thermo Fisher capillary-electrophoresis product, not Illumina, and the description gives no unit counts. IDCBIS has small NGS reagent lots (Dec 2024, COP 2.7M to 12.3M) and INM has a COP 151.8M sequencing system purchase (Jul 2024), but neither names Illumina or a kit size. I did not query the SECOP I dataset or run extra queries, because the main dataset showed that Colombian public buyers barely buy Illumina HT consumables through this channel. Most are bought off-contract or through the distributor Rochem Biocare. No unit-price series can be built from the descriptions.",
+  "how_to_mine": "Not recommended. If anyone retries, query $q=NovaSeq with $limit=500 on SECOP I, and also try $q=flow cell, $q='celda de flujo' and $q='NextSeq'. Buyers could include Universidad Nacional, Universidad de los Andes, the Instituto Nacional de Cancerologia and the INS. Check for line-item detail in the SECOP II 'items' datasets, because the contract-level descriptions here lack quantities.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

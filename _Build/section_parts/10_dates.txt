@@ -1,0 +1,53 @@
+2021-11-10 :: J.P. Morgan initiates coverage of Oxford Nanopore at Overweight
+2023-01-03 :: J.P. Morgan price target on ONT at its peak of 460p (share price 246p)
+2024-03-06 :: J.P. Morgan cuts ONT target to 210p; mid-term >30% revenue CAGR plan set at 2024 results
+2025-03-04 :: J.P. Morgan cuts ONT target to 190p (shares 105p)
+2025-08-01 :: ONT announces CEO and co-founder Gordon Sanghera will step down (month approximate)
+2025-11-01 :: ONT and bioMérieux launch AmPORE-TB test as research use only (month approximate)
+2025-12-08 :: ONT names Francis van Parys (Radiometer/Danaher) as CEO effective 2 March 2026
+2026-01-12 :: ONT FY25 trading update: revenue £223-224m (+24% cc), cash £302m, GridION Dx gets CE/UKCA approval
+2026-01-12 :: ONT presents at J.P. Morgan Healthcare Conference; CFO calls 2027 EBITDA breakeven the "North Star"
+2026-01-22 :: Deutsche Bank raises ONT target to 225p after dbAccess UK conference meeting with CFO
+2026-03-02 :: Van Parys becomes ONT CEO; Sanghera leaves Board and stays as adviser until early 2027
+2026-03-02 :: ONT FY25 results: revenue £223.9m, Adj. EBITDA loss £86.7m; FY26 growth guided 21-25% (vs 27.5% consensus), >30% mid-term target dropped; shares fall 12%
+2026-03-11 :: Barclays Global Healthcare Conference: ONT CFO says purchasing model adds 100-200bps to 2026 gross margin; ElysION stopped
+2026-03-25 :: Barclays calls ONT guidance cut a "clearing event", raises target to 172p, coverage moves to Jonathon Unwin
+2026-05-12 :: Roche Diagnostics Day sets summer 2026 Axelios (SBX) launch with 100-placement first-year target and $150/genome
+2026-05-21 :: ONT London Calling: PromethION Plus, GridION Q-line upgrade, HAC v6.0 basecaller, new CMO and CIO announced
+2026-06-15 :: Andrew Watson joins ONT as Chief Information Officer
+2026-07-01 :: ONT commercial function moves from CFO Nick Keher to CEO Francis van Parys
+2026-07-13 :: ONT H1 2026 trading update: revenue £116.5m (+12% cc), ~7% below consensus; 21-25% guide kept only with licensing revenue, 16-20% underlying
+2026-07-14 :: Barclays cuts ONT target to 160p and removes premium to peers
+2026-07-20 :: Deutsche Bank cuts ONT target to 195p from 225p
+2026-08-03 :: Davide Manissero joins ONT as first Chief Medical Officer
+2026-08-19 :: ONT H1 2026 results: Adj. EBITDA loss £22.1m (vs £38.1m consensus), $20m diagnostics cross-licensing deal, FY26 guide raised to 23-27%, 2030 targets of >$700m revenue and >15% margin
+2026-08-20 :: Moderna Phase 3 melanoma mRNA vaccine trial meets endpoints, cited as boost to ONT mRNA QC opportunity
+2026-08-21 :: Barclays raises ONT target to 182p
+2026-08-27 :: J.P. Morgan raises ONT target to 220p (Dec-27), including 33p for royalties
+2026-09-21 :: Deutsche Bank raises ONT target to 210p
+2026-09-28 :: Barclays investor trip: ONT says realised mRNA QC price ~$1,000/test and $700m 2030 target is conservative
+2027-01-01 :: ONT CQA2 mRNA QC assay expected (January 2027)
+2027-02-01 :: ONT full strategy update expected with FY26 results (February 2027)
+2005-01-01 :: Oxford Nanopore spun out of Oxford with GBP 0.5M from IP Group (year only)
+2025-01-01 :: ONT announces CapEx-first pricing and first restructuring (month only)
+2025-02-01 :: CapEx-first device pricing goes live (month only)
+2025-11-01 :: ONT "strategic realignment" restructuring (month only)
+2026-03-02 :: ONT FY2025 results (revenue GBP 223.9M, +24.2% cc); FY2026 guide 21-25%; drops >30% CAGR target
+2026-03-02 :: Gordon Sanghera steps down as ONT CEO; Francis Van Parys becomes CEO
+2026-03-11 :: ONT CFO Keher at Barclays calls Illumina TruPath "imputed... not direct"
+2026-06-01 :: ONT discontinues P2 Solo sales (month only)
+2026-07-01 :: ONT trading update flags weak H1 (month only)
+2026-08-17 :: ONT releases GridION Q version 2 (week of; approximate)
+2026-08-19 :: ONT H1 2026 results (GBP 116.7M, +12.3% cc); core guide cut to 16-20%
+2026-08-19 :: ONT signs cross-licence with unnamed global diagnostics company ($20M upfront, $15M purchases, royalties)
+2026-08-19 :: ONT sets 2030 targets: >$700M organic revenue, >15% adj. EBITDA margin
+2026-08-19 :: ONT announces MyOme (Natera) rare-disease contract
+2026-08-24 :: ONT RBC fireside; Chief Development and Product Officer and CMCO hires announced
+2026-09-15 :: ONT CEO and CFO at Morgan Stanley conference reaffirm 2026 guidance
+2026-09-21 :: ONT at RBC Virtual Life Sciences conference (21-22 Sep)
+2026-10-01 :: Conor McKechnie joins ONT as Chief Marketing and Communications Officer (month only)
+2026-12-31 :: UK Biobank 50,000-sample ONT methylation results expected (end of 2026)
+2027-01-01 :: ONT targets adjusted EBITDA breakeven (year)
+2027-12-01 :: ONT PromethION Q-Line launch re-timed to late 2027
+2028-01-01 :: ONT targets cash flow / free cash flow breakeven (year)
+2030-12-31 :: ONT target of >$700M organic revenue and >15% adj. EBITDA margin

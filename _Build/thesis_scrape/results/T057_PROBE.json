@@ -1,0 +1,43 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 6 tool calls. Nothing found gives academic percent-off-list tiers or renewal comparisons. E&I, Sourcewell, OMNIA and Big Ten searches returned no Illumina agreement. The UC systemwide agreement exists (announced 9 Apr 2024, CalUsource #2023003585). Its public page gives only one number, 25% off service agreements, and no discount percentages for reagents. It states no effective or renewal dates. The Oxford University finance page lists an Illumina Cambridge Ltd agreement with a minimum 10% off published list on consumables and 20% on equipment, but it has no date or tiers, and fetching it hit a 301 redirect. That is a floor, not a measured discount. The Illumina Open Offer addenda and appendix PDFs from the search results (oncology, 2022-2024) returned 404 when fetched. They are oncology, not academic, and the Open Offer is already in the known list. No Element or Ultima cooperative or university agreements surfaced. Cooperative contract documents are mostly member-login-gated, so this source is likely low yield.",
+  "how_to_mine": "(1) Search the CalUsource and UC procurement site for contract 2023003585 for a public PDF or supplier price-list attachment. Compare it with any earlier UC-Illumina agreement for tier changes. (2) Search the Govly public awards pages (app.govly.com/public/awards) and state contract portals (Texas SmartBuy/TIBCO, Cal eProcure, Virginia eVA, Ohio) for Illumina awards that list percent-off-list. (3) UK framework pages (the Crown Commercial Service, LHE/APUC/LUPC lab-supplies frameworks) may publish discount floors; the Oxford 10%/20% is an example. (4) Search 'Illumina' with 'sole source' justification PDFs from university boards of trustees, which sometimes quote a discount.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "A published university-wide Illumina consumables contract shows only a modest 10% minimum discount floor, not 'insane' discounts, at least for Oxford.",
+      "detail": "Oxford's finance procurement page lists an agreement with Illumina Cambridge Ltd. It sets a minimum 10% off published list on consumables and 20% on equipment, with no delivery charges. The page gives no date, no tiers and no actual realized discount, so it is a contractual floor and weak evidence of research discount depth. It was read via search-result snippet only, because the page redirected.",
+      "url": "https://finance.web.ox.ac.uk/node/657961",
+      "date": "undated (accessed 2026-10-12)",
+      "source_name": "University of Oxford Finance, Sequencing equipment & services",
+      "source_type": "procurement",
+      "quote": "minimum discount of 10% from published list price on consumables",
+      "strength": "weak",
+      "why_new": "Not in the known list: no Oxford or other university contract discount floor has been captured."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The University of California system renegotiated a UC-wide Illumina agreement in 2024 covering instruments, reagents and research services, which shows a consolidated buyer using purchasing leverage.",
+      "detail": "UCOP announced a new systemwide Illumina agreement (CalUsource #2023003585) on 9 Apr 2024. It covers sequencing instruments, reagents, discounted service agreements (25% off) and research services. No reagent discount percentages or renewal dates are public, so depth and trend cannot be measured from this page.",
+      "url": "https://procurement.ucop.edu/news/illumina-inc-life-sciences-uc-wide-agreement",
+      "date": "2024-04-09",
+      "source_name": "UC Office of the President, Procurement",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The UC systemwide contract and its 25% service-agreement discount are not in the known list."
+    }
+  ],
+  "new_candidates": [
+    "CalUsource contract #2023003585 supplier price-list or contract PDF (UC)",
+    "Govly public awards pages for Illumina (app.govly.com/public/awards)",
+    "UK public lab-supplies frameworks (CCS, LHE, APUC) naming Illumina with discount floors",
+    "University board-of-trustees sole-source justifications naming Illumina discounts"
+  ],
+  "apify_requests": []
+}
+```

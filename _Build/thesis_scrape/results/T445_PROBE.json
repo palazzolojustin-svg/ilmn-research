@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "Funakoshi, Cosmo Bio and Takara do not appear to publish Illumina NovaSeq kit yen prices. Three searches and one direct fetch (search URL, 404) found no distributor product page or 価格改定 notice with a yen list price for 20028312, 20028313, 20104705 or 20125968. Illumina's own pages (illumina.com and jp.illumina.com) show 'Sign in to add to cart or see pricing', so the List Price field is blank. The only yen figures surfaced are Kyoto University ASHBi core-facility fee tables, which are not distributor list prices. A search snippet showed the S4 v1.5 300-cycle kit (10B clusters) starting at ¥3,032,400. Another snippet showed a ¥3,248,200–¥4,151,800 range, but I could not tell which user tier or kit it belongs to. The ASHBi table (revised 1 Jul 2025) is the only yen series with some potential. I did not open it, so the figures are snippet-level only, and I saw no X-kit rows or $/Gb series. I did not report them as evidence items.",
+  "how_to_mine": "Open the ASHBi PDF (https://ashbi.kyoto-u.ac.jp/signac/wp-content/uploads/3-5-3_高等研究院ヒト生物学高等研究拠点単一細胞ゲノム情報解析コア共同利用等内規（令和3年3月31日制定）≪令和7年7月1日改正≫-受託解析料金表.pdf). Extract the S4/S2/X kit rows by user tier. Then look for earlier versions in the Wayback Machine to build a dated yen series. Also try other Japanese university core fee schedules (Tokyo, Osaka, RIKEN, Tohoku ToMMo) that list NovaSeq 6000 and X kits. Use search terms like 'NovaSeq X 25B 料金表' and '受託解析料金表 NovaSeq 6000 S4'. Treat the figures as institutional recharge rates, not list prices.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Kyoto University ASHBi core-facility 受託解析料金表 (Jul 2025 revision) and its earlier versions: dated yen kit-price series for NovaSeq 6000 S4 and possibly X kits",
+    "Other Japanese university or institute core 料金表 (Tokyo, RIKEN, ToMMo, Osaka) listing NovaSeq 6000 vs X kits in yen"
+  ],
+  "apify_requests": []
+}
+```

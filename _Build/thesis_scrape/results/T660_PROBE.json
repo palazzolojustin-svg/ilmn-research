@@ -1,0 +1,36 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The ABM RAMS DPN PDFs are open and the right files exist, but I couldn't read the ADNlc tables. WebFetch can't decompress the FlateDecode text streams, and the Read tool needs pdftoppm, which isn't installed. I got no per-year ADNlc series for 2019-2024. The only new number is a secondary one: Le Quotidien du Médecin (via a search snippet) says France did nearly 130,000 ADNflc exams in 2022. That is a search-result snippet; I did not open the article. Compared with the known 21,161 tests in 2016, it shows NIPT scaled about 6x after the HAS 2018 risk-band strategy. The series I'm after is a level-shift pattern, so one 2022 point can't show flattening. France has ~650K births a year, so 130K tests is about 20% of births, which suggests a mature, guideline-capped market. Nothing here ties to Illumina volumes. At most it is weak 1C evidence for NIPT maturing.",
+  "how_to_mine": "Download each PDF with curl into its own empty directory and extract text locally with pdftotext -layout or Python pypdf, running python with -I. Read the ADNlc section (~p.11 of the 47-page 2023 report). Files: rams-archives2023.agence-biomedecine.fr/sites/default/files/2024-08/ABM_PEGH_DPN2023.pdf (2023 data, may include 2019-2023 history); rams-archives2021.agence-biomedecine.fr/sites/default/files/2022-08/ABM_PEGH_DPN2021_MB.pdf (2021); rams-archives2019.agence-biomedecine.fr/sites/default/files/2020-09/200720_DPN2018_RAMS2020%20VF.pdf (2018); and the 2019, 2020 and 2022 reports via the rams-archives20XX subdomains. The 2024 report is likely at rams.agence-biomedecine.fr and was published ~Aug 2025. Note that counts are fetuses, not women. Compute YoY growth and tests per birth (INSEE births), and check for a step after the Sep 2024 HAS band widening to 1/1000-1/51.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "French cfDNA NIPT volume was about 130K tests in 2022, about 20% of ~650K births, which suggests a mature, guideline-capped market.",
+      "detail": "Le Quotidien du Médecin reported nearly 130,000 ADNflc exams in France in 2022, up from 21,161 in 2016 (known point). The HAS 2018 strategy offers the test only to women with a first-trimester risk of 1/1000-1/51, which caps eligibility. Only one year is confirmed, so the post-2022 trend and any flattening between guideline changes are untested. Search snippet only; I did not open the article.",
+      "url": "https://www.lequotidiendumedecin.fr/actu-medicale/trisomie-21-la-has-fait-une-place-au-test-adn-dans-le-depistage",
+      "date": "2022 data",
+      "source_name": "Le Quotidien du Médecin (citing HAS / Agence de la biomédecine)",
+      "source_type": "press",
+      "quote": "près de 130 000 examens par ADNflc ont été réalisés en 2022",
+      "strength": "weak",
+      "why_new": "Gives a French 2022 national NIPT count, and no French NIPT series is in the known list."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "ABM RAMS DPN 2023 PDF (full ADNlc series)",
+      "url": "https://rams-archives2023.agence-biomedecine.fr/sites/default/files/2024-08/ABM_PEGH_DPN2023.pdf",
+      "why": "Needs local text extraction (pdftotext or pypdf) to get the 2019-2023 counts."
+    },
+    {
+      "source": "HAS Sept 2024 recommendation (argumentaire) on ADNflc for other chromosomal anomalies",
+      "url": "https://www.has-sante.fr/jcms/p_3545370/",
+      "why": "May cite the national cfDNA volume and the expected increase. This tests whether the 2025 step-up is a one-off."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,56 @@
+short-read sequencing :: Reading DNA in fragments of a few hundred letters at very high volume and low cost, Illumina's core method.
+long-read sequencing :: Reading continuous DNA stretches of thousands of letters or more, useful for rearrangements, repeats and methylation.
+gigabase (Gb) :: One billion DNA letters, the unit used to price sequencing output.
+terabase :: One trillion DNA letters.
+30X coverage :: Each DNA position is read about 30 times on average, the standard depth for an inherited-DNA genome.
+flow cell :: The consumable chip on which a sequencing run takes place, labelled by billions of reads (e.g., 25B, 35B).
+consumables :: Reagent kits and chips customers must buy for every sequencing run, the main recurring revenue.
+pull-through :: Yearly consumables revenue generated per installed instrument.
+reagent rental :: A deal placing an instrument free or cheaply in return for a multi-year commitment to buy consumables.
+placement :: An instrument installed at a customer site.
+installed base :: The total number of a vendor's instruments in use at customers.
+Q score :: A logarithmic accuracy measure; Q30 is one error per 1,000 bases and Q60 one per million.
+duplex / simplex :: Duplex reads both strands of a DNA molecule for accuracy; simplex reads one strand for higher output.
+SBS (sequencing by synthesis) :: Illumina's chemistry, which builds a DNA copy one base at a time and images each step.
+SBX (sequencing by expansion) :: Roche's chemistry, which converts DNA into a stretched "Xpandomer" read through a nanopore sensor.
+nanopore sequencing :: Reading native DNA or RNA by pulling it through a tiny pore and measuring changes in electrical current.
+HiFi :: PacBio's long reads that are also highly accurate.
+synthetic long reads :: Long-range information reconstructed by stitching short reads together, as in Illumina's TruPath.
+methylation :: Chemical tags on DNA that affect gene activity, sometimes called the "fifth base."
+structural variant :: A large DNA rearrangement such as an inversion or translocation, often missed by short reads.
+phasing :: Assigning genetic variants to the copy inherited from each parent.
+clinical sequencing :: Using DNA sequencing to diagnose or treat patients, as opposed to research.
+LDT (laboratory-developed test) :: A test designed and validated by a single lab rather than sold as an approved kit.
+CLIA :: US federal certification for clinical laboratories.
+RUO (research use only) :: A product label meaning it is not cleared for diagnosing patients.
+IVD (in vitro diagnostic) :: A regulated test run on samples such as blood or tissue outside the body.
+liquid biopsy :: A blood test detecting cancer from DNA shed by tumors.
+ctDNA :: Circulating tumor DNA, fragments of tumor DNA found in blood.
+MRD (minimal residual disease) :: Testing for traces of cancer left after treatment.
+CGP (comprehensive genomic profiling) :: A large-panel tumor DNA test covering hundreds of cancer genes to guide therapy.
+companion diagnostic :: A test required to decide whether a patient receives a specific drug.
+NIPT :: Non-invasive prenatal testing of fetal DNA in the mother's blood.
+technology transfer :: A test company training a hospital lab to run its test locally on the partner's equipment.
+switching cost :: The money, time and validation work needed to move a test to a new platform.
+import substitution :: Chinese buyers replacing foreign products with domestic ones.
+unreliable entity list :: A Chinese government list restricting trade with named foreign companies, including Illumina.
+proteomics :: Measuring proteins rather than DNA or RNA.
+multiomics :: Combining several molecular data types, such as DNA, RNA and proteins, in one analysis.
+single-cell analysis :: Measuring gene activity cell by cell instead of averaging across tissue.
+spatial biology :: Measuring gene activity while recording where in a tissue each molecule sits.
+imaging-based spatial :: Spatial methods that read molecules directly in tissue under an instrument, without a sequencer.
+counting applications :: Uses such as RNA-seq that are priced per million reads rather than per genome.
+DRAGEN :: Illumina's secondary-analysis software that aligns reads and calls variants.
+secondary analysis :: The step that aligns reads to a reference genome and identifies variants.
+basis point :: One hundredth of a percentage point.
+organic growth :: Revenue growth excluding acquisitions and currency effects.
+constant currency (cc) :: Growth with exchange-rate swings removed.
+operating margin :: Operating profit as a share of revenue.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization, a proxy for operating cash earnings.
+EPS :: Earnings per share.
+capex :: Capital spending on long-lived equipment such as sequencers.
+consensus :: The average of analysts' forecasts.
+price target :: The share price an analyst expects in about 12 months.
+Overweight / Underweight :: Ratings meaning a stock is expected to beat or trail the analyst's coverage.
+EV/sales :: Enterprise value (equity value plus net debt) divided by revenue, used to value unprofitable firms.
+TAM (total addressable market) :: The total revenue opportunity available for a product.

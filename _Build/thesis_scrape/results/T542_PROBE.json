@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened one PDF in full, the Jan 6 2022 Appendix 1. Searches also surfaced Jan 25 2024 and Mar 18 2024 revisions on tst-web, and 2022/2023/2024 Open Offer addenda. The Jan 2024 and Mar 2024 PDFs returned 404 on tst-web, and the emea path for Mar 2024 redirected to a terms index page, so I could not read them. The search-snippet details on them are unverified (secondhand, from the search tool's summary): Table 3 credits of X Plus 13, 6000Dx 11, X 10, 6000 10, NextSeq 3, MiSeq 1; hardware tiers of 5% to 24% in the 2023 addendum. The Illumina test-terms page lists revisions through 31 May 2024, and I found no 2025-26 version. The 2022 PDF has no NovaSeq X lines, and the consumables table stops at NovaSeq v1.5. It states no price-per-Gb schedule beyond list prices for v1.5 kits. I found no S569 item to diff against, and nothing for 2025-26. Verdict: the source is reachable but the discount-tier content is old (2022-24), so it adds nothing on 35B, 25B or X-versus-6000 pricing for 2025-26. One candidate deserves a follow-up: the Jan/Mar 2024 consumables table with NovaSeq X columns. If it exists, it would show how deep the X discount goes.",
+  "how_to_mine": "1) Open https://www.illumina.com/areas-of-interest/cancer/test-terms.html (and the tst-web and assets.illumina.com copies) and list every Appendix 1 link, especially any dated after May 2024. 2) Try the same file names on the www, emea and assets hosts, since tst-web 404s for Jan and Mar 2024. 3) Download each PDF to disk with curl, run pdftotext, and diff Table 1 (the consumables schedule by annual spend) for NovaSeq X columns. 4) Compare the top-tier discount in 2022 (NovaSeq v1.5 22% at $100M+) with the 2024+ X columns. 5) Check the Open Offer addenda (2023-05-23, 2024-04-22, 2022-09-29) for the 'Section 4(g) disclosure' text on per-Gb price commitments.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's published 2022 US oncology contract template capped the NovaSeq v1.5 consumables discount at 22% at $100M+ annual spend, and NovaSeq discounts began only above $5M.",
+      "detail": "Appendix 1, revision of 6 Jan 2022: the NovaSeq v1.5 column runs 0% up to $5M, then 3% ($5-10M), 5%, 10% ($20-30M), 13%, 15%, 17%, 20% ($75-100M) and 22% at $100M+. The NextSeq 550 TG column gets 40% at the top, and NextSeq 1000/2000 gets 15%. This is the published pre-X baseline against which the 2024+ X schedules and the redacted Natera and Caris tiers can be compared. It also implies that formal template discounts on the 6000 were modest, so most of the extra discounts now reported for large accounts are negotiated outside the template. I could not read any 2024+ schedule to measure escalation.",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+      "date": "2022-01-06",
+      "source_name": "Illumina Appendix 1 to Exhibit A, Universal Consumables and Instruments Discount Schedules",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list covers Natera/Caris/Guardant contract terms but not Illumina's own public tier table; it is old (2022) and has no X column."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In Jan 2022, 6000 S4 v1.5 300-cycle list was $14,400 per kit, and the template credited each installed NovaSeq 6000 as 10 instrument credits.",
+      "detail": "The 6 Jan 2022 appendix catalogue lists S4 300cyc at $14,400, S2 300cyc at $9,600 and S1 300cyc at $5,250. The 6000 system was $985,000. Hardware discounts reached 24% at 900+ credits. Snippet-level only (not verified by opening the file): the Jan/Mar 2024 versions give X Plus 13 credits and X 10 credits, so the X counts for more than the 6000 in credit tiers. This is an older price anchor for the 6000's per-Gb price before the later Salk-style list cuts of 16-24%.",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+      "date": "2022-01-06",
+      "source_name": "Illumina Appendix 1 (list price catalogue)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It gives the 2022 official 6000 kit list-price anchor (S4 $14,400). The known list has only 2025-26 S4-300 prices ($52K→$39.7K at Salk, $21,683 from GSA)."
+    }
+  ],
+  "new_candidates": [
+    "https://www.illumina.com/areas-of-interest/cancer/test-terms.html : find the full revision list for Appendix 1 after May 2024",
+    "Open Offer Addenda 2022-09-29, 2023-05-23, 2024-04-22 (Section 4(g) disclosure) under /content/dam/illumina-marketing/documents/applications/cancer/ : read for per-Gb or net-price commitments",
+    "Archived copies of these PDFs on web.archive.org for the Jan 2024 and Mar 2024 versions that now 404"
+  ],
+  "apify_requests": []
+}
+```

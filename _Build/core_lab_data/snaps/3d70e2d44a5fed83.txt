@@ -1,0 +1,60 @@
+PAN_Rates
+Home | About Us | News | FAQs | Prices | Publications | Testimonials | Contact Us
+|
+|
+|
+|
+§ Home |
+§ FAQs |
+§ Prices |
+§ Contact Us |
+§ Publications |
+|
+|
+|
+Service Information and Rates |
+Genomic Services
+|
+|
+Protein Services
+|
+Oligo Synthesis (Shipping and Handling)
+|
+Peptide Synthesis (Shipping and Handling)
+|
+Gene Expression
+• Nextera XT DNA |
+|
+• Targeted Sequence: (Does not include kit)
+|
+• 16S Microbiome Amplicon-Seq |
+|
+• MiSeq Services:
+• MiSeq Run Only:
+-- Client provides MiSeq reagent kit with samples preloaded into the cartridge.
+• 2 x 75 cycles |
+• 2 x 150 cycles |
+• 2 x 250 cycles |
+• 2 x 300 cycles |
+• Micro 300 cycles |
+• Nano 300 cycles |
+• Nano 500 cycles |
+|
+• MiSeq Full Service: Set-up and Run
+-- PAN provides MiSeq reagent kit and initial sample QC on Agilent 2163 Bioanalyzer.
+• 2 x 75 cycles |
+• 2 x 150 cycles |
+• 2 x 250 cycles |
+• 2 x 300 cycles |
+• Micro 300 cycles |
+• Nano 300 cycles |
+• Nano 500 cycles |
+|
+|
+|
+298
+|
+298
+|
+|
+255

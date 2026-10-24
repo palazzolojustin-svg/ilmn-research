@@ -1,0 +1,34 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the HKU CPOS page. It confirms a half-price (50%) launch promotion for an Illumina PIPseq-based single-cell RNA-seq service, running 24 Nov 2025 to 13 Feb 2026, with the stated reason 'to celebrate the service launch'. The page gives no regular price, no discounted price, and no per-sample price. It also doesn't say whether the 50% covers only prep or also sequencing, although the service is described as packaged (cell capture, library prep, sequencing and data analysis). The page sends readers to the CPOS service page and to pipsinglecell.cpos@hku.hk for those details. One standard search for other core-facility launch discounts found nothing. The only price-like data point is a 'per cell' range of $0.03 to $0.15 from a March 2025 Illumina/UTH webinar, and I saw it only as a search-result snippet. It does not show a discount. I used 2 of about 10 tool calls and did not open the CPOS service page. The item is qualitative, small, and Asia-based. It is weak evidence for 2A and does not quantify any price concession.",
+  "how_to_mine": "Optional, low priority: fetch the CPOS service page (cpos.hku.hk, search 'PIPseq' or 'Single Cell') for the regular per-sample price. Then compute the promotional price. Also open the UTH March 2025 webinar PDF (https://www.uth.edu/cgc/documents/single-cell-webinar-march-2025.pdf) to verify the $0.03-$0.15 per cell claim and compare it with 10x per-cell costs.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "An Asian academic service core launched Illumina's PIPseq-based single-cell RNA service at 50% off for about 11 weeks.",
+      "detail": "HKU CPOS ran a half-price promotion on its Illumina single-cell RNA-seq service (PIPseq chemistry) from 24 Nov 2025 to 13 Feb 2026, 'to celebrate the service launch'. The service is packaged: cell capture, library prep, sequencing and data analysis. The page does not state the regular price, the discounted price, or whether the 50% applies to the whole package. It is a single, small, Asia-based instance, so it is qualitative only, and it is unclear whether Illumina or the core funded the discount.",
+      "url": "https://cpos.hku.hk/illumina-single-cell-service-launch/",
+      "date": "2025-11-24",
+      "source_name": "HKU CPOS (Centre for PanorOmic Sciences)",
+      "source_type": "price_list",
+      "quote": "to celebrate the service launch",
+      "strength": "weak",
+      "why_new": "Not in the exclusion list: no prior mention of launch discounts on Illumina's single-cell prep at academic cores."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "https://www.uth.edu/cgc/documents/single-cell-webinar-march-2025.pdf",
+      "idea": "Illumina presenters listed $0.03-$0.15 per cell for Single Cell 3' RNA Prep. Check the slide for context and compare it with 10x per-cell cost to see whether Illumina is pricing below 10x in counting applications."
+    },
+    {
+      "source": "https://bme.ubc.ca/wp-content/uploads/2025/02/2025-Feb-SBME-Seq-Price-Sheet.pdf",
+      "idea": "UBC SBME sequencing price sheet (Feb 2025). A core price list that could show NovaSeq and single-cell per-lane or per-sample pricing. Not yet opened, and relevance is unknown."
+    }
+  ],
+  "apify_requests": []
+}
+```

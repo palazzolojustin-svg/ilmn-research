@@ -1,0 +1,23 @@
+I'm wrapping up the S076 probe. The CDC dashboard page doesn't expose birth counts as text, so I'm writing up what I could get.
+
+```json
+{
+  "status": "dry",
+  "notes": "The CDC dashboard page is reachable with no login, but its numbers sit in charts, not page text. The WebFetch tool could not read them. The Socrata API (data.cdc.gov dataset 76vv-a7x8) returned HTTP 400 on my two guessed query URLs, so I never saw the 12-month-ending birth counts for 2023 to Q2 2026. What I did get: the dashboard covers Q1 2024 to Q2 2026 (2024 final, 2025 and 2026 provisional). Secondary sources give a general fertility rate of 53.1 per 1,000 women aged 15-44 for 2025, down 1% from 2024, and about 53 in Q1 2026 (Washington Examiner). The dashboard publishes rates, and the dataset may not carry counts at all. The NIPT-penetration search found no 2024+ national estimate. It returned only a 2020 review (25-50% of women in most US states), a 2015-era assumption of 70% for any aneuploidy screening, and an unsourced 2025 market-report claim of 15-20%. Both findings are indirect. Falling births are a mild against-signal for NIPT volume (1C), but nothing here is new or quantified enough to report as an item. Nothing was opened that would back a quote.",
+  "how_to_mine": "Download the CSV from data.cdc.gov/api/views/76vv-a7x8/rows.csv?accessType=DOWNLOAD (a plain GET, no login needed). Filter to the general fertility rate and to the 12-month-ending quarters from 2023 Q4 to 2026 Q2. For counts, use the CDC WONDER provisional natality data or the NVSS Vital Statistics Rapid Release 'Births: Provisional Data for 2025' PDF, which gives the 2025 birth total. Then pair births with NIPT volumes: Natera women's health test counts in the 10-K and 10-Q, BillionToOne prenatal volumes in its S-1 and 10-Q, and ACOG or claims-based papers from 2024 onward (search PubMed for 'cell-free DNA screening uptake claims 2023'). Compute NIPT tests divided by births to get penetration and headroom.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "CDC dataset 76vv-a7x8 CSV direct download (https://data.cdc.gov/api/views/76vv-a7x8/rows.csv?accessType=DOWNLOAD)",
+    "NCHS VSRR 'Births: Provisional Data for 2025' PDF (cdc.gov/nchs/data/vsrr/) for the 2025 birth total",
+    "Natera and BillionToOne prenatal test counts divided by US births, for a penetration estimate"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [CDC natality dashboard](https://www.cdc.gov/nchs/nvss/vsrr/natality-dashboard.htm)
+- [Washington Examiner](https://www.washingtonexaminer.com/?p=4630281)
+- [data.gov catalog entry for the NCHS dataset](https://catalog.data.gov/dataset/nchs-vsrr-quarterly-provisional-estimates-for-selected-birth-indicators)
+- [PubMed review of NIPT use in Europe, Australia and the USA](https://pubmed.ncbi.nlm.nih.gov/32176318/)

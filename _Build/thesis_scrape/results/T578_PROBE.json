@@ -1,0 +1,22 @@
+```json
+{
+  "status": "dry",
+  "notes": "I confirmed the feed URL but could not mine it. This session had no shell or Python, only WebFetch and WebSearch, so I could not download or parse any ZIP. The Hacienda page lists only the 'licitaciones' (perfiles de contratante) feed, per the page summary WebFetch returned. It does not appear to list a contratos menores feed. If minor contracts are published separately, I did not find where. Monthly ZIP pattern: https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3_AAAAMM.zip. The page lists 202501 to 202610 as monthly files, and 2024 only as an annual archive (..._2024.zip). The ATOM entry point is https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom, with up to 500 entries per file and rel=next paging. One web search found no 2026 minor contract for NovaSeq flow cells with Illumina Productos de España. It found only larger procedures: an April 2026 award of €59,040 for MiSeq NGS kits at Hospital 12 de Octubre (not a NovaSeq purchase), a Sep 2025 award of €182,985 for NGS equipment, and a July/Aug 2026 TED service tender for Clínic Barcelona (64 lanes of X Plus 25B, changed in August to 12 25B-100 flow cells). The notice IDs are TED 528143-2026 and 536530-2026. I saw these only as search snippets, not by opening the notices. They show no price and no award. The value for the thesis is probably low, because minor contracts under €15K are single kit purchases, and a NovaSeq 25B flow cell is about €12-16K, so few NovaSeq purchases would fall under that threshold. They would more often go through exclusivity negotiated procedures or distributors. That limits what this feed can show on price per kit.",
+  "how_to_mine": "Run in an environment with Python. (1) Download the 2025-01 to 2026-09 monthly ZIPs from the URL pattern above, plus the 2024 annual ZIP, each into a new empty directory. (2) Parse the ATOM/CODICE XML with python -I and lxml, and filter on supplier or object text containing Illumina, NovaSeq, 'flow cell', 'flowcell', 25B, 10B, XLEAP or S4. (3) Extract buyer, date, net amount, CPV and object text. (4) Look separately for a contratos menores feed on contrataciondelsectorpublico.gob.es under sindicacion (a different sindicacion number). I did not find it. Also check the Madrid and Catalonia regional portals (contratos-publicos.comunidad.madrid, contractaciopublica.cat), which publish minor contracts. (5) Open TED 528143-2026 and 536530-2026 for the Clínic Barcelona 25B tender (estimated value, lanes, unit price). Check for an award notice, which would give a euro price per 25B flow cell in 2026. The La Paz 2024 S2 flow cell tender (PAS 17-2024) is a useful comparison for a price trend.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "TED notices 528143-2026 / 536530-2026 (Fundació Clínic Barcelona NovaSeq X Plus 25B sequencing service)",
+      "url": "https://ted.europa.eu/en/notice/536530-2026/pdf",
+      "why": "A 2026 public tender with lane counts and a likely estimated value. It could give a euro price per 25B flow cell or lane, and the award notice would give the realised discount. This is a candidate for 1B and 2A."
+    },
+    {
+      "name": "La Paz PAS 17-2024 S2 flow cell tender, with later renewals",
+      "url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2024-04/ppt_pas_17-2024.pdf",
+      "why": "A repeat purchase of the same kit over time at a Madrid hospital. Comparing it with the 2026 awards could show realised price changes."
+    }
+  ],
+  "apify_requests": []
+}
+```

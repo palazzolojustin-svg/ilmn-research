@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR full-text endpoint (efts.sec.gov/LATEST/search-index) opened without a login and returned JSON, but only metadata (filer, form, date); the matching text was excluded. Query '\"NovaSeq 6000\" \"useful life\"' (2025-01-01 to 2026-10-12) returned only Caris Life Sciences' FY25 10-K (filed 2026-03-03) and its ARS. Query '\"NovaSeq 6000\" \"impairment\"' with forms=10-K,10-Q returned only the same Caris 10-K. Neither phrase pair had any hit for Natera, GeneDx, Myriad, Fulgent, Guardant, Tempus, Personalis or BillionToOne. A looser query, '\"sequencing equipment\" \"useful life\"', matched PacBio (10-K and 10-Qs), Myriad (FY24 and FY25 10-Ks), Natera (FY24 10-K) and Caris. Those are most likely generic depreciation-policy language, not accounting events, and I did not open them. I read Caris's 10-K up to character 600K of 644K. The fetch tool returned no text with 'NovaSeq 6000', 'useful life' or impairment, and no sequencer retirement or replacement language. Those passages are probably in the financial-statement notes, but I did not read that part. I ran only the queries above. I did not run the 'retire', 'replacement' and 'accelerated depreciation' queries or the company-by-company queries, and did not use the mix of hits as evidence. So there is no sign of a disclosed accelerated write-off or shortened life on 6000 fleets, but I cannot confirm that. The absence is weakly consistent with a persistent tail, but it is not usable as evidence for the thesis.",
+  "how_to_mine": "Add a filing-level query to the full-text endpoint: efts.sec.gov/LATEST/search-index?q=\"NovaSeq\"&ciks=<CIK>&forms=10-K,10-Q&dateRange=custom&startdt=2025-01-01. Drop the doc_text exclusion, or open the hit's primary document from https://www.sec.gov/Archives/edgar/data/<cik>/<adsh-no-dashes>/<file>. Then read the 'Property and equipment, net' note and the accounting-policy paragraph for the lab-equipment useful life, and any 'change in estimate' paragraph. Target Caris (fetch characters ~500K-544K of cai-20251231.htm, which holds the notes), Natera 10-K FY25, GeneDx, Guardant, Tempus and Fulgent. Ignore 'sequencer' hits that are generic policy text; a real event would say 'change in estimated useful life' or 'accelerated depreciation'.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Caris Life Sciences FY25 10-K (https://www.sec.gov/Archives/edgar/data/2019410/000201941026000016/cai-20251231.htm): property and equipment note, lab-equipment useful life, any sequencer replacement language (not yet read; the full-text search matched 'NovaSeq 6000' and 'useful life' in the filing)",
+    "Natera, Myriad and PacBio 10-Ks and 10-Qs matching 'sequencing equipment' + 'useful life': check for a 'change in estimate' or shortened lives. Natera FY25 10-K and 10-Qs not yet checked"
+  ],
+  "apify_requests": []
+}
+```

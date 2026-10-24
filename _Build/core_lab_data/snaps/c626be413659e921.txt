@@ -1,0 +1,179 @@
+Ultima Genomics UG 100 Sequencing | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Research
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Breadcrumb
+Home
+Ultima Genomics UG 100 Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Ultima Genomics UG 100 Sequencing
+Overview
+Pricing
+Submission
+Overview
+The UMGC’s newest sequencing instrument, the UG 100 from Ultima Genomics, is an ultra-high throughput next-generation sequencing (NGS) instrument purpose-built for the most sequencing-hungry applications. Radical cost reduction is at the core of its design, a system architecture that reflects the UG 100’s Silicon Valley roots. The bottom line: innovative hardware and chemistries enable human genome sequencing for $100 in raw sequencing reagent cost.
+Technology
+The UG 100 replaces a traditional flow cell with a massive, open-to-the-elements, flat circular silicon wafer (the foundational material of the semiconductor industry). During sequencing operation, this disk spins – like a CD or disk drive – enabling reagent dispensing (“spin-coating”) and continuous data acquisition from two fixed-position cameras. This inversion of the standard architecture – a moving wafer substrate, with fixed cameras as opposed to a fixed flow cell substrate, with moving cameras – accelerates sequencing and throughput. A ≥ 300-base median-length run is completed in roughly 20 hours.
+The UG 100’s chemistry is also a departure from common single-base extension methods. Sequencing read-out is “flow-based”: only one type of nucleotide substrate is introduced per data capture cycle (a “flow”), thereby reducing errors by eliminating the need for base-calling. Because the UG 100 employs flow-based read-out, resulting read lengths are a distribution, with a median length of ≥ 300 bases (≈ 250 bases, post-filtering). With yields of 10-12 billion reads per wafer, this translates to ≥ 2.5-3.0 terabases of high-quality data per run.
+A more complete discussion of the technology behind the UG 100 can be found on Ultima’s website and also in the foundational paper describing the technology.
+Expand all
++
+Applications
+The UG 100 is best suited to applications that require 10-12 billion reads at a time, or more. The UMGC has exhaustively validated our instrument’s performance by sequencing ≈ 2,000 human whole genomes at 30X depth. We currently offer research-grade WGS for any organism, including variant calling using Google DeepVariant and GATK. Interested researchers are encouraged to contact us regarding any of these applications:
+Whole genome sequencing for any organism
+Paired plus-minus sequencing (ppmSeq) for rare event detection
+Minimal residual disease detection
+Analysis of cell-free DNA (cfDNA) and circulating tumor DNA (ctDNA)
+Ultra-deep metagenomic and metatranscriptomic sequencing
+Model organism and cell line sequencing for quality control
+DNA methylation sequencing via WGBS or RRBS
+Ultra high-depth single-cell sequencing (10X Genomics, Parse, Scale)
++
+Output (Official Ultima Genomics Specifications)
+Metric | Value |
+Average Read Length | 300+ bp |
+Sequencing Runtime | 14 hours |
+Tb per Wafer | Up to 3.6 Tb |
+Output Reads | 10–12 Billion |
+% Flows ≥ Q30 | >85% |
+% Substitutions ≥ SNVQ40 | >85% |
+Performance specifications on the UG 100 as reported by Ultima. A single flow cycle sequentially dispenses each distinct nucleotide once and correlates to 4 flows.
++
+ppmSeq
+The UG 100’s emulsion-PCR base library creation also enables a radical increase in accuracy, via a sequencing mode called Paired Plus Minus Sequencing (ppmSeq), which provides a raw read accuracy of one part per million (Q60). By jointly amplifying both strands of the native input DNA, and then eliminating mixed signals, ppmSeq eliminates noise and enables the detection of events that occur at a frequency above 1-in-a-million. Details can be found at Ultima’s website.
+Start a Project
+The UMGC is a Certified Service Provider for the UG 100 system, one of a few select labs worldwide with this distinction. This certification reflects our commitment to excellence in sequencing services and expertise in deploying cutting-edge genomic technologies. If you are interested in getting started on the UG 100, please contact us at [email protected].
+Pricing
+UMN Rates
+Wafer | Savings Tier | Speed Tier | Priority Tier |
+Full wafer. 10–12 billion reads. | $3,204 | $3,356 | $3,508 |
+Turnaround time. | 6 – 21 days | 4 – 12 days | 4 – 7 days |
+Half wafer. 5–6 billion reads. | $2,107 | $2,206 | $2,305 |
+Turnaround time. | 6 – 21 days | 4 – 12 days | 4 – 7 days |
+External Rates
+Wafer | Savings Tier | Speed Tier | Priority Tier |
+Full wafer. 10–12 billion reads. | $3,688 | $3,863 | $4,038 |
+Turnaround time. | 6 – 21 days | 4 – 12 days | 4 – 7 days |
+Half wafer. 5–6 billion reads. | $2,425 | $2,539 | $2,653 |
+Turnaround time. | 6 – 21 days | 4 – 12 days | 4 – 7 days |
+Tiers: Pricing is rounded up to the nearest whole dollar. Turnaround time (TAT) is in business days. TAT is for sequencing only and does not factor in the TAT for library prep or other companion services. Availability for the Priority Tier is limited; contact [email protected] to see if this is a current option. More information about Pricing Tiers.
+Submission
+Fill out the sample submission form and email the completed form to [email protected].
+NGS – Sample Submission Form
+NGS – Pre-made Library Submission Form
+Campus drop-off locations:
+1-210 Cancer & Cardiovascular Research Building (Minneapolis campus)
+20 Snyder Hall (St. Paul campus)
+Shipping address:
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

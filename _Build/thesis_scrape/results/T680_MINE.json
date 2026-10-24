@@ -1,0 +1,156 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The University of California (UC) system holds a systemwide Illumina agreement, signed April 2024, which is a pooled-demand discount vehicle covering all 10 campuses.",
+      "detail": "UC Systemwide Procurement announced contract CalUSource #2023003585 on 9 Apr 2024. It covers sequencing instruments, reagents, service and research services, with a 25% discount on service agreements and unspecified 'discounted product categories'. It came out of a UC Strategic Sourcing review of how UC buys sequencing. A UC campus page (UCSD, updated 25 Feb 2026) still lists it as 'net contract pricing'. This shows aggregated academic demand being negotiated as one account, but reagent discount percentages and the term are not public.",
+      "url": "https://procurement.ucop.edu/news/illumina-inc-life-sciences-uc-wide-agreement",
+      "date": "2024-04-09 (UCSD listing updated 2026-02-25)",
+      "source_name": "UC Office of the President, Systemwide Procurement",
+      "source_type": "procurement",
+      "quote": "25% discount on service agreements",
+      "strength": "medium",
+      "why_new": "The exclusion list has no UC-wide or university-system master agreement; it names only Colorado master agreements (Dec 2025) and individual core rate cards."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Element Biosciences sits on the same UC systemwide sequencing sourcing suite as Illumina, which gives UC researchers a pre-approved purchasing channel for AVITI.",
+      "detail": "UCSD's agreement-supplier page (updated 25 Feb 2026) lists Element (contract 2023003607) next to Illumina (2023003585), Bio-Rad, Eurofins, IDT and Life Technologies, all at 'net contract pricing'. The contract numbers show the Element contract was set up in the same 2023 sourcing round as Illumina's. UCSF supply-chain notes say requisitions under these competitively bid agreements need no extra justification. PacBio has a separate UC-wide agreement. The procurement friction for switching part of UC's research volume away from Illumina is therefore low, though no Element volume is disclosed.",
+      "url": "https://blink.ucsd.edu/buy-pay/goods/lab/agreement-suppliers/sequencing/index.html",
+      "date": "2026-02-25",
+      "source_name": "UC San Diego BLINK procurement page",
+      "source_type": "procurement",
+      "quote": "Net contract pricing",
+      "strength": "medium",
+      "why_new": "No known item shows a rival on a large university-system contract; the existing Element items are core-level purchases or platform records."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UCSF's central core has cut its internal NovaSeq X lane prices by about 10.5% (25B) and 16.5% (10B) between an older page version and the current one.",
+      "detail": "The older cached CAT page (node/706) shows UC internal 25B-300 at $2,850 and 10B-300 at $1,724. The current /sequencing page shows $2,551 and $1,439. That is -10.5% ($299) for the 25B and -16.5% ($285) for the 10B. Neither page is dated, so the pace per year is unknown. The older page still lists the 25B 100/200-cycle kits as 'Coming Nov. 2024', which puts it before the newer version.",
+      "url": "https://cat.ucsf.edu/sequencing",
+      "date": "undated; older version ~2024, current version fetched 2026-10-12",
+      "source_name": "UCSF Center for Advanced Technology (CAT) rate pages",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F817 only says the CAT prices 'fell sharply, 10B most'. This gives the dollar and percentage cuts for 25B and 10B."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Berkeley resells UCSF's X lanes at a thin markup (+1.9% on the 25B, +6.7% on the 10B), so the CAT lane price has become the working price for a whole campus.",
+      "detail": "Berkeley's UC rate for the 25B 150PE lane (effective after 1 Jun 2026) is $2,600 against CAT's $2,551 for the 25B-300, which uses the same 151x12x24x151 read setup. That is +$49, or +1.9%. The 10B is $1,535 against $1,439, +$96 or +6.7%. Berkeley says it 'does not have a NovaSeq X' and sends all lanes to the UCSF CAT Lab. The page says this was 'transitioned in the summer of 2026 from all other partners'. Several formerly separate partner volumes now sit on one account, which strengthens the buyer's hand in any future repricing. The partners that Berkeley used before are not named.",
+      "url": "https://qb3.berkeley.edu/facility/genomics/rates/",
+      "date": "2026-06-01 (rates effective)",
+      "source_name": "UC Berkeley QB3 Genomics rate card; UCSF CAT",
+      "source_type": "price_list",
+      "quote": "all lanes are sent to the UCSF CAT Lab at this time",
+      "strength": "medium",
+      "why_new": "F818 notes Berkeley resells through one UC core. It does not give the Berkeley-to-CAT markup or tie it to the CAT price cut."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UC campus internal 25B prices differ by about 9%. UCSD IGM's 2025 sheet shows $2,800 and CAT now shows $2,551, so the aggregated account has the lowest price.",
+      "detail": "A search snippet of UCSD IGM's 2025 rate PDF shows the 25B-300 lane at $2,800 for UC users and $3,836 for outside users. Against CAT's $2,551 that is -8.9% (-$249). Berkeley's $2,600 sits between the two. The price per Gb is about $2.92 at CAT and $2.97 at Berkeley on the stated 875 Gb of output. UCLA's external 25B-300 is $3,512 (1 Jul 2026). Intra-system price dispersion of this size, plus a UC-wide contract, makes consolidation onto the lowest-cost core likely.",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202025%20New%20IDC.pdf",
+      "date": "2025 (IGM sheet); 2026-10-12 (CAT)",
+      "source_name": "UCSD IGM 2025 rates (search snippet, not opened); UCSF CAT",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UCSD IGM appears in the known list only as 'lists only Illumina'. A UC internal price comparison across campuses is new."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "CAT's external premium over its UC rate grew from about 26% to 33% for non-profits while the internal price fell, and Berkeley charges external users only 15% more.",
+      "detail": "The old CAT page shows external non-profit 25B-300 at $3,591 against $2,850 internal, a 26% premium. The current page states a flat 33% non-profit and 46.3% for-profit multiplier on UC rates, which gives about $3,394 and $3,732 for the 25B-300. That is about 5% below the old external price. Berkeley's external 25B is $2,990 against $2,600 internal, +15%. Many research buyers face a lower external price even when the headline premium widens, and Berkeley's narrow gap shows aggregation compressing the subsidy. The derived CAT external prices are my arithmetic, not published figures.",
+      "url": "https://cat.ucsf.edu/sequencing",
+      "date": "undated; fetched 2026-10-12",
+      "source_name": "UCSF CAT; UC Berkeley QB3",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known items cover internal/external gaps at Fred Hutch (76%), Harvard (40%), NCI (2x) and Oregon (36%). UC's gaps and their direction are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "The X 1.5B flow cell at CAT is priced much higher now than on the older page (+28% at 300 cycles, +46% at 100 cycles). The deflation is concentrated in the large flow cells.",
+      "detail": "The older page shows 1.5B (2 lanes) at $1,824 / $2,357 / $2,582 for 100/200/300 cycles. The current page shows $2,665 / $2,906 / $3,302, which is +46% / +23% / +28%. The unit basis may have changed, since the older page's wording on per-lane versus per-flow-cell is ambiguous, so treat this with caution. If the basis is the same, the 25B/1.5B price ratio widened. That matches known Harvard Bauer FY27 increases on small cells (1.5B +25.5%). Smaller buyers are not seeing discounts, which fits the 'tiered' structure rather than across-the-board erosion.",
+      "url": "https://cat.ucsf.edu/sequencing",
+      "date": "undated; fetched 2026-10-12",
+      "source_name": "UCSF CAT rate pages (old vs current)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies the 1.5B move at CAT. It adds an 'against' data point not in the known Bauer 1.5B +25.5% item."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Berkeley's NextSeq 2000 lane rates are stated as stable for 2026, and the page shows no mid-throughput price cuts.",
+      "detail": "The Berkeley QB3 page says NextSeq 2000 rates 'should be stable for 2026'. UC rates range from $975 (P1 100c) to $2,775 (P3 100c) and $2,600 (P4 100c, 180 Gb, about $14.4/Gb). The P4 100-cycle price equals the 25B 150PE lane price ($2,600), so Berkeley prices a 180 Gb lane the same as an 875 Gb lane. Mid-throughput is not getting cheaper at this core, which fits the idea that deflation sits in the 25B.",
+      "url": "https://qb3.berkeley.edu/facility/genomics/rates/",
+      "date": "2026-06-01",
+      "source_name": "UC Berkeley QB3 Genomics rate card",
+      "source_type": "price_list",
+      "quote": "should be stable for 2026",
+      "strength": "weak",
+      "why_new": "Known mid-throughput items cover Taiwan (NextSeq P3 ~18% above US list) and Illumina's May 2024 cuts. UC's 2026 stability statement is new."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Neither UCSF CAT nor Berkeley lists any NovaSeq 6000 lanes, so the UC research tail is already off the 6000.",
+      "detail": "The current CAT page lists only the NovaSeq X Plus (25B, 10B, 1.5B). The Berkeley page lists 10B and 25B X lanes, NextSeq 2000 and MiSeq i100, with no 5B, 1.5B or 6000. This is a small sample of two UC cores. It fits the known 8% research 6000 share, but it says nothing about clinical 6000 tails.",
+      "url": "https://cat.ucsf.edu/sequencing",
+      "date": "2026-10-12",
+      "source_name": "UCSF CAT; UC Berkeley QB3",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known core cards covered UCLA, Northwestern, Harvard and others. This adds UCSF and Berkeley."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Wayback is blocked by the fetch tool, so the CAT and Berkeley change dates were not established. Both CAT pages are undated. Not mined: CalUSource contract text (term and discount schedule), UC Davis and UCSD IGM 2026 sheets (only the IGM 2025 sheet was seen in a snippet), the UCOP systemwide-contracts list, and the UCSF Sequencing Consortium agenda (the URL sequencing.ucsf.edu/agenda returned 404; the search snippet cited a UCOP Illumina negotiation update). 5 of about 40 tool calls were used.",
+  "leads": [
+    {
+      "name": "UC Life Sciences Strategic Sourcing contract list",
+      "url": "https://procurement.ucop.edu/systemwide-contracts/life-sciences-strategic-sourcing",
+      "access": "open",
+      "labels": ["1B", "2B"],
+      "rationale": "May list the Element, Illumina and PacBio agreements with discount tiers, dates and terms."
+    },
+    {
+      "name": "UCSD IGM 2025 rate sheet (PDF)",
+      "url": "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202025%20New%20IDC.pdf",
+      "access": "open (seen only as a search snippet)",
+      "labels": ["1B", "2A"],
+      "rationale": "A full 2025 rate table, with the 2026 version to follow, would give a UC price time series."
+    },
+    {
+      "name": "UCLA TCGB pricing",
+      "url": "https://www.uclahealth.org/departments/pathology/research-services/technology-center-genomics-bioinformatics-tcgb/pricing",
+      "access": "open",
+      "labels": ["1B", "2A"],
+      "rationale": "UC internal vs external rates, effective 1 Jul 2026, to compare with CAT and Berkeley."
+    },
+    {
+      "name": "UCSF Sequencing Consortium agenda (search result)",
+      "url": "https://sequencing.ucsf.edu/agenda",
+      "access": "returned 404 when fetched directly; try search snippets or other paths",
+      "labels": ["1B"],
+      "rationale": "Snippet cited a UCOP-led negotiation update with Illumina and may show a consortium-level pooling effort."
+    }
+  ],
+  "apify_requests": []
+}
+```

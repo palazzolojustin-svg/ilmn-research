@@ -1,0 +1,49 @@
+```json
+{
+  "status": "dry",
+  "notes": "A02 and A03 sit at _Build/thesis_scrape/apify/A02.json and A03.json. I could not list the folder because I had no directory-listing tool, so I found them by guessing the path. A02 is almost empty: only 2 Indeed postings, so no meaningful classification is possible. Both are clinical employers listing 6000 and X together. Counts: 6000-only 0; 6000+X 2 (Tempus, Chicago, Feb 2026; Nationwide Children's IGM, Sep 2026); X-only 0; AVITI/Ultima/Element/Axelios 0. Research employers: 0. There are no large 6000-only clinical labs to name. A03 has about 50 Google results, mostly the public bid/tender and used-equipment listings the 6000 search was aimed at. It has no dated retirement notices. The few resale prices are listing-level only, with no sold prices. The procurement hits show the 6000 is still being serviced and bought for, which cuts mildly against a fast tail unwind. They are weak, undated on volume, and single-site. Both Tempus and Natera dual-fleet cases are already known.",
+  "how_to_mine": "Not worth a deep mine as it stands. A02 needs a much larger Indeed run before the 6000-only vs 6000+X split means anything; the run should cover 'NovaSeq 6000', 'NovaSeq X', 'AVITI', 'Ultima' and 'Element' across CLIA, CAP and clinical lab postings, with at least 300 postings and full descriptions. For A03, open the EquipNet, LabX, Machinio and CAEOnline listings. Extract the unit count, the asking price, the year and the seller type (core facility vs lab liquidation). Open the TED notices 331850-2026, 445606-2026 and 827117-2025 for the sequencer fleet statements and contract values. Open the govly, CanadaBuys and Alberta sole-source notices for the stated rationale.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Public buyers are still signing sole-source NovaSeq 6000 service contracts in Aug 2026, which suggests 6000 sites are not retiring on the thesis timeline.",
+      "detail": "NCI awarded Illumina a NovaSeq 6000 maintenance agreement worth $96,859 on 24 Aug 2026. The solicitation was posted 14 Aug 2026 as sole source, covering preventive maintenance for one 6000 system. Separate sole-source 6000 notices appear for Alberta and CanadaBuys in 2026. This is one site and one small contract, so it is a weak datapoint.",
+      "url": "https://www.federalcompass.com/fed-contract-award/75N98026P01414",
+      "date": "2026-08-24",
+      "source_name": "FederalCompass / USAspending (Apify A03 Google results)",
+      "source_type": "procurement",
+      "quote": "MAINTENANCE AGREEMENT ON NOVASEQ 6000 SYSTEM",
+      "strength": "weak",
+      "why_new": "A dated 2026 federal 6000 service award with a dollar value; the known list has only vendor and core-facility 6000 retirements."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Clinical labs are still running the 6000 and X side by side in hiring, which is consistent with a long overlap rather than a clean cutover.",
+      "detail": "A Nationwide Children's Hospital Institute for Genomic Medicine posting (Sep 2026) lists MiSeq, NovaSeq 6000 and NovaSeq X+ for a clinical genome, exome and RNA-seq lab. This is one hospital lab and only the instrument list, with no volume split. Nationwide Children's is not in the known list; Tempus and Natera dual-fleet postings already are.",
+      "url": "https://www.indeed.com/viewjob?jk=358e2872153d296f",
+      "date": "2026-09-08",
+      "source_name": "Indeed (Apify A02)",
+      "source_type": "jobs",
+      "quote": "MiSeq, NovaSeq 6000, NovaSeq X+, SeqStudio Flex",
+      "strength": "weak",
+      "why_new": "A new named clinical hospital lab in dual-fleet mode, though the pattern is already known."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Used-6000 resale listings (LabX, Bimedis, EquipNet, Machinio, CAEOnline)",
+      "url": "https://www.labx.com/manufacturers/illumina",
+      "why": "LabX asks $199,000 for a used 6000 (vs a $985K list in 2017). Tracking listing counts and prices over time could show whether supply of used 6000s is rising as the tail retires."
+    },
+    {
+      "source": "TED Slovenia notice 445606-2026 (14 Sep 2026)",
+      "url": "https://ted.europa.eu/sl/notice/-/detail/445606-2026",
+      "why": "A national lab that sequences mainly on the 6000 and X Plus. The notice may give contract values and an intended fleet mix."
+    }
+  ],
+  "apify_requests": []
+}
+```

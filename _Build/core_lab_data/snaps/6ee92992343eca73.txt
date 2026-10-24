@@ -1,0 +1,76 @@
+NGI Sweden » Price examples
+Home
+Services
+Applications
+De novo sequencing
+DNA extractions
+DNA resequencing
+Environmental sequencing
+Epigenetics
+Genotyping
+NGI OpenLab
+Proteomics with NGS readout
+Single-cell sequencing
+Spatial
+Transcriptomics
+User-prepared libraries
+Technologies
+Element Biosciences
+Genotyping
+Illumina
+Oxford Nanopore Technologies
+Pacific Biosciences
+Olink Proteomics
+Bioinformatics
+Resources
+Index guidelines for Illumina sequencing
+Getting started at NGI
+Sample submission
+Search in pages
+Home
+Resources
+Price examples
+Price examples
+The examples on this page are approximate prices, and are shown here to provide a rough estimate of how much your project will cost. For more detailed information or to request a quote, please contact us.
+Our best practice bioinformatics package which may be included in some of our services (e.g. RNA-seq, resequencing and de novo assembly) is free of charge. We also do not charge for project planning or follow-up meetings with NGI representatives.
+Users from industry pay the full cost (please contact us for a full-cost price quote).
+Short read sequencing
+Price examples for standard RNA-seq
+The total cost for library preparation and sequencing depends on the number of samples and the sequencing depth. A general setup, with e.g. 24-94 samples and ~25-50 million read-pairs/sample, will likely cost approximately 1500-3000 SEK/sample (incl. library preparation and sequencing on Illumina NovaSeq X):
+Library preparation using the Illumina TruSeq Stranded mRNA kit: 94 x 1 200SEK = ca 115000 SEK
+Sequencing on 1 lane of an Illumina NovaSeq 25B-300 flowcell will generate ~3 billion read-pairs in total, approximately 25 million read-pairs/sample: 32000 SEK
+Total cost 147000 SEK, approximately 1500 SEK/sample
+Price examples for whole-genome re-sequencing (WGS, human genome)
+The cost for library preparation and sequencing of a human (or similar size) DNA sample prepared by NGI using the Illumina TruSeq DNA PCR-free library prep or the Illumina DNA PCR-free library prep kit and sequencing on Illumina NovaSeq 25B-300 (2×150 bp) to approximately 30X coverage is approx. 6000 SEK total/sample. Price includes best-practice bioinformatics analysis (currently only available for human genome).
+Summary of sequence output and cost
+The numbers presented in the table below reflect an average yield based on our observations across projects. The actual yield for different libraries can vary based on library type, concentration of the pool that was loaded on the sequencer, fragment distribution, colour balance of indices, % PhiX spike-in, etc. Please consult with a Project Coordinator for guidance.
+Sequencing on NovaSeq X can be purchased in units of 600 million read pairs on the 300 cycle flowcells (see announcement here). This applies only for PE 2x150bp reads (or any other setup where read 1 and 2 doesn’t contain more than 150 cycles), without custom primers.
+5B flow cell: 1 lane = 1 unit
+10B flow cell: 1 lane = 2 units
+25B flow cell: 1 lane = 5 units
+All you need to do is specify the number of units you require — we will take care of selecting the most suitable flow cell for your project.
+Please consult with a Project Coordinator if you have any questions about this.
+Long read sequencing
+PacBio
+(Prices as of 2025-02-01)
+One PacBio Revio cell can produce up to 90 Gb of unique HiFi bases. However, the amount of data produced by the instrument is dependent almost entirely on the DNA quality. The purer and more intact DNA is, the more sequencing data one can get per sequencing unit.
+Sequencing price:
+1 library costs c:a 2.5–5.5 kSEK
+Sequencing of 1 Revio SMRTcell costs c:a 17 kSEK
+One library is enough to sequence on 1–2 SMRT cells
+ONT
+Flowcell yield on PromethION may vary, please see more details here.
+Sequencing price:
+1 ONT library costs ca 2500 SEK
+1 PromethION R10.4.1 flowcell costs ca 13000 SEK
+One library is enough for one flow cell only.
+Please contact us for detailed information or to request a quote.
+SNP genotyping
+The cost for genotyping or array-based methylation profiling varies according to the application and the number of samples.
+Please contact us for detailed information on the different arrays or to request a quote.
+Last Updated: 24th June 2026
+Contact information
+E-mail: support@ngisweden.se
+For further contact information, visit Contact page.
+Website login
+Follow us

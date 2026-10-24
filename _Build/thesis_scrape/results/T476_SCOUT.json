@@ -1,0 +1,58 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "University mailing-list archives (Mailman pipermail / LISTSERV) carrying dated genomics-core broadcasts on price cuts, lane changes, platform switches and volume notes, 2023–2026",
+      "url": "https://lists.ucr.edu/pipermail/iigb_all/2023-April/000665.html",
+      "access": "Open web, no login. 1) Browse the UC Riverside IIGB archives by month: https://lists.ucr.edu/pipermail/iigb_all/ and https://lists.ucr.edu/pipermail/iigbcores_all/. Read each monthly index from 2024-01 to 2026-10 and open threads with 'NovaSeq', 'AVITI', 'price', 'rate', 'lane' or 'Ultima' in the subject. I saw the 2023 AVITI seminar threads, plus an attachment carrying Element's '$5 per Gb / $1 per million reads' claim. 2) Generalize with searches such as: site:lists.*.edu \"NovaSeq X\" price; inurl:pipermail \"NovaSeq\" \"new pricing\"; inurl:pipermail \"AVITI\" \"per lane\"; \"LISTSERV\" \"genomics core\" \"price reduction\" 2025. 3) For each core, record the dated price per lane or Gb, any stated reason (Illumina reagent price change, competition, outsourcing) and any volume comment.",
+      "labels": ["2B", "2A"],
+      "rationale": "Mailing-list archives are timestamped and immutable, so they partly stand in for the Wayback Machine, which is blocked here. Cores email users when they cut prices or add a rival platform, often saying why ('Illumina lowered reagent pricing', 'AVITI now cheaper'). The registry already covers static rate cards, but not these dated broadcast series. A 2024→2026 series of cuts at flat or falling run counts would be direct 2B evidence that research price per Gb is falling while volume holds.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "NIH Seed Instrumentation Support program (PAR-27-021, max $400K) and university internal S10/SIS limited-submission competitions, FY2026–27: which sequencers institutions nominate",
+      "url": "https://research.wisc.edu/competition/nih-seed-instrumentation-support-sis-program-s10-2027/",
+      "access": "Open web, no login. Read the UW–Madison SIS 2027 page, the UW SIG 2026 page (https://research.wisc.edu/?p=67121), BU (https://www.bu.edu/research/2026/07/10/nih-seed-instrumentation-support-sis-program-s10-2026/) and Weill Cornell (https://research.weill.cornell.edu/funding/funding-opportunities/nih-shared-instrumentation-grant-sig-program-s10). Then search for: \"limited submission\" \"S10\" 2026 \"selected\" sequencer; \"internal competition\" \"Seed Instrumentation\" \"AVITI\" OR \"NovaSeq\" OR \"UG 100\". Record award caps and any listed nominee instruments. Confirm the PAR-27-021 terms on grants.nih.gov.",
+      "labels": ["2A", "2B"],
+      "rationale": "Search snippets say the new SIS mechanism caps awards at $400K, and the SIG cap is $750K. A NovaSeq X Plus lists at roughly $1M and a VITARI at $689K, so NIH's main academic instrument channel would now fund mostly benchtop or rival systems. That would be a new, quantified update to the known 'capital constraint' point, linking the change in NIH grant design to platform choice and to price leverage against Illumina's high-throughput consumables. Nominee lists that show AVITI or Ultima requests would add site-level evidence.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Austrian Federal Ministry research-infrastructure database (forschungsinfrastruktur.bmfwf.gv.at): national census of sequencers by institution and platform",
+      "url": "https://forschungsinfrastruktur.bmfwf.gv.at/de/fi/novaseq-x-plus-sequencing-system_6458",
+      "access": "Open HTML, no login. Use the site search or mapping view (https://forschungsinfrastruktur.bmfwf.gv.at/en/mapping/) with the terms NovaSeq, NextSeq, AVITI, Element, Ultima, MGI, DNBSEQ, PromethION and Revio. Open each record (e.g. _6458 Graz X Plus, _5767 VBCF X, _5193 Graz 6000) and record the institution, platform, acquisition year (if shown), co-funding and the usage-fee terms. The old bmbwf domain redirects. A Haiku agent can enumerate the IDs.",
+      "labels": ["2B", "1A"],
+      "rationale": "This is a government-run census of research instruments for a whole country, a form of the 'core-facility census' idea not yet in the registry. It can show how much 6000-to-X replacement has happened and whether rival platforms (AVITI, Ultima, MGI) are present at Austrian research sites, which would be evidence of research customers diversifying vendors. Similar national registries may exist elsewhere (e.g. the Swiss, Dutch and Danish infrastructure roadmaps). It is low on direct prices but cheap to scrape.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "UGAP (French national central purchasing agency) catalog listing for Illumina NovaSeq X and the associated framework lot",
+      "url": "https://www.ugap.fr/images/media-wp/2023/12/rfart_illumina_novaseqx_fc.pdf.avif",
+      "access": "Open web, no login for the public catalog pages. 1) Open the product-sheet asset seen in search (a Dec 2023 upload). 2) Search ugap.fr for 'Illumina', 'séquençage' and 'NovaSeq' to find the marketplace or lot page, the holder (Illumina France or a distributor), the contract dates and any published discount rate ('taux de remise') or price-revision clause. 3) On BOAMP, search for UGAP award notices for 'séquenceurs haut débit' to find the lot value and renewal date. Do not create an account.",
+      "labels": ["2B", "1B"],
+      "rationale": "French public research bodies (INSERM, CNRS, university hospitals) can buy through UGAP without running their own tender. If the UGAP Illumina lot publishes a framework discount or a 2025–26 renewal with a deeper discount, that would be national-level evidence of contracted research price erosion. The French procurement dataset (S379) was dry, but UGAP is a separate channel and is not in the registry.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Biogenouest / GenoA (Nantes) new-sequencer announcement and French regional platform reports (volume side of 2B)",
+      "url": "https://www.biogenouest.org/en/article/new-Genoa-sequencer/",
+      "access": "Open HTML. Read the article: it is a new NovaSeq X Plus, adding about 1,500 more human genomes a year from 2026 through national and EU partnerships. Then search biogenouest.org and the activity reports of IBiSA/France Génomique platforms ('rapport d'activité 2025 plateforme génomique NovaSeq X Gb') for 2024 vs 2025 output (Gb, samples) and price lists.",
+      "labels": ["2B"],
+      "rationale": "This is a counterweight check. If French research platforms report a rising volume of genomes while tariffs fall, that splits the price and volume legs of 2B: price would be down, but volume would not be flat. The result could be 'against' evidence on volume, which the analyst should see.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "inurl:pipermail \"NovaSeq X\" price\ninurl:pipermail \"AVITI\" lane price\ninurl:pipermail \"NovaSeq\" \"price reduction\"\nsite:lists.*.edu \"NovaSeq X\" \"per lane\"\n\"LISTSERV\" \"genomics core\" \"NovaSeq X\" pricing 2025\n\"genomics core\" newsletter \"price decrease\" \"NovaSeq X\" 2026\n\"genomics core\" newsletter \"AVITI\" \"lower price\" 2026\n\"limited submission\" S10 2026 sequencer AVITI OR \"NovaSeq X\" OR \"UG 100\"",
+        "maxPagesPerQuery": 3,
+        "resultsPerPage": 50
+      },
+      "why": "Enumerates dated core mailing-list and newsletter price broadcasts, and S10/SIS internal nominee lists, at scale. These are the two candidates above that have the best chance of yielding a 2024→2026 research price-per-Gb series. A later agent mines the URLs.",
+      "max_items": 200
+    }
+  ]
+}
+```

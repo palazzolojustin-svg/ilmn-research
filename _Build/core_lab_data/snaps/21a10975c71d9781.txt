@@ -1,0 +1,40 @@
+Service: UC 
+Rate* 
+Outside 
+Rate* 
+Qubit $3 $4 
+Tape Station $8 $12 
+Library qPCR $10 $15 
+Bisulfite Conversion $10 $15 
+Covaris Access $3 $4 
+Covaris Plate Access $50 $73 
+Covaris Full Service $10 $15 
+Pippin HT Access Only $10 $15 
+Pippin HT First Sample $100 $145 
+Pippin HT Additional Samples $10 $15 
+ChIP-Seq Library, each, First 24 $90 $131 
+ChIP-Seq Library, each, Additional Library>24 $55 $80 
+DNA Library, each, First 24 $100 $145 
+DNA Library, each, Additional Library>24 $65 $94 
+mRNA Library, each, First 48 $125 $181 
+mRNA Library, each, Additional Library>48 $80 $116 
+Ribodepleted RNA Library, each, First 48 $175 $254 
+Ribodepleted RNA Library, each, Additional Library>48 $125 $181 
+Small RNA Library, each, First 24 $190 $276 
+Small RNA Library, each, Additional Library>24 $138 $200 
+MiSeq i100 Run (reagents NOT included, inquire for price) $300 $435 
+NovaSeq X Plus 1.5B Flowcell 100, per flow cell $2400 $3288 
+NovaSeq X Plus 1.5B Flowcell 200, per flow cell $3000 $4110 
+NovaSeq X Plus 1.5B Flowcell 300, per flow cell $3200 $4384 
+NovaSeq X Plus 10B Flowcell 100, per lane $1250 $1713 
+NovaSeq X Plus 10B Flowcell 200, per lane $1500 $2055 
+NovaSeq X Plus 10B Flowcell 300, per lane $1700 $2329 
+NovaSeq X Plus 25B Flowcell 100, per lane $1900 $2603 
+NovaSeq X Plus 25B Flowcell 300, per lane $2800 $3836 
+Bead Chip Processing (per chip) $425 $616 
+10X Genomics Run (per sample, reagents NOT included, inquire for price) $50 $73 
+10X Genomics Cytassist Run (per sample, reagents NOT included, inquire for price) $150 $218 
+10X Genomics Xenium Run (per slide, reagents NOT included, inquire for price) $1150 $1168 
+10X Genomics Xenium Cell Segmentation (per slide, reagents NOT included, inquire for price) $150 $218 
+Technical Assistance/Hour $55 $80 
+*Some rates pending committee approval.

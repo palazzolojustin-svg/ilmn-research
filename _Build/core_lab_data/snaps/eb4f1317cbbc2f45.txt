@@ -1,0 +1,70 @@
+Pricing | Genomic Sciences Laboratory
+Skip to main content
+NC State Home
+Office of Research and Innovation
+Genomic Sciences Laboratory
+About Us
+Staff
+GSL Faculty Advisory Board Members
+Thomas Hall (Main Lab)
+Plant Genotyping Facility
+Genomic Services
+NGS Library Prep
+Other Genomic Services
+Flow Cytometry
+Shared Equipment
+Main GSL Facility
+Plant Genotyping Facility
+Pricing
+Current GSL Price List
+Bioinformatics
+NC State Resources and Freeware Links
+CLC Genomics Workbench
+SnapGene
+Publications
+GSL User Publications
+MiSeq Sequencing Options
+Service | Total Cost |
+MiSeq v2 150 PE | $1,733.15 |
+MiSeq v2 250 PE | $1,911.79 |
+MiSeq v3 150 SR | $1,542.40 |
+MiSeq v3 300 PE | $2,398.25 |
+MiSeq v2 Nano 250 PE | $778.39 |
+MiSeq v2 50 SR | $1,412.89 |
+MiSeq v2 Micro 150 PE | $1,733.15 |
+MiSeq v2 Nano 150 PE | $703.28 |
+NextSeq 2000 Sequencing Options
+Service | Total Cost |
+NextSeq 2000 P1 100SE/50PE | $1,277.41 |
+NextSeq 2000 P1 150 PE | $1,641.40 |
+NextSeq 2000 P1 300 PE | $2,274.53 |
+NextSeq 2000 P2 100 SE/50 PE | $1,794.57 |
+NextSeq 2000 P2 100 PE | $2,922.23 |
+NextSeq 2000 P2 150 PE | $3,772.45 |
+NextSeq 2000 P2 300 PE | $4,142.71 |
+NextSeq 2000 P3 100 SE/50 PE | $3,235.10 |
+NextSeq 2000 P3 100 PE | $4,341.00 |
+NextSeq 2000 P3 150 PE | $5,647.63 |
+NextSeq 2000 P4 50SE/25PE | $2,238.52 |
+NextSeq 2000 P4 100SE/50PE | $3,247.78 |
+NextSeq 2000 P4 100PE | $4,501.51 |
+NextSeq 2000 P4 150PE | $5,970.00 |
+Data Output: P1 = 100M Reads; P2 = 400M Reads; P3 = 1.2B Reads; P4 = 1.8B Reads
+NovaSeq X Sequencing Options
+Flowcell Yield | Run Type |
+NovaSeq X 1.5 Billion Reads | 50 PE, 100 SR, 100 PE, 150 PE |
+NovaSeq X 10 Billion Reads | 50 PE, 100 SR, 100 PE, 150 PE |
+NovaSeq X 25 Billion Reads | 50 PE, 100 SR, 100 PE, 150 PE |
+Service | Total Cost |
+Outsource Sequencing | $149.00 |
+The GSL now offers outsourced sequencing on the NovaSeq X platform, a $149 fee will be added for GSL processing. For complete NovaSeq X pricing, please contact us directly: [email protected]
+Next-Generation Sequencing – PacBio Services
+Service | Total Cost |
+HiFi DNA Library Prep (15-20kb) | $287.20 |
+Indexed HiFi DNA Prep | $294.70 |
+PacBio DNA Cleanup | $67.76 |
+PacBio Sequel IIe SMRT Cell (10-Hour Run) | $2,325.62 |
+PacBio Sequel IIe SMRT Cell (30-Hour Run) | $2,425.62 |
+Other Services and Supplies
+Service | Total Cost |
+QPCR Plate Run | $30.00 |

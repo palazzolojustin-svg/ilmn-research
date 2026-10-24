@@ -1,0 +1,47 @@
+```json
+{
+  "status": "dry",
+  "notes": "The GSAF page does not hold what the probe wanted. The fetched page shows only NextSeq 2000 and MiSeq runs, plus single-cell and spatial services. It has no NovaSeq 6000, S4, X 10B/25B or AVITI rows. A search snippet says full NovaSeq X runs go through a partnership with a local core (TX Genomics Core), and are open to UT internal users only. The page lists internal prices only, with no external column. It says prices take effect 1 Jul 2026 and shows no prior-year prices, so no y/y change per Gb can be computed. As a fallback I read the University of Chicago genomics facility price table. It gives X 10B/25B and AVITI lane prices, but shows no date and no prior prices, so it is a one-period snapshot.",
+  "how_to_mine": "Try the older GSAF page 'Sequencing Prices and Descriptions' (https://cloud.wikis.utexas.edu/wiki/x/eRBPAg) and the Confluence page history. The S4 $20,504 / $25,938 figures came from that older page. Try the TX Genomics Core (TxGen) rate card for the X lane prices that GSAF resells; TxGen is already in the known list, so check whether the FY27 rates changed. For UChicago, query the Wayback Machine (web.archive.org) for voices.uchicago.edu/genomicsfacility/pricing-new snapshots from 2024-2025 to get prior prices. Compute the y/y change per Gb from those.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "At UChicago's core, the AVITI 300-cycle flow cell is priced below the X 25B lane and about level with the X 10B lane.",
+      "detail": "UChicago's genomics facility lists AVITI 300bp flow cell at $1,475 internal / $1,999 commercial. The NovaX 10B PE150 lane is $1,499 / $1,624. The NovaX 25B PE150 lane is $2,461 / $2,599. The 25B lane carries much more output than the 10B lane, so Illumina still has the lower cost per Gb on the 25B. Read this as a research-core price ladder. AVITI is priced to compete with the 10B, and the commercial rate for X 25B ($2,599) is only about 30% above AVITI's ($1,999). No date and no prior-year price were found, so direction over time is not established.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "undated (page read 2026-10-12)",
+      "source_name": "University of Chicago Genomics Facility price list",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UChicago is not among the core rate cards already used, and it shows a same-table AVITI vs X lane comparison."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UChicago's commercial X 25B lane price is only ~$138 above its internal price, and the internal-to-commercial gaps on the other X lanes are small.",
+      "detail": "The 25B PE150 lane is $2,461 internal vs $2,599 commercial (+5.6%). The 10B PE150 lane is $1,499 vs $1,624 (+8%). Other cores show internal rates 35-50% below external (known). A narrow spread suggests that at this core the list-to-core price is already compressed. This is one core and undated, so it is a weak datapoint.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "undated (page read 2026-10-12)",
+      "source_name": "University of Chicago Genomics Facility price list",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A compressed internal/external spread at a core is not in the known core-rate evidence."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Wayback Machine snapshots of voices.uchicago.edu/genomicsfacility/pricing-new",
+      "why": "Would give the prior-year X and AVITI lane prices and allow a y/y per-Gb change."
+    },
+    {
+      "source": "Older GSAF page 'Sequencing Prices and Descriptions' (https://cloud.wikis.utexas.edu/wiki/x/eRBPAg), plus Confluence page history",
+      "why": "Holds the older S4 rates ($20,504 / $25,938) and X-via-partner notes. The history may show how S4 prices moved."
+    }
+  ],
+  "apify_requests": []
+}
+```

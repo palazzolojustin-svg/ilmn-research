@@ -1,0 +1,44 @@
+RNA Sequencing | HSC Cores - BookStack
+Skip to main content
+HSC Cores - BookStack
+View All
+Search
+Shelves
+Books
+Log in
+Info
+Content
+Details
+Revision #1
+Created 1 year ago by Derek Warner
+Updated 1 year ago by Derek Warner
+Actions
+Revisions
+Export
+Contained Web File.html
+PDF File.pdf
+Plain Text File.txt
+Markdown File.md
+Portable ZIP.zip
+Book Navigation
+Next Gen Sequencing on the AVITI
+Project Planning
+RNA Sequencing
+Books
+Next Gen Sequencing on...
+RNA Sequencing
+RNA Sequencing
+RNA Seq polyA Capture
+We have brought RNA Seq online using Watchmaker Genomics kits for polyA capture and sequencing on the Element Biosciences AVITI. We expect to be able to offer a cost of $250/sample in batches of 16 samples providing 40 million or more reads/sample using 2x75bp read lengths. If you desire 2x150bp read lengths, that drives the cost to $300/sample. If you do not have 16 samples, we will either need to try to find other labs to share a run with your lab or we’ll have to charge more per sample to cover the run costs.
+The AVITI provides average Q scores of Q40+ (1:10,000 error rate) versus the standard Q30+ scores off of competing platforms (1:1000 error rate), plus it handles higher GC composition better as well as homopolymer tracts. Although RNA Seq is often a counting application where this improved accuracy may not matter as much, in instances where the goal is to find sequences in the RNA transcripts, the ability to run 2x150 at high accuracy may make sense.
+Please feel free to reach out to discuss potential projects. The core is happy to help all of our user base achieve the results they are looking for.
+Watchmaker makes kits for ribodepletion as well (with globin depletion if needed) and we can look into costs for running this if a project needs it.
+As always, if your lab has made libraries and simply needs them sequenced, please talk to Derek about that as almost any library made for Illumina sequencing can work on the AVITI.
+Enter section select mode
+Previous
+Project Planning
+0 Comment Threads
+0 Archived
+No comments to display
+No comments to display
+Back to top

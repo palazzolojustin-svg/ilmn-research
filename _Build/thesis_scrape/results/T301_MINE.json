@@ -1,0 +1,86 @@
+Wrapping up S344: I have the enrollment time series and the BRIDGES-NBS details, and I'm now writing the JSON.
+
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "GUARDIAN enrollment reached 30,000 newborns by 7 Oct 2026, well ahead of the 4,000 in the JAMA interim, so a new genome-volume source is real but pacing below the 100K target.",
+      "detail": "GeneDx's 7 Oct 2026 ICoNS release says GUARDIAN 'has now enrolled 30,000 newborns', with 72.3% consent. Earlier datapoints: 4,000 (Sep 2022–Jul 2023, ~360/month), 15,000 (first follow-up cohort, Oct 2025), 17,000+ (lab insights, Oct 2025). The run-rate is about 1,250/month (15K to 30K in ~12 months). Reaching 100K by the Sep 2029 primary completion needs ~70K in ~35 months, or ~2,000/month, about 60% faster. At ~110 Gb per 30x genome (midpoint of the known 100–125 Gb range), 30K babies is ~3.3 Pb cumulative, and ~1.4–1.65 Pb/yr at the current pace (~0.2% of the ~800 Pb HT base cited in the known file). This is immaterial to Illumina's Gb growth.",
+      "url": "https://finviz.com/news/399837/genedx-presents-new-evidence-advancing-genomic-newborn-screening-at-icons-2026",
+      "date": "2026-10-07",
+      "source_name": "GeneDx press release via Finviz",
+      "source_type": "press",
+      "quote": "has now enrolled 30,000 newborns",
+      "strength": "medium",
+      "why_new": "The known file has only the 4,000-baby JAMA interim and Generation Study; the 30K enrollment count and run-rate are new."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "A multi-state NIH-funded newborn genome program (BRIDGES-NBS, up to 30,000 babies, GeneDx sequencing, Illumina in-kind) begins enrolling in Oct 2026, adding a small new Gb source in 2027.",
+      "detail": "BRIDGES-NBS is funded with $14.4M from the NIH Common Fund. Illumina and GeneDx give in-kind support. It uses a 746-gene panel covering 777 conditions and plans to enroll up to 30,000 newborns over 2–3 years. Sites are reported as seven programs (Iowa, Minnesota, New York, Oregon, Puerto Rico, South Carolina, Texas); GeneDx says eight states and territories. That is ~10–15K babies/yr, or ~1.1–1.65 Pb/yr at ~110 Gb. The sequencing is GeneDx's, and Illumina's role is in-kind, so the revenue contribution to Illumina is likely small.",
+      "url": "https://www.oregon.gov/oha/ERD/Pages/Oregon-to-begin-enrollment-in-nationwide-newborn-genomic-screening-research-study-10.05.2026.aspx",
+      "date": "2026-10-05",
+      "source_name": "Oregon Health Authority / GeneDx release (search-result snippets)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "BRIDGES-NBS, its size and its in-kind Illumina support are not in the known file."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Statewide scaling of GUARDIAN-type screening in New York would be material to Illumina volume only if mandated, which no source shows.",
+      "detail": "My arithmetic uses ~200K NY births/yr (my recollection, unverified) × ~110 Gb = ~22 Pb/yr (22M Gb), about 2.7% of the ~800M Gb HT base cited in the known file. At ~$2.5/Gb consumables that is ~$55M, or ~2.6% of ~$2.1B clinical consumables. No NY State program has been announced beyond the research partnership, and NYSDOH is a partner of the research study only. Florida's Sunshine Genetics pilot (target 100,000 over five years, GeneDx a partner, first 1,000 tests free) is the only state-backed program found. At 20K/yr it would be ~2.2 Pb/yr.",
+      "url": "https://www.barchart.com/story/news/35404785/genedx-to-partner-with-floridas-sunshine-genetics-network-launching-nations-first-state-backed-genomic-newborn-screening-program",
+      "date": "2025-10-13",
+      "source_name": "GeneDx via Barchart / BusinessWire",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file covers only Generation Study and NHS volumes, and has no state-backed US newborn program sizing."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Newborn genome screening is reimbursement- and study-funded, and its yield is low, which limits how fast it can become a volume lever.",
+      "detail": "The JAMA interim (Oct 2024) found 3.7% of newborns had early-onset genetic conditions, and only ~10 of ~120 flagged babies would have been caught by standard screening. Funding is philanthropic, NIH and in-kind (Illumina, GeneDx). GeneDx's own programs total only ~22,000 newborns as of Oct 2025. There is no payer coverage, and the Florida pilot's first 1,000 tests are free. This fits the thesis that adoption, not sequencing cost, is the constraint.",
+      "url": "https://ir.genedx.com/news-releases/news-release-details/genedx-announces-progress-guardian-study-and-promise-early",
+      "date": "2025-10",
+      "source_name": "GeneDx IR (search-result snippet; page returned 403)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has no GeneDx newborn-program enrollment or funding structure."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The ClinicalTrials.gov page returned only header text, so the registry enrollment and dates were not verified. The GeneDx IR pages returned 403. I did not find GeneDx Q2'26 call text on GUARDIAN revenue; check the Q2'26 transcript. I did not verify NY birth counts or the Gb per baby (assumed ~110 Gb from the known 100–125 Gb range). Newborn volume is immaterial to Illumina near term.",
+  "leads": [
+    {
+      "name": "GeneDx Q2'26 earnings transcript/10-Q",
+      "url": "https://ir.genedx.com",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "May quantify newborn revenue and genome mix."
+    },
+    {
+      "name": "BRIDGES-NBS news and publications",
+      "url": "https://www.genomes2people.org/research/bridges-nbs/news-media/",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "Gives sites, enrollment targets and sequencing details."
+    },
+    {
+      "name": "Florida Sunshine Genetics Act program",
+      "url": "https://www.williamhaseltine.com/?p=5935",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "State-backed 100K-baby genome pilot; sizing and funding."
+    }
+  ],
+  "apify_requests": []
+}
+```

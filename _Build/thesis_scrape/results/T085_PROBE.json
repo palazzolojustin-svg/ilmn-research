@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 5 search and fetch calls. The UK consortium frameworks (LAB2010 NE, LAB3123 NW, LAB2009 NE) are real and cover sequencers and NGS reagents, but the public pages give no discount percentages, rebate tiers, lot values or awardee lists. Those details sit in the user guide and on HE Contracts (HEC), which are member-only. Find a Tender and bidstats returned 403 on direct fetch. The consortium news pages and search snippets show only that Illumina is on LAB3123 NW (Lot 1 sequencers, Lot 4 micro-array) and is a listed supplier on LAB2010 NE. I found no Element, MGI or Oxford Nanopore award, and no pricing evidence for or against 2A. Single-buyer UK notices (UKRI/MRC LMS, Guy's and St Thomas') are direct awards to Illumina without competition. Their values are small and are not useful as price evidence.",
+  "how_to_mine": "Low payoff. Only try this if the user has HEC access (the user guide has supplier terms, but it is member-gated, so skip it otherwise). Other options: (1) UKRI/university Contracts Finder or Find a Tender award notices for single Illumina reagent buys, which give £ values with no list-price comparison. (2) FOI requests to a university for Illumina rate cards, which is slow. (3) UK Contracts Finder searches for 'Illumina' with a value above £100K, to find any competitive lots in 2025-26.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Guy's and St Thomas' NHS 'Next Generation Sequencing Reagents and Consumables' (ocds-h6vhtk-06ef73): the award notice of 1 Sep 2026 may state the awardee and value. The buyer used a no-alternative justification for Illumina MiSeq-compatible reagents, which may show lock-in (1C or against 1B).",
+    "UKRI/MRC LMS CSP25702 (Dec 2025): a MiSeq i100 reagent kit bought without competition, which shows direct-award lock-in at a UK research lab.",
+    "Genomics England long-read instruments and consumables, voluntary ex ante transparency notice (2024, ~£5.2M): the supplier is not named in the snippet. If it is Oxford Nanopore, it is a UK public-sector non-Illumina award."
+  ],
+  "apify_requests": []
+}
+```

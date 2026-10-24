@@ -1,0 +1,268 @@
+Rates | Genomics Core Facility
+Skip to main content
+Skip to main content
+College of Natural and Agricultural Sciences
+UCR Home
+Search
+Quick Links
+Services and Billing
+Bioinformatics
+CEPCEB
+Core Facilities
+Metabolomics
+Plants 3D
+Proteomics
+Find People
+UC Riverside
+Genomics Core Facility
+Department of Botany & Plant Sciences
+Search
+Welcome
+About Us
+Services
+Core Guidelines
+Sequencing
+Sanger Sequencing
+PacBio Sequencing
+Oxford Nanopore sequencing
+Library Prep
+DNA/RNA Quality & Quantity Analysis
+HMW DNA Extraction
+Instruments
+DNA Sequencing
+Applied Biosystems 3730xl DNA Sequencer
+Pacific Bioscience RS II
+Illumina MiSeq DNA Sequencer
+Illumina NextSeq500 DNA Sequencer
+DNA Shearing and Size Selection
+Covaris S220 Ultrasonicator
+Sage-Scientific Blue Pippin
+Life Technologies E-Gel System
+Diagenode Bioruptor Standard Sonicator
+Gene Expression
+Quantitative PCR (qPCR)
+Affymetrix GeneChip Workstation
+Imaging
+Typhoon 9410 GE Healthcare
+10X Genomics Single Cell Library Prep 5' GEX Add On |
+$ 2,032.00 |
+$ 2,617.22 |
+$ 3,680.46 |
+/ library |
+Advanced Analytics Fragment Analyzer (per 12 samples) |
+$ 61.78 |
+$ 79.57 |
+$ 111.89 |
+/ per 12 sample |
+AVITI 300 cycle flow cell |
+$ 2,000.00 |
+$ 2,576.00 |
+$ 3,622.50 |
+/ flowcell |
+AVITI 600 cycle-High |
+$ 3,300.00 |
+$ 4,250.40 |
+$ 5,977.13 |
+/ flowcell |
+AVITI 600 cycle-Medium |
+$ 2,200.00 |
+$ 2,833.60 |
+$ 3,984.75 |
+/ flowcell |
+Bioanalyzer - DNA HS |
+$ 90.00 |
+$ 115.92 |
+$ 163.01 |
+/run |
+Bioanalyzer per Sample DNA HS |
+$ 9.00 |
+$ 11.59 |
+$ 16.30 |
+/ sample |
+/ library |
+Illumina 10 Gb/35M reads Additional Data |
+$ 75.00 |
+$ 96.60 |
+$ 135.84 |
+/ unit |
+Illumina MiSeq 150bp (75 bp paired end) |
+$ 1,388.00 |
+$ 1,787.74 |
+$ 2,514.02 |
+/ lane |
+Illumina MiSeq 300bp (150 bp paired end) |
+$ 1,545.00 |
+$ 1,989.96 |
+$ 2,798.38 |
+/ lane |
+Illumina MiSeq 500bp (250 bp paired end) |
+$ 1,702.00 |
+$ 2,192.18 |
+$ 3,082.75 |
+/ lane |
+Illumina MiSeq 600bp (300 bp paired end) |
+$ 2,234.00 |
+$ 2,877.39 |
+$ 4,046.33 |
+/ lane |
+Illumina MiSeq Nano V2 (300 cycles) |
+$ 560.00 |
+$ 721.28 |
+$ 1,014.30 |
+/ lane |
+Illumina MiSeq Nano v2 (500 cycles) |
+$ 660.00 |
+$ 850.08 |
+$ 1,195.43 |
+/ lane |
+Illumina NextSeq 2000 - P1 100 cycle (50 PE or 100 SR) |
+$ 1,102.00 |
+$ 1,419.38 |
+$ 1,996.00 |
+/ lane |
+Illumina NextSeq 2000 - P1 300 cycle (150 PE) |
+$ 1,404.00 |
+$ 1,808.35 |
+$ 2,543.00 |
+/ lane |
+Illumina NextSeq 2000 - P1 600 cycle (300 PE) |
+$ 1,965.00 |
+$ 2,530.92 |
+$ 3,559.11 |
+/ lane |
+Illumina NextSeq 2000 - P2 100 cycle (50 PE or 100 SR) |
+$ 1,504.00 |
+$ 1,937.15 |
+$ 2,724.12 |
+/ lane |
+Illumina NextSeq 2000 - P2 200 cycle (100 PE) |
+$ 2,539.00 |
+$ 3,270.23 |
+$ 4,598.76 |
+/ lane |
+Illumina NextSeq 2000 - P2 300 cycle (150 PE) |
+$ 3,262.00 |
+$ 4,201.46 |
+$ 5,908.30 |
+/ lane |
+Illumina NextSeq 2000 - P2 600 cycle (300 PE) |
+$ 3,522.00 |
+$ 4,536.34 |
+$ 6,379.22 |
+/ lane |
+Illumina NextSeq 2000 - P3 100 cycle (50 PE or 100 SR) |
+$ 2,841.00 |
+$ 3,659.21 |
+$ 5,145.76 |
+/ lane |
+Illumina NextSeq 2000 - P3 200 cycle (100 PE) |
+$ 3,809.00 |
+$ 4,905.99 |
+$ 6,899.05 |
+/ lane |
+Illumina NextSeq 2000 - P3 300 cycle (150 PE) |
+$ 4,970.00 |
+$ 6,401.36 |
+$ 9,001.91 |
+/ lane |
+Illumina NextSeq 2000 - P3 50 cycle (25 PE or 50 SR) |
+$ 2,813.00 |
+$ 3,623.14 |
+$ 5,095.05 |
+/ lane |
+Illumina NextSeq 2000 - P4 100 cycles (50 PE or 100 SR) |
+$ 3,238.00 |
+$ 4,170.54 |
+$ 5,864.83 |
+/ flowcell |
+Illumina NextSeq 2000 - P4 200 cycles (100 PE) |
+$ 4,444.00 |
+$ 5,723.87 |
+$ 8,049.20 |
+/ flowcell |
+Illumina NextSeq 2000 - P4 300 cycles (150 PE) |
+$ 5,568.00 |
+$ 7,171.58 |
+$ 10,085.04 |
+/ flowcell |
+Illumina NextSeq 2000 - P4 50 cycles (25 PE or 50 SR) |
+$ 2,267.00 |
+$ 2,919.90 |
+$ 4,106.10 |
+/ flowcell |
+Illumina NextSeq High Output 150bp Paired End |
+$ 5,984.16 |
+$ 7,707.60 |
+$ 10,838.81 |
+/ lane |
+Illumina NextSeq High Output 150bp Single End/ 75bp Paired End |
+$ 3,833.94 |
+$ 4,938.11 |
+$ 6,944.22 |
+/ lane |
+Illumina NextSeq High Output 75bp Single End |
+$ 2,134.22 |
+$ 2,748.88 |
+$ 3,865.61 |
+/ lane |
+Illumina NextSeq Mid Output 150bp Paired End |
+$ 2,476.48 |
+$ 3,189.71 |
+$ 4,485.52 |
+/ lane |
+Illumina NextSeq Mid Output 150bp Single End/75bp Paired End |
+$ 1,643.76 |
+$ 2,117.16 |
+$ 2,977.26 |
+/ lane |
+Illumina NovaSeq X Plus - 10B 100 cycle |
+$ 1,556.00 |
+$ 2,004.13 |
+$ 2,818.31 |
+/ lane |
+Illumina NovaSeq X Plus - 10B 200 cycle |
+$ 1,850.00 |
+$ 2,382.80 |
+$ 3,350.81 |
+/ lane |
+Illumina NovaSeq X Plus - 10B 300 cycle |
+$ 1,962.00 |
+$ 2,527.06 |
+$ 3,553.67 |
+/ lane |
+Illumina NovaSeq X Plus - 25B 300 cycle |
+$ 3,168.00 |
+$ 4,080.38 |
+$ 5,738.04 |
+/ lane |
+Library Amplicon |
+$ 24.00 |
+$ 30.91 |
+$ 43.47 |
+/ library |
+Library Bead Clean Up |
+$ 12.00 |
+$ 15.46 |
+$ 21.74 |
+/ library |
+/ reaction |
+PacBio Mas-Seq (Single-cell Kinnex Array Prep) |
+$ 911.00 |
+$ 1,173.37 |
+$ 1,650.05 |
+/ reaction |
+PacBio Revio Sequencing (Formerly: PacBio Sequel II Sequencing *NEW*) |
+$ 1,500.00 |
+$ 1,932.00 |
+$ 2,716.88 |
+/ flowcell |
+Parse Bio sc Library Prep (Fixed cell, per 10k cells) Add On |
+$ 1,513.00 |
+$ 1,948.74 |
+$ 2,740.42 |
+/ library |
+Phosphor Screen Rental |
+$ 2.00 |
+$ 2.58 |
+$ 3.62 |
+/day |

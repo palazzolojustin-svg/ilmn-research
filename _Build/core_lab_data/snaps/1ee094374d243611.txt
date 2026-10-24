@@ -1,0 +1,101 @@
+35 cycles 10'000 mio 12'690 CHF
+100 cycles 400 mio 1'670 CHF
+100 cycles 800 mio 2'915 CHF
+100 cycles 1'600 mio 5'190 CHF
+100 cycles 4'100 mio 9'575 CHF
+200 cycles 800 mio 3'755 CHF
+200 cycles 1'600 mio 6'495 CHF
+200 cycles 4'100 mio 11'860 CHF
+200 cycles 10'000 mio 16'570 CHF
+300 cycles 800 mio 4'105 CHF
+300 cycles 1'600 mio 7'060 CHF
+300 cycles 4'100 mio 12'720 CHF
+300 cycles 10'000 mio 18'590 CHF
+500 cycles 800 mio 5'670 CHF
+75 cycles 400 mio 1'779 CHF
+150 cycles 130 mio 1'347 CHF
+150 cycles 400 mio 3'380 CHF
+300 cycles 130 mio 2'250 CHF
+300 cycles 400 mio 5'295 CHF
+50 cycles 15mio 1'197 CHF
+150 cycles 25mio 1'294 CHF
+300 cycles 1mio 564 CHF
+300 cycles 4mio 759 CHF
+300 cycles 15mio 1'472 CHF
+500 cycles 1mio 637 CHF
+500 cycles 15mio 1'618 CHF
+600 cycles 25mio 2'046 CHF
+95 CHF
+280 CHF
+350 CHF
+420 CHF
+115 CHF
+280 CHF
+350 CHF
+420 CHF
+For 10XG scRNA-seq or BRB-seq, use 100 cycles (or 200 cycles for 10'000 mio reads).
+NovaSeq 6000
+MiSeq
+NebNext Ultra II stranded mRNA
+Reagents fee, per sample
+Labour fee, 1-16 samples
+Labour fee, 17-32 samples
+Labour fee, 33-48 samples
+Reagents fee, per sample
+Labour fee, 1-16 samples
+Labour fee, 17-32 samples
+Labour fee, 33-48 samples
+GECF list price, March 2018 
+Sequencing
+NextSeq 500
+Library preparation
+ISML (Illumina Stranded mRNA Ligation)
+GECF price list, internal users
+October 2023
+Page 1 of 4
+175 CHF
+280 CHF
+350 CHF
+420 CHF
+150 CHF
+Robotized 384w qPCR plate assembly, plasticware incl., per plate
+qPCR instrument booking, per hour (no reagent included)
+Qubit HS RNA, per sample
+Qubit HS dsDNA, per sample
+Each sample
+Basal fee (up to 48 samples)
+Assistance, per run
+All prices without assistance. Assistance available on demand.
+Other methods on demand: 10XG scATAC- seq, CRISPR screen, protein detection…; 
+PARSE scRNA-seq; Plate-based single-cell (f.sight.omics/i.dot/c.wash)
+1 lane (11 samples + ladder), reagents incl., user-operated
+Per slide of 2 samples
+Assistance (per slide)
+Visium non-Cytassist 6.5mm x 6.5mm
+Per slide of 4 samples
+Assistance (per slide)
+Spatial Transcriptomics
+Visium Cytassist 6.5mm x 6.5mm
+Per slide of 2 samples
+Assistance (per slide)
+Visium Cytassist 11mm x 11mm
+Nanoplate 26K 24-well
+Nanoplate 8.5K 96-well
+Per sample (ladder + pos. ctrl free), reagents incl., user-operated
+Plate + run included. No mastermix provided.
+TapeStation 4200 profiling (RNA)
+qPCR-based library quantification (GECF-operated)
+Qubit
+Picogreen and ribogreen also available on demand for large projects
+Nanoplate 8.5K 24-well 
+Assistance, per lane
+QIAcuity One
+qPCR & BioMark
+qPCR
+Page 3 of 4
+1'625 CHF
+1'285 CHF
+290 CHF
+235 CHF
+140 CHF
+130 CHF

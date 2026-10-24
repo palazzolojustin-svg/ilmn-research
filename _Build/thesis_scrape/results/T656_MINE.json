@@ -1,0 +1,117 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NHRI, Taiwan's main public research institute and a NovaSeq 6000-only account, cut its S4 kit buying from 57 kits in 2020 to 16 in 2023 and then stopped. Its spend fell about 90% even though the price per kit fell about two-thirds.",
+      "detail": "All of these awards are for NovaSeq 6000 S4 300-cycle kits bought straight from Illumina. Jul 2020: 32 kits for NT$17,337,600, priced in USD at 30.1, which is US$576K or US$18,000 per kit (09GD-0001, Illumina Inc Singapore). Dec 2020: 25 v1.5 kits for NT$10,797,000 at 29.5, which is US$14,640 per kit (09GD-0002). Dec 2023: 16 v1.5 kits for NT$2,929,920, or NT$183,120 per kit (about US$5,900 at ~31.1), sold by Illumina's Taiwan subsidiary 因美納台灣生物科技 (112A0C0676). Kit volume fell 72% (57→16) and spend fell 89.6% (NT$28.1M→NT$2.9M). No NovaSeq kit award appears for NHRI in 2024–26. The title search also shows no S4 buy in 2021–22, though NHRI did buy 'library and sequencing reagents' from Illumina in Jun 2022.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=09GD-0001",
+      "date": "2020-07-27 to 2023-12-21",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "NovaSeq 6000 S4 試劑組(300 循環) 32組",
+      "strength": "strong",
+      "why_new": "F712/D067 cover the Dec 2020 vs Dec 2023 per-kit fall only. The Jul 2020 US$18,000 point, the kit-volume series (57→16→0) and the −90% spend are new."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "NHRI kept a four-unit NovaSeq 6000 fleet under a near-flat Illumina service contract for five years (about US$110K per unit per year). The award history shows no renewal after the contract ended on 13 Dec 2024.",
+      "detail": "Restricted, single-bid awards to Illumina distributor 均泰生物科技 for 'NovaSeq 6000 定序系統 4台維護1年': NT$14.2M (term Dec 2019–Dec 2020), NT$14.0M (2020–21), NT$13.8M (2021–22), NT$13.8M (2022–23) and NT$13.8M (14 Dec 2023–13 Dec 2024). That is NT$3.45M per unit per year, about US$110K, and only −2.8% over four years. No later NovaSeq-titled service award exists for NHRI. This fits a research 6000 fleet being retired or taken off contract in late 2024, at the same time NHRI moved WGS to outsourcing (Oct 2024).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112B0D0681",
+      "date": "2019-11-07 to 2023-12-12",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "Illumina NovaSeq 6000定序系統組4台維護1年",
+      "strength": "medium",
+      "why_new": "The five-year service-price series for a named four-unit 6000 fleet and its non-renewal date are new. F718 noted only that the NovaSeq tenders stopped."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Taipei VGH's renewal of its two-year Illumina 'high-throughput sequencing reagent set' lot fell 41% in value, from NT$6.67M (Dec 2023) to NT$3.94M (Nov 2025). The distributor gave up a bigger cut to win it.",
+      "detail": "1120652Y item 1 had a 14 Dec 2023–13 Dec 2025 term, an estimated 29 sets, and was awarded at NT$6,670,000 after an original bid of NT$7,250,000 (−8%). The direct successor, 1140732E item 1, starts 15 Dec 2025 and runs to 31 Dec 2027. 均泰 bid the full NT$4,635,000 budget and was cut to the NT$3,942,000 floor (−15%). If the per-set price stayed near NT$230K (F717), contracted volume falls from ~29 to ~17 sets. Otherwise the per-set price fell sharply. Either reading is negative for Illumina revenue at this hospital.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1140732E",
+      "date": "2025-11-25",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "高通量定序試劑組等7項2年單價開口契約",
+      "strength": "medium",
+      "why_new": "F717 compared per-set prices only. The −41% value of the renewed lot and the deeper −15% negotiated cut are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Centogene's APAC arm, an AXELIOS buyer, bid for a Taiwanese public hospital's clinical WGS contract in Jan 2026. It lost on specs, not price, which adds a third bidder to what had been a two-vendor market.",
+      "detail": "Kaohsiung VGH ST1412017 was for 250 high-throughput WGS tests, including blood extraction. Genomics BioSci won at NT$3,200,000 (NT$12,800 per genome). 權拓基因 (CENTOGENE APAC) bid NT$3,498,750 (~NT$14,000 per genome) and was ruled ineligible ('規格文件未附或不符合規定'). The earlier rounds failed. A sister contract (ST1411027, 210 oral-cancer WGS, Dec 2025) had a single bidder: Genomics BioSci opened at NT$13,500 and was cut to NT$12,800 (−5.2%). Together, Kaohsiung VGH contracted 460 outsourced clinical genomes for 2026.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.82&job_number=ST1412017",
+      "date": "2026-01-30",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "規格文件未附或不符合規定",
+      "strength": "weak",
+      "why_new": "F764 described a two-vendor contest. Centogene APAC as a new bidder, and the Kaohsiung VGH volumes, are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina P3 kits cost about 33% less at Taichung VGH, through the WGS outsourcer Genomics BioSci, than at Taipei VGH, through Illumina's distributor 均泰, in the same year. Channel and account leverage set price.",
+      "detail": "Taichung VGH 115A018 (Sep 2026, 2-year term from Oct 2026) awarded P1/P2/P3/P4 300-cycle kits to 基龍米克斯 (Genomics BioSci) for NT$19,917,000, against a budget of NT$23.39M and a bid of NT$21.93M. P3: NT$9,480,000 / 60 = NT$158,000 per kit (bid NT$180,000, −12%). P4: NT$2,640,000 / 12 = NT$220,000. Taipei VGH 1150157V (May 2026, single bidder 均泰): P3 NT$235,000 per set (15 sets), XLEAP P4 NT$201,000 (18 sets). On P3, Taipei pays 49% more. Kit cycle configurations are not stated, so the comparison is indicative only.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=115A018",
+      "date": "2026-09-17",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "P3定序試劑組(300循環)",
+      "strength": "weak",
+      "why_new": "D071/F751 priced Taichung's kits against US list. The cross-hospital and cross-channel gap, and Genomics BioSci as the reseller of Illumina reagents, are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "NTUH's NT$297M WGS reagent-plus-instrument contract was won by a single bidder. The only discount came from bargaining the bid down to budget (−10.8%), not from competition.",
+      "detail": "K114031 (awarded 4 Feb 2026, term Mar 2026–Feb 2029): 均泰 bid NT$332,927,500 against a NT$297,000,000 budget and floor and was cut to NT$296,999,880, which is −10.8%. The first round failed for lack of bidders. A NT$8.91M bid bond and MOHW device licences were required. Product origin is the US, and the instrument model is not named. Taiwan's largest public WGS reagent contract therefore saw no rival-platform bid.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=K114031",
+      "date": "2026-02-05",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v/openfun API",
+      "source_type": "procurement",
+      "quote": "次世代全基因體定序試劑3項(附儀器)開口合約",
+      "strength": "weak",
+      "why_new": "F715 gave the contract value only. The bid-versus-award negotiation (−10.8%), the single bidder and the bid bond are new."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I could not build a per-hospital 6000-to-X kit timeline. In PCC titles, NHRI is the only buyer that ever names NovaSeq 6000 kits (2018–2023). Hospitals (NTUH, Taipei/Taichung/Kaohsiung VGH) buy under generic names (高通量/大通量定序試劑組), and the award notices carry no brand or model fields. The only named high-throughput chemistry since 2024 is Taipei VGH's XLEAP P4 (mid-throughput). Searches for '25B', '10B', 'S4試劑' and 'XLEAP' return no NovaSeq X kit awards. Illumina's own Taiwan entity (因美納台灣) has only three awards, all to NHRI (2022–23). The API rate-limits (HTTP 429) after a few quick calls. Not yet mined: pages 2–7 of the 均泰 vendor search and pages 2–6 of 定序試劑, which might hold hospital service contracts that name a NovaSeq serial or model in their spec documents. Spec PDFs (招標文件) are not exposed by the API.",
+  "leads": [
+    {
+      "name": "PCC vendor search for 基龍米克斯生物科技 (Genomics BioSci & Tech)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=基龍米克斯",
+      "access": "Public API, no login; rate-limited",
+      "labels": ["1B", "1C"],
+      "rationale": "This WGS outsourcer also resells Illumina kits at lower prices (Taichung VGH). Its full award list would map clinical genome volume and price across Taiwanese hospitals."
+    },
+    {
+      "name": "PCC vendor search for 權拓基因 (CENTOGENE APAC)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=權拓基因",
+      "access": "Public API, no login",
+      "labels": ["1B"],
+      "rationale": "This would show whether an AXELIOS buyer is winning any Taiwanese public clinical WGS tenders, and at what per-genome price."
+    },
+    {
+      "name": "PCC vendor search for 瑞林生物科技 and 研毅企業 (ANTEC)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=研毅企業",
+      "access": "Public API, no login",
+      "labels": ["2B", "1B"],
+      "rationale": "These are non-Illumina distributors (ANTEC supplied UK-origin chips to Taichung VGH, likely ONT). They would track rival-platform spend at hospitals."
+    },
+    {
+      "name": "Taiwan PCC tender documents (招標文件) on web.pcc.gov.tw",
+      "url": "https://web.pcc.gov.tw/prkms/tender/common/basic/indexTenderBasic",
+      "access": "Public, captcha possible",
+      "labels": ["1A"],
+      "rationale": "Spec attachments may name NovaSeq 6000 vs X flow cells behind the generic 高通量 titles. They are the only route to a per-hospital conversion timeline."
+    }
+  ],
+  "apify_requests": []
+}
+```

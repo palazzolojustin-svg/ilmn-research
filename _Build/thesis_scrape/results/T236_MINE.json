@@ -1,0 +1,175 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "BillionToOne's test volume growth decelerated about 10 points in one quarter, from roughly +45% in Q1'26 to +35% in Q2'26. Illumina has few higher-growth NIPT customers than this one.",
+      "detail": "Derived from the release. Tests delivered were 384K in H1'26 and 196K in Q2'26, so Q1'26 was 188K. H1'25 was 275K and Q2'25 145K, so Q1'25 was 130K. Q1 growth was 188/130 = +44.6% and Q2 growth was 196/145 = +35.2%. Accessioned tests also slowed: Q1 189K vs 137K (+38%) became Q2 197K vs 148K (+33%). Sequential delivered tests rose only about 4% (188K to 196K). Management said Q2 prenatal volume was 'in line' and that volume dipped in accounts where it captures all test volume.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000048/a991blln-earningspressrele.htm",
+      "date": "2026-08-05",
+      "source_name": "BillionToOne 8-K Ex. 99.1 (Q2'26 press release)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file has only the Q2'26 +35% and the +55% prenatal figures. The Q1→Q2 deceleration derived here, and the fall in accessioned-test growth, are not in it."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "BillionToOne's revenue growth was driven by price and mix more than volume. Excluding true-ups, ASP rose about 22% against 35% volume growth.",
+      "detail": "Q2'26 revenue was $109.4M with true-up revenue of $2.8M (call), leaving $106.6M. Q2'25 revenue was $66.6M with true-ups of $2.1M, leaving $64.5M. Ex-true-up revenue per delivered test was $106.6M/196K = $544 vs $64.5M/145K = $445, or +22%. Ex-true-up revenue growth was about +65% against +35% test growth. So about 65% of the revenue growth rate comes from price, mix and payer coverage rather than sequenced volume. Illumina's consumable pull is tied to the 35%.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript) plus 8-K",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file says the gross-margin gain was price-led (F096, D006), but it does not give the true-up-adjusted ASP growth or the true-up amounts."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "COGS per test at BillionToOne is not falling. It was $161 in Q2'26 vs $156 a year earlier and $152 in Q1, so there is no sign of a lower sequencing price being passed through.",
+      "detail": "The call gave COGS per test of $161 (Q2'26), $152 (Q1'26) and $156 (Q2'25), which is +3% y/y. The release gives COGS of $32.3M on 196K tests, or $165 (derived), against $23.1M on 145K, or $159. Management attributes the rise to a shift toward oncology, which costs more per test. Prenatal COGS was 'roughly flat' sequentially even with the Unity Confirm launch. Management expects COGS per test to 'rise gradually' as oncology grows. If Illumina's discounting to a large NIPT/oncology account were accelerating, per-test cost should be falling at constant mix.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript) plus 8-K",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Prior items give oncology COGS per test down more than 10% sequentially (F091) and 'cost of goods per test up about 4%' (D006). This adds the $161/$152/$156 series and the 'prenatal flat' statement, which together cut against fast pricing relief."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Oncology COGS per test at BillionToOne fell more than 10% quarter on quarter. Prenatal cost was flat, so the deflation sits in the oncology workflow, which is the more Gb-heavy line.",
+      "detail": "Per the Q2'26 call, oncology COGS per test fell more than 10% sequentially while prenatal was flat. Oncology revenue was $13.7M, which is 12.5% of total revenue. Blended COGS still rose because oncology mix rose from 11% of revenue (Q1: $10.7M of $108.4M) to 12.5%. The deflation is in the product that uses more sequencing per test, so any Illumina concession to a large customer would show up here first. Management does not say how much is sequencing price vs throughput or automation.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F091 already notes the >10% oncology decline. This adds the prenatal-flat contrast and the oncology revenue mix arithmetic. Cause is unattributed, so strength is weak."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Management's guide of 48-52% revenue growth implies H2'26 revenue growth slows sharply, and Q2 had true-up and payer-claims noise in it.",
+      "detail": "FY26 guidance is $450-465M and H1 was $217.8M. H2 is therefore $232.2-247.2M, or $116-124M per quarter. That is +6% to +13% above Q2's $109.4M run rate. Against H2'25, which is implied at about $450/1.50 = $300M for FY25 less H1'25's $125.5M, or about $175M, H2'26 growth is +33% to +41%, versus +74% in H1. That is a guide to slower growth, and it excludes any further true-ups. The deceleration in the guide is mostly price and payer-contract timing, but test growth is also slowing (see the 1C deceleration item).",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000048/a991blln-earningspressrele.htm",
+      "date": "2026-08-05",
+      "source_name": "BillionToOne 8-K Ex. 99.1",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The guide was reiterated, not raised, after a Q1 raise. The arithmetic of the H2 deceleration (+33-41% vs +74%) is not in the known file. FY25 revenue of about $300M is my back-out from the 48-52% guide."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Management says health-system integration is a new growth channel, with each onboarded system adding roughly 1-3K tests per quarter. Volume may re-accelerate from Epic Aura onboarding.",
+      "detail": "On the Q2'26 call, management said it is fully integrated with Epic Aura, and that other labs take six months or more per health system. BillionToOne's first integrations took two to four weeks. The onboarding funnel began in May or June, with growth 'slow at first, then accelerate', and no 2027 quantification. Unity Confirm is ordered on more than 50% of eligible high-risk Unity Aneuploidy patients and is described as reducing account splitting between labs. At 1-3K tests per system per quarter, 20 systems would add 20-60K tests per quarter, a 10-30% lift on the 196K base. This is a counter-argument to NIPT maturity for the share-gaining lab.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file lists BillionToOne only as a customer with slow penetration gains. The Epic Aura per-system volume figure and the Unity Confirm attach rate (>50%) are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Volume at BillionToOne carries a seasonality or account-capture dip that management did not model. Prenatal volume is therefore not accelerating at the margin.",
+      "detail": "On the Q2'26 call, management said Q2 test volume dipped in accounts where BillionToOne captures all test volume, and that fewer patients were tested in existing accounts. Excluding true-ups, prenatal revenue rose only about $4.5M sequentially, roughly 5%, from both volume and ASP. Total delivered tests rose about 8K sequentially (+4%). Management said the effect 'tends to be relatively small' but could grow with scale. Together with the US birth cohort shrinking 1% in 2025 (known), prenatal volume is increasingly share-driven, not market-driven.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has no sequential prenatal ex-true-up growth (+5%) and no seasonality or fully-captured-account saturation comment."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "BillionToOne is a captive, platform-locked account, so it is not a source of extra Illumina discounting. It is raising ASP and holding gross margin at 70%.",
+      "detail": "Gross margin was 70.5% (70% in the release) vs 65.3% a year earlier, and management said it expects to 'maintain 70% gross margin regardless of the mix'. Each product is designed for 70-80% long-term gross margin. Gross profit was $77.1M on $109.4M of revenue. The earlier known items say the company relies on single-source sequencers and keeps about three months of inventory (F092). The company says nothing in the call about a second sequencer or a supplier negotiation. This is a customer that is expanding margin without pointing to lower reagent prices.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000048/a991blln-earningspressrele.htm",
+      "date": "2026-08-05",
+      "source_name": "BillionToOne 8-K Ex. 99.1 plus call summary",
+      "source_type": "filing",
+      "quote": "we expect to maintain 70% gross margin regardless of the mix",
+      "strength": "weak",
+      "why_new": "Prior items cover the gross margin gain being price-led. The explicit 70% floor 'regardless of mix' and 70-80% product design target are new, and imply no planned reliance on supplier cost cuts."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "BillionToOne's receivables jumped 80% in six months to $74.9M, with more than $10M of claims held by national payers. Billing friction is a gating item for volume, not sequencing cost.",
+      "detail": "Accounts receivable were $74.9M at 30 Jun 2026 vs $41.6M at 31 Dec 2025, +80%, against H1 revenue of $217.8M. On the Q2 call, more than $10M of claims were held by mutual agreement while national payers implement in-network codes, which affected cash collections and possibly true-up revenue. Resolution is expected in H2. Free cash flow was $5.1M in Q2 and capex $4.0M (known). Payer behaviour, not sequencer cost, gates how fast this customer grows.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000048/a991blln-earningspressrele.htm",
+      "date": "2026-08-05",
+      "source_name": "BillionToOne 8-K Ex. 99.1 plus call summary",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F093 names reimbursement as a gating factor in general terms. The receivable balance, its 80% six-month growth and the $10M held-claims figure are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Free cash flow and operating margin at BillionToOne fell sharply from Q1 to Q2, which constrains how fast it can buy sequencers and consumables.",
+      "detail": "Operating margin fell from 16% in Q1 to 5% in Q2'26. Management said over half of the decline was lower true-ups ($9.2M in Q1 vs $2.8M in Q2, or $49 vs $14 per test). Operating income was $5.5M in Q2 vs $17.8M in Q1 (H1 $23.3M less Q2 $5.5M). SG&A was $54.3M, +63% y/y, as it hires sales staff. A lab with 5% margin and a payer backlog is unlikely to ramp lab capacity beyond the current plan.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary plus 8-K",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The true-up series ($2.8M, $9.2M, $2.1M) and the per-test true-up ($14 vs $49) are not in the known file."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "BillionToOne's Q2 prenatal ASP reading was held down by true-up timing. Underlying ASP rose about $15 sequentially, and payer contract wins were a record, so price and volume could still lift in H2.",
+      "detail": "Reported ASP fell about $20 sequentially because of true-up timing. Excluding true-ups, ASP rose about $15 sequentially, so the drop is a timing effect, not a price cut. A record number of payer contracts were signed in the quarter. Management also said it sees 'no prenatal payer friction' because most tests bill under its PLA codes (effective January 2025). A competitor (unnamed) cited payer friction in carrier screening. This is evidence against the view of a maturing NIPT market at the share-taking lab.",
+      "url": "https://allmind.ai/earnings/event/2942888",
+      "date": "2026-08-05",
+      "source_name": "Allmind call summary (unverified transcript)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The ASP sequential bridge (-$20 reported, +$15 underlying) and the PLA-code explanation are not in the known file."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The IR page returns 403 to WebFetch. Data came from the SEC 8-K Ex. 99.1 and an Allmind AI call summary, which itself says 'No Transcript Available', so quotes and call figures are unverified. The call text contained nothing on average-risk vs high-risk volume, payer mix by risk category, sequencer vendor or Natera comparison. Prenatal revenue is $94.2M in the release vs $95.8M in MarketBeat/Quartr; the $1.6M gap matches clinical trial support and other ($1.5M), so the vendors appear to include it. The 10-Q (risk factors, supplier language, COGS note) was not fetched and could add detail. FY25 revenue of about $300M is backed out of the guide and not read from a filing.",
+  "leads": [
+    {
+      "name": "BillionToOne Q2'26 10-Q on SEC EDGAR",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002070849&type=10-Q",
+      "access": "public",
+      "labels": ["1B", "1C"],
+      "rationale": "Supplier concentration, purchase commitments, inventory and cost-of-revenue discussion could give sequencer vendor, reagent cost and Gb-heavy product detail."
+    },
+    {
+      "name": "BillionToOne Q2'26 investor deck (gcs-web static file)",
+      "url": "https://billiontoone.gcs-web.com/static-files/ba26d37f-cb6d-4cc4-872b-6729b90cf4dc",
+      "access": "public",
+      "labels": ["1C"],
+      "rationale": "Appeared in search results. May break out prenatal tests by risk category or product, which the release does not."
+    },
+    {
+      "name": "Statementdog BLLN Q2'26 transcript",
+      "url": "https://statementdog.com/analysis/BLLN/earnings_calls/317159",
+      "access": "public (page content did not load in WebFetch)",
+      "labels": ["1B", "1C"],
+      "rationale": "Full transcript might hold the Q&A on average-risk volume, Natera competition and sequencing cost that the Allmind summary lacks."
+    }
+  ],
+  "apify_requests": []
+}
+```

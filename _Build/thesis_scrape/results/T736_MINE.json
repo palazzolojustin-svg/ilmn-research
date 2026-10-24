@@ -1,0 +1,171 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Illumina's direct US federal contract obligations fell about 29% y/y in FY2026, to about half of their FY2023 peak, and the number of award actions roughly halved.",
+      "detail": "Sweetspot's table for UEI KMW3CRWNAAF3 shows net obligations of $41.07M (FY22), $46.20M (FY23), $35.64M (FY24), $33.93M (FY25) and $23.97M (FY26). FY26 looks essentially complete, because the page already shows FY27 YTD at $0.06M with an award dated 1 Oct 2026. That is −29% y/y and −48% vs FY23. Award actions went 891 → 664 → 630 → 529 → 339, and the average action rose from ~$64K to ~$71K ($23.97M/339). Caveats: the figures cover only direct awards, so purchases through GSA resellers such as Government Scientific Source are excluded, and they include instruments, service, DRAGEN and arrays, not just sequencing consumables.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/illumina-inc-kmw3crwnaaf3/",
+      "date": "2026-10-10",
+      "source_name": "Sweetspot GovCon directory (USAspending-derived)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has Canadian federal and the NHGRI $90M vehicle but no US-wide trend in Illumina's direct federal obligations."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Rival sequencer vendors' share of direct US federal sequencer-vendor obligations rose to ~17% in FY2026 from ~10% in FY24–25, as rival obligations grew ~21% while Illumina's fell 29%.",
+      "detail": "Sweetspot FY net obligations for Illumina / Element / PacBio / ONT: FY24 $35.64M / $0.51M / $2.48M / $0.75M, so rivals had 9.5% of $39.4M. FY25: $33.93M / $0.78M / $2.02M / $1.18M, so 10.5% of $37.9M. FY26: $23.97M / $0.75M / $1.87M / $2.21M, so 16.8% of $28.8M. Rivals together went $3.98M → $4.83M (+21%). The trend is not monotone: FY23 was 15.7%, driven by a $6.0M PacBio year. Ultima adds ~$0.17M in FY25 and nothing in FY26. Distributor purchases are excluded for all vendors.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/element-biosciences-inc-cz2ches131a5/",
+      "date": "2026-10-10",
+      "source_name": "Sweetspot GovCon directory (Illumina, Element, PacBio, ONT profiles)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is the first cross-vendor share series for US federal buyers; known evidence covers only Canadian federal and Taiwanese tenders."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Element's direct federal obligations keep rising, reaching ~3% of Illumina+Element in FY26, including an AVITI24 for NCI's Center for Cancer Research and bulk USDA AVITI kit buys.",
+      "detail": "Element net obligations were $0.40M (FY22), $0.61M (FY23), $0.51M (FY24), $0.78M (FY25) and $0.75M (FY26), with award actions rising to 7 in FY26 from 4. Element/(Illumina+Element) went 1.4% (FY24) → 2.2% (FY25) → 3.0% (FY26). Recent awards: $315K AVITI24 'to enhance shared research capabilities' of NCI CCR (23 Sep 2026; PIID 140D0426P0333, which the page attributes to Interior); USDA 120 AVITI 2x150 kits for $148K (2 Sep 2026); a $135K AVITI→AVITI24 upgrade (9 Jul 2026); and a USDA device-upgrade IDIQ (1232SA26D0020). The base is very small in absolute terms.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/element-biosciences-inc-cz2ches131a5/",
+      "date": "2026-09-23",
+      "source_name": "Sweetspot GovCon directory",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Element's US federal award trajectory and the NCI CCR AVITI24 buy are not in the known list."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NHLBI's TOPMed CORE 2.0 sequencing contracts ($500M ceiling each, 10-year ordering) are only 2–8% used after three years.",
+      "detail": "HigherGov IDV pages show the following. Broad 75N92023D00013: $38.15M obligated, 7–8% of $500M (last modified 30 Jul 2026). Baylor 75N92023D00012: $42.21M, 8% used, potential task-order value $74.8M. NYGC 75N92023D00016: $9.19M, 2% used, funded backlog $0. Ordering runs from Sep 2023 to Sep 2033. Sweetspot puts total CORE 2.0 obligations at $93.3M across 15 task orders and 9 holders; Cedars-Sinai, UCSD and Vanderbilt have $0, and Psomagen has $72.6K. That is roughly $31M a year, about level with the predecessor CORE vehicle ($158.8M over its life).",
+      "url": "https://www.highergov.com/idv/75N92023D00012",
+      "date": "2026-08-04",
+      "source_name": "HigherGov IDV records; Sweetspot vehicle page",
+      "source_type": "procurement",
+      "quote": "$500,000,000 (7% Used)",
+      "strength": "medium",
+      "why_new": "TOPMed CORE ceiling use and annual run-rate are not among the known funding evidence (NIH, All of Us, GREGoR)."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "TOPMed CORE task orders to Broad and NYGC fell ~78% from FY24 to FY25 and stayed low in FY26, so the flagship NHLBI omics program is lumpy and not growing.",
+      "detail": "Broad TOPMed CORE task orders: $3.63M (Sep 2023), $24.48M (Sep 2024), $4.81M (Sep 2025), and FY26 about $5.2M (HigherGov $38.15M less the $32.92M through FY25). NYGC: $0.74M (FY23), $5.69M (FY24), $1.89M (FY25). The two combined went $4.4M → $30.2M → $6.7M. Baylor's FY26 order was $3.83M (28 Sep 2026). The FY24 spike may be multi-year funding, so this reads as no growth rather than a collapse.",
+      "url": "https://www.govconinabox.com/explore/contractors/profile/H5G9NWEFHXN4",
+      "date": "2026-09-28",
+      "source_name": "GovCon in a Box (USAspending-derived) Broad/NYGC profiles; Sweetspot Baylor profile",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "There is no prior time series of TOPMed sequencing task orders at the big genome centers."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "NIH BICAN (brain-atlas) large-scale sequencing-core awards to Broad and NYGC were flat in nominal dollars from FY23 to FY25, so falling $/Gb turns into more data rather than more vendor revenue.",
+      "detail": "Task order 75N95023F00002 shows NYGC at $8.96M (May 2023), $8.99M (May 2024) and $8.70M (May 2025, −3%), and Broad at $7.40M in each of May 2023, 2024 and 2025. These are fixed annual budgets for large-scale single-cell sequencing, the counting work Roche targets with AXELIOS. Flat dollars combined with falling price per read imply flat Illumina revenue at best.",
+      "url": "https://www.govconinabox.com/explore/contractors/profile/WKPTJDWG2C68",
+      "date": "2025-05-28",
+      "source_name": "GovCon in a Box (USAspending-derived)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "BICAN sequencing-core funding levels are not in the known evidence."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Psomagen's federal obligations fell another ~82% in FY26 to $0.19M, and its NHLBI work moved from sequencing to Olink proteomics.",
+      "detail": "Sweetspot: $1.30M (FY22), $5.03M (FY23), $3.20M (FY24), $1.06M (FY25), $0.19M (FY26, 21 actions). In the listed awards, eight NHLBI orders from Feb to Jul 2025 were Olink Explore HT proteomics (sickle cell, sepsis, including $229K), as were two more in May 2026 ($200K and $49K). Earlier awards were WGS and RNA-seq ($1.85M WGS, Sep 2024). USDA terminated a NovaSeq X sequencing order (−$21.3K, Feb 2025).",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/psomagen-inc-zbgtcaamfl93/",
+      "date": "2026-09-21",
+      "source_name": "Sweetspot / GovCon in a Box (USAspending-derived)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F881 covered FY24–FY25 only; the FY26 figure and the shift to proteomics are new."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Federal labs are not shifting research sequencing to the cheapest outsourcer: Novogene's net federal obligations were negative in FY26, though small sole-source awards continue.",
+      "detail": "Sweetspot Novogene (UEI KM6KF2YEWNN6): $798K (FY22), $623K (FY23), $807K (FY24), $229K (FY25), −$309K (FY26, 26 actions, net of deobligations such as a −$157K VA cancer-research mRNA-seq order). New 2026 awards are still small: a VA Palo Alto sole-source RNA-seq ($18K, Aug 2026), an NIH pharmacogenomics order ($25K, Sep 2026) and an Interior wildlife-genomics order ($10K, Aug 2026). For federal buyers, the low-cost Chinese channel is shrinking, not taking share.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/novogene-corporation-inc-km6kf2yewnn6/",
+      "date": "2026-09-21",
+      "source_name": "Sweetspot GovCon directory",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F882 had FY24–FY25 only; FY26 net deobligation and the 2026 award detail are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Oxford Nanopore's direct federal obligations nearly doubled in FY26 to $2.21M, now ~9% of Illumina's, so some federal research spend is moving to long-read.",
+      "detail": "ONT net obligations: $2.77M (FY22), $1.95M (FY23), $0.75M (FY24), $1.18M (FY25), $2.21M (FY26, +88% y/y). ONT/Illumina went 2.1% (FY24) → 3.5% (FY25) → 9.2% (FY26). FY26 awards include a PromethION 2 Integrated platform at Interior (Sep 2026), an NCI methylation-profiling instrument with reagents ($100K, Sep 2026) and USDA flow cells ($203K). PacBio was flat to down: $2.48M → $2.02M → $1.87M.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/oxford-nanopore-technologies-inc-fm6mmnbm2tq5/",
+      "date": "2026-09-24",
+      "source_name": "Sweetspot GovCon directory",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "There is no prior US federal ONT/PacBio obligation trend; the known evidence has Taiwan CDC nanopore spend only."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Ultima has almost no US federal footprint: $166K across two FY25 NIH orders, nothing in FY26, and one $1.03M UG100 purchase in 2021.",
+      "detail": "Sweetspot (UEI DXEVRGJ7MW28) lists $1.19M lifetime across 3 awards, all HHS: a UG100-V sequencer for $1.025M (Sep 2021), NHGRI library reagent for $19.9K (May 2025) and 'Purchase of Ultima Genomics reagents' for $146.5K (Aug 2025). That compares with Illumina's $24M in FY26 direct obligations. Ultima's low-price threat is not visible in federal procurement.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/ultima-genomics-inc-dxevrgj7mw28/",
+      "date": "2025-08-29",
+      "source_name": "Sweetspot GovCon directory",
+      "source_type": "procurement",
+      "quote": "PURCHASE OF ULTIMA GENOMICS REAGENTS, NEW PO",
+      "strength": "weak",
+      "why_new": "Ultima's federal award history is not in the known list."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "10x Genomics' direct federal obligations dropped to $3.9M in FY26 from $10.7M in FY25, a sign of weaker federal single-cell spend, which drives Illumina counting volume.",
+      "detail": "Sweetspot 10x: $8.46M (FY22), $8.39M (FY23), $8.03M (FY24), $10.74M (FY25), $3.92M (FY26 YTD, 57 actions vs 172). Award actions fell 67%. The page metadata says it was last updated Jul 2026 but lists Sep 2026 awards, so FY26 may be incomplete; treat as directional.",
+      "url": "https://www.sweetspot.so/markets/federal/contractors/10x-genomics-inc-d1nldez14tv5/",
+      "date": "2026-09-29",
+      "source_name": "Sweetspot GovCon directory",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has the 10x academic commentary but no federal procurement series."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Among Illumina's 50 most recent federal awards (Sep 2025–Dec 2025), NovaSeq X kit orders outnumber 6000 kit orders 6 to 1, so the federal research 6000 consumables tail is nearly gone.",
+      "detail": "GovCon in a Box lists one NovaSeq 6000 SP reagent kit order ($52K, 24 Sep 2025). NovaSeq X orders: $211K, $234K (IVD X kits), $149K, $75K (25B/10B plus P3 XLEAP), $35K, and a MiSeq/X Plus line. The remaining tail spend in this sample is MiSeq and NextSeq service plans, which fits the research conversion of ~92% already known. The sample covers 50 of 2,848 awards.",
+      "url": "https://www.govconinabox.com/explore/contractors/profile/KMW3CRWNAAF3",
+      "date": "2025-12-04",
+      "source_name": "GovCon in a Box (USAspending-derived)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known federal evidence is 6000 service plans (F613–F622); the kit-order mix in US federal awards is new."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Fiscal-year tables come from Sweetspot aggregator pages, which give full-year net obligations. The GovCon in a Box tables show only 50 awards. Azenta Inc. on Sweetspot is BioStorage/Brooks hardware with no GENEWIZ sequencing awards, and HigherGov's GENEWIZ LLC page shows no awards, so the Azenta comparison is dry. Illumina's direct obligations exclude purchases through GSA resellers (Government Scientific Source, Fisher, VWR). Part of the FY26 drop could be a channel shift to resellers, so verify reseller line items before relying on the −29%. Still to do: per-NIH-institute split of Illumina FY24–26 obligations (needs the USAspending bulk CSV); a full TOPMed CORE 2.0 task-order list by fiscal year for UW, Stanford and Baylor; and an MGI/Complete Genomics federal profile (not found).",
+  "leads": [
+    {"name": "USAspending Award Data Archive (bulk CSV by agency/FY)", "url": "https://www.usaspending.gov/download_center/award_data_archive", "access": "public bulk download; API was blocked earlier, try archive files", "labels": ["2A", "2B"], "rationale": "Filter recipient UEI KMW3CRWNAAF3 plus reseller descriptions containing 'Illumina' to test the reseller-channel caveat and split by NIH institute."},
+    {"name": "Government Scientific Source federal profile", "url": "https://www.sweetspot.so/markets/federal/contractors/", "access": "public aggregator; search 'Government Scientific Source'", "labels": ["2A"], "rationale": "The main reseller of Illumina to federal labs; its FY trend shows whether Illumina's direct decline is a channel shift."},
+    {"name": "HigherGov IDV pages for TOPMed CORE 2.0 holders (UW 75N92023D00020, Stanford 75N92023D00015)", "url": "https://www.highergov.com/idv/75N92023D00015", "access": "public", "labels": ["2A"], "rationale": "Completes the ceiling-use and annual run-rate picture for NHLBI omics sequencing."},
+    {"name": "Fed360 Illumina awards tab", "url": "https://fed360.agency/contractors/illumina-inc-KMW3CRWNAAF3?tab=awards", "access": "HTTP 403 to bots; may work in browser", "labels": ["2A"], "rationale": "Award-level detail with agency and sub-agency splits."}
+  ],
+  "apify_requests": []
+}
+```

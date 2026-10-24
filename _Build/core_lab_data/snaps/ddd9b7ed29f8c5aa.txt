@@ -1,0 +1,60 @@
+NovaSeq X Plus Sequencing System :: Forschungsinfrastruktur
+Zum Seiteninhalt (Accesskey 1)
+Zur Hauptnavigation (Accesskey 2)
+Toggle navigation
+Start
+Suche
+Mapping
+Statistiken nach Region
+Cluster
+Monitoring Förderungen
+ESFRI-AT-Mapping
+Galerie
+Über
+FAQs & Info
+FAQs
+Beschreibung zur Forschungs­infrastruktur
+Methoden & Services zur Forschungs­infrastruktur
+Kategorien zur Forschungs­infrastruktur
+Zusätzliche Informationen zur Forschungs­infrastruktur
+Suchmaschine: Fragen zur Suche
+Kontakt
+Information
+Nationale Forschungs­infrastruktur­strategie
+Forschungs­infrastrukturen in der Europäischen Union
+Forschungs­infrastruktur-Datenbanken / Forschungs­infrastruktur-Netzwerke
+BMBWF-Forschungsinfrastruktur-Datenbank: Evaluierungsstudie 2022
+Auszeichnungen und Pressemeldungen
+Registrieren
+Login
+DE
+EN
+Großgerät
+NovaSeq X Plus Sequencing System
+Zur Übersicht
+»
+591 / 3015
+»
+Medizinische Universität Graz
+Graz | Website
+Open for Collaboration
+Kurzbeschreibung
+The NovaSeq X Plus enables the scaling of ambitious, ultra-high-throughput projects by delivering up to 16 Tb of output (25 billion reads) through high-density optics and flexible flow cell configurations. Leveraging XLEAP-SBS chemistry, the system ensures peak data accuracy and performance while significantly improving operational stability and sustainability.
+Ansprechperson
+Klaus Wagner
+Research Services
+Access via the Institute for Diagnosis and Research in Human Genetics
+Methoden & Expertise zur Forschungsinfrastruktur
+The NovaSeq X Plus facilitates cost-effective whole-genome sequencing (WGS) with a capacity of up to 128 samples per run, alongside a diverse suite of specialized Next-Generation Sequencing (NGS) applications. By providing high-throughput processing at a reduced cost per library, the platform enables the D&F Center for Molecular BioMedicine to execute large-scale genomic, transcriptomic, and epigenetic profiles including exome, RNA-seq, single-cell RNA-seq, ChIP-seq, ATAC-seq, and methyl-seq with enhanced temporal and fiscal efficiency.
+Complementing the hardware infrastructure, the facility integrates optimized bioinformatics pipelines tailored for accelerated and high-fidelity secondary data analysis. This platform ensures high analytical sensitivity and specificity across various omics modalities. Furthermore our bioinformatic infractructure automates the generation of standardized data outputs (including FASTQ, BAM/CRAM, VCF, and .txt formats) to support downstream tertiary analysis.
+The NovaSeq X Plus serves as a foundational element of the service infrastructure at the Diagnostic & Research Institute of Human Genetics, operating under official accreditation as a medical laboratory in accordance with EN/ISO 15189 standards. This ensures that all genomic analyses meet the highest international benchmarks for quality management and technical competence in clinical diagnostics.
+Nutzungsbedingungen
+Terms of use by agreement.
+Kontakt
+Klaus Wagner
+D&F Institut für Humangenetik
++4331638573827
+sequenzierservice@medunigraz.at
+https://humangenetik.medunigraz.at
+https://humangenetik.medunigraz.at/frontend/user_upload/OEs/diagnostik-forschungszentrum/_humangenetik/pdf/Untersuchungsauftr%C3%A4ge/Informationsblatt_Sequenzierservice.pdf
+Standort

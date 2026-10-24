@@ -1,0 +1,46 @@
+GENOMICS CORE SERVICE RATES FY18 |
+DNA Services |
+Type of Service | Suggested Internal Rates | External Non-Profit Rates | Exteral For-Profit Rates |
+|
+|
+|
+|
+Oligo Ordering (Average 20-mer w/Shipping) |
+$16.25 |
+$25.00 |
+$65.00 |
+RT PCR |
+Per Run |
+$6.00 |
+$9.00 |
+$10.00 |
+|
+|
+|
+|
+Next-Gen Sequencing Services |
+Type of Service | Suggested Internal Rates | External Non-Profit Rates | Exteral For-Profit Rates |
+MiSeq |
+Small RNA-seq: 50 bp-Single End |
+$950.00 |
+$1,800.00 |
+$2,050.00 |
+Bacterial Whole Genome:250 bp PE Seq |
+$1,350.00 |
+$2,050.00 |
+$2,250.00 |
+16S Metagenome: 300 bp PE seq |
+$1,800.00 |
+$2,800.00 |
+$3,000.00 |
+NovaSeq 6000 (please contact for rates) |
+Library Preparation Services |
+Type of Service | Suggested Internal Rates | External Non-Profit Rates | Exteral For-Profit Rates |
+Eukaryoptic RNA Seq |
+TruSeq RNASample Prep. LT |
+$120.00 |
+$175.00 |
+$240.00 |
+TruSeq Stranded mRNA LT |
+$120.00 |
+$165.00 |

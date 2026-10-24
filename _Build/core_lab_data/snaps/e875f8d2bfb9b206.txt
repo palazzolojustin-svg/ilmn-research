@@ -1,0 +1,235 @@
+Pricing: Center for Genetic Medicine: Feinberg School of Medicine
+Skip to main content
+Feinberg School of Medicine
+Northwestern Medicine | Northwestern University
+News Center | Faculty Profiles
+Northwestern University Feinberg School of Medicine
+Center for Genetic Medicine
+Center for Genetic Medicine Home
+About Us
+About Us Overview
+Director's Message
+News
+Events
+Giving
+Alumni
+Employment
+Contact Us
+Contact Us Overview
+Administrative Staff
+dictyBase, Dicty Stock and Gene Ontology Staff
+Education
+Education Overview
+Graduate Program in Genetic Counseling
+Scott Lecture Series
+Silverstein Lecture Series
+Technologies
+Services
+Access NUSeq Services
+Pricing
+NUgene Project
+Transgenic and Targeted Mutagenesis Laboratory
+Pricing
+View FY24 pricing by service below, or download the PDF here. If you need a quote for a project, please contact us. Initial project consultations are available free of charge.
+Pricing by Service
+Service Index
+Illumina NovaSeq X Plus Sequencing
+Illumina NextSeq 500 Sequencing
+Illumina MiSeq Sequencing
+Complete Genomics DNBSEQ-G400 Sequencing
+Element Aviti Sequencing
+General Short-Read Sequencing
+Nanopore Long-Read Sequencing
+Illumina Complete Long-Read Sequencing
+NGS Library Prep
+Single Cell Sequencing Library Prep
+Spatial Transcriptomics
+Sample Prep and QC
+DNA Extraction
+Cell Line Authentication
+Array Processing
+NanoString
+Bioinformatics and Staff Time
+Equipment Use
+Illumina NovaSeq X Plus Sequencing
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+10B Flowcell, PE50 Sequencing, 900-1,000 M Read Pairs |
+$1,250 |
+$1,500 |
+$1,875 |
+Lane |
+10B Flowcell, PE150 Sequencing, 900-1,000 M Read Pairs |
+$1,550 |
+$1,860 |
+$2,325 |
+Lane |
+1.5B Flowcell, PE50 Sequencing, 600-700 M Read Pairs |
+$1,350 |
+$1,620 |
+$2,025 |
+Lane |
+1.5B Flowcell, PE150 Sequencing, 600-700 M Read Pairs |
+$1,800 |
+$2,160 |
+$2,700 |
+Lane |
+25B Flowcell, PE150 Sequencing, 2,000-2,500 M Read Pairs |
+$2,800 |
+$ 3,360 |
+$4,200 |
+Lane |
+Illumina NextSeq 500 Sequencing (Faster Turnaround Time)
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+75 bp, Single-Read (SR), High-Output (HO), up to 400 M Reads |
+$1,960 |
+$2,450 |
+$2,940 |
+Flow Cell |
+150 bp, SR, or 75 bp, PE, Mid-Output (MO), up to 130 M Reads/Read Pairs |
+$1,560 |
+$1,950 |
+$2,340 |
+Flow Cell |
+150 bp, SR, or 75 bp, PE, HO, up to 400 M Reads/Read Pairs |
+$3,400 |
+$4,250 |
+$5,100 |
+Flow Cell |
+Illumina NextSeq Sequencer Use by Contracting Lab |
+$300 |
+$480 |
+$600 |
+Run |
+Illumina MiSeq Sequencing
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+V3, 300 bp, PE, 22-25 M Read Pairs |
+$2,020 |
+$2,525 |
+$3,030 |
+Flow Cell |
+V2, 250 bp, PE, 12-15 M Read Pairs |
+$1,620 |
+$2,025 |
+$2,430 |
+Flow Cell |
+V2 Micro, 150 bp, PE, 4 M Read Pairs |
+$710 |
+$887.50 |
+$1,065 |
+Flow Cell |
+V2 Nano, 150 bp, PE, 4 M Read Pairs |
+$710 |
+$887.50 |
+$1,065 |
+Flow Cell |
+V2 Nano, 150 bp, PE, 1 M Read Pairs |
+$410 |
+$512.50 |
+$615 |
+Flow Cell |
+Illumina MiSeq Sequencer Use by Contracting Lab (Data output varies with flow cell type) |
+$260 |
+$416 |
+$520 |
+Run (flow cell specific output) |
+Complete Genomics DNBSEQ-G400 Sequencing
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+FCL, SE50 Sequencing, 100 M Reads |
+$300 |
+$375 |
+$450 |
+100 M Reads |
+FCS/FCL Flowcell, SE100 Sequencing, 100 M Reads |
+$450 |
+$540 |
+$675 |
+100 M Reads |
+FCS/FCL, PE150 Sequencing, 100 M Reads |
+$600 |
+$750 |
+$900 |
+100 M Reads |
+FCS, PE300 Sequencing, 150 M Read Pairs |
+$3,500 |
+$4,200 |
+$5,250 |
+Lane |
+FCL Flow Cell, SE400/PE200 Sequencing, 400 M Read Pairs |
+$2,800 |
+$3,360 |
+$4,200 |
+Lane |
+Library Conversion for DNBSEQ-G400 |
+$25 |
+$30 |
+$37.50 |
+Sample |
+Element Aviti Sequencing
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+PE75, 400-500 M Read Pairs |
+$1,200 |
+$1,500 |
+$1,800 |
+Lane
+|
+PE150, 400-500 M Read Pairs |
+$1,500 |
+$1,875 |
+$2,250 |
+Lane |
+General Short-Read Sequencing (by number of reads needed, sequencer used may vary)
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+General Single-Read 50 Base (SR50) Sequencing, 100 M Reads |
+$300 |
+$375 |
+$450 |
+Unit |
+Nanopore Long-Read Sequencing Library Prep |
+$350 |
+$437.50 |
+$525 |
+Sample |
+Nanopore MinION Sequencing |
+$950 |
+$1,187.50 |
+$1,425 |
+Flow Cell (up to 50 Gb data) |
+Nanopore PromethION Sequencing |
+$1,750 |
+$2,187.50 |
+$2,625 |
+Flow Cell (up to 290 Gb data) |
+Illumina Complete Long-Read Sequencing
+Services |
+NU/CBC |
+External |
+Industrial |
+Unit |
+Illumina Complete Long Read Library Prep |
+$320 |
+$400 |
+$480 |

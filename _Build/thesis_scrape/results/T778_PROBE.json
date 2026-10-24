@@ -1,0 +1,28 @@
+```json
+{
+  "status": "productive",
+  "notes": "AccessGUDID is reachable with no login. The NovaSeq 6000Dx instrument record (DI 00816270020637) was verified. It was published 18 Oct 2022 (public version 1, 26 Oct 2022). It is 'In Commercial Distribution' with no end date and no later versions listed. The search 'NovaSeq Illumina' returned 53 results, and I only saw the first 10. Those 10 included these Illumina 6000Dx records, all in commercial distribution: Library Tube (00816270020552), Library Tube 24-pack (00816270020583), S4 Buffer Cartridge (00816270020576), and DRAGEN for DNA Prep with Enrichment Dx for NovaSeq 6000Dx (00816270020743). None of the 10 was a NovaSeq X entry. I could not see the other 43 results. The 'NovaSeq X Dx' search returned a loose full-text match, so it was inconclusive. This is therefore only weak, partial evidence that no X Dx DI exists, and it is not proof. I did not check kit DIs (S2/S4 v1.5 Dx cartridges), their publish dates, or any 2025-26 additions. Watch-out: no record I saw was discontinued, and the DRAGEN Dx 6000Dx software DI (00816270020743) shows Illumina still supporting the 6000Dx. The DI number is near the end of the 6000Dx block, but I saw no publish date for it.",
+  "how_to_mine": "Download the full GUDID delta or full release files from https://accessgudid.nlm.nih.gov/download (free). Filter to the company name 'Illumina, Inc.' (DUNS 033305264), then list every row with its devicePublishDate, deviceRecordStatus, deviceCommDistributionStatus and commercial-distribution end date. Check for any brand name containing 'NovaSeq X' or 'X Plus', and for any 6000Dx DIs published in 2025-26. Alternatively page through https://accessgudid.nlm.nih.gov/devices/search?query=NovaSeq (all 53 results, pages 2-6), then call /api/v3/devices/lookup.json?di=<DI> for each 6000Dx kit. Also check the DI history pages for version changes. The DIs are sequential from 00816270020552 to 00816270020743, so probing neighbouring DIs would find gaps.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina's 6000Dx IVD instrument and consumable DIs are all still in commercial distribution, and the NovaSeq 6000Dx records I saw have no discontinuation date or later version.",
+      "detail": "The NovaSeq 6000Dx instrument (DI 00816270020637, model 20068232) was published 18 Oct 2022, with public version 1 dated 26 Oct 2022. It is 'In Commercial Distribution' with no end date. In the first 10 of 53 'NovaSeq Illumina' results, the 6000Dx Library Tube, the 24-pack, the S4 Buffer Cartridge and the DRAGEN Dx for 6000Dx record were all in commercial distribution. None of the 10 results was an X Dx entry. This is a watch-out: regulated clinical users have a supported IVD path only on the 6000Dx, which is consistent with a durable regulated tail. It is not proof, because only 10 of the 53 results were seen.",
+      "url": "https://accessgudid.nlm.nih.gov/devices/00816270020637",
+      "date": "2026-10-12",
+      "source_name": "FDA AccessGUDID (NLM)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has the 6000Dx (2022) only as an FDA-clearance fact. It has no GUDID commercial-distribution status or record history, and no sign of an X Dx DI."
+    }
+  ],
+  "new_candidates": [
+    "GUDID bulk download (https://accessgudid.nlm.nih.gov/download): filter Illumina DUNS 033305264 for NovaSeq X / X Plus Dx DIs and 2025-26 publish dates",
+    "FDA 510(k)/De Novo database search for NovaSeq X Dx or 'NovaSeq X Plus Dx' clearances"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,11 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made two calls. The PubMed query returned only 3 results, none of them a 6000→X clinical migration. They were a research miRNA study (CeGaT, Int J Mol Sci, Aug 2026), a non-clinical psychiatry protocol (EMBER-MDD) and a cystic fibrosis metagenomics paper. A web search found only Illumina vendor notes (TSO500 HT X tech note M-GL-02869, X data concordance note M-US-00201) and a Novogene NA12878 comparison. All of these are research-use-only reference-sample data, not lab validation events. I did not search medRxiv, the AMP 2025 abstract supplement or the ASHG 2026 abstracts, so this is a cheap probe and not a full test. The PubMed query was also narrow. A missing burst of validations is weak support for the frozen-tail watch-out, because labs rarely publish routine instrument bridging studies.",
+  "how_to_mine": "Not worth deep extraction on PubMed alone. If tried again, search medRxiv and the AMP 2025 J Mol Diagn abstract supplement (full text) for 'NovaSeq X' with 'bridging' or 'instrument transition'. Also search lab-validation papers on Google Scholar for 'transition from NovaSeq 6000 to NovaSeq X'. Check ASHG 2026 poster listings if they are public.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

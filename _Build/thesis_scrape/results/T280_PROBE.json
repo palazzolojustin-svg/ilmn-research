@@ -1,0 +1,11 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made two calls, one to EDGAR full-text search and one web search. The EDGAR search-index endpoint is reachable with no login. But it returns only filing metadata (company, CIK, form, file date, accession number) and no text snippets, because the doc_text field is excluded. My query for 'NovaSeq' in 10-Qs filed from 2026-01-01 returned only Illumina's own 10-Qs (filed 2026-05-04 and 2026-07-31), not Fulgent, NeoGenomics, Veracyte, Castle or Exagen. I did not filter by company, so a company-filtered run is untested. The web search found no filing text from any of the target labs. I opened no actual Fulgent, NeoGenomics or Veracyte filings in this probe, so I have no sequencer models, 6000-to-X re-validations, supply terms or test-volume data to report. The source is not blocked, but it is a poor fit for cheap discovery.",
+  "how_to_mine": "Skip the efts search. Fetch each company's filing index directly: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=<CIK>&type=10-K (needs a User-Agent header). Then open the primary 10-K or 10-Q HTML for Fulgent (FLGT), NeoGenomics (NEO), Veracyte (VCYT), Castle (CSTL) and Exagen (XGN). Search each document for 'NovaSeq', 'Illumina', 'sole source', 'purchase commitment' and 'cost per test'. The MD&A cost-of-revenue discussion is the most likely place for X-transition commentary. Fulgent's 10-K supplier risk factor and its commitments footnote are the best leads for Illumina minimum-purchase terms. Filings from lower-profile labs are unlikely to name the 6000 specifically, so I expect little direct evidence on the tail.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

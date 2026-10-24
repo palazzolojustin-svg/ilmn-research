@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The data.cms.gov API is reachable with no login. A keyword query for 'Natera' on the Physician & Other Practitioners by Provider and Service dataset (UUID 92396110-2aed-4d63-a6a2-5d6207d46a29) returned only an individual radiologist, Alejandro Natera (NPI 1326213919), with imaging codes 70450-70551. It returned no organizational lab NPI and no 0340U or 81420 rows. This one keyword query is the only data test I ran, and I did not filter by HCPCS code or run any year-over-year pull. The dataset is built from Part B claims (MAC claim types 71/72) and is aimed at physician/practitioner services. My inference, not confirmed by the one methodology search I ran, is that independent-lab CLFS billing such as MRD PLA codes and NIPT codes is not in it. That is why the lab NPIs do not appear. Because of this, I could not produce lab-level growth rates, so I report no 1C evidence either way. The file would not normalise the lab-level growth rates above.",
+  "how_to_mine": "Not recommended for the six lab names. Two unverified alternatives are worth a cheap probe. (1) The CMS Part B National Summary Data File, or other CLFS volume files, could give national allowed services and payments by HCPCS code. That would include 0340U, 81420, 81507, 81425 and 81415 for 2021 onward, so you could track national MRD and NIPT code volumes without naming a lab. I did not verify that this file includes CLFS codes. (2) A HCPCS-filtered query on the Physician dataset (filter[HCPCS_Cd]=81420) could confirm whether any rows exist for lab codes. I did not run it.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "CMS Part B National Summary Data File: national CLFS volumes by HCPCS (0340U, 81420, 81507, 81425, 81415), 2021 to latest. Unverified.",
+    "CMS Clinical Laboratory Fee Schedule Private Payer Rates and Volumes (catalog.data.gov): PAMA-reported volumes by code. Surfaced in search; not opened."
+  ],
+  "apify_requests": []
+}
+```

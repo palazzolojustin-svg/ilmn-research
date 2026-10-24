@@ -1,0 +1,43 @@
+{
+ "core_name_on_page": "Baylor College of Medicine, Genomic & RNA Profiling Core Facility",
+ "document_date": null,
+ "effective_from": "2022-08",
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NS6000_S4",
+   "flow_cell_raw": "NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "Regular Baylor Pricing",
+   "price": 4384,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane As desired N/A $4,384"
+  },
+  {
+   "platform_fc": "NS6000_S4",
+   "flow_cell_raw": "NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "Dan L. Duncan Comprehensive Cancer Center Member Pricing",
+   "price": 4335,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane As desired N/A $4,335"
+  }
+ ],
+ "_model": "sonnet-verified",
+ "_reason": "conflicts with another document from the same core in the same month"
+}

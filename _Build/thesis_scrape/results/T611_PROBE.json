@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "The CMS data.cms.gov API works with no login. It returns national rows for PLA codes such as 0340U, which is the Natera Signatera MRD code; it has one rendering provider, the lab. Two limits: (1) The Physician & Other Practitioners file is Medicare fee-for-service Part B only. It undercounts lab volume (Medicare Advantage and commercial are excluded). Counts under 11 are suppressed, so codes with tiny volumes are missing. (2) I could not verify which year each dataset UUID holds. The rows carry no year field, and the catalog pages conflict. UUID 6fea9d79... is the data-api 'latest' endpoint. UUID ddee9e22... is labelled 2023-12-31 in one catalog entry. The two versions are probably consecutive years, most likely 2022 and 2023, but that is unconfirmed. Read the per-year labels on the data.cms.gov dataset page before citing these numbers by year. I did not pull 2021 or 2024. Codes 0364U (clonoSEQ), 81415-81417 and 81427 did not appear in either version, or were suppressed because counts were below 11. 81425 appeared only at tiny volumes (13 and 131 services). The two versions differ for 0340U (Signatera): 13,783 services / 7,028 beneficiaries in the older version vs 25,746 / 11,922 in the newer one. That is +87% in services and +70% in beneficiaries. Services per beneficiary rose from 1.96 to 2.16, and the average Medicare payment fell from $3,838 to $3,519 (-8%). Medicare FFS volume for the main MRD test is therefore still growing very fast, which cuts against a near-term MRD slowdown. It is test counts, not Gb. Signatera's CLFS rate was $3,920 in 2025 and was cut to $3,590 from Jan 2026 (rate cut already known).",
+  "how_to_mine": "1) On data.cms.gov, open 'Medicare Physician & Other Practitioners - by Geography and Service' and record the UUID for each year (2021, 2022, 2023, and 2024 if released). Query https://data.cms.gov/data-api/v1/dataset/<UUID>/data?filter[Rndrng_Prvdr_Geo_Lvl]=National&filter[HCPCS_Cd][condition][path]=HCPCS_Cd&filter[HCPCS_Cd][condition][operator]=IN&filter[HCPCS_Cd][condition][value][]=0340U (repeat the value[] parameter for each code). 2) Test the other MRD and WGS PLA codes. Candidates, each owner to confirm from the AMA PLA list: 0364U (clonoSEQ), the RaDaR code, 0239U, 0326U, 0388U, 0422U, 0423U and 0478U, plus the rapid-WGS codes 0094U and 81425-81427. Many will be suppressed because counts are under 11. 3) Use the Medicare Part B Spending by Drug and the 'Clinical Laboratory' provider-type rows in the by-Provider-and-Service file (dataset 92396110-2aed-4d63-a6a2-5d6207d46a29, which is not year-labelled, so confirm the year) to pull lab-level totals for Natera, Guardant, Caris, NeoGenomics and others by year. 4) Compute y/y growth per code and bridge it to Gb per test, which the known list already gives.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Medicare FFS volume for Natera's Signatera MRD code 0340U grew about 87% between two consecutive annual CMS releases, and the main MRD test is still accelerating in test counts.",
+      "detail": "National Medicare Part B rows for HCPCS 0340U (Natera as the only rendering provider) show 13,783 services and 7,028 beneficiaries in the older release (UUID ddee9e22...) vs 25,746 services and 11,922 beneficiaries in the newer release (UUID 6fea9d79...). That is +87% in services and +70% in beneficiaries. Services per beneficiary rose from 1.96 to 2.16, so repeat testing is rising. Year labels are unverified (probably 2022 to 2023), and this is Medicare FFS test counts, not Gb.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/6fea9d79-0129-4e4c-b1b8-23cd86a4f435/data?filter[Rndrng_Prvdr_Geo_Lvl]=National&filter[HCPCS_Cd]=0340U",
+      "date": "CMS annual release; year unverified (probably 2023)",
+      "source_name": "CMS Medicare Physician & Other Practitioners - by Geography and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known list has company-reported MRD test growth and the CLFS rate cut, but no Medicare claims counts by code or repeat-testing rate."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Medicare FFS genome-sequencing code 81425 volume is negligible, and NIPT code 81420 volume is small and falling.",
+      "detail": "81425 (genome sequence analysis) shows 131 national services in the newer release vs 13 in the older one. The base is tiny, so Medicare claims show no WGS mass market. 81420 (NIPT, trisomy) fell from 183 to 150 services (-18%), and 81507 fell from 34 to 13. Medicare covers few pregnancies, so the NIPT figures are only weak evidence of NIPT maturing. Year labels are unverified.",
+      "url": "https://data.cms.gov/data-api/v1/dataset/6fea9d79-0129-4e4c-b1b8-23cd86a4f435/data?filter[Rndrng_Prvdr_Geo_Lvl]=National&filter[HCPCS_Cd]=81425",
+      "date": "CMS annual release; year unverified",
+      "source_name": "CMS Medicare Physician & Other Practitioners - by Geography and Service",
+      "source_type": "claims_data",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known list has WGS and NIPT growth from company and expert sources, but no payer claims counts."
+    }
+  ],
+  "new_candidates": [
+    "CMS Part B spending by lab (Clinical Laboratory provider type) across years, to track Natera, Guardant and Caris Medicare volume",
+    "AMA PLA code list, to map MRD and rapid-WGS PLA codes to owners",
+    "CMS CLFS quarterly rate files, for per-code payment trends"
+  ],
+  "apify_requests": []
+}
+```

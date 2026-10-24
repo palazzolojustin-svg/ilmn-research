@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I read the whole 10x Q2'26 10-Q (0–111,673 characters) and found nothing on sequencing costs or budgets. Illumina appears only in the litigation note: 10x sued Illumina in Oct 2025 over patents, with trials set for Jan 2028 and Apr 2028. Item 1A says there are no material changes to risk factors. The 10x filing is dry for this thesis. In GRAIL's Q2'26 10-Q, Illumina is no longer a related party because its stake fell below 10% in Q4'25. As a result, there are no 2026 Illumina purchase figures, no minimum-purchase or MFN terms, and no cost per Galleri test in the portion I read (about 100K of 128K characters, via a summarising fetch). The only quantified item is a small Q2'25 related-party spend with Illumina. It does not bear on pricing, so I report it as weak.",
+  "how_to_mine": "Optional, low payoff. Fetch the GRAIL 10-Q (https://www.sec.gov/Archives/edgar/data/0001699031/000162828026054307/gral-20260630.htm) at offset 100000 to read the last ~28K characters. Look at the commitments note for Illumina purchase obligations, and in MD&A for cost of screening revenue per test. Galleri test count over 117K in H1'26 is already known, so cost of screening revenue divided by tests would give a rough all-in cost per test, though it would not isolate sequencing.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "GRAIL's spend with Illumina was small in H1'25, so Galleri adds little to Illumina's volume.",
+      "detail": "GRAIL reported related-party cost of screening revenue paid to Illumina of $1.176M in Q2'25 and $2.687M in H1'25. It also reported $578K and $1.974M of R&D expense, respectively. Illumina stopped being a related party in Q4'25, so no 2026 figures are shown. These are cost lines, not a purchase total, so the Illumina share of GRAIL's sequencing spend is not established. Under the 4th amendment, GRAIL's perpetual royalty to Illumina is suspended until 24 Dec 2026. The rate is 9%, with anti-stacking down to a 7% floor, and drops to 5% after $1B cumulative.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001699031/000162828026054307/gral-20260630.htm",
+      "date": "2026-08 (10-Q for period ended 2026-06-30)",
+      "source_name": "GRAIL 10-Q Q2'26, Note 12 (via search-result and fetch summary)",
+      "source_type": "filing",
+      "quote": "the perpetual royalty payment obligation to Illumina is suspended until December 24, 2026",
+      "strength": "weak",
+      "why_new": "The exclusion list covers GRAIL's 10-Q only as a source; these dollar amounts and the suspension and royalty-floor terms are not in it."
+    }
+  ],
+  "new_candidates": [
+    "GRAIL 10-Q Q2'26 last ~28K characters (offset 100000): commitments note and cost of screening revenue per test",
+    "10x Genomics FY25 10-K and Q2'26 earnings call: MD&A commentary on sequencing cost per read as a driver of single-cell demand (the 10-Q has none)"
+  ],
+  "apify_requests": []
+}
+```

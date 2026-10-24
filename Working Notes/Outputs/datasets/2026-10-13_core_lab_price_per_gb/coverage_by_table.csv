@@ -1,0 +1,48 @@
+﻿sheet,table,appendix,cores,observed_cells,document_dated_cells,carried_cells,cores_with_any_price_change,median_change_first_to_last_pct
+X25B_int,"Illumina NovaSeq X 25B, internal/academic rate",False,38,72,81,335,11,0.0
+RL_X25B_int_100c,"Illumina NovaSeq X 25B, internal/academic rate, 100 cycles",False,21,33,39,136,3,0.0
+RL_X25B_int_200c,"Illumina NovaSeq X 25B, internal/academic rate, 200 cycles",False,18,25,37,101,2,0.0
+X25B_ext,"Illumina NovaSeq X 25B, external academic rate",False,17,33,36,134,3,0.0
+RL_X25B_ext_100c,"Illumina NovaSeq X 25B, external academic rate, 100 cycles",False,8,12,28,29,1,0.0
+X10B_int,"Illumina NovaSeq X 10B, internal/academic rate",False,39,71,83,386,11,0.0
+RL_X10B_int_100c,"Illumina NovaSeq X 10B, internal/academic rate, 100 cycles",False,27,56,70,231,9,0.0
+RL_X10B_int_200c,"Illumina NovaSeq X 10B, internal/academic rate, 200 cycles",False,24,42,47,220,7,0.0
+X10B_ext,"Illumina NovaSeq X 10B, external academic rate",False,16,32,36,134,4,0.0
+RL_X10B_ext_100c,"Illumina NovaSeq X 10B, external academic rate, 100 cycles",False,14,28,36,90,3,0.0
+RL_X10B_ext_200c,"Illumina NovaSeq X 10B, external academic rate, 200 cycles",False,13,25,36,91,3,0.0
+X1.5B_int,"Illumina NovaSeq X 1.5B, internal/academic rate",False,22,44,36,169,6,0.0
+RL_X1.5B_int_100c,"Illumina NovaSeq X 1.5B, internal/academic rate, 100 cycles",False,15,31,16,133,4,0.0
+RL_X1.5B_int_200c,"Illumina NovaSeq X 1.5B, internal/academic rate, 200 cycles",False,15,25,24,93,2,0.0
+RL_X1.5B_int_600c,"Illumina NovaSeq X 1.5B, internal/academic rate, 600 cycles",False,9,9,7,11,1,0.0
+X1.5B_ext,"Illumina NovaSeq X 1.5B, external academic rate",False,11,22,36,75,3,0.0
+RL_X1.5B_ext_200c,"Illumina NovaSeq X 1.5B, external academic rate, 200 cycles",False,9,16,36,32,1,0.0
+6000_S4_int,"Illumina NovaSeq 6000 S4, internal/academic rate",False,25,29,32,340,4,0.0
+6000_S4_ext,"Illumina NovaSeq 6000 S4, external academic rate",False,14,17,34,145,2,0.0
+6000_S2_int,"Illumina NovaSeq 6000 S2, internal/academic rate",False,22,24,27,322,5,0.0
+6000_S2_ext,"Illumina NovaSeq 6000 S2, external academic rate",False,13,16,34,139,2,0.0
+6000_S1_int,"Illumina NovaSeq 6000 S1, internal/academic rate",False,21,24,27,294,5,0.0
+6000_S1_ext,"Illumina NovaSeq 6000 S1, external academic rate",False,14,19,34,147,3,0.0
+6000_SP_int,"Illumina NovaSeq 6000 SP, internal/academic rate",False,23,28,31,308,5,0.0
+6000_SP_ext,"Illumina NovaSeq 6000 SP, external academic rate",False,14,19,34,147,3,0.0
+NS2K_P4_int,"Illumina NextSeq 2000 P4, internal/academic rate",False,18,38,26,130,7,2.0
+NS2K_P4_ext,"Illumina NextSeq 2000 P4, external academic rate",False,9,19,32,30,2,0.0
+NS2K_P3_int,"Illumina NextSeq 2000 P3, internal/academic rate",False,19,43,34,146,9,0.0
+NS2K_P3_ext,"Illumina NextSeq 2000 P3, external academic rate",False,10,22,40,36,3,0.0
+NS2K_P2_int,"Illumina NextSeq 2000 P2, internal/academic rate",False,24,51,34,171,9,0.0
+NS2K_P2_ext,"Illumina NextSeq 2000 P2, external academic rate",False,13,27,40,56,3,0.0
+NS2K_P1_int,"Illumina NextSeq 2000 P1, internal/academic rate",False,23,50,34,171,8,0.0
+NS2K_P1_ext,"Illumina NextSeq 2000 P1, external academic rate",False,13,27,40,56,3,0.0
+AVITI_HIGH_int,"Element AVITI High Output, internal/academic rate",False,7,14,8,77,3,0.0
+AVITI_HIGH_ext,"Element AVITI High Output, external academic rate",False,6,14,15,51,2,0.0
+UG100_int,"Ultima UG 100 wafer, internal/academic rate",False,3,5,0,2,0,0.0
+UG100_ext,"Ultima UG 100 wafer, external academic rate",False,1,1,0,0,0,
+App_X5B_int,"Illumina NovaSeq X 5B, internal/academic rate",True,7,6,6,11,0,0.0
+App_X5B_ext,"Illumina NovaSeq X 5B, external academic rate",True,2,2,2,0,0,0.0
+App_AVITI_ULTRAQ_int,"Element AVITI Cloudbreak UltraQ, internal/academic rate",True,4,7,0,2,0,0.0
+App_AVITI_ULTRAQ_ext,"Element AVITI Cloudbreak UltraQ, external academic rate",True,4,7,0,2,0,0.0
+App_AVITI_MEDIUM_int,"Element AVITI Medium Output, internal/academic rate",True,7,19,7,66,2,0.0
+App_AVITI_MEDIUM_ext,"Element AVITI Medium Output, external academic rate",True,6,20,14,42,2,0.0
+App_AVITI_LOW_int,"Element AVITI Low Output, internal/academic rate",True,7,15,7,57,2,0.0
+App_AVITI_LOW_ext,"Element AVITI Low Output, external academic rate",True,4,11,14,28,2,2.4
+App_AVITI24_int,"Element AVITI24, internal/academic rate",True,1,1,0,0,0,
+App_AVITI24_ext,"Element AVITI24, external academic rate",True,1,1,0,0,0,

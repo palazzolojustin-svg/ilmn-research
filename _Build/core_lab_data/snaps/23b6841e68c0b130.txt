@@ -1,0 +1,109 @@
+Indicative Pricing | Auckland Genomics
+Close
+Home
+Our Team
+Contact
+Publications
+Book Equipment
+Our Services
+Pricing
+Home
+Our Team
+Contact
+Publications
+Book Equipment
+Our Services
+Pricing
+Menu
+Indicative Pricing
+For formal quotes, you must register on the University of Auckland's booking and billing tool, InfinityX.
+Scroll down for indicative pricing on many of our services. All prices are in NZD.
+Official pricing using InfinityX
+Information on how to register for InfinityX (if you are external to UoA)
+Auckland Genomics Quote form
+1. DNA Sequencing: Whole genome sequencing / Metagenomic sequencing / Shotgun sequencing
+This service is used to sequence all of the DNA in a sample (i.e. whole genomes from plants, animals, or all of the DNA from an entire microbial community, etc). This is often referred to as metagenomic sequencing or shotgun sequencing. Both short- and long-read platforms at different depths are available, giving flexibility depending on your aims.
+Short Read 1Gb
+Short Read
+(I.e. Illumina)
+Short read sequencing using Illumina
+Number of Samples
+Pricing includes library preparation and illumina sequencing with paired end reads at 2x150bp length. This uses the illumina DNA Prep kit for library preparation using unique dual indexes.
+Gb (per sample)
+0.5Gb per sample (1.6M paired reads)1Gb per sample (3M paired reads)2Gb per sample (6M paired reads)5Gb per sample (15M paired reads)10Gb per sample (30M paired reads)25Gb per sample (80M paired reads)50Gb per sample (165M paired reads)100Gb per sample (330M paired reads)
+How much data do you need? For instance, if your genome size is 5 Mbp (e.g. bacterial isolate) and you want 200X coverage, you will need 1 Gb per sample. If your genome is 3.4 Gb (e.g. human) and you want 30x coverage, you will need approx 100 Gb of data.
+Price per sample
+The price goes down the more samples you have.
+Total Price
+Long read (1Gb)
+Long Read
+(i.e. Nanopore)
+Long read sequencing using Oxford Nanopore
+Total Price
+Include genome assembly (bacterial genomes only)
+Yes, include assembly report for $25 per sample
+No, just provide me with raw data
+Please see an example report on our services page for bacterial genome assembly. We include the fully annotated genome, identification of species, phylogenic trees, QC of the data, etc.
+Total Price
+2. RNA Sequencing
+mRNA enrichment
+Illumina mRNA enrichment (best for eukaryotes, stranded mRNA sequencing)
+Number of Samples
+Pricing *includes* the cost for sequencing at 33M paired end reads / 10Gb per sample using 2x150bp reads. This is the recommended depth for standard RNA-seq for eukaryotes.
+This method uses mRNA enrichment with illumina sequencing. Please see 'Our Services' page for RNA requirements.
+Price per sample
+The price goes down the more samples you have.
+Extra deep sequencing options
+No extra dataAdditional 17M reads / 5 GB extra data per sample ($65)Additional 33M reads / 10 GB extra data per sample ($130)Additional 50M reads / 15 Gb extra data per sample ($195)Additional 66M reads / 20 Gb extra data per sample ($260)Additional 83M reads / 25 Gb extra data per sample ($325)Additional 100M reads / 30 Gb extra data per sample ($390)Additional 117M reads / 35 Gb extra data per sample ($455)Additional 133M reads / 40 Gb extra data per sample ($520)
+Choose this if you would like EXTRA data, beyond that provided in the standard quote. For instance, if you are doing metatranscriptomics of a community of diverse organisms and require more depth of sequencing, you can use this option to add more sequencing.
+*The standard price per sample includes 33M paired end reads/ 10GB of data*.
+Total Price
+rRNA depletion
+Illumina rRNA depletion (best for prokaryotes/bacteria)
+Number of Samples
+Pricing *includes* the cost for sequencing to 15M paired end reads / 4.5Gb per sample using 2x150bp reads. This is the recommended depth for standard RNA-seq in prokaryotes. This method uses ribosomal depletion with illumina sequencing. Please see Our Services page for RNA requirements.
+Price per sample
+The price goes down the more samples you have.
+Extra deep sequencing options
+No extra dataAdditional 17M reads / 5 GB extra data per sample ($65)Additional 33M reads / 10 GB extra data per sample ($130)Additional 50M reads / 15 Gb extra data per sample ($195)Additional 66M reads / 20 Gb extra data per sample ($260)Additional 83M reads / 25 Gb extra data per sample ($325)Additional 100M reads / 30 Gb extra data per sample ($390)Additional 117M reads / 35 Gb extra data per sample ($455)Additional 133M reads / 40 Gb extra data per sample ($520)
+Choose this if you would like EXTRA data, beyond what is provided in the standard quote. For instance, if you are doing metatranscriptomics of a community and require more depth of sequencing, you can use this option to add more sequencing.
+*The standard price per sample includes 15M paired end reads/ 4.5GB of data)*.
+Total Price
+Single cell RNA sequencing
+Single cell RNA sequencing
+Indicative pricing for single cell-RNA sequencing (scRNA seq)
+Parse Evercode Mini WT kit (1-12 samples, up to 10K cells) at 50K reads per cell (~1.1B reads total, 400GB), $18,500
+Parse Evercode WT kit (1-48 samples, up to 100K cells) at 50K reads per cell (~5B reads total, 5TB), $48,000
+Single cell RNA sequencing typically requires a custom quote, please email us with what your sample numbers and a bit about your project genomics@auckland.ac.nz for a discussion. However, some indicative pricing for single cell sequencing using the Parse Evercode kits are listed here for an idea of pricing.
+Total Price
+Small RNA sequencing
+Small RNA sequencing
+Small RNA sequencing requires a custom quote, please email us with what your sample numbers and a bit about your project genomics@auckland.ac.nz
+3. PCR product, amplicon, targeted, and plasmid sequencing
+We have several methods for sequencing PCR products, 16S amplicons, plasmids, phage, CRISPR edited regions, and more.
+A. Amplicon sequencing using PCR barcoding with Nanopore (good for high diversity, 16S sequencing, validation of CRISPR edits, etc)
+A. Amplicon sequencing using PCR barcoding with Nanopore
+Typical yields are at least 30,000 reads per sample. Please let us know if you need more data per sample and we can adjust read number for you. Read lengths will be the full length of you PCR product (up to 20Kb).
+Plasmid Sequencing
+Plasmid Sequencing: $35.00
+Annotated plasmid map and plasmid sequence provided, along with raw data. See "Our Services- Plasmid sequencing" page for example reports.
+Quantity
+Total Price
+Sanger Sequencing
+Sanger Sequencing
+Sanger sequencing pricing can be found on InfinityX and starts from as low as $6 a sample
+This service is simply $35 a sample. You submit clean plasmid preps and they sequenced using enzymatic fragmentation. Please see our FAQs. Each order is for plasmids up to 20Kb in length. Each additional 20Kb in length will require an additional $35 charge. This service can also be directly ordered on Ilab. Annotated plasmid map is included. Please see our FAQs for more information.
+Illumina Sequencing for client-prepared libraries
+If you are an advanced user and have made your own libraries, we offer full flow cell sequencing services for libraries that have been prepared outside of our lab for Illumina sequencing. Pricing includes library QC using a bioanalyzer or Lab chip, and cloud based data delivery (e.g. Globus), as well as shipping and customs forms for overseas sequencing. Do NOT order this service if you submit genomic DNA--> THIS IS FOR PREPARED LIBRARIES ONLY. Auckland Genomics takes no responsibility for libraries that fail sequencing, this is a use at your own risk service.
+Choose sequencing size
+-- Choose your sequencing --MiSeq i100 5M 300 cycle kit (approx 5M read pairs, 2x150, 1.5Gb) - $1,895.00MiSeq i100 5M 600 cycle kit (approx 5M read pairs, 2x300, 3Gb) - $2,810.00MiSeq i100 25M 100 cycle kit (approx 25M read pairs, 2x50, 2.5 Gb) $1,550.00MiSeq i100 25M 300 cycle kit (approx 25M read pairs, 2x150, 7.5Gb) $2,535.00MiSeq i100 25M 600 cycle kit (approx 25M read pairs, 2x300, 15Gb) $2,950.00MiSeq i100 25M 1000 cycle kit (approx 25M read pairs, 2x500, 25Gb) $3,920.00MiSeq i100 Plus 50M 100 cycle kit (approx 50M read pairs, 2x50, 5Gb) $1,925.00MiSeq i100 Plus 50M 300 cycle kit (approx 50M read pairs, 2x150, 15Gb) $2,890.00MiSeq i100 Plus 50M 600 cycle kit (approx 50M read pairs, 2x300, 30Gb) $3,345.00MiSeq i100 Plus 100M 100 cycle kit (approx 100M read pairs, 2x50, 10Gb) $2,610.00MiSeq i100 Plus 100M 300 cycle kit (approx 100M read pairs, 2x150, 30Gb)- $3,520.00NovaSeq X Plus, 10B lane 2x150bp (overseas partner; 1-1.2 B read pairs, 300-350 Gb), $ 4000NovaSeq X Plus, 25B lane 2x150bp (overseas partner; 3.3 billion read pairs, 1Tb), $ 7500NovaSeq 6000, SP Lane 2x150bp (NZ partner; 650M –800 Million read pairs, 200–250 Gb), $7800NovaSeq 6000, Lane 2x150bp (NZ partner; 1.3-1.6 billion read pairs, 400-500 Gb), $ 11,100.00NovaSeq6000, S4 Lane 2x150bp (NZ partner; 8-10 billion read pairs, 2400–3000 Gb) $31,800MGI-G400, flow cell, 2x150bp (overseas partner, 1.5-1.8 billion read pairs, 450-540 Gb, $4,500MGI-T7, flow cell, 2x150bp (overseas partner, 5.0- 5.6 billion read pairs, 1500Gb-1700 Gb. $8,800NextSeq2000, 2x300bp (NZ partner; 160 million read pairs, 60 Gb) $4,640NextSeq2000, 2x150bp (NZ partner; 400 million read pairs, 120 Gb) $6,790
+DNA isolation
+DNA isolation
+DNA isolation
+DNA isolation
+DNA isolation: $35.00
+Please see "Our Services" page for information on sample types and kits we use.
+Quantity
+Total Price
+Your Total
+Submit

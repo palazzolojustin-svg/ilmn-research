@@ -1,0 +1,297 @@
+Library Prep & Genome Sequencing Fees | Iowa Institute of Human Genetics - Carver College of Medicine | The University of Iowa
+Skip to main content
+The University of Iowa
+Carver College of Medicine
+Iowa Institute of Human Genetics
+Search
+Submit Search
+Search
+Site Main Navigation
+About us
+IIHG Leadership
+Faculty Members
+Bioinformatics Division
+Bioinformatics Services and Pricing
+Bioinformatics Tools
+Publications - Bioinformatics
+Our Bioinformatics Team
+Genomics Division
+About Genomics Division
+Genome Sequencing
+Library Prep & Genome Sequencing Fees
+Library Prep Workflows
+Sequencers
+Long Read Sequencing
+NGS Data Storage Policy
+Low coverage WGS (genotyping by sequencing)
+|
+TBD
+|
+inquire
+|
+inquire
+|
+Genome Sequencer Fees
+effective March 1, 2025
+Illumina NovaSeq 6000
+flow cell/
+run CONFIGURATION
+|
+~READS/LANE
+|
+~YIELD/LANE
+|
+UI Cost
+per Lane
+|
+External Cost
+per Lane
+|
+UI Cost
+per Flow Cell
+|
+External Cost
+per flow cell
+|
+SP (2 lane flow cell) |
+1x100 bp SR
+|
+400M
+|
+40 GB
+|
+$1,979
+|
+$2,148
+|
+80 GB
+|
+$2,515
+|
+$2,762
+|
+$4,396
+|
+$4,890
+|
+2x150 bp PE
+|
+400M
+|
+120 GB
+|
+$2,813
+|
+$3,138
+|
+$4,993
+200 GB
+|
+$3,849
+|
+$4,343
+|
+$7,065
+|
+$8,053
+|
+S1 (2 lane flow cell) |
+1x100 bp SR
+|
+800M
+|
+80 GB
+|
+$3,016
+|
+$3,185
+|
+160 GB
+|
+$3,759
+|
+$4,006
+|
+$6,885
+|
+$7,379
+|
+2x150 bp PE
+|
+800M
+|
+240 GB
+|
+$4,146
+|
+$4,471
+|
+$7,659
+|
+$8,309
+|
+flow cell/
+run CONFIGURATION
+|
+~READS/LANE
+|
+~YIELD/LANE
+|
+UI Cost
+per Lane
+|
+External Cost
+per Lane
+|
+UI Cost
+per Flow Cell
+|
+External Cost
+per flow cell
+|
+S2 (2 lane flow cell) |
+1x100 bp SR
+|
+2,000M
+|
+200 GB
+|
+$5,473
+|
+$5,681
+|
+400 GB
+|
+$6,736
+|
+$7,061
+|
+$12,473
+|
+$13,123
+|
+2x150 bp PE
+|
+2,000M
+|
+600 GB
+|
+$7,367
+|
+$7,835
+|
+$13,734
+|
+$14,670
+|
+S4 (4 lane flow cell) |
+2x100 bp PE
+|
+2,500M
+|
+500 GB
+|
+$5,571
+|
+$6,039
+|
+$19,699
+|
+$21,571
+|
+2x150 bp PE
+|
+2,500M
+|
+750 GB
+|
+$6,214
+|
+$6,786
+|
+$22,274
+|
+$4,532
+|
+$4,961
+|
+$15,546
+|
+$17,262
+|
+Illumina MiSeq
+flow cell/run CONFIGURATION
+|
+Reads (Clusters)
+|
+Yield
+|
+Campus Rate
+|
+Off-Campus Rate
+|
+MiSeq Standard Flow Cell |
+50 Cycle (50 bp SR / 25 bp PE)
+|
+12-15 M
+|
+750-850 Mb
+|
+$1,254
+|
+$1,304
+|
+150 Cycle (150 bp SR / 75 bp PE)
+|
+22-25M
+|
+3.3-3.8 Gb
+|
+$1,467
+|
+$1,567
+|
+300 Cycle (300 bp SR / 150 bp PE)
+|
+12-15M
+|
+4.5-5.1 Gb
+|
+$1,791
+|
+$1,891
+|
+500 Cycle (250 bp PE)
+600 Cycle (300 bp PE)
+|
+22-25 M
+|
+13.2-15 Gb
+|
+$2,547
+|
+$2,747
+|
+MiSeq Micro Flow Cell |
+300 Cycle (300 bp SR / 150 bp PE)
+|
+4M
+|
+1.2 Gb
+|
+$689
+|
+$739
+|
+MiSeq Nano Flow Cell |
+300 Cycle (300 bp SR / 150 bp PE)
+|
+1M
+|
+300 Mb
+|
+$503
+|
+$553
+|
+500 Cycle (250 bp PE)

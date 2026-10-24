@@ -1,0 +1,133 @@
+Pricing
+Skip to main content.
+kumc.edu
+School of Health Professions
+School of Medicine
+School of Nursing
+University of Kansas
+The University of Kansas Health System
+The University of Kansas Cancer Center
+Search within this section
+Search all sites
+Genome Sequencing Facility
+Illumina Services
+Illumina Services
+Sequencing
+Guidelines for Sequencing Services
+Protocols
+Sequencing Queue
+Pricing
+10X Services
+10X Genomics Visium Spatial Expression
+Mission Bio Tapestri Services
+Support Services
+Oligonucleotide Synthesis
+NovaSeq X Plus Order Form
+10x Genomics Chromium X Order Form
+Mission Bio Tapestri Order Form
+Support Services Order Form
+Our Campuses
+Info for
+Current Students
+Blackboard
+Webmail
+myKUMC
+Prospective Students
+Sequencing
+Guidelines for Sequencing Services
+Protocols
+Sequencing Queue
+Pricing
+10X Services
+10X Genomics Visium Spatial Expression
+Mission Bio Tapestri Services
+Support Services
+Oligonucleotide Synthesis
+NovaSeq X Plus Order Form
+10x Genomics Chromium X Order Form
+Mission Bio Tapestri Order Form
+Support Services Order Form
+Related Links:
+KIDDRC Bioinformatics Core
+Equipment
+About
+About
+Personnel
+Core Advisory Committee
+Mission Statement
+Feedback
+Attribution
+Genomics Core Policy
+Illumina Services
+Pricing
+NovaSeq X Plus
+The following is pricing for NovaSeq X Plus full flow cell runs or single lane flow cell runs. Partial lane multiplexed sequencing cost is based on the percent consumption of the available reads for the flow cell lane used.
+The KIDDRC Bioinformatics Core on the University of Kansas Medical Center Campus is available to provide sequence data analysis services. Please contact Sumedha Gunewardena sgunewardena@kumc.edu for service information.
+1.5B Flow Cell - 10B Flow Cell Pricing
+|
+Internal Academic (KUMC/KU, KS Regents, Frontiers Investigators) |
+External Academic Investigators |
+Sequencing Type |
+Full Flow Cell |
+Single Lane |
+Full Flow Cell |
+Single Lane |
+NSXP 1.5B 100 cycle - 2 lane |
+$3600 |
+$1800 |
+$5580 |
+$2790 |
+NSXP 1.5B 200 cycle - 2 lane |
+$4600 |
+$2300 |
+$7130 |
+$3565 |
+NSXP 1.5B 300 cycle - 2 lane |
+$5225 |
+$2613 |
+$8099 |
+$4051 |
+NSXP 10B 100 cycle - 8 lane |
+$7090 |
+$887 |
+$10990 |
+$1374 |
+NSXP 10B 200 cycle - 8 lane |
+$8385 |
+$1049 |
+$12997 |
+$1625 |
+NSXP 10B 300 cycle - 8 lane |
+$9255 |
+$1157 |
+$14346 |
+$1794 |
+26B Flow Cell Pricing
+|
+Internal Academic
+(KUMC / KU, KS Regents, Frontiers Investigators)
+|
+External Academic Investigators |
+Sequencing Type |
+Full Flow Cell |
+Full Flow Cell |
+NSXP 25B 100 cycle |
+$19917 |
+$30872 |
+NSXP 25B 200 cycle |
+$21805 |
+$33798 |
+NSXP 25B 300 cycle |
+$23872 |
+$37002 |
+For Full Flow Cell Run Pricing, please direct inquiries to:
+Sequence Library Preparation
+Service |
+Description |
+Internal Academic (KUMC/KU, KS Regents, Frontiers Investigators) |
+External Academic Investigators |
+*Samples submitted for automated Universal Plus mRNA library prep MUST be submitted with >1ug of total RNA which has a RNA Integrity Number (RIN)>8.0 from the TapeStation QC to be eligible for automated library prep. RNA not meeting these requirements will be processed using the manual library preparation. Automation runs require 32 - 48 samples for run initiation.
+Cost/library prep
+includes initial sample QC, library validation QC, library qPCR quantification. normalization & pooling.
+Additional sample QC
+subject to charge.

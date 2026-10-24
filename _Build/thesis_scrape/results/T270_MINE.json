@@ -1,0 +1,84 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Molecular labs face a looming retirement wave: 29.5% of molecular staff are expected to retire within 5 years, the highest of any lab department, up from 8.9% in 2022.",
+      "detail": "ASCP's 2024 Vacancy Survey (AJCP vol. 164 no. 5, 2025; 1,027 responses covering more than 18,626 employees) reports the expected 5-year retirement rate for Molecular Pathology/Diagnostics at 29.5%, against 8.9% in the 2022 survey. That is about 3.3x (29.5/8.9). Staff-only retirement was 30.1% vs 7.8%. Cytogenetics rose from 12.0% to 25.3%. This is a non-sequencing-cost limit on clinical volume that builds over 2026-2030. It is a staffing-supply signal, not a measured volume effect. An AI summary of the full text gave these figures, and I could not open the table myself.",
+      "url": "https://academic.oup.com/ajcp/article-abstract/164/5/759/8267738",
+      "date": "2025 (AJCP 164(5):759); survey year 2024",
+      "source_name": "American Journal of Clinical Pathology / ASCP 2024 Vacancy Survey",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known notes cite only a 'technologist shortage' (F329, from the 2022 survey); this is the 2024 retirement series by department, with a 3.3x jump."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Molecular lab vacancies are easing: the overall rate fell from 13.4% in 2022 to 10.4% in 2024, so the staffing constraint on volume is weakening.",
+      "detail": "ASCP 2022 Table 10 puts Molecular Biology/Pathology/Diagnostics at 13.4% overall (staff 13.2%, supervisor 14.8%), up from 7.3% in 2020. The 2024 full text shows 10.4% overall (staff 10.5%, supervisor 8.2%). That is a drop of 3.0 points, or about 22% relative. Time to fill for molecular staff stayed at 3-6 months in both survey years. In 2024 cytogenetics had the lowest vacancy rate of any department at 7.7% (staff 6.7%). This undercuts a thesis that labor binds clinical NGS volume now. Overall vacancies fell vs 2022, but retirements are rising.",
+      "url": "https://academic.oup.com/ajcp/article/161/3/289/7344701",
+      "date": "2023 (2022 data) and 2025 (2024 data)",
+      "source_name": "American Journal of Clinical Pathology / ASCP Vacancy Surveys 2022 and 2024",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives the 2022-to-2024 molecular vacancy trend (13.4% to 10.4%) that the known notes lack. It is a watch-out against a labor-constraint argument."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "In the Leung/Akkari genomics-lab survey, labs averaged 4.24 open positions, took 16.5 weeks to fill them, and left 44% of combined-lab openings unfilled.",
+      "detail": "The survey went to more than 330 CLIA lab directors in July 2022, with 70 labs answering workforce questions. Time to fill averaged 16.5 weeks (125 positions). Molecular roles drew 6.73 applicants each, against 3.38 for cytogenetics. Molecular technologists stayed an average of only 3.68 years, vs 9.5 in cytogenetics. Salaries were $61.6K at entry, with $78.7K in the West and $49.1K in the South. Only 8 molecular and 2 cytogenetics NAACLS programs exist, vs more than 240 MLS programs. The article does not mention NGS or any volume effect, and the data are stale and from a small sample.",
+      "url": "https://www.captodayonline.com/survey-probes-staff-shortage-in-genomics-labs/",
+      "date": "2024-03 (CAP Today); paper published 2023-03-27; survey July 2022",
+      "source_name": "CAP Today (Carpenter) on Leung et al., Genetics in Medicine Open",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the survey's quantified pipeline figures (16.5 weeks, 3.68-year tenure, 8 molecular programs) to the known one-line shortage note."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "No 2025-26 genomics-specific staffing follow-up exists, and no published source links the staffing shortage to lower NGS volume.",
+      "detail": "Searches of CAP Today, ASCP, ASCLS and CLN (published 22 Jun 2026) found only generic lab-workforce pieces. ASCP's 2026 Vacancy Survey was launched in April 2026, its deadline was extended to 31 May 2026, and results are not yet out. The CLN article describes turnaround times that 'inch upward' but gives no numbers. Customer data point the same way: Natera's tests grew +22% and Guardant's oncology grew +63% in Q2'26, with no staffing limit cited. So the staffing channel is unproven as a volume brake.",
+      "url": "https://myadlm.org/cln/cln-industry-insights/2026/navigating-the-clinical-laboratory-workforce-shortage",
+      "date": "2026-06-22",
+      "source_name": "ADLM CLN / ASCP",
+      "source_type": "press",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Establishes that the labor-constraint evidence is absent from 2025-26 literature and flags the ASCP 2026 survey as a future datapoint."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The CAP Today article is stale and has no NGS or volume content. The only useful new data are the ASCP 2024 molecular and cytogenetics vacancy and retirement figures, taken from AI summaries of the full AJCP text. Pages 100,000+ characters into the AJCP article were not read. ASCP 2026 vacancy survey results should appear in late 2026 or 2027.",
+  "leads": [
+    {
+      "name": "ASCP 2026 Vacancy Survey results",
+      "url": "https://www.ascp.org/news/news-details/2026/05/11/the-ascp-2026-vacancy-survey-deadline-is-extended!",
+      "access": "open web; results pending",
+      "labels": ["1C"],
+      "rationale": "Next datapoint on the molecular vacancy and retirement trend, likely 2027."
+    },
+    {
+      "name": "ASCP 2024 Vacancy Survey full AJCP text (department tables, time-to-fill)",
+      "url": "https://academic.oup.com/ajcp/article-abstract/164/5/759/8267738",
+      "access": "open abstract; full text may be partly open",
+      "labels": ["1C"],
+      "rationale": "Verify the 10.4% and 29.5% molecular figures against the primary tables, including pages after character 100,000."
+    },
+    {
+      "name": "Panel of National Pathology Leaders 2026 Pain Points Survey",
+      "url": "https://thepathologist.com/issues/2026/articles/july/pathology-pain-points/?d=report",
+      "access": "open web",
+      "labels": ["1C"],
+      "rationale": "Workforce rated a top concern; may contain genomics or NGS capacity items."
+    }
+  ],
+  "apify_requests": []
+}
+```

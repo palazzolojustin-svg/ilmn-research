@@ -1,0 +1,191 @@
+NGS (next-generation sequencing) :: Modern technology that reads millions of DNA fragments in parallel.
+Short-read sequencing :: Sequencing that reads DNA in short, highly accurate fragments of a few hundred letters, Illumina's core approach.
+Long-read sequencing :: Sequencing that reads thousands to millions of DNA letters in one piece, used by PacBio and Oxford Nanopore.
+Consumables :: The reagent kits and flow cells customers must buy for every sequencing run.
+Consumables attach rate :: Consumable revenue generated per installed instrument.
+Flow cell :: The consumable slide or cartridge on which DNA is sequenced.
+Library preparation :: Processing extracted DNA into a form a sequencer can read.
+Clinical sequencing :: Using DNA sequencing to diagnose and treat patients.
+IVD :: An FDA-cleared or approved diagnostic test kit.
+LDT (laboratory-developed test) :: A test designed and validated by a single lab rather than approved as a kit.
+CGP (comprehensive genomic profiling) :: A test checking hundreds of cancer genes at once.
+Companion diagnostic (CDx) :: A test required to decide whether a patient should receive a particular drug.
+MRD (minimal residual disease) :: Testing for tiny traces of cancer remaining after treatment.
+ctDNA (circulating tumor DNA) :: Tumor DNA fragments floating in the blood.
+Liquid biopsy :: Testing a blood sample for tumor DNA instead of tissue.
+Tissue-informed MRD :: An MRD test built around mutations found in the patient's own tumor.
+Depth (e.g., 30X) :: The number of times each DNA position is read.
+Germline :: Inherited DNA present in all of a person's cells.
+Somatic :: DNA mutations acquired by a tumor.
+FFPE :: Formalin-fixed, paraffin-embedded preserved tissue, which fragments DNA.
+Whole genome sequencing (WGS) :: Reading a person's entire DNA.
+Whole exome sequencing (WES) :: Reading only the protein-coding regions of DNA.
+NIPT :: Non-invasive prenatal testing of maternal blood for fetal chromosome conditions.
+Gigabase (Gb) :: One billion DNA letters of sequence output.
+Cost per base :: What it costs to read one unit of DNA.
+Q score (Q30, Q60) :: A measure of base-calling accuracy; Q60 means about one error per million letters.
+Duplex reading :: Reading both strands of a DNA molecule to improve accuracy.
+ppmSeq :: Ultima's library prep method for very high base accuracy.
+Base calling :: Software converting sequencer signals into DNA letters.
+Primary, secondary and tertiary analysis :: Converting signals to letters, aligning and calling variants, and turning results into reports.
+DRAGEN :: Illumina's fast secondary analysis software and hardware.
+FPGA :: A programmable chip used to accelerate DRAGEN.
+Variant calling :: Identifying where a sample's DNA differs from a reference.
+SNP / SNV :: A single-letter DNA variant.
+Structural variant :: A large DNA rearrangement such as an inversion or translocation.
+Fragmentomics :: Analysis of patterns in cell-free DNA fragment sizes and ends.
+Phasing :: Assigning variants to the mother's or father's DNA copy.
+Methylation :: Chemical tags on DNA affecting gene activity.
+Multiomics :: Measuring several biological layers such as DNA, RNA and proteins.
+Proteomics :: Large-scale measurement of proteins.
+Single-cell sequencing :: Measuring gene activity cell by cell.
+Spatial biology :: Measuring gene activity while preserving its location in tissue.
+Imaging-based spatial :: Spatial biology read by microscopy imaging without sequencing.
+Sequencing-based spatial :: Spatial biology using barcoded slides then sequencing.
+Amplicon sequencing :: Targeted sequencing of specific known DNA regions.
+Hybrid capture :: Pulling down whole genes with probes before sequencing.
+Multiplexing :: Pooling many samples on one sequencing run.
+Hemolysis :: Bursting of blood cells that dilutes tumor DNA in a sample.
+RUO (research use only) :: Products not cleared for clinical diagnostics.
+CLIA :: US certification for clinical testing labs.
+Reagent rental :: Placing an instrument free in exchange for committed reagent purchases.
+Installed base :: The number of instruments in use.
+Core facility :: A shared lab selling sequencing services to researchers.
+CRO :: A contract research organization providing outsourced research services.
+Field application scientist (FAS) :: A vendor's technical customer specialist.
+KOL :: Key opinion leader, an influential expert.
+COGS :: Cost of goods sold.
+Capex :: Capital spending on equipment.
+P&L :: Profit-and-loss responsibility.
+Share of wallet :: The portion of a customer's spending captured by one vendor.
+LIMS :: Laboratory software tracking samples and workflows.
+SQL :: Standard language for querying databases.
+LLM :: Large language model AI.
+GWAS :: Genome-wide statistical study linking variants to traits.
+TMB :: Tumor mutational burden, the count of tumor mutations.
+HRD :: Homologous recombination deficiency, a form of tumor genomic instability.
+TGA :: Australia's medical regulator.
+PMDA :: Japan's medical regulator.
+NCCN :: US cancer treatment guideline body.
+TruPath :: Illumina's genome technology needing no library prep, providing long-read-like information.
+StrataMap :: Illumina's sequencing-based spatial product launched June 2026.
+SBX :: Roche's sequencing-by-expansion technology behind AXELIOS.
+next-generation sequencing (NGS) :: Modern high-speed technology that reads millions of DNA or RNA fragments in parallel.
+throughput :: How much DNA a sequencer can read per run or per unit of time.
+reagents :: The chemical kits consumed in each sequencing run or sample preparation.
+consumables :: The reagent kits and flow cells customers must buy for every sequencing run.
+flow cell :: The consumable glass slide or chip on which sequencing reactions take place.
+25B / 10B / 35B flow cell :: Illumina NovaSeq X flow cells named for roughly how many billion reads they yield.
+gigabase :: One billion DNA letters read; a standard measure of sequencing output.
+library preparation :: The lab steps that turn a raw DNA or RNA sample into fragments a sequencer can read.
+short-read sequencing :: Reading DNA in short fragments (a few hundred letters) and stitching them together computationally, as Illumina does.
+long-read sequencing :: Reading long continuous DNA stretches (thousands of letters or more), as PacBio and Oxford Nanopore do.
+mid-read sequencing :: Read lengths between short and long reads, around 1,000 bases, as claimed for Roche AXELIOS.
+sequencing by synthesis (SBS) :: Illumina's chemistry, which reads DNA by building a copy one base at a time.
+sequencing by expansion (SBX) :: Roche's chemistry, which converts DNA into an enlarged copy (an Xpandomer) read through a nanopore.
+Xpandomer :: The expanded synthetic copy of DNA that Roche's SBX chemistry creates for reading.
+nanopore :: A tiny hole through which a DNA strand passes, read via changes in electrical current.
+simplex / duplex :: Roche modes reading one DNA strand (cheaper, less accurate) or both strands (more accurate).
+coverage (e.g. 30X, 60X) :: How many times on average each DNA position is read; higher means more confidence.
+quality score (Q30) :: A standard accuracy measure; Q30 means about one error per 1,000 bases.
+paired reads :: Reading a DNA fragment from both ends, such as the 2x300 format.
+FASTQ :: The standard text file format for raw sequencing reads and their quality scores.
+homopolymer :: A run of the same DNA letter repeated, which is hard for some sequencers to read accurately.
+SNP :: A single-letter difference in DNA between individuals.
+structural variant :: A large rearrangement, deletion or duplication of DNA.
+copy number :: How many copies of a DNA segment a genome contains.
+repeat expansion :: An abnormally lengthened stretch of repeated DNA that can cause disease.
+haplotype / phasing :: Determining which of a person's two gene copies a variant sits on.
+isoform :: One of several versions of RNA that a single gene can produce.
+exome :: The protein-coding portion of the genome, about 1–2% of it.
+whole-genome sequencing (WGS) :: Reading essentially all of a person's DNA.
+de novo assembly :: Building a genome sequence from scratch without a reference.
+reference genome :: A standard genome sequence for a species, used to compare other samples.
+epigenomics / epigenetics :: The study of chemical marks on DNA that change gene activity without altering the sequence.
+methylation :: A common epigenetic chemical tag on DNA.
+five-base genome :: Illumina's term for reading methylation alongside the four DNA letters.
+CUT&RUN / ATAC-seq :: Lab methods that map where proteins bind DNA and which DNA regions are open.
+transcriptomics / RNA-seq :: Measuring gene activity by sequencing RNA.
+single-cell sequencing :: Measuring gene activity cell by cell rather than in a pooled sample.
+spatial transcriptomics :: Mapping gene activity to its physical location in tissue.
+multi-omics :: Combining several types of molecular measurement (DNA, RNA, proteins, epigenome).
+proteomics :: Large-scale measurement of proteins.
+native protein sequencing :: Reading proteins directly rather than through DNA-based proxies.
+microarray :: An older chip-based method that measures only predefined targets.
+aptamer :: A short DNA or RNA molecule that binds a target protein, used in SomaScan.
+SomaScan / SomaLogic :: SomaLogic's aptamer-based blood-protein measurement platform, acquired by Illumina in 2026.
+Olink :: A proteomics company acquired by Thermo Fisher.
+TruPath Genome :: Illumina's native synthetic long-read product that recovers long-range information from short reads on the NovaSeq X.
+Constellation :: An expert's name for Illumina's intermediate long-read technology, apparently the same product line as TruPath.
+DRAGEN :: Illumina's fast genomic data-analysis system.
+Illumina Connected Analytics :: Illumina's cloud data storage and analysis platform.
+PIPseq :: Illumina's single-cell library-preparation technology from the Fluent BioSciences acquisition.
+NovaSeq X / X Plus :: Illumina's flagship high-throughput sequencers.
+NovaSeq 6000 :: Illumina's older high-throughput sequencer, being phased out.
+NextSeq :: Illumina's mid-throughput sequencer.
+MiSeq / MiSeq i100 :: Illumina's small benchtop sequencers; the i100 is the newer model.
+iSeq :: Illumina's lowest-throughput sequencer.
+AXELIOS :: Roche's new SBX-based sequencer, launched commercially in July 2026.
+AVITI24 :: Element Biosciences' benchtop sequencer.
+PacBio Vega :: PacBio's benchtop long-read sequencer.
+PromethION / MinION / Flongle :: Oxford Nanopore's large, portable and small-flow-cell sequencing products.
+Ion Torrent / Genexus :: Thermo Fisher's semiconductor-based sequencing platforms.
+TSO 500 (TruSight Oncology 500) :: Illumina's broad tumor-profiling panel, with an approved IVD version.
+TruSight :: Illumina's family of fixed gene-panel tests.
+comprehensive genomic profiling (CGP) :: A broad panel test that reads many cancer-related genes in a tumor.
+gene panel :: A test that sequences only selected genes.
+liquid biopsy :: Testing cancer DNA circulating in a blood sample.
+cell-free DNA :: DNA fragments circulating freely in the blood.
+MRD (minimal/molecular residual disease) :: Detecting tiny traces of cancer left after treatment.
+Signatera :: Natera's targeted-panel MRD test.
+clonoSEQ :: Adaptive Biotechnologies' Illumina-based MRD test for blood cancers.
+NIPT :: Non-invasive prenatal testing, a maternal blood test for fetal chromosome conditions.
+pharmacogenomics :: How a person's genes affect their response to drugs.
+neoantigen vaccine :: A personalized vaccine built from a patient's tumor-specific mutations.
+immunohistochemistry (IHC) :: A stain-based test that detects proteins in tissue.
+germline :: Inherited DNA present in every cell, as opposed to tumor mutations.
+16S sequencing :: Sequencing a bacterial marker gene to identify microbes in a sample.
+BCR repertoire sequencing :: Sequencing B-cell receptor genes to profile antibody diversity.
+shotgun sequencing :: Sequencing all DNA in a sample at random rather than targeting specific regions.
+genome center / core facility :: A shared lab that runs sequencing for many researchers.
+reference lab :: A large commercial lab (e.g. Labcorp, Quest) that runs tests sent by many providers.
+send-out service :: A test where samples are shipped to the vendor's central lab.
+technology transfer :: A vendor training a local lab to run its test in-house to the same standard.
+reagent rental :: A model where the instrument is cheap or free but the customer commits to buying reagents for years.
+capital expenditure (capex) :: Spending on long-lived equipment such as sequencers.
+lease-to-own :: Financing that lets a lab pay for an instrument over time and then own it.
+burn rate :: The pace at which a company spends cash.
+pull-through :: Recurring consumables revenue generated per installed instrument.
+cannibalization :: When a company's new product takes sales from its own older products.
+batching :: Pooling many samples to fill a large, cheaper-per-read flow cell.
+multiplexing :: Running many samples together in one sequencing run.
+utilization :: The share of a facility's capacity actually in use.
+installed base :: The number of a vendor's instruments in customers' labs.
+batch effect :: A systematic technical difference between data generated on different platforms or runs.
+liquid handler :: An automated pipetting robot.
+Qubit :: An instrument that measures DNA library quantity before sequencing.
+IGV :: A software viewer for inspecting sequencing reads.
+primary / secondary / tertiary analysis :: Raw data processing, variant identification, and clinical interpretation, respectively.
+bioinformatics :: Analyzing biological data with software.
+research use only (RUO) :: Products not cleared for clinical diagnosis.
+in vitro diagnostic (IVD) :: A regulator-cleared test run on samples outside the body.
+laboratory developed test (LDT) :: A test designed and validated within a single clinical lab.
+CLIA / CAP :: US clinical-lab quality certification and accreditation.
+SOP :: Standard operating procedure.
+reimbursement :: Payment by insurers or government for a test.
+NCCN :: US cancer network whose guidelines influence reimbursement.
+NIH / NSF :: US federal research funders.
+R01 / pay line :: The main NIH investigator grant, and the percentile of applications that get funded.
+indirect costs :: Overhead universities charge on research grants.
+no-cost extension :: Permission to keep spending an existing grant past its end date.
+principal investigator (PI) :: The lead researcher who holds a grant.
+NHS National Test Directory :: The NHS list of genomic tests and genes to be covered.
+Unified Genomics Record (UGR) :: NHS system linking genomic data with each patient's treatment and outcomes.
+Our Future Health :: UK government-funded volunteer cohort that companies pay to access.
+NICE :: UK body judging drug cost-effectiveness.
+most favored nation pricing :: US policy tying US drug prices to lower prices abroad.
+biobank :: A large collection of samples and data for population studies.
+CRO :: Contract research organization that runs studies for drug developers.
+channel check :: A structured interview with customers or distributors to gauge demand.
+buy-side :: Investors, such as fund managers, who buy securities.
+AGBT / ASHG / AMP / J.P. Morgan conference :: Major genomics, human genetics, molecular pathology and healthcare investor meetings.

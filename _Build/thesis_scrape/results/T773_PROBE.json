@@ -1,0 +1,13 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened both seed Govly award pages. They are real and public, but each is a single small Iowa State PO with no quantities or unit prices. The first (17 Jun 2026, $8,731 total) lists NVSEQ 6000 S1 v1.5 300cyc, a NovaSeq XP 2-lane kit v1.5 and a MiSeq v3 600cyc kit. The second (PO-1335923, 26 May 2026, $14,374) lists NVSEQ 6000 S2 v1.5 300cyc and two MiSeq kits. Both are lab-level reagent top-ups. One search for 'site:app.govly.com/public/awards' plus NovaSeq X / 25B returned no Govly pages at all, so the search tool does not index Govly and I could not enumerate any more awards. The small sample cannot size the research share of the 6000 tail. The totals are tiny, the mix is S1/S2 6000 kits bought alongside MiSeq kits (some may be old stock), and no matching X-kit POs were found for a count. Nothing here is a clear signal for or against the thesis.",
+  "how_to_mine": "Not worth a deep extraction unless a Govly-capable crawler is available. Pages need a rendered fetch, and the award IDs are hashed, so they cannot be guessed. Enumeration would need Bing or Google queries run at scale (for example 'NVSEQ 6000' app.govly.com, or 'NovaSeq X Series 25B' govly award). Even then, line quantities and prices are absent, so only counts of POs by kit type, buyer and month would be possible. Better substitutes are the govsci.com GSA catalog listing prices and state contract portals that carry quantities.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "https://www.govsci.com/product-detail/Illumina-----Inc/20104706/EA/ (GSA-schedule distributor SKU page for NovaSeq X 25B 300-cycle; check whether a dated price history exists, and compare with 6000 S-series SKUs)"
+  ],
+  "apify_requests": []
+}
+```

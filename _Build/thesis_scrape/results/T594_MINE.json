@@ -1,0 +1,97 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Registered NIPT/cfDNA-prenatal trial starts on ClinicalTrials.gov have trended down since 2021, with no sign of rising research momentum.",
+      "detail": "A broad query (prenatal/pregnancy/fetal AND cell-free DNA/cfDNA/NIPT/NIPS) returned 26 (2021), 23 (2022), 21 (2023), 22 (2024) and 17 (2025) trials by start year. 2025 is down 35% from 2021 (17 vs 26). The 2026 year-to-date figure (to 12 Oct) is 21, against 14 for the same 2025 window, so 2026 is up 50% like-for-like. That makes the trend a decline to 2025 followed by a rebound. Counts are small and noisy, and I did not check the raw JSON because the WebFetch summarizer returned them.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28prenatal%20OR%20pregnancy%20OR%20fetal%29%20AND%20%28%22cell-free%20DNA%22%20OR%20cfDNA%20OR%20NIPT%20OR%20NIPS%29&filter.advanced=AREA[StartDate]RANGE[2021-01-01,2021-12-31]&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No prior item counts NIPT or cfDNA-prenatal trial starts by year. The existing list only has the ctDNA and WGS trial counts."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Industry-led prenatal-cfDNA registrations fell sharply in the broad query, and the narrow NIPT-term query shows only 2 starts in 2025.",
+      "detail": "The industry-sponsored count in the broad query was 17 for 2021–23 (about 5.7 a year) and 8 for 2024 through 12 Oct 2026 (about 2.9 a year over 2.8 years). That is roughly half the rate. The narrow query (NIPT / non-invasive prenatal / noninvasive prenatal / cell-free DNA prenatal) returned 10, 4, 7, 9, 2 for 2021–2025 and 8 for 2026 YTD (2 for the same 2025 window). Both queries are noisy because many matches are non-NIPT cfDNA or pregnancy trials, so this is a weak maturation signal.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28prenatal%20OR%20pregnancy%20OR%20fetal%29%20AND%20%28%22cell-free%20DNA%22%20OR%20cfDNA%20OR%20NIPT%20OR%20NIPS%29&filter.advanced=AREA[StartDate]RANGE[2024-01-01,2026-10-12]%20AND%20AREA[LeadSponsorClass]INDUSTRY&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new sponsor-class split of NIPT research activity. Nothing in the known list measures NIPT trial pipeline."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Interventional prenatal-cfDNA trials are being registered at a lower rate in 2024–26 than in 2021–23.",
+      "detail": "The broad query gives 32 interventional trials for 2021–23, or about 10.7 a year. For 2024 to 12 Oct 2026 it gives 20, or about 7.1 a year over 2.8 years. That is a 34% lower annual rate. Most 2024–26 'interventional' hits are not NIPT at all, such as neonatal physiotherapy, hydrogen inhalation and an LCH drug trial. The true NIPT interventional pipeline is therefore smaller still. Where the hits are real NIPT, they are decision-aid and consent studies (Cleveland Clinic NCT06382636, Case Western INFORM NCT07557303, Rhode Island prenatal chatbot NCT07077707), not new test-volume drivers.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28prenatal%20OR%20pregnancy%20OR%20fetal%29%20AND%20%28%22cell-free%20DNA%22%20OR%20cfDNA%20OR%20NIPT%20OR%20NIPS%29&filter.advanced=AREA[StartDate]RANGE[2024-01-01,2026-10-12]%20AND%20AREA[StudyType]INTERVENTIONAL&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This shows the shift of NIPT research toward counseling and consent, which fits a mature market. None of it is in the known list."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Industry NIPT players are registering expanded-scope prenatal studies. Monogenic and fetal-cell tests raise sequencing depth per sample, so they could lift Gb per test.",
+      "detail": "Natera's EXPAND (NCT06808880, start 2024-01-25, n=4,000) covers prenatal cfDNA screening across monogenic disorders. BillionToOne's ADVANCE (NCT07643896, start 2026-01-10, n=1,000) uses circulating fetal cells for non-invasive fetal risk assessment. Zhejiang Women's Hospital is running prenatal cfDNA with targeted and whole-exome sequencing (NCT07106853, start 2025-09-16, n=1,600). Gene Solutions has a preeclampsia and obstetric-disease prediction study using NIPT data (NCT06385366). The known list puts NIPT at about 1–2 Gb and deeper for microdeletions. If expanded panels become standard, Gb per NIPT could rise even as test growth saturates. The enrollments are small.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=NIPT&filter.advanced=AREA[StartDate]RANGE[2024-01-01,2026-10-12]&fields=NCTId,BriefTitle,LeadSponsorName,StartDate,EnrollmentCount,StudyType&pageSize=60",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "These are named industry studies of expanded-scope NIPT. The known list only has NIPT as mature, with a plateau in BillionToOne costs."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "A very large registered newborn whole-genome study has appeared in China, which is a potential future WGS volume source.",
+      "detail": "Zhejiang Women's Hospital registered 'Newborn Whole Genome Sequencing and Genetic Disease Risk' (NCT07365254, start 2025-02-14) with a planned enrollment of 1,000,000, observational. At roughly 100 Gb per 30x genome that would be about 100 Pb, but it is a planned enrollment over an undefined period. The sequencer platform is not stated, and a Chinese sponsor may well use MGI. It is an upside watch-out for the WGS lever, but unfunded and unverified.",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07365254",
+      "date": "2025-02-14",
+      "source_name": "ClinicalTrials.gov",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known newborn programs are GUARDIAN, BRIDGES-NBS and the Generation Study. This million-enrollment Chinese registry entry is not among them."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Counts came via the WebFetch summarizer and were not checked against raw JSON. The queries are noisy: the broad one matches non-NIPT 'pregnancy' trials, and the narrow one returns single digits. The sponsor and interventional splits are only available on the broad query. Not done: raw JSON via a script, enrollment-weighted counts, phase splits, a count restricted to NIPT-titled studies, and observational-only splits. A clean NIPT-only series would need title and condition filtering (query.cond=aneuploidy or Down syndrome with a cfDNA intervention). The overall signal is weak and mixed (decline to 2025, 2026 rebound), so it should not be used as stand-alone evidence.",
+  "leads": [
+    {
+      "name": "ClinicalTrials.gov query.cond=Down Syndrome / Aneuploidy with cfDNA intervention",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=aneuploidy&query.intr=cell-free%20DNA&countTotal=true",
+      "access": "free API",
+      "labels": ["1C"],
+      "rationale": "Gives a cleaner NIPT-only time series than keyword matching on 'pregnancy'."
+    },
+    {
+      "name": "Natera EXPAND (NCT06808880) record and results",
+      "url": "https://clinicaltrials.gov/study/NCT06808880",
+      "access": "free",
+      "labels": ["1C"],
+      "rationale": "Shows the scope of Natera's expanded monogenic prenatal screening and whether it adds sequencing depth."
+    },
+    {
+      "name": "EU CTIS / WHO ICTRP registries for NIPT and cfDNA prenatal",
+      "url": "https://trialsearch.who.int/",
+      "access": "free",
+      "labels": ["1C"],
+      "rationale": "Chinese and European registries would broaden the NIPT research-momentum count beyond US-registered trials."
+    }
+  ],
+  "apify_requests": []
+}
+```

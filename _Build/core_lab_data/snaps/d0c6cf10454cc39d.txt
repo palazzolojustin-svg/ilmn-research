@@ -1,0 +1,116 @@
+DNA Services Pricing - Carver Biotech
+Skip to content
+UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN
+Apply
+Visit
+Give
+List Item
+DNA Services
+Home
+About Us
+Instruments
+Applications
+Submissions
+NGS Sample Submission
+Single Cell Sample Submission
+Sanger Sample Submission
+Pricing
+Sanger Facility
+Team
+News
+Contact
+DNA Services
+Home
+About Us
+Instruments
+we cannot guarantee success. In all cases, the user will be billed for cost and labor for CBC
+effort per our fee structure. After acceptance of the quote, the user will fill out and return
+the sample submission form provided with the quote. All samples are assumed to be safe and no
+greater than BSL1, unless otherwise agreed upon in advance. The user must diligently and
+transparently follow all University of Illinois sample acquisition, movement, and safety protocols.
+All pricing is updated, effective Aug. 1, 2026. Listed rates do not include the off-campus
+overhead; see the bottom of the page for overhead details.
+Looking for the best value?
+Since pricing varies by genome size and required depth, a custom quote is often lower than
+the list price. Please contact us to get an accurate quote for your specific project.
+Illumina NovaSeq X Plus:
+Ultra high-throughput sequencing of mRNA, genomic DNA, ChIP-DNA, small RNAs,
+bisulfite-treated DNA, single-cell transcriptomics, etc. For descriptions of library
+construction requirements and sequencing platform metrics, please visit our
+Sample Submission Page
+.
+PacBio REVIO:
+Accurate long reads for de novo genome assembly and sequencing of long amplicons or cDNA.
+EXTRACTION & QC
+Service | Price |
+Quality Check (QC) - one library (Qubit, Fragment Analyzer & qPCR) | $118.00 |
+scRNA FLEX V2, multiplexed, up to 4 samples | $4,530.00 |
+scRNA FLEX V2, multiplexed, up to 16 samples | $8,830.00 |
+scRNA FLEX V2, multiplexed, up to 96 samples | $47,620.00 |
+10X Single Nuclei ATAC Library, each | $2,680.00 |
+10X Single Nuclei ATAC Library (2-7 samples, each) | $2,280.00 |
+10X Single Nuclei ATAC Library (8 samples submitted at once, each) | $2,220.00 |
+10X Single Nuclei ATAC+RNA Combined Library, each | $4,490.00 |
+10X Single Nuclei ATAC+RNA Combined Library (2-7 samples, each) | $4,030.00 |
+10X Single Nuclei ATAC+RNA Combined Library (8 samples at once, each) | $3,750.00 |
+10X Visium Spatial library (kit provided) | $201.00 |
+ILLUMINA NOVASEQ X PLUS
+Service | Price |
+On-Board DRAGEN processing (per flowcell) | $939.00 |
+On-Board DRAGEN processing (per lane) | $188.00 |
+Nova X 1.5B paired-reads 2x300-cycle, per lane | $3,100.00 |
+Nova X 1.5B paired-reads 2x150-cycle, per lane | $1,580.00 |
+Nova X 1.5B single-reads 100-cycle, per lane | $1,360.00 |
+Nova X 10B paired-reads 2x150-cycle, per lane | $2,000.00 |
+Nova X 10B paired-reads 2x150-cycle, per lane (8 or more lanes) | $1,710.00 |
+Nova X 10B paired-reads 2x150-cycle, SPLIT LANE | $1,160.00 |
+Nova X 10B single-reads 100-cycle, per lane | $1,520.00 |
+Nova X 10B single-reads 100-cycle, per lane (8 or more lanes) | $1,270.00 |
+Nova X 10B single-reads 100-cycle, SPLIT LANE | $904.00 |
+Nova X 25B paired-reads 2x150-cycle, per lane | $3,380.00 |
+Nova X 25B paired-reads 2x150-cycle, 8+ lanes | $3,180.00 |
+Nova X 25B single-reads 100-cycle, per lane | $2,190.00 |
+Nova X 25B single-reads 100-cycle, 8+ lanes | $1,930.00 |
+Nova X, 2 lanes, kit provided | $1,420.00 |
+Nova X, 8 lanes, kit provided | $4,860.00 |
+Full Wafer Pricing | $3,310.00 |
+Split High Wafer Pricing | $2,730.00 |
+Split Low Wafer Pricing | $1,990.00 |
+ILLUMINA MISEQ & MISEQ i100
+Service | Price |
+i100 titration run (26nt + indexes only) | $398.00 |
+i100 5M 2x150nt (or SR300) | $661.00 |
+i100 5M 2x300nt | $764.00 |
+i100 25M SR 100nt | $986.00 |
+i100 25M 2x150nt | $1,450.00 |
+i100 25M 2x300nt | $1,650.00 |
+i100 25M 2x500nt | $2,360.00 |
+i100 50M 2x300nt | $2,050.00 |
+MiSeq - 2x250nt PE NANO v2 | $798.00 |
+MiSeq - 2x300nt PE v3 | $2,740.00 |
+MiSeq 2x300 V3 | $2,580.00 |
+PACBIO LIBRARIES AND REVIO SEQUENCING
+Service | Price |
+Amplicon < 12 | $92.00 |
+Amplicon > 12 | $22.00 |
+PACBio 8M CCS demultiplexing fee | $227.00 |
+PACBIO DISCOUNTED SEQUENCING
+Service | Price |
+Sequencing on Revio SMRTcell, 4+ | $2,120.00 |
+OXFORD NANOPORE GRIDION
+Service | Price |
+Construction of Oxford-Nanopore 1D libraries, standard | $524.00 |
+Construction of Oxford-Nanopore 1D libraries, barcoded (2+) | $418.00 |
+Construction of Oxford-Nanopore Direct RNA libraries | $429.00 |
+Construction of Oxford-Nanopore Direct RNA libraries (2-6) | $346.00 |
+Oxford-Nanopore GridION flowcell, each | $1,470.00 |
+SANGER CORE SEQUENCING
+Service | Price |
+Sanger – High-Throughput Ready to Load (96-well Plate) – no clean up | $118.00 |
+Sanger – High-Throughput Ready to Load (96-well Plate) – with clean up | $263.00 |
+Sanger – High-Throughput Sequencing (96-well plate) | $507.00 |
+Sanger – Low-Throughput Sequencing (One Sample) | $6.70 |
+Sanger – Low-Throughput Ready to Load (One Sample, includes clean-up) | $3.70 |
+Fragment Analysis – High-Throughput (96-well Plate) | $141.00 |
+Fragment Analysis – Low-Throughput (One Sample) | $4.80 |
+FUNCTIONAL GENOMICS SERVICES (qPCR, Access Array, Microarray/EPIC Methylation)

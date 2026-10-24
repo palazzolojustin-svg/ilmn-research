@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "PAR-23-184 (CIDR X01) is marked EXPIRED, with an expiration date of 9 Jul 2026. The last notice was 31 Mar 2025 (\"align with agency priorities\"). It is a reissue of PAR-20-230. The X01 is a no-cost resource-access mechanism: the budget is N/A and applicants request $0. The guide text has no per-sample WGS/WES cost, no sample cap and no named sequencing platform; it only points readers to cidr.jhmi.edu. A search found no confirmed NIH successor. One aggregator lists a forecasted PAR-27-119 with an open date of 6/9/2026, which I could not verify on NIH or Grants.gov. I did not open the NHGRI notices page, the CIDR site or the 2022 concept document, and I found no CIDR price schedule. A CIDR ASHG 2018 exome-capture cost poster exists (snippet only, no dollar figures). The only $/lane data surfaced were TGen's, and it is already known. The funding-volume signal for 2B is unproven: expiry without a confirmed successor could mean a lapse, but it could equally mean the next reissue has not been posted yet.",
+  "how_to_mine": "Only worth a short follow-up. (1) Open https://www.genome.gov/sites/default/files/media/files/2022-09/CIDR_Concept_doc_Sept_2022.pdf for the budget, number of projects per year and platform plans. (2) Search the NIH Guide for a CIDR successor, or for NOT-HG-26 notices, by title (\"Center for Inherited Disease Research\"). (3) Check https://simpler.grants.gov/opportunity/362723 for PAR-27-119 status. (4) Check whether cidr.jhmi.edu publishes any service-rate or platform page.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "CIDR Concept doc Sept 2022 (genome.gov PDF): X01 budget, project volumes and platform plans",
+    "simpler.grants.gov/opportunity/362723: forecasted PAR-27-119 as the CIDR X01 successor, status and dates",
+    "CIDR ASHG 2018 poster on NovaSeq exome capture cost: older $/exome baseline"
+  ],
+  "apify_requests": []
+}
+```

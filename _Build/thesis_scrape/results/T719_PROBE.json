@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "Two standard searches, search snippets only; I opened no pages. No independent third-party service vendor (ISO) for the NovaSeq 6000 turned up. Government buyers keep justifying Illumina-only service in sole-source notices. The used market exists but is thin and cheap: a $60K as-is US surplus unit and about £8K UK spares/repair units. Snippets show no listing dates and no Illumina end-of-service date for the 6000. On this evidence the aftermarket is not active, so the tail is not being propped up by third parties. That slightly favours 1A, but it is weak. Only a dated listing history would show whether the used market is growing.",
+  "how_to_mine": "1) Open the govsignals, govcontractfinder and sweetspotgov notices for NovaSeq 6000 Bronze/Silver/full-service plans. Record the award dates, dollar values and plan tiers, and compare the 2025-26 renewals with earlier years. Also check whether the 6000 is being sole-sourced to Illumina or moved to the X. 2) Open the ssllc.com, exapro.com, msusurplusstore.com and unigreenscheme listings. Capture the year of manufacture, posting date, price and condition. Check the Wayback Machine for listing counts and prices over time. 3) Search eBay sold listings and labx/biosurplus for 6000 sold prices. 4) Search for ISO names such as Excedr, Cytiva/Biocompare used-equipment vendors and BioSurplus.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Used NovaSeq 6000s trade at a small fraction of the original price, and no ISO market was visible.",
+      "detail": "A US university surplus store lists a used NovaSeq 6000 at $60,000 as-is, pickup only, no warranty, against roughly $985K-$1M at launch. UK spares/repair units are listed at about £7,950-£8,000 ex VAT with control or motion faults. Several resellers (SSLLC, Exapro) list 2017-2022 units with no public price. This points to depreciating, hard-to-value assets with no visible warranty-backed refurbished channel. It is a snippet-level read and the listing dates are unknown.",
+      "url": "https://msusurplusstore.com/products/illumina-novaseq-sequencing-system",
+      "date": "2026 (listing date unverified)",
+      "source_name": "MSU Surplus Store / unigreenscheme.co.uk / ssllc.com (search snippets)",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First look at the resale market for 6000s; no used-unit pricing is in the known set."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Government labs are still buying Illumina service contracts for NovaSeq 6000s in 2025-26.",
+      "detail": "Search results show NIH sole-source notices for a NovaSeq 6000 Bronze service agreement and a maintenance agreement (solicitation numbers 75N96025Q00037 and 75N98026Q01014). They also show a Navy Silver Support Plan for the 6000, a CDC justification and a Czech hospital tender awarded in Nov 2024 (CZK 13M for NovaSeq 6000D service). Agencies say only Illumina can service these systems and that third parties are insufficient. That means Illumina still sells 6000 service in FY25-26, so some of the installed base is not being retired. The snippets give no contract values or tier prices.",
+      "url": "https://oversight.govsignals.ai/opportunity/intent-to-sole-source-for-nova-6000-bronze-service-agreement-75n96025q00037",
+      "date": "2025-2026",
+      "source_name": "govsignals / govcontractfinder / sweetspotgov federal procurement notices",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Service-contract procurement for the 6000 is not in the known set; it shows institutional 6000s still under Illumina service in 2025-26."
+    }
+  ],
+  "new_candidates": [
+    "Federal service contract renewals (govcontractfinder/sweetspotgov) for NovaSeq 6000 versus NovaSeq X: counts and values by year",
+    "Wayback Machine snapshots of ssllc.com and exapro NovaSeq 6000 listings for price and volume trends",
+    "eBay sold listings and BioSurplus/LabX for 6000 resale prices"
+  ],
+  "apify_requests": []
+}
+```

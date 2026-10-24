@@ -1,0 +1,50 @@
+Rates - Boise State Sequencing Core
+Skip to main content
+Boise State Sequencing Core Home
+Search
+Menu
+Boise Global Navigation
+Apply
+Visit
+Give
+Menu
+Ready to take the next step? Plan your virtual visit.
+Search
+Search
+All Boise State
+Boise State Sequencing Core Only
+Boise State Sequencing Core
+Services
+Rates
+FAQs
+Staff
+Contact Us
+More
+section menu items
+Boise State Sequencing Core
+Home
+❮
+Service | Basis | Rate A – Internal
+(Boise State Funding) | Rate B – External
+(Non-Profit Funding) | Rate C – External
+(Corporate Funding) |
+Amplicon sequencing (100 sample minimum) | 1 sample | $12.00 | $16.98 | $18.68 |
+Sequencing Library Quality Control | 1 sample | $5.00 | $7.08 | $7.73 |
+Viral RNA Extraction 1 to 32 samples | 1 sample | $5.85 | $8.28 | $9.04 |
+Viral RNA Extraction 33 to 64 samples | 1 sample | $4.55 | $6.44 | $7.03 |
+Viral RNA Extraction 65 to 96 samples | 1 sample | $2.70 | $3.82 | $4.17 |
+NextSeq Flow Cell Illumina Seq P1 300 | 1 run | $2,375.00 | $3,360.63 | $3,670.57 |
+NextSeq Flow Cell Illumina Seq P2 100 | 1 run | $3,471.00 | $4,911.47 | $5,364.44 |
+NextSeq Flow Cell Illumina Seq P2 300 | 1 run | $5,173.00 | $7,319.80 | $7,994.88 |
+NextSeq Flow Cell Illumina Seq P1 50 | 1 run | $1,525.00 | $2,157.88 | $2,356.89 |
+NextSeq Flow Cell Illumina Seq P1 100 | 1 run | $1,717.00 | $2,429.56 | $2,653.63 |
+DNA Extraction 1 to 32 samples | 1 sample | $9.10 | $12.88 | $14.07 |
+DNA Extraction 33 to 64 samples | 1 sample | $5.60 | $7.92 | $8.66 |
+DNA Extraction 65 to 96 samples | 1 sample | $4.00 | $5.66 | $6.18 |
+DNA/RNA Quality Control | 1 sample | $5.00 | $7.08 | $7.73 |
+Plant DNA/RNA Extraction 1 to 32 samples | 1 sample | $9.10 | $12.88 | $14.07 |
+Plant DNA/RNA Extraction 33 to 64 samples | 1 sample | $5.40 | $7.64 | $8.35 |
+Plant DNA/RNA Extraction 65 to 96 samples | 1 sample | $3.70 | $5.24 | $5.72 |
+RNA Extraction 1 to 32 samples | 1 sample | $6.35 | $8.99 | $9.81 |
+RNA Extraction 33 to 64 samples | 1 sample | $5.76 | $8.15 | $8.90 |
+RNA Extraction 65 to 96 samples | 1 sample | $5.00 | $7.08 | $7.73 |

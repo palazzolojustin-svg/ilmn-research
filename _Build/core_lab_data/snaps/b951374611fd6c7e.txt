@@ -1,0 +1,84 @@
+NGI Sweden » NovaSeq X Plus
+Home
+Services
+Applications
+De novo sequencing
+DNA extractions
+DNA resequencing
+Environmental sequencing
+Epigenetics
+Genotyping
+NGI OpenLab
+Proteomics with NGS readout
+Single-cell sequencing
+Spatial
+Transcriptomics
+User-prepared libraries
+Technologies
+Element Biosciences
+Genotyping
+Illumina
+Oxford Nanopore Technologies
+Pacific Biosciences
+Olink Proteomics
+Bioinformatics
+Resources
+Index guidelines for Illumina sequencing
+Getting started at NGI
+Sample submission
+Generic selectors
+Exact matches only
+Search in title
+Search in content
+Post Type Selectors
+Search in posts
+Search in pages
+Home
+Technologies
+Illumina
+NovaSeq X Plus
+NovaSeq X Plus
+The largest of the Illumina sequencing instruments - enabling the generation of massive sequencing data amounts at competitive prices.
+NGI offers sequencing using Illumina’s NovaSeq X Plus system for dual flow cell sequencing, enabling refinement and scaling-up of short-read sequencing technology.
+The NovaSeq X system uses 2-channel XLEAP-SBS chemistry with blue-green optics to encode data for the four base calls. A green signal represents “T”, a blue signal represents “A”, green/blue signifies “C”, and black represents “G”.
+Available flowcells for NovaSeq X
+Flow cell | Lanes | Average yield (clusters/flowcell) | Read length |
+1.5B | 2 | 1.6 billion | 100 cycles (e.g. 2x50bp)
+200 cycles (e.g. 2x100bp)
+300 cycles (e.g. 2x150bp)
+600 cycles (e.g. 2x300bp) |
+5B | 2 | 5 billion* | 100 cycles (e.g. 2x50bp)
+200 cycles (e.g. 2x100bp)
+300 cycles (e.g. 2x150bp) |
+10B | 8 | 8 billion – 10 billion* | 100 cycles (e.g. 2x50bp)
+200 cycles (e.g. 2x100bp)
+300 cycles (e.g. 2x150bp) |
+25B | 8 | 26 billion | 100 cycles (e.g. 2x50bp)
+200 cycles (e.g. 2x100bp)
+300 cycles (e.g. 2x150bp) |
+* These numbers represent an average yield based on our observations across projects. The yield for different libraries can vary depending on library type, concentration, fragment distribution, colour balance of indices, % PhiX spike-in, etc. Please consult with a Project coordinator for guidance.
+Index pooling recommendations
+Due to the new and updated chemistry on the NovaSeq X system, it is critical that the index combination is well-balanced so that the sequencing intensity signal is present in at least the green channel (preferably both color channels) for every cycle:
+Blue channel: A or C
+Green channel: C or T
+If preparing your own sequencing libraries, always check the index pooling recommendations from the company providing the library preparation kit, and Illumina’s current version of the Index Adapters Pooling Guide for NovaSeq X. Indexing combinations may need to be revised prior to sequencing.
+Last Updated: 9th June 2026
+Please read our sample submission instructions before sending samples:
+Sample Submission Guidelines
+Method Status
+Service
+We are routinely running this method. Please visit the Order Portal to place an order.
+NGI
+This protocol is available at both NGI nodes.
+Keywords
+illumina sequencing short-reads high throughput 10B 25B 1.5B
+Contact information
+E-mail: support@ngisweden.se
+For further contact information, visit Contact page.
+Website login
+Follow us
+Sign up to our newsletter
+Subscribe to our newsletter
+×
+Your email address:
+Sign up to our newsletter to get updates about the platform delivered directly to your inbox.

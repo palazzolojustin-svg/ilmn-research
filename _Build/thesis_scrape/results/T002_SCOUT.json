@@ -1,0 +1,89 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Freenome–Illumina Supply Agreement (Perceptive Capital/Freenome S-4 Exhibit 10.24, Jan 2024) and Freenome 2026 S-1/424B3",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002017526/000114036126017428/ny20061080x8_ex10-24.htm",
+      "access": "Opened directly on EDGAR with no login. The text runs past 100K characters, so re-fetch with offset 100000 to read the end of Appendix A and Appendix 1. Then open the Freenome S-1 (https://www.sec.gov/Archives/edgar/data/0002017526/000114036126033585/ny20080283x1_s1.htm) and search for 'Illumina', 'SBX', 'Roche', 'sole supplier', 'most favored' and 'tiered discount'. Also run EDGAR full-text search for 'Equivalent Customer' AND 'Illumina' from 2025 to 2026 to find other customers' agreements in the same Open Offer format.",
+      "labels": ["1B"],
+      "rationale": "Freenome is a new counterparty and is not on the exclusion list. Its agreement fills a gap the corpus marks as 'baseline unverified'. It states the S4-300 highest-volume-tier baseline as $4 per Gb and Illumina's commitment to be 'at least 43% lower' by 2025, which is no more than $2.26 per Gb after PPI adjustment. The exhibit also shows how the most-favored-customer clause works. §4(d) covers 'Equivalent customer' and §4(e) covers GRAIL. §4(f) requires Illumina to tell the customer within 45 days of each quarter-end and refund the difference on affected units. So any deeper discount Illumina gives one large oncology account flows to every Open Offer signatory. That is the transmission mechanism for 1B. Illumina 'cannot terminate… for convenience', and the term runs to 18 Aug 2033. Freenome paid Illumina only about $7.8M in 2025 and is evaluating Roche SBX. The S-1 may say whether it plans to dual-source.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Illumina Open Offer 'Appendix 1: Universal Consumables Discount Schedule' and the 'Section 4(g)' disclosures, all revisions, via the Wayback Machine",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+      "access": "Search results list these files: 01_6_2022revision-Appendix1_.pdf, 09-29-2022_Addendum.pdf (emea.illumina.com), 2023_05_23-Open_Offer_Addendum_Section_4(g)_disclosure.pdf, 2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf, 1-25-2024_appendix-1.pdf and 3-18-2024_appendix-1.pdf (tst-web.illumina.com). All of the 2023–24 files returned HTTP 404 to WebFetch, and the test-terms page now redirects to generic T&Cs. Retrieve them with web.archive.org/web/2024*/illumina.com/content/dam/illumina-marketing/documents/applications/cancer/* in a browser or Apify, or with the CDX API (url=illumina.com/content/dam/illumina-marketing/documents/applications/cancer/&matchType=prefix). Look especially for any 2025 or 2026 revision filenames. Tabulate the discount tiers by spend band ($0–500K up to $100M+) and by platform column (NovaSeq v1.5, NovaSeq X, NextSeq), plus the list prices.",
+      "labels": ["1B"],
+      "rationale": "Search snippets show that the Jan 2022 schedule capped NovaSeq v1.5 discounts at 22% for annual spend of $100M or more, against 30–40% on the NextSeq columns. The 2024 Section 4(g) disclosure lists the 25B-300 at $16,000 list and a 'Universal Consumables Discount Schedule' starting at 0%. Section 4(g) seems to require Illumina to disclose short-term or special pricing. A time series of these disclosures would show directly whether top-tier discounts for large oncology accounts deepened from 2022 to 2024 and after, and whether a NovaSeq X column was added with steeper tiers. Illumina pulling the documents from its site after 2024 is itself worth noting. The corpus has the Open Offer terms but none of the tier percentages.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Japanese national-university WTO tenders and award results for NovaSeq X reagent kits (Osaka University; JETRO government-procurement portal)",
+      "url": "https://www.jetro.go.jp/gov_procurement/national/articles/403152/2026092400370001.html",
+      "access": "The JETRO notice dated 24 Sep 2026 is a national-university tender for 'NovaSeq X Series 1.5B Reagent Kit (100 cycles) or equivalent, 100 sets, plus 77 other items'. The search snippet shows 25B 100/200/300-cycle kits at 20, 10 and 10 sets. Earlier Osaka tender PDFs: https://www.osaka-u.ac.jp/ja/guide/publications/cyoutatu/files/R5-12-26-R5-12-13-_ippan.pdf/@@download/file, .../R6-2-6-R6-1-26-_-3-_ippan.pdf/@@download/file (25B-300 ×6) and .../R7-11-27-R7-11-14-_ippan.pdf/@@download/file. Find the matching award notices, which list winner, price and date: on osaka-u.ac.jp search 落札者等の公示 and 契約に係る情報の公表, then run JETRO and 官報 searches for 'NovaSeq X' with 落札. Repeat for other universities (Tokyo, Kyoto, Tohoku, RIKEN, NIG) with the query 'NovaSeq X' 契約金額 site:ac.jp.",
+      "labels": ["1B", "2A"],
+      "rationale": "WTO-scale Japanese public tenders must publish award prices. Comparing the same kit SKUs across 2023 (R5), 2024 (R6), 2025 (R7) and 2026 gives a realized per-kit price series for research buyers outside the US. It also shows whether 'or equivalent' bids from Element or MGI pressure prices, and how the purchase mix shifts from 25B toward 1.5B or 10B. No Asian procurement data is in the corpus.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Element Biosciences v. Illumina (N.D. Cal. 5:25-cv-08026): first amended complaint and Illumina's July 2026 renewed motion to dismiss",
+      "url": "https://www.courtlistener.com/?q=%22Element+Biosciences%22+Illumina",
+      "access": "CourtListener RECAP has free PDFs of any docket entries that were purchased. Search the docket for 5:25-cv-08026, open the first amended complaint (around Jun 2026) and Illumina's motion and reply (Jul 2026), and search them for 'bundled', 'discount', 'loyalty', 'flow cell', 'NovaSeq X', 'conditioned' and customer names. Background: A&O Shearman summary https://www.lit-antitrust.aoshearman.com/northern-district-of-california-dismisses-dna-sequencing-antitrust-claims-against-illumina-with-leave-to-amend",
+      "labels": ["1B", "2A"],
+      "rationale": "The court dismissed the first complaint for lack of specifics, so the amended complaint should name specific discount conditions, customers and price levels, for example discounts tied to exclusivity or below-cost bundles at threatened sites. Reporting says Illumina's reply defends 'legitimate discounts', which could confirm the practice. The corpus records only that the complaint was filed and replied to, not what it says.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Element AVITI euro list price list (2025) hosted by Tampere University, plus Finnish (Hilma) and Nordic tenders comparing Illumina, Element and MGI",
+      "url": "https://content-webapi.tuni.fi/proxy/public/2026-05/element-biosciences-aviti-euro-2025-price-list.pdf",
+      "access": "Fetch the PDF; a search snippet shows the AVITI 2x75 Cloudbreak FS High Output kit at €1,077.75. Check whether the same proxy path (content-webapi.tuni.fi/proxy/public/2026-*) also hosts Illumina or MGI price lists, by searching site:tuni.fi 'price list' sequencing. Then search hankintailmoitukset.fi (Hilma) for 'sekvensointi' and 'NovaSeq' award notices from 2025 to 2026.",
+      "labels": ["1B", "2B"],
+      "rationale": "This is an official European list price for Element, published by a university in May 2026. Together with any Illumina euro list or Nordic award notice, it gives a like-for-like €/Gb comparison at the academic research tier that the corpus lacks; the corpus has US core rates only. The university posting a rival's price list publicly suggests it is benchmarking competing sequencers.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "TGen Collaborative Sequencing Center academic price lists, Sep 2024 vs Aug 2026 (watch-out)",
+      "url": "https://www.tgen.org/media/x2dmuqf1/tgen_csc_academic_price_list_08-2026.pdf",
+      "access": "Fetch both PDFs: the Aug 2026 list above and https://tgen.org/media/494312/tgen_csc_academic_price_list_09_13_24.pdf. Compare the 25B-300 lane and flow-cell prices and the 10B-300 lane prices, and note any 5B or 1.5B rows and any 'on request' tiers.",
+      "labels": ["1B", "2A"],
+      "rationale": "The snippets show the 25B-300 lane at $2,883.16 (Sep 2024) and $3,136.63 (Jul 2026–Mar 2027), about +8.8%, and a full 25B-300 flow cell at $25,093.04. The corpus already uses TGen at about $3.14/Gb, but not the two-year direction. Rising academic resale prices cut against 1B. They may instead reflect Illumina list-price increases, which the corpus notes as 'kit prices go up exclusively'. Worth logging as direction 'against' or mixed, with the 10B row checked.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "NIH sole-source buy of NovaSeq X 25B reagent kits (solicitation 75N98026Q00260, Apr 2026): award price",
+      "url": "https://app.g2xchange.com/opportunities/sam/8d4a70f0-e7ff-424b-8aae-ec60c93645cd",
+      "access": "Public G2X mirror of the SAM.gov notice (response due 7 May 2026). Look for the award notice under the same solicitation number on G2X, govtribe or samdaily, and on USAspending (keyword '75N98026'), for the unit price per 25B kit, the quantity and whether anyone protested or bid an alternative.",
+      "labels": ["1B", "2A"],
+      "rationale": "This would give a realized 2026 US-government price for 25B kits that can be compared with the GSA catalog price ($24,155 for 25B-300) to measure the extra discount. It is close to the existing S064/S065 entries but is a distinct, specific 2026 solicitation.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "\"NovaSeq X\" 落札 site:ac.jp\n\"NovaSeq X\" 契約金額 site:ac.jp\n\"NovaSeq X Series 25B\" 落札者等の公示\n\"NovaSeq 6000\" 落札 契約金額 site:ac.jp\n\"25B Reagent Kit\" 決標 site:gov.tw\nweb.archive.org illumina.com applications/cancer appendix-1.pdf\n\"Open Offer Addendum\" Illumina \"4(g)\" 2025\n\"Universal Consumables Discount Schedule\" 2025 OR 2026",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "languageCode": "",
+        "countryCode": "jp"
+      },
+      "why": "To find Japanese and Taiwanese public award notices with realized NovaSeq X and 6000 kit prices across 2023–2026, and any later Open Offer discount-schedule revisions or archived copies. These are hard to reach with single searches.",
+      "max_items": 200
+    }
+  ]
+}
+```
+
+Sources:
+- [Freenome S-4 Ex. 10.24 (Illumina supply agreement)](https://www.sec.gov/Archives/edgar/data/0002017526/000114036126017428/ny20061080x8_ex10-24.htm)
+- [Freenome S-1 (2026)](https://www.sec.gov/Archives/edgar/data/0002017526/000114036126033585/ny20080283x1_s1.htm)
+- [Illumina Jan 2022 Appendix 1 (search result)](https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf)
+- [Illumina 2024 Section 4(g) disclosure (search snippet; now 404)](https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf)
+- [JETRO Japanese tender, 24 Sep 2026](https://www.jetro.go.jp/gov_procurement/national/articles/403152/2026092400370001.html)
+- [Osaka University R6 tender PDF](https://www.osaka-u.ac.jp/ja/guide/publications/cyoutatu/files/R6-2-6-R6-1-26-_-3-_ippan.pdf/@@download/file)
+- [A&O Shearman: Element v. Illumina dismissal](https://www.lit-antitrust.aoshearman.com/northern-district-of-california-dismisses-dna-sequencing-antitrust-claims-against-illumina-with-leave-to-amend)
+- [Tampere-hosted Element AVITI euro 2025 price list](https://content-webapi.tuni.fi/proxy/public/2026-05/element-biosciences-aviti-euro-2025-price-list.pdf)
+- [TGen CSC academic price list, Aug 2026](https://www.tgen.org/media/x2dmuqf1/tgen_csc_academic_price_list_08-2026.pdf)
+- [TGen CSC academic price list, Sep 2024](https://tgen.org/media/494312/tgen_csc_academic_price_list_09_13_24.pdf)
+- [G2X mirror of NIH 25B solicitation](https://app.g2xchange.com/opportunities/sam/8d4a70f0-e7ff-424b-8aae-ec60c93645cd)

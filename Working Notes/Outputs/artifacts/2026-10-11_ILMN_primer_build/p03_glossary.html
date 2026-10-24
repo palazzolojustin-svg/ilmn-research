@@ -1,0 +1,91 @@
+
+<section id="how">
+<h2>How to read this</h2>
+<p>Every number in this primer carries a label that says where it came from, so you can tell a reported fact from a management claim, an analyst's estimate, an expert's opinion or our own arithmetic. The colours follow the four letters on a DNA sequencing trace.</p>
+<div class="legend">
+  <div><span class="chip cD">D</span> Disclosed by Illumina in a filing, deck or earnings release.</div>
+  <div><span class="chip cM">MGMT</span> Something management said, which is a claim, not an audited fact.</div>
+  <div><span class="chip cDer">Der</span> Derived: our own calculation from disclosed numbers, with the math shown.</div>
+  <div><span class="chip cE">E</span> Estimate: Bloomberg consensus ("BB") or a named broker.</div>
+  <div><span class="chip cX">X</span> Expert-call claim: an opinion or recollection, not verified.</div>
+  <div><span class="chip cS">S</span> Our earlier proprietary research file in this folder (customer filings, price lists, contracts).</div>
+  <div><span class="chip cW">W</span> Taken from the web (share prices, analyst actions after August, price lists).</div>
+</div>
+<p><strong>Sources used.</strong> Fourteen Illumina earnings calls (Q1'23 to Q2'26), sixteen investor conferences (to March 2026), six earnings decks, eighteen SEC filings (to the Q2'26 10-Q), 23 expert calls (July to October 2026), 31 sell-side and independent research notes (to 8 September 2026), the three Bloomberg consensus printouts dated 10 October 2026, peer material on Oxford Nanopore, PacBio, Roche, Thermo Fisher, 10x Genomics and MGI, and the folder's earlier evidence ledger on clinical customers and pricing. The web was used only for share prices, analyst actions after 5 August, and a few price lists.</p>
+<p><strong>Two dating points matter.</strong> The latest management commentary is the Q2'26 call on 30 July 2026; Illumina did not appear at any September conference that we could find. The newest broker note in the folder is dated 5 August, while the stock has since risen about 36%, so every target in the folder now sits below the share price.</p>
+</section>
+
+<section id="glossary">
+<h2><span class="num">0</span>Glossary</h2>
+<p class="lede">Every technical term used later is defined once here, in plain English. If a later sentence uses a word you do not recognise, it is in this list.</p>
+
+<div class="gh">The science</div>
+<dl class="gloss">
+<dt>DNA, bases, genome</dt><dd>DNA is the molecule that carries genetic instructions. It is written in four chemical "letters" called bases (A, C, G, T). A human genome, one person's full set of DNA, is about three billion letters long.</dd>
+<dt>Sequencing</dt><dd>Reading the order of the letters in a DNA sample. Illumina's machines (sequencers) do this.</dd>
+<dt>NGS (next-generation sequencing)</dt><dd>The modern method of reading millions or billions of short DNA fragments at once, in parallel. Illumina invented the dominant form.</dd>
+<dt>SBS (sequencing by synthesis)</dt><dd>Illumina's chemistry. The machine copies each DNA fragment one letter at a time using tagged building blocks and a camera records each letter as it is added. XLEAP-SBS is the newest, faster and cheaper version.</dd>
+<dt>Short reads vs long reads</dt><dd>Illumina reads fragments a few hundred letters long ("short reads"), which is cheap and very accurate. PacBio and Oxford Nanopore read thousands to millions of letters in one go ("long reads"), which helps with large rearrangements and repetitive DNA but costs more.</dd>
+<dt>Gigabase (Gb), terabase (Tb)</dt><dd>A billion and a trillion DNA letters read. The industry's unit of output. A standard 30X human genome uses roughly 100 Gb.</dd>
+<dt>Coverage, "30X"</dt><dd>How many times each position is read on average. Inherited-disease genomes use about 30X; tumour testing often needs 150X or far more because cancer mutations are rare in the sample.</dd>
+<dt>Exome vs genome</dt><dd>An exome is the 1–2% of the genome that codes for proteins (about 8 Gb per test). A whole genome (WGS) reads everything (more than 120 Gb). Moving a test from exome to genome multiplies the sequencing needed by about 15 times.</dd>
+<dt>Panel</dt><dd>A test that reads only a chosen set of genes. Small panels use little sequencing; large cancer panels such as TSO 500 read about 500 genes.</dd>
+<dt>Library prep</dt><dd>The lab steps that turn a raw blood or tissue sample into DNA fragments the sequencer can read. Kits for this are a separate consumable.</dd>
+<dt>Methylation, "5-base"</dt><dd>Chemical tags on DNA that switch genes on and off. Illumina's "5-Base Solution" reads the four letters plus methylation in one workflow.</dd>
+<dt>Multiomics</dt><dd>Measuring several biological layers (DNA, RNA, proteins, methylation) from the same samples. Illumina's strategy is to make its sequencer the read-out for all of them.</dd>
+<dt>Proteomics</dt><dd>Measuring proteins at scale. Illumina entered via SomaLogic, whose SOMAmer binders attach to proteins and are then counted by sequencing.</dd>
+<dt>Single-cell, spatial</dt><dd>Single-cell sequencing measures gene activity cell by cell instead of averaged over a tissue. Spatial biology also records where in the tissue each signal sits. 10x Genomics leads both.</dd>
+<dt>Q score</dt><dd>A logarithmic accuracy scale. Q30 is one error per 1,000 letters, Q40 one per 10,000, Q60 one per million. Higher matters most for cancer blood tests hunting one tumour fragment among millions.</dd>
+</dl>
+
+<div class="gh">Illumina's products and business</div>
+<dl class="gloss">
+<dt>Instrument / sequencer</dt><dd>The machine. Sold once (or leased). NovaSeq X (high-throughput, roughly $1M), NovaSeq 6000 (older high-throughput), NextSeq 1000/2000 and 550 (mid-throughput), MiSeq i100 and iSeq (low-throughput benchtops).</dd>
+<dt>Consumables</dt><dd>Reagent kits and flow cells a customer must buy for every run. About 74% of Illumina's revenue and the source of its profits.</dd>
+<dt>Flow cell</dt><dd>The glass chip on which DNA is read. Sizes are named by how many billions of reads they hold: the NovaSeq X uses 1.5B, 5B, 10B and 25B flow cells, with 14B and 35B due in the first half of 2027. The NovaSeq 6000 used S1 to S4 flow cells.</dd>
+<dt>High-, mid-, low-throughput (HT/MT/LT)</dt><dd>Classes of sequencer by output per run. High-throughput (NovaSeq) serves big clinical labs and genome centres and is about two-thirds of sequencing consumables.</dd>
+<dt>Installed base</dt><dd>The number of Illumina instruments in active use: about 21,000 at end-2025, including about 890 NovaSeq X and 1,360 NovaSeq 6000.</dd>
+<dt>Placement</dt><dd>An instrument newly installed at a customer, whether sold, leased or rented.</dd>
+<dt>Pull-through</dt><dd>Annual consumables revenue per installed instrument. About $1.35M for a NovaSeq X, $0.6–0.67M for a NovaSeq 6000, $80–100K for a NextSeq 1000/2000.</dd>
+<dt>NovaSeq X transition</dt><dd>Customers moving work from the NovaSeq 6000 to the NovaSeq X, which reads the same DNA for roughly a third of the price per gigabase. It cut revenue per unit of data in 2023–2026.</dd>
+<dt>"The 6000 tail"</dt><dd>The work still running on NovaSeq 6000s: about 17% of high-throughput gigabases but about 41% of high-throughput consumables revenue in Q2'26. Mostly clinical tests that are hard to move.</dd>
+<dt>Reagent rental</dt><dd>Placing an instrument cheaply or free in exchange for a multi-year commitment to buy consumables.</dd>
+<dt>Open offer</dt><dd>Illumina's standard multi-year supply terms for oncology customers, created during the GRAIL merger fight. They cap price increases, give most-favoured pricing and lock in no minimum volumes.</dd>
+<dt>DRAGEN</dt><dd>Illumina's software for turning raw sequencer output into a list of genetic variants ("secondary analysis").</dd>
+<dt>TSO 500 / TSO Comprehensive</dt><dd>Illumina's 500-gene tumour profiling kit and its FDA-approved version, Illumina's main own clinical test product.</dd>
+<dt>TruPath (formerly Constellation)</dt><dd>Illumina's "synthetic long read" whole genome, launched March 2026 at $395 per genome, which recovers long-range information from short reads with ten-minute prep.</dd>
+<dt>StrataMap</dt><dd>Illumina's sequencing-based spatial product, launched June 2026.</dd>
+<dt>PIPseq (Fluent)</dt><dd>Illumina's instrument-free single-cell prep, from the 2024 Fluent BioSciences purchase.</dd>
+<dt>BioInsight, Billion Cell Atlas</dt><dd>Illumina's data-and-AI unit, launched late 2025. Its first product is a giant gene-perturbation single-cell dataset sold to drug companies; revenue sits in "sequencing service and other".</dd>
+<dt>SomaLogic, SomaScan, Protein Prep</dt><dd>The proteomics business Illumina bought for $363M net cash in January 2026. Its revenue sits mostly in the microarray line.</dd>
+<dt>Microarrays</dt><dd>An older chip technology that checks for a preset list of known DNA variants. Cheaper but less complete than sequencing; about 8% of revenue and shrinking.</dd>
+<dt>Greater China / ROW</dt><dd>Greater China (mainland, Hong Kong, Taiwan) is shrinking after China blacklisted Illumina in February 2025. "ROW" (rest of world) means everything outside it; management's preferred growth metric is ROW organic growth.</dd>
+</dl>
+
+<div class="gh">Customers and clinical testing</div>
+<dl class="gloss">
+<dt>Clinical vs Research &amp; Applied</dt><dd>Clinical customers test patients (cancer, inherited disease, prenatal screening) and are about 65% of sequencing consumables. Research &amp; Applied customers are universities, government labs, drug companies and agriculture (about 35%). Illumina defines "clinical" broadly; it includes clinical research.</dd>
+<dt>LDT</dt><dd>Laboratory-developed test: a test designed and validated by one lab, as most large clinical labs do, rather than an FDA-approved kit.</dd>
+<dt>CLIA / CAP</dt><dd>The US certification and accreditation every clinical lab needs. Changing the sequencer under a validated test means revalidating it.</dd>
+<dt>Liquid biopsy, ctDNA</dt><dd>A blood test that finds cancer from tumour DNA fragments (ctDNA) floating in the blood.</dd>
+<dt>CGP</dt><dd>Comprehensive genomic profiling: a large-panel tumour test to pick a cancer drug ("therapy selection").</dd>
+<dt>MRD</dt><dd>Minimal residual disease testing: repeated blood tests after treatment to catch cancer returning. Tested three to four times a year per patient, so it is a recurring, sequencing-heavy use.</dd>
+<dt>MCED</dt><dd>Multi-cancer early detection: blood tests that screen healthy people for many cancers at once (for example GRAIL's Galleri).</dd>
+<dt>NIPT</dt><dd>Non-invasive prenatal testing: a pregnant person's blood test that screens fetal DNA. Already used in about 70–80% of US pregnancies.</dd>
+<dt>Reimbursement, PAMA, CLFS</dt><dd>Payment by insurers for a test. PAMA is the US law that resets Medicare lab prices; the Clinical Laboratory Fee Schedule (CLFS) is the price list. CMS proposed cutting genomic-sequencing codes about 23% for 2027, capped at 15% a year.</dd>
+</dl>
+
+<div class="gh">Finance and valuation</div>
+<dl class="gloss">
+<dt>Organic growth</dt><dd>Growth excluding currency moves and acquisitions. "ROW organic" also excludes Greater China.</dd>
+<dt>Non-GAAP / adjusted</dt><dd>Management's figures excluding acquisition amortisation, restructuring, investment gains and similar items. Illumina's non-GAAP still includes stock-based compensation.</dd>
+<dt>Gross margin, operating (EBIT) margin</dt><dd>Revenue left after the direct cost of making products, and after all operating costs (R&amp;D, sales, admin), each as a share of revenue.</dd>
+<dt>Incremental margin</dt><dd>Change in profit divided by change in revenue between two periods: what each extra dollar of sales keeps.</dd>
+<dt>Free cash flow (FCF)</dt><dd>Operating cash flow minus capital spending.</dd>
+<dt>Consensus ("the Street")</dt><dd>The average forecast of the sell-side analysts who cover the stock. Here, the Bloomberg printout dated 10 October 2026.</dd>
+<dt>EV, EV/EBITDA, P/E, PEG</dt><dd>Enterprise value (market value plus net debt); EV divided by operating cash earnings; share price divided by earnings per share; and P/E divided by the EPS growth rate.</dd>
+<dt>Reverse DCF</dt><dd>Working backwards from today's share price to the growth and margins a discounted-cash-flow model would need to justify it.</dd>
+<dt>LSD / MSD / HSD / DD</dt><dd>Low-, mid- and high-single-digit and double-digit percentage growth (roughly 1–3%, 4–6%, 7–9%, 10%+).</dd>
+<dt>53-week year</dt><dd>Illumina's fiscal 2026 has an extra week (ending 3 January 2027). Management says it falls in Q4 and adds about 0.5 point of revenue growth; Bloomberg's period dates imply Q3.</dd>
+</dl>
+</section>

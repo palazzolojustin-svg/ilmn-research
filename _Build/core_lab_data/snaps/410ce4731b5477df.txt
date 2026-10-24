@@ -1,0 +1,56 @@
+MU Genomics Technology Core
+CSS MenuMaker
+dnaLIMS Login |
+Research Core Facilities |
+Follow @MUGenomicsCore
+Illumina Sequencing Instruments
+The Genomics Technology Core has provided next generation sequencing services to the UM system since 2008. The GTC maintain and operate several Illumina sequencing platforms; NovaSeq X Plus and MiSeq (3) instruments.
+The NovaSeq X Plus offers Illumina's most advanced sequencer to date while dramatically lowering costs. The release of the 25B flow cell introduced a 2.5-fold increase in output over that of the previous NovaSeq 6000. The new XLEAP-SBS chemistry delivers increased speed and greater fidelity. Each flow cell contains 8 independent lanes, which can be used to load up to 8 separate library pools.
+NovaSeq X Plus
+Flow Cell |
+Read Length |
+# of Lanes |
+Paired Reads/Lane (M) |
+Data Output (Gb/lane) |
+10B |
+PE150 |
+8 |
+1,250 |
+375 |
+25B |
+PE150 |
+8 |
+3,250 |
+975 |
+MiSeq
+Flow Cell |
+Read Length |
+Paired Reads/Lane (M) |
+Data Output (Gb/lane) |
+MiSeq i100 25M |
+PE150 |
+25 M |
+7.5 Gb |
+MiSeq i100 25M |
+PE300 |
+25 M |
+15 Gb |
+MiSeq i100 25M |
+PE500 |
+25 M |
+25 Gb |
+Service Fees
+NovaSeq X 25B (300 cycle/lane) |
+$2,529 |
+NovaSeq X 10B (300 cycle/lane) |
+$1,188 |
+NovaSeq X 1.5B (600 cycle/lane) |
+$5,851 |
+|
+|
+MiSeq i100 25M (300 cycle) |
+$1,314 |
+MiSeq i100 25M (600 cycle) |
+$1,511 |
+MiSeq i100 25M (1000 cycle) |
+$2,275 |

@@ -1,0 +1,123 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Dutch national NIPT uptake is near saturation: 73.5% of pregnancies in 2024, and its growth is decelerating after the 2023 jump.",
+      "detail": "The uptake series from the Peridos registry is 51.2% (2020), 55.1% (2021), 57.8% (2022), 67.8% (2023) and 73.5% (2024). The 2021 and 2022 values come from a search-engine summary of the monitor's Figure 1, so they are lower confidence. Annual gains were +2.7, +10.0 and +5.7 pts. A 2023 step-change followed by a smaller 2024 gain is the shape of an S-curve flattening. NIPT is a core short-read volume source, so this is a mature-market reference for a national program with free access. Page numbers are not available because the PDF text could not be extracted.",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "date": "2026-01-12 (data year 2024)",
+      "source_name": "RIVM Centre for Population Screening / IQ Health Radboudumc, Monitor 2024 (Peridos)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has only the 73.5% and 67.8% points (F1002/F1003); this adds the full 2020-24 series, increments and the deceleration read."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Absolute Dutch NIPT tests grew only about 8.8% in 2024 (115,828 to 126,023), and about 4.6 of those points came from uptake rather than pregnancies.",
+      "detail": "A search-result summary of the monitor's Figure 1 gives 126,023 NIPTs in 2024 and 115,828 in 2023. Arithmetic: 126,023/115,828 = +8.8%. The 2024 pregnancy count was 171,349 and 126,023/171,349 = 73.5%, which matches the reported uptake. The implied 2023 pregnancy count is 115,828/0.678 = about 170.8K, so pregnancies grew about +0.3% and uptake did almost all the work. Uptake gains can't continue at this pace: 100% would be only +36% in tests from the 2024 level.",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "date": "2026-01-12",
+      "source_name": "RIVM/IQ Health Monitor 2024, Figure 1 (via search summary)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Gives absolute counts and a decomposition; the known list had only percentages."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The 2024 NIPT uptake sits only 6.3 pts below the 13-week scan uptake of 79.8%, which caps the remaining headroom on any reasonable proxy.",
+      "detail": "The 13-week scan reached 79.8% of pregnancies in 2024 (78.0% in 2023) and the 20-week scan 86.9% (86.6% in 2023). If 79.8% is a practical ceiling, NIPT could grow at most 79.8/73.5 = +8.6% in tests from uptake alone, about one more year at the 2024 pace. Even the 20-week scan at 86.9% implies at most +18%. The ceiling is a proxy, since NIPT does not strictly require the scan. Another year of increments is plausible, but double-digit growth from uptake is not.",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "date": "2026-01-12",
+      "source_name": "RIVM/IQ Health Monitor 2024",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list notes the 79.8% scan ceiling in F1002 but gives no headroom arithmetic or 20-week comparison."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Dutch NIPT volume was still growing about 9% a year in 2024, so a mature market had not yet stopped adding tests.",
+      "detail": "Tests rose from 115,828 to 126,023 (+8.8%) and uptake rose 5.7 pts in the latest year. The abnormal rate stayed flat at 0.5%, so the case mix did not change. The headroom and the 2025 outcome are unknown, since the 2025 monitor is expected around Jan 2027. A single small country does not set global NIPT trends, and the US is at a different stage.",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-29323-189.html",
+      "date": "2026-02-11",
+      "source_name": "Kamerstuk 29323 nr. 189 (letter to parliament citing the RIVM monitor)",
+      "source_type": "filing",
+      "quote": "73,5% van de zwangeren deelnam aan de NIPT",
+      "strength": "medium",
+      "why_new": "This is the 'against' watch-out for NIPT maturing, a counterweight not yet in the ledger."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The Dutch NIPT sequencing load is tiny against Illumina's volume: roughly 126K tests is about 0.02% of high-throughput Gb.",
+      "detail": "At about 1–2 Gb per NIPT (the known range), 126,023 tests is about 126–252 thousand Gb (0.13–0.25 Pb). Against the ~800M Gb annual high-throughput base used in the known list, that is about 0.016–0.03%. A fully saturated Netherlands adds under 0.01% of Gb, and NIPT is a minor Gb source even before maturity. The Gb-per-test and 800M figures are known-list inputs, not from the monitor.",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "date": "2026-01-12",
+      "source_name": "Derived from RIVM Monitor 2024 counts",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies the Dutch national program in Gb terms; the known list has no national-program Gb translation."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The abnormal NIPT rate stayed flat at 0.5%, so there is no sign of rising case-mix depth or follow-on testing intensity in the national program.",
+      "detail": "The share of abnormal results was 0.5% in 2024 and 'comparable to previous years'. Flat positives mean no growth in diagnostic follow-up sequencing per screen. Counselling was registered for 94.9% of the 171,349 pregnancies (93.6% in 2023), so the offer is nearly universal. This leaves volume growth wholly dependent on the last few points of uptake.",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/monitor-2024-prenatal-screening-nipt-and-structural-ultrasound-scan.pdf",
+      "date": "2026-01-12",
+      "source_name": "RIVM/IQ Health Monitor 2024",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the 94.9% counselling coverage and the flat abnormal-rate read, which are not in the known list."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The Dutch state took over funding of prenatal pre-test counselling from 1 Jan 2025 and plans NIPT roll-out only in Caribbean Netherlands in 2026, so the offer is complete and the next volume steps are marginal.",
+      "detail": "Kamerstuk 29323 nr. 189 (11 Feb 2026) says counselling has been funded from the state budget since 1 Jan 2025, and that RIVM will introduce NIPT and the second-trimester scan in Caribbean Netherlands in 2026. The Caribbean population is tiny, so this adds negligible tests. No announced expansion of the NIPT offer (no new conditions) was found in the letter.",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-29323-189.html",
+      "date": "2026-02-11",
+      "source_name": "Tweede Kamer, Kamerstuk 29323 nr. 189",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Policy facts about funding and roll-out that are not in the ledger."
+    }
+  ],
+  "source_status": "blocked",
+  "notes": "The PDFs could not be read. WebFetch returns compressed binary, the Read tool needs poppler, and the shell is disabled. All figures come from search summaries and the Kamerstuk HTML page, with no page numbers. The 2021–2022 uptake values (55.1% and 57.8%) and the counts (126,023 and 115,828) come from a search-engine summary of Figure 1, so verify them against the PDF. Regional spread, 2025 interim figures and the 2024 SEO detail were not obtained. An agent with a PDF text extractor (pdftotext or pypdf) could pull the tables from monitor-2024-nipt-seo.pdf, professionalsmonitor-2024-nipt-seo.pdf and the 2023 monitor. Berthub 2026D06644 is also a binary PDF.",
+  "leads": [
+    {
+      "name": "Professionalsmonitor 2024 NIPT/SEO (regional detail)",
+      "url": "https://www.pns.nl/sites/default/files/2026-01/professionalsmonitor-2024-nipt-seo.pdf",
+      "access": "Open PDF, Dutch. Needs a text extractor.",
+      "labels": ["1C"],
+      "rationale": "Regional and practice-level uptake spread would show how much headroom is left in low-uptake regions."
+    },
+    {
+      "name": "Monitor prenatale screening 2023 and Professionalsmonitor 2022 (earlier-year counts)",
+      "url": "https://pns.nl/sites/default/files/2025-01/20250109_Monitor%20prenatale%20screening%20%202023.pdf",
+      "access": "Open PDF. Needs a text extractor.",
+      "labels": ["1C"],
+      "rationale": "Would verify the 2021–22 counts and the 2023 jump."
+    },
+    {
+      "name": "Kamerbrief 2026D06644 / 2026D03959",
+      "url": "https://berthub.eu/tkconv/getraw/2026D06644",
+      "access": "Open PDF, binary text layer.",
+      "labels": ["1C"],
+      "rationale": "May hold 2025 interim NIPT figures or policy changes."
+    }
+  ],
+  "apify_requests": []
+}
+```

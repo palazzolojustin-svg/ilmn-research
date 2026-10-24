@@ -1,0 +1,167 @@
+Status: I've tested the main tender portals. Below are the results, which are mostly thin.
+
+```json
+{
+  "sources": [
+    {
+      "name": "TED / Publications Office of the EU (EU tenders)",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+      "access": "Open web, no login. The op.europa.eu procurement-detail pages load. The ted.europa.eu PDF pages returned empty to WebFetch. TED search by CPV 38000000/33141625 or keyword 'NovaSeq' works in a browser.",
+      "labels": ["1A", "1B"],
+      "status": "productive",
+      "notes": "Award notices give a final value, awardee and sometimes the discount versus the estimate. Many notices are placeholders (Helmholtz awarded 1.00 EUR) or lack quantities. Most large buyers use distributors, so Illumina's net price is often hidden. The CIBER, IDIBAPS and Helmholtz notices were already known. The Copenhagen award and the 2026 Barcelona notices are new, but they do not show unit prices.",
+      "how_to_mine": "Query TED for 'NovaSeq', 'flow cell', 'Illumina', 'AVITI', 'Ultima' and 'DNBSEQ', 2025-2026, notice type 'result'. Pull the quantity, value, number of tenders received and whether Illumina won direct or through a distributor. Compute value per flow cell and compare it with the ~€16,000 IDIBAPS price and the ~€12,800 CIBER implied price. Check the Barcelona 2026 notices 528143-2026 and 536530-2026 for 25B lane service prices.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing)",
+      "items": [
+        {
+          "label": "1A",
+          "direction": "supports",
+          "claim": "University of Copenhagen paid Illumina ~$2.88M for a NovaSeq X Plus system that replaces a NovaSeq 6000 and a NextSeq 500.",
+          "detail": "The award date was 28 Feb 2025 and the awardee was Illumina Denmark ApS. The final value was USD 2,878,114 excluding VAT. The notice says the system 'will replace the older Illumina NovaSeq6000 and NextSeq500'. This is a dated example of a 6000 site converting through a public tender, which is the mechanism behind the revenue-per-Gb step-down. The value covers the instrument and probably more, so it is not a consumables price.",
+          "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+          "date": "2025-02-28",
+          "source_name": "Publications Office of the EU (TED award record)",
+          "source_type": "procurement",
+          "quote": "will replace the older Illumina NovaSeq6000 and NextSeq500",
+          "strength": "weak",
+          "why_new": "The Copenhagen replacement award is not in the known list. The known tenders are CIBER and IDIBAPS."
+        },
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "Barcelona's FRCB-IDIBAPS issued new 2026 tenders for outsourced sequencing on NovaSeq X Plus 25B lanes, so public buyers are now shopping for 25B lane capacity (search-result snippet only).",
+          "detail": "TED notices 528143-2026 and 536530-2026 cover sequencing services on a NovaSeq X Plus 25B, and the second is a change notice to the first. The ted.europa.eu PDFs did not load, so the values, bidders and awardee are unread. These are follow-ons to the known IDIBAPS 2025 award at about €2.00/Gb. They could reveal whether the 2026 price per lane is lower than 2025.",
+          "url": "https://ted.europa.eu/es/notice/536530-2026/pdf",
+          "date": "2026",
+          "source_name": "TED (search-result snippet; page not read)",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "These are 2026 follow-on notices to the known 2025 IDIBAPS award. Their price has not been read."
+        }
+      ]
+    },
+    {
+      "name": "UK Contracts Finder / Find a Tender (via bidsfactory aggregator)",
+      "url": "https://bidsfactory.com/en/tenders/illumina-consumables-uk_contracts_finder-ffed3e2189e44127",
+      "access": "The official contractsfinder.service.gov.uk and find-tender.service.gov.uk pages returned HTTP 403 to WebFetch. The bidsfactory.com mirror is readable without a login. Search results expose the official notice titles.",
+      "labels": ["1B", "1C"],
+      "status": "productive",
+      "notes": "UK public bodies award Illumina consumables by direct award or framework call-off, which shows lock-in and scale. Examples: UKHSA £12.0M (published 3 Dec 2025, updated 19 Jun 2026, ending Aug 2028), NHS Grampian £199K (Feb 2026), Northumbria £300K over 3 years (Jun 2025), CEFAS £42K NextSeq 2000 (Mar 2025). None gives unit prices or discounts, and they cannot be tied to NovaSeq X specifically.",
+      "how_to_mine": "Use bidsfactory's company page for Illumina Cambridge Limited to list all awards. Open the official Find a Tender notices (031102-2025, 016712-2023) in a browser. Look for the framework's discount schedule, volume bands and 'direct award justification' text. Compare UKHSA's £12M ceiling over about 2.7 years with the prior UKHSA spend to see whether it implies growth or price cuts.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "against",
+          "claim": "UKHSA committed up to £12.0M to Illumina proprietary consumables through Aug 2028, a large, locked-in public-sector volume (the figure comes from a call-off ceiling).",
+          "detail": "The notice was published 3 Dec 2025 and updated 19 Jun 2026. The supplier is Illumina Cambridge Ltd, and the procedure is a call-off from a framework. No separate direct-award justification is given. At roughly £4.4M a year, the ceiling is a cap, not spend. It shows continued public-sector reliance on Illumina consumables, which tempers a view that volume is rolling off.",
+          "url": "https://bidsfactory.com/en/tenders/illumina-consumables-uk_contracts_finder-ffed3e2189e44127",
+          "date": "2025-12-03",
+          "source_name": "UK Contracts Finder (bidsfactory mirror, opened)",
+          "source_type": "procurement",
+          "quote": "provision of its proprietary consumables",
+          "strength": "weak",
+          "why_new": "No UK public procurement award appears in the known list."
+        }
+      ]
+    },
+    {
+      "name": "SAM.gov sole-source / intent notices (via govsignals, samdaily, g2x mirrors)",
+      "url": "https://samdaily.us/archive/2025/05-May/15-May-2025/FBO-07441605.htm",
+      "access": "SAM.gov proper needs JS and a key for its API. Mirrors (samdaily.us, govsignals, g2xchange) show notice text in search results. g2x returned 403 and govsignals did not resolve. The full text of the NIH notice was not read.",
+      "labels": ["1B", "1C"],
+      "status": "productive",
+      "notes": "Federal agencies keep buying Illumina by sole source under FAR 13.106-1(b)(1) ('only one responsible source'). Examples from search snippets: NIH OLAO solicitation 75N98026Q00260 for NovaSeq X Series 25B reagent kits (posted 27 Apr 2026, due 7 May 2026); Naval Medical Research Command sole-source Illumina reagent kits (23 Jul 2026); DHA NextSeq 2000 (3 Aug 2026); NEI NextSeq 1000 to 2000 upgrade (22 Jun 2026); NASA GeneLab 2025. Notices contain no prices. The price shows up only in the later award on USAspending.",
+      "how_to_mine": "Search USAspending.gov (award search, keyword 'NovaSeq' or 'Illumina', FY2025-FY2026, PSC 6550/6640) and match solicitation 75N98026Q00260 to its PIID. Get obligation per award, then compute the ratio to the 25B kit list price ($11,700 for 100-cycle, $14,500 for 200-cycle). Note the GSA ECAT pages at govsci.com (part 20104706 for the 300-cycle 25B kit) and read any contract price shown there. Compare federal price with the core-level $2.5-3.0/Gb range.",
+      "difficulty": "easy (plain extraction) for the notices; hard for the price comparison",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "against",
+          "claim": "Federal buyers keep justifying sole-source Illumina reagent buys as 'only one responsible source', which shows lock-in that limits extra discounting in the public sector.",
+          "detail": "NIH (27 Apr 2026, 25B kits), the Naval Medical Research Command (23 Jul 2026) and others cite FAR 13.106-1(b)(1) and proprietary chemistry. This reduces competitive price pressure from rivals in that channel. It does not rule out volume discounts at large commercial accounts. The wording is from search-result summaries, not from opened notices.",
+          "url": "https://samdaily.us/archive/2025/05-May/15-May-2025/FBO-07441605.htm",
+          "date": "2026-07-23",
+          "source_name": "SAM.gov notices (search-result snippets)",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "Federal sole-source notices were not in the known list. Only SKU pages from distributors were."
+        }
+      ]
+    },
+    {
+      "name": "Canada Buy and Sell / CanadaBuys",
+      "url": "https://www.cleat.ai/government/contracts/aviti24-upgrade-dfuo",
+      "access": "The official portal is open without a login. The aggregator cleat.ai page was seen only as a search-result snippet.",
+      "labels": ["2B"],
+      "status": "productive",
+      "notes": "The National Research Council of Canada posted an Advance Contract Award Notice on 29 May 2026 for an AVITI24 upgrade to its existing AVITI. It is single-source, with an estimated value of CAD 122,000 and installation by 31 Jul 2026. This is a small, real example of a government research lab expanding on Element equipment. Illumina's NovaSeq is not mentioned.",
+      "how_to_mine": "Search CanadaBuys for 'sequenc*', 'NovaSeq', 'Illumina', 'AVITI' and 'Ultima', 2025-2026. Look for advance award notices that cite 'technical exclusivity' for Element or Illumina. Separate instrument buys from consumables.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "A Canadian federal research lab (NRC) chose to upgrade its existing Element AVITI platform in 2026 rather than add Illumina capacity.",
+          "detail": "The value was CAD 122,000, posted as a single-source Advance Contract Award Notice on 29 May 2026. The upgrade is to AVITI24, with installation due by 31 Jul 2026. It is a small deal, but it is a government research buyer using Element as a standard platform. Illumina is not named. This was read only as a search-result summary.",
+          "url": "https://www.cleat.ai/government/contracts/aviti24-upgrade-dfuo",
+          "date": "2026-05-29",
+          "source_name": "CanadaBuys via cleat.ai (search-result snippet)",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "No known item shows a government research lab choosing Element."
+        }
+      ]
+    },
+    {
+      "name": "USAspending.gov / HigherGov / GovConWin (Element, Ultima, Illumina award histories)",
+      "url": "https://highergov.com/awardee/element-biosciences-inc-12666521",
+      "access": "The USAspending API is free and has no login. WebFetch could not run it, so run it from a script. HigherGov hit a free-view paywall.",
+      "labels": ["2B", "1B"],
+      "status": "blocked",
+      "notes": "HigherGov was blocked after the free-views limit. A search snippet citing GovConWin says Element had 24 federal awards from Aug 2022 to Nov 2025, totalling about $3.46M. Examples: a USDA AVITI at about $256K (Sep 2025) and an HHS AVITI at about $257K (Sep 2024). Federal Element spend is tiny compared with Illumina's. Government Scientific Source (govsci.com) listed the 25B kit SKU with no price in the snippet.",
+      "how_to_mine": "Script against api.usaspending.gov (POST /api/v2/search/spending_by_award/ with keywords 'NovaSeq', 'Illumina', 'flow cell', 'AVITI', 'Ultima', 'DNBSEQ'). Fields: recipient, obligation, description, awarding agency, date. Sum obligations by quarter. Filter to reagents and kits (PSC 6550 and NAICS 325414) and read quantity and unit-price text in descriptions.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "AusTender; China ccgp.gov.cn; GSA Advantage",
+      "url": "https://www.austender.gov.au",
+      "access": "AusTender and ccgp.gov.cn are public without a login, but they were not indexed by the search tool. GSA Advantage needs JS.",
+      "labels": ["1B", "2B"],
+      "status": "dry",
+      "notes": "Searches for Illumina NovaSeq on AusTender, and in Chinese for 中标/NovaSeq/华大T7+, returned no tender records. The tool seems unable to index these portals, so this is not proof of absence. MGI T7+ sales in Europe and Africa were confirmed only by press (Analytica, Mar 2026).",
+      "how_to_mine": "Query each portal directly from a browser or script. AusTender: 'Illumina' and 'sequenc*' under Agency Contract Notices. ccgp.gov.cn: keywords 测序仪, 高通量测序, DNBSEQ, 诺禾, with winning-bid announcements (中标公告) that show amounts in CNY. The Chinese data would show how often domestic MGI wins over Illumina, which is not covered in the known list.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "USAspending.gov API keyword award search for Illumina, NovaSeq and flow cell",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "access": "Free, no login. A POST JSON request is needed, so it must be scripted.",
+      "labels": ["1A", "1B", "2A"],
+      "rationale": "It gives obligated dollars per PIID. That allows federal 25B kit unit prices and quantities to be checked against list and core prices. It also lets the 6000 versus X mix be seen in federal purchases."
+    },
+    {
+      "name": "TED Open Data bulk and API (result notices, CPV 33141625 and 38000000)",
+      "url": "https://ted.europa.eu/en/",
+      "access": "Free search API. The ted.europa.eu PDF pages did not load in WebFetch, but the op.europa.eu mirror did.",
+      "labels": ["1B", "1C"],
+      "rationale": "A bulk pull of every 2025-2026 NovaSeq or Illumina result notice would give per-flow-cell prices, number of bidders and distributor margins, with Element or MGI wins visible. This is a far wider net than the three tenders known."
+    },
+    {
+      "name": "UK Illumina Cambridge Limited award list (bidsfactory)",
+      "url": "https://bidsfactory.com/en/companies/illumina-cambridge-limited",
+      "access": "Readable without a login.",
+      "labels": ["1C"],
+      "rationale": "It lists all UK public awards to Illumina, which could show whether framework ceilings are rising or falling over time."
+    }
+  ],
+  "apify_requests": []
+}
+```

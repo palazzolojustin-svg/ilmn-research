@@ -1,0 +1,135 @@
+AVITI Upgrade Complete: Sequencing Costs Drop Again at UMGC | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Breadcrumb
+Home
+In the News
+AVITI Upgrade Complete: Sequencing Costs Drop Again at UMGC
+News
+Events
+In the News
+AVITI Upgrade Complete: Sequencing Costs Drop Again at UMGC
+September 15, 2025
+The UMN Genomics Center is pleased to announce the successful upgrade of our five Element AVITI24 sequencers to the latest operating system. This upgrade delivers a 50% increase in output for 150-cycle and 300-cycle kits (600-cycle kit output unchanged), while AVITI pricing remains the same.
+300-cycle Kit | Previous Output | Upgraded Output |
+Low Output Run | 250 M | 375 M |
+Medium Output Run | 500 M | 750 M |
+High Output Run | 1 B | 1.5 B |
+As a result, AVITI sequencing is now 33% less expensive per million reads (or per GB) compared to fiscal year 2025 (FY25). This marks the third drop in AVITI sequencing cost over the past two years, dropping by a staggering 62% – 71% since FY24, thanks to ongoing innovation by Element and the UMGC’s commitment to the platform at scale.
+See full data for the Evolution of UMN AVITI Pricing.
+The AVITI now saves researchers several hundred to one thousand dollars per billion reads, relative to the most affordable Illumina platform. Best of all, these gains come with no compromise in quality. Sequencing on the AVITI continues to deliver Q-scores > 40, as confirmed in published studies and our own field testing of the new operating system. Researchers finally have the rare trifecta with the AVITI—fast, affordable, and high-quality sequencing.
+Learn more about the future of sequencing at GenoFest, the UMGC’s annual open house, on Friday, October 3. For details on AVITI sequencing or to discuss your next project, contact us at [email protected].
+GENOMICS CENTER
+Dr. Kenneth Beckman, Director
+2231 6th Street SE
+Minneapolis, MN 55455
+[email protected]
+Contact Us
+Locations
+About the UMGC
+Sequencing Queues
+Employment
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

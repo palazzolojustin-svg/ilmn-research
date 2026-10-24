@@ -1,0 +1,49 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the CU page (15 Dec 2025). It names Illumina in one sentence among new system-wide master agreements (GE Healthcare, McKesson, Roche Diagnostics, Illumina). It gives no contract number, effective date, discount or spend threshold. The $250K bid-threshold language applies to all the agreements listed. A search of cu.edu found nothing else on Illumina: no contract record and no database entry. The PSC says its contracts page is still being updated. I did not search CORA, Colorado TOPS or the state payment ledger within the call budget. Neither is likely to give price or volume data: CORA needs a records request, and TOPS shows only payments, not Gb or unit prices. The search did turn up a University of California system-wide Illumina agreement (CalUsource #2023003585, published 9 Apr 2024). It shows the same consolidation behavior but gives little quantification: 25% off service agreements, product discounts with no percentages, no tiers and no term. The UC agreement is weak evidence for 1B and 2A and only partly new, since it was published before 2025 and is a contract notice, not pricing.",
+  "how_to_mine": "Low priority. (1) Check the CU PSC contracts page (cu.edu/psc/contracts) for an Illumina MSA PDF once it is updated. (2) Search the UC CalUsource contract #2023003585 on the UCOP procurement site for a PDF with discount schedules. (3) Look for similar system-wide Illumina agreements at other universities (Texas, SUNY, Big Ten/BTAA, Cal State). Public records often include the price schedule. (4) Colorado TOPS payments to Illumina are unlikely to separate volume from price, so skip them.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The University of California system consolidated Illumina purchasing into one system-wide agreement via an RFP, with a 25% discount on service agreements.",
+      "detail": "UC Systemwide Procurement published the Illumina Life Sciences UC-wide agreement (CalUsource #2023003585) on 9 Apr 2024. It covers sequencing instruments, reagents, service agreements and research services. Service agreements get a 25% discount and reagent categories get discounts with no stated percentages. An RFP team from six UC offices negotiated it, which is research-buyer consolidation for leverage. The page gives no tiers, term or consumables percentages, so it cannot be quantified.",
+      "url": "https://procurement.ucop.edu/news/illumina-inc-life-sciences-uc-wide-agreement",
+      "date": "2024-04-09",
+      "source_name": "UC Office of the President, Systemwide Procurement",
+      "source_type": "procurement",
+      "quote": "25% off service agreements",
+      "strength": "weak",
+      "why_new": "The known list names no university system-wide Illumina master agreements. This one has a stated discount, but only on service agreements."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The University of Colorado system added Illumina to new system-wide master agreements in Dec 2025, usable for purchases under $250K.",
+      "detail": "The CU Procurement Service Center post (15 Dec 2025) lists Illumina among new master agreements and says the PSC is updating its contracts page. It gives no discount, contract number or term. It shows that more academic systems are pre-negotiating Illumina pricing, but it is not price evidence.",
+      "url": "https://www.cu.edu/blog/psc-communicator/new-master-contracts-scientific-research-medical-commodity-space",
+      "date": "2025-12-15",
+      "source_name": "CU Procurement Service Center blog",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No CU or other system-wide Illumina academic master agreement is on the known list."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "UC CalUsource Illumina agreement #2023003585 (full contract or price schedule)",
+      "url": "https://procurement.ucop.edu/news/illumina-inc-life-sciences-uc-wide-agreement",
+      "why": "A UC-wide RFP-based contract may have a published price schedule or discount tiers. Request it or look for a PDF on the UCOP procurement site."
+    },
+    {
+      "name": "Other system-wide university Illumina contracts (SUNY, UT System, BTAA, Cal State)",
+      "url": "",
+      "why": "Contract PDFs with discount schedules would show how much research buyers get off list and let you compare across systems."
+    }
+  ],
+  "apify_requests": []
+}
+```

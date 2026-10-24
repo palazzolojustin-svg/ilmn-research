@@ -1,0 +1,89 @@
+Dear Genomics and Microbiome Core Facility (GMCF) investigators: 
+The GMCF team would like to thank you for using our core facility! We are about to enter the year 2026 
+and would like to report on some changes to our workflows and new capabilities. As you will see, we 
+have added new instruments and capabilities, but we are saying goodbye to some instruments too. See 
+below for a list of changes to our capabilities. We look forward to continuing to support your research 
+efforts going forward. Please reach out to any of us with questions/comments/requests. Just a 
+reminder that project requests can be submitted through Bookitlab (https://core.bookitlab.com/rush-
+GMCF/Login).  
+Please also look for our updated sample and data retention policy, which includes storage of all 
+samples for 3 months after completion unless you ask for longer and archiving of Illumina data in 
+Basespace after 6 months. PacBio data will be available for download for 7 days after completion and 
+then archived. Data retrieval from archive will, unfortunately, incur additional charges. Please reach out 
+to our Rush Research Bioinformatics Core (RRBC; rrbc@rush.edu) for help with data analysis, data 
+storage/transfer, submission to the NCBI Sequence Read Archive (SRA), and more.  
+Finally, please note that the GMCF and RRBC will be closed on Dec 24th, 2025 and will re-open 
+January 2nd, 2026. This will be relevant for shipping of samples – please delay shipments until next 
+year.  
+Best wishes and holiday greetings from the GMCF! 
+Changes include:  
+(1) We have acquired a new Illumina DNA sequencer – the Illumina MiSeq i100+. This instrument 
+replaces the old MiSeq instrument, and has many advantages, including: (1) 4X faster runtime, 
+(2) higher quality, particularly for 2x300 sequencing runs, (3) room-temperature reagents (no 
+dry ice!), (4) greater tolerance for amplicons, (5) lower cost per sequence, and (6) greater 
+flexibility in flow cell size. The i100+ instrument has four flow cell sizes of 5M, 25M, 50M and 
+100M clusters. Current read lengths are 2x150, 2x300 and 2x500, but not all read-lengths are 
+available on all flow cells. The 2x500 flow cell is a major advance, allowing for longer amplicons 
+to be sequenced. The 2x500 chemistry is only available with 25M cluster flow cells. One major 
+difference between the i100+ instrument and the prior MiSeq is the use of patterned flow cells. 
+This increases the robustness of the instrument, but also makes the instrument susceptible to 
+index hopping. Therefore, only unique dual index (UDI) libraries should be sequenced on the 
+instrument. Libraries generated from combinatorial indices (CDI) may lead to improper 
+assignment of sequence data to barcodes. We suggest avoiding CDIs.  
+(2) We have discontinued service for the old Miseq (including Nano, V2, and V3 flow cells). Due to 
+the discontinuation of the old MiSeq and MiniSeq (see below), we will no longer be processing 
+amplicon sample with Fluidigm CS linkers. We have replaced CS1 and CS2 linkers for amplicons 
+with sIDTP5 and sIDTP7 linkers (see below). All incoming amplicons should have unique dual 
+indexes (UDI) – we are using IDT barcodes with up to 1536 UDI combinations available. Please 
+reach out to us to ensure your 1st stage amplicon library preparation that are compatible with 
+UDI barcoded adapters. 
+sIDTP5_[ForwardPrimer]: CTACACGACGCTCTTCCGATCT + [FP] 
+sIDTP7_[ReversePrimer]: CAGACGTGTGCTCTTCCGATCT + [RP] 
+(3) We will be discontinuing service for the Illumina MiniSeq, but the instrument will be available 
+for use until it breaks. Libraries with combinatorial indices (CDIs), rather than UDIs, can be 
+sequenced on the MiniSeq. Maximum output for mid-output flow cells is 8M clusters (2x150).  
+(4) We have discontinued service for the NovaSeq6000 instrument (including SP 2x250 flow cells). 
+We have options to replace this (below); please reach out to us for help in choosing the best 
+platform for your work. 
+a. Illumina NovaSeq X with 2x150 (1.5B, 10B or 25B cluster flow cells). The 1.5B cluster flow 
+cell has 2 lanes of approximately 750M clusters each. The 10B cluster flow cell has 8 
+lanes of approximately 1250M clusters each. The 25B cluster flow cell has 8 lanes of 
+approximately 3200M clusters each. Please contact us to help decide on the best 
+sequencing option for you.  
+b. Illumina NovaSeqX with 2x300 on the 1.5B (billion) cluster flow cell (2 lanes of 750 M 
+clusters each). 
+c. Illumina MiSeq i100+ with 2x300 sequencing for 5M, 25M or 50M cluster outputs. 
+d. Illumina MiSeq i100+ with 2x500 sequencing for 25M cluster outputs. 
+e. Complete Genomics G-800 instrument with 1x600 base sequencing on a 1.6B cluster 
+flow cell (4 lanes of 400 M clusters each) 
+(5) We have acquired a new DNA sequencer from Complete Genomics – the G-800 
+(https://www.completegenomics.com/products/sequencing-platforms/dnbseq-g800/). This 
+sequencer has expected quality scores in the Q40 range (rather than Q30) and has individual 
+reads of 600 bases (currently single direction, 1x600). Further increases in read-length are 
+expected. Complete Genomics suggests improved coverage in difficult-to-sequence genomic 
+regions. Standard Illumina libraries can be converted (by GMCF) to be compatible with 
+Complete Genomics. Each instrument can run two flow cells independently. Available flow cell 
+sizes include: 
+a. 1x100 – 1.8B clusters 
+b. 2x100 – 1.8B clusters 
+c. 2x150 – 1.8B clusters 
+d. 1x600 – 1.6B clusters 
+(6) We have acquired a new liquid-handling robot from Volta Labs called the “Callisto Sample Prep 
+System” (https://www.voltalabs.com/product). While this instrument can make PacBio, Oxford 
+Nanopore, Illumina and Complete Genomics libraries, we specifically acquired this instrument 
+to help with hybridization capture protocols. Currently the instrument can perform IDT capture 
+protocols, with Twist captures coming soon. We will be happy to conduct a wide range of off-
+the-shelf and custom capture protocols, including: whole exome sequencing (WES), whole 
+transcriptome capture – particularly effective for damaged (e.g., FFPE) human DNA, viral 
+captures, etc. Please reach out to us for any projects of interest. 
+(7) We have acquired two Singulator 200 devices from S2 genomics 
+(https://s2genomics.com/singulator-platform/). This instrument is a “…flexible, automated 
+solution for the rapid dissociation of solid tissue into high-quality, viable single cells or intact 
+nuclei compatible with numerous single-cell genomics applications.” As a reminder, we have 
+two platforms for single-cell RNAseq library preparation, including the 10X Chromium X device 
+and associated chemistries, as well as the Illumina Single Cell Prep (formerly Fluent). For spatial 
+transcriptomics, we operate the 10x Visium platform with a CytAssist device and work closely 
+with the UIC spatial core facility for projects needing the 10x Xenium platform. 
+(8) We are currently running full-length 16S ribosomal RNA gene amplicon sequencing protocols 
+using the PacBio Kinnex chemistry (https://www.pacb.com/technology/kinnex/). We have 
+developed a custom, adaptable two-stage PCR protocol that can be deployed for amplicons in 

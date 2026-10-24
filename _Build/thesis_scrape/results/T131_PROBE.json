@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "The Element newsroom is reachable, but the redirects go back and forth between hs-sites-na2.com and www. The www page loaded and showed 12 releases (Sep 2025–Aug 2026), which was only page 1 of 5. None name a customer that replaced or offloaded NovaSeq, and none give cost-per-Gb savings. The releases cover VITARI launch (19 Feb 2026), Series E (9 Jun 2026), ISO 13485 (17 Jun 2026), Munich ruling (14 Jul 2026), the Sep 2025 countersuits, and collaborations with Twist, SOPHiA and Teton. Searches for core-facility switches found only the Michigan State University (MSU) AVITI-replaces-NovaSeq-6000 seminar (fall 2024, outside the Jan 2025 window) and UC Davis pricing (2023). I did not open those pages, so they are search-snippet level. Nothing here is new against the exclusion list.",
+  "how_to_mine": "Fetch www.elementbiosciences.com/news?page=2 to 5 for Jan–Sep 2025 releases. Then look at Element's customer-stories or resources pages, if they exist. Check the Dec 2025 Teton service-provider list and the SOPHiA release body for named sites. Search core-facility pages directly, for example 'AVITI' plus 'NovaSeq 6000' plus 'retire' on .edu rate cards. Fetch the MSU PDF (rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf) for AVITI flow-cell pricing against the NovaSeq 6000/X.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Michigan State University's genomics core bought an AVITI to replace its NovaSeq 6000, an example of a research core moving volume to Element.",
+      "detail": "A fall 2024 MSU core seminar listing says the AVITI 'will replace our NovaSeq 6000' (retirement late December). The same search snippet lists AVITI 2x150 300 Gb flow cell pricing of about $2,089, or roughly $6.96/Gb, which is not cheaper per Gb than the 25B. Switching here looks driven by quality and by instrument and service costs. This is a snippet-level read, the page predates Jan 2025, and the switch may overlap with the known Dana-Farber and Novogene 6000 retirements.",
+      "url": "https://rtsf.natsci.msu.edu/genomics/seminars-workshops/fall-2024-event-schedule.aspx",
+      "date": "2024-10",
+      "source_name": "MSU Research Technology Support Facility",
+      "source_type": "other",
+      "quote": "This instrument will replace our NovaSeq 6000",
+      "strength": "weak",
+      "why_new": "Named MSU core retiring its 6000 for AVITI is not in the known core list. Evidence is snippet-level and pre-2025."
+    }
+  ],
+  "new_candidates": [
+    "Element newsroom pages 2–5 (Jan–Sep 2025 releases)",
+    "MSU AVITI vs NovaSeq comparison PDF (rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf)",
+    "UC Davis DNA Technologies Core AVITI vs NovaSeq X 10B pricing page (dnatech.ucdavis.edu/element-bio-aviti-sequencing/)"
+  ],
+  "apify_requests": []
+}
+```

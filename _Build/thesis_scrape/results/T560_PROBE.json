@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "The UCR IIGB archive is not reachable or indexed for 2024-2026. The archive root (/pipermail/iigb_all/) and the 2023-April thread URL both returned HTTP 404 via WebFetch. Search only surfaced the 2023 AVITI seminar threads, which carry no per-lane prices. Generalized searches for pipermail/LISTSERV core price broadcasts returned core news pages and rate cards, not list archives. I found no dated 2024-2026 mailing-list series showing price cuts or flat run counts. I did not test other Mailman lists, so this is a thin negative. The one useful hit is a core news page (UGA, Mar 2025), not a mailing list. It is a single datapoint with no old price and no volume data, so I did not log it as an item.",
+  "how_to_mine": "Do not pursue mailing-list archives. Mine dated core-facility news and announcement pages instead (e.g. dna.uga.edu/category/news, txgen.tamu.edu announcements, the UW Biotechnology Center DNA Sequencing Core news page, the UChicago Genomics Facility price pages and their revision history). Look for dated old-to-new lane prices and stated reasons across 2024-2026. The UGA monthly archive (dna.uga.edu/2025/03 and neighbouring months) is the best lead. It showed X Plus 10B at $2,000 and 25B at $3,000 per lane, and the stated reason was researcher demand for cheaper options. To get an old price, compare against the UGA rate card in the exclusion list (flat 2025 with about 20% lost to low-cost providers) or the Wayback-free page revisions.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {"name": "UGA Georgia Genomics core news archive", "url": "https://dna.uga.edu/category/news", "why": "Dated price-cut announcements (Mar 2025: NovaSeq X Plus 10B $2,000 and 25B $3,000 per lane; library prep cut). Needs prior-price comparison."},
+    {"name": "UW Biotechnology Center sequencing core", "url": "https://cgsi.wisc.edu/bio-tech-update-sequencings-best-bang-for-the-buck/", "why": "Says X Plus 10B made sequencing about 30% cheaper, with a 10B lane at $2,050. Could be dated and compared with the S4 price."},
+    {"name": "UChicago Genomics Facility pricing pages", "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new", "why": "Side-by-side AVITI and NovaX 10B lane prices (10B 100-cycle lane $1,175 vs AVITI 150bp flow cell $1,175). Undated, so it needs date and revision checks."}
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,148 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At MD Anderson's core, the 6000's S4 lane cost about 2.5x the X Plus 25B lane per Gb, a ~61% step down. The 6000's own lane price was flat to rising before the X.",
+      "detail": "MD Anderson ATGC FY2022/23/24 schedules (search-result summary; my direct fetch of the files returned 404) show the S4-300 Xp lane at $4,933 (FY22), $4,901 (FY23) and $5,167 (FY24) for MDA members. That is +4.8% FY23→FY24. External users paid $8,475, $8,430 and $8,805 (+4.4% FY23→FY24). The current X Plus page (opened) lists the 25B-300 lane at $2,595, 3.2B read pairs per lane. At ~750 Gb per S4 lane, the member 6000 price is ~$6.89/Gb. At ~960 Gb per 25B lane, the X Plus price is ~$2.70/Gb, so ~−61% (6000 = ~2.55x X). The user class for the $2,595 is not stated, and the S4 and X Plus prices are not the same fiscal year. The page's own 'up to 60% reduction in sequencing price' fits this.",
+      "url": "https://www.mdanderson.org/research/research-resources/core-facilities/advanced-technology-genomics-core/services-and-fees/novaseqx-plus-sequencing.html",
+      "date": "FY2022–FY2024 schedules; X Plus page ©2026",
+      "source_name": "MD Anderson Advanced Technology Genomics Core (ATGC) price schedules and X Plus page",
+      "source_type": "price_list",
+      "quote": "Up to 60% reduction in sequencing price (depending upon sequencing type)",
+      "strength": "medium",
+      "why_new": "MD Anderson is not in the known core list. It gives a named 6000-to-X per-Gb step (~−61%) and shows 6000 list prices were rising into FY24."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Where 6000 lanes were still sold in FY24, their price was held or raised, which is consistent with the tail being less price-elastic.",
+      "detail": "MD Anderson S4-300 Xp lane prices ran $4,933 → $4,901 → $5,167 across FY22–FY24 for members (+4.7% over two years). The external rate went $8,475 → $8,430 → $8,805 (+3.9%). Salk and EPFL cut 6000 prices, and CNAG raised them ~4%. MD Anderson's 6000 pricing therefore looks like the 'raise on the tail' pattern, not the 'cut' pattern. The figures come from a search-result summary of the schedules, so they are unverified at file level.",
+      "url": "https://www.mdanderson.org/documents/core-facilities/sequencing-and-microarray-facility/ATGC FY2022 Price Schedule.pdf",
+      "date": "FY2022–FY2024",
+      "source_name": "MD Anderson ATGC FY2022, FY2023 and FY2024 price schedules",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds a third core's 6000 price direction (up ~4–5% in FY24) next to the known Salk cut and CNAG rise."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Core price ladders imply each larger X flow cell cuts per-read price by ~33–35%. A 35B with +40% output priced on the same ladder would cut per-Gb price by about 14%.",
+      "detail": "TCAG (Apr 2025, CAD): 10B-300 C$2,080 and 25B-300 C$3,470 per lane, ratio 1.67x. MD Anderson: $1,523 vs $2,595, ratio 1.70x. Output per lane is 1.25B vs 3.2B pairs (2.56x), so price rises only ~1.68x for 2.56x output. That gives a price-to-output exponent of ln1.68/ln2.56 ≈ 0.55. Per M pairs: TCAG C$1,664 (10B) vs C$1,084 (25B), −35%. MD Anderson $1,218 vs $811, −33%. A 35B with 1.4x the output of the 25B would then cost ~1.4^0.55 ≈ 1.20x per lane, ~−14% per Gb. That is smaller than the ~20% estimate from the ex-Illumina AD. If Illumina prices more aggressively than the historical ladder, the cut would be larger.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "Apr 2025 (TCAG); MDA page ©2026",
+      "source_name": "TCAG NGS Price List Apr 2025 and MD Anderson ATGC X Plus page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First ladder-based derivation of the 35B per-Gb cut from two core price lists. It brackets the single ex-AD figure of ~20% from below."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Mid-throughput X flow cells carry far higher per-read prices than the 25B, so the mid-throughput tier is the most exposed to cheaper rivals.",
+      "detail": "TCAG Apr 2025 (opened): the 1.5B-300 lane is C$2,485 for ~0.8B pairs (C$3,106 per M pairs/1000). The 10B-300 is C$2,080 for 1.25B (C$1,664). The 25B-300 is C$3,470 for 3.2B (C$1,084). The 1.5B per-read price is 2.9x the 25B and 1.9x the 10B. At MD Anderson, 1.5B-300 is $2,166 for 0.8B ($2,708 per B pairs) vs $811 for the 25B, 3.3x. The 1.5B lane costs more than a 10B lane at TCAG. A lab needing small runs pays 3x per read, which is the segment where Element, MiSeq i100 and others compete.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "Apr 2025",
+      "source_name": "TCAG NGS Price List; MD Anderson ATGC X Plus page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies the per-read premium on the 1.5B flow cell at two cores. The known corpus covers only the 10B-to-25B step."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Johns Hopkins GRCF charges the same $650 for a 30x human genome on the 6000 and on the X Plus. The reagent saving of roughly $450 per genome is kept by the core, not passed on to users.",
+      "detail": "The GRCF 6000 WGS page and the separate X Plus WGS page both list $650 per genome (30x), with a saliva surcharge of 25% on the older page and 20% on the X Plus page. At ~100 Gb per genome, S4 reagent at ~$6.9–7.2/Gb is ~$690–720, and 25B reagent at ~$2.6–2.7/Gb is ~$260–270, a gap of ~$430–460 per genome. TCAG prices the same product at C$650 and NGI at ~6,000 SEK. Research end-customers are not seeing price falls, so cores are not passing savings on and are not a price-fighting buyer base here. The JHU page text was read via search snippets because direct fetch returned 403. The 6000 page may be stale.",
+      "url": "https://grcf.jhmi.edu/?p=15308",
+      "date": "undated; fetched 2026-10",
+      "source_name": "JHU Genetic Resources Core Facility (GRCF) WGS pages",
+      "source_type": "price_list",
+      "quote": "Price per Sample $650* *Saliva samples require a 20% additional charge",
+      "strength": "weak",
+      "why_new": "The known corpus notes only the existence of two JHU pages. This compares them and puts a dollar figure on the unshared saving."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "At research cores, sequencing reagent is still about half of a retail 30x genome's price, so sequencing cost is not yet a minor line in research WGS.",
+      "detail": "TCAG Apr 2025: human 30x including prep, 90–100 Gb, is C$650. PCR-free prep is C$140 (22%). Sequencing is ~95 Gb of a ~960 Gb 25B lane at C$3,470, or ~C$343 (53%). The remaining ~C$167 (26%) is handling, QC and margin. NGI's 6,000 SEK all-in includes bioinformatics, and its 25B lane example is 32,000 SEK, so ~3,200 SEK of sequencing per genome on the same maths (~53%). This cuts against 'sequencing cost no longer binds' for research WGS. The known 5–10% share applies to clinical workflow cost, not research core price.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "Apr 2025; NGI page updated 24 Jun 2026",
+      "source_name": "TCAG price list; NGI Sweden price examples",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Decomposes a retail core genome price into prep, sequencing and margin. This is a watch-out for the 'cost not the constraint' claim."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Johns Hopkins cores price by sample count, and the discounts are steep: exome tiers fall 53% from small to large projects, and WGS is cheaper above 192 samples.",
+      "detail": "GRCF exome pages list $950 per sample for 1–23 samples and $450 for 128+, a 53% fall. The JHU CIDR sheet (updated 1 Feb 2024) lists 30x WGS at $500–600 scaled by sample count above 192 samples, with a 25% saliva surcharge. The $500–600 range is a ~17% spread, and the sheet notes lower prices can be negotiated by project. The figures are search-result snippets. This is core-level pricing, not Illumina's own, but it shows large-project buyers get materially lower unit prices and pass that pressure upstream. It also adds a second, larger volume tier to the known ~9% 25B 2+ flow-cell tier at another core.",
+      "url": "https://cidr.jhmi.edu/xtras/shared/documents/pricing.pdf",
+      "date": "1 Feb 2024 (CIDR); GRCF pages undated",
+      "source_name": "JHU CIDR price sheet and GRCF exome pages",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Provides a quantified large-account tier (−53% exome, −17% WGS) from JHU. The known list has only a 9% flow-cell tier at another core."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Sweden's national sequencing infrastructure (NGI) still charges about 32,000 SEK per 25B lane. That is above US core lane prices and shows no sign of a collapse.",
+      "detail": "NGI price examples (last updated 24 Jun 2026; prices flagged 'as of 2025-02-01') cost one 25B-300 lane (~3B read pairs) at 32,000 SEK. Library prep is 1,200 SEK per sample. A human 30x PCR-free genome is ~6,000 SEK all-in with bioinformatics. At an assumed 9.5–10 SEK/USD (my assumption), the lane is ~$3.2–3.4K vs MD Anderson $2,595 and TCAG C$3,470. NGI also moved to unit pricing: 600M read pairs per unit, with 5B = 1, 10B = 2 and 25B = 5 units (announcement dated 2025/11), which removes any flow-cell-size discount. The lane price may be stale relative to the page date.",
+      "url": "https://ngisweden.scilifelab.se/resources/price-examples/",
+      "date": "page updated 2026-06-24; prices as of 2025-02-01",
+      "source_name": "NGI Sweden / SciLifeLab price examples",
+      "source_type": "price_list",
+      "quote": "approx. 6000 SEK total/sample",
+      "strength": "weak",
+      "why_new": "NGI is not in the known core list. It is a European national-infrastructure price point and a flat per-read pricing unit."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "TCAG's April 2025 price list shows no 6000 pricing at all (the 6000 is 'contact facility'), which suggests 6000 demand at research cores is largely gone.",
+      "detail": "TCAG's NGS list (Apr 2025, opened and read) lists NovaSeq X lanes (1.5B, 10B, 25B at 100/200/300 cycles) and a human WGS price on the X only. The 6000 row reads 'Contact facility' with no price, and non-human WGS on 'NovaSeq' is also 'contact'. Together with 1-for-1 core replacements and Novogene's 6000 exit, this supports the view that the research-core 6000 tail is small. I found no 2023 or 2024 TCAG lists to compute a 6000-to-X per-genome change, as direct URL guesses returned 404 and web.archive.org is blocked.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "Apr 2025",
+      "source_name": "TCAG (Centre for Applied Genomics, SickKids) NGS price list",
+      "source_type": "price_list",
+      "quote": "Illumina NovaSeq 6000 Sequencing: Contact facility",
+      "strength": "weak",
+      "why_new": "The known corpus names the TCAG list but records no content. This is the first full read of its X ladder and its 6000 treatment."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "TCAG still lists X lanes at C$3,470 for a 25B-300 lane and charges C$650 for a bundled genome. Research WGS prices are not showing price pressure from Ultima or Roche at these cores.",
+      "detail": "TCAG Apr 2025 (CAD): 25B-300 C$3,470, 25B-200 C$3,085, 25B-100 C$2,500, 10B-300 C$2,080. PacBio Revio is C$1,675 per cell and ONT PromethION C$1,400, so TCAG does not list Ultima or Element at all. A 30x X genome at C$650 compares with $192–221 for Ultima at UMGC (known). At Apr 2025, a Canadian core shows no rival-driven price response. The list is 18 months old and may have changed.",
+      "url": "https://www.tcag.ca/documents/facilities/TCAG-NGS-Price-List April 2025.pdf",
+      "date": "Apr 2025",
+      "source_name": "TCAG NGS Price List",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the Canadian core's complete X lane ladder and the absence of Ultima/Element from it."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Opened and read: the TCAG April 2025 PDF in full (via the saved binary, since WebFetch could not decode it) and the MD Anderson X Plus page. These were blocked or missing: JHU pages (403), CIDR PDF (403), MD Anderson FY22–24 schedules (404 on direct fetch; figures are search-summary level), older TCAG lists (404 on guessed URLs), web.archive.org (blocked). The core Illumina price series I could build is limited to MD Anderson FY22–24 (6000) vs the undated X Plus page. A later agent could try a browser-capable fetch of the MD Anderson FY2024 docx and the JHU GRCF 6000 and X Plus pages to verify. NGI's 2025/11 announcement text was not found.",
+  "leads": [
+    {"name": "MD Anderson ATGC FY2022 price schedule PDF", "url": "https://www.mdanderson.org/documents/core-facilities/sequencing-and-microarray-facility/ATGC FY2022 Price Schedule.pdf", "access": "public PDF (search-indexed)", "labels": ["1A", "1B"], "rationale": "Full S4/S1/SP 6000 rows by user class, to build a 6000 price series and compare with the X Plus page."},
+    {"name": "Michigan State RTSF NovaSeq 6000 by-the-lane list (19 Jul 2023)", "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/NovaSeq%206000%20Sequencing%20Available%20by%20the%20Lane_19July2023.pdf", "access": "public PDF", "labels": ["1A"], "rationale": "S4 lane ~$5,953 in 2023; the 6000-era baseline to compare with MSU's X pricing."},
+    {"name": "MDC Berlin NovaSeq 6000 price lists (2020–2021)", "url": "https://www.mdc-berlin.de/media/38662", "access": "public PDF", "labels": ["1A"], "rationale": "Early 6000-era EUR lane prices for the time series."},
+    {"name": "VCGS Genomic tests price changes 2026", "url": "https://www.vcgs.org.au/api/media/Genomic-tests-price-changes-2026.pdf", "access": "public PDF", "labels": ["1B", "1C"], "rationale": "A clinical genetics service's 2026 test price changes: possible pass-through of sequencing cost declines to clinical prices."},
+    {"name": "Mercell (Sweden) tender: NovaSeq X Sequencing System and DRAGEN Server v4", "url": "https://www.mercell.com/sv-se/upphandling/241901667/novaseq-x-sequencing-system-and-illumina-dragen-server-v4-upphandling.aspx", "access": "public listing", "labels": ["1B", "1C"], "rationale": "Nordic procurement record that may show award value and consumables terms."},
+    {"name": "NGI Sweden news archive 2025 (unit pricing announcement)", "url": "https://ngisweden.scilifelab.se/2025/", "access": "public", "labels": ["1B"], "rationale": "Nov 2025 post on aligning NovaSeq X sequencing costs across flow cells, possibly with the SEK unit price."},
+    {"name": "UConn CGI service rates (Jan 2025, draft site)", "url": "https://draft.genome.center.uconn.edu/cgi_service_rates", "access": "public", "labels": ["1A", "1B"], "rationale": "6000 vs X rate card with instrument access fee; useful for a before/after series."}
+  ],
+  "apify_requests": []
+}
+```

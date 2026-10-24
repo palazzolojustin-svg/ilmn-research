@@ -1,0 +1,224 @@
+Pricing–New | Genomics Facility
+The University of Chicago
+OSRF FTP
+OSRF Home
+Genomics Facility
+FAQ
+Services
+NGS Sequencing
+RNA-Sequencing
+Quality Control
+10x Genomics
+Micro-Arrays
+Nano-String
+Methyl Sequencing
+Whole Genome Sequencing
+Forms
+Fees
+About Us
+Select Page
+Close
+Pricing
+NGS
+Service Name |
+unit |
+Internal Rate |
+External Affiliated Rate |
+External Academic Non-Profit Rate |
+External Start-Up Company Rate |
+External Commercial Rate |
+AVITI-seq-150bp-fc |
+each |
+$1,175.00 |
+$1,175.00 |
+$1,175.00 |
+$1,515.35 |
+$1,855.69 |
+AVITI-seq-300bp-fc |
+each |
+$1,475.00 |
+$1,475.00 |
+$1,475.00 |
+$1,737.00 |
+$1,999.00 |
+AVITI-seq-600bp-fc |
+each |
+$2,699.00 |
+$2,699.00 |
+$2,699.00 |
+$3,466.26 |
+$4,233.51 |
+NovaX-1.5B-100-ln (SR100 / PE50) |
+lane |
+$1,325.00 |
+$1,325.00 |
+$1,325.00 |
+$1,412.00 |
+$1,499.00 |
+NovaX-1.5B-200-ln (PE100) |
+lane |
+$1,750.00 |
+$1,750.00 |
+$1,750.00 |
+$1,824.50 |
+$1,899.00 |
+NovaX-1.5B-300-ln (PE150) |
+lane |
+$1,775.00 |
+$1,775.00 |
+$1,775.00 |
+$1,887.00 |
+$1,999.00 |
+NovaX-10B-100-(SR100 / PE50) |
+lane |
+$1,175.00 |
+$1,175.00 |
+$1,175.00 |
+$1,225.00 |
+$1,275.00 |
+NovaX-10B-100-ln (SR100 / PE50) - NoReagents |
+lane |
+$293.75 |
+$293.75 |
+$293.75 |
+$293.75 |
+$293.75 |
+NovaX-10B-200-(PE100) |
+lane |
+$1,475.00 |
+$1,475.00 |
+$1,475.00 |
+$1,537.00 |
+$1,599.00 |
+NovaX-10B-200-ln (PE100) - NoReagents |
+lane |
+$368.75 |
+$368.75 |
+$368.75 |
+$368.75 |
+$368.75 |
+NovaX-10B-300-(PE150) |
+lane |
+$1,499.00 |
+$1,499.00 |
+$1,499.00 |
+$1,561.50 |
+$1,624.00 |
+NovaX-10B-300-ln (PE150) - NoReagents |
+lane |
+$374.75 |
+$374.75 |
+$374.75 |
+$374.75 |
+$374.75 |
+NovaX-25B-100-ln (SR100 / PE50) |
+lane |
+$1,900.00 |
+$1,900.00 |
+$1,900.00 |
+$2,249.50 |
+$2,599.00 |
+NovaX-25B-300-ln (PE150) |
+lane |
+$2,461.00 |
+$2,461.00 |
+$2,461.00 |
+$2,530.00 |
+$2,599.00 |
+10x Genomics
+Service Name |
+unit |
+Internal Rate |
+External Affiliated Rate |
+$25.00 |
+$25.00 |
+$25.00 |
+F17-ILMN-GT: Meth-Bisulfite conversion |
+sample |
+$12.50 |
+$12.50 |
+$12.50 |
+$12.50 |
+$12.50 |
+CO-custom-Methylation-Asthma-Array-SP |
+array |
+$117.00 |
+$117.00 |
+$117.00 |
+$117.00 |
+$117.00 |
+Nano-String
+Service Name |
+unit |
+Internal Rate |
+External Start-Up Company Rate |
+External Commercial Rate |
+BioIn-charge |
+unit |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+F25-ILMN-SEQ: Multiplexing |
+lane |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+F38-ILMN-SEQ: Library QC-qPCR |
+sample |
+$28.00 |
+$28.00 |
+$31.00 |
+External Academic Non-Profit Rate |
+External Start-Up Company Rate |
+External Commercial Rate |
+F43-RNA: Column purification |
+sample |
+$20.00 |
+$20.00 |
+$26.00 |
+$26.00 |
+$26.00 |
+10B-100-Surcharge |
+lane |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+10B-300-Surcharge |
+lane |
+$65.00 |
+$65.00 |
+$65.00 |
+$65.00 |
+$65.00 |
+1.5B-100-Surcharge |
+lane |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+$50.00 |
+1.5B-300-Surcharge |
+lane |
+$70.00 |
+$70.00 |
+$70.00 |
+$70.00 |
+$70.00 |
+1.5B-600-Surcharge |
+lane |
+$125.00 |
+$125.00 |
+$125.00 |
+$125.00 |
+$125.00 |
+Scroll to Top
+900 E. 57th St., Room 1230C
+Chicago, IL. 60637
+773.834.8420
+pfaber@bsd.uchicago.edu

@@ -1,0 +1,22 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 4 calls (2 searches, 2 fetches) and the EDGAR browse URL was not opened directly. Search snippets for Tempus's Q2'26 release gave oncology volume +31% (28% in Q1), MRD ~9,000 tests (6,500 in Q1), hereditary revenue +5% ($107.4M) and diagnostics revenue +20% ($289.3M). Your known list already has all of these except hereditary revenue (+5%, $107.4M) and the Q1 oncology comparison (28%). Hereditary VOLUME, sequencing COGS and sequencer-platform commentary did not appear in any snippet. The Tempus and BusinessWire press-release fetches returned 429 and 403, and the Nasdaq article timed out. The call transcripts I found (allmind.ai, Statementdog, MarketBeat) showed only opening remarks or AI summaries in the results. One summary says MRD economics are 'near break-even' and Tempus will expand sales coverage gradually. That is a weak, unverified AI-summary point. It bears slightly on the MRD volume ramp (1C), not on Illumina pricing. No new evidence was strong enough to submit as an item.",
+  "how_to_mine": "Open the Tempus Q2'26 10-Q on sec.gov (browse CIK for Tempus AI, form 10-Q, filed ~30 Jul 2026) and read MD&A: cost of revenue by segment, genomics gross margin, test volumes by oncology and hereditary, and any sequencer or platform language in the cost discussion. Then read the full call transcript Q&A (MarketBeat or the Quartr link) for 'sequencing', 'NovaSeq' and 'cost per test'. Also pull the Q1'26, Q4'25, Q3'25 and Q2'25 releases for the oncology and hereditary volume series, plus the 10-K FY25 supplier and sequencer risk factor wording. Run Python urllib with a User-Agent header on EDGAR full-text search (efts.sec.gov), since the fetch tool is rate-limited.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Tempus 10-Q Q2'26 MD&A on cost of revenue and genomics gross margin (sec.gov)",
+    "Tempus full Q2'26 call Q&A on sequencing cost per test and the MRD 'near break-even' comment",
+    "Personalis/Tempus merger proxy or S-4 (sequencer and cost assumptions for NeXT Personal)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Tempus Q2 2026 results (Tempus)](https://www.tempus.com/news/pr/tempus-reports-second-quarter-2026-results/)
+- [Tempus Q2 2026 results (BioSpace)](https://www.biospace.com/press-releases/tempus-reports-second-quarter-2026-results)
+- [Zacks write-up (Nasdaq)](https://www.nasdaq.com/articles/tem-q2-loss-narrower-expected-revenues-beat-stock)
+- [MarketBeat Q2 2026 call summary](https://www.marketbeat.com/earnings/reports/2026-7-30-tempus-ai-inc-stock/)
+- [Quartr Q2 2026 summary](https://quartr.com/events/tempus-ai-inc-tem-q2-2026_F3j4vqTx)

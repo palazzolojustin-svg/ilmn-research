@@ -1,0 +1,15 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Both the Medicare Statistics MBS item page and its VEA0032/SAS.Web mirror returned HTTP 503 to WebFetch. The portal is a SAS form that probably needs interactive POSTs, and search snippets don't reach it. A web search for items 73358, 73359 and 73360 found only item descriptors and a Melbourne Genomics all-genomic-test aggregate. I found no item-level service counts and no data. I did not try the data.gov.au MBS group CSV, which is the remaining untested route. Descriptor facts from the snippets: 73358 and 73359 cover exome or genome sequencing for children under 11 with suspected single-gene conditions (singleton or trio). 73360 covers re-analysis. Everything is Australian public-payer rare-disease testing, so it is a thin proxy for Illumina clinical volume.",
+  "how_to_mine": "1) Retry the portal later with a real browser or Playwright. Open mbs_item.html, enter items 73358, 73359 and 73360 (add other genomic items found via mbsonline.gov.au searches for 'whole genome' and 'whole exome'), choose a monthly or financial-year report, and export the table. 2) Try the data.gov.au MBS group dataset (https://www.data.gov.au/data/dataset/medicare-benefits-schedule-mbs-group) or the Services Australia MBS item CSVs. 3) Cross-check with MSAC post-implementation reviews and the VCGS/RCH pages, which may quote counts. 4) Judge the series by growth rate. Compare year-on-year service counts, and the ratio of actual to MSAC-forecast services if a forecast is published.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "https://www.data.gov.au/data/dataset/medicare-benefits-schedule-mbs-group",
+    "https://www.melbournegenomics.org.au/guide-genomics/genomics-and-health-conditions/how-much-do-we-spend-genomic-testing",
+    "https://www.vcgs.org.au/api/media/Genomic-tests-price-changes-2026.pdf"
+  ],
+  "apify_requests": []
+}
+```

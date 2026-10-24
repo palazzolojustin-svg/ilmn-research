@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "Freenome closed its SPAC merger with Perceptive Capital (CIK 2017526, ticker FRNM) on 20 Jul 2026. I read the Super 8-K (24 Jul 2026) and S-4 Ex. 10.24, the Illumina supply agreement. I did not open the Roche License and Option Agreement (17 Nov 2025) or the S-4 risk factors. The 8-K body does not mention SBX, Axelios, per-sample costs or moving off Illumina. The post-close 10-Q (first one due about mid-Aug 2026) was not located; the 10-Qs listed under CIK 2017526 are the SPAC's own. Main takeaway: Freenome's Illumina contract uses the same template as the Caris Open Offer (Ex. 10.2(A)) already in the known list, with no purchase commitment and no exclusivity. That gives Freenome a free option to move volume to Roche. Press coverage (Nov 2025) says Freenome only 'evaluates' SBX, and Leerink sees no near- to medium-term Illumina impact. Roche's exclusive ex-US 'kitted' test rights point to decentralized, non-Illumina-centralized testing. This is thin on quantified evidence.",
+  "how_to_mine": "1) Open the S-4/A of 11 Jun 2026 (https://www.sec.gov/Archives/edgar/data/2017526/000114036126024950/0001140361-26-024950-index.htm) and search the main document for 'Illumina', 'SBX', 'sequencing by expansion', 'Roche', 'cost per sample' and 'COGS'. 2) Open the Roche License and Option Agreement (17 Nov 2025) among Ex. 10.14 to 10.25 of the S-4, and the Roche convertible note, for the option scope, any exclusivity on SBX, and milestone terms. 3) Read Ex. 99.1 and 99.2 of the 24 Jul 2026 8-K (likely financials and the investor deck) and the 8-K/A of 13 Aug 2026. 4) Look for Freenome's first post-close 10-Q (Q2'26, due about mid-Aug 2026, under CIK 1676446 or 2017526) for the sequencing cost of revenue and any risk-factor language about Illumina concentration. 5) Read Ex. 10.24 from offset 100000 for the remaining ~10K characters.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Freenome, now public (FRNM), holds an Illumina supply agreement with no purchase commitment, no exclusivity, a no-increase price clause and MFN refunds, and it is also Roche's SBX evaluation partner.",
+      "detail": "Supply Agreement dated 8 Jan 2024, term to 18 Aug 2033, filed as S-4 Ex. 10.24 (28 Apr 2026) and listed as Ex. 10.13 in the 24 Jul 2026 Super 8-K. It has no purchase commitments or exclusivity, and Freenome keeps a 'unilateral right to terminate'. Appendix A has the PPI-adjusted no-increase clause, the 43% per-Gb cut by 2025 vs the 2021 baseline, and MFN vs 'Equivalent' customers and GRAIL. Roche holds 17.4% of Freenome (18.69M shares incl. 6.46M from a convertible note) and has a License and Option Agreement dated 17 Nov 2025. Freenome can therefore shift volume to AXELIOS/SBX at no contractual cost, and Illumina has no volume floor. Both contract and ownership show a large oncology-diagnostics customer with the same leverage terms as the Caris Open Offer.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1676446/000114036126017428/ny20061080x8_ex10-24.htm",
+      "date": "2026-04-28",
+      "source_name": "SEC EDGAR, Freenome S-4 Ex. 10.24 and Super 8-K 24 Jul 2026",
+      "source_type": "filing",
+      "quote": "not contingent on any purchase commitments by Customer",
+      "strength": "weak",
+      "why_new": "Freenome as a third customer on the Open Offer-type template, and Roche's 17.4% stake, are not in the known list; the terms themselves repeat the known Caris template."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Analysts and filings show Freenome only 'evaluating' SBX, and Leerink expects no near- to medium-term Illumina impact.",
+      "detail": "Roche/Freenome deal (18 Nov 2025): over $200M potential, $75M equity, Roche exclusive ex-US kitted-test rights. Freenome will 'evaluate' SBX for future applications. Leerink says AXELIOS needs a few years of refinement for clinical use, and that rivals' assays are entrenched or FDA-approved on Illumina. The Super 8-K has no SBX or AXELIOS language, so there is no filed commitment to move off Illumina.",
+      "url": "https://www.biopharmadive.com/news/Roche-rights-Freenome-cancer-tests-outside-US/806149/",
+      "date": "2025-11-18",
+      "source_name": "BioPharma Dive (search-result summary)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Freenome is listed as an AXELIOS buyer 'evaluating', but the deal structure and the analyst view of no near-term impact were not recorded."
+    }
+  ],
+  "new_candidates": [
+    "Freenome S-4/A (11 Jun 2026) risk factors and business section on sequencing cost per sample and Illumina dependence",
+    "Freenome Roche License and Option Agreement (Nov 2025) exhibit among S-4 Ex. 10.14 to 10.25",
+    "Freenome first post-close 10-Q (Q2'26), if filed under CIK 1676446"
+  ],
+  "apify_requests": []
+}
+```

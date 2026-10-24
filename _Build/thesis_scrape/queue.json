@@ -1,0 +1,58 @@
+{
+ "tasks": [
+  {
+   "type": "PROBE",
+   "model": "sonnet",
+   "source_id": "S1011",
+   "label": "2B",
+   "title": "UIUC Carver HTS pricing: X lane rates vs AVITI/rivals, dated",
+   "instructions": "Open the UIUC Roy J. Carver Biotechnology Center HTS/DNA Services pricing page. Record the internal and external prices for NovaSeq X 10B/25B lanes, any remaining NovaSeq 6000 S4 prices, and any AVITI, Ultima or Element offerings, along with the effective date. Tie this to the known $25M sole-source Illumina reagent ceiling (Jul 2024) and say whether lane prices fell after the 2024 contract. If an archive.ph snapshot exists, compare it. Hard stop: 8 minutes.",
+   "id": "T875"
+  },
+  {
+   "type": "PROBE",
+   "model": "sonnet",
+   "source_id": "S1026",
+   "label": "1B",
+   "title": "Taipei VGH X10809E/X10704E successor tenders: discount series",
+   "instructions": "Use the pcc-api.openfun.app JSON route. Find the 2021-2024 successor tenders to Taipei VGH X10809E and X10704E (Illumina tumor CGP reagent plus instrument), then link them to the renewal behind F1089 (discount went from 20% to 7.5%). Record budget, award, discount and term for each round, so we can see whether the shrinking discount is a trend or a one-off. Report evidence against 1B honestly. Stop after about 10 minutes.",
+   "id": "T884"
+  },
+  {
+   "type": "PROBE",
+   "model": "sonnet",
+   "source_id": "S1020",
+   "label": "1B",
+   "title": "NHRI TSO500 direct buys from Illumina Taiwan: unit price over time",
+   "instructions": "Use the pcc-api JSON route. Start from NHRI 111A0C0244 (Sep 2022, TruSight Oncology 500 bought direct from Illumina Taiwan), then search later NHRI and other buyers' TSO500 lots (2023-2026). Record per-kit or per-sample award prices and discounts to budget, so we can tell whether Illumina's clinical-panel pricing is falling. Stop after about 10 minutes or 15 records.",
+   "id": "T885"
+  },
+  {
+   "type": "PROBE",
+   "model": "sonnet",
+   "source_id": "S1034",
+   "label": "1A",
+   "title": "Clarity LIMS instrument compatibility matrix: 6000 support status",
+   "instructions": "Open the public Clarity LIMS 'Instruments & Integrations' compatibility matrix on support.illumina.com. Record the NovaSeq 6000 and 6000Dx rows (supported versions, last-validated Clarity version, any 'legacy', 'maintenance' or 'end of support' flags) against the NovaSeq X rows. Use only dated facts. Do not repeat F1112-F1114. Stop after about 8 minutes.",
+   "id": "T886"
+  },
+  {
+   "type": "SCOUT",
+   "model": "opus",
+   "source_id": "",
+   "label": "1A",
+   "title": "Untried forensic angles on whether the remaining 6000 volume is permanent",
+   "instructions": "1A is the thinnest label. Brainstorm 5-6 untried, no-login public sources that would show whether the NovaSeq 6000's remaining ~41% of consumables revenue is migrating or staying put. Do NOT propose: Wayback, GTR, SAM.gov, used-equipment dealers/surplus, ENA/SRA/GEO counts, Clarity/software release notes, EDGAR full-text sweeps, job boards, or Taiwan PCC (all done or dry). Ideas to test: Illumina regional (JP/KR/EU) 6000 reagent-kit discontinuation or last-order notices; distributor list-price PDFs in other countries showing 6000 kit price changes; CLIA/state lab-licence instrument amendments outside NY; hospital capital budgets or board minutes approving 6000-to-X replacement; the IVD-assay menu on the 6000Dx vs the X in non-US regulatory databases (e.g. Health Canada MDALL, TGA ARTG). For each source, open at least one page to check access. Return candidates with URLs and the access you verified. Stop after about 12 minutes.",
+   "id": "T887"
+  },
+  {
+   "type": "PROBE",
+   "model": "sonnet",
+   "source_id": "S1035",
+   "label": "1B",
+   "title": "NovaSeq X v1.4.0 release notes: 35B flow cell and new-chemistry details",
+   "instructions": "Open the NovaSeq X Series v1.4.0 release notes (doc 200079828) on support.illumina.com. Record any dated support for the 35B flow cell, read-length or output upgrades, and any shift of 10B/25B kits (for example, more output at the same SKU, which is an implied $/Gb cut). Compare with the earlier release notes if they are linked. Use dated facts only. Stop after about 8 minutes.",
+   "id": "T888"
+  }
+ ]
+}

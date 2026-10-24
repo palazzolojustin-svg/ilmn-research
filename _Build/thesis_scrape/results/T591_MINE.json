@@ -1,0 +1,52 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Ten major Chinese institutions deposited zero NovaSeq X human series in GEO in both Q3'25 and Q3'26, while they kept depositing 6000 series, so the Chinese 6000 tail shows no conversion.",
+      "detail": "Series (GSE) counts by submission quarter, filtered with exact-phrase Submitter Institute terms (Peking, Fudan, Zhejiang, Sun Yat-sen, Shanghai Jiao Tong, CAS, Tsinghua, Sichuan, Nanjing Medical, Wuhan). Human 6000 platform GPL24676: 80 series in Q3'25 (5.6% of 1,441) and 73 in Q3'26 (4.4% of 1,647). Human X platform GPL34281: 0 in both quarters, against 123 and 251 X series overall. So these institutions have 6000 share of 6000+X = 100% in both quarters, versus 92.1% (1,441/1,564) and 86.8% (1,647/1,898) for all submitters. China is a small share of 6000 deposits (4–6%) and Greater China was already weak (−11% y/y in Q2'26), so it does not explain the global 6000 tail. Caveat: exact-phrase lists miss institute-name variants, and the 6000 count includes non-human series only if they use the human GPL.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL34281[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+(\"Peking University\"[INST]+OR+\"Fudan University\"[INST])&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known GEO items give global 6000 share only; this is the first institution-group (China) split, and the X count there is zero."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At ten large US academic and cancer-center submitters, the 6000 still held 75% of 6000+X human series in Q3'26 (84% in Q3'25), converting slower than the all-submitter pool is converting.",
+      "detail": "Institutions: Harvard Medical School, Stanford, Johns Hopkins, MSK, Mayo, UCSF, Broad, WashU, Yale, Penn (exact INST phrases). Q3'25: 6000 = 54 series, X = 10, so 6000 share 84.4%. Q3'26: 6000 = 49, X = 16, so 75.4%. That is a fall of about 9 points in a year, against about 5 points for the global pool (92.1% to 86.8%, using series counts of 1,441/123 and 1,647/251). Absolute 6000 series at these sites only fell from 54 to 49, so a quarter of their output is still on the 6000 and the decay is slow.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL24676[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]+AND+(\"Mayo Clinic\"[INST])&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds a pooled US-institution group with Q3'25 and Q3'26 series counts; earlier items looked at single institutions (Mayo, MSK, Stanford) over different windows."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "In the US top-institution group the X share of series rose from 16% to 25% in a year, a faster conversion than the global pool, so a research-heavy 6000 tail is shrinking at the biggest US sites.",
+      "detail": "X share of 6000+X series: US group 15.6% (10/64) in Q3'25 and 24.6% (16/65) in Q3'26. Global human pool: 7.9% (123/1,564) and 13.2% (251/1,898). The US group converts roughly 1.5–2x ahead of the pool, which is consistent with research already ~90% on the X in Illumina's data. The X share gain at the US group was +9 points versus +5 points globally. Small counts (n=64–65) mean a wide error band.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL34281[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies how much faster top US institutions convert than the pool, a watch-out for the tail thesis."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "The tools in this session were WebFetch only (no shell), and they hit these limits. (1) A true contact-country split is not queryable: there is no country field in GEO esearch (the Organization field returned FieldNotFound). Institution lists were used as a proxy, and only the China and US lists were run. UK, DE and other country lists were not run. (2) INST works only on series (gse), not on samples (gsm); GSM-level institution counts returned 0. (3) The rival platforms (AVITI, DNBSEQ-T7 human, UG100) were not counted by institution group. GPL IDs for them need a lookup, and many new organism-specific AVITI and T7 GPLs exist (for example GPL37604 AVITI, GPL37606 DNBSEQ-T7+ human). A script looping GPL x quarter x institution would finish this in minutes. (4) An institution-cohort (top 150 institutions with 6000-only output in 2024, tracked for first X series) still needs a script with usehistory and esummary.",
+  "leads": [
+    {"name": "GEO GPL esummary for new platform records (AVITI, DNBSEQ-T7+, UG100, SBX)", "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=100037606", "access": "free E-utilities", "labels": ["2B", "1B"], "rationale": "Records such as GPL37606 (DNBSEQ-T7+ human) and GPL37604 (AVITI) show new rival platforms; per-GPL quarterly counts by institution would give rival share by country."},
+    {"name": "ENA/SRA instrument-model by center_name", "url": "https://www.ebi.ac.uk/ena/portal/api/", "access": "free API", "labels": ["1A", "2B"], "rationale": "ENA run records carry center_name and country fields, which give the country split that GEO lacks."}
+  ],
+  "apify_requests": []
+}
+```

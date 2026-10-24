@@ -1,0 +1,63 @@
+Prices ‒ GECF ‐ EPFL
+Skip to content
+About
+Education
+Research
+Innovation
+Schools
+Campus
+Search on the site
+Validate
+Show / hide the search form
+Search on the site
+Hide the search form
+EN
+EN
+FR
+DE
+IT
+Menu
+…
+Afficher l'intégralité du fil d'Ariane
+Research
+Affiche les pages de même niveau
+About
+Education
+Prices
+Price list
+New price list published on 9th of September 2026, available here.
+In short:
+In order to keep our standard prices as low as possible, extra labour fees are now charged for very custom projects or ones requiring priority processing, as well as for spikes not meant as a QC prior to a larger run. This will be discussed at project reception.
+A labour fee is also now charged for old data retrieval (to take into account the explosion of such demands), with a minimal fee of 31 CHF.
+new modest custom genome creation fee.
+New ATAC-seq library prep service.
+As a reminder, previous updates of 2026 brought:
+NGS: BRB-seq “Economy mode” at 16CHF/sample.
+NovaSeq: strong price decrease of the 10’000 mio reads 300 cycles runs.
+New cheaper MiSeq, with new PE500 option (1’000 cycles)!
+Aviti24 upgrade: increased yield.
+ONT: change in price structure over several methods. Addition of Takara Smart-seq Long-Read.
+Spatial: new Visium HD 11mm.
+Single Cell: new cheaper and better 10XG GEMX multiome. New cheaper prices for FLEX v2 and possibility to run any number of samples.
+As a reminder, previous updates of 2025 brought:
+Strong decrease of aviti and NovaSeq prices. Announcement of a soon-to-arrive cheaper solution for larger projects.
+Strong decrease of 10XG FLEX prices.
+Decrease of 10XG 3’GE v4 and multiome prices.
+Strong decrease of 10XG “on-chip multiplexing” prices.
+Addition of Oxford Nanopore direct RNA service.
+Addition of i.dot and c.wash & f.sight services.
+Decrease of RNA-seq and DNA-seq preps, and switch to Watchmaker.
+Decrease of Visium prices. Addition of VisiumHD polyA.
+Addition of FLASH-seq service.
+And the updates of 2024 brought:
+NGS: Decrease of NovaSeq prices. Addition of Aviti.
+Libraries: new better “SMART-seq Total Pico with UMIs” method instead of the older “SMARTer pico v3”.
+10X Genomics: Addition of totalseq multiplexing options. New FLEX version and prices adjustements. Addition of Visium HD, scATAC-seq, and scRNA-seq 3’GE v4; Labour now included in 10XG prices.
+About
+Organization and identity
+Associated Campuses
+Data
+Presidency
+Vice Presidencies
+Working at EPFL
+Recruiting EPFL Talents

@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I couldn't read the Rush GMCF PDFs (Dec 2025 and Aug 2025). WebFetch returned compressed binary, and the Read tool failed because poppler isn't installed. The only Rush evidence is a search-result snippet. It says Rush discontinued NovaSeq 6000 service, including SP 2x250 flow cells, and steers users to the X or the MiSeq i100+. A second search summary said it found no NovaSeq 6000 mention in the Rush sources. The two summaries conflict, so Rush's retirement date, reason and price change are unverified. Biogenouest GenoA Nantes only reports the inauguration of a NovaSeq X Plus on 10 Dec 2025. That is a purchase supporting more than 1,500 extra human genomes a year from 2026, and the page doesn't mention a 6000 or a retirement. The Pasteur Biomics page is a completed 2020 NovaSeq 6000 outsourcing project (last edited 22 Jul 2020), so it is stale and irrelevant. The .edu search turned up only cores already in the corpus: Northwestern (stopped offering the 6000 in Jan 2024), Dana-Farber (1 Oct 2024), UW-Madison, Missouri, Duke and UAMS. The Rush snippet is the only 2025-26 retirement found.",
+  "how_to_mine": "Get the Rush Dec 2025 and Aug 2025 PDFs as text. Either install poppler or run pypdf/pdftotext locally on the saved files, or fetch Google's cache or the PDF through a text proxy. Then pull the exact wording on the 6000 discontinuation: date, reason, replacement, and any price change for X lanes. The i100+ language in the Aug and Dec newsletters is MiSeq-related. Cross-check against the Rush rate card the corpus already holds. Separately, fetch the Biogenouest GenoA page's list of instruments to see whether a 6000 was there. Re-run the 'last run' / 'decommission' searches against EU core pages (.fr, .de, .se) and .ac.uk, which this probe barely covered.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Rush University's genomics core (GMCF) reportedly discontinued NovaSeq 6000 service by Dec 2025, steering users to the X or the MiSeq i100+.",
+      "detail": "This comes from a search-result snippet of the Dec 2025 GMCF update. It says the core discontinued NovaSeq 6000 service, including SP 2x250 flow cells, and offers the X or the MiSeq i100+. I couldn't open the PDF to confirm the date, reason or price change. A second search summary found no 6000 mention in the Rush sources, so treat it as unconfirmed. If it is confirmed, it dates a mid-size US core exit from the 6000 in late 2025.",
+      "url": "https://www.rushu.rush.edu/sites/default/files/2026-01/gmcfupdates-boyd-122025.pdf",
+      "date": "2025-12",
+      "source_name": "Rush GMCF newsletter (search snippet only)",
+      "source_type": "other",
+      "quote": "has discontinued service for the NovaSeq6000",
+      "strength": "weak",
+      "why_new": "The corpus has Rush's rate card but not this retirement note."
+    }
+  ],
+  "new_candidates": [
+    "Biogenouest GenoA Nantes inauguration page for the NovaSeq X Plus (10 Dec 2025): more than 1,500 extra human genomes a year from 2026, an investment of more than EUR 1M. It is capacity and volume growth evidence, but it names no 6000 retirement.",
+    "UW-Madison Biotechnology Center: its NovaSeq 6000 to X Plus replacement pages (research.wisc.edu, 2024) might have a decommission date and a price change."
+  ],
+  "apify_requests": []
+}
+```

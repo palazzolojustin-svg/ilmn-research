@@ -1,0 +1,122 @@
+DNA Services Instruments - Carver Biotech
+Skip to content
+UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN
+Apply
+Visit
+Give
+List Item
+DNA Services
+Home
+About Us
+Instruments
+Applications
+Submissions
+NGS Sample Submission
+Single Cell Sample Submission
+Sanger Sample Submission
+Pricing
+Sanger Facility
+Team
+News
+Contact
+DNA Services
+Home
+About Us
+Instruments
+Team
+News
+Contact
+X
+Home
+DNA Services Core
+DNA Services Instruments
+DNA Instruments
+Instruments
+Please, contact us to discuss how we can be of assistance in achieving your project goals or to receive a quote for your project.
+Illumina NovaSeq X Plus
+The NovaSeq X Plus is the latest instrument from Illumina for ultra-high throughput sequencing of genomic DNA, RNA-Seq, DNA methylation, targeted sequencing, and many other samples that need high sequencing depth at the lowest possible cost.
+PacBio REVIO
+This is the latest instrument from PacBio, it produces the longest reads with the highest accuracy of all long-reads. It is the instrument of choice for assembly of complex genomes, metagenomes, genome resequencing with long reads, full-length 16S and other amplicons and full-length transcriptomes (IsoSeq).
+One REVIO Cell produces
+up to 120 Gbases of HiFi error-corrected reads with fragments 10-30kb
+up to 13 million error-corrected single long reads.
+up to 100 million concatenated 16S, full-length cDNA, or amplicon reads.
+Illumina MiSeq i100
+For sequencing libraries from amplicons (ie: 16S, 18S, ITS, other), genomic DNA, microbial DNA, etc.
+The MiSeq i100 has three kits: 5M (5 million read-pairs), 25M (25 million read-pairs), 50M (50 million read-pairs)
+The read-lengths of the MiSeq i100 are up to 500bp from each side of the DNA fragments
+Oxford Nanopore GridION
+Long sequencing reads from genomic DNA, RNA, cDNA, 16S or other amplicons.
+One flowcell produces from 1 to 9 million reads depending on the type of sample.
+Reads are typically from 5kb to 40kb and with some reads from HMW genomic DNA reaching up to 100kb.
+Each flowcell runs one or multiple samples.
+10x Genomics
+The 10x Chromium X system produces libraries for 5′ or 3′ transcriptome sequencing from single-cells, ATAC-seq, and multiomics (RNAseq + ATACseq). Fixed probe-based libraries compatible with human/mouse/rat samples are also available.
+Libraries constructed on 10x are fully compatible with Illumina sequencing.
+Single-cell libraries can be constructed from 500 to 20,000 cells per library.
+Single-cell libraries are sequenced for 28x90nt or 28x150nt on the NovaSeq, with a minimum of 50k reads per cell recommended.
+10x Visium Spatial gene expression libraries are also available.
+10x Xenium in situ platform is also available in our sister Core, CMtO.
+Fragment Analyzers and Femto Pulse
+Qualitative analysis of gDNA, RNA, amplicons, or finished libraries using capillary electrophoresis.
+RQN (RNA Quality Scores)
+12-, 48-, and 96-capillary instruments for best pricing depending on sample size/need.
+QC can be performed typically with 24 hours.
+Biomark X9 System (Standard BioTools)
+The Biomark X9 is a microfluidics-based genomics platform that runs qPCR and targeted NGS library prep in nanoliter volumes, using integrated fluidic circuits to generate anywhere from 144 to 9,216 individual reactions in a single run. It supports gene expression profiling, SNP genotyping, pathogen detection, and preparation of up to 384 barcoded NGS amplicon libraries per day, with sample and reagent use far below plate-based methods.
+Illumina iScan
+The Illumina iScan is an array scanner that reads BeadChips, letting you genotype hundreds of thousands to millions of SNPs per sample, or profile DNA methylation, and copy number across many samples at once.
+NovaSeq X Plus Sequencing Options (see full list with multi-lane discounts in Pricing link above)
+Flowcell |
+Read Type and Length |
+Price Per Lane |
+# of Single-Reads
+or
+Read Pairs Per lane
+|
+Total # of Reads |
+Gb/lane |
+X Plus 1.5B |
+Single-reads, 100bp |
+$1,360 |
+800 million |
+800 million |
+80+ |
+X Plus 1.5B |
+Paired-reads, 2x150nt |
+$1,580 |
+800 million |
+1.6 billion |
+240+ |
+X Plus 1.5B |
+Paired-reads, 2x300nt |
+$3,100 |
+800 million |
+1.6 billion |
+480+ |
+|
+X Plus 10B |
+Single-reads, 100bp |
+$1,520 |
+1.2 billion |
+1.2 billion |
+150+ |
+X Plus 10B |
+Paired-reads, 2x150nt |
+$2,000 |
+1.2 billion |
+2.4 billion |
+300+ |
+|
+X Plus 25B |
+Paired-reads, 2x150nt |
+$3,380 |
+3.2 billion |
+6.4 billion |
+900+ |
+Contact
+DNA Services
+Contact Us
+Director: Alvaro G. Hernandez Ph. D.
+University of Illinois at Urbana-Champaign
+Roy J. Carver Biotechnology Center

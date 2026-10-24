@@ -1,0 +1,13 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I got no usable evidence. The APIs are reachable without a login, but this session has no shell (Bash is disabled), and WebFetch can't scan the payloads. The ?content=true responses are 1.09M chars (BillionToOne), 553K (GeneDx) and 2.89M (Natera). WebFetch's small model reads only 100K chars per call, so each board would take 6–29 calls. Its first-100K scans of all three boards found no mention of NovaSeq, 6000, X, AVITI, Ultima, Element or Illumina. That covered only 3–18% of each payload. The posting order was not checked, and the first jobs it saw were non-lab roles (client services, billing, claims). A web search surfaced only generic Natera Research Associate postings ('NovaSeq' preferred, no model named, no date seen) and academic cores. The 'guardanthealth' and 'tempus' slugs return 404, as the task brief said. I did not test other slugs or Lever/Ashby.",
+  "how_to_mine": "Run a script (Python with requests, or curl plus jq) outside this agent sandbox. 1) GET https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true for natera, billiontoone, genedx, and for guardant, tempuslabs, freenome, personalis, foundationmedicine, myriad, ambry, fulgent and caris. Try the Lever (api.lever.co/v0/postings/{slug}?mode=json) and Ashby (api.ashbyhq.com/posting-api/job-board/{slug}) equivalents too. 2) html.unescape the 'content' field, then regex-count 'NovaSeq 6000', '6000Dx', 'NovaSeq X', 'X Plus', 'NovaSeq', 'AVITI', 'Ultima', 'UG 100', 'Element', 'NextSeq' per job. 3) Keep id, title, location, updated_at and absolute_url, with a 100-char context snippet. 4) Filter to lab-operations titles (CLS, Lab Manager, Lab Systems, Sequencing Operations, Automation, Process Development), dated 2026. 5) Save a dated snapshot, then re-run weekly to catch any shift in postings from 6000 to X. A posting that names the 6000 next to the X would support 1A. A posting naming only the X would cut against 1A. Postings naming AVITI or Ultima would support 1B.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "https://job-boards.greenhouse.io/natera/jobs/5799524004 (Natera Research Associate 1, San Carlos sample processing; 'NovaSeq' preferred, model not named; date unverified)"
+  ],
+  "apify_requests": []
+}
+```

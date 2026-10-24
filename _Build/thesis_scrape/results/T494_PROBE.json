@@ -1,0 +1,49 @@
+```json
+{
+  "status": "productive",
+  "notes": "Reachable with no login. WebFetch can run Entrez esearch on db=sra. The working syntax is \"Illumina NovaSeq 6000\"[Instrument] and \"NovaSeq X\"[Instrument], each combined with a date range on [Publication Date]. The first attempts failed. [Platform] returned 0 for both models, and \"Illumina NovaSeq X Plus\"[Instrument] returned 0 because the phrase was not found. \"NovaSeq X\" and \"Illumina NovaSeq X\" gave about the same counts (60,325 and 59,382 in Q3'25), so the filter probably covers both X and X Plus, but I did not confirm it. Only run counts were obtained. Total bases per run need the SRA Run Selector or BigQuery (nih-sra-datastore), or efetch of runinfo or expxml, which I did not attempt in the call budget. The AVITI filter returned 4,971 runs for Q3'25, using \"Element AVITI\"[Instrument]. The UG 100 filter returned 0 under \"Ultima Genomics UG 100\"[Instrument]. The DNBSEQ-T7 count was not attempted. Q3'26 is partial and affected by release lag. SRA runs are per library, not per flow cell, so run counts are not Gb. They also skew toward public research and away from controlled clinical data, so these figures cannot be compared with Illumina's ~8% Gb figure or the ~70% GEO sample share.",
+  "how_to_mine": "1) In BigQuery nih-sra-datastore, or the SRA Run Selector, group SRA runs by instrument_model and release quarter, summing bases and bytes. The Gb share of 6000 vs X vs AVITI vs UG 100 vs T7 then follows directly. 2) Run efetch with retmode=xml on a sample of about 500 UIDs per quarter (esearch with usehistory) to read total_bases. That avoids BigQuery. 3) Find the exact instrument_model strings for Ultima (probably \"UG 100\" with platform ULTIMA) and DNBSEQ-T7 (platform BGISEQ or DNBSEQ), and use the Platform field for those. 4) Split by center_name or bioproject, using the Illumina-heavy clinical-adjacent ones (e.g. All of Us, Geno4ME, gnomAD-like projects), to separate clinical-adjacent from academic runs. 5) Extend the series to quarterly from Q1'24 to Q3'26 and compare with the 6000/X Gb ratio from the decks.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In public SRA data the NovaSeq 6000 still accounts for about 73% of NovaSeq-class runs released in Q3'26, even though the X is a rising share.",
+      "detail": "NCBI SRA esearch counts runs released in each quarter. NovaSeq 6000 runs were 551,041 (Q3'24), 410,548 (Q3'25) and 407,958 (Q3'26, partial). NovaSeq X-family runs were 16,351, 60,325 and 152,084. The X's share of 6000+X runs is therefore about 2.9%, 12.8% and 27.2%. The 6000 count has fallen only about 26% over two years. Run counts are not Gb and SRA skews toward public research data. Even so, this suggests the 6000 still carries most deposited sequencing, which is consistent with a long tail and with a slow shift of public data to the X.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&retmode=json&term=%22NovaSeq%20X%22[Instrument]%20AND%202026/07/01:2026/09/30[Publication%20Date]",
+      "date": "2026-10-12",
+      "source_name": "NCBI SRA E-utilities esearch (run counts by instrument)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First direct SRA instrument-model run counts by release quarter; none of this appears in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "AVITI already appears in SRA at about 5,000 runs a quarter (Q3'25), roughly 1% of NovaSeq 6000 run volume.",
+      "detail": "The \"Element AVITI\"[Instrument] filter returned 4,971 runs released between 1 Jul and 30 Sep 2025, against 410,548 for the NovaSeq 6000 and 60,325 for the NovaSeq X family in the same window. This puts a number on rival adoption in public data. It is small, and no Q3'24 or Q3'26 AVITI comparison was pulled, so growth is unmeasured. Ultima returned 0 under the filter string I tried, which says nothing about its true volume.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&retmode=json&term=%22Element%20AVITI%22[Instrument]%20AND%202025/07/01:2025/09/30[Publication%20Date]",
+      "date": "2026-10-12",
+      "source_name": "NCBI SRA E-utilities esearch",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives an SRA-based measure of AVITI adoption, which the known evidence only has as anecdotes."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "SRA efetch runinfo or expxml sampled by quarter for total_bases (Gb) by instrument_model",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra",
+      "why": "This is the only way to turn run counts into a Gb-weighted share without BigQuery."
+    },
+    {
+      "source": "BigQuery nih-sra-datastore public dataset",
+      "url": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud-access/",
+      "why": "Direct SQL on bases by instrument_model and release date. It needs a Google account, so it is a login item for the analyst."
+    }
+  ],
+  "apify_requests": []
+}
+```

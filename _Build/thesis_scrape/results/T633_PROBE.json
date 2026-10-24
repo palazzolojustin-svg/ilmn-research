@@ -1,0 +1,25 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I could not reach any MDALL or TGA ARTG results. The MDALL landing page and the active-licence search form load without a login. The form offers Company name, Licence name, Device name, Company ID, Licence number and Device identifier, and the page does not show the form's action or method. My guessed GET URL returned a server error 500, so results appear to need an interactive form POST (session or JSP). I did not try the TGA ARTG, because the 10-call budget was better spent elsewhere and ARTG is also a dynamic search. A web search found no indexed Health Canada licence or ARTG entry for the NovaSeq 6000Dx or any NovaSeq X Dx. The only Health Canada precedent that turned up was the MiSeqDx. Illumina's own pages say the NovaSeq 6000Dx may not be available in all countries because of pending approvals. No licence numbers or dates were captured. I cannot say whether an X Dx licence exists, so the 1A conclusion either way is unestablished.",
+  "how_to_mine": "Use a browser-automation or Apify web-scraper run that loads https://health-products.canada.ca/mdall-limh/prepareSearch?&type=active, selects 'Company name', enters 'Illumina', submits, and pages through all results. Then repeat with the 'Device name' option and the value 'NovaSeq' (also 'NextSeq', 'MiSeq'). Open each licence detail page and record the licence number, first-issue date, last-amendment date and the device identifier list. Archived licences are at type=archived. For Australia, run a similar browser session on the ARTG search at https://www.tga.gov.au/resources/artg with the sponsor 'Illumina' and the keyword 'NovaSeq', and record the ARTG ID, start date and product category. Also check the GUDID record for the NovaSeq 6000Dx (https://accessgudid.nlm.nih.gov/devices/00816270020637) as a cross-check, but note that it is US only.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Health Canada MDALL archived-licence search for Illumina (type=archived), to see whether any licences were retired.",
+    "TGA ARTG sponsor search for Illumina Australia (the sponsor may be Illumina Australia Pty Ltd).",
+    "BfArM customer notice 01263-25 (Jan 2025, found in search results), possibly an IVDR or field-safety notice about Illumina Dx instruments. It was not opened."
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/playwright-scraper (or apify/puppeteer-scraper)",
+      "input": {
+        "startUrls": [{"url": "https://health-products.canada.ca/mdall-limh/prepareSearch?&type=active"}],
+        "task": "Select 'Company name', search 'Illumina', paginate all results, open each licence page and extract licence number, first-issue date, last-amendment date and device identifiers. Repeat for 'Device name' = 'NovaSeq'."
+      },
+      "why": "MDALL results need an interactive form submission. A plain fetch returns error 500, so a browser actor is needed to get the NovaSeq 6000Dx licence and any X Dx licence.",
+      "max_items": 100
+    }
+  ]
+}
+```

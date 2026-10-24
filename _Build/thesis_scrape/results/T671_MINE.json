@@ -1,0 +1,169 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Taiwan's National Health Research Institutes (NHRI) has cut its outsourced Illumina-platform sequencing contract every year since 2023, and its 2026 Illumina lot budget is 37% below the 2023 award.",
+      "detail": "The Illumina-platform lot (items 1–21) of NHRI's annual outsourced sequencing open contract was awarded at NT$13.99M (Aug 2023), NT$11.21M (Sep 2024, −19.8%) and NT$10.34M (Sep 2025, −7.8%). The Oct 2026 tender budgets Lot A (Illumina) at only NT$8.80M, 14.9% below the 2025 award and ~37% below 2023. The 2023 award came in at 68% of that year's lot budget, so the 2026 award could land lower still. Awards are open-contract ceilings, so actual drawdown and per-item prices are not shown. Contract winner each year: Genomics BioSci & Tech (基龍米克斯).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=115B0D0286",
+      "date": "2026-10-01",
+      "source_name": "Taiwan Government e-Procurement (PCC) via g0v pcc-api; NHRI jobs 112B0E0461, 113B0E0232, 114B0E0213, 115B0D0286",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F759/F799 cover NHRI's 2024 per-genome price and the end of its kit buying; this four-year outsourced-contract value series is new."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "NHRI's total MOHW-funded outsourced sequencing budget fell ~71% from 2021–22 to 2026, so the institute that stopped buying NovaSeq 6000 kits is also shrinking its outsourced replacement.",
+      "detail": "Budgets: NT$35.0M (2021, 2022), NT$24.87M (2023, 2024, 2025), NT$9.9975M (Oct 2026 tender, Illumina NT$8.80M + PacBio NT$1.19M). Award totals: NT$31.39M (Apr 2021), NT$30.60M (May 2022), NT$17.97M (2023), NT$15.20M (2024), NT$14.33M (2025). The PacBio lot was flat at NT$3.989M for 2023–25, and its 2026 budget is NT$1.19M (−70%). Combined with F799 (S4 kit buying 57→16→0), NHRI's research sequencing spend is contracting on both channels, not just moving from kits to outsourcing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=111B0E0118",
+      "date": "2026-10-01",
+      "source_name": "PCC via pcc-api; NHRI jobs 10RD-0002, 111B0E0118, 112B0E0461, 113B0E0232, 114B0E0213, 115B0D0286",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The multi-year budget series for NHRI outsourcing (2021–2026) has not been reported; F718 only noted the shift to outsourcing."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "NHRI's outsourced Illumina sequencing lot had real competition only once (2023), and the winning margin was small: about 6% below the rival's bid.",
+      "detail": "In 2023 two Illumina-based service providers bid for Lot 1: 基龍米克斯 at NT$13,985,910 won against 台基盟 at NT$14,949,500 (−6.4%), under a NT$14.4M base price. The 2024 and 2025 contracts were restricted follow-on awards (Art. 22(1)(7)), with each vendor taking its own lot unopposed. The 2026 tender returns to open, lowest-price bidding (opens 14 Oct 2026). So the year-on-year value declines happened without competitive rebidding, which points to volume or budget cuts rather than price competition.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112B0E0461",
+      "date": "2023-08-10",
+      "source_name": "PCC via pcc-api; NHRI 112B0E0461 / 113B0E0232 / 114B0E0213",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The bidder spread and the restricted-renewal structure of NHRI's outsourcing contracts are not in the corpus."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "NTUH, Taiwan's flagship hospital, signed a NT$45M three-year MiSeq v3 reagent contract running to Aug 2027, so a retired legacy Illumina platform keeps carrying large, durable reagent spend.",
+      "detail": "Job TD130370 (MiSeq v3 600-cycle reagent unit-price contract) has a budget of NT$47.4M and a base price of NT$45.0M. It was awarded 14 Aug 2024 at NT$45.0M to the Illumina distributor Genetech (均泰), the single bidder, after two failed rounds. The term is 1 Sep 2024–31 Aug 2027 and the origin is UK. That is ~NT$15M/yr (~US$0.47M/yr at ~32 NT$/US$) on a platform whose end of sale was 30 Sep 2025. Legacy-chemistry tails at large clinical sites look like multi-year contracted demand, not a fast fade.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD130370",
+      "date": "2024-08-15",
+      "source_name": "PCC via pcc-api; NTUH TD130370",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "No MiSeq reagent contract value or duration at a large hospital is in the corpus; D047/F494 cover MiSeq service plans only."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "In June 2026 NTUH locked in NextSeq 500/550 v2.5 high-output kits through July 2029, another legacy-chemistry tail contracted three years out.",
+      "detail": "Job TD150300 (中通量300鹼基循環定序試劑組v2.5) has a budget of NT$4.90M and a base price of NT$4.508M. It was awarded 9 Jun 2026 at NT$4.41M to Genetech (single bidder, US origin), 10% below budget and 2.2% below base. The term is 1 Aug 2026–31 Jul 2029. v2.5 chemistry is the NextSeq 500/550 line, not XLEAP NextSeq 1000/2000, so the hospital is still running an older mid-throughput box under a fresh three-year commitment.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD150300",
+      "date": "2026-06-10",
+      "source_name": "PCC via pcc-api; NTUH TD150300",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The new 2026–2029 NextSeq v2.5 contract at NTUH is not in the corpus (F719/F751 cover P1–P4 XLEAP kits)."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taipei Medical University's Sep 2026 research WGS award went to a single bidder, bargained only ~8.6% down to the ceiling, so Illumina-specified outsourced WGS faced no price competition.",
+      "detail": "TMU115-029 (human whole-genome sequencing, MOE-subsidised NT$3.37M) failed in round 1 with no qualifying bids. In round 2, Taiwan Genome Alliance (台基盟) bid NT$3,346,512 and was awarded at the published ceiling of NT$3,057,600 (−8.6%) on 24 Sep 2026. The specs required two or more Illumina high-throughput sequencers plus a PacBio Sequel IIe. The genome count and depth are not published, so a per-genome price cannot be derived.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=03724606&job_number=TMU115-029",
+      "date": "2026-09-29",
+      "source_name": "PCC via pcc-api; Taipei Medical University TMU115-029",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F761 covered the tender's Illumina qualification clause; the award outcome (single bid, price, discount) is new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taichung VGH tried to lease a NextSeq 2000 system for three years with a NT$27.9M budget (~NT$9.3M a year), which shows bundled rental or subscription buying spreading to mid-throughput clinical boxes.",
+      "detail": "Job 114X-R4 ('NextSeq 2000測序系統租賃', 3 years from acceptance) had a NT$27.9M budget and a NT$100K bid bond. It followed a Mar 2025 request for reference data (114P-11, '租賃三年期'). Round 1 failed on 8 May 2025 for lack of bidders and was re-tendered on 13 May 2025. No award notice appears under the title, so the outcome is unknown; the Sep 2026 P1 kit contract (F751) may be its successor. Annual value ≈ US$290K, far above a NextSeq 2000's ~US$300K purchase price spread over 3 years. That implies the rental bundles reagents, consistent with Illumina's subscription push (F560/F592).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=114X-R4",
+      "date": "2025-05-13",
+      "source_name": "PCC via pcc-api; Taichung VGH 114X-R4 / 114P-11",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "There is no hospital-level Illumina rental tender with a dollar value in the corpus."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A large private medical center used new 'Healthy Taiwan Deepening' grant money to buy a UK-origin low-throughput long-read sequencer and consumables, diversifying away from short-read Illumina.",
+      "detail": "Cathay General Hospital's CGH115001 (低通量長片段核酸定序儀系統) was awarded 11 Feb 2026 at NT$1.78M to ANTEC Bioscience (single bidder, UK product origin, likely Oxford Nanopore; our inference). A companion consumables lot (CGH115002) followed, plus NGS chips with reagents at NT$196K × 10 (CGH115003, NT$1.96M) and sequencing reagents NT$1.635M (CGH115005, US origin). All of these were single-bidder awards after failed first rounds.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=04129719&job_number=CGH115001",
+      "date": "2026-03-23",
+      "source_name": "PCC via pcc-api; Cathay General Hospital CGH115001–CGH115005",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Cathay General's grant-funded sequencing purchases are not in the corpus; F749/F750 cover CDC, NTUH and other ONT buyers."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NTU Cancer Center's NT$5.85M tender for a benchtop mid-throughput sequencer failed twice in three weeks, a sign of weak vendor interest or spec problems in new mid-throughput clinical placements.",
+      "detail": "PA2600139 (桌上型中通量次世代定序儀1組, lowest-price open tender, budget NT$5.85M ≈ US$180K) was posted 17 Sep 2026. It failed on 1 Oct (流標, no or too few bids) and was annulled on 7 Oct (廢標) on re-tender. A third round opens 13 Oct 2026. No brand is named. The outcome is the next datapoint on whether Illumina (NextSeq 2000) or Element (AVITI) wins a fresh mid-throughput clinical slot.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.51.1.9&job_number=PA2600139",
+      "date": "2026-10-07",
+      "source_name": "PCC via pcc-api; NTUH Cancer Center branch PA2600139",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a live Oct 2026 tender not previously captured."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Taipei VGH pays NT$20,500 (~US$640) per outsourced 12 Gb RNA-seq sample under a single-bid 2026–28 contract, far from the 'insane discount' price behaviour assumed for research buyers.",
+      "detail": "X11502H (核糖核酸測序12G分析, 2-year unit-price contract) has a budget of NT$477K and a base price of NT$420K for an estimated 20 samples. It was awarded May 2026 at NT$20,500 per sample (NT$410K total) to 圖爾思生物科技, the single bidder, after a voided first round. That is ~NT$1,700/Gb (~US$53/Gb) all-in, versus ~$50 per sample at cheap academic RNA-seq services (F727). Small hospital-research buyers are not price-shopping.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11502H",
+      "date": "2026-05-04",
+      "source_name": "PCC via pcc-api; Taipei VGH X11502H",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is new hospital research RNA-seq unit pricing, not in the corpus."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "I mined about 30 award records through the g0v pcc-api (pcc-api.openfun.app works; searchbytitle plus the tender endpoint). Award notices carry no brand, model or item-level unit prices. NHRI's 21-item Illumina lot prices sit in tender documents the API does not expose. No DNBSEQ/MGI or Ultima sequencing awards exist in PCC titles; Element awards are Academia Sinica (BRCAS11347 AVITI24, Nov 2024; 115-IMBE016 AVITI NT$9.2M sole-source, May 2026, likely covered by F747). Illumina instrument awards via Genetech (Linkou Chang Gung NT$2.245M, Aug 2025; NTUH Yunlin NT$5.05M, May 2025; NTU upgrade NT$3.98M, Apr 2025; AHRI NT$2.295M, May 2026) were all single-bid near budget and are already covered by F763. Kaohsiung VGH WGS awards at NT$12,800/genome are covered by F744/F802. I found no research award where an Illumina price fell after a rival bid. Remaining: (1) the NHRI 115B0D0286 award, bid opening 14 Oct 2026, which will give the 2026 Illumina-lot award value and bidder count; (2) the third round of NTU Cancer Center PA2600139, opening 13 Oct; (3) Taipei VGH 115A2A55M Illumina service, opening 20 Oct; (4) the Taichung VGH 114A08 'nucleic acid analysis chips' (UK origin, ANTEC, NT$4.0M / 20 sets), which may be ONT flow cells in a WES program, unconfirmed.",
+  "leads": [
+    {
+      "name": "NHRI 115B0D0286 award notice (outsourced sequencing, Illumina Lot A NT$8.80M budget)",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=115B0D0286",
+      "access": "public API, no login; award expected after the 14 Oct 2026 opening",
+      "labels": ["2A", "1B"],
+      "rationale": "It completes the 2023–2026 award series and shows whether open bidding drives the Illumina lot below budget."
+    },
+    {
+      "name": "NTU Cancer Center PA2600139 benchtop mid-throughput sequencer, round 3",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.51.1.9&job_number=PA2600139",
+      "access": "public API",
+      "labels": ["1B", "1C"],
+      "rationale": "The country of origin on the award (Singapore = Illumina NextSeq; US = possibly Element via 亞洲準譯) will show which vendor wins the slot."
+    },
+    {
+      "name": "PCC web tender documents (招標文件) for NHRI item-level price lists",
+      "url": "https://web.pcc.gov.tw/prkms/tender/common/basic/indexTenderBasic",
+      "access": "public, captcha possible; documents sometimes downloadable only via the e-procurement client",
+      "labels": ["1B", "2A"],
+      "rationale": "Unit prices for the 21 Illumina service items (per Gb or per lane) would let year-on-year price change be separated from volume."
+    },
+    {
+      "name": "NTUH MiSeq/NextSeq legacy reagent contract predecessors (search 'MiSeq' / 'NextSeq 500/550')",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=MiSeq",
+      "access": "public API",
+      "labels": ["1A"],
+      "rationale": "Comparing the TD130370 value with earlier MiSeq contracts would show whether legacy-platform spend is growing, flat or decaying after end of sale."
+    }
+  ],
+  "apify_requests": []
+}
+```

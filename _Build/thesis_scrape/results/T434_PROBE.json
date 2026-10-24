@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 5 tool calls. The e-Zamówienia search URL (https://ezamowienia.gov.pl/mp-client/search/list) is a JavaScript single-page app. WebFetch returned only the page title, with no search UI or results, so I could not run the NovaSeq or 'Illumina odczynniki' searches or open the 'Informacja z otwarcia ofert' attachments. Web search found no Polish bid-opening or award notices for NovaSeq reagent kits. It surfaced two platformazakupowa.pl file PDFs, and I opened only the first. That one is an NCN OPUS-funded NGS sequencing-service specification (SWZ Annex 3, PDF dated 25 Feb 2025). It asks for 6 lanes of NovaSeq X 10B (~350 Gbp, 2x150) plus options. It contains no prices, bids or awards. The second PDF (a Gdańsk research lab spec, per the search snippet) was not text-decodable, so I did not read it; its file metadata shows a 2022 creation date. Both are service purchases rather than reagent-kit purchases. I could not confirm any 2024 vs 2026 bid-price series. The source is not blocked by login. It needs a browser or API route that WebFetch does not provide.",
+  "how_to_mine": "Do not use WebFetch on ezamowienia.gov.pl, because it is a JS SPA. Two options: (1) Query the public Biuletyn Zamówień Publicznych / e-Zamówienia REST endpoints used by the SPA, found via browser devtools (typically under ezamowienia.gov.pl/mo-board/api/v1/notice or mo-client-board), with the keyword NovaSeq/Illumina and CPV 33696500 or 38000000 (laboratory reagents) for 2023-2026. (2) Use TED search with country=PL and 'NovaSeq' for contract award notices (these include the winning value, which is easier to pull). For bid-opening data, go to buyer portals on platformazakupowa.pl (e.g. UM Łódź, GUMed, UMW, WUM, IMiD) and search the buyer's tender list for 'NovaSeq', then open the 'Informacja z otwarcia ofert' PDF. Download the PDFs and read them locally, since WebFetch cannot decode compressed PDFs but Read can. Compare gross price per lot for identical kit lists across years and by distributor. Divide by the flow-cell Gb to get $/Gb and test it against the known figures (IDIBAS ~€2.00/Gb, CIBER ~€12,800 per X Plus flow cell).",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "TED (ted.europa.eu) award notices for Poland: 'NovaSeq' reagents with contract-value fields (easier to reach than the e-Zamówienia SPA).",
+    "platformazakupowa.pl buyer pages (UM Łódź, GUMed, WUM, UMW, IMiD, PAN institutes): per-tender 'Informacja z otwarcia ofert' PDFs.",
+    "NCN OPUS-funded sequencing-service tenders on platformazakupowa.pl (e.g. the Feb 2025 NovaSeq X 10B 6-lane spec): award prices would give a per-lane Polish service price."
+  ],
+  "apify_requests": []
+}
+```

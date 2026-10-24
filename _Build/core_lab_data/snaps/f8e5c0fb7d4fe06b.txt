@@ -1,0 +1,95 @@
+FIMM Genomics: Sequencing only services | Genome Analysis | University of Helsinki
+Skip to main content
+Services
+Infrastructures
+Infrastructures
+FIMM Genomics
+NGS bioinformatics
+Viikki BI Bioinformatics
+Viikki Genomics (BIDGEN)
+Guidelines
+Highlights
+Contact
+Home
+Home
+Close
+FIMM Genomics: Sequencing only services
+FIMM Genomics Core offers sequencing only services for short read sequencing (Illumina NovaseqX plus, Element Biosciences Aviti24 and Illumina MiSeq i100). Service includes sequencing libraries prepared by customer and fastq delivery. Additional services such as quality control(s) of the libraries or data analysis are available by request and will generate extra cost to the service.
+Service description
+Illumina Sequencing only service includes:
+Sequencing on a requested platform
+BCL convert: multiple configurations possible in one BCL convert run
+AVITI24 Sequencing Only Service includes:
+Quantitation and size distribution analysis of the library pool
+Tape Station & Qubit
+End Polish (5 cycle PCR to ensure full length adapters)
+AVITI24 Sequencing
+bases2fastq convert (demultiplexing)
+Not included:
+Normalization and pooling of the libraries
+Quantification of the library pool (available as a service at extra cost)
+Re-runs or corrections on the BCL convert (extra cost)
+Downstream analysis (available at extra cost)
+Sample guidelines -sequencing only
+These are instructions for delivering customer-made NGS libraries to FIMM Genomics core.
+Basic guidelines:
+Which platform are the libraries meant for? Make sure the libraries are compatible with the selected platform.
+Sequencing only projects can only be requested for full runs or full 25B lanes for NovaseqX plus. If the read composition differs dramatically from a standard paired-end configuration, individual lanes cannot be offered. The default read lengths for individual lanes are 101+10+10+101 and 151+10+10+151. Read trimming and adding cycles to the standard length are possible by request. Note that the maximum number of cycles are 138 for 100c kit, 238 for 200c kit and 338 for 300c kit.
+Library quality should be checked before delivery. If there are adaptor dimers present, the library pool needs to be purified of the dimers before sequencing.
+Customer is responsible for specifying the cycle numbers for the library pool. Note that if there are multiple read lengths within one library pool, the total number of cycles should always be the largest number for each read. For example, library 1 needs a read length of 151+10+10+151 and library 2 needs a read length of 153+8+8+153. The run read configuration will thus be 153+10+10+153. Note that the total cycle number will need to be within the limits of the maximum number of cycles for each kit type.
+Multiple BCL convert configurations can be performed on one library pool by request. Specify the read lengths needed for BCL convert when delivering the samples. Check if you require fastq’s for index reads as well as the biological reads. The default setting is not to generate fastq for index reads. Also check the manuals for any UMI or other special read/BCL convert configuration. Indicate these special setting requests in the order.
+Pooling libraries with variable insert sizes will result in suboptimal results in sequencing. Example: in the figure on the right, only the 200bp inserts were bound to the flow cell, resulting in inefficient clustering and failed QC in the run.
+Library quantification and pooling:
+Customers are expected to quantify individual libraries, pool them into one pool and quantify the pool before delivering the pool to the core. If you need assistance in any of the steps, the core staff will consult you on how to proceed.
+For pooling calculations, please see the instructions for library pooling.
+Fluorometric method or qPCR is recommended for the library quantification
+Determine the size of the library pool using a capillary electrophoresis method such as Bioanalyzer, TapeStation or Fragment analyzer. These assays are available as a separate QC service in the core.
+If any adapter dimers are present, purify the samples/pool before submitting to sequencing. The purified samples/pool need to be re-quantified
+Calculate the final concentration of the pool in molarity (nM).
+Provide the core with the final molarity and the fragment size of the pool.
+Sequencing yield:
+Sequencing yields are guidelines from the manufacturer. The yield for different library types on runs can vary depending on library type and the optimization of the loading concentration, fragment size of the pool, color balance of the indices, diversity of the library pool and the need for standard/larger % PhiX addition etc. Sharing information about the library preparation method and the indexing will help us optimize the runs.
+Custom primers:
+Customer is responsible for ordering and delivering any custom primers that might be needed in the sequencing run. The custom primer tubes need to be marked clearly with the read they are intended for as well as the molarity and delivered together with the library pool. Core needs to be clearly informed if the custom primers are meant to be added as a spike-in or if Illumina primer(s) are meant to be replaced by the custom primer(s). Customer is ultimately responsible for the design and the functionality of the custom primer(s). Adding custom primers into a run will have extra costs depending on the platform (MiSeq i100/ NovaseqXplus) and the design of the primer (spike-in/replacement).
+Illumina specific: Index color balance and PhiX
+Illumina NovaseqX plus and MiSeq i100 use the new Illumina XLEAP-SBS-chemistry, which is a two-channel system. When sequencing on a NovaSeq X Series using XLEAP-SBS chemistry, combine index sequences so that signal is present in at least the green channel (preferably both) for every cycle:
+Blue channel—A or C
+Green channel—C or T
+For MiSeq i100 and Novaseq Xplus, either of the first two cycles of the Index Read must start with at least one base other than G. If an Index Read starts with two G bases, signal intensity is not generated. Signal must be present in the first two cycles.
+Make sure the index sequences in the library pool is well balanced according to Illumina instructions. If the color balance is suboptimal, indexed PhiX may be added to the library pool during the sequencing to improve the performance. The addition of indexed PhiX will be extra cost.
+The default amount for PhiX added to a run is 0.5-1%. Additional PhiX might be also needed if the library diversity is low. Some library prep user manuals indicate this clearly, consult core if needed. We do not recommend running sequencing runs without PhiX as it is present in the run for run quality control purposes. If you opt to leave the PhiX out, we cannot comment on all the run quality metrics such as error rates for the run. Please note that in case of replacing all Illumina read primers with custom primers, no PhiX is added to the run as it will not be sequenced without Illumina primers. Also in these cases, the quality metrics will not be completely reported.
+Library pool diversity and index diversity (see Index color balance) will affect the quality of the run. In cases where only one indexed library is indexed, Illumina recommends that no index read is added to the run configuration. If the library pool contains more than one library and the color balance is suboptimal, indexed PhiX can be added to the library pool. The amount of indexed PhiX depends on the plexity and the color balance of the pool.
+Delivery instructions
+Place an order via iLab before delivering libraries to the core. Consult the core on the sequencing specifications if needed.
+Library pool requirements for NovaSeq X plus:
+For NovaSeq 25B run (total 8 lanes):
+240 µl per run (30 µl per lane), separate lanes are available
+5 nM library pool (min 2 nM)
+For NovaSeq 10B run (total 8 lanes):
+160 µl per run (20 µl per lane)
+5 nM library pool (min 2 nM)
+For NovaSeq 1.5B run (total 2 lanes):
+160 µl per run (20 µl per lane)
+5 nM library pool (min 2 nM)
+Library pool requirements for AVITI24 (Cloudbreak Freestyle kit):
+30µl per run (2 separate lanes are available)
+5nM library pool minimum
+NOTE! PhiX used in AVITI runs is indexed. Please avoid following index pairs during sample prep
+ATGTCGCTAG + CTAGCTCGTA
+CACAGATCGT + ACGAGAGTCT
+GCACATAGTC + GACTACTAGC
+TGTGTCGACA + TGTCTGACAG
+Please contact personnel if
+Other sequencing kit option is needed
+You don't need quantitation and End Polish
+You're unsure if your library type is compatible with AVITI24
+Library pool requirements for Miseq i100:
+50µl per run
+5nM library pool
+Back
+NGS Sequencing services
+FIMM Genomics: Sequencing only services
+P.O. Box 3
+(Fabianinkatu 33)
+00014 University of Helsinki
+Switchboard:

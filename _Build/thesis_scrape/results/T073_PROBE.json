@@ -1,0 +1,20 @@
+```json
+{
+  "status": "dry",
+  "notes": "I found no Illumina end-of-sale, end-of-support, last-order or reagent-retirement notice for the NovaSeq 6000 or 6000Dx. I ran 2 searches and 3 fetches. The PDF fetch returned compressed binary, so its text went unread. The only dated items I found are outside Illumina: the v1.0 reagent discontinuation reported by NGI Sweden (Dec 2020) and Novogene's 6000 phase-out (already known). Illumina's generic End-of-Sale/End-of-Life Policy (created Jul 2024) says Illumina may place any product into end-of-life at any time and posts the notice on the product page. That fits the known fact that the 6000 page is live with no end-of-life. The generic policy is not evidence about the 6000.",
+  "how_to_mine": "Low priority. (1) Read the policy PDF locally (saved at the tool-results path) with a PDF reader and pull the notice period and the post-end-of-sale service duration. That would let the analyst date a hypothetical 6000 notice. (2) Re-check support.illumina.com/bulletins and the 6000 product page after the Q3'26 print on 29 Oct 2026. (3) Check whether NovaSeq 6000 v1.0 kits are still orderable. That would be a v1.0 retirement date, not a 6000 retirement.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "url": "https://emea.illumina.com/content/dam/illumina-marketing/documents/terms-conditions/1000000117071_01_Product_End_of_Sale_End_of_Life_Policy.pdf",
+      "why": "Illumina's EOL policy (Jul 2024). It would give notice and service durations to extrapolate a 6000 timeline. Needs a local PDF read."
+    },
+    {
+      "url": "https://ngisweden.scilifelab.se/2020/12/new-novaseq-v1-5-chemistry/",
+      "why": "Precedent: v1.0 NovaSeq reagents were orderable only until the end of Dec 2020 after v1.5 arrived. It shows Illumina retires old chemistry within months of a replacement. That is a possible analog if the 35B replaces the 25B on the 6000."
+    }
+  ],
+  "apify_requests": []
+}
+```

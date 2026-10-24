@@ -1,0 +1,141 @@
+```json
+{
+  "sources": [
+    {
+      "name": "AAMC Tracking NIH Awards FY2026 (monthly briefs)",
+      "url": "https://www.aamc.org/about-us/biomedical-research/publication/tracking-nih-awards-fy-2026",
+      "access": "Public HTML. Each month has a numbered variant (…-fy-2026-0, -1, -2) and a summary page. The 'summary tracking nih grant funding' URLs returned 404 on fetch, so use the numbered publication pages.",
+      "labels": ["2A", "2B"],
+      "status": "productive",
+      "notes": "I fetched the brief with data through 30 Jun 2026 (published 7 Jul 2026). It shows $18B obligated, above FY25 but $2.6B below FY24, and nearly 9,000 fewer awards than FY24. Competitive multiyear funding was $769M. A search snippet for the data through 31 Aug shows $30.2B obligated (89% of the ~$34B extramural budget), 1,924 fewer grants than FY25 and 9,714 fewer than FY24, and $1.6B of multiyear funding to competitive RPGs (snippet, not opened). Award counts are lower, but the full $34B budget was spent. That shows lower volume of awards, not less money, so it is a mixed signal for research price-sensitivity.",
+      "how_to_mine": "Open the numbered variants (-1, -2) for the Jul–Sep 2026 snapshots. Extract total $ obligated, award counts versus FY24/FY25, competitive RPG and R01 counts, and multiyear funding $ for each month. Build a monthly series. Use it to test whether the FY26 R&A guide (mid- to high-single-digit decline) matches the funding path, and whether Q4'26 and 2027 academic instrument and consumables demand is at risk.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "NIH funded about 3,000 fewer projects in FY2026 than in FY2025, even though it obligated its full ~$34B extramural budget.",
+          "detail": "STAT (2 Oct 2026, via secondary summary) says NIH funded ~58,000 projects in FY26 versus ~61,000 in FY25 and ~63,700 before 2025. Average obligation per project was ~$586K versus ~$534K at baseline. The count may rise a little as database lags clear. Fewer, larger, front-loaded awards mean fewer labs funded, which is consistent with thin research volume.",
+          "url": "https://grantedai.com/blog/nih-fy2026-58000-projects-34-billion-fully-obligated-61000-fy2025-63700-baseline-forward-funding-esi-18-5-percent-fy2027-strategy",
+          "date": "2026-10-02",
+          "source_name": "Granted AI blog summarizing STAT 'Analyzing FY 2026 NIH grants'",
+          "source_type": "press",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list has only FY26 data through 20 Mar 2026 ($5.8B, 10,327 grants). This is the first full-year FY26 count."
+        },
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "Multiyear (up-front) funding is crowding out new awards and has been capped by law at the FY25 level.",
+          "detail": "AAMC data through 31 Aug 2026 show $1.6B of multiyear funding to competitive RPGs, versus $556M in FY25 (per a July–Aug snippet of $1.1B). Public Law 119-75 (Feb 2026) reportedly caps multiyear obligations at the FY25 level. Per AAMC and the AAU, new awards were 12% of all awards through 20 Mar versus 18–22% normally, and 66% fewer grants through February than in FY21–24. Because competitive RPG counts are down 8% versus FY24, researchers see fewer new projects that would buy sequencing.",
+          "url": "https://www.aamc.org/about-us/biomedical-research/publication/tracking-nih-awards-fy-2026",
+          "date": "2026-07-07",
+          "source_name": "AAMC Tracking NIH Awards FY2026; STAT; Granted AI",
+          "source_type": "dataset",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list has no multiyear-funding dollars and no statutory cap. It also has no FY26 count of competitive RPGs versus FY24."
+        },
+        {
+          "label": "2A",
+          "direction": "against",
+          "claim": "NIH is still spending its full budget and has a continuing resolution (CR) through 11 Dec 2026, so there is no funding cliff.",
+          "detail": "The ~$34B extramural budget was fully obligated, and total obligations exceed FY25. Public Law 119-103 (signed 2 Sep 2026, per a secondary source) funds NIH at the FY26 enacted level to 11 Dec. The House FY27 Labor-HHS bill keeps NIH roughly flat to +2%. Award counts are down, but dollars are not. This is a watch-out for the idea that research pricing power is the only issue: research customers have funds even if grant counts are low.",
+          "url": "https://grantedai.com/blog/nih-fy2026-58000-projects-34-billion-fully-obligated-61000-fy2025-63700-baseline-forward-funding-esi-18-5-percent-fy2027-strategy",
+          "date": "2026-10-02",
+          "source_name": "Granted AI / AAMC",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list had a CR 'through 11 Dec', but not the full-year 'fully obligated' fact or the P.L. 119-103 citation."
+        }
+      ]
+    },
+    {
+      "name": "Grant Witness (grant-termination and reinstatement tracker)",
+      "url": "https://grant-witness.us",
+      "access": "Public crowd-sourced site (URL taken from memory, not opened). Reachable data likely includes NIH and NSF terminations matched to RePORTER. I did not verify live counts.",
+      "labels": ["2A", "2B"],
+      "status": "productive",
+      "notes": "Only search snippets were seen. A 2026 PNAS paper (Fregolent et al.) matched Grant Witness to RePORTER and counted 2,291 terminated NIH research grants (~$2.45B committed) for Feb–Aug 2025. Reinstatements have also been tracked. This is mostly 2025 history, so it is of limited use for the 2027 thesis.",
+      "how_to_mine": "Open the site and its data download (CSV). Filter on active terminated grants by institute, including NHGRI, and by university. List top-hit institutions that are large Illumina research accounts (Harvard, Columbia, UCLA, Johns Hopkins). Compare reinstated versus still-terminated dollars.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "NIH RePORTER / NHGRI funding policy page",
+      "url": "https://grants.nih.gov/policy-and-compliance/policy-topics/nih-fiscal-policies/ico-funding-policies-and-considerations/nhgri",
+      "access": "Public. RePORTER has a free API and CSV export (no login).",
+      "labels": ["2A"],
+      "status": "dry",
+      "notes": "I did not find NHGRI-specific FY25 versus FY26 award totals through search. The NHGRI page only describes an interim funding strategy for FY26 (spread across many programs). I did not open RePORTER itself.",
+      "how_to_mine": "Query the RePORTER API (api.reporter.nih.gov/v2/projects/search) with fiscal_years [2025, 2026] and agencies NHGRI. Add keyword filters such as sequencing. Compare award counts and total cost, then check whether NHGRI's new awards are down more than NIH-wide.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "FY2027 appropriations: NSF and NIH (House CJS, Labor-HHS; White House request)",
+      "url": "https://www.aamc.org/advocacy-policy/washington-highlights/house-appropriations-committee-advances-fy27-spending-bill-nsf-cut",
+      "access": "Public AAMC, FABBS, ASME, COSSA and Internet2 updates. Not opened; read as search snippets only.",
+      "labels": ["2A", "2B"],
+      "status": "productive",
+      "notes": "House Appropriations (13 May 2026, 32–28) set NSF at $7.0B for FY27. That is ~$1.75B (20%) below FY26's $8.75B. Research & Related Activities is $6.4B (−$736M, −10.3%), and the bill appears to fold STEM education into R&RA, masking a deeper cut. The White House request was a ~55% NSF cut. The House Labor-HHS bill holds NIH flat to +2%. The Senate had not released its bills by July, and a stopgap CR past the midterms is widely expected. This is an update to the known NIH $47.3B figure: it adds NSF and the request.",
+      "how_to_mine": "Check the Senate CJS and Labor-HHS markups after July. Read the final CR text (P.L. 119-103) and any NSF award-count trackers. Look for NSF MRI and biology (BIO) directorate cuts, which feed core-facility instrument purchases.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "The House FY27 bill cuts NSF by ~20%, and the White House asked for a ~55% cut, adding a second federal research-funding squeeze beyond NIH.",
+          "detail": "The House CJS bill (committee vote 13 May 2026) funds NSF at $7.0B versus $8.75B enacted for FY26. R&RA falls 10.3% to $6.4B. The request was ~$3.9B. Illumina's known list covers NIH only, but the SC core said 2027 risk is a 'huge reduction of NSF and NIH'. Final outcomes are unresolved, and the Senate is expected to be higher.",
+          "url": "https://www.aamc.org/advocacy-policy/washington-highlights/house-appropriations-committee-advances-fy27-spending-bill-nsf-cut",
+          "date": "2026-05-13",
+          "source_name": "AAMC Washington Highlights / FABBS (search snippet)",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has no NSF FY27 numbers and no White House request level."
+        },
+        {
+          "label": "2A",
+          "direction": "against",
+          "claim": "Congress is rejecting deep NIH cuts: the House bill holds NIH roughly flat to +2%, versus a proposed ~$5B cut.",
+          "detail": "The White House FY27 request cuts NIH by ~$5B. The House Labor-HHS bill keeps NIH near FY26, and institutes like NEI are held at FY26 levels. Senate language also tells NIH to fund as many meritorious new awards as possible and to brief Congress on multiyear funding. This lowers the tail risk for research demand in 2027.",
+          "url": "https://www.biophysics.org/blog/bps-in-the-beltway-may-29-2026",
+          "date": "2026-07",
+          "source_name": "BPS in the Beltway / Internet2 update (search snippet)",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has the House NIH level but not the Senate directive on new awards and multiyear reporting, nor the ~$5B request cut."
+        }
+      ]
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "NIH Data Book and Extramural Nexus funding-rate data",
+      "url": "https://report.nih.gov/nihdatabook",
+      "access": "Public, no login",
+      "labels": ["2A", "2B"],
+      "rationale": "Official final FY26 award counts, success rates and R01-equivalent counts, to test the secondary-source '58,000 projects' figure."
+    },
+    {
+      "name": "NIH RePORTER API, NHGRI and sequencer-related equipment (S10) awards FY25 vs FY26",
+      "url": "https://api.reporter.nih.gov/",
+      "access": "Free API",
+      "labels": ["2A", "2B"],
+      "rationale": "Count and dollars of S10 shared-instrumentation awards naming NovaSeq, which show whether academic cores can still buy sequencers, plus NHGRI-specific totals."
+    },
+    {
+      "name": "NSF Award Search (nsf.gov/awardsearch)",
+      "url": "https://www.nsf.gov/awardsearch/",
+      "access": "Public, with CSV and API download",
+      "labels": ["2A"],
+      "rationale": "NSF MRI and BIO award counts FY25 vs FY26 as a leading indicator for core-facility instrument and consumables demand."
+    }
+  ],
+  "apify_requests": []
+}
+```

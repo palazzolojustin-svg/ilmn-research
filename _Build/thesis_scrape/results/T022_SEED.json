@@ -1,0 +1,180 @@
+```json
+{
+  "sources": [
+    {
+      "name": "China UEL status, import ban and domestic-substitution coverage (Fierce, Yicai, Caixin, GenomeWeb, Substack)",
+      "url": "https://www.fiercebiotech.com/medtech/jpm26-illumina-working-china-path-through-its-export-troubles-sees-academic-research",
+      "access": "Open web. Search results and snippets only; I did not open the pages.",
+      "labels": ["2A", "1B"],
+      "status": "dry",
+      "notes": "Mostly known background. Illumina has been on the UEL since 4 Feb 2025, and the import ban was lifted in Nov 2025 while the listing stayed. China is about 5% of revenue. I found no 2026 MOFCOM notice and no Chinese procurement rules favouring domestic sequencers. Only the Q2'26 China revenue figure (below) is new, and it comes from the 10-Q snippet. Everything about customers switching to MGI comes from secondary sources (Yicai, a Substack note, Guosen via press).",
+      "how_to_mine": "Read the 10-Q geographic table (sec.gov ilmn-20260628.htm) for China revenue by quarter. Search Chinese government procurement portals (ccgp.gov.cn, bidcenter) in Chinese for 测序仪 award notices to MGI versus Illumina. Read MGI's H1'26 report on the SSE or cninfo for the domestic installation count.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": [
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "Greater China revenue fell about 11% y/y in Q2'26 and about 20% in H1'26, and the sequencer import ban is no longer the cause.",
+          "detail": "Q2'26 Greater China revenue was $56M against $63M in Q2'25. H1'26 was $108M against $135M. China is about 4.8% of revenue. The import ban was lifted in Nov 2025 but revenue is still falling, which points to domestic substitution and not just the ban. The 10-Q figures were seen in a search snippet, not on the page. The effect on the global research-pricing thesis is indirect.",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001110803/000111080326000160/ilmn-20260628.htm",
+          "date": "2026-07-30",
+          "source_name": "Illumina 10-Q Q2'26 (search snippet)",
+          "source_type": "filing",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has only the Q2'26 Greater China organic change of -19%. The dollar levels and H1 comparison are not in it."
+        },
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "MGI won 47% of Chinese government contracts for newly installed sequencers in 2023-24, against Illumina's 16%.",
+          "detail": "This comes from local media citing a data platform (reported in a search summary). It shows that domestic-preference procurement already moves share away from Illumina. Illumina's share of China new installs was about 26.5% in 2024. The primary dataset was not opened, so treat it as an unverified secondary claim.",
+          "url": "https://yicaiglobal.com/star50news/2025_02_066790677310522523656",
+          "date": "2025-02",
+          "source_name": "Yicai Global / Guosen Securities (search summary)",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has no China procurement share data."
+        }
+      ]
+    },
+    {
+      "name": "MGI Tech H1'26 results (GenomeWeb, SSE filing)",
+      "url": "https://www.genomeweb.com/node/657086",
+      "access": "Open web. GenomeWeb snippet; the SSE and cninfo original is free.",
+      "labels": ["2B", "1B"],
+      "status": "productive",
+      "notes": "H1'26 revenue was RMB 1.36B against RMB 1.15B. Sequencing revenue was RMB 1.10B (+18%), reagents +16%, and instruments -6%. 410 new sequencers were installed, fewer than in H1'25. China revenue was RMB 856.7M (+12%). Overseas was RMB 483M (+34%). H1'25 had 600 domestic placements.",
+      "how_to_mine": "Download the H1'26 semi-annual report from cninfo or the SSE. Get units by region, segment pricing, average selling price per unit and reagent revenue per installed base. Compare these with H1'25.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2B",
+          "direction": "against",
+          "claim": "MGI instrument revenue fell 6% and installs fell in H1'26, so the domestic-substitution threat to Illumina's research volume is slowing.",
+          "detail": "MGI installed 410 sequencers in H1'26 against about 600 domestic units in H1'25 (the two counts are not like-for-like). Instrument revenue fell 6% while reagents rose 16%. Overseas revenue was +34%. MGI's momentum is in reagents and overseas, not new China boxes, so this is a watch-out for anyone arguing for large share loss to MGI.",
+          "url": "https://www.genomeweb.com/node/657086",
+          "date": "2026-08",
+          "source_name": "GenomeWeb (search snippet)",
+          "source_type": "press",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has MGI overseas +33.8% and 1,470 units in 2025. The install decline and instrument -6% are not in it."
+        }
+      ]
+    },
+    {
+      "name": "European and Asian university tender notices (TED, Find a Tender, Contracts Finder, JETRO, Stotles)",
+      "url": "https://ted.europa.eu/en/notice/301608-2026/pdf",
+      "access": "Open web. TED and JETRO pages are free; the TED PDF fetch returned empty. Stotles returned HTTP 410.",
+      "labels": ["1B", "2B", "1C"],
+      "status": "productive",
+      "notes": "Several 2026 awards and notices surfaced. All are small. The Illumina wins show X remains the default, and the one Element tender is a niche low-diversity case. No MGI or Ultima university award was found in Europe or the UK. The Osaka notice does include MGI DNBSEQ sets alongside Illumina in one tender.",
+      "how_to_mine": "Search TED by CPV 38000000 or 33124000 with 'sequenc' for 2025-26 award notices with lot values and winners. Search Find a Tender and Contracts Finder for 'sequencer'. Check JETRO's procurement database for Japanese national university notices. Compute price per flow cell or kit where quantities are given.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "against",
+          "claim": "Aston University awarded an NGS sequencer contract to Illumina for £282,662 on 12 Jan 2026, with a term to March 2031.",
+          "detail": "The contract is a single-supplier award to Illumina Cambridge Ltd for a teaching sequencer in the medical and biological sciences. The model is not named. It shows a UK university choosing Illumina on a multi-year contract with no visible discounting pressure. The scale is tiny.",
+          "url": "https://www.contractsfinder.service.gov.uk/Notice/f1a2a8d9-f2c2-4525-bf9c-e96571bc0f36",
+          "date": "2026-02-11",
+          "source_name": "UK Contracts Finder (search snippet)",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known tenders are CIBER and IDIBAPS (2025). No UK university instrument awards are listed."
+        },
+        {
+          "label": "2B",
+          "direction": "against",
+          "claim": "Charles University (Prague, First Faculty of Medicine) bought NovaSeq X Plus-compatible kits through a TED-published award of about CZK 12M excluding VAT (published 4 May 2026).",
+          "detail": "The notice covers successive deliveries of kits for a NovaSeq X Plus to be installed by the buyer. CZK 12M is roughly $0.5M. The CZK 12M is an estimated value, and the winner and unit prices were not retrieved, so it is not a confirmed award price. It is a European academic buyer committing to the X Plus (against the thesis), but it is too small to matter and the snippet is unclear on dates.",
+          "url": "https://ted.europa.eu/en/notice/301608-2026/pdf",
+          "date": "2026-05-04",
+          "source_name": "TED (EU Official Journal) notice 301608-2026",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known tenders are CIBER and IDIBAPS. This Czech kit framework is not listed."
+        },
+        {
+          "label": "2B",
+          "direction": "supports",
+          "claim": "University of Osaka's Sept 2026 tender bundles about 78 line items (about 2,873 sets) including Illumina NovaSeq X kits and MGI DNBSEQ sets in the same procurement.",
+          "detail": "Published 24 Sep 2026, bids due 16 Nov 2026, delivery Dec 2026 to May 2027. Line items span NovaSeq X 1.5B, 5B, 10B and 25B kits and MGI G400, G99 and T1+. No estimated value or prices are given. Putting MGI in the same tender means competitive bidding at a Japanese national university. The award and prices will show up after Nov 2026.",
+          "url": "https://www.jetro.go.jp/en/database/procurement/national/articles/403152/2026092400370001.html",
+          "date": "2026-09-24",
+          "source_name": "JETRO Japanese Government Procurement",
+          "source_type": "procurement",
+          "quote": "",
+          "strength": "medium",
+          "why_new": "The known list has no Japanese tenders and no MGI-versus-Illumina same-tender case."
+        }
+      ]
+    },
+    {
+      "name": "UKRI Delivery Plan 2026-27 and RCIF (Research Capital Investment Fund)",
+      "url": "https://www.ukri.org/wp-content/uploads/2026/07/100726-UKRI-Delivery-Plan-2026-2027.pdf",
+      "access": "Open web PDF. I only saw search snippets (Wonkhe, THE, CaSE) and did not open the PDF.",
+      "labels": ["2A", "2B"],
+      "status": "productive",
+      "notes": "The UKRI budget is up 4.6% to £9.2bn for 2026-27, but curiosity-driven research is flat cash and so down in real terms. University RCIF is narrowed to sustaining existing facilities, not new major kit, and tapers with a £50m cut by 2029-30. A survey found 35.6% of English universities are reducing support for research facilities and equipment. Nothing sequencing-specific.",
+      "how_to_mine": "Open the Delivery Plan PDF and the RCIF circular letter (ukri.org, March 2026). Pull the RCIF table by year, the new competed equipment funds, and any genomics-specific lines. Read the Wonkhe article for the survey.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "2A",
+          "direction": "supports",
+          "claim": "UK university equipment capital is being narrowed to maintenance of existing facilities, which limits new sequencer purchases.",
+          "detail": "From FY2026-27 RCIF goes only to sustaining current facilities, and the tapering path is reportedly 174 then 119, 121 and 124 (units unverified). Wonkhe puts the cut at £50m by 2029-30, and 35.6% of surveyed English universities are cutting support for facilities and equipment. Meanwhile UKRI's headline budget is up 4.6% to £9.2bn, so it is a mixed picture. It indirectly favours buyers squeezing vendor prices.",
+          "url": "https://wonkhe.com/wonk-corner/research-capital-investment-fund-cuts-ahead/",
+          "date": "2026-03",
+          "source_name": "Wonkhe / UKRI RCIF circular (search snippet)",
+          "source_type": "other",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known funding evidence is all US (NIH, NSF). No UK or EU funding data are listed."
+        }
+      ]
+    },
+    {
+      "name": "Element AVITI university tender (Edinburgh, Stotles/TenderBase)",
+      "url": "https://tenderbase.co.uk/tender/element-aviti/1394184",
+      "access": "Open web. The TenderBase listing is visible; Stotles pages returned HTTP 410 when fetched.",
+      "labels": ["2B"],
+      "status": "dry",
+      "notes": "A University of Edinburgh Lot 1 award, spelled 'Element Avanti', that the buyer says only AVITI meets (low-diversity libraries, 10x and Parse compatibility, 2-12 samples). The year and value were not visible. It is a niche specification and does not show Element beating the X on price.",
+      "how_to_mine": "Find the original notice on Find a Tender by searching 'Element AVITI' for the University of Edinburgh, then read the award date, value and justification.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "China government procurement portal (ccgp.gov.cn) and bidcenter awards for 测序仪",
+      "url": "https://www.ccgp.gov.cn",
+      "access": "Open web, Chinese-language. Free to search, though some pages may need a captcha.",
+      "labels": ["1B", "2A"],
+      "rationale": "This is the primary source for domestic-preference awards (MGI versus Illumina) and winning prices. The secondary press claim of MGI at 47% of government contracts could be tested here."
+    },
+    {
+      "name": "JETRO Japanese Government Procurement database: Osaka award result (post 16 Nov 2026)",
+      "url": "https://www.jetro.go.jp/en/database/procurement/national/",
+      "access": "Open web.",
+      "labels": ["1B", "2B"],
+      "rationale": "The Osaka tender mixes Illumina and MGI kits across about 78 lines. The award notice should give unit prices for a direct NovaSeq X versus MGI comparison."
+    },
+    {
+      "name": "MGI Tech H1'26 semi-annual report (cninfo / SSE)",
+      "url": "https://www.cninfo.com.cn",
+      "access": "Open web, Chinese.",
+      "labels": ["2B", "1B"],
+      "rationale": "Source of domestic and overseas unit counts, reagent revenue per unit and average selling prices."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,116 @@
+long-read sequencing :: Sequencing that reads long continuous stretches of DNA (thousands of letters) rather than short fragments.
+short-read sequencing :: Illumina's approach of reading many short DNA fragments and stitching them together computationally.
+HiFi :: PacBio's high-fidelity long-read data, combining long reads with high accuracy.
+Revio :: PacBio's high-throughput long-read sequencer.
+Vega :: PacBio's lower-priced benchtop long-read sequencer.
+Onso :: PacBio's short-read sequencer, whose assets were sold to Illumina in January 2026.
+Sequel II/IIe :: PacBio's older long-read sequencers, still used clinically in China.
+SMRT Cell :: The disposable chip on which a PacBio sequencing run happens.
+multi-use SMRT Cell :: A SMRT Cell that can be reused up to three times, cutting cost per run.
+SPRQ :: PacBio's earlier sequencing chemistry (reagent set).
+SPRQ-Nx :: PacBio's new chemistry that raises yield and enables multi-use SMRT Cells, launched May 2026.
+Kinnex :: PacBio's RNA sequencing kit family.
+PureTarget :: PacBio's targeted panel product, used for carrier screening.
+DeepConsensus :: An AI accuracy algorithm PacBio developed with Google.
+high-throughput (HT) platform :: PacBio's planned next-generation, higher-capacity sequencer targeted for 2027.
+TruPath :: Illumina's long-read sequencing offering, a competitive threat to PacBio.
+Axelios :: Roche's new sequencer with longer reads than Illumina's short reads.
+SBS (sequencing by synthesis) :: Illumina's short-read sequencing chemistry.
+throughput :: How much DNA data a sequencer produces per run or per year.
+consumables :: Reagent kits and chips customers must buy for every sequencing run, a recurring revenue source.
+instruments :: The sequencing machines themselves, a one-time capital purchase.
+pull-through :: Annual consumables revenue generated per installed instrument.
+installed base :: The total number of a company's instruments in use at customers.
+ASP (average selling price) :: The average price received per unit sold.
+strategic placement :: Selling an instrument at a discount to a key account expected to buy many consumables.
+gross margin :: Share of revenue left after the direct cost of making the products and services.
+basis point (bps) :: One-hundredth of a percentage point; 100 bps equals one percentage point.
+non-GAAP :: Results adjusted to exclude certain items, differing from official accounting figures.
+operating expenses (opex) :: Costs of running the business such as R&D, sales and administration.
+SG&A :: Selling, general and administrative expenses.
+R&D :: Research and development spending.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization, a rough operating profit measure.
+EBIT :: Operating profit (earnings before interest and taxes).
+EPS (earnings per share) :: Profit or loss divided by the number of shares.
+free cash flow (FCF) :: Cash from operations minus capital spending.
+FCF yield :: Free cash flow divided by market value.
+cash burn :: The rate at which a loss-making company uses up cash.
+cash-flow breakeven :: The point at which a company stops consuming cash.
+net debt :: Debt minus cash.
+enterprise value (EV) :: Equity market value plus net debt.
+EV/revenue (EV/sales) :: Enterprise value divided by annual sales, a valuation multiple for unprofitable firms.
+EV/EBITDA :: Enterprise value divided by EBITDA, a common valuation multiple.
+P/E :: Share price divided by earnings per share.
+multiple contraction :: Investors paying a lower valuation multiple, lowering the share price.
+market capitalization :: Total market value of a company's shares.
+free float :: Share of stock available for public trading.
+book value per share :: Shareholders' equity divided by shares outstanding.
+return on equity (ROE) :: Profit as a percentage of shareholders' equity.
+ROIC :: Return on invested capital, profit relative to all capital invested.
+CAGR :: Compound annual growth rate.
+consensus (Street) :: The average forecast of sell-side analysts.
+sell-side research :: Analysis written by bank analysts for institutional investors.
+price target :: An analyst's estimate of a stock's value in 12 months.
+Equal Weight :: Barclays rating meaning a stock should perform in line with its coverage group.
+Underweight :: Barclays rating meaning a stock should underperform its coverage group.
+Overweight :: Barclays rating meaning a stock should outperform its coverage group.
+Neutral (UBS) :: UBS rating meaning expected return close to the market assumption.
+industry view :: Barclays' overall stance on a sector (Positive, Neutral, Negative).
+illiquid stock :: A stock that trades thinly, making prices volatile.
+pre-announcement :: A company releasing preliminary results before the formal report.
+A&G (academic and government) :: University and government research customers.
+NIH :: National Institutes of Health, the main U.S. funder of biomedical research.
+budget flush :: A year-end burst of spending by labs using up remaining budgets.
+capex :: Capital expenditure; for customers, purchases of equipment like sequencers.
+APAC :: Asia-Pacific region.
+EMEA :: Europe, Middle East and Africa region.
+Dx (diagnostics) :: Clinical testing to diagnose disease.
+translational research :: Research aimed at turning discoveries into clinical use.
+clinical :: Relating to patient care and diagnostic testing rather than research.
+germline :: Inherited DNA, as opposed to DNA changes in tumors.
+rare disease :: Conditions affecting few people, often genetic and hard to diagnose.
+carrier screening :: Testing healthy people for gene variants they could pass to children.
+newborn screening :: Testing babies shortly after birth for treatable conditions.
+frontline test :: The first test ordered for a patient.
+reflex test :: A follow-on test ordered only after an earlier result.
+whole-genome sequencing (WGS) :: Reading a person's or organism's entire DNA.
+20x genome :: A genome in which each position is read about 20 times on average.
+gigabase :: One billion DNA letters, a measure of sequencing output.
+metagenomics :: Sequencing mixed DNA from an environmental sample of many organisms.
+population sequencing (pop seq) :: Sequencing large numbers of people for national or research programs.
+foundation model :: A large AI model trained broadly on a type of data, here biology.
+federated data :: Data kept at separate sites but analyzed together without pooling.
+phasing :: Determining which DNA variants sit on the copy inherited from each parent.
+structural variant :: A large DNA change such as a deletion, duplication or rearrangement.
+copy number :: How many copies of a DNA segment a genome contains.
+paralog :: A near-duplicate copy of a gene elsewhere in the genome.
+methylation :: Chemical tags on DNA that affect gene activity.
+isoform :: One of several versions of an RNA transcript made from the same gene.
+repeat expansion :: An abnormal lengthening of repeated DNA sequences that can cause disease.
+diploid genome :: A genome resolved into both parental copies.
+pangenome :: A reference built from many individuals' genomes rather than one.
+library prep :: The lab step that prepares DNA for sequencing.
+amplicon :: A targeted DNA fragment copied for sequencing.
+AAV :: Adeno-associated virus, used to deliver gene therapies.
+NMPA :: China's drug and medical device regulator.
+thalassemia :: An inherited blood disorder.
+SMA :: Spinal muscular atrophy, an inherited neuromuscular disease.
+DMD :: Duchenne muscular dystrophy, an inherited muscle-wasting disease.
+ataxia :: A group of inherited disorders affecting movement and coordination.
+NEJM :: New England Journal of Medicine, a leading medical journal.
+AGBT :: Advances in Genome Biology and Technology, a major genomics conference.
+non-deal roadshow (NDR) :: Investor meetings held without a securities offering.
+channel checks :: Analyst conversations with customers to gauge demand.
+Tools :: Companies selling lab instruments, consumables and software.
+CRO :: Contract research organization that runs clinical trials for drug makers.
+wet lab :: Physical laboratory experiments, as opposed to computational work.
+NAMs :: New approach methodologies, non-animal testing methods.
+MCED :: Multi-cancer early detection blood testing.
+backlog :: Contracted work not yet recognized as revenue.
+pass-throughs :: Costs a CRO passes directly to clients, inflating revenue at low margin.
+short interest :: Share of a stock's float sold short by investors betting on a fall.
+TAM :: Total addressable market.
+incremental margin :: Profit earned on each additional dollar of sales.
+air pocket :: A temporary sharp drop in demand or revenue.
+DRAM :: Memory chips used in computing hardware.
+GPU :: Graphics processors used for heavy computing.

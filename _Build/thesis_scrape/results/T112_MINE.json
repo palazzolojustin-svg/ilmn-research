@@ -1,0 +1,134 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A large research core moved most users off Illumina onto five AVITIs within six months and cut AVITI prices about 52% cumulatively, ending below the NovaSeq X Plus 25B.",
+      "detail": "UMGC's 19 Dec 2024 post says five AVITI sequencers were installed in June 2024 and most users had moved work to them. Higher AVITI volume bought bigger reagent discounts, which were passed on: about 40% off in Jul 2024, then about 20% more (0.6 x 0.8 = 0.48, so about -52% cumulative in about 5 months). The post says AVITI per 1B 2x150 reads is now below the X Plus 25B, previously the core's cheapest option. A research buyer is therefore taking scale gains from the challenger and passing them to users, and Illumina's price anchor was undercut.",
+      "url": "https://genomics.umn.edu/AVITI-price-drop-2024",
+      "date": "2024-12-19",
+      "source_name": "University of Minnesota Genomics Center news (K. Beckman)",
+      "source_type": "press",
+      "quote": "AVITI sequencing now falls a further 20%, on average",
+      "strength": "medium",
+      "why_new": "Known list has the 40%/20% cuts only as a cost-per-Gb fall; adds the 5-instrument installed base, 'most users moved', the compounded -52% and the 6-month volume shift."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Aug 2026 Illinois rates put the 25B at $3.61/Gb. Ultima wafers are about 3-4x cheaper per read, and bulk discounts are only 6-15%.",
+      "detail": "Carver Biotech (rates effective 1 Aug 2026): NovaSeq X Plus 25B 2x150 lane $3,380 ($3,180 at 8+ lanes, -5.9%); 10B 2x150 $2,000 ($1,710 at 8+ lanes, -14.5%). Assuming 25B = 3.125B reads/lane x 300 bp = ~937 Gb, that is $3.61/Gb; the 10B (375 Gb) is $5.33/Gb. The same core lists a full Ultima wafer at $3,310 for about 10-12B reads, or $0.28-0.33 per M reads versus about $1.08 per M clusters on the 25B lane. That is a 3.3-3.9x per-read gap. Library prep and read-length caveats apply.",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "date": "2026-08-01",
+      "source_name": "UIUC Carver Biotechnology Center DNA Services pricing",
+      "source_type": "price_list",
+      "quote": "All pricing is updated, effective Aug. 1, 2026.",
+      "strength": "medium",
+      "why_new": "Illinois is not among the core rate cards already used. The Ultima-vs-25B per-read gap inside a single core's price list, plus the tier discounts, are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "NCI Frederick's price ladder gives about a 33% per-Gb cut at each larger flow cell, and non-NCI users pay exactly 2x. A 35B on the same ladder implies another step down.",
+      "detail": "NovaSeq X Plus 300-cycle NCI rates per flow cell: 1.5B $2,794, 5B $6,831, 10B $10,275, 25B $17,196. Using reads x 300 bp as Gb (450 / 1,500 / 3,000 / 7,500 Gb), $/Gb is $6.21, $4.55, $3.43 and $2.29. The 10B-to-25B step is -33%, and 5B-to-10B is -25%. Non-NCI rates are exactly 2.0x NCI for every run type, so list price is policy rather than cost. This is the same ladder logic Illumina would apply to a 35B.",
+      "url": "https://crtp.ccr.cancer.gov/fsgc/services/ngs-production/pricing/",
+      "date": "2026-10 (undated page, fetched 2026-10-12)",
+      "source_name": "NCI Frederick Sequencing Facility pricing",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "NCI Frederick is not among the cores in the known list; it adds a full four-step $/Gb ladder including the 5B, and a federal 2x external premium."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "At KU Medical Center the 25B costs about the same per Gb as the 10B, which suggests room for a 25B price cut.",
+      "detail": "KUMC internal 300-cycle prices: 10B full flow cell $9,255 ($1,157/lane), or about $3.09/Gb on 3,000 Gb. The 25B is $23,872, or about $3.18/Gb on 7,500 Gb. Externally the 10B is $14,346 ($4.78/Gb) and the 25B is $37,002 ($4.93/Gb). Other cores show the 25B at 25-37% below the 10B per Gb (NCI -33%, Illinois -32%, UChicago -34%), so KUMC's 25B is priced too high by about 25-35% relative to peers. The 25B remains the unadjusted price layer at this core.",
+      "url": "https://www.kumc.edu/research/genome-sequencing-facility/services/illumina-services/pricing.html",
+      "date": "2026 (undated page, fetched 2026-10-12)",
+      "source_name": "KUMC Genome Sequencing Facility pricing",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "KUMC is not in the known core list. It shows a core that has not passed the 25B cost advantage through, a latent discount."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UChicago charges commercial users only about 5% more than academics on the 25B-300 lane, so research prices are compressed toward a common low price.",
+      "detail": "UChicago Genomics Facility: 25B-300 lane is $2,461 for internal, affiliated and academic users, $2,530 for start-ups and $2,599 for commercial. That is +2.8% and +5.6% versus academic. The 10B-300 is $1,499 vs $1,624 commercial (+8.3%). Per Gb that is about $2.62 on the 25B and $4.00 on the 10B (-34%). The $2,599 commercial price matches Novogene's 25B promo. Providers are therefore pricing near one narrow price, which limits Illumina's room to hold higher prices on any customer class.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "2026 (undated page, fetched 2026-10-12)",
+      "source_name": "UChicago Genomics Facility rate card",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UChicago is not in the known core list. The very narrow internal-to-commercial spread contrasts with NCI (2x) and KUMC (+55%)."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "10B lane prices at pass-through cores look flat from Jul 2023 to Aug 2026, so cheaper rivals have not yet forced visible cuts at these cores.",
+      "detail": "UW Biotechnology Center quoted a 10B 2x150 X+ lane at $2,050 in Jul 2023. Georgia (GGBC, 12 Mar 2025) lists $2,000, and Illinois lists $2,000 effective 1 Aug 2026. Over 3 years that is about -2.4%, and it is flat Mar 2025 to Aug 2026. The Georgia 25B lane was $3,000 in Mar 2025 and Illinois is $3,380 in Aug 2026 (different cores, +12.7%). UW noted its X+ prices had since changed, so the series is not clean. Hidden gains such as extra usable output and cuts to other flow cells are a caveat.",
+      "url": "https://dna.uga.edu/category/news",
+      "date": "2025-03-12",
+      "source_name": "Georgia Genomics & Bioinformatics Core news; UW Biotech Center (2023); UIUC (2026)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known list covers CWRU, Harvard, UCLA and others. This is a cross-core flat-lane-price series that cuts against fast list-price erosion."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "UNMC's Genomics Core still lists only a NovaSeq 6000 as its Illumina platform, next to an AVITI24 and with no NovaSeq X. This is a research 6000 holdout adding the rival instead of the X.",
+      "detail": "The 2026-dated page lists AVITI24, Illumina NovaSeq 6000, Chromium X, nCounter and library robots. It describes the 6000 as the high-capacity platform for large projects, with no X listed and no end-of-life date. Together with MSU (AVITI installed Aug 2024 'to replace our NovaSeq 6000', second AVITI Jan 2025) and UNMC, some research 6000 replacements are going to AVITI rather than the X. That lowers Illumina's capture of the conversion.",
+      "url": "https://www.unmc.edu/research-resources/resources/cores/genomics-core/policies.html",
+      "date": "2026 (undated page)",
+      "source_name": "UNMC Genomics Core",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UNMC is new. MSU's AVITI is known (F139), but the leakage-to-AVITI pattern across two cores is new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Research-core 6000 retirements have run on a steady schedule through Dec 2025, which suggests the research tail is essentially gone.",
+      "detail": "Dated notices: Northwestern NUSeq 6000 unavailable Jan 2024; Dana-Farber stops 6000 support 1 Oct 2024; MSU 6000 retirement planned late Dec 2024; Novogene closes 6000 services 1 Jun 2025; Rush GMCF says the 6000, including SP 2x250 flow cells, was discontinued (Dec 2025 update, search snippet) and points users to X or MiSeq i100+. Together with research at 92% X Gb share, the remaining 6000 tail is in clinical, not research. Rush's Dec 2025 PDF links Complete Genomics DNBSEQ-G800 pages, suggesting another low-cost platform at a research core. Only the snippet was read; the PDF was binary.",
+      "url": "https://www.rushu.rush.edu/sites/default/files/2026-01/gmcfupdates-boyd-122025.pdf",
+      "date": "2025-12-19",
+      "source_name": "Rush University GMCF update; Northwestern NUSeq; Dana-Farber MBCF",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the Rush Dec 2025 discontinuation (SP 2x250 included) and a dated retirement cadence from Jan 2024 to Dec 2025; the known list has only Dana-Farber and Novogene."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Core throughput gains are huge per instrument, so one X Plus replaces more than one 6000, which supports flat consumable dollars after conversion.",
+      "detail": "Duke's SGT core (3 Oct 2023) says the X Plus runs 128 human 30x genomes in the time its predecessor ran 48 (2.67x) and 'does more for half the cost'. UW-Madison (27 Jun 2024) replaced its 6000 with an X Plus, citing expanded capacity and lower consumable costs. UW (Jul 2023) said a Visium project costing a full S4 on the 6000 costs about half on the X+ lane. A 2.7x capacity gain at half the cost means flat spend only if the core's volume rises about 2x in Gb terms.",
+      "url": "https://mgm.duke.edu/news/new-sequencing-capabilities-sequencing-genomic-technologies-core-facility",
+      "date": "2023-10-03",
+      "source_name": "Duke SGT core; UW-Madison Research news; UW Biotech Center",
+      "source_type": "press",
+      "quote": "does more for half the cost",
+      "strength": "weak",
+      "why_new": "Quantifies the 2.67x per-run genome throughput gain and the 'half the cost' claim at named cores; dated 2023-24, so trend only."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Most UMN, UChicago, Illinois, NCI and KUMC pages are single-date snapshots with no price history. Wayback Machine is blocked in this environment, and UC Davis dnatech returned 403 or connection refused, so the UC Davis blog and the UCR list could not be mined (the UCR archive URL 404'd). Binary PDFs (Northwestern State of the Core 2024, MSU AVITI deck, Rush Dec 2025 update) were downloaded but the fetcher could not read them; they sit in the tool-results folder and could be read with the Read tool using pages if useful. UMN Figures 2 and 3 (AVITI price path and cost per 1B reads) are images, so the dollar values were not read. The per-Gb figures use reads x 300 bp as a spec-based Gb proxy and are derived.",
+  "leads": [
+    {"name": "Northwestern NUSeq State of the Core 2024 (PDF)", "url": "https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf", "access": "Open PDF; WebFetch returned binary, use Read with pages", "labels": ["1A", "2B"], "rationale": "Likely has instrument-by-instrument run counts and AVITI/X Plus usage after the Jan 2024 6000 retirement."},
+    {"name": "MSU RTSF AVITI deck (Oct 2024, Element)", "url": "https://rtsf.natsci.msu.edu/_assets/files/genomics/100924_SG_Elements_AVITI_and_24_Overview_Michigan_State_University.pdf", "access": "Open PDF, 9.4MB, binary on fetch", "labels": ["2B", "1A"], "rationale": "Core-side rationale for replacing the 6000 with AVITI, and likely price and duplication comparisons."},
+    {"name": "Rush GMCF Dec 2025 update (PDF)", "url": "https://www.rushu.rush.edu/sites/default/files/2026-01/gmcfupdates-boyd-122025.pdf", "access": "Open PDF, binary on fetch", "labels": ["1A", "2B"], "rationale": "Primary text for the 6000 discontinuation and new G800/Kinnex platforms."},
+    {"name": "UC Davis DNA Technologies Core blog and price FAQ", "url": "https://dnatech.ucdavis.edu/blog", "access": "403 on WebFetch; try browser-like fetch or Apify", "labels": ["2B", "1B"], "rationale": "AVITI rollout post and price-scale FAQ; the probe note names it as a target."},
+    {"name": "EPFL Gene Expression Core news log", "url": "https://www.epfl.ch/research/facilities/gene-expression-core-facility/news", "access": "403 on WebFetch; already used in part at snippet level", "labels": ["1B", "1A"], "rationale": "Dated log of 'strong decrease' NovaSeq price entries (Oct 2025, Mar 2026)."},
+    {"name": "UMN genomics news archive (FY rate announcements)", "url": "https://genomics.umn.edu/news", "access": "Open", "labels": ["1B", "2B"], "rationale": "Links to an FY2024 rates announcement and other price changes that may give a dated Illumina-vs-AVITI-vs-Ultima time series."}
+  ],
+  "apify_requests": []
+}
+```

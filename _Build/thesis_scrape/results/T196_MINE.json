@@ -1,0 +1,60 @@
+Status: the Natera deck is image-only (no text layer), and the transcript sites I tried were either blocked (roic.ai, GenomeWeb returned 403) or gave summaries with no Q&A detail. I'm wrapping up with what I could verify.
+
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera says its newest products, which use more sequencing per test, are not yet cost-optimized, so sequencing cost savings are being absorbed rather than passed through.",
+      "detail": "A GuruFocus summary of the Q2'26 call says higher volumes of Fetal Focus, LATITUDE and Signatera Genome offset ASP gains in gross margin. Management expects COGS-reduction projects to pay off over 12-18 months. Gross margin was 64.5% against 63.4% a year earlier, and the FY26 gross margin range is 64-66%. Sequencing cost per Gb is therefore not what limits Natera's volume; reimbursement and product ramps are.",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "date": "2026-08-06",
+      "source_name": "GuruFocus call highlights (secondary)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The 12-18 month COGS roadmap and the 64-66% FY gross margin range are not in the known file. The claim that new products are not cost-optimized is already known (F270), so this only adds timing."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's guidance assumes a flat Signatera ASP of $1,275, with reimbursement upside of $150-200 per test in the pipeline, which supports an economic case for continued MRD volume growth.",
+      "detail": "Per the GuruFocus summary, guidance assumes a stable ASP of $1,275 and the long-term ASP target is $2,000. Pending MolDX submissions could add roughly $150-200 over 12-18 months. Total tests were 1.044M, of which MRD was 283K (+56%).",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "date": "2026-08-06",
+      "source_name": "GuruFocus (secondary)",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The $2,000 long-term ASP target and the $25 sequential upside case are not in the known file, but the $1,275 ASP and the $150-200 MolDX uplift are already known (F135)."
+    }
+  ],
+  "source_status": "dry",
+  "notes": "The Q2'26 deck PDF is only two embedded images, so WebFetch returned no text (the saved PDF is at the sandbox tool-results path). The transcript on roic.ai is 403 and the GenomeWeb article is 403. The Quartr, MarketBeat and GuruFocus pages are summaries with no Q&A on capacity, Signatera Genome mix or sequencing COGS. A rough cost-of-revenue-per-test of about $250 (35% of $753M over 1.044M tests, the GuruFocus summary's own estimate) matches the known cost/test of ~$255. What remains: the deck images would need OCR or manual reading, and the Q&A would need a full transcript from Motley Fool, Seeking Alpha or the 10-Q MD&A.",
+  "leads": [
+    {
+      "name": "Natera Q2'26 press release PDF (text-based)",
+      "url": "https://s201.q4cdn.com/354493536/files/doc_news/Natera-Reports-Second-Quarter-2026-Financial-Results-2026.pdf",
+      "access": "public PDF",
+      "labels": ["1C"],
+      "rationale": "It is likely to have a text layer with cost-of-revenue and the test tables, so COGS per test and women's health volumes by quarter can be derived."
+    },
+    {
+      "name": "Natera Q2'26 10-Q MD&A",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1604821&type=10-Q",
+      "access": "public",
+      "labels": ["1C", "1B"],
+      "rationale": "It may give a cost of revenue breakdown and a sequencing supplier discussion that can be read for exact figures."
+    },
+    {
+      "name": "Quartr Natera Q2'26 event",
+      "url": "https://quartr.com/events/natera-inc-ntra-q2-2026_3sL0w3UY",
+      "access": "public summary only",
+      "labels": ["1C"],
+      "rationale": "It offers a full transcript if the page is opened in a browser. WebFetch returned only the summary."
+    }
+  ],
+  "apify_requests": []
+}
+```

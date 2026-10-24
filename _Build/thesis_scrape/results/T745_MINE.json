@@ -1,0 +1,145 @@
+Wrapping up. I checked UC procurement, UCSF CAT, UConn, and Illinois rate pages. Now writing the JSON.
+
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In 2026 UConn's Center for Genome Innovation dropped all of its own NovaSeq 6000 flow-cell prices and now sends high-throughput work out as NovaSeq X 25B lanes to The Jackson Laboratory's genomics core (JAX-GM), so another research core's 6000 tail has ended through consolidation onto a partner.",
+      "detail": "UConn's billing catalogue shows 'No active price groups' for its NovaSeq 6000 S1, SP and S2 100-cycle products. A search snippet shows that in Jul–Dec 2025 these were priced at $4,681.75 (S1), $2,554.24 (SP) and $8,817.78 (S2). The only live high-throughput item is '300 cycle, 25B NovaX (JAX-GM)' at $2,936.57 per lane for 1 Jan–31 Dec 2026. A lane is 6.5B paired-end reads, about 975 Gb, so roughly $3.01/Gb. A Feb 2026 UConn bioinformatics page still lists a NovaSeq 6000 in-house, so the instrument may be idle rather than retired.",
+      "url": "https://honeycrisp.core.uconn.edu/products/392",
+      "date": "2026",
+      "source_name": "UConn Center for Genome Innovation billing catalogue (honeycrisp)",
+      "source_type": "price_list",
+      "quote": "No active price groups found for this product.",
+      "strength": "medium",
+      "why_new": "UConn was known only as a $2.94/Gb 25B price point; the 6000 delisting and the JAX outsourcing route are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The University of California has a system-wide Illumina contract (no. 2023003585, effective 15 Feb 2024 to 14 Jun 2029). It pools purchases from all campuses into one negotiated account, with category discounts and 25% off service agreements.",
+      "detail": "UCOP announced the deal on 9 Apr 2024. It covers sequencing instruments, reagents, discounted service agreements and research services, with 'a discount on certain product categories' (percentages not published) and 25% off service plans. UCOP's Life Sciences Strategic Sourcing page lists the contract dates. UCSD's Feb 2026 supplier page shows the contract still in force with 'Net contract pricing.' This is the purchasing vehicle behind the UCSF CAT consolidation, under which Berkeley sends all its lanes to CAT.",
+      "url": "https://procurement.ucop.edu/systemwide-contracts/life-sciences-strategic-sourcing",
+      "date": "2024-04-09 (contract 2024-02-15 to 2029-06-14)",
+      "source_name": "UC Office of the President, Systemwide Procurement",
+      "source_type": "procurement",
+      "quote": "25% discount on service agreements",
+      "strength": "medium",
+      "why_new": "The known list had only Element on the UC sourcing suite; the Illumina contract number, its dates and the 25% service discount are new."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UC's whole life-science sourcing program, which included Illumina, saved only about 5.6% on $98M of annual contracted spend. That suggests system-level aggregation in academia buys modest discounts, not 'insane' ones.",
+      "detail": "UCOP (2 Jul 2024) says its Gene Sequencing & Synthesis RFP produced 12 contracts. The named suppliers include Illumina, PacBio, Element, Qiagen, Life Tech and IDT. Together they cover about $98M of annual spend and save $5.5M a year ($26M over the first five years), over eight-year terms (5+3). That works out to $5.5M / $98M ≈ 5.6% average savings. Illumina's own share is not broken out.",
+      "url": "https://procurement.ucop.edu/news/life-sciences-wins-gene-sequencing-synthesis-contracts",
+      "date": "2024-07-02",
+      "source_name": "UC Office of the President, Systemwide Procurement",
+      "source_type": "procurement",
+      "quote": "an annual saving of $5.5 million, amounting to $26 million over the first five years",
+      "strength": "medium",
+      "why_new": "This is the first number for the savings a large university-system buyer gets from aggregation."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The aggregated UC account (UCSF CAT) prices a 25B 300-cycle lane at $2,551 internal, which matches Novogene's promotional price and is about 10–25% below standalone US cores in 2026. Pooled big accounts get the lowest prices.",
+      "detail": "Internal 25B-300 lane prices: CAT $2,551; Berkeley reselling through CAT $2,600 (+1.9%); Novogene promo $2,549 (to 31 Aug 2026); UCSD IGM 2025 $2,800 (+9.8% vs CAT); UConn via JAX $2,936.57 (+15%); Northwestern FY26 $3,000 (+18%); Illinois Carver (Aug 2026) $3,380 (+32%), or $3,180 for 8+ lanes (+25%). Berkeley marks up CAT by only 2–7% (10B 150PE $1,535 vs CAT 10B-300 $1,439, +6.7%; 25B '10X only' $1,565 vs CAT 25B-100 $1,465, +6.8%). Core prices include overhead and subsidies, so the gaps are only partly reagent cost.",
+      "url": "https://cat.ucsf.edu/sequencing",
+      "date": "2026-10 (accessed)",
+      "source_name": "UCSF CAT, QB3 Berkeley, UIUC Carver, UConn CGI rate pages",
+      "source_type": "price_list",
+      "quote": "UCB does not have a NovaSeq X, all lanes are sent to the UCSF CAT Lab",
+      "strength": "medium",
+      "why_new": "The cross-core ranking that puts the pooled UC account at the floor, level with Novogene, is a new derivation; the Illinois and UConn 2026 numbers are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UCSF CAT's older rate sheet (from about mid/late 2024, with 25B 100/200-cycle 'Coming Nov. 2024') shows the size of later cuts: 25B-300 UC −10.5%, 10B-300 −16.5%, and for-profit external 25B down about 16%.",
+      "detail": "Old sheet (node/706): 25B-300 $2,850 UC / $3,591 non-profit / $4,448 for-profit; 10B-300 $1,724; 10B-100 $1,252. Current sheet: 25B-300 $2,551, 10B-300 $1,439, 10B-100 $1,105 (−11.7%). The for-profit surcharge is now +46.3%, so for-profit 25B ≈ $2,551 × 1.463 = $3,732, against $4,448 before (−16.1%). Non-profit (+33%) ≈ $3,393, against $3,591 (−5.5%). The cuts fall between roughly late 2024 and 2026, which overlaps Berkeley's summer 2026 volume consolidation.",
+      "url": "https://cat.ucsf.edu/node/706",
+      "date": "c. H2 2024 vs 2026",
+      "source_name": "UCSF Center for Advanced Technology rate pages",
+      "source_type": "price_list",
+      "quote": "Coming Nov. 2024",
+      "strength": "weak",
+      "why_new": "F817 noted the fall but not its dating or the for-profit external cut; this update quantifies both."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Illinois's Carver core (prices effective 1 Aug 2026) has a volume tier of 6–16% off NovaSeq X lanes for 8+ lanes, and its 10B PE150 lane appears to have fallen from $2,110 to $2,000.",
+      "detail": "Rates effective 1 Aug 2026: 25B PE150 $3,380 / $3,180 for 8+ lanes (−5.9%); 25B SR100 $2,190 / $1,930 (−11.9%); 10B PE150 $2,000 / $1,710 (−14.5%); 10B SR100 $1,520 / $1,270 (−16.4%). A search snippet of an earlier version showed the 10B PE150 at $2,110 (−5.2%). External users pay a 30.8% overhead, capped at 20% for Illinois state institutions. The same sheet also lists 'Full Wafer Pricing' at $3,310, which is probably an Ultima wafer (unconfirmed).",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "date": "2026-08-01",
+      "source_name": "Roy J. Carver Biotechnology Center, UIUC",
+      "source_type": "price_list",
+      "quote": "All pricing is updated, effective Aug. 1, 2026.",
+      "strength": "weak",
+      "why_new": "D045 used Carver only for the 10B/25B ratio; the volume-tier discounts and the 10B cut are new."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UConn still charges researchers a 'temporary 5% tariff surcharge' on Illumina sequencing for the whole of 2026, and its 25B lane price rose slightly. Research users are absorbing cost increases, not getting cuts.",
+      "detail": "The 2026 25B-300 lane is $2,936.57 (1 Jan–31 Dec 2026). A search snippet shows Jul–Dec 2025 at $2,924.04 (+0.4%) and an earlier 1 Jul 2025 figure of $2,534.74 (+16%; snippet only, unverified). The 6000 rows carried the same 5% surcharge in 2025. This fits Illumina's own tariff pass-through and suggests research cores pass it on to end users.",
+      "url": "https://honeycrisp.core.uconn.edu/products/358",
+      "date": "2026-01-01",
+      "source_name": "UConn Center for Genome Innovation billing catalogue",
+      "source_type": "price_list",
+      "quote": "Cost includes library pool QC, Illumina shipping and temporary 5% tariff surcharge.",
+      "strength": "weak",
+      "why_new": "This is a core-level tariff surcharge on Illumina lanes; the known list has tariff pass-through only at the Illumina level."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Berkeley's QB3 core has cut services for lack of staff: it no longer offers amplicon sequencing and does no Oxford Nanopore library prep. Labour, not sequencing price, limits research throughput.",
+      "detail": "The QB3 rate page (effective 1 Jun 2026) sends amplicon users to Rush University and says it lacks 'bandwidth for library preparations' for nanopore. It also has no NovaSeq X of its own and outsources all lanes to UCSF CAT. This matches the known library-prep constraint, seen here at a single core.",
+      "url": "https://qb3.berkeley.edu/facility/genomics/rates/",
+      "date": "2026-06-01",
+      "source_name": "QB3 Genomics, UC Berkeley",
+      "source_type": "price_list",
+      "quote": "At this time we do not have the bandwidth for library preparations",
+      "strength": "weak",
+      "why_new": "The source's earlier mining covered lane prices only; the capacity-constraint text was not captured."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Wayback Machine (web.archive.org) is blocked for this fetcher, so I could not see QB3's pre-2026 partner or old lane price. The QB3 FY24 PDF is unreadable through the fetcher (it was saved locally as a binary). The UC Illumina contract's discount percentages need a CalUSource login, so they are not retrievable. No other 2025–26 system or consortium consolidation (BTAA, UT, SUNY) turned up in search. UMN is a known outsourcer. Remaining angle: UConn→JAX and Berkeley→CAT may be part of a wider pattern of cores giving up in-house X capacity; check JAX-GM's external rate card.",
+  "leads": [
+    {
+      "name": "JAX Genome Technologies / JAX-GM external sequencing rates",
+      "url": "https://www.jax.org/jax-mice-and-services/services/genome-technologies",
+      "access": "not opened",
+      "labels": ["1B", "2B"],
+      "rationale": "JAX now acts as a hub for UConn's X lanes. Its own rate card would show the price before UConn's markup."
+    },
+    {
+      "name": "UCSD Blink sequencing agreement suppliers (Feb 2026)",
+      "url": "https://blink.ucsd.edu/buy-pay/ways/oracle-procurement/suppliers/agreement-suppliers/life-sciences/sequencing/index.html",
+      "access": "opened",
+      "labels": ["1B"],
+      "rationale": "Lists UC contract numbers (Illumina 2023003585, Element 2023003607). Other campuses' pages may publish discount tiers."
+    },
+    {
+      "name": "UIUC Carver 'Full Wafer Pricing' line",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "access": "opened",
+      "labels": ["2B"],
+      "rationale": "A $3,310 full wafer, if it is Ultima, would be a new rival-price point priced level with a single 25B lane. Confirm the platform."
+    },
+    {
+      "name": "University of Illinois trustees purchase recommendations (Illumina sole-source)",
+      "url": "https://www.trustees.uillinois.edu/trustees/agenda/May-16-2024/19a-May-24-Purchase-Recommendations.docx",
+      "access": "not opened (search result)",
+      "labels": ["1B", "2A"],
+      "rationale": "Board-level Illumina reagent purchases with dollar values; later board agendas could give a research-reagent spend time series."
+    }
+  ],
+  "apify_requests": []
+}
+```

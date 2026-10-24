@@ -1,0 +1,189 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Caris's capital spending jumped about 8x in H1'26 and it is hunting for more lab space, so its sequencing volume is still being built out. This cuts against volume slowing.",
+      "detail": "Caris's purchases of property and equipment (the release combines them with capitalized software) were $32.4M in H1'26 vs $4.1M in H1'25. Q2'26 alone was $22.1M vs $1.4M, about 16x. Net PP&E rose from $63.2M (31 Dec 2025) to $95.7M (30 Jun 2026), +51%. Clinical cases were 59.2K in Q2, up 12% q/q and 18% y/y. The FY25 10-K says it has 'started the process of identifying and evaluating additional facilities' and that pharma partners' contracted sample volumes 'could strain our testing capacity.' Caris is a top-3 Illumina oncology customer and runs both the 6000 and the X. The release does not say what the capex bought, so the sequencer share is unproven.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002019410/000201941026000053/cai_ex99-1.htm",
+      "date": "2026-08-05",
+      "source_name": "Caris Life Sciences Q2'26 8-K Ex. 99.1; FY25 10-K (cai-20251231.htm)",
+      "source_type": "filing",
+      "quote": "started the process of identifying and evaluating additional facilities",
+      "strength": "medium",
+      "why_new": "The known list has Caris's cases (+18%) and cost per case, but not its capex surge, PP&E build or the capacity-strain language."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's fixed-asset base and capex rose sharply in H1'26, which points to continued sequencing capacity build (and so Illumina volume) at the largest MRD and NIPT customer.",
+      "detail": "Gross PP&E went from $352.3M (31 Dec 2025) to $450.9M (30 Jun 2026), +28%. Machinery and equipment went from $170.6M to $214.8M (+26%) and construction in process from $94.0M to $131.1M. H1 purchases of PP&E were $85.6M vs $47.7M in H1'25 (+79%). Depreciation was $13.1M in Q2'26 vs $8.9M a year earlier. Natera leased about 131K sq ft more in Austin between Mar and Dec 2025 (57.1K + 45.8K + 28.5K), running to Mar 2033. Accrued 'testing and laboratory materials' were $30.9M vs $12.4M at year-end. The caveat is that capacity can be bought ahead of volume. The filing does not say how much is sequencers.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630.htm",
+      "date": "2026-08-06",
+      "source_name": "Natera 10-Q for the quarter ended 30 Jun 2026",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has Natera's May 2026 'Austin largest sequencing capacity' announcement but no PP&E, capex or lease-footage numbers."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Natera's hard supplier commitments fell while its capex rose, and no Illumina-named volume lock-in appears. This fits the view that Natera holds the bargaining leverage.",
+      "detail": "Total material contractual commitments were $220.5M at 30 Jun 2026: material suppliers $120.3M (to Nov 2030), other suppliers $48.3M, cloud $22.7M, application services $15.9M, and a 'laboratory instruments supplier' $13.4M (to Dec 2027). The known figure of $256.9M with none named Illumina is about $36M higher, so commitments fell about 14% while capex rose 79%. Illumina is not named in any line. The Illumina supply agreement is the only large sequencing contract, and it has a binding fourth-month forecast of only ±25%.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026054525/ntra-20260630.htm",
+      "date": "2026-08-06",
+      "source_name": "Natera 10-Q Q2'26, commitments note",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the updated Q2'26 commitments table (the $256.9M figure is already known). The date of the $256.9M figure is unconfirmed."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Tempus is not building sequencing capacity at anything like Natera's or Caris's pace. Its fixed assets are flat even though its oncology tests are growing about 30%.",
+      "detail": "Tempus's H1'26 purchases of PP&E were $14.3M vs $9.6M in H1'25 (+49% on a small base), plus $6.8M of capitalized software. Net PP&E was $89.1M at 30 Jun 2026 vs $89.2M at year-end. Diagnostics cost of revenue rose only 8% to $108.2M in Q2'26, while data and applications costs rose 40%. Compare Natera's capex of $85.6M and Caris's $32.4M over the same six months. A third large Illumina oncology customer is therefore growing volume without a matching physical capacity build.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526326090/tem-20260630.htm",
+      "date": "2026-07-30",
+      "source_name": "Tempus AI 10-Q for the quarter ended 30 Jun 2026",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has Tempus job postings and oncology growth but no PP&E or capex comparison across the big labs."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera says its new, deeper-sequencing products raise cost per test and are not yet cost-optimized. That is a source of Gb per test that test counts understate.",
+      "detail": "On the Q2'26 call (6 Aug 2026), management said COGS rose because new products (Fetal Focus, LATITUDE, Signatera Genome) are 'not yet cost-optimized.' It expects COGS-reduction projects to pay off over the next 12–18 months. Cost of product revenue was $266.6M, +33.6%, against tests +22.4%. Signatera ASP was about $1,275, with guidance assuming flat and about $25 of upside. Pending MolDX coverage could add $150–200. Natera will keep redesigning for lower cost per test, so some of the Gb added by new products may later be optimized away. Natera did not give women's health volume, so the NIPT trend is unobservable from this release.",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "date": "2026-08-06",
+      "source_name": "GuruFocus summary of the Natera Q2'26 call; Natera Q2'26 10-Q",
+      "source_type": "earnings_call",
+      "quote": "not yet cost-optimized",
+      "strength": "medium",
+      "why_new": "The known list has Natera's cost per test ($255 vs $234) but not management's attribution to new products or the 12–18 month cost-down horizon."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Adaptive's 10-K shows a clinical MRD lab only partway through its move onto the NovaSeq X Plus, with the finish about two years out. Lab conversions run long.",
+      "detail": "The FY25 10-K says Adaptive 'operationalized' the NovaSeq X Plus for clonoSEQ in H2'25 and expects to transition all MRD testing to it 'over the next two years.' That implies completion around 2027. The 10-K's supplier section names the Illumina NextSeq and NovaSeq X Plus as its sequencers, not the 6000, and Illumina is sole supplier of reagents and repair. Summaries say sequencing gross margin was 66% in FY25 vs 53% in FY24, and Q4'25 was 71%. The Q2'26 figure was 72% vs 64% (already known). Even a lab that skipped the 6000 and converted a smaller NextSeq base is still converting 12+ months after starting. This is consistent with conversion still dropping Illumina revenue per Gb in 2027. The margin figures come from earnings summaries, not the 10-K text I could read.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478320/000119312526076902/adpt-20251231.htm",
+      "date": "2026-03 (FY25 10-K)",
+      "source_name": "Adaptive Biotechnologies FY25 10-K; earnings summaries (vectorshift, MarketBeat)",
+      "source_type": "filing",
+      "quote": "transition all of our MRD testing to the NovaSeq X Plus over the next two years",
+      "strength": "medium",
+      "why_new": "The known list has only Adaptive's 72% vs 64% margin; the two-year timeline and the FY25 66% vs 53% series are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx expects its cost per test to fall in a 'step improvement' in 2027, and says genome cost is mostly reagents. That is a customer expecting cheaper reagents around when the 35B is due.",
+      "detail": "On the Q2'26 call (3 Aug 2026), the CFO said cost per test would stay 'relatively flat' in H2'26 and then show 'step improvements in 2027.' Genomes currently cost nearly 2x as much to produce as exomes, 'largely' because of reagent costs, and GeneDx expects genome cost to fall as utilization grows and technology advances. The 10-Q also says it expects cost per test to fall long term from capacity utilization, automation and value engineering. Management ties the step to utilization, automation and technology, not explicitly to a price cut. But the 2027 timing matches the 35B flow cell roadmap (H1'27), and 6M exome/genome volume is +33%. Genome mix rising raises Gb per test, which partly offsets any price effect.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001818331/000162828026051878/wgs-20260630.htm",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2'26 10-Q and call (via MarketBeat/Quartr-type summary in search results)",
+      "source_type": "earnings_call",
+      "quote": "step improvements in 2027",
+      "strength": "weak",
+      "why_new": "The known list has the H2'26 flat cost-per-test guide; the 2027 step-down and the 'genome ≈ 2x exome, mostly reagents' attribution are new."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Guardant raised its Shield volume guide by about 17% and says a second, cheaper workflow went live in Aug 2026. Customer volume is strong, but cost per sample is being cut hard.",
+      "detail": "Shield did about 66K tests in Q2'26 (+22K q/q, so Q1 was about 44K) vs about 16K a year ago. The FY26 guide rose to 270–285K from 230–245K. Q1+Q2 is about 110K, so H2 implies 160–175K, or 80–88K a quarter, 21–33% above Q2. A FDA-approved higher-throughput, lower-COGS workflow (methylation-only) goes live in August 2026 for new samples. COGS per test is about $410 now, targeted down 15% by end-2026 and to $200 by 2028. The Guardant360 Liquid move to the X saves about $200 per test. Non-GAAP gross margin was 67% vs 66%, with FY26 guided to 64–65% on 'lower second-half testing costs.' The release does not say what share of the Shield saving is sequencing. If any comes from shallower sequencing of fewer targets, Gb per test falls, which would trim the volume Illumina sees. Test volume itself is not the problem.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/guardant-health-gh-q2-2026-earnings-call-transcript/",
+      "date": "2026-07-30",
+      "source_name": "Guardant Health Q2'26 call transcript (Motley Fool)",
+      "source_type": "earnings_call",
+      "quote": "higher-throughput, lower-COGS Shield workflow",
+      "strength": "weak",
+      "why_new": "The known list has Shield at about 66K and COGS $410 vs ASP $800. The new items are the raised FY guide, the implied H2 run-rate, and the Aug 2026 low-COGS methylation-only workflow."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "BillionToOne's tests grew about 43% in Q1'26 with cost of revenue per test slightly down. The NIPT-led lab is still growing volume while cutting unit cost.",
+      "detail": "Cost of revenue was $29.3M in Q1'26 vs $21.0M in Q1'25. Divided by about 188K and 131K tests (delivered-test counts as reported by the filing summary), cost per test is about $156 vs about $160, a roughly 3% fall, while tests rose about 43%. Gross margin was about 73% vs 64%, driven by ASP, 'COGS decreases' and efficiency. Purchases of PP&E were $4.5M vs $2.3M. Inventory was $19.2M vs $17.5M. Cost per test at about $156 total (all-in, not just sequencing) means very few Gb per test. NIPT-type volume growth therefore adds little Illumina volume. That is consistent with the thesis that test growth is not Gb growth. The test counts are my derivation and I did not confirm them in the filing's text.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000031/blln-20260331.htm",
+      "date": "2026-05 (Q1'26 10-Q)",
+      "source_name": "BillionToOne 10-Q for Q1'26",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has BLLN tests +35% in Q2 and cost per test 'relatively stable', not the Q1 cost-of-revenue-per-test arithmetic or capex."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's published Open Offer Section 4(g) price disclosures, which gave the X 25B list price and discount schedules for GRAIL, now return 'not found'. The only public check on oncology discounting has gone dark.",
+      "detail": "Search-result snippets (not the PDFs, which I could not open) describe the 22 Apr 2024 addendum as a GRAIL purchasing disclosure under Section 4(g) of the supply agreement. It lists US list prices as of 15 Feb 2024 (NovaSeq X 25B-300 kit $16,000, catalogue 20104706) and a universal consumables discount schedule by annual spend, with a column for the X/X Plus 25B. The 23 May 2023 version lists only the 10B kit for the X. On 12 Oct 2026 both PDFs (illumina.com and emea hosts) and the Mar 2024 Appendix 1 PDF returned HTTP 404. The $16,000 list is consistent with the GSA $24,155 being about 47% above Illumina's catalogue list. The take-away is that I could not verify 2025–26 discounts, so any current price is unobservable.",
+      "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2024_04_22-Open_Offer_Addendum_Section_4(g)_disclosure.pdf",
+      "date": "2024-04-22 (now 404 on 2026-10-12)",
+      "source_name": "Illumina Open Offer addenda (search snippet)",
+      "source_type": "archive",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has the Open Offer terms and a note that the pages appear withdrawn. The 4(g) addendum, the dated $16,000 list and the confirmed 404s are new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "No large clinical lab filed anything naming the NovaSeq 6000 after Jan 2025 except Caris. A disclosure search finds almost no sign of a visible 6000 tail at the other big labs.",
+      "detail": "The EDGAR full-text query 'NovaSeq 6000' (10-K, 10-Q, S-1, 8-K, filed 2025-01-01 onward) returned only the Caris FY25 10-K. The 34 results in the no-date-limit version are mostly Illumina's own filings, Personalis, Guardant's 2021 exhibit and older filers. Natera, Guardant, Tempus, GeneDx, Myriad, BillionToOne and Fulgent do not name the 6000 in 2025–26 filings, and Fulgent's 10-K says only 'next generation sequencers.' Caris's FY25 10-K says its Arizona labs 'all utilize' the 6000 and the X, and Adaptive names only the NextSeq and X Plus. Absence from filings is weak evidence, since labs rarely name instrument models. The thesis wants a visible, long-lived tail, so this is a watch-out.",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22NovaSeq%206000%22&forms=10-K,10-Q,S-1,8-K&dateRange=custom&startdt=2025-01-01",
+      "date": "2026-10-12",
+      "source_name": "SEC EDGAR full-text search; Caris, Adaptive, Fulgent filings",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has Caris's both-platform statement, but not the filing-wide absence test across the other labs."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Most of the productive fields are already in the known list. Net-new material is the capex and PP&E comparison across Natera, Caris and Tempus, Natera's updated commitments table, Adaptive's two-year transition timeline, GeneDx's 2027 step improvement, and Guardant's Shield guide arithmetic. Not read because WebFetch skips by character offsets and returned thin results: Guardant FY25 10-K MD&A (offset 300000+, 477K chars), Fulgent 10-K MD&A (offset 100000+, 423K chars), Adaptive 10-K MD&A and notes (offset 350000+), the Natera 10-Q MD&A (the 139K-char text contained no MD&A section), BillionToOne 10-Q offset 100000+, and Caris Q1/Q2'26 10-Qs. Transcript sites roic.ai and businesswire returned HTTP 403. Myriad's FY25 10-K was not found by search. No 'NovaSeq X' or '6000' language could be tied to GeneDx, Myriad, Tempus or BillionToOne from filings.",
+  "leads": [
+    {
+      "name": "Guardant Health FY25 10-K MD&A and commitments note",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000013/gh-20251231.htm",
+      "access": "Free EDGAR; fetch offsets 300000–476980",
+      "labels": ["1B", "1C"],
+      "rationale": "Cost-of-revenue drivers, any sequencer purchase commitments and the X transition timeline are likely there. The portion read (200000–300000) did not cover them."
+    },
+    {
+      "name": "Caris Q2'26 10-Q and Q2'26 call transcript",
+      "url": "https://statementdog.com/analysis/CAI/earnings_calls/317159",
+      "access": "Free",
+      "labels": ["1A", "1C"],
+      "rationale": "Capex rose about 8x in H1'26, and the call may say whether it is sequencers, the new facility, and the 6000 vs X mix. The URL given is for the BillionToOne transcript on the same site; the Caris one is under https://statementdog.com/analysis/CAI/earnings_calls/317359."
+    },
+    {
+      "name": "BillionToOne Q2'26 call transcript",
+      "url": "https://statementdog.com/analysis/BLLN/earnings_calls/317159",
+      "access": "Free",
+      "labels": ["1C"],
+      "rationale": "The Q2'26 call may give prenatal vs oncology cost-per-test splits and test-volume mix, relevant to the NIPT-maturing argument."
+    },
+    {
+      "name": "Adaptive Biotechnologies Q2'26 call transcript",
+      "url": "https://statementdog.com/analysis/ADPT/earnings_calls/316678",
+      "access": "Free",
+      "labels": ["1A", "1B"],
+      "rationale": "Check whether the X Plus transition is complete, how much of the margin gain was sequencing reagent price, and the wind-down of the RUO pharma services business."
+    },
+    {
+      "name": "Natera FY25 10-K and Q1'26 10-Q MD&A",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000162828026032478/ntra-20260331.htm",
+      "access": "Free EDGAR",
+      "labels": ["1B", "1C"],
+      "rationale": "The Q2 text I could read had no MD&A. Q1'26 should show the same capex, commitments and cost-of-revenue discussion, and the Eleventh Amendment pricing narrative."
+    }
+  ],
+  "apify_requests": []
+}
+```

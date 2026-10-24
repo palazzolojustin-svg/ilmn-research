@@ -1,0 +1,74 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "NIH institute bid boards (NCI, NIDA, NHLBI, NIAID, NIEHS): sole-source sequencing-service notices whose 'Source Justification' lists competing vendor quotes and compares them with the in-house NIH core cost",
+      "url": "https://www.cancer.gov/about-nci/contracts/opportunities/bidboard/24-044006-mo",
+      "access": "Opened and read. WebFetch saves the PDF as binary; open the saved file with the Read tool to get the text. Confirmed content (NCI 24-044006, 7 Aug 2024): FFPE whole-transcriptome sequencing of 40 tumor-normal pairs on Illumina paired-end. Novogene quoted $25,000, 'comparable (within 10%)' to the NCI core's estimate, against ACGT $154,000, Augenomics $57,162.60 and LifeSCT $36,337.50. That is a ~6x spread in quotes for the same work. Next steps: (1) browse the index pages https://www.cancer.gov/about-nci/contracts/opportunities/bidboard and https://nida.nih.gov/funding/contracts-small-businesses/bid-board (an example is https://nida.nih.gov/funding/contracts-small-businesses/bid-board/jn-21-004304-0, a NovaSeq 6000 PE150 job from 2021); (2) run Google searches such as: site:cancer.gov bidboard \"Source Justification\" sequencing; site:nih.gov \"bid board\" \"Novogene\" 2025; site:nih.gov \"bid board\" \"NovaSeq\" \"estimated\"; site:nih.gov \"bid board\" (Psomagen OR Azenta OR GENEWIZ OR \"Admera\" OR \"Plasmidsaurus\" OR \"Element\"). For each 2025-26 notice, pull the date, assay, sample count, winning quote, losing quotes and the NIH-core comparison.",
+      "labels": ["2A", "2B"],
+      "rationale": "These are rare hard records of how research buyers shop on price. They show multiple real quotes for identical sequencing work, the winner's price set against the federal core's internal cost, and the reason for the choice. Comparing 2024 notices with 2025-26 ones would show (a) whether outsourced research sequencing prices are falling, (b) how wide the dispersion is, which is evidence that buyers have leverage, and (c) whether in-house cores are losing work to cheap providers. The trend matters because many of these providers run X Plus at lower $/Gb. The one notice confirmed so far is from Aug 2024, so it sets the baseline; newer notices need to be found.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Plasmidsaurus $50/sample academic 3' RNA-seq and the core-facility pushback: a natural experiment in research price elasticity",
+      "url": "https://plasmidsaurus.com/rna",
+      "access": "Public pages, no login. Read https://plasmidsaurus.com/rna (search snippet: '$50 for academia, $80 for industry', no minimum order). Read the custom-sequencing FAQ https://plasmidsaurus.com/faq/custom ('$500 for the 1st Gb… $50 each additional Gb'). Read the substack write-ups https://aseq.substack.com/p/plasmidsaurus and https://burbanklabs.substack.com/p/plasmidsaurus (unopened; the aseq substack is known, but this specific post may not be). The GenomeWeb article https://www.genomeweb.com/sequencing/plasmidsaurus-rna-seq-service-sparks-interest-researchers-unease-academic-cores is probably paywalled; use only its search snippet, which says a researcher paid a core '$250 to $450 per sample'. Then search: \"Plasmidsaurus\" core facility RNA-seq price 2026; site:.edu \"Plasmidsaurus\" RNA-seq; \"Plasmidsaurus\" methods RNA-seq bioRxiv 2026 (adoption count). Also check which sequencer Plasmidsaurus uses for RNA-seq; the platform is unverified.",
+      "labels": ["2A", "2B"],
+      "rationale": "This tests directly how fast academic demand moves when a vendor undercuts on price: $50 against $250-450 at cores, about 80-90% cheaper. If core pages, methods sections or user posts show RNA-seq volume moving quickly, that is evidence of high price sensitivity in counting applications (the work Roche AXELIOS targets). If the service runs on non-Illumina hardware, Illumina loses the volume outright. If it runs on Illumina, it is another source of per-sample deflation that research customers will cite in negotiations.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "University core-voucher and subsidy programs (FY26 RFAs and award reports): institutions paying down core prices to keep research demand alive",
+      "url": "https://www.med.unc.edu/corefacilities/wp-content/uploads/sites/943/2025/08/RFA-SOM-Core-Voucher-Program-FY26-FINAL.docx",
+      "access": "Public docx (needs local docx text extraction; the snippet confirms vouchers of up to $10,000 per investigator, FY26, due 22 Sep 2025, for core services only). Also: https://med.unc.edu/genysis/resources/genysis-funding, https://sites.duke.edu/microbiome/duke-microbiome-center-rolling-voucher-program/ and https://louisville.edu/research/kbrin/kbrin-cores/gtec/kbrin-next-generation-sequencing-pilot-projects. Search: site:.edu \"core voucher\" 2026 sequencing; site:.edu \"core subsidy\" genomics FY2026; site:.edu \"voucher\" \"NovaSeq\" 2025. Record the voucher size, the number of awards, the stated reason (funding cuts, keeping core volume) and any FY27 change. Exclude the Northwestern NUSeq Illumina pilot grant, which is already S571.",
+      "labels": ["2A"],
+      "rationale": "When universities create or expand vouchers in 2025-26, which is when NIH new awards fell ~34%, it means research demand would not hold at current prices without a subsidy. That is indirect but dated, quantifiable evidence of price sensitivity and tight funding. A shrinking or cancelled program would point to further volume risk.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Federal obligations to low-cost sequencing providers (Novogene, Psomagen, Azenta) through contractor-profile aggregators: federal research labs outsourcing over time",
+      "url": "https://govconinabox.com/explore/contractors/profile/novogene-corporation-inc-km6kf2",
+      "access": "Public profile page seen in search (not opened). It may list awards by agency and fiscal year. USAspending's API was blocked earlier (S495), so try this aggregator, plus HigherGov and govtribe public pages: search \"Novogene Corporation\" site:highergov.com; \"Psomagen\" site:highergov.com; govconinabox \"Psomagen\". Record the count and dollars of awards to each provider by fiscal year for FY23-FY26 and by agency (NIH ICs, USDA, VA, DoD).",
+      "labels": ["2A", "2B"],
+      "rationale": "Rising award counts with flat or falling average order size would show federal research buyers moving sequencing to the cheapest providers rather than in-house Illumina capacity. This is a measurable proxy for price-driven channel shift in research.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "UK core 'grant application costings' pages: the per-sample figures researchers must put in UKRI/Wellcome bids, and which platform they assume",
+      "url": "https://exeter.ac.uk/research/sequencing/pricing/grants",
+      "access": "Public HTML (seen in search; the snippet says Exeter still runs a NovaSeq 6000, a ProMethION 24 and MinIONs). Also search: site:ac.uk \"grant costings\" sequencing NovaSeq X 2026; site:ac.uk genomics facility \"full economic cost\" sequencing per sample; Edinburgh Genomics, Liverpool CGR, Earlham Institute and Oxford WHG pricing-for-grants pages. Record the per-sample or per-lane figures, internal vs external vs FEC rates, platform, and page date. Compare with Novogene UK prices.",
+      "labels": ["2A", "2B"],
+      "rationale": "Grant-costing pages show the price ceiling that research budgets are built around. A gap to commercial providers, or a facility still on the 6000, shows the pressure research buyers bring and why work leaves for low-cost vendors. Not covered by earlier UK tender sources, which looked at procurement rather than grant budgeting.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "DFG NGS Competence Network (Germany) after the 2023 funding initiative: whether sequencing subsidies continued, call sizes and centre price lists",
+      "url": "https://wggc.de/about-us/",
+      "access": "Public HTML. The WGGC page mentions ~40 projects in the fifth DFG call and a 'funding extension' (undated). Also read https://www.dfg.de/en/news/news-topics/announcements-proposals/2022/info-wissenschaft-22-13 (projects of €100K-€1M in sequencing cost) and https://genomecenter.tu-dresden.de/category/funding. Search: DFG \"NGS Competence Network\" 2025 OR 2026; \"NGS-CN\" Ausschreibung 2025; Kiel CCGA, Tübingen NCCT and Dresden DcGC Preisliste 2026. Record whether there was a sixth round, the number of projects funded, the budget, and per-sample prices.",
+      "labels": ["2A"],
+      "rationale": "A national academic sequencing subsidy that is ending or shrinking would be a dated, funding-driven demand signal for a large European research market. Centre price lists would add non-US research $/Gb data points.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Fred Hutch genomics core rate page: internal vs external NovaSeq X Plus lane pricing (a new core not in the corpus)",
+      "url": "https://www.fredhutch.org/en/research/shared-resources/core-facilities/genomics-bioinformatics/rates-scheduling.html",
+      "access": "Public HTML. The snippet shows an X Plus lane at $1,450 internal/consortium vs $2,552 external, a 76% premium for outside users. Fetch it and record the flow-cell type, cycles and effective date. Pair it with the University of Oregon GC3F rate-memo series: the FY21 memo is at https://research.uoregon.edu/sites/research1.uoregon.edu/files/2020-10/GC3F%20FY21%20Rate%20Memo%20(4.16.20).pdf, and later memos may follow the same naming. Search site:research.uoregon.edu \"GC3F\" \"Rate Memo\" FY26 OR FY27; the memos tie rate changes to Illumina reagent prices.",
+      "labels": ["2A"],
+      "rationale": "The size of internal subsidies and internal/external spreads shows how much research demand relies on below-cost pricing. Dated rate memos that explain changes give direct evidence of how cores pass Illumina price moves on to price-sensitive users. This partly overlaps the dry recharge-memo idea (S588), so it scores lower.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "site:cancer.gov bidboard \"Source Justification\" sequencing\nsite:nih.gov \"bid board\" Novogene\nsite:nih.gov \"bid board\" NovaSeq\nsite:nih.gov \"bid board\" \"sequencing\" \"estimated\" 2025\nsite:nih.gov \"bid board\" Psomagen OR Azenta OR GENEWIZ OR Admera\nsite:nih.gov \"bid board\" \"core facilities cannot\" sequencing\nsite:niehs.nih.gov OR site:niaid.nih.gov OR site:nhlbi.nih.gov \"sole source\" sequencing services 2025 2026",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 3
+      },
+      "why": "Make a full list of NIH bid-board sequencing notices from 2023 to 2026. Each one can carry competing vendor quotes and an in-house core cost comparison, as confirmed in NCI 24-044006, where quotes ran from $25K to $154K. A later agent opens each PDF with Read to build a dated price-dispersion and outsourcing series.",
+      "max_items": 200
+    }
+  ]
+}
+```

@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "The ENA Portal count endpoint is reachable without a login and returns plain integers. I ran 7 of the roughly 60 allowed queries, all for human (tax_eq(9606)) runs with base_count>=1e11 split by first_public date. The model string 'Illumina NovaSeq X' works. I did not run the Ultima, AVITI, 'NovaSeq X Plus' or lower base_count buckets, or the other quarters. Two caveats: first_public is the date data was released, not the date it was sequenced, and ENA is dominated by research and consortium batch deposits that lag sequencing by 6-24 months. So it is a weak proxy for clinical consumables. On this data the 6000 share of >100 Gb human runs shows no decline through 2026. That fits the 'permanent tail' view and does not support 1A. Counts are lumpy, so one large consortium upload can swing a quarter. Two of my queries returned the count as a bare '1391'-style integer and the rest were paraphrased by the fetch tool. I read the counts at face value and did not independently re-verify them.",
+  "how_to_mine": "Run the same query string for each quarter from 2024Q1 to 2026Q3 and for each instrument_model value ('Illumina NovaSeq 6000', 'Illumina NovaSeq X'; NovaSeq X Plus may be folded into 'NovaSeq X'). Repeat with these bucket pairs: base_count>=1e9 AND <1e10, >=1e10 AND <1e11, <1e9. Add instrument_platform=ULTIMA, and instrument_model='Element AVITI' (try 'AVITI' and 'Element AVITI24' too). Add an extra AND study_accession filter or a library_strategy=WGS filter to remove consortium batch effects. Use first_public for dating, or collection_date/first_created if populated. Compute the 6000 share = 6000/(6000+X) per bucket. Use a bash/curl loop so the output stays raw, because the WebFetch summarizer paraphrases the output.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Public human WGS-scale (>=100 Gb) runs on the NovaSeq 6000 rose rather than fell from 2025 into 2026, and the X share did not rise.",
+      "detail": "ENA human runs with base_count>=1e11, counted by first_public date: 6000 had 821 in 2025Q1, 771 in 2025Q3, 1,391 in 2026Q1 and 2,177 across 2026Q2-Q3 (about 1,090 per quarter). NovaSeq X had 113, 103, 77 and 278 over the same periods. The X share of the 6000+X total was 12.1%, 11.8%, 5.2% and 11.3%. No quarter shows the 6000 share falling. These are public research and consortium deposits that lag sequencing, so they say little about clinical consumables.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=tax_eq(9606)%20AND%20instrument_model=%22Illumina%20NovaSeq%206000%22%20AND%20base_count%3E=100000000000%20AND%20first_public%3E=2026-01-01%20AND%20first_public%3C=2026-03-31",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new public-repository measure of 6000 versus X high-output human runs. None of the known items used ENA."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "ENA data shows no sign of the 6000 high-output tail shrinking, which is consistent with a persistent tail.",
+      "detail": "The six-month 2026Q2-Q3 count of 2,177 6000 runs of >=100 Gb is above the 2025Q1 count (821) and 2025Q3 count (771) in per-quarter terms. The X count of 278 over those six months is also far below the 6000. The deposit lag and batch uploads mean this is not evidence of current sequencing share, and a research-heavy bias applies.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=tax_eq(9606)%20AND%20instrument_model=%22Illumina%20NovaSeq%20X%22%20AND%20base_count%3E=100000000000%20AND%20first_public%3E=2026-04-01%20AND%20first_public%3C=2026-09-30",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a repository-level check of the permanent-tail claim that did not exist in the known evidence."
+    }
+  ],
+  "new_candidates": [
+    "ENA/SRA instrument_model counts filtered by library_strategy=WGS and by specific clinical-genomics studies (e.g. NHS GMS, All of Us, Genomics England) to separate batch deposits from run-rate",
+    "NCBI SRA run-info counts by platform and release month as a cross-check"
+  ],
+  "apify_requests": []
+}
+```

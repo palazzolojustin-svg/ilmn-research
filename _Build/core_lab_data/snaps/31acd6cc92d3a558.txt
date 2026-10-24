@@ -1,0 +1,54 @@
+Weill Cornell Medicine Genomics Resources Core Facility Price List (July 2026 - June 2027)
+Service  Internal User / Internal Special (CU) Academic User Corporate User 
+Illumina NovaSeq X Plus Sequencing
+1.5B: 100 cycles - per flowcell (2 lanes, 150 Gb data) $2,918 / Flowcell $3,064 / Flowcell $3,151 / Flowcell
+1.5B: 200 cycles - per flowcell (8 lanes, 300 Gb data) $3,687 / Flowcell $3,871 / Flowcell $3,981 / Flowcell
+1.5B: 300 cycles - per flowcell (8 lanes, 450 Gb data) $3,993/ Flowcell $4,191 / Flowcell $4,313/ Flowcell
+10B: 100 cycles - per flowcell (8 lanes, 1000 Gb data) $6,690 / Flowcell $7,359 / Flowcell $8,028 / Flowcell
+10B: 200 cycles - per flowcell (8 lanes, 2000 Gb data) $8,500 / Flowcell $9,350 / Flowcell $9,520 / Flowcell
+10B: 300 cycles - per flowcell (8 lanes, 3000 Gb data) $9,400 / Flowcell $10,340/ Flowcell $10,528 / Flowcell
+25B: 300 cycles - per flowcell (8 lanes, 7500 Gb data) 20,400 / Flowcell 22,032 / Flowcell 22,848 / Flowcell
+25B: 200 cycles - per flowcell (8 lanes, 5000 Gb data) 18,850 / Flowcell 20,358 / Flowcell 21,172 / Flowcell
+25B: 100 cycles - per flowcell (8 lanes, 2500 Gb data) 15,210 / Flowcell 16,427 / Flowcell 17,035 / Flowcell
+PacBio Revio HiFi Sequencing (Long-read)
+Single SMRT Cell / run (120 Gb data) 1,799 / SMRT Cell 1,870 / SMRT Cell 1,875 / SMRT Cell
+4 SMRT Cells /run {(120 Gb) x 4 } 1,590 / SMRT Cell 1,720 / SMRT Cell 1,750 / SMRT Cell
+Multi-use SMRT Cells SPRQ-Nx Chemistry (4x3) 1,100 / SMRT Cell 1,188 / SMRT Cell 1,198 / SMRT Cell
+Illumina NextSeq 2000 Sequencing with XLEAP-SBS (per run)
+P1: 100 cycles (10Gb / 100 M reads) $995.00 $999.98 $1,005.00
+P1: 300 cycles (30Gb / 100 M reads) $1,378.00 $1,388.00 $1,398.00
+P1: 600 cycles (60 Gb / 100 M reads) $1,995.00 $1,999.00 $2,005.00
+P2: 100 cycles (40Gb / 400 M reads) $1,550.00 $1,560.00 $1,575.00
+P2: 200 cycles (80Gb / 400M reads) $2,830.00 $2,840.00 $2,850.00
+P2: 300 cycles (120Gb / 400M reads) $3,750.00 $3,760.00 $3,775.00
+P2: 600 cycles (240 Gb) $3,999.00 $4,008.00 $4,015.00
+P3: 100 cycles (120Gb / 1.2 Billion reads) $3,213.00 $3,218.00 $3,223.00
+P3: 200 cycles (240Gb / 1.2 Billion reads) $4,430.00 $4,438.00 $4,445.00
+P3: 300 cycles (360Gb / 1.2 Billion reads) $4,530.00 $4,538.00 $4,543.00
+P4: 50 cycles (90Gb / 1.8 Billion reads) $2,480.00 $2,488.00 $2,495.00
+P4: 100 cycles (180Gb / 1.8Billion reads) $3,520.00 $3,530.00 $3,540.00
+P4: 200 cycles (360Gb / 1.8 Billion reads) $4,980.00 $4,987.00 $4,992.00
+P4: 300 cycles (540Gb / 1.8 Billion reads) $6,410.00 $6,418.00 $6,423.00
+Illumina NextSeq 500 Sequencing (per run)
+High Output 75 cycles (400M reads, 25Gb - 30 Gb data) $2,250.00 $2,350.00 $2,400.00
+High Output 150 cycles (400M reads, 50Gb - 60 Gb data) $4,050.00 $4,098.00 $4,130.00
+High Output 300 cycles (400M reads, 100Gb - 120 Gb data) $6,322.00 $6,370.00 $6,410.00
+Mid Output 150 cycles (130M reads, 16.25 Gb -19.50 Gb data) $1,799.00 $1,830.00 $1,870.00
+Mid Output 300 cycles (130M reads, 32.5 GB - 39 Gb data) $2,830.00 $2,880.00 $3,100.00
+Illumina MiSeq Sequencing (per run)
+Nano 300 cycles (1 M reads, 3 Mb data) $430.00 $460.00 $480.00
+Nano 500 cycles (1 M reads, 5 Mb data) $550.00 $555.00 $559.00
+Micro 300 cycles  (4 M reads, 1.2 Gb data) $650.00 $670.00 $683.00
+50 cycles v2 (12-15 M reads, 750-850 Mb data) $1,180.00 $1,215.00 $1,239.00
+150 cycles v3 (3.3-3.8 M reads, 22-25 Gb data) $1,350.00 $1,391.00 $1,418.00
+300 cycles v2 (12-15 M reads, 4.5-5.1 Gb data) $1,400.00 $1,442.00 $1,470.00
+500 cycles v2 (12-15 M reads, 7.5-8.5 Gb data) $1,590.00 $1,638.00 $1,670.00
+600 cycles v3 (22-25 M reads, 13.2-15 Gb data) $2,010.00 $2,070.00 $2,110.00
+Sequencing Library Preparation for PacBio Revio
+Whole Genome & Metagenome Library prep $630 / sample $650 / sample $680 / sample
+Whole Genome Library Prep with PacBio Ultra Low Input library prep $635 / sample $650 / sample $690 / sample
+Kinnex scRNA-Seq (10x 3' or 5') or MAS-Seq (10x 3' only) Library prep $680 / sample $720 / sample $735 / sample
+Express 2.0 kit (Bulk & Full length RNA-Seq library prep - first kit) $210 / sample $230 / sample $250 / sample
+Kinnex full-length RNA (Bulk & Full length, 2nd kit) $640 / sample $669 / sample $679 / sample
+SMRTbell prep kit 3.0 (Bulk & Full length RNA-Seq library prep, 2nd kit) $200 / sample $225 / sample $240 / sample
+Library Preparation for Illumina Sequencing System (per sample)

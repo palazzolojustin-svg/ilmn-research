@@ -1,0 +1,13 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made two fetches. (1) The batched esummary for the 12 IDs returned a 381K-character JSON, and the fetch tool read only the first 100K characters. That covered 3 of the 12 IDs: 603768 (Caris, MI Tumor Seek Hybrid), 591270 (Genome-Nilou Lab, whole exome sequencing) and 560898 (Caris, MI TumorSeek CGP). The records have an offerer and test name, with method listed only as generic NGS/MPS. The GTR esummary has no instrument field and no last-update or version-history field, so it cannot show which labs name the 6000 or the X, and it cannot show recency. (2) esearch db=gtr for 'NovaSeq X' returned 247 hits (first 200 IDs seen). 9 of the 12 probe IDs (611987, 613130, 576389, 613444, 558436, 619621, 595969, 560898, 603768) are in that list. The unquoted term was probably tokenised as NovaSeq AND X, so this is not a clean 'names the X' signal. I did not run the 'NovaSeq 6000' esearch or the batch esummary of non-Mayo IDs. I expect the same limits, and the tool cannot parse or count the large JSON. The Natera, Quest, Labcorp, Myriad and ARUP labs, and the 6000-only versus both-instruments versus X-only counts, were not obtained. No usable thesis evidence, so no items.",
+  "how_to_mine": "Run this as a local script (python -I, not the fetch tool). Steps: (1) esearch db=gtr with the quoted terms \"NovaSeq 6000\" and \"NovaSeq X\", retmax=500, then diff the two ID sets. (2) Pull efetch db=gtr, or the per-test GTR page https://www.ncbi.nlm.nih.gov/gtr/tests/<id>/, because instrument names and the 'Last updated' date appear on the test page or full record, not in esummary. (3) Group by offerer, flag the large labs, and tabulate 6000-only, both instruments, X-only, with last-update dates. Also check whether the GTR free-text matching is by phrase. Treat the output as a count of labs that self-report instruments, which is voluntary and often stale.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "GTR per-test pages (ncbi.nlm.nih.gov/gtr/tests/<id>/) for Caris 603768 and 560898, to read the listed instruments and last-updated dates. This could show whether Caris's GTR records name the 6000 or the X."
+  ],
+  "apify_requests": []
+}
+```

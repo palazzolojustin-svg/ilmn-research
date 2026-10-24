@@ -1,0 +1,31 @@
+```json
+{
+  "status": "dry",
+  "notes": "The page is open HTML and reachable, and it lists UChicago's internal, affiliated, academic, start-up and commercial rates. Rates for the three academic tiers are identical. Illumina prices are per lane: NovaX 1.5B, 10B and 25B. AVITI prices are per flow cell: 150bp, 300bp and 600bp. The page has no NovaSeq 6000, Ultima or NextSeq pricing and no last-updated date, so it shows no price trend. The 25B lane prices fall inside the range already known from other cores, and UChicago was not on the already-used core list. The AVITI vs X comparison in the 'Why' line holds only as AVITI-300bp $1,475 = X 10B-200 lane $1,475 (internal). The two are not like-for-like in output, because the AVITI flow cell yield per cycle setup is not stated on the page, and it is a flow cell vs a lane. I did not fetch the page's flow-cell yield specs, so I made no $/Gb comparison for AVITI.",
+  "how_to_mine": "Take a snapshot of the page now. Then pull Wayback Machine captures of the same URL (or the older genomicsfacility pricing page) from 2024-2026 to build a time series of 10B and 25B lane prices and AVITI flow-cell prices. Use the 25B-300 lane ($2,461) against the 10B-300 lane ($1,499) to get the within-X step-down per Gb, assuming ~1,000 Gb per 25B lane and ~400 Gb per 10B lane (to verify from Illumina specs). Add 25B and AVITI price changes if captures show them.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "UChicago's internal rate for a 25B 2x150 lane is $2,461, about $2.46/Gb, and AVITI 300bp costs the same as an X 10B 2x100 lane.",
+      "detail": "The core's current page lists NovaX-25B-300 at $2,461 per lane internal ($2,599 commercial). It lists NovaX-10B-300 at $1,499 and AVITI-300bp at $1,475 per flow cell internal. At an assumed ~1,000 Gb per 25B lane, the rate is roughly $2.5/Gb, within the known $2.1-$3.5/Gb core range (CWRU $2.63, Utah $2.89). It shows no price trend because the page has no date or history. It adds one more core price point, not a new insight.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "2026-10-12 (page fetched; page undated)",
+      "source_name": "University of Chicago Genomics Facility rate card",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UChicago is not in the core rate-card list already used, but its price level matches known cores."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Wayback Machine captures of voices.uchicago.edu/genomicsfacility/pricing-new",
+      "url": "https://web.archive.org/web/2025*/voices.uchicago.edu/genomicsfacility/pricing-new",
+      "why": "A dated series could show 10B and 25B lane price changes and AVITI price changes, as a time series for the 1B thesis."
+    }
+  ],
+  "apify_requests": []
+}
+```

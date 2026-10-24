@@ -1,0 +1,103 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Taiwan CDC bought two Oxford Nanopore-type long-read sequencers in 2026, while its Illumina library-prep and flow-cell lot was flat at about NT$10.2M a year, so new public-health sequencing capital is going to long-read.",
+      "detail": "Taiwan CDC made two awards to ANTEC Bioscience (the UK-origin nanopore channel), each the only bidder. The first was a 'simple whole-genome sequencer' for NT$413,862 (Jun 2026, budget NT$449,850). The second was a 'high-throughput nanopore long-read sequencer' for NT$3.45M (Sep 2026, budget NT$3.6M). Over the same period the CDC's Illumina-distributor lot for library-prep reagents and flow cells was NT$10,180,000 (Aug 2025) and NT$10,199,000 (Sep 2026), up 0.2%. Each year it was awarded about 17% below budget to the only bidder, Genetech (US origin). Illumina spend is not falling, so this shows incremental platform capital going elsewhere, not volume leaving Illumina.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.1&job_number=KA115057",
+      "date": "2026-09-11",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "高通量奈米孔長片段定序儀",
+      "strength": "medium",
+      "why_new": "F749 covered CDC nanopore reagent spend. These 2026 nanopore instrument awards and the matched-year Illumina lot comparison are new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "A full title census of Taiwan's procurement system finds only one buyer (NHRI) that ever put NovaSeq 6000 kits in a tender title, and none in 2024–2026. No 6000-kit contract runs past Dec 2027.",
+      "detail": "The title searches 'NovaSeq' (19 notices) and 'v1.5' (6 notices) return only NHRI. Its S4-300 kit awards were 32 sets (Jul 2020), 25 (Dec 2020) and 16 (Dec 2023). Its 4-unit service awards ran 2018–Dec 2023, with no later notices. Buyers awarding 6000 kits: 2024 = 0, 2026 = 0. 6000-kit contracts running past Dec 2027 = 0. Searches for '25B', 'X Plus' and 'NovaSeq X' return no sequencing records at all, so Taiwan's high-throughput buying is hidden in generic or bundled lots. Taipei VGH's '大通量' (high-throughput) sets turn out to be NextSeq 2000 P3/P4 XLEAP.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=NovaSeq",
+      "date": "2026-10-12",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This answers the strategist's buyer counts for 2024 vs 2026 and for contracts past 2027. It also shows that X/25B titles do not exist in PCC. F866 only stated the absence after Dec 2023."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Half the value of Taichung VGH's 2025–27 'whole-exome' reagent tender went to a UK-origin nucleic-acid chip (likely nanopore flow cells) next to the US-origin exome reagent, so a clinical buyer is splitting sequencing spend across platforms.",
+      "detail": "Tender 114A08 (May 2025) made two awards, both to the sole bidder ANTEC Bioscience. Item 1, 'B98014028016 nucleic acid analysis chip' (UK origin), went for NT$4.0M against a NT$5.0M budget, running May 2025–Apr 2027. Item 2, the 'whole-exome sequencing reagent' (US origin), went for NT$4.1M against NT$5.0M, running May 2025–Apr 2027. Both awards were 18–20% below budget, even with one bidder. ANTEC also delivered both of the CDC's 2026 nanopore instruments, which supports reading item 1 as ONT consumables. The brand is not stated.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=114A08",
+      "date": "2025-05-16",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "核酸分析晶片",
+      "strength": "weak",
+      "why_new": "The item-level split, the origins and ANTEC's role in Taichung 114A08 were not mined before. The strategist had flagged this tender."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan CDC's budget for its Illumina-certified sequencer service contract rose 17% from 2023 to 2026, showing no service-price erosion at a public-health account.",
+      "detail": "Annual 'next-generation sequencer maintenance contract' budgets were NT$638,700 (2023), NT$733,000 (2024, +14.8%), NT$744,000 (2025, +1.5%) and NT$747,500 (2026, +0.5%). Every tender requires 'Illumina, Inc.-certified service technicians'. These are budgets, not awards; no award notices were returned. The growth flattened after 2024.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.1&job_number=KA114100",
+      "date": "2026-01-06",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "須提出原廠(Illumina, Inc.)認證之維修人員證明",
+      "strength": "weak",
+      "why_new": "This four-year Taiwan CDC Illumina service-budget series has not been reported. Earlier service items covered Taipei VGH, NHRI and US federal buyers."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "More uncontested Illumina instrument wins in Taiwan in 2025–26: Chang Gung Linkou and the agriculture ministry's veterinary institute each bought an Illumina system from the only bidder at 0.8–2.3% below budget.",
+      "detail": "Chang Gung Linkou (a large private hospital using a health-ministry subsidy) bought one 'ILLUMINA' NGS system for NT$2,245,000 against a NT$2,264,000 budget (−0.8%). The award came in Aug 2025, after the first round failed for lack of bids. The Veterinary Research Institute bought one NGS instrument for NT$2,295,000 against NT$2,350,000 (−2.3%) in May 2026. Both are Singapore origin (Illumina-made) and were won by Genetech as the only bidder. At ~US$70K these are likely MiSeq i100-class boxes, so this says little about high-throughput pricing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=43862061&job_number=0C-1L0324",
+      "date": "2025-08-28",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "廠牌:ILLUMINA",
+      "strength": "weak",
+      "why_new": "These two awards are not in F763/F894's list. They extend the single-bidder pattern into 2026 and to a private medical center."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NTU Cancer Center locked oncology mutation testing into 4-year, non-US-origin reagent-plus-instrument contracts in 2026, so part of its tumor genotyping volume sits outside Illumina until 2030.",
+      "detail": "AD14E140, 'human oncogene mutation analysis reagents (with instrument)': NT$14.94M against a NT$16.2M budget, one bidder (Ji Cheng), Germany origin, May 2026–May 2030. AD15E020, 'gene mutation kits (with instrument), 3 items': NT$6.0M at budget, one bidder, Belgium origin, Aug 2026–Aug 2030. The brands are not stated. Germany suggests Qiagen and Belgium suggests Biocartis Idylla (PCR-based), but both are inferences. Together that is ~US$660K over four years at one cancer center.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.51.1.9&job_number=AD14E140",
+      "date": "2026-05-27",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "人類致癌基因突變分析試劑(附儀器)開口合約",
+      "strength": "weak",
+      "why_new": "The NTU Cancer Center's 2026 oncology mutation-testing contracts have not appeared before. Earlier items covered only its failed benchtop sequencer tender (F852)."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I used ~33 calls. The g0v mirror redirects to pcc-api.openfun.app, and the searchbytitle and tender endpoints work with no captcha. The 6000-kit census is complete: only NHRI ever titled 6000 kits, with the last award Dec 2023, and no titled X, 25B or X Plus lots exist. I re-checked Taipei VGH 1140732E item 1 (NT$3.942M against a NT$4.635M budget, Genetech as only bidder, 15 Dec 2025–31 Dec 2027) and 1150157V (P4 at NT$201K × 18, P3 at NT$235K × 15, 2026–28). Both match known items F713, F717, F801 and F814, and the 'high-throughput' sets are NextSeq P3/P4, not NovaSeq. Two awards stay unresolved. NTUH ME114052 (two sequencers, 4-year service, NT$4.65M, Singapore origin, to Jan 2030) and ME114030 (NT$2.61M, to Aug 2028) went to non-Genetech vendors, so they are probably Applied Biosystems capillary sequencers, not the 6000. The MOJ forensic institute's 2026 NGS reagents (NT$1.77M, Genetech, two failed rounds) are low value. The source has no further 6000-specific data; any further Taiwan work should stay within already-queued sub-sources.",
+  "leads": [
+    {
+      "name": "PCC award notices for ANTEC Bioscience (ONT channel) across Taiwanese hospitals",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=研毅企業有限公司",
+      "access": "Public JSON API, no login (endpoint name inferred, untested)",
+      "labels": ["1B", "2B"],
+      "rationale": "This would quantify total nanopore wins (instruments plus flow cells) in 2024–26 against Genetech's Illumina wins, giving a public-sector platform-share time series."
+    },
+    {
+      "name": "PCC award notices for Genetech (均泰, Illumina distributor), full award history",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=均泰生物科技股份有限公司",
+      "access": "Public JSON API, no login (endpoint name inferred, untested)",
+      "labels": ["1B", "1C"],
+      "rationale": "Summing yearly Illumina-distributor award value against budget would give a Taiwan public-sector Illumina revenue and discount series for 2020–26."
+    }
+  ],
+  "apify_requests": []
+}
+```

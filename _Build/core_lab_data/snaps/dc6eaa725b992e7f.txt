@@ -1,0 +1,37 @@
+Product/Service Description Approved Rate 
+Temporarily 
+Discounted Rate 
+for UCLA
+External Rate
+MiSeq SBS Sequencing v2 PE 2x150 (Standard Flow Cell) $1,534.28 $1,457.57 $2,117.31
+MiSeq SBS Sequencing v2 PE 2x250 (Standard Flow Cell) $1,692.58 $1,607.95 $2,335.76
+MiSeq SBS Sequencing v3 PE 2x75 (Standard Flow Cell) $1,389.68 $1,320.20 $1,917.76
+MiSeq SBS Sequencing v3 PE 2x300 (Standard Flow Cell) $2,220.66 $2,109.63 $3,064.51
+NextSeq 500 SBS Sequencing v2 PE 2x75 High Output $3,876.10 $3,682.30 $5,349.02
+NextSeq 500 SBS Sequencing v2 PE 2x75 Mid Output $1,505.86 $1,430.57 $2,078.09
+NextSeq 500 SBS Sequencing v2 SR 1x75 High Output $2,130.72 $2,024.18 $2,940.39
+NextSeq 500 SBS Sequencing v2 PE 2x150 High Output $6,006.33 $5,706.01 $8,288.74
+NextSeq 500 SBS Sequencing v2 PE 2x150 Mid Output $2,331.75 $2,215.16 $3,217.82
+HiSeq 3000 SBS Sequencing PE 2x150 (Per Lane) $2,933.56 $2,786.88 $4,048.31
+HiSeq 3000 SBS Sequencing SR 1x50 (Per Lane) $1,520.20 $1,444.19 $2,097.88
+NovaSeq 6000 S2 PE 2x50 (Per Lane) $6,066.43 $5,763.11 $8,371.67
+NovaSeq 6000 S2 PE 2x100 (Per Lane) $7,774.61 $7,385.88 $10,728.96
+NovaSeq 6000 S2 PE 2x150 (Per Lane) $8,872.72 $8,429.08 $12,244.35
+NovaSeq 6000 S4 PE 2x150 (Per Lane) $6,603.67 $6,273.49 $9,113.06
+NovaSeq 6000 S4 PE 2x100 (per lane) $5,023.11 $4,771.95 $6,931.89
+NovaSeq 6000 SP Reagent Kit (100 cycles)  $1,618.98 $1,538.03 $2,234.19
+NovaSeq 6000 SP Reagent Kit (300 cycles) $2,399.86 $2,279.87 $3,311.81
+NovaSeq 6000 SP Reagent Kit (500 cycles) $3,205.14 $3,044.88 $4,423.09
+NovaSeq 6000 S1 Reagent Kit (100 cycles) $2,521.87 $2,395.78 $3,480.18
+NovaSeq 6000 S1 Reagent Kit (200 cycles) $3,205.14 $3,044.88 $4,423.09
+NovaSeq 6000 S1 Reagent Kit (300 cycles) $3,742.00 $3,554.90 $5,163.96
+Library Prep, DNA $171.94 $163.34 $237.28
+Library Prep, Methy $222.48 $211.36 $307.02
+Library Prep, RNA $185.44 $176.17 $255.91
+Low Input/Degraded DNA $197.87 $187.98 $273.06
+Low Input/Degraded RNA $216.40 $205.58 $298.63
+Whole Exome Sequencing Library Prep with NimbleGen Seqcap Kit $294.86 $280.12 $406.91
+Whole Exome Sequencing with Agilent SureSelect Capture Kit (Min. 8x Samples) $301.70 $286.62 $416.35
+Whole Exome Sequencing with TruSeq Exome Library Prep Kit (Min. 6x Samples) $260.46 $247.44 $359.43
+Single Cell Sequencing Library Prep (Per Sample) $1,953.82 $1,856.13 $2,696.27
+Small RNA Library Prep $198.91 $188.96 $274.50

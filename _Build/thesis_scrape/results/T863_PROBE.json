@@ -1,0 +1,38 @@
+```json
+{
+  "status": "dry",
+  "notes": "The API is reachable and needs no login. It gave one hard NIPT price point (NT$6,000 per test, award notice for 114155L54). It gave no test counts for GH151020, no sequencer or platform, and no predecessor NGS Down syndrome contracts. The search for 唐氏症 (Down syndrome) returned 359 records, but most are biochemical serum screening, reagents, or unrelated items, not NGS NIPT. The two NGS contracts are tiny (NT$195K and NT$900K), so they cannot show NIPT volume or price maturity at Illumina scale, and nothing in them is tied to Illumina or to NovaSeq. I used 5 calls. I did not page through the 3 remaining result pages.",
+  "how_to_mine": "Low priority. If revisited, page through results 2-4 of the 唐氏症 search and the 無創/NIPT/胎兒染色體 title searches. Pull the award-notice records via /api/tender?unit_id=...&job_number=... for earlier NGS open contracts. Check whether GH151020 was ever awarded (the 3rd tender closed 2026-08-05, and I did not check the outcome). Track NT$ per test over time. Even a full series would be Taiwan hospital outsourced NIPT, which is a weak read-through to Illumina consumables.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "A Taiwan hospital's NGS Down syndrome screening open contract was awarded at NT$6,000 per test with only about 150 tests estimated over two years, and the sibling NTUH Hsinchu contract failed twice.",
+      "detail": "National Yang Ming Chiao Tung University Hospital contract 114155L54 failed its first tender on 2025-12-26 for lack of bidders. It was awarded on 2025-12-31 (published 2026-01-02) to a single bidder, Bionet (訊聯生物), at a budget and award of NT$900,000. That is NT$6,000 per test on an estimated 150 tests over a contract term of 2026-01-01 to 2027-12-31. NTUH Hsinchu GH151020 has a NT$195,000 budget. Its tenders on 2026-06-26 and 2026-07-21 both failed (no bids or too few bidders), and a third tender was issued on 2026-07-30. Together these suggest very small, thinly bid NIPT volume at public hospitals. This is a niche procurement and only weakly informative about Illumina.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.6M.1&job_number=114155L54",
+      "date": "2026-01-02",
+      "source_name": "Taiwan PCC (g0v openfun pcc-api)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Not in the known list: Taiwan public-hospital NGS NIPT tender prices and failed-award history."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NTUH Hsinchu's NGS Down syndrome open contract (GH151020) twice drew too few bidders in mid-2026, which points to thin supplier and volume interest.",
+      "detail": "The NT$195,000 budget (bid deposit NT$9,700) was tendered on 2026-06-26 and failed on 2026-07-17. It was re-tendered on 2026-07-21 after specification changes and failed again on 2026-07-29. A third round opened on 2026-07-30 with a 2026-08-05 bid opening. The record gives no per-test price or counts.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=85313165&job_number=GH151020",
+      "date": "2026-07-30",
+      "source_name": "Taiwan PCC (g0v openfun pcc-api)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Not in the known list: repeated failed tenders for a Taiwan hospital NGS NIPT contract."
+    }
+  ],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

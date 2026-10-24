@@ -1,0 +1,19 @@
+```json
+{
+  "status": "dry",
+  "notes": "I couldn't run the planned USAspending API POST because this agent has no HTTP POST tool (only WebFetch and WebSearch). The g2x/g2xchange page redirects (301) to g2x.com and then returns 403, so the NIH OLAO presolicitation 75N98026Q00260 was not readable. Searches found no public NIH, CDC, USDA or VA award line with S4 or 25B kit unit prices. The only public purchase-order records found were two Govly pages for Iowa State University: PO-1335923 (26 May 2026, 6000 S2 kit plus 2 MiSeq kits, $14,374 total) and PO-1338858 (17 Jun 2026, 6000 S1 kit, NovaSeq XP 2-lane kit and a MiSeq kit, $8,731 total). Both are bundled orders with no quantities or unit prices, so they give no $/Gb gap. Both show a university still buying 6000 consumables in mid-2026, but that is a weak signal and the orders involve S1/S2 kits rather than S4. Govsci.com (a GSA reseller) lists the X 25B kits (part 20104706 for the 300-cycle, 20125967 for the 100-cycle). Those GSA catalog prices are already covered in the known list.",
+  "how_to_mine": "Run from a machine with HTTP POST access. (1) POST to https://api.usaspending.gov/api/v2/search/spending_by_transaction/ with filters {keywords:['NovaSeq'], award_type_codes:['A','B','C','D'], time_period:[{start_date:'2022-10-01',end_date:'2026-09-30'}]}. Request fields Award ID, Recipient Name, Transaction Amount, Action Date, Awarding Agency, Description, with limit 100 and paging. Repeat with keywords ['S4 reagent','25B','NovaSeq X','20028312','20104706'] and recipients Illumina and Government Scientific Source. (2) The PIID is 75N98026Q00260. Search it on SAM.gov (public contract opportunities page) for the award notice. (3) Also check the FPDS ezSearch public pages for Illumina vendor awards by NIH, CDC and VA. Keep only lines where the description names a single kit type, so that dollars ÷ kit count gives a unit price. Compare S4 (20028312, 20028313) against 25B (20104706, 20125967) within the same agency and fiscal year. Descriptions are often terse or bundled, so expect few clean pairs.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Govly public awards pages (app.govly.com/public/awards/<id>) list university purchase orders to Illumina (CYBUY), but only with totals and line-item names. Check whether other awards show quantities.",
+    "SAM.gov opportunity page for NIH OLAO 75N98026Q00260 (NovaSeq X 25B reagent kits, presolicitation 27 Apr 2026) and the resulting award via FPDS ezSearch."
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Govly PO-1335923 (Iowa State, 26 May 2026)](https://app.govly.com/public/awards/9a6e6f283609fb535504774bb62169a4)
+- [Govly PO-1338858 (Iowa State, 17 Jun 2026)](https://app.govly.com/public/awards/f0dd5876d20d196937b087236bf31ed2)
+- [Govsci NovaSeq X 25B 300-cycle listing](https://www.govsci.com/product-detail/Illumina-----Inc/20104706/EA/)

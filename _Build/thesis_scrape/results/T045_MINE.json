@@ -1,0 +1,157 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A Canadian federal research lab bought an Element AVITI in mid-2025, citing lower reagent costs, then paid to upgrade it 11 months later instead of adding Illumina capacity.",
+      "detail": "NRC's Human Health Therapeutics centre posted Advance Contract Award Notice 25-58071 on 20 Jun 2025. It sought an NGS instrument using avidite base chemistry to 'increase throughput and reduce reagent costs'. NRC then posted notice 26-58031 on 14 May 2026 for an AVITI24 upgrade, awarded to Element on 2 Jun 2026 as contract 1043467 for CAD 141,250. The upgrade gives +50% output with 'existing consumables' unchanged and adds in situ multiomics. Correction to the probe note: the notice estimated CAD 122,000, and the award came in 15.8% higher (141,250 / 122,000 = 1.158). The notice was published 14 May and awarded 2 Jun, not 29 May.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cb-591-69784154",
+      "date": "2026-06-02",
+      "source_name": "CanadaBuys award notice (NRC / Element Biosciences)",
+      "source_type": "procurement",
+      "quote": "seeking the purchase of a NGS instrument that increases throughput and reduces reagent costs",
+      "strength": "weak",
+      "why_new": "The known list shows only the Element AVITI24 hardware and the NRC's choice. It lacks the 2025 first-purchase notice, its stated reagent-cost motive, and the awarded value."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A federal animal-disease genomics lab ran an open lowest-price tender for a benchtop sequencer and awarded it to Element for CAD 315,000.",
+      "detail": "The CFIA National Centre for Foreign Animal Disease (Winnipeg) published RFP 39903-260455 on 24 Dec 2025. It closed on 19 Jan 2026 and used 'Lowest Price' as the only selection criterion. Contract CW2434465 went to Element Biosciences (CAD 315,000) on 18 Feb 2026. The number of bidders is not stated and Illumina is not named, so we cannot say whether Illumina bid. It does show a government research buyer choosing a supplier by price in a competitive process.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cw2434465",
+      "date": "2026-02-21",
+      "source_name": "CanadaBuys award notice CW2434465",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A competitive, price-only government tender won by Element was not in the known list. The known items are mostly sole-source or core price sheets."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A Canadian university genomics core that still runs NovaSeq 6000s is moving to the X as a 'replacement and expansion', which shows 6000-to-X conversion continuing at research and clinical cores in 2026.",
+      "detail": "The University of Calgary (Centre for Health Genomics and Informatics) posted Advance Contract Award Notice AB-2026-04518 on 16 Jun 2026, closing 23 Jun 2026. It describes the NovaSeq X as the 'next-generation replacement and expansion' of its Illumina ecosystem, which includes 'NovaSeq 6000 instrumentation'. It calls the buy 'a continuation of an existing platform strategy'. The notice does not say whether the 6000 will be retired, and it gives no value or quantity.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ab-2026-04518",
+      "date": "2026-06-16",
+      "source_name": "CanadaBuys ACAN AB-2026-04518 (University of Calgary)",
+      "source_type": "procurement",
+      "quote": "continuation of an existing platform strategy rather than the introduction of a new technology",
+      "strength": "weak",
+      "why_new": "This is a named Canadian university 6000-to-X migration notice, dated Jun 2026. The known list has no Canadian procurement of this kind."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Calgary's internal NovaSeq 6000 S4 lane and kit prices rose about 4–5% from mid-2024 to 2025, so list pricing on the 6000 tail is not being cut at this core.",
+      "detail": "The CHGI internal list for the S4 v1.5 300-cycle one-lane option (PE150, ~750 Gb spec) was CAD 5,600 in June 2024 and CAD 5,820 in the 2025 list, a rise of 3.9%. On the 750 Gb spec that is $7.47 and then $7.76 per Gb. The full S4 300-cycle kit went from CAD 21,371 to CAD 22,420, up 4.9%. The same core is now buying an X, so it is reselling 6000 capacity at higher prices while it migrates. These figures come from search-result snippets, because the PDFs could not be rendered. They contrast with the Salk and EPFL 6000 price cuts already known, and are similar to the CNAG ~4% rise.",
+      "url": "https://cumming.ucalgary.ca/sites/default/files/teams/97/2025%20CHGI%20Internal%20Price%20List.pdf",
+      "date": "2025",
+      "source_name": "University of Calgary CHGI internal price lists (June 2024, 2025)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This gives a dated two-point 6000 price series at a core not previously used. It shows increases, which cuts against 6000 price erosion."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Government buyers keep justifying Illumina purchases as sole-source on compatibility grounds, which limits how much extra discount they can extract.",
+      "detail": "Calgary's notice says Illumina Canada ULC is the 'sole Canadian distributor' and that the system is proprietary. PHSA's 2023 notice (BCPHSA_12658) was a one-year, non-volume direct award of up to CAD 4.3M to Illumina Canada for NovaSeq 6000 and X Plus consumables at BC Cancer. Its stated reason was 'compatibility with existing products/systems', and it gave no unit prices. PHSA also issued a notice for CAD 2.9M of Infinium arrays over four years (closing 13 Mar 2026). I found no 2025–26 renewal of the PHSA NovaSeq consumables award. Public buyers are not running price-based competition for the installed Illumina base, though that applies to instruments and arrays, not necessarily to HT flow cells.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/bcphsa12658",
+      "date": "2023-09-29",
+      "source_name": "CanadaBuys PHSA BCPHSA_12658; AB-2026-04518; BCPHSA_18743",
+      "source_type": "procurement",
+      "quote": "to ensure compatibility with existing products/systems",
+      "strength": "weak",
+      "why_new": "The known list covers US federal 'only one responsible source' use. These are Canadian provincial and university notices, with the PHSA $4.3M consumables ceiling as a baseline."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Canadian federal labs are still buying Illumina mid-throughput instruments on non-competitive awards in late 2025 and early 2026.",
+      "detail": "Illumina Canada ULC received directed contracts for a NextSeq 1000 (CW2414712, CAD 276,132, Sep 2025–Mar 2026), and for NextSeq 2000 systems (CW2431423, CAD 404,866.81, Dec 2025–Mar 2026, Ontario, and CW2436812, CAD 404,860.78, Jan 2026–Mar 2027, National Capital Region, Health Canada). These are small amounts, about CAD 1.09M in total. They show mid-throughput demand holding up at government labs, which weakens the claim that mid-throughput and research demand is eroding to Element. They also add placements to Illumina's instrument base.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cw2436812",
+      "date": "2026-01-30",
+      "source_name": "CanadaBuys award notices CW2414712, CW2431423, CW2436812",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no Illumina mid-throughput government award data. This is a small offset to the AVITI-win items above."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Canada's agriculture department set up a six-provider competitive sequencing-services pool, so government research demand is being steered to outsourced, price-competed providers.",
+      "detail": "AAFC's Request for Supply Arrangement 01R11-231050 awarded places to the University of Toronto, UBC Life Sciences Institute, Génome Québec, Edinburgh Genetics, Metagenom Bio and GIFS AG Tech. Terms are 48–54 months, ending Mar 2030, and the first awards began 29 Sep 2025. Contract values are listed as CAD 0, so there are no spend figures and the platforms are not named. The structure is as-and-when work competed among providers, the outsourced model that the known core and Novogene evidence says is price-led.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cw2444034",
+      "date": "2026-03-11",
+      "source_name": "CanadaBuys award notices CW2444034, CW2419630, CW2419637, CW2419641, CW2430293, CW2419634",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new government outsourcing channel, with a dated Sep 2025–Mar 2026 award wave. It is not a price or volume figure."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Canada's public-health lab has run a sole-source Illumina reagent standing offer with a very large ceiling, though the record is internally inconsistent.",
+      "detail": "PHAC's National Microbiology Laboratory standing offer CW2237770 (WS3625214747) is a non-competitive 'Exclusive Rights' award to Illumina Canada ULC for genomic-sequencing reagents. The page shows an amendment value of CAD 30,000,000 but a total of CAD 0 and conflicting amendment dates (2022, 2024, 2026). A ceiling is not spend, so it cannot be used as volume evidence. I treat it as a possible sign of large public-health sequencing demand and flag it for follow-up.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/contract-history/cw2237770-001",
+      "date": "2026-04-07",
+      "source_name": "CanadaBuys contract history CW2237770-001",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A government sequencing-reagent standing offer with a CAD 30M amendment ceiling was not in the known list."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "CanadaBuys is thin for this thesis. It has few consumables notices, and most awards are small instrument or upgrade buys. Several CanadaBuys pages returned 403 intermittently (cw2444034 worked on retry; cw2266238 and cw2245769 were not opened). Not opened: the Calgary award result, the NRC 25-58071 award value, University of Toronto's NovaSeq 6000 ACAN date (MERX 403), and the Calgary PDFs in full (only snippet prices; PDF rendering is unavailable). No Ultima notices were found. The CHGI 2022-23, 2023-24 and 2024-25 'with sales' PDFs would give a 6000 price time series and any sale discounts if someone can extract their text. The aggregator cleat.ai page was fetched, and it matches CanadaBuys.",
+  "leads": [
+    {
+      "name": "Calgary CHGI price lists 2022-23, 2023-24 v2, 2024-25 with sales, 2025",
+      "url": "https://cumming.ucalgary.ca/research/cat/health-genomics/pricing",
+      "access": "open PDFs, but text is compressed; needs a PDF text extractor",
+      "labels": ["1A", "1B"],
+      "rationale": "A multi-year 6000 S4 lane and kit price series, a possible 'sales' discount history, and a future X price once the NovaSeq X is installed."
+    },
+    {
+      "name": "UK Find a Tender notice 003074-2025 (Element/AVITI)",
+      "url": "https://www.find-tender.service.gov.uk/Notice/003074-2025",
+      "access": "open",
+      "labels": ["2B", "1B"],
+      "rationale": "It turned up in the Element procurement search and may be a UK public award of Element equipment. It was not opened."
+    },
+    {
+      "name": "Government Scientific Source (govsci.com) NovaSeq X and 6000 SKU pages",
+      "url": "https://www.govsci.com/product-detail/Illumina-----Inc/20125967/EA",
+      "access": "open",
+      "labels": ["1A", "1B"],
+      "rationale": "GSA-style kit prices for 6000 and X reagents, which could be compared over time with the archived pages. Already partly used."
+    },
+    {
+      "name": "NIEHS notice of intent to sole source Illumina (2023 and 2025 versions)",
+      "url": "https://www.niehs.nih.gov/sites/default/files/2025-04/notice_of_intent_to_sole_source_illumnia_inc_bid_508.pdf",
+      "access": "open PDF",
+      "labels": ["1A", "1C"],
+      "rationale": "It may show whether US federal labs still buy 6000 reagent kits in 2025 and at what quantity."
+    },
+    {
+      "name": "NASA GeneLab sole-source for sequencing reagents and flow cells (80NSSC25903768Q)",
+      "url": "https://oversight.govsignals.ai/opportunity/sequencing-reagents-and-flow-cells-80nssc25903768q",
+      "access": "open",
+      "labels": ["1A"],
+      "rationale": "A May 2025 US government notice for NovaSeq 6000 reagents, which shows federal labs are still buying 6000 consumables."
+    },
+    {
+      "name": "University of Toronto NovaSeq 6000 ACAN (MERX)",
+      "url": "https://www.merx.com/uoft/uoft-stgeorge-procurement/solicitations/NovaSeq6000-High-Throughput-NGS-Instrument/0000083906",
+      "access": "open page returned 403; try the search snippet or archive.org",
+      "labels": ["1A"],
+      "rationale": "A new 6000 buy by a university would cut against the conversion thesis, but the date is unconfirmed."
+    }
+  ],
+  "apify_requests": []
+}
+```

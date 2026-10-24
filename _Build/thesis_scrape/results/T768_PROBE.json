@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not open the Northwestern NUSeq page or the UMN PDF. WebFetch returned HTTP 404 for both, though both URLs appear in search results. What I have comes from search-result snippets only. They show small, long-running Illumina pilot programs. I found no 2026 round and no dollar totals per year. I found no growth trend and no matching Element or Ultima giveaway at the same core. I did not check for a 2023 baseline. I used 6 tool calls, so I stopped short of the 15-fetch limit. The thesis case is weak: the awards are 800M reads (about 0.8 Gb at 1 read per Gb-scale unit, roughly $1-3K of reagent) or $500-10K library prep kits, and they are one-off marketing grants, not volume-buying concessions. Illumina has run these programs since at least 2018 (NSU), so they are not a new 2025-26 trend.",
+  "how_to_mine": "Retry the Northwestern page from the Wayback Machine (web.archive.org/web/2025*/cgm.northwestern.edu/cores/nuseq/about/illumina-pilot-grant.html) and look for a 2026 call and the reagent value. Open the UMN Genomics Center pilot program page (genomics.umn.edu) for the current cycle. Check the UW-Madison Biotechnology Center, 10x and Illumina sequencing pilot program page for its 2023, 2025 and 2026 award counts. Check the Boston University GSI 2025 competition page. Search for the same cores' Element AVITI or Ultima pilot offers, for example 'Element Biosciences pilot program core'. Only worthwhile if the 2026 rounds are larger or more numerous than the 2023 rounds.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Illumina gives academic cores free reagents through pilot grants, a concession that never shows in rate cards.",
+      "detail": "Search snippets show Illumina supplying a limited quantity of sequencing reagents at no charge to Northwestern's NUSeq core for 2025 pilot awards. A typical award covers up to 800M reads. Library prep kits were free for bulk and DNA projects, and single-cell kits got a 40% discount. The 2025 cycle closed on 3 Jul 2025 with awards notified by 18 Jul 2025. I found no 2026 round and no total dollar value, so the evidence is small and shows no growth. I could not open the page itself (HTTP 404).",
+      "url": "https://www.cgm.northwestern.edu/cores/nuseq/about/illumina-pilot-grant.html",
+      "date": "2025-07",
+      "source_name": "Northwestern NUSeq (search-result snippet)",
+      "source_type": "other",
+      "quote": "Illumina will provide a limited quantity of sequencing reagents at no charge",
+      "strength": "weak",
+      "why_new": "In-kind academic reagent giveaways are not in the known list, but the scale is tiny and the programs are old."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Illumina co-funds pilot sequencing at the University of Minnesota (UMN) Genomics Center, with read allotments set per project.",
+      "detail": "A Spring 2024 UMN slide deck, seen only as a search snippet, describes pilot sequencing co-funded by Illumina. Awards were up to 1.2B reads for single-cell projects and 400M reads for other projects. I found no award counts, no total value and no 2025-26 update. UMN also appears in the known list for AVITI cost declines, so the same center faces both Illumina subsidies and Element price pressure.",
+      "url": "https://genomics.umn.edu/sites/genomics.umn.edu/files/2024-04/UMGC%20Pilot%20Sequencing%20Seminar%20240404.pdf",
+      "date": "2024-04-04",
+      "source_name": "UMN Genomics Center (search-result snippet)",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The pilot subsidy is new, but the 2024 date and the missing totals limit its use."
+    }
+  ],
+  "new_candidates": [
+    "UW-Madison Biotechnology Center Sequencing Pilot Program, run with 10x Genomics and Illumina: award counts, 2023 vs 2025-26.",
+    "Boston University GSI 2025 pilot grant competition (single-cell): who funds it and how much it is worth.",
+    "UC Davis DNA Technologies Illumina pilot grant application form: the value per award and the dates."
+  ],
+  "apify_requests": []
+}
+```

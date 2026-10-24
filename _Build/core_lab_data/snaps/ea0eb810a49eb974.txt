@@ -1,0 +1,132 @@
+Genomics Core - UT Research
+Skip to content
+Request Info
+Visit
+Apply
+Give
+Search
+Close
+Search
+Search
+Menu and search
+Close
+Request Info
+Visit
+Apply
+Give
+Search
+Search
+About
+About Overview
+Facts & Stats
+Mission & Strategy
+Leadership Team
+Staff Directory
+Institutional Information
+News
+Home
+Research Facilities
+Core Facilities
+Genomics Core
+Genomics Core
+The Genomics Core provides UT faculty, staff, and students, as well as off-campus users, with access to state-of-the-art sequencing and library prep equipment and training. As a shared resource facility, it provides access to high-throughput sequencing on Illumina platforms and associated laboratory equipment as well as DNA sequence analysis support to the UT research community.
+The Genomics Core is located in Room 407 of the Science and Engineering Research Facility. Contact core facility staff for questions about your project needs at [email protected].
+Note that user rates are subject to change without notice or as material costs change, and that troubleshooting may necessitate additional costs.
+High-throughput sequencing and rates
+The Genomics Core provides high-throughput next-generation sequencing services to campus and off-campus researchers. Sequencing is performed using the Illumina NovaSeq, NextSeq, and iSeq instruments. We recommend advance consultation with Genomics Core staff. While we strive for successful sequencing every time, we cannot guarantee project success. In all cases, the user will be billed for cost and labor in accordance with our fee structure. All samples are assumed to be safe and no greater than BSL1 unless otherwise agreed upon in advance.
+Project workflow
+DNA/RNA Extraction — Nucleic acid is extracted and purified
+Library Prep — Sample is prepared for sequencing by adding appropriate adapters
+Sequencing — Sequence of the sample is read and raw data created
+Analysis — Primary analysis, secondary analysis, interpretation
+Services
+DNA Extraction
+Sanger Sequencing
+Genome and Metagenome Library Preparation
+Metabarcoding of Amplicon Products
+RNA Seq
+Illumina iSeq Sequencing
+Illumina NextSeq Sequencing
+Illumina NovaSeq Sequencing
+DNA extraction
+Some DNA extractions are suitable for automation, and some are better suited for manual extraction. Automated extractions are performed on a KingFisher Flex using Zymo Research kits and manual extractions are performed using Qiagen extraction kits. Contact core facility staff to discuss which method is best for your sample type.
+Hourly rates listed as Internal / External (Academic) / External Non-Academic.
+Manual extraction, up to 100 samples, each
+Internal: $14 · External (Academic): $18 · External Non-Academic: $22
+Manual extraction, more than 100 samples, each
+Internal: $12 · External (Academic): $15 · External Non-Academic: $19
+Automated extraction, 24–48 samples, each (24 sample minimum)
+Internal: $10 · External (Academic): $12 · External Non-Academic: $16
+Automated extraction, 49–96 samples, each
+RNA Seq
+RNA libraries are prepared using Zymo Research’s Zymo-Seq RiboFree Total RNA Library Kit, which can include an rRNA depletion step. The minimum input amount of RNA is 100 ng in 6 uL volume, but the recommended input is 500 ng. RNA should have A260/A280 and A260/A230 ratios greater than 1.8 and be DNA-free. Please check that this kit is compatible with your needs. The costs below are for library construction of extracted, quantified, and quality-confirmed RNA. Next you will need to select the appropriate Illumina sequencing option.
+Hourly rates listed as Internal / External (Academic) / External Non-Academic.
+Up to 12 samples, each
+Internal: $99 · External (Academic): $124 · External Non-Academic: $152
+13–48 samples, each
+Internal: $89 · External (Academic): $111 · External Non-Academic: $137
+More than 48 samples, each
+Internal: $78 · External (Academic): $98 · External Non-Academic: $120
+Illumina iSeq sequencing
+The Illumina iSeq is a small next-generation sequencer that can produce a maximum of 4 million read pairs (clusters). It is ideal for very small sequencing projects and test runs for larger sequencing projects. The costs below are for prepared libraries. Costs for library prep are in addition to the cost of the flow cell. Illumina is currently charging an additional tariff fee, which is directly recharged to users.
+Rates listed as Internal UT User / External Academic / External Non-Academic. M = million reads, B = billion reads, SE = single-end, PE = paired-end.
+300 cycle · 2×150 nt · ~4 M SE · ~8 M PE
+Internal: $775 · External (Academic): $825 · External Non-Academic: $945 · Tariff Fee: $32
+iSeq run only
+Internal: $100 · External (Academic): $150 · External Non-Academic: $200
+Illumina NextSeq sequencing
+The Illumina NextSeq 1000 uses a patterned flow cell technology to sequence up to 400 million read pairs (clusters). It replaces the previous Illumina MiSeq, with similar capabilities at reduced costs and higher quality. It is ideal for small- to medium-sized sequencing projects. Lane sharing may be available for small projects. Contact core facility staff for information.
+Custom read lengths are also available, generally requiring whole flow cell reads. The appropriate NextSeq flow cell for your project is determined by the depth of coverage needed as well as the desired read length. Contact core facility staff for advice on which flow cell is right for your project.
+Illumina is currently charging an additional tariff fee, which is directly recharged to users.
+Rates listed as Internal UT User / External Academic / External Non-Academic. M = million reads, B = billion reads, SE = single-end, PE = paired-end.
+P1 100 · 2×50 nt · ~100 M SE · ~200 M PE
+Internal: $1,120 · External (Academic): $1,270 · External Non-Academic: $1,420 · Tariff Fee: $36
+P1 300 · 2×150 nt · ~100 M SE · ~200 M PE
+Internal: $1,420 · External (Academic): $1,570 · External Non-Academic: $1,720 · Tariff Fee: $50
+P1 600 · 2×300 nt · ~100 M SE · ~200 M PE
+Internal: $1,975 · External (Academic): $2,125 · Non-Academic: $2,275 · Tariff Fee: $76
+P2 100 · 2×50 nt · ~400 M SE · ~800 M PE
+Internal: $1,520 · External (Academic): $1,670 · Non-Academic: $1,820 · Tariff Fee: $55
+P2 200 · 2×100 nt · ~400 M SE · ~800 M PE
+Internal: $2,545 · External (Academic): $2,695 · Non-Academic: $2,845 · Tariff Fee: $103
+P2 300 · 2×150 nt · ~400 M SE · ~800 M PE
+Internal: $3,265 · External (Academic): $3,415 · External Non-Academic: $3,565 · Tariff Fee: $137
+P2 600 · 2×300 nt · ~400 M SE · ~800 M PE
+Internal: $3,520 · External (Academic): $3,670 · External (Commercial): $3,820 · Tariff Fee: $149
+Run costs only
+Internal: $350 · External (Academic): $500 · External (Commercial): $650
+Illumina NovaSeq sequencing
+The NovaSeq 6000 is a large-scale sequencer from Illumina, generating up to 10 billion read pairs (clusters) using patterned flow cell technology, with scalable throughputs to accommodate most projects. Careful consideration of sample numbers and flow cell output is crucial for effective use of this platform. The high yields of the NovaSeq flow cells may present difficulties in efficiently filling flow cells for many researchers. As such, pooling options are available to reduce costs for users. Contact core facility staff for further information. Custom read lengths are also available, generally requiring whole flow cell reads.
+The appropriate Illumina NovaSeq flow cell for your project is determined by the depth of coverage needed, as well as the desired read length. Contact core facility staff for advice on which flow cell is right for your project. The costs below are for a prepared library. Costs for library prep are in addition to the cost of the flow cell.
+Illumina is currently charging an additional tariff fee, which is directly recharged to users.
+For assistance calculating coverage necessary for your specific project, visit Illumina’s Coverage Calculator.
+Rates listed as Internal UT User / External Academic / External Non-Academic. M = million reads, B = billion reads, SE = single-end, PE = paired-end.
+SP 200 · 2×100 nt · ~650–800 M SE · ~1.3–1.6 B PE
+Internal: $3,360 · External (Academic): $3,610 · External Non-Academic: $4,530 · Tariff Fee: $134
+SP 300 · 2×150 nt · ~650–800 M SE · ~1.3–1.6 B PE
+Internal: $3,620 · External (Academic): $3,870 · External Non-Academic: $4,850 · Tariff Fee: $146
+SP 500 · 2×250 nt · ~650–800 M SE · ~1.3–1.6 B PE
+Internal: $4,870 · External (Academic): $5,120 · External Non-Academic: $6,390 · Tariff Fee: $205
+S1 200 · 2×100 nt · ~1.3–1.6 B SE · ~2.6–3.2 B PE
+Internal: $5,545 · External (Academic): $5,795 · External Non-Academic: $7,225 · Tariff Fee: $236
+S1 300 · 2×150 nt · ~1.3–1.6 B SE · ~2.6–3.2 B PE
+Internal: $5,960 · External (Academic): $6,210 · External Non-Academic: $7,740 · Tariff Fee: $256
+S2 200 · 2×100 nt · ~3.3–4.1 B SE · ~6.6–8.2 B PE
+Internal: $9,865 · External (Academic): $10,115 · External Non-Academic: $12,555 · Tariff Fee: $438
+S2 300 · 2×150 nt · ~3.3–4.1 B SE · ~6.6–8.2 B PE
+Internal: $10,490 · External (Academic): $10,740 · External Non-Academic: $13,325 · Tariff Fee: $467
+S4 200 · 2×100 nt · ~8–10 B SE · ~16–20 B PE
+Internal: $14,145 · External (Academic): $14,395 · External Non-Academic: $17,830 · Tariff Fee: $638
+S4 300 · 2×150 nt · ~8–10 B SE · ~16–20 B PE
+Internal: $15,700 · External (Academic): $15,950 · External (Commercial): $19,750 · Tariff Fee: $711
+NovaSeq run only
+Internal: $500 · External (Academic): $750 · External (Commercial): $1,000
+Nucleic Acid quantification and rates
+TapeStation — The Agilent TapeStation quantifies and qualifies DNA and RNA. The appropriate screentape is determined by the expected product size and concentration. This instrument is available for assisted and unassisted use. Users accessing this instrument for unassisted use will need to either provide their own consumables or contact core staff about the availability of purchasing consumables directly from the lab.
+Nanodrop — DNA and RNA can be quantified by core staff on the Nanodrop Eight Spectrophotometer. The fee structure is based on batch sizes of up to 48 or 49 to 96 samples provided at a time.
+Qubit — DNA can be quantified by core staff on the Qubit Flex Fluorometer. The rate structure is based on a higher rate for the first eight samples to account for standards, then a reduced rate for each additional batch of eight samples.
+QPCR — Quantitative PCR is available on the QuantStudio3 Real-Time system as an unassisted use service. Users are provided with a compatible 96 well plate and seal. Contact core staff to ensure that your project design and fluorescent dye selection are compatible with the instrument.
+Quantification rates
+Rates listed as Internal UT User / External Academic / External Non-Academic.
+TapeStation, standard sensitivity, per sample
+Internal: $5.50 · External (Academic): $7.00 · External Non-Academic: $8.50

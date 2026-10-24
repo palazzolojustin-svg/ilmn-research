@@ -1,0 +1,227 @@
+Rates | Genomics and Cell Characterization Core Facility
+Skip to main content
+One Stop
+Apply
+Visit
+Give
+Search
+Search this site
+Search
+Menu
+Genomics and Cell Characterization Core Facility Menu
+Request Services
+View Queues
+Services & Instruments
+Admin
+Rates
+Take Action
+One Stop
+Apply
+Visit
+Give
+Office of the Vice President for Research and Innovation
+Genomics and Cell Characterization Core Facility
+New Menu 2025
+Genomics
+Flow Cytometry
+Microscopy
+Rates
+About
+Rates
+Internal pricing is available for the University of Oregon, Oregon State University, Oregon Health & Science University, and Portland State University. External pricing applies to all other requesters.
+Genomics Rates
+Illumina Sequencing Rates
+NovaSeq 6000
+Run Size
+|
+Run Type and Configuration
+|
+Internal Rate
+|
+External Rate
+|
+S4, 2 to 2.5 billion+ read pairs
+|
+300 Cycle (PE 2x150)
+|
+$4,852
+|
+$6,606
+|
+35 Cycle (SR 53 or PE 2x32)
+|
+$3,730
+|
+$5,079
+|
+S1, 650 to 800 million+ read pairs
+|
+300 Cycle (PE 2x150)
+|
+$3,730
+|
+$5,076
+|
+100 Cycle (SR 118, PE 2x59, or 10X scRNA)
+|
+$2,790
+|
+$3,798
+|
+SP, 325 to 400 million+ read pairs
+|
+500 Cycle (PE 2x250)
+|
+$3,048
+|
+$4,150
+|
+300 Cycle (PE 2x150)
+|
+$2,219
+|
+$3,022
+|
+100 Cycle (SR 118, PE 2x59, or 10X scRNA)
+|
+$1,610
+|
+$2,192
+|
+NextSeq 2000 Rates
+Run Size
+|
+Run Type and Configuration
+|
+Internal Rate
+|
+External Rate
+|
+P4, up to 1.8 billion read pairs
+|
+300 cycle (PE 2x150)
+|
+$4,145
+|
+$5,389
+|
+200 cycle (PE 2x100)
+|
+$3,745
+|
+$4,869
+$2,795
+|
+$3,634
+|
+50 cycle (SR 50)
+|
+$2,300
+|
+$2,990
+|
+P3, up to 1.2 billion read pairs
+|
+300 cycle (PE 2x150)
+|
+$4,316
+|
+$6,046
+|
+200 cycle (PE 2x100)
+|
+$3,365
+|
+$4,714
+$2,574
+|
+$3,605
+|
+50 cycle (SR 50)
+|
+$1,941
+|
+$2,718
+|
+P2, up to 300 million read pairs
+|
+600 cycle (PE 2x300)
+|
+$3,770
+|
+$5,281
+|
+P2, up to 400 million read pairs
+|
+300 cycle (SR 300, or PE 2x150)
+|
+$3,504
+|
+$4,910
+|
+200 cycle (SR 200, or PE 2x100)
+|
+$2,770
+|
+$3,879
+|
+100 cycle (SR 100, PE 2x50, or 10X scRNA)
+|
+$1,714
+|
+$2,401
+|
+P1, up to 100 million read pairs
+|
+600 cycle (PE 2x300)
+|
+$2,276
+|
+$3,189
+|
+300 cycle (SR 300, or PE 2x150)
+|
+$1,674
+|
+$2,345
+|
+100 cycle (SR 100, PE 2x50, or 10X scRNA)
+|
+$1,349
+|
+$1,890
+$2,258
+|
+50 cycle (SR 50)
+|
+$1,078
+|
+$1,605
+|
+v2 micro, 4 million read pairs
+|
+300 cycle (PE 2x150)
+|
+$623
+|
+$928
+|
+v2 nano, 1 million read pairs
+|
+500 cycle (PE 2x250)
+|
+$517
+|
+$770
+|
+300 cycle (PE 2x150)
+|
+$446
+|
+$665
+|
+PacBio Sequencing Rates
+Revio
+Run Size
+|
+Internal Rate

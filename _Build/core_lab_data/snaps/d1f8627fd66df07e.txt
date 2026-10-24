@@ -1,0 +1,61 @@
+Next Generation Sequencing | Emory University | Atlanta GA
+Top of page
+Skip to main content
+ENBRC Genomics Core
+Menu
+Home
+Services (current)
+Services Overview
+Extraction and QC
+Library Preparation
+Single Cell Sequencing
+Spatial Transcriptomics
+Next Generation Sequencing
+Third Generation Sequencing
+Data Analysis
+Pricing
+Sample Submission
+Submit your Project
+Sample Requirements
+Single Cell Projects
+Spatial Transcriptomics Projects
+FOCL
+Acknowledgements
+Meet Our Team
+Main content
+Home
+Service Overview
+Next Generation Sequencing
+Next Generation Sequencing
+We offer next generation sequencing services on our Illumina NovaSeq X Plus, Illumina NovaSeq 6000 and Illumina MiSeq. The combination of these systems provides us with a wide degree of flexibility in terms of read length and depth, allowing us to quickly sequence small amplicon-based sequencing projects as well as larger whole-genome scale projects.
+Overview of Illumina Sequencing by Synthesis Workflow | XLEAP SBS chemistry
+NovaSeq X Plus
+The NovaSeq X series has many improvements on its predecessor, the NovaSeq 6000, including exceptional speed (higher throughput ultrahigh-density flow cells and reduced run times), data quality and accuracy (advanced chemistry and ultrahigh-resolution optics) and a significant reduction in sequencing reagent costs.
+The NovaSeq X Plus system is powered by Illumina XLEAP-SBS chemistry – a faster, higher fidelity, and more robust advancement to proven Illumina sequencing by synthesis (SBS) chemistry. The onboard DRAGEN platform speeds up computing and facilitates faster data transfers.
+Four flow cell types are currently available with the X series,1.5B, 5B, 10B, and 25B, which provides the broadest output range. The NovaSeq X Plus System generates from 165 Gb/1.6 B reads to 8 Tb/26 B reads of data in single flow cell mode. In dual flow cell mode, output can be up to 16 Tb and 52 B reads.
+Flow Cell Type | 1.5B | 5B | 10B | 25B |
+Lanes per Flow Cell | 2 | 8 | 8 | 8 |
+Clusters PF | 1.6 billion | 5 billion | 10 billion | 26 billion |
+Available Run Configurations |
+PE50, SR100 (100 cycle) | Yes | Yes | Yes | Yes |
+PE100 (200 cycle) | Yes | Yes | Yes | Yes |
+PE150 (300 cycle) | Yes | Yes | Yes | Yes |
+PE300 (600 cycle) | Yes | –No | –No | –No |
+MiSeq
+The MiSeq is a smaller unit used primarily for small whole-genome sequencing, targeted gene (amplicon) sequencing, immune repertoire sequencing, and 16s metagenomics sequencing. We also offer a variety of flow cell types for the MiSeq to better serve a range of sequencing depths and project sizes.
+MiSeq flow cell specifications and run configurations
+Flow Cell Type | v2 Nano | v2 Micro | v2 | v3 |
+Clusters PF | Up to 1 million | Up to 4 million | Up to 15 million | Up to 25 million |
+Available Run Configurations |
+PE75, SR150 (150 cycle) | –No | –No | –No | Yes |
+PE150 (300 cycle) | Yes | Yes | Yes | –No |
+PE250 (500 cycle) | Yes | –No | Yes | –No |
+PE300 (600 cycle) | –No | –No | –No | Yes |
+Service Overview
+Extraction and QC
+Library Preparation
+Single Cell Sequencing
+Spatial Transcriptomics
+Next Generation Sequencing
+Third Generation Sequencing
+Data Analysis

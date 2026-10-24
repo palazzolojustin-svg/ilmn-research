@@ -1,0 +1,19 @@
+```json
+{
+  "status": "dry",
+  "notes": "I ran 3 searches and 1 fetch. I found no core annual report with yearly counts of samples, lanes or Gb by platform. The one lead with real content is the NUSeq 'State of the Core 2024' PDF (https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf). I could not read it: WebFetch returned raw binary, and the local PDF reader needs pdftoppm, which isn't installed. Search snippets say it covers FY2023 only: 762 direct users and $3.7M spent on NUSeq services, with no lane totals. It calls 2024 a 'major transition year' and says the NovaSeq 6000 and HiSeq 4000 are being phased out. NUSeq's core page says the 6000 became unavailable in Jan 2024, the HiSeq 4000 in mid-Mar 2024, and X Plus service began Sep 2023. The 6000 retirement was already in the known list (the Northwestern core card shows no 6000), and no volume data is new. Yale (YCGA), Vanderbilt and Edinburgh Genomics showed no usable annual reports in search. I did not check UNC or Fred Hutch. The source is thin because cores rarely publish lane counts. A few publish 'state of the core' slides or LIMS-derived stats.",
+  "how_to_mine": "1) Install poppler (or use a Python PDF text extractor such as pypdf run with -I on the saved file) and read the NUSeq state-of-the-core-2024 PDF. It may have FY23 vs FY24 projects, flow cells or reads, and pricing slides. Also check the NUSeq research-poster-research-day-23.pdf. 2) Search 'state of the core' OR 'year in review' OR 'annual report' with specific core names (Fred Hutch Genomics, UNC HTSF, Vanderbilt VANTAGE, Univ. Minnesota UMGC, Broad Genomics Platform, Wellcome Sanger, EMBL GeneCore, NGI Sweden, MGX France). The French MGX overview PDF (https://project.mgx.cnrs.fr/attachments/download/36410/MGX_overview.pdf) reports project counts for 2023-2024 and is worth opening. 3) Look at NIH S10 or institutional core-review PDFs, which often include 'runs per year' by instrument.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {"name": "MGX (Montpellier GenomiX) overview PDF, 2023-2024 project counts", "url": "https://project.mgx.cnrs.fr/attachments/download/36410/MGX_overview.pdf", "why": "Search snippet says it reports project counts for 2023-2024 and a planned X Plus replacing older hardware. Not opened."},
+    {"name": "NUSeq State of the Core 2024 PDF (needs local PDF text extraction)", "url": "https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf", "why": "FY23 user and spend figures plus 2024 transition plans. Could give FY23 vs FY24 volume or price slides if extracted."}
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [NUSeq State of the Core 2024](https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf)
+- [NUSeq core page](https://www.cgm.northwestern.edu/cores/nuseq/)
+- [MGX overview](https://project.mgx.cnrs.fr/attachments/download/36410/MGX_overview.pdf)

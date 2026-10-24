@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "Cancer Genomics Center - UTHealth Houston",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NS6000_S2",
+   "flow_cell_raw": "Novaseq 1000M reads 150PE",
+   "unit": "flow_cell",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "unlabeled price column 1",
+   "price": 2100,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "Novaseq 1000M reads 150PE | $2100 | $2600"
+  },
+  {
+   "platform_fc": "NS6000_S2",
+   "flow_cell_raw": "Novaseq 1000M reads 150PE",
+   "unit": "flow_cell",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "unlabeled price column 2",
+   "price": 2600,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "Novaseq 1000M reads 150PE | $2100 | $2600"
+  }
+ ],
+ "_model": "haiku"
+}

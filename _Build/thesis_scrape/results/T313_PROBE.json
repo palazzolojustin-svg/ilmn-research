@@ -1,0 +1,19 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The RePORTER v2 search endpoint only accepts POST. WebFetch sends GET and got HTTP 405, and this agent has no Bash or HTTP-POST tool. So I could not count awards or dollars by platform, and I pulled no abstracts. Two standard searches for S10 abstracts that name AVITI, Ultima, Axelios or DNBSEQ returned only vendor pages and core-facility rate cards, with no RePORTER abstracts. The only S10 hit was UAMS S10OD036394 (NovaSeq 6000 to X Plus, claimed cost cut of up to about 80%), which is already on the exclusion list. A UW-Madison page (research.wisc.edu, 27 Jun 2024) says a NovaSeq 6000 was replaced with an X Plus. I did not open it, so it is unverified and I cannot say whether it was S10-funded. The UCSD IGM page credits S10 OD026929 for an X Plus, per a search snippet only. I have no evidence on any of the five labels, so I list no items. The source is probably still reachable and cheap to mine from a machine that can send a POST.",
+  "how_to_mine": "From a POST-capable environment (Python requests or curl), send POST https://api.reporter.nih.gov/v2/projects/search. Body: {\"criteria\":{\"activity_codes\":[\"S10\"],\"fiscal_years\":[2023,2024,2025,2026],\"advanced_text_search\":{\"operator\":\"advanced\",\"search_field\":\"projecttitle,abstracttext,terms\",\"search_text\":\"\\\"NovaSeq X\\\" OR AVITI OR Ultima OR \\\"UG 100\\\" OR DNBSEQ OR SBX OR Axelios\"}},\"include_fields\":[\"ProjectNum\",\"FiscalYear\",\"AwardAmount\",\"Organization\",\"AbstractText\",\"ProjectTitle\"],\"offset\":0,\"limit\":500}. Page by offset (maximum 500 per call). Run each platform term separately, then dedupe by ProjectNum. For each platform, count awards and sum AwardAmount by fiscal year. Regex the abstracts for 'cost per', '$/Gb', 'per gigabase', 'reduce cost' and 'replace.*NovaSeq 6000'. Keep non-Illumina abstracts that justify the choice on cost, and flag Illumina awards that justify replacing a 6000. Check the Element 'AVITI' hits for text like 'Element Biosciences'. 'SBX' and 'Ultima' are noisy terms, so filter the false positives by hand. FY2026 awards are likely sparse, and the NIH funding pause may have thinned S10 awards. Keep the cited phrases to 15 words or fewer.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "https://research.wisc.edu/uncategorized/2024/06/27/replacement-of-an-illumina-novaseq-6000-with-a-novaseq-x-plus/ (UW-Madison 6000 to X Plus replacement; unopened, check whether S10-funded and what it cites on cost)",
+    "https://igm.ucsd.edu/node/123 (UCSD IGM credits S10 OD026929 for an X Plus; snippet only)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [HigherGov UAMS S10OD036394](https://www.highergov.com/grant/S10OD036394/)
+- [UW–Madison NovaSeq 6000 to X Plus replacement](https://research.wisc.edu/uncategorized/2024/06/27/replacement-of-an-illumina-novaseq-6000-with-a-novaseq-x-plus/)
+- [UCSD IGM](https://igm.ucsd.edu/node/123)

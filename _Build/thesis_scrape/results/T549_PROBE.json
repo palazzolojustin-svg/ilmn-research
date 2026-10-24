@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "The API worked with no login. I used the v2 endpoint with filter.advanced=AREA[StudyType]INTERVENTIONAL AND AREA[StartDate]RANGE[...] and countTotal=true. Each count came through WebFetch's summarizer, which returned only the totalCount. I did not open the raw JSON myself. Counts are small (n=11 to 38 per year), the phrase queries are narrow, and 2026 is registration-lagged. Trial starts are an indirect proxy for sequencing volume.\n\nMRD/ctDNA interventional trial starts (query: 'minimal residual disease' AND ctDNA): 2021: 11, 2022: 17 (+55%), 2023: 17 (0%), 2024: 17 (0%), 2025: 29 (+71%), 2026 YTD to 12 Oct: 24 (annualized ~31, +6% vs 2025). The count was flat for 2022-24, then jumped in 2025 and held in 2026.\n\nWGS interventional trial starts (query: 'whole genome sequencing'): 2021: 32, 2022: 38 (+19%), 2023: 34 (-11%), 2024: 29 (-15%), 2025: 25 (-14%), 2026 YTD: 19 (annualized ~24, -3%). That is a steady decline since 2022.\n\nRead-through: WGS trial starts are shrinking, which mildly supports 1C (WGS not a growing volume lever). MRD trial starts rose sharply in 2025 and held in 2026, which is a modest watch-out against 1C's claim that MRD is too small or too far out. Neither series says anything about Gb per patient or about price.",
+  "how_to_mine": "Rerun with query.cond / query.intr instead of query.term, and add variants (ctDNA alone, 'circulating tumor DNA', 'molecular residual disease', 'MRD-guided', 'tumor-informed'). Add sub-splits by phase (AREA[Phase]PHASE3), by sponsor class (AREA[LeadSponsorClass]INDUSTRY), and by enrollment size (sum enrollment over pageSize=1000 JSON using the fields param) to get patient-weighted counts. For WGS, add 'genome sequencing' AND (newborn OR rare disease OR 'critically ill'), 'rapid genome', 'genomic newborn screening'. Also tabulate Natera/Guardant-sponsored MRD trials. Check the 2026 registration lag by comparing against the same 2025 YTD window (2025-01-01 to 2025-10-12). Pull the raw JSON through a script instead of the summarizer to confirm the counts.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Interventional trials mentioning MRD and ctDNA started at a rising pace in 2025-26, a watch-out for the 'MRD too small' argument.",
+      "detail": "ClinicalTrials.gov interventional trial starts for 'minimal residual disease' AND ctDNA were 11 (2021), 17, 17, 17, then 29 in 2025 (+71% y/y). 2026 YTD to 12 Oct is 24, annualized ~31 (+6%), even with registration lag. Trial starts are a leading indicator of clinical MRD adoption. They are not volume, but they show the use case is still broadening.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22minimal%20residual%20disease%22%20AND%20ctDNA&filter.advanced=AREA%5BStudyType%5DINTERVENTIONAL%20AND%20AREA%5BStartDate%5DRANGE%5B2025-01-01,2025-12-31%5D&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First trial-registry count series for MRD/ctDNA trial starts; none of the known items use ClinicalTrials.gov."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Whole-genome-sequencing interventional trial starts have fallen every year since 2022, so WGS is not a growing source of new clinical-use momentum.",
+      "detail": "Interventional trials with 'whole genome sequencing' starting in each year: 32 (2021), 38 (2022), 34 (2023), 29 (2024), 25 (2025), 19 YTD in 2026 (annualized ~24, about -3% vs 2025). That is -34% from the 2022 peak to 2025. The count is small and the query is broad, so it is a weak proxy. It still shows no acceleration in WGS clinical research, which fits the view that WGS is too small to offset slowing volume.",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22whole%20genome%20sequencing%22&filter.advanced=AREA%5BStudyType%5DINTERVENTIONAL%20AND%20AREA%5BStartDate%5DRANGE%5B2025-01-01,2025-12-31%5D&countTotal=true&pageSize=1",
+      "date": "2026-10-12",
+      "source_name": "ClinicalTrials.gov v2 API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No known item uses a registry-based count of WGS trial starts."
+    }
+  ],
+  "new_candidates": [
+    "ClinicalTrials.gov v2 enrollment-weighted sum of MRD/ctDNA trials by start year (fields=EnrollmentCount) to estimate patient-draw volume",
+    "ClinicalTrials.gov sponsor-class split (industry vs academic) for MRD trials, to see whether Natera/Guardant-sponsored studies drive the 2025 jump"
+  ],
+  "apify_requests": []
+}
+```

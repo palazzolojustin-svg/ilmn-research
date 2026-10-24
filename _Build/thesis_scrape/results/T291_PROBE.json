@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the 6000 downloads page through WebFetch and ran two searches. The sources conflict, so I could not confirm any 2025-26 6000 software release. WebFetch's summary of support.illumina.com/sequencing/sequencing_instruments/novaseq-6000/downloads.html listed NVCS/Installer 1.8.2 dated 25 Aug 2025, plus 1.8.1 (6 Nov 2023), 1.8.0 (21 Jul 2022), 1.7.5 (Apr 2021), 1.6 (Feb 2019) and 1.5 (Oct 2018). It showed no end-of-support statement and no RTA or 6000Dx software on the page. Two searches for 1.8.2 and for v1.9 found no 1.8.2 release notes and no v1.9 anywhere. The indexed Illumina v1.8 download page showed only 2022-2023 dates (installer 5 Apr 2023, notes 6 Nov 2023). The only 1.8.2 evidence is therefore a small-model page summary, which could be wrong. If 1.8.2 is real, it is a patch-level release 21 months after 1.8.1 and about 3 years after the last feature release (1.8.0, Jul 2022). That points to maintenance mode with continued support, not abandonment, and it does not support an end-of-sale signal. I did not open the 6000Dx software page or any NovaSeq X release-notes page, so there is no cadence comparison.",
+  "how_to_mine": "Open the 1.8.2 release-notes PDF directly (the URL is likely in the page HTML) and record the contents (security or Windows patch, bug fix, new feature) and the RTA3 version. Open the NovaSeq 6000Dx downloads page and the NovaSeq X Series software page (NVCS/DRAGEN releases, 2024-26) to compare release counts. Check whether the page was captured on web.archive.org to confirm the 1.8.2 date. Confirm whether support.illumina.com renders the table via JavaScript. If so, fetch the page's AEM JSON, or use a browser-rendering fetch.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina may still be shipping NovaSeq 6000 control software in 2025, which would be consistent with a supported long tail.",
+      "detail": "A single unverified page summary of the NovaSeq 6000 downloads page lists NVCS/Installer 1.8.2 dated 25 Aug 2025 (the last 1.8.1 notes were 6 Nov 2023). No end-of-support statement was seen, and no v1.9 was found. Search snippets and the indexed v1.8 page show nothing newer than 2023, so the 1.8.2 date is unconfirmed. Even if real, it is a patch release, not a new feature version.",
+      "url": "https://support.illumina.com/sequencing/sequencing_instruments/novaseq-6000/downloads.html",
+      "date": "2025-08-25 (unverified)",
+      "source_name": "Illumina support, NovaSeq 6000 downloads page",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list shows no 6000 software cadence data; the known evidence only notes that the 6000 product page is live."
+    }
+  ],
+  "new_candidates": [
+    "NovaSeq 6000 NVCS 1.8.2 release notes PDF, to read the patch content and RTA3 version",
+    "NovaSeq X Series control software release notes 2024-26 (release count versus the 6000)",
+    "NovaSeq 6000Dx software and DRAGEN-on-6000Dx release history"
+  ],
+  "apify_requests": []
+}
+```

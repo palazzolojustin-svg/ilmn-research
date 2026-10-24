@@ -1,0 +1,64 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In GEO, the NovaSeq 6000's share of plant and livestock series fell 96.7% to 81.5% to 72.3% (Q3'24, Q3'25, Q3'26). That is nearly the same decay as the human series, so the tail is not decaying evenly toward zero and is not special to non-human users.",
+      "detail": "I counted series (gse) on 26 NovaSeq 6000 platform records and 23 NovaSeq X platform records for Zea mays, Arabidopsis, Oryza, Glycine, Bos, Sus and Gallus. Series counts (6000/X): Q3'24 89/3; Q3'25 123/28; Q3'26 107/41. The 6000 share is 89/92=96.7%, 123/151=81.5% and 107/148=72.3%. That is −24.4 pts over 8 quarters (−3.0 pts/qtr). Over the last year it is −9.2 pts, against −12.1 pts for the human series already known (81.6%→69.5%). In ag the X is converting slower than in human, but the 6000 is not entrenched in non-human research.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=NovaSeq+6000[Title]+AND+gpl[ETYP]+AND+(\"Zea mays\"[Organism]+OR+\"Arabidopsis thaliana\"[Organism]+OR+\"Oryza sativa\"[Organism])&retmax=200",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO (E-utilities, db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known GEO cuts are human, mouse, rat and institutions. This is the first plants/livestock split of 6000 versus X series."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Absolute 6000 series in ag/non-human GEO are still large and only turned down in 2026. Conversion is happening through X growth, not 6000 abandonment.",
+      "detail": "Ag 6000 series by quarter: Q3'24 89, Q3'25 123 (+38%), Q1'26 97, Q2'26 90, Q3'26 107 (−13% y/y, but +19% q/q from Q2). X series: 3, 28, 30, 28, 41. The 6000 share path is 96.7%, 81.5%, 76.4%, 76.3%, 72.3%. The share was flat Q1→Q2'26 (76.4%→76.3%) and then fell 4.0 pts in Q3'26. The quarterly slope is lumpy (−2.0 pts/qtr over the last two quarters). A 6000 base that stays at ~90–120 series a quarter supports a long tail, but the Q3'26 share drop shows conversion continuing.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL37498[ACCN]+AND+gse[ETYP]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO (E-utilities, db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It gives a quarterly ag time series and decay slope. The known items only show human/mouse absolute 6000 rises."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Platform-record breadth shows the 6000 is still the most-documented platform. Its GEO platform records outnumber the X's about 2.9 to 1 (1,822 vs 634), which fits a long tail of niche organisms and labs.",
+      "detail": "esearch db=gds 'NovaSeq 6000[Title] AND gpl[ETYP]' returns 1,822 platform records. 'NovaSeq X[Title] AND gpl[ETYP]' returns 634. This is a stock of organism-specific platform records created since 2018 (6000) and 2023 (X), not a rate. In the ag subset it is 26 records for the 6000 and 23 for the X, a near-parity ratio that shows the X is already established in ag. I did not split 'other' non-model organisms because the list is too long for this tool.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=NovaSeq+X[Title]+AND+gpl[ETYP]&retmax=300&retmode=json",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO (E-utilities, db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It quantifies total 6000 and X platform-record counts, which are not in the known list."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Tooling was WebFetch only, with no scripting, so I got the plant/livestock group (7 organisms, Q3'24, Q3'25 and Q1–Q3'26). Not done: the 'other non-model organisms' group (needs the full 1,822/634 GPL lists and a scripted OR-loop or per-organism queries), a human/mouse re-run on the same series basis, and Q4'24–Q4'25 for ag. A series that uses both platforms counts in both, and the organism filter is by platform record, so share figures are approximate. Ag counts are small (about 90–150 series a quarter), so one lab can swing a quarter. A scripted run with retmax=0 would finish the rest in minutes.",
+  "leads": [
+    {
+      "name": "GEO esummary on platform UIDs (organism and title per record)",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=100037498",
+      "access": "free E-utilities GET; a scripted loop is needed for 1,822 records",
+      "labels": ["1A"],
+      "rationale": "It would classify every 6000 and X platform record by taxon, so the non-model group and organism-level decay slopes can be computed."
+    },
+    {
+      "name": "GEO series with organism-only grouping via the taxonomy field",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds",
+      "access": "free; test whether Organism-restricted series counts can be combined with platform lists",
+      "labels": ["1A", "1C"],
+      "rationale": "It would let ag and non-model groups be compared to human on one basis."
+    }
+  ],
+  "apify_requests": []
+}
+```

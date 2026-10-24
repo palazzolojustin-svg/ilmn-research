@@ -1,0 +1,117 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illumina's own Open Offer price catalogue shows it raised list prices on all its legacy RUO sequencing kits (NovaSeq 6000 and NextSeq 550) in two identical steps. Over the same period it held NovaSeq X kits flat and barely moved NextSeq 2000 kits, so part of the tail's price premium was put there by Illumina's own pricing.",
+      "detail": "NovaSeq 6000 S4-300 list prices: $14,400 (Jan 2022 revision), $15,940 (prices as of 15 Feb 2023), $16,578 (prices as of 15 Feb 2024). That is +10.7% and then +4.0%, or +15.1% in total. S2-300 ($9,600→$10,627→$11,052) and SP-300 ($3,000→$3,321→$3,454) moved by exactly the same percentages. The RUO NextSeq 550 High Output 300-cycle kit followed the same path ($5,065→$5,606→$5,830, +15.1%). Over the same period the NextSeq 2000 P3-300 rose only 2.5% ($6,000→$6,150, then flat), and the NovaSeq X 10B-300 ($9,600) and 25B-300 ($16,000) were unchanged between the Jan 2024 and May 2024 catalogues. Illumina's later 25B-300 list of $16,480 (already in the corpus) is only about 3% above $16,000. The uniform two-step hike on legacy platforms only means the tail customers absorbed a 15% list increase while converted customers did not. That fits a less price-elastic tail, and it means part of the 3.4x revenue-per-Gb gap is an administered price that Illumina could reverse.",
+      "url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+      "date": "2024-05-31 (revision); compared with 2022-01-06 and 2024-01-25 revisions",
+      "source_name": "Illumina Open Offer Appendix 1 (Universal Consumables and Instruments Discount Schedules and List Price Catalogue)",
+      "source_type": "price_list",
+      "quote": "Standard Available List Price as of February 15, 2024",
+      "strength": "medium",
+      "why_new": "F538 gave only the 6000's cumulative +15.1%. This item adds the year-by-year split (+10.7% then +4.0%), shows the NextSeq 550 RUO kits got the identical hike, and contrasts it with NextSeq 2000 (+2.5%) and X (flat)."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina prices its regulated NovaSeq 6000Dx reagent kits below the RUO 6000 kits, and the gap widened in 2024. The FDA/IVD-locked 'regulated tail' is therefore not the highest-priced part of the 6000 base.",
+      "detail": "6000Dx S4-300 kit list price: $13,876 in both the Jan 2024 (prices as of Feb 2023) and May 2024 (prices as of Feb 2024) catalogues. The RUO S4-300 went from $15,940 to $16,578, so the Dx kit's discount to RUO widened from 12.9% to 16.3%. Illumina cut the 6000Dx S2-300 from $9,600 to $8,976 (−6.5%) while the RUO S2-300 rose to $11,052, so the Dx discount widened from 9.7% to 18.8%. The NextSeq 550Dx HO-300 kit was held at $6,841 while the RUO 550 kit rose 4%. The 6000Dx instrument list cut from $1.08M to $850K happened in the same revision. The highest-price 6000 Gb are therefore RUO/LDT users (the labs that can most easily convert), not IVD-locked labs. The thesis's 'permanent regulated tail' is cheaper per Gb than the average tail.",
+      "url": "https://supportassets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/1-25-2024_appendix-1.pdf",
+      "date": "2024-01-25 and 2024-05-31 revisions",
+      "source_name": "Illumina Open Offer Appendix 1",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The corpus has only the 6000Dx instrument list cut (F547). Dx versus RUO reagent kit pricing, and the 6000Dx S2 kit cut, are not recorded."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Using Illumina's own published list prices and discount tiers, the reported 3.4x 6000/X revenue-per-Gb ratio cannot be reached if both platforms are bought at the same top-tier discount. It needs 6000 Gb bought near list and X Gb bought at deep discounts.",
+      "detail": "Our calc uses the S4-300 at $16,578 for 2.4–3.0 Tb ($5.53–6.91/Gb list) and the 25B-300 at $16,000 for about 8 Tb ($2.00/Gb list). Ratios by scenario: both at list, 2.76–3.45x. Both at the ≥$100M tier (6000 −22%, 25B −12%), $4.31–5.39 vs $1.76, or 2.45–3.06x. Both at the $5–10M tier (−3% / −5%), 2.82–3.53x. 6000 at list and 25B at top tier, 3.14–3.93x. Symmetric large-account pricing tops out at about 3.06x, below the 3.4x Illumina disclosed (Q2'26). The remaining 6000 Gb therefore skew to low-tier (smaller, less price-sensitive) buyers, or X Gb carry discounts beyond the schedule, or both. Because the 25B discount is capped at 12% versus 22% on the 6000, the per-Gb cut a top-tier lab gets on conversion is −59% to −67%, against −64% to −71% at list.",
+      "url": "https://assets.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/7-26-2024-appendix-1.pdf",
+      "date": "2024-05-31",
+      "source_name": "Illumina Open Offer Appendix 1 (our derivation)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F539 gave only the top-tier ratio (2.45–2.82x). This item runs the full tier matrix on Illumina's own schedule and shows that symmetric pricing caps the ratio at about 3.06x, so the gap to 3.4x is attributable to customer mix."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina's published oncology discount ladder for the 6000 and NextSeq 2000 did not change in any revision from Jan 2022 to May 2024. The X 10B/1.5B ladder copies the 6000's exactly, and the hardware ladder was reused for the X. The formal schedule shows no acceleration of discounting through the X launch.",
+      "detail": "Jan 2022 'NovaSeq v1.5' consumables column: 0/0/0/3/5/10/13/15/17/20/22% across spend tiers from $0 to ≥$100M. The May 2024 6000 column and the 'NovaSeq X/X Plus (10B & 1.5B)' column are the same numbers. The only structural change was splitting the $10–19.99M tier in two to fit the 25B column (top tier 12%). NextSeq 1000/2000 stayed capped at 15% and NextSeq 550 at 30% (TG 40%). The Jan 2022 hardware discount ladder (5%→24% at ≥900 credits) covered only NextSeq and the 6000. By 2024, 6000Dx and X/X Plus columns had been added with identical percentages. No Appendix 1 revision after 31 May 2024 was found by site searches on the illumina.com, assets, supportassets, tst-web and emea hosts, or in search engines (Oct 2026). Any extra discounting to large accounts since 2024 has happened off the published schedule, which makes it invisible rather than absent.",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/01_6_2022revision-Appendix1_.pdf",
+      "date": "2022-01-06 (compared with 2024-05-31)",
+      "source_name": "Illumina Open Offer Appendix 1, Jan 2022 revision",
+      "source_type": "price_list",
+      "quote": "Revision as of January 6, 2022",
+      "strength": "medium",
+      "why_new": "F542 covered only Jan to May 2024. This item extends the freeze back to Jan 2022 and shows the X 10B ladder is a verbatim copy of the 6000 ladder, with no new X-specific discount depth."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "A federal appeals court confirmed that new customers can accept the Open Offer only until 18 Aug 2027, with terms running to 18 Aug 2033. The anchor of its 'same price as GRAIL' clause is weak now that GRAIL buys at list.",
+      "detail": "The Fifth Circuit (No. 23-60167, 15 Dec 2023, p.3) states that the Open Offer is irrevocable, may be accepted until 18 Aug 2027, and remains effective until 18 Aug 2033. It also requires Illumina to supply its NGS platforms at the same price as it provides to Grail. After 18 Aug 2027, new oncology customers lose access to the standardized most-favored-nation, price-only-falls package. Large accounts would then negotiate fully bespoke terms, as Natera and Guardant already do. Since the 2024 divestiture GRAIL's agreement prices at list at Illumina's discretion (already in the corpus), so GRAIL parity sets no low price floor. The window closing removes one public lever for extra discounts, which is a watch-out for 1B. Existing signers keep their protections to 2033.",
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/23/23-60167-CV0.pdf",
+      "date": "2023-12-15",
+      "source_name": "US Court of Appeals for the Fifth Circuit, Illumina v. FTC opinion",
+      "source_type": "filing",
+      "quote": "may be accepted by a customer at any time until August 18, 2027",
+      "strength": "medium",
+      "why_new": "The corpus lists the Aug 2027 window close as an 'unverified inference'. This primary court document verifies it and adds the 2033 end date and the GRAIL price-parity term."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's public Open Offer pages now appear to be withdrawn from its main site, so any post-2024 discounting to oncology accounts is no longer published.",
+      "detail": "On 12 Oct 2026 the www.illumina.com cancer 'test-terms' URL resolved to the generic Terms and Conditions page with no Open Offer documents. The www illumina-open-offer.pdf link also landed on that generic page. The assets.illumina.com test-terms page, the 22 Apr 2024 Section 4(g) disclosure (emea and www hosts) and the tst-web 18 Mar 2024 appendix all returned HTTP 404. Only orphaned CDN copies (31 May 2024, 25 Jan 2024 and 6 Jan 2022 appendices) still load, and the staging tst-web index lists revisions only through Oct 2023. Together with the new Enterprise Pricing function (F181/F549), this is consistent with discounting moving to individualized, unpublished terms. It could also just be a site reorganization, so the evidence is weak.",
+      "url": "https://www.illumina.com/areas-of-interest/cancer/test-terms.html",
+      "date": "2026-10-12 (access check)",
+      "source_name": "Illumina website (Open Offer test-terms page and PDFs)",
+      "source_type": "archive",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "No corpus item records that the Open Offer page and disclosures are now unreachable or redirected on Illumina's live site."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Fetched and diffed three Appendix 1 versions: 6 Jan 2022, 25 Jan 2024 (prices as of Feb 2023) and 31 May 2024 (prices as of Feb 2024; file named 7-26-2024). The 18 Mar 2024 appendix and the 22 Apr 2024 Section 4(g) disclosure now return 404. Web archive access was blocked, so CDX enumeration of the cancer folder was not possible. Search engines and site searches found no revision after May 2024 and no 35B row. The 25B-300 list was $16,000 in both 2024 catalogues and the discount cap stayed at 12%. None of the versions gives a list price for the 5B or 35B. Remaining avenues if a later stage has archive access: Wayback CDX on illumina.com/content/dam/illumina-marketing/documents/applications/cancer/*, and the Section 4(g) disclosures dated 23 May 2023 and 26 Oct 2023 (GRAIL purchasing prices). Fetch budget used: about 14.",
+  "leads": [
+    {
+      "name": "Illumina Open Offer Section 4(g) disclosure, 26 Oct 2023 (GRAIL product and service purchasing)",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2023_10_26-Open_Offer_Addendum_Section_4(g)_disclosure_(final).pdf",
+      "access": "Direct PDF; may 404 like the 2024 version. Try the assets/supportassets hosts.",
+      "labels": ["1B"],
+      "rationale": "Shows the actual prices and discounts GRAIL paid, which is the parity anchor in the Open Offer. A 2023 to 2024 comparison would show whether GRAIL's net price fell faster than the published schedule."
+    },
+    {
+      "name": "Illumina IVD Test Kit Development Agreement, NovaSeq (May 2024)",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/IVD_Test_Kit_Dev_Agr-NovaSeq_0524.pdf",
+      "access": "Direct PDF (filename suggests May 2024)",
+      "labels": ["1A"],
+      "rationale": "May reveal 6000Dx supply and support duration commitments and whether an X Dx path is contemplated, which bears on how long the regulated tail lasts."
+    },
+    {
+      "name": "Personalis–Illumina Master Quotation Agreement",
+      "url": "https://contracts.justia.com/companies/personalis-inc-8225/contract/93225",
+      "access": "Public contract mirror (no login)",
+      "labels": ["1B"],
+      "rationale": "Shows discounts off the then-current list, with Illumina free to adjust discount percentages on new products or list changes. This is a template for how a 35B could reset discounts. Personalis is being acquired by Tempus."
+    },
+    {
+      "name": "Illumina Open Offer Section 4(g) disclosure, 23 May 2023",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/2023_05_23-Open_Offer_Addendum_Section_4(g)_disclosure.pdf",
+      "access": "Direct PDF (indexed by search; not fetched)",
+      "labels": ["1B"],
+      "rationale": "Paired with the Oct 2023 disclosure, it would give a GRAIL net-price time series."
+    }
+  ],
+  "apify_requests": []
+}
+```

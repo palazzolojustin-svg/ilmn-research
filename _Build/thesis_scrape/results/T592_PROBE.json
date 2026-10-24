@@ -1,0 +1,20 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 5 tool calls and found no FDA decision record that names the NovaSeq X, so the probe turned up nothing new. The FDA 510(k) web search page (pmn.cfm) is a dynamic form. WebFetch returned only the empty search interface, not results. The openFDA 510k endpoint with search=device_name:NovaSeq returned 404, which openFDA gives when nothing matches. The openFDA pma endpoint also returned 404 for the NovaSeq name search, but I queried it by trade_name and generic_name, which may not match how the PMA records label the sequencer. The openFDA 510k endpoint searched by applicant:illumina returned only 2010-2013 records (MiSeqDx, BeadXpress). That endpoint appears to index Illumina's 510(k)s poorly or with stale applicant spellings, so no 2023-2026 Illumina 510(k) came back. A web search for 'NovaSeq X' and 'NovaSeq 6000Dx' decision summaries surfaced only an FDA recall record (Class 2, NovaSeq 6000Dx including DRAGEN Server, cat. 20068232, initiated 17 Sep 2024) and BfArM field safety notices (31889/24, 01263/25). None of these bears on which sequencer an assay names. No decision summary naming the NovaSeq X as a cleared platform was found, which is consistent with the known finding that no FDA-approved test names the X. This does not test the thesis either way: PMA supplement PDFs would be needed, and the probe didn't reach them.",
+  "how_to_mine": "Use the openFDA PMA supplement endpoint (api.fda.gov/device/pma.json) by PMA number, not by device name. Query P230011 (TSO Comprehensive), P240010 (Caris), P250027 (Guardant360 Liquid CDx), P170019 and P200010 (FoundationOne CDx and Liquid CDx), P190032, P210011 and P230009. Read each supplement_reason and the decision dates for any change of sequencer. Then open the SSED PDFs under accessdata.fda.gov/cdrh_docs/pdf*/P*B.pdf and grep for 'NovaSeq X'. Separately, query the 510(k) database for the NovaSeq 6000Dx (K-number unknown here) via the FDA search form with the Illumina applicant name. A scripted POST to the pmn.cfm form would be needed because WebFetch cannot drive it.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "openFDA PMA supplement records by PMA number (P230011, P240010, P250027, P170019, P200010), reading supplement_reason for sequencer changes",
+    "FDA SSED PDFs for Guardant360 Liquid CDx P250027, to read the sequencer (already listed as unread in the known evidence)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [FDA recall entry (NovaSeq 6000Dx incl. DRAGEN Server)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=221916)
+- [BfArM notice 31889/24](https://www.bfarm.de/SharedDocs/Kundeninfos/EN/08/2024/31889-24_kundeninfo_en.pdf)
+- [BfArM notice 01263/25](https://www.bfarm.de/SharedDocs/Kundeninfos/EN/08/2025/01263-25_kundeninfo_en.pdf)
+- [openFDA 510(k) query, applicant Illumina](https://api.fda.gov/device/510k.json?search=applicant:illumina&limit=50&sort=decision_date:desc)

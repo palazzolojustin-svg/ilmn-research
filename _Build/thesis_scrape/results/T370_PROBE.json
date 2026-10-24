@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the Dailypharm article (m.dailypharm.com/user/news/339963) plus Medigate (2829229236) and FNNews (202606300937027961). All three repeat the same Roche Korea press release. Macrogen is the only named adopter, and Macrogen is already known. None of them gives a KRW price, a $/genome figure, a customer count, or any comparison with the NovaSeq X, and none mentions Illumina. Korean and Japanese search turned up no local list prices. The Japanese launch (Roche Diagnostics K.K., 1 Jul 2026, RUO) came with no yen price in the results. A search summary gave the US list price as $750K and ~$150/genome. Both are already known. No new research-institute adopters appeared in Korean or Japanese press. I did not search Chinese or Australian press, which is a gap. I used about 6 tool calls.",
+  "how_to_mine": "Not worth a deep extraction on Korean or Japanese coverage. If the analyst wants to keep going, check three things. First, the Japanese release PDF at assets.roche.com/f/239071/x/16d7ca4159/20260701.pdf, for any named Japanese launch customers. Second, Chinese-language coverage (罗氏 AXELIOS 价格 装机), because China is Roche's weakest region and a local price or tender is plausible. Third, Australian and Indian pharma-trade pages, such as indianpharmapost.com. Also watch for Korean public-procurement (나라장터) records of AXELIOS purchases. Those are the only likely source of local pricing.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Japanese Roche Diagnostics K.K. launch release PDF (assets.roche.com/f/239071/x/16d7ca4159/20260701.pdf): check for named customers or a yen price",
+    "Korean G2B/나라장터 procurement search for AXELIOS or 악셀리오스: possible local purchase price",
+    "Chinese-language coverage of the AXELIOS launch (price, tenders, early adopters)"
+  ],
+  "apify_requests": []
+}
+```

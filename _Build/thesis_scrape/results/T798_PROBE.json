@@ -1,0 +1,36 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The Baylor GARP price lists are public and reachable on bcm.edu (the cdn.bcm.edu URLs redirect to www.bcm.edu). I could not read the tables. The .docx and .pdf files came back as compressed binary through WebFetch. Bash is disabled, and the Read tool's PDF rendering needs poppler, which isn't installed, so I couldn't unzip the .docx or render the PDFs. The only data I have is search-result snippets, which I did not verify in the files. They say: a NovaSeq 6000 S4 lane (2.5B reads, 300 cycles) was $4,800 in the Dec 2024 and Feb 2025 lists, for internal Baylor users. A NovaSeq X lane (PE150, 1.2B reads) was $1,650 in Mar 2025, $1,550 in Jun 2025 and $1,600-$1,650 in the Feb 2026 list. The snippets don't say whether the X lane is the 10B or the 25B flow cell. They also don't say whether the Feb 2026 figures are internal or DLDCCC-member rates. Baylor sends external users to email for quotes, so no external rate is published. I saw no AVITI, Ultima or SBX lines, and no discount language beyond the DLDCCC-member exception. The only other sequencing line mentioned was PromethION at $1,250-$1,300. Because the X figure is unlabelled, I can't compute a reliable % change per Gb. If the $1,650 to $1,550 move (Mar to Jun 2025) is the same flow cell, it is about -6%. Going from $1,550 to $1,600-$1,650 in Feb 2026 would be a +3-6% rise. Neither is established. The S4 at $4,800 per 2.5B reads is about $1.9 per million reads, versus about $1.3 per million reads for the X lane at 1.2B reads and $1,550-$1,650. That gap is not like-for-like because read definitions differ.",
+  "how_to_mine": "Download each dated file in a tool that can parse them (python-docx or unzip word/document.xml for .docx; pdftotext -layout for .pdf). The list: garp_pricingwebsite_110122.pdf (Nov 2022), 09202024.pdf, 12092024.docx, 02102025.pdf, march2025.pdf, 2025-06 .docx, 2025-09 .docx, and www.bcm.edu/sites/default/files/garp_pricingwebsite_-02-10-2026.docx. The 2025-06 and 2026 docx files each contain a word/media/image1.png, so the NovaSeq table may be an image. If so, OCR it. Record by effective date: the flow cell type (S4, 10B, 25B), the reads per lane, the internal price and the DLDCCC price. Check whether the X line is 10B or 25B. Compute $/Gb at 300 cycles and the % change between lists. Also check whether the 6000 S4 line was removed (a 6000 phase-out signal) and whether any AVITI, Ultima or ONT lines appear. The fees page is https://www.bcm.edu/research/research-services/atc-core-labs/genomic-and-rna-profiling-core/fees. Also check the NGS platforms page for instrument lists.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Baylor's core internal NovaSeq X lane price appears to have drifted down across 2025 lists, while the 6000 S4 sat at $4,800.",
+      "detail": "Search-result snippets, not verified in the files, show an X lane (PE150, 1.2B reads) at $1,650 in the Mar 2025 list and $1,550 in the Jun 2025 list, then $1,600-$1,650 in the Feb 2026 list. The 6000 S4 lane was $4,800 in the Dec 2024 and Feb 2025 lists. The flow cell size (10B vs 25B) and user category are unconfirmed. The tables need extraction before any per-Gb change is quoted.",
+      "url": "https://cdn.bcm.edu/sites/default/files/2025-06/garp_pricingwebsite_-06-2025.docx",
+      "date": "2025-06 (also 2025-03 and 2026-02-10 lists)",
+      "source_name": "Baylor College of Medicine GARP core price lists (search snippet)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Baylor GARP is not among the core rate cards already used, but the figures are snippet-level and unlabelled."
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Northwestern NUSeq FY26 list: external and industrial tiers",
+      "url": "https://www.cgm.northwestern.edu/docs/nuseq/fy26-prices_finalusers.pdf",
+      "why": "A snippet shows the X Plus 10B PE150 lane at $1,600 (NU/CBC), $2,000 (external) and $2,039 (industrial). The tier spreads and the FY25 vs FY26 change could be mined."
+    },
+    {
+      "name": "UChicago Genomics Facility pricing and University of Illinois DNA services pricing",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "why": "A snippet shows a 10B PE150 lane at $1,499 internal and $1,624 industry (UChicago). Illinois shows $2,110, or $1,650 with 8 or more lanes, which is volume-discount language. Neither is on the known core list."
+    }
+  ],
+  "apify_requests": []
+}
+```

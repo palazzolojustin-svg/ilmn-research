@@ -1,0 +1,175 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "In Taiwan public procurement, Element's channel won about NT$51.5M (about US$1.6M) of AVITI/AVITI24 instrument awards in 2024–26, plus a NT$13.3M AVITI24 reagent contract that locks in NTU through 2028.",
+      "detail": "There were four single-bid awards. Academia Sinica bought an AVITI24 for NT$15.31M (BRCAS11347, Nov 2024; the corrected notice names Element Biosciences Inc. as the winner). NTU College of Medicine bought an AVITI24 for NT$17.0M (1143A010, Jul 2025). Chi Mei Medical Center bought a 'high-throughput NGS sequencer' for NT$9.96M (114B01342H1, Feb 2026). Academia Sinica IMB bought an 'AVITI mid-throughput platform' for NT$9.2M (115-IMBE016, May 2026). The sum is 15.31+17.0+9.96+9.2 = NT$51.47M. NTU then signed an open AVITI24 reagent contract for NT$13.318M (1143A024, 9 Dec 2025 to 31 Dec 2028) under Procurement Act Art. 22(1)(4), the clause for follow-on compatible supplies, so a rival platform now has a captive multi-year consumables stream at a flagship research university.",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=亞洲準",
+      "date": "2024-11-27 to 2026-05-29",
+      "source_name": "Taiwan Government e-Procurement (pcc-api.openfun.app mirror)",
+      "source_type": "procurement",
+      "quote": "AVITI24定序平台專用試劑一批(至117.12.31止)(開口合約)",
+      "strength": "medium",
+      "why_new": "F747/F748 named Element's Taiwan awards but not their NT$ values, the total, or the 3-year reagent lock-in at NTU."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "One NTU AVITI24 reagent contract (~NT$4.4M a year) is about twice Taipei VGH's whole Illumina high-throughput reagent lot (~NT$2.0M a year).",
+      "detail": "NTU's AVITI24 reagent award is NT$13.318M over about 3.06 years (Dec 2025–Dec 2028), or about NT$4.35M a year. Taipei VGH's two-year 'high-throughput sequencing reagent set' lot from Illumina's distributor 均泰 is NT$3.942M (1140732E item 1, Nov 2025), or about NT$1.97M a year. That lot itself was down from NT$6.67M for 29 sets in Dec 2023 (1120652Y). A single research-lab reagent budget on a rival platform now exceeds a medical center's Illumina HT reagent spend. The comparison covers one research site and one clinical site, not the market.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20&job_number=1143A024",
+      "date": "2025-12-10",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first rival-platform reagent spend set against an Illumina reagent lot in the same procurement system."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Element is not buying Taiwan research share on instrument price: AVITI24 awards landed at ~US$475–540K, close to budget, by single-bid restricted tender.",
+      "detail": "Academia Sinica paid NT$15.31M against a NT$15.827M budget (−3.3%, about US$474K). NTU paid NT$17.0M against NT$17.1M (−0.6%), and Element's channel had originally bid NT$19.6M. Neither shows the deep instrument discounting that would signal an aggressive price war in research. The pressure shows up as share diversification, not as falling rival prices.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20&job_number=1143A010",
+      "date": "2025-07-30",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "These are the first AVITI24 transaction prices and budget-to-award gaps from public records."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's 2023 Taiwan clinical-mNGS partner, Asia Pathogenomics, is now Element's Taiwan channel and holds several public-hospital infectious-disease NGS contracts.",
+      "detail": "In Aug 2023 Asia Pathogenomics (亞洲準譯), Taiwan's first LDT-certified NGS lab, signed an MOU with Illumina Taiwan for infectious-disease mNGS (metagenomic sequencing, which identifies pathogens directly from a patient sample). By 2024–26 it sold all four Element instruments above, and its CTO presented infection testing on Element AVITI (LinkedIn post seen as a search snippet). Its public clinical mNGS awards include NTUH Cancer Center NT$8.72M (AH150140, Dec 2026–Nov 2027), Taipei VGH NT$3.73M over 2 years (X11414E, Nov 2025), NCKU Hospital and Taoyuan Hospital. Which sequencer runs these clinical tests is not verified.",
+      "url": "https://www.nownews.com/news/6216384",
+      "date": "2023-08-02 (MOU); awards 2024-09 to 2026-08",
+      "source_name": "NOWnews; Taiwan e-Procurement",
+      "source_type": "press",
+      "quote": "簽訂合作備忘錄（MOU）",
+      "strength": "medium",
+      "why_new": "It was not previously known that Illumina's clinical mNGS partner is now Element's distributor and runs a clinical outsourcing book."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Clinical infectious-disease mNGS outsourcing shrank sharply at two Taiwanese public hospitals, though one new cancer-center contract offsets part of it.",
+      "detail": "At NCKU Hospital the award was NT$9.52M for Nov 2024–Nov 2025 (Y11349). The next award was NT$0.573M for Mar–Dec 2026 (Y11510), about NT$0.72M annualized, or −92%. At Taoyuan Hospital the award was NT$2.71M over 2 years for 80 tests (AA1130015, ~NT$1.36M a year), then NT$1.391M over 3 years (KA115051304, ~NT$0.46M a year), or −66%. Against that, NTUH Cancer Center signed a new NT$8.72M one-year contract (AH150140). Other NCKU lots may exist, so this is suggestive only.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.26.3&job_number=Y11510",
+      "date": "2026-03-17",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first mNGS (infectious NGS) clinical volume series; earlier items covered WGS, NIPT and exome only."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Clinical mNGS is priced per read depth at Taoyuan Hospital, and extra depth is cheap: 60M more reads add only ~NT$9,500 (~US$300).",
+      "detail": "The Taoyuan Hospital APGseq contract (AA1130015, Sep 2024) priced a 40M-read test at NT$28,500 (40 tests), a 100M-read test at NT$38,000 (20 tests) and a 40M+40M test at NT$40,500 (20 tests). The step from 40M to 100M reads is NT$9,500 for 60M reads, about NT$158 (≈US$5) per million reads at the margin. Most of the test price is fixed workflow cost, not sequencing, which fits the view that sequencing price is not the binding constraint.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.100.33&job_number=AA1130015",
+      "date": "2024-09-06",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first public tiered depth-priced clinical NGS schedule found."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Kaohsiung VGH started two outsourced WGS programs (~460 genomes in 2026), both at the NT$12,800 floor, and they are trivial in Gb terms.",
+      "detail": "The oral-cancer WGS award was 210 units for NT$2.688M (ST1411027, Dec 2025; single bidder Genomics BioSci after one failed tender), or NT$12,800 a genome. The women's-medicine WGS award was 250 units for NT$3.2M (ST1412017, Jan 2026), also NT$12,800. At ~100–125 Gb per 30x genome, 460 genomes is ~46–58K Gb, about 0.006–0.007% of the ~800M Gb HT base. That makes five Taiwanese awards at exactly NT$12,800.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.82&job_number=ST1411027",
+      "date": "2025-12-31",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Kaohsiung VGH's oral-cancer WGS program and its genome count were not in the corpus. Earlier items covered Taipei/Taichung VGH, NTUH and TMU."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "NHRI, Taiwan's main public research institute, raised its whole-exome library-kit buying from Illumina's distributor by 72% y/y in 2026.",
+      "detail": "The 全外顯子建庫試劑組 award was NT$1.999M in Jul 2025 (114A0C0138) and NT$3.43M in Aug 2026 (115A0C0221). Both were single-bid restricted tenders won by 均泰 (Genetech), with Singapore-origin content (Illumina manufacturing). The rise comes while NHRI's outsourced sequencing budget fell ~71% (F846), so this may be insourcing rather than new demand. Either way, Illumina-channel research spend at this buyer grew in 2026.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=115A0C0221",
+      "date": "2026-08-31",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "NHRI's exome-prep spend trend was not in the corpus, which only had its S4 kits, service and outsourced WGS."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "NHRI's NovaSeq 6000 S4 kit price fell ~66% from Jul 2020 to Dec 2023, and its annual kit count fell ~72%.",
+      "detail": "In Jul 2020 NHRI bought 32 S4 (300-cycle) kits directly from Illumina Inc. for NT$17,337,600 (09GD-0001; USD award at 30.1), or ~NT$541,800 (~US$18.0K) per kit. In Dec 2023 it bought 16 S4 v1.5 kits from Illumina Taiwan for NT$2,929,920 (112A0C0676), or ~NT$183,120 (~US$5.8K) per kit, down 66%. 2020 volume was 32 + 25 kits (Jul and Dec awards) = 57, against 16 in 2023. The 2020 per-kit figure is unusually high against US list and may bundle other items, so treat it with caution.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=09GD-0001",
+      "date": "2020-07-27 / 2023-12-21",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It adds the Jul 2020 direct-from-Illumina datapoint to F712/D067, which started at Dec 2020."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina's distributor keeps winning Taiwan public sequencer systems uncontested in 2025: three single-bid awards totalling NT$28.55M.",
+      "detail": "The CDC pathogen-WGS automated library and sequencing system went for NT$17.9M (KA114028, Jun 2025; budget 19.84M), TFDA's high-throughput NGS system for NT$5.6M (114TFDA-A-512, May 2025; budget 5.8M), and NTUH Yunlin's high-throughput sequencer for NT$5.05M (YL-A24008, May 2025; budget 5.35M). Each had one bidder (均泰), with awards 3.4–9.8% under budget. Taiwan's public-health and regulatory labs show no rival tendering for core systems. Models are not stated.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.1&job_number=KA114028",
+      "date": "2025-06-25",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It quantifies the specific CDC, TFDA and NTUH Yunlin system awards. F763 was general."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taiwanese clinical exome outsourcing shows bid gaps of ~29% between labs once there is competition.",
+      "detail": "Taipei City Hospital's 2024 WES contract (F113032, Oct 2024–Jul 2027) had three bidders. 台基盟 won at NT$1.782M against two rivals at NT$2.52M each (−29%) and against a NT$2.7M budget (−34%). The next WES award (R115092, Aug 2026) was single-bid at NT$0.6M to Genomics BioSci. Outsourcer margins compress sharply when bids are contested, and that pressure flows back to reagent pricing.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.79.14.14&job_number=F113032",
+      "date": "2024-10-11",
+      "source_name": "Taiwan Government e-Procurement (pcc-api mirror)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new buyer (Taipei City Hospital) and the first contested WES bid gap; F785 covered NIPT only."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "I used ~36 calls. Unit-price kit data is thin because most awards are lump-sum lots with no per-set price. Full vendor-year totals for 均泰 (629 records, 7 pages), 基龍米克斯 (608 records) and 台基盟 (36 records) need paging plus per-award fetches, which is better done by a script against pcc-api.openfun.app (/api/searchbycompanyname?query=X&page=N, then /api/tender?unit_id=&job_number=). Asia Pathogenomics (Element channel, 16 records) is fully listed. Unfetched values: NTUH Hsinchu GH14320A, Kaohsiung VGH CP15050, Tainan Hospital TNHP1141002, NTUH TH130490, Taoyuan PCR02-1140707. Taichung VGH 114A08 shows ANTEC (研毅) supplying UK-origin 'nucleic acid analysis chips' (probably ONT flow cells) at NT$4.0M per 2 years. NHRI shows no NovaSeq X purchase after Dec 2023 under the 'NovaSeq' title. DNBSEQ title search returned 0 records.",
+  "leads": [
+    {
+      "name": "pcc-api vendor search: Illumina Taiwan direct (台灣因美納 / 90807364) and Element Biosciences Inc. direct",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=因美納",
+      "access": "public JSON API, rate-limited (429s)",
+      "labels": ["1B", "2B"],
+      "rationale": "Direct Illumina and Element awards outside the distributors would complete the vendor share split."
+    },
+    {
+      "name": "pcc-api vendor search for ANTEC 研毅企業 (likely ONT channel)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=研毅企業",
+      "access": "public JSON API",
+      "labels": ["2B"],
+      "rationale": "This would quantify long-read rival spend at Taiwanese medical centers year by year."
+    },
+    {
+      "name": "Asia Pathogenomics remaining mNGS awards (NTUH Hsinchu GH14320A, Kaohsiung VGH CP15050, Tainan TNHP1141002)",
+      "url": "https://pcc-api.openfun.app/api/searchbycompanyname?query=亞洲準",
+      "access": "public JSON API",
+      "labels": ["1C", "1B"],
+      "rationale": "These would complete the clinical mNGS volume series and its per-test depth pricing."
+    }
+  ],
+  "apify_requests": []
+}
+```

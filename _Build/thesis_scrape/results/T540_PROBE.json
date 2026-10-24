@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "The ENA Portal API is open (no login) and returns TSV. The search endpoint worked with limit=30, and the count endpoint returns plain integers. I only had WebFetch, with no shell or Python. I could not bulk-download or aggregate base_count by quarter or center, so (a) by Gb, (b) the top-25 centers and (c) the >90% centers are NOT answered. I got run-count shares for Q2'25 and Q2'26 (by first_public) from 6 count calls. Run-count share is not Gb share. Caveats: (1) first_public is the release date. It lags sequencing by months to years, and submitters batch their releases. (2) The sample had many DDBJ/NGDC records (Chinese Academy of Fishery Sciences, NGDC) with base_count = 0. Those rows would distort run-based shares and need filtering with base_count>0. (3) Public ENA is mostly research and academic data, plus Chinese commercial and consortium data. US clinical labs hold their data under controlled access, so it is largely invisible here. The test of whether the 6000 tail sits with clinical users therefore cannot be run on ENA, and this source would mostly describe research and Asia. (4) Runs per instrument model is a usable but weak proxy.",
+  "how_to_mine": "Run a Python script with a Windows PowerShell or Bash tool and write the output to a fresh empty directory. For each of the three instrument_model values (NovaSeq 6000, NovaSeq X, NovaSeq X Plus), stream https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=%22<model>%22%20AND%20first_public>=2025-01-01&fields=center_name,first_public,base_count,instrument_model&format=tsv&limit=0. Split the requests by month of first_public to avoid timeouts, since the 6000 alone is about 0.5M runs per quarter. Filter to base_count>0. Group by quarter and sum base_count for the Gb share. Also group by center_name (normalize spellings), then rank the top 25 centers by 6000 Gb in Q2-Q3'26 and compute each center's 6000 Gb share of its total NovaSeq Gb in 2026. Tag the centers by hand. Also try fields=instrument_platform,study_accession and the broker_name field to separate DDBJ/NGDC mirrors from original submitters. Treat the ENA Gb share as a lagging, research-biased measure, and do not read it as Illumina's installed-base mix.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The NovaSeq 6000 still accounts for about 81% of NovaSeq-family runs newly released to the public ENA archive in Q2'26, down from about 88% in Q2'25.",
+      "detail": "ENA count endpoint, runs by first_public date. Q2'26 (Apr-Jun): 6000 = 577,789, X = 71,419, X Plus = 67,344 (6000 share 80.6% of 716,552). Q2'25: 6000 = 456,383, X = 37,097, X Plus = 25,784 (6000 share 87.9% of 519,264). So the 6000 share fell about 7 points in a year, but its absolute released runs grew 27%. This is a run-count and release-date measure, not Gb or sequencing date, and it is biased toward research and Asian submitters. It shows the legacy platform is still producing most newly published data and is not shrinking in absolute terms in public archives.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=%22Illumina%20NovaSeq%206000%22%20AND%20first_public>=2026-04-01%20AND%20first_public<=2026-06-30",
+      "date": "2026-10-12 (data for Q2'25 and Q2'26)",
+      "source_name": "European Nucleotide Archive (EMBL-EBI) Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Public-archive instrument mix by quarter has not been used before; the known data are Illumina's own shipped-Gb shares."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Released 6000 data in ENA is dominated by Chinese research and archive submitters, which are the price-sensitive, low-cost-provider segment.",
+      "detail": "A 30-row sample of 6000 runs released in Q3'26 (first_public 2026-09-05) came entirely from NGDC and the Chinese Academy of Fishery Sciences, via DDBJ-style accessions. Most rows carry base_count 0 and the rest are about 5-8 Gb per run. This is a tiny, non-random sample, so it is only a pointer to what a bulk pull would show, not a result. It is consistent with the research tail sitting at low-cost Asian sequencing providers. Illumina excludes China from its guided growth, so it would not directly drive the research consumables gap.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=%22Illumina%20NovaSeq%206000%22%20AND%20first_public>=2026-07-01&fields=center_name,first_public,base_count,instrument_model&format=tsv&limit=30",
+      "date": "2026-09-05",
+      "source_name": "European Nucleotide Archive (EMBL-EBI) Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First look at who releases 6000 data in ENA; not previously covered."
+    }
+  ],
+  "new_candidates": [
+    "ENA/SRA bulk metadata filtered by base_count>0 and grouped by submitting center, to see which centers have moved fully to the X in 2026",
+    "NCBI SRA run-info CSV via Google BigQuery public dataset nih-sra-datastore (needs a Google account, so probably blocked)"
+  ],
+  "apify_requests": []
+}
+```

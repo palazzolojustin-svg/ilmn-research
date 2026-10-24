@@ -1,0 +1,178 @@
+Pricing | Genomics Core | School of Medicine | Case Western Reserve University
+Skip to main content
+Go to case.edu
+School of Medicine
+Genomics Core
+Search
+Submit Search
+Our Services
+NGS Library Preparation
+Next Generation Sequencing
+DNA/RNA Analysis
+Cell Line Authentication
+Illumina BeadArray
+Pricing
+Resources
+iLab Requests
+iLab Questions
+Data Policy
+About
+Staff
+Contact
+Acknowledgements
+Toggle navigation
+Navigation + Search
+Submit Search
+Pricing
+Pricing
+Next-Gen Sequencing |
+Library Preparation |
+Quality Control |
+Illumina BeadArray |
+Cell Line Authentication |
+Sanger Sequencing |
+Next-Gen Sequencing Services
+MiSeq i100 Plus now available!
+The CWRU Genomics Core offers sequencing services on Illumina MiSeq i100 Plus, NextSeq 550, and NovaSeq X Plus instruments. Prices listed include necessary reagents and processing fees for the run only. All samples run on the Illumina instruments must first undergo final library quality control (QC) performed by the Core. Library Prep, QC, and other services requested are not included the cost of the run and will be charged separately. Pricing updated February 2026.
+NovaSeq X - Plus
+10-25 billion clusters across 8 lanes are available in two different kit options: 300 cycle and 100 cycle
+For smaller projects - select Shared Flow cell - 1.25B clusters per lane
+Any run type (up to 300 cycles) can be selected for the shared flow cell
+NEW LOWER PRICING on NovaSeq X 10B flowcells now available as of January 2026
+NextSeq 550
+Great for mid-range projects (130-400M reads)
+Cost effective solution to small RNA-seq, ChIP-seq studies
+MiSeq i100 Plus
+Faster and cheaper runs, with up to 100M reads generated
+Max read length: 2 x 500 bp
+Best for 18S / ITS and amplicon sequencing
+Great for small genomes and low throughput preps (ie CUT&RUN, eCLIP)
+Used as QC tool before sequencing larger throughput (5M flowcell)
+All pricing listed is for all CWRU affiliates and non-profit affiliates. For "for-profit" pricing, contact Simone Edelheit. Updated 02/2026
+Sequencing Strategy |
+# of Reads |
+Run Type |
+Pricing |
+NovaSeq X 1.5B - Shared F/C |
+750M (1 lane, of 2) |
+ANY |
+$1,800 |
+NovaSeq X 1.5B - 100 cycle |
+1.5B |
+PE 50 / 10X |
+$2,600 |
+NovaSeq X 1.5B - 300 cycle |
+1.5B |
+PE 150 |
+$3,400 |
+NovaSeq X 10B - Shared F/C |
+1.25B (1 lane, of 8) |
+ANY |
+$1,200 |
+NovaSeq X 10B - 100 cycle |
+10B |
+PE 50 / 10X |
+$7,250 |
+NovaSeq X 10B - 300 cycle |
+10B |
+PE 150 |
+$9,500 |
+NovaSeq X 25B - 300 cycle |
+25B |
+PE 150 |
+$20,500 |
+NovaSeq X 25B - 100 cycle |
+25B |
+PE 50 / 10X |
+$15,000 |
+NextSeq 550 High Output - 75 cycle |
+400M |
+SR 75 |
+$2,200 |
+NextSeq 550 High Output - 150 cycle |
+400M |
+PE 75 |
+$4,100 |
+NextSeq 550 Mid Output - 150 cycle |
+130M |
+SR 75 / PE 75 |
+$1,700 |
+NextSeq 550 Mid Output - 300 cycle |
+130M |
+PE 150 |
+$2,600 |
+MiSeq i100 - 5M - 300 cycle |
+5M |
+PE 150 |
+$575 |
+MiSeq i100 - 5M - 600 cycle |
+5M |
+PE 300 |
+$850 |
+MiSeq i100 - 25M - 100 cycle |
+25M |
+SR 100 / PE 50 |
+$700 |
+MiSeq i100 - 25M - 300 cycle |
+25M |
+PE 150 |
+$1,100 |
+MiSeq i100 - 25M - 600 cycle |
+25M |
+PE 300 |
+$1,350 |
+MiSeq i100 - 25M - 1000 cycle |
+25M |
+PE 500 |
+$2,000 |
+MiSeq i100 - 50M - 100 cycle |
+50M |
+SR 100 / PE 50 |
+$975 |
+MiSeq i100 - 50M - 300 cycle |
+50M |
+PE 150 |
+$1350 |
+MiSeq i100 - 50M - 600 cycle |
+50M |
+PE 300 |
+$1700 |
+MiSeq i100 - 100M - 100 cycle |
+100M |
+SR 100 / PE 50 |
+$1,250 |
+MiSeq i100 - 100M - 300 cycle |
+100M |
+PE 150 |
+$1,750 |
+Library Prep Services
+The CWRU Genomics Core offers a wide range of library prep services for both RNA and DNA. Prices include necessary reagents, processing fees, and QC of starting material and final libraries. The cost of sequencing is not included and will be charged separately. Discounts on larger projects are only applied when samples are submitted on the same day. Pricing updated February 2025.
+All pricing listed is for all CWRU affiliates and non-profit affiliates. For profit, add 60%.
+Library Type (DNA) |
+Description |
+Price / Library |
+Whole Genome Library - PCR Free |
+RNA QC |
+Agilent TapeStation – incl. Qubit |
+$16.00/sample |
+Final Library QC |
+Agilent TapeStation – incl. Qubit |
+$16.00/sample |
+|
+qPCR Analysis – incl. Qubit |
+$40.00/reaction |
+MiSeq Library QC Run |
+Illumina MiSeq v2 Nano flowcell |
+$500.00/run |
+DNA Shearing |
+Covaris S2 |
+$20.00/tube |
+DNA Size Selection |
+Pippin Prep - price per cartridge (1-5 samples) |
+$75.00/cartridge |
+Pooling |
+Mix up to 12 libraries with unique tags into one pool |
+$25.00 |
+|
+Mix up to 24 libraries with unique tags into one pool |
+$50.00 |

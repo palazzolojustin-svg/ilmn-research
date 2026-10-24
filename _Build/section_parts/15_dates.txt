@@ -1,0 +1,18 @@
+2022-10-21 :: UBS rates MGI Buy with a Rmb140 price target (another note dates it 2022-10-28).
+2023-05-05 :: UBS reinstates Buy on MGI with a Rmb108 target.
+2023-08-14 :: UBS cuts its MGI target to Rmb102 (Buy).
+2024-01-31 :: UBS cuts its MGI target to Rmb93 (Buy).
+2024-08-29 :: UBS cuts its MGI target to Rmb56.70 (Buy) with the stock at Rmb40.99.
+2024-11-01 :: UBS raises its MGI target to Rmb60 (Buy).
+2025-03-18 :: UBS downgrades MGI to Neutral with a Rmb98 target.
+2025-08-06 :: UBS sets its MGI target at Rmb74.50 (Neutral).
+2025-08-26 :: UBS raises its MGI target to Rmb82.50 (Neutral).
+2025-10-13 :: MGI out-licenses CoolMPS outside APAC and Greater China to Swiss Rockets (US$20m upfront, US$20m milestone, royalties).
+2025-10-27 :: UBS cuts its MGI target to Rmb73.80 (Neutral).
+2026-01-26 :: MGI guides to a preliminary 2025 net loss of Rmb221–273m, worse than UBS's Rmb126m estimate.
+2026-02-01 :: MGI announces it will buy nanopore-sequencing and spatial-omics platforms from BGI Tech for Rmb365.7m.
+2026-02-24 :: MGI announces the US$50m sale of US subsidiary Complete Genomics Inc and the out-licensing of StandardMPS in the US and Canada to Swiss Rockets.
+2026-04-29 :: MGI reports FY2025 (revenue Rmb2.78bn, –7.7%) and Q1 2026 (revenue +24.8%); UBS cuts its target to Rmb58 from Rmb73.80, keeping Neutral.
+2026-08-24 :: MGI reports H1 2026 revenue of Rmb1.37bn (+18.9%) with Americas sequencing revenue +126%; UBS keeps Neutral and its Rmb58 target with the stock near Rmb75.
+2027-01-01 :: UBS assumes the Complete Genomics divestment completes in early 2027 (approximate).
+TERMS>>>

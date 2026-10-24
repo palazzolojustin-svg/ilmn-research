@@ -1,0 +1,49 @@
+```json
+{
+  "status": "productive",
+  "notes": "The named URL (statementdog) returned an empty page to the fetcher. I used a web search and a vectorshift.ai transcript summary instead. The clonoSEQ volume and guide are quantified, and the sizing shows MRD is tiny next to Illumina volume. That cuts against 'MRD moves Illumina volume' and so supports 1C. On 2B, the wind-down of Adaptive's RUO pharma services slightly weakens research-side volume. The NovaSeq X Plus platform and reagent price are NOT discussed in the summary. Not read: the full transcript, the 8-K tables, and any Gb-per-test figure. Sizing is my estimate, not Adaptive's. Illumina-side quarterly Gb is not public.",
+  "how_to_mine": "Open the 8-K Ex. 99.1 (sec.gov/Archives/edgar/data/0001478320/000119312526323753/adpt-ex99_1.htm) for the sequencing COGS per test and the gross margin bridge. Pull the Q2'26 10-Q for the NovaSeq X cost language and for any purchase commitments to Illumina. Read the full call transcript Q&A (marketbeat.com/earnings/reports/2026-7-29-adaptive-biotechnologies-co-stock/) for analyst questions on the 38-40% volume guide, and search for 'reagent' or 'Illumina' in the 10-Q. Compute clonoSEQ COGS per test over 2024-26 to estimate the $/test fall that came from sequencing.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Adaptive's clonoSEQ, a leading MRD franchise, is only ~36K tests a quarter, too small to move Illumina consumables even at +43% growth.",
+      "detail": "Adaptive delivered 36,111 clonoSEQ tests in Q2'26, up 43% y/y and 11% q/q. The full-year clinical volume guide was raised to 38-40% from 35%, which implies a slowdown from the 43% growth in H1. clonoSEQ is a targeted amplicon assay. If it uses about 0.2-1 Gb per test (my estimate, not disclosed), the quarter is roughly 7-36 Gb-thousands (7-36 Tb), under 1% of Illumina's HT base of ~800M Gb per quarter. Fast MRD test growth therefore barely changes Illumina Gb.",
+      "url": "https://www.biospace.com/press-releases/adaptive-biotechnologies-reports-second-quarter-2026-financial-results",
+      "date": "2026-07-29",
+      "source_name": "Adaptive Q2'26 press release (via BioSpace / search snippet)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has Adaptive MRD +43% and the gross margin only; the test count (36,111), the guide raise to 38-40% and the Gb sizing are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Adaptive credits lower assay cost from the NovaSeq X move, so the customer keeps the sequencing savings, and Illumina's dollars per test fall.",
+      "detail": "The CFO attributed MRD sequencing gross margin of 72%, up from 64% a year ago, to 'lower assay costs following our NovaSeq X transition', plus operating leverage. This is a direct statement that conversion cut cost per test. The summary does not split how much came from reagent price versus yield. The CEO cited a path above 70% via efficiencies. A speaker discrepancy (72% vs 71%) was noted in the summary.",
+      "url": "https://vectorshift.ai/research/companies/adaptive-biotechnologies/earnings/2026-q2",
+      "date": "2026-07-29",
+      "source_name": "VectorShift Q2'26 call summary",
+      "source_type": "earnings_call",
+      "quote": "lower assay costs following our NovaSeq X transition",
+      "strength": "medium",
+      "why_new": "The known list has the 72% vs 64% margin only. The management attribution to X-transition assay cost is new."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Adaptive 8-K Ex. 99.1 and Q2'26 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001478320/000119312526323753/adpt-ex99_1.htm",
+      "why": "Gives MRD sequencing COGS per test and may state the reagent supplier terms, so the Illumina-attributable cost fall can be quantified."
+    },
+    {
+      "source": "Adaptive plan to wind down RUO pharma services (Q2'26 call)",
+      "url": "https://vectorshift.ai/research/companies/adaptive-biotechnologies/earnings/2026-q2",
+      "why": "A research/pharma sequencing user is exiting, which is a small data point for research volume (2B). The business was about break-even, so the effect is small."
+    }
+  ],
+  "apify_requests": []
+}
+```

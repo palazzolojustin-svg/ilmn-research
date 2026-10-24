@@ -1,0 +1,29 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Contracts Finder and Find a Tender both returned HTTP 403 to my fetches, so I could not open the example notice (76c063f4...) or run the keyword searches. Stotles pages did open and show buyer names, but I found no 2025-26 NovaSeq X award or NovaSeq 6000 support renewal at an NHS GLH. Search snippets showed one 2024 X Plus notice with no buyer and a 2020 North Bristol 6000 award. The Sanger 'Genome Research Limited' search found no procurement notices and no 2025-26 platform-adoption or cost-per-genome statements. I made 5 tool calls. The dual-running test (X purchase plus 6000 renewal at the same hub) remains untested. One Stotles page gave a small, off-thesis datapoint: a Guy's & St Thomas' MiSeq reagent award from Sept 2026.",
+  "how_to_mine": "Use Stotles pages, which are fetchable. Search the web for 'stotles Illumina Cambridge Ltd awarded contract' plus each GLH host trust: Guy's & St Thomas', Manchester University NHS FT, Birmingham Women's and Children's, Cambridge University Hospitals, Newcastle upon Tyne Hospitals, Oxford University Hospitals, North Bristol, Royal Devon. Open each hit for supplier, value, expiry and source notice number. Look for NovaSeq 6000 'Product Care' or service-plan awards and NovaSeq X awards dated 2025-26. Try the Contracts Finder notice through a search engine cache or the stotles mirror. For Sanger, read the Genome Research Limited financial statements for FY2025 (sanger.ac.uk/wp-content/uploads) and the Sanger news pages for Ultima, Element or cost-per-genome statements.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "NHS trusts still award single-source Illumina contracts for older-platform consumables through 2027, which shows installed older instruments stay in use.",
+      "detail": "Guy's & St Thomas' NHS FT awarded Illumina Cambridge Ltd £156,200.91 for MiSeq reagents on 1 Sep 2026. The term is 1 year (to 15 Sep 2027) and the notice says no reasonable substitute exists. This is a MiSeq, not a NovaSeq 6000, so it is only indirect support for a sticky older-instrument tail.",
+      "url": "https://www.stotles.com/explore/notices/3c7fbcbf-5a8e-4deb-bb88-685cd52d50ee/next-generation-sequencing-reagents-and-consumables",
+      "date": "2026-09-01",
+      "source_name": "Stotles (mirror of Find a Tender notice 082609-2026)",
+      "source_type": "procurement",
+      "quote": "no reasonable alternative or substitute exists",
+      "strength": "weak",
+      "why_new": "A new 2026 NHS single-source Illumina award on an older MiSeq platform; no NovaSeq 6000 or X data."
+    }
+  ],
+  "new_candidates": [
+    "Stotles notice pages mirror UK Find a Tender and Contracts Finder awards and are fetchable. Search by 'Illumina Cambridge Ltd' plus a trust name to get buyer, value and expiry.",
+    "Genome Research Limited FY2025 financial statements (year to 30 Sep 2025; OpenCharities reports income £180.3M) may state sequencing platform and capital commitments.",
+    "North Bristol NHS Trust (South West GLH) 2020 VEAT for a NovaSeq 6000 plus 3-year Product Care plan (estimated £779,625) would have lapsed around 2023-24. A renewal or X replacement notice would test the tail."
+  ],
+  "apify_requests": []
+}
+```

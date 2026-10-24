@@ -1,0 +1,59 @@
+New services from the BRC Genomics Facility: Lower Cost NovaSeqX and NovaSeq6000 sequencing runs, UDI Primer Stocks, Shared Lanes, Data QC Reports | Cornell Institute of Biotechnology | Cornell University
+Skip to main content
+Search:
+Submit search
+Search filters
+Search This site
+Search Cornell
+Main Menu
+Toggle Search Form
+Cornell Institute of Biotechnology
+Home
+About Us
+Leadership
+People
+Facility and Institute Advisory Boards
+Spotlights
+Organization
+Our History
+Contact Us
+Events and Office Hours
+Core Facilities (BRC)
+Services
+Applications
+Instruments
+Facilities
+Breeding Insight
+Buckler Lab
+Cornell Visualization and Imaging Partnership
+Center for Life Science Ventures
+Engaged Biotech
+BRC CoPAIR pilot program
+Biotechnology Development Program
+Funding Opportunities
+Internships at NYS companies
+Science Programs Sponsorship
+New services from the BRC Genomics Facility: Lower Cost NovaSeqX and NovaSeq6000 sequencing runs, UDI Primer Stocks, Shared Lanes, Data QC Reports
+May 14, 2024
+We have launched new services available through the BRC Genomics Facility:
+Sequencing runs on NovaSeq instruments
+These services come with our technical support, preliminary QC checks, and robust data management (including long-term deep archive). We do not load the instruments in house, but have contracted for external sequencing at low rates that you can order through the BRC ordering portal – no quote or PO required.
+Important update: the NovaSeqX instrument uses XLEAP chemistry, which has implications for index color balancing for low-plexity pools. NovaSeq orders will also have longer turn-around times (TAT ~3 weeks after QC checks are approved); for rapid TAT, we still offer sequencing on the MiSeq, NextSeq500, and NextSeq2000 instruments. For more information about Illumina sequencing services, please visit our web site.
+Shared Lanes
+We also plan to launch shared lanes on the NovaSeq platform to bring lower pricing to projects that need << 1 billion reads.
+Shared lanes are currently available for libraries prepared by the Genomics Facility or in the Genomics Innovation Hub that use UDIs (unique dual indices), and will be considered for other projects using standard Illumina library adapters and UDIs.
+To encourage adoption of a universal sample barcoding set that enables lane sharing (avoiding sample barcoding conflicts) and to reduce the cost of UDI primers, we are also now offering UDI primers for both TruSeq and Nextera libraries. Our pricing is significantly lower than commercial sources, and primers are offered in 2 formats: single-use UDIs and single-primer stock plates.
+Pricing for shared lanes and UDI primer stocks are not yet shown on our web site or supported fully through the ordering portal. For more information about accessing shared lanes and UDI primers, please email us at genomics@cornell.edu.
+More Updates: Did you know?
+New data QC reports are available for each sequencing project. Download these reports to quickly see read counts per sample as well as read quality and base frequency graphs (link provided in the data distribution email). You may not need to run fastQC or fastp after downloading fastq files!
+Coming soon: NextSeq2000 sequencing runs will decrease in price with new flowcells using XLEAP chemistry. P4 flowcells are available now (1.7B reads per run) and lower-output flowcells should become available this summer. Stay tuned for updates on our web site and ordering system.
+Questions?
+email us at genomics@cornell.edu
+Terms of service
+Privacy Policy
+Data retention policy
+Data return time
+Acknowledgments in publications
+Authorship
+Payment options and billing policies
+Creating an Account to Access BRC Services

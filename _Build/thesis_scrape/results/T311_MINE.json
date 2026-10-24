@@ -1,0 +1,78 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The House FY27 bill cuts NSF about 20% to $7.0B, a second federal research-funding squeeze next to NIH.",
+      "detail": "The AAMC page (opened) says the House Appropriations Committee approved the FY27 CJS bill 32–28 on 13 May 2026. It sets NSF at $7.0B, about $1.75B (20%) below FY26. Research & Related Activities (R&RA) is $6.4B, $736M (10.3%) below FY26 enacted. Arithmetic: 6.4+0.736 = ~$7.14B FY26 R&RA, and 7.0+1.75 = ~$8.75B FY26 total. The bill still needs a House floor vote. The coalition advocacy target was ≥$9.9B. This sharpens the NSF side (F388 gave ~20% only as a headline). NSF is a minor funder of sequencing relative to NIH.",
+      "url": "https://www.aamc.org/advocacy-policy/washington-highlights/house-appropriations-committee-advances-fy27-spending-bill-nsf-cut",
+      "date": "2026-05-15",
+      "source_name": "AAMC Washington Highlights",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the exact R&RA figure (−$736M, −10.3%), the 32–28 vote and the implied FY26 bases to the known ~20% NSF cut."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "The Senate has not acted on FY27 bills, and a CR at FY26 rates is law through 11 Dec 2026, so research funding is frozen rather than cut near term.",
+      "detail": "CRS R49344 (8 Sep 2026, opened) says H.R. 6500 (P.L. 119-103) passed the Senate 90–6 on 8 Aug and the House 370–48 on 1 Sep. It was signed 2 Sep 2026. It funds all 12 acts, including Labor-HHS, at FY26 rates and under FY26 conditions through 11 Dec 2026. The Senate Appropriations Committee had not marked up Labor-HHS as of that report. A search found the June Senate CJS markup postponed with no new date. So no FY27 cut reaches research budgets before Dec 2026, which limits the case for a near-term research volume or price shock at cores.",
+      "url": "https://www.everycrsreport.com/files/2026-09-08_R49344_d93670ac038d0596cd9bf373bf03045c9ccf28bd.html",
+      "date": "2026-09-08",
+      "source_name": "CRS (everycrsreport.com), R49344",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known file has a CR 'through 11 Dec 2026' but not the bill number, vote counts, signing date or Senate markup status."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "The House Labor-HHS bill is a modest cut of 2.9% overall, and NIH is described as flat to slightly up.",
+      "detail": "CRS reports H.R. 9260 at $189.3B in regular discretionary Labor-HHS appropriations. That is $5.6B (−2.9%) below the FY26 enacted $194.9B. Adjusted appropriations are $192.5B vs $198.0B. AAAS's House analysis says ARPA-H is flat, matching the intent for NIH. I could not read the NIH line itself, so the 'NIH flat to +2%' claim rests on the known file. The cut to the parent bill is small and NIH is not singled out, so a deep NIH cut is not in prospect via the House.",
+      "url": "https://www.everycrsreport.com/files/2026-09-08_R49344_d93670ac038d0596cd9bf373bf03045c9ccf28bd.html",
+      "date": "2026-09-08",
+      "source_name": "CRS R49344",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantifies the parent Labor-HHS bill (H.R. 9260, −2.9%), which the known file does not give."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The AAMC page has NSF topline and R&RA only, with no NIH, MRI or BIO figures. The AAAS House report PDF and COSSA analysis PDF are compressed and unreadable via WebFetch. I did not find the NSF BIO or MRI lines. Searches for Senate markups found none. Saved PDFs are in the tool-results folder of the session directory; a local text extraction (pdftotext) might read them. The 'up to ~40 tool calls' budget was not used because the source is thin.",
+  "leads": [
+    {
+      "name": "AAAS FY2027 R&D Appropriations Dashboard",
+      "url": "https://www.aaas.org/sites/default/files/2026-07/House%20Report%202027.pdf",
+      "access": "Public PDF (needs local text extraction)",
+      "labels": ["2A", "2B"],
+      "rationale": "Likely has agency-level House, request and FY26 figures for NIH and NSF, and possibly ARPA-H."
+    },
+    {
+      "name": "COSSA FY2027 House CJS Appropriations Analysis",
+      "url": "https://cossa.org/wp-content/uploads/2026/05/FY-2027-House-CJS-Appropriations-Analysis.pdf",
+      "access": "Public PDF (needs local text extraction)",
+      "labels": ["2A", "2B"],
+      "rationale": "May hold directorate-level NSF numbers, including BIO and MRI."
+    },
+    {
+      "name": "COSSA House CJS analysis page",
+      "url": "https://cossa.org/?p=25325",
+      "access": "Public HTML",
+      "labels": ["2A"],
+      "rationale": "HTML version, easier to read than the PDF."
+    },
+    {
+      "name": "FY27 Appropriations (SIU OSPA)",
+      "url": "https://ospa.siu.edu/about-ospa/fy27-appropriations.php",
+      "access": "Public HTML",
+      "labels": ["2A"],
+      "rationale": "A university research office tracker that may list NIH and NSF House, Senate and request figures."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,114 @@
+Gene Expression Core Facility ‐ EPFL
+Skip to content
+About
+Education
+Research
+Innovation
+Schools
+Campus
+Search on the site
+Validate
+Show / hide the search form
+Search on the site
+Hide the search form
+EN
+EN
+FR
+DE
+IT
+Menu
+…
+Afficher l'intégralité du fil d'Ariane
+Research
+Affiche les pages de même niveau
+About
+Education
+Prices
+Funding
+Steering committee
+Team and Contact
+Gene Expression Core Facility
+DNA molecules (Adobe education license)
+Mission
+The GECF provides a diverse set of tools for the functional and quantitative analysis of genomes and transcriptomes, both at single cells level or on bulk cell populations. This comprises in particular next-generation sequencing (NGS), classical or high-throughput microfluidics-based qPCR technologies, digital PCR, and spatial transcriptomics analyses. In addition, we enable manipulation of the cellular gene expression program by providing different genome-wide collections of ORFs. Because new technologies constantly emerge, we are eager to discuss means to further improve and develop our toolbox.
+Expertise
+Next generation sequencing (NGS)
+Illumina (MiSeq, NextSeq, NovaSeq) or Elembio (Aviti) short reads. Oxford Nanopore long reads (MinION, Promethion)
+See more
+Single cells genomics/ transcriptomics
+10X Genomics ChromiumX, Parse…
+See more
+Spatial Transcriptomics
+10X Genomics Visium / CytAssist
+See more
+Quantitative and digital PCR
+Classical qPCR (Applied Biosystems QuantStudio), microfluidics-based qPCR (Fluidigm BioMark), and digital PCR (Qiagen Qiacuity)
+See more
+Nucleic acids QC
+Profiling (TapeStation 4200 and Fragment Analyzer) and quantification (Qubit, Nanodrop One)
+See more
+ORF & cDNA Collections
+We manage and distribute several large collections of ORFs
+See more
+News
+October 2026
+New NovaSeq X sequencer arriving later in October! Strong decrease of sequencing costs on medium-large projects size!
+September 2026
+Continued price decrease across our services (NGS, single-cell notably).
+In order to keep our standard prices as low as possible, extra labour fees are now charged for very custom projects or ones requiring priority processing, as well as for spikes not meant as a QC prior to a larger run. In addition, a labour fee is now charged for old data retrieval (to take into account the explosion of such demands), with a minimal fee of 31 CHF.
+New ATAC-seq library prep service.
+New 10XG multiome method with improved metrics and decreased prices.
+Better Oxford Nanopore RNA-seq with the new Takara Long-Red smart-seq.
+New Visium HD 11×11 mm slides.
+March 2026
+New cheaper/faster MiSeq model, with new PE500 option (1’000 cycles)!
+November 2025
+Our aviti got upgraded towards Aviti24 . This 1) boosts Aviti output by up to 50% without price increase; 2) allows for cytoprofiling spatial experiments; 3) allows direct in situ/in sample RNA sequencing (DISS).
+Decrease of prices accross our services (aviti, NovaSeq, 10XG FLEX, 3’GE v4, multiome).
+October 2025
+Further strong decrease of NovaSeq prices.
+September 2025
+Strong decrease of price of 10XG “on-chip multiplexing” service.
+New Oxford Nanopore direct RNA service.
+Prices of idot and fsight booking now set in our price list.
+July 2025
+New VisiumHD polyA option.
+New FLASH-seq service.
+Decrease of NovaSeq, VisiumHD, RNA-seq and DNA-seq prep prices!
+March 2025
+Our f.sight.omics, i.dot and c.wash instruments for Plate-seq are available for booking.
+New multiplexing options for 10XG available (“On-chip multiplexing”).
+Decrease of Aviti prices! And new 100mio 150 cycles run under 1’000CHF.
+2024
+TotalSeq multiplexing for 10X Genomics is available.
+Parse single cell method available.
+A warm welcome to our new collaborator Guillaume Fabre
+Visium HD is here! Spatial transcriptomics resolution is now down to single cell scale. More info here!
+Our new Aviti sequencer is operational.
+A warm welcome to our new collaborator
+2023
+New price list available, with decrease of 10XG FLEX prices.
+Launch of our PromethION long reads service.
+New price list available! Many new services included. Prices decrease of NovaSeq runs.
+We have launched the 10X Genomics FLEX (fixed RNA profiling) service, based on fixed cells. Ideal for evening or weekend processing of samples since fixed cells can be stored.
+We have just launched a HiC libraries prep service, based on Arima workflow. Inquire for pricing and details.
+A new libraries submission form is available here (together with updated guidelines).
+Our new CytAssist instrument now allows us to process FFPE slides for spatial transcriptomics analysis of human and mouse tissues with improved sensitivity, flexibility and robustness.
+Our new QIAcuity One 5plex digital PCR system is up and running.
+2022
+From now on please use our team email address [email protected] for projects submissions and other demands.
+New versions of our libraries submission form/guidelines are available here.
+We have launched our NovaSeq 6000 service! Please inquire.
+2021
+We have launched a Visium FFPE spatial transcriptomics service, in collaboration with HCF.
+A NovaSeq 6000 will soon replace our HiSeq 4000! More news in December.
+A warm welcome to our new collaborator Chiara Sartori.
+The replacement process for our HiSeq 4000 sequencer has begun, more news in 2 months.
+Our new 10X Genomics single cell multiome (scATAC-seq+scRNA-seq) and CellPlex services are operational.
+Our new QuantStudio 6 instrument is now operational.
+Our new web tool CloneMap for ORFs browsing and QC is operational (thanks Fabrice David).
+A warm welcome to our new collaborator Patricia Hornitschek.
+2020
+Our new QuantStudio 7 is now operational.
+2019
+Our 10X Genomics Visium spatial transcriptomics service is launched. A fruitful collaboration with the HCF.

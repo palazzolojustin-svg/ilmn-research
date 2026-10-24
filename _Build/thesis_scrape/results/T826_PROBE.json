@@ -1,0 +1,47 @@
+```json
+{
+  "status": "productive",
+  "notes": "I could read the AVITI sheet (S803), but the tiers page (S760) and the Savings-tier NextSeq comparison (S804) were not reachable, so those parts are unfinished. The sheet has only AVITI cost per 1B reads for FY24–FY26. It has no Ultima or NovaSeq X rows, no per-lane prices, no effective dates and no competition attribution. The tool summarised the sheet and reported a rendering error, so the cell values have not been checked against the raw sheet. The UMGC pages I opened (library prep, Ultima 10x promo, NGS overview) carry no X Plus or NextSeq lane prices. Guessed URLs /service/novaseq-x and /service/novaseq-x-plus returned 404. The sequencing price pages are probably under genomics.umn.edu/colab-pricing or a service slug I did not find. No UMGC page attributes Illumina rate cuts to competition. The new data is the AVITI per-Gb price path, which gives a competitor price-deflation trend, and an Illumina comparison UMGC states in words only. The sheet lacks the bar-chart X Plus comparison I was asked to confirm.",
+  "how_to_mine": "1) Fetch genomics.umn.edu/colab-pricing and the NovaSeq X+ and NextSeq 2000 service pages linked from /services/next-generation-sequencing. Record the Savings/Speed/Priority lane prices for UMN and external users. 2) Use the Wayback Machine to pull the 2023–2026 versions of those pages, to get the Illumina lane-price history. 3) Find the 'announcing-lower-fy-2024-rates-and-service-tiers' news item under genomics.umn.edu/news and read its stated reason for the cuts. 4) Open the Google Sheet in export mode (/export?format=csv&gid=...), or the /htmlview URL, to get every tab and the chart data.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UMGC's AVITI price per billion reads fell about 63% in two fiscal years, with the UMN FY26 rate at $614 to $1,235 per billion reads.",
+      "detail": "The UMGC AVITI sheet lists UMN-researcher cost per 1B reads for the 150-cycle kit at $1,668.58 (FY24), $1,131.36 (FY25) and $614.44 (FY26 'NOW'). For the 300-cycle kit the figures are $2,385.61, $1,417.33 and $689.73, and for the 600-cycle kit $3,293.84, $1,979.64 and $1,235.28. The 300-cycle kit fell 71% FY24 to FY26, and the 150-cycle kit fell 63%. At $690 per 1B reads, a 25B X Plus lane at about $2,300 to $2,900 for 2.8 to 3B reads works out to roughly $0.85 per M reads, against $0.69 per M reads for the AVITI 300-cycle. This is a read-based comparison and ignores read length, quality and run mix. The values come from a tool summary of the sheet, not a raw read.",
+      "url": "https://docs.google.com/spreadsheets/d/1j3seGD_1whU9ppFdQOxtUTUsGdgg8fdtA4O6NFFpFRc/edit?usp=sharing",
+      "date": "FY26 (2026)",
+      "source_name": "UMGC (University of Minnesota Genomics Center) AVITI pricing Google Sheet",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The exact FY24, FY25 and FY26 AVITI cost per 1B reads by kit are new. The known list only has the UMN-wide 62-71% drop claim and ~$2.6-3.6/Gb."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "On 15 Sep 2025 UMGC said AVITI costs $100s to $1,000 less per billion reads than the cheapest Illumina platform, after a free 50% output upgrade.",
+      "detail": "UMGC's 15 Sep 2025 note says an OS upgrade raised 300-cycle output from 250M to 375M (Low), 500M to 750M (Medium) and 1B to 1.5B (High) at unchanged prices. That is 33% cheaper per read than FY25. The note says AVITI saves 'several hundred to one thousand dollars per billion reads' versus the most affordable Illumina platform. It does not attribute any Illumina rate cut to competition. Separately, the Ultima UG 100 UMN price is $2,704 per wafer for 10-12B reads on the 10x promo, which is $500 off the standard rate; UMN's Ultima 10x promo is already known. That works out to about $0.23 to $0.27 per M reads. Page: genomics.umn.edu/news/aviti-upgrade-complete.",
+      "url": "https://genomics.umn.edu/news/aviti-upgrade-complete",
+      "date": "2025-09-15",
+      "source_name": "UMGC news",
+      "source_type": "price_list",
+      "quote": "several hundred to one thousand dollars per billion reads",
+      "strength": "medium",
+      "why_new": "This is a core that has deployed AVITI at scale and says in words that it is cheaper than Illumina's cheapest platform; the 33% free-output step and the dated, unchanged-price upgrade are new."
+    }
+  ],
+  "new_candidates": [
+    {
+      "url": "https://genomics.umn.edu/colab-pricing",
+      "why": "May hold UMGC's NovaSeq X+ and NextSeq 2000 lane price tables, so the Illumina FY24 to FY27 trend can be compared with AVITI."
+    },
+    {
+      "url": "https://web.archive.org/web/2025*/genomics.umn.edu/*",
+      "why": "Archived UMGC rate pages and the lower-FY-2024-rates news item can give Illumina lane price history and any stated reason for the cuts."
+    }
+  ],
+  "apify_requests": []
+}
+```

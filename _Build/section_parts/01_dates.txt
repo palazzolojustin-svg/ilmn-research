@@ -1,0 +1,55 @@
+2007-01-01 :: Illumina acquires Solexa for $480M, the basis of its sequencing business (year only)
+2011-07-01 :: First MiSeq shipment (Q3 2011)
+2012-01-01 :: U.S. sequestration and federal shutdown temporarily cap Illumina growth (year only)
+2014-01-01 :: HiSeq X Ten offered, breaking the $1,000-per-genome barrier; NextSeq 500 first ships (Q1)
+2015-08-18 :: Illumina announces Helix consumer-genomics platform
+2016-01-01 :: Illumina forms GRAIL; MiniSeq first ships (Q1)
+2017-01-01 :: NovaSeq 6000 first ships (Q1 2017)
+2019-01-01 :: Helix deconsolidated effective 2019
+2020-10-01 :: NextSeq 1000 first ships (Q4 2020)
+2021-08-01 :: Illumina closes GRAIL acquisition without prior EU approval
+2021-09-30 :: Illumina market cap peaks at $76B (3Q21)
+2022-01-01 :: Investor day estimates $125B+ addressable market, 34% research capture by 2027; NovaSeq X unveiled at Genomics Forum (year only)
+2023-01-01 :: NovaSeq X first ships (Q1 2023)
+2023-01-04 :: $750M revolving credit facility established (matures 2028-01-04)
+2023-10-17 :: Icahn Partners files derivative suit over GRAIL
+2023-11-11 :: First federal securities class action filed over GRAIL
+2024-02-02 :: California state securities class actions filed
+2024-06-24 :: GRAIL spun off; Illumina retains 14.5% and funds $974M
+2024-08-01 :: Board authorizes $1.5B share repurchase program
+2024-10-01 :: MiSeq i100 first ships (Q4 2024)
+2025-01-01 :: Illumina Single Cell 3' RNA Prep launched (January)
+2025-02-04 :: China adds Illumina to its Unreliable Entities List
+2025-03-04 :: China bans import of Illumina sequencing instruments
+2025-04-01 :: U.S. and other tariffs take effect, hitting Singapore imports
+2025-06-22 :: Illumina signs agreement to acquire SomaLogic from Standard BioTools
+2025-07-04 :: U.S. tax legislation triggers foreign-tax-credit valuation allowance
+2025-07-31 :: Q2 2025 results; SomaLogic deal announced; FY25 EPS guide $4.45-$4.55
+2025-09-01 :: Illumina Protein Prep launched
+2025-09-03 :: California court overrules Illumina's demurrer in GRAIL class action
+2025-09-19 :: Icahn derivative suit dismissed after no-payment settlement
+2025-09-26 :: Federal court dismisses GRAIL securities suit with leave to amend
+2025-09-28 :: Q3 2025 ends; NovaSeq X transition targets (75% Gb, 50% revenue) achieved
+2025-10-01 :: 5-Base Solution launched; BioInsight announced
+2025-10-30 :: Q3 2025 results; FY25 EPS guide raised to $4.65-$4.75
+2025-11-10 :: China permits instrument exports to resume on case-by-case basis (granted 2025-11-05)
+2025-11-25 :: $500M 4.75% 2030 notes issued
+2025-12-12 :: $500M 2025 notes repaid at maturity
+2026-01-13 :: JPM presentation: preliminary FY25 results and FY27 targets reaffirmed
+2026-01-16 :: Chief Commercial Officer Everett Cunningham departs
+2026-01-30 :: SomaLogic acquisition closes ($460M purchase price)
+2026-02-01 :: U.S. Supreme Court rules IEEPA tariffs improper (February)
+2026-02-05 :: Q4 2025 results; FY26 guide $4.50-$4.60B revenue, $5.05-$5.20 EPS
+2026-02-11 :: FY2025 10-K filed
+2026-02-13 :: Hearing on motion to dismiss Delaware GRAIL derivative suit
+2026-03-01 :: Court of International Trade orders IEEPA tariff refunds (March)
+2026-04-01 :: Board authorizes additional $1.5B share repurchase program (April)
+2026-04-30 :: Q1 2026 results; FY26 EPS guide $5.15-$5.30
+2026-05-15 :: California court certifies class in GRAIL securities suit
+2026-07-27 :: Illumina pays $30M to buy out remaining SomaLogic milestone and royalty obligations
+2026-07-30 :: Q2 2026 results; FY26 guide raised to $4.60-$4.64B revenue, $5.30-$5.40 EPS
+2026-09-09 :: $500M 4.65% notes mature
+2026-10-30 :: Scheduled hearing on Illumina motion to amend answer in California GRAIL suit
+2027-12-13 :: $500M 5.75% notes mature
+2033-08-31 :: GRAIL CVR payment obligations end
+2035-12-31 :: Singapore tax holidays expire (year only)

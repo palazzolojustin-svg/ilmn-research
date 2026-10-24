@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR full-text endpoint is reachable with no login, but it is a poor fit for this probe. It returns only filing metadata, with no snippets or highlights. Exact-phrase search returned 1 hit for 'NovaSeq 6000' in 2025-26 10-K/10-Q/S-1 filings: the Caris 10-K for FY25, filed 2026-03-03 (accession 0002019410-26-000016). 'NovaSeq X' returned 10 hits: Illumina (7 filings), Adaptive Biotechnologies (10-Ks filed 2025-03-03 and 2026-02-26) and Caris (the same FY25 10-K). '6000Dx' returned 0 hits. Natera, Guardant, GeneDx, Tempus, Myriad, BillionToOne, Exact, Personalis, Veracyte, CareDx, Fulgent and NeoGenomics did not appear for either phrase. I did not test Castle or Freenome. Most clinical filers apparently do not name the instrument model in their filings, so this source cannot show whether the 6000 tail is permanent. I could not read the Caris passage. The first 100K characters of the 544K-character 10-K had no Illumina or NovaSeq mention and ended partway through Item 1, and I did not read the rest. I did not open any other filing, so there is no earliest-versus-latest wording comparison. The tool covered only a fraction of the text, so I cannot confirm that no other filer uses the phrase. Nothing in this probe supports or contradicts the thesis.",
+  "how_to_mine": "Only worth a follow-up for two filings. (1) Read the Caris FY25 10-K (https://www.sec.gov/Archives/edgar/data/2019410/000201941026000016/cai-20251231.htm) from offset 100000 onward, in the Risk Factors and 'Sequencing/Suppliers' sections. Look for the sentence naming NovaSeq 6000 and NovaSeq X, and for any migration plan. Then compare it with the Caris S-1 and 10-Q filings. (2) Open the Adaptive 10-Ks (0000950170-25-030913 and 0001193125-26-076902), find the NovaSeq X paragraph, and compare the FY24 and FY25 wording. The FY25 filing is the source of the known 72% vs 64% MRD gross margin line. Also try the efts query variants 'NovaSeq' and 'Illumina sequencers' with forms=10-K,10-Q,S-1,424B4. The endpoint returns no snippets, so each hit must be opened by hand.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Adaptive Biotechnologies FY24 vs FY25 10-K: compare the NovaSeq X wording and any stated cost savings or migration timeline (0000950170-25-030913 vs 0001193125-26-076902)",
+    "Caris FY25 10-K (0002019410-26-000016): read the passage that names NovaSeq 6000 and NovaSeq X, offset 100000 onward"
+  ],
+  "apify_requests": []
+}
+```

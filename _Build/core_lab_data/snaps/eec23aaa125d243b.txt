@@ -1,0 +1,71 @@
+Genomic Technologies Facility
+Short Read Sequencing · May 2026
+Short Read Sequencing: New Milestones at the GTF
+Dear users,
+We are pleased to share a few highlights from the Lausanne Genomic Technologies
+Facility regarding recent developments in short read sequencing.
+AT  A G L A N C E
+🏆First in Europe: The GTF is the first laboratory in Europe to reach 500
+sequencing runs on the AVITI platform.
+🧠Growing Expertise: Our AVITI know-how keeps expanding — from optimised
+library prep to advanced troubleshooting for every project type.
+⚙AVITI24 Upgrade: Our sequencer has been upgraded to AVITI24, offering higher
+throughput and on-instrument single-cell omics workflows.
+💸Pricing: We provide customers with transparent, flexible and competitive pricing,
+and reliable service delivery.
+📍Local service: We deliver fast, secure sequencing solutions while remaining
+firmly committed to the research community we serve.
+🏆  FIRST IN EUROPE
+500 AVITI Runs at the GTF
+We are proud to announce that the GTF is the first laboratory in the EMEA zone
+(Europe Middle East & Africa) to reach 500 sequencing runs on a single AVITI
+instrument. This milestone reflects both our strong user community and the deep
+technical expertise of the GTF sequencing team.
+The GTF team celebrating 500 AVITI runs — first in the EMEA.
+🧠  GROWING EXPERTISE
+Our Expertise with AVITI Keeps Growing
+Over the past months, our team has significantly expanded its know-how on AVITI
+sequencing. Here's how we can support your projects:
+EXPERTISE & ADVANCED TROUBLESHOOTING
+Optimised sequencing of difficult libraries — We have contributed to improving
+protocols for challenging and low-input libraries, increasing robustness and data quality.
+Tricky pools: no problem — We fine-tune your pooling strategy to match your exact
+needs, ensuring balanced representation and optimal outputs.
+Advanced troubleshooting — We provide personalised support before and after
+sequencing, including in-depth post-run analysis.
+Comprehensive Library Preparation Portfolio — We offer preparation of all standard
+library types, including RNA-seq, single-cell RNA-seq, whole-genome and exome
+sequencing, targeted sequencing, metagenomics, and more.
+SUPPORT FOR LIBRARY PREPARATION
+We can assist you in preparing your libraries for short read sequencing (AVITI, Illumina)
+— or manage the entire process for you. This includes the ICON PCR workflow, which
+improves performance for low-input or complex libraries.
+⚙  NEW UPGRADE
+AVITI Has Evolved: Introducing the AVITI24
+Our AVITI sequencer has recently undergone a major upgrade, transitioning to AVITI24
+and unlocking new capabilities:
+📈
+Higher Throughput
+Higher sequencing output, resulting in a
+lower cost per GB for your projects.
+🔬
+On-Instrument Single-Cell
+On-instrument single-cell omics workflows
+for more integrated experimental setups.
+AVITI24: combining Next Gen Sequencing with Teton CytoProfiling for integrated single-cell workflows.
+💸  PRICING
+Flexible, Competitive & Stable
+From 100M reads
+Starting at close to CHF 200 — ideal for
+small projects or single-cell QC runs.
+Up to 25B reads
+Highly competitive prices across all read
+volumes. Free spike-ins for test runs.
+Stable year-round
+Sequence exactly when you need — no
+seasonal price fluctuations.
+SNSF / ERC compliant
+Fully compliant with grant requirements.
+📍  LOCAL SERVICE
+Fast, Secure & Community-Focused
+Working with the GTF means keeping your data — and your science — close to home:

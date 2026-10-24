@@ -1,0 +1,52 @@
+BRCF Advanced Genomics Core (AGC) | Michigan Research Cores
+MENUMENU
+View All Cores
+FAQs
+Register Core
+Select Page
+BRCF Advanced Genomics Core (AGC)
+by doreen | Dec 6, 2018
+BRCF Advanced Genomics Core (AGC)
+provides high-quality, low-cost advanced genomic analysis on a recharge basis.
+Home » Cores » BRCF Advanced Genomics Core (AGC)
+Contacts
+Olivia Koues, PhD
+[email protected]
+Location
+NCRC Building 14 (Rm 122)
+2800 Plymouth Rd, Ann Arbor, MI
+Affiliations
+Medical School
+Who We Serve
+University of Michigan Researchers and External Researchers
+Visit Core Website
+Core Summary
+The University of Michigan Biomedical Research Core Facilities (BRCF) Advanced Genomics Core (AGC) provides high-quality, low-cost advanced genomic analysis for research clients on a recharge basis. The AGC occupies approximately 10,000 square feet of laboratory space in the North Campus Research Complex, with 26 highly-trained individuals on staff to help you. We operate a wide variety of instruments that perform genotyping, gene expression analysis, nucleic acid quantification, next-generation sequencing, spatial transcriptomics, and single-cell analysis.
+To learn more about the core’s services, please complete the online consultation form.
+Arrays iScan
+Illumina, Core Use Only
+Next Generation Sequencing
+Covaris, Core Use Only
+Next Generation Sequencing BluePippin
+Sage Science, Core Use Only
+Next Generation Sequencing GridION
+Oxford Nanopore, Core Use Only
+Next Generation Sequencing MiSeq
+Illumina, Core Use Only
+Next Generation Sequencing NextSeq 2000
+Illumina, Core Use Only
+Next Generation Sequencing NextSeq 500/550
+Illumina, Core Use Only
+Next Generation Sequencing NovaSeq 6000
+Illumina, Core Use Only
+Next Generation Sequencing S2
+Covaris, Core Use Only
+qPCR QuantSTudio 12K Flex
+ABI, Core Use Only
+qPCR StepOne
+ABI, Core Use Only
+Quality Control 2200 TapeStation
+Agilent, Core Use Only
+Quality Control 4200 TapeStation
+Agilent, Core Use Only
+Quality Control Bioanalyzer

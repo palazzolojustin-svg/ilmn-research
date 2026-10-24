@@ -1,0 +1,44 @@
+```json
+{
+  "status": "productive",
+  "notes": "Plasmidsaurus's RNA-seq page and a search snippet of the GenomeWeb article were readable. The page and snippet confirm the service runs on Illumina. They give a rough demand figure: 'hundreds of samples' a day. The GenomeWeb article itself returned HTTP 403 when opened directly. The GenomeWeb details below come from a search summary, not the article text, so mark them as snippet-level. The aseqer post (the Jan 2025 aseq write-up) is about plasmid sequencing on Nanopore. It mentions an in-house Illumina operation that Plasmidsaurus plans to build, and the ARR section is paywalled. I did not open the burbanklabs post. No data found on actual core-facility volume or price changes.",
+  "how_to_mine": "1) Try GenomeWeb via a search-cache or an archive.org copy of the article to get exact quotes and any named price points from cores. 2) Open https://burbanklabs.substack.com/p/plasmidsaurus. 3) Search core-facility news pages for 2026 RNA-seq price cuts or notices, e.g. 'RNA-seq price reduced' or '3-prime RNA-seq' at ETH FGCZ, Stowers, and US cores. 4) Search methods sections and preprints from 2026 for 'Plasmidsaurus' RNA-seq to gauge adoption. 5) Read the remaining 20K characters of plasmidsaurus.com/rna (offset 100000) for the FAQ on instrument and read depth. 6) Check the Plasmidsaurus job postings for an Illumina operations hire.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "A no-minimum $50/sample academic RNA-seq service on Illumina is drawing 'unprecedented demand', which shows research buyers move fast on price.",
+      "detail": "Plasmidsaurus launched 3' RNA-seq at ASHG 2025 at $50 per sample for academia and $80 for industry. It delivers up to 10M deduplicated Illumina reads in under 3 days within the US and Europe, with no minimum order and no quote process. Per a GenomeWeb search summary, CEO Mark Budde cited 'unprecedented demand' and 'hundreds of samples' a day. He also said the service is only 'barely' profitable. Counting work like this is the segment Roche AXELIOS targets. The reads stay on Illumina, but the revenue per sample is a small fraction of core-level pricing.",
+      "url": "https://plasmidsaurus.com/rna",
+      "date": "2025-11 (launch); page live 2026-10",
+      "source_name": "Plasmidsaurus; GenomeWeb (search-summary snippet, article returned 403)",
+      "source_type": "price_list",
+      "quote": "There is no minimum order size or quote process.",
+      "strength": "medium",
+      "why_new": "The exclusion list has no Plasmidsaurus. This is a new, quantified low-price counting service on Illumina with a demand datapoint."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Core facilities say they cannot match commercial $50 RNA-seq, so research counting work migrates to outside providers at lower per-sample prices.",
+      "detail": "Per a GenomeWeb search summary (the article returned 403), Stowers' Anoja Perera said the offering 'cannot be beat by core facilities, price- or processing time-wise'. ETH Zürich's Catharine Aquino said cores may be expected to match the pricing, which is very hard to do. The reason given is that commercial providers fill large flow cells, automate, and get vendor discounts. This adds a mechanism: volume consolidates at bulk buyers that can negotiate the deepest consumables discounts. That fits the thesis that large buyers extract more discount.",
+      "url": "https://www.genomeweb.com/sequencing/plasmidsaurus-rna-seq-service-sparks-interest-researchers-unease-academic-cores",
+      "date": "2025-11",
+      "source_name": "GenomeWeb (search-result summary only)",
+      "source_type": "press",
+      "quote": "cannot be beat by core facilities, price- or processing time-wise",
+      "strength": "medium",
+      "why_new": "The known list has no Plasmidsaurus or named core reactions. It covers only anonymous expert calls and core rate cards."
+    }
+  ],
+  "new_candidates": [
+    "https://burbanklabs.substack.com/p/plasmidsaurus (unopened)",
+    "https://www.synbiobeta.com/read/plasmidsaurus-unveils-80-rna-seq-in-as-fast-as-3-days",
+    "https://plasmidsaurus.com/blog/how-plasmidsaurus-3-rna-seq-delivers-results-in-3-days (instrument and flow cell detail, maybe NovaSeq X)",
+    "https://www.genomeweb.com/node/646311",
+    "Plasmidsaurus in-house Illumina operation hiring (the aseqer post mentions a planned build and a search for a scientist to lead it)"
+  ],
+  "apify_requests": []
+}
+```

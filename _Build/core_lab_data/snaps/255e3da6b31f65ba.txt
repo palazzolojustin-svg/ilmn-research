@@ -1,0 +1,56 @@
+March 2025 - GGBC
+March 2025 - GGBC
+University of Georgia
+Generic selectors
+Exact matches only
+Search in title
+Search in content
+Post Type Selectors
+Menu
+Close
+About
+Opportunities
+Acknowledgment and Co-authorship
+Calendar
+Contact Us
+Directory
+Genomic Notes
+Home
+Home 2
+Location
+Metagenomics Microbiome Service
+Microbiome/Amplicon Service
+MiSeq and NextSeq Flow Cells
+My Calendar
+News & Events
+Events
+Quick Quote Feature
+Review Us
+SeQueue
+Single Cell Genomics: Discountinued
+Submit Events
+Technical Inquiries
+Testimonials
+Half-Plate: $25/sample ($1,200)
+13-47 libraries: $40/sample
+1-12 libraries: $45/sample
+Stranded RNA-Seq Libraries:
+Our bulk RNA-Seq libraries, created with the Illumina Stranded RNA-Seq kit and using total RNA as input, are now available at these reduced UGA rates:
+Full-Plate: $50/sample ($4,800)
+Half-Plate: $55/sample ($2,640)
+13-47 libraries: $70/sample
+1-12 libraries: $80/sample
+New Illumina Sequencing Options Now Available!
+We are now offering NovaSeq PE 150 lanes, 10B or 25B runs. These can be ordered with libraries that we make, or you can submit your own pools. Of course, we’ll continue to offer ready-to-pool and ready-to-sequence QC for those who need it. We’ll be shipping pools for off-campus sequencing on Tuesdays and Thursdays.
+NovaSeq X Plus 10B, 1 lane (1.25 B reads): $2,000
+NovaSeq X Plus 25B, 1 lane (3.125 B reads): $3,000
+Amplicon/Microbiome Libraries:
+In 2022, we transitioned to accepting only user-generated primary PCR amplicons for this workflow. We’re happy to announce that we’re once again accepting environmental DNA samples for 16S/18S/ITS/CO1 libraries. We have a variety of commonly used gene- specific primer sets in-house; we can also work with other primer sets as long as they’ve been validated by the researcher. For more information, please “Sample Preparation” in the Microbiome/Amplicon Service section on our website.
+A Commitment to Service
+At GGBC, our team is committed to enhancing efficiency, communication, and project turnaround times. We truly value the trust our current researchers have placed in us, and we’re excited to welcome new users—whether you’re exploring our services for the first time or considering alternatives—to give us the opportunity to support and advance your genomics research.
+Please kindly share with your friends and colleagues that might have interest in these offerings.
+The GGBC Team
+Georgia Genomics & Bioinformatics Core
+University of Georgia 110 Riverbend Road, Athens, Georgia 30602
+Office: 706-542-6409 | Fax: 706-542-6414
+ggbc@uga.edu | http://dna.uga.edu

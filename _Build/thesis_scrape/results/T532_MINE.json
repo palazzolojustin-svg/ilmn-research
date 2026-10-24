@@ -1,0 +1,123 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Measured in gigabases rather than run counts, the NovaSeq X's share of public NovaSeq data released in INSDC (ENA/SRA) more than doubled in a year: about 4.6% in Q3'24, 15.7% in Q3'25 and 32–34% in Q3'26. The conversion is not slowing.",
+      "detail": "Method: we counted runs with ENA portal /count, which mirrors SRA, by first_public quarter and base_count bin (<3, 3–15, 15–60, 60–150, ≥150 Gb). Gb was estimated by giving each bin a midpoint of 1 / 7 / 30 / 90 / 220 Gb; Q3'24 and Q3'25 used a single ≥60 bin at 110 Gb. The resulting Gb: 6000 2,062K / 2,774K / 2,489K and X 98K / 517K / 1,191–1,261K, so the X Gb share was 4.6% → 15.7% → 32.4–33.6%. The share rose about 11 points, then about 17–18 points, so the pace is not decelerating. Run share is lower and rising more slowly: 2.4% → 11.2% → 24.2%.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=(instrument_model=\"Illumina NovaSeq X\" OR instrument_model=\"Illumina NovaSeq X Plus\") AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=15000000000",
+      "date": "2026-10-12 (Q3'24–Q3'26 data)",
+      "source_name": "EMBL-EBI ENA Portal API (INSDC mirror of SRA)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is the first Gb-weighted (not sample- or run-count) public series. Earlier items F577–F596 used counts only."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In Gb, the 6000's public data output fell for the first time: down about 10% y/y in Q3'26, even though its run count rose about 21%. The 'tail not shrinking' read from run counts (F580, F595, F528) is a counting artifact.",
+      "detail": "6000 runs: 388,682 (Q3'24), 421,447 (Q3'25), 511,741 (Q3'26). Runs of at least 15 Gb went 25,629 → 38,045 → 30,305 (−20% y/y), and runs of at least 60 Gb went 4,451 → 6,359 → 5,198 (−18%). Estimated 6000 Gb went 2.06 → 2.77 → 2.49 Pb, about −10% y/y. In the same period X Gb rose about 2.3–2.4x.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Illumina NovaSeq 6000\" AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=15000000000",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "It reverses the earlier run- and sample-count reading that 6000 public output was still rising."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "For deep, genome-scale runs (60 Gb or more), the X's share of public 6000+X runs went from 8.6% (Q3'24) to 20.3% (Q3'25) to 39.8% (Q3'26). High-Gb work is converting fastest.",
+      "detail": "Runs of at least 60 Gb, 6000 vs X: 4,451 vs 417 (Q3'24), 6,359 vs 1,623 (Q3'25), 5,198 vs 3,437 (Q3'26). Within Q3'26, 1,044 X runs were at least 150 Gb against 802 for the 6000. So 30% of the X's ≥60 Gb runs are 150 Gb or more, against 15% for the 6000.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Illumina NovaSeq 6000\" AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=150000000000",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "No earlier item splits the public data by run depth."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The work left on the 6000 is shifting toward shallow, low-Gb samples. That fits a tail of low-volume users who are less volume-elastic.",
+      "detail": "Average Gb per 6000 run went 5.3 (Q3'24) → 6.6 (Q3'25) → 4.9 (Q3'26). Runs under 3 Gb rose from 259,973 to 367,640 (+41% y/y) and are now 72% of 6000 runs. X runs average about 7.3–7.7 Gb in Q3'26, roughly 1.5–1.6x the 6000. The deep work leaves the 6000 first, and what remains is amplicon, 16S and low-depth RNA-type work.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Illumina NovaSeq 6000\" AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=3000000000",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first per-run depth profile of the public 6000 tail."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Growth in combined 6000+X public Gb slowed sharply, from about +52% y/y in Q3'25 to about +14% in Q3'26, while run counts still grew about 42%.",
+      "detail": "Estimated combined Gb: 2.16 Pb (Q3'24), 3.29 Pb (Q3'25), 3.68–3.75 Pb (Q3'26). Runs of at least 60 Gb grew +64% (4,868 → 7,982) and then only +8% (→ 8,635). Caveats: the data is release-dated and research-heavy, and the release lag runs 6–24 months, so this reflects 2024–25 sequencing more than current demand. It also differs from F581, which counted samples (+25%).",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Illumina NovaSeq 6000\" AND first_public>=2025-07-01 AND first_public<=2025-09-30 AND base_count>=60000000000",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is the first Gb-weighted growth rate for public deposits. Earlier items were run or sample counts."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Public deposit data lags Illumina's own conversion by more than two years, so it cannot calibrate the ~5 points of 2027 mix shift. Its trend only shows that conversion is still moving.",
+      "detail": "Public X Gb share was ~34% in Q3'26, against Illumina's reported 55% (Q3'24) and 83% (Q2'26) of HT Gb shipped. On the logistic fit the public share has an odds multiple of 3.9x in the first year and 2.7x in the second, which would put it at ~58% by Q3'27. Illumina's own series added ~+5 points over three quarters (78% → 83%), which extrapolates to ~88–89% by end-2027. That leaves about 5 points of Gb share to convert. Because the 6000 carries ~3.4x the revenue per Gb, that is far more than 5 points of revenue mix. The last two calculations use already-known Illumina data, not SRA.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=(instrument_model=\"Illumina NovaSeq X\" OR instrument_model=\"Illumina NovaSeq X Plus\") AND first_public>=2024-07-01 AND first_public<=2024-09-30",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "It quantifies the size of the public-data lag in Gb terms. D052 did this only for GEO samples."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Measured in Gb, Element AVITI is under 1% of public short-read output (6000+X+AVITI) in Q3'26. Its fast-growing run count is mostly small samples.",
+      "detail": "ENA AVITI runs in Q3'26: 10,684, of which only 1,797 (17%) are 3 Gb or more. Our rough estimate is ~8.9K Gb from runs under 3 Gb plus ~18K Gb from runs of 3 Gb or more (assuming ~10 Gb each), about 27K Gb in total. That is ~0.7% of the ~3.7 Pb on 6000+X. On run share AVITI is ~1.6%.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Element AVITI\" AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=3000000000",
+      "date": "2026-10-12",
+      "source_name": "EMBL-EBI ENA Portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F609 and F611 gave AVITI run counts only. This is the first Gb-weighted share."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "NCBI E-utilities SRA has no working size filter: its MBS/Mbases field returns 0 for every range, and [Instrument] is not a valid field, so earlier SRA 'instrument' counts were All Fields matches. Random UID sampling through esummary was also poor: about 40% of UIDs are 'hup' (held until publication) and only ~13% are NovaSeq. ENA's portal /count with base_count thresholds works well and cheaply. Still to do: (1) fill in Q4'24 through Q2'26 and Q1–Q2'24 with the same 5 bins (8–10 calls per quarter) for a proper quarterly fit; (2) use 6–8 thresholds to tighten the bin midpoints; (3) add a center_name split (e.g. Broad, Sanger, BGI, All of Us/NIH) to separate clinical-adjacent from academic; (4) count Ultima (ENA instrument_model probably 'UG 100'), DNBSEQ-T7 and AVITI Gb by quarter; (5) a direct Gb sum would need ENA /search with fields=base_count and limit=0 downloaded as TSV and summed by a script, which this agent cannot do. A cheap Python job over ENA /search TSV would give exact Gb sums. All figures are release-dated (first_public), so the 6–24 month embargo lag applies.",
+  "leads": [
+    {
+      "name": "ENA Portal API search with base_count (exact Gb sums)",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=instrument_model=\"Illumina NovaSeq 6000\" AND first_public>=2026-07-01 AND first_public<=2026-09-30&fields=base_count,center_name,first_public,instrument_model&limit=0&format=tsv",
+      "access": "Free, no login. A large TSV download that needs a script (Python) to sum.",
+      "labels": ["1A", "1C", "2B"],
+      "rationale": "Gives exact quarterly Gb by platform and by submitting center from Q1'24 to Q3'26, replacing the binned estimates."
+    },
+    {
+      "name": "ENA count for Ultima and DNBSEQ-T7 by base_count",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"DNBSEQ-T7\" AND first_public>=2026-07-01",
+      "access": "Free",
+      "labels": ["2B", "1B"],
+      "rationale": "Rival Gb share. F610 shows T7 runs up 2.7x, and Gb may tell a different story."
+    },
+    {
+      "name": "ENA filtered by center_name (Broad, Sanger, Regeneron, BGI) for 6000 vs X Gb",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=center_name=\"BI\" AND instrument_model=\"Illumina NovaSeq 6000\"",
+      "access": "Free",
+      "labels": ["1A", "2A"],
+      "rationale": "Shows conversion and rival-platform adoption at large accounts that drive discount leverage."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,160 @@
+```json
+{
+  "verdicts": [
+    {
+      "id": "F694",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "against",
+      "note": "This is new: Japan is a regulated jurisdiction not yet covered (the US PMA and EU IVDR cases are already known). I fetched the PMDA PDF but could not extract its text, so the sequencer naming and the Sep 2026 7th-edition date are still unconfirmed and rest on a search snippet. The run-QC thresholds (≥60% PF, ≤2% error, ≥85% ≥Q30) are typical NovaSeq 6000 spec language, which makes the claim plausible. Downgraded to weak. Direction 'against' is correct: a test that stays locked to the 6000 limits 2027 conversion and supports management's view of a long tail."
+    },
+    {
+      "id": "F695",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "Three problems. (1) Zero NovaSeq X series from Chinese institutions is explained by China's 2025 ban on Illumina sequencer exports (unreliable entity list), not by sticky customers. (2) Illumina's reported X-share and Gb metrics exclude China, so this says nothing about the tail the thesis is about. (3) GPL34281 is only the human NovaSeq X platform; GPL34284 (X Plus) is not counted, and X Plus is about two-thirds of human X series. Also, the known list has Greater China at −19% y/y in Q2'26, not −11%."
+    },
+    {
+      "id": "F698",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "The numbers are wrong because the query on instrument_model=\"Illumina NovaSeq X\" leaves out \"Illumina NovaSeq X Plus\". I checked on the ENA count API: X Plus runs of 10 Gb or more were 6,848 in Q3'25 and 14,699 in Q3'26. Combined X+X Plus is therefore 12,329 and 26,266, so the X share of large runs goes from 16.2% to 32.7%, not 7.9% to 17.6%. These totals reconcile exactly with F648 (NovaSeq 76,042 and 80,308). The 6000 counts duplicate F645, and the corrected X share is close to F644 and F629. A corrected version is in the derived items."
+    },
+    {
+      "id": "F699",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "This is a methods limitation (ENA center_name is mostly blank), not evidence about the 6000 tail. It does not support or cut against 1A."
+    },
+    {
+      "id": "F705",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1C",
+      "direction": "against",
+      "note": "New, but weak. Enrollments are small (1,000–4,000), and all of these are studies, not commercial launches. Monogenic cfDNA screening (Natera, BillionToOne) uses targeted amplicon panels, and fetal-cell assays sequence few cells, so the gain in Gb per test is likely modest compared with a shift to WGS. The Chinese WES-NIPT study (n=1,600) is the only clearly Gb-heavy design. It falls outside Illumina's ex-China metrics."
+    },
+    {
+      "id": "F708",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "supports",
+      "note": "This is built on a human X series count that excludes X Plus. I checked GPL34284: 515 human X Plus series in Q3'26, against 251 on GPL34281. The true human X share of 6000+X series in Q3'26 is therefore 766/2,413 = 31.7%, not about 13%. The '+5.4 points in 2027' match to the thesis is an artifact of the undercount. GEO also lags Illumina's own share figures by about 2 years (D052)."
+    },
+    {
+      "id": "F711",
+      "verdict": "reject",
+      "strength": "weak",
+      "label": "1A",
+      "direction": "against",
+      "note": "This restates the known F580 (6000 series up 10–12% y/y, share lost to X growth). It also repeats the X-undercount error: X series are 766, not 251, in Q3'26."
+    },
+    {
+      "id": "F712",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "supports",
+      "note": "I checked the 2023 notice: 'NovaSeq 6000 S4 v1.5 試劑組 (300 循環) 16組' (S4 v1.5 300-cycle reagent kits, 16 sets), award NT$2,929,920, floor NT$2,980,000, sold direct by Illumina Taiwan, awarded 18 Dec 2023. Quantity 16 is labelled 預估需求數量 ('estimated demand'), which suggests a unit-price framework. The award total may therefore not map to 16 delivered kits, and ~US$5.9K per kit (about 64% below the $16,578 Feb 2024 list) is implausibly low. Indicative only. This is 6000 legacy repricing, so it fits the known 1A list-cut evidence (Salk, UConn) as much as 1B discount acceleration."
+    },
+    {
+      "id": "F713",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1B",
+      "direction": "against",
+      "note": "New, but this is NextSeq 2000 P4 XLEAP, mid-throughput, sold through a distributor (Genetech) with a single bidder, so it is a weak test of high-throughput discounting. The P3 set at NT$235K is priced above the P4 at NT$201K, which suggests different cycle counts. Per-read comparisons are not possible without the kit spec."
+    },
+    {
+      "id": "F715",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "1C",
+      "direction": "against",
+      "note": "No brand is named, the distributor changed, and the contract may bundle capex or instruments. NTUH is in Taiwan, which falls inside Illumina's ex-China metrics (Greater China includes Taiwan, but the China carve-out is mainland). This is one account, so it is anecdotal for 1C. Keep as a weak signal of large WGS program demand."
+    },
+    {
+      "id": "F721",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2B",
+      "direction": "against",
+      "note": "This is partly new because it is specific to RNA-seq (counting) series. It overlaps D058, the known public research rebound. Counts are series, not Gb. D060 shows Gb-weighted public NovaSeq output grew only about 12% while run counts grew 42%, so a +42% series spike overstates volume. There was also no per-submitter check. Release lag means this reflects roughly 2025 lab activity."
+    },
+    {
+      "id": "F727",
+      "verdict": "accept",
+      "strength": "weak",
+      "label": "2A",
+      "direction": "supports",
+      "note": "New anecdote, but the direction is mixed. It shows research buyers will flock to a very low price per sample, which supports price sensitivity. It also shows volume responding to price, which cuts against 'less volume-elastic'. The GenomeWeb quote is a snippet (the article returned 403), and 'barely profitable' is the CEO's claim. The reads stay on Illumina, so Illumina's per-Gb revenue depends on the provider's own negotiated price, which is not disclosed."
+    }
+  ],
+  "derived": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "With X Plus included, the NovaSeq X share of public ENA runs of 10 Gb or more doubled from 16.2% in Q3'25 to 32.7% in Q3'26, while 6000 large runs fell 15%.",
+      "detail": "ENA count API, runs of 10 Gb or more by first_public quarter. In Q3'25 there were 63,713 runs on the 6000, 5,481 on the X and 6,848 on the X Plus, so the X family was 12,329/76,042 = 16.2%. In Q3'26 there were 54,042, 11,567 and 14,699, so the X family was 26,266/80,308 = 32.7%, a gain of +16.5 pts in a year. X Plus is about 56% of X-family large runs in both years. Public data is research-heavy and lags, so this tracks the research tail more than the clinical one.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model=\"Illumina NovaSeq X Plus\" AND first_public>=2026-07-01 AND first_public<=2026-09-30 AND base_count>=10000000000",
+      "date": "2026-10-12 (data Q3'25, Q3'26)",
+      "source_name": "EMBL-EBI ENA portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Corrects F698, whose X-only filter halved the share. These run-count shares reconcile exactly with the F648 NovaSeq totals.",
+      "based_on": ["F698", "F645", "F648", "F644"]
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Any public-repository mix-shift count that filters only on the plain 'NovaSeq X' platform misses one-half to two-thirds of X output, so the X-only GEO and ENA items (F695, F698, F708, F711) are invalid as stated.",
+      "detail": "X Plus accounts for 6,848/12,329 = 55.5% (Q3'25) and 14,699/26,266 = 56.0% (Q3'26) of X-family ENA runs of 10 Gb or more. In GEO human series for Q3'26 it accounts for 515/766 = 67% (GPL34284 vs GPL34281). With X Plus included, the human X share of 6000+X series in Q3'26 is 766/2,413 = 31.7%, consistent with F578's 30.5% for human plus mouse. The projected '~19% by Q4'27' path is therefore spurious.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL34284[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO E-utilities; EMBL-EBI ENA portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "strong",
+      "why_new": "This is a data-quality correction confirmed against live counts. It prevents the corpus from taking in understated X shares.",
+      "based_on": ["F695", "F698", "F708", "F711", "F578"]
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In public GEO series, the X share gain is slowing but is still about +12 pts a year, and a simple extension gives roughly +9 to +11 pts for 2027 in research-heavy public data.",
+      "detail": "From F578 (human plus mouse series), the X share of 6000+X was 4.6% (Q3'24), 18.4% (Q3'25) and 30.5% (Q3'26), which is +13.8 then +12.1 pts. If the gain keeps shrinking by about 1.5–2 pts a year, the X share reaches about 40–42% by Q3'27. GEO lags Illumina's reported research Gb share (92% on the X) by about 2 years (D052). This is therefore a lagging read on research conversion, not a forecast of clinical points, and it does not directly validate the thesis's +5 points.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=GPL24676[ACCN]+AND+gse[ETYP]+AND+2026/07/01:2026/09/30[PDAT]&retmax=0",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO; derived projection",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Replaces the rejected F708 projection with a trend that includes X Plus.",
+      "based_on": ["F578", "D052", "F708"]
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "If NHRI's Dec 2023 award really covers 16 S4-300 kits, this 6000-only account paid about US$2.0/Gb, roughly 64% below the 2024 S4 list and level with the 25B's own list per Gb.",
+      "detail": "NT$2,929,920 / 16 = NT$183,120 per kit, about US$5.9K at ~31 NT$/US$, or about $1.97/Gb on ~3,000 Gb. The Feb 2024 S4-300 list was $16,578 ($5.53/Gb), and the top Open Offer net was about $4.31/Gb (22% off). The 25B-300 list was $16,000 / 8,000 Gb = $2.00/Gb. The notice labels quantity as 'estimated demand' (a framework award), so the per-kit price is unconfirmed. The account's kit purchases fell from 57 (2020) to 16 (2023).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=112A0C0676",
+      "date": "2023-12-18",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API",
+      "source_type": "procurement",
+      "quote": "NovaSeq 6000 S4 v1.5 試劑組 (300 循環) 16組",
+      "strength": "weak",
+      "why_new": "First per-Gb comparison of a direct Illumina 6000 award in Taiwan against list and the Open Offer tiers.",
+      "based_on": ["F712", "F538", "F540", "D054"]
+    }
+  ]
+}
+```

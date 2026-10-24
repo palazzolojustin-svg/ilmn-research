@@ -1,0 +1,43 @@
+```json
+{
+  "status": "productive",
+  "notes": "EDGAR full-text search (efts.sec.gov/LATEST/search-index) is reachable without a login. It returns filing metadata only (filer, form, date), with no text snippets. A 'NovaSeq 6000' query for 2025-01-01 to 2026-10-12 returned only one filing, the Caris FY25 10-K (filed 2026-03-03). That filing says Caris still runs both the 6000 and the X. A 'NovaSeq X' query returned 18 filings: Illumina (12), Adaptive (4), Aardvark (1) and Caris (1). BillionToOne, Natera, GeneDx, Myriad, Guardant, Tempus, Personalis, Exact and Veracyte do not name the NovaSeq X in any 10-K, 10-Q, S-1 or 8-K in this window. The full-text index also appears to miss some filings, so this absence is not proof. In short, large clinical labs rarely disclose their fleet mix in SEC filings. The only fleet-mix statement found is Caris's, and it supports the parallel-running (permanent tail) view. I did not get to IR decks or investor-day decks within the call budget.",
+  "how_to_mine": "1) Open the Caris FY25 10-K (cai-20251231.htm, ~544K characters) with WebFetch at offsets 200000, 300000 and 400000. Look for sequencer counts, capacity and cost-of-revenue discussion. Also check the Caris 10-Qs for Q1 and Q2 2026 (search efts for 'NovaSeq' with entity Caris). 2) Open Adaptive's 10-K adpt-20251231.htm and the Feb 2026 and Aug 2025 8-K EX-99.1 exhibits. Look for any statement on the X transition and the gross-margin effect, and note which platforms Adaptive still runs. 3) Open the Aardvark 8-K EX-99.2 (2025-11-04) and check whether it is a CRO or lab sequencing agreement. 4) For the other labs, search efts by company name plus 'Illumina sequencer', or 'NovaSeq' without 'X'. Try 'NextSeq' and 'Illumina' for BillionToOne and Natera in the Q1 2026 10-Qs, because the exact phrase may be tokenised differently. 5) Fetch the IR investor-day decks directly, e.g. Guardant, Natera, GeneDx and Tempus 2025-26 PDFs, and search for 'NovaSeq'.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Caris, an Illumina Open Offer customer, still describes its Arizona labs as running both NovaSeq 6000 and NovaSeq X as of its FY25 10-K (filed Mar 2026).",
+      "detail": "Under 'Our Laboratory Infrastructure', the Caris FY25 10-K (filed 2026-03-03) says its labs use NovaSeq 6000 and NovaSeq X sequencing systems. It gives no migration timeline, no fleet counts and no cost-per-test saving. It is the only filing in the EDGAR full-text hits for 'NovaSeq 6000' from Jan 2025 to Oct 2026. That means no other named clinical lab disclosed a 6000 fleet in SEC filings in the period. This is consistent with a long parallel-running tail at a large clinical account that is on the Open Offer (price-protected) contract, although it quantifies nothing. The statement was read from a fetched copy of the filing and is paraphrased.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2019410/000201941026000016/cai-20251231.htm",
+      "date": "2026-03-03",
+      "source_name": "SEC EDGAR, Caris Life Sciences FY25 10-K",
+      "source_type": "filing",
+      "quote": "NovaSeq 6000 and NovaSeq X sequencing systems",
+      "strength": "weak",
+      "why_new": "The known list had only Caris's 'over 50 NovaSeqs' (Mar 2025) and its Open Offer terms. This is the first named dual-platform (6000 plus X) statement in a 2026 filing."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "EDGAR full-text search shows almost no US clinical lab disclosing 6000-to-X migration plans or cost savings in 2025-26 filings, so the tail cannot be tracked from filings.",
+      "detail": "A phrase search on 'NovaSeq X' (10-K, 10-Q, S-1, 8-K, 2025-01-01 to 2026-10-12) returned 18 filings: Illumina (12), Adaptive (4), Aardvark (1) and Caris (1). None came from Natera, GeneDx, Guardant, Myriad, BillionToOne, Tempus, Personalis, Exact or Veracyte. A 'NovaSeq 6000' search returned only Caris. The absence of any lab filing quantifying savings from moving to the X means the evidence on tail permanence must come from decks, calls and job postings.",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22NovaSeq%20X%22&forms=10-K,10-Q,S-1,8-K&dateRange=custom&startdt=2025-01-01&enddt=2026-10-12",
+      "date": "2026-10-12",
+      "source_name": "SEC EDGAR full-text search",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This maps which customers' filings name the X or the 6000, so later agents need not re-search the dry filers."
+    }
+  ],
+  "new_candidates": [
+    "Adaptive Biotechnologies 10-K FY25 (adpt-20251231.htm) and the Feb 2026 and Aug 2025 8-K EX-99.1 exhibits: they name NovaSeq X and may give an X-transition margin bridge, plus the remaining non-X platforms.",
+    "Aardvark Therapeutics 8-K EX-99.2 (2025-11-04): names NovaSeq X, an odd hit; check whether it is a sequencing services contract with pricing.",
+    "Caris FY25 10-K text beyond character 200000 (MD&A cost of revenue, capacity expansion) and the Caris Q1 and Q2 2026 10-Qs.",
+    "IR decks (Guardant, Natera, GeneDx, Tempus 2025-26 investor days) searched for 'NovaSeq': not reached in this probe."
+  ],
+  "apify_requests": []
+}
+```

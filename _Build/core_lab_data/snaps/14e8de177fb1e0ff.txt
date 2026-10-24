@@ -1,0 +1,49 @@
+Illumina Platform Library Preparation and Sequencing | Institute for Genomic Medicine
+Skip to main content
+Institute for Genomic Medicine
+Main navigation
+Home
+Contact
+Mission
+Calendar
+Gift Opportunities
+News
+Upcoming Events
+IGM Seminar Series
+Lunch & Learn
+Faculty
+Genomics Center
+Services
+Rates
+Data Transfer with Globus
+Cancer Genomics
+Sample Submission
+New Customer (non-UCSD)
+10x Genomics Chromium X
+CytAssist Visium
+Miseq i100 Self Service
+Covaris
+Contact
+Bioinformatics
+O'Connor Twins Resource
+dbGaP
+Bioresource
+Metabolomics
+Additional Information
+Home
+Illumina Platform Library Preparation and Sequencing
+Sequencing
+NovaSeq X Plus Sequencing:
+The IGM Genomics Center now supports sequencing on the Illumina NovaSeq X Plus. Please see available run configurations and proposed pricing below (subject to approval by rates committee).
+Please be sure to acknowledge the NIH Shared Instrumentation Grant that funded the NovaSeq purchase:
+“This publication includes data generated at the UC San Diego IGM Genomics Center utilizing an Illumina NovaSeq X Plus that was purchased with funding from a National Institutes of Health SIG grant (#S10 OD026929)
+Please link your publications to the grant using My Bibliography: Read the NIH help pages on managing compliance using My NCBI
+MiSeq i100 Sequencing
+The MiSeq i100 desktop sequencer is available for focused applications such as targeted gene sequencing, metagenomics, small genome sequencing, etc. Read lengths up to 600 bp (2X300) are currently supported.
+For self service use, please sign up with this link. Thanks!
+Genomics Center
+Services
+Rates
+Data Transfer with Globus
+Cancer Genomics
+Sample Submission

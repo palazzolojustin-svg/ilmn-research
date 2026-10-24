@@ -1,0 +1,43 @@
+{
+ "core_name_on_page": "MBCF: Genomics",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X 10B 300 cycle LANE (library submitted for 100M NovaSeq X reads)",
+   "unit": "per_million_reads",
+   "quantity": 100,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "internal",
+   "price": 250,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 100,
+   "stated_output_unit": "M_reads",
+   "line_quote": "$250/100M reads (internal)"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "NovaSeq X 10B 300 cycle LANE (library submitted for 100M NovaSeq X reads)",
+   "unit": "per_million_reads",
+   "quantity": 100,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "external_academic",
+   "tier_raw": "external",
+   "price": 300,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": 100,
+   "stated_output_unit": "M_reads",
+   "line_quote": "$300/100M reads (external)"
+  }
+ ],
+ "_model": "sonnet-verified",
+ "_reason": "implausible $/Gb 833.33 for NSX_10B (250.0 USD per per_million_reads x100.0)"
+}

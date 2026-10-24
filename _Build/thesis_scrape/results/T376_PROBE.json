@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "I stopped early. The listed URL (gov.uk/government/collections/spending-over-25-000) is HMRC's own monthly spend-over-£25k index. It has no NHS trusts and no links to trust files. Two searches for spend-over-£25k files from the target trusts (GOSH, Guy's and St Thomas', Manchester, Birmingham Women's and Children's, Cambridge, Royal Marsden, Newcastle) returned none. The trust files that did surface were from unrelated trusts (Lincolnshire, Isle of Wight, Solent, LCHS). The only Illumina Cambridge Ltd rows seen were in a 2018 Public Health England file. That file is too old to show a trend, and its rows are tiny (about £0.5K and £6.6K). Spend-over-£25k files are also a weak fit for this thesis. They show only single payments above £25k, so a trust that buys through framework distributors, or pays many smaller invoices, will understate its Illumina spend. They give no volume or price split, and they have no per-test denominator. Most big GLH trusts publish transparency data only as PDFs or sporadic files on their own sites, not as a consistent gov.uk collection. I did not open or sum any trust file, so I have no trend to report.",
+  "how_to_mine": "If this is retried, skip gov.uk. Go to each trust's own 'freedom of information / transparency / payments over £25,000' page. Or search data.gov.uk and ckan.publishing.service.gov.uk for each trust name plus 'spend over 25k'. Download the monthly CSVs into a clean directory, filter the supplier column case-insensitively for 'illumina', 'element bio', 'oxford nanopore' and 'complete genomics', and sum by quarter. A better route is probably the NHS England / NHS Supply Chain / Crown Commercial Service genomics framework award notices on Find a Tender and Contracts Finder. They name Illumina as supplier, with contract values and dates.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Find a Tender / Contracts Finder awards to Illumina by NHS genomics bodies (NHS England Genomics, NHS Supply Chain sequencing consumables frameworks), 2023-2026",
+    "Scottish NHS payments over £25k PDFs (nss.nhs.scot) filtered for Illumina; they are quarterly and already published in a consistent format"
+  ],
+  "apify_requests": []
+}
+```

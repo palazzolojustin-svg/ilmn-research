@@ -1,0 +1,393 @@
+For research use only
+Our journey to empower science
+Element is founded by Molly He, Michael 
+Previte and Matt Kellinger, three scientists 
+seeking to disrupt genomics by reinventing 
+every “element” of sequencing
+Company announces 
+Series A financing led 
+by Foresite Capital and 
+Venrock
+Element closes acquisition of Loop 
+Genomics, enabling both short and 
+long-read sequencing on the same 
+desktop machine
+Element opens new 
+headquarters of 
+Alexandria Tech Center 
+in San Diego
+Element announces first set of 
+global distributors, showing 
+strong demand for AVITI 
+around the world
+Element invents Avidity 
+Sequencing, enabling high 
+accuracy with low reagent 
+consumption
+Element closes $276M Series 
+C financing to deliver on the 
+promise of disruptive 
+sequencing
+Element launches AVITI, 
+making affordable, 
+high-quality sequencing a 
+reality for labs of all sizes
+Element announces the $200 
+genome on AVITI, delivering the 
+highest quality sequencing at 
+an unprecedented low cost
+Element launches new 
+Cloudbreak chemistry, 
+advancing Avidity with 
+even faster runtimes
+JULY 2017 JUNE 2019 FEBRUARY 2022 MAY 2022 APRIL 2023
+MAY 2019 JUNE 2021 MARCH 2022 JANUARY 2023 JUNE 2023
+For research use only
+For research use only
+AVITI 
+Launch
+2x150
+2x75 Kit
+Cloudbreak 
+Chemistry
+2x150 2x75
+Low output Kits
+Individual Lane 
+Addressability
+2x150 2x75
+Cloudbreak
+Freestyle
+Linear library loading
+Cloudbreak 
+UltraQ
+AVITI24
+Trinity
+On-FC 
+Enrichment
+2022 2023 2024
+Cloudbreak 
+2x300 
+2025
+AVITI past, present, future
+For research use only
+Innovations in Next Generation Sequencing at the NUSeq Core
+Solomon Hailu, PhD, MSc      
+Applications Technical Specialist     
+For research use only
+• Introduction
+• Avidity Base Chemistry (ABC)
+• Performance and Applications
+• Upcoming Innovations
+Outline
+For research use only
+51 h
+1000
+# of Reads
+Millions
+2x75 2x150
+Sequencing Kits
+Cycles
+500 2x75 2x150
+250 2x150
+38 h24 h
+31 h20 h
+27 h
+High
+Med
+Low
+300 Gb150 Gb
+150 Gb75 Gb
+75 Gb
+• Dual independent flow cells
+• Two addressable lanes per flow cells
+• Q30 >90%, no PCR error propagations
+• Negligible index hopping
+• Low AT/GC bias and duplicate rates, 
+• Low-diversity samples (<5% PhiX)
+• Simultaneous Single Cell Multiomics + Morphology*
+• Long insert and flexible Library Preparation
+Features
+Applications
+• Single cell and bulk RNA sequencing
+• WGS / Trios / lpWGS / liquid biopsy
+• Exomes and panels
+• Epigenetics: Hi-C, ATAC-Seq, ChIP-Seq 
+      (CUT&RUN / CUT&Tag)
+• Low diversity and targeted sequencing
+• Metagenomics, HLA typing and immune profiling
+• Long-read sequencing - 6 Kb with LoopSeq
+2x300
+60 Gb
+2x300
+180 Gb
+AVITI LT - Med and Low flow cells 
+High 600 cycle (300M reads)
+Med 600 cycle (100M reads)
+60 h
+Element’s AVITITM - Empowering researchers with flexible genomic solutions
+100M to 500M reads per side
+100M to 1B reads per side
+ Expert HD Mode
+(20-70% more reads)
+*AVITI + Cellular Profiling
+* Coming H2
+For research use only
+Element’s AVITITM - Empowering researchers with flexible genomic solutions
+For research use only
+Our partnerships make end-to-end application workflows accessible 
+Prepare Sequence Analyze
+Epigenetics, 
+WGS Trios, lpWGS, WES, 
+RNA sequencing, 
+Single cell genomics
+For research use only
+For research use only
+Elevate library prep simplifies your workflow with onboard circularization
+DNA
+or
+RNA
+Third-Party Library Kit
+Adept Library 
+Compatibility Kit
+(No additional PCR)
+Rapid PCR-Plus
+Elevate
+Workflow
+Visit https://www.elementbiosciences.com/resources/compatible-kits-adept-library for an up-to-date list of compatible third-party kits
+The Adept workflow enables adaption of existing libraries without any changes to the library prep
+DNA
+or
+RNA
++
+Third-Party Kit
+or 
+Elements*
+Elevate 
+Indexes & 
+Adapters
+Circularize on Flow Cell
+•DNA library prep kit
+•RNA library prep kit
+Cloudbreak 
+Freestyle Kit#
+(Circularize 
+on Flow Cell)
+For research use only
+Library structure
+For research use only
+Cloudbreak freestyle delivers same high data quality with easier workflow
+Q30
+Q40
+Washington University
+ University of Washington
+Freestyle 1 Freestyle 2Cloudbreak
+For research use only
+Avidity BaseChemistry
+Reagent Cost, Accuracy, 
+Turnaround
+Flow Cell / Surface
+Reagent Cost, Accuracy
+DNA Amplification
+Ease of Use, Reagent 
+Cost, Accuracy
+Base Calling
+Accuracy, Throughput
+Workflow
+Ease of Use, Paired End, 
+Low Sample Input
+For research use only
+Every aspect of the DNA sequencing process redesigned to fit customer needs
+Accelerating 
+Science 
+Through 
+Innovation
+Instrumentation
+Throughput, COGS 
+Reduction
+For research use only
+“Stretched” Element Polonies
+Limited throughput,
+limited carrier to noise
+Low binding surface makes signals pop, like bright 
+stars against the night sky
+Low-binding surface chemistry: high signal to noise ratio even at higher density
+For research use only
+103 copies
+||||||||||
+DNA fragment to be sequenced
+Adapter
+ü Index hopping undetectable
+Rolling Circle Amplification (RCA)
+Reduces PCR errorsby copying the original
+Copy 1
+Copy 2
+Copy 3
+Copy 4
+Copy 5
+Copy 6
+Copy N
+Element’s ABC workflow – Rolling circle amplification brings accuracy benefits
+Flow cell Surface Polony
+Link to Nature 
+Biotechnology Paper
+For research use only
+41
+ABC leverages multivalent binding increasing data quality and reducing cost
+Fluorescent Core
+Long Flexible arm
+Nucleotide
+Engineered nucleotide linker
+For research use only
+ElemBio Cloud: a transparent solution that enables end-to-end NGS workflow
+Integrated solution for:
+Remote Run Setup
+Run Monitoring Visualizations
+Connection to your cloud storage
+Workflows for data analysis
+For research use only
+AVITI Performance
+For research use only
+No on-instrument PCR limits AT/GC bias, providing more even coverage
+GC Content
+AVITI 2 x 300 variant-calling accuracy vs GC content
+For research use only
+Negligible index hopping and duplication rate with ABC Sequencing
+Increase your effective coverage using AVITI
+NovaSeq6000
+NextSeq2000
+For research use only
+Exceptional performance across homopolymer regions
+For research use only
+For research use only
+Advantages of insert size on mapping and variant calling accuracy
+Accurate human genome analysis with Element Avidity sequencing
+Andrew Carroll1 , Alexey Kolesnikov1 , Daniel E. Cook1 , Lucas Brambrink1 , Kelly N. Wiseman2 , Sophie M. Billings2 , Semyon Kruglyak2 , Bryan R. Lajoie2 , June Zhao2 , Shawn E. Levy2 , 
+Cory Y . McLean1 , Kishwar Shafin1 , Maria Nattestad1 , Pi-Chuan Chang1 
+1. Google LLC, Mountain View CA, USA 
+2. Element Biosciences, San Diego, CA, USA
+For research use only
+AVITI 2 x 300 Kit provides leading data quality
+PCR-free Elevate and Illumina fragment libraries for HG001 human control DNA generated using standard protocols. Elevate library sequenced on four separate runs at Element Biosciences;Illumina library sequenced twice via service 
+provider. QC metrics from Illumina runs passed or exceeded specifications.Q values processed using GATK BaseRecalibrator and mean value across replicates plotted across paired reads for both platforms. Data from both platforms 
+aligned and variant-calling performed using Google DeepVariant pipeline. Total errors plotted and binned by error type.
+For research use only
+Applications 
+For research use only
+TSS
+H3K4me3H3K27me3
+CpG
+H3K27me3
+PolII
+Hi-C (Maps genomic DNA interactions)
+mRNA, RNA modifications, ncRNA
+5’ capped
+3’ AAAA
+mRNA
+Approaches to investigate mechanisms of gene regulation
+Combined with WGS and Immune profiling, can lead to better understanding of disease mechanisms
+Proteins (+modifications)Aptamer/antibody based
+For research use only
+Benchmarking HG005 across coverage
+AVITI produces better candidates
+For research use only
+Benchmarking HG005 across coverage
+AVITI produces better candidates
+Twist exome panel PASS vs ALL Candidate SNP & INDEL
+Aviti 1Aviti 2Aviti 3Aviti 4Aviti 5Aviti 6Aviti 7Aviti 8ILMN 1ILMN 2ILMN 3ILMN 4ILMN 5ILMN 6ILMN 7ILMN 8
+-6000
+-5000
+-4000
+-3000
+-2000
+-1000
+0
+1000
+Count
+PASS / INDEL / FN
+PASS / INDEL / FP
+PASS / SNP / FN
+PASS / SNP / FP
+ALL / INDEL / FN
+ALL / INDEL / FP
+ALL / SNP / FN
+ALL / SNP / FP
+AVITI ILMN
+For research use only
+UHR Samples 
+on P1
+ P1 v External
+R2 = 0.979R2 = 0.993
+Element bulk RNA sequencing produces data that is replicable and consistent
+Platform-to-platform: 
+target R2  > 95%
+actual R2 > 97.9%
+Element Run 1
+Element Run 2
+External
+Element
+Sample-to-sample: 
+target R2  > 98%
+actual R2 > 99.3%, 
+For research use only
+Element bulk RNA sequencing produces better data
+For research use only
+10X CellrangerCount Metrics (v7.0) CPP Expectation AVITI 10k cells AVITI 1k cells
+Valid Barcodes >90% 97.5% 97.5%
+Reads mapped confidently to Exonic 
+Regions >50% 53.0% 53.8%
+Reads mapped confidently to 
+Transcriptome
+>40% 74.7% 77.8%
+Fraction Reads in cells >80% 95.5% 92.6%
+Q30 bases in barcode >85% 99.5% 99.5%
+Q30 bases in RNA read >75% 98.6% 98.8%
+Mean Reads per cell >50,000 61,32668,766
+Median Genes per cell >1700 2,910 2,951
+Estimated number of cells +/- 20% 8,513 922
+Sequencing data available for download on our website: www.elementbiosciences.com
+Element is a certified 10X genomics compatible partner
+10K and 1K Human PBMC Reference from 10x Genomics
+For research use only
+LoopSeqTM: On-demand access to long reads with AVITI
+Targeted Sequencing for ACMG/PGx/CMRG genes, off-target assessment of CRISPR, RNA isoform discovery
+For research use only
+Upcoming Innovations 
+For research use only
+Improved accuracy increases confidence in variant calling
+UltraQ: High-Quality Kit
+>70% Q50; coming H1 ’2024
+Access here
+•Reduced coverage sequencing
+•Identification of low frequency alleles
+•Improvements to the reference genome
+oHG002 “Q100” project
+For research use only
+For research use only
+AVITI surface chemistry can be adapted to create application-specific flow cells
+Custom target 
+capture flow cell
+Target Enrichment Sequencing 
+Custom 
+protein surface
+Customer 
+antibodies
+Protein/
+Analyte detection
+Protein or Cell Capture
+FACS
+Single Cell
+Alternative surface 
+chemistry
+Novel Applications
+For research use only
+Trinity: On-flow cell targeted sequencing
+•Lower sample input
+•Lower bait requirements and improved performance
+•Minimal hand-on time (No bead handling and post-
+hybridization PCR)
+•Coming Q3 ‘2024
+Before
+Trinity
+ Trinity Plus
+After
+For research use only

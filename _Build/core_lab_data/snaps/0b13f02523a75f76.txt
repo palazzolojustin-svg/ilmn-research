@@ -1,0 +1,62 @@
+Pricing | Genomics Core | ECU
+Skip To Main Content
+Report an Accessibility Barrier
+Accessibility
+|
+Search
+Submit Search
+Resources
+Email
+Canvas
+Banner
+PiratePort
+PirateID
+IT Help
+AI at ECU
+The Pirate Experience
+Work Request
+Directory
+Maps
+Virtual Tour
+A-Z Index
+Academic Calendar
+Event Calendar
+Catalog
+Genomics Core
+Resources
+Publications
+Pricing
+NGS projects are usually complex and have multiple options, depending on various project purposes. Please reach out to the BIG Core for an initial consultation before the start of your NGS project, for any questions regarding the whole processing, and to receive a bespoke estimated cost.
+Effective on July 1st, 2025, the prices are adjusted to reflect annual price increases of reagents by companies. The prices below include necessary reagents, processing fees, and QC of starting materials and prepared libraries.
+Description | Internal | External Federal | External Non-Profit | External Profit | |
+RNAseq Library Prep | $160.00 | $160.00 | 192 | 241.6 | |
+Small RNA Library Prep | $250.00 | $250.00 | 300 | 377.5 | |
+Nextera DNA Library Prep | $100.00 | $100.00 | 120 | 151 | |
+MiSeq v2 50 cycles | $1,498.90 | $1,498.90 | 1798.68 | 2263.339 | |
+MiSeq v2 300 cycles | $1,920.10 | $1,920.10 | 2304.12 | 2899.351 | |
+MiSeq v2 500 cycles | $2,159.30 | $2,159.30 | 2591.16 | 3260.543 | |
+MiSeq v3 150 cycles | $1,664.00 | $1,664.00 | 1996.8 | 2512.64 | |
+MiSeq v3 600 cycles | $2,810.60 | $2,810.60 | 3372.72 | 4244.006 | |
+NextSeq 2000 P1-100 cycles | $936.00 | $936.00 | 1123.2 | 1413.36 | |
+NextSeq 2000 P1-300 cycles | $1,300.00 | $1,300.00 | 1560 | 1963 | |
+NextSeq 2000 P1-600 cycles | $1,976.00 | $1,976.00 | 2371.2 | 2983.76 | |
+NextSeq 2000 P2-100 cycles | $1,419.60 | $1,419.60 | 1703.52 | 2143.596 | |
+NextSeq 2000 P2-200 cycles | $2,668.90 | $2,668.90 | 3202.68 | 4030.039 | |
+NextSeq 2000 P2-300 cycles | $3,538.60 | $3,538.60 | 4246.32 | 5343.286 | |
+NextSeq 2000 P2-600 cycles | $3,851.90 | $3,851.90 | 4622.28 | 5816.369 | |
+NextSeq 2000 P3-100 cycles | $3,031.60 | $3,031.60 | 3637.92 | 4577.716 | |
+NextSeq 2000 P3-200 cycles | $4,197.70 | $4,197.70 | 5037.24 | 6338.527 | |
+NextSeq 2000 P3-300 cycles | $5,596.50 | $5,596.50 | 6715.8 | 8450.715 | |
+NextSeq 2000 P4-100 cycles | $3,510.00 | $3,510.00 | 4212 | 5300.1 | |
+NextSeq 2000 P4-200 cycles | $4,963.40 | $4,963.40 | 5956.08 | 7494.734 | |
+NextSeq 2000 P4-300 cycles | $6,318.00 | $6,318.00 | 7581.6 | 9540.18 | |
+Sequel II Iso-Seq Library Prep | $300.00 | $300.00 | 360 | 453 | |
+Sequel II HiFi Library Prep | $350.00 | $350.00 | 420 | 528.5 | |
+Sequel II Shotgun Metagenomic Profiling | $275.00 | $275.00 | 330 | 415.25 | |
+PacBio Sequel IIe Sequencing | $2,500.00 | $2,500.00 | 3000 | 3775 | |
+10× Genomics scRNAseq Library Prep | $2,500.00 | $2,500.00 | 3000 | 3775 | |
+10× Genomics Multiome scATAC + scRNAseq | $4,000.00 | $4,000.00 | 4800 | 6040 | |
+10× Genomics Visium HD 6.5mm | $4,000.00 | $4,000.00 | 4800 | 6040 | |
+InnovaPrep Concentrating Pippet Select Filtering | $50.00 | $50.00 | 60 | 75.5 | |
+TapeStation DNA/RNA Analysis | $10.00 | $10.00 | 12 | 15.1 | |
+BluePippin DNA Separation | $100.00 | $100.00 | 120 | 151 | |

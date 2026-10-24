@@ -1,0 +1,134 @@
+Preferred Ultima UG 100 Pricing for 10x Genomics Projects | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Breadcrumb
+Home
+In the News
+Preferred Ultima UG 100 Pricing for 10x Genomics Projects
+News
+Events
+In the News
+Preferred Ultima UG 100 Pricing for 10x Genomics Projects
+$500 off Ultima UG 100 wafers
+For 10x Genomics single-cell and spatial projects
+The UMN Genomics Center is pleased to announce new preferred pricing on Ultima Genomics sequencing for 10x Genomics single-cell and spatial projects. 10x customers can send compatible 10x Genomics libraries to the UMGC for sequencing on the Ultima UG 100 platform at preferred rates, with savings of $500 per wafer (10–12B reads) or $250 per half-wafer (5–6B reads). This preferred pricing is available to both UMN and external researchers.
+By pairing 10x Genomics’ high-resolution assays with Ultima’s ultra-high-throughput UG 100 sequencer, researchers can analyze their samples more cost-effectively or scale up to larger, more complex single-cell and spatial studies.
+Ultima UG 100 Preferred Pricing
+UG 100 Sequencing Costs | UMN | External |
+Per wafer. 10–12 billion reads. | $2,704 | $3,188 |
+Per half wafer. 5–6 billion reads. | $1,857 | $2,175 |
+Prices in this table reflect $500 off per wafer (or $250 per half-wafer) compared with standard UMGC Ultima UG 100 pricing.
+To learn more
+Contact your local 10x Genomics Account Executive. (For UMN researchers: Benton Veire ([email protected]) is the UMN account manager).
+GENOMICS CENTER
+Dr. Kenneth Beckman, Director
+2231 6th Street SE
+Minneapolis, MN 55455
+[email protected]
+Contact Us
+Locations
+About the UMGC
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

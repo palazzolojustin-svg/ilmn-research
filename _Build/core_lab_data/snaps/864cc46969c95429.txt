@@ -1,0 +1,49 @@
+Ultima UG100 Sequencing | Cornell Institute of Biotechnology | Cornell University
+Skip to main content
+Search:
+Submit search
+Search filters
+Search This site
+Search Cornell
+Main Menu
+Toggle Search Form
+Cornell Institute of Biotechnology
+Home
+About Us
+Leadership
+People
+Facility and Institute Advisory Boards
+Spotlights
+Organization
+Our History
+Contact Us
+Events and Office Hours
+Core Facilities (BRC)
+Services
+Applications
+Instruments
+Facilities
+Science Programs Sponsorship
+Core Facilities (BRC)
+Services
+Applications
+Instruments
+Facilities
+Breadcrumb
+Home
+Facilities (BRC)
+Services
+Ultima UG100 Sequencing
+Services are available now in a pre-launch phase, but are not yet listed in our ordering system. To request more information, including pricing details and how to place an order, please email ‘genomics@cornell.edu’ and include the NGS platform of interest.
+These sequencing runs are sent out to external providers but supported by the Genomics Facility (including local ordering/sample drop-off, QC checks and data management/distribution/archive), and without the need to acquire a quote/PO outside Cornell.
+Ultima Genomics' UG 100 is a high throughput sequencer that replaces the standard flow cell with an open silicon wafer and a "flow-based," non-terminating chemistry that adds one base at a time across the whole surface. The UG100 enables an output of 10 to 12 billion reads per wafer at a cost of about $0.24 per million reads. Sequencing may be ordered for either ½ wafer (5-6 billion reads) or a whole wafer (10-12B). Importantly, the platform natively produces single-end reads only which are bioinformatically split into paired-end reads. Additionally, standard Illumina-style libraries aren't natively compatible and must be converted, appending Ultima-compatible adapter sequences through an extra PCR step, before they can be sequenced on the UG 100 (service available for additional charge).
+Facility
+Genomics Facility
+Terms of service
+Privacy Policy
+Data retention policy
+Data return time
+Acknowledgments in publications
+Authorship
+Payment options and billing policies
+Creating an Account to Access BRC Services

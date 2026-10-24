@@ -1,0 +1,30 @@
+```json
+{
+  "status": "dry",
+  "notes": "bmc.mit.edu did not resolve (DNS error ENOTFOUND from WebFetch), so I could not open the official pricing or news pages. The only reachable material is the OpenWetWare mirror (openwetware.org/wiki/BioMicroCenter:Pricing, last edited 15 Apr 2025). It shows FY2025-era rates, with no FY2026/FY2027 prices, no 6000 retirement notice and no new-instrument news. I don't have the F1040-F1046 baseline text, so I could not diff against it. These mirror numbers are probably already in that baseline, since the core's 6000 and AVITI rates are old. NovaSeq X is not priced on the page: it says 'pricing in ilabs' and that sequencing runs at a sister shared resource. I found no price for the sister facility.",
+  "how_to_mine": "Retry bmc.mit.edu from a different network or try the www. prefix, or use web.archive.org/web/2026*/bmc.mit.edu* for archived pricing and news pages. If reachable, read the FY2026 and FY2027 pricing pages and the news page. Identify the sister X facility (probably the Koch Institute or Broad-adjacent core) and check its rate card. Check the Wayback Machine for the AVITI and NovaSeq 6000 tables in the FY2026 versions and compare them with the Apr 2025 figures below.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "MIT BioMicro Center's AVITI lane prices are far below its NovaSeq 6000 per-lane prices, giving research users a cheap alternative.",
+      "detail": "The mirrored rate card (last edited 15 Apr 2025) lists AVITI 150 PE full flowcell at $2,650 (core lab) and $3,710 (non-MIT) for ~800M reads. The NovaSeq 6000 S2 200nt flowcell is $12,960 core and $18,144 non-MIT. This is a dated snapshot, not FY2026. It shows that an MIT-type core already offers a low-cost non-Illumina option for mid-throughput work.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:Pricing",
+      "date": "2025-04-15",
+      "source_name": "OpenWetWare mirror of MIT BioMicro Center rate card",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "MIT BMC AVITI-vs-6000 rates were not on the known core-card list, but the data is stale (Apr 2025) and may already be in F1040-F1046."
+    }
+  ],
+  "new_candidates": [
+    "web.archive.org snapshots of bmc.mit.edu pricing for FY2026/FY2027, to catch the 6000 price trend and any AVITI price cuts",
+    "The sister MIT/Koch NovaSeq X facility's iLab rate card (public iLab core page), if it is viewable without login"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [OpenWetWare BioMicroCenter Pricing](https://openwetware.org/wiki/BioMicroCenter:Pricing)

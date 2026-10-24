@@ -1,0 +1,89 @@
+DOC-006 rev00 CNAG Services Fees 
+2026_R0 Price List 
+Valid from: January 2026 
+VAT not included 
+Item 
+(CNAG 
+Code) 
+Description Unit of Measure 
+Public institutions 
+subsidized by 
+Generalitat de 
+Catalunya and/or 
+Spanish Government 
+International public 
+institutions Private organizations 
+Quality Control 
+A00002 DNA quantification (batch 96 samples) set of samples 180.62 € 202.29 € 216.74 € 
+A00003 Library Quality Control (TS + qPCR) sample 27.87 € 31.21 € 33.44 € 
+A00490 Sample Quality Control (cfDNA) sample 9.63 € 10.79 € 11.56 € 
+A00004 Sample Quality Control (DNA) sample 11.29 € 12.64 € 13.55 € 
+A00005 Sample Quality Control (DNA, batch 50 samples) set of samples 296.57 € 332.16 € 355.88 € 
+A00006 Sample quality Control (DNA, low integrity samples) sample 8.52 € 9.54 € 10.22 € 
+A00009 Sample Quality Control (RNA) sample 10.78 € 12.07 € 12.94 € 
+A00010 Sample Quality Control (RNA, batch 50 samples) set of samples 229.64 € 257.20 € 275.57 € 
+Library Preparation 
+A00012 Library Preparation DNA (PCR free, HyperPrep) sample 83.76 € 93.81 € 100.51 € 
+A00014 Library Preparation DNA (ultra low input) sample 84.16 € 94.26 € 100.99 € 
+A00013 Library Preparation HiC Partial (in house) sample 116.11 € 130.04 € 139.33 € 
+A00018 Library preparation mRNA (low input) sample 131.69 € 147.49 € 158.03 € 
+A00016 Library Preparation mRNA (stranded) sample 59.21 € 66.32 € 71.05 € 
+A00017 Library Preparation total RNA (stranded) sample 110.50 € 123.76 € 132.60 € 
+A00025 TruSight Oncology 500 ctDNA panel sample 443.68 € 496.92 € 532.42 € 
+A00026 TruSight Oncology 500 FFPE DNA and RNA panel sample 798.69 € 894.53 € 958.43 € 
+A00027 TruSight Oncology 500FFPE DNA panel sample 456.36 € 511.12 € 547.63 € 
+Short Read Sequencing 
+A00044 Large Scale Sequencing Gb (2x150, NovaSeq 6000 S4) Gb 4.31 € 4.83 € 5.17 € 
+A00045 Large Scale Sequencing Gb (2x150, NovaSeq 6000 S4) FAST TRACK Gb 6.23 € 6.98 € 7.48 € 
+A00473 Sequencing Gb (1x35, NovaSeq 6000 S4) Gb 44.48 € 49.82 € 53.38 € 
+A00474 Sequencing Gb (1x35, NovaSeq 6000 S4) FAST TRACK Gb 56.90 € 63.73 € 68.28 € 
+A00475 Sequencing Gb (1x35, NovaSeq 6000 S4, 4D-lane) Gb 47.82 € 53.56 € 57.38 € 
+A00476 Sequencing Gb (1x35, NovaSeq 6000 S4, 4D-lane) FAST TRACK Gb 60.80 € 68.10 € 72.96 € 
+A00046 Sequencing Gb (2x100, NovaSeq 6000 S1) Gb 23.51 € 26.33 € 28.21 € 
+A00047 Sequencing Gb (2x100, NovaSeq 6000 S1) FAST TRACK Gb 29.83 € 33.41 € 35.80 € 
+A00048 Sequencing Gb (2x100, NovaSeq 6000 S2) Gb 16.59 € 18.58 € 19.91 € 
+A00049 Sequencing Gb (2x100, NovaSeq 6000 S2) FAST TRACK Gb 21.07 € 23.60 € 25.28 € 
+A00050 Sequencing Gb (2x100, NovaSeq 6000 S4) Gb 9.67 € 10.83 € 11.60 € 
+A00051 Sequencing Gb (2x100, NovaSeq 6000 S4) FAST TRACK Gb 12.44 € 13.93 € 14.93 € 
+A00054 Sequencing Gb (2x100, NovaSeq 6000 SP) Gb 28.65 € 32.09 € 34.38 € 
+A00055 Sequencing Gb (2x100, NovaSeq 6000 SP) FAST TRACK Gb 36.00 € 40.32 € 43.20 € 
+A00707 Sequencing Gb (2x100, NovaSeq X 1.5B) Gb 10.10 € 11.31 € 12.12 € 
+A00704 Sequencing Gb (2x100, NovaSeq X 10B) Gb 6.03 € 6.75 € 7.24 € 
+A00682 Sequencing Gb (2x100, NovaSeq X 25B) Gb 3.77 € 4.22 € 4.52 € 
+A00056 Sequencing Gb (2x150, NovaSeq 6000 S1) Gb 16.77 € 18.78 € 20.12 € 
+A00057 Sequencing Gb (2x150, NovaSeq 6000 S1) FAST TRACK Gb 21.40 € 23.97 € 25.68 € 
+A00058 Sequencing Gb (2x150, NovaSeq 6000 S2) Gb 11.76 € 13.17 € 14.11 € 
+A00059 Sequencing Gb (2x150, NovaSeq 6000 S2) FAST TRACK Gb 15.22 € 17.05 € 18.26 € 
+A00060 Sequencing Gb (2x150, NovaSeq 6000 S4) Gb 4.90 € 5.49 € 5.88 € 
+A00065 Sequencing Gb (2x150, NovaSeq 6000 S4) FAST TRACK Gb 6.27 € 7.02 € 7.52 € 
+A00063 Sequencing Gb (2x150, NovaSeq 6000 SP) Gb 21.29 € 23.84 € 25.55 € 
+A00064 Sequencing Gb (2x150, NovaSeq 6000 SP) FAST TRACK Gb 26.82 € 30.04 € 32.18 € 
+A00706 Sequencing Gb (2x150, NovaSeq X 1.5B) Gb 7.33 € 8.21 € 8.80 € 
+A00676 Sequencing Gb (2x150, NovaSeq X 10B) Gb 4.36 € 4.88 € 5.23 € 
+A00670 Sequencing Gb (2x150, NovaSeq X 25B) Gb 2.84 € 3.18 € 3.41 € 
+A00066 Sequencing Gb (2x250, NovaSeq 6000 SP) Gb 17.74 € 19.87 € 21.29 € 
+A00067 Sequencing Gb (2x250, NovaSeq 6000 SP) FAST TRACK Gb 22.03 € 24.67 € 26.44 € 
+A00068 Sequencing Gb (2x50, NovaSeq 6000 S1) Gb 32.74 € 36.67 € 39.29 € 
+A00069 Sequencing Gb (2x50, NovaSeq 6000 S1) FAST TRACK Gb 41.38 € 46.35 € 49.66 € 
+A00070 Sequencing Gb (2x50, NovaSeq 6000 S2) Gb 23.14 € 25.92 € 27.77 € 
+A00071 Sequencing Gb (2x50, NovaSeq 6000 S2) FAST TRACK Gb 29.94 € 33.53 € 35.93 € 
+A00074 Sequencing Gb (2x50, NovaSeq 6000 SP) Gb 47.76 € 53.49 € 57.31 € 
+A00075 Sequencing Gb (2x50, NovaSeq 6000 SP) FAST TRACK Gb 59.08 € 66.17 € 70.90 € 
+A00708 Sequencing Gb (2x50, NovaSeq X 1.5B) Gb 15.91 € 17.82 € 19.09 € 
+A00705 Sequencing Gb (2x50, NovaSeq X 10B) Gb 9.36 € 10.48 € 11.23 € 
+A00683 Sequencing Gb (2x50, NovaSeq X 25B) Gb 6.00 € 6.72 € 7.20 € 
+A00039 Sequencing Lane (150 cycles, v3, MiSeq) run 1,064.59 € 1,192.34 € 1,277.51 € 
+A00040 Sequencing Lane (300 cycles, v2, MiSeq) run 1,209.01 € 1,354.09 € 1,450.81 € 
+A00041 Sequencing lane (50 cycles, v2, MiSeq) run 947.21 € 1,060.88 € 1,136.65 € 
+A00042 Sequencing Lane (500 cycles, v2, MiSeq) run 1,365.71 € 1,529.60 € 1,638.85 € 
+A00043 Sequencing Lane (600 cycles, v3, MiSeq) run 1,750.20 € 1,960.22 € 2,100.24 € 
+Long Read 
+A00079 Cas9 enrichment + Barcoding (ONT) sample 128.31 € 143.71 € 153.97 € 
+A00077 Cas9 enrichment + Library Preparation (ONT) sample 314.05 € 351.74 € 376.86 € 
+A00471 Cas9 enrichment + Pool (ONT) set of samples 230.33 € 257.97 € 276.40 € 
+A00187 DNA purification pre-Library Preparation sample 44.42 € 49.75 € 53.30 € 
+A00080 DNA Rapid Barcoding (ONT) (up to 24 samples) set of samples 358.52 € 401.54 € 430.22 € 
+A00081 Genomic DNA extraction sample 161.79 € 181.20 € 194.15 € 
+A00668 Library preparation (PacBio) sample 551.82 € 618.04 € 662.18 € 
+A00085 Library Preparation Direct RNA (ONT) sample 254.04 € 284.52 € 304.85 € 
+A00086 Library Preparation DNA 1D (ONT) sample 488.12 € 546.69 € 585.74 € 

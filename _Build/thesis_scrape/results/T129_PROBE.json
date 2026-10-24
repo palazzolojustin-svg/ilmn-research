@@ -1,0 +1,24 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 6 tool calls. Search does not index university board packets, purchasing-committee agendas or quote PDFs that contain Illumina list-versus-net pricing. Both targeted searches returned only federal sole-source notices, Illumina's own Open Offer contract appendices and Novogene promo pages. The federal notices carry no prices: the Army/AFRIMS Illumina BPA sources-sought notice (Dec 2025) had no prices, quantities or awards. The NIEHS, NCI and NASA notices were only titles and snippets, which I did not open and which show no discounts. Illumina's Open Offer Appendix 1/Addendum PDFs are public and contain spend-tiered discount tables that name NovaSeq X Plus, plus instrument credits (NovaSeq X = 10 credits, per a search snippet). That contract family is already known from the Caris S-1, but the actual tier percentages in these Illumina-hosted PDFs may not have been extracted. WebFetch could not read the 32-page PDF (compressed streams), and the local Read tool needs poppler, which is not installed. I did not open the 2024 Appendix 1 PDFs: the 3-18-2024 URL returned 404 on the tst-web host, and 1-25-2024 was untried. No UIUC-style university quote was found. No item meets the evidence bar, so the items list is empty.",
+  "how_to_mine": "1) Download https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf and the 1-25-2024 and 3-18-2024 appendix-1 PDFs from www.illumina.com (not the tst-web host) with curl. 2) Extract the text with pdftotext or Python pypdf, run with python -I. 3) Pull the spend-band discount percentages for NovaSeq X Plus and NovaSeq 6000, the baseline and true-up mechanics, the instrument credits, and any competitor price-match language. Compare the tier percentages across the 2022, 2024-01 and 2024-03 versions to show how discount depth has changed over time. 4) For university packets, search specific sites directly, such as site:.edu 'sole source' Illumina NovaSeq, city and county council packets, BidNet, and state purchasing 'contract award' pages for Illumina. Searching with filetype:pdf and a single institution name works better than boolean-heavy queries. Expect few hits.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "Illumina Open Offer Appendix 1 / Addendum PDFs (illumina.com/areas-of-interest/cancer/test-terms.html)",
+      "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf",
+      "why": "Public, no login. Contains the spend-tier discount table, NovaSeq X Plus credits and true-up terms. Multiple dated versions (2022, Jan 2024, Mar 2024) would show whether discount depth has increased. This is directly relevant to 1B large-account extra discounts."
+    },
+    {
+      "name": "Federal sole-source and BPA notices for Illumina reagents (SAM.gov mirrors such as sweetspotgov and samdaily)",
+      "url": "https://console.sweetspotgov.com/federal-contracts/03743b47-43d8-57f5-b7ec-ade14cbf75de",
+      "why": "Award-level BPA call orders on USAspending or SAM could give net unit prices for NovaSeq X kits at government labs, but the notice pages themselves carry no prices."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources: [Illumina Open Offer addendum PDF](https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf), [Army/AFRIMS Illumina BPA notice](https://console.sweetspotgov.com/federal-contracts/03743b47-43d8-57f5-b7ec-ade14cbf75de), [Illumina test terms](https://www.tst-web.illumina.com/areas-of-interest/cancer/test-terms.html)

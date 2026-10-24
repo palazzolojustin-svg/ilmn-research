@@ -1,0 +1,126 @@
+iLab Organizer :: MBCF: Genomics
+Welcome!
+Sign In
+Register
+Register using DFCI credentials
+Register for an iLab account
+About
+MBCF: Genomics
+Molecular Biology Core Facilities: Genomics Core Services
+The Molecular Biology Core Facilities (MBCF) at Dana-Farber Cancer Institute (DFCI) offers a full suite of services for a wide variety of genomic next-generation sequencing (NGS) library preparation, sequencing and analysis applications including RNAseq, ChIPseq, ATACseq, CRISPR screening, whole genome methylation profiling, targeted resequencing, single-cell RNAseq, exome sequencing, and more. The genomics core technology platforms include Illumina NextSeq500s, MiSeqs, a MiniSeq, NovaSeq 6000, and NovaSeq X Plus. High throughput sample preparation is performed on Beckman Coulter Biomek FX and i7 systems. Low throughput precious samples are prepared by experienced technical staff. The MBCF writes and maintains standardized pipelines for routine NGS analysis such as RNAseq, ChIPseq, and CRISPR screening. Complex bioinformatics analysis such as integration of multi-omics datasets or specialized analyses can be performed by the experienced computational biology team.
+Please visit our website for more detailed and updated information.
+**IMPORTANT NOTICE**
+NovaSeq 6000 to be retired October 2024
+Due to broad uptake of the new Illumina NovaSeq X Plus sequencing platform, MBCF will no longer support sequencing on the older NovaSeq 6000 platform beginning October 1, 2024.The NovaSeq X plus is essentially better, faster, and cheaper than the NovaSeq 6000. As a result, almost all projects and services have already been transitioned to the NovaSeq X Plus platform. We do not anticipate that suspending NovaSeq 6000 services will have any significant impact for ongoing projects.
+Please reach out to us if you have any questions or concerns.
+Sample Drop-off Locations
+Samples can be dropped off in the MBCF Fish room near 3rd floor elevator lobby of Smith, directly to our lab on the 4th floor of DFCI Fenway Campus, or shipped via FedEx.
+Physical Street Address / Fedex Delivery:
+Molecular Biology Core Facilities
+Dana Farber Cancer Institute North Campus
+21-27 Burlington Avenue 4th Floor
+Boston, MA 02215
+USA
+US postal, UPS, Mailing Address:
+Molecular Biology Core Facilities
+Illumina MiSeq 150 v3 Sequencing
+|
+The MiSeq 150 v3 cycle kit contains 150 cycles of sequencing and can be broken up in many ways! Please be sure to indicate on the form what your read length requirements are. If you are unsure, don't hesitate to ask.
+Data Output: 22-25M reads
+Sample Requirement: >10nM in >10ul (if this is problem contact us)
+MBCF QC: Qubit, TapeStation, qPCR
+Turnaround time: 3-7 days
+|
+Inquire
+|
+Libraries for NovaSeq sequencing
+|
+We have moved all sequencing to the NovaSeq X Plus sequencer. You may purchase a full lane of sequencing returning 1.2B reads, or you can purchase reads in 100M increments.
+The service can be found under Illumina NovaSeq X Plus/LIBRARY submitted for 100M NovaSeq X reads or NovaSeq X 10B 300 cycle LANE
+Please inquire with the MBCF with any questions.
+Some uniquely dual-indexed libraries are eligible for sequencing on our NovaSeq 6000 sequencer, PE150. Please inquire with MBCF team.
+$250/100M reads (internal)
+$300/100M reads (external)
+|
+Inquire
+|
+NovaSeq X PCR-Free WGS (30X)
+|
+Full service workflow includes:
+-Library Prep WatchMaker DNA PCR-Free
+-Sequencing to 300M 150bp read pairs (600M reads total) per sample.
+-Alignment & Peak calling (small additional per sample charge)
+Sample Requirements:
+Purified DNA: As much as you can. We recommend a minimum of 200ng. Please reach out if you have any questions.
+Volume: >10ul
+Turnaround Time: 3-4 weeks
+NovaSeq X Plus is funded by an NIH grant. Please be sure to acknowledge this grant in your publications as follows:
+This work utilized an Illumina NovaSeq X Plus that was purchased with funding from a National Institutes of Health SIG grant 1S10OD036228.
+|
+Inquire
+|
+PCR Library Indexing (Nextera)
+|
+|
+Inquire
+|
+▼
+►
+DNAseq (1)
+|
+Name |
+Description |
+Price |
+NovaSeq X PCR-Free WGS (30X)
+|
+Full service workflow includes:
+-Library Prep WatchMaker DNA PCR-Free
+-Sequencing to 300M 150bp read pairs (600M reads total) per sample.
+-Alignment & Peak calling (small additional per sample charge)
+Sample Requirements:
+Purified DNA: As much as you can. We recommend a minimum of 200ng. Please reach out if you have any questions.
+Volume: >10ul
+Turnaround Time: 3-4 weeks
+NovaSeq X Plus is funded by an NIH grant. Please be sure to acknowledge this grant in your publications as follows:
+This work utilized an Illumina NovaSeq X Plus that was purchased with funding from a National Institutes of Health SIG grant 1S10OD036228.
+|
+Inquire
+|
+▼
+►
+Illumina MiSeq Next Gen Sequencing (1)
+|
+Name |
+Description |
+Price |
+The MiSeq 150 v3 cycle kit contains 150 cycles of sequencing and can be broken up in many ways! Please be sure to indicate on the form what your read length requirements are. If you are unsure, don't hesitate to ask.
+Data Output: 22-25M reads
+Sample Requirement: >10nM in >10ul (if this is problem contact us)
+MBCF QC: Qubit, TapeStation, qPCR
+Turnaround time: 3-7 days
+|
+Inquire
+|
+▼
+►
+Libraries for NovaSeq sequencing (1)
+|
+Name |
+Description |
+Price |
+Libraries for NovaSeq sequencing
+|
+We have moved all sequencing to the NovaSeq X Plus sequencer. You may purchase a full lane of sequencing returning 1.2B reads, or you can purchase reads in 100M increments.
+The service can be found under Illumina NovaSeq X Plus/LIBRARY submitted for 100M NovaSeq X reads or NovaSeq X 10B 300 cycle LANE
+Please inquire with the MBCF with any questions.
+Some uniquely dual-indexed libraries are eligible for sequencing on our NovaSeq 6000 sequencer, PE150. Please inquire with MBCF team.
+$250/100M reads (internal)
+$300/100M reads (external)
+|
+Inquire
+|
+▼
+►
+Archive (1)
+|
+Name |

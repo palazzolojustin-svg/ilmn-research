@@ -1,0 +1,61 @@
+HTG Illumina Sequencing Pricing | University of Utah Health | University of Utah Health
+Skip to main content
+University of Utah Health
+Search
+Search
+Menu
+Home
+Huntsman Cancer Institute Research
+Cancer Center Shared Resources
+High-Throughput Genomics & Cancer Bioinformatics
+HTG
+HTG Illumina Sequencing Pricing
+Launch GNomEx
+Close
+University of Utah Health
+Shared Resources
+Department of Shared Resources
+Back to HTG
+Sample Quality Pricing
+Library Preparation Pricing
+Illumina Sequencing Pricing
+Single Cell Sequencing Pricing
+The High-Throughput Genomics Shared Resource provides experimental support for various genomic applications that are sequenced on the NovaSeq X and MiSeq.
+NovaSeq X
+MiSeq
+NovaSeq X
+Updated January 2026
+NovaSeq X Sequencing |
+University of Utah Pricing |
+External Pricing |
+NovaSeq X Reagent Kit _150x150 bp Sequencing (100 M read-pairs) |
+$150 |
+$180 |
+NovaSeq X Series 10B Reagent Kit_150x150 bp Sequencing (1250 M read-pairs/lane) |
+$1,250 |
+$1,500 |
+NovaSeq X Series 25B Reagent Kit_150x150 bp Sequencing (3000 M read-pairs/lane) |
+$2,600 |
+$3,120 |
+MiSeq
+Updated August 2026
+MiSeq Sequencing Service |
+University of Utah Pricing |
+External Pricing |
+MiSeq i100 Series 5M Reagent Kit (300 cycles)_150x150 bp sequencing |
+$600 |
+$720 |
+MiSeq i100 Series 5M Reagent Kit (600 cycles)_300x300 bp sequencing |
+$850 |
+$1,020 |
+MiSeq i100 Series 25M Reagent Kit (300 cycles)_150x150 bp sequencing |
+$1,125 |
+$1,350 |
+MiSeq i100 Series 25M Reagent Kit (600 cycles)_300x300 bp sequencing |
+$1,350 |
+$1,620 |
+MiSeq i100 Series 25M Reagent Kit (1000 cycles)_500x500 bp sequencing |
+$2,025 |
+$2,430 |
+MiSeq i100 self-serve |
+$75 |

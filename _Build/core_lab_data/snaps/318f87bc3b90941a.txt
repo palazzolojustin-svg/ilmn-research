@@ -1,0 +1,46 @@
+Rates for Genomics and Spatial Biology Services
+Skip to navigation menu
+Skip to content
+MyChart
+Telemedicine
+Healthcare Professionals
+Careers
+Alerts
+Donate Now
+I want to …
+Go to MyChart
+Find a Doctor
+Make an Appointment
+Find a Location
+Visit ED or Urgent Care
+Get Driving Directions
+Refill a Prescription
+Contact Children's
+Pay My Bill
+Estimate My Cost
+Apply for Financial Assistance
+Request My Medical Records
+Find Patient Education
+Volunteer
+Donate
+PacBio RNA QC (per sample) |
+$75.00 |
+PacBio cDNA synthesis (1st reaction) |
+$520.00 |
+PacBio cDNA synthesis (reactions 2-8) |
+$210.00 |
+PacBio Kinnex (1st reaction) |
+$915.00 |
+PacBio Kinnex (reactions 2-8) |
+$750.00 |
+NextSeq 2000 instrument time (per day) |
+$257.50 |
+TapeStation D1000 or D5000 (per sample) |
+$10.30 |
+TapeStation HSD1000 or HSD5000 (per sample) |
+$15.45 |
+TapeStation RNA or HSRNA (per sample) |
+$20.60 |
+DNA Qubit (per sample) |
+$5.00 |
+Nanodrop (per sample) |

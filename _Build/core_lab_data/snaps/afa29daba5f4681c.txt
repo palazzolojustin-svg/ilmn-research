@@ -1,0 +1,73 @@
+Baylor College of Medicine, Genomic & RNA Profiling Core Facility | One Baylor Plaza, Room 325E 
+Houston, TX 77030 
+(713) 798-7699 
+Baylor College of Medicine 
+Genomic & RNA Profiling Core Facility 
+Services Price List 
+Effective February 2025 
+ Regular Baylor Pricing 
+Service 
+Read 
+Configuration 
+Reads 
+ per sample 
+Cost 
+ per sample 
+3’ Quant RNA-Seq (< 25 samples per batch) SR 75         +10M $250 
+3’ Quant RNA-Seq (>= 25 samples per batch) SR 75 +10M $220 
+Total RNA-Seq with ribodepletion (< 25 samples per batch) PE 100 +50M $450 
+Total RNA-Seq with ribodepletion (>= 25 samples per batch) PE 100 +50M $350 
+PolyA-selected RNA-Seq  PE 100 +20M $250 
+micro RNA-Seq (< 48 samples per batch) SR 75 +10M $350 
+micro RNA-Seq (>= 48 samples per batch) SR 75 +10M $250 
+PLEASE NOTE: 
+All prices listed are for internal Baylor College of Medicine researchers with the following exceptions: 
+- Dan L. Duncan Comprehensive Cancer Center and TMC Digestive Disease members (DLDCCC/DDC  price 
+10X Visium GEX, 6.5mm, 50 µm (< 16 samples per batch) As required 100M $2,170 
+10X Visium GEX, 6.5mm, 50 µm (>= 16 samples per batch) As required 100M $1,990 
+10X Visium GEX, 11mm, 50 µm (< 8 samples per batch) As required 300M $4490 
+10X Visium GEX, 11mm, 50 µm (>= 8 samples per batch) As required 300M $3900 
+10X Visium HD 6.5mm (< 16 samples per batch) As required 300M $3,850 
+10X Visium HD 6.5mm (>= 16 samples per batch) As required 300M $3,550 
+10X Single Cell Prepared Libraries As required 50M $280 
+10X Single Cell Prepared Libraries As required 100M $540 
+10X Single Cell Prepared Libraries As required 200M $900 
+10X Single Cell Prepared Libraries As required 300M $1,250 
+NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane As desired N/A $4,800 
+Baylor College of Medicine, Genomic & RNA Profiling Core Facility | One Baylor Plaza, Room 325E 
+Houston, TX 77030 
+(713) 798-7699 
+Nanopore Library Prep (cDNA-Seq, WGS) As desired N/A $200 
+Oxford Nanopore PromethION (1 flow cell) N/A N/A $1,300 
+ Dan L. Duncan Comprehensive Cancer Center Member Pricing 
+Service 
+Read 
+Configuration 
+Reads 
+ per sample 
+Cost 
+ per sample 
+3’ Quant RNA-seq (< 48 samples per batch) SR 75       +10M $230 
+3’ Quant RNA-seq (>= 48 samples per batch) SR 75 +10M $200 
+10X Visium GEX, 6.5mm, 50 µm (< 16 samples per batch) As required 100M $2,120 
+10X Visium GEX, 6.5mm, 50 µm (>= 16 samples per batch) As required 100M $1,950 
+10X Visium GEX, 11mm, 50 µm (< 8 samples per batch) As required 300M $3900 
+10X Visium GEX, 11mm, 50 µm (>= 8 samples per batch) As required 300M $3860 
+10X Visium HD 6.5mm (< 16 samples per batch) As required 300M $3,550 
+10X Visium HD 6.5mm (>= 16 samples per batch) As required 300M $3,500 
+10X Single Cell Prepared Libraries As required 50M $250 
+10X Single Cell Prepared Libraries As required 100M $490 
+10X Single Cell Prepared Libraries As required 200M $850 
+10X Single Cell Prepared Libraries As required 300M $1,190 
+NovaSeq 6000, S4 flow cell (2.5B reads), 300 cycles, 1 lane As desired N/A $4,750 
+Baylor College of Medicine, Genomic & RNA Profiling Core Facility | One Baylor Plaza, Room 325E 
+Houston, TX 77030 
+(713) 798-7699 
+Nanopore Library Prep (cDNA-Seq, WGS) As desired N/A $175 
+Oxford Nanopore PromethION (1 flow cell) N/A N/A $1,250 
+DNA Shearing 
+Instrument Cost per hourly use 
+Covaris LE220 $50 
+PLEASE NOTE: 
+- Additional factors may necessitate deeper sequencing for any of the applications listed. 
+- To receive pricing information for other applications please contact GARPcore@bcm.edu.

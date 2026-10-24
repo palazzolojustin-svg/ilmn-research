@@ -1,0 +1,451 @@
+Services & Fees – UF ICBR
+Acknowledging UF | ICBR
+Log in to iLab
+Services & Fees
+Open Menu
+About Us
+History & Mission
+Director’s Letter
+Staff Directory
+Contact Us
+Careers
+Services & Resources
+Services & Fees
+Become a Customer
+Multi-Core Projects
+Proposal Support
+Instrument Gallery
+iLab Support
+Cores
+Bioinformatics
+Cytometry
+Electron Microscopy
+Gene Expression & Genotyping
+Monoclonal Antibody
+NextGen DNA Sequencing
+UF | ICBR Cytometry
+| Analysis Workstations, Consumables, Cytometers, Histology, In-Vivo Imaging, Microscopes, Courses, Training, Software | Win 7, Win XP, Imaging Workstation, Accuri C6, Aria II, Canto II, Fortessa, LSR, NS300, Sony SH800 Cell Sorter, Sony Spectral SP6800, Cryostat - Microm HM505E, Microtome - Microm HM325, Leica VT1000S Vibratome, Bioluminescent - PerkinElmer IVIS Spectrum, Ultrasound - VisualSonics Vevo770, Keyence BZ-X800 Microscope, Leica DM2500, Leica TCS-SP5, Nikon A1RMP, Nikon Ti-E, Olympus IX70, Olympus IX81-DSU, Zeiss Axioplan 2, Cytoflex LX, BD FACSymphony A3, BD FACSymphony S6 | Cytometry |
+Visit Cytometry: Home | Contact | Services | Instruments | Core Resources
+| Yes |
+Analysis Workstations | Analysis Workstations | Win 7, Win XP, Imaging Workstation, | Cytometry |
+Contact UF | ICBR Cytometry for Analysis Workstations: ICBR-Cytometry@ad.ufl.edu /// 352.273.8186
+| Yes |
+Analysis Workstation - Win 7
+| Analysis Workstations | Win 7 | Cytometry |
+Windows 7 based PC workstation for offline processing of data acquired on other CTAC imaging systems. This workstation has the following software installed:
+Nikon NIS-Elements v4.51 with optional Deconvolution module (for data files from the Nikon scopes)
+MS Office 2010 software
+Location: CTAC Imaging Suite (MBI LG-164)
+UF | ICBR Cytometry /// ICBR-Cytometry@ad.ufl.edu /// 352.273.8186
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Staff Assisted (Mon-Fri, 08:00 AM - 05:00 PM)
+|
+$56.03/hr. |
+$93.60/hr. |
+$117/hr. |
+Training
+|
+$78/hr. |
+$93.60/hr. |
+$117/hr. |
+| Yes |
+Nikon Ti-E | Microscopes | Nikon Ti-E | Cytometry |
+Nikon Ti-E “Live Cell” Widefield Microscope (Motorized)
+Inverted widefield microscope with motorized XY stage for fluorescent or brightfield samples. Available Tokai-Hit stage top incubator with active CO2 and temperature regulation, and passive humidity, for imaging live cells in a 35mm dish or a chambered coverglass. Motorized XY stage movement for multi-point time-lapse or tile-mapping (AKA mosaic or stitching). Objectives: 10x dry, 20x dry, 40x dry, and 60x water. Multi-line LED lamp for fluorescent excitation. Fluorescent filter sets: DAPI, GFP/FITC, TRITC, Texas Red, and CY5. Phase Contrast optics for 10x and 20x. DIC (Nomarski) optics for 40x and 60x. Two cameras: Andor Zyla sCMOS 11 bit monochrome for fluorescence, and a Nikon DS-Fi2 color camera for stained brightfield samples. Software: Nikon NIS-Elements v4.51 on a Windows 7 workstation. (This software is also available (with the optional Deconvolution module) on our separate Windows 7 Analysis Workstation.
+Location: CTAC Imaging Suite (MBI LG-164)
+UF | ICBR Cytometry /// ICBR-Cytometry@ad.ufl.edu /// 352.273.8186
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Self Service* (24/7) Trained Users Only
+|
+$14.17/hr. |
+$17.01/hr. |
+Commercial |
+Sample Processing and Reagent Preparation
+|
+$33.00 |
+$39.00 |
+$49.00 |
+| No |
+Back to top of page
+| Biotinylation, Cloning, Consultation, Deposit, Direct Detect, ELISA, Fusion, Immunization, Microplate Readers, Octet, Octet Qke System, Octet Services, Plate Reader, Production, Protein Quantitation, Protein Simple WES, Purification, Shipping, Spleen, Storage, Subculture, Supplies, Reagents, Western, Workshops, Training | | Monoclonal Antibody | | Yes |
+UF | ICBR NextGen DNA Sequencing
+| 10x Genomics Library Construction, Consultation, 10x Genomics, Covaris Fragmentation, Data Delivery Media, General Services: Load only run & pooling, Illumina Library Construction Services, Illumina Sequenicng Services, Library or Fragment Selection, Miscellaneous Services, NovaSeq Services, PacBio Library Construction Services, Sample or Library Evaluation, Workshops, Training, iSeq Sequencing Service, PacBio SEQUEL IIe Sequencing Runs, Illumina MiSeq Sequencing, Illumina iSeq Sequencing, Library or Sample QC and Clean-up, Illumina NovaSeq6000 Sequencing, Library or Fragment Size Selection and Pooling, Illumina MiSeq Sequencing, Illumina iSeq Sequencing, Library or Sample QC and Clean-up, Illumina NovaSeq6000 Sequencing, Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, Covaris S220, Covaris E220, 10x Genomics (Chromium), PacBio SEQUEL IIe | NextGen DNA Sequencing |
+Visit NextGen DNA Sequencing: Home | Contact | Services | Instruments | Core Resources | Getting Started
+| |
+Library or Sample QC and Clean-up | Library or Sample QC and Clean-up | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+General Services: DNA quantification by Qubit | Library or Sample QC and Clean-up | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General Services: DNA quantification by Qubit (per single sample)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Single Sample
+|
+$5 |
+$6 |
+$6 |
+After First Sample
+|
+$3 |
+$4 |
+$4 |
+| |
+General Services: Amplicon or fragment library evaluation: Qubit and TapeStation | Library or Sample QC and Clean-up | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General QC of gDNA, Amplicon, library or pool: Qubit and TapeStation
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Single Sample
+|
+$36 |
+$44 |
+$47 |
+After First Sample
+|
+$20 |
+$23 |
+$25 |
+| |
+General MoBio PowerClean clean-up | Library or Sample QC and Clean-up | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General MoBio PowerClean clean-up, per sample
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+MoBio PowerClean clean-up
+|
+$44 |
+$53 |
+$57 |
+| |
+Library or Fragment Size Selection and Pooling | Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+General Services: Library pooling (per every three samples, add one sample evaluation per pool)
+| Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General Library pooling (per every three samples, add one sample evaluation per pool, does NOT include QC of pool)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+General Services: Library pooling (per every three samples, add one sample evaluation per pool)
+|
+$8 |
+$10 |
+$11 |
+| |
+General Services: DNA or library fragment selection by AMPure with Qubit and TapeStation | Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General DNA or library fragment selection by AMPure with Qubit and TapeStation (per sample)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+General DNA or library fragment selection by AMPure with Qubit and TapeStation
+|
+$51 |
+$61 |
+$66 |
+| |
+General Services: DNA or library fragment selection by ELF with Qubit and TapeStation | Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General DNA or library fragment selection by ELF with Qubit and TapeStation (per sample)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+General DNA or library fragment selection by ELF with Qubit and TapeStation
+|
+$277 |
+$333 |
+$361 |
+| |
+General Services: DNA or library fragment selection by gel with Qubit and TapeStation | Library or Fragment Size Selection and Pooling | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq, PacBio SEQUEL IIe | NextGen DNA Sequencing | General DNA or library fragment selection by gel with Qubit and TapeStation (per sample)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+General DNA or library fragment selection by Gel with QUBIT and TapeStation
+|
+$144 |
+$172 |
+$186 |
+| |
+Covaris Fragmentation – Assisted Use | Covaris Fragmentation – Assisted Use | Covaris S220, Covaris E220 | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing for Covaris Fragmentation: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+General Services: Covaris fragmentation (one hour) | Covaris Fragmentation | Covaris S220, Covaris E220 | NextGen DNA Sequencing | Reservation needed for assisted use of Covaris instruments for DNA fragmentation. Two instruments are available: E210 and S2, depending on number of samples. Consumables are not provided.
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+General Covaris fragmentation (one hour)
+|
+$34 |
+$41 |
+$45 |
+| |
+Illumina Library Construction Services | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing for Illumina Library Construction Services: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+Illumina Standard library construction (New England Biolabs) (one sample) | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing | Illumina Standard library construction (New England Biolabs)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Illumina Standard library construction (New England Biolabs) (one sample)
+|
+$145 |
+$174 |
+$188 |
+| |
+Illumina Low-input library construction (New England Biolabs) (one sample) | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing | Illumina Low-input library construction (New England Biolabs)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Illumina Low-input library construction |
+$157 |
+$188 |
+$203 |
+| |
+Illumina WGBS libraries | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing | Illumina: NEB enzymatic-methyl, fragment library construction: single-read, paired-end, or barcoded.
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Illumina WGBS libraries
+|
+$181 |
+$217 |
+$235 |
+| |
+Illumina Reduced Representation Bisulfite-Converted (RRBS) library construction | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing |
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Illumina RRBS Libraries (one sample)
+|
+$199 |
+$239 |
+$258 |
+| |
+Illumina PCR-free library construction (VWR SparQ QuantaBio) (one sample) | Illumina Library Construction Services | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing | Illumina PCR-free library construction (VWR SparQ QuantaBio)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+Illumina PCR-free library construction (VWR SparQ QuantaBio) (one sample)
+|
+$162 |
+$194 |
+$210 |
+| |
+Illumina NovaSeq X Sequencing | NovaSeq Services, Illumina NovaSeq X Sequencing | Illumina NovaSeq | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing for NovaSeq Services: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+Illumina NovaSeq X Series: 1.5B | NovaSeq Services, Illumina NovaSeq X Sequencing | Illumina NovaSeq | NextGen DNA Sequencing | Illumina NovaSeq X Series: 1.5B
+(Currently only full 1.5B flowcells are available for service requests)
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+Format |
+Lanes |
+UF Pricing |
+Non-Profit |
+Commercial |
+Reads* |
+Max Output** |
+UF Cost/Gb |
+2x150 |
+2 |
+$3,574.00 |
+$4,289.00 |
+$4,646.00 |
+1.6 Billion |
+450 |
+$6.61 |
+2x150 |
+1 |
+$1,787.00 |
+$2,145.00 |
+$2,323.00 |
+0.8 Billion |
+225 |
+$6.61 |
+2x100 |
+2 |
+$3,327.00 |
+2x50 |
+1 |
+$1355.00 |
+$1,626.00 |
+$1,762.00 |
+0.8 Billion |
+75 |
+$14.46 |
+** - Max output PE per FC run (Gb)
+*** - Number of reads is predicted value. Actual performance may deviate based on library quality and sequencing conditions. | |
+Illumina NovaSeq X Series: 10B | NovaSeq Services, Illumina NovaSeq X Sequencing | Illumina NovaSeq | NextGen DNA Sequencing | Illumina NovaSeq X Series: 10B
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+Format |
+Lanes |
+UF Pricing |
+Non-Profit |
+Commercial |
+Reads* |
+Max Output** |
+UF Cost/Gb |
+2x150 |
+8 |
+$12,216.00 |
+$14,659.00 |
+$15,881.00 |
+10 Billion |
+3,000 |
+$4.10 |
+2x150 |
+1 |
+$1,527.00 |
+$1,833.00 |
+$1,986.00 |
+1.25 Billion |
+375 |
+$4.10 |
+2x100 |
+8 |
+$11,476.00 |
+1 |
+$1,142.00 |
+$1,370.00 |
+$1,484.00 |
+1.25 Billion |
+125 |
+$9.25 |
+** - Max output PE per FC run (Gb)
+*** - Number of reads is predicted value. Actual performance may deviate based on library quality and sequencing conditions.
+| |
+Illumina NovaSeq X Series: 25B | NovaSeq Services, Illumina NovaSeq X Sequencing | Illumina NovaSeq | NextGen DNA Sequencing | Illumina NovaSeq X Series: 25B
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+Format |
+Lanes |
+UF Pricing |
+Non-Profit |
+Commercial |
+Reads* |
+Max Output** |
+UF Cost/Gb |
+2x150 |
+1 |
+$2,515.00 |
+$3018.00 |
+$3,270.00 |
+3.25 Billion |
+1,000 |
+$2.51 |
+2x150 |
+8 |
+$20,118.00 |
+$24,141.00 |
+$26,153.00 |
+26 Billion |
+8,000 |
+$2.51 |
+** - Max output PE per FC run (Gb)
+*** - Number of reads is predicted value. Actual performance may deviate based on library quality and sequencing conditions.
+| No |
+Illumina MiSeq Sequencing | Illumina MiSeq Sequencing | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing for Illumina Sequencing Services: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+| |
+Illumina MiSeq i100 | Illumina MiSeq Sequencing | Illumina MiSeq, Illumina iSeq, Illumina NovaSeq | NextGen DNA Sequencing | Illumina MiSeq load only runs
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+MiSeq i100, 5M Reagent Kit (300 cycles) |
+$828 |
+$993 |
+$1076 |
+MiSeq i100, 5M Reagent Kit (600 cycles) |
+$1104 |
+$1324 |
+$1434 |
+MiSeq i100, 25M Reagent Kit (100 cycles) |
+$984 |
+$1180 |
+$1279 |
+MiSeq i100, 25M Reagent Kit (300 cycles) |
+$1403 |
+$1684 |
+$1824 |
+MiSeq i100, 25M Reagent Kit (600 cycles) |
+$1643 |
+$1971 |
+$2136 |
+| |
+PacBio Services | PacBio Services | PacBio SEQUEL IIe | NextGen DNA Sequencing |
+Contact UF | ICBR NextGen DNA Sequencing for PacBio Services: ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+$443 |
+$532 |
+$576 |
+| |
+ONT PromethION Load Only Run | Oxford Nanopore Sequencing Services | ONT PromethION, ONT MinIon | NextGen DNA Sequencing | ONT PromethION Load Only Run
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+1-8 flow cells |
+$358 |
+$430 |
+$466 |
+9-16 flow cells |
+$516 |
+$620 |
+$671 |
+17-24 flow cells |
+$715 |
+$858 |
+$930 |
+| |
+ONT PromethION DNA seq (per run) | Oxford Nanopore Sequencing Services | ONT PromethION, ONT MinIon | NextGen DNA Sequencing | ONT PromethION DNA seq run only
+UF | ICBR NextGen DNA Sequencing /// ICBR-NextGenSeq@ad.ufl.edu /// 352.273.8050
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+|
+UF Pricing |
+Non-Profit |
+Commercial |
+ONT MinION DNA seq run only |
+$1,073 |
+$1,287 |
+$1,394 |
+| |
+Back to top of page
+| 10x Genomics Library Construction, Consultation, 10x Genomics, Covaris Fragmentation, Data Delivery Media, General Services: Load only run & pooling, Illumina Library Construction Services, Illumina Sequencing Services, Library or Fragment Selection, Miscellaneous Services, NovaSeq Services, PacBio Library Construction Services, Sample or Library Evaluation, Workshops, Training, iSeq Sequencing Service, PacBio SEQUEL IIe Sequencing Runs, Illumina MiSeq Sequencing, Illumina iSeq Sequencing, Library or Sample QC and Clean-up, Illumina NovaSeq6000 Sequencing, Library or Fragment Size Selection and Pooling | | | | |
+UF | ICBR Proteomics & Mass Spectrometry
+| Instrumental Analysis, Luminex Services, MRM Quantitative Services, Method Development, Protein Identification, Quantitative Analysis, Quantitative Proteomics, Reagents, Sample Preparation, Training, Workshops, Consultation, TSQ Altis | TQS Altis, TimSTOF Flex, HPLC, QE Plus | Proteomics & Mass Spectrometry |
+Visit Proteomics & Mass Spectrometry: Home | Contact | Services | Instruments | Core Resources
+| Yes |
+Gel-related Services | Gel-Related Services | | Proteomics & Mass Spectrometry |
+Contact UF | ICBR Proteomics & Mass Spectrometry for Instrument Analysis Services: ICBR-Proteomics@ad.ufl.edu /// 352.273.8060
+| |
+Gel-related Services | Gel-Related Services | | Proteomics & Mass Spectrometry |
+UF | ICBR Proteomics & Mass Spectrometry /// ICBR-Proteomics@ad.ufl.edu /// 352.273.8060
+|

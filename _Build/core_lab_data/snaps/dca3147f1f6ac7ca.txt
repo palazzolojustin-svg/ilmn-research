@@ -1,0 +1,609 @@
+For research use only
+Kevin Childs
+Director MSU Genomics Core
+Assistant Professor Fixed Term – Plant Biology
+9 October 2024
+Bringing the AVITI to the MSU Genomics Core
+For research use only
+Plant Biology Building
+S18 and S20
+(in the basement)
+Sample drop off in the refrigerator 
+in the hallway outside the lab
+Short term 
+parking
+Genomics Core – Where are we?
+For research use only
+Operations Manager
+• Emily Crisovan
+Research Assistants
+• Shari Tjugum-Holland
+• Colleen Curry
+• Krystle Wiegert-Rininger
+• Justin Nummer
+• Mercy Kitavi, Ph.D.
+Data Management Specialist
+▪ Single cell RNA-seq
+▪ Researcher-prepared libraries
+• Nanopore long-read sequencing
+• Sanger sequencing
+Services Overview
+For research use only
+• Genome Analyzer
+• Genome Analyzer II
+• MiSeqs
+• HiSeq 2500
+• HiSeq 4000 & NextSeq 500
+• NovaSeq 6000
+• NovaSeq X
+Past Illumina Sequencing Instruments in the Genomics Core 
+For research use only
+• Illumina-style libraries
+• Fastq output files
+• Regular analysis pipelines
+• Flow cell pricing
+• Smaller flow cells
+• Very low duplication rate
+• Increased accuracy
+• Instrument & service contract costs
+Rationale for an AVITI
+For research use only
+Read 
+Format
+Capacity Read Pairs Gbp Cost Cost per 
+Gbp
+2 x 75 bp Medium 500 M 75 $1,181
+2 x 75 bp High 1,000 M 150 $1,408
+2 x 150 bp Low 250 M 75 $1,181
+2 x 150 bp Medium 500 M 150 $1,408
+2 x 150 bp High 1,000 M 300 $2,089
+2 x 300 bp Medium 100 M 60 $2,089
+2 x 300 bp High 300 M 180 $2,950
+AVITI Flow Cells
+For research use only
+Read 
+Format
+Capacity Read Pairs Gbp Cost Cost per 
+Gbp
+2 x 75 bp Medium 500 M 75 $1,181 $15.75
+2 x 75 bp High 1,000 M 150 $1,408 $9.39
+2 x 150 bp Low 250 M 75 $1,181 $15.75
+2 x 150 bp Medium 500 M 150 $1,408 $9.39
+2 x 150 bp High 1,000 M 300 $2,089 $6.96
+2 x 300 bp Medium 100 M 60 $2,089 $34.82
+2 x 300 bp High 300 M 180 $2,950 $16.39
+AVITI Flow Cells
+For research use only
+• Bundled flat-rate pricing
+• Library + fixed amount of 
+sequencing
+• Run on shared high-output 
+2 x 150 bp lane
+• Similar to shared NovaSeq 
+S4 lane but cheaper
+Easy-Peasy Pricing
+For research use only
+• Abstract about your proposed sequencing 
+project (250 words)
+• One high output 2 x 150 bp flow cell or one 
+high output 2 x 300 bp flow cell
+• Does not include library preparation
+• Two winners
+• Submit before November 8, 2024
+https://go.elementbiosciences.com/MSUgrant
+AVITI Flow Cell Grant
+For research use only
+Novel Developments in NGS; Unlocking Further Insights with AVITI
+Anthony Popkie, Ph.D.
+Executive Account Manager
+anthony.popkie@elembio.com
+For research use only
+Our journey to empower science
+Element is founded by Molly He, Michael 
+Previte and Matt Kellinger, three scientists 
+seeking to disrupt genomics by reinventing 
+every “element” of sequencing
+Company announces 
+Series A financing led 
+by Foresite Capital and 
+Venrock
+Element closes acquisition of Loop 
+Genomics, enabling both short and 
+long-read sequencing on the same 
+desktop machine
+Element opens new 
+headquarters of 
+Alexandria Tech Center 
+in San Diego
+Element announces first set of 
+global distributors, showing 
+strong demand for AVITI 
+around the world
+Element invents Avidity 
+Sequencing, enabling high 
+accuracy with low reagent 
+consumption
+Element closes $276M Series 
+C financing to deliver on the 
+promise of disruptive 
+sequencing
+Element launches AVITI, 
+making affordable, 
+high-quality sequencing a 
+reality for labs of all sizes
+Element announces the $200 
+genome on AVITI, delivering the 
+highest quality sequencing at 
+an unprecedented low cost
+Element launches new 
+Cloudbreak chemistry, 
+advancing Avidity with 
+even faster runtimes
+JULY 2017 JUNE 2019 FEBRUARY 2022 MAY 2022 APRIL 2023
+MAY 2019 JUNE 2021 MARCH 2022 JANUARY 2023 JUNE 2023
+For research use only
+300+ 
+Installs
+30+
+Countries
+Where We Started:
+Q50
+$200 genome
+on a benchtop
+Reliability MTBF > 160 days
+10k+
+Runs/Year
+(and counting!)
+*Mean time between failure
+Re-imagining what is possible on a benchtop sequencing platform
+For research use only
+Element’s innovation vision
+Onboard 
+enrichment
+Multiomic 
+CytoProfiling
+More experiments, 
+less time
+2024 and Beyond:
+Innovation Pillars
+Simplified 
+Workflows
+Where We Started:
+Best in Class Sequencing
+Quality Q30
+Affordability
+Q50
+$200 genome
+on a benchtop
+Reliability MTBF > 150 days
+*Mean time between failure
+For research use only
+Element AVITITM fit
+Empowering more researchers with flexible genomic solutions
+Unparalleled performance with 
+throughput from 100 million to
+2 billion reads
+For research use only
+Quality, affordability, and flexibility, on your timeline
+>90% Q30 and >70% Q50 data with UltraQ
+300 Gb / 1 B reads per flow cell
+Two fully independent flow cells 
+Two addressable lanes per flow cells
+Guaranteed reagent costs
+Ecosystem compatibility
+Negligible index hopping and duplication
+Low-diversity samples (<5% PhiX)
+ AVITI
+For research use only
+pool barcoded libraries
+1   2   3   4   X
+pool barcoded libraries
+1   2   3   4   X
+Optional upgrade to enable separate 
+libraries/pools to be loaded in each of two lanes in 
+a single flow cell
+Increased multiplexing capabilities
+Greater flexibility for variable sample volume 
+throughput
+Increased control of read distribution within pools
+Available for both the AVITI and AVITI LT systems on 
+2x75 and 2x150 flow cells
+Individually addressable lanes
+More flexibility when you need it
+For research use only
+Our ecosystem partnerships make end-to-end application workflows accessible 
+Our ecosystem partnerships make end-to-end application workflows accessible 
+WGS Trios, lpWGS, WES, 
+RNA sequencing, 
+Single cell genomics,
+Epigenetics
+For research use only
+Element’s AVITI
+  Sequencer: Next Level Sequencing Solution for 
+Multiomic NGS Applications
+Solomon Hailu, Ph.D., M.Sc.
+Sr. Applications Technical Specialist
+Solomon.Hailu@ElemBio.com
+For research use only
+• Flexibility, Higher Quality and Low Cost
+• Superior Performance
+• Applications
+• Upcoming Innovations
+Outline
+For research use only
+51 h
+1000
+# of Reads
+Millions
+2x75 2x150
+Sequencing Kits
+Cycles
+500 2x75 2x150
+250 2x150
+38 h24 h
+31 h20 h
+27 h
+High
+Med
+Low
+300 Gb150 Gb
+150 Gb75 Gb
+75 Gb
+• Dual independent flow cells
+• Two addressable lanes per flow cells
+• Q30 >90%, no PCR error propagations
+• Negligible index hopping
+• Low AT/GC bias and duplicate rates, 
+• Low-diversity samples (<5% PhiX)
+• Simultaneous Single Cell Multiomics + Morphology*
+• Long insert and flexible Library Preparation
+Features
+Applications
+• Single cell and bulk RNA sequencing
+• WGS / Trios / lpWGS / liquid biopsy
+• Exomes and panels
+• Epigenetics: Hi-C, ATAC-Seq, ChIP-Seq 
+      (CUT&RUN / CUT&Tag)
+• Low diversity and targeted sequencing
+• Metagenomics, HLA typing and immune profiling
+• Long-read sequencing - 6 Kb with LoopSeq
+2x300
+60 Gb
+2x300
+180 Gb
+AVITI LT - Med and Low flow cells 
+High 600 cycle (300M reads)
+Med 600 cycle (100M reads)
+60 h
+Element’s AVITITM - Empowering researchers with flexible genomic solutions
+100M to 500M reads per side
+100M to 1B reads per side
+ Expert HD Mode
+(20-70% more reads)
+*AVITI + Cellular Profiling
+* Coming H2
+For research use only
+Element’s AVITITM - Empowering researchers with flexible genomic solutions
+For research use only
+For research use only
+AVITI 2 x 300 Kits provides leading data quality and throughput at affordable price
+16S Microbiome Sequencing
+Element
+Zymo Standard
+0
+25
+50
+75
+100
+Abundance (%)
+B. subtilis
+L. fermentum
+S. enterica
+Rapid PCR-Plus
+Elevate
+Workflow
+The Adept workflow enables adaption of existing libraries without any changes to the library prep
+DNA
+or
+RNA
++
+Third-Party Kit
+or 
+Elements*
+Elevate 
+Indexes & 
+Adapters
+Circularize on Flow Cell
+• DNA library prep kit
+• RNA library prep kit
+• UltraQ Kit
+Cloudbreak 
+Freestyle Kit#
+(Circularize 
+on Flow Cell)
+For research use only
+Library structure
+For research use only
+Cloudbreak freestyle delivers same high data quality with easier workflow
+Q30
+Q40
+Washington University
+ University of Washington
+Freestyle 1 Freestyle 2Cloudbreak
+For research use only
+Avidity Base Chemistry
+Reagent Cost, Accuracy, 
+Turnaround
+Flow Cell / Surface
+Reagent Cost, Accuracy
+DNA Amplification
+Ease of Use, Reagent 
+Cost, Accuracy
+Base Calling
+Accuracy, Throughput
+Workflow
+Ease of Use, Paired End, 
+Low Sample Input
+For research use only
+✓ Index hopping undetectable
+Rolling Circle Amplification (RCA)
+Reduces PCR errorsby copying the original
+Copy 1
+Copy 2
+Copy 3
+Copy 4
+Copy 5
+Copy 6
+Copy N
+Element’s ABC workflow – Rolling circle amplification brings accuracy benefits
+Flow cell Surface Polony
+Nature Biotechnology 
+Publication
+For research use only
+Negligible index hopping and duplication rate with ABC Sequencing
+For research use only
+70
+ABC leverages multivalent binding increasing data quality and reducing cost
+Fluorescent Core
+Long Flexible arm
+Nucleotide
+Presented Sept 2024
+Q score or Phred score (𝑄 = −10 log10 𝑒, where 𝑒 is the base calling error probability)
+Quality Score Interpretation
+Q10 1 error in 10 bases
+Q20 1 error in 100 bases
+Q30 1 error in 1,000 bases
+Q40 1 error in 10,000 bases
+Q50 1 error in 100,000 bases
+If a collection of bases is Q40, then we expect 1 
+in 10,000 of those bases to be incorrect
+AVITI sets a new standard for sequencing quality
+Access here
+Access here
+ Blog post
+With UltraQ, >70% of reads at Q50
+For research use only
+No on-instrument PCR limits AT/GC bias, providing more even coverage
+GC Content
+AVITI 2 x 300 variant-calling accuracy vs GC content
+For research use only
+Exceptional performance across homopolymer regions
+For research use only
+For research use only
+Advantages of insert size on mapping and variant calling accuracy
+Accurate human genome analysis with Element Avidity sequencing
+Andrew Carroll1 , Alexey Kolesnikov1 , Daniel E. Cook1 , Lucas Brambrink1 , Kelly N. Wiseman2 , Sophie M. Billings2 , Semyon Kruglyak2 , Bryan R. Lajoie2 , June Zhao2 , Shawn E. Levy2 , 
+Cory Y . McLean1 , Kishwar Shafin1 , Maria Nattestad1 , Pi-Chuan Chang1 
+1. Google LLC, Mountain View CA, USA 
+2. Element Biosciences, San Diego, CA, USA
+For research use only
+• Flexibility, Higher Quality and Low Cost
+• Superior Performance
+• Applications
+• Upcoming Innovations
+Outline
+For research use only
+TSS
+H3K4me3H3K27me3
+CpG
+mRNA, RNA modifications, ncRNA
+5’ capped
+3’ AAAA
+mRNA
+Approaches to investigate mechanisms of gene regulation
+Combined with WGS and Immune profiling, can lead to better understanding of disease mechanisms
+Proteins (+modifications)
+Aptamer/antibody based
+For research use only
+UHR Samples 
+on P1
+ P1 v External
+R2 = 0.979R2 = 0.993
+Element bulk RNA sequencing produces data that is replicable and consistent
+Platform-to-platform: 
+target R2  > 95%
+actual R2 > 97.9%
+Element Run 1
+Element Run 2
+External
+Element
+Sample-to-sample: 
+target R2  > 98%
+actual R2 > 99.3%, 
+For research use only
+Element bulk RNA sequencing produces better data
+For research use only
+10X Cellranger Count Metrics (v7.0) CPP Expectation AVITI 10k cells AVITI 1k cells
+Valid Barcodes >90% 97.5% 97.5%
+Reads mapped confidently to Exonic 
+Regions >50% 53.0% 53.8%
+Reads mapped confidently to 
+Transcriptome
+>40% 74.7% 77.8%
+Fraction Reads in cells >80% 95.5% 92.6%
+Q30 bases in barcode >85% 99.5% 99.5%
+Q30 bases in RNA read >75% 98.6% 98.8%
+Mean Reads per cell >50,000 61,326 68,766
+Median Genes per cell >1700 2,910 2,951
+Estimated number of cells +/- 20% 8,513 922
+Sequencing data available for download on our website: www.elementbiosciences.com
+Element is a certified 10X genomics compatible partner
+10K and 1K Human PBMC Reference from 10x Genomics
+For research use only
+LoopSeqTM: On-demand access to long reads with AVITI
+Targeted Sequencing for ACMG/PGx/CMRG genes, off -target assessment of CRISPR, RNA isoform discovery
+For research use only
+LoopSeq 16S sequencing improves both species resolution and quantification
+• Complex soil sample using short -read sequencing versus LoopSeq 
+full-length 16S
+• Unlike short reads, LoopSeq Microbiome method classified >99% of 
+unique 16S molecules down to species or genus level 
+• LoopSeq enhances accurate quantification by leveraging UMIs to 
+remove PCR duplicates
+For research use only
+LoopSeq delivers higher fraction of error free reads than alternate long read 
+technologies
+For research use only
+Microbial WGS is accurate and affordable on the Element AVITI system
+• 384 multiplexed samples were aligned against 
+the ATCC reference for each sample 
+• All replicates had mean quality score >40
+For research use only
+Beyond COVID surveillance: Shotgun meta-transcriptomics as a method for a 
+universal infectious disease surveillance assay 
+• Samples processed with JumpCode CRISPRclean Plus 
+➢ deplete high abundance host and bacteria rRNA
+• STAR/GATK for alignment against the SARS-CoV-2 
+reference 
+• In several cases, the method was able to detect co-
+infection with additional viruses
+For research use only
+DNA methylation analysis
+Methyl-Seq on AVITI using enzymatically converted DNA 
+For research use only
+DNA methylation analysis
+Robustness in polony-finding and base calling with low-complexity libraries
+For research use only
+For research use only
+DNA methylation analysis
+Translating technical benefits into cost savings
+For research use only
+• Flexibility, Higher Quality and Low Cost
+• Superior Performance
+• Applications
+• Upcoming Innovations
+Outline
+For research use only
+For research use only
+AVITI 
+Launch
+2x150
+2x75 Kit
+Cloudbreak 
+Chemistry
+2x150 2x75
+Low output Kits
+Individual Lane 
+Addressability
+2x150 2x75
+Cloudbreak
+Freestyle
+Linear library loading
+Cloudbreak 
+UltraQ
+AVITI24
+Trinity
+On-FC 
+Enrichment
+2022 2023 2024
+Cloudbreak 
+2x300 
+2025
+AVITI past, present, future
+For research use only
+Trinity: On-flow cell targeted sequencing
+Before
+• Lower sample input
+• Lower bait requirements and improved performance
+• Minimal hand-on time (No bead handling and post -
+hybridization PCR)
+• Coming H2 ‘2024
+After
+Trinity
+ Trinity Plus
+For research use only
+30B + functional molecules
+RAS expression can vary 100-fold*
+Too much → senescence / cell death**
+Too little → tumor formation**
+**Sarkisian, CJ et al, Nat. Cell. Biol, (2007) 9(50), 493.
+*Prior, IA, et al., Cancer Res (2020) 80 (14): 2969–2974.
+19% of cancers have a 
+RAS mutation*
+Biology’s complex circuits
+For research use only
+AVITI24 Teton workflow enables sample to answer in 24 hours 
+193
+Sample Preparation Sequencing + Primary Analysis
+Wash, fix, and 
+permeabilize cells
+Assemble Teton 
+flow cell
+Culture or deposit 
+cells directly on Teton 
+flow cell
+50k cells/well (12-well)
+1M cells/well (1-well)
+<1 hour 24 hours
+Data VisualizationCell Preparation
+For research use only
+AVITI24: compatible with adherent, suspension, and targeted cell capture
+Sequencing in Suspension Cells
+Leukemia Blast CellsColon Cancer Cells Leukemia T Cells Negative Control
+ Detection in Cells
+Adherent Cells Suspension Cells
+Targeted Cell Capture from PBMCs
+For research use only
+Cell Membrane Nucleus
+Actin Endoplasmic 
+Reticulum
+Mitochondria Golgi Apparatus
+Coming in 2025: Immunology, Neuro, Custom
+Cell morphology
+6 Targets
+RNA Detection
+350+ Targets
+Protein Detection
+50+ Surface, Intracellular, & 
+Phosphorylated Proteins
+Unlocking morphology and multiomic read-outs in <24h with a single assay
+For research use only
+AVITI24: proprietary morphology detection with Element ABC cell paint
+Element Proprietary Cell Paint on AVITI24
+PC3
+HeLa
+MCF7
+Cell Paint powered sorting from cocultures* on AVITI24
+G0S2
+CDKN2A
+GDF15
+*Cocultured 3 different cell types and AVITI 24 separated cell types
+Nucleus Cell Membrane
+Mitochondria Merged
+Up to 20 features simultaneously
+For research use only
+RNA detection results:  cell synchronization assay
+For research use only
+Teton measures 50+ cell surface, intracellular, and phosphorylated proteins
+Immunofluorescence
+ Element AVITI24 
+Merged Image
+Immunofluorescence vs. AVITI24 
+Nucleus Nucleus
+NucleusCytoplasm Nucleus
+Cytoplasm
+Protein Localization (AVITI24 ) 
+For research use only
+Phosphorylated protein detection at biologically meaningful timescales
+211
+IL-1 Time:     0 hr     1 hr         2 hr        4 hr

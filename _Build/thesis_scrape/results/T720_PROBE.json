@@ -1,0 +1,11 @@
+```json
+{
+  "status": "blocked",
+  "notes": "ScienceDirect returned HTTP 403 for the JMD vol 27 issue 11 supplement URL (WebFetch). Two web searches (AMP 2025 / JMD and ASHG 2026) found no AMP or ASHG abstract on moving from the NovaSeq 6000 to the X, so I could not count abstracts or name labs. The searches found only the AOUS Siena NovaSeq 6000 vs 6000Dx paper, which is already known. The Agilus Mumbai NovaSeq X install (Jan 2026) is a vendor press item with no validation data. I did not confirm that the supplement URL exists or is open access, and I did not reach the ASHG 2026 abstract site.",
+  "how_to_mine": "(1) Try PubMed or Europe PMC for 'J Mol Diagn 2025 27(11S)' or 'AMP 2025 Annual Meeting abstracts' to get a DOI list that may be open. (2) Try the AMP site (amp.org) for the 2025 abstract book PDF (Annual Meeting, Nov 2025, Boston) and grep it for 'NovaSeq X', 'NovaSeq 6000', 'bridging', 'NIPT' and 'MRD'. (3) For ASHG 2026, try the public abstract or itinerary planner (ashg.org / eventscribe) and query the same terms. (4) Run the grep from a downloaded PDF if one is available. Use the 6000 vs X abstract counts as the key metric.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

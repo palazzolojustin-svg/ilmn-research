@@ -1,0 +1,168 @@
+fireside chat :: A moderated question-and-answer session between an analyst host and company executives at an investor conference.
+core Illumina :: Illumina's business excluding GRAIL, the cancer-screening company it acquired and later divested.
+GRAIL :: A multi-cancer early-detection test company Illumina bought, was forced by regulators to divest, and spun off in 2024.
+NovaSeq X / X Plus :: Illumina's newest high-throughput sequencer, launched late 2022 with shipments from early 2023.
+NovaSeq 6000 :: Illumina's previous flagship high-throughput sequencer, being replaced by the NovaSeq X.
+NovaSeq X Dx :: The version of the NovaSeq X cleared for clinical diagnostic use.
+NextSeq 550 / 1000 / 2000 :: Illumina's mid-throughput benchtop sequencers.
+MiSeq / MiSeq i100 :: Illumina's low-throughput sequencers; the i100 is the 2024 successor.
+HiSeq :: An older Illumina high-throughput sequencer that preceded the NovaSeq 6000.
+consumables :: The reagent kits and flow cells customers must buy for every sequencing run, which generate recurring revenue.
+flow cell :: The consumable glass chip on which DNA is sequenced; names like 10B, 25B and P4 denote capacity.
+pull-through :: Annual consumables revenue generated per installed instrument.
+installed base :: The total number of a company's instruments in use at customers.
+placement :: An instrument installed at a customer site.
+backlog :: Orders received but not yet shipped.
+funnel / pipeline :: The set of prospective customer purchases a sales team is tracking.
+win rate :: The share of competitive sales opportunities a company wins.
+budget flush :: Year-end spending by customers of leftover annual budgets.
+high-, mid-, low-throughput :: Instrument classes sorted by how much DNA data they produce per run.
+gigabase (Gb) :: One billion DNA letters of sequencing output, used to measure sequencing volume.
+cost per gigabase :: The price to sequence a billion DNA letters, long Illumina's headline efficiency metric.
+total cost of workflow :: The full cost of getting a result, including sample prep, sequencing, analysis and downtime.
+price elasticity :: The degree to which lower prices lead customers to use disproportionately more of a product.
+ambient shipping :: Shipping reagents at room temperature without dry ice or refrigeration.
+cold chain :: Refrigerated logistics needed to keep temperature-sensitive products usable.
+XLEAP-SBS :: Illumina's newer, faster and cheaper version of its sequencing chemistry.
+sequencing by synthesis (SBS) :: Illumina's core chemistry, which reads DNA by building a complementary strand one letter at a time.
+Q40 :: A quality score meaning about one error in 10,000 bases read.
+DRAGEN :: Illumina's hardware-accelerated software for analysing sequencing data.
+Partek :: Multiomics data-analysis software company acquired by Illumina in late 2023.
+Fluent :: Single-cell technology company acquired by Illumina in 2024.
+Illumina Protein Prep :: Illumina's proteomics product that reads protein measurements on a sequencer.
+5-base genome :: A planned product reading both DNA variants and methylation from one library prep.
+comprehensive genome / constellation map :: A planned technology moving library prep onto the flow cell to capture hard-to-read regions and structural variants.
+methylation / epigenetics :: Chemical marks on DNA that switch genes on or off without changing the sequence.
+library prep :: Laboratory steps that prepare DNA or RNA samples for loading onto a sequencer.
+short-read sequencing :: Reading DNA in short fragments, Illumina's core approach.
+long-read sequencing :: Reading much longer DNA stretches, offered by rivals such as PacBio and Oxford Nanopore.
+enrichment assay :: A lab method that concentrates target DNA regions before sequencing.
+whole-genome sequencing :: Reading an organism's entire DNA sequence.
+exome :: The protein-coding portion of the genome, about 1-2% of it.
+multiomics :: Measuring several molecular layers, such as DNA, RNA, proteins and methylation, together.
+proteomics :: Large-scale measurement of proteins.
+single-cell analysis :: Measuring molecules within individual cells rather than tissue averages.
+spatial biology :: Mapping where molecules sit within a tissue sample.
+Perturb-seq :: Experiments that disable genes in many cells and sequence them to see how cell behavior changes.
+liquid biopsy :: Cancer testing from a blood sample rather than tissue.
+MRD (minimal residual disease) :: Testing for traces of cancer remaining after treatment.
+MCED (multi-cancer early detection) :: Blood tests aiming to detect many cancer types early.
+therapy selection :: Testing a tumor to choose the right drug.
+FFPE :: Formalin-fixed, paraffin-embedded preserved tissue, whose DNA is fragmented.
+population genomics program :: A national initiative sequencing large numbers of citizens.
+microarray :: A chip-based genotyping product that reads known genetic variants.
+direct-to-consumer (DTC) :: Genetic tests sold straight to the public.
+LDT (laboratory-developed test) :: A test designed and run within a single lab, newly subject to stricter FDA rules.
+validated assay :: A clinical test formally qualified on a specific instrument, costly to move.
+key opinion leader (KOL) :: An influential researcher or clinician whose adoption shapes the field.
+core lab :: A shared institutional or commercial sequencing facility.
+CRO (contract research organization) :: A firm running clinical trial work for drug companies.
+tender :: A government-run competitive bidding process.
+total addressable market (TAM) :: The total revenue opportunity for a product category.
+CAGR :: Compound annual growth rate, the smoothed yearly growth rate over a period.
+guidance :: Management's official forecast of future financial results.
+consensus :: The average forecast of sell-side analysts.
+operating margin :: Operating profit as a share of revenue.
+gross margin :: Revenue minus production costs, as a share of revenue.
+non-GAAP :: Results adjusted to exclude certain items, differing from official accounting figures.
+basis point :: One hundredth of a percentage point.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization.
+EPS :: Earnings per share.
+operating expenses (OpEx) :: Ongoing costs of running the business, such as R&D and sales.
+cost of goods sold (COGS) :: Direct costs of producing the products sold.
+SG&A / G&A :: Selling, general and administrative overhead costs.
+fixed-cost absorption :: Spreading fixed factory costs over production volume, which lifts margins as volume rises.
+variable compensation :: Bonuses and stock awards tied to performance.
+free cash flow :: Cash generated after capital spending.
+share repurchase :: A company buying back its own shares.
+investment-grade rating :: A credit rating indicating low default risk.
+tuck-in / bolt-on acquisition :: A small acquisition that adds a technology or capability.
+SKU rationalization :: Pruning a product catalogue to reduce complexity and cost.
+ROIC / NPV :: Return on invested capital and net present value, measures of investment returns.
+Form 10 :: The SEC registration document required to spin off a business.
+spin-off / sponsored spin :: Separating a business into a standalone public company, optionally with an outside investor's backing.
+divestiture :: Selling or separating a business.
+Article 22 :: An EU merger rule that let the European Commission review the GRAIL deal, which Illumina contested.
+10-Q :: A U.S. public company's quarterly report filed with the SEC.
+proxy fight :: A shareholder campaign to change a company's board.
+MEMS :: Microelectromechanical systems, tiny semiconductor-style devices.
+next-generation sequencing (NGS) :: Technology that reads millions of DNA or RNA fragments in parallel, making genome sequencing fast and cheap.
+petabase :: A quadrillion DNA letters (bases) of sequencing data.
+consumables :: The reagent kits and flow cells customers must buy for every sequencing run, Illumina's main recurring revenue.
+pull-through :: Annual consumables revenue generated per installed instrument.
+cost per gigabase :: The cost of reading one billion DNA letters, the industry's traditional price yardstick.
+total addressable market :: The total revenue opportunity available if a company captured its whole market.
+constant currency :: Growth measured with exchange-rate effects removed.
+non-GAAP :: Financial measures that exclude one-off items such as restructuring or acquisition costs.
+operating margin :: Operating profit as a percentage of revenue.
+basis point :: One-hundredth of a percentage point; 100 bps equals 1 percentage point.
+EPS :: Earnings per share, a company's profit divided by its share count.
+below the line :: Income-statement items beneath operating income, such as interest and taxes.
+free cash flow conversion :: Free cash flow as a percentage of net income.
+share buyback :: A company repurchasing its own stock to return cash to shareholders.
+bolt-on acquisition :: A small acquisition that adds products or capabilities to the existing business.
+operational excellence :: Illumina's company-wide program to fix processes and run more efficiently, not just cut costs.
+NovaSeq X :: Illumina's newest high-throughput sequencer, launched in 2023, which cuts sequencing cost per unit sharply.
+NovaSeq 6000 :: Illumina's previous high-throughput sequencer, being replaced by the NovaSeq X.
+MiSeq i100 :: A small benchtop Illumina sequencer launched in late 2024 with room-temperature reagents.
+XLEAP chemistry :: Illumina's newer sequencing chemistry offering higher performance at lower cost.
+flow cell :: The glass slide on which DNA is sequenced; sizes such as 10B, 25B and 35B indicate capacity.
+reagent rental :: A model where the instrument is provided and the customer pays through committed consumables purchases or a per-test price.
+elasticity :: The idea that lower prices lead customers to run disproportionately more volume.
+multiomics :: Measuring several biological layers (DNA, RNA, proteins, epigenetic marks) together.
+proteomics :: The large-scale measurement of proteins.
+SOMAmer / aptamer :: Engineered molecules that bind specific proteins, used by SomaLogic's protein measurement technology.
+coefficient of variation :: A measure of measurement variability; lower means more reproducible.
+single cell sequencing :: Sequencing that reads molecules from individual cells rather than tissue averages.
+spatial transcriptomics :: Measuring gene activity while preserving where in a tissue it occurs.
+transcriptome :: All the RNA molecules a cell expresses.
+Perturb-Seq :: An experiment that disrupts genes in many cells and sequences the resulting effects.
+CRISPR perturbation :: Using gene editing to switch genes on or off to study their effects.
+foundation model :: A large AI model trained on huge datasets that can be adapted to many tasks.
+Constellation / TruPath :: Illumina's on-flow-cell method that skips most library prep and adds long-range genome information to short reads; renamed TruPath at launch.
+5-base genome :: Illumina's product that reads DNA methylation alongside the four standard DNA letters.
+methylation / epigenetics :: Chemical marks on DNA that affect gene activity without changing the sequence.
+structural variant :: A large rearrangement of DNA, such as a deletion, duplication or inversion.
+phasing :: Determining which variants sit on the same copy of a chromosome.
+short-read sequencing :: Sequencing that reads DNA in short fragments, accurate but blind to large rearrangements.
+long-read sequencing :: Sequencing that reads long continuous DNA stretches, used by PacBio and Oxford Nanopore.
+library prep :: The lab step that prepares DNA or RNA samples for sequencing.
+multiplexing :: Running many samples together in one sequencing run or lane.
+resequencing :: Sequencing a genome and comparing it to a known reference.
+de novo assembly :: Building a genome from scratch without a reference.
+germline :: Inherited DNA present in every cell, as opposed to tumor DNA.
+trio sequencing :: Sequencing a patient plus both parents to interpret genetic variants.
+exome :: The protein-coding portion of the genome, about 2% of it.
+whole genome sequencing (WGS) :: Reading a person's entire genome.
+Q score :: A measure of sequencing accuracy; Q30 means one error in 1,000 bases, and higher numbers mean fewer errors.
+duplex sequencing :: Reading both DNA strands to improve accuracy, at the cost of extra sequencing.
+callability :: Whether a sequencing method can reliably identify variants in a given gene or region.
+CMOS readout :: A chip-based detector used to read sequencing signals.
+SBS chemistry :: Sequencing by synthesis, Illumina's core method of reading DNA as it is copied.
+FPGA :: A reprogrammable hardware chip used to accelerate data analysis.
+DRAGEN :: Illumina's hardware-accelerated genomic analysis software.
+Illumina Connected Multiomics (ICM) :: Illumina's software for analyzing and visualizing multiomics data, built on the Partek acquisition.
+Illumina Protein Prep (IPP) :: Illumina's proteomics workflow measuring up to 9,500 proteins via sequencing.
+BioInsight :: Illumina's new business creating large biological datasets and AI models for pharma on a subscription basis.
+counting applications :: Uses where sequencing counts molecules (single cell, RNA, protein) and library prep dominates cost.
+MRD :: Minimal residual disease testing, which detects tiny amounts of cancer remaining after treatment.
+therapy selection :: Choosing a cancer treatment based on a tumor's genetic profile.
+NIPT :: Non-invasive prenatal testing, which screens fetal DNA in the mother's blood.
+companion diagnostic :: A test developed alongside a drug to identify patients who will benefit.
+IVD :: In vitro diagnostic, a regulated test performed on samples outside the body.
+TSO 500 :: TruSight Oncology 500, Illumina's FDA-approved tumor profiling test.
+FFPE :: Formalin-fixed paraffin-embedded tissue, the standard way clinical samples are preserved.
+reimbursement :: The amount insurers pay for a test.
+vertical integration :: Owning multiple steps of a value chain, such as both instruments and diagnostic tests.
+decentralization :: Testing moving from central reference labs to many local labs.
+OEM :: Original equipment manufacturer; here, partners selling Illumina-made instruments under their own brand.
+white labeling :: Making products sold under another company's brand.
+unreliable entity list :: A Chinese government list that can restrict foreign companies' trade in China.
+MOFCOM :: China's Ministry of Commerce.
+key opinion leader (KOL) :: An influential researcher or clinician whose views shape adoption.
+core lab :: A shared sequencing facility serving many researchers at an institution.
+installed base :: The number of a company's instruments in use at customers.
+long-range plan (LRP) :: Illumina's 2027 targets set at its August 2024 strategy update.
+new product introduction (NPI) :: A newly launched product line.
+freedom to operate :: Patent clearance work confirming a product doesn't infringe others' IP.
+open trading window :: The period when company insiders may buy or sell shares.

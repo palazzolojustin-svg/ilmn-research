@@ -1,0 +1,45 @@
+```json
+{
+"verdicts": [
+{"id": "F1107", "verdict": "reject", "strength": "weak", "label": "1A", "direction": "against", "note": "Restatement. F963, F995, D090 and D091 already record that the Labcorp/Integrated Genetics MaterniT records moved to the X Plus on 2024-11-01 and that the prior platform was the HiSeq 2000. The 2020-01-09 HiSeq 2000 entry is also a stale registry field, not a dated instrument change, so the 'skipped the 6000' reading is not established."},
+{"id": "F1112", "verdict": "accept", "strength": "weak", "label": "1A", "direction": "supports", "note": "New at the LIMS-integration level, but it only extends F1053/F1054 (control-software cadence). Feature-freeze on a mature integration is expected and says nothing about the pace of conversion. Its value is as a de-prioritisation signal only."},
+{"id": "F1113", "verdict": "reject", "strength": "weak", "label": "1A", "direction": "against", "note": "Mostly a restatement of F1053 and the known 'product page live with no end-of-life'. The only new detail is the 6000Dx LIMS security patches, which are routine maintenance and not a commitment to longevity. It also conflicts in spirit with F1112, which uses the same data."},
+{"id": "F1115", "verdict": "accept", "strength": "medium", "label": "1C", "direction": "against", "note": "Verified in the GeneDx Q2'26 release: Medi-Cal genome pricing effective 1 Jul 2026 at 100% of Medicare. It is new to the corpus. Effect on Gb is small and unquantified, and payment is per test. Merge with F1116 when reporting."},
+{"id": "F1116", "verdict": "accept", "strength": "weak", "label": "1C", "direction": "against", "note": "Adds the scope of the Nov 2025 expansion (outpatient, prior authorisation (TAR) with frequency limits, 0340U MRD code). 'Could increase substantially' is a newsletter opinion with no numbers. Largely overlaps F1115."},
+{"id": "F1117", "verdict": "accept", "strength": "medium", "label": "1C", "direction": "against", "note": "Verified: 39 state Medicaid programs, Carelon outpatient genome coverage effective 14 Jun 2026 covering 'up to 56 million' lives, FY26 exome/genome growth guide of at least 30%, Q3 guide of 33,200 tests. The known list had only GeneDx's +32%; the payer facts are new. The Gb scale is tiny (see derived item)."},
+{"id": "F1118", "verdict": "reject", "strength": "weak", "label": "1C", "direction": "supports", "note": "Restates the known findings that sequencing is ~5–10% of clinical workflow cost and that a $100→$80 cut changes lab cost ~5%, using a new denominator. It is built entirely on assumed Gb per genome and the GSA list $/Gb, not net prices. Rapid trio WGS is usually billed under PLA/0425U-type codes, not 81425+2×81426, so the trio arithmetic is also uncertain."},
+{"id": "F1123", "verdict": "accept", "strength": "weak", "label": "1B", "direction": "against", "note": "Verified for AA1140001: 60 tests × NT$99,750 = NT$5,985,000, with budget, base price and award all equal, one bidder (Vita Genomics), awarded 13 Feb 2025. This is the price of a finished test from Roche/Foundation's distributor, not Illumina's reagent price, so it says little about Illumina's discounting. Foundation is also an AXELIOS adopter. The Guardant360 decline at the same hospital was not verified."},
+{"id": "F1129", "verdict": "accept", "strength": "weak", "label": "1B", "direction": "supports", "note": "Figures verified (award date 15 Sep 2026, notice 17 Sep). Correction 1: 'floor-price award' means award at the hospital's own base price, which was set below budget. Most of the 21% on P3 is that reserve, not negotiation; the bid-to-award cuts were P1 −4.2%, P2 −4.1%, P3 −12.2%, P4 −12.0%. Correction 2: the notice names only '定序試劑組 (300循環)' (300-cycle sequencing reagent kits), not NextSeq 2000, so the platform is unconfirmed. This is a volume-tier discount within a single mid-throughput lot, not evidence of large accounts winning extra discounts."}
+],
+"derived": [
+{
+"label": "1C",
+"direction": "supports",
+"claim": "Even if GeneDx's new payer coverage lifted volume as guided, the extra exome/genome Gb would be only about 0.05–0.5% of Illumina's annual high-throughput Gb.",
+"detail": "GeneDx guides 33,200 exome/genome tests for Q3'26, versus 30,785 in Q2'26 (+32% y/y, or ~7.5K more tests than a year earlier). The y/y increment of ~7.5K tests per quarter, at ~8–11 Gb per exome up to ~100–125 Gb per genome, is ~0.06–0.94M Gb per quarter, or ~0.25–3.7M Gb a year. Against the ~800M Gb a year HT base used in the corpus, that is ~0.03–0.5%. Even at an all-genome mix, GeneDx's whole run-rate (33.2K × 125 Gb ≈ 4.2M Gb per quarter) is ~2% of HT Gb. So the Medicaid and Carelon payer openings are real, but they cannot by themselves reverse a volume slowdown.",
+"url": "https://www.biospace.com/press-releases/genedx-reports-second-quarter-2026-financial-results",
+"date": "2026-08-03",
+"source_name": "GeneDx Q2 2026 earnings release; corpus Gb-per-test and HT base assumptions",
+"source_type": "press",
+"quote": "Expanded the total number of state Medicaid programs covering outpatient exome and/or genome sequencing to 39",
+"strength": "medium",
+"why_new": "It sizes the newly found payer openings (39 states, Carelon 56M lives, Medi-Cal) against Illumina's Gb base, which no known item does.",
+"based_on": ["F1115", "F1116", "F1117"]
+},
+{
+"label": "1B",
+"direction": "against",
+"claim": "At Taichung VGH's 2026 300-cycle reagent award, a non-Genetech distributor gave only ~9% off its opening bid overall (4% on small kits, 12% on large), below the ~15% settlement pattern seen with Illumina's main Taiwan distributor.",
+"detail": "Award 115A018 (15 Sep 2026, one bidder, Genomics BioSci): opening bids totalled NT$21.933M, and the award was NT$19.917M (−9.2%). By tier the cuts were P1 −4.2%, P2 −4.1%, P3 −12.2%, P4 −12.0%, and every line was awarded at or just under the hospital's own base price. D101 found Genetech single bids settling at ~85% of the opening bid (−15%) across 2022–26. This lot shows the discount is set by the buyer's reserve price and grows with kit size, but it does not show the discount accelerating. The platform is unconfirmed (the notice says only '300-cycle sequencing reagent kit').",
+"url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=115A018",
+"date": "2026-09-17",
+"source_name": "Taiwan PCC via pcc-api.openfun.app (Taichung VGH 115A018)",
+"source_type": "procurement",
+"quote": "",
+"strength": "weak",
+"why_new": "It adds bid-to-award cuts by tier from the verified award notice and tests the D101 ~15% settlement pattern on a different distributor.",
+"based_on": ["F1129", "D101", "F1087"]
+}
+]
+}
+```

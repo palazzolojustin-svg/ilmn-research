@@ -1,0 +1,14 @@
+```json
+{
+  "status": "dry",
+  "notes": "The JETRO notice (Notice No. 65, 24 Sep 2026) opened and is real. Buyer is Osaka University (Research Institute for Microbial Diseases). It is a 78-line general competitive tender under the WTO GPA. It includes NovaSeq X 1.5B 100-cycle ×100, 25B 200-cycle ×10, 10x Genomics kits, and MGI DNBSEQ-G400RS sets ×200, all marked 'or equivalent'. Bids open 15 Dec 2026, so there is no award yet. The notice gives no estimated price, and the specification is only available from the contracts office. Osaka's procurement page has no 落札者等の公示 section. It publishes monthly contract-disclosure PDFs (契約内容一覧表, Aug 2025 to Aug 2026). I opened the Aug 2025 PDF. It lists only contracts above roughly ¥5M. It gives a lump-sum contract amount per tender, plus winner and date, with no per-kit unit prices. Estimated price and award rate are shown as '-' for most items, with a stated reason that they could reveal prices of similar contracts. Nothing NovaSeq-related appeared in Aug 2025. A multi-line kit tender would appear only as a single total, so a per-SKU price series is not recoverable from these files. Per-item prices might be in the 入札説明書, which is not public. Searches also surfaced earlier Osaka tender notices: Dec 2023 (10B-300 ×10), Jan 2024 (6000 S2 plus 10B/25B-300), Jul 2024 (10B-300 ×50), and Feb 2026 (10B-300 ×60 plus 25B kits). That gives a quantity-mix trend, but no prices.",
+  "how_to_mine": "Low payoff. If pursued, open each monthly 契約内容一覧表 PDF (Sep 2025 to Aug 2026 and earlier) via the 契約内容の公表 section on osaka-u.ac.jp/ja/guide/publications/cyoutatu. Search the 競争契約 (物品等) pages for 'NovaSeq' or 'シーケンス' and read the lump-sum contract amount, winner and date. Then divide the lump sum by the line quantities in the matching 公告 (JETRO notices 345727 of 2025-03, 319878 of 2024-07, 383282 of 2026-02) to get a blended per-kit estimate. Check whether winners are distributors, and whether MGI or 'equivalent' lines were awarded, which would show competitive displacement. The PDFs are binary-compressed, so use the Read tool on the saved PDF. Lump sums that cover many mixed items make unit prices only approximate.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Osaka University monthly 契約内容一覧表 PDFs (osaka-u.ac.jp/ja/guide/publications/cyoutatu): winner and lump-sum award per tender, Sep 2025 to Aug 2026",
+    "JETRO notices 345727 (Mar 2025), 319878 (Jul 2024) and 383282 (Feb 2026): quantity-mix trend of 1.5B/10B/25B kits across years, including the inclusion of MGI DNBSEQ lines 'or equivalent' in the Sep 2026 tender"
+  ],
+  "apify_requests": []
+}
+```

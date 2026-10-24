@@ -1,0 +1,32 @@
+```json
+{
+  "status": "blocked",
+  "notes": "WebFetch failed with 'unable to verify the first certificate' on the cdph.ca.gov PDFs, including the capitalised host variant. Bash and PowerShell are disabled in this session, so I could not download the files or run pdftotext. I have only search-result snippets. The 2026-27 May Revision (and the Nov 2025 GDSP file for 2026-27) did not appear in two searches. The guessed filename 2026-27_GDSP_May_Revision_Estimate.pdf is unconfirmed. Search did surface 2025-26_GDSP_November_Estimate.pdf, 2024-25_GDSP_November_Estimate.pdf, and 2024-25, 2023-24 and 2022-23 May Revision PDFs. I got no caseload counts, no per-test rate and no page or table numbers. Correction to the brief: 'SCA' in this program means sex chromosome aneuploidy, added to the cfDNA panel on 1 Apr 2024. It is not a new 2025-26 addition (snippet, 2024-25 Nov Estimate).",
+  "how_to_mine": "Use an environment with working TLS or a shell (curl -k, then pdftotext -layout). Download 2025-26_GDSP_November_Estimate.pdf, 2024-25_GDSP_November_Estimate.pdf, 2024-25_GDSP_May_Revision_Estimate.pdf and 2023-24_GDSP_May_Revision_Estimate.pdf from https://www.cdph.ca.gov/Programs/CFH/DGDS/CDPH%20Document%20Library/. Try 2026-27_GDSP_Governor/November/May_Revision filename variants. Grep for 'cfDNA|participation|caseload|contract rate|per test|sex chromosome'. Pull the PNS caseload table (screens by year), the cfDNA participation % (52%→50% in the snippet) and the per-test rate. Calculate caseload per birth. Check whether the cfDNA rate has been cut since the 2022-23 estimate.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "California's Genetic Disease Screening Program (GDSP) cut its assumed cfDNA prenatal screening participation rate from 52% to 50% in the 2025-26 Nov Estimate, which points to a maturing NIPT market.",
+      "detail": "Search-result snippet only; I could not open the PDF. The 2025-26 Nov Estimate shows Local Assistance of $138.8M (+$809K, +0.6% vs the 2024 Budget Act). Lower prenatal caseload came from the cfDNA participation cut (52% to 50%) and a Department of Finance caseload reduction. About $4M of newborn screening contract rate increases partly offset these. California is about 11% of US births, so a falling opt-in take-up rate fits the thesis that NIPT is saturating and will drag on volume. The state program is a small share of US NIPT, and cfDNA is only about 1-2 Gb per test.",
+      "url": "https://www.cdph.ca.gov/Programs/CFH/DGDS/CDPH%20Document%20Library/2025-26_GDSP_November_Estimate.pdf",
+      "date": "2025-11",
+      "source_name": "CDPH Genetic Disease Screening Program, 2025-26 November Estimate",
+      "source_type": "filing",
+      "quote": "Lower participation in Cell-Free DNA (cfDNA) Screening (from 52 to 50 percent)",
+      "strength": "weak",
+      "why_new": "Not in the known list: this is an official state participation-rate assumption for NIPT, not a company claim or expert call."
+    }
+  ],
+  "new_candidates": [
+    "CDPH GDSP 2023-24 and 2024-25 May Revision PDFs (same library path) for a participation and caseload trend and any cfDNA contract rate change",
+    "CDPH Prenatal_Insurer_Letter_2024.pdf (PNS Documents folder) for the cfDNA fee and panel scope"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [2025-26 GDSP November Estimate](https://www.cdph.ca.gov/Programs/CFH/DGDS/CDPH%20Document%20Library/2025-26_GDSP_November_Estimate.pdf)
+- [2024-25 GDSP November Estimate](https://www.cdph.ca.gov/Programs/CFH/DGDS/CDPH%20Document%20Library/2024-25_GDSP_November_Estimate.pdf)

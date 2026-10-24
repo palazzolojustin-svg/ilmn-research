@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "ENA count API works through WebFetch with plain GET and no login. Confirmed strings: 'Illumina NovaSeq 6000', 'Illumina NovaSeq X Plus', 'Illumina NovaSeq X', 'Element AVITI', 'DNBSEQ-T7' all return counts. 'Ultima UG 100' and 'Ultima Genomics UG 100' returned 0, so the real Ultima string is unconfirmed. Only 11 requests were used, covering 2024Q2, 2025Q2 and 2026Q2 for the 6000 and 2026Q2 for most others. Counts are by first_public (release date), not by sequencing date. Data usually becomes public 1-3 years after it is generated, so the series is dominated by older runs and lags Illumina's reported mix badly. Counts are runs, not Gb. 'Illumina NovaSeq X' (71.8K) and 'X Plus' (68.1K) may overlap in the model string, which I did not resolve. The NCBI SRA cross-check was not done. Net: the data is real and new, but it is a weak, lagged proxy. It does not show the research 6000 tail shrinking.",
+  "how_to_mine": "Run the quarterly counts for 2023Q1-2026Q3 with first_public ranges for every model above. First find the Ultima string: query result=read_run&fields=instrument_model with a filter such as instrument_platform=ULTIMA, or try 'UG 100' and 'Ultima Genomics UG100'. Better design: the read_run search endpoint can return fields=instrument_model,base_count,first_public,center_name,study_accession. Sum base_count by model by quarter to get Gb share, not run share. Use collection date or run-date fields where present, which cuts the lag. Then break out by center_name, for example Broad, Sanger and BGI, to find research cores moving from the 6000 to X Plus or AVITI. Cross-check with NCBI esearch db=sra and the [Platform]/[PDAT] terms. Compute the 6000 share of NovaSeq-family runs per quarter and the non-Illumina share.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Public research sequencing runs on the NovaSeq 6000 are still rising and far outnumber NovaSeq X runs, so the 6000 research tail is not visibly shrinking in open data.",
+      "detail": "ENA runs first made public on 'Illumina NovaSeq 6000' were 372,853 in 2024Q2, 457,581 in 2025Q2 and 582,347 in 2026Q2 (+25% and +27% y/y). In 2026Q2 the X models were about 68K ('X Plus') and 72K ('X'). The 6000 is therefore roughly 80-89% of NovaSeq-family public runs by count, depending on whether the two X strings overlap. Release lag of 1-3 years means this mostly reflects 2023-25 sequencing, not current mix. It is a weak counter to the idea that the research tail is already converted.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model%3D%22Illumina%20NovaSeq%206000%22%20AND%20first_public%3E%3D2026-04-01%20AND%20first_public%3C2026-07-01",
+      "date": "2026-10-12 (query date)",
+      "source_name": "EMBL-EBI European Nucleotide Archive portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "ENA run counts by sequencer model were never used before."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Public AVITI and DNBSEQ-T7 run releases are small next to Illumina, but DNBSEQ-T7 is already about 2x AVITI, and the X Plus count has grown fast.",
+      "detail": "ENA 2026Q2 first_public counts: Element AVITI 14,110 runs, DNBSEQ-T7 31,738 runs, against the 6000 at 582,347. AVITI is about 2.4% of the 6000 count. 'Illumina NovaSeq X Plus' went from 0 (2024Q2) to 25,784 (2025Q2) to 68,110 (2026Q2), +164% y/y. Challengers are therefore still a rounding error in public run data, but the lag hides how much current volume they carry.",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/count?result=read_run&query=instrument_model%3D%22Element%20AVITI%22%20AND%20first_public%3E%3D2026-04-01%20AND%20first_public%3C2026-07-01",
+      "date": "2026-10-12 (query date)",
+      "source_name": "EMBL-EBI European Nucleotide Archive portal API",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "First quantified open-data read of AVITI and DNBSEQ-T7 against the 6000 and X Plus."
+    }
+  ],
+  "new_candidates": [
+    "ENA read_run search with fields=base_count,instrument_model,center_name,first_public to compute Gb share by model and by submitting center (Broad, Sanger, BGI, core labs).",
+    "NCBI SRA Run Selector or BigQuery public SRA metadata (platform/model, releasedate, mbases) as an alternative with a longer history.",
+    "Query ENA for Ultima via instrument_platform=ULTIMA to find the real model string."
+  ],
+  "apify_requests": []
+}
+```

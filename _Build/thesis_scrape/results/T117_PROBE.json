@@ -1,0 +1,17 @@
+```json
+{
+  "status": "dry",
+  "notes": "The pipermail root (/iigb_all/) and the 2025 month and thread index pages I tried (2025-January/thread.html, 2025-March/) all returned HTTP 404 to WebFetch. That may be a fetch or URL-format quirk, because individual 2023 message URLs do appear in search results. Search only surfaced 2023 posts, mainly the Mar-Apr 2023 AVITI seminar announcements, which fall outside the Jan 2025+ window. I found no 2024-2026 list messages on pricing, promotions or demand. The one adjacent find is UCR's own rate sheet (genomics.iigb.ucr.edu/rates, FY24-25, effective 17 Apr 2025). I did not open that page, so its figures are search-snippet level. It lists 25B-300 at $3,168 internal UC, $4,080 external educational and $5,738 commercial per lane. That is a single point with no earlier year to compare against, so it is not new evidence on a trend.",
+  "how_to_mine": "If this is revisited, first test whether the archive is reachable via a browser-like fetch or the Wayback Machine (web.archive.org/web/2026*/lists.ucr.edu/pipermail/iigb_all/). Then iterate the month pages (YYYY-Month/subject.html) from 2024-01 to 2026-10 and grep subjects for price, rate, AVITI, NovaSeq and promotion. Separately, pull the Wayback snapshots of genomics.iigb.ucr.edu/rates across 2023-2026 to build a UCR 25B and 10B price time series. That is probably the higher-value use.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "UCR IIGB Genomics Core rate sheet history (Wayback)",
+      "url": "https://genomics.iigb.ucr.edu/rates",
+      "why": "The current FY24-25 sheet shows 25B-300 at $3,168 internal and $4,080 external per lane. Archived prior versions would give a dated core-price time series for X Plus, which could test the 1B discounting claim and 2A research price sensitivity."
+    }
+  ],
+  "apify_requests": []
+}
+```

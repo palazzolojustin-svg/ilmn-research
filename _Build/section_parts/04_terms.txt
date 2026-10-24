@@ -1,0 +1,120 @@
+non-GAAP :: Adjusted results that exclude certain accounting items; Illumina's version still includes stock-based compensation.
+GAAP :: Standard US accounting rules for reported results.
+Core Illumina :: Illumina's business excluding its GRAIL cancer-screening subsidiary.
+consolidated :: Figures that combine Core Illumina and GRAIL.
+constant currency :: Growth rates recalculated to remove the effect of exchange-rate swings.
+basis point :: One hundredth of a percentage point.
+consumables :: The reagent kits and flow cells customers must buy for every sequencing run.
+flow cell :: The glass slide inside a sequencer where DNA is read; higher-capacity versions lower cost per sample.
+pull-through :: Annual consumables revenue generated per installed instrument.
+installed base :: The number of instruments in customers' hands.
+net installed base :: Installed instruments after subtracting retired or deactivated machines.
+gross margin :: Revenue minus production cost, expressed as a share of revenue.
+operating margin :: Operating profit as a share of revenue.
+free cash flow :: Cash from operations minus capital spending.
+R&D capitalization :: A US tax rule forcing companies to deduct research costs over several years rather than immediately.
+impairment :: An accounting write-down of the value of acquired assets such as goodwill.
+discount rate :: The interest rate used to translate future cash flows into today's value.
+COGS :: Cost of goods sold, the direct cost of making products.
+COVID surveillance :: Sequencing used to track coronavirus variants, which faded in 2023.
+NGS :: Next-generation sequencing, the high-volume DNA reading technology Illumina sells.
+NovaSeq X :: Illumina's high-throughput sequencer launched in 2023 to replace the NovaSeq 6000.
+NovaSeq 6000 :: Illumina's previous flagship high-throughput sequencer, launched in 2017.
+NextSeq 1000/2000 :: Illumina's mid-throughput benchtop sequencers.
+XLEAP-SBS :: Illumina's newer sequencing chemistry, offering faster, cheaper and more accurate runs with reagents shipped at room temperature.
+25B flow cell :: The highest-capacity NovaSeq X consumable, launched in Q4 2023, cutting cost per genome to about $200.
+gigabase :: A billion DNA bases, a unit of sequencing output.
+terabase :: A trillion DNA bases.
+Q30 :: A sequencing accuracy score meaning about one error per thousand bases.
+demand elasticity :: Customers sequencing more as the cost per sample falls.
+whole-genome sequencing :: Reading a person's entire DNA sequence.
+exome :: The protein-coding portion of the genome, about 1–2% of DNA.
+targeted panel :: A test that sequences only selected genes.
+single-cell sequencing :: Analyzing the genetic material of cells one at a time.
+spatial analysis :: Mapping where molecules sit within a tissue sample.
+multiomics :: Studies combining DNA with other molecular measurements such as RNA or proteins.
+proteomics :: Large-scale measurement of proteins.
+liquid biopsy :: Cancer testing from a blood sample instead of tissue.
+MRD :: Minimal residual disease testing, which detects traces of cancer left after treatment.
+tumor-informed :: An MRD test built from the patient's own tumor DNA profile.
+tumor-naive :: An MRD test that works without a prior tumor sample.
+comprehensive genomic profiling :: Broad sequencing of many cancer genes to guide treatment.
+TSO 500 :: TruSight Oncology 500, Illumina's comprehensive tumor-profiling kit.
+HRD :: Homologous recombination deficiency, a DNA-repair defect that can make tumors responsive to certain drugs.
+companion diagnostic :: A test used to select patients for a specific drug.
+NIPT :: Noninvasive prenatal testing that screens fetal DNA in the mother's blood.
+Galleri :: GRAIL's blood test that screens for many cancers at once.
+MCED :: Multi-cancer early detection testing.
+IVD :: In vitro diagnostic, an FDA-regulated diagnostic test or kit.
+LDT :: Lab-developed test, made and run within a single lab.
+PMA :: Premarket approval, the FDA's strictest device approval pathway.
+CLIA lab :: A US-certified clinical testing laboratory.
+ISO 13485 :: An international quality standard for medical-device manufacturing.
+research use only :: Products not cleared for clinical diagnosis.
+DRAGEN :: Illumina's genomic data analysis software and hardware.
+FPGA :: A programmable computer chip used for onboard data analysis.
+PrimateAI-3D :: An Illumina AI model that predicts which mutations cause disease.
+Form 10 :: An SEC registration filing used to spin off or list a company.
+special committee :: A Board subgroup formed to make decisions on a specific matter, here GRAIL.
+spin-off :: Separating a business into an independently listed company owned by existing shareholders.
+trade sale :: Selling a business to another company or investor.
+AMEA :: Illumina's Asia-Pacific, Middle East and Africa region.
+early majority :: The second, more cautious wave of buyers after early adopters.
+fleet expansion :: A customer adding more units of an instrument it already owns.
+8-K :: An SEC filing disclosing material corporate events.
+Core Illumina :: Illumina's business excluding GRAIL, the basis for nearly all 2024 results and guidance.
+GRAIL :: The cancer blood-test company Illumina was forced to divest, spun off in June 2024 with Illumina keeping 14.5%.
+Galleri :: GRAIL's multi-cancer early-detection blood test.
+Non-GAAP :: Company-adjusted results that exclude certain items; Illumina's version still includes stock-based compensation.
+Consensus :: The average of outside analysts' forecasts.
+Constant currency :: Growth measured with exchange-rate effects removed.
+Basis point :: One hundredth of a percentage point; 100 basis points equal 1 point.
+Consumables :: Reagent kits and flow cells customers must buy for every sequencing run.
+Flow cell :: The glass chip on which sequencing takes place.
+Gigabase (Gb) :: One billion DNA letters read; the unit of sequencing output.
+Pull-through :: Annual consumables revenue generated per installed instrument.
+Installed base :: The number of instruments in use at customers.
+High-throughput :: Illumina's largest sequencers, mainly the NovaSeq 6000 and NovaSeq X.
+Mid-throughput :: Benchtop sequencers such as the NextSeq 1000/2000.
+Low-throughput :: The smallest sequencers, such as the MiSeq family.
+NovaSeq 6000 :: Illumina's previous flagship high-throughput sequencer.
+NovaSeq X / X Plus :: Illumina's newest high-throughput sequencers, which sequence at a much lower cost per gigabase; the single-flow-cell X is a cheaper entry version.
+25B / 10B / 1.5B flow cells :: NovaSeq X consumables of different capacities, with 25B the largest.
+XLEAP-SBS :: Illumina's newer, faster and cheaper sequencing chemistry.
+SBS (sequencing by synthesis) :: Illumina's core method of reading DNA.
+P1–P4 flow cells :: Flow cells for the NextSeq 1000/2000.
+MiSeq i100 :: Illumina's new low-throughput benchtop sequencer with room-temperature reagents.
+DRAGEN :: Illumina's genomic data-analysis software, run on FPGA chips and now GPUs.
+Library prep :: Preparing a DNA sample so it can be sequenced.
+Constellation :: Illumina's mapped-read technology that does library prep on the flow cell and detects large structural variants.
+5-base genome :: An Illumina method giving DNA variants and methylation from one prep.
+Methylation :: Chemical tags on DNA that affect gene activity and serve as disease markers.
+Multiomics :: Combining several molecular layers such as DNA, RNA and proteins.
+Proteomics :: Large-scale measurement of proteins.
+Single-cell sequencing :: Analyzing molecules cell by cell rather than in bulk.
+Spatial transcriptomics :: Mapping where genes are active within tissue.
+Exome :: The protein-coding portion of the genome.
+Structural variant :: A large rearrangement of DNA that short-read sequencing struggles to detect.
+Sample to answer :: An offering covering the full workflow from sample to final result.
+Core lab :: A shared sequencing facility at a university or institution.
+Population genomics :: Large, often government-funded national sequencing programs.
+MRD (minimal residual disease) :: Detecting small amounts of cancer remaining after treatment.
+IVD (in vitro diagnostic) :: An FDA-regulated diagnostic test or instrument.
+LDT (laboratory-developed test) :: A test designed and run within a single lab.
+PMA (premarket approval) :: The FDA's most stringent approval pathway for devices.
+Companion diagnostic (CDx) :: A test that identifies patients suited to a specific drug.
+Elasticity :: The degree to which lower prices lead customers to sequence more.
+Clinical cliff :: Analysts' worry that clinical customers moving to the cheaper X would sharply cut consumables revenue.
+Win rate :: The share of competitive deals Illumina wins.
+Total performance obligations :: Contracted revenue not yet recognized, similar to backlog.
+Operating margin :: Operating profit as a share of revenue.
+Gross margin :: Revenue minus cost of goods, as a share of revenue.
+COGS (cost of goods sold) :: The direct cost of making products sold.
+Free cash flow :: Cash from operations minus capital expenditures.
+Delayed-draw term loan :: A bank loan that can be drawn after signing.
+Coupon :: The annual interest rate on a bond.
+NPV / ROIC :: Net present value and return on invested capital, measures of a project's financial worth.
+Tuck-in acquisition :: A small acquisition folded into existing operations.
+Open offer letter :: Illumina's multi-year customer pricing arrangements, which are not tied to a specific instrument.
+Unreliable entity list :: A Chinese government list that can restrict a foreign company's business in China.
+Biosecure :: Proposed US legislation restricting certain Chinese biotech firms such as BGI.

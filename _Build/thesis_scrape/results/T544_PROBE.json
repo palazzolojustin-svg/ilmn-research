@@ -1,0 +1,47 @@
+```json
+{
+  "status": "productive",
+  "notes": "I opened the UMGC page and the news-events index. The news-events index dates the page 2 Aug 2026; the page body shows no date and only a '© 2026' footer. The WebFetch tool summarizes pages with a small model, so treat the extracted figures as unverified. The page gave $2,704 UMN and $3,188 external per wafer (10–12B reads), $1,857 UMN and $2,175 external per half wafer (5–6B reads), and a saving of $500 per wafer and $250 per half-wafer against standard UG 100 pricing. The search snippet quoted $2,409 UMN and $2,712 external per wafer, which conflicts with the fetched numbers. The two cannot both be right, so a direct read of the page is needed. The page mentions no NovaSeq X price. The page 'service-pricing' returned 404, and a search did not surface the UMGC NovaSeq X 25B lane price. So the same-date X lane comparison and the per-billion-read discount against the X could not be computed. The news-events index shows no 2026 follow-up on UG 200, AXELIOS or a NovaSeq price cut. Its only related items are a seminar, 'Rethinking the Cost of NGS with Ultima Genomics' (2 Sep 2026), and a 15 Sep 2025 AVITI upgrade that cut AVITI cost per million reads by 33%. The page contains no language that steers customers off Illumina. It pitches the Ultima pairing as letting researchers 'scale up' and directs external users to their 10x account executive.",
+  "how_to_mine": "1) Re-fetch the page and read the raw text to resolve the $2,409/$2,712 vs $2,704/$3,188 conflict. Also look for the standard UG 100 price page linked from it. 2) Find the UMGC NovaSeq X 25B lane prices (internal and external) on genomics.umn.edu. Try the 'Sequencing' or 'Rates' pages, and try Wayback Machine snapshots dated around 2 Aug 2026. 3) Compute $/M reads: Ultima wafer ÷ 10–12B reads, versus a 25B lane at about 25B reads. For example, $2,704 ÷ 11,000M reads ≈ $0.25/M. 4) Open the 2 Sep 2026 Ultima seminar page and the 15 Sep 2025 AVITI upgrade page for the dated price-cut pattern. 5) Check Wayback for earlier UMGC price lists to measure how much the X lane price changed.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A large academic core launched a dated, 10x-specific Ultima UG 100 discount in Aug 2026, steering single-cell and spatial research volume to a non-Illumina platform.",
+      "detail": "UMGC's news item, dated 2 Aug 2026 on its news-events index, offers 'preferred' UG 100 pricing for 10x Genomics single-cell and spatial projects. The saving is $500 per wafer (10–12B reads) and $250 per half-wafer (5–6B reads). The fetched page gave about $2,704 UMN and $3,188 external per wafer, which is roughly $0.22–0.27 per million reads at 10–12B reads. The search snippet quoted $2,409 and $2,712 instead, so the figures conflict and need re-checking. No NovaSeq X price appears on the page, so the discount against the X is not yet computed.",
+      "url": "https://genomics.umn.edu/news/preferred-ultima-ug-100-pricing-10x-genomics-projects",
+      "date": "2026-08-02",
+      "source_name": "University of Minnesota Genomics Center",
+      "source_type": "price_list",
+      "quote": "savings of $500 per wafer or $250 per half-wafer",
+      "strength": "medium",
+      "why_new": "The dated, 10x-specific subsidy and its 2 Aug 2026 date are new; the corpus had only generic UMN Ultima pricing (~$12/50M reads)."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "UMGC has made repeated, dated price cuts and promotions on non-Illumina platforms, and its news index shows no matching Illumina price move.",
+      "detail": "The 15 Sep 2025 AVITI upgrade gave a 50% output increase on certain kits and cut AVITI sequencing cost per million reads by 33%. The 1 Nov 2025 Parse offer gives free sequencing with Evercode kits. The 2 Sep 2026 seminar is titled 'Rethinking the Cost of NGS with Ultima Genomics'. The index of 15 items (Sep 2025 to Sep 2026) shows no NovaSeq X price cut or UG 200/AXELIOS item.",
+      "url": "https://genomics.umn.edu/news-events",
+      "date": "2026-09-02",
+      "source_name": "University of Minnesota Genomics Center",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The dated sequence of UMGC alternative-platform price actions across Sep 2025 to Sep 2026 is new; the corpus has the AVITI cost fall only in aggregate."
+    }
+  ],
+  "new_candidates": [
+    {
+      "url": "https://genomics.umn.edu/aviti-upgrade-complete",
+      "why": "Dated AVITI cost cut (33% per million reads). Compare it with the UMGC NovaSeq X lane price history."
+    },
+    {
+      "url": "https://genomics.umn.edu/seminar-ultima-genomics",
+      "why": "2 Sep 2026 Ultima seminar at a large core. It may show UG 200 and cost-per-genome claims."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,20 @@
+```json
+{
+  "status": "dry",
+  "notes": "Three standard searches found no .edu core advisory or user-committee minutes, annual-review slides or governance PDFs that mention Illumina pricing, negotiations or switching leverage. Results were rate cards (EPFL, Salk, MIT BioMicro) and public price notices (UMN, Rockefeller, UNMC). The UMN notice says AVITI reagent discounts deepen as adoption grows, which is a leverage signal. But the UMN AVITI price-fall figures were already in the known list, and I did not open the page. Minutes are rarely posted publicly, and Google-style queries for them mostly return vendor pages. I opened no documents and relied on search snippets only. I got no login, paywall or bot blocks, since I never fetched a page.",
+  "how_to_mine": "Do not run more generic minutes searches. Two cheaper routes: (1) Open genomics.umn.edu/AVITI-price-drop-2024 and the UMGC news-events page. Pull the dated price notices and check for any NovaSeq X price notices that follow. This could quantify how a core's AVITI volume buys steeper reagent discounts. (2) Open the Illumina agreement appendices (the tst-web.illumina.com/.../cancer/*appendix-1.pdf and the 09-29-2022 Addendum). They show annual-spend discount tiers ($0 up to $100M) and instrument-count credit tiers of 5-15%, covering NovaSeq 6000, X and X Plus. Read the tiers and compare versions (2022, Jan 2024, Mar 2024). A tier change would measure discount drift for large accounts, which bears on 1B. I do not know whether these are already covered by the known 'test-terms pages'. Check against the known list first.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {
+      "url": "https://www.tst-web.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/1-25-2024_appendix-1.pdf",
+      "why": "Search snippet shows an Illumina appendix with instrument-count discount tiers (5-15%) and annual-spend tiers. Comparing the 2022, Jan 2024 and Mar 2024 versions could show discount-tier drift for large accounts (1B). Unopened, and possibly already covered by the known test-terms pages."
+    },
+    {
+      "url": "https://genomics.umn.edu/AVITI-price-drop-2024",
+      "why": "UMN says AVITI volume lets it buy reagents at steeper discounts, which is a direct sign of buyer leverage. Check for 2025-26 follow-up price notices and any NovaSeq X rate changes."
+    }
+  ],
+  "apify_requests": []
+}
+```

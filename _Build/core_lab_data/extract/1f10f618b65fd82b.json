@@ -1,0 +1,42 @@
+{
+ "core_name_on_page": "Hubbard Center for Genome Studies",
+ "document_date": null,
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_1.5B",
+   "flow_cell_raw": "NovaSeq X Plus, 1.5B flow cell",
+   "unit": "per_million_reads",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "Shared-run rate; \"Prices are UNH internal rates\"",
+   "price": 3.0,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "Illumina, 2 x 150 bp NovaSeq X Plus, 1.5B flow cell | $3.00 per million read pairs"
+  },
+  {
+   "platform_fc": "NSX_1.5B",
+   "flow_cell_raw": "NovaSeq X Plus, 1.5B flow cell",
+   "unit": "per_million_reads",
+   "quantity": 1,
+   "read_config": "2x300",
+   "total_cycles": 600,
+   "tier": "internal",
+   "tier_raw": "Shared-run rate; \"Prices are UNH internal rates\"",
+   "price": 5.0,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "Illumina, 2 x 300 bp NovaSeq X Plus, 1.5B flow cell | $5.00 per million read pairs"
+  }
+ ],
+ "_model": "haiku"
+}

@@ -1,0 +1,87 @@
+NGS Sequencing | Genomics Facility
+The University of Chicago
+OSRF FTP
+OSRF Home
+Genomics Facility
+FAQ
+Services
+NGS Sequencing
+RNA-Sequencing
+Quality Control
+10x Genomics
+Micro-Arrays
+Nano-String
+Methyl Sequencing
+Whole Genome Sequencing
+Forms
+Fees
+About Us
+Select Page
+Close
+Next Generation Sequencing
+Description
+Illumina - NovaSeq X
+Element Biosciences - Aviti
+Submission Guidelines
+Pricing
+Rapid Sequencing
+Next Generation Sequencing (NGS) involves massively parallelized sequencing of billions of unique DNA molecules, all in one experiment. Currently the university of Chicago Genomics Facility uses two state-of-the-art short read NGS instruments, each filling a different role:
+The Illumina NovaSeqX serves as a workhorse instrument which can handle very large projects or several smaller projects in a single sequencing experiment.
+The Element Biosciences Aviti is tailored for smaller, more specialized sequencing projects and allows for greater flexibility in run scheduling, among other advantages.
+The Illumina NovaSeqX is appropriate for most short read sequencing applications.
+Currently we offer three flowcell formats:
+10B flowcell -- 8 lanes providing ~1.2-1.5 B reads per lane.
+1.5B flowcell -- 2 lanes providing ~1.2-1.5 B reads per lane.
+25B flowcell -- 8 lanes providing ~3-3.2 B reads per lane.
+Advantages:
+Lowest cost per base sequenced
+High Throughput (up to 25 billion unique reads per flow-cell)
+The Element Aviti is a smaller sequencer that facilitates more specialized sequencing projects that do not require the massive data output available on the NovaSeqX platform.
+Advantages:
+Non-patterned flowcell (reduces index-hopping)
+Independent modules allow for flexible run scheduling (suited to uncommon read length requests)
+Specialized library types
+Longer reads (up to PE300 bp)
+Highest quality basecalls (majority of reads above Q40)
+Each step in the NGS pipeline consumes some of the sample. In order to guarantee success, we recommend the following:
+Minimum library concentration: 6nM (10 nM is ideal)
+Minimum library volume: 15 μl
+Additional volume: 15 μl per additional lane requested (at ~1 billion reads per lane)
+We are often able to accommodate submissions that fall outside of these recommendations. If you are not able to supply samples that meet these recommendations, please email (Genomics@bsd.uchicago.edu) for a consultation and we will do our utmost to work with what you have.
+Our facility needs three things in order to start work on your order:
+1) A completed submission form: LINK TO FORM
+2) A completed sample index form: LINK TO FORM
+3) The samples themselves:
+Samples should be delivered in 1.5 ml tubes. Samples should be left in the submission freezer outside room 1230C on the first floor of the Knapp Center for Biological Discovery (KCBD). Baggies and paper submission forms are available by the freezer. Projects involving large numbers of samples can be submitted in microfuge tube storage boxes.
+Pricing
+Flowcell pricing is based on the number of reads requested and the length of the reads. We calculate the cost of QC steps based on the total number of QC assays and cleanups performed.
+Example Flowcell Costs (2024):
+NovaX, 10B flowcell, 1-1.5B reads (1 lane), 300 cycle cassette: ~$1,499
+NovaX, 10B flowcell, 1-1.5B reads (1 lane), 100 cycle cassette: ~$1,175
+NovaX, 25B flowcell, 3-3.2B reads (1 lane): ~$2,461
+NovaX, 25B flowcell, 25B reads (8 lanes): ~$20,400
+Aviti 150 cycle full flowcell: ~$1,175
+Final project costs will vary based on number of samples and the amount of processing needed. Please contact CONSULT-EMAIL for a quote.
+Detailed list of pricing for all services
+The University of Chicago is pleased to announce a new low-cost rapid sequencing service. With this service we aim to offer extremely fast turnaround times to qualifying projects at no additional cost. Customers using rapid sequencing can expect data delivery in as little as one day!
+Our ability to return data on such a tight timeline requires that a project meets certain criterion:
+1) Clients must purchase a full flow cell of sequencing. We are not able to offer rapid sequencing for individual lanes on the NovaSeqX. However, we offer a variety of flow cell options to fit different projects:
+Aviti sequencing for smaller projects:
+(400 million to 1 billion reads, depending on flowcell type and read length) *
+NovaSeq X sequencing for larger projects:
+2 lanes of 1.5 B flowcell (~2 billion reads)
+8 lanes of a 10B flowcell (~10 billion reads)
+8 lanes of the 25B flowcell (~25 billion reads) *
+2) Clients must supply a single tube containing the pooled library to be sequenced at or before 10 AM on the project start date. Projects requiring pooling in our facility do not qualify for rapid sequencing as these extra processing steps inevitably add to project timelines. Submitted pools should be of high quality to guarantee successful sequencing (6 nM, 15 μL of volume per lane to be sequenced). For NovaSeqX orders we will accept multiple pools to be sequenced across different lanes on the purchased flowcell.
+3) Clients must contact the core at least one day in advance of submission to confirm availability and establish a plan with core staff. We require this notice to ensure that rapid sequencing submissions get priority. We operate this service on a fist come first serve basis and will communicate an expected timeline in cases where the sequencers are already scheduled (not exceeding 5 business days).
+*NOTE: For paired-end 300 bp Aviti and 25B NovaSeqX run types, sequencing time exceeds 24 hours. This imposes an additional constraint on turnaround time both because of the run time itself, and because these long runs prevent us from processing other sequencing orders on consecutive days. We will try our best to accommodate rapid sequencing requests for these run types but reserve the right to delay them. We ideally start long runs for Friday so they may complete over the weekend, with data delivered the following Monday.
+Scroll to Top
+900 E. 57th St., Room 1230C
+Chicago, IL. 60637
+773.834.8420
+pfaber@bsd.uchicago.edu
+Accessibility
+Contact Us
+OSRF Home
+UChicago Comprehensive Cancer Center
+Biological Sciences Division

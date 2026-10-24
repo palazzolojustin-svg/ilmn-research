@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "I confirmed two payer changes: UHC dropped prior authorization for 81420 on 1 Apr 2025, and Nevada Medicaid made 81420 billable from 1 Jan 2026. Neither source says the coverage is average-risk, so neither shows an expansion in who is covered. The Nevada PDF is compressed, and WebFetch could not read its text. Only a search snippet gave the details: no prior authorization and a limit of 1 unit per 3 rolling months. I could not open the New Mexico document. I found no current state-by-state list of Medicaid programs that restrict 81420 to high-risk pregnancies, and the search returned mostly low-quality content-farm pages. One Vermont Medicaid form (undated) still lists high-risk indications for 81420 (age 35 or older, abnormal ultrasound, prior trisomy). This is not evidence about the whole country. Natera's Dec 2020 release says the largest US plan already covered NIPT for all pregnancies and that the vast majority of commercial lives were covered. That points to commercial saturation by 2020. Medicaid is the remaining gap, and I could not size it.",
+  "how_to_mine": "1) Download the Nevada PDF (https://www.medicaid.nv.gov/Downloads/provider/web_announcement_3804_20251231.pdf) and the New Mexico letter of direction (https://hca.nm.gov/wp-content/uploads/Final-LOD-32-Prenatal-Genetic-Screening.pdf), then extract the text with pdftotext or Python pypdf. 2) Check each state Medicaid policy for 81420 (CA, TX, NY, FL, PA, IL, OH, NC, GA, MI, VT, etc.) for 'singleton' and 'high risk' wording. Rank states by Medicaid births, since Medicaid pays for about 41% of US births. 3) Fetch the UHC medical policy 'Cell-Free Fetal DNA Testing' to see whether average-risk coverage is explicit. 4) Check the Natera, BillionToOne and Myriad 10-K payer sections for statements on Medicaid coverage gaps.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "UnitedHealthcare removed prior authorization for cell-free fetal DNA testing (CPT 81420) across commercial, exchange and Community Plan lines from 1 Apr 2025.",
+      "detail": "The notice covers UHC commercial, Individual Exchange and Community Plans (Medicaid managed care). It removes an access friction but does not say coverage was extended to average-risk pregnancies. Natera said in Dec 2020 that the largest US plan already covered all pregnancies, so this is the removal of an administrative step, not a new population. That fits a view that the remaining coverage levers are small.",
+      "url": "https://www.uhcprovider.com/en/resource-library/news/2025/prior-auth-non-invasive-prenatal.html",
+      "date": "2025-04-01",
+      "source_name": "UnitedHealthcare Provider portal",
+      "source_type": "press",
+      "quote": "will no longer require prior authorizations",
+      "strength": "weak",
+      "why_new": "The known list covers NIPT maturity and ACMG guidance but has no dated payer prior-authorization change."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Nevada Medicaid added 81420 for dates of service from 1 Jan 2026, with no prior authorization and a limit of 1 unit per 3 rolling months. This is a small state expansion.",
+      "detail": "A search snippet of the Nevada Medicaid announcement (SB 344) gave these terms. I could not read the PDF itself, so the risk-tier criteria are unverified. Nevada has about 3 million residents, so the added volume is small. A Vermont Medicaid form (undated) still limits 81420 to high-risk indications, so some gaps remain.",
+      "url": "https://www.medicaid.nv.gov/Downloads/provider/web_announcement_3804_20251231.pdf",
+      "date": "2025-12-31",
+      "source_name": "Nevada Medicaid web announcement 3804",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no state Medicaid NIPT coverage changes."
+    }
+  ],
+  "new_candidates": [
+    "State Medicaid provider manuals and fee schedules for 81420 coverage criteria, to count high-risk-only states",
+    "UHC medical policy 'Cell-Free Fetal DNA Testing' for explicit average-risk wording",
+    "Medicaid share of US births (CDC/KFF), to size the remaining uncovered pool"
+  ],
+  "apify_requests": []
+}
+```

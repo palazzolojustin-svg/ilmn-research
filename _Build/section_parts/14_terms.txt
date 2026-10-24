@@ -1,0 +1,51 @@
+single-cell analysis :: Measuring gene activity in individual cells rather than averaging across many cells.
+spatial biology :: Measuring gene activity while preserving where in a tissue each molecule is located.
+Chromium :: 10x Genomics' single-cell product line.
+Xenium :: 10x Genomics' imaging-based spatial platform that uses targeted gene panels.
+Visium :: 10x Genomics' sequencing-based spatial platform; Visium HD launched about two years before May 2026.
+Atera :: 10x Genomics' new high-throughput, whole-transcriptome spatial platform launched in April 2026, shipping from late 2026.
+Atera Select :: Targeted gene panels for Atera that allow more than 3,000 samples per instrument per year.
+Flex / Flex Apex :: Chromium single-cell assays suited to large studies and preserved clinical tissue; Apex is the newer, lower-cost-per-sample version.
+consumables :: Reagent kits customers must buy for every experiment, producing recurring revenue tied to usage.
+instruments :: The one-time capital equipment purchases that run the experiments.
+reaction volume :: The number of single-cell reactions customers run, a measure of usage.
+whole transcriptome :: Measuring essentially all expressed genes at once rather than a pre-selected subset.
+targeted panel :: A pre-selected list of genes an assay measures.
+plex :: The number of genes or targets measured simultaneously.
+sensitivity :: An assay's ability to detect faint or low-abundance molecules.
+specificity :: An assay's ability to measure only the intended molecule without false signals.
+throughput :: How many samples or how much tissue an instrument can process in a given time.
+imaging-based readout :: Reading molecules directly in tissue with optics instead of on a DNA sequencer.
+in situ sequencing :: Reading DNA or RNA sequence base by base directly inside the tissue.
+multiomics :: Measuring several molecule types, such as RNA and proteins, in the same sample.
+FFPE :: Formalin-fixed, paraffin-embedded tissue, the standard way clinical specimens are preserved.
+FISH :: Fluorescence in situ hybridization, an established method that labels specific genes in tissue.
+biobank :: A stored collection of tissue samples available for research.
+tissue microarray :: A slide holding many small tissue cores so many samples can be analyzed together.
+core lab :: A shared facility that runs experiments for many researchers.
+service provider :: A company that runs experiments for paying customers.
+translational research :: Research that turns lab discoveries into patient-relevant targets, biomarkers and therapies.
+biomarker :: A measurable biological signal that indicates disease state or likely treatment response.
+perturbation dataset :: Data showing how cells respond when genes are switched off or altered.
+scaling laws :: The observation that AI models improve predictably as training data and model size grow.
+in silico :: Done by computer simulation.
+simplex read :: A simpler sequencing read format that costs less than whole-genome-style reads.
+price per read :: The cost of each sequencing read, which drives the sequencing cost of single-cell projects.
+TAM :: Total addressable market, the total revenue opportunity for a product.
+gross margin :: Revenue minus direct cost of goods, as a percentage of revenue.
+margin accretive :: Raising the company's overall margin percentage.
+operating expenses :: Costs of running the business, such as R&D, sales and administration, excluding cost of goods.
+EPS :: Earnings per share, net profit divided by shares outstanding.
+consensus :: The average of analysts' published estimates.
+capex :: Capital expenditure, spending on long-lived equipment such as instruments.
+sequential :: Compared with the immediately preceding quarter.
+quarterization :: How annual revenue is spread across the four quarters.
+compares :: Prior-year results against which current growth is measured.
+installed base :: The number of instruments in use at customer sites.
+utilization :: How intensively installed instruments are used.
+NDA :: Non-disclosure agreement, a contract keeping shared information confidential.
+GPU :: Graphics processing unit, a chip used for fast image and AI computation.
+fireside chat :: A moderated one-on-one conversation at an investor conference.
+AGBT :: Advances in Genome Biology and Technology, a major genomics conference held each February.
+AACR :: American Association for Cancer Research, a major cancer conference held each April.
+patent litigation settlement :: Payments resolving patent lawsuits, which inflated 10x's 2025 revenue as a one-time item.

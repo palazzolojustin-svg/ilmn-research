@@ -1,0 +1,29 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the Aachen notice. Its publicly visible fields are thin: buyer Universitätsklinikum Aachen AöR; published 10 Mar 2026; document type shown as AWARD; no submission deadline. The page does not show contract length, value, contract start or end dates, or the notice number (the publication number is behind signup). It names only the NovaSeq 6000, not the NovaSeq X. A search snippet (not the notice itself) says the scope is the NovaSeq 6000 plus a DRAGEN Server Advance Exchange support plan. The same snippet describes preventive maintenance, 18x5 remote support, 2-working-day on-site response, and a parallel market-sounding (Markterkundung) with a deadline of 10 June, year unclear. The result is one German hospital still buying 6000 service in 2026, but with no term or value. That is weak evidence of tail stickiness. I did not run a TED/evergabe count of notices running into 2027 or later. A search for an MDC Berlin 'Wartungsvertrag für Sequenziergeräte der Firma Illumina GmbH' notice turned up a listing only. The page for it returned 404 and its content was not seen. The US NIH sole-source 6000 service notices from 2025-26 that appeared in search results have not been opened.",
+  "how_to_mine": "Query TED (ted.europa.eu) expert search for the CPV code 50400000 / 50421000 plus the text 'NovaSeq' or 'Illumina' for 2025-2026, then open each award notice (contract award, Section II.2.7 duration and V.2.4 value). Also check the Aachen notice on the vergabe.nrw / evergabe-online portal. These carry the term and value that the aggregator hides. Also check bund.de and DTVP for 'Illumina Wartung'. Separately, SAM.gov and govcontractfinder list the NIH 6000 sole-source maintenance awards (75N96025Q00037, 75N98026Q01014), which show US 6000 service terms and values for 2025-26.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A German university hospital (Aachen) was still procuring NovaSeq 6000 maintenance in March 2026, with no NovaSeq X named.",
+      "detail": "Universitätsklinikum Aachen AöR published a notice on 10 Mar 2026 titled 'Wartungsvertrag für ein NovaSeq6000 System Firma Illumina', with document type AWARD. Contract length and value are not visible on the open page. The notice names only the NovaSeq 6000. This shows the 6000 tail is still being serviced in German clinical settings in 2026, but without term data it cannot be taken as evidence of multi-year stickiness.",
+      "url": "https://auftragone.com/en/notices/wartungsvertrag-fuer-ein-novaseq6000-system-firma-illumina",
+      "date": "2026-03-10",
+      "source_name": "auftrag.ai / auftragone.com (tender aggregator)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Aachen 6000 service tender is not in the known list; known 6000 evidence is mostly Siena, Providence and core labs."
+    }
+  ],
+  "new_candidates": [
+    "TED award notices for CPV 50421000 (maintenance of medical equipment) with 'NovaSeq' or 'Illumina', 2025-26",
+    "NIH sole-source NovaSeq 6000 service notices 75N96025Q00037 and 75N98026Q01014 (govcontractfinder / govsignals) for US 6000 service terms and values",
+    "MDC Berlin 'Wartungsvertrag für Sequenziergeräte der Firma Illumina GmbH' notice, to find which instruments are covered"
+  ],
+  "apify_requests": []
+}
+```

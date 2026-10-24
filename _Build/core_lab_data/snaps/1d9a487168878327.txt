@@ -1,0 +1,81 @@
+Equipment and rates | Desert Southwest Genomics Center | Core Facilities | ASU
+Biosciences
+Desert Southwest Genomics Center
+Biosciences Genomics Center Equipment and Rates
+Select Section
+About
+Capabilities
+Equipment and Rates
+Research
+Contact
+Get Started
+Equipment and rates
+For industry rates, contact us. See the rates below the equipment list for specific services.
+10x Genomics Chromium X
+10x Genomics Chromium X
+Description: The 10x Genomics Chromium X is a high-throughput single-cell analysis instrument that automates cell partitioning and barcoding. Using microfluidic technology, it captures hundreds of thousands…
+Techniques: Single cell sequencing
+View details
+Agilent 4200 TapeStation
+Agilent 4200 TapeStation
+Description: The Agilent Tapestation provides an automated alternative to traditional gel electrophoresis, allowing researchers to analyze the quantity and size of DNA or RNA samples from…
+Techniques: DNA, RNA and next generation sequencing quality control
+View details
+Agilent Femto Pulse
+Agilent Femto Pulse
+Eppendorf Vacufuge
+Eppendorf Vacufuge
+Description: The Vacufuge combines centrifugal force and vacuum for gentle concentration of DNA, RNA, nucleotides, proteins and gel electrophoresis samples. The system has three aeration modes…
+Techniques: concentration
+View details
+Hamilton Microlab Prep liquid handler
+Hamilton Microlab Prep liquid handler
+Description: The Hamilton Microlab Prep is a compact liquid handler designed for pipetting workflows like PCR setup, serial dilutions and plate replication.
+Techniques: PacBio long read library shearing and construction
+View details
+Illumina NextSeq 2000
+Illumina NextSeq 2000
+Description: The Illumina NextSeq 2000 is a powerful, highly scalable benchtop sequencer designed to deliver high-throughput, multi-application sequencing. Powered by XLEAP-SBS chemistry, it features advanced super-resolution…
+Techniques: Next generation sequencing
+View details
+Invitrogen Countess 3 cell counter
+Invitrogen Countess 3 cell counter
+Description: The Invitrogen Countess 3 is a benchtop automated cell counter designed to rapidly deliver accurate cell counts and viability measurements using an advanced machine-learning image…
+Techniques: Cell counting
+View details
+Invitrogen E-gel Power Snap Plus electrophoresis system
+Invitrogen E-gel Power Snap Plus electrophoresis system
+Description: The Invitrogen E-Gel Power Snap Plus is a compact, benchtop system that combines gel electrophoresis and imaging into a single platform. Designed to accelerate nucleic…
+MiSeq | | | |
+MiSeq Nano | Up to 1 million reads | | |
+MiSeq Nano 2×150 | $590/run | $917/run | Paired end run, each read 150bp |
+MiSeq Nano 2×250 | $759/run | $1,093/run | Paired end run, each read 250bp |
+MiSeq v2 | 12-15 million reads | | |
+MiSeq v2 2×150 | $1,819/run | $2,620/run | Paired end run, each read 150bp |
+MiSeq v2 2×250 | $2,036/run | $2,932/run | Paired end run, each read 250bp |
+MiSeq v3 | 20-22 million reads | | |
+MiSeq v3 2×300 | $2,828/run | $4,073/run | Paired end run, each read 300bp |
+MiSeq 2×75 | $1,577/run | $2,271/run | |
+NextSeq 2000 | | | |
+NextSeq 2000 P1 | 100 million reads | | |
+NextSeq 2000 2×150 | $1,530/run | $2,204/run | Paired end run, each read 150bp |
+NextSeq 2000 2×300 | $2,119/run | $3,052/run | Paired end run, each read 300bp |
+NextSeq 2000 P2 | 400 million reads | | |
+NextSeq 2000 2×50 | $1,785/run | $2,571/run | Paired end run, each read 50bp |
+NextSeq 2000 2×150 | $3,296/run | $4,747/run | Paired end run, each read 150bp |
+NextSeq 2000 2×300 | $3,763/run | $5,419/run | Paired end run, each read 300bp |
+NextSeq 2000 P3 | 1.2 billion reads | | |
+NextSeq 2000 2×150 | $5,446/run | $7,843/run | Paired end run, each read 150bp |
+NextSeq 2000 P4 | 1.8 billion reads | | |
+NextSeq 2000 2×150 | $6,142/run | $8,845/run | Paired end run, each read 150bp |
+NGS TGen Sequencing | | | |
+NovaSeq X – 10B (300 cycle) | $1,950/run | $1,950/run | 1.25 billion reads |
+NovaSeq X – 25B (300 cycle) | $3,250 | $3,250 | 3.25 million reads |
+Demultiplexing and Fastq File Generation | | | |
+| $83/run | $141/run | Standard demultiplexing and fastq file generation, with QC analysis |
+Custom services are available upon request. Contact us to discuss.
+Didn’t find what you are looking for?
+Looking for a specific technique or piece of equipment? Search equipment across all of our facilities.
+Ready to start a project?
+Learn how to access our facilities, training, equipment and services.
+Get started

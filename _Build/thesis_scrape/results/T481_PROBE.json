@@ -1,0 +1,47 @@
+```json
+{
+  "status": "productive",
+  "notes": "The xtalks URL returns 404, but the same posting is mirrored on resumegeni.com (dated 28 Jun 2026) and surfaced in search. Only one role was found: Associate Director, Pricing Transformation, reporting to the Sr. Director, Enterprise Pricing and Financing. I did not find the Sr Director, pricing analyst, deal desk or leasing sibling roles in this probe. Descriptions are paraphrased by the fetch tool, so the quotes below come from that paraphrase and should be checked against the raw page. The posting is a new function with a pricing vision, and its themes match the thesis, but it is soft evidence and has no numbers. The Illumina financial-solutions page gives concrete lease prices and a limited-time 0% financing offer. The lease prices are not in the exclusion list, but the 0% offer is only weak support for 1B.",
+  "how_to_mine": "Search for sibling roles with these queries: 'Illumina Sr Director Enterprise Pricing and Financing', 'Illumina pricing analyst', 'Illumina deal desk', 'Illumina Financial Services manager'. Run them on resumegeni.com, builtin*.com, linkedin.com/jobs/view (public), ziprecruiter and jobs.illumina.com. Pull the full raw job text for each. Look for: discount approval tiers, 'pay for performance' definitions, customer-tier segmentation, competitive-response pricing, reagent-rental or subscription mix targets, and the posting dates. Also snapshot the financial-solutions page through the Wayback Machine at several dates to see how the 0% offer, lease prices and subscription option have changed over time.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina created a new Enterprise Pricing and Financing function in mid-2026 to roll out personalized pricing by customer type and tier.",
+      "detail": "An Associate Director, Pricing Transformation posting (28 Jun 2026) reports to the Sr. Director, Enterprise Pricing and Financing. It describes a role to implement customer segmentation and personalized pricing by region, customer type/tier or channel. It also covers owning pricing governance (approval workflows, compliance monitoring) and analyzing competitive positioning. This points to a formal discounting and segmentation machine being built, which is consistent with more tiered discounts for large accounts. It is soft evidence: no discount levels are given, and the role could equally be about price discipline.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "resumegeni.com mirror of Illumina posting (also listed at xtalks.com, now 404)",
+      "source_type": "jobs",
+      "quote": "pay for ownership, pay for consumption, and pay for performance",
+      "strength": "weak",
+      "why_new": "Not in the exclusion list: the job-postings source cites only Tempus, Natera, Roche, Ultima and Element roles. This one is Illumina's own pricing-organization hiring, and its 'pay for performance' and consumption-pricing vision is not captured."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina is advertising limited-time 0% financing and a no-reagent-commitment subscription for instruments, with NovaSeq X leases from $41,500 a month.",
+      "detail": "The financial-solutions page lists reagent rental at 0% interest with the instrument price spread across reagent purchases, and a subscription (12-month minimum, pay-as-you-go, no reagent commitment). Leases start at $41,500/month for the NovaSeq X and $32,700/month for the NovaSeq 6000 (3-year terms, well-qualified buyers), with a limited-time 0% financing offer. A 6000 lease at $32,700/month is about $1.18M over 36 months. Cheap financing and consumption-based models lower the cost of entry and are a form of price concession. They sit alongside the new pricing function.",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026-10-12 (page fetched; undated)",
+      "source_name": "Illumina financial solutions page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The exclusion list mentions reagent rental only as a count (~5 of 100+ placements) and not the public lease rate card, the subscription option or the 0% offer."
+    }
+  ],
+  "new_candidates": [
+    "Wayback Machine snapshots of the Illumina financial-solutions page, to track the 0% offer, lease rates and subscription option over time",
+    "resumegeni.com and builtin mirrors of other Illumina pricing, deal desk and finance roles",
+    "jobs.illumina.com listings for Sr Director, Enterprise Pricing and Financing"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Associate Director – Pricing Transformation (xtalks, now 404)](https://xtalks.com/job/associate-director-pricing-transformation-san-diego-hybrid/)
+- [resumegeni mirror](https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego)
+- [Illumina financial solutions](https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html)

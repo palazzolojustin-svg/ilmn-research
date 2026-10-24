@@ -1,0 +1,79 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Ultima's consumables revenue ramped about 4x within 2025 and its contracted backlog now exceeds twice its 2025 revenue, so a low-price rival is scaling quickly.",
+      "detail": "At JPM 2026 the Ultima CEO said Q4'25 consumables revenue was 4x Q1'25. He also said contracted revenue backlog entering 2026 was more than 2x the company's 2025 revenue, and that the installed base doubled in 2025 (no unit count). Ultima is private and gave no absolute dollars, so the scale is unknown. Element's FY25 revenue is $58-85M. A 4x intra-year consumables ramp shows large accounts are already moving real volume to a cheaper platform, which gives them leverage in Illumina price talks. These are company claims relayed by GenomeWeb, from search-result snippets only; the GenomeWeb page itself returned 403.",
+      "url": "https://www.genomeweb.com/node/647971",
+      "date": "2026-01",
+      "source_name": "GenomeWeb (Ultima JPM 2026 update)",
+      "source_type": "conference",
+      "quote": "Q4 2025 consumables revenue was four times higher than Q1 2025",
+      "strength": "medium",
+      "why_new": "The known list has only 'about half of customers on minimum-consumable contracts'. The 4x consumables ramp and the backlog above 2x revenue are new quantification."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Helix, not Illumina, will run Precure's one-million-biospecimen sequencing on a fleet of Ultima UG200 systems, so new population-scale genome volume is going to a rival platform.",
+      "detail": "Ultima's 22 Sep 2026 release says Precure LLC (Mayo majority owner, Thermo minority owner) and Helix selected the UG200 Ultra. Helix is the multi-omics lab and generates sequencing data on a fleet of UG200 platforms. This resolves the earlier open question about who runs the sequencing. Ultima rates the Ultra at over 60,000 30x genomes a year at $1.25M, and the single-wafer UG200 at 30,000 a year at $850K. One million samples at about 100-125 Gb each would be roughly 100-125 Pb. On the known HT base of about 800 Gb per quarter that would be a large amount of Illumina-addressable volume, but the genome-versus-proteomics split and the timeline are not disclosed. Illumina is not named as having bid.",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/ultima-genomics-selected-for-mayo-clinic-led-million-biospecimen-initiative/",
+      "date": "2026-09-22",
+      "source_name": "Ultima Genomics release via HPCwire/BigDataWire; Mayo, WilmerHale",
+      "source_type": "press",
+      "quote": "Helix will serve as Precure's multi-omics lab and AI tools provider",
+      "strength": "medium",
+      "why_new": "The known file only says 'Precure picked UG200 Ultra'. The Helix lab role, the fleet structure and the per-system capacity are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Ultima's instrument price per annual genome capacity is only about $21-28 per genome, which supports its sub-$100 genome claims.",
+      "detail": "Arithmetic from list prices and rated capacity: UG200 Ultra $1,250,000 / 60,000 genomes a year = about $21 per genome in year-one instrument cost. UG200 $850,000 / 30,000 = about $28. On the same basis a $689K VITARI would need to run well over 6,000 genomes a year to match, and the figures exclude reagents, service and labor. Solaris 2.0 Max is planned for H2'26 at up to 20B reads per wafer. This lets a high-volume buyer such as Helix or a large clinical lab use rival capacity as leverage when negotiating Illumina consumables. This is derived arithmetic, not a vendor-published all-in cost.",
+      "url": "https://clpmag.com/diagnostic-technologies/molecular-diagnostics/sequencing-systems/ultima-genomics-ug200-series-sequencing-systems/",
+      "date": "2026-02",
+      "source_name": "CLP Magazine / Ultima UG200 launch coverage (via search results)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has the UG200 list prices and the '$80 genome' claim. The capacity-normalised instrument cost and the Solaris 2.0 Max 20B-read target are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Whole-genome ctDNA MRD is being launched clinically on Ultima rather than Illumina, so deep WGS-MRD Gb is landing on a rival.",
+      "detail": "Inocras launched MRDVision, a clinical WGS-based ctDNA MRD test, on Ultima ppmSeq at about 90x target depth and a claimed 1-in-a-million detection limit. The research version launched in November. Validation used 40 patients (20 ovarian, 20 lung) and found 6% more positives than an unnamed commercial comparator. Illumina's own WGS-MRD kit is only early access (28 May 2026) with launch in 2027, so rivals are first to market. The volume is small (the company says larger studies of hundreds of patients come next).",
+      "url": "https://www.sdbj.com/life-sciences/biotech-life-sciences/inocras-applying-whole-genome-sequencing-to-cancer-cell-residue-detection/",
+      "date": "2026",
+      "source_name": "San Diego Business Journal; 360Dx/GenomeWeb",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file has Illumina's WGS-MRD kit timing and the Labcorp/Quest/Myriad collaborations. A live clinical WGS-MRD test on Ultima is new."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Ultima's own named clinical customers (Quest, Myriad, Labcorp) still show only development-stage collaborations and no announced production volumes.",
+      "detail": "Searches of Quest, Labcorp and Myriad news found only collaborations and exploration deals: Quest's Haystack MRD (Jan 2025), Labcorp Plasma Detect with ppmSeq, and Myriad's UG100 purchase for Precise MRD (Oct 2024). No production-scale shift or Gb figures were found. Ultima's 'half research, half clinical' installed base is undated and unquantified, with no unit count. This limits how much Ultima volume can displace Illumina in 2027, which weakens the volume-slowdown and price-war timing.",
+      "url": "https://www.genomeweb.com/business-news/quest-diagnostics-ultima-genomics-team-develop-clinical-sequencing-tests",
+      "date": "2025-2026",
+      "source_name": "GenomeWeb; MedTech Dive; BioSpace (search snippets)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It frames the absence of production-use evidence after the JPM 2026 and Precure announcements."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Most fetches (ultimagenomics.com blog, HPCwire, Yole, GenomeWeb) returned 404 or 403, so findings come from search-result snippets. The Solaris 2.0 Max price and any Ultima price per Gb were not found. Not mined: the Ultima newsroom index, the full JPM slide deck, and Helix's own announcement of the Precure lab fleet size.",
+  "leads": [
+    {"name": "Helix Precure lab announcement", "url": "https://www.helix.com", "access": "public press page", "labels": ["1C", "1B"], "rationale": "May state fleet size, genome counts and timeline for Precure."},
+    {"name": "Mayo Clinic news network Precure", "url": "https://newsnetwork.mayoclinic.org/?p=417944", "access": "public", "labels": ["1C"], "rationale": "May give sample count and schedule for the one-million-biospecimen effort."},
+    {"name": "GenomeWeb Ultima topic page", "url": "https://www.genomeweb.com/taxonomy/term/18776", "access": "public headlines", "labels": ["1B", "1C", "2B"], "rationale": "Lists Ultima customer wins and TRACERx WGS ctDNA duplex data."}
+  ],
+  "apify_requests": []
+}
+```

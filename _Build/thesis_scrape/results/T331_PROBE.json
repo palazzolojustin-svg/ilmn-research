@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "GovDeals returned HTTP 403 (bot-blocked), and the ssllc.com auction page also returned 403. Standard searches found no NovaSeq 6000 listings on GovDeals, Public Surplus, LabX or BioSurplus. The only reachable data are a few undated asking prices from a university surplus store and dealers. They are too thin for listing counts by year (2024 vs 2025 vs 2026), sold prices or expired S4 reagent dumps. Used-6000 resale prices ($30K–$60K asking at MSU, ~£8K for spares or repair in the UK) are far below new-box value, which is consistent with a depreciated fleet. That is not new evidence for the thesis, because it says nothing about the pace of retirement or about the permanence of the tail. The MSU listing was actively marked down 50% (from $60K to $30K), which weakly suggests thin demand for used 6000s. I did not log any items because none maps cleanly to a thesis label.",
+  "how_to_mine": "Direct browser or scraper access is needed because the sites return 403 to WebFetch. (1) Run GovDeals and Public Surplus keyword searches for 'novaseq' and 'illumina' with 'closed auctions' enabled, using a headless browser or Apify. Record the end date, seller agency, final bid and condition. (2) Run eBay completed/sold searches for 'NovaSeq 6000' and 'NovaSeq S4 reagent'. (3) Check the surplus dealer ssllc.com, which has about 8 NovaSeq 6000 product pages (serials A00155, A00439, A00442, A00740, A00761, A01249, A01376, A01390). Those product IDs show the unit's year of manufacture, and the dealer's auction archive (Biotech Beach #3, Dec 2024; ChromaCode; a Mar 2024 Liquidity Services lot) may show hammer prices. (4) Check Liquidity Services and Bid on Equipment for lot histories. Count the units per year to compare 2024, 2025 and 2026.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Surplus Solutions (ssllc.com) NovaSeq 6000 dealer inventory and auction archive: about 8 units from 2017-2021 are on offer, which could be counted over time through the Wayback Machine.",
+    "Liquidity Services / Bid on Equipment closed-lot results for biotech bankruptcy and closure auctions that include NovaSeq 6000 units (Mar 2024 lot with an 18% buyer's premium).",
+    "Michigan State University Surplus Store NovaSeq 6000 (SKU 150822): listed at $60K, cut to $30K, with images dated around Aug 2025. Track whether it is still unsold via the Wayback Machine as a signal of resale demand."
+  ],
+  "apify_requests": []
+}
+```

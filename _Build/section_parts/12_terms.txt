@@ -1,0 +1,84 @@
+in vitro diagnostics (IVD) :: Medical tests performed on samples such as blood or tissue outside the body.
+next-generation sequencing (NGS) :: Technology that reads millions or billions of DNA fragments in parallel.
+sequencing by synthesis (SBS) :: The incumbent NGS chemistry that reads DNA by building a copy one base at a time and imaging each step.
+sequencing by expansion (SBX) :: Roche's sequencing chemistry that converts DNA into a larger surrogate molecule (Xpandomer) that is read as a single molecule.
+Xpandomer :: The expanded surrogate molecule SBX makes from DNA to improve signal-to-noise for single-molecule reading.
+CMOS sensor array :: A semiconductor chip, like a camera sensor, with millions of wells that detect molecules passing through.
+AXELIOS 1 :: Roche's first SBX-based sequencing instrument, launched 29 June 2026.
+SBX-Duplex :: AXELIOS run mode reading both DNA strands for higher accuracy, about 16 genomes per run.
+SBX-Simplex :: AXELIOS run mode optimized for very high read counts and longer reads.
+terabase :: One trillion DNA bases (letters) of sequencing output.
+Q score :: A sequencing-accuracy scale; Q38 means roughly 99.98% accuracy per base.
+base pair :: One letter-pair of double-stranded DNA, the unit of read length.
+megabase :: One million DNA bases.
+read :: A single stretch of DNA sequence produced by a sequencer.
+VCF file :: The standard file listing the genetic variants found in a sample.
+isoform :: An alternative version of a gene's RNA message.
+structural variant :: A large rearrangement, deletion or duplication of DNA.
+library prep :: Lab steps that prepare DNA samples for loading onto a sequencer.
+target enrichment :: Pulling out only selected genes before sequencing, as in cancer panels.
+UMI (unique molecular identifier) :: A molecular barcode letting multiple reads of one molecule be combined into a more accurate consensus.
+amplification-free workflow :: Sequencing without first copying DNA by PCR, saving time and avoiding copying errors.
+carryover :: Leftover material from one run contaminating the next.
+RUO (research use only) :: Products not cleared for diagnosing patients.
+FFPE :: Formalin-fixed, paraffin-embedded tissue, the standard way hospitals preserve biopsies.
+germline sequencing :: Reading the DNA a person inherited, as opposed to tumor DNA.
+single-cell sequencing :: Sequencing the genetic material of individual cells.
+Perturb-seq :: CRISPR gene-editing experiments read out by single-cell sequencing.
+spatial biology :: Measuring where molecules sit within a tissue.
+proteomics :: Large-scale measurement of proteins.
+multi-omics :: Combining DNA, RNA, protein and other molecular measurements.
+PCR :: A method that copies specific DNA sequences to detect them.
+digital PCR :: A highly sensitive PCR variant that counts individual molecules, cheap for repeat monitoring.
+liquid biopsy :: A cancer test analyzing tumor DNA shed into the blood.
+comprehensive genomic profiling (CGP) :: A large-panel tumor DNA test used to choose cancer therapy.
+companion diagnostic (CDx) :: A test required to select patients for a specific drug.
+minimal residual disease (MRD) :: Trace cancer remaining after treatment, detected by ultrasensitive tests.
+multi-cancer early detection (MCED) :: A blood test screening for many cancers at once.
+surrogate endpoint :: An early measure that stands in for outcomes like survival in clinical trials.
+hazard ratio :: A measure comparing risk between groups; below 1 means lower risk.
+immunohistochemistry (IHC) :: Staining tissue to detect specific proteins.
+in situ hybridization (ISH) :: Staining tissue to detect specific DNA or RNA sequences.
+H&E :: The standard pink-and-purple tissue stain used in routine pathology.
+digital pathology :: Scanning tissue slides into images for viewing and AI analysis.
+computational pathology :: Using algorithms to analyze digital pathology images.
+mass spectrometry :: A technique identifying molecules by their mass, used for clinical tests.
+laboratory-developed test (LDT) :: A test designed and run within a single lab rather than sold as a kit.
+continuous glucose monitoring (CGM) :: A wearable sensor tracking blood sugar continuously.
+factory calibration :: CGM calibration done at manufacture, removing the need for a finger-prick.
+immunoassay :: A test using antibodies to measure substances in blood.
+pTau217 :: A blood biomarker for Alzheimer's disease pathology.
+NfL (neurofilament light) :: A blood biomarker of nerve damage used in multiple sclerosis.
+IGRA :: Interferon-gamma release assay, a blood test for latent tuberculosis infection.
+positive/negative percent agreement :: How often a new test matches the reference test on positive and negative samples.
+sensitivity :: The share of true positives a test correctly identifies.
+specificity :: The share of true negatives a test correctly identifies.
+NPV/PPV :: The chance a negative (NPV) or positive (PPV) result is correct.
+CE mark :: European regulatory approval to market a medical product.
+510(k) :: A US FDA clearance pathway based on similarity to an existing device.
+CLIA :: US federal rules certifying clinical labs.
+breakthrough device designation :: An FDA status that speeds review of promising devices.
+point of care :: Testing near the patient rather than in a central lab.
+placement :: An instrument installed at a customer site.
+installed base :: The total number of a company's instruments in use at customers.
+reagents / consumables :: Kits customers buy for every test or sequencing run, the main recurring revenue.
+blockbuster :: A product with $1 billion-plus in annual sales.
+constant exchange rates (CER) :: Growth measured with currency movements stripped out.
+core operating profit :: Operating profit excluding one-off and non-cash items.
+core EPS :: Earnings per share on the same adjusted basis.
+core margin :: Core operating profit as a share of sales.
+basis point :: One hundredth of a percentage point.
+SG&A :: Selling, general and administrative costs.
+CAGR :: Compound annual growth rate, the average yearly growth over a period.
+consensus :: The average of analysts' forecasts.
+loss of exclusivity (LOE) :: Sales lost when patents expire and cheaper copies arrive.
+biosimilar :: A cheaper copy of a biologic drug after patent expiry.
+PAMA :: US Protecting Access to Medicare Act, which sets Medicare lab-test prices.
+CMS :: The US Centers for Medicare & Medicaid Services.
+PDUFA date :: The FDA's target date for an approval decision.
+price target :: An analyst's forecast share price, usually 12 months out.
+Overweight / Buy / Neutral :: Analyst ratings meaning expected outperformance (first two) or in-line performance.
+P/E multiple :: Share price divided by earnings per share.
+net present value (NPV) :: Today's value of forecast future cash flows.
+sell-side analyst :: A bank analyst writing research for investing clients.
+market maker :: A firm that continuously quotes prices to buy and sell a security.

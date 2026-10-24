@@ -1,0 +1,46 @@
+Sequencing – Genomics Shared Resource
+Skip to main content
+Activate Menu
+Geisel School of Medicine
+Dartmouth
+Departments & Centers
+Find People
+Dartmouth Directory
+Geisel Faculty Directory
+Giving
+Make a Gift
+Anatomical Gifts Program
+Alumni
+Quick Links
+Admissions
+Biomedical Libraries
+Clery Act Notification
+Diversity & Inclusion
+Events Calendar
+Financial Aid
+Geisel Computing
+Geisel Human Resources
+Geisel’s Strategic Plan
+News
+Registrar
+FAQ’s
+Acknowledgements
+About Us
+People
+Contact Us
+Home
+Sequencing
+Sequencing
+Illumina: Price varies (see below)
+Prices for Illumina sequencing include library normalization, pooling, sequencing and raw data storage for 5 years. FASTQ files are stored on Dartmouth's DartFS storage system which is accessible to the entire Dartmouth community. If you need a DartFS account, please contact Research Computing. Please let us know if you need to share data with an external collaborator and we can make the data available for secure download via a web server.
+All Illumina sequencing kits can be run in single-end or paired-end configurations. Sequencing can be purchased as entire flow cells, or on a per-read basis, assuming available space for shared sequencing runs. NovaSeq runs must be purchased as full flow cells. Most common flow cells are shown with others available upon request.
+Prices shown reflect internal Dartmouth rates for FY2025. External users and those with large projects should contact the core directly for pricing information. Actual prices may vary based on batch size.
+All services provided by the GMBSR are supported by an NCI Cancer Center Support Grant (5P30CA023108) which MUST be cited in any publications or other materials using data generated in the core.
+Single cell sequencing services are provided through the Single Cell Genomics Core and are subsidized by a COBRE grant (P20GM130454). This grant MUST be cited in all publications and materials using single cell data generated in the core.
+Genomics Services
+Nucleic Acid Extraction
+Nucleic Acid QC
+RNA-seq
+DNA-seq
+Single Cell Genomics
+Spatial Genomics

@@ -1,0 +1,24 @@
+Still on the TED probe. The assigned URL was the wrong tender, and the right notices come back empty from the fetcher. I'm wrapping up now.
+
+```json
+{
+  "status": "blocked",
+  "notes": "The assigned URL (op.europa.eu procurement 82539bd1...) is a different tender: FN Motol (Prague) NovaSeq 6000D repair and maintenance, awarded 5 Nov 2024 to GeneTiCA for CZK 13,000,000 excl. VAT. It is a service contract, not consumables, and it is outside the 2025+ window, so I did not report it. Search snippets identified the real Barcelona tender. It is TED notice 528143-2026, a contract notice published 30 Jul 2026 (OJ S 145/2026) by Fundació de Recerca Clínic Barcelona - IDIBAPS. It is an open procedure for NovaSeq X Plus 25B sequencing services, as needed, tied to several research projects and the lymphoid-neoplasm molecular pathology group (CPV 71900000). Procedure ID is 0a755cdb-779f-4abd-bfac-0d520a3744c3. A change notice, 536530-2026, followed on 3 Aug 2026 (OJ S 147/2026). The TED notice pages (pdf and html, all language variants) are JavaScript-rendered, so WebFetch returned empty content. The TED search API (api.ted.europa.eu/v3/notices/search) returned 405 on a GET because it needs a POST. I found no award notice, lot values, bidder count, price weighting or winners. The tender is still open or just closed, so an award is unlikely before late 2026 or 2027. I recorded no items because I saw no numbers.",
+  "how_to_mine": "1) POST to https://api.ted.europa.eu/v3/notices/search with JSON {\"query\":\"notice-identifier=528143-2026\" or \"publication-number=528143-2026\",\"fields\":[\"estimated-value-lot\",\"framework-value-notice\",\"lot-identifier\",\"description-lot\",\"award-criterion-type-lot\",\"award-criterion-number-lot\",\"deadline-receipt-tender-date-lot\",\"winner-name\",\"tender-value\",\"received-submissions-count\"],\"limit\":10}. The API is anonymous and free. 2) Download the XML via https://ted.europa.eu/en/notice/528143-2026/xml or the PDF with curl, since a browser or JS is not needed. 3) Check 536530-2026 for amended lots or values. 4) Look for the buyer's tender documents (PCAP/PPT) on the Catalan Contractació Pública platform (contractaciopublica.cat) by searching 'Fundació de Recerca Clínic Barcelona NovaSeq', which usually publishes the unit prices per flow cell and the price/quality weighting. 5) Re-check for an award notice (type 'result') after the closing date. Compare any per-flow-cell price with the known IDIBAPS 2025 award of 13 x 25B-300 at EUR 16,000 each and the CIBER tender at about EUR 12,800 per flow cell.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "IDIBAPS/FRCB NovaSeq X Plus 25B tender, TED 528143-2026 (change notice 536530-2026)",
+      "url": "https://ted.europa.eu/en/notice/528143-2026/pdf",
+      "why": "A fresh Jul 2026 tender for 25B sequencing services. It could give 2026 per-flow-cell or per-Gb pricing and estimated values for a direct comparison with the 2025 IDIBAPS award (EUR 16,000 per 25B-300) and with CIBER."
+    },
+    {
+      "name": "Catalan public procurement platform (contractaciopublica.cat), FRCB tender documents",
+      "url": "https://contractaciopublica.cat",
+      "why": "It usually hosts the pliego with quantities, budget and price weighting, which TED snippets do not show."
+    }
+  ],
+  "apify_requests": []
+}
+```

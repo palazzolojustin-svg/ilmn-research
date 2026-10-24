@@ -1,0 +1,66 @@
+Medicina de Precisión 
+Tarifa A: tarifa interna para usuarios de la fundación INCLIVA. 
+Tarifa B: tarifa externa para organismos públicos de investigación / organismos sin 
+ánimo de lucro. 
+Tarifa C: tarifa externa para organismos privados / organismos con ánimo de lucro. 
+ SERVICIOS DE AISLAMIENTO DE MATERIAL GENÉTICO 
+SERVICIO TARIFA A TARIFA B TARIFA C 
+Extracción DNA de Sangre* (Promega)  10.59 €   12.71 €   19.07 €  
+Extracción DNA de FFPE¥ (Promega)  11.22 €   13.46 €   20.20 €  
+Extracción RNA de FFPE¥ (Promega)  15.05 €   18.06 €   27.09 €  
+Extracción RNA de Sangreα (Promega)  12.75 €   15.30 €   22.96 €  
+Extracción miRNA de FFPE¥ (Promega)  12.31 €   14.78 €   22.17 €  
+Extracción ccfDNA£ (QIAgen)  56.06 €   64.87 €   97.31 €  
+Extracción metagenoma (QIAgen) 16.18 € 19.42 € 29.12 € 
+*400L de sangre completa en un tubo de 1.5mL 
+¥5-7 cortes de 5M en un tubo de 1.5mL 
+α Imprescindible extracción en tubos Ɵpo Tempus o similar 
+ 2mL de plasma o 6 ml de sangre completa en tubo Streck 
+£ 5mL de plasma o 10 ml de sangre completa en tubo Streck 
+Cualquier otro Ɵpo de extracción puede solicitarse y se estudiará y presupuestará de forma 
+independiente 
+ SERVICIOS CUANTIFICACIÓN DE MATERIAL GENÉTICO 
+SERVICIO TARIFA A TARIFA B TARIFA C 
+CuanƟﬁcación Fluorescencia 1.50 € 1.80 € 2.70 € 
+CuanƟﬁcación absorbancia 0.85 € 1.02 € 1.52 € 
+5 BASE A consultar A consultar A consultar 
+Librerías 16S 42.34 € 50.81 € 76.21 € 
+Librerías custom A consultar A consultar A consultar 
+*Generación de librerías mediante la familia de productos de Illumina, en caso de interesar otro kit 
+sería necesario solicitar presupuesto especíﬁco. Este servicio no incluye la secuenciación de las 
+muestras a menos que se indique especíﬁcamente. 
+Cualquier otro procesamiento de generación de librerías se estudiará y presupuestará de forma 
+independiente. 
+ SERVICIOS DE SECUENCIACIÓN 
+SERVICIO TARIFA A TARIFA B TARIFA C 
+Sequencing Gb (2x100, NovaSeq X 1.5B) 9.65 € 11.58 € 17.37 € 
+Sequencing Gb (2x100, NovaSeq X 10B) 6.35 € 7.62 € 8.38 € 
+Sequencing Gb (2x100, NovaSeq X 25B) 4.14 € 4.97 € 5.47 € 
+Sequencing lane (2x100, NovaSeq X 10B) 1,383.58 € 1,660.29€ 1,826.32€ 
+Sequencing lane (2x100, NovaSeq X 25B) 2,141.08€ 2,569.29€ 2,826.22€ 
+NovaSeq X 1.5B Reagent Kit (200 Cycles) 3,025.80€ 3,630.96€ 3,994.06€ 
+NovaSeq X 10B Reagent Kit (200 Cycles) 13,277.80€ 15,933.36€ 17,526.76€ 
+NovaSeq X 25B Reagent Kit (200 Cycles) 19,337.80€ 23,205.36€ 25,525.90€ 
+MiSeq Reagent Kit v2 (50 ciclos) 1,417.00€ 1,700.40€ 2,550.60€ 
+MiSeq Reagent Kit v2 (300 ciclos) 1,773.73€ 2,128.48€ 3,192.72€ 
+MiSeq Reagent Kit v2 (500 ciclos) 1,980.53€ 2,376.64€ 3,564.96€ 
+MiSeq Reagent Micro Kit v2 (300 ciclos) 700.73€ 840.88€ 1,261.32€ 
+MiSeq Reagent Nano Kit v2 (300 ciclos) 582.53€ 699.04€ 1,048.56€ 
+MiSeq Reagent Nano Kit v2 (500 ciclos) 673.73€ 808.48€ 1,212.72€ 
+MiSeq Reagent Kit v3 (150 ciclos) 1,555.73€ 1,866.88€ 2,800.32€ 
+MiSeq Reagent Kit v3 (600 ciclos) 2,539.73€ 3,047.68€ 4,571.52€ 
+NextSeq 500/550 High Output Kit v2.5 (75 Cycles) 2,730.26€ 3,476.16€ 4,171.39€ 
+NextSeq 500/550 High Output Kit v2.5 (150 Cycles) 4,949.06€ 6,138.72€ 7,366.46€ 
+NextSeq 500/550 High Output Kit v2.5 (300 Cycles) 7,546.26€ 9,22.36€ 11,106.43€ 
+NextSeq 500/550 Mid Output Kit v2.5 (150 Cycles) 2,135.06€ 2,761.92€ 3,314.30€ 
+NextSeq 500/550 Mid Output Kit v2.5 (300 Cycles) 3,193.70€ 4,032.29€ 4,838.74€ 
+*Costes para runs completos enviando librería puriﬁcada lista para cargar a una concentración 
+mínima de 10nM, será necesario incluir en el presupuesto la cuantiﬁcación por ﬂuorescencia o 
+qPCR previo a la carga. 
+SERVICIOS ILLUMINA BEADCHIP 
+SERVICIO TARIFA A TARIFA B TARIFA C 
+Procesamiento de arrays de 8 muestras  
+(16 muestras) 80.57 € 96.68 € 145.02 € 
+Procesamiento de arrays de 8 muestras  
+(32 muestras) 46.78 € 56.13 € 84.20 € 
+Procesamiento de arrays de 8 muestras  

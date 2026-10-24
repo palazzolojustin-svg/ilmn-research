@@ -1,0 +1,22 @@
+```json
+{
+  "status": "dry",
+  "notes": "I made 4 calls: 3 searches and 1 page fetch. The Sanger annual-review URL and Broad's platform pages did not come up in any search. No Sanger or Broad statement from 2025-26 on platform mix, $/genome or negotiated pricing appeared. NYGC, Baylor HGSC and WashU returned only thin or old items. The NYGC profile is a 2024-dated filing profile that says NYGC runs 2 NovaSeq X systems, a PromethION and an Ultima UG100. That is a minor datapoint and not about pricing. Baylor's Donna Muzny spoke at Ultima's AGBT 2026 workshop, titled 'beyond the $80 genome', but the page gives no remarks. The Sanger blog from Feb 2024 (Ultima UG100 trial, about $500 per genome, hoped to fall to about $100) is old and below the Jan 2025 cutoff. The other items (Roche AXELIOS launch 29 Jun 2026, Ultima UG200 pricing, Element VITARI) are already known. Nothing was reached that was new, so I captured no items.",
+  "how_to_mine": "(1) Fetch sanger.ac.uk/about/annual-review/ and the Genome Research Limited annual report PDFs on sanger.ac.uk/wp-content/uploads for 2024-25, and look for sequencing capex lines and mentions of Ultima, Element or SBX. (2) Check sangerinstitute.blog for 2025-26 posts tagged Ultima, Element or Roche. (3) Check broadclinicallabs.org and broadinstitute.org for external pricing pages, and archive the Broad Genomics Platform price sheet through the Wayback Machine to compare dates. (4) Watch the Ultima AGBT 2026 workshop video, where Baylor's Muzny and UMN's Beckman speak, and transcribe any $/genome claims.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "Ultima AGBT 2026 workshop video (Baylor HGSC, UMN, Gene by Gene speakers)",
+      "url": "https://www.ultimagenomics.com/resources/agbt-2026-workshop-video/",
+      "why": "Customer-stated $/genome and platform-mix comments, which could quantify 2B. This is video, so it needs a transcript."
+    },
+    {
+      "name": "Genome Research Limited (Sanger) financial reports",
+      "url": "https://www.sanger.ac.uk/wp-content/uploads/GRL-Financial-Report-2021-2023-signed-by-Deloitte-JH.pdf",
+      "why": "An older edition is indexed. Look for the latest edition for capex and consumables spend trends."
+    }
+  ],
+  "apify_requests": []
+}
+```

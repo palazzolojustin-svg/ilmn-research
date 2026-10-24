@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "I opened the IVDR guidance page and the NovaSeq 6000Dx product page, and ran one search for 'NovaSeq X Dx'. I did not open the spec sheet M-GL-00766 or the DNA Prep Enrichment Dx support page, so the result is incomplete. As of the pages read (12 Oct 2026), neither page mentions a NovaSeq X Dx or any IVDR-certified X. The 6000Dx is the only high-throughput IVD sequencer on the roadmap. The IVDR page lists no dates for any 'planned' or 'in development' entry. Its only dates are generic IVDR transition milestones. The 6000Dx page lists no CE-IVD assay that runs on the 6000Dx. TSO Comprehensive, VeriSeq NIPT and v2 are shown under the NextSeq 550Dx column. The 6000Dx page does list Illumina DNA Prep with Enrichment Dx and the S2/S4 Dx reagent kits as compatible. Only the S2 and S4 flow cells are IVD-compliant, so 25B-class X flow cells have no Dx path. These findings come from a fetch tool that summarised the pages, so quotes and table cells were not checked against the raw HTML. Direction is 'against' 1A: it shows regulatory lock-in for EU clinical work on the 6000Dx. The evidence is only absence-based, because the pages do not say whether the lock-in binds in practice. Most EU clinical labs run LDTs or research-use mode on the X and 6000, and Article 5(5) in-house exemptions still apply.",
+  "how_to_mine": "1) Open the 6000Dx spec sheet M-GL-00766 and https://supportassets.illumina.com/products/by-type/ivd-products/dna-prep-enrichment-dx.html. Check the sequencer compatibility lists and any 'future assays' dates. 2) Use archive.org snapshots of the IVDR page from 2025 and 2026 to see whether the 'planned for IVDR submission' wording or any dates changed. 3) Check the EUDAMED public device database and national registers (for example BfArM and ANSM) for Illumina IVDR certificates and any NovaSeq X entry. 4) Search for the NB (notified body) certificate for the 6000Dx and DRAGEN Server for 6000Dx. 5) Check the FDA 510(k) and De Novo databases for any 'NovaSeq X' IVD. The 6000Dx was registered as a Class I exempt instrument, so look for registration listings instead. 6) Read the US TSO Comprehensive PMA SSED for sequencer compatibility. This was already partly covered.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Illumina's IVDR roadmap, as of Oct 2026, shows the NovaSeq 6000Dx as the only high-throughput IVD sequencer, with no NovaSeq X Dx, so the EU regulated tail has no certified X path.",
+      "detail": "The IVDR guidance page lists MiSeqDx, NextSeq 550Dx and NovaSeq 6000Dx as the Class A IVD instruments, and no NovaSeq X Dx. Its X references are only to the research NovaSeq X Plus roadmap. The DRAGEN Server for NovaSeq 6000Dx has a CE mark (IVDR). The NovaSeq 6000Dx page lists no NovaSeq X Dx or successor, and neither does a web search for 'NovaSeq X Dx'. Only the 6000Dx S2 and S4 reagent kits are IVD-compliant. EU labs needing certified high-throughput CE-IVD workflows therefore have no certified X to move to, which supports management's claim of a permanent clinical 6000 tail.",
+      "url": "https://www.illumina.com/clinical/diagnostics/ivdr-guidance-resources.html",
+      "date": "2026-10-12 (page as read)",
+      "source_name": "Illumina IVDR guidance page",
+      "source_type": "other",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list covers US FDA PMAs (no X named) and the 6000Dx (2022), but not Illumina's own IVDR roadmap showing no X Dx and no dates."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The IVDR page gives no dates for Illumina's own planned IVDR products, so no near-term EU certified X path exists. IVDR deadlines (31 Dec 2027 Class D, 2028 Class C, 2029 Class B and sterile A) are generic.",
+      "detail": "TruSight Oncology Comprehensive (EU) is Class C with a CE mark under the old IVDD, and its page says 'IVDR compliance in progress'. Targeted gene panels, the somatic interpretation platform and the germline insights engine are listed as in development or planned for IVDR submission, with no dates. The NovaSeq 6000Dx page puts TSO Comprehensive and VeriSeq NIPT under the NextSeq 550Dx column, not the 6000Dx. The Class C deadline of 31 Dec 2028 falls inside the thesis window. If a Dx X does not appear by then, certified EU workflows stay on the 6000Dx, 550Dx or other boxes. Absence of a date does not prove none is planned.",
+      "url": "https://www.illumina.com/systems/ivd-instruments/novaseq-6000dx.html",
+      "date": "2026-10-12 (page as read)",
+      "source_name": "Illumina NovaSeq 6000Dx page",
+      "source_type": "other",
+      "quote": "IVDR compliance in progress",
+      "strength": "weak",
+      "why_new": "Gives Illumina's own IVDR timeline and the 'no dates, no X Dx' status for EU, which the known list does not cover."
+    }
+  ],
+  "new_candidates": [
+    "EUDAMED and national notified-body registers for Illumina IVDR certificates",
+    "Archive.org snapshots of the IVDR page to date the removal or addition of entries",
+    "6000Dx spec sheet M-GL-00766 for the full CE-IVD assay compatibility list"
+  ],
+  "apify_requests": []
+}
+```

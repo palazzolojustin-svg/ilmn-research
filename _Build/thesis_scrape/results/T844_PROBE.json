@@ -1,0 +1,25 @@
+```json
+{
+  "status": "dry",
+  "notes": "The route works with WebFetch: /api/searchbytitle?query=<term> and /api/tender?unit_id=<id>&job_number=<no>. 'VeriSeq' returned 0 records. '非侵入性產前' returned 89 notices (2014–Feb 2026). Every notice is for outsourced NIPT testing services bought from a lab (Bionet/訊聯 won the two awards I opened). None is for an Illumina VeriSeq kit or reagent purchase, so there is no Illumina kit quantity or price. Hospitals in the set: NCKU, NTU, Taipei VGH, Taichung VGH, Taoyuan VGH branch, TCH Lianhe, NYCU, NDMC. Tender volume is small (a handful of hospitals) and the awards show estimated test counts only. Searches for 胎兒染色體 and other titles were not run (about 4 calls used).",
+  "how_to_mine": "To get the time series, loop the unit_id/job_number pairs (e.g. NCKU 3.9.26.3: Y10910 in 2020, Y11132 in 2022, Y11208 in 2023, Y11301 in Feb 2024, Y11363 and Y11388 in Jan 2025) through /api/tender. Extract the estimated test counts, the basic and advanced NIPT unit prices and the awardee. Repeat for Taichung VGH (112A-R07, 114Y-R11), Taipei VGH (X11409E), NTU (TH120730, TH140450) and TCH Lianhe (R111133, R113118, R114133E). This gives a Taiwan NIPT price and volume trend, but it measures service-lab demand, not Illumina consumables.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "A Taiwan medical-center NIPT tender is small and covers only a few hundred tests over two years, which fits a mature, low-growth NIPT niche.",
+      "detail": "NCKU Hospital awarded NIPT outsourced testing (tender Y11363, 21 Jan 2025) to Bionet for NT$5.58M. The estimate was 420 tests over 21 Jan 2025–20 Jan 2027: 120 basic at NT$9,000 and 300 advanced at NT$15,000. The tender failed several times in Oct–Nov 2024 before award, and only 2 bidders took part. This is one hospital's service outsourcing, not Illumina kit demand, and there is no prior-year NCKU count to show a trend.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.26.3&job_number=Y11363",
+      "date": "2025-01-21",
+      "source_name": "Taiwan PCC via pcc-api.openfun.app",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Taiwan hospital NIPT tender counts and unit prices are not in the known evidence; the data is only loosely tied to Illumina volume."
+    }
+  ],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```

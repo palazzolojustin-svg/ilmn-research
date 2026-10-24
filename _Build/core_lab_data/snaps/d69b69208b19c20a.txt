@@ -1,0 +1,67 @@
+NextGen DNA Sequencing | Core Resources – UF ICBR
+Skip to main content
+School Logo Link
+MENU
+iLab
+Log in to iLab
+iLab Support
+Become a Customer
+MENU
+About Us
+History & Mission
+Director’s Letter
+Staff Directory
+Contact Us
+Join the Team
+Testimonials
+Services & Resources
+Services & Fees
+Become a Customer
+Proposal Support
+Instrument Gallery
+Cores
+Bioinformatics
+Cytometry & Optical Microscopy
+Electron Microscopy
+Acknowledging NextGen DNA Sequencing
+Authorship credit should be given if members of the UF ICBR NextGen DNA Sequencing staff have provided services or expertise that is critical to a manuscript. Although other circumstances may warrant authorship, authors are those that meet the items below:
+Agrees to be accountable for accuracy and/or integrity of the work and expertise. (In all our work the person executing the work takes the fullest degree of responsibility for accuracy and integrity.)
+Provides substantial contributions to the experimental design, acquisition, and analysis/interpretation of the work.
+Provides input on drafting of the work (often figures) and approves of the work to be submitted/published. (If a member of the facility has made substantial contributions it is expected that s/he will be given the opportunity to review drafts of manuscripts for accuracy/fidelity and should indicate agreement before a draft is moved forward to publication.)
+If a member of UF ICBR NextGen DNA Sequencing has contributed work to a manuscript, but does not meet the criteria for authorship, the corresponding author should acknowledge the UF ICBR NextGen DNA Sequencing staff member who provided the data and their contributions should be specified.
+In an effort to make acknowledgments easier than ever, UF | ICBR now offers Research Resource Identifiers (RRIDs)– persistent and unique identifiers for referencing a research resource. Copy and paste the appropriate core RRID (below) for citation. Proper acknowledgment of UF | ICBR in publications and awards validates our role in driving research forward and provides a platform to improve our services and instrumentation.
+NextGen DNA Sequencing (NS) |
+RRID:SCR_019152 |
+Proposal Support
+The NextGen DNA Sequencing core at the Interdisciplinary Center for Biotechnology Research (ICBR) provides researchers with quality, massively parallel, high-throughput sequencing data using the most current instrumentation, at a reasonable cost. We currently support the most popular platforms: Illumina NovaSeq X Plus, Illumina MiSeq, Illumina iSeq, PacBio SEQUEL IIe, ONT PromethION, and ONT MinION Mk1c. Together, these instruments cover a broad range of powerful applications, thus allowing biologists to investigate and obtain answers to questions that were not attainable until recently. Our free consultation services aim to help researchers navigate through the complex matrix of experimental options represented by the available sequencing technologies. Some of these important considerations include: read length, error rate, predominant type of error, data output/run, speed, cost, etc. The ever-broadening range of applications include (but are not limited to) de novo sequencing of whole genomes, targeted sequencing, transcriptome sequencing (RNA-seq), chromatin immunoprecipitation (ChIP) sequencing, methylation analysis, and metagenomics.
+Sample Requirements
+Illumina Sample Requirements
+Illumina Sample requirements
+Illumina Customer-constructed Library Requirements
+Illumina customer-constructed library requirements
+Oxford NanoPore Sample Requirements
+For DNA:
+Purity: Abs 260/280= 1.8-2.0 and Abs 260/230> 1.5 as determined in the NanoDrop or equivalent.
+Integrity: Fragments should be > 20 kb
+For RNA:
+PacBio sample requirements
+10X Genomics Sample requirements-All-libraries
+Illumina customer-constructed library requirements
+Illumina Sample requirements
+Best Practices
+NGS Best Practices
+How to Access the NGS Core Service and Submit Your Samples
+To request NGS services:
+Create an account in our CrossLab system portal. To request an iLab account follow direction on our website (https://biotech.ufl.edu/ilab/)
+Once you have an account, use your credentials to log into iLab>UF Core>NextGenSeq>Request Services>fill out the form.
+In iLab, you will need to fill out the service-specific form (e.g., General Services, NovaSeq X Plus sequencing, PacBio Sequel IIe Sequencing, etc.). You will not be allowed to complete your submission unless you add information to required fields (e.g., payment information). Always click “Save” and the bottom of the form to complete iLab submission and get a project ID. Print your iLab form to submit with your samples.
+Prepare your sample/libraries for shipping or delivery to our facility:
+Transfer your samples into 1.5 ml microcentrifuge tubes in concentration and volume as indicated in our “Sample requirements”
+Label all samples clearly. Please simplify sample names
+Place samples in boxes of appropriate size for large number of samples or inside 50 ml conical tubes for small number of samples.
+Prepare to submit any QC documentation you may have on your sample(s): Gel pictures, TapeStation traces, table with barcoding information, etc.
+Pack your sample(s) on ice for DNA or frozen for RNA. Include your iLab service request form and bring your samples to the NGS lab (room 178, CGRC, 2033 Mowry Road).
+If shipping, please use this address:
+Attention: ICBR-NGS
+2033 Mowry Road
+Room 178, CGRC bldg.

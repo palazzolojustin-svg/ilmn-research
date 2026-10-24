@@ -1,0 +1,175 @@
+```json
+{
+  "sources": [
+    {
+      "name": "GeneDx Q2 2026 call transcript (Motley Fool) plus 8-K deck and 10-Q",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/10/genedx-wgs-q2-2026-earnings-call-transcript/",
+      "access": "Free, no login. The SEC 8-K deck and 10-Q are at https://www.sec.gov/Archives/edgar/data/0001818331/000162828026051852/q22026earningspresentati.htm and .../000162828026051878/wgs-20260630.htm.",
+      "labels": ["1C", "1A"],
+      "status": "productive",
+      "notes": "The transcript has explicit statements on genome versus exome production cost, genome mix and what limits volume. I opened the transcript. The other figures come from search-result snippets: coverage percentages, the $3,258 blended reimbursement, 30,785 volume and 33,200 Q3 volume guidance.",
+      "how_to_mine": "Open the 10-Q and the deck. Pull genome and exome volume, revenue per test and cost of services per test for Q1'26, Q2'26 and prior years. Compute cost per test and genome mix over time. Search the transcript Q&A for 'reagent', 'manufacturers' and 'Illumina'. Check whether the fleet capex discussion names the NovaSeq X.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "GeneDx, the largest rare-disease WGS user, saw genome mix fall from ~40% to 32% of outpatient volume in Q2'26 because reimbursement and collections limit demand, not sequencing cost.",
+          "detail": "Genome was 32% of insurance-based outpatient volume in Q2'26, down from close to 40% in Q1 and expected near 30% in Q3 (up from 15% in 2025). Outpatient genome collection rate was 32%, flat q/q and down from 43% a year ago, against a ~70% target. Management says commercial genome coverage jumped to 87% of lives from 47%, yet collections did not improve. Management blames denials, eligibility criteria and administrative barriers. This is a clinical WGS bellwether where payer and ordering friction, not sequencing cost, sets volume.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/10/genedx-wgs-q2-2026-earnings-call-transcript/",
+          "date": "2026-08-03",
+          "source_name": "GeneDx Q2 2026 call (Motley Fool transcript)",
+          "source_type": "earnings_call",
+          "quote": "Even with written policy, genomic testing remains out of reach for too many children.",
+          "strength": "medium",
+          "why_new": "The known list has only GeneDx test growth (+32%) and cost per test (~-14%). The genome mix reversal and collection-rate constraint are not in it."
+        },
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "GeneDx genome production cost is nearly 2x exome from reagents, and management expects flat cost per test in H2'26, so genome adoption keeps consuming Illumina reagent dollars while it is capped by payers.",
+          "detail": "CFO Feeley said whole genome costs nearly twice as much to produce as exome, 'almost entirely' from higher reagent costs. He expects cost per test to stay 'relatively flat' in H2'26, with step improvements in 2027 as genome utilization grows 'and manufacturers advance their technology'. This implies that a reagent price cut from Illumina (35B) is an assumed lever for GeneDx's margin. That is mildly relevant to 1B, because a large account is counting on supplier price cuts. Q2 capex rose because GeneDx 'significantly increased the sequencing fleet', and spending is 'leveling out'.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/10/genedx-wgs-q2-2026-earnings-call-transcript/",
+          "date": "2026-08-03",
+          "source_name": "GeneDx Q2 2026 call (Motley Fool transcript)",
+          "source_type": "earnings_call",
+          "quote": "Whole genome cost us nearly twice as much to produce than exome.",
+          "strength": "medium",
+          "why_new": "The known list has GeneDx cost per test (-14%, directional) but not the genome:exome cost ratio, the flat H2 cost guide, or the fleet-capex plateau."
+        },
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "GeneDx's sequencer fleet build has plateaued after a Q2'26 capex step-up, suggesting capacity was bought ahead of volume at one major clinical customer.",
+          "detail": "The CFO said capex rose in Q2 to expand the sequencing fleet for genome volume and has 'reached a point of leveling out'. Genome mix is guided down to ~30% in Q3. Together these point to instrument and consumable pull-through at this customer normalizing. The sequencer model was not stated in the material I read.",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/10/genedx-wgs-q2-2026-earnings-call-transcript/",
+          "date": "2026-08-03",
+          "source_name": "GeneDx Q2 2026 call (Motley Fool transcript)",
+          "source_type": "earnings_call",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has capacity bought ahead of volume only as a generic estimate. This is a named customer's capex statement."
+        }
+      ]
+    },
+    {
+      "name": "Natera Q2 2026 results, financial-results PDF and 8-K Exhibit 99.2",
+      "url": "https://s201.q4cdn.com/354493536/files/doc_financials/2026/q2/NTRA-Q2-26-Financial-Results.pdf",
+      "access": "Free PDF and SEC exhibit https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex992.htm. The roic.ai transcript page returned 403. The MarketBeat page fetched was irrelevant.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "Search snippets confirm MRD ~283K (+56%), oncology ~296.7K, total 1.044M (+22.4%), gross margin 64.5% (vs 63.4%), Signatera ASP ~$1,275, and CFO commentary of a $2,000 long-term ASP target and +$150-200 from pending MolDX. Most of this is known. I did not open the full transcript. The Q&A on capacity, Signatera Genome mix and sequencing COGS is untested.",
+      "how_to_mine": "Fetch the PDF. Pull COGS per test, Signatera Genome share of MRD and women's health volume growth by quarter. Find the transcript via Motley Fool, Quartr or GuruFocus (the GuruFocus 'Q2 2026 Earnings Call Highlights' URL surfaced in search). Look for 'Genome', 'sequencing cost' and 'capacity'.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Caris Q2 2026 8-K Ex. 99.1 and call (ChromoSeq WGS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002019410/000201941026000053/cai_ex99-1.htm",
+      "access": "Free SEC exhibit. The Earnings Whispers transcript was reported as paywalled.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "From search snippets only: Caris ChromoSeq (whole-genome tumor profiling for myeloid cancers) got its first Medicare rate of $3,228. Cases were 59.2K (+18%), already known. A WGS product is now reimbursed at about $3.2K, which supports the 1C view that clinical WGS is small and slow to scale. I did not open the exhibit.",
+      "how_to_mine": "Open the 8-K. Pull the ChromoSeq volume, if any is given, cost of services and cases. Check the 10-Q for the cost per case trend.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "Caris's first clinical WGS product (ChromoSeq, myeloid) only just received a Medicare rate ($3,228), so WGS is not yet a meaningful share of Caris's mix.",
+          "detail": "On the Q2'26 call (5 Aug 2026) the CFO said Caris received its first Medicare reimbursement for ChromoSeq at $3,228. The product launched recently, and the search snippet gave no volume. Caris cases were 59.2K in the quarter, +18%. WGS at Caris is therefore a nascent addition to the volume base, not a driver of the current volume run-rate. This is based on a search-result snippet only.",
+          "url": "https://www.carislifesciences.com/about/news-and-media/caris-life-sciences-reports-second-quarter-2026-financial-results-and-increases-2026-revenue-guidance/",
+          "date": "2026-08-05",
+          "source_name": "Caris Q2 2026 release (search snippet)",
+          "source_type": "earnings_call",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has Caris case growth and cost per case, but not the ChromoSeq WGS launch or its reimbursement rate."
+        }
+      ]
+    },
+    {
+      "name": "Tempus Q2 2026 call (GenomeNext WGS launch)",
+      "url": "https://www.nasdaq.com/articles/tempus-ai-q2-earnings-call-highlights",
+      "access": "Free summaries (Nasdaq, MarketBeat). The Tempus IR transcript was not tested.",
+      "labels": ["1C"],
+      "status": "productive",
+      "notes": "Search snippet: Tempus launched GenomeNext (rare-disease WGS). The CEO called early volume small, with only one month of data. Core test volume growth accelerated to 31%. I did not open the page.",
+      "how_to_mine": "Open the Nasdaq or MarketBeat summary and the full transcript. Look for the GenomeNext volumes, the sequencer platform and any cost-of-sequencing commentary. Also check the Personalis (NeXT Personal WGS MRD) integration commentary.",
+      "difficulty": "easy (plain extraction)",
+      "items": [
+        {
+          "label": "1C",
+          "direction": "supports",
+          "claim": "Tempus's new rare-disease WGS offering (GenomeNext) has a single month of data and 'small' early volume, so WGS remains immaterial to its mix.",
+          "detail": "On the Q2'26 call (~30 Jul 2026) the CEO said demand exceeded first-month expectations but the volume is small, with one month of data. Tempus's core testing volume grew 31%. WGS cannot yet explain any of the volume acceleration at this customer. This is based on a search-result snippet only.",
+          "url": "https://www.marketbeat.com/instant-alerts/tempus-ai-q2-earnings-call-highlights-2026-07-30/",
+          "date": "2026-07-30",
+          "source_name": "MarketBeat Tempus Q2 call highlights (search snippet)",
+          "source_type": "earnings_call",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list has Tempus oncology +31% and the Personalis deal, but not GenomeNext."
+        }
+      ]
+    },
+    {
+      "name": "Guardant Q2 2026 8-K Ex. 99.1 and call",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001576280/000157628026000036/gh-06302026xexhibit991.htm",
+      "access": "Free SEC exhibit. The Webull transcript is at https://www.webull.com/news/15364698041164800.",
+      "labels": ["1C", "1B"],
+      "status": "dry",
+      "notes": "Gross margin facts (65% GAAP, 67% non-GAAP) are already known. No cost-per-sample figure surfaced. A third-party summary says the lower-COGS Shield workflow got FDA approval, but I saw no dollar figure.",
+      "how_to_mine": "Open the Webull or Motley Fool transcript. Search for 'COGS per sample', 'Shield' and '$200'. Check whether the FDA-approved lower-COGS Shield workflow is a new sequencing setup.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "BillionToOne Q2 2026 8-K Ex. 99.1 and 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002070849/000207084926000050/blln-20260630.htm",
+      "access": "Free SEC. The release is at https://investors.billiontoone.com/news-releases/news-release-details/billiontoone-reports-second-quarter-2026-results-and-reiterates.",
+      "labels": ["1C"],
+      "status": "dry",
+      "notes": "Tests delivered 196K (+35%), ASP $551 (+21%), prenatal revenue $95.8M (+56%), oncology $13.7M (+176%). Cost per test rose slightly on oncology mix, while per-test costs improved in both lines. The +21% ASP shows pricing power at the customer, which is the opposite of price-taking, but it is not directly Illumina's price. Mostly known, and no sequencer or NIPT volume split was found.",
+      "how_to_mine": "Open the 10-Q MD&A. Extract the prenatal versus oncology test split, cost of revenue per test and any sequencing supplier risk language.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Exact Sciences / Abbott, Labcorp, Quest, Myriad, Grail Q2 2026 calls",
+      "url": "https://www.google.com/search?q=Labcorp+Q2+2026+oncology+MRD+sequencing",
+      "access": "Free 8-K and transcript summaries. The single combined search returned no hits for these companies.",
+      "labels": ["1C"],
+      "status": "dry",
+      "notes": "A combined query returned only Natera and Adaptive results. These companies were not tested individually because of the call budget. Adaptive Q2'26 (clonoSEQ 36,111 tests, +43%) is already known, as is the 72% MRD margin tied to the NovaSeq X.",
+      "how_to_mine": "Run one search per company, for example 'Labcorp Q2 2026 earnings call transcript oncology'. Focus on Labcorp and Quest oncology and Ultima/MRD commentary, GRAIL's Q2 10-Q cost of sales and Galleri sequencing cost, and Myriad prenatal and hereditary volume.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "GeneDx investor deck (ir.genedx.com static file)",
+      "url": "https://ir.genedx.com/static-files/16e0e347-dac7-43e2-974b-383ebb1af296",
+      "access": "Free PDF",
+      "labels": ["1C"],
+      "rationale": "May contain cost per test, genome/exome mix, collection-rate and payer coverage charts by quarter. Mine it for a clean time series of genome mix and collection rates."
+    },
+    {
+      "name": "GuruFocus Natera Q2 2026 call highlights",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "access": "Free summary",
+      "labels": ["1C"],
+      "rationale": "A call summary that may mention Signatera Genome share, capacity and Q&A on constraints. Use it to find the full transcript."
+    },
+    {
+      "name": "Carelon and other payer genomic-testing policies",
+      "url": "https://www.carelon.com",
+      "access": "Free public medical policies",
+      "labels": ["1C"],
+      "rationale": "GeneDx attributes the jump in genome coverage (47% to 87% of commercial lives) to a new Carelon policy. A public policy date and criteria would give a forensic read on coverage-limited WGS growth."
+    }
+  ],
+  "apify_requests": []
+}
+```

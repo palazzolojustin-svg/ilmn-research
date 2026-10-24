@@ -1,0 +1,33 @@
+I'm wrapping up the probe. The EDGAR filing is reachable, but my fetch tool cuts the page off before the MD&A section.
+
+```json
+{
+  "status": "dry",
+  "notes": "Only 1 of the 4 filings was opened (Guardant Q2'26 10-Q, filed 2026-07-30). The EDGAR company browse page and the filing page open without a login. My fetch tool truncates the 122,880-character page, and offsets 0, 60K, 85K, 100K and 120K returned only financial statements and notes (debt, leases, legal), not Item 2 MD&A. So I could not read the MD&A on cost of revenue, test volumes, reagents or supplier language. Tempus, Caris and Personalis were not opened. The only new number is from the income statement: Guardant cost of revenue was $115.9M on $335.0M revenue in Q2'26 (34.6%), against $81.2M on $232.1M (35.0%) in Q2'25. That is a roughly flat cost ratio, which matches the known flat GAAP gross margin. A search snippet says the 10-Q attributes the 6-month cost-of-revenue rise (+42%, $220.9M vs $155.9M) to higher sample volume, partly offset by lower cost per sample for oncology tests and Shield. I did not verify that wording in the filing itself.",
+  "how_to_mine": "Do not use WebFetch on the full 10-Q HTML. Use the EDGAR XBRL R-pages (R2/R4 and the MD&A-adjacent notes) or the filing's .txt or iXBRL viewer split. Alternatively, download the document with curl and a descriptive User-Agent header (SEC requires one), then grep Item 2 for 'cost per sample', 'cost of revenue', 'reagent', 'supplier', 'Illumina', 'NovaSeq' and 'tariff'. Repeat for Tempus, Caris and Personalis Q2'26 10-Qs. Pull the FY25 10-K risk factors on supplier concentration for Illumina language.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Guardant's GAAP cost of revenue as a share of revenue was roughly flat y/y in Q2'26 despite its NovaSeq X move.",
+      "detail": "Cost of revenue was $115.9M on revenue of $335.0M in Q2'26 (34.6%), against $81.2M on $232.1M in Q2'25 (35.0%). The 6-month figure was 34.7% vs 35.8%. The $ per test is not disclosed in the statements I read, so any Illumina reagent-price effect is not visible here. Savings from the platform shift appear to be reinvested or offset by Shield growth.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001576280/000157628026000037/gh-20260630.htm",
+      "date": "2026-07-30",
+      "source_name": "Guardant Health Form 10-Q for the quarter ended 30 Jun 2026 (income statement)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Gives the exact Q2'26 cost-of-revenue ratio from the filing; the flat GAAP gross margin is already known, so the update is only incremental."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Guardant Q2'26 10-Q Item 2 MD&A via curl or XBRL",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000037/0001576280-26-000037-index.htm",
+      "why": "A snippet says the cost-per-sample decline for oncology and Shield is called out in the MD&A. Reading it would quantify the decline and name its drivers (reagents vs lab efficiency)."
+    }
+  ],
+  "apify_requests": []
+}
+```

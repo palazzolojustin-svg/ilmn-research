@@ -1,0 +1,14 @@
+```json
+{
+  "status": "blocked",
+  "notes": "I found no NovaSeq tender evidence on any of the three portals, so there are no items to report. EKAP's old search URL now only shows a notice that search moved to https://ekapv2.kik.gov.tr/ekap/search. I did not open that page. It is probably a JavaScript app, and the fetch tool cannot run a keyword search there. datos-abiertos.chilecompra.cl returned only its page title, so I could not see the download list or confirm that no ticket is needed. Web searches for Turkish and Chilean NovaSeq awards returned only Illumina catalog pages and unrelated Chilean tenders (an immunochemistry kit, VPM reagents). Mexico COMPRANET was not tried. A side finding from the search results: a Japanese university tender notice from Sep 2026 lists NovaSeq X Series 1.5B and 25B kits. I did not open it, and it is outside this source's scope. Roughly 4 tool calls used.",
+  "how_to_mine": "1) Open ekapv2.kik.gov.tr/ekap/search in a headless browser (Playwright) with no login, search 'NovaSeq', 'dizileme', 'Illumina' and 'sekanslama', and filter to 2025-26 results. Check whether the tender documents and award notices (ihale sonuç ilanı) show without login, and record buyer, date, quantity and award value. 2) For Chile, fetch the datos-abiertos.chilecompra.cl download links (monthly ZIP or CSV), then grep the item description fields for 'NOVASEQ' and 'S4' and count 6000 versus X kits by buyer and month. Look at the real file list first, since I did not see it. 3) For Mexico, query COMPRANET's public contract-history search for 'NovaSeq'. 4) Searching the aggregators bidsfactory.com or tendios for 'NovaSeq' by country may be quicker than the official portals.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "Japanese government procurement notices (jetro.go.jp, Sep 2026) list NovaSeq X 1.5B and 25B kits. This could show Japanese university mix of 6000 versus X kits.",
+    "bidsfactory.com indexes Chilean mercadopublico tenders, so it could be a searchable proxy for Chile."
+  ],
+  "apify_requests": []
+}
+```

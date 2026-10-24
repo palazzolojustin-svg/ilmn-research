@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "The EDGAR company browse for 'element biosciences' and for 'ultima genomics' both returned 'No matching companies'. That fits both being private with no S-1, DRS or F-1 on file. The efts full-text search (efts.sec.gov) returned HTTP 403 to the fetch tool, so the efts leg could not be run and the customer platform-switch search was not done. A web search for Form D filings found no Form D for either company. The only hit was a Form D for 'Element Science, Inc.', an unrelated company. Funding sizes appear only in press and aggregator pages: Element Series D of over $277M (total raised over $680M), and Ultima $600M at its 2022 emergence. Neither is new to the analyst. No installed base, ASP per Gb or academic mix was found.",
+  "how_to_mine": "Only worth retrying if someone can run efts from a browser or a fetch with a declared User-Agent (efts.sec.gov blocks the default one). Search the exact phrases 'Ultima Genomics', 'UG 100', 'AVITI' and 'Element Biosciences' with forms=10-K,10-Q,8-K for 2025-2026. The most likely hits are Fulgent, Exact, Labcorp, Quest, Twist, 10x and Personalis. A better route is to search by the issuers' own names plus 'AVITI' or 'Ultima' in risk-factor and supplier-concentration text. Form D can be looked up by CIK once the legal names are known, for example via sec.gov/cgi-bin/srch-edgar. Expect little.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Element Biosciences $277M Series D (Yole)](https://www.yolegroup.com/industry-news/element-biosciences-raises-over-277-million-to-develop-and-commercialize-differentiated-products-and-continue-rapid-growth/)
+- [Ultima Genomics emerges from stealth with $600M (Endpoints)](https://endpts.com/?p=354014)

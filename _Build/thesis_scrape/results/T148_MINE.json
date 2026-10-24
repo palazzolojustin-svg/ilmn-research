@@ -1,0 +1,97 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's new Enterprise Pricing and Financing function is chartered to move from list pricing to customer-type-level pricing, which is the structure that lets it give large accounts bigger, targeted discounts.",
+      "detail": "A 28 Jun 2026 Associate Director, Pricing Transformation posting (San Diego hybrid, est. $170,600-$255,800) reports to the Sr. Director, Enterprise Pricing and Financing. It supports a 'new Enterprise Pricing and Financing function' with a pricing vision of 'pay for ownership, pay for consumption, and pay for performance.' Duties include 'advanced customer segmentation and personalized pricing strategies (by region, customer type/tier, or channel)' and competitive-positioning analysis. It also covers pricing for new product introductions (the 35B flow cell would be one) and approval workflows. The posting does not mention discounting or a deal desk, and it names no large accounts. It shows the capability is being built, not that discounts are widening.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "resumegeni (mirror of Illumina Workday posting)",
+      "source_type": "jobs",
+      "quote": "new Enterprise Pricing and Financing function",
+      "strength": "medium",
+      "why_new": "Adds the posting's wording, date, pay band and reporting line. The known list only has a one-line note that the function is being built."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The posting's pay-for-consumption and pay-for-performance language implies subscription or outcome-linked pricing that detaches revenue from per-Gb list prices.",
+      "detail": "The pricing vision lists three models: ownership, consumption and performance. Illumina's financial-solutions page, which carries a © 2026 notice, already offers reagent rental. That is 0% interest, bundled with a reagent commitment, with the instrument price transferred into reagent pricing. It also offers a subscription (pay-as-you-go, minimum 12-month term) and a 'limited time' 0% financing offer with no end date. Combining financing with pricing in one function is consistent with concession-by-financing, which is hard to see in $/Gb. This is my inference, not something Illumina states.",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026",
+      "source_name": "Illumina financial solutions page",
+      "source_type": "price_list",
+      "quote": "pay for ownership, pay for consumption, and pay for performance",
+      "strength": "weak",
+      "why_new": "Reagent rental is known only through expert and call mentions. This is the primary-source structure, plus a subscription tier and an open-ended 0% offer."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Illumina advertises 6000 lease pricing at about 79% of the X's, so the 6000 is still being actively financed and sold.",
+      "detail": "The 3-year lease starting prices are $32,700/month for the NovaSeq 6000 and $41,500/month for the NovaSeq X Series. The 6000 is therefore 79% of the X: 32.7 / 41.5 = 0.788. The 6000Dx (IVD) is $35,900/month. The page shows no end-of-life language for the 6000, consistent with the live 6000 product page. Leasing is a fixed payment with no reagent commitment, so it does not lock in tail consumables.",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/illumina-financial-solutions.html",
+      "date": "2026",
+      "source_name": "Illumina financial solutions page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "These instrument lease price points are not in the known list. They add a data point that the 6000 is still offered and financed in 2026."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A Singapore Senior Contracts Analyst posting shows commercial contracts and tenders in APAC and Greater China are being worked as dedicated headcount.",
+      "detail": "The role (APAC and/or Greater China) covers reviewing, drafting, negotiating and managing contracts, tenders and order-related terms, working with Legal, Finance, Sales and account managers. Tender work is where price competition is most visible in Asia, including against MGI. I could not verify the posting date, the asset-financing or reagent-rental scope, or any increase over 2024-25 headcount.",
+      "url": "https://www.founditgulf.com/job/senior-contracts-analyst-illumina-singapore-61586802",
+      "date": "undated (2026 per probe)",
+      "source_name": "FoundIt Gulf (job aggregator)",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no contracts-role evidence."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "The pricing posting is about governance and segmentation, not a discount program. Nothing in it shows discounting accelerating.",
+      "detail": "The posting does not mention discounting, deal desk, large customers or competitors by name. The searches returned no Deal Desk, Staff Contract Analyst or Sr Manager Contracts postings. A Senior Manager, Pricing Strategy appears only in a contact directory, so I could not date the function's start. 2024 and 2025 equivalents and Wayback first-seen dates could not be checked because web.archive.org was blocked in this environment. A headcount rise after Q4'25 is therefore not demonstrated.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "resumegeni",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is a watch-out on how much weight the hiring signal can bear."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Only the pricing posting was readable in full. The xtalks mirror 404'd in the probe (search lists it, so it may work now). Wayback was blocked, so first-seen and removed dates and the 2024-25 comparison are unmeasured. Staff Contract Analyst and Sr Manager Contracts did not surface in search. Illumina's Workday board is not indexable. Retry with direct careers.illumina.com searches or a heavier job scraper.",
+  "leads": [
+    {
+      "name": "Builtin Associate Director, Strategic Finance (San Diego/Foster City)",
+      "url": "https://www.builtinla.com/job/associate-director-strategic-finance-san-diego-foster-city/10294240",
+      "access": "open",
+      "labels": ["1B"],
+      "rationale": "Adjacent finance hire for non-standard deals, licensing and partnerships. It may show deal structuring tied to customer financing. Not read."
+    },
+    {
+      "name": "Illumina financial services flyer PDF",
+      "url": "https://assets-web.prd-web.illumina.com/content/dam/illumina-marketing/documents/company/illumina-financial-services-flyer-web.pdf",
+      "access": "open",
+      "labels": ["1A", "1B"],
+      "rationale": "May give reagent-rental commitment terms (the run basis) and instrument-to-reagent price transfer mechanics. Not read."
+    },
+    {
+      "name": "The Ladders Illumina job list",
+      "url": "https://www.theladders.com/jobs/illumina-jobs",
+      "access": "open",
+      "labels": ["1B"],
+      "rationale": "Lists 33 Illumina openings. It can be scanned for pricing, contracts and commercial-finance titles and posting ages."
+    }
+  ],
+  "apify_requests": []
+}
+```

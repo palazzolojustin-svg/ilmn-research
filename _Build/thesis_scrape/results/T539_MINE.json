@@ -1,0 +1,97 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "EDGAR full-text search finds almost no rival-platform disclosure at the large US clinical labs, so there is no filing-level sign of a credible price threat at Illumina's biggest accounts.",
+      "detail": "For 1 Jan 2025 to 12 Oct 2026, the exact phrase \"Ultima Genomics\" returned only four operating filers in 10-K, 10-Q and 8-K filings: Guardant (10-K FY24, FY25), PacBio (10-Ks and all five 10-Qs from Q1'25 to Q2'26 for \"Ultima\" + sequencing), 10x (8-K, 12 Feb 2025) and the Freenome DRS/A. The other hits were SolarEdge, which is noise. \"AXELIOS\" and \"Complete Genomics\" returned 0 hits in 10-K/10-Q/8-K/S-1/DRS. \"Sequencing by expansion\" returned only the Freenome DRS/A. Natera, Tempus, Caris, GeneDx, Myriad and BillionToOne do not appear for \"Ultima Genomics\", but the index may miss variant spellings. The Guardant 10-K FY25 mentions Ultima once, only as a platform that \"could be used for liquid biopsy\".",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Ultima%20Genomics%22&dateRange=custom&startdt=2025-01-01&enddt=2026-10-12&forms=10-K",
+      "date": "2026-10-12",
+      "source_name": "SEC EDGAR full-text search (efts)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Quantified negative result across EDGAR (only 4 operating filers name Ultima; 0 for AXELIOS and Complete Genomics) was not in the known list."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "10x Genomics sued Element in May 2026 over the AVITI24, which puts legal risk on the rival's single-cell research push.",
+      "detail": "The 10x Q2'26 10-Q (filed 7 Aug 2026) says it sued Element in May 2026, alleging AVITI24 and its kits infringe four US patents (11,021,737; 11,566,276; 11,566,277; 12,264,358). A second suit in the UPC Munich Local Division alleges infringement of EP 4249605 and EP 4491741. Element filed a partial motion to dismiss in July 2026 and an EPO opposition against EP 4491741. No schedule is set. An injunction would hit Element's research single-cell and spatial positioning, which is Element's main route into the academic market, so it would cap the research price pressure from AVITI.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828026054491/txg-20260630.htm",
+      "date": "2026-08-07",
+      "source_name": "10x Genomics 10-Q Q2'26 (legal proceedings)",
+      "source_type": "filing",
+      "quote": "Element filed a partial motion to dismiss in July 2026.",
+      "strength": "medium",
+      "why_new": "Known list covers only Illumina's suits against Element; 10x's suit against AVITI24 (US and UPC) is new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Roche is a large shareholder and lender in Freenome, which is moving to a public listing and is evaluating AXELIOS, so Freenome has a captive route away from Illumina.",
+      "detail": "The Freenome/Perceptive SPAC DRS/A (30 Mar 2026) says Roche will own about 18.11% of New Freenome common stock after closing. A Roche convertible note converts at $12.00 and Roche receives 12,778,058 merger-consideration shares. I read about 326K characters of the document and found no mention of Illumina, Ultima or sequencers in the proxy/transaction section. The business and supplier sections are not in this file, so the DRS/A does not confirm an Ultima supply deal. The ownership link makes a Roche-sequencer shift at Freenome more plausible, but that is inference.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1676446/000114036126011956/filename1.htm",
+      "date": "2026-03-30",
+      "source_name": "Freenome / Perceptive Capital Solutions DRS/A",
+      "source_type": "filing",
+      "quote": "Roche will own approximately 18.11% of New Freenome Common Stock.",
+      "strength": "weak",
+      "why_new": "Known list notes Freenome evaluating AXELIOS and naming Ultima; Roche's 18.11% stake and $12 convertible note are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Element is being built into the research workflow ecosystem: Twist expanded its collaboration to put its library prep and target enrichment on AVITI flow cells.",
+      "detail": "Twist's FQ3'25 release (4 Aug 2025) lists an \"expanded collaboration with Element Biosciences\" for AVITI workflows on Trinity flowcells. Twist NGS revenue was $55.3M (+27% vs $43.4M) and the CEO cited \"deepening our reach into the long tail of the academic market\". It shows Element compatibility work, not any price effect on Illumina.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128025000006/twst-20250630xex991.htm",
+      "date": "2025-08-04",
+      "source_name": "Twist Bioscience 8-K Ex. 99.1",
+      "source_type": "filing",
+      "quote": "Expanded collaboration with Element Biosciences to enable Element's AVITI systems",
+      "strength": "weak",
+      "why_new": "Known list has Twist NGS growth but not the AVITI/Trinity workflow collaboration."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A small US genetic-testing program (Virotek/Kala Bio) names Element as a sequencing vendor in its cost-of-goods schedule.",
+      "detail": "The Virotek-Kala Bio exclusive distribution agreement (effective 3 Sep 2026, 8-K Ex. 10.1) lists Element Biosciences in the \"Sequencing / reference laboratory fees\" row for the Eye-Gene tests. The fee is redacted and no volume or commitment is stated. It is a tiny example of a US genetic-testing program using Element capacity, but there is no price evidence.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1479419/000182912626009999/kalabio_ex10-1.htm",
+      "date": "2026-09-10",
+      "source_name": "Kala Bio 8-K Ex. 10.1",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A new named Element clinical-testing user not on the known list."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Source is mostly dry. Phrase search on EDGAR full-text returns few hits, and the filter works only with forms=. Ultima queries across all forms returned HTTP 500 once. Guardant FY25 10-K and PacBio 10-Ks only list rivals and say 'Increased competition may result in pricing pressures', which are known. Not read: Freenome S-1 business and supplier sections, which are in a separate file from the DRS/A proxy section I read, and the text after character 120K in the PacBio and Guardant 10-Ks. A PacBio Q2'26 10-Q read to 120K characters found no Ultima/Element pricing text. Complete Genomics and AXELIOS have no EDGAR hits, so searching by filer (MGI is not an SEC filer) is not useful.",
+  "leads": [
+    {
+      "name": "Freenome S-1 / DRS main document (business, suppliers, MD&A)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001676446&type=&dateb=&owner=include&count=40",
+      "access": "Free EDGAR filing index; look for the other DRS/S-4 document files",
+      "labels": ["1B", "1C"],
+      "rationale": "The file I read was the SPAC proxy front matter. The operating-company sections should state sequencing suppliers and costs per sample."
+    },
+    {
+      "name": "Alamar Biosciences S-1/A (CIK 2104204) text",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002104204&type=S-1",
+      "access": "Free EDGAR",
+      "labels": ["2B"],
+      "rationale": "The Element Biosciences search hit was on this filer. I only read the lease exhibit (no Element mention). The main S-1 body may describe Element sequencing use or a supply agreement."
+    },
+    {
+      "name": "EDGAR full-text search: 'NovaSeq 6000' in 10-Q, 2026, by clinical-lab CIKs",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22NovaSeq%206000%22&dateRange=custom&startdt=2026-01-01&enddt=2026-10-12&forms=10-Q,10-K",
+      "access": "Free JSON endpoint via WebFetch",
+      "labels": ["1A"],
+      "rationale": "Identifies which filers still name the 6000 in 2026 filings. I did not run this query."
+    }
+  ],
+  "apify_requests": []
+}
+```

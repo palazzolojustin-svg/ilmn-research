@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not complete the count the probe asked for. WebFetch can't filter or grep large JSON, so I tried the public Greenhouse endpoints. Tempus and Guardant returned 404 under the board names I guessed ('tempus', 'guardanthealth'). The Natera feed returned about 2.9M characters, and BillionToOne about 1.1M. WebFetch read only the first 100K characters of each. That covered 8 visible jobs and no sequencer mentions, so those are not full counts. Natera's job pages do exist on job-boards.greenhouse.io/natera. A search snippet from the Natera Research Associate 1 (Oncology RUO) posting says libraries are loaded on 'NovaSeq6000 and NovaSeqX'. I could not verify that on the page I opened (it showed a listing page with no text or date), so the snippet is unconfirmed. Natera postings naming NovaSeq and NovaSeq X Plus are already known. The snippet adds only that the 6000 and X are named together in R&D and RUO roles. Searches turned up no AVITI, Ultima or DNBSEQ mentions in any Natera, Tempus, Guardant, Caris, GeneDx or Myriad lab posting. The Tempus hits were old (June 2025). I did not test Caris, GeneDx, Myriad or Exact endpoints because of the call budget.",
+  "how_to_mine": "Use a scripted fetch (Python, not WebFetch). Pull boards-api.greenhouse.io/v1/boards/<slug>/jobs?content=true for natera and billiontoone, and find the correct slugs for tempus, guardant, caris and gene dx (try 'tempusai', 'guardanthealth1', 'carisls'). Use Lever (api.lever.co/v0/postings/<co>?mode=json) and the Workday CXS JSON endpoints for Exact, Myriad and GeneDx. Regex the job content for NovaSeq ?6000, NovaSeq ?X, AVITI, Ultima, UG ?100 and DNBSEQ. Count by company, keep only lab-ops roles, and record the job id and updated_at. Re-run monthly to track the 6000-to-X shift.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Natera lab roles still name the NovaSeq 6000 and NovaSeq X together, which fits parallel running.",
+      "detail": "A search-result snippet for Natera's Research Associate 1, Oncology RUO (San Carlos, six-month contract) says duties include loading libraries on NovaSeq6000 and NovaSeqX. The posting date is unknown. I could not confirm the text on the page, and the role is R&D/RUO rather than clinical production. It weakly updates the known 'Natera postings list NovaSeq and NovaSeq X Plus' point, because the 6000 is still named in 2026-era postings.",
+      "url": "https://job-boards.greenhouse.io/natera/jobs/6104561004",
+      "date": "undated; found in search 2026-10-12",
+      "source_name": "Natera Greenhouse job board (search snippet)",
+      "source_type": "jobs",
+      "quote": "loading libraries on NovaSeq6000 and NovaSeqX platforms",
+      "strength": "weak",
+      "why_new": "Names the 6000 and X together in a Natera RUO role, but it only slightly updates the known Natera posting evidence."
+    }
+  ],
+  "new_candidates": [
+    "Python scan of Greenhouse, Lever and Workday JSON for the eight named customers with a sequencer-family regex and monthly snapshots",
+    "Wayback Machine snapshots of the Natera, Tempus and Guardant job boards, to track NovaSeq 6000 versus X mentions over time"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,93 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Taiwan hospital awards signed in 2024–26 show a legacy-chemistry tail (MiSeq v3, NextSeq 500/550 v2.5) of about NT$16.5M a year, locked in to 2027–2029.",
+      "detail": "NTUH MiSeq v3 (TD130370): NT$45.0M, 1 Sep 2024–31 Aug 2027, which is NT$15.0M a year. NTUH NextSeq 500/550-type v2.5 300-cycle medium-throughput set (TD150300): NT$4.41M, 1 Aug 2026–31 Jul 2029, which is NT$1.47M a year. Together that is about NT$16.5M a year. Against the Illumina kit contracts I could identify as in force, legacy is about 12.7%. The rest: NTUH K114031 WGS bundle NT$297M/3y = NT$99.0M a year (brand unnamed, so X is inferred); Taichung P1–P4 NT$19.9M/2y = 9.96M a year; Taipei VGH 1150157V NT$7.14M/2y = 3.57M a year; Taipei P4 1140134V NT$1.81M/2y = 0.9M a year. The sum is 99.0+15.0+1.47+9.96+3.57+0.9 = NT$129.9M, and 16.5/129.9 = 12.7%. Treat the share as indicative: it mixes award years, and Taipei VGH 1140732E item 1 (NT$3.94M/2y) is omitted because the notice names no brand.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD150300",
+      "date": "2026-06-10",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API, NTUH awards TD130370 and TD150300",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F848/F849 gave the contracts; this adds annualised values and a rough legacy share of identified Illumina award value."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "No NovaSeq 6000-titled award appears in the Taiwan PCC after Dec 2023, and the large new money went to a NovaSeq X-class WGS bundle, so the 6000 does not look like a growing public-hospital tail.",
+      "detail": "The title search 'NovaSeq' returns 19 records, and the newest is NHRI's 16-kit NovaSeq 6000 S4 v1.5 award (21 Dec 2023). All the others are NHRI maintenance or kit awards from 2018–2023. Nothing is titled NovaSeq in 2024–26. The largest 2026 award, NTUH K114031, is NT$296,999,880 over 1 Mar 2026–28 Feb 2029 (about NT$99M a year, one bidder, Genetech, US origin). That is about 6.6x the combined legacy MiSeq and NextSeq 500/550 run-rate of NT$15.0M plus NT$1.47M. Tender titles hide product names, so a 6000 inside generic 'high-throughput' lots can't be ruled out.",
+      "url": "https://pcc-api.openfun.app/api/searchbytitle?query=NovaSeq",
+      "date": "2026-02-05",
+      "source_name": "Taiwan e-Procurement (PCC) via openfun API",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "A full-title scan shows no 6000 reagent tender since Dec 2023 and sizes the X-class bundle against legacy; F718/F845 covered NHRI only."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taipei VGH's P4 XLEAP kit volume doubled at an unchanged NT$201,000 per set, which is volume growth without price concession.",
+      "detail": "The Apr 2025 award (1140134V, one bidder, Genetech) was 9 sets at NT$201,000 = NT$1.809M for 11 Apr 2025–10 Apr 2027. The Apr 2026 award (1150157V item 1) was 18 sets at NT$201,000 = NT$3.618M for 1 Jul 2026–30 Jun 2027 (per the notice's contract-period field). Quantity rose 100% at an identical unit price, so Illumina's revenue at this account is +100% on this item, with no price step. This is a mid-throughput kit in Taiwan, a tiny account. It cuts against both 'volume slows' and 'discounting accelerates' at this buyer.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=1150157V",
+      "date": "2026-05-12",
+      "source_name": "Taiwan e-Procurement (PCC), Taipei VGH 1140134V and 1150157V",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F713 noted the flat price; the doubling of contracted sets from 9 to 18 is new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taichung VGH's Sep 2026 award shows a deeper award discount versus budget on larger flow cells (P3 about −21%, P4 about −15%) than on small ones (P1 and P2 about −6%).",
+      "detail": "Award 115A018 (15 Sep 2026, Genomics BioSci, single bidder, 1 Oct 2026–30 Sep 2028) implies per-set prices of P1 NT$46,000 (30 sets), P2 NT$93,000 (69), P3 NT$158,000 (60) and P4 NT$220,000 (12). Budget per set was 49,000, 98,500, 200,000 and 260,000, so the award is −6.1%, −5.6%, −21.0% and −15.4% versus budget. The P3 bid was NT$180,000 and fell to NT$158,000, which is −12% from bid, so the largest-volume item was negotiated down hardest. Total award was NT$19.917M against a NT$23.39M budget (−14.8%). The 'single bidder' label still shows concession under a leverage-style buyer. This is one hospital, and the P-series are mid-throughput XLEAP kits.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.81&job_number=115A018",
+      "date": "2026-09-17",
+      "source_name": "Taiwan e-Procurement (PCC), Taichung VGH 115A018",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F751/F814 gave aggregate budget gaps; this adds the per-item unit-price ladder, quantities and bid-to-award gaps."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Even sole-bidder legacy tails take price concessions: NTUH's NextSeq v2.5 set was cut about 10% from the bid, and the MiSeq tail about 5% from the bid.",
+      "detail": "TD150300 (budget and sole bid NT$4.9M, reserve 4.508M, award NT$4.41M, −10.0%). TD130370 MiSeq v3 (bid NT$47.4M, awarded NT$45.0M, −5.1%) came after three tender rounds, two of which failed. Illumina's distributor Genetech conceded price on the retiring-platform lots without competition. This is consistent with a tail that is still price-managed. The values are small.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.9.20.1&job_number=TD130370",
+      "date": "2024-08-15",
+      "source_name": "Taiwan e-Procurement (PCC), NTUH TD130370 and TD150300",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Bid-to-award concession on legacy-platform lots was not in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Subsidised Cathay General Hospital sequencing buys landed at 98–99% of budget, showing no deep discounting at new clinical buyers.",
+      "detail": "CGH115005 (sequencing reagents, NT$1.635M against NT$1.65M budget, 99.1%) and CGH115003 (NGS chips with reagents, 10 units at NT$196,000 = NT$1.96M against NT$2.0M, 98.0%) were both awarded 23 Mar 2026 to single bidders after a failed first tender in Feb 2026. They were funded by the Ministry of Health's Healthy Taiwan programme. The sums are tiny, and the chip origin is listed as Taiwan, so the brand is unclear.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=04129719&job_number=CGH115003",
+      "date": "2026-04-21",
+      "source_name": "Taiwan e-Procurement (PCC), Cathay General Hospital",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A new buyer with award-to-budget ratios; Cathay was not among the Taiwan buyers already covered."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "I used 13 API calls before the openfun API began returning HTTP 429; I did not retry. Not yet done: NovaSeq X award notices by name (titles mostly hide brand), the NHRI later-award check, NTUH PK2600016 (outsourced NGS, Apr 2026), Taipei City Hospital 115C01 (ANTEC, Jul 2026), Kaohsiung VGH MCP14099, Yunlin YD140050, Chi Mei 114B01342H1 detail, and the Hsinchu and Yangming-Chiao Tung Down syndrome NGS screening tenders. Also pending: searches for '全基因體', '高通量' page 2 and '25B'. Notices rarely state the brand, so the legacy-versus-X split is inferred from titles and chemistry names.",
+  "leads": [
+    {"name": "PCC award notices: Taipei City Hospital NGS reagents 115C01", "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.79.14.14&job_number=115C01", "access": "public API (rate-limited, 429)", "labels": ["1B", "1C"], "rationale": "Awarded to ANTEC on 3 Jul 2026 after about six failed rounds, so it may show unit prices for NGS kits."},
+    {"name": "PCC: Down syndrome NGS screening open contracts (NTUH Hsinchu GH151020, Yangming-Chiao Tung 114155L54)", "url": "https://pcc-api.openfun.app/api/searchbytitle?query=%E5%94%90%E6%B0%8F%E7%97%87", "access": "public API", "labels": ["1C"], "rationale": "Repeated failed awards and re-tenders point to NIPT price and volume maturity."},
+    {"name": "PCC: Kaohsiung VGH MCP14099 NGS cancer testing (Act Genomics)", "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.82&job_number=MCP14099", "access": "public API", "labels": ["1C", "1B"], "rationale": "Gives the outsourced CGP price per test and volume, indicating how much sequencing demand sits with the lab."},
+    {"name": "PCC: Chi Mei 114B01342H1 high-throughput sequencer award (Asia Pathogenomics)", "url": "https://pcc-api.openfun.app/api/tender?unit_id=06606103&job_number=114B01342H1", "access": "public API", "labels": ["1B", "2B"], "rationale": "Follows up F748 with the bidder field and the brand, a possible rival placement."}
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,215 @@
+```json
+{
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The ~€12,800 CIBER per-flow-cell figure the analyst has is a budget estimate, not an award price. It still sits about 33% below IDIBAPS's own estimate.",
+      "detail": "CIBER's tender (published 28 Jul 2025, closed 2 Sep 2025) was still 'awaiting award' with an estimated value of €2,880,000 for 155+70 = 225 NovaSeq X Plus flow cells, or €12,800 each. IDIBAPS's 13 × 25B-300 kits (published 11 Apr 2025) had an estimate of €249,600 (€19,200 each) and a final value of €208,000 (€16,000 each, −16.7% vs estimate). On estimates alone, the 225-unit buyer budgeted 33% less per flow cell than the 13-unit buyer (12,800/19,200 = 0.667). It budgeted 20% less than IDIBAPS's final price (12,800/16,000). Two buyers one quarter apart show a steep volume-tier discount. If CIBER's award lands near its estimate, large accounts clear at ~€12.8K vs ~€16K for small ones. Cite it as a budget ceiling, not a realised price, until an award notice appears.",
+      "url": "https://bidsonar.com/contracts/494801-2025",
+      "date": "2025-07-28",
+      "source_name": "TED via BidSonar; op.europa.eu (CIBER, IDIBAPS)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list treats €12,800 as an implied award price. This shows it is an estimate and computes the estimate-to-estimate volume gap (−33%)."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "University of Copenhagen bought a NovaSeq X Plus in Feb 2025 that explicitly replaces its NovaSeq 6000 and NextSeq 500, so 6000 sites are retiring boxes in Europe.",
+      "detail": "Award 'Sekvenator' (ref 043-1395/24-7000) went to Illumina Denmark ApS on 28 Feb 2025, final value USD 2,878,114 ex-VAT. The notice calls it an upgrade of the existing Illumina sequencer that 'replaces the older NovaSeq 6000 and NextSeq 500'. The sole award criterion was 'quality' at 100% weight. Quantity is not stated. Compared with Graz's X Plus system at €954,498 (Dec 2024), Copenhagen's value is about 2.5–3x higher, so it is probably a multi-unit or bundled deal (inference). Evidence of a 6000-to-X swap at a European university, but a single data point.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/97a193fb-8ea0-4a10-ae61-e65d5e96f3c2",
+      "date": "2025-02-28",
+      "source_name": "Publications Office of the EU (TED)",
+      "source_type": "procurement",
+      "quote": "replaces the older NovaSeq 6000 and NextSeq 500",
+      "strength": "weak",
+      "why_new": "The Copenhagen award was flagged as new but never mined for its 6000 replacement language or its value compared with other X Plus buys."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "University of Turku (FFGC) ran a tender in Oct 2024 to upgrade a NovaSeq 6000 bought in 2019 to a NovaSeq X, so the replacement cycle is landing on ~5-year-old boxes.",
+      "detail": "The Mercell notice (published 31 Oct 2024) covers one NovaSeq X system plus a separate DRAGEN server. It says the existing NovaSeq 6000, purchased in 2019, must be upgraded to 'the newest instrument version'. Value and award are not stated. A five-year-old 6000 being swapped fits the retiring-tail narrative, though it was a core-style centre, which is the cohort already largely converted.",
+      "url": "https://www.mercell.com/de-de/tender/241901667/novaseq-x-sequencing-system-and-illumina-dragen-server-v4-tender.aspx",
+      "date": "2024-10-31",
+      "source_name": "Mercell (University of Turku)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "A Nordic 6000 replacement tender with the 2019 purchase year is not on the known list."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Third-party service contracts show 6000s still being maintained in Europe, and one costs more than the service on a newer X Plus.",
+      "detail": "Motol University Hospital (Prague) awarded GeneTiCA s.r.o. a CZK 13,000,000 ex-VAT 'repair, maintenance and service of the NOVA Seq 6000D' on 5 Nov 2024 (about €0.53M at ~24.5 CZK/EUR; term not stated). Charles University 1st Medical Faculty's X Plus post-warranty service was listed at CZK 9,750,000 (Oct 2025, same vendor), about 25% lower, though terms may differ. Aachen University Hospital also tendered NovaSeq 6000 maintenance in Mar 2026 (search-snippet level). The hospital keeps paying for a clinical-genetics 6000 into 2026+, consistent with the long tail management describes.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/82539bd1-c283-4e74-9e35-9a9b59525d08",
+      "date": "2024-11-05",
+      "source_name": "Publications Office of the EU; BidSonar (Charles University)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Czech 6000D service award and the X Plus service comparison are not in the known list. Only a Leeds NHS 6000 call-off was found earlier."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "European hospitals are adding NovaSeq X Plus capacity on top of existing instruments, which supports clinical volume growth.",
+      "detail": "Region Hovedstaden (Rigshospitalet, Copenhagen) bought an 'additional' NovaSeq X Plus for whole-genome analyses to 'extend existing capacity' and let the two instruments back each other up, final value DKK 8,500,000 ex-VAT (~€1.14M at ~7.46 DKK/EUR; award date not shown). Region Syddanmark (Odense Clinical Genetics) awarded a NovaSeq X Plus by negotiated procedure on 5 May 2026 (value not seen). Graz Medical University (human genetics diagnostics) awarded a X Plus system to Illumina Austria for €954,498 on 16 Dec 2024, on price alone. Hospital genomics labs are still buying sole-source Illumina capacity. This cuts against the thesis that volume is plateauing, though the dates are 2024–2026 and the volume impact is unquantified.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/9887a965-67dc-4ed7-ae61-e7653bef4319",
+      "date": "2026-05-05",
+      "source_name": "Publications Office of the EU / TED (Rigshospitalet, Odense, Graz)",
+      "source_type": "procurement",
+      "quote": "extend existing capacity",
+      "strength": "weak",
+      "why_new": "Specific European hospital capacity-add awards with euro values were not previously listed."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "A Chinese-owned sequencing service provider (BMK GmbH) keeps winning Spanish public-research sequencing contracts, which supports low-cost outsourcing pressure.",
+      "detail": "The Spanish award aggregator lists 28 awards to Biomarker Technologies (BMK) GmbH in the last three years. Five were visible, from Jun to Sep 2026: CSIC (10 Jun, NovaSeq X Plus, 7 Tenebrio genomes plus ancient-DNA pool), FRCB-IDIBAPS (29 Jul, Illumina sequencing for project PI24/00982), CSIC RNA-seq (13 Jul), CSIC (14 Aug, 100 reptile RNA samples on NovaSeq X PE150) and Universidad de Málaga (16 Sep, Iso-seq). Amounts are hidden. The workload runs on Illumina X flow cells but is priced at a low-cost provider's rates, so Illumina's lane price is set by the aggregator's price, not the end buyer's. IDIBAPS also posted a separate 2026 lane-based service tender (528143-2026) with lots of 12 25B flow cells at 100 cycles and 100 independent 25B-300 lanes over 760 days; estimated values were not retrievable.",
+      "url": "https://www.sophia-anphis.es/empresa-licitadora/biomarker-technologies-(bmk)-gmbh__DE000353057045",
+      "date": "2026-09-16",
+      "source_name": "Sophia/Anphis award aggregator; TED 528143-2026 / 536530-2026",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "BMK's repeated Spanish awards are new. Earlier work found Novogene-type outsourcing at cores but no named EU public-tender winner."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Outsourced research sequencing tenders in Spain are still running on Illumina X flow cells, so research volume is not collapsing to rivals there.",
+      "detail": "All five visible BMK awards in 2026 and the IDIBAPS service tenders (528143-2026, amended by 536530-2026 on 3 Aug 2026) specify Illumina NovaSeq X / X Plus 25B. The amended lots are 12 flow cells (100-cycle) and 100 lanes (300-cycle) over 760 days. Public research buyers are still specifying 25B capacity, not AVITI or Ultima. The buyers are price-led, so this is volume-supportive but price-negative.",
+      "url": "https://ted.europa.eu/en/notice/528143-2026/pdf",
+      "date": "2026-07-30",
+      "source_name": "TED (search-result snippets; the PDF page itself returned empty)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The lot structure of the 2026 Barcelona notices (12 flow cells and 100 lanes, 760 days) was not previously established. The agent could not see estimated values."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Public hospitals and universities in Europe are buying Element AVITI systems at roughly $320–390K, well below the ~$500K list in the known file, often by sole-source justification.",
+      "detail": "Innsbruck Medical University (Institute of Pathology, ref V24-18r) listed a final contract value of €293,439.34 for an AVITI system with ancillary services, described as 'mandatory for patient therapy'. The Edinburgh notice shows a total value of £290,640. The Natural History Museum (London) made a £157,544 direct award for an upgrade (3-year term, options to 2030). Leiden UMC published a voluntary ex-ante notice (7 Nov 2025) to award an AVITI24 to Element Biosciences Netherlands. A German university hospital's negotiated award (TED 318692-2026, Jan 2026) found only Element could supply the required service. These are small, but clinical-genetics labs are choosing Element in public procurement, which gives rivals a price-signal foothold.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/8884f11e-e157-43c5-96c6-bd6e7d923b63",
+      "date": "2026-01",
+      "source_name": "Publications Office of the EU; TED; Find a Tender (search snippets for Edinburgh, NHM, LUMC, UKA)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Named EU/UK public AVITI purchases with values (Innsbruck, Edinburgh, NHM, LUMC) were not in the known list, which only has NRC Canada."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Czech and Baltic public buyers use framework or distributor structures for NovaSeq X kits, hiding Illumina's net price. Estimated values give a sizing, not a unit price.",
+      "detail": "Charles University 1st Medical Faculty (TED 301608-2026, OJ 4 May 2026) ran a framework for 'sequencing kits compatible with NovaSeq X Plus' with an estimated value of CZK 12,000,000 (about €0.49M) for Q4 2025 supplies, open procedure Z2023-059058. The University of Tartu concluded a €1.0M framework (Mar 2026) for Illumina consumables across iScan, MiSeq, NextSeq 2000 and NovaSeq, awarded to distributor Nova natura OÜ. Riga Stradiņš University awarded an NGS platform to Nova natura for €109,671 (Apr 2026). Distributor intermediation and open competition at the reseller level are consistent with large-account discounting being negotiated outside Illumina's own disclosures. No unit prices.",
+      "url": "https://bidsfactory.com/en/tenders/illumina-genoomiuuringute-aparatuuri-jooksevvahend-ted-85bd6b66f7807f66",
+      "date": "2026-03-24",
+      "source_name": "BidsFactory (TED mirror); TED 301608-2026 via search result",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Estonian, Latvian and Czech consumable and platform awards are new. The known list has only Spain and Germany."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "A UK public lab and European public labs continue to commit sizeable multi-year budgets to Illumina X-series consumables.",
+      "detail": "Tartu's €1.0M Illumina consumables framework (Mar 2026) and Charles University's CZK 12M kit framework (~€0.49M per quarter-year of supply, estimate) show institutions budgeting for flow cells beyond 2026. CIBER's 225-flow-cell tender (€2.88M) at one centre alone equals roughly 225 × 8 Tb nominal 25B output, about 1.8 Pb if 2×150 (derived from the Illumina spec cited by the search tool). That shows demand for dense capacity from public research consortia, not saturation.",
+      "url": "https://bidsonar.com/contracts/494801-2025",
+      "date": "2025-07-28",
+      "source_name": "BidSonar / TED",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Gb equivalent of the CIBER buy and the cross-country framework budgets give a volume context the known list lacked."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Spanish public buyers use a dynamic acquisition system that scores price at only 50% but still obtained a 16.7% cut versus the estimate through a distributor.",
+      "detail": "The IDIBAPS 13-kit order was a specific contract under CSUC dynamic acquisition system 23/02, with award criteria of price (50%) and delivery time/low-emission transport (50%). The awardee was Diagnostica Longwood, S.L. (Zaragoza), a distributor, not Illumina. Final €208,000 vs estimate €249,600 means the reseller bid below the budget even with half the weighting on non-price criteria. Illumina's net price is therefore not visible and a distributor margin sits in between. Funding came from ISCIII and NextGenerationEU (EU recovery funds), which expire, a research-funding cliff to watch.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/21279da3-5c1f-491d-8c7b-e21c35d651aa",
+      "date": "2025-06-05",
+      "source_name": "Publications Office of the EU",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file records the −16.7% but not the award-criteria weighting, the distributor identity, the DAS vehicle or the NextGenerationEU funding source."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Part of European research sequencing spend is funded by one-off recovery money (NextGenerationEU / ISCIII), a funding-cliff risk for 2026–27 research consumables.",
+      "detail": "The IDIBAPS 25B kit order (project PMPER24/00011) was funded by Instituto de Salud Carlos III and NextGenerationEU. NextGenerationEU spending must be committed by 2026 under EU rules, so similar grants will roll off. Single example, so only a directional signal for EU research consumables.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/21279da3-5c1f-491d-8c7b-e21c35d651aa",
+      "date": "2025-06-05",
+      "source_name": "Publications Office of the EU",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The EU recovery-fund source of research flow-cell money is not in the known 2A funding evidence, which is US-focused."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Many public buyers are locked into Illumina through sole-source justifications and notices with token values, which limits visible discounting.",
+      "detail": "Helmholtz Munich's 'div. Nova Seq X Kits' (ref 4500217555, 6 Dec 2024) was awarded to Illumina GmbH at a placeholder €1.00. Warsaw's Children's Health Centre awarded PLN 3,823,656.20 of Illumina reagents (18 Dec 2024) to exclusive distributor Analityk Ewa Kowalczyk, with the title itself noting the distributor is exclusive and award on price (100%). Illumina's exclusivity in the channel means open price competition on consumables is rare.",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/b1c12d16-ddae-4908-9c94-9da0a37f0175",
+      "date": "2024-12-18",
+      "source_name": "Publications Office of the EU",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Warsaw PLN 3.82M exclusive-distributor award is new. Helmholtz is known but not the Polish pattern."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "ted.europa.eu PDF/detail pages return empty to WebFetch, so the estimated values and lot sizes of Barcelona 528143-2026 and 536530-2026 could not be read. The lot structure came from search-result snippets only (Lot 1: 12 × 25B-100 flow cells; Lot 2: 100 independent 25B-300 lanes; 760 days; original notice said 64 lanes in 8-lane batches). The full tender documents are on contractaciopublica.cat profile 2986305, which also returns an empty shell. The CIBER award notice has not yet been found (it was still 'awaiting award'). Charles University's CZK 12M figure is an estimate. Most op.europa.eu pages show no estimated value, quantity or bidder count, so unit prices beyond IDIBAPS and CIBER's estimate are not derivable. Remaining useful work is a browser TED expert search (CPV 38000000 / 33696500, 'NovaSeq', result notices 2025–26) to catch award notices that WebSearch does not index.",
+  "leads": [
+    {
+      "name": "Plataforma de Contractació Pública (Catalonia), FRCB profile 2986305",
+      "url": "https://contractaciopublica.cat/ca/perfils-contractant/detall/2986305",
+      "access": "Open web, but needs a browser (JS); WebFetch returns an empty shell",
+      "labels": ["1B", "2B"],
+      "rationale": "Should hold the tender specs and per-lot budgets for the 2026 25B lane service, giving a public-buyer ceiling price per 25B lane."
+    },
+    {
+      "name": "Czech Univerzita Karlova e-ZAK zakazky.cuni.cz (Z2023-059058 documents)",
+      "url": "https://zakazky.cuni.cz/document_audit_207100/pisemna_zprava_genetica_kity_novy_sekvenator-pdf",
+      "access": "Open web PDF documents",
+      "labels": ["1B", "1C"],
+      "rationale": "The buyer's written reports for NovaSeq X Plus kit frameworks may contain flow-cell counts and bid prices, enabling per-flow-cell price in CZK."
+    },
+    {
+      "name": "TenderNed (NL): LUMC AVITI24 voluntary ex-ante notice",
+      "url": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties/400346/documenten/13258214/content",
+      "access": "Open PDF but compressed; needs local text extraction (pdftotext)",
+      "labels": ["2B", "1B"],
+      "rationale": "May state which Illumina boxes AVITI24 replaces and the value."
+    },
+    {
+      "name": "Sophia-Anphis Spanish award aggregator (other sequencing service providers)",
+      "url": "https://www.sophia-anphis.es/empresa-licitadora/biomarker-technologies-(bmk)-gmbh__DE000353057045",
+      "access": "Open web; amounts hidden without login (do not log in)",
+      "labels": ["2B", "1B"],
+      "rationale": "Company-level award counts show how many public sequencing jobs low-cost providers (BMK, Novogene, Macrogen) win. Count-based time series is possible."
+    },
+    {
+      "name": "Find a Tender UK notices 003074-2025 / 022050-2025 / 022248-2025 (Element direct awards)",
+      "url": "https://www.find-tender.service.gov.uk/Notice/003074-2025",
+      "access": "Open web",
+      "labels": ["2B"],
+      "rationale": "UK public AVITI awards with values (Edinburgh £290,640, NHM £157,544) and replaced Illumina equipment."
+    }
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,32 @@
+Name of Service Unit of Measure UArizona Internal External Academic/ Non-Profit For Profit/ Industry 
+Bioanalyzer Chip (Sample QC) chip $90.00 $108.00 $135.00
+BSL2 sample prep charge sample $9.00 $10.80 $13.50
+FFPE preparation charge sample $9.00 $10.80 $13.50
+Fragment Analyzer QC Sample $6.50 $7.80 $9.75
+High Recovery DNA Extraction sample $22.00 $26.40 $33.00
+High Throughput DNA Extraction sample $9.50 $11.40 $14.25
+Plate Dilution- 96 well plate plate $50.00 $60.00 $75.00
+Plate Quant (96 well plate) plate $50.00 $60.00 $75.00
+Pre/Post PCR Quant per Sample sample $4.50 $5.40 $6.75
+Quick and Easy Extraction sample $2.25 $2.70 $3.38
+RNA Extraction each $36.00 $43.20 $54.00
+High Volume DNA Sequencing plate $195.00 $234.00 $292.50
+Low Volume DNA Sequencing sample $6.25 $7.50 $9.38
+Plate Cleanup plate $80.00 $96.00 $120.00
+Plate Quant (96 well plate) plate $50.00 $60.00 $75.00
+Single Sample Cleanup - Column sample $8.50 $10.20 $12.75
+ Library Prep- Complex sample $160.00 $192.00 $240.00
+ Library Prep- Standard each $110.00 $132.00 $165.00
+Post build Library QC sample $30.00 $36.00 $45.00
+NextSeq Run (Flow Cell Not Included) run $300.00 $360.00 $450.00
+AVITI Sequencing Run - (Flow Cell Not Included) run $250.00 $300.00 $300.00
+10X Single Cell and Spatial Analysis
+3' scRNA sample prep Project Varies- contact core
+5' scRNA sample prep Project Varies- contact core
+scATAC seq prep Project Varies- contact core
+3' Fixed scRNA sample prep Project Varies- contact core
+VisiumHD Spatial Profiling Project Varies- contact core
+Autosomal STR/Cell-line Authentication each $65.00 $78.00 $97.50
+cDNA Synthesis each $27.00 $32.40 $40.50
+Fragment Analysis sample $2.00 $2.40 $3.00
+Gel Electrophoresis each $30.00 $36.00 $45.00

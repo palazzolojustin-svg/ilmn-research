@@ -1,0 +1,63 @@
+CHGI Centre for Health Genomics and Informatics  
+cumming.ucalgary.ca/research/cat/health-genomics/home 
+dnaseq@ucalgary.ca   403-220-4503 
+Internal Price List – June 2024 
+Sequencing:  
+Item # Instrument Flow cell # of Cycles Read Lengths Output M read pairs Output Gbp Price 
+6830.80 MiSeq V2 nano  300 cycles PE150 1 0.3 $850.00 
+6840.70   500 cycles  PE250 1 0.5 $970.00 
+6850.70  V2 micro  300 cycles PE150 4 1.2 $1,160.00 
+8200.20 NextSeq 2000 P1 XLEAP 100 cycles PE50 100 10 $1,370.00 
+8201.20   300 cycles PE150 100 30 $1,810.00 
+8202.20   600 cycles  PE300 100 60 $2,620.00 
+8210.20  P2 XLEAP 100 cycles PE50 400 40 $1,950.00 
+8211.20   200 cycles  PE100 400 80 $3,460.00 
+8212.20   300 cycles PE150 400 120 $4,500.00 
+8213.20   600 cycles  PE300 400 240 $4,880.00 
+8221.20  P3 XLEAP 100 cycles PE50 1200 120 $3,890.00 
+8222.20   200 cycles  PE100 1200 240 $5,290.00 
+8223.20   300 cycles PE150 1200 360 $6,980.00 
+8230.00  P4 XLEAP 100 cycles PE50 1,800 180 $4,470.00 
+8231.00   200 cycles  PE100 1,800 360 $6,220.00 
+8232.00   300 cycles PE150 1,800 540 $7,840.00 
+8040.60 NovaSeq 6000 SP v1.5 500 cycles  PE250 800 400 $9,290.00 
+8080.60  S2 v1.5 100 cycles PE50 4,100 417 $10,843.00 
+8090.60   200 cycles  PE100 4,100 833 $13,419.00 
+8100.60   300 cycles PE150 4,100 1,250 $14,301.00 
+8110.60  S4 v1.5 200 cycles  PE100 10,000 2,000 $19,201.00 
+8120.60   300 cycles PE150 10,000 3,000 $21,371.00 
+8125.00  S4 v1.5             One lane* 300 cycles PE150 2,500 750 $5,600.00 
+9000.00 BCGSC** NovaSeq X 25 B          One lane 300 cycles PE150 3,000 900 $4,100.00 
+* Read lengths must be PE150, dual indexed, no custom primers. 
+** In partnership with BC Genome Sciences Centre. Submission, data, and internal billing through CHGI. May have 
+longer turnaround time. Read lengths must be PE150, no custom primers.  
+NOTE: The NovaSeq 6000 and NextSeq 2000 XLEAP kits contain enough reagents for an additional 38 cycles of 
+sequencing. This supports the sequencing of 10x Genomics libraries. For example, the 100 cycle (bp) kits contain 
+enough reagents for 138bp of sequencing. 
+Library Preparations – other library preps available, contact us. 
+Item # Service Price 
+112.40 DNA fragment library $105.00 
+125.30 DNA fragment library, PCR-free $105.00 
+118.00 High throughput DNA bulk library, per 96 samples (variable coverage) $2,230.00 
+113.40 ChIPseq and Amplicon sequencing – DNA fragment library no shearing $90.00 
+620.40 Amplicons that already contain Illumina Nextera adapters for library prep $20.00 
+160.20 Stranded poly (A) RNA library $110.00 
+various Sizing/Quality Assay via Agilent TapeStation– (HS)DNA, gDNA, (HS)RNA $10.00 
+  Sanger sequencing – Economy $8.00 
+  Sanger sequencing – Full $21.00 
+  Fragment Analysis $4.25 
+NGS project services add-ons 
+Item # Service Price 
+7080.20 Fluorometric Quantification Assay Plate $90.00 
+7090.10 E-Gel assay- per 96 samples, 2% Agarose Gel Assay $100.00 
+1420.40 Kapa qPCR library quantification plate for Illumina, per sequencing run $190.00 
+7071.20 Sample plate normalization, robotic, per 96 samples $60.00 
+  XP workflow – individual manual lane loading for the NovaSeq 6000 instrument, per lane $340.00 
+The Centre for Health Genomics and Informatics is a vital asset to the University of Calgary, 
+featuring a robust core infrastructure of sample preparation and NGS instrumentation. By utilizing the 
+local core facility, researchers benefit from timely access to advanced technologies, technical expertise, 
+and expert support, fostering a collaborative environment that accelerates innovation and discovery. 
+Supporting UofC’s core facilities not only ensures the continued availability of these essential 
+services but also strengthens the University of Calgary’s infrastructure, keeping us all at the forefront of 
+scientific advancement. 
+Help keep core resources thriving while keeping your research funds and data within Canada!

@@ -1,0 +1,107 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "At four cores that list both platforms, AVITI costs about 1.7–3.0x the NovaSeq X 25B per Gb, so a visible AVITI price attack on research is not there yet.",
+      "detail": "I assumed 25B ≈ 3.125B pairs/lane (≈940 Gb at 2x150) and AVITI high-output ≈ 1B pairs per flow cell (≈300 Gb at 2x150). UChicago internal: AVITI 300bp flow cell $1,475 → $4.92/Gb vs 25B-300 lane $2,461 → $2.63/Gb (1.9x) and 10B-300 $1,499 → $4.00/Gb. UC Riverside (rates eff. 17 Apr 2025): AVITI 300-cycle $2,000 → $6.67/Gb vs 25B-300 $3,168 → $3.38/Gb (2.0x). Northwestern FY26 internal: AVITI HO PE150 $2,096 → $7.0–8.7/Gb vs 25B PE150 $3,000 → $3.3–4.0/Gb (1.75–2.6x). Salk (eff. 1 Jul 2025, nonprofit): AVITI HO-300 flow cell $3,610 → $12.0/Gb vs 25B-300 $42,560/7,500 Gb = $5.67/Gb (2.1x) and 10B-300 $8.61/Gb. This is a per-Gb view. UChicago's flow-cell sticker prices (AVITI $1,475 < 25B lane $2,461, F273) hide the difference in output.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "2025-2026 (UCR 17 Apr 2025; Salk 1 Jul 2025; Northwestern FY26; UChicago undated)",
+      "source_name": "UChicago Genomics Facility; UC Riverside IIGB; Northwestern NUSeq; Salk IGC rate sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known list has Northwestern AVITI at $10.8–19/Gb and UMN at $2.6–3.6/Gb. This adds a same-core AVITI-vs-X ratio at UChicago, UCR and Salk, plus a per-read re-derivation of Northwestern, with the output assumptions stated."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMN's AVITI24 'Savings' tier, at about $2.6/Gb, sits at or below 25B prices at three of four other cores. Research buyers who accept a wait can already get X-level or cheaper $/Gb on AVITI.",
+      "detail": "UMN internal 300-cycle High lane (1.5B reads) is $1,175 Savings / $1,416 Speed / $1,617 Priority. At 1.5B pairs × 300 bp = 450 Gb that is $2.61 / $3.15 / $3.59 per Gb. Savings turnaround is 3–12 business days. Against internal or pass-through 25B: UChicago $2.63 (parity), UCR $3.38 (AVITI 23% lower), TGen $3.14 (17% lower), Illinois Aug 2026 $3,380/937 Gb = $3.61 (28% lower). The 450 Gb figure is my assumption. UMN's external Savings price is $1,352, only 15% above internal.",
+      "url": "https://genomics.umn.edu/service/aviti24-sequencing",
+      "date": "undated page, 2025-26",
+      "source_name": "University of Minnesota Genomics Center AVITI24 rate page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Known list has UMN's $2.6–3.6/Gb, but not the cross-core comparison to X 25B at four other named cores or the Savings-to-Priority spread (+38%)."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Several research cores now charge external academics the same as internal users, or a small premium. That is a price-compressed customer base.",
+      "detail": "UChicago AVITI flow cells cost $1,175 / $1,475 / $2,699 for internal, affiliated and academic non-profit alike (0% premium); only commercial pays more (+58% on 150bp). UChicago 25B-300 is $2,461 for non-profits vs $2,599 commercial (+5.6%). UMN AVITI external vs internal Savings is +15% (150-cycle High: $1,380 vs $1,199). UCR external-educational vs internal UC is +28.8% on AVITI ($2,576 vs $2,000). Northwestern external is +25% on every row. These sit well under the 55% premium in F008 and the 3.6x Salk/MGB spread in F263.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/pricing-new",
+      "date": "2025-2026",
+      "source_name": "UChicago; UMN; UC Riverside; Northwestern rate sheets",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F167 covers only UChicago's 25B commercial premium. This adds the AVITI rows and UMN, UCR and Northwestern premiums as a spread."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "At Salk the NovaSeq 6000 S4-300 costs 2.3–3.1x the X 25B per Gb, and a 2025 AVITI high-output run is cheaper than the 6000.",
+      "detail": "Salk rates (eff. 1 Jul 2025, nonprofit): 6000 S4-300 flow cell $39,701 for 2.4–3.0 Tb (8–10B pairs × 300) = $13.2–16.5/Gb. X 25B-300 flow cell $42,560/7,500–8,000 Gb = $5.32–5.67/Gb. That is 2.3–3.1x, the highest core-level ratio seen, closer to Illumina's reported 3.4x than most cores (1.6–2.0x in F235/F258/F259). AVITI HO-300 at $12.0/Gb undercuts the 6000 S4 by 9–27%. A 6000 user at Salk therefore saves more by moving to the X (−57%) than to AVITI (−9% or more).",
+      "url": "https://www.salk.edu/science/core-facilities/integrative-genomics-and-bioinformatics-core/scheduling-and-rates/",
+      "date": "2025-07-01",
+      "source_name": "Salk Institute Integrative Genomics core rate page",
+      "source_type": "price_list",
+      "quote": "Rates effective as of 07/01/25 and are subject to change.",
+      "strength": "medium",
+      "why_new": "Known list has Salk's S4 price cut, not the per-Gb 6000:X ratio or the AVITI comparison on the same sheet. Flow-cell read counts are the sheet's ranges."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MIT's BioMicroCenter pricing sheet from July 2024 lists the NovaSeq 6000 and AVITI but no NovaSeq X, so it is a possible 6000 holdout.",
+      "detail": "The FY2025 page ('PRICING UPDATE 7/1/2024', last edited 12 Jun 2024) lists 6000 SP/S1/S2/S4 and AVITI rows only. S4-300 is $5,400 per lane (Core Lab), $5,940 (MIT) or $7,560 (non-MIT). That is about $7.2/Gb at 750 Gb per lane. The AVITI 150 PE lane (~400M reads) is $1,375, about $11.5/Gb if reads are pairs. Several 6000 SP/S1/S2 rows carry a 'minimal inventory maintained' footnote, a sign the lower-volume 6000 flow cells were being run down. The page is stale, and a later sheet may have added an X.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2025",
+      "date": "2024-07-01",
+      "source_name": "MIT BioMicroCenter pricing (OpenWetWare)",
+      "source_type": "price_list",
+      "quote": "minimal inventory maintained",
+      "strength": "weak",
+      "why_new": "MIT is not among cores cited so far. The inventory footnote is a new 6000-tail signal."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Cornell's BRC genomics facility sends NovaSeq work to an outside provider at low rates, which shows research cores outsourcing high-throughput work on price.",
+      "detail": "A Cornell BRC notice dated 14 May 2024 says NovaSeq runs are 'sequenced externally at low rates' ordered via the BRC portal with no quote or PO. Turnaround is about 3 weeks. It plans 'shared lanes' for projects needing well under 1B reads. It gives no dollar figures and does not mention AVITI. I could not get a Cornell price series, so this is qualitative. It fits the pattern of research volume moving to low-cost providers.",
+      "url": "https://biotech.cornell.edu/spotlight/new-services-brc-genomics-facility-lower-cost-novaseqx-novaseq6000-sequencing-runs-udi",
+      "date": "2024-05-14",
+      "source_name": "Cornell Biotechnology Resource Center",
+      "source_type": "other",
+      "quote": "sequenced externally at low rates",
+      "strength": "weak",
+      "why_new": "Cornell was named in the brief but not yet documented. This is its outsourcing arrangement."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "A 2026 Illinois X price sheet shows the 25B lane discount for 8 or more lanes is only 5.9%. The sheet also says custom quotes are often lower, which hides the real net price.",
+      "detail": "Illinois DNA Services (all pricing effective 1 Aug 2026): 25B PE150 lane $3,380 vs $3,180 for 8+ lanes (−5.9%). 10B PE150 is $2,000 vs $1,710 (−14.5%). 10B split lane is $1,160. Rates exclude off-campus overhead, which adds 30.8% for external users. The page says 'a custom quote is often lower than the list price.' There is no AVITI row. The 25B-to-10B ladder is 1.69x price for 2.5x output, a −32% step per Gb. No volume discount on the 25B beats the 15% already known for F141/F164.",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "date": "2026-08-01",
+      "source_name": "University of Illinois Carver DNA Services pricing",
+      "source_type": "price_list",
+      "quote": "a custom quote is often lower than the list price",
+      "strength": "weak",
+      "why_new": "F164 gives Illinois $3.61/Gb and 6–15%. This adds the exact 8+ lane discounts on each flow cell and the 'custom quote' wording. It is mostly a confirmation."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "UC Davis (dnatech.ucdavis.edu) and Harvard Bauer (FY26/27) return 403, and Wayback is blocked, so I built no time series. Searches found no Iowa Microbiome Core AVITI/X rates (it lists MiSeq 16S only) and no Cornell price sheet with AVITI. I did not take the 'sticker' comparisons from the search summaries as fact. Per-Gb figures rest on my output assumptions (25B ≈ 940 Gb/lane; AVITI HO 2x150 ≈ 300 Gb/flow cell; UMN lane ≈ 450 Gb), shown in 'detail'. Cores that list both an AVITI row and an X row show AVITI at or above X 25B per Gb, except UMN's slow Savings tier. For these AVITI rows the evidence leans against the 2B thesis.",
+  "leads": [
+    {"name": "UC Riverside IIGB rate schedule (FY24-25, eff. 17 Apr 2025)", "url": "https://genomics.iigb.ucr.edu/rates", "access": "public HTML; a newer FY25-26 version would make a time series", "labels": ["2A", "2B"], "rationale": "Lists AVITI 300/600 flow cells and X 10B/25B; no 6000 rows; check for a newer schedule."},
+    {"name": "Salk core rates, second URL", "url": "https://salk.edu/science/core-facilities/omics/scheduling-and-rates", "access": "public HTML", "labels": ["1A", "2B"], "rationale": "May hold a different effective date than the 1 Jul 2025 sheet, giving a Salk price change."},
+    {"name": "Northwestern NUSeq FY26 final-user PDF vs web page", "url": "https://www.cgm.northwestern.edu/docs/nuseq/fy26-prices_finalusers.pdf", "access": "public PDF", "labels": ["2B"], "rationale": "The PDF snippet shows 10B PE150 at $1,600/$2,000 but the web page shows $1,499/$1,873.75. Compare the two for a mid-year price cut. Earlier FY sheets would give a time series."},
+    {"name": "UCSD IGM rates 2025 (new IDC)", "url": "https://igm.ucsd.edu/sites/default/files/docs/IGM%20Rates%202025%20New%20IDC.pdf", "access": "public PDF", "labels": ["2B", "1B"], "rationale": "Possible AVITI and X rows at a large UC core; compare to the Ultima/X work already cited (D003)."},
+    {"name": "Wayback captures of core rate pages", "url": "https://web.archive.org/", "access": "blocked for WebFetch; try a headless browser or the CDX API from a different agent", "labels": ["1B", "2B"], "rationale": "Dated snapshots of UC Davis, Cornell, Harvard Bauer would give $/Gb trends."}
+  ],
+  "apify_requests": []
+}
+```

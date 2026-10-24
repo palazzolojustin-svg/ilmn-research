@@ -1,0 +1,64 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "Public human+mouse expression-profiling sequencing series released on GEO are growing, not flat. Q3'26 jumped +42% y/y after +5% to +16% y/y in every quarter since Q1'25.",
+      "detail": "I counted GSE series with DataSet Type 'Expression profiling by high throughput sequencing' (the type filter that worked; Genome-binding and other types are excluded), organism human or mouse, by release quarter. Counts were Q3'23 3,719; 2024: 3,765 / 3,827 / 3,646 / 3,690; 2025: 4,156 / 4,009 / 4,238 / 4,025; 2026: 4,711 / 4,435 / 6,036. The y/y changes were Q3'24 -2.0% (3,646/3,719), Q1'25 +10.4%, Q2'25 +4.8%, Q3'25 +16.2%, Q4'25 +9.1%, Q1'26 +13.4%, Q2'26 +10.6% and Q3'26 +42.4% (6,036/4,238). The count is series released, not Gb. GEO release lags sequencing by about 6-12 months, so this reflects 2025 lab activity. A Q3'26 spike of this size may be lumpy and needs a per-submitter check.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&retmax=0&term=gse[ETYP]+AND+\"Expression+profiling+by+high+throughput+sequencing\"[DataSet+Type]+AND+(Homo+sapiens[ORGN]+OR+Mus+musculus[ORGN])+AND+2026/07/01:2026/09/30[PDAT]",
+      "date": "2026-10-12 (data through 2026-09-30)",
+      "source_name": "NCBI GEO via E-utilities (db=gds)",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Earlier GEO work counted 6000 and X platforms. This is the total human+mouse sequencing series count across all platforms, with its y/y path."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Series that mention a non-Illumina short-read platform (AVITI, DNBSEQ/MGISEQ, Ultima UG100) more than doubled in two years. Their share of all series rose from about 4.3% to about 5.9%.",
+      "detail": "Series matching AVITI, DNBSEQ, MGISEQ or UG100 were 162 (Q1'24), 191, 163, 151 (Q4'24), 170 (Q1'25), 220, 235, 269 (Q4'25), 341 (Q1'26), 324 and 357 (Q3'26). As a share of total series that is 4.3%, 5.0%, 4.5%, 4.1%, 4.1%, 5.5%, 5.5%, 6.7%, 7.2%, 7.3% and 5.9% over the same quarters. Q3'26 rival series were +52% y/y (357/235) against +42% for the total. Rival series were 6.8% of the Q3'26 y/y increase in series ((357-235)/(6,036-4,238) = 122/1,798). The share peaked at 7.2-7.3% in Q1-Q2'26 and fell back to 5.9% in Q3'26.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&retmax=0&term=gse[ETYP]+AND+\"Expression+profiling+by+high+throughput+sequencing\"[DataSet+Type]+AND+(Homo+sapiens[ORGN]+OR+Mus+musculus[ORGN])+AND+(AVITI+OR+DNBSEQ+OR+MGISEQ+OR+\"UG+100\"+OR+UG100)+AND+2026/07/01:2026/09/30[PDAT]",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Earlier items reported rival samples and runs on specific platforms. This is a keyword-based series share across the whole human+mouse GEO base, with a quarterly path."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Series that mention Illumina grew +15% y/y in Q3'25 and +39% in Q3'26, so published Illumina-based research output is not flat.",
+      "detail": "Series with the keyword 'Illumina' were 3,166 (Q3'24), 3,648 (Q3'25) and 5,061 (Q3'26). That is +15.2% and then +38.7% y/y. The Illumina-keyword share of all series was 86.8%, 86.1% and 83.8%, so Illumina's share slipped about 3 points in two years. The remaining (non-Illumina-keyword) series were 590 in Q3'25 and 975 in Q3'26 (+65%). The 'Illumina' keyword also matches text mentions such as kit names, so this is only a proxy for platform.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&retmax=0&term=gse[ETYP]+AND+\"Expression+profiling+by+high+throughput+sequencing\"[DataSet+Type]+AND+(Homo+sapiens[ORGN]+OR+Mus+musculus[ORGN])+AND+Illumina+AND+2026/07/01:2026/09/30[PDAT]",
+      "date": "2026-10-12",
+      "source_name": "NCBI GEO via E-utilities",
+      "source_type": "dataset",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This gives a direct Illumina-share and growth series across all platforms. Earlier items covered only 6000 vs X shares."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Only the 'Expression profiling by high throughput sequencing' type worked. The filters 'high throughput sequencing[DataSet Type]' and [Filter] returned zero, and [Platform Title] is not a valid field. Platform splits use All-Fields keywords, not GPL accessions, so they are noisy. Not done: GPL-accession counts for AVITI, UG100 and T7 (find the UIDs with esearch gpl[ETYP] and subtract 100000000 from each UID to get the GPL number), SBX/AXELIOS (none expected), and a per-submitter breakdown of the Q3'26 spike of 6,036 series. The spike should be checked for a bulk deposit before it is read as a trend. I used about 40 calls of the allowed budget, and sample (GSM) counts are not run. Counts are series, not Gb.",
+  "leads": [
+    {
+      "name": "GEO esummary on the Q3'26 spike",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds",
+      "access": "Free GET, no login. Use esearch with retmax=200 on the Q3'26 query, then esummary to read submitters.",
+      "labels": ["2A", "2B"],
+      "rationale": "Checks whether the +42% Q3'26 jump is broad-based or a bulk or institutional deposit."
+    },
+    {
+      "name": "GEO GPL accessions for AVITI, UG100, DNBSEQ-T7 and SBX",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=AVITI[Title]+AND+gpl[ETYP]",
+      "access": "Free GET, no login",
+      "labels": ["2B", "1B"],
+      "rationale": "Gives exact platform-accession counts to replace keyword proxies."
+    }
+  ],
+  "apify_requests": []
+}
+```

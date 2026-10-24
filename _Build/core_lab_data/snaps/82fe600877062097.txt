@@ -1,0 +1,147 @@
+Illumina NovaSeq X Plus Sequencing | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Menu
+About
+About Us
+Acknowledgments
+Contact Us
+Employment
+Hours and Locations
+Resources
+UMGC Staff
+Services
+Next-Gen Sequencing
+Overview
+Element AVITI
+Element AVITI24
+Illumina NovaSeq X+
+Illumina NextSeq
+Illumina MiSeq
+Ultima UG 100
+Third-Gen Sequencing
+Overview
+PacBio Sequel II
+NGS Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+DNA Sequence Capture
+Library Manipulation
+Research
+Innovation Lab
+Publications
+Tools
+NGS Sequencing Queues
+PacBio Sequencing Queues
+Forms
+Contact Us
+Breadcrumb
+Home
+Illumina NovaSeq X Plus Sequencing
+Overview
+Element AVITI
+Element AVITI24
+Illumina NovaSeq X+
+Illumina NextSeq
+Illumina MiSeq
+Ultima UG 100
+Key links
+Summary of high-output sequencing options
+Contact us at [email protected]
+Illumina NovaSeq X Plus Sequencing
+Overview
+Pricing
+Estimate
+Guidelines
+Overview
+The NovaSeq X Plus offers Illumina’s most advanced, powerful sequencing to date, surpassing the performance of the previous workhorse, the NovasSeq 6000, while dramatically lowering costs. It features a 2.5-fold increase in output, lower cost per gigabase and per read, streamlined informatics, and sustainability advancement.
+The new XLEAP-SBS chemistry delivers increased speed and greater fidelity. Ultrahigh-density patterned flow cells contain tens of billions of nanowells at fixed locations, a design that provides even spacing of sequencing clusters. Flow cells are named according to the billions (B) of clusters each are capable of producing, and the UMGC offers the 10B and the 25B flow cells. Each flow cell contains 8 independent lanes, which can be used to load up to 8 separate library pools.
+Highlighted applications
+Whole-genome or whole-transcriptome sequencing
+Whole-genome metagenomic sequencing
+Population-scale sequencing
+Learn more about the NovaSeq X Plus.
+Expand all
++
+Outsourcing
+The UMGC has determined that for the time being, access to the NovaSeq X Plus will be both faster and less expensive when outsourced, and we have partnered with reputable sequencing facilities to achieve this.
++
+Output
+The UMGC offers the 10B and the 25B flow cells only in the 300-cycle format (2 x 150 PE).
+See a summary of our high-output sequencing options.
++
+Benefits
+Affordably analyze whole genomes: Expand research with whole-genome sequencing
+Add statistical power: Manage bigger sample cohort sizes for population-scale studies.
+Sequence more deeply: Identify rare genetic events for cancer and genetic disease applications.
+Examine multiple dimensions: Combine data from genomes, transcriptomes, and epigenomes for a more vivid picture of biological systems.
+Transition to high-resolution approaches: Including single-cell sequencing and spatial analysis for insights into complex tissues.
+Questions
+Please contact Aaron Becker or Elyse Cooper at [email protected] to receive a project proposal using the NovaSeq X Plus platform.
+Pricing
+Expand all
++
+UMN Rates
+High Output Sequencing Rates Summary
+300-cycle (150 PE) | Savings Tier | Speed Tier | Priority Tier |
+NovaSeq X+ 10B. 1,250 M reads/lane. | $1,999.19 | $2,410.53 | N/A |
+Turnaround time. | 11 - 15 days | 5 - 10 days | N/A |
+NovaSeq X+ 25B. 3,250 M reads/lane. | $3,501.11 | $4,037.45 | N/A |
+Turnaround time. | 11 - 15 days | 5 - 10 days | N/A |
+Notes
+1. Library prep: Internal (UMN) users may either make their own libraries and submit them to the UMGC for QC and outsourced sequencing or have the UMGC generate libraries for them. External (non-UMN) users may only access outsourced sequencing using UMGC-created libraries.
+2. Output: The above output/lane are specifications reported by Illumina. Actual output may vary by library type.
+3. Tiers: Turnaround time (TAT) is in business days. TAT is for sequencing only and does not factor in the TAT for library prep or other companion services. More information about Pricing Tiers.
++
+External Rates
+High Output Sequencing Rates Summary
+300-cycle (150 PE) | Savings Tier | Speed Tier | Priority Tier |
+NovaSeq X+ 10B. 1,250 M reads/lane. | $2,317.97 | $2,804.81 | N/A |
+Turnaround time. | 11 - 15 days | 5 - 10 days | N/A |
+NovaSeq X+ 25B. 3,250 M reads/lane. | $4,059.36 | $4,716.92 | N/A |
+Turnaround time. | 11 - 15 days | 5 - 10 days | N/A |
+Notes
+1. Library prep: Internal (UMN) users may either make their own libraries and submit them to the UMGC for QC and outsourced sequencing or have the UMGC generate libraries for them. External (non-UMN) users may only access outsourced sequencing using UMGC-created libraries.
+2. Output: The above output/lane are specifications reported by Illumina. Actual output may vary by library type.
+3. Tiers: Turnaround time (TAT) is in business days. TAT is for sequencing only and does not factor in the TAT for library prep or other companion services. More information about Pricing Tiers.
+Estimate
+Guidelines
+Expand all
++
+Submission
+How to order
+Download the appropriate submission form for submitting samples or pre-made libraries. Once the form has been completed, please submit the submission by emailing [email protected].
+Samples can be dropped off at one of our campus locations
+1-210 Cancer & Cardiovascular Research Building (Minneapolis campus)
+About Us
+Acknowledgments
+Contact Us
+Employment
+Hours and Locations
+Resources
+UMGC Staff
+Services
+Next-Gen Sequencing
+Overview
+Element AVITI
+Element AVITI24
+Illumina NovaSeq X+
+Illumina NextSeq
+Illumina MiSeq
+Ultima UG 100
+Third-Gen Sequencing
+Overview
+PacBio Sequel II
+NGS Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+DNA Sequence Capture
+Library Manipulation

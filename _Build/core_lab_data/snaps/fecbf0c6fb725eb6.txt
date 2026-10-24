@@ -1,0 +1,49 @@
+Centre for Health Genomics and Informatics
+Health Sciences Centre Room B104a 
+3330 Hospital Drive NW, Calgary, AB T2N 4N1 
+403-220-4503     dnaseq@ucalgary.ca
+https://cumming.ucalgary.ca/research/cat/health-genomics/home 
+Internal Price List – 2025 
+Sequencing 
+Item # Instrument Flow cell # of Cycles Read Lengths Output M read pairs Output Gbp Price 
+8200.20 NextSeq 2000 P1 XLEAP 100 cycles PE50 100 10 $1,370.00 
+8201.20 300 c ycles PE150 100 30 $1,810.00 
+8202.20 600 cycles PE300 100 60 $2,620.00 
+8210.20 P2 XLEAP 100 cycles PE50 400 40 $1,950.00 
+8211.20 200 cycles PE100 400 80 $3,460.00 
+8212.20 300 cycles PE150 400 120 $4,500.00 
+8213.20 600 cycles PE300 400 240 $4,880.00 
+8221.20 P3 XLEAP 100 cycles PE50 1200 120 $3,890.00 
+8222.20 200 cycles PE100 1200 240 $5,290.00 
+8223.20 300 cycles PE150 1200 360 $6,980.00 
+8230.00 P4 XLEAP 100 cycles PE50 1,800 180 $4,470.00 
+8231.00 200 cycles PE100 1,800 360 $6,220.00 
+8232.00 300 cycles PE150 1,800 540 $7,840.00 
+8040.60 NovaSeq 6000 SP v1.5 500 cycles PE250 800 400 $9,290.00 
+8080.70 S2 v1.5 100 cycles PE50 4,100 417 $11,250.00 
+8090.70 200 cycles PE100 4,100 833 $13,900.00 
+8100.70 300 cycles PE150 4,100 1,250 $14,810.00 
+8110.70 S4 v1.5 200 cycles PE100 10,000 2,000 $20,150.00 
+8120.70 300 cycles PE150 10,000 3,000 $22,420.00 
+8125.10 S4 v1.5     One lane* 300 cycles PE150 2,500 750 $5,820.00 
+9000.00 NovaSeq X 25 B      One lane** 300 cycles PE150 3,000 900 $4,100.00 
+6830.90 MiSeq V2 nano 300 cycles PE150 1 0.3 $920.00 
+6840.80 500 cycles PE250 1 0.5 $1050.00 
+6850.80 V 2 micro 300 cycles PE150 4 1.2 $1,260.00 
+* R
+ead lengths must be PE150, 10bp dual indexed, no custom primers.
+** In partnership with BC Genome Sequencing Centre. Submission, data, and billing internal through CHGI.
+May have longer turn around time. Read lengths must be PE150, no custom primers.
+N
+OTE: The NovaSeq 6000 and NextSeq 2000 kits contain enough reagents for an additional 38 cycles of 
+sequencing (except for the NextSeq 2000 P2 300 and P3 300 cycle kits which only contain an extra 27 
+cycles).  This supports the sequencing of 10x Genomics libraries.  
+Don’t see the service your project needs?  Contact us at dnaseq@ucalgary.ca 
+Support Canadian Research – Keep your 
+Canadian Research $$ and Data in Canada 
+Library Preparations – other library preps available, contact us dnaseq@ucalgary.ca 
+Whole Genome Price 
+136.1 Illumina Whole Genome library, per sample $105.00 
+630.1 Illumina PCR-free Whole Genome library, per sample $105.00 
+112.5 FFPE Whole Genome library, per sample $105.00 
+118.0 High Throughput Microbial Whole Genome, per plate of 96 samples (~$23.20 per sample)  $2,230.00 

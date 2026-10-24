@@ -1,0 +1,27 @@
+```json
+{
+  "status": "dry",
+  "notes": "I confirmed the NCSU GSL REST endpoint is public and returns a 'modified' stamp of 2026-07-07. The page posts no NovaSeq X, AVITI or 6000 prices. The NovaSeq X section says to email gsl_support@ncsu.edu, and outsourced X sequencing carries a $149 GSL processing fee. It does list NextSeq 2000 P1-P4 prices (P1 100SE $1,277; P3 150PE $5,648). Those prices are mid-throughput and not in the exclusion list, but they have no earlier snapshot to compare against, so they show no cut. I did not test TxGen or Genome Quebec, and I did not look for /revisions, because it needs authentication. One search for WordPress cores found only cores already covered (TGen, UCLA, UConn, Harvard, Novogene). The exception is MD Anderson ATGC, listed at $2,595 per 25B lane with no date. The proof of concept shows the technique gives exact change dates, but most cores keep X pricing quote-only or off WordPress, so the payoff is low.",
+  "how_to_mine": "Only worthwhile as a quarterly re-pull. For each WordPress core, call <site>/wp-json/wp/v2/pages?search=pricing&_fields=id,link,modified,content. Store the modified date and the lane prices, and diff them against the previous pull. Start with NCSU GSL (page 1622, modified 2026-07-07, NextSeq 2000 P1-P4 prices as a baseline) and add MD Anderson ATGC if it runs WordPress. Check the Wayback Machine for earlier MD Anderson snapshots to date the $2,595 lane price.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "MD Anderson's genomics core lists a 25B NovaSeq X Plus lane at $2,595, below most other core rates seen.",
+      "detail": "A search snippet (page not opened) shows the MD Anderson Advanced Technology Genomics Core listing 25B lane sequencing at $2,595. The page shows no effective date. If current, this is ~$2.60/Gb, in line with the low end of core prices already known (CWRU $2.63, Missouri $2.70), so it adds little beyond a further cheap datapoint that could be tracked for repricing.",
+      "url": "https://www.mdanderson.org/research/research-resources/core-facilities/advanced-technology-genomics-core/services-and-fees/novaseqx-plus-sequencing.html",
+      "date": "undated (seen Oct 2026)",
+      "source_name": "MD Anderson Advanced Technology Genomics Core",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "MD Anderson is not in the known core list, but the price is in the same range as known cores and undated."
+    }
+  ],
+  "new_candidates": [
+    "Wayback Machine snapshots of the MD Anderson ATGC NovaSeq X Plus page to date the $2,595 lane price and compare it with earlier prices"
+  ],
+  "apify_requests": []
+}
+```

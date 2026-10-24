@@ -1,0 +1,47 @@
+```json
+{
+  "status": "productive",
+  "notes": "The OCDS API route works through WebFetch at find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/<ocid>, while the HTML notice pages return 403. Leicester LUV01297 is fully resolved: one lot, four winners, price weighted 25%, quality 75%, 10 bids. LSTM AF116 is only at tender stage (price 30%, quality 70%, two lots, £300K), so no award notice has been found. The Edinburgh notice 053109-2025 is only a planning notice for the new EC1066 framework (one lot, no values, tender notice expected about 30 Jan 2026). The winners are a mix of low-cost and mid-cost providers (Novogene UK, Genewiz, Eurofins, Randox). The framework does not split by sequencing platform, and no price per Gb is disclosed. For 2A this is modest, weak-to-medium support. It shows UK academic outsourcing is formalised across multiple suppliers, with 80% of bids from non-UK/EU firms. It does not show price weights above quality. Quality outweighs price at both Leicester and LSTM.",
+  "how_to_mine": "1) Fetch https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/ocds-h6vhtk-04ef5c again after about May-June 2025 for an LSTM AF116 award release. The search result gave the OCDS ID of the original tender, and the award may sit under a new notice ID. 2) Find the Edinburgh EC1066 contract notice (expected Jan 2026) via the OCDS API with ?updatedFrom=2026-01-01 and a keyword filter, or via the Public Contracts Scotland buyer profile. Also pull the EC0900 award (019286-2022) via the OCDS API for Lot 1 short-read winners. 3) Search other UK university sequencing frameworks (UEA, Kew, Newcastle, Oxford, Sanger/Wellcome) via the OCDS API for award suppliers and price weights. 4) Request Leicester's tender documents (the Delta eSourcing page DN58P4V6DR) for any price schedule. Possibly no login is needed to view them.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "University of Leicester's 2025 sequencing framework went to four outsourced commercial providers including Novogene UK, Genewiz and Eurofins, not in-house cores.",
+      "detail": "Award notice 031100-2025 (9 Jun 2025) for LUV01297 has one lot covering NGS, third-generation and Sanger sequencing, with an estimated value of £1.0M over 3+1 years (signed 20 May 2025). Winners are Randox Health London, Genewiz UK, Eurofins Genomics UK and Novogene (UK). Of 10 bids, 7 came from SMEs and 8 from non-EU foreign firms, so commodity sequencing sourcing is broad and price-competitive. The notice has no platform split (Illumina vs other) and no $/Gb.",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/ocds-h6vhtk-04c19a",
+      "date": "2025-06-09",
+      "source_name": "Find a Tender OCDS API, University of Leicester LUV01297 award",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has no UK university framework award, no named lot winners and no bid count or price weights."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "UK academic sequencing frameworks weight quality well above price, so they do not formalise a price-only race to the cheapest lane.",
+      "detail": "Leicester LUV01297 awards 75 points to quality (including 15 for social value) and only 25 to price. LSTM AF116 (tender 010265-2025, 19 Mar 2025) uses 70% quality and 30% price across two lots: Lot 1 NGS and third-generation at £280K, Lot 2 Sanger at £20K, total £300K. The framework values are small: £1.0M over four years at Leicester, and £300K for LSTM's first year.",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/ocds-h6vhtk-04ef5c",
+      "date": "2025-03-19",
+      "source_name": "Find a Tender OCDS API, LSTM AF116 tender notice",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "These are new quantified price/quality weights for UK academic sequencing procurement. They are a watch-out for the 'insane discounts' framing."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Edinburgh EC1066 sequencing & genotyping framework contract/award notice (planned for about 30 Jan 2026) and EC0900 award (019286-2022) lot winners, via OCDS API ocds-h6vhtk-05920c and the Notice/019286-2022 release package",
+      "why": "It would show lot winners and values for a large Illumina-heavy UK institution routing demand to external providers."
+    },
+    {
+      "source": "Other UK OCDS sequencing awards (Kew £150K Novogene long-read, UEA bird WGS, Newcastle), found via consolidate.org.uk/ukspending Novogene UK entity pages",
+      "why": "They give a series of dated Novogene UK public-sector contract values and could be used to size UK research outsourcing."
+    }
+  ],
+  "apify_requests": []
+}
+```

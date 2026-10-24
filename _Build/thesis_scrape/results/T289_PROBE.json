@@ -1,0 +1,42 @@
+```json
+{
+  "status": "dry",
+  "notes": "I ran 2 searches and opened 3 pages. Procurement offices publish few Illumina discount percentages. UC's Apr 2024 Illumina page gives only a 25% discount on service agreements, and says nothing on reagent discounts. UC's Jul 2024 sequencing and synthesis package page gives $98M annual spend and $5.5M annual savings (about 5.6%), but that covers several suppliers and has no Illumina-specific figure. Iowa State's Illumina contract page gives no percentage. The Univ. of Illinois board purchase reports show reagent discounts of 5-12% (search-engine summary only). The 2018 PDF could not be read through the fetch tool, and the 2012-2018 date range is outside the useful period. The results mention nothing about NAEP award write-ups. No evidence points toward the 'insane discounts' claim in the thesis. If anything, the visible public-sector discounts are shallow. The 5.6% package-level saving is weak counter-evidence (direction 'against'). Most large-account discounts are negotiated privately, so this format will not surface them.",
+  "how_to_mine": "Low value. If someone retries: (1) fetch the UC CalUsource contract #2023003585 or a UC campus page with the discount schedule, and the Iowa State page https://www.procurement.iastate.edu/contract/illumina for the percentage; (2) download the Univ. of Illinois trustee purchase PDFs from 2022-2026 and run pdftotext -layout to look for newer Illumina sole-source renewals with a discount percentage; (3) search other state university board-of-trustees purchase reports (Texas, Wisconsin, Michigan, Ohio State) for 'Illumina sole source discount'.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "A UC-wide Illumina contract publicly shows only a 25% discount on service agreements, and no deep reagent discount percentage.",
+      "detail": "UC Systemwide Procurement announced its Illumina agreement on 9 Apr 2024 (CalUsource #2023003585). The agreement covers instruments, reagents, service agreements and research services. The only stated percentage is 25% off service agreements, and the page gives no reagent discount or term. The UC system is one of the largest public research buyers, so the missing reagent percentage fits the idea that deep consumables discounts are not formalized in public contracts.",
+      "url": "https://procurement.ucop.edu/news/illumina-inc-life-sciences-uc-wide-agreement",
+      "date": "2024-04-09",
+      "source_name": "UC Systemwide Procurement (UCOP)",
+      "source_type": "procurement",
+      "quote": "25% discount on service agreements",
+      "strength": "weak",
+      "why_new": "UC's Illumina agreement and its 25% service discount are not in the known list."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "The UC package covering sequencing and synthesis (Illumina included) saved only about 5.6% on $98M of annual spend.",
+      "detail": "UC procurement reported on 2 Jul 2024 that the sequencing and synthesis contracts cover $98M of annual spend. They save $5.5M a year, or $26M over five years, on an 8-year term (5+3). That is about 5.6% in blended savings, derived by us. It covers several suppliers and has no Illumina-specific figure, and the source may be counting savings against a different baseline. It suggests that discounts at a large academic buyer were modest in a headline sense, not 'insane'.",
+      "url": "https://procurement.ucop.edu/news/life-sciences-wins-gene-sequencing-synthesis-contracts",
+      "date": "2024-07-02",
+      "source_name": "UC Systemwide Procurement (UCOP)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UC procurement spend and savings figures are not in the known list."
+    }
+  ],
+  "new_candidates": [
+    "Iowa State Illumina pricing agreement (7/1/2019-6/30/2026) on procurement.iastate.edu, which may list the percentage off retail and is due for renewal.",
+    "Univ. of Illinois trustees purchase reports (Carver Biotech Center sole-source Illumina renewals), which showed 10% in 2012-13 and 5/10/12% in 2018. A newer renewal could show whether discounts widened.",
+    "Oxford University preferred supplier page, which lists Illumina with a minimum 10% off consumables and 20% off equipment."
+  ],
+  "apify_requests": []
+}
+```

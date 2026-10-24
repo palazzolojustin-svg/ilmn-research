@@ -1,0 +1,41 @@
+```json
+{
+  "status": "productive",
+  "notes": "I opened the live page via WebFetch. It carries 'All pricing is updated, effective Aug. 1, 2026', and external users pay +30.8% overhead (Illinois state-subsidized universities and agencies are capped at 20%). It has ONE price set, not separate internal and external tiers. The page gives no reads or Gb per lane or wafer, and it does not label the wafer rows as Ultima. The wafer rows sit under the NovaSeq X Plus heading, so the Ultima attribution is an inference (the analyst's brief names them as Ultima). The archive step failed: web.archive.org and archive.ph are both blocked from this tool ('unable to fetch'). A search snippet shows an earlier page version 'updated effective July 1, 2025', but the snippet cut off before any prices, so there is no old-versus-new comparison yet. Rates are per lane. 25B 2x150: $3,380 standard, $3,180 for 8+ lanes. 10B 2x150: $2,000 / $1,710 (8+) / $1,160 (split). 1.5B 2x150: $1,580. 1.5B 2x300: $3,100. 25B single-read 100-cycle: $2,190 standard, $1,930 for 8+ lanes. Wafer: Full $3,310, Split High $2,730, Split Low $1,990. On-board DRAGEN: $188 per lane. $/Gb below is my calculation using Illumina spec outputs implied by the known kit prices (25B ~1.0-1.3 Tb per lane at 2x150; 10B ~0.4-0.5 Tb per lane). I did not read per-lane output from this page. For a full wafer I assumed Ultima's >=8B reads at about 300 bp (~2.4 Tb). That wafer figure comes from Broad's read count and an assumed read length, so it is an inference, not a Carver spec. On those assumptions: 25B lane ~$2.6-3.4/Gb standard and ~$2.4-3.2/Gb at 8+ lanes; 10B lane ~$4.0-5.3/Gb standard and ~$3.4-4.6/Gb at 8+ lanes; Ultima full wafer ~$1.4/Gb, i.e. roughly half the 25B $/Gb. The Ultima price is a wide-range inference.",
+  "how_to_mine": "1) From a machine that can reach archive.org, pull Wayback captures of the Carver pricing URL (CDX API: web.archive.org/cdx/search/cdx?url=biotech.illinois.edu/dna-services-core/dna-services-pricing/*&output=json) and compare the 25B lane and 10B lane across captures. Key comparison: the Jul 2025 version versus Aug 2026, and any earlier version from 2024. Check whether the 25B lane and 8+ tier rose or fell, whether the wafer rows appeared or changed, and whether any NovaSeq 6000 S4/SP rows were removed. 2) Search biotech.illinois.edu for older pricing PDFs ('DNA Services price list' 2023-2025). 3) Email-free check: confirm on the page or a linked spec sheet whether the wafer rows are Ultima UG100 and get the per-lane or per-wafer Gb. 4) Repeat for other cores that list Ultima next to X Plus (Broad Clinical Labs, Iowa, Wisconsin).",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "One Illinois core's Aug 2026 sheet prices a full wafer (assumed Ultima, labeling unconfirmed) at about the same as one 25B lane, implying roughly half the $/Gb.",
+      "detail": "Carver DNA Services (effective 1 Aug 2026): NovaSeq X Plus 25B 2x150 lane $3,380 ($3,180 for 8+ lanes) versus Full Wafer $3,310, Split High $2,730, Split Low $1,990. Our $/Gb calc, using about 1.0-1.3 Tb per 25B lane and an assumed ~2.4 Tb per wafer, gives ~$2.6-3.4/Gb for the 25B lane and ~$1.4/Gb for the wafer. The page gives no output figures, so the gap is inferred. If the wafer rows are Ultima, a research core sells a cheaper-per-Gb alternative to the same user base at the same date.",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "date": "2026-08-01",
+      "source_name": "University of Illinois Carver Biotechnology Center, DNA Services pricing",
+      "source_type": "price_list",
+      "quote": "All pricing is updated, effective Aug. 1, 2026.",
+      "strength": "medium",
+      "why_new": "The known list has other core 25B prices and Broad's Ultima listing, but not this same-sheet wafer-versus-25B comparison at Illinois."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Illinois's 25B lane price sits at the high end of the known core range, and its larger-volume discount is shallow (6% off for 8+ lanes).",
+      "detail": "25B 2x150 is $3,380 per lane versus $3,180 for 8+ lanes (-5.9%). On the 10B, the 8+ tier is -14.5% ($2,000 to $1,710), and the split lane is $1,160. The 25B lane is above Northwestern's FY26 PE150 internal $3,000 and UGA's $3,000. External users pay +30.8% overhead, so an external 25B lane is about $4,420. The shallow 25B volume tier shows limited discount room at the core level. It is also a price ceiling that rivals' wafer pricing can undercut.",
+      "url": "https://biotech.illinois.edu/dna-services-core/dna-services-pricing/",
+      "date": "2026-08-01",
+      "source_name": "University of Illinois Carver Biotechnology Center, DNA Services pricing",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Illinois is not among the already-known cores; the 25B and 10B tier structure and the external-overhead rate are new."
+    }
+  ],
+  "new_candidates": [
+    "Wayback or archive.org CDX captures of the Carver pricing page (Jul 2025 version exists per search snippet, effective 1 Jul 2025) to measure the y/y change in the 25B, 10B and wafer prices",
+    "Other university cores that list Ultima wafers beside X Plus (Iowa, Wisconsin, Michigan, Texas) for the same side-by-side price test"
+  ],
+  "apify_requests": []
+}
+```

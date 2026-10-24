@@ -1,0 +1,91 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GUARDIAN, the biggest US newborn genome program, has enrolled about 30,000 babies, which is only about 0.1% of Illumina's annual high-throughput Gb. It is not a volume lever.",
+      "detail": "GeneDx's 7 Oct 2026 release says GUARDIAN 'has now enrolled 30,000 newborns'. The release gives no sequencing method, platform or Gb per baby. Assuming a 30x genome at ~100 Gb (the exclusion list gives ~100–125 Gb), 30,000 babies is about 3.0M Gb cumulative. Enrollment since Oct 2024 is about 17,000 babies (30,000 minus 13,000), or about 8,500 a year, which is about 0.85M Gb a year. Against an ~800M Gb HT base that is about 0.1% of a year's Gb, and about 0.4% even for the whole cumulative total. The Gb figures rest on my assumption of 100 Gb per baby, not on a disclosed number.",
+      "url": "https://finviz.com/news/399837/genedx-presents-new-evidence-advancing-genomic-newborn-screening-at-icons-2026",
+      "date": "2026-10-07",
+      "source_name": "GeneDx press release via Finviz (ICoNS 2026)",
+      "source_type": "press",
+      "quote": "has now enrolled 30,000 newborns",
+      "strength": "medium",
+      "why_new": "This is the first Gb-scale sizing of the GUARDIAN newborn genome program against Illumina's HT base. It uses the Oct 2026 enrollment count."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "GUARDIAN enrollment pace has been roughly 700 babies a month recently, and the program is far from any 100,000 scale.",
+      "detail": "The first 4,000 babies enrolled from Sep 2022 to Jul 2023, about 364 a month over 11 months. More than 13,000 were enrolled by Oct 2024 (about 520 a month on average since Sep 2022). The count reached 30,000 by Oct 2026, so the last 24 months averaged about 708 a month. At that pace, 100,000 babies would take about 8 more years. The 100,000 target in the brief belongs to the UK Generation Study, not GUARDIAN, as the probe found. The monthly rates are my arithmetic on dated release figures.",
+      "url": "https://www.businesswire.com/news/home/20241024902651/en/Groundbreaking-GUARDIAN-Study-Shows-Benefits-of-Adding-Genome-Sequencing-to-Newborn-Screening-Augments-and-Improves-Standard-Newborn-Screening",
+      "date": "2026-10-07",
+      "source_name": "GeneDx / Business Wire / JAMA (Oct 2024) / Finviz (Oct 2026)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The enrollment rate is a new derivation from three dated data points. It also corrects the 100,000 GUARDIAN target."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Parent uptake is high and the program is scaling, so newborn genomes could become a real clinical volume source if states fund them.",
+      "detail": "72.3% of approached families chose to enroll (the 2024 interim cohort was 72.0%, 4,000 of 5,555). 76% of babies have non-European ancestry. The panel has expanded to about 446 genes and over 460 conditions, up from 156 early-onset conditions at the start. The release says 8 infants with long QT syndrome have started beta-blockers. These are signs of clinical utility that could support later reimbursement. However, the program is research-funded and no payer or state mandate is stated.",
+      "url": "https://finviz.com/news/399837/genedx-presents-new-evidence-advancing-genomic-newborn-screening-at-icons-2026",
+      "date": "2026-10-07",
+      "source_name": "GeneDx press release via Finviz; JAMA Oct 2024 via Business Wire",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This gives a stable 72% uptake and the panel expansion, which are watch-outs for the WGS-volume pessimism."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The sequencing platform and Gb per baby are undisclosed, so GUARDIAN cannot be tied to Illumina volume. Illumina is a named collaborator only in the program's Oct 2024 description.",
+      "detail": "The 7 Oct 2026 release does not state exome or genome, the platform, or Gb per baby. The 2024 description names GeneDx, Columbia, NewYork-Presbyterian and the NY State Department of Health, with Illumina as a collaborator. The sizing in the first item therefore rests on an assumed ~100 Gb genome. If the method is shallower, Gb is lower. Even at 200 Gb per baby, 8,500 babies a year would be only about 0.2% of the HT base.",
+      "url": "https://ir.genedx.com/news-releases/news-release-details/groundbreaking-guardian-study-shows-benefits-adding-genome",
+      "date": "2024-10-24",
+      "source_name": "GeneDx investor relations",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This documents what the release omits (platform, Gb, start date), so the analyst does not over-read it."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The release does not state the method, platform, start date, target or sites. I did not open the Boston Globe Massachusetts article (24 Feb 2026), the BRIDGES-NBS release or the ICoNS abstract. The ICoNS slides are the only likely source of Gb or method detail.",
+  "leads": [
+    {
+      "name": "GUARDIAN study site",
+      "url": "https://guardian-study.org",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "May state the current enrollment target, the sequencing method and sites."
+    },
+    {
+      "name": "NYP news, GUARDIAN",
+      "url": "https://www.nyp.org/news/in-pioneering-study-gene-technology-outperforms-standard-newborn-screening-tests",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "May give the method and the target size."
+    },
+    {
+      "name": "BRIDGES-NBS press release",
+      "url": "https://www.google.com/search?q=BRIDGES-NBS+Illumina+746+genes",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "Illumina is a collaborator, and the release should give an enrollment target for sizing."
+    },
+    {
+      "name": "Boston Globe, Massachusetts newborn genome expansion",
+      "url": "https://www.bostonglobe.com",
+      "access": "may be paywalled",
+      "labels": ["1C"],
+      "rationale": "Enrollment targets for the Massachusetts expansion."
+    }
+  ],
+  "apify_requests": []
+}
+```

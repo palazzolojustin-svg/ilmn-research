@@ -1,0 +1,209 @@
+Element Biosciences AVITI24 Sequencing | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Mission Bio
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Contact Us
+Breadcrumb
+Home
+Element Biosciences AVITI24 Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Element Biosciences AVITI24 Sequencing
+Overview
+Pricing
+Submission
+Overview
+The AVITI24 system, by Element Biosciences, is a short-read, mid-throughput sequencer that delivers a lower cost per GB without the need to scale throughput. This instrument features two flow cells, each operating independently, to give the UMGC greater sequencing flexibility while maintaining the option to deliver up to 3 billion reads of combined sequencing output.* The AVITI24 delivers the most accurate short-read sequencing available today, with most reads scoring above Q40.*
+Element achieves higher sequencing accuracy via a novel sequencing technology, termed Avidity Sequencing, that optimizes nucleotide incorporation and identification steps while reducing the concentration of reagents. The AVITI24 readily adapts to a variety of applications, offering methods that scale from amplicons to whole genomes. With outstanding data quality and compatibility with existing library formats, the AVITI24 will be of particular interest to single-cell and spatial researchers, as well as researchers who require ultra-high-quality reads. Learn more about the Element AVITI24 system.
+Highlighted applications
+Single-cell and bulk RNA sequencing
+Whole-genome metagenomic sequencing
+Whole genome human and mouse sequencing
+Spatialomic sequencing
+Ultra-low pass sequencing (Skim-seq)
+Element LoopSeq 16S and amplicon sequencing (synthetic long reads)
+Expand all
++
+Output
+The AVITI24 system offers flow cells in low, medium, and high output configurations, paired with 150-, 300-, and 600-cycle sequencing kits. Leveraging the advanced Avidity Cloudbreak chemistry, runs can achieve up to 1.5 billion reads per flow cell, providing faster, high-throughput sequencing.
+Table 1: Performance specifications on the AVITI24 system as reported by Element.
+Read Length | AVITI Flow Cell | Reads | Q30 |
+2 x 150 or 2 x 75 | Low Output | 375 M | >90% |
+2 x 150 or 2 x 75 | Medium Output | 750 M | >90% |
+2 x 150 or 2 x 75 | High Output | 1.5 B | >90% |
+2 x 300 | Medium Output | 100 M | >85% |
+2 x 300 | High Output | 300 M | >85% |
+*Metrics based on control library sequencing performed by Element. Actual UMGC results may differ based on library type, preparation, and quality of libraries.
++
+Performance
+To assess the Element AVITI sequencer, the UMGC conducted benchmarking studies to evaluate and compare quality metrics for identical samples processed on both the AVITI and Illumina platforms. Results demonstrate that AVITI delivers comparable performance for 16S V4V5 libraries and RNA-Seq libraries, ensuring a smooth transition without compromising data quality, though we do not recommend switching platforms mid-project.
+16S V4V5 benchmarking study: A comparison of Element and Illumina sequencing platforms at the UMGC
+RNA-Seq benchmarking study: A comparison of Element and Illumina sequencing platforms at the UMGC
++
+Library Options
+Element has multiple options to streamline library prep for sequencing on the AVITI:
+Adept Workflow for adapted libraries - circularizes linear libraries prepared with a compatible third-party library prep kit (i.e. Illumina) to allow researchers to continue using the same library prep and analysis tools. The UMGC anticipates this to be the most commonly requested workflow.
+Elevate Workflow for native prep - prepares dual-indexed linear libraries from genomic DNA input and libraries are circularized on the flow cell as part of the sequencing run. Include the choice of PCR-free or PCR-plus.
+LoopSeq for AVITI - prepares libraries for long-read sequencing on the short-read Element AVITI System. Available for 16S and amplicon sequencing.
+Questions
+Contact us at [email protected] with questions about the AVITI24 system.
+Pricing
+Expand all
++
+UMN Rates
+150-cycle (75 PE) | Savings Tier | Speed Tier | Priority Tier |
+Medium run. 750 M reads/lane. | $785.57 | $973.09 | $1,209.92 |
+Turnaround time. | 2 - 9 days | 2 - 6 days | 2 - 3 days |
+High run. 1.5 B reads/lane. | $921.62 | $1,200.27 | $1,409.08 |
+Turnaround time. | 2 - 9 days | 2 - 6 days | 2 - 3 days |
+300-cycle (150 PE) | Savings Tier | Speed Tier | Priority Tier |
+Low run. 375 M reads/lane. | $904.04 | $1,116.73 | $1,383.34 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+Medium run. 750 M reads/lane. | $989.13 | $1,270.81 | $1,479.62 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+High run. 1.5 B reads/lane. | $1,034.54 | $1,313.56 | $1,519.23 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+600-cycle (300 PE) | Savings Tier | Speed Tier | Priority Tier |
+Medium run. 100 M reads/lane. | $963.88 | $1,255.04 | $1,470.93 |
+Turnaround time. | 4 - 13 days | 4 - 9 days | 4 - 5 days |
+High run. 300 M reads/lane. | $1,235.28 | $1,606.85 | $1,868.22 |
+Turnaround time. | 4 - 13 days | 4 - 9 days | 4 - 5 days |
+Notes
+1. Output: Custom libraries and libraries that have not been tested using Adept conversion may not achieve the above output without some initial qualification.
+2. Tiers: Turnaround time (TAT) is in business days. TAT is for sequencing only and does not factor in the TAT for library prep or other companion services. Availability for the Priority Tier is limited; contact [email protected] to see if this is a current option. More information about Pricing Tiers.
++
+External Rates
+150-cycle (75 PE) | Savings Tier | Speed Tier | Priority Tier |
+Medium run. 750 M reads/lane. | $922.01 | $1,092.53 | $1,345.15 |
+Turnaround time. | 2 - 9 days | 2 - 6 days | 2 - 3 days |
+High run. 1.5 B M reads/lane. | $1,081.69 | $1,337.23 | $1,561.83 |
+Turnaround time. | 2 - 9 days | 2 - 6 days | 2 - 3 days |
+300-cycle (150 PE) | Savings Tier | Speed Tier | Priority Tier |
+Low run. 375 M reads/lane. | $1,061.05 | $1,251.42 | $1,533.82 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+Medium run. 750 M reads/lane. | $1,160.93 | $1,416.47 | $1,641.07 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+High run. 1.5 B reads/lane. | $1,214.23 | $1,521.01 | $1,750.27 |
+Turnaround time. | 3 - 12 days | 3 - 8 days | 3 - 4 days |
+600-cycle (300 PE) | Savings Tier | Speed Tier | Priority Tier |
+Medium run. 100 M reads/lane. | $1,131.27 | $1,397.43 | $1,629.11 |
+Turnaround time. | 4 - 13 days | 4 - 9 days | 4 - 5 days |
+High run. 300 M reads/lane. | $1,449.82 | $1,784.20 | $2,061.36 |
+Turnaround time. | 4 - 13 days | 4 - 9 days | 4 - 5 days |
+Notes
+1. Output: Custom libraries and libraries that have not been tested using Adept conversion may not achieve the above output without some initial qualification.
+2. Tiers: Turnaround time (TAT) is in business days. TAT is for sequencing only and does not factor in the TAT for library prep or other companion services. Availability for the Priority Tier is limited; contact [email protected] to see if this is a current option. More information about Pricing Tiers.
+Submission
+Fill out the sample submission form and email the completed form to [email protected].
+NGS – Sample Submission Form
+NGS – Pre-made Library Submission Form
+Campus drop-off locations:
+1-210 Cancer & Cardiovascular Research Building (Minneapolis campus)
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Mission Bio
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview

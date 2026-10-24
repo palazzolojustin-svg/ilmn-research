@@ -1,0 +1,76 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Japanese national-university and research-institute contract award disclosures for NovaSeq X / 6000 reagent kits (競争入札に係る情報の公表, 落札公示)",
+      "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/kohyo-2104-210812-061b533784d28a3b8872431149579f17.pdf",
+      "access": "Japanese national universities publish monthly contract-disclosure PDFs listing item, winning vendor, contract amount and, where disclosed, the reserve price (予定価格) and award ratio (落札率). Confirmed live: Kyoto U kohyo PDFs (a 2021 example shows an Illumina NGS maintenance contract, ¥17,561,340, won by 和研薬, with the reserve price withheld). Osaka U tender notices are open and show the volumes: 10 × NovaSeq X 10B kits (Dec 2023); 6000 S2 ×9 + X 10B ×10 + X 25B ×6 (opened 6 Feb 2024); 1.5B/5B/10B/25B kits, 100+ sets each, with 'or equivalent' (JETRO 24 Sep 2026, Feb 2026, Mar 2025). Award PDFs to test: https://www.osaka-u.ac.jp/ja/guide/publications/cyoutatu/files/R6-2-6-R6-1-26-_-3-_ippan.pdf/@@download/file, R5-12-26-R5-12-13-_ippan.pdf, R7-3-26-R7-3-14-_ippan.pdf, R7-11-27-R7-11-14-_ippan.pdf (same path). The PDFs are FlateDecode-compressed, so download them and run pdftotext/pypdf. Then search each university's 契約情報 / 競争入札に係る情報の公表 page (Osaka, Kyoto, Tokyo, Tohoku, Kyushu, Chiba) for 'NovaSeq', 'イルミナ社製' and '試薬', FY2023–FY2026. Divide each contract amount by the kit count in the matching notice to get a realized unit price per kit.",
+      "labels": ["2A", "2B", "1B"],
+      "rationale": "These are mandated public records of the actual awarded price, not list prices, for the same SKU each year at the same academic buyer. Several distributors bid against each other in a lowest-price auction (and 'or equivalent' allows competing kits), so the award ratio shows how deep academic discounts go. A falling unit price for the 25B kit from 2024 to 2026, or a falling award ratio, would be hard forensic evidence of research price erosion on the X after conversion. That is exactly the gap in 2A/2B. JETRO (S098) only covered the notices; the award-side disclosures are untested.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Japanese research-institute sequencing-service unit-price award notices (e.g., RERF NovaSeq 6000 WGS unit-price contract)",
+      "url": "https://www.rerf.or.jp/uploads/2024/04/【落札公示】24-01イルミナ社NovaSeq6000システム_単価契約.pdf",
+      "access": "Open PDF, no login. A search snippet shows a lowest-price open tender for mouse WGS on the NovaSeq 6000 (unit-price contract), awarded at ¥121,000 incl. tax to アルファバイオ株式会社 (May 2024). Search 'site:rerf.or.jp 落札公示 シーケンス', then generic '落札公示 全ゲノム 単価契約 NovaSeq' and '落札公示 次世代シーケンス 解析 単価契約 令和7年' for later-year repeats at RERF, RIKEN, NIG, NCC and AIST.",
+      "labels": ["2A", "2B"],
+      "rationale": "Repeat annual unit-price tenders for the same sequencing service give a clean, dated series of realized academic prices, set by lowest bid among service providers. A later RERF tender re-specified to the NovaSeq X, with a sharply lower unit price, would quantify how outsourced research volume is repriced. Provider bids also show whether X-based or non-Illumina providers win.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Illumina Japan campaign flyers (list price vs campaign price, academic promotions), current and archived",
+      "url": "https://jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/campaign/IlluminaJPCC25PromoFlyer.pdf",
+      "access": "This URL appeared in search with a snippet showing 希望販売価格 (list) vs キャンペーン適用価格 for MiSeq i100 and other kits, valid until 17 Dec 2025. It now returns 404 to WebFetch, so retrieve it via the Wayback Machine (browser or Apify; the fetch tool is blocked on archive.org). Also search 'site:jp.illumina.com campaign pdf', 'イルミナ キャンペーン 試薬 NovaSeq X 価格' and 'jp.illumina.com/content/dam/illumina-marketing/apac/japan/documents/pdf/campaign/' for sibling flyers (CC24, CC26, NovaSeq X reagent campaigns).",
+      "labels": ["2A", "1B"],
+      "rationale": "This is Illumina's own published discount depth on research kits. A run of flyers over 2024–2026 would show whether promotional discounts to research buyers are getting larger or broader (e.g., NovaSeq X 10B/25B kits added to campaigns). It is a vendor document, not hearsay.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "CanadaBuys award notices where research buyers chose a non-Illumina sequencer on a 'lowest price' criterion (Element award CW2434465)",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cw2434465",
+      "access": "Open page, no login (seen in search: Element Biosciences won 'Benchtop Sequencing and Single Cell Multi-omics System', competitive open bidding, selection criterion 'lowest price', Winnipeg, 18 Feb–31 Mar 2026, CAD 315,000). Also open the contract history: https://canadabuys.canada.ca/en/tender-opportunities/contract-history/cw2434465-000. Then search CanadaBuys award notices for 'sequenc', 'Illumina', 'Element', 'flow cell' and 'NovaSeq', 2025–2026, and record the bidders (if shown), the winner, the criterion and the value. S040 found nothing via aggregators; this is a specific notice-level lead on the official portal.",
+      "labels": ["2A", "2B"],
+      "rationale": "This is a federal research lab (Winnipeg, likely PHAC NML or AAFC) awarding a sequencing system to Element in an open competition decided on lowest price. It is documentary evidence that research buyers award on price and that Illumina loses such awards. Several such awards would turn the anecdote into a pattern.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "UK Find a Tender award to Element Biosciences (009318-2025, £290,640) and University of Edinburgh 'Novel benchtop sequencing platform' award (Mar 2025)",
+      "url": "https://www.find-tender.service.gov.uk/Notice/009318-2025",
+      "access": "Official page returns 403 to WebFetch (confirmed). A search snippet shows contractor Element Biosciences (Amsterdam), SME, total £290,640, one tender from another EU member state. Open it via a browser, or via mirrors (bidsfactory, stotles.com, tendersdirect: search '009318-2025' or 'Element Biosciences award'). Extract the buyer, the item, the number of tenders received and the price/quality weighting. Also locate the Edinburgh benchtop-platform award (a separate notice from S068's 003074-2025).",
+      "labels": ["2A", "2B"],
+      "rationale": "UK award notices list the number of bids and the price weighting. If Illumina bid and lost, or a university re-tendered away from an Illumina incumbent on cost, that is direct evidence that research customers switch for price. The £ value also anchors realized AVITI pricing against Illumina.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "India GeM (Government e-Marketplace) bids and L1 results for Illumina sequencing kits at research institutes (NCBS, ICMR institutes)",
+      "url": "https://www.ncbs.res.in/sites/default/files/tenders/Gem%20Bid%20Document%20of%20250934.pdf",
+      "access": "Bid documents are open PDFs (NCBS above; ICMR-RMRIMS Patna GeM bid 9624699 at https://rmrims.org.in/uploads/GeM-Bidding-9624699.pdf, for NextSeq 2000 P4 XLEAP kits, closing 7 Aug 2026). Bid results with the L1 (lowest) bidder and price appear on the public bidplus.gem.gov.in 'bid results' view (no login, as far as I know; skip it if a login is demanded). Search 'GeM bid NovaSeq X 25B', 'GeM NovaSeq reagent kit' and 'site:gem.gov.in NovaSeq', 2025–2026. Compare L1 prices with the institute's estimated value.",
+      "labels": ["2A", "1B"],
+      "rationale": "Indian public research institutes buy Illumina kits through reseller auctions with published L1 prices and estimated values. The gap between estimate and L1, tracked over time for the same kit, measures realized research discounting in a funding-constrained market. Lower expected payoff because results may be hard to reach without the portal UI.",
+      "expected_payoff": "low"
+    },
+    {
+      "name": "Core-facility 'Facilities and Other Resources' grant boilerplate documents, versioned by year (instrument mix and cost-justification language)",
+      "url": "https://iids.uidaho.edu/docs/GBRC_Facilities_Resources_2026.pdf",
+      "access": "Open PDF (Idaho GBRC 2026, found in search). Cores post these for investigators to paste into NIH/NSF grants. Search 'Facilities and Resources 2026 genomics core pdf AVITI', 'Facilities and Other Resources NovaSeq 6000 retired', and 'filetype:pdf \"Facilities\" \"Ultima UG 100\" core'. For each core, compare the 2024/2025 and 2026 versions (by filename year or Wayback) to log Illumina retirements, AVITI/Ultima additions and any 'lower cost' rationale.",
+      "labels": ["2A", "2B"],
+      "rationale": "These are dated, self-reported instrument inventories that cover many cores not yet sampled through rate cards. They are an alternative-data proxy for research-segment platform switching. The cost language is the cores' own, written for funders. Medium-low yield per document, but it scales.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": "site:ac.jp NovaSeq 落札\nsite:ac.jp NovaSeq 契約金額\nsite:ac.jp イルミナ社製 試薬 契約 令和7年\nsite:ac.jp \"NovaSeq X\" 予定価格\nsite:go.jp NovaSeq 落札公示\nsite:ac.jp 次世代シーケンサー 試薬 落札者 令和6年\njp.illumina.com campaign pdf キャンペーン 価格\nsite:gem.gov.in NovaSeq",
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "languageCode": "ja",
+        "countryCode": "jp"
+      },
+      "why": "WebSearch returns only ~10 results per query and misses most Japanese university contract-disclosure PDFs. A SERP scrape across these queries should give the full list of award/disclosure PDFs with NovaSeq unit prices (FY2023–FY2026) and Illumina Japan campaign flyers. A later agent can then download them and extract the text to build a realized academic price series.",
+      "max_items": 200
+    }
+  ]
+}
+```

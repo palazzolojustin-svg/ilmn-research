@@ -1,0 +1,116 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MIT's NovaSeq 6000 S4 lane price was raised 8% in early 2023 and then frozen through at least Apr 2025, so the 6000 tail was not repriced down.",
+      "detail": "The S4 300nt lane (core-lab rate) was $5,000 in the 7/1/2021 and 7/1/2022 price sheets. It was $5,400 in the 2/1/2023 sheet, the 7/1/2024 (FY2025) sheet and the main page last edited 15 Apr 2025. That is +8.0% ($5,400/$5,000), then 0% for about 26 months (Feb 2023 to Apr 2025). The MIT and non-MIT columns moved the same way ($5,500→$5,940, $7,000→$7,560). This extends the already-known MIT 6000 story with a dated price path from 2020, including the freeze.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2023b",
+      "date": "2023-02-01 to 2025-04-15",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing snapshots (FY2023, FY2023b, FY2025, main)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known items give only an ~8% FY23→FY25 rise; this gives the 2020–2025 path, the exact timing (Feb 2023) and the 26-month freeze."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "MIT drafted a 6000 price cut for Jul 2022 and then reversed it with a uniform 8% increase, a sign of a core adjusting prices to hold margin on the tail.",
+      "detail": "A snapshot edited 30 May 2022 (banner 'PRICING BEING CHANGED - NOT YET VALID') lists SP 300nt at $4,850, S1 300nt at $7,525 and S2 300nt at $12,500. The Feb 2023 sheet lists $5,238, $8,127 and $13,500. Each is exactly 1.08x the draft figure ($4,850×1.08=$5,238; $7,525×1.08=$8,127; $12,500×1.08=$13,500). The 2021 sheet had SP 300nt at $5,200, so the draft was a 6.7% cut ($4,850 vs $5,200) that never took effect and was replaced by +0.7% vs 2021 ($5,238).",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2023",
+      "date": "2022-05-30 draft; 2023-01-27 final",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing (FY2023 draft vs FY2023b)",
+      "source_type": "price_list",
+      "quote": "PRICING BEING CHANGED - NOT YET VALID",
+      "strength": "weak",
+      "why_new": "No known item shows a drafted-then-reversed 6000 price at a core. Interpretation is mine, since the core gave no reason."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "In the FY2025 and main-page sheets MIT still quoted the full 6000 ladder in-house, while NovaSeq X work was pushed to a sister facility with prices only in a login-gated system.",
+      "detail": "The main page (edited 15 Apr 2025) lists 6000 SP, S1, S2 and S4 rows. For NovaSeq X (10B and 25B, 300nt and 100nt) it says 'pricing in ilabs' and that sequencing is done at a sister shared resource. The 7/1/2024 FY2025 page has no X rows at all. So the 6000 remained this core's own high-throughput product through Apr 2025 and the X was outsourced, which supports a tail that stays on the 6000 at institutions without their own X. S1 and S2 flow cells are marked 'minimal inventory maintained', so the ladder is thinning to S4 and SP.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:Pricing",
+      "date": "2025-04-15",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing",
+      "source_type": "price_list",
+      "quote": "pricing in ilabs",
+      "strength": "weak",
+      "why_new": "Adds the in-house-6000 vs outsourced-X structure and the thinning inventory notes, which earlier MIT items do not state."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "At MIT's core AVITI is not cheaper per Gb than the 6000 S4 lane, which cuts against the idea that Element undercuts Illumina on price in research.",
+      "detail": "AVITI 150PE full flowcell (~800M reads, 2×150) is $2,650 core-lab, or about $11.0/Gb on 240 Gb. The one-lane 150PE price is $1,375 for ~400M reads, about $11.5/Gb. The 6000 S4 300nt lane is $5,400 for 2B reads (the page's read count; about 600 Gb), or about $9.0/Gb. AVITI is therefore ~22–28% more expensive per Gb. It is cheaper only per run and per read at short lengths: 75PE one lane is $1,000/400M reads = $2.50 per M reads, vs S4 $5,400/2,000M = $2.70 per M reads.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:Pricing",
+      "date": "2025-04-15",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Known items quote only the AVITI $2.50 per M reads; this adds the per-Gb comparison against the 6000 at the same core, which goes the other way. Per-Gb figures are my arithmetic on the page's read counts."
+    },
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "MIT's research sequencing prices were raised across platforms between 2021 and 2025, not discounted, which does not fit research buyers extracting deep price cuts at this core.",
+      "detail": "Core-lab rates, 2021 to Apr 2025: NextSeq 500 91nt kit $2,270→$2,420 (2023)→$2,570 (+13.2%); 166nt $3,900→$4,125→$4,375 (+12.2%); 316nt $5,800→$6,270→$6,420 (+10.7%); MiSeq 70nt V2 $1,250→$1,320 (+5.6%); NovaSeq SP 100nt $3,365→$3,699 (+9.9%); '400M reads' $1,600→$1,760 (+10%). The non-MIT premium stayed constant at +40% over the core-lab rate (e.g. S4 $7,560 vs $5,400). This is one core, and these are internal service-recovery prices, not Illumina's net price.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2022",
+      "date": "2021-06-16 to 2025-04-15",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing (FY2022 sheet vs main)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Adds a multi-platform, multi-year core price series (NextSeq, MiSeq, SP, 400M) in which every Illumina product rose; earlier items cover only the 6000 S4."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Illumina reagent-driven price inflation was passed through by this core on all Illumina platforms in 2021–25, with no sign of the net price falling at the NextSeq or NovaSeq mid-to-high throughput tier.",
+      "detail": "The Feb 2023 step added about 8% to every NovaSeq line and then 6% more to NextSeq 500 (e.g. 91nt $2,420→$2,570, +6.2%, by Apr 2025). Flow cells that Illumina was expected to be discounting (SP, S1, S2, S4) were all higher in 2024–25 than in 2021. A core can only raise prices like this if its supplier cost rose or it is protecting margin. Either reading is the opposite of accelerating discounting, but the core's own reagent invoices are not shown.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2025",
+      "date": "2024-07-01 (edited 2024-06-12)",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing (FY2025)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the NextSeq 500 and SP/S1/S2 increases and the 2021→2025 timing; the known list covers Illumina's list prices and X lane cuts at other cores."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The MIT core dropped HiSeq 2000 reagents in 2023, an example of how quickly a core retires a legacy Illumina platform once the supplier ends it.",
+      "detail": "The 2021 sheet showed HiSeq 2000 single-end 40nt at $1,200 per lane ('being retired'), unchanged through the Feb 2023 sheet. The Feb 2023 sheet states 'The HiSeq2000 reagents will no longer be available in 2023.' The Illumina 2020 NovaSeq-era HiSeq tail therefore ended at this core in 2023, about six years after the NovaSeq 6000 launch in Jan 2017. That is a core-level data point for tail length, not a volume figure.",
+      "url": "https://openwetware.org/wiki/BioMicroCenter:PricingFY2023b",
+      "date": "2023-01-27",
+      "source_name": "OpenWetWare / MIT BioMicroCenter pricing (FY2023b)",
+      "source_type": "price_list",
+      "quote": "HiSeq2000 reagents will no longer be available in 2023",
+      "strength": "weak",
+      "why_new": "The known list has HiSeq precedent timelines from Illumina's own statements, not a core's dated retirement notice. Its relevance to 1C (volume) is indirect, and it fits 1A better."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "Fetched main page, FY2022 (7/1/2021), FY2023 draft (7/1/2022), FY2023b (2/1/2023) and FY2025 (7/1/2024). FY2024 and FY2025-Feb return 404. Not fetched: Wayback snapshots for mid-2025 to 2026 (the main page as of Apr 2025 is the latest seen), oldid revisions, and the iLab list (login-gated). The main-page S4 read count (2B reads per lane) came from the probe and the fetch summary, so per-Gb figures depend on it; Illumina's spec output for an S4 lane is higher, which would lower the $/Gb. All items are one-core price lists with no volume data, so strength is capped at medium. The 2025–26 gap is the main unknown: a Wayback check of the main page after Jul 2025 would show whether the 6000 rows were removed or repriced.",
+  "leads": [
+    {
+      "name": "Wayback Machine captures of BioMicroCenter:Pricing (2025-2026)",
+      "url": "https://web.archive.org/web/2026*/openwetware.org/wiki/BioMicroCenter:Pricing",
+      "access": "public",
+      "labels": ["1A", "1B"],
+      "rationale": "Would show whether MIT repriced or dropped the 6000 rows in FY2026/FY2027."
+    },
+    {
+      "name": "MIT BioMicroCenter official site (bmc.mit.edu) pricing and news",
+      "url": "https://bmc.mit.edu",
+      "access": "public",
+      "labels": ["1A", "2B"],
+      "rationale": "Current prices and any notice on the sister X facility or the end of 6000 offerings."
+    }
+  ],
+  "apify_requests": []
+}
+```

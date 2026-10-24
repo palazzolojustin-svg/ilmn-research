@@ -1,0 +1,105 @@
+Status: the source page is Cloudflare-blocked, so I read the cleat.ai mirror and the NISC site. I also checked adjacent NIH notices, and I'm now returning what I found.
+
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "NIH's own sequencing center now lists only a NovaSeq X Plus from Illumina's high-throughput line, with no NovaSeq 6000.",
+      "detail": "NISC's platforms page (read Oct 2026) lists six systems: NovaSeq X Plus, MiSeq i100, MiSeq, Ultima UG 100, PacBio Revio and ONT PromethION. It gives no unit counts or prices. This is one more government core that has fully converted off the 6000. It fits the conversion-done-at-research-cores point, so it is not evidence of a lingering research 6000 tail. The page has no archive history, so I cannot say when the 6000 was dropped.",
+      "url": "https://www.nisc.nih.gov/platforms.htm",
+      "date": "2026-10",
+      "source_name": "NIH Intramural Sequencing Center",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list covers NCI Frederick, but not NISC's platform roster or its mix of X Plus plus Ultima."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "NIH's flagship intramural sequencing center bought a non-Illumina high-throughput platform (Ultima) on a sole-source basis in June 2026, as an addition to its X Plus.",
+      "detail": "Presolicitation 75N98026Q00652 was posted 17 Jun 2026 and closed 27 Jun 2026. It is capped at the $350K simplified acquisition threshold and cites FAR 13.106-1(b)(1), the single-source route under that threshold. NISC's own page says the UG 100 is 'cost-effective' and sits next to the X Plus. The notice does not mention Illumina or give any price comparison. The explicit rationale is accuracy for mosaic DNA, not price.",
+      "url": "https://www.cleat.ai/government/contracts/ultima-genomics-opentrons-flex-v2-t53t",
+      "date": "2026-06-17",
+      "source_name": "cleat.ai mirror of SAM.gov notice",
+      "source_type": "procurement",
+      "quote": "highly accurate sequencing method",
+      "strength": "weak",
+      "why_new": "The known file records only that NIH is making a follow-on Ultima purchase. It lacks the $350K cap, the FAR clause and the accuracy-based rationale."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "The NISC Ultima buy was justified on capability (accuracy), not on price, so it is not evidence of price-driven switching away from Illumina at a large federal account.",
+      "detail": "The only stated reason is deep, accurate sequencing of mosaic samples. No cost-per-Gb or per-genome comparison with Illumina appears in the notice text I could read. The full justification sits in a DOCX attachment that I could not open. This is a watch-out: the Ultima win at NIH rests on a use case Illumina can compete in on accuracy grounds, per its own 6x/22x error claims.",
+      "url": "https://www.cleat.ai/government/contracts/ultima-genomics-opentrons-flex-v2-t53t",
+      "date": "2026-06-17",
+      "source_name": "cleat.ai mirror of SAM.gov notice",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It reads the justification for price content and finds none, which the known list does not."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "NCI is still paying Illumina to maintain a government-owned NovaSeq 6000 in August 2026.",
+      "detail": "Notice 75N98026Q01014 (NCI, posted 14 Aug 2026, responses due 24 Aug 2026) intends a sole-source firm-fixed-price preventive-maintenance contract with Illumina under FAR 6.302-1. It covers one NovaSeq 6000, serial A01064. The value is not shown. This is a single unit and shows only that a federal 6000 is still being serviced, not that it is being used heavily.",
+      "url": "https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014",
+      "date": "2026-08-14",
+      "source_name": "NIH OLAO / govcontractfinder mirror",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has generic federal 6000 service plans, but not this dated NCI unit."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Element is becoming an established federal vendor: the CDC filed a sole-source notice for AVITI service in 2026.",
+      "detail": "A CDC notice of intent names Element as the only vendor with trained, certified service engineers for AVITI instruments and reagents. I saw it only as a search-result summary. Together with the USDA-ARS AVITI upgrade request (closed 3 Jul 2026), this shows rival platforms moving from pilots to support contracts. The notices are small and carry no price data.",
+      "url": "https://samsearch.co/gov-explore/federal/upgrade-element-biosciences-aviti-model-710-00413-usda-ars-kerrville-tx/1232SA26Q0805",
+      "date": "2026-07",
+      "source_name": "samsearch.co (USDA-ARS 1232SA26Q0805; CDC notice via search result)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The CDC service-vendor notice is not in the known list. USDA-ARS and Canadian AVITI buys are already known."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "This source is thin. The samsearch.co page is Cloudflare-blocked. The cleat.ai mirror truncates the description, and the DOCX attachment (requirements and sole-source justification) was not reachable without SAM.gov. SAM.gov, HigherGov and USAspending would need a browser or a heavy scraper. I did not open USAspending awards to Ultima or Element. There is no Illumina cost comparison in any NIH notice I could read. The notice title says 'Opentrons Flex V2' (a liquid handler) while the text describes Ultima sequencing, so the scope may be partly automation. I was not able to confirm the buy is a sequencer.",
+  "leads": [
+    {
+      "name": "USAspending awards to Ultima Genomics and Element Biosciences",
+      "url": "https://www.usaspending.gov/",
+      "access": "open",
+      "labels": ["1B", "2B"],
+      "rationale": "Shows award amounts and dates for federal purchases of rival platforms, which can size how much federal spend is moving away from Illumina."
+    },
+    {
+      "name": "NIH NIAMS Protein Prep presolicitation PCA-NIAMS-08113",
+      "url": "https://sam.gov/opp/9667ebbfac3f4f5a948c30967eb22210/view",
+      "access": "open",
+      "labels": ["1C"],
+      "rationale": "Posted 20 Jul 2026. It states NIAMS runs a NovaSeq X Plus, and it is a data point on Illumina's adjacent-product pull."
+    },
+    {
+      "name": "HHS/NIH Ultima high-throughput DNA sequencing presolicitation (17 Jun 2026)",
+      "url": "https://samsearch.co/gov-explore/federal/ultima-genomics-opentrons-flex-v2/75N98026Q00652",
+      "access": "Cloudflare-blocked; try SAM.gov directly",
+      "labels": ["1B", "2B"],
+      "rationale": "The attached description of requirements may state quantity, price and the comparison to the existing platform."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [NISC platforms](https://www.nisc.nih.gov/platforms.htm)
+- [cleat.ai notice mirror](https://www.cleat.ai/government/contracts/ultima-genomics-opentrons-flex-v2-t53t)
+- [NCI NovaSeq 6000 maintenance notice](https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014)
+- [USDA-ARS AVITI upgrade notice](https://samsearch.co/gov-explore/federal/upgrade-element-biosciences-aviti-model-710-00413-usda-ars-kerrville-tx/1232SA26Q0805)

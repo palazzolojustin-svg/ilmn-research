@@ -1,0 +1,36 @@
+Machine Unit Price # M Clusters GigBase Cost Per GB Cost per M read
+NovaSeq X 1.5B 100 cycles Flowcell $ 2,946 1,600 160 $ 18.41 $ 1.84
+NovaSeq X 1.5B 200 cycles Flowcell $ 3,601 1,600 320 $ 11.25 $ 2.25
+NovaSeq X 1.5B 300 cycles Flowcell $ 4,118 1,600 480 $ 8.58 $ 2.57
+NovaSeq X 1.5B 600 cycles Flowcell $ 6,990 1,600 960 $ 7.28 $ 4.37
+NovaSeq X 1.5B 300 cycles Lane Lane $ 2,162 800 240 $ 9.01 $ 2.70
+Machine Unit Price # M Clusters GigBase Cost Per GB Cost per M read
+NovaSeq X 5B 100 cycles Flowcell $ 4,059 5,000 500 $ 8.12 $ 0.81
+NovaSeq X 5B 200 cycles Flowcell $ 5,134 5,000 1,000 $ 5.13 $ 1.03
+NovaSeq X 5B 300 cycles Flowcell $ 5,894 5,000 1,500 $ 3.93 $ 1.18
+NovaSeq X 5B 300 cycles Lane Lane $ 757 625 188 $ 4.04 $ 1.21
+Machine Unit Price # M Clusters GigBase Cost Per GB Cost per M read
+NovaSeq X 10B 100 cycles Flowcell $ 7,510 10,000 1,000 $ 7.51 $ 0.75
+NovaSeq X 10B 200 cycles Flowcell $ 9,147 10,000 2,000 $ 4.57 $ 0.91
+NovaSeq X 10B 300 cycles Flowcell $ 10,361 10,000 3,000 $ 3.45 $ 1.04
+NovaSeq X 10B 300 cycles Lane Lane $ 1,334 1,250 375 $ 3.56 $ 1.07
+Machine Unit Price # M Clusters GigBase Cost Per GB Cost per M read
+NovaSeq X 25B 100 cycles Flowcell $ 17,611 26,000 2,600 $ 6.77 $ 0.68
+NovaSeq X 25B 200 cycles Flowcell $ 21,825 26,000 5,200 $ 4.20 $ 0.84
+NovaSeq X 25B 300 cycles Flowcell $ 24,951 26,000 7,800 $ 3.20 $ 0.96
+NovaSeq X 25B 300 cycles Lane Lane $ 3,222 3,250 975 $ 3.30 $ 0.99
+Machine Unit Price # M Clusters GigBase
+iSeq 100 v2 2X150 Flowcell $ 876 4 1.2
+MiSeq v2 2x150 Nano Flowcell $ 550 1 0.3
+MiSeq v2 2x250 Nano Flowcell $ 572 1 0.5
+MiSeq v2 2x150 Micro FlowCell $ 835 4 1.2
+MiSeq v2 2X150 Flowcell $ 1,542 15 4.5
+MiSeq v2 2X250 FlowCell $ 1,931 15 7.5
+MiSeq v3 2X300 FlowCell $ 2,614 25 15.0
+Contact: txgen@ag.tamu.edu -  http://www.txgen.tamu.edu Printed 2026-09-16 at 1:30 PM
+Sequencing Pricing - June 11, 2026
+NovaSeq X Plus 1.5B (2 lanes)
+NovaSeq X Plus 10B (8 lanes)
+NovaSeq X Plus 25B (8 lanes)
+MiSeq / iSeq
+NovaSeq X Plus 5B (8 lanes)

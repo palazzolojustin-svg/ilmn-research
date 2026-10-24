@@ -1,0 +1,26 @@
+{
+ "core_name_on_page": "Center for Genome Innovation",
+ "document_date": null,
+ "effective_from": "2026-01",
+ "effective_to": "2026-12",
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "300 cycle, 10B NovaX (JAX-GM)",
+   "unit": "lane",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": 300,
+   "tier": "unspecified",
+   "tier_raw": "",
+   "price": 1397.0,
+   "currency": "USD",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "Lane cost includes shipping and temporary 5% Illumina Tariff charge. ... 1,397.00 each"
+  }
+ ],
+ "_model": "haiku"
+}

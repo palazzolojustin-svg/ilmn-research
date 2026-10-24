@@ -1,0 +1,116 @@
+Genomic Fees
+Published on Advanced Analysis Centre (https://www.uoguelph.ca/aac)
+Home > Facilities > Genomics Facility > Genomics Fees
+Skip to main content
+About AAC
+Genomics Facility
+Mass Spectrometry Facility
+Molecular and Cellular Imaging Facility
+NMR Centre
+Phytotron Facility
+All Equipment
+Genomics Equipment
+MS Equipment
+MCI Equipment
+NMR Equipment
+Phytotron Equipment
+All Services
+Genomics Services
+MS Services
+MCI Services
+NMR Services
+General Safety
+AAC Safety Handbook
+SponsorsContact Us
+Genomic Fees
+|
+One column (8 reactions)
+|
+$70
+|
+$80
+|
+Digital Droplet PCR Request
+Illumina Sequencing
+The
+Illumina NextSeq 1000
+is an NGS sequencing system designed to miniaturize sample and reagent
+volumes and increase read output. The NextSeq 1000 is capable of many
+sequencing applications, including targeted metagenomics, whole genome
+sequencing, transcriptomics, immune repertoire profiling, sequencing of
+targeted panels, exomes and large panels, circulating tumor DNA,
+single-cell sequencing, and spatial profiling.
+Contact the facility
+to discuss services and applications.
+SERVICE |
+INTERNAL |
+EXTERNAL |
+Library prep. & seq. |
+Amplicon library preparation and sequencing (250k reads/sample, 2x300 cycles) |
+$50 |
+Contact Facility |
+Amplicon library preparation and sequencing (50k reads/sample, 2x300 cycles) |
+$30 |
+Contact Facility |
+16S Profiling (250k reads/sample, 2x300 cycles) |
+$50 |
+Contact Facility |
+Library Preparation |
+Illumina DNA library preparation |
+$130 |
+Contact Facility |
+RNA-Seq Library Prep (PolyA capture) |
+$115 |
+Contact Facility |
+RNA-Seq Library Prep (Ribodepletion) |
+$165 |
+Contact Facility |
+Library QC |
+$25 |
+Contact Facility |
+Sequencing |
+NextSeq cartridges |
+|
+Contact Facility |
+300 cycle (1 x 150) P1 |
+Contact facility |
+Contact Facility |
+600 cycle (2 x 300) P1 25M Reads |
+$1425 per 25M reads |
+Contact Facility |
+NovaSeq X |
+Contact Facility (est. installation June 2026) |
+PromethION Services
+Plasmid & PCR Amplicon Sequencing
+The PromethION 24 is a high-throughput nanopore sequencer capable of natively sequencing both RNA and DNA with rapid turn-around times. The PromethION can load up to 24 flow cells, each capable of multiplexing 96 samples or more. It is also possible to re-use flow-cells, decreasing cost and waste. The PromethION 24 is suitable for long-read applications, including genome assembly, native methylation seq., direct RNA transcript sequencing (including alternate splicing), and metagenomics.
+We have phased out Sanger Sequencing in favor of long-read sequencing on the Oxford Nanopore PromethION 24. The facility provides sequencing of DNA fragments up to 25 kilobases in length or more, including whole plasmids and PCR amplicons. Service starts on September 2.
+Sequenced at the University of Guelph: no tax or shipping fees for internal clients
+Plasmid analysis run on Tuesdays and Thursdays with next-day turnaround
+Pricing includes bioinformatic report, plasmid annotation, insert variant calling, and multiplasmid/contamination detection.
+See our detailed sample report
+SERVICE
+|
+INTERNAL
+|
+ACADEMIA
+Other PromethION Services:
+The PromethION is suitable for a range of other services, including native Methylation sequencing (or other modified bases), direct RNA sequencing, 16S profiling (or 18S/ITS/other amplicon metabarcoding), transcriptomics, whole genome sequencing, metagenomics, genome skimming, variant calling, and much more.
+SERVICE
+|
+INTERNAL
+|
+ACADEMIA
+|
+COMMERCIAL
+|
+Whole Flow Cell
+|
+$1200
+|
+$1200
+|
+$1500
+|
+Other applications
+|
+Contact us for quote

@@ -1,0 +1,149 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera's non-oncology test volume (mostly NIPT/women's health) slowed sharply from +21% y/y in Q4'24 to about +5-7% through 2025.",
+      "detail": "Non-oncology = total tests minus oncology tests. Q4'23: 626.8K-97.5K = 529.3K. Q4'24: 792.8K-150.8K = 642.0K (+21.3%). Q2'25: 853.1K-188.8K = 664.3K vs Q2'24 634.9K (+4.6%). Q3'25: 893.6K-211.0K = 682.6K vs 638.7K (+6.9%). Q4'25: 923.6K-233.3K = 690.3K vs 642.0K (+7.5%). FY24 non-oncology was 2,536.4K (+17.7% vs 2,155.1K). FY25 was 2,724.7K (+7.4%). This is a quarterly series for the NIPT-maturation drag, where the known list has only Q2'26 non-MRD ~+13% and H1'26 ~10-12%.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465926020482/tm266979d1_ex99-1.htm",
+      "date": "2026-02 (Q4'25 8-K Ex. 99.1)",
+      "source_name": "Natera 8-K Ex. 99.1 (Q4'25, Q4'24 and 2025 quarterly releases); derived",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "Eight-quarter non-oncology series and the 2024-to-2025 deceleration are not in the known list. Only the H1'26 point is."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's non-oncology volume re-accelerated in 2026 (+9.8% in Q1, +12.5% in Q2) after the 2025 trough, so the women's-health drag has eased.",
+      "detail": "Q1'26: 1,013.6K-258.9K = 754.7K vs Q1'25 687.4K (+9.8%). Q2'26: 1,043.9K-296.7K = 747.2K vs 664.3K (+12.5%). The trough was Q2'25 at +4.6%. On the Q2'26 call the CFO said women's health grew high-single-digit seasonally adjusted. The CEO said Natera is 'definitely benefiting from share gains in women's health' after the enhanced Panorama launch. This is share gain at one NIPT vendor, not market growth, but the volume reaching Illumina's Natera sequencing is still growing.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex991.htm",
+      "date": "2026-08-06",
+      "source_name": "Natera Q2'26 8-K Ex. 99.1; Q2'26 call summaries (GuruFocus, Quartr); derived",
+      "source_type": "filing",
+      "quote": "definitely benefiting from share gains in women's health",
+      "strength": "medium",
+      "why_new": "Quarter-by-quarter non-oncology growth and the high-single-digit seasonally adjusted women's-health quote are new. The known list has only an H1'26 range."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Oncology growth has been about 46-57% for eight straight quarters, but oncology share of tests rose only to about 28% and the non-oncology base is flat-ish in absolute terms.",
+      "detail": "Oncology tests (K): Q1'24 114.8, Q2'24 125.4, Q3'24 137.1, Q4'24 150.8, Q1'25 167.7 (+46.1%), Q2'25 188.8 (+50.6%), Q3'25 211.0 (+53.9%), Q4'25 233.3 (+54.7%), Q1'26 258.9 (+54.4%), Q2'26 296.7 (+57.2%). Oncology share of total: 15.6% (Q1'24), 25.3% (Q4'25), 28.4% (Q2'26). Non-oncology moved from 621K (Q1'24) to 747K (Q2'26), +20% over 9 quarters. Total growth is therefore carried by oncology tests, which are mostly low-Gb classic MRD tests (<1 Gb per draw per the known list). Oncology test counts overstate Gb growth.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465925018223/tm257259d1_ex99-1.htm",
+      "date": "2025-02 to 2026-08",
+      "source_name": "Natera 8-K Ex. 99.1 releases Q4'24 to Q2'26, plus search-snippet results for Q1'25 to Q3'25 and Q1'26; derived",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has only the Q2'26 oncology figure. The full 10-quarter table and share-of-mix path are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera's total test growth was lowest in Q2'25 (+12.2%) and was +16% to +22% in the next five quarters, driven by oncology mix.",
+      "detail": "Total tests (K) and y/y: Q1'24 735.8; Q2'24 760.3; Q3'24 775.8; Q4'24 792.8 (+26.5% vs 626.8); Q1'25 855.1 (+16.2%); Q2'25 853.1 (+12.2%); Q3'25 893.6 (+15.2%); Q4'25 923.6 (+16.5%); Q1'26 1,013.6 (+18.5%); Q2'26 1,043.9 (+22.4%). FY24 3,064.6K (+22.8%), FY25 3,525.5K (+15.0%). So the 2025 slowdown at Illumina's largest clinical customer came from non-oncology (+7.4%) and was masked by oncology (+51.6% for FY25: 800.8K vs 528.2K).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1604821/000110465926020482/tm266979d1_ex99-1.htm",
+      "date": "2026-02",
+      "source_name": "Natera 8-K Ex. 99.1; derived",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list gives only Q2'26 total +22%. FY24 to FY25 total deceleration (+22.8% to +15.0%) is new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera's cost of product per test is rising: about $255 in Q2'26 vs $234 in Q2'25 as new tests carry unoptimized COGS. Management says it targets 70%+ gross margin through COGS projects over 12-18 months.",
+      "detail": "Q2'26 cost of product revenues $266.6M / 1,043.9K tests = $255; Q2'25 $199.5M / 853.1K = $234 (+9%). FY24 implied: $672.3M / 3,064.6K = $219. FY25: $810.6M / 3,525.5K = $230. So cost per test went $219 (FY24), $230 (FY25), $255 (Q2'26). Signatera Genome volume raised costs because it is 'not yet optimized for COGS'. COGS projects are expected to pay back 'over the next 12 to 18 months'. This is a trend not previously shown: Natera reinvests X savings into depth and new genome products, not lower cost.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex991.htm",
+      "date": "2026-08-06",
+      "source_name": "Natera Q2'26 8-K Ex. 99.1; GuruFocus Q2'26 call highlights; derived",
+      "source_type": "earnings_call",
+      "quote": "not yet optimized for COGS",
+      "strength": "medium",
+      "why_new": "The known list has $255 vs $234 (+9%). The FY24 $219 and FY25 $230 points and the 70%+ margin target and project payback window are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera's Q2'26 sequential oncology jump (+37.8K tests) was partly weather-inflated from a Q1 suppression, so the run-rate may be overstated.",
+      "detail": "Clinical MRD units rose 34,000 sequentially (record) to 283K. Analysts probed sustainability on the call, and management said Q1 was partly suppressed by weather. Oncology tests went 258.9K to 296.7K (+14.6% q/q) in Q2'26, after +11.0% in Q1'26 and +10.6% in Q4'25. Sequential increments: Q2'25 +21.1K, Q3'25 +22.2K, Q4'25 +22.3K, Q1'26 +25.6K, Q2'26 +37.8K. A normalised increment (~+26-28K) would imply Q2 oncology of about 285-287K.",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "date": "2026-08-06",
+      "source_name": "GuruFocus Q2'26 call highlights; Natera 8-K; derived",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The weather-suppression catch-up and sequential increment series are not in the known list. They affect any extrapolation of 57% growth."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera says MRD is only at mid-single-digit penetration, and its Signatera ASP uplift (~$150-200) depends on MolDX approvals 12-18 months out. Volume is not limited by sequencing cost.",
+      "detail": "Q2'26 call Q&A themes: MRD market penetration described as mid-single-digit; MolDX submissions could add ~$150-200 to the ~$1,275 Signatera ASP over 12-18 months; SIGNAL-ER 101 study for CDK4/6 use. The stated gating factors are reimbursement, evidence and guidelines. This is consistent with the thesis that adoption, not $/Gb, is the constraint, though low penetration also means long runway (against).",
+      "url": "https://www.gurufocus.com/news/9015362/natera-inc-ntra-q2-2026-earnings-call-highlights-record-volumes-and-raised-guidance-signal-strong-momentum",
+      "date": "2026-08-06",
+      "source_name": "GuruFocus Q2'26 call highlights",
+      "source_type": "earnings_call",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The MolDX $150-200 ASP uplift timeline and MRD penetration statement are not in the known list."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Natera's Q2'26 revenue guidance raise of $100M to $2.85-2.91B (+31% ex true-ups) and Q1 guide raise to $2.74-2.82B show no demand slowdown at Illumina's biggest clinical customer.",
+      "detail": "Guidance rose twice in 2026: $2.74-2.82B (Q1 release, 7 May) then $2.85-2.91B (Q2 release, 6 Aug), with Q2 revenue $752.8M (+37.7%) and Q1 $696.6M (+38.8%). Revenue is up much more than tests (+22%), so ASP drives part of it. Q1'26 and Q2'26 gross margin were 64.7% and 64.5%.",
+      "url": "https://www.natera.com/company/news/natera-reports-second-quarter-2026-financial-results/",
+      "date": "2026-08-06",
+      "source_name": "Natera press releases Q1'26 and Q2'26 (search results)",
+      "source_type": "press",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list has no Natera guidance path. This is a watch-out that the main Illumina customer is still accelerating."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Natera's Q2'26 gross margin of 64.5% was flat q/q and about 50bp up ex true-ups, well below its 70%+ target, which suggests sequencing cost savings are being absorbed.",
+      "detail": "Gross margin by quarter: Q1'24 56.7%, Q4'24 62.9%, Q1'25 63.1%, Q2'25 63.4%, Q4'25 66.9%, Q1'26 64.7%, Q2'26 64.5% (FY24 60.3%, FY25 64.7%). Margin gained 8.9 pts from Q4'23 to Q4'25 (51.4% to 66.9%) but has fallen 2.4 pts since Q4'25. Product revenue per test, using 6M'26 product revenue of $1,441.8M and cost of $511.8M, shows cost of revenue is growing in step with volume. Gross margin is not expanding alongside volumes, which is consistent with deeper-not-cheaper testing and the reinvestment point (against a $/Gb cost-pass-through story).",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001604821/000160482126000015/ntra-20260630xex991.htm",
+      "date": "2026-08-06",
+      "source_name": "Natera 8-K Ex. 99.1 releases; derived",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The gross margin time series from Q4'23 to Q2'26 and the post-Q4'25 reversal are new."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Mined: total and oncology tests processed for Q4'23 to Q2'26 (via Q4'24, Q4'25, Q2'26 Ex. 99.1 fetched; Q1'24 to Q3'24 from y/y comparatives; Q1'25 to Q3'25 and Q1'26 from search snippets). Full transcript was not read (roic.ai blocked with 403), so there is nothing on Illumina, Ultima, NovaSeq X, or Panorama volume directly. The Q3'26 print is not yet out (expected early Nov 2026). I wrote 9 items, not 15, because the rest of the source is derived-number repetition. Remaining to mine: Natera Q1-Q2'26 10-Q for cost of revenue drivers and any sequencing supply commentary; Q2'26 slide deck (s201.q4cdn.com/354493536/files/doc_financials/2026/q2/NTRA-Q2-26-Financial-Results.pdf) for Signatera Genome unit share and women's health units. Clinical MRD units from slides: Q2'25 181K, Q3'25 202K, Q1'26 ~249K, Q2'26 283K.",
+  "leads": [
+    {
+      "name": "Natera Q2'26 financial results slide deck",
+      "url": "https://s201.q4cdn.com/354493536/files/doc_financials/2026/q2/NTRA-Q2-26-Financial-Results.pdf",
+      "access": "public PDF, no login",
+      "labels": ["1C"],
+      "rationale": "May give clinical MRD units, ASP, Signatera Genome and women's-health data by quarter. Slide decks for each quarter would give a Signatera clinical-unit series."
+    },
+    {
+      "name": "Natera Q3'25 earnings slides",
+      "url": "https://s201.q4cdn.com/354493536/files/doc_financials/2025/q3/Q3-2025-Earnings-Slides-Final.pdf",
+      "access": "public PDF",
+      "labels": ["1C"],
+      "rationale": "Reports clinical MRD ~202K units in Q3'25 and likely a historical series. Together with the Q2'26 deck it builds a Signatera unit series for MRD growth vs total oncology."
+    },
+    {
+      "name": "Natera Q2'26 call transcript (roic.ai or Natera IR)",
+      "url": "https://www.roic.ai/quote/NTRA/transcripts/2026-year/2-quarter",
+      "access": "roic.ai returned 403; try the IR site s201.q4cdn.com or a transcript on Motley Fool",
+      "labels": ["1C", "1B"],
+      "rationale": "Panorama/NIPT market growth, sequencing capacity (Austin), and any comment on NovaSeq X, Ultima, or sequencing cost per test."
+    }
+  ],
+  "apify_requests": []
+}
+```

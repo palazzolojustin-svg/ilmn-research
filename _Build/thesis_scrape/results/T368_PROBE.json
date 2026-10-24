@@ -1,0 +1,21 @@
+```json
+{
+  "status": "blocked",
+  "notes": "The tender exists, but I could not read its specification or any award. auftrag.ai 301-redirects to auftragone.com, which returns 404. TED notice pages (257282-2026 pdf and html) returned empty content through the fetch tool. I have no POST-capable tool for the TED API, so I did not query it. Doffin and Mercell were not reached directly. A search snippet confirms the title 'Department for Medical Genetics, Sequencing platform NIPT' at Oslo University Hospital (OUS), with a bid deadline of 5 Mar 2026. It says the tender is linked to Norway allowing NIPT for pregnant women under 35 without other medical indications, which is a national expansion of NIPT. The snippet gives no volumes, required platform, weights or winner. A separate search snippet says OUS's current accredited NIPT method is VeriSeq NIPT Solution v2, which is Illumina's NIPT workflow. That makes an Illumina incumbent likely (the snippet gives no sequencer model). Unconfirmed in this probe: whether the winner is Illumina or a rival. No item is recorded because nothing new and quantified was verified. One qualitative point cuts against the 'NIPT maturing' leg of 1C: Norway is widening publicly funded NIPT eligibility. The volume impact is unquantified.",
+  "how_to_mine": "1) POST https://api.ted.europa.eu/v3/notices/search with query FT~\"NIPT\" AND FT~\"sequencing\" AND PD>=20250101 (fields: notice-identifier, title, buyer-name, publication-date, estimated value, award-criteria). Also fetch TED notice 257282-2026 via the API (GET /v3/notices/257282-2026) and 417054-2026, which appeared in search results and are unchecked. 2) Search doffin.no for 'NIPT sekvensering' with the buyer filter 'Oslo universitetssykehus HF', and look for the 'tildelt' (award) or 'kunngjøring av kontrakt' notice. 3) Look in the tender documents (konkurransegrunnlag, kravspesifikasjon) for annual NIPT sample counts, required read depth, whether Illumina VeriSeq is mandated or the tender is platform-neutral, and the price weight (often 50-70%). 4) Repeat for Sweden (Upphandlingsmyndigheten, TendSign, e-Avrop), Denmark (udbud.dk) and Finland (Hilma) with terms like 'NIPT', 'NIPT-analys' and 'sekvenseringsplattform'. 5) Try archive.org copies of auftragone.com/auftrag.ai.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "TED notice 417054-2026 (appeared in search results alongside the Oslo NIPT tender; contents unchecked, may be a related Oslo award)",
+    "Publications Office of the EU procurement 531cab9e-7708-4518-aef3-636b5d56877b (appeared in the Oslo award search; unchecked)",
+    "auftrag.ai 'KLM Department of Medical Genetics DNA Sequencing, Part B' (snippet: Illumina Norway AS MiSeq contract after a cancelled open competition; unchecked)",
+    "Norwegian national NIPT expansion to pregnant women under 35: Helsedirektoratet or Bioteknologirådet volume projections (annual births about 52K; the number of additional tests would show NIPT volume maturity)"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [auftrag.ai Sequencing platform NIPT listing](https://auftrag.ai/notices/department-for-medical-genetics-sequencing-platform-nipt)
+- [TED notice 257282-2026](https://ted.europa.eu/en/notice/257282-2026/pdf)
+- [TED notice 417054-2026](https://ted.europa.eu/en/notice/417054-2026/pdf)

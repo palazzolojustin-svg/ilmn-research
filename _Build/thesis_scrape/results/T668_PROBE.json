@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "I read the saved annex PDF (3 pages) with the Read tool. Page 1 lists the items, page 2 has descriptions and page 3 has quantities and prices. It is a small purchase annex, not a multi-year framework. It lists 4 NovaSeq 6000 v1.5 kits: S1 200-cycle, S2 200-cycle, S4 200-cycle and S2 100-cycle. It also lists RNA prep, indexes and Infinium methylation kits. It has no NovaSeq X lines. The currency is not printed and is presumably EUR. The 'QUINTA' and 'MASTRO' column labels are unexplained; I read QUINTA as a one-fifth quinto-d'obbligo contract extension but did not confirm that. The note 'RIFARSI FARE OFFERTA PER LE QUANTITA'' (quote for the quantities) suggests a one-off quote for Illumina to price. I did not check the sibling PDF, the OPBG transparency pages or ANAC BDN, so the contract term and the award value remain unverified. Per-Gb figures use Illumina spec output ranges recalled from memory and not checked against the live spec page: S1 2x100 about 266-333 Gb, S2 2x100 about 667-833 Gb, S4 2x100 about 1,600-2,000 Gb, S2 2x50 about 333-417 Gb. Treat the per-Gb figures as approximate.",
+  "how_to_mine": "1) Read the sibling PDF (113019842-0c39e018-ed95-43f1-9026-19aad12be1c2.pdf) with pypdf under python -I. It is probably the determina or the main document, with the term, the total value and the procedure type (affidamento diretto, quinto d'obbligo or procedura negoziata). 2) Search the OPBG 'Amministrazione trasparente > Bandi di gara e contratti' pages for CUP B53C22006140001 and 'Illumina'. 3) Query ANAC BDN or the OpenCUP/OpenCoesione record for CUP B53C22006140001 (a 2022 project) to get the project value and any earlier orders. 4) Compare with IDIBAPS (about 2.00 EUR/Gb on 25B) and the Jan 2025 US list prices. 5) Look for other Italian hospital annexes that list NovaSeq 6000 kits in 2025-26.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "An Italian paediatric clinical hospital (OPBG, Rome) was still buying NovaSeq 6000 v1.5 kits in Jan 2026, at near-list prices of about 7.5-9.4 EUR/Gb on the S4.",
+      "detail": "The OPBG annex (CUP B53C22006140001, posted 26 Jan 2026) lists NovaSeq 6000 v1.5 kits only, with no NovaSeq X or 25B lines. Unit prices (currency presumably EUR, not printed) are S1 200-cycle 5,566 (qty 2), S2 200-cycle 10,325 (qty 4), S4 200-cycle 15,067 (qty 4) and S2 100-cycle 8,691 (qty 2). That totals about 130K for 12 kits. On approximate spec output the price per Gb is about 16.7-20.9 (S1), 12.4-15.5 (S2) and 7.5-9.4 (S4), against about 2.0 EUR/Gb for the IDIBAPS 25B tender. This is a 3-4x gap, and it is the high-price, low-volume cohort the thesis says sits in the 41% of consumables revenue.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01-26",
+      "source_name": "Ospedale Pediatrico Bambino Gesù, tender annex (Allegato 01 Illumina)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "This is the first ex-US clinical hospital order for 6000 kits with explicit unit prices in Jan 2026; the known list has only US cores, tenders for X flow cells and Salk list prices."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "The OPBG order is too small to quantify a committed multi-year 6000 tail, which limits how much it supports 1A.",
+      "detail": "The annex shows 2-4 kits per line, about 12 sequencing kits and roughly 130K in total. It states no multi-year term, minimum commitment or cycle count beyond the line items. The 'QUINTA' labels may mean a one-fifth extension (unverified). This looks like a small lab buying at near-list prices, and it shows nothing about how large clinical labs are converting.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01-26",
+      "source_name": "Ospedale Pediatrico Bambino Gesù, tender annex",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "It quantifies how small this clinical 6000 purchase is, so the analyst does not over-read it as evidence of a large committed tail."
+    }
+  ],
+  "new_candidates": [
+    "Sibling OPBG PDF 113019842-0c39e018-ed95-43f1-9026-19aad12be1c2.pdf, which may hold the determina, term and total value",
+    "ANAC BDN / OpenCUP record for CUP B53C22006140001",
+    "Other Italian IRCCS or hospital 'Allegato' tender annexes listing NovaSeq 6000 v1.5 kits in 2025-26"
+  ],
+  "apify_requests": []
+}
+```

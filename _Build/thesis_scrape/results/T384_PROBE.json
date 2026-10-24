@@ -1,0 +1,33 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not reach Ontario Public Accounts, U of Alberta, U of T or McGill payment disclosures that name Illumina Canada. Searches returned none, and I did not open the Ontario Volume 3 PDFs directly. The U of Alberta pages describe procurement thresholds only and do not publish supplier-level payment lists. Searches turned up BC health-authority procurement notices and FIA-style 'Schedule of payments to suppliers' PDFs (Northern Health, Vancouver Coastal). The BC notices give estimated contract values, not payments. I found no payments to Element or Oxford Nanopore. The only new data are small BC contract estimates, which are below the bar for a productive source. The one item below is weak and mostly neutral.",
+  "how_to_mine": "(1) Download the BC Financial Information Act 'Statement of Financial Information' supplier-payment PDFs (threshold $25K) for PHSA, Provincial Health Services Authority, Vancouver Coastal, Fraser, Island Health, UBC, SFU and UVic. Search each for 'ILLUMINA' for FY2019-2025. Also search the same files for 'ELEMENT BIOSCIENCES', 'OXFORD NANOPORE' and 'ULTIMA'. (2) Download Ontario Public Accounts Volume 3 PDFs (ontario.ca/page/public-accounts) for 2019-2025 with pdftotext and grep for 'Illumina'. (3) Check open.canada.ca contract disclosures for CIHR/Genome Canada/PHAC and CanadaBuys award notices for Illumina Canada. These add year-by-year $ trend and direct-award frequency for Canadian public buyers. (4) Watch the PHSA/CanadaBuys notices for any competitive tender that displaces Illumina; that would be the signal that matters.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "A Canadian public cancer research buyer renewed Illumina NovaSeq 6000/X Plus consumables by non-competitive direct award, with no competitor displacing it.",
+      "detail": "PHSA (BC Cancer Research) issued a Notice of Intent to Direct Award to Illumina Canada on 29 Sep 2023 for NovaSeq 6000 and X Plus reagents, consumables and services. It was a one-year non-volume-commitment contract with an estimated value of $4.3M. The stated justification was compatibility with existing systems and Illumina being the sole manufacturer and distributor in Canada. This is a small buyer, and the notice is a 2023 estimate rather than payments. It shows research-lab consumable lock-in rather than price competition, and a single-year, no-commitment term leaves room for repricing.",
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/bcphsa12658",
+      "date": "2023-09-29",
+      "source_name": "CanadaBuys / PHSA tender notice BCPHSA_12658",
+      "source_type": "procurement",
+      "quote": "sole manufacturer and distributor of these platforms in Canada",
+      "strength": "weak",
+      "why_new": "This Canadian provincial direct-award notice with a $ estimate is not in the known procurement set, which has EU tenders and US cores. It is dated 2023, though, and says nothing about pricing."
+    }
+  ],
+  "new_candidates": [
+    "BC Financial Information Act supplier-payment PDFs (PHSA, UBC, Vancouver Coastal, Northern Health): search for Illumina Canada annual payments FY2019-2025, and for Element or ONT.",
+    "CanadaBuys award notices for Illumina Canada (e.g. cw2266238 NextSeq 2000 and 1000 award; bcphsa18743; bcphsa14074): check for competitive awards, price per unit and multi-year values."
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [CanadaBuys: BCPHSA_12658 notice](https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/bcphsa12658)
+- [Northern Health vendor payments 2024-25](https://www.northernhealth.ca/sites/northern_health/files/about-us/reports/financial-accountability/documents/vendor-payments-2024-25.pdf)
+- [CanadaBuys: NextSeq 2000 and 1000 award notice](https://canadabuys.canada.ca/en/tender-opportunities/award-notice/cw2266238)

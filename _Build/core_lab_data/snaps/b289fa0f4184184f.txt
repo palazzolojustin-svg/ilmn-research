@@ -1,0 +1,57 @@
+The Rockefeller University » News and Announcements
+Skip to main content
+The rockefeller university
+Search Input
+Search Submit Button
+Our Scientists
+Overview
+Heads of Laboratories
+Tri-Institutional & Adjunct Faculty
+Research Affiliates
+Postdoctoral Researchers
+Independent Fellows
+Emeritus Faculty
+Faculty Recruitment
+Meet the scientific leaders who are changing medicine
+Research
+Overview
+Research Areas and Laboratories
+Interdisciplinary Centers
+Clinical Research Center
+Scientific Publications
+Technology Transfer
+Scientific Resource Centers
+Translational Research
+Research Policies
+Calendar
+Directory
+Careers
+Give
+Search Toggle Button
+Search Toggle Button
+Search
+Submit
+News and Announcements
+November 26, 2024
+Embracing Innovation in Genomics: Rockefeller University’s Genomics Resource Center Adopts New AVITI Sequencer
+Rockefeller University’s Genomics Resource Center embraces Scientific Innovation with the Introduction of the AVITI Sequencer, Enhancing Precision and Reducing Costs.
+New York, NY – Rockefeller University’s Genomics Resource Center (GRC) has recently introduced the AVITI Sequencer from Element Biosciences. This new sequencer is the first non-Illumina platform to be utilized at the Center, enhancing its technological diversity in sequencing capabilities.
+Dr. Connie Zhao, GRC Director, noted, “The AVITI Sequencer complements our existing tools and aligns with our objectives to boost efficiency and reduce costs, ensuring our researchers have dependable and effective tools at their disposal.”
+The GRC actively updates its Next-Generation (NGS) sequencing tools, starting with the Illumina Genome Analyzer in 2007; over the years, the GRC has acquired the HiSeq 2000, HiSeq 2500, NextSeq 500, NextSeq 2000, and NovaSeq 6000. The AVITI Sequencer leverages Avidity base chemistry and rolling circle amplification (RCA), which are noted for producing reliable sequencing data with high Q30 quality scores and low duplicate and index hopping rates.
+Element’s Freestyle workflow, launched in March 2024, facilitates the direct loading of linear, Illumina-ready libraries via on-board circularization, thus streamlizing the workflow. This feature works with most library types, although certain types like small RNA and PCR-free DNA require custom sequencing primers. Preliminary observations suggest that Illumina stranded mRNA-Seq libraries could show uneven read distributions, which has prompted further assessment of RNA-Seq library preparation kits from other vendors.
+The AVITI sequencer also stands out for its cost-effectiveness, offering significant savings compared to many other platforms and influencing pricing strategies among competitors, including Illumina.
+“We have effectively utilized the AVITI sequencer for a wide array of applications, including DNA-Seq, RNA-Seq, ATAC-Seq, Cut$Run, and single cell sequencing, confirming its versatility and reliability in our research setting,” reported Dr. Zhao.
+Amy Wilkerson, Associate Vice President of Research Support, commented, “Incorporating AVITI technology supports our commitment to equipping our researchers with advanced and reliable resources, helping to maintain a robust research environment.”
+The GRC continues to assess and enhance its technological offerings to support its mission of facilitating cutting-edge genomic research.
+For detailed information on sequencing throughput, cost comparisons, and the technologies available at the Rockefeller University Genomics Resource Center, please visit our website.
+AVITI Sequencer
+Download the image
+Genomics Resource Center
+Overview
+News and Announcements
+Services
+Instruments
+User Fees
+Service Request Form: Sequencing
+Service Request Form: Single Cell
+Service Request Form: Bioanalyzer/Tapestation

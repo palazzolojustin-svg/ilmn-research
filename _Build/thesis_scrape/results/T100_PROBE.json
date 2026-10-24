@@ -1,0 +1,42 @@
+```json
+{
+  "status": "productive",
+  "notes": "Myriad does not report Prequel volume separately. It reports a combined Prenatal Health line (Foresight, Prequel, FirstGene, SneakPeek) in the Q1 and Q2 2026 earnings-release exhibits. Prenatal volume fell 12% y/y in Q1 and 9% in Q2. The prior corpus has only 'Myriad prenatal −9%'. The Q1 figures, the H1 figures and the revenue-per-test erosion are new. Myriad blames its own execution (an order-system change in Q2'25, payer friction), so this is only partly a market-maturity datapoint. I did not obtain 2024 comparatives or call transcripts: the Nasdaq page timed out and the MarketBeat page returned unrelated content. The Q1 numbers are from a search-result snippet, not an opened page.",
+  "how_to_mine": "Open the Q4'24, Q1'25, Q2'25, Q3'25 and Q4'25 earnings-release exhibits (EX-99.1) on EDGAR for CIK 899923 and build a quarterly Prenatal Health volume and revenue series for 2024-26, then compute revenue per test. Q3'26 results are expected in early Nov 2026. Read the Q2'26 call transcript (30 Jul 2026) for the Q&A on payer friction, competition (Natera, BillionToOne, Illumina-based NIPT) and 'more conservative assumptions about average revenue per test'. Check the 10-Q MD&A for the cause of the prenatal revenue-per-test fall.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Myriad's prenatal volume (NIPT/carrier) shrank double digits in H1 2026, a second NIPT-adjacent datapoint showing maturity or share loss.",
+      "detail": "Prenatal Health test volume was 144K in Q2'26 vs 159K in Q2'25 (−9%), and 297K in H1'26 vs 332K in H1'25 (−11%). Q1'26 was 153K vs 173K (−12%) (search snippet of the release). Prenatal revenue fell 16% in both Q2 and H1 ($39.8M vs $47.6M; $81.7M vs $96.9M). Myriad cut FY26 revenue guidance to $770–790M, citing 'lower Prenatal Health test volumes'.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000899923/000089992326000070/ex991mygn-xearningsrelease.htm",
+      "date": "2026-07-30",
+      "source_name": "Myriad Genetics Q2 2026 earnings release (8-K Ex. 99.1)",
+      "source_type": "filing",
+      "quote": "lower Prenatal Health test volumes",
+      "strength": "medium",
+      "why_new": "The known list had only 'Myriad prenatal −9%'. This adds Q1 −12%, H1 −11%, absolute volumes and the revenue decline."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Prenatal revenue per test is falling at Myriad, so NIPT volume is shrinking and pricing is eroding at the same time.",
+      "detail": "Prenatal revenue fell about 16% against a volume decline of 9–11%, so revenue per test fell roughly 6–7% in Q2'26. In Q2'26 revenue per test was about $276 vs about $299 a year earlier. Management said guidance now assumes 'more conservative assumptions about average revenue per test'. Management attributes part of the volume weakness to payer friction and a Q2'25 order-system change, so some of this is company-specific rather than market-wide.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000899923/000089992326000036/ex991mygn-xearningsrelease.htm",
+      "date": "2026-07-30",
+      "source_name": "Myriad Genetics Q1 and Q2 2026 earnings releases",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a revenue-per-test calculation on a prenatal peer. The corpus has no Myriad prenatal pricing datapoint and no read-through on prenatal Gb demand."
+    }
+  ],
+  "new_candidates": [
+    "Myriad 10-Q Q2'26 MD&A on the prenatal revenue-per-test decline",
+    "Myriad Q2'26 call transcript Q&A on prenatal competition",
+    "Myriad 2024-25 quarterly prenatal volumes, for the trend"
+  ],
+  "apify_requests": []
+}
+```

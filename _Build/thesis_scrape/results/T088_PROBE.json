@@ -1,0 +1,46 @@
+```json
+{
+  "status": "productive",
+  "notes": "I only ran two search-snippet lookups. I did not open EDGAR or the filings, so nothing was verified against a 10-Q. The Q1'26 and Q2'26 headline volume and revenue figures come from GeneDx's own releases, as shown in search snippets. The Q2'26 volume (30,785, +32%) was already known. New here are the Q1'26 data point, the revenue-per-test arithmetic, the Q3'26 guide and the FY26 guide. The 2024-25 quarterly series, the WGS share of mix and the platform/cost commentary are still untabulated.",
+  "how_to_mine": "1) Open the GeneDx IR releases for Q1'24 to Q4'25. The URL pattern is ir.genedx.com/news-releases. The Q1'26 and Q2'26 releases are at secure.businesswire.com/news/home/20260504673812 and /20260803559557. Tabulate quarterly exome and genome volume, y/y growth, exome and genome revenue and revenue per test. 2) In the 10-Q and 10-K MD&A, find the genome versus exome mix, the 'ultraRapid' NICU share, and any cost-of-revenue or sequencing-reagent commentary. Search the filings for 'NovaSeq', 'Illumina', 'sequencing', 'cost per test' and 'reimbursement'. The 10-K supply-agreement risk factor may name Illumina. 3) Read the Q1'26 call transcript (insidermonkey.com) for the reason behind the guidance cut. Check whether it was reimbursement, clinician ordering or NICU adoption rather than sequencing cost. That is direct evidence for the 1C 'non-sequencing constraints' argument.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "GeneDx's exome and genome revenue is growing much more slowly than its volume, so revenue per test is falling.",
+      "detail": "Q2'26 exome and genome volume was 30,785 (+32% y/y) but exome and genome revenue was $100.3M (+17%), so revenue per test fell about 11% y/y (our calc). Q1'26 volume was 27,488 (+34%) against revenue of $90.6M (+27%), about −5% per test. This is GeneDx's own price and mix deflation. It shows even the largest US clinical exome/genome lab is not turning volume into proportionate dollars. That fits the thesis that large clinical accounts push for $/test and $/Gb cuts, and the lab reinvests only part of any sequencing savings. The release does not say whether the cause is payer mix, genome mix or a customer sequencing price. Adjusted gross margin was 70% versus 71% a year earlier.",
+      "url": "https://secure.businesswire.com/news/home/20260803559557/en/GeneDx-Reports-Second-Quarter-2026-Financial-Results",
+      "date": "2026-08-03",
+      "source_name": "GeneDx Q2 2026 earnings release (Business Wire); Q1 2026 release",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The Q2'26 32% volume figure is known. The quarterly revenue-per-test arithmetic and the Q1'26 27,488 data point are not."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "The largest US clinical exome/genome lab guides to a volume slowdown, with Q3'26 volume of 33,200 tests and FY26 growth of at least 30%.",
+      "detail": "GeneDx cut its FY26 revenue guide in May 2026 to $475-490M and reiterated it in August, with exome and genome volume growth of 'at least 30%'. Q3'26 guidance is 33,200 tests, only about +8% q/q from 30,785. Y/y growth ran 34% in Q1 and 32% in Q2. Revenue missed the Street by about $10M in Q1 (Seeking Alpha summary). Test growth near 30% is a rare-disease volume engine, but it is a single customer. It is a modest tailwind for Illumina clinical Gb, and roughly a third of its growth is price-offset. The release does not name the cause of the May guide cut, and the call transcript should be read for it.",
+      "url": "https://secure.businesswire.com/news/home/20260504673812/en/GeneDx-Reports-First-Quarter-2026-Financial-Results-and-Updates-Full-Year-Outlook",
+      "date": "2026-05-04",
+      "source_name": "GeneDx Q1 2026 earnings release; Q2 2026 release (guidance section)",
+      "source_type": "filing",
+      "quote": "exome and genome volume growth of at least 30%",
+      "strength": "weak",
+      "why_new": "The Q3'26 volume guide (33,200) and the FY26 guide cut are not in the known list. Only Q2 test growth is."
+    }
+  ],
+  "new_candidates": [
+    "GeneDx 10-K FY25 supply-agreement and risk-factor text on Illumina pricing and platform",
+    "GeneDx Q1'26 call transcript (insidermonkey.com) for the reason behind the guidance cut and any non-sequencing constraints",
+    "GeneDx Q1-Q4'24 and 2025 releases for the full volume and revenue-per-test series"
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [GeneDx Q2 2026 results](https://secure.businesswire.com/news/home/20260803559557/en/GeneDx-Reports-Second-Quarter-2026-Financial-Results)
+- [GeneDx Q1 2026 results](https://secure.businesswire.com/news/home/20260504673812/en/GeneDx-Reports-First-Quarter-2026-Financial-Results-and-Updates-Full-Year-Outlook)

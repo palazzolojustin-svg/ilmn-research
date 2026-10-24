@@ -1,0 +1,52 @@
+Services & rates | Microbiome Core - Holden Comprehensive Cancer Center | The University of Iowa
+Skip to main content
+The University of Iowa
+Holden Comprehensive Cancer Center
+Microbiome Core
+Search
+Submit Search
+Search
+Site Main Navigation
+Home
+Breadcrumb
+Home
+Services & rates
+Monday, January 1, 2024
+2026 Prices | Internal Rate | External Rate |
+Sample collection and storage | $36/per project | $45.5/per project |
+DNA isolation and quantification | $24/per sample | $29.4/per sample |
+Library preparation | $14/per sample | $17.4/per sample |
+| | |
+Element AVITI24 | | |
+Library prep and sequencing4 | Internal rate | External rate |
+Small batch
+| <92: $45/per sample 5 | $56.3/per sample 5 |
+Medium batch
+| 93-188: $35/per sample | $44.3/per sample |
+Large batch
+| 190-284: $28/per sample | $34.7/per sample |
+XL batch
+| 285-380: $24/per sample | $30.3/per sample |
+| | |
+| Internal Rate | External Rate |
+Initial analysis (Abundance Species Table (ASV) only)³ | $590/per project | $738/per project |
+Illumina MiSeq | Important: Illumina MiSeq will be discontinue after Feb 1st 2026 |
+Library prep and sequencing² | Internal rate | External rate |
+| <80-100: $46/per sample ¹ | $57.5/per sample ¹ |
+| 100-120: $40/per sample | $49.5/per sample |
+| 120-140: $35/per sample | $44.1/per sample |
+(1) MiSeq: Expect a longer turnaround time if submitting less than 80 samples. To expedite the project with less than 80 samples, additional charges will be applied.
+(2) MiSeq: Up to 140 samples per sequencing run.
+(3) Further analysis, $107 per hour. The duration of analysis will vary depending on the complexity of the cohort. Please note that the exact timeframe for completion cannot be determined until the further analysis is concluded.
+(4) Element AVITI24: Expect a longer turnaround time if submitting less than 92 samples.
+(5) Element AVITI24: Up to 380 samples per sequencing run.
+Note: If submitting DNA instead of biospecimens, an additional charge of $3.62 per sample (external price: $4.53 per sample) will be applied for DNA quantification.
+|
+|
+The University of Iowa
+Microbiome Core
+Holden Comprehensive Cancer Center
+Iowa City, Iowa 52242
+319-335-3500
+Admin Login
+© 2026 The University of Iowa

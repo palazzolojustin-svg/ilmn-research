@@ -1,0 +1,163 @@
+```json
+{
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "A hospital's 6000-only annual kit order would lose roughly half or more of its Illumina revenue if it moved to X 25B pricing, so the tail's remaining dollars are exposed to any conversion.",
+      "detail": "The annex prices an indicative annual order of 2 S1-200 (EUR 5,566 each), 4 S2-200 (10,325), 4 S4-200 (15,067) and 2 S2-100 (8,691). That is 12 NovaSeq 6000 flow cells and EUR 130,082 (11,132+41,300+60,268+17,382). By Illumina's spec as I recall it (not re-verified here: S1 1.3–1.6B, S2 3.3–4.1B, S4 8–10B reads), that is about 54–68B clusters a year, or EUR 1.9–2.4 per million. The already-known 25B price of $0.68–0.97 per million clusters would price the same volume at about $37–66K. That is a 50–75% revenue cut if EUR≈USD or EUR=1.15 USD. The currency is not printed on the annex; EUR is presumed. This is one small account, not a company-wide estimate.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01-26 (posting date; capitolato signed 2025-11-27)",
+      "source_name": "Ospedale Pediatrico Bambino Gesù (Rome), Allegato 1, CUP B53C22006140001",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "The known list gives only OPBG's S4 per-Gb range (F826). This adds the full four-kit price ladder, annual quantities and the account-level cost of converting to X."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "A low-volume hospital 6000 owner has little reason to convert, since its whole annual volume fits in about two X 25B flow cells, so part of the tail may never move.",
+      "detail": "The annex spend on 6000 kits is EUR 130K a year. That is about 19–22% of the derived company-wide 6000 pull-through of $670–700K per instrument (EUR≈USD to EUR=1.15 USD). The 54–68B clusters a year is roughly two 25B-class flow cells. Conversion would need an X Plus (about $1M, my assumption). The infungibility report of 6 May 2025 says the NovaSeq 6000 is 'already present' and that RNA workflows run on NextSeq 500/550 plus the 6000. This matches Thaysen's 'low-volume never-convert' cohort. It cuts against the thesis that the remaining 6000 volume converts on a roughly five-point-a-year path.",
+      "url": "https://img.ospedalebambinogesu.it/images/2025/12/01/170712615-29493de4-e17b-4fdf-96b0-64956a066e51.pdf",
+      "date": "2025-05-06",
+      "source_name": "OPBG, Relazione di infungibilità prodotti Illumina Italy Srl (PNC project)",
+      "source_type": "procurement",
+      "quote": "infungibili perché destinati esclusivamente all'utilizzo su piattaforma NovaSeq6000 già presente in OPBG",
+      "strength": "medium",
+      "why_new": "The known list has the cohort-1 label but no account-level pull-through ratio from a procurement record."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "A small public hospital buying sole-source for its installed 6000 pays near the top of the price range, with no visible discount acceleration.",
+      "detail": "OPBG's S4 v1.5 200-cycle price is EUR 15,067 in the Nov 2025/Jan 2026 annex. A search snippet of two MDC Berlin price documents (undated, probably older) shows EUR 12,956.90 and EUR 13,341.90, so OPBG pays 13–16% more. The UConn rate sheet (Jan 2025, internal rate) shows $14,879. The purchase is justified as technically 'infungible' under art. 76(4)(b), so no rival or competing quote exists. This suggests small accounts are not where extra discounts are being granted.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01",
+      "source_name": "OPBG annex; MDC Berlin price lists and UConn rate sheet (search snippets)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has OPBG's per-Gb range but not the comparison with other European and US published S4-200 prices, or the sole-source basis."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "The 6000 price ladder is steep inside the platform: per-cluster cost on the S4 is about 55% below the S1, so tail customers on small flow cells are the highest-price volume.",
+      "detail": "Using the spec read counts above, per million clusters: S1-200 EUR 3.5–4.3, S2-200 EUR 2.5–3.1, S2-100 EUR 2.1–2.6 and S4-200 EUR 1.5–1.9. S4 at the midpoint (1.70) against S1 at the midpoint (3.88) is a 56% drop. Against the UBS 25B figure of $0.68 per million clusters, S4 is about 2.2–2.8x. That matches the 2.45–2.82x Open Offer-based gap (F539) and falls below the roughly 3.4x revenue-per-Gb ratio. Small-flow-cell tail users therefore pay far above X rates per Gb, which supports the thesis that tail volume carries disproportionate revenue.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01",
+      "source_name": "OPBG Allegato 1 (page 3, unit prices); my derivation",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new full-ladder per-cluster derivation. Prior items cover only the S4 and the Open Offer gap."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "A hospital buyer's annual sequencing quantities are explicitly non-binding, so any Illumina volume at this kind of account carries no committed floor.",
+      "detail": "The capitolato (signed 27 Nov 2025) calls the quantities the 'presumed annual need', 'indicative and non-binding'. Illumina Italy must supply only what individual purchase orders request. The same wording appears in all five OPBG capitolati read (2024–2026). It sits alongside the known 90-day exits and no-minimum clauses at large US accounts. It shows that low-commitment contracts are the norm at the small end too. Volume can drop without penalty if research grants run out.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113019842-0c39e018-ed95-43f1-9026-19aad12be1c2.pdf",
+      "date": "2025-11-27",
+      "source_name": "OPBG, Capitolato tecnico (Illumina consumables, CUP B53C22006140001)",
+      "source_type": "procurement",
+      "quote": "sono indicativi e non impegnativi",
+      "strength": "weak",
+      "why_new": "The known list covers commitments at large US customers only; this adds the public hospital contract form."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "OPBG's Illumina research purchases are funded entirely by time-limited grants, which makes 2027 research demand at Italian hospital units exposed to the end of the EU recovery-fund programme.",
+      "detail": "The five OPBG capitolati read (Oct 2024–Jun 2026) all cite grant CUP codes: the PNC fund (DD 931 of 6 Jun 2022, CUP B53C22006140001) and PNRR M6C2 I2.1 (CUPs E83C22006360001, E83C24000770006 and E83C24000800006). None cites ordinary budget. A search snippet says the Commission's last PNRR payment request evaluation ends 30 Nov 2026, with the last instalment by 31 Dec 2026. Project-specific end dates were not verified. Reagent buying may be pulled forward into the funded window, with a cliff after.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/06/09/103523504-2aa63178-814c-4a5f-a3a5-e6bd0d6a52fc.pdf",
+      "date": "2026-03-25 (signed); published 2026-06-09",
+      "source_name": "OPBG capitolati; PNRR timeline from search snippet",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list covers US/UK/Canada funding but not Italian PNRR/PNC grant dependence of research consumables."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "One OPBG research unit moved from NextSeq 500/550 kits to NextSeq 2000 kits within about 12 months, so mid-throughput legacy conversion continues at hospitals.",
+      "detail": "Under CUP E83C24000800006 (Predictive Molecular Pathology unit), the capitolato signed 14 Mar 2025 buys NextSeq 500/550 Mid Output v2.5 (300 cycles) and High Output v2.5 (150 cycles) kits. The one signed 25 Mar 2026 buys NextSeq 1000/2000 P2 XLEAP-SBS 200 and 300 cycle kits. A separate unit (CUP E83C24000770006, signed 26 Mar 2025) still bought NextSeq 500/550 High Output v2.5 plus MiSeq kits. The XLEAP cut of 20–36% per read (F548) therefore reaches installed bases only as units convert. Prices were not in these two documents.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/06/09/103523504-2aa63178-814c-4a5f-a3a5-e6bd0d6a52fc.pdf",
+      "date": "2025-03-14 to 2026-03-25",
+      "source_name": "OPBG capitolati tecnici (three documents)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has no hospital-level dated NextSeq 500/550-to-2000 migration."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina's winning offers on small sole-source hospital buys land well below the hospital's own ceiling, which shows some concession even without competition.",
+      "detail": "A search snippet of an OPBG technical-congruity act (CUP E83C24000770006, Aug 2025) records an Illumina Italy offer of EUR 24,544.50 against a ceiling of EUR 28,368.00. That is 13.5% below the ceiling (1−24,544.5/28,368). I did not open that document, so this is snippet-level. It fits budgets set above the final price (F714), not true price deflation.",
+      "url": "https://img.ospedalebambinogesu.it/images/2025/08/08/143035367-801302a5-2cbf-401f-8bbf-fadde1c9cc66.pdf",
+      "date": "2025-08",
+      "source_name": "OPBG, atto di congruità tecnica (search-result snippet)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has Taiwan and Spain budget-versus-award gaps but no Italian hospital example."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Sequencing is only about half of a hospital research unit's Illumina bill, which fits the view that cost is not the only constraint on volume.",
+      "detail": "The annex total is EUR 247,940: 6000 kits EUR 130,082 (52.5%), RNA total prep EUR 28,879 (4×7,219.80), RNA indexes EUR 1,422, MethylationEPIC arrays EUR 70,168 (10×7,016.82) and FFPE restore EUR 17,389. Arrays and library prep make up 47.5%. The line labels 'QUINTA' (160,383) and 'MASTRO' (87,557) are unexplained and probably are unit leads' surnames (my guess). Array-based epigenetics does not scale with sequencing Gb. This supports the idea that research budgets spread across prep and arrays, and does not show sequencing volume driving spend.",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/01/26/113054540-40a836e1-b4f2-4e33-9ff3-9f07b8357c00.pdf",
+      "date": "2026-01",
+      "source_name": "OPBG Allegato 1, page 3",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has workflow-cost shares from experts but no actual procurement bill split."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The five OPBG PDFs fetched (annex, capitolato, infungibility report, two NextSeq/MiSeq capitolati) are fully read. Only the Jan 2026 annex had unit prices. Not found: award values, ANAC BDNCP or OpenCUP records, or procedure type beyond sole-source infungibility. Search snippets mention OPBG PDFs dated 2025/04/28, 2026/03/18, 2026/03/31, 2025/08/08 (143035367) and 2024/10/17 (123830500) that I did not open. The Read tool rendered the PDFs, but I had no shell for pypdf. Read-count specs for S1/S2/S4 were quoted from memory, not re-verified. EUR/USD was treated as roughly 1.0–1.15, and EUR is presumed since the annex does not print the currency.",
+  "leads": [
+    {
+      "name": "OPBG other Illumina capitolati/atti (2025/04/28, 2026/03/18, 2026/03/31, 2025/08/08, 2024/10/17)",
+      "url": "https://img.ospedalebambinogesu.it/images/2026/03/18/092107046-675edad1-b1b6-45b9-a3a1-16b409106440.pdf",
+      "access": "Public PDFs on img.ospedalebambinogesu.it; text via the Read tool, no login",
+      "labels": ["1A", "1B"],
+      "rationale": "May hold offers and prices for NovaSeq or X kits and the congruity act with Illumina offer versus ceiling."
+    },
+    {
+      "name": "CRS4 (Sardinia) NovaSeq X Plus contract",
+      "url": "https://www.crs4.it/repository/documents/trasparenza/site/bandigara/contratti/contratto_illumina_novaseq_x_plus_sequencing_system.pdf",
+      "access": "Public PDF",
+      "labels": ["1B", "1A"],
+      "rationale": "An Italian public-body X Plus contract may show instrument price, reagent commitments and whether it replaced a 6000."
+    },
+    {
+      "name": "Neuromed IRCCS 'Scheda materiali' (Nov 2023)",
+      "url": "https://www.neuromed.it/wp-content/uploads/2023/11/9_Scheda-materiali.pdf",
+      "access": "Public PDF",
+      "labels": ["1A", "1B"],
+      "rationale": "An Italian IRCCS materials sheet that may list 6000 kit prices for a 2023-to-2026 comparison."
+    },
+    {
+      "name": "MDC Berlin price lists (media/39029 and media/38662)",
+      "url": "https://www.mdc-berlin.de/media/39029",
+      "access": "Public PDFs",
+      "labels": ["1A", "1B"],
+      "rationale": "S4-200 EUR 12,956.90 and 13,341.90 appear in snippets. Opening them would fix dates and show the 6000 price path."
+    },
+    {
+      "name": "ANAC BDNCP / OpenCUP / OpenCoesione for CUP B53C22006140001",
+      "url": "https://www.anticorruzione.it/",
+      "access": "Public portals, needs search by CUP",
+      "labels": ["1A", "2A"],
+      "rationale": "Could give project value, end date and award amounts for a grant-funded 6000 tail account."
+    }
+  ],
+  "apify_requests": []
+}
+```

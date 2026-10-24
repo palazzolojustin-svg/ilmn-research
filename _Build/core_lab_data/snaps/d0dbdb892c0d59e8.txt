@@ -1,0 +1,57 @@
+GENOMICS & CELL CHARACTERIZATION CORE FACILITY 
+131 8 Fran kl in B lvd. R oo m 27 6,  Eugen e OR 9 740 3  
+T (541 ) 34 6 -51 70   http:// gcf.uoregon .edu  
+An equal-opportunity, affirmative-action institution committed to cultural diversity and compliance with the Americans with Disabilities Act
+March 31, 2020 
+Memorandum to: Genomics and Cell Characterization Core Facility (GC3F) Users 
+From:   Doug Turnbull, Director Genomics and Cell Characterization Facility 
+(GC3F) and GC3F Faculty Advisory Committee 
+CC: David Conover, Vice President for Research and Innovation (VPRI) 
+Fred Sabb, Assistant Vice President for Research Facilities 
+Melodi Jayne, Business Manager, Research Core Business Services, 
+(RCBS) 
+Re: FY 2021 sequencing rate adjustments 
+The Genomics and Cell Characterization Core Facility (GC3F) annually adjusts its sequencing rates 
+after carefully reviewing costs and facility usage levels with the help of the Research Core Business 
+Services (RCBS) team.  The rates were recently reexamined by the GC3F and RCBS, and we 
+determined that they are in line with RCBS financial projections and do not require radical change 
+at this time.    
+Unfortunately, both Illumina and PacBio have raised prices for some sequencing reagents in recent 
+months, necessitating a small increase in GC3F sequencing rates in order to recover the costs of 
+operating the core facility over the next fiscal year. 
+After a year of operating all of the shared microscopes and image analysis workstations in the 
+GC3F imaging suite, we have gathered sufficient usage data to set rates that will recover the costs 
+of operating these instruments.  While higher than the initial flat $10/hour rate that was set at the 
+launch of the facility, the new rates are still lower than those of other academic imaging core 
+The adjusted sequencing rates are listed on pages two and three of this memo.  If you have any 
+questions regarding our new rates, please don’t hesitate to send an email to dturnbul@uoregon.edu 
+or call 541-346-5170. 
+  - 2 -  
+Service Internal Rate External Rate 
+HiSeq 4000 SR 75 $809 $1253 
+HiSeq 4000 SR 100 $957 $1484 
+HiSeq 4000 SR 150 $1105 $1713 
+HiSeq 4000 PE 2x75 $1384 $2145 
+HiSeq 4000 PE 2x100 $1531 $2373 
+HiSeq 4000 PE 2x150 $1819 $2820 
+NextSeq 500 MO SR 150 $1,175 $1,809 
+NextSeq 500 MO PE 2x75 $1,175 $1,809 
+NextSeq 500 MO PE 2x150 $1,883 $2,900 
+NextSeq 500 HO SR 75 $1,574 $2,425 
+NextSeq 500 HO PE 2x37 $1,574 $2,425 
+NextSeq 500 HO SR 150 $3,016 $4,644 
+NextSeq 500 HO PE 2x75 $3,016 $4,644 
+NextSeq 500 HO PE 2x150 $4,822 $7,427 
+MiSeq Nano PE 2x150 $344 $527  
+MiSeq Nano PE 2x250 $413 $634  
+MiSeq Micro PE 2x150 $522 $800  
+MiSeq v2 SR 50 $969 $1,487 
+MiSeq v2 PE 2x250 $1,382 $2,121 
+MiSeq v3 SR 150 / PE 2x75 $1,066 $1,635 
+MiSeq v3 PE 2x300 $1,764 $2,732 
+PacBio Sequel II SMRT cell $1,544 $2,162 
+  - 3 -  
+FY21 Imaging suite rates    
+ New hourly rate   
+GE DeltaVision Ultra  $20  
+Leica SPE $20  

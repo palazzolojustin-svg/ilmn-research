@@ -1,0 +1,28 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not confirm the €4.14/Gb, €2,141.08 lane or €19,337.80 kit figures from INCLIVA. WebFetch and Read could not decode the compressed PDF, and I have no shell here to run pypdf or pdftotext. Two search-result extracts of the 2026 PDF show only extraction, QC and library-prep lines, for example a WGS/metagenome library at €84.00 (A), €100.80 (B) and €151.20 (C), and TSO500 DNA+RNA at €2,399.78 (A). They state that sequencing is not included unless specified. That fits the second summary (library prep only), but the search tool's extract was cut off mid-sentence. INCLIVA's 2023 and 2024 platform documents list MiSeq and NextSeq, not NovaSeq X. A NovaSeq X 25B line at INCLIVA looks unlikely, and the original snippet may have come from a different institution. A separate public Spanish tariff did turn up: Universitat de Lleida's 2026 sheet, with the 25B-lane price tiers listed below. I could not verify those figures myself, because the UdL PDF was also undecodable and the numbers come from a search-tool summary. No 2025 INCLIVA sibling file was found, so there is no y/y comparison.",
+  "how_to_mine": "Run pdftotext -layout (or python -I with pypdf) on the saved INCLIVA PDF and grep for 'NovaSeq', '25B', 'lane', 'Gb' and 'secuenci'. If INCLIVA has no sequencing lines, drop it. Run the same extraction on the UdL PDF (Tarifas_Proteomica_i_Genomica_20260714.pdf) and read the 25B, 10B, 1.5B, NextSeq and MiSeq rows and their tiers. Search for a prior-year UdL or SCTS tariff for the y/y change. Try other Spanish and Catalan core tariffs the same way (UB-CCiTUB, CRG, IRB, CNIO, IDIBELL, Genyo).",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Universitat de Lleida's 2026 tariff reportedly prices a NovaSeq X 25B lane at €3,096 to €4,087 depending on tier, about €3.44 to €4.54 per Gb.",
+      "detail": "A search-tool summary of the UdL sheet (file saved 14 Jul 2026, prices ex-VAT) lists a 25B 150PE lane of 900 Gb at €3,095.80, €3,591.13 and €4,087.13 across three tiers. I could not decode the PDF myself, so this is unverified. If correct, the Spanish academic spread is about 32% from the first to the third tier, and the first tier is well above the IDIBAPS tender of about €2.00/Gb and CIBER's about €12,800 per flow cell. That would show how far small-institute prices sit above large-account prices. The €/Gb figures are the search tool's arithmetic on a 900 Gb lane (the 900 Gb figure is as reported by the tool; not checked).",
+      "url": "https://www.recercaitransferencia.udl.cat/export/sites/Recerca/ca/.galleries/SCTS/Tarifas_Proteomica_i_Genomica_20260714.pdf",
+      "date": "2026-07-14",
+      "source_name": "Universitat de Lleida SCTS tariff (search-result snippet only)",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The UdL tariff is not in the list of core rate cards already used, and it is a Spanish small-institute 25B price point."
+    }
+  ],
+  "new_candidates": [
+    "Universitat de Lleida SCTS 2026 tariff PDF (full extraction of the 25B, 10B, 1.5B and NextSeq rows): https://www.recercaitransferencia.udl.cat/export/sites/Recerca/ca/.galleries/SCTS/Tarifas_Proteomica_i_Genomica_20260714.pdf",
+    "Spanish and Catalan genomics-core tariffs (CCiTUB, CRG, IRB, CNIO, Genyo) for 2025 vs 2026 25B lane prices"
+  ],
+  "apify_requests": []
+}
+```

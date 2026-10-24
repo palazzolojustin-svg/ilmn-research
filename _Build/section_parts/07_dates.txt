@@ -1,0 +1,39 @@
+2021-01-01 :: Daisy Lab expert leaves University of Auckland genomics core (month only).
+2022-01-01 :: NovaSeq X released, per experts (year only).
+2023-01-01 :: Illumina layoff wave, per former FAS (year only).
+2024-01-01 :: Illumina layoff wave and stock near $40, per former FAS (year only).
+2024-10-01 :: Former Illumina FAS leaves Illumina (month only).
+2025-01-01 :: Fluent BioSciences acquisition closes, early 2025 (approx.).
+2025-02-01 :: Former Roche SBX base-caller engineer leaves Roche (month only).
+2025-07-01 :: Former Illumina associate director leaves Illumina (month only).
+2025-08-01 :: Former Illumina senior architect leaves after AI query tool reaches pre-alpha (month only).
+2025-11-01 :: Natera acquires Foresight Diagnostics, per expert (approx.).
+2026-01-15 :: Tegus call with former Illumina senior manager (estimated date).
+2026-06-01 :: Illumina launches StrataMap spatial product (month only).
+2026-06-01 :: Illumina announces 35B NovaSeq X flow cell, per expert (month only).
+2026-06-30 :: Roche SBX launches as research use only, end of June (approx.).
+2026-07-20 :: Tempus acquires Personalis, per Natera expert (approx.).
+2026-07-22 :: Natera expert and University of Arizona core calls.
+2026-07-23 :: Daisy Lab, former Illumina AD and ML scientist calls.
+2026-07-24 :: Former Illumina AD, former FAS and synthetic biology head calls.
+2026-07-25 :: LifeStrands Genomics lab director call.
+2026-07-27 :: Former Roche engineer and former Illumina architect calls.
+2008-01-01 :: Oxford Nanopore expert joins Illumina (early 2008, approximate), staying about six years
+2020-01-01 :: Illumina acquires an ARUP spin-out clinical sequencing start-up (year only)
+2021-06-01 :: PacBio segment lead leaves Illumina (Senior Health Analytics Manager), June 2021
+2024-09-01 :: Former Illumina Associate Director leaves Illumina; clinical was 52% of revenue at that point (month only)
+2024-12-01 :: Expert recollection: Illumina launches long-read offering around end-2024 / J.P. Morgan conference (approximate)
+2025-01-01 :: Roche first speaks publicly about its SBX sequencer at AGBT (January 2025, approximate)
+2025-01-01 :: NIH caps indirect costs, sharply cutting academic instrument funding (2025, per PacBio expert; year only)
+2025-11-01 :: Oxford Nanopore expert pitches Roche at AMP on running an MRD test on AXELIOS (November 2025, approximate)
+2026-07-01 :: Roche commercially launches AXELIOS (RUO version) in July 2026 (month only)
+2026-07-29 :: Expert calls: Roche UK precision medicine lead; Abbott senior scientist
+2026-07-30 :: Expert calls: South Carolina core director; former Illumina staff scientist
+2026-07-31 :: Channel checks: Georgia core director; VP at the largest academic genome center
+2026-08-03 :: Expert call: PacBio human-genomics segment lead (ex-Illumina)
+2026-08-05 :: Expert call: former Illumina medical-affairs scientist now at Roche
+2026-08-06 :: Expert call: former Illumina Associate Director now at Kailos Genetics
+2026-10-01 :: Expert call (date estimated): Oxford Nanopore senior director on Roche AXELIOS threat
+2026-10-10 :: Expert call (date estimated): Brigham and Women's single-cell specialist on AXELIOS vs Illumina
+2027-01-01 :: Illumina 35B flow cell expected (January 2027, per genome center VP)
+2027-01-01 :: Next J.P. Morgan conference, cited as when clinical labs should be evaluating long-read alternatives (approximate)

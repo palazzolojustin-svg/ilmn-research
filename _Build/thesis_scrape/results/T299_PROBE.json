@@ -1,0 +1,16 @@
+Wrapping up the probe: four searches and one page fetch found no core listing a 35B price, so I'm returning the result as dry.
+
+```json
+{
+  "status": "dry",
+  "notes": "Searches for 2026 NovaSeq X 35B rates at .edu cores and service providers found no listing of a 35B flow cell, so no 35B vs 25B comparison is possible. Illumina's roadmap shows the 35B as future (H1 2027) and cores list only 1.5B, 5B, 10B and 25B. I opened the UC Berkeley QB3 rates page (effective after 1 Jun 2026). It lists no 35B, and it shows 25B 150PE at $2,600 (UC), $2,860 (affiliate) and $2,990 (external) for a spec of 875 Gb. That is ~$2.97/Gb on spec, or ~$2.3-2.4/Gb if the 25-30% over-spec yield the page mentions is realized. The Berkeley 10B 150PE lane is $1,535 for 375 Gb (~$4.09/Gb). That puts the 10B to 25B step at about -27% per Gb. This is consistent with the known -24% to -37% range, so it is not new. Nothing here materially updates the known 25B core-price list. The rest of the search snippets (UConn, TxGen, Northwestern, Utah, Pitt, CWRU, Salk, Dana-Farber, Novogene) were already covered. I did not open them individually, so they were not rechecked. Prices there are all 25B.",
+  "how_to_mine": "Re-run after the 35B ships (expected H1 2027, so after the Q3'26 print is not enough). Search each core's rate card for '35B' and record per-lane price, spec Gb and effective date. Priority cores: UCSF CAT, Broad Clinical Labs, Novogene, Texas A&M TxGen, Northwestern NUSeq, UConn, Harvard Bauer. For each, compute $/Gb for 35B and 25B and the percentage gap. Also check Illumina order-page SKUs on distributor sites (Government Scientific Source, Fisher) for a 35B part number. Until then, monitor the Illumina roadmap page and press releases for a launch date.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "UC Berkeley QB3 genomics rates page (qb3.berkeley.edu/facility/genomics/rates): its NovaSeq X lanes are now sent to UCSF CAT (change made summer 2026), so re-check CAT's rate card for a 35B listing when it launches",
+    "Distributor SKU pages (Government Scientific Source, Fisher) for a 35B flow-cell part number and list price, once Illumina releases it"
+  ],
+  "apify_requests": []
+}
+```

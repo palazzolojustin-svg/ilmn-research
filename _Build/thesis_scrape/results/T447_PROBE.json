@@ -1,0 +1,55 @@
+```json
+{
+  "status": "productive",
+  "notes": "The Workday site (illumina.wd1.myworkdayjobs.com) returned nothing readable through WebFetch because it is JavaScript-rendered. A web search found one relevant Illumina posting, and a mirror (resumegeni.com) gave the full text. The posting's own language is generic: it names no competitors and does not mention discounts or large accounts. The new fact is organizational: a new 'Enterprise Pricing and Financing' function was being built as of Jun 2026. Searches found no Illumina deal desk, competitive intelligence or key-account roles. I did not open the xtalks mirror (404). I made 4 tool calls.",
+  "how_to_mine": "Search the Workday site's JSON endpoint (/wday/cxs/illumina/<site>/jobs, a POST with searchText such as 'pricing', 'commercial finance', 'revenue management', 'key account', 'competitive'). It is public, but it needs a script or browser because WebFetch cannot render it. Alternatively, search the aggregators (resumegeni, xtalks, builtin, linkedin public pages) for 'Illumina Enterprise Pricing and Financing' to find sibling roles such as Sr. Director, Pricing Analyst and Financing/Leasing. Record posting dates and count them. Also check for any Roche, Element or Ultima commercial hiring to compare.",
+  "difficulty": "hard",
+  "items": [
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Illumina was building a new enterprise-level pricing and financing function in mid-2026, including consumption and performance pricing models and segmentation by customer tier.",
+      "detail": "A job posting dated 28 Jun 2026 for an Associate Director, Pricing Transformation says the person will help build Illumina's 'new Enterprise Pricing and Financing function'. The function is to cover pricing options across ownership, consumption and performance models. The role reports to a Sr. Director, Enterprise Pricing and Financing, and the duties include customer segmentation by region, customer type or tier, or channel. They also include pricing governance (approval workflows and compliance monitoring) and a pricing process for new products, using competitive intelligence to evaluate scenarios. This fits the move toward application-specific and tiered pricing and a reframe from $/Gb. The posting itself does not mention discounts, large accounts, or Element, Ultima or Roche. It is circumstantial support only.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "Illumina job posting (resumegeni mirror)",
+      "source_type": "jobs",
+      "quote": "new Enterprise Pricing and Financing function",
+      "strength": "weak",
+      "why_new": "Prior notes list competitor job postings only; this is a dated Illumina pricing-function build-out (see F181) with segmentation and governance duties."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "The posting asks for a 15+ year pricing leader and formal pricing governance with approval workflows, which suggests discount control is being centralized.",
+      "detail": "The role requires 15+ years of experience in pricing, finance business partnering or commercial operations, and the ability to influence executives across a matrixed organization. It also covers maintaining approval workflows and compliance monitoring, and it frames pricing as 'ownership, consumption, and performance' models. This is consistent with management's statement that it will not do global pricing and will price emerging tests separately. The posting gives no sign of the scale or timing of any discounting. It could equally mean tighter discipline.",
+      "url": "https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego",
+      "date": "2026-06-28",
+      "source_name": "Illumina job posting (resumegeni mirror)",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds the specific governance and seniority detail of the pricing build-out, which the known list lacks."
+    }
+  ],
+  "new_candidates": [
+    {
+      "id": "S-NEW-1",
+      "name": "Illumina Workday CXS JSON endpoint for pricing, commercial finance and key-account roles",
+      "url": "https://illumina.wd1.myworkdayjobs.com",
+      "why": "Dated counts of pricing, financing and key-account hires would show how far the pricing function has been built out. Needs a script or browser to read."
+    },
+    {
+      "id": "S-NEW-2",
+      "name": "Sibling roles under 'Enterprise Pricing and Financing' (Sr. Director, pricing analyst, leasing and financing) on LinkedIn public pages and xtalks",
+      "url": "https://xtalks.com/job/associate-director-pricing-transformation-san-diego-hybrid/",
+      "why": "The xtalks URL returned 404 (page gone, so the posting may be closed or filled). Sibling roles could name competitors or large-account motions and show the build-out timeline."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [Associate Director, Pricing Transformation (resumegeni mirror)](https://resumegeni.com/jobs/associate-director-pricing-transformation-san-diegohybrid-at-illumina-us-california-san-diego)
+- [xtalks listing (404 when opened)](https://xtalks.com/job/associate-director-pricing-transformation-san-diego-hybrid/)

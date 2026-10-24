@@ -1,0 +1,46 @@
+consensus :: The average of forecasts published by sell-side analysts, used as the market's baseline expectation.
+sell-side analyst :: A bank or brokerage researcher who covers a stock and publishes forecasts and ratings for clients.
+beat/miss :: Whether reported results come in above or below consensus.
+fiscal year (52/53-week) :: Illumina's accounting year, which ends on a Sunday near December 31 and occasionally contains an extra week.
+GAAP :: Standard US accounting rules; GAAP results include all costs such as stock pay and amortization.
+adjusted (non-GAAP) :: Results that exclude items such as stock-based compensation and amortization of acquired intangibles.
+stock-based compensation (SBC) :: The non-cash cost of paying employees in company shares.
+amortization of acquired intangibles :: The gradual expensing of the purchase value of acquired technology and customer relationships.
+EPS :: Earnings per share, net profit divided by the number of shares.
+diluted shares :: Share count including options and other securities that could become shares.
+consumables :: Reagent kits, flow cells and chips customers must buy for every sequencing or microarray run.
+instruments :: The sequencing machines and array scanners, sold once.
+service & other :: Revenue from service contracts, genotyping services and similar items.
+sequencing :: Technology that reads DNA letters directly.
+microarray :: An older, cheaper chip-based technology that tests for known genetic variants.
+GRAIL :: Illumina's former cancer-detection blood-test business, present in the data only for 2023–2024.
+Core Illumina :: Illumina's business excluding GRAIL.
+intersegment revenue :: Sales between a company's own business units.
+Greater China :: Mainland China, Hong Kong and Taiwan.
+APMEA :: Asia-Pacific outside Greater China, plus the Middle East and Africa.
+EMEA :: Europe, Middle East and Africa, an older regional grouping that overlaps Europe and APMEA.
+gross margin :: The share of revenue left after the direct cost of making products and delivering services.
+operating margin :: Operating profit as a share of revenue.
+operating leverage :: Profit growing faster than sales because costs grow more slowly than revenue.
+SG&A :: Selling, general and administrative expenses, meaning sales force and corporate overhead.
+R&D :: Research and development spending.
+EBITDA :: Earnings before interest, taxes, depreciation and amortization, a rough measure of cash operating profit.
+net margin :: Net profit as a share of revenue.
+tax rate :: Income tax expense divided by pre-tax income.
+free cash flow (FCF) :: Cash from operations minus capital expenditures.
+FCF margin :: Free cash flow as a share of revenue.
+capital expenditures (capex) :: Spending on equipment, facilities and other long-lived assets.
+share repurchase (buyback) :: A company buying back its own stock, which reduces the share count.
+goodwill :: The premium paid over book value in past acquisitions, carried as an asset.
+net debt :: Borrowings minus cash; a negative figure means more cash than debt.
+current portion of debt :: Debt due within one year.
+current ratio :: Current assets divided by current liabilities; above 1 means short-term assets cover short-term bills.
+working capital :: Current assets minus current liabilities.
+days sales outstanding (DSO) :: The average number of days taken to collect payment from customers.
+return on equity (ROE) :: Net profit divided by shareholders' equity.
+return on assets (ROA) :: Net profit divided by total assets.
+book value per share :: Shareholders' equity divided by the number of shares.
+retained earnings :: Cumulative profits kept in the business rather than paid out.
+additional paid-in capital :: Money shareholders paid for stock above its nominal par value.
+deferred tax :: Taxes owed or prepaid that will be settled in future periods.
+operating lease right-of-use asset :: The balance sheet value of the right to use leased property.

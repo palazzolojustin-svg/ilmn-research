@@ -1,0 +1,13 @@
+```json
+{
+  "status": "blocked",
+  "notes": "Both fee-table PDFs were opened and saved locally, but I could not extract any text. WebFetch returned only compressed PDF streams, so its summarizer could not read the NovaSeq 6000, NovaSeq X or NextSeq lines. The Read tool's PDF rendering failed because pdftoppm (poppler) is not installed. This session has no Bash or Python tool, so I could not run pypdf with `python -I`. The task's own saved path was truncated with '...', so I used the copies WebFetch saved this session. I have no prices, no percentage changes and no reagent-cost wording. I did not try the search queries for other national-university cores (Osaka, Tokyo, Tohoku).",
+  "how_to_mine": "In a session with a shell, run `python -I` with pypdf's PdfReader on the two PDFs and dump the text of every page to a UTF-8 file. The 1 Jul 2025 file was saved at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\143bff66-0d79-4569-a7f4-d1a0e0cfee70\\tool-results\\webfetch-1791793134300-g741uc.pdf (169KB). The 1 Nov 2024 file was saved at ...\\webfetch-1791793134997-wvdygr.pdf (133KB, WebFetch said it was truncated, so re-download it with curl). If pypdf returns empty or garbled text because of CID fonts, use pdfplumber or PyMuPDF, or OCR the pages. Then do four things. (1) Tabulate the NovaSeq 6000, NovaSeq X and NextSeq 550 lane and per-sample fees for internal (学内), external academic (学外) and commercial (民間) users in each revision. (2) Compute the % change per item between the two revisions. (3) Search the text for 試薬, 高騰, 物価 and 改定 to find any wording that blames reagent costs. (4) Check whether any NovaSeq X line exists at all. Next, search '受託解析料金表 改正 NovaSeq' and '共同利用 料金 改正 令和8年 シーケンサー' on .ac.jp for other national-university cores, and compare their dated revisions. Note that Japanese yen prices are also affected by the weak yen, so a rise in yen terms does not by itself show a rise in Illumina's USD price.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    "Other Japanese national-university core fee tables with dated 改正 revisions (Osaka, Tokyo, Tohoku, Nagoya, Kyushu), found via the two Japanese search queries above"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,132 @@
+nanopore sequencing :: Reading DNA or RNA by passing a single strand through a tiny protein pore and measuring changes in electrical current.
+sequencing-by-synthesis :: Illumina's method of reading DNA by copying short fragments and detecting each added base optically.
+short-read sequencing :: Sequencing that reads DNA in short fragments (typically hundreds of bases) that are then pieced together.
+long-read sequencing :: Sequencing that reads long continuous stretches of DNA or RNA, often thousands to millions of bases.
+universal reads :: J.P. Morgan's term for ONT's ability to produce reads of essentially any length.
+methylation :: Chemical tags on DNA that affect gene activity; nanopores can detect them directly.
+native RNA sequencing :: Reading RNA molecules directly rather than first copying them into DNA.
+structural variants :: Large rearrangements of DNA such as deletions, duplications or inversions.
+phasing :: Working out which genetic variants sit on which of a person's two chromosome copies.
+basecaller :: Software that converts the raw electrical signal from a nanopore into DNA letters.
+Q-score :: A logarithmic measure of base-call accuracy; higher numbers mean fewer errors (e.g. Q22.6 ≈ 99.4%).
+flow cell :: The consumable chip containing the nanopores on which each sequencing run takes place.
+flow cell recycling :: Reusing returned flow cells to lower manufacturing cost and raise gross margin.
+consumables :: Reagent kits and flow cells customers must buy for every sequencing run.
+multiplexing :: Running several tagged samples together on one flow cell, lowering consumables needed per sample.
+PromethION :: ONT's high-throughput sequencer line, now more than half of group revenue.
+P2i / P2 Solo :: Smaller PromethION models; ONT focuses on P2i and discontinued P2 Solo in 2026.
+GridION / GridION Q-line / GridION Dx :: ONT's mid-sized benchtop sequencer, its locked-down version for regulated settings, and its CE/UKCA-approved diagnostic version.
+MinION :: ONT's small portable sequencer.
+ElysION :: ONT's sample-preparation automation platform, stopped in 2025–26.
+SBX / Axelios :: Roche's Sequencing by Expansion technology and the sequencer built on it, a short-read system using a nanopore sensor.
+IVD :: In vitro diagnostic; a regulated test or device used on patient samples.
+IVDR :: The EU regulation governing in vitro diagnostic devices.
+CE / UKCA marking :: The EU and UK regulatory approval marks required to sell medical devices.
+LDT :: Lab-developed test; a test designed and run within a single laboratory rather than sold as an approved kit.
+research use only (RUO) :: A product label meaning a test cannot be used for clinical decisions.
+mRNA QC :: Quality-control testing that confirms manufactured mRNA vaccines match their intended sequence and quality.
+CQA :: Critical quality attribute; a measurable property (identity, integrity, purity) a drug batch must meet.
+BLA :: Biologics License Application; the US regulatory filing to approve a biologic drug or vaccine.
+CDMO :: Contract development and manufacturing organisation that makes drugs for pharma companies.
+sterility testing :: Checking that a manufactured biologic is free of contaminating organisms.
+adventitious viral agents (AVA) :: Unwanted viruses that can contaminate biological manufacturing.
+cross-licensing agreement :: A deal in which two companies grant each other rights to their patents.
+royalty :: A percentage of a partner's product sales paid to the patent owner.
+net present value (NPV) :: Today's value of all expected future cash flows from an asset or deal.
+capex model :: ONT's shift to selling larger devices outright rather than leasing them.
+installed base :: The number of instruments already placed with customers.
+placements :: Instruments sold or installed at customer sites.
+utilisation / pull-through :: How much consumables customers buy per installed instrument.
+end markets :: Customer groups; ONT reports Research, Clinical, BioPharma and Applied Industrial.
+Applied Markets :: ONT's non-academic customers: Clinical, BioPharma and Applied Industrial combined.
+LSRT :: Life Science Research Tools; ONT's main reported business line.
+EMEAI / AMR / APAC :: ONT's regions: Europe, Middle East, Africa and India; the Americas; Asia-Pacific.
+NIH :: US National Institutes of Health, the largest funder of US academic research.
+UK Biobank :: A large UK health-research cohort; ONT has a contract to sequence 50,000 genomes for it.
+PRECISE / PRECISE II :: Singapore's national population genomics programme, an ONT contract that finished in 2025.
+trading update :: A short interim company statement of headline figures before full results.
+constant currency (LC/CER/ccy) :: Growth measured with exchange-rate effects removed.
+consensus :: The average of analysts' forecasts for a company.
+gross margin :: Revenue minus the direct cost of goods sold, as a share of revenue.
+basis points (bps) :: Hundredths of a percentage point; 100 bps equals 1 percentage point.
+Adjusted EBITDA :: Earnings before interest, tax, depreciation and amortisation, excluding one-off items; a proxy for operating profit.
+breakeven :: The point at which a profit measure such as Adjusted EBITDA reaches zero.
+free cash flow (FCF) :: Cash from operations minus capital spending (and, for ONT, capitalised development costs).
+operating expenses (OpEx) :: Ongoing costs of running the business, such as R&D and SG&A.
+SG&A :: Selling, general and administrative costs.
+capitalised R&D :: Development costs recorded as an asset and amortised over time rather than expensed immediately.
+working capital :: Cash tied up in day-to-day operations such as inventory and receivables.
+operating leverage :: Profits growing faster than revenue because costs grow more slowly.
+CAGR :: Compound annual growth rate; the steady yearly growth rate linking two values.
+EV/Sales :: Enterprise value (equity value plus net debt) divided by revenue; used to value unprofitable firms.
+DCF :: Discounted cash flow; valuation from projected future cash flows discounted to today.
+WACC :: Weighted average cost of capital; the discount rate used in a DCF.
+terminal growth rate :: The assumed long-run growth rate after a DCF's explicit forecast period.
+price target :: An analyst's estimate of where a share price should trade over a set horizon.
+Overweight / Buy :: Broker ratings meaning the stock is expected to outperform its peers or coverage universe.
+re-rating :: The market paying a higher valuation multiple for a company's shares.
+clearing event :: A guidance reset that removes an overhang of doubt from a stock.
+corporate broker :: A bank appointed to advise a UK-listed company on markets and investor relations, a potential conflict for its research.
+SMID :: Small and mid-capitalisation stocks.
+total addressable / serviceable market :: The full revenue opportunity for a product, versus the portion a company can realistically target.
+nanopore :: A tiny protein hole that reads DNA or RNA by measuring changes in electrical current as a single molecule passes through.
+native DNA/RNA :: The original molecule read directly, without copying or chemical conversion.
+long reads :: Very long continuous stretches of DNA sequence read in one piece.
+short reads :: Short DNA fragments read at high volume and low cost, Illumina's core approach.
+synthetic long reads :: Long sequences reconstructed by stitching short reads together rather than read directly.
+flow cell :: The consumable chip holding the nanopores, used for each sequencing run.
+consumables :: Flow cells and reagent kits customers must buy for every sequencing run.
+MinION :: ONT's small, portable entry-level sequencer.
+GridION :: ONT's benchtop sequencer; Q and Dx versions serve QC and diagnostics.
+PromethION :: ONT's high-throughput instrument range (P2 Solo, P2i, P24).
+Q-Line :: Locked-down, semi-regulated instrument versions for biopharma quality control.
+ElysION :: ONT's automated sample-prep and sequencing system, now paused.
+methylation :: Chemical tags on DNA that affect gene activity, sometimes called the fifth base.
+methylome :: The full pattern of methylation across a genome.
+structural variants :: Large rearrangements of DNA that short reads often miss.
+adaptive sampling :: Software-driven selection in which the pore ejects DNA strands that are not of interest.
+metagenomic sequencing :: Sequencing everything in a sample to find unknown organisms.
+base calling :: Converting the raw electrical signal into DNA letters.
+T2T genome :: A complete telomere-to-telomere genome with no gaps.
+diagnostic yield :: The share of patients for whom a test finds a diagnosis.
+reflex test :: A follow-up test ordered after an initial result.
+frontline test :: The first-choice test for a condition.
+LDT :: Laboratory-developed test that a lab builds and validates itself.
+IVD :: In vitro diagnostic, a regulator-certified commercial test kit.
+CE-IVD :: European regulatory mark for in vitro diagnostics.
+BLA :: Biologics license application, the regulatory filing for a biological drug.
+biopharma QC :: Testing that checks a drug batch meets its specification.
+sterility testing :: Checking manufactured biologics for contamination.
+plasmid :: A circle of DNA used in biotech research and manufacturing.
+AAV :: Adeno-associated virus, a vector used to deliver gene therapies.
+Sanger sequencing :: An older, low-throughput sequencing method.
+multiplexing :: Running several samples on one flow cell.
+proteomics :: Analysis of proteins; for ONT, peptide mapping and later protein sequencing.
+multiomics :: Combining DNA, RNA, methylation and protein data.
+NGS :: Next-generation sequencing, the modern high-throughput sequencing market.
+NIH :: US National Institutes of Health, a major funder of academic research.
+export controls :: Government limits on selling technology into a country such as China.
+constant currency :: Growth with exchange-rate effects removed.
+CAGR :: Compound annual growth rate, the average yearly growth over a period.
+gross margin :: Share of revenue left after the direct cost of making products.
+see-through margin :: Gross margin excluding one-off items.
+basis points (bps) :: Hundredths of a percentage point; 100 bps equals 1 point.
+adjusted EBITDA :: Earnings before interest, tax, depreciation and amortisation, excluding certain items.
+adjusted OpEx :: Operating expenses excluding certain items.
+free cash flow :: Cash generated after operating costs and investment.
+cash flow breakeven :: The point at which the company stops burning cash.
+CapEx-first pricing :: ONT's model of selling instruments up front rather than placing them free.
+reagent rental :: Paying for an instrument through reagent purchases.
+utilisation :: How heavily customers use their instruments.
+working capital :: Cash tied up in inventory, receivables and payables.
+capitalised development :: R&D spending recorded as an asset rather than an immediate expense.
+cross-licensing :: Two companies granting each other rights to use their patents.
+royalty :: A percentage of another company's sales paid for using licensed IP.
+upfront fee :: A one-time payment on signing a deal.
+NPV :: Net present value, today's value of future cash flows.
+serviceable addressable market :: The part of a market a company can realistically serve.
+OEM :: Original equipment manufacturer arrangement in which a partner builds products on ONT technology.
+ROIC :: Return on invested capital.
+ERP/CRM :: Enterprise resource planning and customer relationship management software.
+SG&A :: Selling, general and administrative costs.
+consensus :: The average forecast of analysts covering a stock.

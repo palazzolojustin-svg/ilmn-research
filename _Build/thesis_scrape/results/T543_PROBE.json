@@ -1,0 +1,44 @@
+```json
+{
+  "status": "productive",
+  "notes": "I fetched the Fred Hutch page (a new core, not in the corpus). It lists NovaSeq X Plus 10B and 25B lanes with internal/consortium and external prices, 1.5B lanes as 'Inquire', and no NovaSeq 6000. The page gives no effective date, only 'Last Modified September 03, 2026'. The search snippet you gave showed $1,450 internal / $2,552 external, but the live page shows $1,494 / $2,629.44. That is about +3.0% on both tiers, so the core raised prices at some point between the snippet's date and 3 Sep 2026. I could not date the snippet. I did not try archive.ph. The UO GC3F memo search (site:research.uoregon.edu, FY26/FY27) returned only UO F&A rate agreements, no GC3F memos. I did not try the FY21 memo URL or a search without the site filter. Spread, calculated from the live page: 10B external is 76% above internal, 25B 76% above ($4,351 vs $2,472). Per Gb, using the page's 3.1-4B read pairs x PE151 (my calc, about 936-1,208 Gb), the 25B costs about $2.05-2.64/Gb internal and $3.60-4.65/Gb external. The 25B internal rate is at or just above the known 25B core range of $2.50-3.14/Gb; external is above that range. This core shows a price increase, not a cut, which cuts against the thesis. It is one data point.",
+  "how_to_mine": "1) Check archive.org Wayback for the Fred Hutch rates page (https://web.archive.org/web/2025*/fredhutch.org/en/research/shared-resources/core-facilities/genomics-bioinformatics/rates-scheduling.html) to date the $1,450/$2,552 version and find any 2025 prices, then compute the change. 2) Search 'GC3F' without the site filter, and try the FY21 memo URL and guessed FY22-FY27 names under research.uoregon.edu/sites/default/files/. 3) Look for a Fred Hutch rate-change announcement or newsletter.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Fred Hutch's genomics core raised NovaSeq X Plus lane rates about 3% for both internal and external users, which is not the price pressure the thesis expects.",
+      "detail": "The live page (last modified 3 Sep 2026) lists the 10B lane at $1,494 internal / $2,629.44 external and the 25B lane at $2,472 / $4,351, all up to PE151. A search snippet of the same page showed the 10B at $1,450 / $2,552, so both tiers rose about 3.0%. The snippet's date is unknown, so the timing of the increase is unconfirmed. The external premium is about 76% on both lanes. One core is a single data point, and a rate increase could reflect the core's costs or Illumina list-price increases rather than research demand.",
+      "url": "https://www.fredhutch.org/en/research/shared-resources/core-facilities/genomics-bioinformatics/rates-scheduling.html",
+      "date": "2026-09-03",
+      "source_name": "Fred Hutch Genomics & Bioinformatics Shared Resource rates page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Fred Hutch is not among the core rate cards already used, and no source in the corpus shows a core raising X Plus lane rates in 2026."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Outside users pay about 76% more than internal and consortium users at Fred Hutch, which shows how much research pricing depends on internal subsidies and tiering.",
+      "detail": "The 25B lane is $2,472 internal/consortium vs $4,351 external, and the 10B lane is $1,494 vs $2,629. Per Gb, the 25B is about $2.05-2.64 internal and $3.60-4.65 external, using the page's 3.1-4B read pairs at PE151 (my calc). The internal 25B rate is at or just above the $2.50-3.14/Gb core range already in the corpus, so cores are not pricing near the $2.00/Gb floor that a 35B-driven reset would imply. The page gives no X Plus lane rate for 6000-era comparison. This fits the known 35-50% internal discounts.",
+      "url": "https://www.fredhutch.org/en/research/shared-resources/core-facilities/genomics-bioinformatics/rates-scheduling.html",
+      "date": "2026-09-03",
+      "source_name": "Fred Hutch Genomics & Bioinformatics Shared Resource rates page",
+      "source_type": "price_list",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a new core with 10B and 25B internal and external lane rates and a computed 76% spread; the corpus already has internal rates running 35-50% below external."
+    }
+  ],
+  "new_candidates": [
+    {
+      "source": "Wayback Machine snapshots of the Fred Hutch rates page",
+      "url": "https://web.archive.org/web/2025*/fredhutch.org/en/research/shared-resources/core-facilities/genomics-bioinformatics/rates-scheduling.html",
+      "why": "It would date the $1,450/$2,552 prices and show the 2025 vs 2026 rate path."
+    }
+  ],
+  "apify_requests": []
+}
+```

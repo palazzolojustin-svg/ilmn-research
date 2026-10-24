@@ -1,0 +1,134 @@
+The Ultima UG 100 arrives at UMN, ushering in massive-scale DNA sequencing with ultra-high throughput, ultra-low-cost, and ultra-high quality | University of Minnesota Genomics Center
+Skip to main content
+Go to the U of M home page
+One Stop
+MyU
+Search
+Genomics Center
+Locations
+Contact us
+Menu
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis
+Innovation Lab
+Publications
+Resources
+Acknowledgments
+Data Release
+Forms
+Sequencing Queues
+Breadcrumb
+Home
+In the News
+The Ultima UG 100 arrives at UMN, ushering in massive-scale DNA sequencing with ultra-high throughput, ultra-low-cost, and ultra-high quality
+News
+Events
+In the News
+The Ultima UG 100 arrives at UMN, ushering in massive-scale DNA sequencing with ultra-high throughput, ultra-low-cost, and ultra-high quality
+October 28, 2024
+The University of Minnesota Genomics Center (UMGC) is one of the first academic sites in the world to install the UG 100 by Ultima Genomics. As announced on November 5 at the American Society for Human Genetics annual meeting, the UMGC is one of just three global Certified Service Providers for the new technology, and the only academic facility worldwide with this distinction. Currently carrying out pilot runs and training on the device, the UMGC will roll out its UG 100 sequencing service on January 2, 2025.
+The UG 100 represents a reinvention of NGS chemistry and hardware, achieved by adapting components and approaches from the semiconductor industry. Composed of two primary instruments weighing over two tons, the system replaces traditional DNA sequencer flow cells with a massive spinning silicon wafer of the type used to fabricate computer chips. Sequencing reagents are added via spin-coating (see picture above), and for readout of DNA sequence, the silicon wafer rotates while dual high-speed cameras capture DNA clusters immobilized on the wafer. Ultima’s preprint, “Cost-efficient whole genome sequencing using novel mostly natural sequencing-by-synthesis chemistry and open fluidics platform,” explains the technology in detail.
+As a result of these innovations, the UG 100 achieves the long-awaiting $100 genome: the ability to sequence an entire human genome to industry-standard completeness for $100 in raw sequencing cost; this price drop represents a 50% decrease relative to the most affordable sequencing currently available. Additionally, the UG 100’s modular wafer design and continuous operation permit both flexibility (a single wafer at a time, about 16 human genomes) or massive throughput (up to 20 wafers per week, or roughly 320 human genomes).
+The UG 100 is not only a revolution in cost, however. Ultima has also broken a quality barrier by introducing “Paired Plus-Minus Sequencing”, aka ppmSeq, and approach that takes advantage of the system’s clonal amplification chemistry to identify and exclude sequencing errors due to DNA damage. With ppmSeq, sequencing errors are reduced to one part per million or better.
+For the UMGC’s clients, the UG 100 will not only provide affordable whole-genome sequencing. It will also supercharge single-cell genomics, the analysis of circulating free DNA in cancer, deep metagenomics sequencing, and other NGS-hungry applications.
+The UG 100’s purchase was made possible by investments from the UMN Institute on Infectious Diseases (UMIID), the Medical School, and the Research & Innovation Office. UMIID plans to use the instrument for pathogen surveillance, in order to prevent the next global pandemic, and to advance infectious disease research in general.
+Lara Toerien, Ph.D., Vice President of Ultima Genomics, presented the UG 100 to the UMN research community at GenoFest—UMGC’s annual open house—on October 4. Ultima contrasted the state of sequencing 30 years ago, when it took 13 years and $3 billion to sequence the first human genome, with the current advancements, emphasizing that the $100 genome is only the beginning for Ultima.
+As also presented at GenoFest, the UMGC tested the performance of the UG 100 prior to purchase by carrying out comparative RNA-Seq experiments in collaboration with Ultima, establishing equivalent results on the UG 100 as was observed on our legacy Illumina NovaSeq sequencers. A recording of the presentation of those results is available to the UMN community (x.500 accessible).
+Between now and January 2, the UMGC will be putting together workflows and service rates. Interested researchers should feel free to reach out now to the UMGC by emailing [email protected].
+GENOMICS CENTER
+Dr. Kenneth Beckman, Director
+2231 6th Street SE
+Minneapolis, MN 55455
+[email protected]
+Contact Us
+Locations
+About the UMGC
+Sequencing Queues
+About
+About Us
+Contact Us
+Core Facility
+Employment
+Hours and Locations
+UMGC Staff
+Services
+Sequencing
+Overview
+Element AVITI24
+Illumina
+NovaSeq X+
+NextSeq 2000
+MiSeq
+Nanopore P2 Solo
+PacBio Revio
+Ultima UG 100
+Whole Genome
+Overview
+Human WGS
+Non-human WGS
+Model Organism WGS
+Library Creation
+Overview
+DNA Sequencing
+RNA Sequencing
+Custom
+Sequence Capture
+Library Manipulation
+Microbiome
+Single Cell Genomics
+Overview
+10x Genomics
+Element Cytoprofiling
+Parse Biosciences
+Prep Instruments
+Spatialomics
+Overview
+10x Visium
+Curio Seeker
+NanoString GeoMx
+Epigenomics
+Overview
+Chromatin Analysis

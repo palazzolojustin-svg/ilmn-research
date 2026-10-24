@@ -1,0 +1,17 @@
+# Machine-local Claude Code settings and backups
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude.zip
+
+# Build byproducts (local to each machine)
+_Build/**/*.log
+_Build/__pycache__/
+_Build/sandbox/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

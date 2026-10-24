@@ -1,0 +1,142 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Taipei VGH's full NIPT contract set shows contracted tests per year falling about 17% on like-for-like lots between the 2023–25 and 2025–28 contracts, while the price per test stayed flat.",
+      "detail": "2023–25 lots: X11208H 'upgraded' NIPT 288 tests over 2 yrs at NT$18,000 (144/yr); X11211H twins 144 at NT$19,000 and 2nd-gen 144 at NT$23,800 (72/yr each); X11212H kit NIPT 144 at NT$12,000 (72/yr). That is ~360 tests/yr and ~NT$6.54M/yr. 2025–28 lots: X11407E NIFTY twins 180 + NIFTY PLUS singleton 360 over 3 yrs at ~NT$17,800 (60 + 120/yr; derived as award ÷ quantity); X11409E NT$6.174M/3 yrs = NT$2.06M/yr; X11415E NT$2.16M/3 yrs = NT$0.72M/yr. Total ~NT$5.98M/yr, or −8.5% annualized spend. Like for like: singleton upgraded tests 144→120/yr (−17%), twins 72→60/yr (−17%), unit price 18,000→17,800 (−1.1%) and twins 19,000→17,800 (−6.3%).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11407E",
+      "date": "2025-08-07",
+      "source_name": "Taiwan PCC e-procurement via pcc-api.openfun.app (Taipei VGH X11208H, X11211H, X11212H, X11407E, X11409E, X11415E)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F787 gave only the X11409E total. The four-lot test-count and unit-price series for this buyer is new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Taiwan's births fell 20% in 2025 and another ~15% in Jan–Aug 2026, a hard cap on NIPT volume that matches the ~17% drop in contracted tests at Taipei VGH.",
+      "detail": "MOI household-registration data, as reported by the press: 2025 births were 107,812, down 27,044 (−20%) from 134,856 in 2024, the 10th straight annual decline. Jan–Aug 2026 births were 61,742, about 11K fewer than the same period of 2025 (~−15%, our estimate from the reported figures). Feb 2026 was the first month ever below 7,000 (6,523, −37% y/y). Hospital NIPT contracts that are being renewed with fewer tests per year (above) are consistent with a shrinking pregnancy pool, not with saturation alone.",
+      "url": "https://www.peoplenews.tw/?p=11380",
+      "date": "2026-01-09",
+      "source_name": "Ministry of the Interior birth statistics via PeopleNews / CNA / UDN",
+      "source_type": "dataset",
+      "quote": "2025年新生兒不到11萬人續創新低",
+      "strength": "medium",
+      "why_new": "The corpus has no birth-denominator data for any NIPT market. This one is falling 15–20% a year."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NYCU Hospital's annualized NIPT outsourcing fell about 27% between its 2024–26 and 2026–28 contracts, and the work was consolidated onto one vendor.",
+      "detail": "2024–26: 112114L99 '38-item' NIPT NT$12.72M (Bionet, 2 yrs) + 112112L99 2nd-gen NIPT NT$3.708M (Taiwan Advance Bio-Pharm, 2 yrs) = NT$8.21M/yr. 2026–28: 115306L54 38-item NT$1.496M for 1 yr (Bionet, limited tender, Feb 2026) + 115108L54 blood NIPT NT$8.984M over 2 yrs (Bionet, Apr 2026) = ~NT$5.99M in the first year (1.496 + 4.492), which is −27%. No 2026 successor to the 2nd-gen lot was found. All awards had a single bidder. The lots' scopes may not map 1:1, so the comparison is directional.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.6M.1&job_number=115108L54",
+      "date": "2026-04-15",
+      "source_name": "Taiwan PCC e-procurement via pcc-api.openfun.app (NYCU Hospital 112112L99, 112114L99, 115306L54, 115108L54)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The NYCU Hospital NIPT series is not in the known list. The strategist named 115306L54 but did not mine it."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Taipei City Hospital used up a 33-month NIPT contract in about 15 months after Taipei began subsidizing NIPT in 2025, needed a one-month bridge, then added a follow-on expansion. Subsidies can pull NIPT volume up even as births fall.",
+      "detail": "R113118 awarded NT$2.6M (Sep 2024; two bidders) plus NT$1.666M (Sep 2024) = NT$4.266M, with a term 'to 30 Jun 2027 or until the ceiling is used up.' A restricted bridge award R114133E of NT$159.5K covered 10 Dec 2025–8 Jan 2026, which implies the ceiling ran out around Dec 2025. The follow-on expansion R113118-1 (Feb 2026) is NT$2.295M for Apr 2026–Jun 2029, so at the ~NT$3.4M/yr run-rate it would run out in about 8 months. Taipei City announced NIPT as a subsidized Down-syndrome screening option for resident pregnancies starting in 2025 (Taiwan News, 17 Dec 2024).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.79.14.14&job_number=R113118-1",
+      "date": "2026-02-13",
+      "source_name": "Taiwan PCC (Taipei City Hospital R113118, R114133E, R113118-1); Taiwan News",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F783 had the run-rate only. The early exhaustion, the bridge, the expansion size and the subsidy driver are new."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Basic NIPT prices at Taiwanese public hospitals are stuck at NT$11,000–12,000 per test (~US$340–370) from 2023 to 2026, and new contracts are tiny (45 tests a year at one MOHW hospital).",
+      "detail": "MOHW Taoyuan Hospital KA1150601 (Jul 2026): NIPT1.0, 135 tests over 3 yrs at NT$11,000 (= NT$1.485M; single bidder Hualian 華聯; restricted tender). Taichung VGH 114Y-R11 (Oct 2025) 'simple' tier: 200 tests at NT$11,000 (derived). Taipei VGH X11212H (Dec 2023): NT$12,000. The commodity tier shows no price decline and no volume growth, which fits a mature product. Growth is coming only from up-tiering ('advanced' and 'plus' tiers at NT$17,800–32,000).",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.100.33&job_number=KA1150601",
+      "date": "2026-07-01",
+      "source_name": "Taiwan PCC e-procurement (MOHW Taoyuan Hospital, Taichung VGH, Taipei VGH)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The Taoyuan Hospital 2026 award and the three-year basic-tier price floor are not in the known list."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Taipei VGH's largest NIPT lot (2025–28) went to Taiwan Genecare's NIFTY, the BGI-branded test, and it also absorbed twin testing previously held by a different vendor, so over half of this flagship hospital's NIPT dollars sit on a BGI-branded test.",
+      "detail": "X11407E (Aug 2025): 'NIFTY (twins)' 180 tests and 'NIFTY PLUS (singleton, 39 items)' 360 tests, NT$9.612M over 3 yrs (NT$3.204M/yr), or ~54% of Taipei VGH's ~NT$5.98M/yr NIPT spend. In 2023–25, twins sat with Taiwan Advance Bio-Pharm (X11211H, NT$19,000/test). NIFTY is BGI's brand. That it runs on BGI/MGI (DNBSEQ) sequencers in Taiwan is our inference and was not verified in the notice.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11407E",
+      "date": "2025-08-07",
+      "source_name": "Taiwan PCC e-procurement (Taipei VGH X11407E, X11211H)",
+      "source_type": "procurement",
+      "quote": "非侵入性胎兒基因染色體檢測-NIFTY PLUS（單胞胎）（39項）",
+      "strength": "weak",
+      "why_new": "No known item ties Taiwanese clinical NIPT volume to a BGI-branded test or quantifies its share."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Even single-bidder NIPT awards are bargained 8–20% below budget at some Taiwanese hospitals, which qualifies F786's '95–100% of budget' finding.",
+      "detail": "Taipei VGH X11415E (Nov 2025): budget NT$2.70M, Bionet bid NT$2.43M, award NT$2.16M (−20% vs budget, −11% vs bid). X11212H (Dec 2023): budget NT$2.16M → award NT$1.728M (−20%). NYCU 112114L99 (Jan 2024): budget NT$13.776M → NT$12.72M (−7.7%). Kinmen KM113B018 (Feb 2025): bid NT$2.626M → NT$2.428M (−7.5%). Against these, MOHW Taoyuan, Taichung VGH 114Y-R11 and NYCU 115108L54 landed at 100% of budget. Discounting therefore depends on the buyer, not on competition.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11415E",
+      "date": "2025-11-27",
+      "source_name": "Taiwan PCC e-procurement",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Adds buyer-level bargaining data that partly contradicts F786."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Taipei VGH's singleton basic-NIPT lot appears to have shrunk from 72 to about 60 tests a year, with the price per test held at NT$12,000.",
+      "detail": "X11212H (2023–25): 144 tests at NT$12,000 on a budget of NT$2.16M (= 144 × NT$15,000). The successor X11415E (2025–28) was budgeted NT$2.70M 'based on recent years' usage' and awarded NT$2.16M. The same 15,000/12,000 budget-to-award pattern implies 180 tests over 3 yrs (60/yr, −17%) at NT$12,000. The notice gives no unit price, so this is our inference.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=3.32.80&job_number=X11212H",
+      "date": "2025-11-27",
+      "source_name": "Taiwan PCC e-procurement (Taipei VGH X11212H, X11415E)",
+      "source_type": "procurement",
+      "quote": "依機關近年使用量，預估本案需求數量",
+      "strength": "weak",
+      "why_new": "This lot pair is not in the known list."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "NIPT awards are now well mined for NTUH, Taipei VGH (6 lots), Taichung VGH, NYCU, Taipei City Hospital, the MOHW hospitals (Taoyuan, Taipei, Chiayi, Kinmen) and NTUH Yunlin (NT$8.16M over 3 yrs, Jan 2024–Jan 2027, single bidder 金可晟; no successor yet). None names a sequencing platform. Per-test counts appear only where the notice lists quantities. The MND HJ15386P142 job returned no records. CMUH and Chang Gung are private and not on PCC. Kaohsiung VGH has no NIPT-titled award. Caveat: D077 already established that Taiwanese NIPT is <0.01% of Illumina HT Gb, so these items show direction only. Still open: the NHRI 115B0D0286 award (bids opened 14 Oct 2026) and the NTUH Yunlin successor (due Jan 2027).",
+  "leads": [
+    {
+      "name": "NHRI 115B0D0286 Illumina-group outsourcing award",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=92019239&job_number=115B0D0286",
+      "access": "public JSON API, no login",
+      "labels": ["2A", "1B"],
+      "rationale": "Bids opened 14 Oct 2026. The award turns the 2026 budget into an actual price per genome or lane."
+    },
+    {
+      "name": "MOI household registration monthly births (戶政司 統計)",
+      "url": "https://www.ris.gov.tw/app/portal/346",
+      "access": "public",
+      "labels": ["1C"],
+      "rationale": "Official monthly birth counts to normalize NIPT contract volumes per pregnancy."
+    },
+    {
+      "name": "Bionet (訊聯, TWSE 1784) annual report / monthly revenue",
+      "url": "https://mops.twse.com.tw",
+      "access": "public MOPS filings",
+      "labels": ["1C", "1B"],
+      "rationale": "Bionet is the dominant NIPT outsourcer in these awards. Its filings may disclose NIPT test volumes, pricing and sequencer platform."
+    }
+  ],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [PeopleNews – 2025 births](https://www.peoplenews.tw/?p=11380)
+- [CNA – 2025 births record low](https://www.cna.com.tw/news/acn/202601090280.aspx)
+- [UDN – H1 2026 births](https://udn.com/news/story/7266/9619831)
+- [Taiwan News – Taipei NIPT subsidy](https://www.taiwannews.com.tw/en/news/5994684)

@@ -1,0 +1,160 @@
+```json
+{
+  "items": [
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UMGC, a historically Illumina-heavy core, now lists no in-house Illumina high-throughput sequencer; its in-house fleet is 5 Element AVITI24s plus 2 Ultima UG200s, and the NovaSeq X Plus is outsourced to partners.",
+      "detail": "The current UMGC core-facility page lists 2 Ultima UG200 (the services menu still says UG100), 5 AVITI24, 1 Nanopore P2 Solo, and PacBio Revio and NovaSeq X Plus only via 'partnered outsourcing'. The Dec 2024 price-drop post says AVITI was installed in Jun 2024 and 'most users' moved to AVITI within about six months. The post reports two cuts, ~40% (Jul 2024) then ~20% (19 Dec 2024), so the AVITI price is about 0.6 x 0.8 = 0.48 of its launch level (-52%). It says AVITI then undercut the NovaSeq X Plus 25B, previously the center's cheapest option. An older UMGC job posting named HiSeq, so the core's Illumina footprint has shrunk from in-house HiSeq to none for high throughput. Earlier UMGC pages listed one UG100; the page I read now lists two UG200. The page has no install dates, and the UG100/UG200 labelling is inconsistent.",
+      "url": "https://genomics.umn.edu/general/core-facility",
+      "date": "2026 (page current at 2026-10-12); price-drop post 2024-12-19",
+      "source_name": "University of Minnesota Genomics Center (core facility page and AVITI price-drop post)",
+      "source_type": "other",
+      "quote": "most users moved their work to AVITI",
+      "strength": "medium",
+      "why_new": "Known items cite UMGC's Ultima/AVITI prices; the fleet count (5 AVITI24 + 2 UG200, no in-house Illumina HT) and the 'most users moved in six months' share shift are not in the known list."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "UNMC's genomics core has added Ultima to a fleet that is only AVITI24 plus NovaSeq 6000, so a research core is now stacking two non-Illumina short-read platforms next to a legacy 6000.",
+      "detail": "The UNMC services page (copyright 2026) lists Element AVITI24, Illumina NovaSeq 6000, an Ultima platform 'for selected projects', and 10x Chromium X. For RNA-seq it says the platform is chosen by scale: AVITI24 or NovaSeq 6000. F169 recorded this core with only the 6000 and AVITI24. The Ultima line is new here. There is no NovaSeq X. No share or price data are given.",
+      "url": "https://www.unmc.edu/research-resources/resources/cores/genomics-core/services.html",
+      "date": "2026 (undated page)",
+      "source_name": "UNMC Genomics Core services page",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Prior notes recorded UNMC as 6000 plus AVITI24 only; the Ultima addition and the scale-based choice rule are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "At Northwestern NUSeq the NovaSeq X Plus 25B remains the cheapest platform per read and the core calls it the most cost-effective at <$3/Gb, so AVITI and T1+ are not undercutting Illumina there; only the 10B lane price looks cut.",
+      "detail": "The FY27-labelled pricing page shows 25B PE150 at $3,000 internal ($3,750 external) for 2,500-3,000M read pairs, or about $1.09 per M pairs at the 2,750M midpoint. AVITI high-output PE150 is $2,096 for 800-1,000M pairs, about $2.33 per M pairs, roughly 2.1x the 25B. The 10B PE150 lane is $1,499 internal, against $1,600 in the FY26 PDF (search snippet) and $1,660 on the older web page. That is about -6% to -10%, and the 25B did not move. The technologies page says the 25B is 'most cost effective among all NUSeq sequencers at <$3 per Gbp'. The page header says FY26 while the linked file is 'fy27-prices', so year labelling is uncertain. Yields are quoted as ranges, so per-read figures are midpoint-based.",
+      "url": "https://www.cgm.northwestern.edu/cores/nuseq/pricing.html",
+      "date": "2026 (FY26/FY27 rate card)",
+      "source_name": "Northwestern NUSeq pricing and technologies pages",
+      "source_type": "price_list",
+      "quote": "most cost effective among all NUSeq sequencers at <$3 per Gbp",
+      "strength": "medium",
+      "why_new": "Known Northwestern AVITI $/Gb range is a conflict item. The 10B-only cut with a flat 25B, the 2.1x AVITI per-pair ratio, and the core's own '<$3/Gb' statement are new."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "NUSeq has upgraded its Complete Genomics unit from G400 to T1+ and now lists X Plus, AVITI, T1+, NextSeq 550, MiSeq, Revio and ONT, with at least two Core Technologist postings (Job IDs 53853 and 54295) citing the multi-vendor fleet.",
+      "detail": "The NUSeq technologies page lists NovaSeq X Plus, AVITI, DNBSEQ-T1+, NextSeq 500/550 and MiSeq. Complete Genomics' own provider list still shows NUSeq on the G400 only, so the vendor list is stale and the T1+ is a later addition. The page says the core is 'constantly working to build our capacity' on other platforms. The NovaSeq 6000 and HiSeq 4000 were retired from Jan 2024 on the core's own page. The search tool surfaced Job ID 53853 and the probe note gave 54295, so the core has posted at least two technologist roles that name the multi-vendor fleet. This shows breadth of fleet but gives no share data.",
+      "url": "https://www.cgm.northwestern.edu/cores/nuseq/technologies.html",
+      "date": "2026 (undated); 6000 unavailable since 2024-01",
+      "source_name": "Northwestern NUSeq technologies and employment pages; completegenomics.com/service-providers",
+      "source_type": "jobs",
+      "quote": "constantly working to build our capacity",
+      "strength": "weak",
+      "why_new": "The known file has the NUSeq fleet from the posting; the G400-to-T1+ upgrade, the stale vendor list and the second Job ID are new."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "UC Davis's DNA Technologies Core says its AVITI per-base cost is only 'similar' to the NovaSeq X 10B flow cell, so rival short-read cost parity, not a large gap, is the claim at a major core.",
+      "detail": "The current AVITI page says it delivers higher-quality data faster 'at similar per-base cost' to the X 10B flow cell. The 'significantly lower costs' wording is relative to Illumina sequencers generally. Older versions compared AVITI to the biggest 6000 flow cell at the same per-base cost. Prices are $2,000 for a PE150 run and $1,400 for a PE75 run at UC rates. So the cost position vs Illumina has not moved from parity in about two years at this core, and the 25B is not mentioned.",
+      "url": "https://dnatech.ucdavis.edu/element-bio-aviti-sequencing/",
+      "date": "2026 (current page)",
+      "source_name": "UC Davis Genome Center DNA Technologies Core",
+      "source_type": "price_list",
+      "quote": "similar per-base cost NovaSeq X 10B flowcell",
+      "strength": "medium",
+      "why_new": "The probe note quoted only 'significantly lower costs'; the actual per-base parity claim vs the X 10B and the UC-rate run prices are new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "Complete Genomics' DNBSEQ-T7+ began shipping in Feb 2026 with a '$1 per Gb / $100 genome' claim, and several US/Canadian cores already list DNBSEQ T7 service, adding a third low-price short-read option.",
+      "detail": "Complete Genomics says the T7+ is available for immediate sale in the US and Canada, with 'high single-digit' installations already in place. Its provider list shows University of Colorado Anschutz (G400 and T7), McGill (G400 and T7), Vancouver Prostate Centre (G400 and T7) and UNC HTSF with a DNBSEQ-T7. The $1/Gb figure is a vendor claim, not a core rate. It compares with core 25B rates of about $2.5-3.1/Gb in the known list. No university core announced T1+ or T7+ service in 2025-26 in what I found.",
+      "url": "https://www.completegenomics.com/complete-genomics-highlights-dnbseq-t7-at-agbt-2026-expanding-high-throughput-sequencing-capability/",
+      "date": "2026-02 to 2026-03",
+      "source_name": "Complete Genomics news and service-provider list; UNC HTSF page",
+      "source_type": "press",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known file covers MGI units and UCLA T7 flow-cell prices, not the T7+ US launch, the $1/Gb claim, or the list of US/Canadian core providers."
+    },
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "NovaSeq 6000s are still listed in core and lab fleets in 2026 (Bonn NGS core, UNMC, Queen's Belfast technician posting), which suggests the legacy tail has not disappeared outside the US.",
+      "detail": "The University of Bonn NGS core lists NovaSeq X Plus, NovaSeq 6000, MiSeq and AVITI LT. A Queen's University Belfast Genomics & Cytometry Core technician posting (closing 20 Jul 2026) names MiSeq, NextSeq 2000 and NovaSeq 6000, with no X or AVITI. A University of Warsaw core posting also names the 6000. OIST's sequencing specialist posting lists X Plus and no 6000. Counts and dates are not given, and pages are often stale. This is anecdotal, not a measure of volume.",
+      "url": "https://www.btc.uni-bonn.de/en/core-facilities/next-generation-sequening/instrumentation",
+      "date": "2026",
+      "source_name": "Univ. Bonn BTC NGS core; jobs.ac.uk Queen's Belfast posting; search results",
+      "source_type": "jobs",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Prior notes list US/Canadian/UK public-buyer 6000 holdouts, not Bonn, Belfast or Warsaw postings."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Dated core retirement notices show 6000s going out in 1-for-1 swaps, with Northwestern's 6000 unavailable from Jan 2024, MSU's retiring in Dec 2024 and UW-Madison's replaced in Jun 2024, so research-side conversion is largely complete.",
+      "detail": "UW-Madison's DNA Sequencing Facility posted on 27 Jun 2024 that a 6000 was replaced by one X Plus, citing 'expanded capacity' and lower consumable costs. This is consolidation (one X replaces the 6000), not extra boxes. UW-Madison also reported its 10B flow cell was 30% cheaper and gave 60% more data per dollar than AVITI (snippet, date unclear), which cuts against Element pressure there. Together with the known Dana-Farber, Rush and Novogene exits, the dated cases sit mostly in 2024, so they are not new tail data after 2025. Use these as watch-outs for the 1A tail size at research cores.",
+      "url": "https://research.wisc.edu/?p=57818",
+      "date": "2024-06-27",
+      "source_name": "UW-Madison Research news; cgsi.wisc.edu 'Sequencing's best bang for the buck'",
+      "source_type": "other",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "UW-Madison's replacement and its 10B-vs-AVITI 30% cheaper / 60% more data claim are not in the known list."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "Vendor-subsidised free sequencing is reaching academic users: Arizona Genetics Core ran an AVITI grant giving up to 4 awards of one free flow cell (up to 1B 2x150 reads) plus free library prep.",
+      "detail": "Published 11 Sep 2024, applications ran 12 Sep-11 Oct 2024 with awards by 25 Oct 2024. Each award is one Element flow cell and library prep and labor at no charge. The AZGC pages disagree on whether NovaSeq is routine or by request. No prices are published (quotes only) and the pages carry a 2026 copyright. This is about Element seeding adoption in research, not about Illumina price cuts.",
+      "url": "https://cores.arizona.edu/facilities/news/university-arizona-aviti-grant-program",
+      "date": "2024-09-11",
+      "source_name": "University of Arizona Cores / Arizona Genetics Core",
+      "source_type": "other",
+      "quote": "free sequencing from Element Biosciences",
+      "strength": "weak",
+      "why_new": "Known Arizona items are expert channel checks; the free-flow-cell grant program is new."
+    },
+    {
+      "label": "1B",
+      "direction": "supports",
+      "claim": "A federal HHS/NIH sequencing procurement (presolicitation 17 Jun 2026) targets Ultima for high-throughput DNA sequencing, a sign that a large federal sequencing center is testing a non-Illumina platform.",
+      "detail": "A search-result snippet describes an NIH Intramural Sequencing Center presolicitation posted 17 Jun 2026 to use Ultima Genomics technology; a related closed solicitation is numbered 75N98026Q00652 (titled 'Ultima Genomics, Opentrons Flex'). I did not open the notice, so scope and value are unknown. F044 recorded the same center renewing on Illumina proprietary-reagent grounds in 2025, so this would be a change of posture. Treat as a lead until the notice is read.",
+      "url": "https://samsearch.co/gov-explore/federal/ultima-genomics-opentrons-flex-v2/75N98026Q00652",
+      "date": "2026-06-17",
+      "source_name": "SAM.gov via samsearch.co (search snippet only)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "F044 and F040 cover Illumina lock-in at NIH; the June 2026 Ultima presolicitation is not in the known list."
+    },
+    {
+      "label": "2B",
+      "direction": "against",
+      "claim": "The University of Chicago genomics facility positions AVITI only for small, specialised projects and calls the NovaSeq X the 'lowest cost per base', so Element has not displaced Illumina for bulk research work there.",
+      "detail": "The NGS page lists only NovaSeq X (10B, 1.5B and 25B flow cells; 25B is 8 lanes at ~3-3.2B reads per lane) and the AVITI. It says AVITI is for smaller projects needing flexible scheduling, and that NovaSeq X offers the lowest cost per base with up to 25B reads per flow cell. Pricing examples are dated 2024. No 6000 is listed. This is a counterexample to the Minnesota pattern.",
+      "url": "https://voices.uchicago.edu/genomicsfacility/ngs",
+      "date": "2024-2026 (undated page)",
+      "source_name": "University of Chicago Genomics Facility",
+      "source_type": "other",
+      "quote": "lowest cost per base",
+      "strength": "weak",
+      "why_new": "The known file has UChicago's commercial-vs-academic 25B premium only, not its fleet or the AVITI-as-niche positioning."
+    }
+  ],
+  "source_status": "productive",
+  "notes": "Roughly 12 core pages were read; employment pages themselves yielded little beyond the NUSeq fleet. The AVITI/Ultima fleet shift is clearest at UMGC, and Northwestern and UC Davis pricing cuts the other way. Not yet done: Wayback dating (web.archive.org is blocked for WebFetch; try the CDX API or archive.ph by another route), and the unreadable PDFs (NUSeq State of the Core 2024, Idaho GBRC 2026 and the FY26/27 price sheets need a PDF-to-text tool, which was not available). Also unread: MSU RTSF (page returned no content), Michigan AGC (403), Duke and Penn pages, and the Idaho and NCI CCR fleets. Roughly 20-30 more core pages from iLab or the ABRF directory would be needed to estimate platform share shift.",
+  "leads": [
+    {"name": "NUSeq State of the Core 2024 (PDF, 3.6MB)", "url": "https://www.cgm.northwestern.edu/docs/nuseq/state-of-the-core-2024.pdf", "access": "open PDF; needs a PDF text extractor", "labels": ["2B", "1B"], "rationale": "Likely contains run counts or Gb by platform (X Plus vs AVITI vs G400), the strongest quantification of share at one core."},
+    {"name": "Ultima Certified Service Providers list and BaseClear Europe launch (Jul 2026)", "url": "https://www.biospace.com/press-releases/ultima-genomics-and-baseclear-to-expand-european-access-to-low-cost-and-high-throughput-sequencing-using-ultimas-ug200-platform", "access": "open press release", "labels": ["1B", "2B"], "rationale": "Counts new Ultima service providers and UG200 placements by date."},
+    {"name": "Complete Genomics service-provider directory", "url": "https://completegenomics.com/service-providers", "access": "open", "labels": ["1B", "2B"], "rationale": "Lists US/Canadian cores on G400/T7; snapshots over time would count additions."},
+    {"name": "Idaho GBRC facilities resources 2026 PDF", "url": "https://iids.uidaho.edu/docs/GBRC_Facilities_Resources_2026.pdf", "access": "open PDF; needs text extraction", "labels": ["1A", "2B"], "rationale": "Dated Apr 2026 fleet statement for a mid-size core."},
+    {"name": "NIH NISC Ultima presolicitation (HHS 75N98026Q00652)", "url": "https://samsearch.co/gov-explore/federal/ultima-genomics-opentrons-flex-v2/75N98026Q00652", "access": "open", "labels": ["1B"], "rationale": "Read the full notice for scope, value and justification."},
+    {"name": "Michigan BRCF Advanced Genomics Core page (UG100 provider)", "url": "https://medresearch.umich.edu/office-research/advanced-genomics-core-among-first-launch-ultima-genomics-ug-100-unlocking-affordable-high", "access": "403 to WebFetch; try a browser or Google cache", "labels": ["2B"], "rationale": "Large research core; check its fleet and prices for Illumina vs Ultima."}
+  ],
+  "apify_requests": []
+}
+```

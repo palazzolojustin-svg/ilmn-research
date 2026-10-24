@@ -1,0 +1,16 @@
+```json
+{
+  "status": "dry",
+  "notes": "I opened the EDGAR index for 0001140361-26-024950. It is the Freenome Holdings / Perceptive Capital Solutions S-4/A of 2026-06-11. The main document (ny20061080x14_s4a.htm) is over 10 MB, so WebFetch failed with 'maxContentLength size of 10485760 exceeded'. I could not run keyword searches on it. The index lists Ex. 23.1, 23.2 and 99.1, and no Illumina supply agreement exhibit. One search found only secondary context, nothing from the filing text. Freenome reportedly runs on Illumina sequencers and has a Roche development agreement to evaluate its tests on AXELIOS. Illumina's public oncology test-terms page describes the standard 12-year, no-price-increase contract, which is already known, and it is not tied to Freenome. I found no volume tiers, minimum commitments, platform-switch language or per-test sequencing cost. This is a size limit rather than a login or paywall block, so the source is untested rather than shown empty.",
+  "how_to_mine": "Download the main document outside WebFetch (curl or Python with a SEC-compliant User-Agent header) into a fresh directory. Read it with python -I, or use the sec.gov full-text search. Grep for Illumina, NovaSeq, Ultima, Element, 'supply agreement', 'cost per test', 'sequencing', 'Roche' and 'Axelios'. Check three sections: Risk Factors on single-source sequencing suppliers, MD&A cost of revenue, and Freenome's business section on Roche and platform switching. Also check the Certain Relationships section and the exhibit list for an Illumina supply agreement. If an Illumina exhibit exists, it is probably filed with the Freenome 10-K or 8-K after the July 2026 close instead. Search that filing for tiered pricing and minimums.",
+  "difficulty": "easy",
+  "items": [],
+  "new_candidates": [
+    {
+      "name": "Freenome / Roche AXELIOS development agreement and Illumina dependence (post-close 8-K, 10-Q)",
+      "why": "A large MCED/CRC-screening diagnostics company may disclose its Illumina supply terms and a planned switch to Roche. It could give a per-test sequencing cost and platform-switch language."
+    }
+  ],
+  "apify_requests": []
+}
+```

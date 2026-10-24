@@ -1,0 +1,135 @@
+Genomics Core - Scripps Research
+Skip to main content
+Careers
+Give Now
+Science
+Diseases & Medicines
+Faculty
+Education & Outreach
+Support Us
+News & Events
+About
+Overview
+Research Departments
+Calibr-Skaggs Institute
+Scripps Research Translational Institute
+Centers
+Cores
+Technology Development
+Overview
+Chemistry
+Immunology & Microbiology
+Integrative Structural & Computational Biology
+Neuroscience
+Molecular & Cellular Biology
+Translational Medicine
+MS (Biology), UCSD – 1993
+Sheila Kay, Project Manager
+Sheila Kay, Project Manager
+Role Sequencing data demuplexing, Data dispatch, Billing
+Joined the Genomics Core in 2020
+Email
+858-784-2084
+BA (Anthropology with emphasis in Biology), University of Missouri, St. Louis – 2022
+Tony Mondela, Senior Scientific Manager
+Tony Mondela, Senior Scientific Manager
+Single cell RNA-sequencing, Customized sequencing library preparation, Library QC, Illumina Sequencing, Element Aviti Sequencing
+Joined the Genomics Core in 2000
+Email
+858-784-2262
+BS, University of the Philippines
+Ryan McBride, Scientific Associate
+Ryan McBride, Scientific Associate
+Microarray, Nanostring GeoMx (Bruker) spatial transcriptomics
+Joined the Genomics Core in 2007
+Email
+858-784-2263
+BS, University of New Brunswick, Fredericton, New Brunswick, Canada
+John Shimashita, Research Assistant III
+John Shimashita, Research Assistant III
+Customized sequencing library preparation, Library QC, Illumina Sequencing, Element Aviti Sequencing
+Joined the Genomics Core in 2001
+Email
+858-784-2463
+BS (Microbiology), Long Beach State University
+Jessica Ledesma, Research Assistant III
+Jessica Ledesma, Research Assistant III
+Customized sequencing library preparation, Library QC, Illumina Sequencing, Element Aviti Sequencing
+Joined the Genomics Core in 2009
+Email
+858-784-2467
+BS (Biochemistry/Cell Biology), University of California San Diego
+Joseph Koo, Research Technician
+Joseph Koo, Research Technician
+High throughput RNA-seq, Illumina Sequencing, Element Aviti Sequencing
+Joined the Genomics Core in 2024
+Email
+BS (Human Biology), University of California San Diego
+Nina Tung, Administrative Assistant
+Nina Tung, Administrative Assistant
+Procurement
+Joined the Genomics Core in 2001
+Email
+858-784-2680
+BS (Business with emphasis in Information Systems) San Diego State University
+Gordan, Genomics Core Mascot
+Gordan, Genomics Core Mascot
+Promoting and being adorable
+Joined the Genomics Core in 2024
+Email
+Services
+Next Generation Sequencing
+The Scripps Research Genomics Core supports next-generation sequencing platforms from Illumina, Oxford Nanopore and Element Biosciences, and PacBio (via local collaborators). We are able to provide a wide range of sequencing solutions to optimize sequencing scale, budget and turnaround time.
+In most cases, the sequencing will complete within seven to ten business days after the submission of prepared libraries which pass the initial quality check. If there are urgent sequencing needs, please directly reach out to the Genomics Core for assistance.
+Data Release
+Internal users:
+Demultiplexing and dispatch of sequencing data usually takes 1-2 business days after the sequencing run has completed and passed quality check.
+Submitters should receive an email from Genomics Core [email protected] providing SFTP links to sequencing data, together with the sample key information (when applicable).
+Please read the dispatch email carefully regarding the downloading instructions.
+Please note that complications during demultiplexing process (e.g., wrong barcode information provided, barcode clashes) will delay the sequencing data being released.
+External users:
+Demultiplexing and dispatch of sequencing data usually takes 1-2 business days after the sequencing run is done and passed quality check
+For first-time external submitters, the Genomics Core will work with CCBB to create an AWS account (one-time $125 fee will be applied)
+External users:
+Demultiplexing and dispatch of sequencing data usually takes 1-2 business days after the sequencing run is done and passed quality check
+For first-time external submitters, the Genomics Core will work with CCBB to create an AWS account (one-time $125 fee will be applied)
+Upon the data transfer verification with submitters using a small dataset, sequencing data will be dispatched and able to download. An email from Genomics Core [email protected] will be sent to submitters with the detailed instructions.
+Please note that complications during demultiplexing process (e.g., wrong barcode information provided, barcode clashes) will delay the sequencing data being released.
+Single Cell Genomics
+Single-cell genomics is a rapidly evolving technology that studies the genetic material of individual cells, allowing researchers to understand cellular diversity and function within a complex tissue. It provides insights into cellular heterogeneity, revealing unique gene expression patterns and mutations at the single-cell level. Currently the Genomics Core supports 10x Genomics applications using the Chromium X instrument as the matured mainstream platform. We are actively assessing new Single Cell Genomics technologies as they evolve to provide broader and more accessible applications for researchers.
+Key 10X Feature
+Extensive experience in the comprehensive end-to-end process: cell suspension quality check, GEM generation, library preparation, thorough quality control, sequencing.
+Cutting-edge 10X instrument capable of analyzing hundreds to tens of thousands of cells in a single run. Ability to multiplex samples using 10x protocols such as CellPlex, Flex and the new GEM-X Universal 3’ and 5’ (On-chip Multiplexing) kits. Also available is the option to multiplex samples using BioLegend TotalSeq oligo-conjugated antibodies (hashtags).
+10X libraries sequenced using either Aviti or Illumina Nextseq 2000, ensuring cost-effective sequencing and scalability for large projects.
+Assistance with experimental design and assay selection, including Feature Barcoding and CiteSeq.
+Additional support services are available on-campus through the Flow Cytometry Core.
+Data Release
+Internal users:
+Demultiplexing and dispatch of sequencing data usually takes 1-2 business days after the sequencing run has completed and passed quality check.
+Submitters should receive an email from Genomics Core [email protected] providing SFTP links to sequencing data, together with the sample key information (when applicable). Please read the dispatch email carefully regarding the downloading instructions.
+Please note that complications during demultiplexing process (e.g., wrong barcode information provided, barcode clashes) will delay the sequencing data being released.
+External users:
+Demultiplexing and dispatch of sequencing data usually takes 1-2 business days after the sequencing run is done and passed quality check
+For first-time external submitters, the Genomics Core will work with CCBB to create an AWS account (one-time $125 fee will be applied)
+Morphological context: whole-slide imaging with four colors to guide profiling.
+Digital quantification: dynamic range of up to 6 logs (base 10).
+Non-destructive processing helps preserve valuable samples.
+Custom Microarrays
+Microarray Scanning
+The Genomics Core can provide high resolution (0.5um) imaging of standard microscope slides using an Innopsys 1100AL scanner. This is applicable to most commercial microarray slide options, including DNA/RNA, protein, peptide and glycan microarrays. The scanner can accommodate standard microscope slides and scan/filter at 3 standard channels (488/FITC – 532/Cy3 – 635/Cy5-APC) .
+Custom Microarray Fabrication
+Using robotic handlers, we can distribute samples onto standard microscope slides in microvolumes from 1nL to 500nL. Contact microarray printing uses solid steel capillary microarray printing pins using a MicroGrid II array printer equipped with ArrayIT Stealth Microarray pins. Non-contact deposition is available using a Dispendix (I.DOT). Additionally, the Genomics Core fabricates the NCFG mammalian and bacterial glycan microarrays, producing the most comprehensive set of available to the public.
+Instruments
+Sequencing
+Element Aviti
+Illumina Nextseq200
+Oxford Nanopore Minion
+Genomics Assays
+10X Genomics Chromium X (single cell)
+NanoString (Bruker) GeoMX digital spatial profiler
+RNA/DNA analysisAgilent Bioanalyzer 2100
+Agilent Tapestation
+Thermo Fisher Qubit
+Thermo Fisher Fluoroskan Microplate Fluorometer
+SpectraMax Mini Multi-Mode Microplate Reader
+Microarray

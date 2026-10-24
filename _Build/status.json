@@ -1,0 +1,11 @@
+{
+ "stage": "complete",
+ "done": 32,
+ "total": 32,
+ "failed": 0,
+ "note": "failed extracts: []; failed sections: []",
+ "heartbeat": 1791699807.1110048,
+ "heartbeat_human": "2026-10-11 01:23:27",
+ "pid": 22292,
+ "paused_until": null
+}

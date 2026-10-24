@@ -1,0 +1,58 @@
+{
+ "core_name_on_page": "GECF",
+ "document_date": "2023-10",
+ "effective_from": null,
+ "effective_to": null,
+ "fiscal_year_label": null,
+ "lines": [
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "10'000 mio reads, 35 cycles",
+   "unit": "flow_cell",
+   "quantity": 1,
+   "read_config": null,
+   "total_cycles": 35,
+   "tier": "internal",
+   "tier_raw": "GECF price list, internal users",
+   "price": 12690,
+   "currency": "CHF",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "35 cycles 10'000 mio 12'690 CHF"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "10'000 mio reads, 200 cycles",
+   "unit": "flow_cell",
+   "quantity": 1,
+   "read_config": "2x100",
+   "total_cycles": 200,
+   "tier": "internal",
+   "tier_raw": "GECF price list, internal users",
+   "price": 16570,
+   "currency": "CHF",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "200 cycles 10'000 mio 16'570 CHF"
+  },
+  {
+   "platform_fc": "NSX_10B",
+   "flow_cell_raw": "10'000 mio reads, 300 cycles",
+   "unit": "flow_cell",
+   "quantity": 1,
+   "read_config": "2x150",
+   "total_cycles": 300,
+   "tier": "internal",
+   "tier_raw": "GECF price list, internal users",
+   "price": 18590,
+   "currency": "CHF",
+   "includes_library_prep": false,
+   "stated_output_value": null,
+   "stated_output_unit": null,
+   "line_quote": "300 cycles 10'000 mio 18'590 CHF"
+  }
+ ],
+ "_model": "haiku"
+}

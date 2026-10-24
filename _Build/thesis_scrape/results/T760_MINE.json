@@ -1,0 +1,97 @@
+```json
+{
+  "items": [
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "NYCU Hospital moved its prenatal cfDNA spend away from the expanded 38-condition NIPT, which needs deeper sequencing, toward basic blood NIPT. That is a down-tiering in Gb per test, the opposite of the up-tiering seen at other medical centers.",
+      "detail": "In 2024–26 the hospital had a 38-item NIPT contract at NT$12.72M over 2 years (NT$6.36M a year; award 30 Jan 2024, Bionet, single bid) and a basic second-generation NIPT contract at NT$3.708M over 2 years (NT$1.85M a year; 6 Feb 2024, 台灣尖端先進生技, single bid). In 2026 the 38-item contract was re-awarded at NT$1.496M for one year, down 76% annualized (12 Feb 2026, Bionet). Basic blood NIPT went to NT$8.984M over 2 years (NT$4.49M a year, up 142%; 14 Apr 2026, Bionet). On our calc, the expanded tier fell from 77% to 25% of NIPT spend while the total fell about 27% (NT$8.21M → NT$5.99M a year). The total decline is already known (F904); the switch between tiers is new.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.9.6M.1&job_number=115108L54",
+      "date": "2026-04-15",
+      "source_name": "Taiwan Government e-Procurement (PCC) via pcc-api.openfun.app; NYCU Hospital 112114L99, 112112L99, 115306L54, 115108L54",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "medium",
+      "why_new": "F904 gave only NYCU's net −27%. The collapse of the expanded tier and the shift to basic NIPT, with vendor and contract amounts, are new."
+    },
+    {
+      "label": "1A",
+      "direction": "against",
+      "claim": "Taiwanese public NIPT procurement specifies no sequencer. A Feb 2026 military-hospital RFI asks vendors to state their own 'testing platform or principle', so this regulated-screening channel is not locked to the NovaSeq 6000.",
+      "detail": "The 國防醫學大學 / Tri-Service General Hospital Penghu RFI NI15034P (11 Feb–4 Mar 2026) covers NGS Down-syndrome screening plus singleton and multiple-pregnancy NIPT. Vendors fill in an A–H spec form that includes '檢測平台或原理', with only '次世代定序等' as an example. None of the 10+ NIPT award notices checked for 2024–26 (NYCU, Kinmen, MOHW Taipei and Taoyuan, NTUH Yunlin, Pingtung VGH) names NovaSeq, NextSeq, VeriSeq, Illumina or BGI. The outsourced lab can therefore switch sequencers without a new tender, unlike FDA-locked US assays.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.5.24&job_number=NI15034P",
+      "date": "2026-02-11",
+      "source_name": "Taiwan PCC, 國防醫學大學 RFI NI15034P",
+      "source_type": "procurement",
+      "quote": "檢測平台或原理",
+      "strength": "medium",
+      "why_new": "No prior item tested whether Taiwanese NIPT tenders tie the test to a specific Illumina instrument. They do not."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "New NIPT contracts at small Taiwanese public hospitals are tiny and flat-priced. MOHW Taoyuan Hospital's July 2026 award covers only 135 basic NIPT tests over three years, at NT$11,000 each.",
+      "detail": "KA1150601 was awarded 30 Jun 2026 at NT$1,485,000, equal to the budget, with one bidder (華聯生物科技). The notice states '11000*135=1485000' for 1 Jul 2026–30 Jun 2029, which is about 45 tests a year. NT$11,000 is about 8% below Taipei VGH's NT$12,000 basic singleton price (F914). MOHW Taipei Hospital's 3-year NIPT contract is similarly small: NT$1.488M from 28 Aug 2024 to 27 Aug 2027, Bionet, single bid, about NT$0.5M a year.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.100.33&job_number=KA1150601",
+      "date": "2026-07-01",
+      "source_name": "Taiwan PCC, 衛生福利部桃園醫院 KA1150601; 衛生福利部臺北醫院 2878-113010",
+      "source_type": "procurement",
+      "quote": "11000*135=1485000",
+      "strength": "weak",
+      "why_new": "The Taoyuan and Taipei MOHW hospital NIPT awards and the NT$11,000 per-test price were not in the ledger."
+    },
+    {
+      "label": "1C",
+      "direction": "supports",
+      "claim": "Small-hospital NGS prenatal screening is struggling to attract vendors. NTUH Hsinchu's NT$195K NGS Down-syndrome screening tender failed twice in July 2026 and had to be re-specified, and MOHW Chiayi's NT$1.49M NIPT tender also drew no bids at first.",
+      "detail": "GH151020 (NTUH Hsinchu branch) had a budget of NT$195,000 for one year, about 32 tests at NYCU's NT$6,000 rate. Tenders failed for no bidders on 17 Jul and 29 Jul 2026, and the 21 Jul re-tender notes '修正規格後第一次重行招標'. MOHW Chiayi's CHYI1142722 (budget NT$1,492,800, 2 years) failed on 10 Jul 2025 for no bidders and was re-tendered on 11 Jul. Low vendor interest at the low-volume end suggests this market is saturated or not worth serving.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=85313165&job_number=GH151020",
+      "date": "2026-07-30",
+      "source_name": "Taiwan PCC, NTUH Hsinchu GH151020; MOHW Chiayi CHYI1142722",
+      "source_type": "procurement",
+      "quote": "流標(無廠商投標或未達法定開標家數)",
+      "strength": "weak",
+      "why_new": "These failed tenders at the NTUH Hsinchu and Chiayi branches were not recorded. F852 covered a different, sequencer tender."
+    },
+    {
+      "label": "1B",
+      "direction": "against",
+      "claim": "Taiwan's public NIPT channel is now dominated by one outsourcer, Bionet (訊聯), which won six of the ten 2024–26 award notices pulled here, each as the sole bidder. There is no price war among NIPT labs that would push down their sequencing-reagent costs.",
+      "detail": "Bionet won NYCU 112114L99 (NT$12.72M, Jan 2024), 115306L54 (NT$1.496M, Feb 2026), 115108L54 (NT$8.984M, Apr 2026) and 114155L54 (NT$900K; 150 tests × NT$6,000, Dec 2025). It also won MOHW Kinmen KM113B018 (NT$2.428M for Jun 2025–May 2027, 7.5% below budget) and MOHW Taipei 2878-113010 (NT$1.488M). The other single-bid winners were 慧智基因 (Pingtung VGH, NT$8.772M for 12 prenatal items, Jul 2024–Dec 2027), 金可晟 (NTUH Yunlin, NT$8.16M for Jan 2024–Jan 2027, 11.7% below budget), 華聯 (MOHW Taoyuan) and 台灣尖端 (NYCU 2024). This extends F786 from bid counts to vendor concentration.",
+      "url": "https://pcc-api.openfun.app/api/tender?unit_id=A.21.100.50&job_number=KM113B018",
+      "date": "2025-02-11",
+      "source_name": "Taiwan PCC NIPT award notices (multiple buyers)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This vendor-level concentration across NYCU, Kinmen, MOHW, Yunlin and Pingtung was not in the ledger. Earlier items covered medical centers only."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "The NIPT award notices in the PCC API never name a sequencer. Instrument data sit only in the tender PDFs, which the API does not serve, so the regulated-NIPT-on-6000 question cannot be answered from awards. 'VeriSeq', 'NovaSeq' (no records after 2023-12-21) and '游離DNA' return nothing. The large medical-center NIPT series (Taipei VGH X11409E/X11415E/X11407E, Taichung 114Y-R11, NTUH TH140450, NCKU Y11363, Taipei City R114133E) are already covered by F779–F914. The MND HJ series turned out to be biochemical Down screening, not NGS. I could not build prior-contract series for MOHW Taoyuan or Taipei or NTUH Yunlin because no predecessor awards appear under these titles.",
+  "leads": [
+    {
+      "name": "MOHW list of LDT-approved labs (特管辦法 LDTs 核准名單)",
+      "url": "https://www.mohw.gov.tw/",
+      "access": "Public PDF lists; no login",
+      "labels": ["1A"],
+      "rationale": "This may list each NIPT lab's approved test and its instrument (NovaSeq 6000 vs NextSeq vs DNBSEQ). It is the only Taiwan source that could tie the regulated NIPT tail to a specific sequencer."
+    },
+    {
+      "name": "Bionet (訊聯, 1784.TW) annual report on MOPS",
+      "url": "https://mops.twse.com.tw/",
+      "access": "Public annual-report PDFs",
+      "labels": ["1C", "1A"],
+      "rationale": "Bionet is Taiwan's dominant public-hospital NIPT vendor. Its annual report may disclose NIPT test volumes, the sequencer supplier and capex on sequencers."
+    },
+    {
+      "name": "GeneOnline Taiwan NIPT market articles",
+      "url": "https://geneonline.news/ngs-nipt-bionet-gga/",
+      "access": "Public",
+      "labels": ["1C"],
+      "rationale": "These state that three vendors (Bionet, 台灣基康/BGI, 慧智) hold about 90% of the Taiwan NIPT market and link the vendors to Berry, Natera, Illumina and BGI platforms. They are old, but give a baseline for platform mix."
+    }
+  ],
+  "apify_requests": []
+}
+```

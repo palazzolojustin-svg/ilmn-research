@@ -1,0 +1,30 @@
+```json
+{
+  "status": "dry",
+  "notes": "I ran 2 searches and opened no pages. I did not open sam.gov directly; every result came from aggregators (GovSignals, GovContractFinder, SweetSpot, NCI Frederick). The 2026 federal notices I found are few and mostly for the NovaSeq 6000. There was one NovaSeq X Plus service solicitation (NCI Frederick M25-214) and two 2026 6000-related notices (NCI 75N98026Q01014, Navy NMRC). Rough count: 1 X Plus notice against 2 6000 notices, which is too small to say anything about fleet shifts. I found no notice that replaces a 6000 contract with an X contract. Service notices are one-box maintenance purchases, so they carry no price per Gb, discount or volume data. They show the installed base, not mix shift or pricing. Notice details were not verified against sam.gov itself.",
+  "how_to_mine": "Not recommended. If it is revisited, use the sam.gov public API (it needs a free key, so skip it) or the aggregator search pages (govcontractfinder.com, oversight.govsignals.ai, samsearch.co). Search 'NovaSeq X', 'NovaSeq 6000', 'Illumina Silver Support' and 'Illumina maintenance', filtered to 2025-2026. Tabulate the agency, the model, the notice date and whether it is a renewal. Compare 6000 with X Plus notices year over year. Look for NIH/NCI/NICHD/NIEHS/CDC/Navy/VA notices that list both models.",
+  "difficulty": "easy",
+  "items": [
+    {
+      "label": "1A",
+      "direction": "supports",
+      "claim": "Federal labs were still buying 6000 service contracts in Aug 2026, with the X Plus a minority of service notices found.",
+      "detail": "NCI posted a sole-source intent notice on 14 Aug 2026 (ID 75N98026Q01014) for preventive maintenance on one government-owned NovaSeq 6000, serial A01064. A Navy NMRC notice (posted Dec 2025) covers full-service maintenance for a 6000. Only one NovaSeq X Plus service solicitation (NCI Frederick M25-214, term Mar 2026 to Mar 2027) turned up. This is anecdotal: 2 notices for the 6000 against 1 for the X Plus, found via aggregators and not counted on sam.gov.",
+      "url": "https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014",
+      "date": "2026-08-14",
+      "source_name": "GovContractFinder (mirror of SAM.gov notice 75N98026Q01014)",
+      "source_type": "procurement",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "Shows federal 6000 service renewals continuing into Aug 2026, which the known list does not cover; the sample is far too small to quantify."
+    }
+  ],
+  "new_candidates": [],
+  "apify_requests": []
+}
+```
+
+Sources:
+- [GovContractFinder, NCI 75N98026Q01014](https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014)
+- [NCI Frederick, M25-214](https://frederick.cancer.gov/node/10161)
+- [SweetSpot, Navy NMRC Illumina maintenance](https://console.sweetspotgov.com/federal-contracts/3fe396bd-4010-5305-b055-174a2bb9bf3b)

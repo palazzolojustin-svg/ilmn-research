@@ -1,0 +1,82 @@
+```json
+{
+  "candidates": [
+    {
+      "name": "Illumina Knowledge Base: Windows 10 OS lifecycle for instrument PCs (NovaSeq 6000 OS support cliffs)",
+      "url": "https://knowledge.illumina.com/instrumentation/general/instrumentation-general-reference_material-list/000009668",
+      "access": "Public HTML, opened directly. Also open the companion OS table https://knowledge.illumina.com/instrumentation/general/instrumentation-general-faq-list/000006353 and the FAQ https://knowledge.illumina.com/instrumentation/general/instrumentation-general-faq-list/000002247. Re-fetch on or after 13 Oct 2026 to see whether the text changed. Also search knowledge.illumina.com for 'operating system upgrade NovaSeq 6000' and 'LTSC 1809 upgrade kit'.",
+      "labels": ["1A"],
+      "rationale": "Confirmed on the page: the NovaSeq 6000 runs Windows 10 LTSB 1607, with extended support 'through October 13, 2026', or LTSC 1809, supported 'through January 09, 2029'. Illumina 'does not support' a Windows 11 upgrade and says it will publish an OS-upgrade process later. Hospital IT and cybersecurity teams often ban unsupported operating systems, so this is a hard, dated forcing function that no broker models. Older units on 1607 lose support tomorrow, and the whole fleet loses it in Jan 2029. If Illumina publishes an OS-upgrade or PC-swap program for the 6000, that is evidence it plans to support the tail for years, which cuts against the thesis. If it publishes no path, the 2029 cliff caps how long the tail can last, which supports continued conversion.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "PMDA (Japan) approval records and package inserts for regulated CGP tests locked to the NovaSeq 6000",
+      "url": "https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/23000BZX00403000_1_01",
+      "access": "Public PMDA pages. The FoundationOne CDx list page shows a partial-change approval dated 7 Oct 2025. Its package-insert PDFs are at https://www.pmda.go.jp/PmdaSearch/kikiDetail/ResultDataSetPDF/450045_23000BZX00403000_1_01_26 (also _24 and _25). My fetch of _26 hit ECONNRESET, so retry it. Also open the sibling CGP product https://www.pmda.go.jp/PmdaSearch/kikiDetail/GeneralList/30300BZX00074000_1_01, then FoundationOne Liquid CDx, GenMineTOP, Guardant360 CDx and OncoGuide NCC Oncopanel under the generic name 遺伝子変異解析プログラム(がんゲノムプロファイリング検査用). Search each PDF for 'NovaSeq', 'HiSeq', 'NextSeq' and '一部変更'. Compare the revision dates.",
+      "labels": ["1A"],
+      "rationale": "A search snippet shows the approved Japanese FoundationOne CDx insert naming the sequencer as 'NovaSeq 6000'. An older version named 'HiSeq 4000 又は NovaSeq 6000' (HiSeq 4000 or NovaSeq 6000). That gives a datable HiSeq→6000 change clock outside the FDA. I found no PMDA approval that names the NovaSeq X. The open question is whether the 7 Oct 2025 partial change added the X or left the 6000 in place. Either answer extends the regulated-tail evidence beyond the FDA PMAs we already hold.",
+      "expected_payoff": "high"
+    },
+    {
+      "name": "Federal sole-source NovaSeq 6000 maintenance renewals, FY25–FY26, serial-level (NCI, Navy NMRC, NIEHS, NICHD, CDC)",
+      "url": "https://govcontractfinder.com/contracts/maintenance-agreement-for-novaseq-6000-sequencing-system-75n98026q01014",
+      "access": "Public mirror pages with no login. Opened: NCI 75N98026Q01014 (posted 14 Aug 2026, government-owned 6000, serial A01064). Also open https://govcontractfinder.com/contracts/comprehensive-full-service-maintenance-repair-plan-for-illum-N3239826Q4072 (Navy NMRC, posted 22 Dec 2025), https://oversight.govsignals.ai/opportunity/intent-to-sole-source-for-nova-6000-bronze-service-agreement-75n96025q00037 (NIEHS, PoP 29 Jun 2025–28 Jun 2026), and https://console.sweetspotgov.com/federal-contracts/3fe396bd-4010-5305-b055-174a2bb9bf3b. Search the mirrors for 'NovaSeq 6000' plus 'maintenance' or 'service agreement' and tabulate each notice by agency, serial, year and plan tier (Silver/Bronze). This differs from S039/S012: the angle is year-over-year renewal of the same serials and downgrades from Silver to Bronze plans, not kit purchases.",
+      "labels": ["1A"],
+      "rationale": "Paying for a new service year on a 6000 in Aug 2026 shows an intent to keep running it into 2027. A search snippet says the NCI Laboratory of Pathology uses its 6000 for clinical sequencing assays; that needs confirming from the full SAM text. If the same serials renew again in 2026–27, that supports a sticky tail. Downgrades to Bronze, or no renewal, would show wind-down. Known values for context: CDC 6000+MiSeq $144,910 (Dec 2024–Dec 2025) and Navy Silver $141,313.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Illumina IVDR guidance page and NovaSeq 6000Dx IVD-compatibility pages (EU clinical lock-in: 6000Dx exists, no NovaSeq X Dx)",
+      "url": "https://www.illumina.com/clinical/diagnostics/ivdr-guidance-resources.html",
+      "access": "Public HTML. Read the product-by-product IVDR status table. Then open https://www.illumina.com/systems/ivd-instruments/novaseq-6000dx.html, the 6000Dx spec sheet (M-GL-00766) and https://supportassets.illumina.com/products/by-type/ivd-products/dna-prep-enrichment-dx.html. Look for any 'NovaSeq X Dx' or 'planned for submission' entry with a date.",
+      "labels": ["1A"],
+      "rationale": "Confirmed in search results: the DRAGEN Server for the NovaSeq 6000Dx carries an IVDR CE mark, while other products are 'in development or planned'. EU labs that must run CE-IVD workflows under IVDR (Article 5(5) in-house exemption rules tighten through 2028–2030) cannot move to an X they cannot certify. If no X Dx appears on the IVDR roadmap, the EU clinical 6000 tail is structurally locked, which supports the 'permanent tail' risk to the thesis. An X Dx appearing with a date would mark the start of the EU conversion clock.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Czech and other EU hospital NovaSeq 6000Dx service tenders (Motol University Hospital Prague; NEN / e-ZAK portals)",
+      "url": "https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/9887a965-67dc-4ed7-ae61-e7653bef4319",
+      "access": "Public op.europa.eu procurement-detail pages (these loaded for prior agents). Also open https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/82539bd1-c283-4e74-9e35-9a9b59525d08. A search snippet attributes a Motol 'NovaSeq 6000D' servicing award (GeneTiCA s.r.o., 13,000,000 CZK, Nov 2024) to one of these, so check which page holds it. Then search the Czech NEN portal (nen.nipez.cz) and op.europa.eu for 'NovaSeq 6000Dx' and 'servis' and record the contract lengths.",
+      "labels": ["1A"],
+      "rationale": "A multi-year 13M CZK (~$0.55M) service contract for a 6000Dx at a university hospital, awarded through a distributor in late 2024, points to a clinical 6000 kept into 2027–28. The contract term sets the earliest realistic replacement date. Cataloguing several such EU awards would quantify the regulated EU tail. Unverified: which page carries the Motol award, and the contract term.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Illumina Clarity LIMS NovaSeq 6000 integration (NovaSeq6k API) release notes: is Illumina still investing in 6000 software?",
+      "url": "https://help.connected.illumina.com/clarity-lims/instruments-and-integrations/novaseq6k-api/novaseq6k-api-v3.7.0/novaseq6k-api-v3.7.0-user-interaction-validation-and-troubleshooting",
+      "access": "Public docs. Walk the version tree (v3.6.0, v3.7.0 and any later version) and https://help.connected.illumina.com/clarity-lims/instruments-and-integrations/other-release-notes. Also check knowledge.illumina.com/instrumentation/novaseq-6000.md and KB 000002418 (flow cell vs NVCS compatibility). Record the release date of each 6000 integration and control-software (NVCS) version for 2024–2026, and compare with the NovaSeq X integration cadence.",
+      "labels": ["1A"],
+      "rationale": "Software release cadence is a cheap, datable proxy for how long the vendor plans to support a platform. A new 6000 LIMS or NVCS release in 2025–26 means Illumina still supports regulated 6000 users, which fits the 'long tail' and cuts against fast conversion. A freeze, or 'maintenance only' language, would point to managed sunsetting.",
+      "expected_payoff": "medium"
+    },
+    {
+      "name": "Core-facility 6000 discontinuation newsletters from late 2025 onward (Rush GMCF Aug/Dec 2025; Biogenouest GenoA Nantes; Institut Pasteur)",
+      "url": "https://www.rushu.rush.edu/sites/default/files/2026-01/gmcfupdates-boyd-122025.pdf",
+      "access": "Public PDFs/HTML. Also open https://www.rushu.rush.edu/sites/default/files/2025-08/GMCF%20Newsletter%20August%202025.pdf, https://www.biogenouest.org/en/article/new-Genoa-sequencer/ and https://research.pasteur.fr/en/b/fAh. Record the retirement date, the stated reason (cost, service contract, reagent availability) and where the work went (X, i100, AVITI).",
+      "labels": ["1A", "2A"],
+      "rationale": "A Dec 2025 Rush update (a search snippet seen) says the core 'has discontinued service for the NovaSeq6000', including the SP 2x250 flow cells, and steers users to the MiSeq i100+ or the X. Our corpus has Rush's rate card but not this retirement note. Research-side retirements dated 2025–26 at mid-size US and EU cores date the tail's decay. The stated reasons (for example, the service contract being too costly) show what drives exits.",
+      "expected_payoff": "low"
+    }
+  ],
+  "apify_requests": [
+    {
+      "actor": "apify/google-search-scraper",
+      "input": {
+        "queries": [
+          "\"NovaSeq 6000\" \"will be retired\" 2026",
+          "\"NovaSeq 6000\" \"no longer\" sequencing core 2026",
+          "\"NovaSeq 6000\" decommission 2027 core facility",
+          "\"NovaSeq 6000\" \"service contract\" 2026 site:edu",
+          "\"NovaSeq 6000Dx\" laboratory 2026 validation",
+          "\"NovaSeq 6000\" \"end of support\" Illumina 2026"
+        ],
+        "resultsPerPage": 50,
+        "maxPagesPerQuery": 2,
+        "countryCode": "us"
+      },
+      "why": "Find 2026 retirement dates for core and clinical-lab 6000s, plus 6000Dx validations, that the standard search did not surface. Each hit dates a tail exit or a tail lock-in.",
+      "max_items": 200
+    }
+  ]
+}
+```

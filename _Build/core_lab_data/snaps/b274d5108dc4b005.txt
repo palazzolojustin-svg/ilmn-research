@@ -1,0 +1,319 @@
+FY26 NGS Sequencing | Bauer Core Facility
+Skip to main content
+arrow_circle_down
+Bauer Core Facility
+FAS Division of Science
+menu
+close
+Menu
+Search
+Search
+search
+Request a Consult
+Minilims
+SPINAL
+Bauer Core Facility
+FAS Division of Science
+Home
+Flow Cytometry
+Flow Cytometry
+expand_more
+Scheduling
+Flow Cytometry Training
+Instruments
+Data Analysis
+Resources
+FY26 Fees
+FY26 Fees
+expand_more
+Billing Policies
+Flow Cytometry
+Long Read Library Prep & Sequencing
+NGS Library Prep
+NGS Sequencing
+QC & Reagents
+Training & Self Run Use
+NovaSeq X Plus
+25B Flow Cell | 8 Lanes Per Flow Cell
+Prices Per Lane
+2.5 Billion Reads
+|
+Read
+Length
+|
+Harvard
+Account
+Code
+|
+PO
+$1,511
+|
+$2,115
+|
+*200 cycle
+|
+$1,830
+|
+$2,562
+|
+300 cycle
+|
+$2,059
+|
+$2,883
+|
+*infrequently run, expect a long wait for single lanes
+10B Flow Cell | 8 Lanes Per Flow Cell
+Prices Per Lane
+1 Billion Reads
+|
+Read
+Length
+|
+Harvard
+Account
+Code
+|
+PO
+$1,011
+|
+$1,415
+|
+*200 cycle
+|
+$1,234
+|
+$1,727
+|
+300 cycle
+|
+$1,304
+|
+$1,826
+|
+*infrequently run, expect a long wait for single lanes
+1.5B Flow Cell | 2 Lanes Per Flow Cell
+Prices Per Lane
+600 Million Reads
+|
+Read
+Length
+|
+Harvard
+Account
+Code
+|
+PO
+$1,288
+|
+$1,803
+|
+*200 cycle
+|
+$1,522
+|
+$2,131
+|
+*300 cycle
+|
+$1,616
+|
+$2,263
+|
+*infrequently run, expect a long wait for single lanes
+NextSeq 1000
+P1 Flow Cell
+|
+|
+P2 Flow Cell
+|
+90 Million Reads
+|
+360 Million Reads
+|
+Read
+Length
+|
+Harvard
+Account
+|
+$1,489
+|
+|
+100 cycle
+|
+$1,487
+|
+$2,082
+|
+300 cycle
+|
+$1,382
+|
+$1,935
+|
+200 cycle
+|
+$2,582
+|
+$3,615
+|
+600 cycle
+|
+$2,067
+|
+$2,893
+|
+300 cycle
+|
+$3,344
+|
+$4,682
+|
+|
+|
+600 cycle
+|
+$3,711
+|
+$5,195
+|
+MiSeq
+Nano & Micro Flow Cells
+Nano v2 Flow Cell
+|
+|
+Micro v2 Flow Cell
+|
+1 Million Reads
+|
+4 Million Reads
+|
+Read
+Length
+|
+Harvard
+Account
+Read
+Length
+|
+Harvard
+Account
+Code
+|
+PO
+Payment
+|
+300 cycle
+|
+$513
+|
+$718
+|
+|
+300 cycle
+|
+$788
+|
+$1,104
+|
+500 cycle
+|
+$702
+|
+$983
+|
+|
+v2 & v3 Flow Cells
+v2 Flow Cell
+|
+|
+v3 Flow Cell
+|
+15 Million Reads
+|
+25 Million Reads
+|
+Read
+Length
+|
+Harvard
+Account
+|
+$1,730
+|
+|
+150 cycle
+|
+$1,343
+|
+$1,880
+|
+300 cycle
+|
+$1,607
+|
+$2,250
+|
+600 cycle
+|
+$2,225
+|
+$3,115
+|
+500 cycle
+|
+$1,748
+|
+$2,447
+| |
+NextSeq 500
+Mid Flow Cell
+|
+|
+High Flow Cell
+|
+100 Million Reads
+|
+300 Million Reads
+|
+Read
+Length
+|
+Harvard
+Account
+|
+$2,060
+|
+|
+75 cycle
+|
+$2,201
+|
+$3,081
+|
+300 cycle
+|
+$2,306
+|
+$3,229
+|
+150 cycle
+|
+$3,691
+|
+$5,167
+|
+|
+|
+300 cycle
+|
+$5,852
+|
+$8,192
+|
+location_on
+Bauer Core FacilityHarvard University
+Northwest Building, Room B239
+52 Oxford StCambridge, MA 02138
+Visitor Information

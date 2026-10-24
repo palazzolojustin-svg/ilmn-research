@@ -1,0 +1,92 @@
+```json
+{
+  "sources": [
+    {
+      "name": "Wayback Machine snapshots of Illumina promotion pages",
+      "url": "https://web.archive.org/web/2025/https://www.illumina.com/systems/sequencing-platforms/novaseq-x-plus/promotions.html",
+      "access": "web.archive.org is not fetchable from this environment (WebFetch refused the host). A later agent would need to use the Wayback CDX API through a different route, such as a Bash curl.",
+      "labels": ["1A", "1B"],
+      "status": "blocked",
+      "notes": "I could not open any archived snapshot. I found no live Illumina 6000-to-X trade-in or 35B launch-terms page by search, so the URL I tried may not exist.",
+      "how_to_mine": "From Bash, query http://archive.org/wayback/available?url=illumina.com/company/doing-business-with-illumina/financial-buying-options.html&timestamp=2025MMDD. Use the CDX API (web.archive.org/cdx/search/cdx?url=...&output=json&fl=timestamp,digest) to list snapshots and digests, then diff the text across dates. Also check the NovaSeq X order page and the roadmap page. Look for a change in the wording of the trade-in or reagent-rental section and for any new 6000 or X offer.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Illumina Instrument Buying Options page (trade-in / reagent rental / lease / MiSeq promotion)",
+      "url": "https://www.illumina.com/company/doing-business-with-illumina/financial-buying-options.html",
+      "access": "Public, no login.",
+      "labels": ["1A", "1B"],
+      "status": "dry",
+      "notes": "The current page offers trade-in credit only for MiniSeq, MiSeq and NextSeq upgrades. The HiSeq trade-in program for a NovaSeq 6000 is still listed, with no dates. A MiSeq owner promotion toward the MiSeq i100 Plus, NextSeq 1000 or NextSeq 2000 is described as 'limited time'. Reagent rental and lease are mentioned with no terms. I found no 6000-to-X trade-in, no 35B terms and no academic rebate program. The absence is itself a data point: there is no public escalating-incentive program on the high-throughput line.",
+      "how_to_mine": "Diff archived versions of this page for when the MiSeq promotion and the HiSeq trade-in text appeared. Only an archive route can show an escalation.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Illumina oncology supply-agreement appendices / addenda with 'instrument credits' table (illumina.com /documents/applications/cancer/)",
+      "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf",
+      "access": "The PDFs are public on emea.illumina.com. Others, such as 3-18-2024_appendix-1.pdf and 1-25-2024_appendix-1.pdf on www.tst-web.illumina.com, returned 404 when I fetched them directly. The 2022 addendum is a 32-page PDF with compressed streams, and WebFetch could not read its text. I saved it locally, but the Read tool needs poppler, which is not installed.",
+      "labels": ["1B", "1A"],
+      "status": "productive",
+      "notes": "A search snippet shows a table titled 'Allocation of Instrument Credits' that gives 13 credits for a NovaSeq X Plus, 11 for a NovaSeq 6000 Dx and 10 for a NovaSeq 6000. These look like contract appendices for the US oncology program (the Open Offer family). I could not read them further, so the credit unit, the consumable discount tiers and any MFN or price-fall terms are unverified.",
+      "how_to_mine": "Download the PDF with curl or Invoke-WebRequest, then run pdftotext or Python pypdf on it (python -I). The saved copy is at C:\\Users\\palaz\\.claude\\projects\\C--Users-palaz-OneDrive-Documents-ILMN-Claude-Code-Local-Folder--Build-thesis-scrape-sandbox\\33370889-7376-4da2-bc25-92388ea5537b\\tool-results\\webfetch-1791793532262-libq91.pdf. Extract the instrument-credit table and the per-Gb or tiered consumable discount tables. Compare the 2022, Jan 2024 and Mar 2024 versions for changes in credit values or discount tiers. Search illumina.com for other files in the same path, such as 2025 and 2026 appendix versions. Check whether the credits scale with the volume of consumables bought. Confirm whether these are the Open Offer terms already known (Core Notes 17) or a separate program.",
+      "difficulty": "hard (needs interpretation: contracts, tenders, implied pricing, archived price histories)",
+      "items": [
+        {
+          "label": "1B",
+          "direction": "supports",
+          "claim": "An Illumina oncology supply-agreement appendix awards instrument credits per installed system, valuing the NovaSeq X Plus above the NovaSeq 6000.",
+          "detail": "A search-result snippet (not opened in full) of the 29 Sep 2022 addendum shows 'Table 3: Allocation of Instrument Credits': NovaSeq X Plus 13, NovaSeq 6000 Dx 11, NovaSeq 6000 10. This suggests contract customers get instrument-linked credits that favour the X. The unit (points, dollars or discount tier) and the link to consumable discounts are unknown. Newer 2024 versions with the same table layout were also listed.",
+          "url": "https://emea.Illumina.com/content/dam/illumina-marketing/documents/applications/cancer/09-29-2022_Addendum.pdf",
+          "date": "2022-09-29 (2024 versions listed)",
+          "source_name": "Illumina oncology supply-agreement addendum (illumina.com)",
+          "source_type": "price_list",
+          "quote": "",
+          "strength": "weak",
+          "why_new": "The known list covers the Open Offer S-1 exhibit and the Natera amendments, but not these public Illumina-hosted appendices or their instrument-credit table."
+        }
+      ]
+    },
+    {
+      "name": "Illumina webinar pages (2026: Scaling NGS in core labs)",
+      "url": "https://www.illumina.com/events/webinar/2026/scaling-ngs-core-labs-novel-high-throughput-sequencer-innovations.html",
+      "access": "Public. The page is on-demand, dated 12 Feb 2026.",
+      "labels": ["2A", "1B"],
+      "status": "dry",
+      "notes": "The page gives no price figures and does not mention a 35B flow cell. It covers the NovaSeq X 1.5B 600-cycle kit and a general 'cost-effective' claim.",
+      "how_to_mine": "Webinar recordings are probably gated, so skip them. Check only the 2026 conference and webinar listings for any 35B mention.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    },
+    {
+      "name": "Third-party promotions (Novogene, TGen academic price list, Admera)",
+      "url": "https://www.tgen.org/media/x2dmuqf1/tgen_csc_academic_price_list_08-2026.pdf",
+      "access": "Public.",
+      "labels": ["1B", "2A"],
+      "status": "dry",
+      "notes": "Every price here is already known: Novogene $2,599 and $2,549 per lane, and TGen 25B at $3.14/Gb. The new detail is that the TGen list runs 22 Jul 2026–31 Mar 2027 and shows a 10B lane at $1,413.47. The summer Novogene promotion is valid for quotes issued by 31 Aug 2026, which suggests its promotions roll on a seasonal cadence. The Admera X Plus discounts ran to 30 Jun 2024 and are expired. I found no Illumina-issued promotion in these results.",
+      "how_to_mine": "Not worth a deeper pass. Track whether the Novogene promo price drops again in autumn 2026, which would show escalation.",
+      "difficulty": "easy (plain extraction)",
+      "items": []
+    }
+  ],
+  "new_candidates": [
+    {
+      "name": "Illumina-hosted supply-agreement appendices (cancer documents folder), all versions 2022–2026",
+      "url": "https://www.illumina.com/content/dam/illumina-marketing/documents/applications/cancer/",
+      "access": "Public PDFs. Find them with site: searches for 'Allocation of Instrument Credits' and 'appendix-1'. Some paths return 404, so use the emea.illumina.com and tst-web hosts.",
+      "labels": ["1B", "1A"],
+      "rationale": "These are public Illumina contract templates. Version-to-version changes in discount tiers or credits would show escalating incentives, and they may state price-per-Gb schedules for NovaSeq X versus 6000."
+    },
+    {
+      "name": "Wayback CDX diff of Illumina buying-options and X order pages",
+      "url": "http://archive.org/wayback/available?url=illumina.com/company/doing-business-with-illumina/financial-buying-options.html",
+      "access": "Use curl from Bash, since WebFetch is blocked for web.archive.org.",
+      "labels": ["1A", "1B"],
+      "rationale": "A dated history of trade-in, reagent-rental and promotion wording would show when incentives were added or changed."
+    }
+  ],
+  "apify_requests": []
+}
+```

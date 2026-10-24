@@ -1,0 +1,82 @@
+2020-02-05 :: Illumina board authorizes $750M share repurchase program (only $15M later remained)
+2021-03-08 :: Illumina enters $750M revolving credit facility
+2021-03-23 :: Illumina issues $500M 2023 and $500M 2031 term notes
+2021-08-18 :: Illumina completes GRAIL acquisition
+2022-01-03 :: Illumina adopts ASU 2020-06 convertible debt accounting
+2022-06-09 :: CFO Sam Samad departs; Joydeep Goswami named interim CFO
+2022-07-13 :: EU General Court rules EC has jurisdiction over GRAIL deal
+2022-07-14 :: Illumina settles BGI/Complete Genomics patent litigation for $325M
+2022-07-19 :: EC issues Statement of Objections on gun-jumping; Illumina accrues $453M fine
+2022-07-25 :: Illumina pays $325M BGI settlement
+2022-09-01 :: FTC administrative law judge rules for Illumina on GRAIL
+2022-09-06 :: EC prohibits Illumina-GRAIL acquisition
+2022-11-03 :: Q3 2022 10-Q filed: $3,914M GRAIL goodwill impairment; 2022 revenue guidance flat to +1%
+2022-12-13 :: Illumina issues $500M 5.800% 2025 and $500M 5.750% 2027 term notes
+2023-01-04 :: Illumina enters new $750M credit facility maturing January 2028
+2023-02-17 :: FY2022 10-K: revenue $4,584M (+1%), net loss $4,404M
+2023-03-23 :: Illumina repays $500M 2023 term notes
+2023-03-31 :: Full FTC orders Illumina to divest GRAIL
+2023-05-05 :: Q1 2023 10-Q: revenue −11%; 2023 guidance 7–10% growth; >$100M cost cut plan
+2023-07-12 :: EC imposes €432M fine on Illumina for closing GRAIL during review
+2023-08-15 :: Illumina repays $750M convertible notes in cash
+2023-08-11 :: Q2 2023 10-Q period: 2023 revenue guidance cut to ~1% growth
+2023-10-12 :: EC adopts GRAIL Divestment Decision
+2023-11-09 :: Q3 2023 10-Q: $821M GRAIL goodwill and IPR&D impairment
+2023-12-15 :: Fifth Circuit vacates FTC GRAIL order and remands
+2023-12-17 :: Illumina announces it will divest GRAIL
+2023-12-31 :: FY2023 ends: revenue $4,504M (−2%), net loss $1,161M; 2024 Core revenue guided flat
+TERMS>>>
+2024-03-31 :: Q1 2024 ends; revenue $1,076M, net loss $126M
+2024-06-17 :: Illumina signs $750M 364-day delayed draw term loan
+2024-06-20 :: Illumina draws $750M term loan at 6.7% to fund GRAIL Disposal Funding
+2024-06-24 :: GRAIL spin-off completed; Illumina keeps 14.5% and contributes $974M
+2024-06-30 :: Q2 2024 ends with $1,886M GRAIL impairment and $1,988M net loss
+2024-08-01 :: Board authorizes new $1.5B share repurchase program (August 2024)
+2024-09-03 :: EU Court of Justice rules European Commission lacked jurisdiction over GRAIL deal
+2024-09-06 :: European Commission withdraws €432M fine; Illumina books $481M net gain
+2024-09-09 :: Illumina issues $500M 4.650% notes due 2026 and repays term loan
+2024-12-29 :: FY2024 ends; revenue $4,372M, net loss $1,223M
+2025-02-04 :: China adds Illumina to unreliable entities list
+2025-03-04 :: China bars Illumina from exporting sequencing instruments into China
+2025-03-30 :: Q1 2025 ends; Illumina launches $100M 2025 cost-reduction program
+2025-04-01 :: New U.S. and foreign tariffs begin; Illumina estimates ~$85M cost impact (April 2025)
+2025-06-22 :: Illumina agrees to acquire SomaLogic for $350M plus up to $75M milestones
+2025-07-04 :: U.S. tax law ends R&D capitalization requirement
+2025-07-22 :: Illumina settles DOJ False Claims Act probe for $9.8M
+2025-07-31 :: Q2 2025 results; first FY2025 guidance in sources (EPS $4.45-4.55)
+2025-10-30 :: Q3 2025 results; FY2025 EPS guidance raised to $4.65-4.75
+2025-11-10 :: China permits instrument exports again on case-by-case basis
+2025-11-25 :: Illumina issues $500M 4.750% notes due 2030
+2025-12-12 :: Illumina repays $500M 5.800% notes at maturity
+2025-12-28 :: FY2025 ends; revenue $4,343M, net income $850M, non-GAAP EPS $4.84
+2026-01-30 :: SomaLogic acquisition closes
+2026-02-05 :: Q4 2025 results; FY2026 guidance of $4.50-4.60B revenue and $5.05-5.20 EPS
+2026-02-11 :: FY2025 10-K filed
+2025-04-01 :: U.S. and other countries' tariffs take effect, raising Illumina costs mainly on imports from Singapore
+2025-07-04 :: U.S. tax legislation signed, triggering a one-time valuation allowance in Illumina's FY25 tax line
+2025-09-28 :: Illumina LTM free cash flow about $1.0B, gross leverage ~1.7x as of this date
+2025-11-01 :: Illumina issues $500M 4.750% notes due December 2030
+2025-12-28 :: Illumina fiscal year 2025 ends; cash $1,418M
+2026-01-13 :: Illumina pre-announces FY25 revenue ~$4.34B (flat CC) and non-GAAP EPS $4.76-$4.79 at JPM; reaffirms FY27 targets
+2026-01-30 :: Illumina closes $460M acquisition of SomaLogic from Standard BioTools
+2026-02-04 :: Illumina board again defers shareholder litigation demand over GRAIL
+2026-02-05 :: Illumina scheduled to report full Q4 and FY25 results
+2026-02-13 :: Delaware court hears motion to dismiss GRAIL derivative suit
+2026-02-01 :: U.S. Supreme Court rules IEEPA does not authorize tariffs
+2026-03-01 :: Court of International Trade orders CBP to process IEEPA tariff refunds
+2026-03-29 :: Illumina Q1 2026 ends; revenue $1,091M (+4.8% reported, +1.2% organic)
+2026-04-01 :: Illumina pays $25M 2025 SomaLogic milestone
+2026-04-28 :: Illumina board authorizes new $1.5B share repurchase program
+2026-04-30 :: Illumina reports Q1 2026; issues FY26 guidance of $4.52-$4.62B revenue, $5.15-$5.30 EPS
+2026-05-01 :: Illumina files Q1 2026 10-Q
+2026-05-15 :: California state court grants class certification in GRAIL securities suit
+2026-06-26 :: California court denies Illumina motion for judgment on the pleadings
+2026-06-28 :: Illumina Q2 2026 ends; revenue $1,159M (+9.5% reported, +6.5% organic)
+2026-07-27 :: Illumina pays $30M to buy out remaining SomaLogic milestone and royalty obligations
+2026-07-28 :: Illumina seeks appellate review of class certification order
+2026-07-30 :: Illumina reports Q2 2026; raises FY26 guidance to $4.60-$4.64B revenue, $5.30-$5.40 EPS
+2026-07-31 :: Illumina files Q2 2026 10-Q
+2026-09-09 :: Illumina $500M 4.650% notes mature
+2026-10-30 :: Hearing scheduled on Illumina motion to amend answer in California GRAIL suit
+2027-12-13 :: Illumina $500M 5.750% notes mature
+2028-01-04 :: Illumina $750M revolving credit facility matures

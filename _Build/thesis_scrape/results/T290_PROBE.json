@@ -1,0 +1,15 @@
+```json
+{
+  "status": "dry",
+  "notes": "I could not open the Neogen page (HTTP 403, bot-blocked), so I have no price or 'discontinued' flag for it. The Utah core page returned 403 too. Two searches turned up no commercial provider (Psomagen, GENEWIZ/Azenta, Admera, MedGenome, Macrogen, BGI) with a 2026 NovaSeq 6000 lane price. The 2026 pages that surfaced are 25B/X Plus lists from Novogene, UConn, TGen, UCLA and Northwestern. Most of those are already in the known list. The only 6000 lane prices were undated or old: Utah S4 $4,760 internal / $7,140 external, UConn S4 run $16,578 (Jan 2025), BioMicro FY25 S4 $5,400 per lane. No provider census was possible from these probes. Of the 15-provider cap, only about 5 were seen, and none of them is a commercial provider with a 6000 price. UConn lists a 25B lane at $2,933.99 from 1 Jan 2026 with no end date, but that is a core price already tracked. Count of providers still selling the 6000 in 2026: unverified. Count that dropped it: Novogene is the only one confirmed (already known).",
+  "how_to_mine": "Open each provider's page directly with a browser-like fetch, since Neogen and Utah block WebFetch with 403. Try the Neogen category listing and a Google cache or archive.org copy of the S4 page. Search each provider individually: 'Psomagen NovaSeq 6000 S4 price', 'GENEWIZ Azenta NovaSeq S4 lane', 'Admera Health NovaSeq', 'MedGenome NovaSeq pricing', 'Macrogen NovaSeq 6000'. For each, record the 6000 price, the 25B price, and any 'legacy' or 'ending' label. Compare the Wayback Machine snapshots of Neogen from 2024 and 2026 to see if SKUs were dropped. Also check the MDC Berlin price list PDFs (media/39941) for dates and 6000 vs X rows.",
+  "difficulty": "hard",
+  "items": [],
+  "new_candidates": [
+    "UConn honeycrisp core store lists the 25B 300-cycle lane at $2,933.99 (from 2026-01-01, no end date) plus an S4 run at $16,578 (Jan 2025 rates page): check whether the 6000 S4 SKU is still active on honeycrisp.core.uconn.edu/products/358 and /657",
+    "MDC Berlin price lists (mdc-berlin.de/media/39941, 39029, 38662): check whether the 2025-26 version still lists 6000 S4 rows",
+    "USC Keck Genomics Platform (kgp.usc.edu/?p=1929) lists an S4 300-cycle flow cell at $19,473: check its date and whether X rows exist"
+  ],
+  "apify_requests": []
+}
+```

@@ -1,0 +1,77 @@
+```json
+{
+  "items": [
+    {
+      "label": "2A",
+      "direction": "against",
+      "claim": "Twist's academic and government revenue rebounded sharply in the quarter ended Jun 2026, so US academic demand did not weaken in Q2 CY26.",
+      "detail": "10-Q Note 3 shows academic research and government revenue of $15,512K in FQ3'26 against $11,724K in FQ3'25, which is +32.3% y/y. Management put sequential growth at +21%, which implies about $12.8M in FQ2'26. The call attributed the rise to US accounts and 'several large customers' returning. This is a software-and-reagent supplier's customer line (synthetic DNA plus NGS), not sequencing consumables. It still matches the late-Q2 pickup in US funding releases and quotes that Illumina chose not to extrapolate.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000047/twst-20260630.htm",
+      "date": "2026-08-03",
+      "source_name": "Twist Bioscience 10-Q (quarter ended 30 Jun 2026), Note 3; call summary at allmind.ai",
+      "source_type": "filing",
+      "quote": "several large customers return during the quarter",
+      "strength": "medium",
+      "why_new": "The known list has Twist NGS +12% only; this is the first academic-line datapoint, and it cuts against the research-weakness view."
+    },
+    {
+      "label": "2A",
+      "direction": "supports",
+      "claim": "The Twist academic rebound is a single lumpy quarter. The first half was flat, and management called the setting 'budget-constrained' and 'dynamic'.",
+      "detail": "Nine-month FY26 academic revenue was $40,545K against $36,589K a year earlier (+10.8%). Subtracting Q3 gives H1 FY26 of $25,033K against $24,865K in H1 FY25, which is +0.7%. An analyst on the call cited growth of 3% in the prior quarter against 32% in this one. Management said 'order patterns may fluctuate' and described a 'budget-constrained environment' in which promotions into the segment are continuing. So the Q3 jump looks like returning large customers plus promotional pricing, not a broad recovery in research spending. That fits Illumina's 'too early to call a recovery' stance on research.",
+      "url": "https://allmind.ai/earnings/event/2942776",
+      "date": "2026-08-03",
+      "source_name": "Twist FQ3'26 call transcript (allmind.ai, partly garbled) plus 10-Q Note 3; derived arithmetic",
+      "source_type": "earnings_call",
+      "quote": "budget-constrained environment",
+      "strength": "medium",
+      "why_new": "This is a quantified H1 vs Q3 split for an adjacent supplier. The exclusion list has only Thermo, Bruker and 10x funding reads."
+    },
+    {
+      "label": "1C",
+      "direction": "against",
+      "claim": "Twist's diagnostics line, its clinical NGS-heavy customer group, grew +15% in the quarter ended Jun 2026, with no sign of a clinical volume stall.",
+      "detail": "Diagnostics revenue was $43,843K in FQ3'26 against $38,134K in FQ3'25, which is +15.0%. Nine-month diagnostics was $119,118K against $108,647K (+9.6%), so the quarter accelerated. Management guides NGS applications to 'return to growth above 20%' in FQ4 after +12% in FQ3, and total FQ4 revenue to $123–124M (+25%). This is weak evidence that clinical genomics customers are still buying NGS inputs. It also sits against the thesis that clinical volume decelerates toward 25% or less. It is a supplier-side proxy, not Gb.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000044/twst-2026630xex991.htm",
+      "date": "2026-08-03",
+      "source_name": "Twist 10-Q Note 3 and Ex. 99.1 (FQ3'26)",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "The known list has only the NGS +12% headline and the 'return to 20%' target; it has no diagnostics-line growth."
+    },
+    {
+      "label": "2B",
+      "direction": "supports",
+      "claim": "Twist's non-therapeutic, non-clinical lines are flat to down, so there is no broad research or industrial demand surge behind the academic bounce.",
+      "detail": "Industry and applied revenue was $5,749K against $6,105K (−5.8% y/y). Global supply partners was $12,859K against $13,046K (−1.4%). Neither line grew in the same quarter as the academic rebound; the growth came from therapeutics (+49%) and diagnostics (+15%), plus the lumpy academic quarter. Management did not address NGS pricing on the call. I found no direct commentary on Illumina, Element, Ultima or Roche pricing.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000047/twst-20260630.htm",
+      "date": "2026-08-03",
+      "source_name": "Twist 10-Q Note 3, revenue by industry",
+      "source_type": "filing",
+      "quote": "",
+      "strength": "weak",
+      "why_new": "This is a customer-type revenue split from a tools supplier, which the known list lacks."
+    }
+  ],
+  "source_status": "exhausted",
+  "notes": "I read the 10-Q Note 3 tables, the Ex. 99.1 release and a partial garbled transcript on allmind.ai (two reads of about 100K characters). I did not see the 10-Q MD&A or the risk factors; the fetch returned no Item 2, and the 424B5 excerpt had no funding language. NIH, pricing and Illumina/Element/Ultima/Roche commentary is absent from the call text I could read. The Q&A on competitor discounting was not clearly captured and concerned DNA synthesis rivals (GenScript), not sequencers. GenomeWeb, Stock Taper, Motley Fool and MarketBeat were 403 or unusable. The one possible further read is the 10-Q MD&A via the SEC Archives page at a different offset, with low expected yield.",
+  "leads": [
+    {
+      "name": "Twist FQ2'26 10-Q (quarter ended 31 Mar 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001581280/000158128026000040/twst-20260331.htm",
+      "access": "public EDGAR",
+      "labels": ["2A"],
+      "rationale": "It would confirm the exact FQ2'26 academic figure (about $12.8M implied) and show the Q1/Q2 split of the flat first half."
+    },
+    {
+      "name": "Twist investor-relations static files (earnings presentation)",
+      "url": "https://investors.twistbioscience.com/static-files/09275eee-f3b8-45a6-b39c-4201339dbc8f",
+      "access": "public",
+      "labels": ["2A", "1C"],
+      "rationale": "The earnings presentation may split NGS customers (top-10 share 48%, 657 customers) and academic detail."
+    }
+  ],
+  "apify_requests": []
+}
+```
