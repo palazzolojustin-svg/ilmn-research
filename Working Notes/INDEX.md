@@ -866,6 +866,9 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/analyses/2026-10-30_ILMN_beat_magnitude_vs_guide_and_street.md`
 - `Outputs/datasets/2026-10-30_ILMN_beat_vs_guide_and_street.csv` (README: `2026-10-30_ILMN_beat_vs_guide_and_street_README.md`)
 - `Outputs/artifacts/2026-10-30_ILMN_beat_vs_guide_and_street.png`
+- `Outputs/analyses/2026-10-30_ILMN_EPS_beat_magnitude_vs_guide_and_street.md`
+- `Outputs/datasets/2026-10-30_ILMN_EPS_beat_vs_guide_and_street.csv` (README: `2026-10-30_ILMN_EPS_beat_vs_guide_and_street_README.md`)
+- `Outputs/artifacts/2026-10-30_ILMN_EPS_beat_vs_guide_and_street.png`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_brief.html`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_thesis.html`
 - `Outputs/artifacts/2026-10-11_ILMN_primer.html`
