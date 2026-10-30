@@ -24,7 +24,7 @@ Illumina's fiscal year is a 52- or 53-week year ending near December 31.
 - **Estimated years:** FY2026 ends 01/03/2027, FY2027 01/02/2028, FY2028 12/31/2028, FY2029 12/30/2029, FY2030 12/29/2030, FY2031 12/28/2031 and FY2032 01/02/2033.
 - **Quarter ends:** 03/30/2025, 06/29/2025, 09/28/2025, 12/28/2025, 03/29/2026 and 06/28/2026 are reported. 10/04/2026 (2026Q3), 04/04/2027, 07/04/2027, 10/03/2027, 04/02/2028, 07/02/2028 and 10/01/2028 are estimated.
 
-By date, 2026Q3 (06/28 to 10/04) spans 14 weeks and 2026Q4 (10/04 to 01/03) spans 13, making FY2026 a 53-week year. The extra week may partly explain strong second-half 2026 estimates; this is our inference from the dates, not a reason the sheet gives.
+By Bloomberg's dates, 2026Q3 (06/28 to 10/04) spans 14 weeks (management says the extra week is in Q4, per the Q2 and Q3 2026 calls) and 2026Q4 (10/04 to 01/03) spans 13, making FY2026 a 53-week year. The extra week may partly explain strong second-half 2026 estimates; this is our inference from the dates, not a reason the sheet gives.
 
 ### Adjusted versus GAAP
 

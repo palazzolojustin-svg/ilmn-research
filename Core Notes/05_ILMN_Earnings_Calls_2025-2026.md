@@ -1,717 +1,707 @@
 # Illumina Earnings Calls, 2025-2026
 
-*Core Notes section 05. Synthesized from 6 source extracts as of 2026-10-10. Bracketed tags cite the source; full detail is in Working Notes (see INDEX.md).*
+*Core Notes section 05. Synthesized from 7 source extracts as of 2026-10-10. Bracketed tags cite the source; full detail is in Working Notes (see INDEX.md).*
 
-## Q1 2025: Guidance Cut on China, US Research Funding and Tariffs (call held 2025-05-08)
+This section follows Illumina's four earnings calls on fiscal 2025 results:
 
-### The headline: a solid quarter, but a lower year
+- Q1 on May 8, 2025
+- Q2 on July 31, 2025
+- Q3 on October 30, 2025
+- Q4 on February 5, 2026
 
-Illumina makes DNA sequencing instruments and sells the consumables (the reagent kits and flow cells customers must buy for every sequencing run) that run on them. On its first-quarter 2025 call, revenue and earnings per share (EPS, profit divided by the number of shares) landed at the upper end of Illumina's guidance. In the same call, management cut its full-year 2025 outlook because of three outside pressures: China's restriction on Illumina's instrument exports, uncertainty over US research funding, and new US import tariffs [Q1 2025 call, Thaysen].
+The main speakers were CEO Jacob Thaysen and CFO Ankur Dhingra. Brian Blanchett, interim head of investor relations (IR) and VP Finance and Treasurer, hosted the first two calls. Conor McNamara, VP of IR, hosted the last two.
 
-CEO Jacob Thaysen called these "transitory challenges that will not define Illumina's long-term success." Thaysen reiterated the goal set at the 2024 investor day, now stated excluding Greater China: high single-digit revenue growth and 500 basis points of operating margin expansion by 2027. A basis point is 0.01 percentage point, so 500 basis points is 5 points. Thaysen called Illumina "a resilient franchise with multiple drivers of near and long-term growth." Thaysen also said the clinical move to the NovaSeq X "reaffirm[s] both the value we provide and the resilience of the clinical markets" [Q1 2025 call, Thaysen].
+Some conventions apply throughout. All figures are for "core Illumina," meaning the company without GRAIL, the cancer-screening business it divested in 2024. Most profit figures are non-GAAP (adjusted to exclude items such as acquisition costs and stock compensation). Growth rates are in constant currency (with exchange-rate effects removed) unless noted. "China" means Greater China, including Taiwan and Hong Kong. Comparisons with analyst consensus come from Seeking Alpha transcript headers, not from management.
 
-Interim Head of Investor Relations Brian Blanchett set two conventions. All figures refer to "core Illumina," meaning the company after it divested the cancer-screening business GRAIL. Growth rates are in constant currency (with exchange-rate effects removed) unless noted [Q1 2025 call, Blanchett].
+The year's arc in brief:
 
-### Results against expectations
+- **May 2025:** Illumina cut guidance because of three outside shocks: Chinese export restrictions, US research-funding uncertainty and tariffs.
+- **July 2025:** Guidance was raised, and Illumina bought a proteomics company.
+- **October 2025:** Illumina returned to growth outside China and passed its NovaSeq X transition targets early.
+- **February 2026:** Illumina reported 7% growth outside China in Q4, led by 20% clinical consumables growth. It guided 2026 conservatively.
 
-Revenue was $1.04 billion, down 1.4% as reported. Currency cost 1.2 points, so revenue was roughly flat in constant currency, at the top of guidance, and revenue excluding China rose slightly. Non-GAAP EPS was $0.97, toward the top of the guidance range. Non-GAAP figures are management's adjusted numbers, which exclude items such as acquisition costs and stock compensation. CFO Ankur Dhingra called it a quarter of "excellent execution" [Q1 2025 call, Dhingra].
+Throughout the year, clinical demand strengthened, research stayed weak, China shrank but held up better than feared, and management kept downplaying competition.
 
-Seeking Alpha's third-party summary said EPS beat consensus by $0.03 and revenue by $4.10 million. It also gave a 3.25% year-over-year revenue decline, which does not match management's 1.4% and whose basis is not explained.
+## Q1 2025 (May 8, 2025): guidance cut on China, research funding and tariffs
 
-The table below breaks the quarter down by line, with the comparison management gave for each.
+### Results against guidance and consensus
 
-| Item | Q1 2025 | Context [Q1 2025 call, Dhingra] |
+Illumina makes DNA sequencing instruments. It also sells consumables (the reagent kits customers must buy for every sequencing run), which are the larger and more profitable part of revenue.
+
+**Revenue.** Q1 2025 revenue was $1.04 billion, down 1.4% as reported. That included a 1.2-point currency headwind, so revenue was roughly flat in constant currency and at the top of guidance. Outside China, revenue grew slightly. Seeking Alpha's header put the decline at 3.25% and said revenue beat consensus by $4.1 million; its basis is unexplained and differs from management's figure.
+
+**EPS.** Earnings per share (EPS) were $0.97, toward the top of guidance and $0.03 above consensus. CFO Ankur Dhingra called the quarter "excellent execution" [Q1 2025 call, 2025-05-08].
+
+The table breaks Q1 into product lines and profit items. Consumables edged up while instruments and services slipped, and gross margin rose but fell short of plan.
+
+| Item | Q1 2025 | Context |
 |---|---|---|
-| Sequencing consumables | $696 million | Up about 1% year over year, driven by high-throughput consumables and the shift of work onto the NovaSeq X |
-| Sequencing instruments | $109 million | About flat; more NovaSeq X units than expected, plus a successful launch of the low-throughput MiSeq i100 |
-| Sequencing services and other | $142 million | Down about 5%, as expected, because the prior year included strategic partnership revenue tied to the AGD consortium; core services and informatics grew mid-single digits excluding that |
-| Greater China revenue | $72 million | Shipped from in-country inventory even though export restrictions began in early March |
-| Non-GAAP gross margin | 67.4% | Up 30 basis points year over year, but slightly below plan |
-| Non-GAAP operating expenses | $489 million | Already partly reflecting the new cost program |
-| Non-GAAP operating margin | 20.4% | |
-| Other expense (mostly net interest) / tax rate | $15 million / 22% | |
-| Average diluted shares | About 159 million | 1 million fewer than the prior quarter, from buybacks net of employee equity awards |
-| Operating cash flow / capex / free cash flow | $240M / $32M / $208M | Seasonally lower in Q1 because the annual bonus is paid |
-| Cash and short-term investments | About $1.24 billion | Gross leverage about 1.8x gross debt to trailing-12-month EBITDA (a measure of operating earnings) |
+| Sequencing consumables | $696M | Up ~1% year over year, driven by high-throughput kits on the NovaSeq X |
+| Sequencing instruments | $109M | ~Flat; more NovaSeq X units than expected, plus the MiSeq i100 launch |
+| Services and other | $142M | Down ~5%, as expected, because 2024 included AGD consortium partnership revenue; excluding it, core services and informatics grew mid-single digits |
+| Greater China revenue | $72M | Shipped from in-country inventory despite export restrictions that began in early March |
+| Gross margin | 67.4% | Up 30 basis points (bp; 100 bp = 1 percentage point) but below plan |
+| Operating expenses | $489M | Already partly reflects the new cost program |
+| Operating margin | 20.4% | Operating profit as a share of revenue |
+| Other expense / tax rate | $15M / 22% | Other expense is mostly net interest |
+| Diluted shares | ~159M | 1M fewer than Q4 2024, because of buybacks |
+| Operating cash flow / capex / free cash flow | $240M / $32M / $208M | Q1 includes the annual cash bonus payout |
+| Cash and short-term investments | ~$1.24B | Gross leverage ~1.8x (gross debt over trailing-12-month EBITDA, a measure of operating earnings) |
 
-Gross margin is revenue minus the direct cost of goods, as a share of revenue. Dhingra cited three factors behind its result. First, the mix shifted toward instruments, which earn lower margins than consumables. Second, Illumina was rolling out a software upgrade for its high-throughput instruments, and the routine servicing it pulled forward as part of that rollout cost more than assumed; most upgrades were due to be done by Q2. Third, manufacturing cost actions continued to make good progress [Q1 2025 call, Dhingra].
+Dhingra said gross margin missed plan because of a heavier mix of lower-margin instruments and a software upgrade rollout for high-throughput instruments, during which Illumina pulled forward routine servicing that cost more than assumed. Most upgrades would be finished by Q2. Manufacturing cost work, by contrast, was progressing well [Q1 2025 call].
 
-### Clinical versus research: the first signs of a split
+### Demand: clinical solid, research turning cautious
 
-In the second half of the quarter, uncertainty grew around funding from the National Institutes of Health (NIH, the main US federal funder of biomedical research). Research and academic customers became "slightly more conservative" in buying consumables. Illumina estimated this cut consumables growth by about 1 point, although actual sequencing activity on connected instruments stayed strong [Q1 2025 call, Dhingra].
+**Research.** In the second half of the quarter, uncertainty over National Institutes of Health (NIH) funding made research and academic customers "slightly more conservative" in buying consumables. Dhingra estimated this cut consumables growth by about 1 point, though sequencing activity on connected instruments stayed strong [Q1 2025 call].
 
-Ordering was a bright spot. Q1 is seasonally when customers sign long-range purchase commitments, which Illumina reports as backlog under "performance obligations" in its quarterly 10-Q filing. Dhingra said this year's ordering was stronger than in the previous couple of years, with performance obligations up double digits year over year [Q1 2025 call, Dhingra].
+**Long-term contracts.** Q1 is the season for long-range purchase commitments, reported as "performance obligations," which function as backlog. Commitments were stronger than in the past couple of years, with performance obligations up double digits year over year, which Dhingra called encouraging.
 
-### The NovaSeq X transition
+**NovaSeq X transition.** The NovaSeq X is Illumina's newest high-throughput sequencer; customers are moving to it from the older NovaSeq 6000 ("6K"). Q1 metrics [Q1 2025 call]:
 
-The NovaSeq X is Illumina's newest high-throughput sequencer and is replacing the older NovaSeq 6000 (the "6K"). The X sequences far more cheaply per gigabase (a billion DNA letters, the standard unit of sequencing output). Revenue therefore falls when a customer converts. Illumina expects the lower price to unlock enough extra volume to grow revenue later, a dynamic it calls "elasticity."
+- **Placements:** more than 60 X systems, after more than 90 in Q4 2024, which CEO Jacob Thaysen said beat expectations. About 60% went to clinical customers (labs running patient tests).
+- **Share:** about 68% of high-throughput gigabases (billions of DNA letters, the unit of sequencing output) shipped on the X, but only about 43% of high-throughput consumables revenue, because the X is cheaper per gigabase. Research was over 80% converted by volume, clinical over 50%.
+- **Framework, reaffirmed:** by H2 2025, about 50% of high-throughput revenue and about 75% of gigabases on the X.
 
-Illumina placed more than 60 X systems in Q1, after more than 90 in Q4 2024, which Thaysen said beat expectations. About 60% went to clinical customers. About 68% of high-throughput gigabases and about 43% of high-throughput consumables revenue were now on the X. That included more than 80% of research gigabases and over 50% of clinical volumes. Dhingra reaffirmed the framework for the second half of 2025: about 50% of high-throughput revenue and about 75% of gigabases on the X [Q1 2025 call, Thaysen and Dhingra].
+Thaysen said X and total high-throughput consumables rose from Q4 2024, which "demonstrate[s] elasticity" (lower cost per unit leading customers to sequence more). Dhingra explained that as older 6K kits shrink in the mix, the price drag from the cheaper X fades, so more gigabase growth becomes revenue growth. Output on connected high- and mid-throughput instruments grew more than 30%, with clinical and research both strong.
 
-Thaysen said X consumables, and high-throughput consumables overall, rose sequentially, showing the driver "demonstrate[s] elasticity." Dhingra explained the mechanics: as older 6K consumables shrink in the mix, the drag from the X's lower price fades, and more of each gigabase of growth becomes revenue growth. Output on connected high- and mid-throughput instruments grew more than 30% year over year, with robust growth in both clinical and research [Q1 2025 call, Thaysen and Dhingra].
+### Cost cuts and buybacks
 
-### China, tariffs and the cost response
+In March 2025, Illumina launched an extra $100 million cost-reduction program in response to China and research weakness; by the call, the actions for full 2025 savings were in place. The program includes stock-compensation changes. Dhingra put its fully annualized run-rate value at over $225 million over four years; Thaysen said "more than $200 million." As a result, operating expenses would be flat to slightly down for the rest of 2025, rather than rising seasonally after Q1.
 
-Thaysen described the three pressures and Illumina's response to each [Q1 2025 call, Thaysen].
+Illumina bought back about 1.73 million shares for $200 million in February, at an average of $115.74, leaving $1.2 billion on the authorization, with more buybacks planned [Dhingra, Q1 2025 call].
 
-- **China.** Export restrictions meant lower 2025 China revenue on minimal instrument placements. Until the situation is resolved, Illumina will guide Greater China separately. It continues to talk with Chinese regulators about a "sustainable long-term presence."
-- **US research funding.** Uncertainty was delaying customer purchases. Illumina was offering flexible solutions to keep research projects going.
-- **Tariffs.** The US had enacted a baseline 10% import tariff, with much higher rates for some countries. Illumina planned to offset part of the cost in 2025 through supply-chain changes, cost measures and pricing, and to mitigate more fully in 2026.
+### Full-year 2025 guidance cut
 
-Dhingra estimated the gross 2025 tariff cost at about $85 million. The largest piece is goods shipped from Illumina's Singapore factory to the US. The rest is imported parts used in US manufacturing and Illumina products sold into China. Because inventory takes time to flow through, Q2 would carry only part of a quarter's impact, and each later quarter about $30 million to $35 million. Guidance assumed no further tariffs, including counter-tariffs from the EU or others. Management expected to offset roughly half in 2025 [Q1 2025 call, Dhingra and Thaysen].
+Dhingra explained that a March revision had already absorbed the loss of most China revenue, tighter funding and the new cost cuts while holding EPS at about $4.50. The May cut added tariffs. The table shows the new ranges; the key change is much lower China revenue, now guided separately until the export situation is resolved.
 
-In March 2025 Illumina launched an additional $100 million global cost program to address China and the research environment. Thaysen said every action needed for the full 2025 savings was already in place. Dhingra said the program includes changes to stock-based compensation and is worth more than $225 million a year once fully annualized over four years; Thaysen gave the annualized figure as "more than $200 million" in Q&A. As a result, operating expenses would not show their usual rise after Q1 and would stay flat to slightly down for the rest of 2025 [Q1 2025 call].
+| Item | New FY2025 guidance | Note |
+|---|---|---|
+| Total revenue | $4.18B–$4.26B | Down 3% to 1% |
+| Revenue ex-China | Flat to +2% | About +1% at the midpoint |
+| Greater China revenue | $165M–$185M | Cut $125M at the midpoint; $72M in Q1, ~$60M in Q2, only ~$43M in H2 |
+| Operating margin | ~21.5%–22% | Up ~45 bp at the midpoint despite a 125 bp tariff hit |
+| Tax rate | ~22% | Lowered |
+| EPS | $4.20–$4.30 | Down from ~$4.50; the $0.25 midpoint cut was mainly tariffs |
+| Consumables ex-China | Flat to +2% | Driven by strong clinical activity |
+| Instruments ex-China | Roughly flat | MiSeq i100 growth; steady NovaSeq X demand |
 
-In February Illumina completed the purchase of about 1.73 million shares for $200 million, at an average of $115.74. It had $1.2 billion of buyback authorization left and planned to keep repurchasing, which Dhingra said would give a small EPS benefit within the year [Q1 2025 call, Dhingra].
+**China's earnings share.** Dhingra said Greater China would contribute about $0.35 of 2025 EPS, versus about $0.76 in 2024. Rest-of-world EPS at the midpoint would be $3.90, up about 15% on a comparable basis. Management called its China stance "pragmatic"; any resolution would be upside.
 
-### Full-year 2025 and Q2 guidance
+**Rest-of-world revenue bridge** for the next three quarters [Dhingra]: research weakness cuts 2–4% per quarter and clinical strength adds about 1%, a net of about $60 million; pricing adds revenue mainly in H2, since price changes apply only to new orders; and currency is about $25 million better than previously assumed.
 
-In March, Illumina had held EPS guidance at about $4.50 while absorbing the loss of China revenue, tighter funding and the new cost actions. Dhingra said the May revision mainly added tariffs. The table below shows the new full-year outlook [Q1 2025 call, Dhingra].
+**Tariffs.** Dhingra estimated gross 2025 tariff cost at about $85 million, mostly from goods shipped from Illumina's Singapore plant into the US, with the rest from imported parts for US manufacturing and products sold into China. Because of inventory timing, Q2 would see a partial hit, then $30–35 million per quarter. Guidance assumed no further tariffs or counter-tariffs. Illumina expected to offset about half in 2025, through supply chain, pricing and expenses, and more fully in 2026.
 
-| Item | Updated FY2025 guidance (May 2025) |
-|---|---|
-| Total revenue | $4.18–4.26 billion, a decline of 3% to 1% |
-| Revenue excluding Greater China | Flat to +2% (about +1% at midpoint) |
-| Greater China revenue | $165–185 million, cut $125 million at midpoint ($72M Q1, ~$60M Q2, ~$43M in H2 at midpoint) |
-| Non-GAAP operating margin | About 21.5–22%, up about 45 basis points versus 2024 at midpoint, after a 125-basis-point tariff drag |
-| Non-GAAP tax rate | About 22% (lowered) |
-| Non-GAAP EPS | $4.20–4.30, versus about $4.50 in March; midpoint cut by $0.25, mainly because of tariffs |
-| Consumables excluding China | Flat to +2%, led by clinical activity |
-| Instruments excluding China | Roughly flat; steady X demand plus MiSeq i100 growth |
+### Q2 2025 guidance
 
-Dhingra itemized the rest-of-world revision. Research weakness would reduce quarterly revenue by 2% to 4% over the next three quarters. Clinical customers would partly offset that with about 1% of extra quarterly growth, so research and clinical together netted to about $60 million over the three quarters. Price increases would add revenue mostly in the second half, because they apply only to new orders. A more favorable exchange rate added about $25 million to reported revenue. Management called its China view "pragmatic" and said any positive resolution would be upside [Q1 2025 call, Dhingra].
+Dhingra guided Q2 revenue to $1.04–1.06 billion: China $55–65 million, and $980 million to $1 billion outside China, down 2–3% on partnership-revenue comparisons and research weakness. Operating margin would be about 21% and EPS $1.00–1.04, both including about $15 million of direct tariff cost. The outlook implied a stronger H2, relying on the X transition, cost cuts and pricing [Q1 2025 call].
 
-By region, Dhingra said China would contribute about $0.35 of 2025 EPS, down from an estimated $0.76 in 2024. Rest-of-world EPS at the midpoint would be $3.90, about 15% growth on a comparable basis [Q1 2025 call, Dhingra].
+### Strategy, governance and pipeline
 
-For Q2 2025, Illumina guided to revenue of $1.04–1.06 billion. China revenue would be $55–65 million and revenue outside China $980 million to $1 billion, down 2% to 3%, mainly on lower strategic partnership revenue and research weakness. Operating margin would be about 21% and EPS $1.00–1.04, both including about $15 million of direct tariff cost. The year was weighted to the second half, as the X transition matured and cost and pricing actions built up [Q1 2025 call, Dhingra].
+**Governance.** Thaysen thanked former chair Steve MacMillan, welcomed new chair Scott Gottlieb, and noted Keith Meister's experience as a genomics investor as Meister joined the board.
 
-### Governance and innovation pipeline
+**Framing.** Thaysen called the three pressures "transitory challenges that will not define Illumina's long-term success." On China, Illumina would keep talking with regulators about a sustainable presence; on US research, it would offer flexible terms to keep projects going; on tariffs (a 10% US baseline, higher for some countries), it would respond through supply chain, cost and pricing.
 
-Thaysen thanked former board chair Steve MacMillan and welcomed Scott Gottlieb as the new chair. Thaysen also welcomed Keith Meister to the board, citing Meister's investor experience in genomics and record of creating shareholder value [Q1 2025 call, Thaysen].
+**Long-term targets.** Thaysen reiterated high-single-digit revenue growth and 500 bp of operating-margin expansion by 2027, now stated excluding China, calling Illumina "a resilient franchise with multiple drivers of near and long-term growth."
 
-Thaysen described the pipeline as "unmatched" [Q1 2025 call, Thaysen].
+**Pipeline.** Thaysen called the pipeline "unmatched":
 
-- **Spatial technology** maps where genes are active within a tissue sample. Announced in February, it offers a much larger capture area, higher resolution and greater sensitivity than existing tools, and can analyze millions of cells per experiment to find rare cell populations. It ties into Illumina Connected Multi-Omics, a new tertiary-analysis (data interpretation) product built on Partek visualization technology. Early-access customers praised that it needs no special equipment and simplifies analysis. Release was planned for 2026.
-- **Perturb-Seq single-cell CRISPR.** CRISPR is a gene-editing tool, and this product shows how each genetic change affects individual cells at scale, for oncology, immunology and drug-target discovery. It captures the CRISPR guide RNA and the cell's messenger RNA from the same cell, enabling genome-wide screens at "market leading costs." It builds on a technology acquired the prior year, which the transcript does not legibly name. Launch was expected later in 2025.
-- **Proteomics** (measuring proteins), co-developed with Standard BioTools, was in early access with commercial launch targeted for the first half of 2025.
-- **Constellation mapped reads and 5-base genome technologies** were in early access, with full launches on track for 2026.
-
-Thaysen concluded that "the core of Illumina is strong, and our growth projections ex-China [are] on track."
+- **Spatial technology** (mapping where genes are active within tissue), announced in February: a larger capture area, higher resolution and more sensitivity than rivals, analyzing millions of cells per experiment with no special equipment. It links to Illumina Connected Multi-Omics, new tertiary-analysis (data interpretation) software built on Partek visualization. Early access had begun; launch planned for 2026.
+- **Perturb-Seq** (a single-cell CRISPR gene-editing screen), capturing the CRISPR guide RNA and messenger RNA from the same cell for genome-wide screens at "market leading costs." It builds on technology acquired in 2024 (name inaudible in the transcript); launch due later in 2025.
+- **A proteomics (protein-measurement) product** co-developed with Standard BioTools, in early access, targeted for H1 2025.
+- **Constellation mapped reads and the 5-base genome,** both in early access, with 2026 launches planned.
 
 ### Analyst Q&A
 
-**Doug Schenkel (Wolfe)** said owning the stock requires believing growth rebounds, ideally in 2026, and margins pass 25%. Schenkel asked about Q1 clinical and research growth outside China, the guide's end-market assumptions, and China beyond 2025, given it had fallen to about 4% of sales from about 10% two years earlier.
+**Doug Schenkel (Wolfe)** argued the investment case needs growth to rebound by 2026 and margins above 25%, and asked about end-market assumptions and China beyond 2025. Thaysen said China would be about 5% of 2025 sales, down from about 10% two years earlier, and would fall further in 2026 absent change; the cost cuts are designed to fully offset that. Thaysen called the $4.25 EPS midpoint "the new base" for double-digit to teens EPS growth, focused on the 95% of the business outside China. Dhingra said clinical consumables grew mid-single digits, helped by Q4 X placements, and clinical expectations were raised. Research consumables fell mid-to-high single digits (garbled in the transcript), and guidance assumed research falls "close to 15-ish percent" for the rest of the year, especially in academia and government, which face funding cuts and tariff-driven inflation.
 
-- Thaysen said the strategy outside China was unchanged: the X transition turns volume into revenue, with at least 50% of high-throughput revenue on the X by H2 2025 and growth accelerating after that.
-- Thaysen agreed China would be about 5% of the business in 2025 and lower in 2026 absent a change, and said the cost actions were designed to fully offset that.
-- Thaysen called the $4.25 EPS midpoint "the new base" for growing EPS at the double-digit-to-teens rate in the strategic framework, focused on the 95% of the business outside China.
-- Dhingra said clinical consumables grew mid-single digits in Q1, helped by Q4 placements, and the clinical outlook was raised. Research consumables fell mid-to-high single digits (the transcript is partly garbled), and Q1 only partly reflected the mid-quarter shift.
-- Academic and government customers face both funding cuts and tariff-driven inflation. The guide assumed a research decline "close to 15-ish percent" for the rest of the year, worse than Q1 [Dhingra].
+**Dave Westenberg (Piper Sandler)** asked whether mid- and low-throughput weakness came from X migration, competition or funding. Thaysen was "super excited" about the MiSeq i100's strong order book. Mid-throughput has been weaker than high-throughput "since I came in," because it serves project-based research and small clinical labs that delay purchases or outsource to service providers, which still buy Illumina consumables. The two main causes were a new chemistry launched about a year earlier (name inaudible), offering a better price point and more capacity, and price rebalancing. Competition is greater in this segment, especially in China, but Illumina "performed very well in China versus our closest competitor there." Thaysen called the weakness "much more macro," without numbers. Dhingra confirmed performance obligations grew double digits.
 
-**Dave Westenberg (Piper Sandler)** asked what was weakening mid- and low-throughput consumables: customers moving to the X directly or via service providers, competition, or funding-driven shutdowns.
+**Jack Meehan (Nephron)** asked whether tariffs changed buying. Thaysen saw no change in Q1 or Q2 except "a little bit of pull-in in China"; Dhingra expected cost effects later in the year.
 
-- Thaysen was "super excited" about the MiSeq i100, which had a strong order book.
-- Mid throughput had been harder than high throughput "since I came in." It serves research projects and small clinical labs without the volume for a high-throughput machine. When budgets are tight, these customers delay purchases or outsource to service providers, which still buy Illumina consumables.
-- Thaysen named two main drivers: many customers switched to a new chemistry introduced about a year earlier (not legibly named in the transcript) offering better price, high quality and more capacity per sequencer, and Illumina was rebalancing prices in the segment.
-- Competition is stronger in mid throughput, especially in China, yet Thaysen said Illumina had "performed very well in China versus our closest competitor there." Overall the weakness was "much more macro than it is a competitive environment." No numbers were given.
-- Dhingra confirmed long-range bookings had grown significantly.
+**Vijay Kumar (Evercore)** noted guidance had swung 300–400 bp, from low-single-digit growth to a low-single-digit decline. Thaysen said the March forecast had already flagged China and NIH risks; academia and government would fall about 15%, while clinical proved "more robust and stronger." Dhingra's remaining-year bridge: research and tariffs cost about 3 points (about $90 million); clinical added about 1 point, pricing about 1 point and currency about 0.5 point reported.
 
-**Jack Meehan (Nephron)** asked whether tariffs had changed buying, including since the early-April "Liberation Day" announcement. Thaysen saw no tariff-driven change in Q1 or expected in Q2, except "a little bit of pull-in in China." Dhingra added that tariff costs would show up later in the year, which is why the guide was cut.
+**Tycho Peterson (Jefferies)** asked where Illumina can raise prices when a competitor is "giving away free sequencing." Thaysen said Illumina has a long history of cutting prices and would stay competitive, but in uncertain times customers want suppliers that will survive, and Illumina had carefully analyzed how much price it could take. "Nobody likes a price increase," but customers would understand Illumina is "for the long term." Thaysen added: "If you want to give your sequencing wafer free, I can guarantee you don't have a business in a few quarters." No products were named.
 
-**Vijay Kumar (Evercore)** noted guidance had swung from low-single-digit growth to a low-single-digit decline, a 300–400 basis-point change, and asked where the research cut sat. Thaysen said the March forecast had already anticipated China and NIH effects across a range of outcomes. Academic and government revenue would keep falling about 15%, while clinical was "more robust and stronger." Dhingra said the biggest change was China, now separated out. Outside China over the remaining three quarters, research and tariffs cut about 3 points (roughly $90 million) at the midpoint. Stronger clinical added back about 1 point, pricing about 1 point and currency about 0.5 point of reported growth.
+**Conor McNamara (RBC)**, before joining Illumina IR, asked whether customers were waiting for competitor products. Thaysen called a competitor's recent unveiling "a technology overview. It was not a product launch," adding "it's easy to impress. It's very difficult to satisfy our customers." Verification through academic papers "will take time," this "is not a mature market," and Illumina saw no delays: "there's no impact." The competitor was unnamed.
 
-**Tycho Peterson (Jefferies)** asked where Illumina could raise prices when a competitor was "giving away free sequencing." Thaysen said Illumina has a long history of cutting prices, but in a tough environment customers want suppliers that will be around, so it takes a "prudent approach" and had done "a lot of analysis" to limit the customer impact of tariff-related pricing. "Nobody likes a price increase," Thaysen said, adding: "If you want to give your sequencing wafer free, I can guarantee you don't have a business in a few quarters." No products or price levels were named.
+**Mike Ryskin (Bank of America)** asked about 2026 paths for China and academia. Thaysen said "we are spending way too much on a very small part of our business," pointing to strong clinical and "very, very strong" Europe. China would fall further in H2 and into 2026 without a deal (the transcript's "2016" is a slip), but "the Chinese customers really want us to continue in this market," and if no deal comes, "we have taken the cost structure." Thaysen called the academic downturn "a hiccup," since politicians see research as feeding pharma and medicine.
 
-**Conor McNamara (RBC)** asked whether customers were delaying purchases for competitors' products. Thaysen said a competitor's announcement a few weeks earlier was "a technology overview. It was not a product launch," and that with such overviews "it's easy to impress. It's very difficult to satisfy our customers." New technology must be validated through papers and analysis, which "will take time," and "there's no impact" today. The competitor was not named.
+**Kyle Mikson (Canaccord)** asked whether the closed SEC probe of GRAIL freed Illumina for big deals, for example in MRD (minimal residual disease testing, which detects leftover cancer after treatment). Thaysen was "very pleased" it ended with "no findings," as expected. Illumina would pursue disciplined bolt-ons, but "MRD is likely not the space"; Thaysen later clarified, "there's a huge opportunity in MRD, just not from an M&A perspective." Dhingra said Illumina had generated over $1 billion of cash in the three quarters since the GRAIL split and would keep buying back shares rather than hoard cash. Neither said whether the divestiture had accelerated core Illumina.
 
-**Mike Ryskin (Bank of America)** asked whether China, at $15–25 million a quarter in H2, would go to zero in 2026, and whether the academic headwind was temporary. Thaysen said: "We are spending way too much on a very small part of our business." Clinical and Europe ("a very, very strong performance for us") were strong, and Illumina generates "fantastic cash flow." The guide had China falling further into 2026 absent change, but Thaysen remained hopeful: "The Chinese customers really want us to continue in this market." If no solution comes, "we have taken the cost structure." Thaysen called the academic headwind a temporary "hiccup," because politicians see research as feeding pharma and medicine.
+**JPMorgan (an analyst named Martha, for Rachel Vatnsdal)** asked about tariff mitigation timing and any Q4 "budget flush" (year-end spending of leftover budgets). Thaysen called tariffs "a movie that is still playing": about $85 million of cost, about half offset. Pricing actions were taken and supplier work was under way; manufacturing is mostly in Singapore and the US, with no major footprint change planned. The budget-flush question went unanswered.
 
-**Kyle Mikson (Canaccord)** asked whether the closing of the SEC's GRAIL investigation freed Illumina for larger deals, for example in MRD (minimal residual disease testing, which detects tiny amounts of cancer left after treatment). Thaysen was "very pleased that the SEC investigation is done and there were no findings" and would pursue disciplined bolt-on acquisitions, but "MRD is likely not the space we will be looking into," because "there's a huge opportunity in MRD, just not from an M&A perspective from Illumina." Dhingra said Illumina had generated over $1 billion of cash in the three quarters since the GRAIL divestiture and over $200 million in Q1, had bought back about $200 million of stock, would not hoard cash, and would prioritize growth and bolt-ons that use its scale and installed base. Neither addressed whether the divestiture accelerated the core business.
+## Q2 2025 (July 31, 2025): beat, guidance raised, SomaLogic deal
 
-**"Martha," for Rachel Vatnsdal (JPMorgan),** asked which tariff mitigations were done and whether a Q4 budget flush (customers spending leftover year-end budgets) was assumed. Thaysen said tariffs were "still a movie that is playing." Pricing actions had been taken and supply chains were being adjusted. Manufacturing is mostly in Singapore and the US, with no major footprint change planned. The budget-flush question went unanswered.
+### Results
 
----
+Q2 revenue was about $1.06 billion, down about 3% in both constant currency and reported terms, at the high end of guidance on high-throughput consumables. Seeking Alpha put the decline at 4.77% and the beat at $7.13 million. EPS was $1.19, up 9% year over year, "well above" the top of guidance and $0.18 above consensus. Operating margin was 23.8%, up 160 bp, and operating profit grew about 4% on lower revenue [Q2 2025 call, 2025-07-31].
 
-## Q2 2025: Beat, Raise and the SomaLogic Deal (call held 2025-07-31)
+The table shows the split. Consumables were flat year over year but up about 6% from Q1, while instruments fell sharply as research customers held back.
 
-### The headline: profits well ahead, guidance up, instruments down
-
-Three months later the tone improved. Revenue of about $1.06 billion was down about 3% year over year in both constant currency and reported terms, at the high end of guidance, which management credited to high-throughput consumables. Non-GAAP operating margin was 23.8%, up 160 basis points, and EPS was $1.19, up 9% and "well above" the top of guidance [Q2 2025 call, Dhingra]. Seeking Alpha said EPS beat consensus by $0.18 and revenue by $7.13 million, again giving a different revenue decline (4.77%) from management's.
-
-Thaysen said the results "reinforce our view that the underlying fundamentals remain robust." Illumina raised full-year guidance for revenue, margin and EPS, cut its instrument outlook, and discussed its agreement to buy SomaLogic [Q2 2025 call].
-
-### Results by line and region
-
-The table below shows the Q2 breakdown, with management's comparisons.
-
-| Line | Q2 2025 | Comparison [Q2 2025 call, Dhingra] |
+| Line | Q2 2025 | Comparison |
 |---|---|---|
-| Greater China revenue | $63 million | $12 million below Q2 2024, slightly ahead of expectations |
-| Revenue excluding China | n/a | Down about 2% (constant currency) |
-| Sequencing consumables | $740 million | About flat year over year; up about 6% sequentially (reported) |
-| Sequencing instruments | $96 million | Down about 18% year over year |
-| Services and other | $136 million | Down about 5%, in line; core services and informatics grew high single digits excluding AGD timing |
+| Sequencing consumables | $740M | ~Flat year over year; up ~6% from Q1 (reported) |
+| Sequencing instruments | $96M | Down ~18%; China instruments down ~40% |
+| Services and other | $136M | Down ~5% (AGD timing); core services and informatics up high single digits |
+| Greater China | $63M | $12M below Q2 2024; slightly ahead of guidance |
+| Revenue ex-China | n/a | Down ~2% |
+| Gross margin | 69.4% | Up 200 bp from Q1, flat year over year; tariffs cost ~110 bp |
+| Operating expenses | $484M | Down ~6% ($32M) |
+| Other expense / tax rate | $10M / 22.2% | |
+| Diluted shares | ~157M | 2M fewer than Q1 |
+| Operating cash flow / capex / free cash flow | $234M / $30M / $204M | |
 
-High-throughput consumables grew sequentially and year over year, and NovaSeq X consumables revenue rose more than 10% sequentially. Clinical work was roughly 60% of sequencing consumables. Its growth came from wider use of comprehensive genomic profiling (CGP, sequencing many cancer genes at once to choose a therapy) and momentum in MRD [Q2 2025 call, Thaysen and Dhingra].
+Illumina bought back about 4.5 million shares for $380 million at an average of about $85, leaving about $800 million authorized. Cash was about $1.16 billion and leverage about 1.7x.
 
-Instruments were the weak spot. Dhingra blamed tight budgets among high- and mid-throughput research customers: pipelines held, but decision times lengthened. About 60% of X placements went to clinical customers. The MiSeq i100 Plus was doing well, and the base MiSeq i100 would launch in August 2025. China instrument sales fell about 40% because of export restrictions. The services decline again reflected the prior year's partnership revenue from the AGD consortium (Alliance for Genomic Discovery, a large sequencing and data program) [Q2 2025 call, Dhingra].
+### Demand and the X transition
 
-### NovaSeq X progress and sequencing activity
+**Clinical** had become about 60% of consumables. Thaysen said it "has proven more resilient and in some areas, is exceeding expectations." Drivers: in oncology, wider use of comprehensive genomic profiling (CGP, sequencing many cancer genes to choose therapy) and growing interest in sequencing-heavy MRD tests; in genetic disease, national genome programs and more whole-genome and whole-exome sequencing (reading only protein-coding genes) for rare disease; and in reproductive health, rising US volumes of NIPT (non-invasive prenatal testing from the mother's blood) as labs finished validation.
 
-Illumina placed more than 50 X systems in Q2. More than 80% of research volume was on the X, while clinical was about 55% converted as customers validated and balanced spending between existing and new tests. Overall, about 69% of high-throughput gigabases and 44% of high-throughput consumables revenue were on the X, up from 68% and 43% in Q1. Dhingra expected roughly 50% of revenue and 75% of gigabases toward the end of 2025, driven by clinical [Q2 2025 call, Thaysen and Dhingra].
+**US research** stayed constrained, with labs delaying projects and hiring over grant worries, as in late Q1.
 
-Output on connected high- and mid-throughput instruments again grew more than 30%, led by clinical, with research more muted. Dhingra cautioned that output is a directional gauge of demand, not a predictor of near-term revenue [Q2 2025 call, Dhingra].
+**X transition** [Dhingra, Q2 2025 call]: more than 50 placements, about 60% clinical. About 69% of high-throughput gigabases and 44% of revenue were on the X; research was over 80% converted and clinical about 55%. X consumables revenue grew more than 10% from Q1, and high-throughput consumables grew sequentially and year over year. Output grew more than 30%, led by clinical, which Dhingra called a directional gauge of demand, not a revenue predictor. Clinical would drive the year-end goals (50% of revenue, 75% of volume).
 
-### Margins, cash and buybacks
+**Instruments** fell as high- and mid-throughput research buyers held back; pipelines held up but decisions took longer. MiSeq i100 Plus had more than 500 placements, with the base MiSeq i100 due in August. Excluding AGD timing, services grew high single digits.
 
-Gross margin was 69.4%, up 200 basis points from Q1 and stable year over year. A higher consumables mix and operational initiatives offset tariffs, which cost about 110 basis points net [Q2 2025 call, Dhingra].
+### MiSeq i100 and the multiomics strategy
 
-Operating expenses were $484 million, down about 6% ($32 million), with no seasonal step-up after Q1, so operating profit grew about 4% even though revenue fell. Other expense was $10 million, the tax rate 22.2%, and diluted shares about 157 million, 2 million fewer than in Q1. Operating cash flow was $234 million, capex $30 million and free cash flow $204 million. Illumina bought about 4.5 million shares for $380 million at about $85 each, leaving about $800 million of authorization, and planned to keep buying. Cash and short-term investments were about $1.16 billion and gross leverage about 1.7x [Q2 2025 call, Dhingra].
+Thaysen said customers called the benchtop MiSeq i100 Plus a "game changer" for its faster turnaround, ease of use, room-temperature reagents and 18 proven workflows (9 integrated end to end). It appeals to first-time NGS (next-generation sequencing) labs and emerging markets and "sets a new standard for the future of Illumina innovation."
 
-### Clinical strength, research caution
+Thaysen reaffirmed high-single-digit growth and a 26% operating margin by 2027, resting on three pillars: core sequencing (including the X transition); multiomics (measuring DNA, RNA, proteins and other molecules together); and services, data and software. The pitch was shifting from cost per gigabase to "the highest-quality biological insight at the lowest end-to-end cost."
 
-Thaysen said clinical "has proven more resilient and in some areas, is exceeding expectations." Growth came from three areas [Q2 2025 call, Thaysen]:
+**SomaLogic deal.** In June 2025, Illumina agreed to buy SomaLogic from Standard BioTools for $350 million in cash at closing plus up to $75 million in near-term milestones and royalties, with closing expected in H1 2026 pending regulators. SomaLogic works in affinity proteomics (measuring proteins with binding reagents), which Thaysen called "a small but fast-growing segment." Its SomaScan assay measures over 9,500 human proteins from small samples using proprietary SOMAmer binders with "unmatched sensitivity, scalability and reproducibility." The deal extends an exclusive partnership from 2021. Illumina's scale should speed adoption, the assay strengthens the NovaSeq X, and it could extend to single-cell and spatial work. The portfolio would span DNA, RNA, methylation (chemical tags on DNA that switch genes on or off) and proteins.
 
-- **Oncology:** wider CGP adoption and rising interest in sequencing-heavy MRD tests.
-- **Genetic disease:** growing national genome programs and broader use of whole-genome and whole-exome sequencing for rare disease. Whole-exome sequencing reads only the protein-coding portion of the genome.
-- **Reproductive health:** rising volumes for NIPT (non-invasive prenatal testing from the mother's blood), especially in the US as labs finished validation.
+Management was "cautious" on H2 because of NIH uncertainty but raised guidance anyway.
 
-Over the long run, Thaysen expected next-generation sequencing (NGS, modern high-volume DNA sequencing) to become standard of care in therapy selection, early detection and monitoring, then spread to other diseases.
+### Raised guidance
 
-US research stayed constrained, with some labs delaying projects or hiring because they feared future grants would not come; Q2 trends matched late Q1. China exports remained restricted while Illumina sought a "long-term sustainable presence," though Dhingra said Chinese customers stayed engaged and consumables "held up well" [Q2 2025 call, Thaysen and Dhingra].
+The table shows the new full-year ranges versus May. Headline numbers rose on China and currency; within the rest of the world, consumables rose and instruments fell.
 
-### Strategy: three pillars and the SomaLogic acquisition
-
-Thaysen restated the long-term targets as high-single-digit revenue growth and non-GAAP operating margin rising to 26% by 2027. They rest on three pillars: core sequencing, including the X transition; a scalable entry into multiomics (measuring several kinds of molecules, such as DNA, RNA and proteins, rather than DNA alone); and expanding services, data and software. Thaysen said the vision was shifting from a cost-per-gigabase model to "delivering the highest-quality biological insight at the lowest end-to-end cost" [Q2 2025 call, Thaysen].
-
-In June 2025 Illumina agreed to buy SomaLogic from Standard BioTools, moving into affinity-based proteomics, which measures proteins using reagents that bind to them. Thaysen called this "a small but fast-growing segment of the broader proteomics market" [Q2 2025 call, Thaysen].
-
-- SomaLogic's SomaScan assay measures more than 9,500 human proteins from small samples. Its proprietary SOMAmer binding reagents offer "unmatched sensitivity, scalability and reproducibility" and broader coverage at lower time and cost than other methods.
-- Illumina has had an exclusive commercial relationship with SomaLogic since 2021, which Thaysen said deepened its conviction. Illumina's product development and global reach could scale the technology faster.
-- The deal strengthens the case for the NovaSeq X, could extend to single-cell and spatial work, and gives Illumina a portfolio spanning DNA, RNA, methylation (chemical tags on DNA that switch genes on or off) and proteins.
-- Terms were $350 million in cash at closing plus up to $75 million in near-term performance milestones and royalties, with closing expected in the first half of 2026 pending regulatory approval [Q2 2025 call, Dhingra].
-
-Thaysen also highlighted the MiSeq i100 Plus, a benchtop (lab-bench-sized) sequencer launched in late 2024, with more than 500 placed and customers reordering within months. Customers called it a "game changer" for fast turnaround, ease of use, and reagents that can be shipped and stored at room temperature. It supports 18 proven workflows, 9 of them fully integrated from library prep (preparing DNA for the sequencer) through analysis. It appeals to labs new to NGS and to emerging markets, and reduces reliance on central labs. Thaysen said it "sets a new standard for the future of Illumina innovation" [Q2 2025 call, Thaysen].
-
-### Raised 2025 guidance and Q3 outlook
-
-Although management remained "cautious" on the second half, it raised the full-year numbers. The table compares the new guidance with May's [Q2 2025 call, Dhingra].
-
-| Item (FY2025) | New guidance (July) | Change from May |
+| Item (FY2025) | New guidance | Change |
 |---|---|---|
-| Greater China revenue | About $200 million | +$25 million at midpoint |
-| Rest-of-world growth (constant currency) | 0% to +2% | Reiterated |
-| Total growth (constant currency) | –2.5% to –0.5% | Raised |
-| Reported revenue | $4.23–4.31 billion | Midpoint up about $50 million |
-| Rest-of-world consumables | +1% to +3% (including pricing) | Up from flat to +2% |
-| Rest-of-world instruments | –6% to –4% | Lowered from roughly flat |
-| Non-GAAP operating margin | 22–22.5% | Up about 50 basis points |
-| Tax rate | About 20% | Lowered |
-| Diluted shares | About 157 million | Lowered on buybacks |
-| Non-GAAP EPS | $4.45–4.55 | +$0.25 at midpoint |
+| Greater China revenue | ~$200M | +$25M at the midpoint |
+| Ex-China growth | 0% to +2% | Reiterated |
+| Total constant-currency growth | −2.5% to −0.5% | Raised |
+| Reported revenue | $4.23B–$4.31B | Midpoint +~$50M |
+| Ex-China consumables | +1% to +3% | Up from flat to +2%; includes pricing |
+| Ex-China instruments | −6% to −4% | Lowered |
+| Operating margin | 22%–22.5% | +~50 bp, from cost discipline, China and currency |
+| Tax rate | ~20% | Lowered |
+| Diluted shares | ~157M | Lowered |
+| EPS | $4.45–$4.55 | +$0.25 at the midpoint |
 
-Dhingra explained the moving parts. Of the $0.25 EPS increase, about $0.10 came from tax, about $0.10 from China and the rest from currency and margin. China consumables had been resilient and were expected to hold "at least in part through Q3." The instrument cut was "largely due to conservatism from our research customers that we saw towards the end of Q2," mostly in mid and high throughput, though X demand was still expected to rise slightly and i100 placements to grow. The lower tax rate came from legislation passed in early July 2025 that made US research spending tax-deductible, which helps 2025 and beyond because Illumina does much of its R&D in the US; it did not affect Q2. The margin raise reflected cost discipline, stronger China revenue and favorable currency [Q2 2025 call, Dhingra].
+Dhingra's EPS bridge was about $0.10 from tax, about $0.10 from China, and the rest from currency and margin. The tax help comes from a July 2025 US law making domestic R&D spending immediately deductible, which helps 2025 and beyond but not Q2, since it passed after quarter end. China instruments remained blocked, but resilient consumables buying should continue "at least in part through Q3." The instrument cut reflected "conservatism from our research customers… towards the end of Q2" in mid- and high-throughput; X demand would still rise slightly and MiSeq i100 keep growing.
 
-For Q3, Illumina guided to growth outside China of 1% to 2%, China revenue of $35–45 million and total constant-currency revenue down 1.5% to 2.5%. It also guided to operating margin of about 22%, a tax rate of about 16%, about 155 million shares and EPS of $1.15–1.19. Revenue would rise in Q4, about half from normal year-end instrument seasonality and the rest from data services such as AGD and new products such as proteomics [Q2 2025 call, Dhingra].
+**Q3 guidance:** ex-China growth +1–2%; China $35–45 million; total revenue down 1.5–2.5%; operating margin about 22%; tax about 16%; about 155 million shares; EPS $1.15–1.19. Dhingra said the implied Q4 pickup was about half normal year-end instrument seasonality, with the rest from data services such as AGD and new products such as proteomics.
 
 ### Analyst Q&A
 
-**Vijay Kumar (Evercore ISI)** asked for a bridge of the guidance change and about the pipeline. Thaysen said early-access feedback on Constellation, 5-base and spatial was "very, very strong." Engaging customers early lets them plan publications and grants, which should add "growth starting from '26 and onwards." Dhingra said the raise came from currency and China; outside China, instruments were cut, mainly in research, while consumables rose. AGD business had been about $80–90 million in 2024, weighted to H1, so H2 2025 comparisons are easier, and some AGD and possibly new services were expected in H2.
+**Vijay Kumar (Evercore)** asked for the bridge and pipeline. Thaysen said early-access feedback on Constellation, 5-base and spatial was "very, very strong," letting customers plan papers and grants, which should add growth "starting from '26 and onwards." Dhingra said the bridge was currency plus China, with ex-China instruments cut and consumables raised. AGD brought $80–90 million in 2024, weighted to H1, easing the H2 2025 comparison.
 
-**Subbu Nambi (Guggenheim)** asked whether Illumina could match the fast turnaround of Roche's coming platform. Thaysen said Illumina spends more time on customers than competitors and has the industry's largest R&D budget. It is open about multiomics but not about all instrumentation plans, which target clinical and decentralized growth markets. Fast turnaround is "a niche market in the NICU" (neonatal intensive care), where users may trade off ease of use or quality; for most customers an overnight run is "more than reasonable."
+**Subbu Nambi (Guggenheim)** asked about competition and the turnaround-time edge of Roche's coming platform. Thaysen cited the industry's largest R&D budget and early customer engagement through early access and roadmap sharing; Thaysen discusses multiomics openly but not instrument plans, which target clinical and decentralized markets. Fast turnaround is "a niche market in the NICU" (neonatal intensive care), where users may accept lower quality or ease of use; for most, an overnight run is "more than reasonable."
 
-**Puneet Souda (Leerink)** asked about tariff pull-forward and clinical 6000 fleet conversion. Thaysen said there was no pull-forward. Backlog was higher because customers who had ordered "hand to mouth" while validating were now running the X in production and planning ahead. Each clinical customer converts on its own validation schedule: "There's no cliff happening."
+**Puneet Souda (Leerink)** asked about pre-tariff pull-forward and large 6K fleets. Thaysen saw no pull-forward; backlog was higher because customers moved from ordering "hand to mouth" during validation to planning ahead in production. Each customer validates on its own timeline, and fast-growing labs will not risk their growth: "There's no cliff happening."
 
-**Doug Schenkel (Wolfe)** proposed a 2026 framework: research under 40% of sales exiting 2025, perhaps a 2–3 point weighted headwind in 2026; China about 2% of sales; and clinical over 60% of sales growing double digits, contributing about 6 points. That implies low-to-mid single-digit core growth outside China. Thaysen called it a long way of asking for 2026 guidance, but expected "2026 to look better than 2025 and 2027 to look better than 2026," driven mainly by clinical. Multiomics should add "at least 1% point of growth" in 2026–2027, "probably more '27 level."
+**Doug Schenkel (Wolfe)** offered a 2026 model: Q4 2025 growth of about 2% ex-China; research below 40% of sales and a 2–3 point drag; China about 2% of sales; clinical over 60% of sales growing double digits for about 6 points. Together these implied low-to-mid-single-digit growth. Thaysen said it was too early for guidance but expected "2026 to look better than 2025 and 2027 to look better than 2026," with clinical leading and multiomics adding "at least 1% point of growth," "probably more '27 level."
 
-**Eve Burstein (Bernstein)** asked whether China consumables were pulled forward and whether the China raise signaled a better 2026. Thaysen praised the China team under general manager Jenny. Customers want Illumina for quality, innovation and ecosystem, but "under the current circumstances, the situation is unsustainable." Some pull-forward had happened in Q1, but not now. Dhingra said the raise covered only the current quarter. Outside China, pull-forward was limited because X consumables have a short shelf life.
+**Eve Burstein (Bernstein)** asked whether China buying was pulled forward. Thaysen praised China general manager Jenny and the team, called the situation "unsustainable" under current terms, and said some pull-forward happened in Q1 but Q2 was at a natural run rate. Dhingra said X consumables' limited shelf life limits stockpiling, orders were for future shipment, and the China raise applied only to the current quarter.
 
-**David Westenberg (Piper Sandler)** asked about clinical fleet strategies and why X revenue share rose only from 43% to 44%. Thaysen expected clinical strength "for the foreseeable future, which is quite far out there." Opportunities include therapy selection, MRD ("just opening up"), eventually screening, and genetic disease, where rare disease is "not as rare as you would think," plus newborn screening. Customers moving to the X are mostly expanding testing, not just cutting costs; others will stay on the 6000 until an assay reaches end of life, perhaps in about two years. Dhingra called the transition "lumpy" and validation-driven, with the 75% volume goal "more towards latter part of Q4."
+**David Westenberg (Piper Sandler)** noted X revenue share rose only from 43% to 44%. Thaysen said clinical strength would last "for the foreseeable future, which is quite far out there," citing oncology (therapy choice, MRD "just opening up," eventually screening) and genetic disease ("not as rare as you would think," including newborn screening). Customers moving to the X mostly expand test menus rather than just cut costs; others keep the 6000 until an assay's end of life, perhaps two more years. Dhingra called the transition "lumpy"; the 75% goal might land "more towards latter part of Q4."
 
-**Tycho Peterson (Jefferies)** asked about placements, flow-cell output and the margin beat. Thaysen said the more than 90 Q4 2024 and 60 Q1 2025 placements, mostly clinical, were still entering production and would matter in H2. The run rate is 50–60 a quarter, with possible Q4 upside. Software release 1.3 improved yield on the 25B flow cell (the consumable cartridge, rated at 25 billion reads), "but we are not committing to a 30B at this point." Dhingra said the beat came mostly from cost actions, with tariff mitigation showing in H2 and early 2026. The lower expense base reflected "almost over $100 million annualized improvement," a structural change that should give operating leverage once growth returns.
+**Tycho Peterson (Jefferies)** asked about placements, flow-cell yield and the margin beat. Thaysen said Q4 2024 (90+) and Q1 2025 (60) buyers were still bringing units into production, which would show meaningfully in H2; placements average 50–60 a quarter, possibly more in Q4. Software release 1.3 improved output from the 25B flow cell (the consumable chip on which sequencing happens), "but we are not committing to a 30B" (30 billion reads). Dhingra said the beat was mostly cost cuts, with tariff mitigation showing in H2 and early 2026, and the lower opex base reflects "almost over $100 million annualized improvement."
 
-**Kyle Mikson (Canaccord)** asked how the growth framework (volume up 20–30%, price down mid-teens) splits between clinical and research, and whether Illumina could cut prices if Roche came in low. Thaysen said clinical outgrew research by a slightly wider gap than expected. Pricing was "very stable" and within the expected decline range, and Illumina discusses differentiated pricing to open applications. "In most circumstances, Illumina have the best cost structure," Thaysen said, so it can compete on price if it chooses.
+**Kyle Mikson (Canaccord)** asked about the growth framework (20–30% volume growth, mid-teens price declines) and room to cut prices if Roche competes. Thaysen said clinical volume beat research by a wider gap than usual, multiomics should help research later, and pricing was "very stable," within the expected decline. Others may price lower, but "in most circumstances, Illumina have the best cost structure," so Illumina can compete on price if it chooses.
 
-**Dan Arias (Stifel)** asked whether output growth could stay near 30%. Dhingra thought it could stay above 30%, especially in clinical and outside China (China instruments are not connected, so their output is not tracked), supported by MRD and reimbursement gains favoring whole genomes. Proteomics, through SomaLogic or the Illumina Protein Prep (IPP) launch, would be net-new sequencing demand, pulling a field dominated by mass spectrometry into sequencing. Thaysen called the opportunity "tremendous" and named cardiovascular and neurological disease as next areas.
+**Dan Arias (Stifel)** asked whether gigabase growth would hold. Dhingra expected above 30%, especially in clinical and rest of world (unconnected China instruments are not counted), supported by MRD and genetic-disease reimbursement; proteomics, historically dominated by mass spectrometry, would be net new demand. Thaysen called the opportunity "tremendous," naming cardiovascular and neurological disease next.
 
-**Dan Brennan (TD Cowen)** asked about mid-throughput weakness, tax timing and academic assumptions. Thaysen said about 75% of mid-throughput revenue is the project-based NovaSeq 1000/2000. Institutions were delaying decisions and some outsourced to service labs, so that volume shows up in high throughput, though some may come back in-house. The MiSeq i100, with 500+ placed, reaches into the low end of mid throughput. Competition is fiercest in this segment but unchanged over the quarter. Dhingra kept the academic assumption at a 15% decline for the year. The tax-timing question was not answered beyond the guidance statement.
+**Dan Brennan (TD Cowen)** asked about mid-throughput and academic assumptions. Thaysen said about 75% of mid-throughput is NovaSeq 1000/2000, used for slow-deciding project-based research, with some work going to service providers; Thaysen expected some insourcing when conditions improve. MiSeq i100 is pushing into the low end of mid-throughput, where competition is strongest but unchanged, so the softness is not competitive. Dhingra kept the 15% academic decline. The tax-timing question went unanswered.
 
----
+## Q3 2025 (October 30, 2025): back to growth outside China
 
-## Q3 2025: Return to Growth Outside China (call held 2025-10-30)
+### Results
 
-### The headline: clinical carries the quarter
+Q3 revenue was $1.08 billion, roughly flat and above the top of guidance; Seeking Alpha said up 0.37% and $18.7 million above consensus. Outside China (95% of revenue), revenue grew about 2%, which Thaysen called an important milestone as the first return to growth. Operating margin was 24.5%, up 190 bp, and EPS was $1.34, up $0.20 (18%), both above guidance; EPS beat consensus by $0.17 [Q3 2025 call, 2025-10-30].
 
-Illumina beat its Q3 guidance on revenue, margin and EPS and returned to growth outside China for the first time. Revenue was $1.08 billion, roughly flat year over year in both constant-currency and reported terms and above the top of guidance. Revenue excluding China, which is 95% of the total, grew about 2%, which Thaysen called an important milestone. Operating margin was 24.5%, up 190 basis points, and EPS was $1.34, up $0.20 (18%) [Q3 2025 call, Thaysen and Dhingra].
+The table summarizes the quarter: 3% consumables growth outside China and a tariff-dragged gross margin.
 
-Seeking Alpha said EPS beat consensus by $0.17 and revenue by $18.70 million, with revenue up 0.37%. Evercore's Vijay Kumar said consensus had expected consumables of about $720–725 million, so the result was a clear beat. Investor relations was now led by Conor McNamara, and "China" explicitly meant Greater China, including Taiwan and Hong Kong [Q3 2025 call].
-
-### Results detail
-
-The table below shows the main Q3 lines with management's comparisons.
-
-| Metric | Q3 2025 | Comparison [Q3 2025 call, Dhingra] |
+| Metric | Q3 2025 | Comparison |
 |---|---|---|
-| Greater China revenue | $52 million | Ahead of guidance despite export curbs |
-| Sequencing consumables | $747 million | Roughly flat; up about 3% excluding China |
-| Sequencing instruments | $107 million | Up about 3%; up 6% excluding China, driven by the MiSeq i100; China instruments down about 54% |
-| Services and other | $147 million | Down about 3%, below expectations, on timing of partnership revenue |
-| Non-GAAP gross margin | 69.2% | Down 130 basis points; tariffs cost about 220 basis points, so underlying margin rose about 90 basis points |
-| Operating expenses | $484 million | Down about 6% ($33 million); operating profit up about 9% |
-| Other expense / tax rate | $13 million / 18.6% | Tax slightly above expectation |
-| Diluted shares | About 154 million | About 3 million fewer than Q2 |
+| Greater China | $52M | Ahead of guidance |
+| Sequencing consumables | $747M | ~Flat; up ~3% ex-China |
+| Sequencing instruments | $107M | Up ~3% (6% ex-China); China instruments down ~54% |
+| Services and other | $147M | Down ~3%; below expectations (partnership timing) |
+| Gross margin | 69.2% | Down 130 bp: tariffs −220 bp, underlying +90 bp |
+| Operating expenses | $484M | Down ~6% ($33M) |
+| Operating profit | n/a | Up ~9% |
+| Other expense / tax rate | $13M / 18.6% | Tax rate slightly above plan |
+| Diluted shares | ~154M | 3M fewer than Q2 |
 | Operating cash flow / capex / free cash flow | $284M / $31M / $253M | |
 
-The split inside consumables was stark. Outside China, clinical consumables grew double digits on CGP and MRD, while research and applied consumables fell high single digits on funding uncertainty and the X's lower prices. "Applied" means non-medical uses such as agriculture and forensics. Thaysen described overall clinical consumables growth as high single digits. A new disclosure (slide 10) showed instruments and consumables outside China and consumables growth by clinical and research. Output again grew more than 30%, led by clinical [Q3 2025 call, Thaysen and Dhingra].
+Illumina bought back about 1.24 million shares for $120 million at an average of $97.10, leaving $684 million authorized. Cash was about $1.28 billion and leverage about 1.6x. SomaLogic was under regulatory review, with closing expected in H1 2026 (Dhingra) or "in 2026" (Thaysen). Illumina added ex-China disclosure on Slide 10: instruments, consumables, and clinical versus research consumables growth.
 
-Asked by Tycho Peterson about the consumables beat, Dhingra said it was "roughly half and half" China and outside China, with the outside-China part mostly clinical. The tariff surcharge came in exactly as forecast [Q3 2025 call, Dhingra].
+### Clinical acceleration, research stabilizing
 
-### X transition targets beaten early
+Thaysen said total clinical consumables grew high single digits; Dhingra put ex-China growth at double digits, driven by CGP and MRD. Clinical "continues to accelerate," as new assays need more sequencing and the X matches the 6000's accuracy and workflow, with volumes "more than offsetting transitional pricing effects." Ex-China research and applied consumables fell high single digits on funding uncertainty and X pricing, though Thaysen saw stabilization. Output grew more than 30%, led by clinical.
 
-Illumina placed more than 55 X systems, over half to clinical customers, in line with its 50–60 a quarter goal. About 78% of high-throughput volume and 51% of revenue were on the X, up from 44% of revenue in Q2, beating both year-end goals (75% and 50%) a quarter early. Research was 91% converted and clinical about 64%. Thaysen said X consumables revenue accelerated as conversion rose, and that clinical volumes were "more than offsetting transitional pricing effects" [Q3 2025 call, Thaysen and Dhingra].
+The year-end transition goals were beaten a quarter early: about 78% of volume and 51% of revenue on the X (up from 44% of revenue in Q2), with research 91% and clinical about 64% converted. Placements were over 55, more than half clinical, in line with the 50–60 goal. On Slide 12, Dhingra showed 40 clinical customers fully on the X, for whom "volume offset price in year 1 and then revenue and volume both accelerated in year 2." Business with the largest customers should outgrow the company average over the plan period.
 
-Dhingra offered evidence for elasticity (slide 12). Among 40 fully converted clinical customers, "volume offset price in year 1 and then revenue and volume both accelerated in year 2." Business with the largest customers is projected to grow faster than the company average, at least through the strategic plan period [Q3 2025 call, Dhingra].
+**China.** Illumina won approval to make select instruments locally for OEM partners (companies that resell Illumina products into particular segments). Thaysen called it "a measured step forward" but said "we have not yet reached a long-term resolution related to our operations in China."
 
-### China, multiomics and BioInsight
+### Strategy and launches
 
-Illumina won approval to make select instruments locally in China to supply OEM partners, companies that resell Illumina products into particular customer segments. Thaysen called this "a measured step forward" but said: "We have not yet reached a long-term resolution related to our operations in China" [Q3 2025 call, Thaysen].
+- **Illumina Protein Prep,** launched in Q3, brings NGS to proteins, measuring up to 9,500 proteins per sample in about 2.5 days with minimal hands-on time. It works with DRAGEN (Illumina's analysis software) and the upcoming Illumina Complete multiomics software.
+- **5-base solution,** launched at ASHG (the American Society of Human Genetics meeting) in October, reads genetic variants and methylation together at single-base resolution using proprietary chemistry and a new DRAGEN algorithm, simpler and cheaper than alternatives.
+- **BioInsight,** introduced in October, combines population sequencing programs, data partnerships and software and AI for governments, drug companies and research institutes. It starts with large data-generation partnerships and later aims to sell data, software and AI services.
+- Customers were keen on upcoming products such as "Constellation with CLIA" (CLIA is the US lab-quality certification needed for clinical testing).
 
-Thaysen listed the quarter's multiomics launches [Q3 2025 call, Thaysen]:
+Thaysen reaffirmed high-single-digit growth by 2027 excluding China. The prepared remarks cited a "20%" 2027 operating margin, but in Q&A Thaysen said 26%, matching the 2024 investor-day target, so 20% is likely a slip. Thaysen expected "a gradual return to growth in our research business."
 
-- **Illumina Protein Prep**, launched in Q3, reads up to 9,500 proteins per sample in about 2.5 days with little hands-on time and lower cost per insight. It connects to DRAGEN (Illumina's analysis software) and the upcoming Illumina Complete multiomics software suite.
-- **The 5-base solution**, launched at ASHG (the American Society of Human Genetics meeting) in October, reads genetic variants and DNA methylation at the same time with single-base resolution, using new chemistry and a new DRAGEN algorithm, at lower complexity and cost.
-- **SomaLogic** was under regulatory review. Dhingra still expected closing in H1 2026; Thaysen said "in 2026."
+### 2025 guidance raised again; 2026 previewed
 
-On the third pillar, Illumina introduced BioInsight in October. It combines population sequencing programs, data partnerships, software and AI to work with governments, drugmakers and research institutions on drug discovery. It starts with large data-generation partnerships and later aims to sell data, software and AI services. Thaysen said ASHG customers were enthusiastic about upcoming products such as "Constellation with CLIA," referring to the US clinical-lab certification standard [Q3 2025 call, Thaysen].
+The table shows the third set of 2025 ranges: China and margins rose again, and consumables moved to the top of the prior range.
 
-### Capital and raised guidance
-
-Illumina bought about 1.24 million shares for $120 million at an average $97.10, leaving $684 million of authorization. Cash and short-term investments were about $1.28 billion and gross leverage about 1.6x [Q3 2025 call, Dhingra].
-
-The table below shows the October outlook against July's [Q3 2025 call, Dhingra].
-
-| Item (FY2025) | New guidance (Oct) | Change |
+| Item | New FY2025 guidance | Change |
 |---|---|---|
-| Greater China revenue | About $220 million | +$20 million |
-| Rest-of-world growth (cc) | +0.5% to +1.5% | Midpoint unchanged |
-| Total growth (cc) | –1.5% to –0.5% | Reflects China raise |
-| Reported revenue | $4.27–4.31 billion | +$20 million at midpoint |
-| Rest-of-world consumables | +2.5% to +3% | Top of prior 1–3% range, on clinical strength |
-| Rest-of-world instruments | –6% to –4% | Reiterated |
-| Operating margin | 22.75–23% | Up about 60 basis points at midpoint |
-| Tax rate | About 20.5% | |
-| Shares | About 156 million | |
-| EPS | $4.65–4.75 | +$0.20 at midpoint; about 13% growth |
+| Greater China | ~$220M | +$20M |
+| Ex-China growth | +0.5% to +1.5% | Midpoint unchanged |
+| Total constant-currency growth | −1.5% to −0.5% | Reflects China |
+| Reported revenue | $4.27B–$4.31B | +$20M at the midpoint |
+| Ex-China consumables | +2.5% to +3% | Top of prior 1–3% range, on clinical strength |
+| Ex-China instruments | −6% to −4% | Reiterated |
+| Operating margin | 22.75%–23% | +~60 bp at the midpoint |
+| Tax rate / diluted shares | ~20.5% / ~156M | |
+| EPS | $4.65–$4.75 | +$0.20; ~13% growth |
 
-The services shortfall offset part of the beat in the revenue guide, which implied Q4 growth outside China of about 4% and China revenue of $33 million. Illumina declined to guide 2026, but Dhingra sketched three trends: clinical should look like 2025; research and applied should stay muted as in H2 2025, with pricing headwinds easing now that 91% of research high-throughput volume is on the X; and multiomics launches would contribute "as and when research end markets recover" [Q3 2025 call, Dhingra].
-
-Thaysen reaffirmed high-single-digit growth by 2027 excluding China, but cited "20%" operating margins in prepared remarks and "26% in '27 and above" in Q&A. The 26% matches the investor-day target and the Q2 call, so 20% is likely a slip [Q3 2025 call].
+The services shortfall offset consumables strength within revenue. Guidance implied Q4 ex-China growth of about 4% and China revenue of $33 million. Dhingra gave no 2026 guidance but outlined three trends: clinical like 2025, with strong volume and continued X conversion; research muted like H2 2025 but with fading price headwinds now that 91% of research volume is on the X; and multiomics contributing "as and when research end markets recover."
 
 ### Analyst Q&A
 
-**Puneet Souda (Leerink)** asked about China in 2026, whether competitor announcements at ASHG were "freezing" research purchases, and clinical growth. Thaysen was "very pleased" with China, where serving OEM partners was an improvement, and praised Jenny's team, but said a 2026 view was premature without a regulatory resolution. The competition and clinical parts went unanswered here.
+**Puneet Souda (Leerink)** asked about China in 2026, competitive "freezing" after ASHG and clinical growth. Thaysen was "very pleased" with China, praised Jenny's team, and would take China quarter by quarter; the rest went unanswered.
 
-**Doug Schenkel (Wolfe)** proposed a 2026 framework of research flat to down low single digits, clinical up mid-to-high single digits and China a 50–100 basis-point drag, giving low-single-digit growth. Schenkel noted margins were up about 50 basis points year to date despite falling revenue and about 25% less high-margin China revenue. Thaysen found the framework sensible, called research "stabilizing, but still soft," would leave China out for now, and felt good about 26% in 2027 and above. Dhingra said several gross-margin actions, especially manufacturing footprint changes, had not yet reached the profit and loss statement, and promised "much stronger operating leverage."
+**Doug Schenkel (Wolfe)** proposed 2026 research flat to down low single digits, clinical up mid-to-high single digits and China a 50–100 bp drag, for low-single-digit total growth, and noted margins rose about 50 bp year to date despite lower revenue and about 25% less China revenue. Thaysen called it sensible ("stabilizing, but still soft") excluding China and reaffirmed 26% margin "in 2027 and above." Dhingra said gross-margin actions such as manufacturing-footprint optimization had not fully reached the P&L, promising "much stronger operating leverage."
 
-**Vijay Kumar (Evercore)** asked about academic pull-forward and the 500 basis-point goal. Thaysen saw no pull-forward from China or NIH; grants were starting to flow, but recipients had not begun catch-up spending. Dhingra said the 500 basis points run from a base near 21%, and gross margin, about 69% now, has long-term room to rise (the transcript garbles this as "75%, 70%").
+**Vijay Kumar (Evercore)** noted consensus expected $720–725 million of consumables. Thaysen saw no pull-forward from China or NIH customers; grants were flowing but without catch-up spending. Dhingra said the beat was mostly clinical, the 500 bp goal starts from about 21% margin, and gross margin near 69% has long-term room above that (garbled in the transcript).
 
-**Tycho Peterson (Jefferies)** asked about research spending and 2026 earnings growth despite China and Roche. Thaysen said academics hold several grants, so decisions depend on future grants being predictable, and the market wanted proof they would keep flowing into 2026. Thaysen was "very confident" Illumina could grow earnings in 2026, citing 2025 as proof.
+**Tycho Peterson (Jefferies)** asked about grants, 2026 earnings given China and Roche, and gross margin. Thaysen said researchers spend based on whether future grants look predictable and was "very confident" earnings can grow in 2026. Dhingra said the consumables beat was "roughly half and half" China and ex-China, and tariff surcharges came in exactly as forecast.
 
-**Daniel Leonard (UBS)** asked whether double-digit clinical growth included one-off lumpiness. Thaysen said no, pointing to X revenue share rising from 44% to 51% while volume grew. Thaysen would not call it the run rate but expected strong clinical growth to continue.
+**Daniel Leonard (UBS)** asked whether clinical was lumpy. Thaysen said no, citing X revenue share of 51%, but would not treat that rate as the run rate.
 
-**Patrick Donnelly (Citi)** asked about competition after ASHG. Thaysen said Illumina has always had competition and "love[s] it." Most rivals differentiate on one dimension, while sophisticated customers weigh data quality, workflow and end-to-end cost together: "Illumina is really the only one that's delivering across all these dimensions and continue to innovate also." No competitor was named.
+**Patrick Donnelly (Citi)** asked about competition after ASHG. Thaysen "love[s]" competition; rivals differentiate on one dimension, while Illumina "is really the only one that's delivering across all these dimensions": data quality, workflow and end-to-end cost.
 
-**Mason Carrico (Stephens)** asked whether 50–60 placements a quarter could last. Thaysen noted the target predated the China and NIH shocks and was still met, Q4 should be stronger than average, and the trend should continue. Dhingra cited several years of ecosystem expansion from sequencing-intensive applications.
+**Mason Carrico (Stephens)** asked whether 50–60 placements a quarter is sustainable. Thaysen said the target, set before the China and NIH shocks, was still met; Q4 would be above average and the trend should continue. Dhingra pointed to several more years of growth in sequencing-heavy applications.
 
-**Catherine Ramsey Schulte (Baird)** asked about research output and any government-shutdown impact on Q4. Thaysen said research converted faster because a researcher can start a new project, such as a large single-cell study, directly on the X, whereas clinical labs must revalidate. Pricing headwinds were easing, but NIH concerns would keep research muted. Dhingra said research output still grew, though below the 30% total. The shutdown question was not explicitly answered.
+**Catherine Ramsey (Baird)** asked about research output and the government shutdown. Thaysen said research converted faster because new projects can start on the X while clinical labs must validate first; price headwinds were easing though NIH worries persist. Dhingra said research gigabases grew, but below 30%. The shutdown went unanswered.
 
-**Kyle Mikson (Canaccord)** asked whether R&D below $230 million, the lowest since 2021, was a new run rate, and what drove clinical acceleration. Thaysen praised CTO Steve and the team for productivity and said much of the pipeline was unannounced ("much more to come"), without saying whether spending was a run rate. Dhingra attributed clinical acceleration to slower clinical validation now paying off and to big customers launching tests and winning approvals in early detection, therapy selection, MRD and genetic disease, many enabled by the X. Thaysen added that volume from heavy Q4 2024 and Q1 2025 clinical placements was arriving.
+**Kyle Mikson (Canaccord)** noted R&D fell below $230 million for the first time since 2021. Thaysen credited CTO Steve and the R&D team for productivity and promised "much more to come," without saying whether it is a run rate. Dhingra tied clinical acceleration to delayed validation payoffs and new test approvals in early detection, therapy selection, MRD and genetic disease; Thaysen added that Q4 2024 and Q1 2025 placements were now producing volume.
 
-**Jack Meehan (Nephron)** asked about double-digit EPS growth in 2026. Thaysen said the margin goal (500 basis points to 26%) implies strong EPS growth but gave no number. Dhingra listed levers: expense discipline, centers of excellence in Singapore and India, better instrument gross margin, and operating leverage as growth returns.
+**Jack Meehan (Nephron)** asked about double-digit 2026 EPS growth. Thaysen was confident; Dhingra cited cost discipline, centers of excellence in Singapore and India, and instrument gross-margin gains.
 
-**Daniel Brennan (TD Cowen)** asked whether the jump in clinical conversion (55% to 64%) could repeat, and about a flat NIH budget or continuing resolution (a stopgap bill funding the government at prior-year levels). Thaysen noted the debate had flipped from why conversion slowed to why it sped up; what matters is that revenue rose with it: "I will caution and overinterpret deceleration and deceleration quarter-by-quarter. The trend is what we want to look at." NIH spending was a "great checkmark," but budget approval and predictable grants would stretch into 2026 "for sure."
+**Daniel Brennan (TD Cowen)** asked whether the 9-point jump in clinical X share (55% to 64%) could repeat. Thaysen said, in garbled phrasing, "I will caution and overinterpret deceleration and deceleration quarter-by-quarter. The trend is what we want to look at," meaning not to over-read one quarter. NIH spending was a "great checkmark," with budget approval, at least a continuing resolution (a stopgap funding bill), and predictable grants to follow into 2026.
 
-**Subbu Nambi (Guggenheim)** asked whether implied Q4 instrument revenue outside China of about $125 million assumed a budget flush. Thaysen said a strong Q4 is normal across life-science tools and no flush was built in. Dhingra said the plan did not assume a repeat of Q4 2024's 91 placements, and agreed that with research largely converted, even stabilization would let pricing headwinds fade.
+**Subbu Nambi (Guggenheim)** asked whether Q4 ex-China instruments were implied at about $125 million with a budget flush. Thaysen said strong Q4 instruments are normal industry-wide and no flush was assumed. Dhingra said repeating 91 Q4 placements would be upside, and fading price headwinds should lift revenue as research stabilizes.
 
----
+## Q4 2025 (February 5, 2026): 7% growth outside China, 2026 guided cautiously
 
-## Q4 2025: Clinical-Led Growth and the 2026 Guide (call held 2026-02-05)
+### Results
 
-### The headline: the strongest quarter of the year
+Q4 revenue was $1.16 billion, up 5% reported, 4% in constant currency and 7% outside China; Seeking Alpha said it beat by $47.9 million. EPS was $1.35, up about 42%, above guidance and an estimate Illumina had disclosed in January; Seeking Alpha put the beat at $0.12. Dhingra cited clinical consumables, better-than-expected X placements, China outperformance and a "small benefit" from year-end budgets. Thaysen, now also interim Chief Commercial Officer, said the strategy set in 2024 "is working" [Q4 2025 call, 2026-02-05].
 
-Revenue was $1.16 billion, up 5% reported and 4% in constant currency, and up 7% excluding China. Non-GAAP EPS was $1.35, up about 42% and above both the guidance range and a preliminary estimate Illumina released in January. Seeking Alpha said EPS beat by $0.12 and revenue by $47.92 million, without stating whether those were consensus comparisons [Q4 2025 call].
+The table shows consumables accelerating sharply and margins up 400 bp despite tariffs.
 
-Thaysen, now also interim Chief Commercial Officer, said Q4 "exceeded expectations." The momentum gives "high confidence that the strategy we put in place in 2024 to return to long-term growth is working," Thaysen said, and NGS "remains vastly underutilized." Dhingra credited clinical consumables, better-than-expected X placements, China outperformance and a "small benefit" from year-end budget buying [Q4 2025 call, Thaysen and Dhingra].
-
-### Results detail
-
-The table below summarizes Q4 against Q4 2024.
-
-| Item | Q4 2025 | Comparison [Q4 2025 call, Dhingra] |
+| Item | Q4 2025 | Comparison with Q4 2024 |
 |---|---|---|
-| Greater China revenue | $55 million | Down $25 million; ahead of expectations |
-| Sequencing consumables | $755 million | +8% (+11% excluding China) |
-| Sequencing instruments | $154 million | About flat (+3% excluding China); China instruments down 55% |
-| Services and other | $157 million | About +3% (+4% excluding China) |
-| Non-GAAP gross margin | 67% | Down 40 basis points; tariffs cost 205 basis points, so up 165 basis points excluding tariffs |
-| Operating expenses | $502 million | Down 5% ($24 million) |
-| Operating margin | 23.7% | Up 400 basis points; operating profit up about 26% |
-| Other expense / tax rate | $16 million / 19.5% | |
-| Diluted shares | About 154 million | 6 million fewer than a year earlier |
+| Greater China | $55M | Down $25M; ahead of expectations |
+| Sequencing consumables | $755M | +8% (+11% ex-China) |
+| Sequencing instruments | $154M | ~Flat (+3% ex-China); China instruments down 55% |
+| Services and other | $157M | +~3% (+4% ex-China); back to growth after a "lumpy" 2025 |
+| Gross margin | 67% | Down 40 bp; tariffs −205 bp, underlying +165 bp |
+| Operating expenses | $502M | Down 5% ($24M) |
+| Operating margin | 23.7% | Up 400 bp; operating profit +~26% |
+| Other expense / tax rate | $16M / 19.5% | |
+| Diluted shares | ~154M | 6M fewer |
 
-Dhingra attributed the lower gross margin versus Q3 to the usual instrument-heavy fourth quarter. Clinical consumables outside China grew 20%, from wider NGS testing and from moves to more data-hungry assays, such as switching from exome to whole-genome sequencing in oncology and genetic disease. Research and applied consumables were roughly flat, much better than Q3 but below historical norms because of funding and conversion pricing. Output again grew more than 30%. Thaysen named the clinical drivers as new tests and reimbursement wins, especially in MRD and early cancer detection, and demand for CGP and whole-genome approaches that benefit from the X's power and consistency. Services returned to growth after a "lumpy" 2025 [Q4 2025 call, Thaysen and Dhingra].
+Ex-China clinical consumables grew 20%, driven by broader NGS testing and data-heavier tests, such as whole genomes replacing exomes in oncology and genetic disease. Research and applied consumables were about flat, much better than Q3 but below historical rates.
 
-### X transition and placements
+About 80% of volume and 55% of revenue were on the X. Research was about 90% converted, so price headwinds should "continue to dissipate," especially in H2 2026; clinical was over two-thirds converted, with future clinical pricing depending more on new uses such as whole genomes. Conversion should be substantially complete by end-2026. Output grew more than 30%. Illumina placed over 100 X systems (about five rentals or leases, over 60% clinical), which Thaysen called the second-best quarter since the 2023 launch; the active X installed base reached 890.
 
-Illumina placed more than 100 X systems, about five on rental or lease, with over 60% to clinical customers. Thaysen said this was the second-highest quarter since the X launched in 2023. The active installed base reached 890 X instruments. About 80% of high-throughput volume and 55% of revenue were on the X. Research was about 90% converted, so its pricing headwinds should "continue to dissipate," especially in H2 2026. Clinical was more than two-thirds converted, and from here clinical pricing will depend more on volume-raising applications such as whole genomes. Management expected conversion to be substantially complete by end-2026 [Q4 2025 call, Thaysen and Dhingra].
+Q4 operating cash flow was $321 million, capex $54 million and free cash flow $267 million. Illumina bought back 337,000 shares for about $42 million at $124.12, leaving $643 million authorized. Cash was about $1.63 billion and leverage about 1.6x. SomaLogic closed on January 30, 2026, for $350 million upfront plus potential milestones and royalties, paid from cash.
 
-### Full-year 2025 recap and capital
+### Full-year 2025 recap
 
-Growth outside China resumed in Q3 and was about 4% in H2; Thaysen gave 2% for the full year and 7% for Q4. Clinical consumables growth outside China accelerated through the year to about 16% (mid-teens) in H2 and 20% in Q4. Operating margin rose 180 basis points (Thaysen) or "nearly 200 basis points" (Dhingra), despite about 200 basis points of tariffs and other macro headwinds. EPS grew 16% to $4.84, above the original 2025 guidance [Q4 2025 call].
+Ex-China revenue grew 2% for the year and about 4% in H2 (Dhingra); ex-China clinical consumables grew about 16% in H2 and 20% in Q4. Operating margin rose 180 bp (Thaysen) or "nearly 200" (Dhingra) despite about 200 bp of tariff and other headwinds. EPS rose 16% to $4.84, above original start-of-year guidance. Operating cash flow was $1.1 billion, capex $148 million and free cash flow $931 million; about $740 million went to buybacks.
 
-The table below shows cash flow and capital return [Q4 2025 call, Dhingra].
+### Strategy
 
-| Item | Q4 2025 | FY2025 |
-|---|---|---|
-| Operating cash flow | $321 million | $1.1 billion |
-| Capital expenditure | $54 million | $148 million |
-| Free cash flow | $267 million | $931 million |
-| Buybacks | 337,000 shares for ~$42 million at $124.12 | About $740 million |
+Thaysen named two clinical drivers: new tests and reimbursement wins, especially in MRD and early cancer detection; and demand for CGP and whole genomes in oncology and genetic disease. NGS "remains vastly underutilized." New Chief Medical Officer Dr. Eric Green joined from the NIH, where Green directed the National Human Genome Research Institute, to help make genomics standard of care. Research was "measured," with signs of stabilization and more clarity on US policy and funding.
 
-Illumina had $643 million of authorization left, about $1.63 billion of cash and short-term investments, and gross leverage of about 1.6x. It closed SomaLogic on January 30, 2026, for $350 million upfront plus potential royalties and milestones, paid from cash on hand [Q4 2025 call, Dhingra].
-
-### Strategy updates
-
-Thaysen made five points [Q4 2025 call, Thaysen].
-
-- **People.** Dr. Eric Green, former Director of the NIH's National Human Genome Research Institute, joined as Chief Medical Officer to push genomics and multiomics toward standard of care.
-- **Research.** Conditions were "measured," with signs of stabilization from clearer US policy and funding. Thaysen believed research could return to healthy growth longer term.
-- **Multiomics.** Thaysen called proteomics "the frontline in multiomics." Illumina will apply NGS scale to SomaLogic's aptamer-based platform; aptamers are short DNA-like molecules that bind specific proteins, letting the platform measure thousands of proteins at once. Illumina Connected Multiomics software launched to integrate genomic, proteomic, single-cell and epigenomic data (epigenomics studies chemical marks such as methylation). Spatial and Constellation remained on track for H1 2026.
-- **BioInsight.** Launched in Q4, it combines large-scale sequencing, genome-wide CRISPR tools, dedicated computing and AI so drugmakers can test biology digitally instead of through years of lab work. Its first data product, the Billion Cell Atlas, was introduced in January 2026 at JPMorgan's healthcare conference, with AstraZeneca, Merck and Eli Lilly as initial collaborators.
-- **Customers.** Conversations had shifted "from cost per gigabase to the total cost of workflow." Illumina would be Gold sponsor at the AGBT conference later in February 2026.
+Thaysen called proteomics "the frontline in multiomics." Illumina Connected Multiomics, integrating genomic, protein, single-cell and epigenomic data, had launched; spatial and Constellation remained on track for H1 2026. BioInsight combines large-scale sequencing, CRISPR perturbation, dedicated computing and AI so drug companies can test biological models digitally instead of through years of lab work. Its first product, the Billion Cell Atlas, launched in January 2026 as the most comprehensive map of human biology for drug discovery, with AstraZeneca, Merck and Eli Lilly as initial partners. Illumina was Gold sponsor at AGBT, a major genomics conference, later in February; customer talks had shifted "from cost per gigabase to the total cost of workflow."
 
 ### 2026 guidance
 
-"Organic" growth excludes currency and SomaLogic, and the organic guide assumes demand similar to H2 2025. The table below shows the guidance [Q4 2025 call, Dhingra and Thaysen].
+The table shows the 2026 outlook: modest organic growth, with SomaLogic and currency lifting reported growth.
 
 | Item | 2026 guidance |
 |---|---|
-| Revenue | $4.5–4.6 billion, +4% to 6% reported |
-| Organic growth excluding China | +2% to 4% |
-| Currency | About +1 point |
-| SomaLogic | +1.5 to 2 points |
-| China | About –1 point; sales of $210–220 million |
-| Non-GAAP operating margin | 23.3–23.5% (up 130 basis points at midpoint excluding SomaLogic, which costs about 100 basis points) |
-| Non-GAAP EPS | $5.05–5.20, including $0.18 SomaLogic dilution at midpoint; 10% growth excluding SomaLogic |
-| Q1 2026 | Rest-of-world organic growth of 1–3% ($1.06–1.08 billion); EPS $1.02–1.07 including $0.04 deal dilution |
+| Revenue | $4.5B–$4.6B, +4% to 6% reported |
+| Organic growth ex-China | +2% to 4% |
+| Currency / SomaLogic / China | +~1 point / +1.5 to 2 points / −~1 point (China sales $210M–$220M) |
+| Ex-China consumables | Low-to-mid single-digit growth: clinical up double digits to mid-teens; research and applied down mid-to-high single digits |
+| Instruments | Down low single digits to flat; 50–60 X units a quarter (200–240 a year) |
+| Operating margin | 23.3%–23.5%; +130 bp excluding SomaLogic, which costs ~100 bp |
+| EPS | $5.05–$5.20, including $0.18 SomaLogic dilution (the reduction in EPS from the deal); +10% excluding it |
+| Q1 2026 | Ex-China organic growth +1% to 3% ($1.06B–$1.08B); EPS $1.02–$1.07 including $0.04 dilution |
 
-Underneath, rest-of-world consumables were guided to grow low-to-mid single digits. Within that, clinical grows double digits to mid-teens and research and applied declines mid-to-high single digits, assuming no change in academic markets; Dhingra called recent NIH budget news "a welcome development" that could beat that assumption. Instruments were guided down low single digits to flat, with 50–60 X placements a quarter (about 200–240 for the year). Little or no China instrument step-up was assumed in H1. From January 2026, geographic reporting segments were realigned to the commercial organization, with historical reconciliations provided. Management said it remained on track for its 2027 targets [Q4 2025 call, Dhingra and Thaysen].
+The guide assumes demand like H2 2025. Dhingra called recent NIH budget news "a welcome development" and possible upside; China instruments were assumed to see little or no H1 recovery. Geographic reporting segments changed from January 2026. Thaysen said Illumina remains on track for its 2027 targets.
 
 ### Analyst Q&A
 
-**Doug Schenkel (Wolfe)** asked whether 2026 implies a 26–27% exit margin and whether SomaLogic changes the 2027 target. Thaysen restated the 2024 promise of high-single-digit growth by 2027 and 500 basis points of margin to about 26%, and still felt "great" about it. Because SomaLogic is dilutive, Illumina "will get as close to the 26% operating margin as possible in '27." Dhingra said the guide excluding SomaLogic is close to 24.5% and Q4 exit rates tend to run higher, but did not confirm 26–27%. The capital deployment part of the question has no answer in the transcript, apparently because of a cut.
+**Doug Schenkel (Wolfe)** asked whether 2026 exits at a 26–27% margin and whether SomaLogic changes 2027. Thaysen still felt "great" about high-single-digit growth and about 26% by 2027, but because SomaLogic dilutes margins, Illumina "will get as close to the 26%… as possible." Dhingra said the guide excluding SomaLogic approaches 24.5%, with Q4 seasonally higher, but did not confirm 26–27%. The capital-deployment answer is missing from the transcript.
 
-**Vijay Kumar (Evercore)** asked why growth steps down from Q4's roughly 6.5% organic rate outside China (Kumar's figure) to a guide near 3%. Thaysen saw no real step-down: clinical is guided mid-teens, Q4 is always strong, and research remains "muted" because grant distribution is unclear. Dhingra said the guide averages H2 (Q3 at +2%, Q4 at +7%), with Q3 as the low end, and Illumina did not want one quarter as its base.
+**Vijay Kumar (Evercore)** asked why growth steps down from Q4's pace (Kumar's figure: 6.5% organic ex-China) to about 3%. Thaysen saw no real step-down: Q4 is always strong, and research remains "muted" because grant allocation is unclear despite NIH visibility. Dhingra said the range averages Q3 (+2%) and Q4 (+7%); Q3, with clinical up double digits and research down high single digits, is the low end, and research improvement would be upside.
 
-**Puneet Souda (Leerink)** asked about placement mix and competition. Thaysen said clinical would remain most of 2026 placements, and mid throughput would stay muted as in 2025. Dhingra saw little competition in Q4; 5-base is out, spatial is in early access, and the 2026 research view rests on funding, not competition.
+**Puneet Souda (Leerink)** asked about placement mix and competition. Thaysen said clinical would be most 2026 placements, X assay building had not slowed, and mid-throughput remains challenged but unchanged. Dhingra saw "little competition" in Q4, very good interest in 5-base (launched) and spatial (early access), and research assumptions rest on funding, not competition.
 
-**Tycho Peterson (Jefferies)** asked about clinical mix versus volume, PacBio's Onso technology and new-product timing. Thaysen said volume was rising as more physicians profile and monitor cancer, panels grow and some customers move from exome to genome, and expected intensity (larger tests) to become the main driver, without splitting the numbers. Buying PacBio's Onso intellectual property was a "great opportunity to strengthen our portfolio" that keeps options open, though Thaysen remains "very bullish" on Illumina's own SBS (sequencing by synthesis, its core chemistry) and gave no timeline. New adjacencies will not be meaningful in 2026 but should add 1–2% of growth from 2027 via multiomics and data.
+**Tycho Peterson (Jefferies)** asked about clinical mix versus volume, the PacBio "Onso" technology purchase and adjacencies. Thaysen would not split mix from volume but expects test intensity (larger panels) to dominate. The PacBio purchase was a "great opportunity" that keeps options open, though Thaysen remains "very bullish" on Illumina's own SBS chemistry (sequencing by synthesis), with no timeline. New products will not be meaningful in 2026; 1–2% of growth from multiomics and data should come from 2027.
 
-**Michael Ryskin (BofA)** asked whether X placements would match 2025 (Ryskin's estimate: mid-to-high 200s). Thaysen saw possible upside in clinical consumables, with the low end of the guide reflecting Q3 and the high end later momentum, plus instrument upside as clinical customers expand. Dhingra confirmed 200–240 units; Q4 was "phenomenal," with several multipack orders, and some customers are weighing fleet expansions of "tens of Xs." An early-2025 software upgrade had many X units performing above spec. NextSeq and the NovaSeq 6000 were not addressed.
+**Michael Ryskin (BofA)** asked whether 2026 placements would match 2025 (Ryskin estimated mid-to-high 200s). Thaysen said the low end of the consumables guide matches Q3's pace and the high end reflects later momentum, and clinical high-throughput could beat. Dhingra confirmed 200–240 units, called Q4 "phenomenal," with multipack orders and some customers weighing "tens of Xs," and said an early-2025 software upgrade has many X systems running above spec. NextSeq and mid-throughput went unaddressed.
 
-**Kyle Mikson (Canaccord)** estimated oncology at just under $1 billion and genetic disease at just under $0.5 billion of 2025 revenue. Thaysen said oncology is and will remain the main driver, with rare disease also healthy.
+**Kyle Mikson (Canaccord)** estimated 2025 oncology revenue at just under $1 billion and genetic disease just under $0.5 billion. Thaysen said oncology would remain the main driver, with rare disease growing healthily. BioInsight was not addressed.
 
-**Daniel Arias (Stifel)** asked when customers would see end-to-end economics of Fluent (a library-prep product), NovaSeq and DRAGEN. Thaysen said AGBT would be the platform. Constellation needs essentially no library prep, so its price is "really just the cost of sequencing," while competitors' customers also pay for library prep. Illumina would also show cost per sample and per experiment for SomaLogic.
+**Daniel Arias (Stifel)** asked when customers will see full-workflow economics (Fluent sample prep, NovaSeq and DRAGEN). Thaysen said the discussion is under way, with AGBT as a platform. Constellation eliminates library prep (the sample-preparation step), so its price is "really just the cost of sequencing"; SomaLogic costs would be shown per sample and per experiment.
 
-**Jack Meehan (Nephron)** asked about a competitor's "$100 genome" talk. Thaysen said customers are "more sophisticated than just looking at one element," and Illumina has "the portfolio, … the pipeline … the capability to compete on all parameters." Where a lower price would unlock significant elasticity, "we are all for it."
+**Jack Meehan (Nephron)** asked about a rival's "$100 genome." Thaysen said customers are "more sophisticated than just looking at one element," Illumina can "compete on all parameters," and where demand is highly price-sensitive, lower prices are fine: "we are all for it."
 
-**Casey Woodring (JPMorgan)** asked about China and BioInsight. Thaysen said China is under 5% of the business. Illumina remains on China's unreliable entity list (the government list behind the import ban) but has had "great conversations and collaboration" with regulators; rebuilding the instrument funnel takes time, and removal from the list would be upside. The Billion Cell Atlas was well received, and with multiomics should add at least 1–2% of growth in 2027. Dhingra called pharma a new third customer base and a "very meaningful opportunity" over five years with "tremendous" interest, monetized first through specialized data and AI tool builds, then subscriptions. No revenue figure was given.
+**Casey Woodring (JPMorgan)** asked about China and BioInsight. China is under 5% of the business; Illumina remains on China's unreliable entity list (UEL), which underlies the import ban, but Thaysen described "great conversations" with regulators. Rebuilding the pipeline takes time, and removal would be upside. The Billion Cell Atlas was well received at JPMorgan's January 2026 conference; with multiomics, BioInsight should add at least 1–2% of growth in 2027. Dhingra called pharma a "third customer base" and a "very meaningful" five-year opportunity, monetized first through custom data and AI tools and later subscriptions; no revenue figure was given.
 
-**David Westenberg (Piper Sandler)** asked about academic core labs and argued that a competitor's flow cell outperforming spec lowers its effective price per gigabase ("25p at $200"). Thaysen said Illumina had built core-lab relationships over 18 months and Green adds ways to help labs, though NIH details still need to settle. Illumina traditionally delivers at or above spec and does not overpromise, something "many could learn from," which broadly agreed with the point without confirming the math.
+**David Westenberg (Piper Sandler)** asked about academic core labs and whether Green helps, and argued a competitor's headline price (for example, "25p at $200") overstates real cost if Illumina's output beats spec. Thaysen said Illumina had spent about 18 months supporting core labs to be ready when budgets return, and Green adds ways to help. Illumina delivers "on par with or better than" specifications, something "many could learn from," but Thaysen did not confirm the analyst's math.
 
-**Subbu Nambi (Guggenheim)** asked about NovaSeq 6000 pull-through (consumables use per installed machine) and regions. Thaysen said many customers build new assays on the X while keeping the 6000 for validated older ones, which supports 6000 usage though users will decline over time. Europe has done "tremendously well," and APAC and EMEA should "rebound somewhat." Dhingra said research conversion is substantially complete and clinical is in its latter stage, mostly done by volume by end-2026.
+**Subbu Nambi (Guggenheim)** asked about NovaSeq 6000 pull-through (consumables used per installed instrument) and regions. Thaysen said many customers keep validated tests on the 6000 while building new ones on the X, so pull-through holds, though 6000 users will dwindle. Europe has done "tremendously well," and Asia-Pacific and EMEA (Europe, Middle East and Africa) should "rebound somewhat." Dhingra said research conversion is complete and clinical is in its late stages.
 
-### Looking back on 2025
+### How the story changed through 2025
 
-Over four calls the story inverted. In May, management was defending a guidance cut; by February it was reporting 20% clinical growth outside China and its strongest quarter in years. Full-year EPS of $4.84 beat both the $4.20–4.30 May guide and the original $4.50.
+**China** went from a separately guided collapse in May to a resilient business, with guidance moving from $165–185 million to about $200 million and then about $220 million. OEM approval came in October, and talks continued while Illumina remained on the UEL.
 
-- **Clinical** went from "resilient" to the growth engine, with clinical consumables outside China moving from mid-single-digit growth in Q1 to double digits in Q3 and 20% in Q4.
-- **Research** never recovered. It moved from an expected roughly 15% academic decline to "stabilizing, but still soft," and was guided to decline again in 2026.
-- **China** shrank but repeatedly beat the cautious guide. The full-year figure rose from $165–185 million to about $200 million and then about $220 million, with one OEM step forward but no resolution.
-- **Pricing** moved from tariff-offsetting increases, to "very stable," to openness to selective cuts where elasticity justifies them.
-- **Competition** was framed throughout as a "technology overview," a niche (NICU turnaround) or a single-dimension pitch, and management consistently said it saw no customer delays.
-- **Multiomics** grew from a pipeline list into an acquisition (SomaLogic), launches (Protein Prep, 5-base) and a data business (BioInsight), now expected to add 1–2 points of growth from 2027.
+**Clinical** went from mid-single-digit consumables growth in Q1 to double digits ex-China in Q3 and 20% in Q4, validating management's elasticity argument.
 
-## Q1 2026 (call held April 30, 2026)
+**Research** fell sharply. Management assumed about a 15% academic decline for the rest of 2025, research consumables reached flat only in Q4, and 2026 guidance still assumes a decline.
 
-### The headline: a beat and a raise, carried by instruments and clinical demand
+**Pricing** went from tariff-driven increases in Q1, defended against a "free sequencing" competitor, to "very stable" by midyear, with the transition price headwind fading by late 2025.
 
-Illumina beat both its own guidance and consensus (the average analyst forecast), then raised full-year revenue and EPS guidance after one quarter. Thaysen, still interim Chief Commercial Officer, called it a "great start," driven by execution, clinical strength and growth in every region except China. Thaysen also thanked staff for managing a "higher cost environment," which foreshadowed the cost debate of both 2026 calls [Q1 2026 call].
+**Competition** was dismissed in Q1 as "a technology overview." By Q3 and Q4, management claimed to lead "across all these dimensions," saw "little competition," and accepted lower prices where demand is price-sensitive.
 
-Two forces drove the beat. Illumina placed more than 80 NovaSeq X sequencers against a 50–60 planning range, and clinical consumables grew about 20% outside China. Research and academic demand kept falling on US funding uncertainty. Seeking Alpha said revenue of $1.09 billion beat consensus by $17.61 million and non-GAAP EPS of $1.15 beat by $0.10 [Seeking Alpha header, Q1 2026 call]. Dhingra said revenue was $20 million above the guidance midpoint, mainly on instruments, and clinical consumables came in at the high end of expectations. Thaysen said revenue, margin and EPS all exceeded the guidance range [Q1 2026 call].
+**Multiomics** grew from early-access products into a growth pillar (SomaLogic, Protein Prep, 5-base, BioInsight), with management promising at least 1–2 points of growth from 2027.
 
-### How Illumina reports growth
+## Q1 2026: Beat, Modest Raise, and a Supply-Constrained NovaSeq X (call held 2026-04-30)
 
-Vice President of Investor Relations Conor McNamara set the conventions. Growth is year over year and reported unless stated. "Organic" growth strips out currency and acquisitions. "Rest of World (RoW) organic" growth also excludes Greater China, impaired since Illumina's placement on the unreliable entity list, and is management's preferred measure of the business it can control. Restated history for the January 2026 segment realignment is in a supplementary file on Illumina's website [McNamara, Q1 2026 call].
+### The headline: a beat on every line, driven by instruments and clinical demand
 
-### Q1 2026 results line by line
+Q1 2026 revenue was $1.09 billion, up 4.8% reported, about $17.6 million above consensus and $20 million above the guidance midpoint [Seeking Alpha header; Dhingra, Q1 2026 call]. Non-GAAP EPS (profit per share excluding one-time and non-cash items such as acquisition amortization) was $1.15, up about 19% and about $0.10 above both consensus and the February guidance midpoint. Thaysen, still interim Chief Commercial Officer, said revenue, margin and EPS all exceeded guidance, calling it a "great start" driven by execution, clinical strength and growth in every region except China [Q1 2026 call].
 
-The table below shows each Q1 2026 line against Q1 2025. Instruments and margins outperformed, consumables grew low-to-mid single digits, and microarrays fell sharply.
+VP of Investor Relations Conor McNamara set the conventions used on all three 2026 calls. "Organic" growth strips out currency and acquisitions; "Rest of World (RoW) organic" also excludes Greater China. Growth rates are year over year and reported unless stated. Restated history for the new January 2026 geographic segments, aligned with the commercial organization, is on Illumina's website.
 
-| Item | Q1 2026 | Comparison and detail |
+On a like-for-like basis, growth was thin: organic growth was just 1.2%, because currency and acquired revenue each added just under 2 points. RoW organic growth was 3.5%, above the high end of guidance [Dhingra].
+
+### Q1 results by line
+
+The table gives each line against Q1 2025 with Dhingra's explanation. Instruments and margins carried the beat; consumables grew modestly.
+
+| Item | Q1 2026 | Versus Q1 2025 and context |
 |---|---|---|
-| Total revenue | $1.09B | Up 4.8% reported and 1.2% organic; currency and acquired revenue each added just under 2 points; $20M above guidance midpoint |
-| RoW organic growth | 3.5% | Above the high end of guidance |
-| Sequencing consumables | $726M | Up 4%; RoW organic up 5%, roughly in line |
-| Sequencing instruments | $118M | Up 9% reported and 10% RoW organic, driven by NovaSeq X |
-| Sequencing service and other | $151M | Up 7% reported and 5% RoW organic |
-| Microarrays | Not given | Down 20% RoW organic |
-| Non-GAAP gross margin | 68.2% | Up 80 bps |
-| Non-GAAP operating expenses | $506M | Up 3%, mostly from adding the SomaLogic team |
-| Non-GAAP operating margin | 21.9% | Up about 150 bps, and about 150 bps above guidance |
-| Non-GAAP other expense / tax rate | $15M / 20.5% | Other expense mostly net interest |
-| Average diluted shares | About 154M | Down about 5 million on buybacks |
-| Non-GAAP EPS | $1.15 | Up about 19%; about $0.10 above the February guidance midpoint |
+| Sequencing consumables | $726M | Up 4% reported, 5% RoW organic, roughly in line with plan |
+| Sequencing instruments | $118M | Up 9% reported, 10% RoW organic, driven by NovaSeq X |
+| Sequencing service and other | $151M | Up 7% reported, 5% RoW organic |
+| Microarrays | n/a | Down 20% RoW organic, mostly from large direct-to-consumer customers |
+| Non-GAAP gross margin | 68.2% | Up 80 bp, from cost efficiencies and revenue, partly offset by tariffs |
+| Non-GAAP operating expenses | $506M | Up 3%, mostly the added SomaLogic team |
+| Non-GAAP operating margin | 21.9% | Up ~150 bp year over year and ~150 bp above guidance, on operating leverage (costs growing slower than revenue) |
+| Non-GAAP other expense | $15M | Mostly net interest |
+| Non-GAAP tax rate | 20.5% | |
+| Average diluted shares | ~154M | Down ~5M from buybacks |
 
-Dhingra said gross margin improved on cost efficiencies and higher revenue, partly offset by tariffs, while operating margin benefited from operating leverage (revenue growing faster than costs) under a leaner cost structure [Q1 2026 call]. One gap is unreconciled: Dhingra put RoW organic consumables growth at 5%, while Thaysen said RoW sequencing consumables grew "about 7%," apparently on a different basis.
+The executives gave different consumables figures: Thaysen said RoW consumables grew "about 7%," Dhingra 5% RoW organic. The transcript does not reconcile them; Thaysen's may be on a different ex-China basis.
 
-### Segment detail from the CFO
+### Clinical versus research: the defining split
 
-Clinical consumables grew 20% ex-China for the second straight quarter, on rising test volumes and "information-rich" tests in new clinical trials. Dhingra said products such as 5-base and TruPath widen access to richer data. Research and applied consumables fell 12% ex-China on funding uncertainty. Dhingra called macro commentary "stable to improving," but said year-to-date trends matched the 2026 assumptions [Q1 2026 call].
+Clinical customers made up more than 65% of sequencing consumables revenue [Thaysen], and ex-China clinical consumables grew 20% for the second straight quarter [Dhingra]. Thaysen cited the spread of sequencing-based diagnostics, data-heavier tests such as CGP and whole genomes, new assays (tests) and reimbursement progress, and saw a "long runway." Dhingra added that 5-base (reading extra information beyond the DNA letters) and TruPath broaden access to richer data.
 
-Illumina was supply-constrained in Q1 because X demand was so strong, with several multi-unit clinical orders and year-over-year growth in high-throughput research placements. Most consumables growth came from high-throughput volume, as the X installed base (machines in the field) grows and existing machines are used more. Gigabase output on connected high- and mid-throughput instruments grew more than 30%, with clinical "well above" that; output outpacing consumables revenue reflects the X price effect. Service revenue from BioInsight partnerships and data deals can be lumpy. Microarrays, an older chip-based technology that reads known DNA variants, fell 20% RoW organic, largely because of specific large direct-to-consumer genetic testing customers [Dhingra, Q1 2026 call].
+Research and applied consumables, sold to academic, government and pharma labs, fell 12% ex-China on funding uncertainty. Dhingra described macro commentary as "stable to improving" but said trends matched plan. Thaysen said Illumina keeps investing in proteomics and single-cell, with spatial coming; research is where new technologies take hold before clinical use, and it should return to growth once funding uncertainty eases [Q1 2026 call].
 
-The table below shows X transition progress. Volume had moved much faster than revenue, and the remaining shift was concentrated in clinical.
+### NovaSeq X: demand outran supply
 
-| NovaSeq X transition measure (as of Q1 2026) | Share on X |
-|---|---|
-| All high-throughput volume | About 82% |
-| High-throughput revenue | About 55% |
-| Research and applied volume | 90% |
-| Clinical volume | 76%, expected to exceed 80% to 85% by end of 2026 |
+Illumina placed more than 80 X units, against an internal 50–60 target and about 20 more than Q1 2025, with growth in clinical and non-clinical markets [Thaysen; Dhingra]. Dhingra later cited "83 units" in Q&A, a small inconsistency. Dhingra said Illumina was supply-constrained: several clinical customers placed multi-unit orders and research placements also grew. Illumina is investing to scale X supply through Q2 and into Q3 and exited Q1 with a "solid backlog," supporting the higher instrument outlook.
 
-[Dhingra, Q1 2026 call]
+About 82% of high-throughput volume and 55% of revenue was on the X; research and applied was at 90% of volume and clinical at 76%, expected to reach more than 80% to 85% by end-2026. Each conversion temporarily lowers revenue per unit of volume because the X is cheaper per gigabase. Gigabase output on connected high- and mid-throughput instruments grew more than 30%, clinical well above that [Dhingra].
 
-### Cash, balance sheet and capital allocation
+### Other business and innovation updates
 
-Operating cash flow was $289 million, capital expenditures $38 million and free cash flow $251 million. Illumina repurchased 2 million shares for about $242 million at an average $120.85, leaving about $400 million of authorization. On the day of the call the Board authorized another $1.5 billion, and management said it would keep buying opportunistically [Dhingra, Q1 2026 call].
+**SomaLogic** closed on January 30, 2026, for net cash of $363 million plus potential royalties and milestones; after quarter end, Illumina paid a first $25 million milestone for 2025 targets. Thaysen said it is performing in line with revenue and profit expectations. Dhingra cautioned that BioInsight partnership and data revenue can be lumpy.
 
-SomaLogic closed on January 30, 2026, for a net cash payment of $363 million (versus the $350 million upfront figure cited in February) plus potential royalties and milestones. After quarter end Illumina paid a first $25 million milestone for SomaLogic hitting certain 2025 targets. Cash, equivalents and short-term investments were about $1.16 billion, and gross leverage about 1.5x [Dhingra].
+Thaysen highlighted launches from AGBT in early 2026:
+- **TruPath:** whole-genome sequencing that skips traditional library prep, cutting hands-on time to about 10 minutes. Rare-disease customers use it to fold several tests into one; several are in clinical studies, and Thaysen expects demand to rise.
+- **Spatial transcriptomics:** engagement was very high, early users got data from hard samples such as lymphatic tissue, and launch is on track for later in 2026.
+- **NovaSeq X 18-month roadmap:** new 14B and 35B flow cells, staggered flow-cell runs and Q70 data quality. Thaysen said it is driving placements three years after launch.
+- **BioInsight:** the Billion Cell Atlas uses Perturb-seq (switching genes off and reading the effect by sequencing) to study how genes drive disease. Hundreds of millions of cells had been generated, more companies wanted to join, and the data could feed AI drug-discovery models.
 
-### Strategic messages from the CEO
+Thaysen also thanked three outgoing board members.
 
-Thaysen said clinical customers account for more than 65% of sequencing consumables revenue and have a "long runway." The drivers are broader use of sequencing-based diagnostics; more data-intensive tests such as CGP and whole-genome sequencing; new assay launches; and reimbursement progress, meaning insurers agreeing to pay. Research remains cautious, but Illumina keeps investing in proteomics, single-cell analysis (studying cells one at a time) and spatial, because new technologies are adopted in research before moving to the clinic. Management expects research growth to return as funding uncertainty eases [Q1 2026 call].
+### Cash and capital return
 
-Thaysen highlighted products presented at AGBT, the major annual genomics technology conference [Q1 2026 call]:
+Operating cash flow was $289 million, capex $38 million and free cash flow $251 million. Illumina bought back 2 million shares for about $242 million at $120.85, leaving about $400 million on the existing authorization, and the board added a new $1.5 billion authorization the same day. Cash and short-term investments were about $1.16 billion and gross leverage about 1.5x [Dhingra].
 
-- **TruPath**, a whole-genome approach that gives deeper insight without traditional library preparation and cuts hands-on time to about 10 minutes. Rare disease customers use it to consolidate several tests into one workflow, several are running clinical studies, and Thaysen expects demand to rise.
-- **Spatial transcriptomics**, with very high engagement and early-access data from difficult samples such as lymphatic tissue, on track to launch later in 2026.
-- **The NovaSeq X 18-month roadmap**, including new 14B and 35B flow cells (flow-cell size is quoted in billions of reads), staggered flow cell runs and "Q70" data quality. Thaysen said it adds flexibility, throughput and efficiency and is still driving placements three years after the first X shipped. A solid exit backlog underpinned the raised instrument outlook.
-- **BioInsight's Billion Cell Atlas**, built with Perturb-seq (switching individual genes off in cells and reading the effects by sequencing). Hundreds of millions of cells had been generated, more companies wanted to join, and the data could feed AI models for drug discovery.
+### Guidance: a small raise, deliberately conservative
 
-SomaLogic was performing in line with expectations on revenue and profit. Thaysen thanked three outgoing Board members and noted joining Illumina in 2023 [Q1 2026 call].
+The table compares updated 2026 guidance with February's. Revenue, instruments, margin and EPS rose; every consumables line was unchanged.
 
-### Guidance: full year 2026
-
-Management raised revenue, instruments, margin and EPS guidance but left consumables and organic growth ranges unchanged. The table shows the update against February.
-
-| Item | Updated 2026 guidance | Change from February |
+| Item | Q1 2026 guidance for FY2026 | Change from February |
 |---|---|---|
-| Reported revenue | $4.52B to $4.62B | Raised $20M (about 0.5 point), reflecting the Q1 beat |
-| Acquired revenue contribution | 1.5 to 2 points of growth | Unchanged |
-| Currency contribution | About 1 point of growth | Unchanged |
-| RoW organic growth | 2% to 4%, now toward the upper end | Range unchanged |
-| RoW organic sequencing consumables | Low to mid single-digit growth | Unchanged |
-| Clinical consumables | Double-digit to mid-teens growth | Unchanged |
+| Reported revenue | $4.52B–$4.62B | Up $20M (~0.5 point), reflecting the Q1 beat |
+| Acquired revenue / currency contribution | 1.5–2 points / ~1 point | Unchanged |
+| RoW organic growth | 2%–4%, now toward the upper end | Range unchanged |
+| RoW organic sequencing consumables | Low to mid single digits | Unchanged |
+| Clinical consumables | Double digits to mid-teens | Unchanged |
 | Research and applied consumables | Down mid to high single digits | Unchanged |
-| Instruments | Flat to low single-digit growth | Raised, on very strong NovaSeq X demand |
-| Non-GAAP operating margin | 23.4% to 23.6% | Up 10 bps at the midpoint; about 140 bps of expansion versus 2025 excluding acquisitions |
-| Non-GAAP diluted EPS | $5.15 to $5.30 | Both ends raised $0.10; about 12% growth at the midpoint excluding SomaLogic |
+| Instruments | Flat to low single digits | Raised on NovaSeq X demand |
+| Non-GAAP operating margin | 23.4%–23.6% | Up 10 bp at the midpoint; ~140 bp above 2025 excluding acquisitions |
+| Non-GAAP EPS | $5.15–$5.30 | Up $0.10 at both ends; ~12% growth at midpoint excluding SomaLogic |
 
-Dhingra said demand matched the exit-2025 expectations: strong clinical, uncertain research and applied. Excluding acquisitions, the guide implies about 350 bps of cumulative margin expansion by end-2026 toward the 500 bps 2027 target. Full-year X placements would come in "reasonably above the range that we had provided at the start of the year" [Q1 2026 call].
+Dhingra said end markets looked as expected, full-year X placements would come in "reasonably above the range that we had provided at the start of the year," and margin expansion would reach about 350 bp by end-2026 excluding acquisitions, on the way to the 500 bp 2027 target.
 
-For Q2 2026, management guided to RoW organic growth of 4% to 6%, reported revenue of $1.12–1.14 billion, EPS of $1.20–1.25 and operating margin of about 22%. Dhingra gave three reasons for the lower margin: a higher mix of lower-margin instruments and related investments; near-term inflation in freight and electronic components; and a full quarter of SomaLogic costs. Mitigation began in Q2 and is meant to fully offset the inflation during the year, with margins improving in Q3 and Q4. Illumina is investing to scale X supply through Q2 into Q3, and Q2 placements should be close to Q1 [Q1 2026 call].
+Q2 2026 guidance: RoW organic growth 4%–6%, revenue $1.12B–$1.14B, EPS $1.20–$1.25, operating margin about 22%, and X placements close to Q1. Dhingra blamed the soft margin on a heavier instrument mix, freight and electronic-component inflation, and a full quarter of SomaLogic costs; cost actions started in Q2 should show from Q3 into Q4 and fully offset the inflation within the year. Both executives reaffirmed the 2024 long-range targets: high-single-digit 2027 growth, 500 bp margin expansion, and double-digit to teens EPS growth for years to come.
 
-Both executives said Illumina remained on track for the 2027 targets set in 2024: high single-digit revenue growth, 500 bps of margin expansion, and double-digit to teens EPS growth "for years to come." Thaysen described the growth path as flattish in 2025, "mid-single-ish" in 2026 and high single digit in 2027 [Q1 2026 call].
+### Q1 analyst Q&A
 
-### Analyst Q&A
+**Why not raise organic growth? (Vijay Kumar, Evercore ISI).** Thaysen said clinical momentum continues; strong Q4 2025 and Q1 2026 placements support H2, since an instrument starts generating consumables about 6 months after installation, and Illumina was "leaning in" by raising after one quarter. Dhingra said the $20 million moves the guide toward the top, and "decimal points move."
 
-**Vijay Kumar (Evercore ISI)** asked why organic growth was not raised and why clinical could not sustain 20%. Thaysen said clinical momentum should continue this year and beyond, and because a new instrument starts generating consumables roughly six months after installation, strong Q4 and Q1 placements made Thaysen optimistic about H2. One quarter in, Illumina was already "leaning in" by raising. Dhingra said the $20 million raise put the guide toward the upper end: "decimal points move," and there was nothing more to it.
+**Placements and transition pricing (Puneet Souda, Leerink).** Thaysen said clinical was more than 60% of X placements, mostly additional machines rather than 6000 replacements, so they add revenue right away. Research showed large projects and single-cell work but no big mix shift, and spatial could add upside from late 2026 into 2027. Because most research customers have converted, a research recovery will not carry the transition price headwind. Dhingra said price assumptions were unchanged.
 
-**Puneet Souda (Leerink)** asked about placement mix and X pricing. Thaysen said placements grew in both clinical, which is more than 60% of placements and mostly incremental machines that lift revenue immediately, and research, which included large projects and single-cell work. Spatial should add upside from late 2026 into 2027. With research largely converted, Illumina will not face the transition price headwind when that market recovers. Dhingra said pricing assumptions were unchanged and clinical price effects were already in the guide.
+**Backlog and roadmap "freeze" (Tycho Peterson, Jefferies).** Thaysen saw no holding back, a strong funnel and no substantial competitive change: "We know there's a lot of noise out there. We are looking forward to compete when they finally get to the market." Dhingra gave no backlog figure but said remaining performance obligations (contracted future revenue disclosed in the 10-Q) rose more than 20% year over year across instruments and consumables, with much demand from new trials and tests.
 
-**Tycho Peterson (Jefferies)** asked Illumina to quantify the backlog and whether the roadmap might "freeze the market" by causing customers to wait. Thaysen saw no freezing, a strong funnel and no substantial change in competition: "We know there's a lot of noise out there. We are looking forward to compete when they finally get to the market." Dhingra gave no backlog figure but said remaining performance obligations were up more than 20% year over year, with a robust pipeline tied largely to new clinical trials and tests.
+**Margin ramp (Madeleine for Doug Schenkel, Wolfe).** The analyst noted the Q2 margin guide was below the Street. Thaysen recalled the 2024 plan: roughly flat growth in 2025, "mid-single-ish" in 2026 and high single digits in 2027. Dhingra repeated the Q2 pressures and said the H2 ramp comes from mitigation.
 
-**Madeleine, for Doug Schenkel (Wolfe Research),** noted the Q2 margin guide was below the Street and supply investment would continue into Q3. Thaysen pointed to multi-year margin improvement and quarterly puts and takes. Dhingra repeated the three Q2 factors and felt good about the second-half ramp.
+**Late-cycle clinical conversion (Daniel Brennan, TD Cowen).** Thaysen said some clinical customers with regulated or FDA-approved assays on the 6000 are "laggards"; most conversion should finish by end-2026, leaving a long tail, with no clinical deceleration.
 
-**Daniel Brennan (TD Cowen)** asked about the clinical conversion stage. Thaysen said some customers with regulated or FDA-approved tests on the 6000 will stay longer ("laggards"), but most transitioning business should have moved by end-2026, leaving a long tail. Thaysen saw no clinical deceleration.
+**Research and SomaLogic reporting (Patrick Donnelly, Citi).** Thaysen saw Washington aligned on NIH funding and expected it to pick up, but released grants must still turn into purchases as customers wait to see who wins them; little improvement is assumed, so recovery is upside. Dhingra said more than 90% of research volume is on the X, so price comparisons will keep improving, and SomaLogic reports mostly within microarrays.
 
-**Patrick Donnelly (Citi)** asked about research, given the 12% decline came against an easy comparison. Thaysen said Washington appears aligned on NIH funding and expected it to pick up during the year, but released grants must still turn into tool spending, and customers stay cautious until they know who gets grants. Little improvement is in the guide, so recovery would be upside. Dhingra said more than 90% of research volume is on X, so pricing comparisons should keep improving, and SomaLogic revenue is reported mostly within microarrays.
+**Clinical above the high end? (Subbu Nambi, Guggenheim).** Thaysen said the price headwind is receding, mid-teens is strong, and more would be upside; Dhingra saw no deceleration.
 
-**Subbu Nambi (Guggenheim)** asked whether clinical could exceed the guide's high end. Thaysen said the price headwind is receding, mid-teens is strong growth and anything higher would be upside. Dhingra saw no deceleration.
+**The "$150 genome" (Kyle Mikson, Canaccord).** Mikson noted an unnamed rival had disclosed a $150 genome and attractive counting-application pricing ahead of a summer launch. Thaysen said H2 competition should resemble H1 and is in the guide.
 
-**Kyle Mikson (Canaccord Genuity)** asked whether the modest raise accounted for an unnamed competitor's summer launch, which had disclosed a $150 whole genome and attractive pricing for "counting" applications (measuring how much of something is present rather than reading full sequences). The $150 figure came from the analyst, not Illumina. Thaysen repeated confidence in Illumina's position and said second-half competitive dynamics should not differ much from the first half, and are built into the guide.
+**35B flow-cell pricing (Dan Arias, Stifel).** Thaysen said moving rare disease from exome to whole genome takes about 15x more sequencing, so with exome-heavy customers the conversation is elasticity: aggressive pricing brings aggressive volume. "We are not ready at this point to go out and talk about pricing" for the 35B.
 
-**Daniel Arias (Stifel)** asked what cost per genome the 35B flow cell would offer against $150. Thaysen declined: "we are not ready at this point to go out and talk about pricing." Thaysen framed the opportunity instead: moving rare disease testing from exome sequencing (the roughly 2% of DNA that codes for proteins) to whole genomes takes about 15 times more sequencing, and aggressive pricing brings aggressive volume growth.
+**Low and mid throughput (Catherine Ramsey, Baird).** The MiSeq i100, launched around the turn of 2024–25, had more than 1,000 placements in 2025 with continued momentum. Mid-throughput has struggled longer: the i100 takes some of the low end, some customers move up, and mid-range buyers are the most macro-sensitive and often not in production mode. Thaysen expects improvement when research turns.
 
-**Catherine Ramsey (Schulte) (Baird)** asked about low and mid throughput. Thaysen said the MiSeq i100, launched around end-2024 or early 2025, had more than 1,000 placements in 2025, with momentum into 2026. Mid throughput has been weak longer because the i100 takes its low end, some customers move up to high throughput, and mid-throughput buyers are most macro-sensitive. It should improve when research turns.
+**Inflation and cadence (Casey Woodring, JPMorgan).** Neither executive quantified memory-chip and freight inflation; Dhingra said it is "within a range" Illumina can act on and reiterated Q2 placements similar to Q1 with a robust H2 pipeline.
 
-**Casey Woodring (JPMorgan)** asked about inflation and placement cadence. Thaysen cited a record of offsetting cost challenges. Dhingra did not quantify the memory chip and freight headwind but said it was within a range Illumina can act on, and confirmed Q2 placements similar to Q1 with a robust H2 pipeline.
+**Which clinical customers? (Jack Meehan, Nephron).** "All of the above," Thaysen said: large centralized US oncology labs, rare disease and NIPT, across regions.
 
-**Jack Meehan (Nephron Research)** asked which clinical applications drive X demand: multi-cancer screening, MRD, therapy selection or women's health. Thaysen said "all of the above," including large US centralized labs reporting oncology momentum, plus rare disease and NIPT.
+**Discounting (Michael Ryskin, BofA).** Ryskin noted $118 million of instrument revenue fell short of the roughly $125–130 million implied by 80-plus placements. Thaysen said customers buy the X to run consumables; at the J.P. Morgan conference in January 2026, Illumina had shown pull-through above $1.3 million per X per year, which Thaysen expected to hold or rise, and volume discounts on orders of 5, 10 or more units are reasonable. Dhingra added that some of the roughly 83 units were reagent rentals or leases (instrument provided in exchange for committed consumables), which recognize revenue differently.
 
-**Michael Ryskin (BofA)** noted that instrument revenue of $118 million was below the roughly $125–130 million Ryskin expected given about 80 placements, and asked about discounting. Thaysen said customers buy the X to run consumables, and Illumina had shown pull-through (annual consumables revenue per installed instrument) above $1.3 million per X at the JPMorgan conference in January 2026, which should hold or rise. Buyers of five, ten or more machines get a volume discount, which Thaysen called reasonable. Dhingra added that some of the "roughly 83 units" were reagent-rental or lease placements, which recognize revenue differently. Unit counts varied in the call: "more than 80" (Dhingra, prepared remarks), "83 units" (Dhingra, Q&A) and "80+," about 20 more than Q1 2025 (Thaysen).
+**Spatial competition (Mason Carrico, Stephens).** Thaysen called spatial a "rising tide" with room for several players, praised 10x Genomics' launch ("I'm actually quite impressed of what [Serge] and the team is putting out there"), and said of Illumina's customer-built approach, "I'm pretty sure we have a winner."
 
-**Mason Carrico (Stephens)** asked whether spatial is a rising tide. Thaysen agreed and praised 10x Genomics' launch: "I'm actually quite impressed of what [Serge] and the team is putting out there." The technologies differ and serve somewhat different segments, with room for several players, and of Illumina's later-2026 launch Thaysen said, "I'm pretty sure we have a winner."
+**X revenue share stalled at 55% (Mikson).** Thaysen said reading the figure precisely is "a little bit dangerous," since it is directional; the key is clinical conversion passing 85% by end-2026.
 
-**Kyle Mikson (second question)** noted X consumables revenue share held at 55%, unchanged from Q4, despite rising volume share. Thaysen said it is "a little bit dangerous" to read the figure precisely, since it is directional, and clinical conversion should reach over 85% by end-2026.
+## Q2 2026: Fastest Growth Under Thaysen, a Real Raise, and New Cost Headwinds (call held 2026-07-30)
 
-### What Q1 left unanswered
+### The headline: acceleration, led by instruments
 
-Management gave no backlog dollar figure, inflation estimate, or 35B or cost-per-genome pricing. The Q2 margin guide of about 22% was below the Street, per Wolfe. The gap between strong unit placements and lighter instrument revenue was explained only qualitatively, through volume discounts and rental or lease accounting.
+Q2 revenue was $1.16 billion, up 9.5% reported and 6.5% organic (currency and acquisitions added about 3 points), about $28.4 million above consensus. EPS was $1.31, up about 10% (about 13% excluding acquisition dilution) and $0.08 above consensus [Seeking Alpha header; Dhingra, Q2 2026 call]. RoW organic growth was 8.1% (Dhingra also said "8% ... ex China"), above the 4%–6% guide and more than double Q1's 3.5%. Thaysen called it the fastest growth since joining, driven by clinical customers expanding sequencing-based applications. Revenue, EPS and margin all beat guidance despite higher-than-expected costs.
 
-## Q2 2026 (call held July 30, 2026)
+McNamara explained that China is excluded from the key growth measure because Illumina sits on China's "unreliable entity list," a sanctions list restricting its business there. The transcript is partly garbled: Souda's question is cut off, David Westenberg (Piper Sandler) and Dan Brennan (TD Cowen) could not be heard, and two "Unknown Analyst" questioners are identified from context.
 
-### The headline: the fastest growth of Thaysen's tenure, and a bigger raise
+### Q2 results by line
 
-Revenue grew at the fastest rate since Thaysen joined in 2023, driven by clinical customers expanding sequencing applications and more than 95 NovaSeq X placements, up from more than 80 in Q1. Revenue, earnings and margins all beat guidance despite higher-than-expected costs [Thaysen and Dhingra, Q2 2026 call]. Seeking Alpha reported revenue of $1.16 billion, up 9.44% and $28.42 million above consensus, and EPS of $1.31, $0.08 above consensus [Seeking Alpha header, Q2 2026 call]. Both beat April's Q2 guide of $1.12–1.14 billion and $1.20–1.25.
+The table compares Q2 with Q2 2025. The standout shifts from Q1 are instruments jumping from up 9% to up 31%, and microarrays turning positive as SomaLogic was folded in.
 
-Management raised RoW organic growth above the top of its original range, lifted clinical consumables to mid-teens, and began calling the clinical opportunity a multi-year "wave." Analysts focused on three concerns: clinical growth slowed from about 20% to 15%, memory and freight inflation proved worse than expected, and Q3 was guided to a visible slowdown.
-
-The transcript is partly garbled. Puneet Souda's question is cut off at the start. David Westenberg (Piper Sandler) was called twice and Dan Brennan (TD Cowen) once, but neither could be heard. Two questioners are labeled "Unknown Analyst": Harrison, for Mason Carrico of Stephens, and "Jen," for Casey Woodring of JPMorgan. Jack Meehan is listed under "Operon Research" rather than Nephron. The transcript has no ratings, price targets or estimate changes.
-
-### Q2 2026 results line by line
-
-The table below shows Q2 2026 against Q2 2025. Instruments grew 31%, services jumped on Billion Cell Atlas data sales and margin beat guidance, while consumables growth stayed about 5%.
-
-| Metric | Q2 2026 | Comparison and detail |
+| Item | Q2 2026 | Versus Q2 2025 and context |
 |---|---|---|
-| Total revenue | $1.16B | Up 9.5% reported and 6.5% organic; currency and acquisitions added about 3 points |
-| RoW organic growth | 8.1% | Above the 4% to 6% guide; Dhingra also called it "8% on an organic basis ex China" |
-| Sequencing consumables | $775M | Up 5% reported and RoW organic (Q1: $726M, up 4%) |
-| Sequencing instruments | $125M | Up 31% reported and RoW organic (Q1: $118M, up 9%), on NovaSeq X and MiSeq i100 |
-| Sequencing service and other | $154M | Up 14% (Q1: $151M, up 7%), helped by Billion Cell Atlas data revenue from biopharma |
-| Microarrays and other | $105M | Up 21% reported, including SomaLogic; down 4% RoW organic (Q1: down 20%) |
-| Non-GAAP gross margin | 68.2% | Flat with Q1; slightly above expectations despite instrument-heavy mix and higher freight and memory costs |
-| Non-GAAP operating expenses | $530M | Includes SomaLogic and about 60 bps of deferred compensation costs |
-| Non-GAAP operating margin | 22.5% | Above the roughly 22% guide; about 23% excluding deferred compensation |
-| Net interest and other expense / tax rate | $8M / 20.5% | Q1 other expense: $15M |
-| Average diluted shares | About 153M | Lower on buybacks |
-| Non-GAAP EPS | $1.31 | Up about 10%, or about 13% excluding acquisition dilution |
+| Sequencing consumables | $775M | Up 5% reported and RoW organic |
+| Sequencing instruments | $125M | Up 31%, driven by NovaSeq X and MiSeq i100 |
+| Sequencing service and other | $154M | Up 14%, helped by Billion Cell Atlas data revenue from pharma |
+| Microarrays and other | $105M | Up 21% reported (includes SomaLogic); down 4% RoW organic |
+| Non-GAAP gross margin | 68.2% | Slightly better than plan despite instrument-heavy mix and higher freight and memory costs |
+| Non-GAAP operating expenses | $530M | Includes SomaLogic and ~60 bp of deferred compensation (EPS-neutral, offset in other income) |
+| Non-GAAP operating margin | 22.5% | Above the ~22% guide; ~23% excluding deferred compensation |
+| Net interest and other expense | $8M | |
+| Tax rate / diluted shares | 20.5% / ~153M | Share count lower from buybacks |
 
-The deferred compensation cost, tied to an employee deferred-pay plan, is offset in "other income" and has no EPS effect. Meehan quoted the margin as 22.4%; the CFO's figure is 22.5%. Dhingra again said high-throughput volume drove most growth as the X base grows and pull-through rises [Q2 2026 call].
+Analyst Jack Meehan quoted the margin as 22.4%; Dhingra's figure is 22.5%, helped by volume and "an excellent job in absorbing increased inflationary effects."
 
-### Segment detail from the CFO
+### Clinical slows to 15% but stays strong; research shows a flicker
 
-Clinical consumables grew 15% ex-China, down from 20% in each of the two prior quarters. US and Canada still grew above 20%, while Europe, the Middle East and Latin America slowed, "largely due to ongoing near-term dynamics in the region." First-half clinical growth was about 17%, slightly faster than H2 2025, which Dhingra attributed to adoption of sequencing-based diagnostics and more sequencing-intensive applications. Research and applied consumables fell 7% RoW, narrower than Q1's 12% decline ex-China, and rose 9% sequentially, which Dhingra called encouraging. Management still expected a mid- to high single-digit decline for 2026 and said it was too early to predict a recovery [Q2 2026 call].
+Ex-China clinical consumables grew 15%, down from 20% in Q1. US/Canada still grew above 20%, while Europe, the Middle East and Latin America slowed "due to ongoing near-term dynamics in the region" [Dhingra], which Thaysen tied in Q&A to the Middle East situation. First-half clinical growth was about 17%, slightly faster than H2 2025, and clinical remained about 65% of sequencing consumables [Thaysen].
 
-The table compares X transition metrics. Revenue share moved more in Q2, partly answering Mikson's April question.
+RoW research and applied consumables fell 7%, better than Q1's 12% decline, and rose 9% sequentially, which Dhingra called encouraging; full-year guidance stayed at a mid- to high-single-digit decline. Thaysen saw late-quarter improvement but said "it's too early to call a recovery."
 
-| NovaSeq X transition measure | Q1 2026 | Q2 2026 |
+### NovaSeq X: supply catches up, placements jump
+
+Supply investments let Illumina place more than 95 X units, well above the April expectation of "close to Q1" (about 80) and the 50–60 target, including several multi-unit expansions by large clinical customers, some for new trials [Dhingra]. Illumina also placed more than 10 NovaSeq 6000s for customers staying on that platform for years. Thaysen noted demand remained high "more than 3 years after launch" and said three strong placement quarters "will support consumable growth for many quarters to come."
+
+About 83% of volume and 59% of revenue were on the X (from 82% and 55%), with clinical volume at about 78% (from 76%) and the 80%–85% end-2026 target held. Gigabase output grew more than 30%, clinical "well above that," with high-throughput volume and rising pull-through driving most growth [Dhingra].
+
+### Strategy and products
+
+Thaysen framed the strategy as "the highest quality insights for the lowest end-to-end cost," citing deep relationships with leading US clinical customers and a large installed base that "reinforce the durability of our position." New items:
+- **Whole-genome MRD research workflow,** in early access on NovaSeq, to shorten assay development and cut costs.
+- **StrataMap Spatial,** the sequencing-based spatial product promised in Q1, launched this summer.
+- **SomaScan and SomaSeq,** the rebranded SomaLogic proteomics offerings linking protein and genomic data. Dhingra said SomaLogic revenue was tracking toward the high end of deal expectations.
+- **BioInsight and the Billion Cell Atlas:** more than 300 million cells delivered, revenue booking begun, and three new partners after quarter end, for six in total.
+- **Leadership:** Michael Sullivan and Julie Coletti joined management (commercial and legal experience); David King and Dan Skovronsky joined the board (healthcare, diagnostics and R&D experience).
+
+### Cash and capital return
+
+Operating cash flow fell to $201 million on tax-payment timing and higher inventory, as Illumina deliberately stockpiled critical components for the next few quarters. Capex was $39 million and free cash flow $162 million. Illumina bought back 0.9 million shares for about $122 million at $129.07, with about $1.8 billion remaining authorized. Cash was about $1.17 billion, total debt $1.99 billion and leverage about 1.6x, up from 1.5x [Dhingra].
+
+### Guidance: a meaningful raise
+
+This raise touched growth targets and the clinical outlook, not just revenue dollars. The table compares it with April.
+
+| Item | Q2 2026 guidance for FY2026 | Prior (April) |
 |---|---|---|
-| High-throughput volume on X | About 82% | About 83% |
-| High-throughput revenue on X | About 55% | About 59% |
-| Clinical volume on X | 76% | About 78% |
-| End-2026 clinical target | Over 80% to 85% | 80% to 85% (reiterated) |
+| RoW organic growth | Greater than 5% | 2%–4% |
+| Reported revenue | $4.60B–$4.64B | Up $50M at midpoint |
+| RoW organic consumables | Mid single digits | Low to mid single digits |
+| Clinical consumables | Mid-teens | Double digits to mid-teens |
+| Research and applied consumables | Down mid to high single digits | Unchanged |
+| Instruments (RoW organic) | Low single digits | Flat to low single digits |
+| Non-GAAP operating margin | 23.4%–23.6% | Maintained |
+| Non-GAAP EPS | $5.30–$5.40 | Up $0.12 at midpoint; ~11% growth (~14% ex-acquisitions) |
 
-[Dhingra, Q1 and Q2 2026 calls]
+Thaysen said H2 should grow at roughly the H1 pace but with consumables rising from the larger installed base and instruments moderating against tougher comparisons. Dhingra said recent placements add only "modestly" to 2026 consumables because clinical customers take 6 to 9 months to reach normal pull-through, so most benefit lands in 2027; placements should stay elevated in H2 with moderating growth. The installed base supports "our path towards high single-digit revenue growth in 2027," and new products should still add 1 to 2 points in 2027 [Thaysen; Dhingra].
 
-Gigabase output again grew more than 30%, with clinical "well above that." Supply investments let Illumina place more than 95 X units, including multi-unit capacity expansions by several large clinical customers, some for new clinical trials. Illumina also placed more than 10 NovaSeq 6000s for customers planning to keep using that platform for years. SomaLogic revenue was tracking toward the high end of deal expectations. Dhingra said operating margin benefited from volume and "an excellent job in absorbing increased inflationary effects." Dhingra said the first-half performance and growing clinical base set up consumables growth "for years to come," with Billion Cell Atlas and multiomics starting to contribute and continued progress "towards our 2027 financial targets" [Q2 2026 call].
+Q3 2026 guidance: RoW organic growth about 4.5%, revenue $1.14B–$1.16B, EPS $1.33–$1.38, operating margin about 24%, roughly 150 bp above Q2 on consumables mix and cost actions [Dhingra].
 
-### Cash, balance sheet and capital allocation
+### Q2 analyst Q&A
 
-Operating cash flow fell to $201 million from $289 million in Q1, which Dhingra attributed to tax payment timing and higher inventory, as Illumina stockpiled critical components for the next few quarters. Capex was $39 million and free cash flow $162 million. Illumina bought back 0.9 million shares for about $122 million at an average $129.07, fewer than Q1's 2 million at $120.85, leaving about $1.8 billion of authorization after April's $1.5 billion addition. Cash and short-term investments were about $1.17 billion, total debt $1.99 billion and gross leverage about 1.6x, up slightly from about 1.5x [Dhingra, Q2 2026 call].
+**Why not more than high single digits in 2027? (Souda, Leerink).** Thaysen said clinical momentum "will continue for years to come," and the 50–60 placement logic set about 18 months earlier has been clearly exceeded. On a clinical "cliff": "it's not a cliff. It's a wave, and we are surfing it." Thaysen stayed "very, very committed" to high single digits in 2027, "and then we see where it takes us," which was not an upgrade.
 
-### Strategic messages from the CEO
+**The slowdown and "over-earning" (Peterson, Jefferies).** Peterson asked whether parallel 6000 and X running inflates consumables now, creating a headwind when 6000s retire. Thaysen rejected that, noting parallel platforms are standard and HiSeq systems were in the portfolio only a few quarters earlier. Thaysen called 15% "still very strong," citing the US above 20% and Middle East and Latin America "ins and outs"; mid-teens is above where the year started and supports 2027.
 
-Thaysen said deep relationships with leading US clinical customers and a large installed base "reinforce the durability of our position." Clinical remains about 65% of sequencing consumables revenue, with broad growth that is particularly strong in the US and Canada. X demand remained high "more than 3 years after launch," and three quarters of strong placements "will support consumable growth for many quarters to come," although placements vary by quarter. Research improved from Q1, with signs of improvement late in the quarter, but customers remain cautious and "it's too early to call a recovery" [Q2 2026 call].
+**Why Q3 steps down to 4.5%, and AI (Kumar, Evercore).** Thaysen said placements are "not a one-off," clinical customers are building capacity ahead of pipelines, and comparisons toughen because momentum began in H2 2025; consumables become the main driver into 2027. On AI, citing 300 million-plus cells and six pharma partners, customers want drug-discovery insight and a foundation for predictive AI models of biology: "It's still early days. We are making money already from day 1 on this, both on top line and bottom line." No AI revenue assumption was given.
 
-Thaysen framed the aim as "the highest quality insights for the lowest end-to-end cost," built around the X and multiomics. Product updates [Q2 2026 call]:
+**Seasonality and the extra week (Ryskin, BofA).** Thaysen said Q3 is always a bit below Q4. Dhingra said Q4 is the largest quarter, and its extra week is "largely a consumables story," maybe 0.5 point of revenue; consumables are steady and instruments drive variability. Stocking and margin effects went unaddressed.
 
-- **NovaSeq X** remains central, and its roadmap gives customers confidence the platform will support them for years.
-- **A whole-genome MRD research workflow** launched to shorten assay development and lower costs. It runs on NovaSeq systems and is in early access.
-- **StrataMap Spatial**, the sequencing-based spatial product promised in April for later 2026, launched this summer.
-- **Proteomics.** The newly branded SomaScan and SomaSeq offerings are generating strong interest and linking protein with genomic data.
-- **BioInsight**, the data business for AI-enabled pharma drug discovery, combines sequencing, perturbation tools (experiments switching genes on or off), compute and AI. The Billion Cell Atlas had delivered over 300 million cells, up from "hundreds of millions generated" in April. Revenue booking had started, three partners joined after quarter end for six in total, and more updates were promised later in 2026.
+**Breadth of clinical (Dan Leonard, RBC).** Thaysen said NGS's move into standard-of-care healthcare is still ahead, with the US leading and every region except China growing. In oncology, therapy selection (choosing a drug from a tumor's mutations) is still largest in dollars, MRD is building, and MCED (multi-cancer early detection, a screening blood test) will matter later, but "we don't really see that really in the number today." Rare disease and NIPT are growing.
 
-Michael Sullivan and Julie Coletti joined management, bringing commercial and legal experience, and David King and Dan Skovronsky joined the Board, bringing healthcare, diagnostics and R&D experience. The transcript does not say whether Sullivan took over the commercial role Thaysen held on an interim basis in April.
+**Memory costs and GPUs (Nambi, Guggenheim).** Thaysen said memory and freight were a headwind "we didn't anticipate to the level we have seen," shared partly with customers and offset partly through operations, citing 200 bp of margin gain in flat 2025. Dhingra said the higher memory cost is already in Q2 gross margin as a starting run rate, inventory is secured for several quarters, and "our instruments do not use the GPU architecture," relying on a cheaper design Dhingra called a strategic cost advantage. Asked whether competition or funding explained late-cycle placement strength, Thaysen credited the value proposition and roadmap ("a platform to invest in"), addressing neither directly.
 
-### Guidance: full year 2026
+**Mix and research ordering (Harrison for Mason Carrico, Stephens).** Dhingra said placements were about 70% clinical and 30% research globally. US funding releases, requests and quoting picked up late in the quarter, but "we're not assuming any meaningful improvement in that market or revenue for us for the rest of the year."
 
-Management raised guidance again, by more than in April, and held the margin guide despite higher costs. The table shows the changes against April.
+**Tracking multi-omics (Mikson, Canaccord).** Thaysen said "the future belongs to multiomics," delivered as end-to-end workflows with software across bulk, single-cell and spatial. The 2024 plan's 1–2 points of growth in 2026–27 is "playing out as we're expecting"; StrataMap interest is "significantly more" than planned and TruPath has strong momentum. Dhingra said most multi-omics products report in consumables and BioInsight and the Atlas in services, with no commitment to a separate breakout.
 
-| Item | New 2026 guidance (July) | April guidance |
+**The margin step (Meehan, Operon Research).** Excluding deferred compensation, the real step from Q2 (about 23%) to Q3's 24% is about 100 bp, from consumables mix and cost actions landing mostly in gross margin in Q3, with more in Q4 [Dhingra]. No Q3 product split was given.
+
+**Low and mid throughput (Jen for Casey Woodring, JPMorgan).** Thaysen said the X serves "production-like" sequencing that directly generates customer revenue, while low and mid throughput are project-based; the affordable MiSeq i100 keeps placing. "High end and low throughput is very strong right now. Mid-throughput is more muted because of the macro environment."
+
+## Q3 2026: Third Straight Beat-and-Raise, Transition Nearly Done, AI Story Grows (call held 2026-10-29)
+
+### The headline: steady growth, and the margin step-up arrives
+
+Q3 revenue was $1.17 billion, up 7.6% reported and about $13.2 million above consensus, with currency and acquisitions adding just under 3 points [Seeking Alpha header; Dhingra, Q3 2026 call]. RoW organic growth was 4.7% (Dhingra also rounded to 5%), slightly above the ~4.5% guide. EPS was $1.44, above the top of guidance, up 7% and $0.08 above consensus; year-to-date EPS was up 12%. Operating margin was 25%, 100 bp above guidance, on higher revenue and disciplined spending. Gross margin was 69.4%, up 20 bp year over year and up from 68.2% in each of the first two quarters.
+
+Thaysen said: "We had a great third quarter with strong clinical sequencing demand and elevated NovaSeq X placements, driving revenue, margin and EPS above our guidance range," and "Our strategy is working."
+
+Illumina recognized tariff refunds in Q3 that raised operating income, margins and EPS, lowered revenue, and were not in prior guidance. All figures discussed exclude them [McNamara].
+
+### Q3 results by line
+
+The table shows Q3 against Q3 2025. Instruments turned slightly negative despite higher X placements, the clearest sign of the moderation flagged in July.
+
+| Line | Q3 2026 | Versus Q3 2025 and context |
 |---|---|---|
-| RoW organic revenue growth | Greater than 5% | 2% to 4%, toward the upper end |
-| Reported revenue | $4.60B to $4.64B (raised $50M at the midpoint) | $4.52B to $4.62B |
-| RoW organic sequencing consumables | Mid-single-digit growth (toward the high end of the prior guide) | Low to mid single digits |
-| Clinical consumables | Mid-teens (toward the high end) | Double-digit to mid-teens |
-| Research and applied consumables | Mid- to high single-digit decline | Unchanged |
-| Sequencing instruments (RoW organic) | Low single-digit growth (toward the high end) | Flat to low single digits |
-| Non-GAAP operating margin | 23.4% to 23.6% | Maintained |
-| Non-GAAP diluted EPS | $5.30 to $5.40 (up $0.12 at the midpoint) | $5.15 to $5.30 |
+| Sequencing consumables | $792M | Up 6% reported, 5% RoW organic; high-throughput volume as clinical customers bring X units online |
+| Sequencing instruments | $106M | Down 2% RoW organic; higher X placements offset by weak instrument sales in Europe, Middle East and Latin America |
+| Sequencing services and other | $158M | Up 8% RoW organic; Billion Cell Atlas backlog converting to revenue, pipeline "very strong" |
+| Microarrays and other | $110M | Up 2% RoW organic; SomaLogic revenue beat the initial deal model |
 
-At the midpoint, EPS guidance implies about 11% growth, or about 14% excluding acquisitions. Dhingra called the clinical raise an "improvement from what we looked at in the beginning of the year" [Q2 2026 call]. Thaysen expected H2 growth broadly in line with H1 but with a different mix: consumables growing from a larger base while instruments moderate against tougher comparisons. Dhingra said the raised consumables outlook includes only a "modest" 2026 benefit from placement outperformance, because clinical customers take at least six to nine months to reach normal usage on new machines. That is longer than the "roughly six months" Thaysen cited in April and puts most of the benefit in 2027. Dhingra expected placements to stay elevated in H2, with some moderation in year-over-year growth rates.
+### Clinical holds at 14%; research "stabilizing"
 
-On 2027, Thaysen said the growing X base supports "our path towards high single-digit revenue growth in 2027," and Dhingra said new products should still add 1 to 2 points of growth next year.
+RoW clinical consumables grew 14%, similar to Q2 (Thaysen said "14%, 15%"). Research and applied fell 6%, also similar, but has now grown sequentially for two quarters; Dhingra said "we are seeing signs research activity is stabilizing," the most positive language of the year. Full-year expectations stayed at mid-teens clinical growth and a mid- to high-single-digit research decline. Gigabase output grew more than 30%.
 
-For Q3 2026, management guided to RoW organic growth of about 4.5% (down from Q2's 8.1%), reported revenue of $1.14–1.16 billion, EPS of $1.33–1.38 and operating margin of about 24%. That margin is roughly 150 bps above Q2's 22.5%, which Dhingra attributed to a higher consumables mix and growing cost-action benefits, delivering the second-half ramp promised in April [Q2 2026 call].
+### NovaSeq X: transition nearly complete
 
-### Analyst Q&A
+Illumina placed more than 80 X units, about 360 over four quarters, "more than in our first year of launch" [Thaysen]. Several of the largest clinical customers placed multi-unit expansion orders, and placements rose year over year in clinical and research. Outright sales are still more than 90% of placements, but lease interest is growing among research customers and, Dhingra said in Q&A, mid-sized clinical labs.
 
-**Puneet Souda (Leerink)**, in a partly garbled question, noted "no clinical cliff" and 2026 guidance above 5%, and asked why 2027 should not exceed high single digits. Thaysen said clinical momentum "will continue for years to come." Recent placements were clearly above the 50–60 logic framed about 18 months earlier, and should stay elevated in H2 despite possible moderation. "It's not a cliff. It's a wave, and we are surfing it." Thaysen remained "very, very committed" to high single-digit 2027 growth, "and then we see where it takes us," without upgrading the target.
+About 84% of high-throughput volume and 60% of revenue were on the X. Research has been at 90% or more for five straight quarters, so it is "largely complete" with minimal remaining price headwind. Clinical volume stayed at 78%: conversion has slowed as some labs keep on-market assays on the 6000 while adding X capacity for new tests. Dhingra now expects 80%–85% clinical conversion "in coming quarters" rather than by year end, so 2027 transition price headwinds should be smaller than 2026's. Illumina will stop publishing its transition price/volume slide after Q4 2026.
 
-**Tycho Peterson (Jefferies)** asked why clinical slowed and whether consumables were being "over-earned" while customers run 6000s and Xs in parallel. Thaysen said volume keeps expanding on the X and some customers bought 6000s this quarter to continue operations, but they will eventually move. Thaysen called this normal, noting HiSeq systems were in the portfolio until a few quarters ago, and not a real headwind. Clinical at 15% was "still very strong": the US remained above 20%, with "ins and outs" in the Middle East and Latin America and the Middle East situation hurting near term. Mid-teens is above where the year started and supports the 2027 target.
+### Strategy: data, AI and the "Illumina Insight" ecosystem
 
-**Vijay Kumar (Evercore ISI)** asked about one-offs, the step-down to 4.5% in Q3, and AI revenue assumptions. Thaysen said elevated placements are "not a one-off," because clinical customers are building capacity ahead of pipeline volume, but comparisons get tougher since early-2025 placements were weaker than H2's. Consumables should keep stepping up and become the main growth driver into next year. On AI, Thaysen cited more than 300 million cells delivered and six pharma partners, valued for drug-discovery insight and as a foundation for predictive AI models: "It's still early days. We are making money already from day 1 on this, both on top line and bottom line." No AI revenue assumption was given.
+Thaysen framed the Billion Cell Atlas as fixing AI's biology bottleneck, the lack of accurate, standardized, reproducible functional data: "There is no Internet of biology." The Atlas was "over halfway complete," building a proprietary, AI-ready data set recording how cells respond when genes are changed, to help pharma link genetic signals to cell mechanisms and validate drug targets. GSK is the latest consortium member, and other companies want access to the finished Atlas.
 
-**Michael Ryskin (BofA)** asked about Q3 seasonality, stocking and Q4's extra week. Thaysen said Q3 is always somewhat below Q4, so the phasing is normal. Dhingra said Q4 is normally the largest quarter; the extra week is "largely a consumables story" worth perhaps 0.5 point of revenue, with no margin or EPS effect quantified. Stocking was not addressed. Consumables growth has been steady, and variability almost always comes from placements.
+At ASHG earlier in October 2026, Illumina showed customers combining genomics, transcriptomics (RNA activity), methylation and proteomics across bulk, single-cell and spatial methods, with Illumina supplying the whole workflow at lower total cost. It also launched the BioInsight platform, unifying analysis software, AI models and curated data. One model, SpliceAI2, predicts how genetic changes alter RNA splicing (how gene messages are cut and joined) and found 17% more disease-relevant splice variants than other models in rare-disease research data sets. Thaysen said the next era of life sciences will be powered by software, AI and differentiated data, moving from predicting biology toward more proactive healthcare.
 
-**Dan Leonard (RBC Capital Markets)** asked how broad clinical strength is. Thaysen said making NGS standard of care is still ahead, and every region but China is growing well, led by the US. By application, oncology leads; within it, MRD is building momentum but therapy selection is still larger in dollars. MCED (multi-cancer early detection, blood tests screening healthy people for many cancers) will contribute later, but "we don't really see that really in the number today." Rare disease and NIPT keep growing. This was more specific than April's "all of the above."
+### Cash and capital return
 
-**Subbu Nambi (Guggenheim)** asked how rising memory chip prices and tight allocations will evolve into 2027 as Illumina adds GPU-based compute (graphics processors in heavy AI demand). Thaysen cited three years of offsetting headwinds, including 200 bps of margin improvement in 2025 on relatively flat revenue, but conceded memory and freight costs were a headwind "we didn't anticipate to the level we have seen." Illumina is passing some increases to customers and pursuing efficiencies. Dhingra said the higher memory cost was already in Q2, mostly in gross margin, so Q2 is a starting run rate, and inventory had been secured for several quarters. On GPUs: "our instruments do not use the GPU architecture," but a cheaper architecture Dhingra called a unique strategic cost advantage. In April, management had called this inflation manageable and expected to "fully offset" it; by July it had added price-sharing and stockpiling.
+Operating cash flow rebounded to $419 million and free cash flow to $378 million. Buybacks slowed to just $9 million, with about $1.8 billion remaining authorized. Cash was about $1.34 billion, debt fell to $1.79 billion from $1.99 billion, and leverage was about 1.4x, the lowest of the year [Dhingra].
 
-**Subbu Nambi (second question)** asked whether strong year-four placements reflected customers who had waited for competitive information or improving funding. Thaysen credited Illumina's value proposition and said continued innovation shows "a lot of leeway" in the X, making it "a platform to invest in." Competition and funding were not addressed directly.
+### Guidance
 
-**Harrison, for Mason Carrico (Stephens),** asked about placement mix. Thaysen said most placements go to clinical and should continue to. Dhingra put the mix at about 70% clinical and 30% research (global), consistent with April's "more than 60%." Late in the quarter there were more US funding releases, requests and quotes, but "we're not assuming any meaningful improvement in that market or revenue for us for the rest of the year."
+The raise came from the Q3 beat and higher expected Q4 consumables. The table compares with July.
 
-**Kyle Mikson (Canaccord Genuity)** asked how investors can track multiomics. Thaysen said the 2024 strategy has two legs: converting customers to the X, which is visibly working, and multiomics. "The future belongs to multiomics": genomics is the backbone, but customers need layers from genome to proteome and from bulk to single-cell to spatial, delivered as end-to-end workflows with linking software. The 2024 expectation of 1–2 points of growth in 2026 and 2027 is "playing out as we're expecting." StrataMap has drawn "significantly more interest" than planned, and TruPath has strong momentum. Dhingra said most multiomics products, such as single cell and TruPath, sit in consumables, while BioInsight revenue sits in services. Illumina will keep commenting on Billion Cell Atlas contributions but made no commitment to a separate breakout.
+| Item | Q3 2026 guidance for FY2026 | Change from July |
+|---|---|---|
+| Revenue | $4.64B–$4.66B | Up $30M at midpoint |
+| RoW organic growth | Greater than 5% | Unchanged |
+| Consumables / instruments | Mid single digits / low single digits | Unchanged |
+| Operating margin | ~23.6% | At the high end of the prior 23.4%–23.6% |
+| EPS | $5.40–$5.45 | Up $0.08 at midpoint; 12%–13% growth |
 
-**Jack Meehan (Operon Research)** asked how much of the step from 22.4% to 24% is mix. Dhingra said the H2 step-up was planned from the start of the year given tariffs and cost actions. Excluding deferred compensation, Q2 was about 23%, so the underlying step is about 100 bps, from higher consumables mix plus gross-margin cost actions in Q3, with more in Q4. No Q3 consumables-versus-instruments split was given.
+Q4 2026 guidance: revenue $1.22B–$1.24B, RoW organic growth about 4.5%, EPS $1.51–$1.56, operating margin about 25%. Thaysen said H2 margin of about 25% is roughly 400 bp above 2024. Full 2027 guidance comes on the Q4 call.
 
-**"Jen," for Casey Woodring (JPMorgan),** asked about low and mid throughput. Thaysen said the X serves "production-like" sequencing that directly generates customers' revenue, while lower-throughput machines are project-based. The MiSeq i100, launched "a little over a year ago," is affordable for most labs and keeps gaining placements. Mid throughput remains macro-sensitive, though Thaysen expected medium-term momentum from Illumina's investments: "high end and low throughput is very strong right now. Mid-throughput is more muted because of the macro environment," repeating the April picture.
+### Q3 analyst Q&A
 
-## How the story evolved across the 2026 calls
+**Stocking and the clinical jumping-off point (Peterson, Jefferies).** Thaysen did not mention stocking, expected mid-teens clinical growth for the year and saw Q4 "coming along" well. Dhingra said Q4 2025 was an unusually tough comparison (11% consumables growth), yet Q4 2026 should deliver "a pretty good 5%, 6%."
 
-**Clinical demand: from "long runway" to "a wave."** In April, management called clinical a "long runway" after two quarters of 20% ex-China growth, but kept its guide at double digits to mid-teens. In July, the quarterly rate cooled to 15% on Europe, the Middle East and Latin America while the US stayed above 20%, yet the full-year guide rose to mid-teens and the opportunity was recast as a multi-year wave. The application picture sharpened: therapy selection is the largest driver, MRD is building, MCED is not yet visible, and rare disease and NIPT keep growing. Analysts' worry shifted from whether clinical can hold 20% to whether it is inflated by parallel 6000 and X use, which Thaysen dismissed.
+**The 2027 framework (Kumar, Evercore).** Kumar said the Q4 exit implies close to 6% RoW growth, differing from the ~4.5% guide; the gap was not reconciled. Thaysen joked that 2027 took until the second question, gave no details, called the market healthy and said clinical will drive growth "for the foreseeable future," with multi-omics positioned for a research recovery and AI data demand only beginning. Consumables have grown above 5% every quarter, "a good starting point," and Illumina is "on the latter end" of lapping the transition price impact. Whether 2026 placements create a 2027 instrument headwind went unanswered.
 
-**Instruments: from supply-constrained to capacity-building.** Placements rose from more than 80 (about 83) in Q1 to more than 95 in Q2, against a 50–60 planning range, with about 60–70% going to clinical. The Q1 discounting question was answered with volume discounts and rental or lease accounting, and Q2 instrument revenue grew 31%. The expected consumables payoff from new machines lengthened from "roughly 6 months" to "at least 6 to 9 months," putting most of it in 2027.
+**Pull-forward? (Doug Schenkel, UBS).** "This is a normal course of business," Thaysen said, driven by a healthy clinical market and more sequencing-intensive assays ("a lot more coming"), with AGBT innovations convincing customers to bet on the X. No capacity-versus-replacement split was given.
 
-**The X transition: nearly done, and less of a price drag.** Clinical volume on X rose from 76% to about 78%, targeting 80–85% by end-2026, and X's share of high-throughput revenue moved from about 55% to about 59%. With about 90% of research volume converted, management argued the pricing headwind is fading.
+**Elasticity and 2027 (Souda, Leerink).** Thaysen said the 6000-to-X move cut price but created substantially more volume that persisted, rather than a one-time gain under a fixed budget. Large-volume customers can negotiate: "that's a conversation I like to have." Illumina is "still on the track to deliver on the '27 of high single digit," after mid-single-digit growth in 2025.
 
-**China** was excluded from the growth metrics management emphasized. Both calls described growth everywhere but China, explained in Q2 by the unreliable entity list; neither gave a China revenue figure or discussed recovery.
+**New products and margin runway (Nambi, Guggenheim).** Thaysen said the 2024 plan for new assays and data is "playing out well"; the multi-omics portfolio launched over 18 months is "very significant," and with SomaLogic its momentum, from a low base, will show in 2026 and especially from 2027. Margins improved about 400 bp despite this year's unexpected electronic-component, shipping and tariff costs, and "there is more to come... also in '27."
 
-**Pricing.** Illumina declined in April to give 35B or cost-per-genome pricing, arguing lower cost per gigabase raises volume (for example, exome-to-genome moves need about 15 times more sequencing). In July pricing reappeared as passing part of memory and freight inflation to customers.
+**Liquid-biopsy customers (Luke Sergott, Barclays).** Sergott asked about blood-based cancer-test customers growing volumes and running concordance studies (validating matching results across instruments) as they move to the X. Thaysen described the "razor-razor blade" model: "nobody buys an instrument to put in the corner." Whether clinical grows 14%, 15% or 16% matters less than market strength; US/Canada clinical has grown very strongly for four quarters, and Thaysen does not expect that to stop. Dhingra cited new test launches, on-market volume growth and coming trial readouts as a "very rich pipeline."
 
-**Competition.** In April an analyst raised an unnamed rival's $150 genome; Thaysen dismissed "a lot of noise" and expected stable dynamics. In July competition barely came up, and Thaysen did not directly address whether customers had waited for competitive information. In spatial, Thaysen openly praised 10x Genomics and called the market a "rising tide."
+**AI pricing and the "$50 genome" (Arias, Stifel).** The $50 figure was the analyst's, unconfirmed by management. Thaysen said AI value is "way beyond" whole-genome pricing, lying in large multi-omic data sets that "no other company in this industry" can build. "We love elasticity," Thaysen said, describing a data flywheel shared with customers: "I'm not super concerned about what others are doing right now." The 35B flow cell went unaddressed.
 
-**Costs and margins.** April's Q2 margin guide of about 22% was below the Street, with inflation called manageable. By July management conceded inflation was worse than expected and added price-sharing and stockpiling, which raised inventory and lowered cash flow. Margins still beat (22.5% versus about 22%), the full-year 23.4–23.6% guide held, and the Q3 step to about 24% was guided.
+**Large-customer pricing in 2027–29 (Westenberg, Piper Sandler).** Westenberg noted clinical is about 70% of consumables and asked about discounts for large customers such as the makers of Signatera (an MRD test) and Shield (a blood colorectal-cancer screen), growing volume 25%–30%. Thaysen declined to discuss pricing: "when our customers are growing, we were also growing very healthy," noting that 18 months earlier analysts doubted Illumina could grow at all. Dhingra said US/Canada consumables and US clinical, a proxy for these customers, grew "well above" 14%.
 
-**Research funding.** The research and applied decline narrowed from 12% in Q1 to 7% in Q2, with 9% sequential growth and late-quarter signs of more US grant releases, but management kept the mid- to high single-digit full-year decline and declined to call a recovery.
+**Upside beyond 2027 (Mikson, Canaccord).** Asked about near-double-digit growth with high-20s margins, Thaysen said it is "absolutely not impossible" and "there's definitely upside to a high single-digit growth," but Illumina, having gone from negative growth in 2024 to mid-single digits, wants to prove high single digits first. Customers increasingly want data sets and model performance, not just sequencing.
 
-**Multiomics and BioInsight.** Spatial went from "on track" to launched (StrataMap Spatial). SomaLogic moved from "in line" to the high end of deal expectations. The Billion Cell Atlas went from hundreds of millions of cells generated to more than 300 million delivered, with revenue booking started and six pharma partners. Management restated that new products add 1–2 points of growth in 2026 and 2027 but did not commit to separate reporting.
+**When BioInsight shows in results (Leonard, RBC).** Thaysen said the software is doing "extremely well," data and multi-omics are on track for 1%–2% of 2027 growth, and AI could make it "substantially bigger." Dhingra expects visible disclosure sometime in 2027, with the Atlas and a second generation expanding to 5 billion cells among the first drivers.
 
-**Guidance trajectory.** The table tracks the main 2026 guidance items through the year, showing two successive raises, the larger in July. February figures are from the Q4 2025 call.
+**Extra week and China (Woodring, JPMorgan).** Dhingra said Illumina adds a week roughly every four years to keep quarters on a 13-week cycle; it was in guidance all year, falls over the holidays and early January, has minimal revenue impact and adds a week of people cost. No unusual budget flush is assumed, so a strong one would be upside, and the Q4 consumables raise comes "entirely" from placements and demand. China returned to year-over-year growth in Q3; Thaysen said Illumina remains committed and is working with customers and regulators. On new US trade restrictions on some Chinese competitors, Illumina learned of them "as many of you did yesterday morning" and is assessing the impact.
 
-| 2026 guidance item | February (Q4 2025 call) | April (Q1 call) | July (Q2 call) |
+**AI as services or instruments? (Brennan, TD Cowen).** Thaysen said small lab-built data sets are noisy, and models trained on them often learn the data's origin rather than the biology, creating a big service opportunity for standardized data; but customers will add their own data, so instruments sell too: "it will be a blend." Dhingra listed multi-omic combinations chosen by disease pathway: whole genome plus proteomics, single-cell plus transcriptomics, spatial plus transcriptomics. Neither gave X pricing.
+
+**China, again (Westenberg).** Westenberg cited China growth of 7% and double digits (garbled in the transcript). Thaysen gave no number, saying Illumina focuses on what it controls, sees strong customer interest and a big opportunity, and Chinese customers want Illumina there.
+
+**Leases in clinical? (Peterson).** Dhingra said leases and reagent rentals have long been offered and demand is rising in research and clinical, concentrated among mid-sized clinical labs in the US, Europe and elsewhere rather than the largest customers, who are busy expanding capacity.
+
+## How the Story Evolved Through 2026
+
+Across the three calls, management moved from a cautious beat to growing confidence while keeping guidance disciplined. The table shows the key quarterly metrics: RoW organic growth peaked in Q2, clinical cooled from 20% to the mid-teens, research declines narrowed each quarter, and margins rose steadily.
+
+| Metric | Q1 2026 | Q2 2026 | Q3 2026 |
 |---|---|---|---|
-| Reported revenue | $4.5B to $4.6B | $4.52B to $4.62B | $4.60B to $4.64B |
-| RoW organic growth | 2% to 4% | 2% to 4%, upper end | Greater than 5% |
-| Clinical consumables | Double-digit to mid-teens | Unchanged | Mid-teens |
-| Instruments | Down low single digits to flat | Flat to low single digits | Low single digits |
-| Non-GAAP operating margin | 23.3% to 23.5% | 23.4% to 23.6% | 23.4% to 23.6% |
-| Non-GAAP EPS | $5.05 to $5.20 | $5.15 to $5.30 | $5.30 to $5.40 |
+| Revenue | $1.09B | $1.16B | $1.17B |
+| RoW organic growth | 3.5% | 8.1% | 4.7% |
+| Clinical consumables (ex-China) | +20% | +15% | +14% |
+| Research and applied consumables (ex-China/RoW) | −12% | −7% | −6% |
+| NovaSeq X placements | >80 (83) | >95 | >80 |
+| X share of volume / revenue | 82% / 55% | 83% / 59% | 84% / 60% |
+| Clinical volume on X | 76% | 78% | 78% |
+| Non-GAAP operating margin | 21.9% | 22.5% | 25% |
+| FY revenue guide | $4.52–4.62B | $4.60–4.64B | $4.64–4.66B |
+| FY EPS guide | $5.15–5.30 | $5.30–5.40 | $5.40–5.45 |
 
-**2027 targets** were unchanged across both calls: high single-digit revenue growth, 500 bps of margin expansion versus the 2024 baseline, and double-digit to teens EPS growth. In July management declined an invitation to raise the 2027 growth target.
+**Clinical demand** shifted from "20% for two quarters" to a deliberately de-emphasized mid-teens rate ("whether 14, 15 or 16% matters less"), with US/Canada above 20% while Europe, the Middle East and Latin America softened. The application framing settled into therapy selection now, MRD building, MCED later.
 
-These notes cover the Q1 and Q2 2026 calls. Q3 2026 results had not been reported in the source material as of this writing.
+**Pricing.** Management repeatedly declined specifics on 35B pricing or large-customer discounts, leaning on elasticity. Its main reassurance is that the transition headwind is nearly over: research is done, clinical is stuck at 78% because of regulated legacy assays, and 2027 headwinds should be smaller.
+
+**Competition** language moved from looking forward to competing "when they finally get to the market" (Q1) to "not super concerned" (Q3). The $150 and $50 genome prices came from analysts, not management.
+
+**China** went from the only region not growing (Q1) to returning to growth (Q3), while still on the unreliable entity list; new US restrictions on Chinese competitors were being assessed.
+
+**Multi-omics and AI.** The Billion Cell Atlas grew from hundreds of millions of cells to 300 million-plus with six partners, then to more than halfway complete with GSK joining. AI moved from an aside to a core pillar, and the 1–2 point 2027 contribution from new products and data was reaffirmed every call, with AI possibly making it "substantially bigger."
+
+**2027.** Management reaffirmed high-single-digit growth each quarter and acknowledged upside, but declined to raise the target ahead of the Q4 call.

@@ -2,7 +2,7 @@
 
 One entry per source document. Each entry gives the date, title, a short summary, the readable extract (exhaustive notes) and the original file. Agents should use this index to pick the documents relevant to a question, read the extracts, and open the originals when exact wording, tables or figures matter.
 
-*As of 2026-10-10. Documents: 187 extracted.*
+*As of 2026-10-10. Documents: 188 extracted.*
 
 ## Illumina (ILMN)
 
@@ -90,7 +90,7 @@ One entry per source document. Each entry gives the date, title, a short summary
   Illumina's Q2 2026 earnings deck reports revenue of $1.16B (+6.5% organic, +9.5% reported), non-GAAP operating margin of 22.5% and non-GAAP EPS of $1.31 (+10%). Growth was led by the U.S. and Canada, clinical sequencing consumables, and a strong rebound in instruments (+30% organic), while Greater China fell 19% organically and gross and operating margins slipped about 120-130 bps year over year. Full-year 2026 guidance was set at revenue of $4.60B-$4.64B, operating margin of 23.4%-23.6% and EPS of $5.30-$5.40, with Q3 guided to $1.14B-$1.16B revenue. The appendix gives full reconciliations of GAAP to non-GAAP results, cash flow and growth.  
   Extract: `Extracts/ILMN/deck/ILMN_2026Q2_Earnings_Slides.md` · Original: `Sources/ILMN/deck/ILMN_2026Q2_Earnings_Slides.md`
 
-### Earnings Call (14)
+### Earnings Call (15)
 
 - **2023-03-28 — Illumina Q1 2023 Earnings Call (April 25, 2023): NovaSeq X launch, Russia sanctions, cost cuts and 2024-25 margin targets** (Seeking Alpha transcript of the Illumina Q1 2023 earnings call; speakers Salli Schwartz (IR), Francis deSouza (CEO), Joydeep Goswami (CFO); analysts from SVB Securities, TD Cowen, Stifel, Evercore ISI, Morgan Stanley, J.P. Morgan, Piper Sandler, Canaccord; feeds core)  
   Illumina reported Q1 2023 revenue of about $1.09 billion (down 11% year over year) and non-GAAP EPS of $0.08, both above guidance, helped by 67 NovaSeq X shipments versus an expected 40-50. Management raised its 2023 NovaSeq X shipment target to more than 330 instruments, held total 2023 revenue and EPS guidance, and absorbed about $60 million of lost Russia revenue. It also announced more than $100 million of annualized cost cuts and committed to Core Illumina operating margins of 25% in 2024 and 27% in 2025. Analysts focused on X demand and manufacturing pace, the second-half ramp, gross margins, GRAIL regulatory outcomes, China and NextSeq pricing.  
@@ -134,6 +134,9 @@ One entry per source document. Each entry gives the date, title, a short summary
 - **2026-06-28 — Illumina Q2 2026 Earnings Call (July 30, 2026): Raised 2026 Guidance, Record Clinical-Driven Growth, 95+ NovaSeq X Placements** (Seeking Alpha transcript of Illumina's Q2 2026 earnings call; speakers Jacob Thaysen (CEO), Ankur Dhingra (CFO), Conor McNamara (VP Investor Relations); analysts from Leerink, Jefferies, Evercore ISI, BofA, RBC, Guggenheim, Canaccord, Stephens, JPM, Operon Research; feeds core)  
   Illumina reported Q2 2026 revenue of $1.16 billion (up 9.5% reported, 6.5% organic) and non-GAAP EPS of $1.31, both above expectations, driven by clinical sequencing demand and more than 95 NovaSeq X placements. Management raised full-year 2026 revenue and EPS guidance, lifted clinical consumables growth to mid-teens, and reiterated a path to high single-digit revenue growth in 2027. Research and academic demand remains weak but showed early signs of improvement, and memory and freight costs are a headwind that management says it is absorbing. Analysts focused on the Q3 growth step-down, the sustainability of clinical growth, the 2027 outlook, memory costs and the multiomics/BioInsight strategy.  
   Extract: `Extracts/ILMN/earnings_call/ILMN_2026Q2_Earnings_Call.md` · Original: `Sources/ILMN/earnings_call/ILMN_2026Q2_Earnings_Call.md`
+- **2026-10-29 — Illumina Q3 2026 Earnings Call (reported Oct 29, 2026): beat-and-raise, strong clinical demand, NovaSeq X placements, Billion Cell Atlas and 2027 framing** (Seeking Alpha transcript of Illumina's Q3 2026 earnings call; speakers Conor McNamara (VP Investor Relations), Jacob Thaysen (CEO), Ankur Dhingra (CFO); analysts from Jefferies, Evercore ISI, UBS, Leerink, Guggenheim, Barclays, Stifel, Piper Sandler, Canaccord, RBC, JPMorgan, TD Cowen; feeds core)  
+  Illumina beat its Q3 2026 guidance on revenue, operating margin and EPS, and raised full-year 2026 guidance, helped by more than 80 NovaSeq X instrument placements and 14% clinical consumables growth. Management said the shift of customers to the NovaSeq X is nearly complete, so price headwinds will shrink in 2027, and it reiterated the long-range target of high-single-digit growth in 2027. Much of the Q&A concerned the 2027 outlook, the Billion Cell Atlas and AI-biology opportunity, China, and clinical customer pricing.  
+  Extract: `Extracts/ILMN/earnings_call/ILMN_2026Q3_Earnings_Call.md` · Original: `Sources/ILMN/earnings_call/ILMN_2026Q3_Earnings_Call.md`
 
 ### Expert Call (23)
 
@@ -856,6 +859,10 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/analyses/2026-10-17_10B_core_discounting_tracker.md`
 - `Outputs/analyses/2026-10-17_mrd_market_size_vs_natera.md`
 - `Outputs/analyses/2026-10-18_ILMN_27E_pricing_variance.md`
+- `Outputs/analyses/2026-10-28_competitor_H2_2026_launches.md`
+- `Outputs/analyses/2026-10-28_ILMN_writeup_edit_list.md`
+- `Outputs/analyses/2026-10-28_price_per_gb_by_machine.md`
+- `Outputs/analyses/2026-10-30_ILMN_Q3_26_after_hours_drop.md`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_brief.html`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_thesis.html`
 - `Outputs/artifacts/2026-10-11_ILMN_primer.html`
@@ -884,6 +891,8 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/artifacts/2026-10-18_ILMN_27E_pricing_variance_table_lfl8.png`
 - `Outputs/artifacts/2026-10-18_ILMN_28E_pricing_variance_table.png`
 - `Outputs/artifacts/2026-10-19_ILMN_KPI_summary_table.png`
+- `Outputs/artifacts/2026-10-22_ILMN_27E_variance_quickref.png`
+- `Outputs/artifacts/2026-10-22_ILMN_27E_variance_quickref_buyside12.png`
 - `Outputs/datasets/2026-10-12_thesis_scrape_findings.csv`
 - `Outputs/datasets/2026-10-12_thesis_scrape_findings.json`
 - `Outputs/datasets/2026-10-12_thesis_scrape_README.md`

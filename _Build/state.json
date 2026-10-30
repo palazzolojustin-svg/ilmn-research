@@ -3926,6 +3926,27 @@
     "topics": "clinical NGS adoption, reimbursement, CGP, TSO Comprehensive, FoundationOne, Roche AXELIOS, Element, Ultima, sub-$100 genome, Thermo Ion Torrent, 10x Genomics, MRD, NovaSeq X, NextSeq, MiSeq, DRAGEN, SomaLogic, Olink, proteomics, LDT vs IVD, companion diagnostics, community oncology"
    },
    "extract_hash": "387d41f40b90a0ff86ed96206d76ee9c"
+  },
+  "ILMN/earnings_call/ILMN_2026Q3_Earnings_Call.md": {
+   "company": "ILMN",
+   "doctype": "earnings_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina, Inc. (ILMN) Q3 2026 Earnings Call Transcript _ Seeking Alpha.md",
+   "dest": "ILMN_2026Q3_Earnings_Call.md",
+   "date": "2026-10-29",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Illumina Q3 2026 Earnings Call (reported Oct 29, 2026): beat-and-raise, strong clinical demand, NovaSeq X placements, Billion Cell Atlas and 2027 framing",
+    "company": "ILMN",
+    "date": "2026-10-29",
+    "source": "Seeking Alpha transcript of Illumina's Q3 2026 earnings call; speakers Conor McNamara (VP Investor Relations), Jacob Thaysen (CEO), Ankur Dhingra (CFO); analysts from Jefferies, Evercore ISI, UBS, Leerink, Guggenheim, Barclays, Stifel, Piper Sandler, Canaccord, RBC, JPMorgan, TD Cowen",
+    "type": "earnings call",
+    "summary": "Illumina beat its Q3 2026 guidance on revenue, operating margin and EPS, and raised full-year 2026 guidance, helped by more than 80 NovaSeq X instrument placements and 14% clinical consumables growth. Management said the shift of customers to the NovaSeq X is nearly complete, so price headwinds will shrink in 2027, and it reiterated the long-range target of high-single-digit growth in 2027. Much of the Q&A concerned the 2027 outlook, the Billion Cell Atlas and AI-biology opportunity, China, and clinical customer pricing.",
+    "topics": "Q3 2026 earnings, guidance raise, NovaSeq X placements, clinical sequencing, research and applied decline, X transition pricing, tariff refunds, Billion Cell Atlas, BioInsight, SpliceAI2, SomaLogic, multi-omics, AI biology, 2027 outlook, long-range targets, China unreliable entity list, operating leases, share repurchases, extra week in Q4"
+   },
+   "extract_hash": "59193e97a1007d1a1fd9dbdddc6cce42"
   }
  },
  "sections": {
@@ -3974,13 +3995,13 @@
    "condensed": "6444c2b192c62902752e7a87fb76b9d0"
   },
   "05": {
-   "sig": "cf88153e50301fa6cceac6912cc5fe25",
+   "sig": "de3ff37949392c32bcd70107b5db33d5",
    "parts": {
     "1": "done",
     "2": "done"
    },
    "status": "done",
-   "condensed": "cf88153e50301fa6cceac6912cc5fe25"
+   "condensed": "de3ff37949392c32bcd70107b5db33d5"
   },
   "07": {
    "sig": "7fe8e62e4303b45305b33f0169362de1",
@@ -4060,9 +4081,9 @@
    "condensed": "238235219f38733fe1d0262c454fd339"
   },
   "00": {
-   "sig": "a48c423ef5e926565f33a2e64d29ba52",
+   "sig": "d884efedf7ca236622a1ce3a362bd5aa",
    "status": "done",
-   "condensed": "a48c423ef5e926565f33a2e64d29ba52"
+   "condensed": "d884efedf7ca236622a1ce3a362bd5aa"
   }
  }
 }

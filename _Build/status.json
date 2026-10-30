@@ -3,9 +3,9 @@
  "done": 32,
  "total": 32,
  "failed": 0,
- "note": "failed extracts: []; failed sections: []",
- "heartbeat": 1791699807.1110048,
- "heartbeat_human": "2026-10-11 01:23:27",
- "pid": 22292,
+ "note": "ingested 1 file(s)",
+ "heartbeat": 1793395522.3158486,
+ "heartbeat_human": "2026-10-30 16:25:22",
+ "pid": 51896,
  "paused_until": null
 }
