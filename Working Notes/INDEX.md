@@ -875,6 +875,8 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/analyses/2026-10-30_ILMN_clinical_X_conversion_vs_growth.md`
 - `Outputs/datasets/2026-10-30_ILMN_clinical_X_conversion_vs_growth.csv` (README: `2026-10-30_ILMN_clinical_X_conversion_vs_growth_README.md`)
 - `Outputs/artifacts/2026-10-30_ILMN_clinical_X_conversion_vs_growth.png`
+- `Outputs/datasets/2026-10-30_ILMN_clinical_X_vs_6000_table.csv` (README: `2026-10-30_ILMN_clinical_X_vs_6000_table_README.md`)
+- `Outputs/artifacts/2026-10-30_ILMN_clinical_X_vs_6000_table.png`
 - `Outputs/datasets/2026-10-30_ILMN_clinical_consumables_exChina_yoy.csv` (README: `2026-10-30_ILMN_clinical_consumables_exChina_yoy_README.md`)
 - `Outputs/artifacts/2026-10-11_clinical_consumables_brief.html`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_thesis.html`
