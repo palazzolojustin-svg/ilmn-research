@@ -1,0 +1,9 @@
+quarter,guide_basis,guide_growth_mid_pct,actual_growth_pct,beat_vs_guide_bps,guide_is_proxy,consensus_rev_musd,actual_rev_musd,prior_year_rev_musd,beat_vs_street_musd,beat_vs_street_bps,notes
+Q4'24,Total Core revenue $ guide ~$1.07B (no RoW guide),,,310,yes,1103,1104,1093,0.55,5,"Proxy: $ beat vs $1.07B guide over prior-year base; SA consensus"
+Q1'25,Total cc growth flat to -1% (no RoW guide),-0.5,-0.2,30,yes,1037,1041,1056,4.10,39,"Proxy: total cc; actual ~-0.2% cc (-1.4% reported, FX -1.2pt)"
+Q2'25,Ex-China revenue -2% to -3%,-2.5,-2.0,50,no,1052,1059,1092,7.13,65,
+Q3'25,Ex-China cc +1% to +2%,1.5,2.0,50,no,1065,1084,1080,18.70,173,
+Q4'25,Ex-China cc ~4% (implied by FY guide),4.0,7.0,300,no,1111,1159,1104,47.92,434,"FactSet pre-JPM consensus $1,099M implies ~$60M / ~540 bps; SA uses post-preannouncement consensus"
+Q1'26,RoW organic +1% to +3%,2.0,3.5,150,no,1073,1091,1041,17.61,169,
+Q2'26,RoW organic +4% to +6%,5.0,8.1,310,no,1131,1159,1059,28.42,268,
+Q3'26,RoW organic ~4.5%,4.5,4.7,20,no,1153,1166,1084,13.22,122,"Revenue ex $37M tariff-refund credit; reported $1,129M would be ~-22 bps vs Street"
