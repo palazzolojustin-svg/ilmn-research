@@ -874,6 +874,7 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/artifacts/2026-10-30_ILMN_X_vs_6000_share_and_rev_per_gb.png`
 - `Outputs/analyses/2026-10-30_ILMN_clinical_X_conversion_vs_growth.md`
 - `Outputs/analyses/2026-10-31_ILMN_small_lab_inelasticity_long_tail_evidence.md`
+- `Outputs/analyses/2026-10-31_ILMN_clinical_decel_mgmt_explanations.md`
 - `Outputs/datasets/2026-10-30_ILMN_clinical_X_conversion_vs_growth.csv` (README: `2026-10-30_ILMN_clinical_X_conversion_vs_growth_README.md`)
 - `Outputs/artifacts/2026-10-30_ILMN_clinical_X_conversion_vs_growth.png`
 - `Outputs/datasets/2026-10-30_ILMN_clinical_X_vs_6000_table.csv` (README: `2026-10-30_ILMN_clinical_X_vs_6000_table_README.md`)
