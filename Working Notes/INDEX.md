@@ -877,6 +877,7 @@ One entry per source document. Each entry gives the date, title, a short summary
 - `Outputs/artifacts/2026-10-30_ILMN_clinical_X_conversion_vs_growth.png`
 - `Outputs/datasets/2026-10-30_ILMN_clinical_X_vs_6000_table.csv` (README: `2026-10-30_ILMN_clinical_X_vs_6000_table_README.md`)
 - `Outputs/artifacts/2026-10-30_ILMN_clinical_X_vs_6000_table.png`
+- `Outputs/datasets/2026-10-30_ILMN_clinical_2yr_stack_chart.xlsx` (native Excel chart for PowerPoint: clinical ex-China 2-yr stack Q1'25-Q4'26E, FY27E required for 8.5% total growth (~36%), FY27E buyside at 25% growth (~40%); inputs and sources in the sheet)
 - `Outputs/datasets/2026-10-30_ILMN_clinical_consumables_exChina_yoy.csv` (README: `2026-10-30_ILMN_clinical_consumables_exChina_yoy_README.md`)
 - `Outputs/artifacts/2026-10-11_clinical_consumables_brief.html`
 - `Outputs/artifacts/2026-10-11_clinical_consumables_thesis.html`
