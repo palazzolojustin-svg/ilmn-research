@@ -111,7 +111,8 @@ class PeriodAxis:
     def build(cls, first_hist_q: str, last_actual_q: str, last_est_q: str,
               annual_only_years: List[int], period_ends: Optional[Dict[str, str]] = None,
               fy_end_month: int = 12, fy_end_day: int = 31,
-              report_dates: Optional[Dict[str, str]] = None, start_col: int = FIRST_DATA_COL) -> "PeriodAxis":
+              report_dates: Optional[Dict[str, str]] = None, start_col: int = FIRST_DATA_COL,
+              annual_hist_years: Optional[List[int]] = None) -> "PeriodAxis":
         """Build the main axis. Quarter ids like '1Q23'. period_ends maps pid -> ISO date
         for any period whose end is known (actuals from data, estimates from consensus);
         missing ends are derived from the fiscal calendar."""
@@ -127,6 +128,15 @@ class PeriodAxis:
         col = start_col
         y = y1
         prev_end: Optional[dt.date] = None
+        # annual history columns before the quarterly history (typed from the annual statements)
+        for ay in sorted(set(int(v) for v in (annual_hist_years or []))):
+            if ay >= y1:
+                continue
+            pid = pid_of("FY", ay)
+            end = ends.get(pid) or fiscal_quarter_end(fy_end_month, fy_end_day, ay, 4)
+            axis._add(Period(pid, "FY", ay, 0, False, True, end, None, col))
+            prev_end = end
+            col += 1
         while y <= y3:
             for q in range(1, 5):
                 est = (y, q) > (y2, q2)
@@ -164,12 +174,16 @@ class PeriodAxis:
             else:
                 p.weeks = 13
             prev_q_end = p.end
+        prev_fy_end: Optional[dt.date] = None
         for p in self.fys():
             qs = self.quarters_of(p.fy)
             if len(qs) == 4 and all(q.weeks for q in qs):
                 p.weeks = sum(q.weeks for q in qs)
+            elif p.annual_only and p.end and prev_fy_end and 300 < (p.end - prev_fy_end).days < 400:
+                p.weeks = int(round((p.end - prev_fy_end).days / 7.0))
             else:
                 p.weeks = 52
+            prev_fy_end = p.end
 
     # ---- queries -------------------------------------------------------------------
     def quarters(self) -> List[Period]:

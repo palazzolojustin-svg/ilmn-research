@@ -288,3 +288,15 @@ Sensitivity grids start at column T beside each blended block: header `Case`, `E
 | `amount_s`, `pct_s`, `shares`, `eps` | `#,##0_);(#,##0)`, `0.0%_);\(0.0%\)`, `#,##0.00_);(#,##0.00)`, `0.00_);\(0.00\)` | statements and drivers |
 | `amount_d`, `pct_d`, `mult`, `number1`, `number2`, `number4` | `#,##0;\(#,##0\);"-"`, `0.0%;\(0.0%\);"-"`, `0.0\x`, `0.0`, `0.00`, `0.0000` | DCF and Tearsheet |
 | `px`, `px_acct`, `weight`, `date`, `int` | `"$"#,##0.00` (trading currency), the accounting variant, `0%`, `mm-dd-yy`, `0` | Tearsheet price and weights, headers |
+
+## Annual history columns
+
+`horizon.annual_hist_years` (Setup `annual_hist_years`) adds one fiscal-year column per listed year before the first quarterly year: `Period(kind="FY", annual_only=True, estimate=False)`, labelled `FY2021`, grey like the other FY columns, placed first on the axis (columns D onward), with the quarterly history starting after them. Rules:
+
+- Values come from the data, not from quarters: `hist_only()` keeps actual quarters and these annual columns; `DataView.series()` overlays the annual export's values (`source == "capiq"`: the named annual label, else the same label, else a canon synonym, read from the statement's preferred sections first and never from pension, segment, capital-structure, ratio or multiples sheets) on top of the Bloomberg series for those pids, so CapIQ wins where it has the line and the Bloomberg annual printout fills the rest.
+- `SheetBuilder._value_for()` types `hist` values in these columns and uses the line's `dsl` for computed lines; a formula whose same-sheet references are all blank in the column stays blank (`_refs_all_blank`), and a ratio row whose parent is blank stays blank, so partial annual detail (segments that only Bloomberg's FY2023+ printout has) does not produce zeros or `#DIV/0!`.
+- Totals whose children have no data in a column (Revenue Build `total_rev`, Margin Build `total_cogs`, Income Statement `total_rev`) are typed from the annual export for that column (`values`), so the statements foot even where the segment detail is missing.
+- Plug lines (`other_opex`, `other_nonop_plug`, balance-sheet group plugs, cash-flow plugs) are computed for these columns from the same annual sources, so the checks tie; `beg_cash` is seeded in the first annual column from cash less the net change in cash.
+- Variance rows work across annual columns (`@py` is the previous annual column; the first one has none). The drivers sheet, the Driver Grid, the DCF's estimate years and the Tearsheet are unaffected; the DCF's annual axis shows the extra history years on the left.
+- Weeks in period for an annual column come from the gap to the previous annual column's end (52 or 53), else 52.
+

@@ -36,7 +36,7 @@ def make_axis(spec: dict) -> PeriodAxis:
     return PeriodAxis.build(h["first_hist_quarter"], h["last_actual_quarter"], h["last_quarterly_estimate"],
                             h.get("annual_only_years") or [], h.get("period_ends") or {},
                             int(c.get("fiscal_year_end_month", 12)), int(c.get("fiscal_year_end_day", 31)),
-                            h.get("report_dates") or {})
+                            h.get("report_dates") or {}, annual_hist_years=h.get("annual_hist_years") or [])
 
 
 def build(spec: dict, data: dict, out_path: str) -> ModelContext:

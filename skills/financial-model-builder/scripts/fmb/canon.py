@@ -9,14 +9,14 @@ from __future__ import annotations
 
 IS_LINES = [
     # below operating income
-    ("interest_income", "Interest Income", ["Interest Income", "Finance Income", "Interest and Investment Income", "Interest & Investment Income"], "driver"),
+    ("interest_income", "Interest Income", ["Interest Income", "Finance Income", "Interest and Investment Income", "Interest & Investment Income", "Interest and Invest. Income"], "driver"),
     ("interest_expense", "Interest Expense", ["Interest Expense", "Finance Costs", "Interest Expense, Net"], "driver"),
     ("other_nonop", "Other Non-Operating Income (Expense)", ["Other Non-Operating Income", "Other Non-Operating Income (Expense)", "Other Non Operating Inc. (Exp.)", "Other, Net", "Other Income (Expense), Net"], "driver"),
     ("tax", "Income Tax Expense", ["Income Tax Expense", "Income Tax Expense (Benefit)", "Provision for Income Taxes", "Income Taxes"], "tax"),
     ("nci", "Net Income Attributable to Noncontrolling Interest", ["Minority Interest in Earnings", "Net Income Attributable to Noncontrolling Interest", "Minority Int. in Earnings"], "driver"),
     ("ni", "Net Income", ["Net Income", "Net Income to Company", "Net Income Attributable to Common Shareholders"], "computed"),
     # memo
-    ("dep", "Depreciation", ["Depreciation Expense", "Depreciation"], "driver"),
+    ("dep", "Depreciation", ["Depreciation Expense", "Depreciation", "Depreciation & Amort."], "driver"),   # CapIQ's cash-flow "Depreciation & Amort." excludes acquired intangibles
     ("amort", "Amortization of Intangibles", ["Amortization of Intangible Assets", "Amortization of Intangibles", "Amort. of Goodwill and Intangibles"], "driver"),
     ("da", "Depreciation & Amortization", ["Depreciation & Amortization", "Depreciation & Amort.", "Depreciation & Amort., Total", "D&A"], "driver"),
     ("sbc", "Stock-Based Compensation", ["Stock-Based Compensation", "Stock Based Compensation", "Share-Based Compensation"], "driver"),
@@ -148,12 +148,46 @@ PREFER_SECTIONS = {
     "cf": ["cash from operating", "cash from investing", "cash from financing", "changes in working capital", "cash flow", "condensed cash flow"],
     "memo": ["company specific adjustments", "cash from operating", "special company reference", "cash flow", "income statement - supplemental"],
 }
+# CapIQ sheets that never hold a statement line (pension amounts, segment detail, debt detail ...)
+NON_STATEMENT = ["pension", "supplemental", "industry specific", "segments", "capital structure", "historical capitalization", "key stats", "multiples", "ratios"]
 EXCLUDE_SECTIONS = {
-    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity", "investments", "cash flow", "balance sheet", "key stats", "multiples", "ratios"],
-    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference", "cash flow", "income statement", "key stats", "multiples", "ratios"],
-    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "investments", "segment revenue", "business breakdown", "balance sheet", "key stats", "multiples", "ratios"],
-    "memo": [],
+    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity", "investments", "cash flow", "balance sheet"] + NON_STATEMENT,
+    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference", "cash flow", "income statement"] + NON_STATEMENT,
+    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "investments", "segment revenue", "business breakdown", "balance sheet"] + NON_STATEMENT,
+    "memo": ["pension", "industry specific", "segments", "capital structure", "historical capitalization", "key stats", "multiples", "ratios"],
 }
+
+# label groups above operating income (the statement tables start below it); used with the
+# IS/BS/CFS synonyms to find a line's equivalent in another export (Bloomberg vs CapIQ naming)
+TOP_SYNONYMS = [
+    ["Revenue", "Total Revenue", "Total Revenues", "Revenues", "Net Sales", "Net Revenue", "Net Revenues"],
+    ["Cost of Revenue", "Cost Of Goods Sold", "Cost of Goods Sold", "Cost of Sales", "Total Cost of Revenue", "Cost of Revenues"],
+    ["Gross Profit"],
+    ["Selling, General & Administrative", "Selling General & Admin Exp.", "Selling, General & Admin. Expenses", "SG&A", "SG&A Expense",
+     "Selling, General and Administrative", "Selling, General & Administrative Expenses"],
+    ["Research & Development", "R & D Exp.", "R&D Exp.", "Research and Development", "R&D", "Research & Development Expense"],
+    ["Operating Income", "Operating Income (Loss)", "Operating Profit"],
+    ["Pre-Tax Income", "Pretax Income", "Income Before Taxes", "EBT Incl. Unusual Items", "Pre-Tax Income (Loss)", "Income (Loss) Before Income Taxes", "Earnings Before Tax"],
+    ["Stock-Based Compensation", "Stock Based Compensation", "Stock-Based Comp., Total", "Share-Based Compensation"],
+]
+
+
+def _n(s: str) -> str:
+    import re as _re
+    return _re.sub(r"[^a-z0-9%]+", " ", str(s).lower()).strip()
+
+
+def synonyms_of(label: str):
+    """Other names of the same line across exports, from every synonym group that holds the label."""
+    key = _n(label)
+    groups = list(TOP_SYNONYMS) + [x[2] for x in IS_LINES] + [x[2] for x in BS_LINES] + [x[2] for x in CFS_LINES]
+    groups += [v[1] for v in BS_TOTALS.values()] + [v[1] for v in CFS_TOTALS.values()]
+    out = []
+    for grp in groups:
+        if key in {_n(s) for s in grp}:
+            out += [s for s in grp if _n(s) != key and s not in out]
+    return out
+
 
 WC_DRIVER_FOR = {"receivables": ("recv_pct", "rev"), "inventory": ("inv_pct", "cogs"), "prepaid": ("prepaid_pct", "rev"),
                  "payables": ("pay_pct", "costs"), "accrued": ("accrued_pct", "costs"), "deferred_rev": ("defrev_pct", "rev")}

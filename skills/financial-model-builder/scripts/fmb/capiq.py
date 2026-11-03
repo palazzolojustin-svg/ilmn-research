@@ -236,7 +236,7 @@ def parse_sheet(sheet: str, rows: List[List[object]], fname: str, fy_end_month: 
             mags = sorted(abs(v) for v in values.values())
             if mags and mags[len(mags) // 2] > 1.5:
                 values = {k: v / 100.0 for k, v in values.items()}
-        lines.append({"file": fname, "sheet": sheet, "section": section, "label": full_label, "values": values, "pct": pct,
+        lines.append({"source": "capiq", "file": fname, "sheet": sheet, "section": section, "label": full_label, "values": values, "pct": pct,
                       "suspect": False, "suspect_pids": [], "est": est})
     return periods, lines
 

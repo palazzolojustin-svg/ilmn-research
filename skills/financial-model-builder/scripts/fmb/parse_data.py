@@ -185,7 +185,7 @@ def parse_bloomberg_md(path: Path) -> dict:
                     if label and (raw_blank or label.lower().startswith(SECTION_HINTS)):
                         section = label
                     elif label:
-                        lines.append({"file": path.name, "sheet": None, "section": section, "label": label, "values": {},
+                        lines.append({"source": "bloomberg_md", "file": path.name, "sheet": None, "section": section, "label": label, "values": {},
                                       "pct": False, "suspect": False, "suspect_pids": [], "est": {}})
                     continue
                 if not label:
@@ -203,7 +203,7 @@ def parse_bloomberg_md(path: Path) -> dict:
                     est[pid] = bool(periods.get(pid, {}).get("estimate"))
                     if sus:
                         suspect_pids.append(pid)
-                lines.append({"file": path.name, "sheet": None, "section": section, "label": label, "values": values,
+                lines.append({"source": "bloomberg_md", "file": path.name, "sheet": None, "section": section, "label": label, "values": values,
                               "pct": pct, "suspect": bool(suspect_pids), "suspect_pids": suspect_pids, "est": est})
     meta["periods"] = periods
     meta["lines"] = lines
@@ -377,7 +377,7 @@ def parse_grid(name: str, rows: List[List[object]], fname: str, fy_hint: Optiona
         pct = "(%)" in label or label.lower().startswith("as % of") or label.lower().endswith("%")
         if pct and not capiq:
             values = {k: v / 100.0 for k, v in values.items()}
-        lines.append({"file": fname, "sheet": name, "section": section, "label": label, "values": values, "pct": pct,
+        lines.append({"source": "capiq" if capiq else "grid", "file": fname, "sheet": name, "section": section, "label": label, "values": values, "pct": pct,
                       "suspect": bool(suspect_pids), "suspect_pids": suspect_pids, "est": est})
     return {"periods": periods, "lines": lines, "fy_end_month": fy_end_month, "source": "capiq" if capiq else "grid",
             "fy_end_assumed": capiq and not any(p and p[0] == 12 for p in (best[2] if best else [])) and not fy_hint}
@@ -514,7 +514,8 @@ def find_line(data: dict, label: str, section: Optional[str] = None, prefer_file
     return cands[0] if cands else None
 
 
-def series(data: dict, label: str, section: Optional[str] = None, exclude_sections: Optional[List[str]] = None) -> Dict[str, float]:
+def series(data: dict, label: str, section: Optional[str] = None, exclude_sections: Optional[List[str]] = None,
+           source: Optional[str] = None) -> Dict[str, float]:
     """Values for a label merged across files. Within one file only the first line with
     that label counts (Bloomberg repeats balance-sheet labels in the working-capital
     block, after the statement line), unless a section is named. Across files a value
@@ -531,6 +532,8 @@ def series(data: dict, label: str, section: Optional[str] = None, exclude_sectio
         if section and sec != _norm(section):
             continue
         if excl and any(sec.startswith(e) for e in excl):
+            continue
+        if source and (l.get("source") or "") != source:
             continue
         if not section:
             fkey = (l["file"], l.get("sheet"))

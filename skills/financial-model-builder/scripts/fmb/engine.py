@@ -90,6 +90,7 @@ class ModelContext:
         self.sheets: Dict[str, "SheetBuilder"] = {}
         self.registry: Dict[tuple, int] = {}         # (sheet, id) -> row
         self.line_defs: Dict[tuple, dict] = {}       # (sheet, id) -> line def
+        self.builders: Dict[str, "SheetBuilder"] = {}  # sheet title -> builder (cross-sheet evaluation)
         self.drv_rows: Dict[str, int] = {}           # driver id -> Active row on Drivers
         self.drv_axis = axis.sub_axis(axis.drivers_start_pid())
         self.notes: List[tuple] = []                 # (sheet, cell, text)
@@ -165,6 +166,7 @@ class SheetBuilder:
                  fy_fill: bool = False, header: bool = True):
         self.ctx = ctx
         self.title = title
+        ctx.builders[title] = self
         self.axis = axis or ctx.axis
         self.ws = ctx.wb.create_sheet(title)
         self.row = 1
@@ -207,7 +209,7 @@ class SheetBuilder:
         prev = ax.first()
         prev_end = None
         if prev.end:
-            prev_end = prev.end - dt.timedelta(days=91)
+            prev_end = prev.end - dt.timedelta(days=364 if prev.kind == "FY" else 91)
             S.style_cell(ws["C8"], prev_end, fmt="date", color=S.WHITE)
         for p in ax.periods:
             L = p.letter
@@ -500,6 +502,15 @@ class SheetBuilder:
                     self._typed_input = saved
                     if blank:
                         return None
+            if not p.estimate and needs not in ("py", "pq", "py2"):
+                # a ratio of a parent that has no value in this history column stays blank
+                parent = self.ctx.line_defs.get((self.title, line["parent"]))
+                if parent is not None:
+                    saved = self._typed_input
+                    blank = self._value_for(parent, p) is None
+                    self._typed_input = saved
+                    if blank:
+                        return None
             return self.formula(dsl, p, lid)
 
         if p.kind == "Q":
@@ -509,6 +520,11 @@ class SheetBuilder:
             return self.formula(dsl, p, lid) if dsl else None
         # FY columns
         if p.annual_only:
+            if not p.estimate:
+                v = self._hist_value(line, p)   # annual history column: typed from the annual statements
+                if isinstance(v, str) and v.startswith("=") and line.get("hist") is None and self._refs_all_blank(line.get("dsl") or "", p):
+                    return None                 # a formula over lines that are all blank in this column stays blank
+                return v
             dsl = line.get("annual_dsl") or line.get("proj_dsl") or line.get("dsl")
             if dsl:
                 return self.formula(dsl, p, lid)
@@ -542,6 +558,29 @@ class SheetBuilder:
         if agg == "first":
             return f"={qs[0].letter}{r}"
         raise ValueError(f"unknown fy aggregation {agg!r} for {lid}")
+
+    def _refs_all_blank(self, dsl: str, p: Period) -> bool:
+        """True when every same-sheet line the formula refers to has no value in period p."""
+        refs = [(m.group(1) or self.title, m.group(2)) for m in re.finditer(r"\{(?:([^{}!@:.]+)!)?([A-Za-z0-9_]+)\}", dsl)]
+        refs = [(s, i) for s, i in refs if i not in ("id", "col", "case", "months", "weeks")]
+        if not refs:
+            return False
+        saved = self._typed_input
+        try:
+            for sheet, i in refs:
+                child = self.ctx.line_defs.get((sheet, i))
+                builder = self if sheet == self.title else self.ctx.builders.get(sheet)
+                if child is None or builder is None or builder.axis.by_id.get(p.pid) is None:
+                    return False
+                other_saved = builder._typed_input
+                try:
+                    if builder._value_for(child, builder.axis.by_id[p.pid]) is not None:
+                        return False
+                finally:
+                    builder._typed_input = other_saved
+        finally:
+            self._typed_input = saved
+        return True
 
     def _hist_value(self, line: dict, p: Period):
         h = line.get("hist")
@@ -625,7 +664,7 @@ class SheetBuilder:
         self.pending = []
         if self.fy_fill:
             for p in self.axis.fys():
-                if p.annual_only:
+                if p.annual_only and p.estimate:
                     continue
                 for rr in range(7, self.row + 1):
                     c = ws[f"{p.letter}{rr}"]

@@ -50,6 +50,7 @@ SETUP_FIELDS = [  # key, label, default, help, dropdown options (or None)
     ("last_actual_quarter", "Last reported quarter", "", "Detected from the data, e.g. 2Q26", None),
     ("last_quarterly_estimate", "Last quarterly estimate", "", "e.g. 4Q28; later years are annual columns", None),
     ("annual_only_years", "Annual-only years", "", "e.g. 2029, 2030", None),
+    ("annual_hist_years", "Annual history years (before the quarterly history)", "", "e.g. 2021, 2022, 2023, 2024: one annual column each, typed from the CapIQ annual statements (the Bloomberg annual printout fills lines CapIQ lacks); blank for none", None),
     ("case_set", "Cases", "Disaster/Bear/Base/Bull/Blowout", "Three or five cases", ["Bear/Base/Bull", "Disaster/Bear/Base/Bull/Blowout"]),
     ("comments_policy", "Cell comments", "From this workbook", "Notes you type on grid cells are copied to the model; or none at all", ["From this workbook", "I will add my own"]),
     ("author", "Author name (file properties and notes)", "", "Stamped as the workbook creator and the author of every note", None),
@@ -128,6 +129,12 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
                   "trading_currency": data.get("currency") or "USD", "fiscal_year_end_month": data.get("fy_end_month") or 12,
                   "first_hist_quarter": default_first or "", "last_actual_quarter": last_actual or "", "last_quarterly_estimate": last_est or "",
                   "annual_only_years": f"{est_year + 1}, {est_year + 2}" if est_year else ""})
+    capiq_fy = sorted({int(pid[2:]) for l in data["lines"] if l.get("source") == "capiq" and (l.get("section") or "").lower().startswith("income statement")
+                       and _norm(l["label"]) in ("total revenue", "revenue", "revenues", "net sales")
+                       for pid, v in l["values"].items() if pid.startswith("FY") and v is not None and not (l.get("est") or {}).get(pid)})
+    if capiq_fy and default_first:
+        y0 = parse_pid(default_first)[1]
+        setup["annual_hist_years"] = ", ".join(str(y) for y in [y for y in capiq_fy if y < y0][-5:])
     setup.update({k: v for k, v in ov.items() if v is not None})
     # revenue tree: segment lines first, business-breakdown lines as candidates
     # Bloomberg's "Segment Revenue" page runs on into highlight items (adjusted income, cash); keep revenue lines only
@@ -137,7 +144,9 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
         if l["label"] in seen:
             continue
         seen.add(l["label"])
-        tree.append({"id": _slug(l["label"]), "label": l["label"], "parent": "", "kind": "growth", "data_label": l["label"], "data_section": l.get("section") or ""})
+        al, asec = _annual_match(data, l["label"])
+        tree.append({"id": _slug(l["label"]), "label": l["label"], "parent": "", "kind": "growth", "data_label": l["label"], "data_section": l.get("section") or "",
+                     "annual_data_label": al, "annual_data_section": asec})
     candidates = []
     for l in data["lines"]:
         sec = (l.get("section") or "").lower()
@@ -146,11 +155,15 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
     # cost tree (data sections come from the matched line, whatever the export's naming)
     cost = []
     cogs_label, cogs_sec = _first_label_section(data, ["Cost of Revenue", "Cost of Goods Sold", "Cost of Sales"], prefer_section="GAAP Results")
-    cost.append({"id": "cogs_total", "label": "Cost of Revenue", "section": "COGS", "segment": "", "data_label": cogs_label or "Cost of Revenue", "data_section": cogs_sec or ""})
+    al, asec = _annual_match(data, cogs_label or "Cost of Revenue")
+    cost.append({"id": "cogs_total", "label": "Cost of Revenue", "section": "COGS", "segment": "", "data_label": cogs_label or "Cost of Revenue", "data_section": cogs_sec or "",
+                 "annual_data_label": al, "annual_data_section": asec})
     for lab, lid in (("Selling, General & Administrative", "sga"), ("Research & Development", "rd"), ("Sales & Marketing", "sm"), ("General & Administrative", "ga"), ("Other Operating Expenses", "other_opex_line")):
         hit, sec = _first_label_section(data, [lab], prefer_section="GAAP Results")
         if hit:
-            cost.append({"id": lid, "label": lab, "section": "Opex", "segment": "", "data_label": hit, "data_section": sec or "", "sbc_data_label": ""})
+            al, asec = _annual_match(data, hit)
+            cost.append({"id": lid, "label": lab, "section": "Opex", "segment": "", "data_label": hit, "data_section": sec or "", "sbc_data_label": "",
+                         "annual_data_label": al, "annual_data_section": asec})
     # drivers
     drivers = []
     for n in tree:
@@ -178,17 +191,23 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
     for lid, label, syns, _ in canon.IS_LINES:
         # D&A and SBC are memo lines read from the cash flow or adjustments blocks, as build_spec does
         hit, sec = _map_hit(data, syns, "memo" if lid in ("dep", "amort", "da", "sbc") else "is")
-        mapping.append({"id": lid, "label": label, "statement": "Income Statement", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
+        al, asec = _annual_match(data, hit, syns, "memo" if lid in ("dep", "amort", "da", "sbc") else "is")
+        mapping.append({"id": lid, "label": label, "statement": "Income Statement", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N",
+                        "annual_data_label": al, "annual_data_section": asec})
     for lid, label, syns, grp, role in canon.BS_LINES:
         if role == "plug":
             continue
         hit, sec = _map_hit(data, syns, "bs")
-        mapping.append({"id": lid, "label": label, "statement": "Balance Sheet", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
+        al, asec = _annual_match(data, hit, syns, "bs")
+        mapping.append({"id": lid, "label": label, "statement": "Balance Sheet", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N",
+                        "annual_data_label": al, "annual_data_section": asec})
     for lid, label, syns, grp, role in canon.CFS_LINES:
         if role == "plug":
             continue
         hit, sec = _map_hit(data, syns, "cf")
-        mapping.append({"id": lid, "label": label, "statement": "Cash Flow", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
+        al, asec = _annual_match(data, hit, syns, "cf")
+        mapping.append({"id": lid, "label": label, "statement": "Cash Flow", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N",
+                        "annual_data_label": al, "annual_data_section": asec})
     return {"setup": setup, "files": files or [], "revenue_tree": tree, "revenue_candidates": candidates, "cost_tree": cost, "drivers": drivers,
             "variance": [], "deltas": deltas, "side_builds": [], "guidance": [], "buyside": [], "kpi_history": {}, "mapping": mapping}
 
@@ -202,6 +221,38 @@ def _first_label(data: dict, syns: List[str], section: Optional[str] = None) -> 
         if series(data, s, section):
             return s
     return None
+
+
+def _annual_match(data: dict, label: Optional[str], syns: Optional[List[str]] = None, stmt: str = "is"):
+    """(label, section) of the line in the CapIQ export that holds the annual history of a
+    quarterly label: the label itself and its synonyms, looked up in the statement's preferred
+    sections first and never in the sections it excludes (same rule as DataView.annual_series)."""
+    cands = []
+    for s in ([label] if label else []) + list(syns or []) + (canon.synonyms_of(label) if label else []):
+        if s and s not in cands:
+            cands.append(s)
+    prefs, excl = canon.PREFER_SECTIONS.get(stmt, []), canon.EXCLUDE_SECTIONS.get(stmt, [])
+    secs = []
+    for l in data["lines"]:
+        if l.get("source") == "capiq" and l.get("section") and l["section"] not in secs:
+            secs.append(l["section"])
+
+    def ok(s):
+        return bool(s) and any(pid.startswith("FY") for pid in s)
+
+    for pref in prefs:
+        for sec in secs:
+            if _norm(sec).startswith(_norm(pref)):
+                for lab in cands:
+                    if ok(series(data, lab, sec, None, source="capiq")):
+                        return lab, sec
+    for lab in cands:
+        if ok(series(data, lab, None, excl, source="capiq")):
+            key = _norm(lab)
+            sec = next((l.get("section") or "" for l in data["lines"] if l.get("source") == "capiq" and _norm(l["label"]) == key and l["values"]
+                        and not any(_norm(l.get("section") or "").startswith(_norm(e)) for e in excl)), "")
+            return lab, sec
+    return "", ""
 
 
 def _map_hit(data: dict, syns: List[str], stmt: str):
@@ -248,13 +299,13 @@ def write_stage1(inputs: dict, path: str):
     _write_rows(ws, rows, 4, input_cols=[1, 2, 3])
     _dv(ws, DATA_TYPES, f"B4:B{3 + max(len(rows), 30)}")
     # Revenue tree
-    ws = _sheet(wb, "Revenue Tree", ["ID", "Label", "Parent ID", "Kind", "Volume line ID", "Price line ID", "Price basis", "Data label (history)", "Data section", "Format (KPI)", "FY rule (KPI)", "History formula", "Notes"],
-                [18, 36, 16, 14, 16, 16, 12, 34, 24, 12, 12, 40, 40],
+    ws = _sheet(wb, "Revenue Tree", ["ID", "Label", "Parent ID", "Kind", "Volume line ID", "Price line ID", "Price basis", "Data label (history)", "Data section", "Format (KPI)", "FY rule (KPI)", "History formula", "Notes", "Annual data label", "Annual data section"],
+                [18, 36, 16, 14, 16, 16, 12, 34, 24, 12, 12, 40, 40, 30, 30],
                 "One row per revenue line or KPI. Kind: sum (children add up), volume_price (volume x price), growth (y/y driver), share (% of parent), direct, kpi (a volume/price/mix line), custom.")
-    rows = [[n.get("id", ""), n.get("label", ""), n.get("parent", ""), n.get("kind", ""), n.get("volume_id", ""), n.get("price_id", ""), n.get("price_basis", ""), n.get("data_label", ""), n.get("data_section", ""), n.get("format", ""), n.get("fy_rule", ""), n.get("hist_formula", ""), n.get("notes", "")]
+    rows = [[n.get("id", ""), n.get("label", ""), n.get("parent", ""), n.get("kind", ""), n.get("volume_id", ""), n.get("price_id", ""), n.get("price_basis", ""), n.get("data_label", ""), n.get("data_section", ""), n.get("format", ""), n.get("fy_rule", ""), n.get("hist_formula", ""), n.get("notes", ""), n.get("annual_data_label", ""), n.get("annual_data_section", "")]
             for n in inputs.get("revenue_tree", [])]
-    rows += [[""] * 13] * 20
-    _write_rows(ws, rows, 4, input_cols=list(range(1, 14)))
+    rows += [[""] * 15] * 20
+    _write_rows(ws, rows, 4, input_cols=list(range(1, 16)))
     n = 3 + len(rows)
     _dv(ws, TREE_KINDS, f"D4:D{n}"); _dv(ws, ["per month", "per period"], f"G4:G{n}"); _dv(ws, ["count", "price", "pct", "amount"], f"J4:J{n}"); _dv(ws, FY_RULES, f"K4:K{n}")
     if inputs.get("revenue_candidates"):
@@ -262,11 +313,11 @@ def write_stage1(inputs: dict, path: str):
         for i, c in enumerate(inputs["revenue_candidates"]):
             ws.cell(row=n + 3 + i, column=1, value=c).font = HELP
     # Cost tree
-    ws = _sheet(wb, "Cost Tree", ["ID", "Label", "Section", "Segment (revenue line ID)", "Data label (history)", "Data section", "SBC data label", "Volume line ID", "Notes"],
-                [18, 36, 12, 24, 34, 24, 24, 16, 40], "COGS lines (one per segment or a single total) and operating expense lines. The driver for each line is defined on the Drivers tab.")
-    rows = [[c.get("id", ""), c.get("label", ""), c.get("section", ""), c.get("segment", ""), c.get("data_label", ""), c.get("data_section", ""), c.get("sbc_data_label", ""), c.get("volume_id", ""), c.get("notes", "")]
-            for c in inputs.get("cost_tree", [])] + [[""] * 9] * 15
-    _write_rows(ws, rows, 4, input_cols=list(range(1, 10)))
+    ws = _sheet(wb, "Cost Tree", ["ID", "Label", "Section", "Segment (revenue line ID)", "Data label (history)", "Data section", "SBC data label", "Volume line ID", "Notes", "Annual data label", "Annual data section"],
+                [18, 36, 12, 24, 34, 24, 24, 16, 40, 30, 30], "COGS lines (one per segment or a single total) and operating expense lines. The driver for each line is defined on the Drivers tab.")
+    rows = [[c.get("id", ""), c.get("label", ""), c.get("section", ""), c.get("segment", ""), c.get("data_label", ""), c.get("data_section", ""), c.get("sbc_data_label", ""), c.get("volume_id", ""), c.get("notes", ""), c.get("annual_data_label", ""), c.get("annual_data_section", "")]
+            for c in inputs.get("cost_tree", [])] + [[""] * 11] * 15
+    _write_rows(ws, rows, 4, input_cols=list(range(1, 12)))
     _dv(ws, ["COGS", "Opex", "Other"], f"C4:C{3 + len(rows)}")
     # Drivers
     ws = _sheet(wb, "Drivers", ["ID", "Label (as shown on Drivers & Casing)", "Section", "Target line ID", "Type", "Cased (Y/N)", "Format", "Represented on the build as", "FY aggregation", "Notes"],
@@ -319,10 +370,12 @@ def write_stage1(inputs: dict, path: str):
                 c = ws.cell(row=r, column=2 + i, value=vals[p]); c.font = FONT; c.fill = PatternFill("solid", fgColor=INPUT)
         r += 1
     # Statement mapping
-    ws = _sheet(wb, "Statement Mapping", ["Model line ID", "Model label", "Statement", "Data label", "Data section", "Keep (Y/N)"], [20, 40, 18, 40, 28, 10],
-                "How the condensed statements map to the data. Change a data label or set Keep = N to drop a line; lines without data are dropped anyway.")
-    rows = [[m.get("id", ""), m.get("label", ""), m.get("statement", ""), m.get("data_label", ""), m.get("data_section", ""), m.get("keep", "")] for m in inputs.get("mapping", [])]
-    _write_rows(ws, rows, 4, input_cols=[4, 5, 6])
+    ws = _sheet(wb, "Statement Mapping", ["Model line ID", "Model label", "Statement", "Data label", "Data section", "Keep (Y/N)", "Annual data label", "Annual data section"], [20, 40, 18, 40, 28, 10, 34, 34],
+                "How the condensed statements map to the data. Change a data label or set Keep = N to drop a line; lines without data are dropped anyway. "
+                "Annual data label/section: the CapIQ line that types the annual history columns (blank = same label or a synonym in the CapIQ export).")
+    rows = [[m.get("id", ""), m.get("label", ""), m.get("statement", ""), m.get("data_label", ""), m.get("data_section", ""), m.get("keep", ""), m.get("annual_data_label", ""), m.get("annual_data_section", "")]
+            for m in inputs.get("mapping", [])]
+    _write_rows(ws, rows, 4, input_cols=[4, 5, 6, 7, 8])
     _dv(ws, ["Y", "N"], f"F4:F{3 + len(rows)}")
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)
@@ -495,6 +548,8 @@ def _rows(ws, start_row: int = 4, ncols: Optional[int] = None) -> List[List]:
     out = []
     for row in ws.iter_rows(min_row=start_row, values_only=False):
         vals = [c.value for c in row[:ncols]] if ncols else [c.value for c in row]
+        if ncols and len(vals) < ncols:
+            vals += [None] * (ncols - len(vals))
         if all(v is None or str(v).strip() == "" for v in vals):
             continue
         out.append(vals)
@@ -519,16 +574,18 @@ def read_inputs(path: str) -> dict:
         out["files"] = [{"path": _s(r[0]), "type": _s(r[1]), "notes": _s(r[2])} for r in _rows(wb["Data Files"], 4, 3) if _s(r[0])]
     if "Revenue Tree" in wb.sheetnames:
         out["revenue_tree"] = []
-        for r in _rows(wb["Revenue Tree"], 4, 13):
+        for r in _rows(wb["Revenue Tree"], 4, 15):
             if not _s(r[0]) or _s(r[0]).startswith("Other revenue lines"):
                 if _s(r[0]).startswith("Other revenue lines"):
                     break
                 continue
             out["revenue_tree"].append({"id": _s(r[0]), "label": _s(r[1]), "parent": _s(r[2]), "kind": _s(r[3]) or "sum", "volume_id": _s(r[4]), "price_id": _s(r[5]),
-                                        "price_basis": _s(r[6]), "data_label": _s(r[7]), "data_section": _s(r[8]), "format": _s(r[9]), "fy_rule": _s(r[10]), "hist_formula": _s(r[11]), "notes": _s(r[12])})
+                                        "price_basis": _s(r[6]), "data_label": _s(r[7]), "data_section": _s(r[8]), "format": _s(r[9]), "fy_rule": _s(r[10]), "hist_formula": _s(r[11]), "notes": _s(r[12]),
+                                        "annual_data_label": _s(r[13]), "annual_data_section": _s(r[14])})
     if "Cost Tree" in wb.sheetnames:
-        out["cost_tree"] = [{"id": _s(r[0]), "label": _s(r[1]), "section": _s(r[2]), "segment": _s(r[3]), "data_label": _s(r[4]), "data_section": _s(r[5]), "sbc_data_label": _s(r[6]), "volume_id": _s(r[7]), "notes": _s(r[8])}
-                            for r in _rows(wb["Cost Tree"], 4, 9) if _s(r[0])]
+        out["cost_tree"] = [{"id": _s(r[0]), "label": _s(r[1]), "section": _s(r[2]), "segment": _s(r[3]), "data_label": _s(r[4]), "data_section": _s(r[5]), "sbc_data_label": _s(r[6]), "volume_id": _s(r[7]), "notes": _s(r[8]),
+                             "annual_data_label": _s(r[9]), "annual_data_section": _s(r[10])}
+                            for r in _rows(wb["Cost Tree"], 4, 11) if _s(r[0])]
     if "Drivers" in wb.sheetnames:
         out["drivers"] = []
         for r in _rows(wb["Drivers"], 4, 10):
@@ -578,7 +635,8 @@ def read_inputs(path: str) -> dict:
             kpi[lab] = vals
         out["kpi_history"] = kpi
     if "Statement Mapping" in wb.sheetnames:
-        out["mapping"] = [{"id": _s(r[0]), "label": _s(r[1]), "statement": _s(r[2]), "data_label": _s(r[3]), "data_section": _s(r[4]), "keep": _s(r[5]) or "Y"} for r in _rows(wb["Statement Mapping"], 4, 6) if _s(r[0])]
+        out["mapping"] = [{"id": _s(r[0]), "label": _s(r[1]), "statement": _s(r[2]), "data_label": _s(r[3]), "data_section": _s(r[4]), "keep": _s(r[5]) or "Y",
+                           "annual_data_label": _s(r[6]), "annual_data_section": _s(r[7])} for r in _rows(wb["Statement Mapping"], 4, 8) if _s(r[0])]
     if "Driver Grid" in wb.sheetnames:
         ws = wb["Driver Grid"]
         heads = [_s(ws.cell(row=3, column=c).value) for c in range(1, ws.max_column + 1)]

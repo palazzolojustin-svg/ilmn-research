@@ -25,7 +25,7 @@ from typing import Dict, List, Optional, Tuple
 from . import canon
 from . import styles as S
 from .engine import BS, CFS, IS, MARGIN, REV
-from .parse_data import _norm, series, series_pref
+from .parse_data import _norm, sections_in, series, series_pref
 from .periods import PeriodAxis, parse_pid, pid_of
 
 AMT_SUBS = ["pct_yoy", "pct_2y", "usd_yoy", "pct_qoq", "usd_qoq"]
@@ -56,13 +56,67 @@ class DataView:
     def __init__(self, data: dict, kpi_history: Optional[dict] = None):
         self.data = data
         self.kpi = kpi_history or {}
+        self.annual_hist_pids: set = set()      # FY pids of the annual history columns (set by build_spec)
+        self.annual_source = "capiq"            # export that feeds those columns
 
-    def series(self, label: Optional[str], section: Optional[str] = None, exclude: Optional[List[str]] = None) -> Dict[str, float]:
+    def annual_series(self, label: str, annual_label: Optional[str] = None, annual_section: Optional[str] = None,
+                      stmt: str = "is") -> Dict[str, float]:
+        """The line's values in the annual export: the named annual label (and section), else the
+        same label, else any synonym of it (canon); read from that export only, from the
+        statement's preferred sections first and never from the sections it excludes."""
+        cands = [annual_label] if annual_label else [label] + canon.synonyms_of(label)
+        prefs = canon.PREFER_SECTIONS.get(stmt, [])
+        excl = canon.EXCLUDE_SECTIONS.get(stmt, [])
+        secs = [sec for sec in sections_in(self.data) if any(l.get("source") == self.annual_source and (l.get("section") or "") == sec for l in self.data["lines"])]
+        if annual_section:
+            for lab in cands:
+                s = series(self.data, lab, annual_section, source=self.annual_source)
+                if s:
+                    return s
+            return {}
+        # every candidate label in the preferred sections first, so a statement line under a synonym
+        # beats a same-named line on another sheet (CapIQ's pension sheet also has "Current Liabilities")
+        for pref in prefs:
+            key = _norm(pref)
+            for sec in secs:
+                if _norm(sec).startswith(key):
+                    for lab in cands:
+                        s = series(self.data, lab, sec, source=self.annual_source)
+                        if s:
+                            return s
+        for lab in cands:
+            s = series(self.data, lab, None, exclude_sections=excl, source=self.annual_source)
+            if s:
+                return s
+        return {}
+
+    def series(self, label: Optional[str], section: Optional[str] = None, exclude: Optional[List[str]] = None,
+               annual_label: Optional[str] = None, annual_section: Optional[str] = None, stmt: str = "is") -> Dict[str, float]:
         if not label:
             return {}
         if label in self.kpi:
             return dict(self.kpi[label])
-        return series(self.data, label, section or None, exclude_sections=exclude)
+        s = series(self.data, label, section or None, exclude_sections=exclude)
+        if self.annual_hist_pids:
+            if section and any(pid not in s for pid in self.annual_hist_pids):
+                # the quarterly block's section may not hold the annual printout's copy of the line
+                # (Bloomberg's annual pages are sectioned differently): same label, any allowed section
+                fb = series(self.data, label, None, exclude_sections=canon.EXCLUDE_SECTIONS.get(stmt, []))
+                for pid in self.annual_hist_pids:
+                    if pid not in s and pid in fb:
+                        s[pid] = fb[pid]
+            ann = self.annual_series(label, annual_label, annual_section, stmt)
+            for pid in self.annual_hist_pids:
+                if pid in ann:
+                    s[pid] = ann[pid]      # the annual export wins for the annual history columns
+        return s
+
+    def annual_fill(self, s: Dict[str, float], label: str, stmt: str = "is") -> Dict[str, float]:
+        """Overlay the annual export's values on the annual history columns of a series."""
+        if not self.annual_hist_pids or not label:
+            return s
+        ann = self.annual_series(label, None, None, stmt)
+        return {**s, **{pid: ann[pid] for pid in self.annual_hist_pids if pid in ann}}
 
     def series_pref(self, label: Optional[str], prefs: List[str], exclude: Optional[List[str]] = None) -> Dict[str, float]:
         if not label:
@@ -71,9 +125,10 @@ class DataView:
             return dict(self.kpi[label])
         return series_pref(self.data, label, prefs, exclude)[0]
 
-    def first_match(self, synonyms: List[str], section: Optional[str] = None, exclude: Optional[List[str]] = None) -> Tuple[Optional[str], Dict[str, float]]:
+    def first_match(self, synonyms: List[str], section: Optional[str] = None, exclude: Optional[List[str]] = None,
+                    stmt: str = "is") -> Tuple[Optional[str], Dict[str, float]]:
         for syn in synonyms:
-            s = self.series(syn, section, exclude)
+            s = self.series(syn, section, exclude, stmt=stmt)
             if s:
                 return syn, s
         return None, {}
@@ -84,11 +139,12 @@ EXCLUDE = canon.EXCLUDE_SECTIONS
 
 
 def hist_only(s: Dict[str, float], axis: PeriodAxis) -> Dict[str, float]:
-    """Keep actual quarters of the model axis (FY totals are rebuilt from quarters)."""
+    """Keep actual quarters of the model axis (FY totals of quarterly years are rebuilt from
+    quarters) and the annual history columns, which are typed from the annual statements."""
     out = {}
     for pid, v in s.items():
         p = axis.by_id.get(pid)
-        if p is not None and p.kind == "Q" and not p.estimate:
+        if p is not None and not p.estimate and (p.kind == "Q" or p.annual_only):
             out[pid] = v
     return out
 
@@ -172,8 +228,12 @@ def build_revenue_blocks(tree: List[dict], drivers: List[dict], dv: DataView, ax
     # Totals block
     top = [r for r in roots if nodes[r]["kind"] != "kpi"]
     blocks.append({"subtitle": "Totals:", "marker": True})
+    rev_tot = hist_only(dv.first_match(["Revenue", "Total Revenue", "Total Revenues"])[1], axis)
+    tot_vals = {pid: rev_tot[pid] for pid in sorted(dv.annual_hist_pids) if pid in rev_tot and not any(pid in DATA.get(r, {}) for r in top)}
+    if tot_vals:
+        DATA[total_id] = tot_vals
     blocks.append(L(id=total_id, label="Total Revenue", bold=True, dsl="=" + "+".join("{" + r + "}" for r in top) if top else "=0",
-                    fy="sum", subs=sub_list(variance, total_id, AMT_SUBS)))
+                    fy="sum", subs=sub_list(variance, total_id, AMT_SUBS), values=dict(tot_vals)))
     line_index: Dict[str, dict] = {}
 
     def emit(nid: str, depth: int):
@@ -182,7 +242,7 @@ def build_revenue_blocks(tree: List[dict], drivers: List[dict], dv: DataView, ax
         kind = n["kind"]
         d = driver_for(drivers, nid)
         hist_label = n.get("data_label")
-        hist = hist_only(dv.series(hist_label, n.get("data_section")), axis) if hist_label else {}
+        hist = hist_only(dv.series(hist_label, n.get("data_section"), None, n.get("annual_data_label") or None, n.get("annual_data_section") or None), axis) if hist_label else {}
         data_key = nid if hist else None
         if hist:
             DATA[nid] = hist
@@ -284,7 +344,7 @@ def build_cost_blocks(cost_rows: List[dict], drivers: List[dict], dv: DataView, 
         did = (d or {}).get("id")
         if not did and dtype != "custom":
             dtype = "flat"   # no driver defined: carry the line forward
-        hist = hist_only(dv.series(r.get("data_label"), r.get("data_section")), axis)
+        hist = hist_only(dv.series(r.get("data_label"), r.get("data_section"), None, r.get("annual_data_label") or None, r.get("annual_data_section") or None), axis)
         if hist:
             DATA[lid] = hist
         line = dict(id=lid, label=r["label"], bold=True, fy="sum", hist=lid if hist else None,
@@ -317,7 +377,7 @@ def build_cost_blocks(cost_rows: List[dict], drivers: List[dict], dv: DataView, 
     # reported total cost of revenue vs the sum of the modelled COGS lines -> plug line so history foots
     seg_hist = {}
     for r in cogs_rows:
-        for pid, v in hist_only(dv.series(r.get("data_label"), r.get("data_section")), axis).items():
+        for pid, v in hist_only(dv.series(r.get("data_label"), r.get("data_section"), None, r.get("annual_data_label") or None, r.get("annual_data_section") or None), axis).items():
             seg_hist[pid] = seg_hist.get(pid, 0) + v
     total_cogs_hist = hist_only(dv.first_match(["Cost of Revenue", "Cost of Goods Sold", "Cost Of Goods Sold", "Cost of Sales", "Total Cost of Revenue"])[1], axis)
     other_cogs = {pid: round(tv - seg_hist[pid], 4) for pid, tv in total_cogs_hist.items() if pid in seg_hist and abs(tv - seg_hist[pid]) > 0.01}
@@ -326,8 +386,10 @@ def build_cost_blocks(cost_rows: List[dict], drivers: List[dict], dv: DataView, 
         cogs_ids = cogs_ids + ["other_cogs"]
         info["other_cogs"] = True
     if len(cogs_ids) > 1:
+        tc_vals = {pid: total_cogs_hist[pid] for pid in sorted(dv.annual_hist_pids) if pid in total_cogs_hist and not any(pid in DATA.get(c, {}) for c in cogs_ids)}
         blocks.append(L(id="total_cogs", label="Total COGS", bold=True, dsl="=" + "+".join("{" + c + "}" for c in cogs_ids), fy="sum",
-                        subs=[{"key": "pct_of", "label": "% of Total Revenue", "dsl": "={id}/{m_total_rev}", "fmt": "pct", "italic": True}] + AMT_SUBS))
+                        subs=[{"key": "pct_of", "label": "% of Total Revenue", "dsl": "={id}/{m_total_rev}", "fmt": "pct", "italic": True}] + AMT_SUBS,
+                        values=tc_vals))
         blocks.append(L(id="total_gp", label="Total Gross Profit", bold=True, dsl="={m_total_rev}-{total_cogs}", fy="sum",
                         subs=[{"key": "pct_of", "label": "GM %", "dsl": "={id}/{m_total_rev}", "fmt": "pct", "italic": True}] + AMT_SUBS))
     for r in cogs_rows:
@@ -395,7 +457,7 @@ def build_cost_blocks(cost_rows: List[dict], drivers: List[dict], dv: DataView, 
     if other_opex and opex_ids:
         DATA["other_opex"] = other_opex
         est_q = [p.pid for p in axis.quarters() if p.estimate]
-        annual = [p.pid for p in axis.periods if p.annual_only]
+        annual = [p.pid for p in axis.periods if p.annual_only and p.estimate]
         blocks.append({"subtitle": "Other Operating Items:"})
         blocks.append(L(id="other_opex", label="Other Operating Expenses (plug for actuals)", bold=True, hist="other_opex",
                         values={**{q: 0 for q in est_q}, **{a: "={other_opex@py}" for a in annual}}, input_fill=True, input_color=S.BLUE, fy="sum",
@@ -410,7 +472,7 @@ def build_cost_blocks(cost_rows: List[dict], drivers: List[dict], dv: DataView, 
         if info["sbc_split"]:
             blocks.append(L(id="total_opex_ex", label="Total Opex ex-SBC", bold=True, dsl="=" + "+".join("{" + o + "_ex}" for o in info["sbc_split"]) + "".join("+{" + o + "}" for o in opex_ids if o not in info["sbc_split"]),
                             fy="sum", subs=["pct_yoy", "usd_yoy", dict(inc, label="Incremental Opex ex-SBC/Incremental Revenue (y/y)")], gap=False))
-    sbc_hist = hist_only(dv.first_match(["Stock-Based Compensation", "Stock Based Compensation"])[1], axis)
+    sbc_hist = hist_only(dv.first_match(["Stock-Based Compensation", "Stock Based Compensation"], stmt="memo")[1], axis)
     if sbc_hist:
         DATA["total_sbc"] = sbc_hist
     subs_sbc = ([{"key": "cor", "label": "SBC - Cost of Revenue (implied)", "dsl": "={id}" + "".join("-{sbc_" + o + "}" for o in info["sbc_split"]), "fmt": "amount", "italic": True}]
@@ -452,7 +514,7 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
     A = "amount_s"
     map_override = {m["id"]: m for m in (mapping or []) if m.get("id")}
     est_q = [p.pid for p in axis.quarters() if p.estimate]
-    annual = [p.pid for p in axis.periods if p.annual_only]
+    annual = [p.pid for p in axis.periods if p.annual_only and p.estimate]
 
     def mapped(lid: str, synonyms: List[str], section: Optional[str] = None, stmt: str = "is") -> Dict[str, float]:
         ov = map_override.get(lid)
@@ -461,15 +523,20 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
         excl = EXCLUDE.get(stmt, [])
         prefs = canon.PREFER_SECTIONS.get(stmt, [])
         if ov and ov.get("data_label"):
+            al, asec = ov.get("annual_data_label") or None, ov.get("annual_data_section") or None
             if ov.get("data_section"):
-                return hist_only(dv.series(ov["data_label"], ov["data_section"], excl), axis)
-            return hist_only(dv.series_pref(ov["data_label"], prefs, excl), axis)
+                return hist_only(dv.series(ov["data_label"], ov["data_section"], excl, al, asec, stmt), axis)
+            s = dv.series_pref(ov["data_label"], prefs, excl)
+            if dv.annual_hist_pids:
+                ann = dv.annual_series(ov["data_label"], al, asec, stmt)
+                s = {**s, **{pid: ann[pid] for pid in dv.annual_hist_pids if pid in ann}}
+            return hist_only(s, axis)
         if section:
-            return hist_only(dv.first_match(synonyms, section, excl)[1], axis)
+            return hist_only(dv.first_match(synonyms, section, excl, stmt)[1], axis)
         for syn in synonyms:
             s = dv.series_pref(syn, prefs, excl)
             if s:
-                return hist_only(s, axis)
+                return hist_only(dv.annual_fill(s, syn, stmt), axis)
         return {}
 
     has_drv = {d["id"] for d in drivers}
@@ -483,8 +550,10 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
             DATA["is_" + lid] = hist
         is_blocks.append(L(id="is_" + lid, label=rev_index[lid]["label"], hist="is_" + lid if hist else None, proj_dsl="={" + REV + "!" + lid + "}",
                            dsl=None if hist else "={" + REV + "!" + lid + "}", fy="sum", fmt=A, gap=False))
+    is_rev_tot = hist_only(dv.first_match(["Revenue", "Total Revenue", "Total Revenues"])[1], axis)
+    is_tot_vals = {pid: is_rev_tot[pid] for pid in sorted(dv.annual_hist_pids) if pid in is_rev_tot and not any(pid in DATA.get("is_" + l, {}) for l in top_rev)}
     is_blocks.append(L(id="total_rev", label="Total Revenue", bold=True, top=True, dsl="=" + "+".join("{is_" + l + "}" for l in top_rev) if top_rev else "={" + REV + "!total_rev}", fy="sum", fmt=A,
-                       subs=[{"key": "pct_yoy", "label": "% YoY Growth", "dsl": "={id}/{id@py}-1", "fmt": "pct_s", "italic": True, "needs": "py"}]))
+                       subs=[{"key": "pct_yoy", "label": "% YoY Growth", "dsl": "={id}/{id@py}-1", "fmt": "pct_s", "italic": True, "needs": "py"}], values=is_tot_vals))
     cogs_hist = mapped("cogs", ["Cost of Revenue", "Cost of Goods Sold", "Cost Of Goods Sold", "Cost of Sales"], None)
     if cogs_hist:
         DATA["cogs"] = cogs_hist
@@ -665,14 +734,20 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
             present[lid] = (label, grp, role)
     totals = {}
     for key, (label, syns) in canon.BS_TOTALS.items():
-        s = hist_only(dv.first_match(syns, None, EXCLUDE["bs"])[1], axis)
+        s = hist_only(dv.first_match(syns, None, EXCLUDE["bs"], "bs")[1], axis)
         if s:
             totals[key] = s
     # CapIQ exports have no non-current subtotals: derive missing group totals from the others
     def _derive(target, a, b, sign):
-        if target in totals or a not in totals or b not in totals:
+        # fill the periods the export lacks (CapIQ has no non-current subtotals) without touching reported ones
+        if a not in totals or b not in totals:
             return
-        totals[target] = {pid: round(totals[a][pid] + sign * totals[b][pid], 4) for pid in totals[a] if pid in totals[b]}
+        have = totals.setdefault(target, {})
+        for pid in totals[a]:
+            if pid in totals[b] and pid not in have:
+                have[pid] = round(totals[a][pid] + sign * totals[b][pid], 4)
+        if not have:
+            del totals[target]
     _derive("nca", "assets", "ca", -1)
     _derive("ca", "assets", "nca", -1)
     _derive("ncl", "liab", "cl", -1)
@@ -792,7 +867,7 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
     # treasury-style companies without a treasury line: buybacks must still hit equity
     if "buybacks" in cf_present and "treasury" not in present and "apic" in present:
         pass
-    cf_totals = {k: hist_only(dv.first_match(v[1])[1], axis) for k, v in canon.CFS_TOTALS.items()}
+    cf_totals = {k: hist_only(dv.first_match(v[1], None, EXCLUDE["cf"], "cf")[1], axis) for k, v in canon.CFS_TOTALS.items()}
 
     def plug_series(grp: str, total_key: str, plug_id: str):
         tot = cf_totals.get(total_key) or {}
@@ -902,13 +977,17 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
     cf_blocks.append(L(id="net_change", label="Net Change in Cash", bold=True, top=True, dsl=net_dsl, fy="sum", fmt=A, gap=False))
     beg = cf_totals.get("beg") or {}
     first_q = axis.actual_quarters()[0].pid
-    if "cash" in DATA and first_q in DATA["cash"]:
-        beg_first = (DATA["cash"].get(first_q, 0) - (cf_totals.get("net", {}).get(first_q, 0)))
-    else:
-        beg_first = beg.get(first_q)
-    DATA["beg_cash"] = {first_q: beg_first} if beg_first is not None else {}
+    first_p = axis.periods[0]
+    seed_pids = ([first_p.pid] if first_p.annual_only and not first_p.estimate else []) + [first_q]
+    seeds = {}
+    for spid in seed_pids:   # the first column of each kind has no prior period to link to
+        if "cash" in DATA and spid in DATA["cash"]:
+            seeds[spid] = DATA["cash"].get(spid, 0) - (cf_totals.get("net", {}).get(spid, 0))
+        elif beg.get(spid) is not None:
+            seeds[spid] = beg.get(spid)
+    DATA["beg_cash"] = seeds
     cf_blocks.append(L(id="beg_cash", label="Beginning Cash", hist={"kind": "formula", "dsl": "={end_cash@pq}"}, proj_dsl="={end_cash@pq}", annual_dsl="={end_cash@py}",
-                       fy="first", fmt=A, values={first_q: "={data:beg_cash}"} if beg_first is not None else {}))
+                       fy="first", fmt=A, values={spid: "={data:beg_cash}" for spid in seeds}))
     cf_blocks.append(L(id="end_cash", label="Ending Cash", bold=True, top=True, dsl="={net_change}+{beg_cash}", fy="formula", fmt=A))
     cf_blocks.append(L(id="cash_check", label="check", bold=True, dsl="={end_cash}-{" + BS + "!cash}", fy="formula", fmt=A))
 
@@ -957,11 +1036,12 @@ def build_spec(inputs: dict, data: dict) -> dict:
     dv = DataView(data, inputs.get("kpi_history"))
     cases = ["Bear", "Base", "Bull"] if str(setup.get("case_set", "5")).startswith("3") or "Bear/Base/Bull" == setup.get("case_set") else ["Disaster", "Bear", "Base", "Bull", "Blowout"]
     annual_years = [int(x) for x in re.findall(r"\d{4}", str(setup.get("annual_only_years") or ""))]
+    annual_hist = [int(x) for x in re.findall(r"\d{4}", str(setup.get("annual_hist_years") or ""))]
     period_ends = {pid: info.get("end") for pid, info in data.get("periods", {}).items() if info.get("end")}
     horizon = {"first_hist_quarter": setup.get("first_hist_quarter") or data.get("first_quarter"),
                "last_actual_quarter": setup.get("last_actual_quarter") or data.get("last_actual_quarter"),
                "last_quarterly_estimate": setup.get("last_quarterly_estimate") or data.get("last_estimate_quarter"),
-               "annual_only_years": annual_years, "period_ends": period_ends, "report_dates": {}}
+               "annual_only_years": annual_years, "annual_hist_years": annual_hist, "period_ends": period_ends, "report_dates": {}}
     company = {"name": setup.get("company_name") or (data.get("ticker") or "").split()[0], "ticker": (setup.get("ticker") or (data.get("ticker") or "").split()[0]),
                "exchange": setup.get("exchange") or "", "reporting_currency": setup.get("reporting_currency") or data.get("currency") or "USD",
                "trading_currency": setup.get("trading_currency") or setup.get("reporting_currency") or data.get("currency") or "USD",
@@ -969,7 +1049,8 @@ def build_spec(inputs: dict, data: dict) -> dict:
                "fiscal_year_end_month": int(setup.get("fiscal_year_end_month") or data.get("fy_end_month") or 12), "fiscal_year_end_day": 31,
                "author": setup.get("author") or "", "cover_tab": setup.get("cover_tab") or "Cover"}
     axis = PeriodAxis.build(horizon["first_hist_quarter"], horizon["last_actual_quarter"], horizon["last_quarterly_estimate"], annual_years, period_ends,
-                            company["fiscal_year_end_month"])
+                            company["fiscal_year_end_month"], annual_hist_years=annual_hist)
+    dv.annual_hist_pids = {p.pid for p in axis.periods if p.annual_only and not p.estimate}
     drivers_rows = inputs.get("drivers", [])
     driver_specs = build_driver_specs(drivers_rows, inputs.get("driver_grid", {}), inputs.get("driver_grid_notes", {}), cases, {}, setup)
     # expose driver type/target for the trees
