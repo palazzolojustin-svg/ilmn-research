@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: build-from-filled-inputs
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Claude compiles the spec from the inputs workbook and data (spec command), builds the
+  workbook (build), verifies it in Excel (verify: zero error cells, every check row at
+  zero, no fingerprints), writes each case's valuation metric into the Tearsheet (cases),
+  saves the model under models/ with the inputs workbook and JSON files beside it, and
+  reports the outcome: tabs built, verification result, case values, open points. The
+  workbook carries no comments or text from Claude and names the analyst as author.

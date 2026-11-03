@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: parse-bloomberg-printouts
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Claude runs the skill's parser on the three Bloomberg printouts (no hand transcription),
+  reports the ticker, currency, December fiscal year end with 52/53-week quarters, history
+  from 1Q25, last reported quarter 2Q26 and consensus through 4Q28, flags the rows whose
+  decimal points were lost in the export (Stock-Based Compensation 7300 for 73.00), and
+  asks the setup questions (currency, history start, horizon, cases, comments, author,
+  price source, valuation metric, target blocks) before any driver work. It does not
+  build a model and does not invent any estimate.

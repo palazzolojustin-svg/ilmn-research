@@ -1,0 +1,8 @@
+# Build: required everywhere
+openpyxl>=3.1
+
+# Verification, snapshots and per-case values: Windows with Excel installed
+pywin32>=306; sys_platform == "win32"
+pypdfium2>=4; sys_platform == "win32"
+
+# Parsing Bloomberg printouts saved as PDF text is done from Markdown; no PDF library needed

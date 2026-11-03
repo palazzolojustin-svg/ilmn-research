@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: stage1-inputs-workbook
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Claude produces ILMN_model_inputs.xlsx with the skill's stage-1 tabs filled from the
+  instructions (Setup values, an eight-line revenue tree with the right parents and data
+  labels, two COGS lines and two opex lines, growth and margin drivers plus the standard
+  uncased drivers) and the stage-2 tabs (Driver Grid, Multiples, DCF Inputs) added, with
+  every estimate cell left empty. The reply lists what the analyst must fill: the driver
+  grid by case, the multiples and weights, and the DCF inputs.
