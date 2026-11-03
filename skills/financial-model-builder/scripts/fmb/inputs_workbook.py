@@ -22,7 +22,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
 from . import canon
-from .parse_data import _norm, series
+from .parse_data import _norm, series, series_pref
 from .periods import PeriodAxis, parse_pid, pid_of
 
 NAVY = "FF003765"
@@ -59,6 +59,7 @@ SETUP_FIELDS = [  # key, label, default, help, dropdown options (or None)
     ("adjusted_block", "Non-GAAP reconciliation block", "Auto", "Auto = include when the company reports adjusted figures", ["Auto", "Yes", "No"]),
     ("incremental_blocks", "Incremental margin blocks on the Margin Build", "Y", "Y/N", ["Y", "N"]),
     ("sbc_split", "Split SBC by function on the Margin Build", "Auto", "Auto = when the data has SBC by line", ["Auto", "Yes", "No"]),
+    ("adj_sbc_addback", "Add back SBC in the non-GAAP block", "Y", "Y = adjusted figures exclude SBC (most companies); N = the company keeps SBC in its non-GAAP results", ["Y", "N"]),
 ]
 
 DRIVER_TYPES = ["yoy_pct", "qoq_pct", "net_adds", "bps_qoq", "bps_yoy", "pct_level", "pct_of_base", "gm_pct", "cost_per_unit", "absolute", "flat", "single", "custom"]
@@ -173,18 +174,19 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
             deltas.append({"sheet": sheet, "line": line, "label": lab.replace(" (%)", " %"), "measure": measure, "source": "Consensus", "data_label": lab, "data_section": ""})
     mapping = []
     for lid, label, syns, _ in canon.IS_LINES:
-        hit = _first_label(data, syns)
-        mapping.append({"id": lid, "label": label, "statement": "Income Statement", "data_label": hit or "", "data_section": "", "keep": "Y" if hit else "N"})
+        # D&A and SBC are memo lines read from the cash flow or adjustments blocks, as build_spec does
+        hit, sec = _map_hit(data, syns, "memo" if lid in ("dep", "amort", "da", "sbc") else "is")
+        mapping.append({"id": lid, "label": label, "statement": "Income Statement", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
     for lid, label, syns, grp, role in canon.BS_LINES:
         if role == "plug":
             continue
-        hit = _first_label(data, syns)
-        mapping.append({"id": lid, "label": label, "statement": "Balance Sheet", "data_label": hit or "", "data_section": "", "keep": "Y" if hit else "N"})
+        hit, sec = _map_hit(data, syns, "bs")
+        mapping.append({"id": lid, "label": label, "statement": "Balance Sheet", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
     for lid, label, syns, grp, role in canon.CFS_LINES:
         if role == "plug":
             continue
-        hit = _first_label(data, syns)
-        mapping.append({"id": lid, "label": label, "statement": "Cash Flow", "data_label": hit or "", "data_section": "", "keep": "Y" if hit else "N"})
+        hit, sec = _map_hit(data, syns, "cf")
+        mapping.append({"id": lid, "label": label, "statement": "Cash Flow", "data_label": hit or "", "data_section": sec, "keep": "Y" if hit else "N"})
     return {"setup": setup, "files": files or [], "revenue_tree": tree, "revenue_candidates": candidates, "cost_tree": cost, "drivers": drivers,
             "variance": [], "deltas": deltas, "side_builds": [], "guidance": [], "buyside": [], "kpi_history": {}, "mapping": mapping}
 
@@ -198,6 +200,17 @@ def _first_label(data: dict, syns: List[str], section: Optional[str] = None) -> 
         if series(data, s, section):
             return s
     return None
+
+
+def _map_hit(data: dict, syns: List[str], stmt: str):
+    """(label, section) for a statement line: the first synonym found, read from the statement's
+    preferred sections first so the proposal names the section the spec will use."""
+    prefs, excl = canon.PREFER_SECTIONS.get(stmt, []), canon.EXCLUDE_SECTIONS.get(stmt, [])
+    for s in syns:
+        vals, sec = series_pref(data, s, prefs, excl)
+        if vals:
+            return s, (sec or "")
+    return None, ""
 
 
 def _first_label_section(data: dict, syns: List[str], prefer_section: Optional[str] = None):

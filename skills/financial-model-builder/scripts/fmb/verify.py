@@ -135,12 +135,14 @@ def recalc_with_excel(path: str, visible: bool = False) -> dict:
             for i, rowv in enumerate(vals):
                 if not isinstance(rowv, tuple):
                     rowv = (rowv,)
-                label = rowv[1] if len(rowv) > 1 else None
+                # the used range may start past column A; labels sit in column B, values from D
+                li = 2 - c0
+                label = rowv[li] if 0 <= li < len(rowv) else None
                 for j, v in enumerate(rowv):
                     if isinstance(v, int) and v in EXCEL_ERRORS:
                         errors.append(f"{name}!{_a1(r0 + i, c0 + j)}: {EXCEL_ERRORS[v]}")
                 if isinstance(label, str) and label.strip() in CHECK_LABELS:
-                    nums = [x for x in rowv[2:] if isinstance(x, (int, float)) and not isinstance(x, bool)]
+                    nums = [x for x in rowv[max(4 - c0, 0):] if isinstance(x, (int, float)) and not isinstance(x, bool)]
                     checks[f"{name} r{r0 + i}"] = [round(x, 4) for x in nums]
         xl.save()
         app = wb = None

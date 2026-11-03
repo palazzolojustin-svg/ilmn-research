@@ -25,7 +25,7 @@ from typing import Dict, List, Optional, Tuple
 from . import canon
 from . import styles as S
 from .engine import BS, CFS, IS, MARGIN, REV
-from .parse_data import _norm, series
+from .parse_data import _norm, series, series_pref
 from .periods import PeriodAxis, parse_pid, pid_of
 
 AMT_SUBS = ["pct_yoy", "pct_2y", "usd_yoy", "pct_qoq", "usd_qoq"]
@@ -64,6 +64,13 @@ class DataView:
             return dict(self.kpi[label])
         return series(self.data, label, section or None, exclude_sections=exclude)
 
+    def series_pref(self, label: Optional[str], prefs: List[str], exclude: Optional[List[str]] = None) -> Dict[str, float]:
+        if not label:
+            return {}
+        if label in self.kpi:
+            return dict(self.kpi[label])
+        return series_pref(self.data, label, prefs, exclude)[0]
+
     def first_match(self, synonyms: List[str], section: Optional[str] = None, exclude: Optional[List[str]] = None) -> Tuple[Optional[str], Dict[str, float]]:
         for syn in synonyms:
             s = self.series(syn, section, exclude)
@@ -72,13 +79,8 @@ class DataView:
         return None, {}
 
 
-# sections of a Bloomberg printout that must never feed a given statement
-EXCLUDE = {
-    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity"],
-    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference"],
-    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "segment revenue", "business breakdown"],
-    "memo": [],
-}
+# sections of a Bloomberg printout that must never feed a given statement (shared with the inputs workbook)
+EXCLUDE = canon.EXCLUDE_SECTIONS
 
 
 def hist_only(s: Dict[str, float], axis: PeriodAxis) -> Dict[str, float]:
@@ -457,9 +459,18 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
         if ov and ov.get("keep") is not None and not yn(ov.get("keep", "Y")):
             return {}
         excl = EXCLUDE.get(stmt, [])
+        prefs = canon.PREFER_SECTIONS.get(stmt, [])
         if ov and ov.get("data_label"):
-            return hist_only(dv.series(ov["data_label"], ov.get("data_section"), excl), axis)
-        return hist_only(dv.first_match(synonyms, section, excl)[1], axis)
+            if ov.get("data_section"):
+                return hist_only(dv.series(ov["data_label"], ov["data_section"], excl), axis)
+            return hist_only(dv.series_pref(ov["data_label"], prefs, excl), axis)
+        if section:
+            return hist_only(dv.first_match(synonyms, section, excl)[1], axis)
+        for syn in synonyms:
+            s = dv.series_pref(syn, prefs, excl)
+            if s:
+                return hist_only(s, axis)
+        return {}
 
     has_drv = {d["id"] for d in drivers}
 
@@ -582,11 +593,13 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
     adj_ni_hist = mapped("adj_ni", ["Adjusted Net Income", "Adj. Net Income", "Non-GAAP Net Income"])
     adj_eps_hist = mapped("adj_eps", ["Adjusted Diluted EPS", "Adj. Diluted EPS", "Non-GAAP EPS", "Non-GAAP Diluted EPS"])
     include_adj = adjusted == "yes" or (adjusted == "auto" and bool(adj_oi_hist or adj_eps_hist))
+    sbc_addback = yn(setup.get("adj_sbc_addback", "Y"))   # N for companies whose non-GAAP keeps SBC as an expense
     metric_line = "ebitda"
     if include_adj:
         is_blocks.append({"subtitle": "Non-GAAP Reconciliation"})
         DATA["adj_oi"] = adj_oi_hist
-        is_blocks.append(L(id="adj_sbc", label="(+) Stock-Based Compensation", dsl="={sbc}", fy="sum", fmt=A, gap=False))
+        if sbc_addback:
+            is_blocks.append(L(id="adj_sbc", label="(+) Stock-Based Compensation", dsl="={sbc}", fy="sum", fmt=A, gap=False))
         if "amort" in da_lines:
             is_blocks.append(L(id="adj_amort", label="(+) Amortization of Acquired Intangibles", dsl="={amort}", fy="sum", fmt=A, gap=False))
         other_adj_hist = {}
@@ -594,12 +607,12 @@ def build_statement_blocks(dv: DataView, axis: PeriodAxis, rev_index: dict, cost
             base = (DATA.get("op_inc", {}).get(pid) if DATA.get("op_inc") else None)
             if base is None:
                 continue
-            other = v - base - sbc_hist.get(pid, 0) - (amort_hist.get(pid, 0) if "amort" in da_lines else 0)
+            other = v - base - (sbc_hist.get(pid, 0) if sbc_addback else 0) - (amort_hist.get(pid, 0) if "amort" in da_lines else 0)
             other_adj_hist[pid] = round(other, 4)
         DATA["adj_other"] = other_adj_hist
         is_blocks.append(L(id="adj_other", label="(+) Other Adjustments (restructuring, legal, other)", hist="adj_other" if other_adj_hist else None,
                            proj_dsl="={drv:adj_other}", dsl=None if other_adj_hist else "={drv:adj_other}", fy="sum", fmt=A, gap=False))
-        is_blocks.append(L(id="adj_oi", label="Adjusted Operating Income", bold=True, top=True, dsl="={op_inc_is}+{adj_sbc}" + ("+{adj_amort}" if "amort" in da_lines else "") + "+{adj_other}", fy="sum", fmt=A,
+        is_blocks.append(L(id="adj_oi", label="Adjusted Operating Income", bold=True, top=True, dsl="={op_inc_is}" + ("+{adj_sbc}" if sbc_addback else "") + ("+{adj_amort}" if "amort" in da_lines else "") + "+{adj_other}", fy="sum", fmt=A,
                            subs=[{"key": "pct_of", "label": "% Adjusted Operating Margin", "dsl": "={id}/{total_rev}", "fmt": "pct_s", "italic": True}]))
         is_blocks.append(L(id="adj_pretax", label="Adjusted Pre-Tax Income", dsl="={adj_oi}+{nonop_net}", fy="sum", fmt=A, gap=False))
         is_blocks.append(L(id="adj_tax", label="(-) Adjusted Income Tax", dsl="={adj_pretax}*{adj_tax_rate}", fy="sum", fmt=A, gap=False))

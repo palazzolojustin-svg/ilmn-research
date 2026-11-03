@@ -138,5 +138,22 @@ DEFAULT_DRIVERS = [
     ("rsu_tax", "Taxes Paid on Net Share Settlement", "cf", "amount_s", "sum", ("rsu_tax", None)),
 ]
 
+# Sections of an export that a statement line should be read from first (prefix match, in order),
+# and sections it must never be read from. Bloomberg repeats labels across blocks (balance-sheet
+# "Accounts Receivable" and the working-capital change of the same name; GAAP and adjusted
+# "Income Tax Expense"), so a bare label is ambiguous without these.
+PREFER_SECTIONS = {
+    "is": ["gaap results", "income statement (gaap)", "income statement", "highlights"],
+    "bs": ["assets", "liabilities & equity", "liabilities", "equity", "investments", "balance sheet", "condensed balance sheet"],
+    "cf": ["cash from operating", "cash from investing", "cash from financing", "changes in working capital", "cash flow", "condensed cash flow"],
+    "memo": ["company specific adjustments", "cash from operating", "special company reference"],
+}
+EXCLUDE_SECTIONS = {
+    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity", "investments"],
+    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference"],
+    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "investments", "segment revenue", "business breakdown"],
+    "memo": [],
+}
+
 WC_DRIVER_FOR = {"receivables": ("recv_pct", "rev"), "inventory": ("inv_pct", "cogs"), "prepaid": ("prepaid_pct", "rev"),
                  "payables": ("pay_pct", "costs"), "accrued": ("accrued_pct", "costs"), "deferred_rev": ("defrev_pct", "rev")}

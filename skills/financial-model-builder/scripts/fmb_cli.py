@@ -24,11 +24,39 @@ sys.path.insert(0, str(HERE))
 from fmb import parse_data  # noqa: E402
 
 
+VALUE_FLAGS = ("--out", "--data-out", "--set")
+
+
+def _split(args):
+    """(positionals, options, --set values); accepts --flag=value and --flag value."""
+    pos, opts, sets = [], {}, []
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a.startswith("--"):
+            if "=" in a:
+                flag, val = a.split("=", 1)
+            elif a in VALUE_FLAGS and i + 1 < len(args) and not args[i + 1].startswith("--"):
+                flag, val = a, args[i + 1]
+                i += 1
+            else:
+                flag, val = a, True
+            if flag == "--set":
+                sets.append(val)
+            else:
+                opts[flag] = val
+        else:
+            pos.append(a)
+        i += 1
+    return pos, opts, sets
+
+
 def _arg(args, flag, default=None):
-    for a in args:
-        if a.startswith(flag + "="):
-            return a[len(flag) + 1:]
-    return default
+    return _split(args)[1].get(flag, default)
+
+
+def _pos(args):
+    return _split(args)[0]
 
 
 def cmd_doctor(args):
@@ -75,13 +103,18 @@ def cmd_parse(args):
 
 def cmd_inputs1(args):
     from fmb.inputs_workbook import propose_inputs, write_stage1
-    data = json.loads(Path(args[0]).read_text(encoding="utf-8"))
-    out = _arg(args, "--out", "model_inputs.xlsx")
+    pos, opts, sets = _split(args)
+    data = json.loads(Path(pos[0]).read_text(encoding="utf-8"))
+    out = opts.get("--out", "model_inputs.xlsx")
     overrides = {}
-    for a in args:
-        if a.startswith("--set"):
-            k, v = a.split("=", 1)[1].split(":", 1) if ":" in a else a[6:].split("=", 1)
-            overrides[k.strip()] = v.strip()
+    for val in sets:   # --set key=value (or key:value)
+        if "=" in val:
+            k, v = val.split("=", 1)
+        elif ":" in val:
+            k, v = val.split(":", 1)
+        else:
+            continue
+        overrides[k.strip()] = v.strip()
     files = [{"path": f, "type": "Bloomberg consensus" if f.lower().endswith(".md") else "", "notes": ""} for f in data.get("files", [])]
     inputs = propose_inputs(data, overrides, files)
     write_stage1(inputs, out)
@@ -92,7 +125,7 @@ def cmd_inputs2(args):
     from fmb.build_model import make_axis
     from fmb.inputs_workbook import read_inputs, write_stage2
     from fmb.spec_builder import build_spec
-    inputs_path, data_path = args[0], args[1]
+    inputs_path, data_path = _pos(args)[:2]
     data = json.loads(Path(data_path).read_text(encoding="utf-8"))
     inputs = read_inputs(inputs_path)
     spec, model_data = build_spec(inputs, data)
@@ -111,7 +144,7 @@ def cmd_inputs2(args):
 def cmd_spec(args):
     from fmb.inputs_workbook import read_inputs
     from fmb.spec_builder import build_spec
-    inputs_path, data_path = args[0], args[1]
+    inputs_path, data_path = _pos(args)[:2]
     data = json.loads(Path(data_path).read_text(encoding="utf-8"))
     inputs = read_inputs(inputs_path)
     spec, model_data = build_spec(inputs, data)
@@ -125,30 +158,33 @@ def cmd_spec(args):
 def cmd_build(args):
     from fmb.build_model import build_from_files
     out = _arg(args, "--out", "model.xlsx")
-    build_from_files(args[0], args[1] if len(args) > 1 and not args[1].startswith("--") else None, out)
+    pos = _pos(args)
+    build_from_files(pos[0], pos[1] if len(pos) > 1 else None, out)
     print("built", out)
 
 
 def cmd_verify(args):
     from fmb.verify import verify
-    rep = verify(args[0], recalc="--no-recalc" not in args)
+    rep = verify(_pos(args)[0], recalc="--no-recalc" not in args)
     print(json.dumps(rep, indent=1, default=str))
 
 
 def cmd_snapshot(args):
     from fmb.snapshot import snapshot
-    print(snapshot(args[0], args[1], args[2], float(args[3]) if len(args) > 3 else 2.0))
+    pos = _pos(args)
+    print(snapshot(pos[0], pos[1], pos[2], float(pos[3]) if len(pos) > 3 else 2.0))
 
 
 def cmd_cases(args):
     from fmb.cases import snapshot_cases
-    print(json.dumps(snapshot_cases(args[0], args[1]), indent=1, default=str))
+    pos = _pos(args)
+    print(json.dumps(snapshot_cases(pos[0], pos[1]), indent=1, default=str))
 
 
 def cmd_summary(args):
     from fmb.verify import cached_values
     from openpyxl import load_workbook
-    wb = load_workbook(args[0], data_only=True)
+    wb = load_workbook(_pos(args)[0], data_only=True)
     out = {}
     for sheet in ("Income Statement", "Revenue Build"):
         ws = wb[sheet]

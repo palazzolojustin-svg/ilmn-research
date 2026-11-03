@@ -67,6 +67,7 @@ Columns: A key (hidden column), B field, C value (yellow), D help. `read_inputs`
 | `adjusted_block` | `Auto` `Yes` `No` | Non-GAAP reconciliation: Yes always, No never, Auto when Adjusted Operating Income or Adjusted Diluted EPS has history |
 | `incremental_blocks` | `Y` `N` | incremental gross-margin rows on the Margin Build |
 | `sbc_split` | `Auto` `Yes` `No` | anything but No allows `SBC - <opex>` and `<opex> ex-SBC` rows for cost rows that name an SBC data label |
+| `adj_sbc_addback` | `Y` `N` | Y adds SBC back in the non-GAAP reconciliation (adjusted figures exclude SBC); N for companies whose non-GAAP results keep SBC as an expense, such as Illumina, so the `(+) Stock-Based Compensation` row is omitted and `(+) Other Adjustments` history is computed without it |
 
 ## 4. Data Files
 
@@ -176,7 +177,7 @@ A row whose series yields no values is dropped silently; a row whose line or sub
 
 ## 10. Statement Mapping
 
-One row per canonical line of `canon.IS_LINES`, `BS_LINES` and `CFS_LINES` (plugs excluded): A Model line ID, B Model label, C Statement, D Data label (yellow), E Data section (yellow), F Keep (Y/N, yellow). Proposal: the first synonym with data, Keep = Y when one is found. Read into `mapping`; `build_spec` applies it line by line: Keep = N drops the line's history (the line disappears unless the model needs it; `interest_income` and `interest_expense` always stay, and `cogs`, `tax`, `sbc`, D&A and share counts fall back to their drivers), and a Data label (with an optional section) replaces the synonym search. Lines with no data are dropped anyway, and reported subtotals that do not tie get plug lines (`other_ca`, `other_nca_plug`, `other_cl_plug`, `other_ncl_plug`, `other_eq_plug`, `other_op`, `other_inv`, `other_fin`, `fx`). `ni` is always computed from the lines above it; its row is informational.
+One row per canonical line of `canon.IS_LINES`, `BS_LINES` and `CFS_LINES` (plugs excluded): A Model line ID, B Model label, C Statement, D Data label (yellow), E Data section (yellow), F Keep (Y/N, yellow). Proposal: the first synonym with data, read from the statement's preferred sections first (`canon.PREFER_SECTIONS`: GAAP results before the adjusted block for the income statement, the balance-sheet blocks before working-capital changes, and the reverse for the cash flow), with that section written in column E. Keep = Y when one is found. A blank section in column E resolves the same way at spec time. Read into `mapping`; `build_spec` applies it line by line: Keep = N drops the line's history (the line disappears unless the model needs it; `interest_income` and `interest_expense` always stay, and `cogs`, `tax`, `sbc`, D&A and share counts fall back to their drivers), and a Data label (with an optional section) replaces the synonym search. Lines with no data are dropped anyway, and reported subtotals that do not tie get plug lines (`other_ca`, `other_nca_plug`, `other_cl_plug`, `other_ncl_plug`, `other_eq_plug`, `other_op`, `other_inv`, `other_fin`, `fx`). `ni` is always computed from the lines above it; its row is informational.
 
 ## 11. Driver Grid
 

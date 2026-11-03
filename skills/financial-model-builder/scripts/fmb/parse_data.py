@@ -419,7 +419,11 @@ def fix_suspects(lines: List[dict]) -> Tuple[List[dict], List[dict]]:
         if not l.get("suspect_pids"):
             continue
         refs = []
-        for other in by_label.get(_norm(l["label"]), []):
+        # references come from the same section first (the balance-sheet level, not the
+        # working-capital change of the same name), any section only when there are none
+        same_label = by_label.get(_norm(l["label"]), [])
+        same_sec = [o for o in same_label if _norm(o.get("section") or "") == _norm(l.get("section") or "")]
+        for other in (same_sec or same_label):
             for pid, v in other["values"].items():
                 if pid not in other.get("suspect_pids", []) and v:
                     # annual references are compared on a per-quarter basis
@@ -524,20 +528,49 @@ def series(data: dict, label: str, section: Optional[str] = None, exclude_sectio
     return out
 
 
+def sections_in(data: dict) -> List[str]:
+    """Distinct section names in order of first appearance."""
+    out: List[str] = []
+    for l in data["lines"]:
+        sec = l.get("section") or ""
+        if sec and sec not in out:
+            out.append(sec)
+    return out
+
+
+def series_pref(data: dict, label: str, prefs: List[str], exclude_sections: Optional[List[str]] = None) -> Tuple[Dict[str, float], Optional[str]]:
+    """Series for a label read from the first preferred section (prefix match, in order) that
+    has it; otherwise the plain lookup with the exclusions. Returns (values, section used)."""
+    secs = sections_in(data)
+    for pref in prefs:
+        key = _norm(pref)
+        for sec in secs:
+            if _norm(sec).startswith(key):
+                s = series(data, label, sec)
+                if s:
+                    return s, sec
+    return series(data, label, None, exclude_sections), None
+
+
 def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9%]+", " ", str(s).lower()).strip()
 
 
 def main(argv: List[str]):
-    if len(argv) < 2:
+    if not argv:
         print(__doc__); return
     out_path = None
     files = []
-    for a in argv:
+    i = 0
+    while i < len(argv):
+        a = argv[i]
         if a.startswith("--out="):
             out_path = a[6:]
-        else:
+        elif a == "--out" and i + 1 < len(argv):
+            out_path = argv[i + 1]; i += 1
+        elif not a.startswith("--"):
             files.append(a)
+        i += 1
     parsed = parse_files(files)
     merged = merge(parsed)
     merged["files"] = [Path(f).name for f in files]

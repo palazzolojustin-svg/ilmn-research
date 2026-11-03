@@ -20,7 +20,8 @@
 python "${CLAUDE_SKILL_DIR}/scripts/fmb_cli.py" parse <file1> <file2> ... --out=model_data_raw.json
 ```
 
-- Write `--out=` with the equals sign and no space. `parse_data.main()` treats every argument that does not start with `--out=` as an input file, so `--out model_data_raw.json` is read as two extra input files and the command dies with `ValueError: unsupported file type`. With fewer than two arguments it prints the module docstring and parses nothing.
+- `--out model_data_raw.json` and `--out=model_data_raw.json` both work (every CLI option takes either form). With no arguments the command prints the module docstring and parses nothing.
+- Lost-decimal repairs take their scale reference from the same section first (the balance-sheet `Other Assets` level, not the working-capital change of the same name), so a label that appears in two blocks is repaired against its own block.
 - Accepted extensions: `.md` and `.txt` go to the Bloomberg Markdown parser; `.xlsx`, `.xlsm`, `.csv`, `.tsv` go to the grid parser. `.xls` is routed to openpyxl, which cannot open it: have the analyst save as `.xlsx`.
 - `detect [folder]` lists candidate files: every xlsx/xls/xlsm/csv/md whose name contains consensus, capiq, capital_iq, capitaliq, bloomberg, income, balance, cash, key_stats, keystats, estimates or financials, skipping folders that start with `.` and the folders `_Build`, `node_modules` and `skills`. It is a finder, not a validator; pass the exact paths to `parse`.
 - File order no longer decides between actual and estimate values (section 7), but keep the newest Bloomberg printout first so that, between two estimate columns for the same period, the newer consensus wins.
