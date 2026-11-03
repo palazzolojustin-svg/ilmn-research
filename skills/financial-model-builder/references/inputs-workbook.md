@@ -86,7 +86,7 @@ One row per revenue line or KPI; the order is the order on the Revenue Build, wi
 | E, F | Volume line ID, Price line ID | `volume_id`, `price_id` | `volume_price` only: ids of two KPI rows |
 | G | Price basis | `per month` / `per period` | `per month` (the default) multiplies by `{months}` |
 | H | Data label (history) | `data_label` | label of the history series (case- and punctuation-insensitive match against the data, exact match against KPI History) |
-| I | Data section | `data_section` | optional section filter, e.g. `Business Breakdown`, `Highlights`, `GAAP Results` |
+| I | Data section | `data_section` | optional section filter, e.g. `Business Breakdown`, `Highlights`, `GAAP Results`; CapIQ Financials-workbook sections read `<sheet> - <sub-section>`, e.g. `Balance Sheet - ASSETS`, `Segments - Business Segments - Revenues` |
 | J | Format (KPI) | `format` | `count` `price` `pct` `amount` (KPI rows; default count) |
 | K | FY rule (KPI) | `fy_rule` | `sum` `avg` `last` `first` `formula`; defaults: count and price avg, pct last, amount sum |
 | L | History formula | `hist_formula` | KPI rows: engine formula that replaces data for history, e.g. `={seq_cons}/{seq_units}` |

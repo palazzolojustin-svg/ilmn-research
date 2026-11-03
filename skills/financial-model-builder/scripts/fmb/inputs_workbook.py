@@ -65,6 +65,7 @@ SETUP_FIELDS = [  # key, label, default, help, dropdown options (or None)
 DRIVER_TYPES = ["yoy_pct", "qoq_pct", "net_adds", "bps_qoq", "bps_yoy", "pct_level", "pct_of_base", "gm_pct", "cost_per_unit", "absolute", "flat", "single", "custom"]
 TREE_KINDS = ["sum", "volume_price", "growth", "share", "direct", "kpi", "custom"]
 SECTIONS = ["Revenue", "Cost", "Income Statement", "Balance Sheet", "Cash Flow"]
+NON_REVENUE = re.compile(r"adjusted|margin|eps|ebitda|income|cash|capex|capital expenditure|debt|shares|dividend|tax|gross profit|opex|expense", re.I)
 FORMATS = ["%", "bps", "amount", "price", "shares", "x"]
 FY_RULES = ["sum", "avg", "last", "first", "formula"]
 DATA_TYPES = ["Bloomberg consensus", "CapIQ Income Statement", "CapIQ Balance Sheet", "CapIQ Cash Flow", "CapIQ Key Stats", "KPI history", "Guidance", "Buyside", "Other"]
@@ -129,7 +130,8 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
                   "annual_only_years": f"{est_year + 1}, {est_year + 2}" if est_year else ""})
     setup.update({k: v for k, v in ov.items() if v is not None})
     # revenue tree: segment lines first, business-breakdown lines as candidates
-    seg = [l for l in data["lines"] if (l.get("section") or "").lower().startswith("segment revenue") and not l["pct"]]
+    # Bloomberg's "Segment Revenue" page runs on into highlight items (adjusted income, cash); keep revenue lines only
+    seg = [l for l in data["lines"] if (l.get("section") or "").lower().startswith("segment revenue") and not l["pct"] and not NON_REVENUE.search(l["label"])]
     seen, tree = set(), []
     for l in seg:
         if l["label"] in seen:
@@ -139,11 +141,11 @@ def propose_inputs(data: dict, overrides: Optional[dict] = None, files: Optional
     candidates = []
     for l in data["lines"]:
         sec = (l.get("section") or "").lower()
-        if sec.startswith("business breakdown") and not l["pct"] and l["label"] not in seen and l["label"] not in candidates:
+        if sec.startswith("business breakdown") and not l["pct"] and l["label"] not in seen and l["label"] not in candidates and not NON_REVENUE.search(l["label"]):
             candidates.append(l["label"])
     # cost tree (data sections come from the matched line, whatever the export's naming)
     cost = []
-    cogs_label, cogs_sec = _first_label_section(data, ["Cost of Revenue", "Cost of Goods Sold", "Cost of Sales"])
+    cogs_label, cogs_sec = _first_label_section(data, ["Cost of Revenue", "Cost of Goods Sold", "Cost of Sales"], prefer_section="GAAP Results")
     cost.append({"id": "cogs_total", "label": "Cost of Revenue", "section": "COGS", "segment": "", "data_label": cogs_label or "Cost of Revenue", "data_section": cogs_sec or ""})
     for lab, lid in (("Selling, General & Administrative", "sga"), ("Research & Development", "rd"), ("Sales & Marketing", "sm"), ("General & Administrative", "ga"), ("Other Operating Expenses", "other_opex_line")):
         hit, sec = _first_label_section(data, [lab], prefer_section="GAAP Results")

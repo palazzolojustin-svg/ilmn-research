@@ -64,7 +64,7 @@ def cmd_doctor(args):
     import importlib.util
     import platform
     report = {"python": sys.version.split()[0], "platform": platform.platform()}
-    for mod in ("openpyxl", "win32com", "pypdfium2", "pdfplumber"):
+    for mod in ("openpyxl", "win32com", "pypdfium2", "pdfplumber", "xlrd"):
         report[mod] = importlib.util.find_spec(mod) is not None
     if sys.platform.startswith("win"):
         try:

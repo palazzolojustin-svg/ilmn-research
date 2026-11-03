@@ -27,13 +27,13 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-from .periods import pid_of
+from .periods import parse_pid, pid_of
 
 BB_Q = re.compile(r"^(\d{4})\s*Q([1-4])(\s*Est)?$", re.I)
 BB_Y = re.compile(r"^(\d{4})\s*Y(\s*Est)?$", re.I)
 BB_H = re.compile(r"^(\d{4})\s*H([12])(\s*Est)?$", re.I)
 DATE_US = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
-CAPIQ_HDR = re.compile(r"(\d+)\s*months?\s*(?:ending)?\s*([A-Za-z]{3})-(\d{1,2})-(\d{4})", re.I)
+CAPIQ_HDR = re.compile(r"(\d+)\s*months?\W*(?:ending)?\W*([A-Za-z]{3})-(\d{1,2})-(\d{4})", re.I)
 CAPIQ_LTM = re.compile(r"\bLTM\b", re.I)
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 NUM = re.compile(r"^\(?-?\$?[\d,]*\.?\d+\)?%?$")
@@ -218,11 +218,23 @@ def load_grids(path: Path) -> List[Tuple[str, List[List[object]]]]:
             import xlrd  # noqa: F401
         except ImportError:
             raise ValueError(f"{path.name} is a legacy .xls export; save it as .xlsx in Excel (or pip install xlrd) and parse again")
+        import io
         import xlrd
-        book = xlrd.open_workbook(str(path))
+        book = xlrd.open_workbook(str(path), logfile=io.StringIO())
         out = []
         for sh in book.sheets():
-            rows = [[sh.cell_value(r, c) for c in range(sh.ncols)] for r in range(sh.nrows)]
+            rows = []
+            for r in range(sh.nrows):
+                row = []
+                for c in range(sh.ncols):
+                    v = sh.cell_value(r, c)
+                    if sh.cell_type(r, c) == xlrd.XL_CELL_DATE:
+                        try:
+                            v = xlrd.xldate_as_datetime(v, book.datemode).date()
+                        except Exception:
+                            pass
+                    row.append(v)
+                rows.append(row)
             out.append((sh.name, rows))
         return out
     if path.suffix.lower() in (".xlsx", ".xlsm"):
@@ -378,6 +390,9 @@ def parse_file(path: str, fy_hint: Optional[int] = None) -> dict:
         return parse_bloomberg_md(p)
     out = {"periods": {}, "lines": [], "source": None, "fy_end_month": None, "fy_end_assumed": False}
     grids = load_grids(p)
+    from . import capiq
+    if capiq.looks_like_capiq(grids):
+        return capiq.parse_workbook(grids, p.name, fy_hint)
     # learn the fiscal year end from any 12-month columns in the workbook before keying quarters
     hint = fy_hint
     for name, rows in grids:
@@ -458,8 +473,11 @@ def merge(parsed: List[dict]) -> dict:
     for d in parsed:
         for pid, info in d.get("periods", {}).items():
             cur = periods.setdefault(pid, {"end": None, "estimate": info.get("estimate", False)})
-            if info.get("end"):
+            # the first file to give a period end keeps it, unless its date came from an estimate column
+            # and this one is reported (CapIQ's filed balance-sheet date beats a projected Bloomberg date)
+            if info.get("end") and (not cur.get("end") or (cur.get("_end_est") and not info.get("estimate"))):
                 cur["end"] = info["end"]
+                cur["_end_est"] = bool(info.get("estimate"))
             # an actual in any file wins over an estimate flag elsewhere
             cur["estimate"] = cur["estimate"] and info.get("estimate", False)
         lines.extend(d.get("lines", []))
@@ -542,14 +560,23 @@ def series_pref(data: dict, label: str, prefs: List[str], exclude_sections: Opti
     """Series for a label read from the first preferred section (prefix match, in order) that
     has it; otherwise the plain lookup with the exclusions. Returns (values, section used)."""
     secs = sections_in(data)
+    has_q = lambda s: any(pid[1:2] == "Q" for pid in s)
+    first = None
     for pref in prefs:
         key = _norm(pref)
         for sec in secs:
             if _norm(sec).startswith(key):
                 s = series(data, label, sec)
-                if s:
+                if s and has_q(s):
                     return s, sec
-    return series(data, label, None, exclude_sections), None
+                if s and first is None:
+                    first = (s, sec)
+    # a preferred section with annual values only (a CapIQ annual export) loses to a quarterly
+    # series found anywhere else that is not excluded
+    fb = series(data, label, None, exclude_sections)
+    if fb and (has_q(fb) or first is None):
+        return fb, None
+    return first if first else (fb, None)
 
 
 def _norm(s: str) -> str:
@@ -572,13 +599,29 @@ def main(argv: List[str]):
             files.append(a)
         i += 1
     parsed = parse_files(files)
+    per_file = []
+    for f, d in zip(files, parsed):
+        acts = [p for p, i in d.get("periods", {}).items() if p[1:2] == "Q" and not i.get("estimate")]
+        ests = [p for p, i in d.get("periods", {}).items() if p[1:2] == "Q" and i.get("estimate")]
+        key = lambda p: parse_pid(p)[1:]
+        per_file.append((Path(f).name, max(acts, key=key) if acts else None, max(ests, key=key) if ests else None, d.get("source")))
     merged = merge(parsed)
+    merged["per_file"] = [{"file": n, "last_actual_quarter": a, "last_estimate_quarter": e, "source": s} for n, a, e, s in per_file]
+    distinct = {a for _, a, _, _ in per_file if a}
+    if len(distinct) > 1:
+        merged["warnings"] = merged.get("warnings", []) + [
+            "files disagree on the last reported quarter: " + ", ".join(f"{n} -> {a}" for n, a, _, _ in per_file if a)
+            + "; the merged data treats the latest as actual, so confirm last_actual_quarter with the analyst or re-export the older file"]
     merged["files"] = [Path(f).name for f in files]
     if out_path:
         Path(out_path).write_text(json.dumps(merged, indent=1, default=str), encoding="utf-8")
         print("wrote", out_path)
     print(json.dumps({k: merged[k] for k in ("ticker", "currency", "fy_end_month", "fy_end_assumed", "first_quarter",
                                              "last_actual_quarter", "last_estimate_quarter", "n_lines")}, indent=1))
+    for pf in merged["per_file"]:
+        print(f"  {pf['file']}: source={pf['source']} last actual={pf['last_actual_quarter']} last estimate={pf['last_estimate_quarter']}")
+    for w in merged.get("warnings", []):
+        print("WARNING:", w)
     secs = Counter((l["section"] or "-") for l in merged["lines"])
     print("sections:", dict(secs.most_common(30)))
     if merged["corrections"]:

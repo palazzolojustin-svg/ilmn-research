@@ -146,12 +146,12 @@ PREFER_SECTIONS = {
     "is": ["gaap results", "income statement (gaap)", "income statement", "highlights"],
     "bs": ["assets", "liabilities & equity", "liabilities", "equity", "investments", "balance sheet", "condensed balance sheet"],
     "cf": ["cash from operating", "cash from investing", "cash from financing", "changes in working capital", "cash flow", "condensed cash flow"],
-    "memo": ["company specific adjustments", "cash from operating", "special company reference"],
+    "memo": ["company specific adjustments", "cash from operating", "special company reference", "cash flow", "income statement - supplemental"],
 }
 EXCLUDE_SECTIONS = {
-    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity", "investments"],
-    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference"],
-    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "investments", "segment revenue", "business breakdown"],
+    "is": ["cash from", "changes in working capital", "condensed cash flow", "condensed balance sheet", "assets", "liabilities & equity", "investments", "cash flow", "balance sheet", "key stats", "multiples", "ratios"],
+    "bs": ["cash from", "changes in working capital", "condensed cash flow", "company specific adjustments", "special company reference", "cash flow", "income statement", "key stats", "multiples", "ratios"],
+    "cf": ["highlights", "income statement", "gaap results", "condensed balance sheet", "assets", "liabilities & equity", "investments", "segment revenue", "business breakdown", "balance sheet", "key stats", "multiples", "ratios"],
     "memo": [],
 }
 
