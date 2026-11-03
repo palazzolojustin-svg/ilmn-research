@@ -27,6 +27,7 @@ from typing import Any, Callable, Dict, List, Optional
 
 from openpyxl import Workbook
 from openpyxl.comments import Comment
+from openpyxl.styles import Alignment
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
@@ -189,12 +190,12 @@ class SheetBuilder:
         ws["B2"].font = S.font(S.BLACK, True, False, 14)
         S.style_cell(ws["B3"], ctx.units_line(), italic=True, color=S.BLACK)
         if self.title == DRIVERS:
-            S.style_cell(ws["B5"], ctx.active_case, bold=True, color=S.BLACK, top=True, bottom=True)
+            S.style_cell(ws["B5"], ctx.active_case, bold=True, color=S.BLACK, top=True, bottom=True, align="center")
             dv = DataValidation(type="list", formula1='"' + ",".join(ctx.cases) + '"', allow_blank=False)
             ws.add_data_validation(dv)
             dv.add(ws["B5"])
         else:
-            S.style_cell(ws["B5"], f"='{DRIVERS}'!B5", bold=True, color=S.BLACK, top=True, bottom=True)
+            S.style_cell(ws["B5"], f"='{DRIVERS}'!B5", bold=True, color=S.BLACK, top=True, bottom=True, align="center")
         S.style_cell(ws["B7"], "Fiscal Year", bold=True, color=S.BLACK, top=True)
         S.style_cell(ws["C7"], None, top=True)
         S.style_cell(ws["B8"], "Period Ending", color=S.BLACK)
@@ -213,18 +214,18 @@ class SheetBuilder:
             hdr = ws[f"{L}7"]
             band = (p.estimate and not drivers) or (drivers and p.kind == "FY")
             fill_rgb = (S.GREY_FY if drivers else S.GREY_BAND) if band else None
-            S.style_cell(hdr, p.label, bold=True, color=S.BLACK, top=True, fill_rgb=fill_rgb)
+            S.style_cell(hdr, p.label, bold=True, color=S.BLACK, top=True, fill_rgb=fill_rgb, align="center")
             if p.end:
-                S.style_cell(ws[f"{L}8"], p.end, fmt="date", color=S.BLACK, fill_rgb=fill_rgb)
+                S.style_cell(ws[f"{L}8"], p.end, fmt="date", color=S.BLACK, fill_rgb=fill_rgb, align="center")
             if p.kind == "Q":
-                S.style_cell(ws[f"{L}9"], p.weeks or 13, color=S.BLACK, fill_rgb=fill_rgb, fmt="general")
+                S.style_cell(ws[f"{L}9"], p.weeks or 13, color=S.BLACK, fill_rgb=fill_rgb, fmt="general", align="center")
             elif p.annual_only or not ax.quarters_of(p.fy):
-                S.style_cell(ws[f"{L}9"], p.weeks or 52, color=S.BLACK, fill_rgb=fill_rgb, fmt="int")
+                S.style_cell(ws[f"{L}9"], p.weeks or 52, color=S.BLACK, fill_rgb=fill_rgb, fmt="int", align="center")
             else:
                 qs = ax.quarters_of(p.fy)
-                S.style_cell(ws[f"{L}9"], f"=SUM({qs[0].letter}9:{qs[-1].letter}9)", color=S.BLACK, fill_rgb=fill_rgb)
+                S.style_cell(ws[f"{L}9"], f"=SUM({qs[0].letter}9:{qs[-1].letter}9)", color=S.BLACK, fill_rgb=fill_rgb, align="center")
             if not drivers and p.report_date and not p.estimate:
-                S.style_cell(ws[f"{L}10"], p.report_date, fmt="date", color=S.BLACK)
+                S.style_cell(ws[f"{L}10"], p.report_date, fmt="date", color=S.BLACK, align="center")
         # the reference puts a thin top border on row 7 across the width
         for c in range(2, self.last_col + 1):
             cell = ws.cell(row=7, column=c)
@@ -240,7 +241,7 @@ class SheetBuilder:
         """Navy section header across the width (white bold label in B, 'x' marker in A)."""
         r = self.row
         if marker:
-            S.style_cell(self.ws[f"A{r}"], "x", color=S.BLACK)
+            S.style_cell(self.ws[f"A{r}"], "x", color=S.BLACK, align="center")
         S.style_cell(self.ws[f"B{r}"], title, bold=True, color=S.WHITE, fill_rgb=S.NAVY)
         for c in range(3, self.last_col + 1):
             self.ws.cell(row=r, column=c).fill = S.fill(S.NAVY)
@@ -576,6 +577,18 @@ class SheetBuilder:
                 fmt = line.get("fmt") or "amount"
             S.style_cell(ws[f"B{r}"], line["label"], bold=line.get("bold", False), italic=line.get("italic", False),
                          color=S.BLACK, top=line.get("top", False), fill_rgb=line.get("fill"))
+            # label indents as in the reference: variance rows one step in on the builds; on the
+            # statements ordinary lines one step, their ratio rows two, totals none
+            indent = line.get("indent")
+            if indent is None:
+                if line.get("kind") == "sub":
+                    indent = 2 if self.fy_fill else 1
+                elif self.fy_fill and not line.get("bold") and not line.get("top"):
+                    indent = 1
+                else:
+                    indent = 0
+            if indent:
+                ws[f"B{r}"].alignment = Alignment(horizontal="left", indent=indent)
             if line.get("top") or line.get("bottom"):
                 for c in range(2, self.last_col + 1):
                     ws.cell(row=r, column=c).border = S.border(top=bool(line.get("top")), bottom=bool(line.get("bottom")))

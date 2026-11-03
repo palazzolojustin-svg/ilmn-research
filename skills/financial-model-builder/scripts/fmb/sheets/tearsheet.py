@@ -175,6 +175,7 @@ def build_tearsheet(ctx: ModelContext, cfg: dict):
             metric_cells[case][label] = f"{cv}{rr}"
             rr += 1
             S.style_cell(ws[f"{c0}{rr}"], f"(x) {mult_label}", color=S.BLACK)
+            ws[f"{c0}{rr}"].alignment = Alignment(horizontal="left", indent=1)
             ws.merge_cells(f"{c0}{rr}:{c1}{rr}")
             S.style_cell(ws[f"{cv}{rr}"], f"={mult_cells[case][label]}", fmt="mult", color=S.BLACK)
             mult_in_block[case][label] = f"{cv}{rr}"
@@ -186,15 +187,15 @@ def build_tearsheet(ctx: ModelContext, cfg: dict):
             ws[f"{c1}{rr}"].fill = S.fill(S.GREY_PT)
             px_cells[case][label] = f"{cv}{rr}"
             rr += 1
-            S.style_cell(ws[f"{c0}{rr}"], "% upside/(downside)", color=S.BLACK)
-            S.style_cell(ws[f"{cv}{rr}"], f"={cv}{rr - 1}/{cur}-1", fmt="pct_plain", color=S.BLACK)
+            S.style_cell(ws[f"{c0}{rr}"], "% upside/(downside)", italic=True, color=S.BLACK)
+            S.style_cell(ws[f"{cv}{rr}"], f"={cv}{rr - 1}/{cur}-1", fmt="pct_plain", italic=True, color=S.BLACK)
             rr += 1
-            S.style_cell(ws[f"{c0}{rr}"], "% IRR", color=S.BLACK)
+            S.style_cell(ws[f"{c0}{rr}"], "% IRR", italic=True, color=S.BLACK)
             td = b.get("target_date")
             if td:
                 d = dt.date.fromisoformat(td) if isinstance(td, str) else td
                 S.style_cell(ws[f"{cv}{rr}"], f"=({cv}{rr - 2}/{cur})^(1/YEARFRAC(DCF!{dcf.get('val_date', '$D$40')},DATE({d.year},{d.month},{d.day})))-1",
-                             fmt="pct_plain", color=S.BLACK)
+                             fmt="pct_plain", italic=True, color=S.BLACK)
             rr += 2
         # blended block
         top = 3 + j * 12
@@ -226,15 +227,15 @@ def build_tearsheet(ctx: ModelContext, cfg: dict):
             ws[f"{col}{rr}"].fill = S.fill(S.GREY_PT)
         S.style_cell(ws[f"Q{rr}"], f"=SUMPRODUCT(N{first}:N{last},Q{first}:Q{last})", fmt=px_fmt, bold=True, color=S.BLACK, fill_rgb=S.GREY_PT)
         r_bl = rr; rr += 1
-        S.style_cell(ws[f"M{rr}"], "% upside/(downside)", color=S.BLACK)
-        S.style_cell(ws[f"Q{rr}"], f"=Q{r_bl}/{cur}-1", fmt="pct_plain", color=S.BLACK)
+        S.style_cell(ws[f"M{rr}"], "% upside/(downside)", italic=True, color=S.BLACK)
+        S.style_cell(ws[f"Q{rr}"], f"=Q{r_bl}/{cur}-1", fmt="pct_plain", italic=True, color=S.BLACK)
         rr += 1
-        S.style_cell(ws[f"M{rr}"], "% IRR", color=S.BLACK)
+        S.style_cell(ws[f"M{rr}"], "% IRR", italic=True, color=S.BLACK)
         td = b.get("target_date")
         if td:
             d = dt.date.fromisoformat(td) if isinstance(td, str) else td
             S.style_cell(ws[f"Q{rr}"], f"=(Q{r_bl}/{cur})^(1/YEARFRAC(DCF!{dcf.get('val_date', '$D$40')},DATE({d.year},{d.month},{d.day})))-1",
-                         fmt="pct_plain", color=S.BLACK)
+                         fmt="pct_plain", italic=True, color=S.BLACK)
         rr += 1
         S.style_cell(ws[f"M{rr}"], "R/R", bold=True, color=S.BLACK)
         n_up = max(1, math.ceil(len(ranked) / 2))
@@ -244,8 +245,10 @@ def build_tearsheet(ctx: ModelContext, cfg: dict):
         _sensitivity(ws, ctx, cfg, b, cases, metric_cells, top, px_fmt, bridge_cash, bridge_debt, shares_ref, fx_ref, cur)
     if len(blended_rows) == 2:
         rr = blended_rows[1] + 2
-        S.style_cell(ws[f"M{rr}"], "Blended R/R", bold=True, color=S.BLACK)
-        S.style_cell(ws[f"Q{rr}"], f"=AVERAGE(Q{blended_rows[0]},Q{blended_rows[1]})", fmt="mult", bold=True, color=S.BLACK)
+        S.style_cell(ws[f"M{rr}"], "Blended R/R", bold=True, italic=True, color=S.BLACK)
+        S.style_cell(ws[f"Q{rr}"], f"=AVERAGE(Q{blended_rows[0]},Q{blended_rows[1]})", fmt="mult", bold=True, italic=True, color=S.BLACK)
+        for col in "MNOPQR":   # boxed, as in the reference
+            ws[f"{col}{rr}"].border = S.border(top=True, bottom=True, left=(col == "M"), right=(col == "R"))
     ctx.tearsheet_cells = {"metric_cells": metric_cells, "px_cells": px_cells, "price": f"D{r0}", "multiples": mult_cells}
     return ws
 
