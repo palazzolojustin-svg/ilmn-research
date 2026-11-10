@@ -1,0 +1,12 @@
+period,clinical_exchina_yoy_pct,prior_year_yoy_pct,two_year_stack_pts,status,basis
+Q1'25,8,7,15,reported,Illumina deck
+Q2'25,10,5,15,reported,Illumina deck
+Q3'25,12,11,23,reported,Illumina deck
+Q4'25,20,8,28,reported,Illumina deck
+FY2025,12,8,20,reported,Illumina deck
+Q1'26,20,8,28,reported,Illumina deck
+Q2'26,15,10,25,reported,Illumina deck
+Q3'26,14,12,26,reported,Q3'26 call
+Q4'26E,12.7,20,32.7,implied,Q4 RoW consumables +5.5% (CFO 5-6%) with R&A -6%; FY mid-teens (15%) gives +11.6%
+FY2026E,15.3,12,27.3,implied,Sum of quarters; matches mid-teens guide
+FY2027E,20.4,15.3,35.7,implied (needed),Total revenue +8.5% on $4.65B; R&A flat; instruments/China/services-microarray-other at Bloomberg consensus 2027 growth

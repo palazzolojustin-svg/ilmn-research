@@ -1,0 +1,30 @@
+2017-01-01 :: Illumina launches NovaSeq; a former manager says Illumina held about 92% instrument share in mid-2017
+2019-01-01 :: Illumina launches genome-wide VeriSeq NIPT v2, its last major NIPT update
+2020-01-01 :: Roche acquires Stratos Genomics, source of SBX technology; FTC blocks Illumina's purchase of PacBio
+2022-01-01 :: NovaSeq X introduced; former insiders date Illumina's flat growth and lost price premium to 2021–22 competition
+2023-01-01 :: Complete Genomics re-enters the US after Illumina pays over $300M in a cross-licensing settlement
+2025-01-01 :: Illumina's Fluent single-cell acquisition closes in early 2025
+2025-02-01 :: Roche unveils SBX sequencing at AGBT 2025
+2025-10-13 :: MGI licenses CoolMPS outside Asia to Swiss Rockets for $20M upfront
+2026-01-01 :: Illumina closes purchase of PacBio's short-read assets for about $48.1M; SomaLogic deal closes in January
+2026-01-13 :: Illumina preannounces Q4 2025 revenue of about $1.16B ahead of the JPM Healthcare Conference
+2026-01-30 :: Illumina completes SomaLogic acquisition ($363M net cash per Barclays)
+2026-02-01 :: MGI agrees to buy nanopore and spatial assets from BGI Tech for Rmb365.7M
+2026-02-05 :: Illumina reports Q4 2025 with >100 NovaSeq X placements and guides 2026 organic growth of 1–3%
+2026-02-19 :: Element Biosciences unveils VITARI high-throughput sequencer
+2026-02-24 :: MGI agrees to sell Complete Genomics for $50M and license StandardMPS in North America to Swiss Rockets
+2026-02-26 :: Roche prices Axelios at $150 per genome and $0.06 per million reads at AGBT
+2026-03-06 :: Barclays downgrades PacBio to Underweight citing long-read competition from Roche and Illumina TruPath
+2026-04-18 :: 10x Genomics launches Atera imaging spatial platform at AACR at about $495,000
+2026-04-30 :: Illumina reports Q1 2026 with >80 NovaSeq X placements and raises guidance
+2026-05-12 :: Roche Diagnostics Day sets summer Axelios launch and ~100 first-year systems target
+2026-06-10 :: JPM upgrades Illumina to Overweight on clinical stickiness, citing a 62-customer survey
+2026-06-29 :: Roche launches Axelios 1 for research use
+2026-06-01 :: Illumina launches StrataMap spatial product (fresh-frozen tissue only)
+2026-07-30 :: Illumina reports Q2 2026 with >95 NovaSeq X placements; clinical consumables growth eases to 15%
+2026-08-05 :: Freedom Broker downgrades Illumina to Hold; PacBio cuts 2026 guidance and pushes breakeven to 2028
+2026-08-19 :: Oxford Nanopore cuts underlying 2026 growth guidance and sets $700M 2030 revenue target
+2026-09-08 :: Roche CEO says about one-third of ~100 first-year Axelios placements are made
+2026-10-01 :: Illumina shares reach about $278, above most analyst targets
+2027-01-01 :: Illumina's 35B NovaSeq X flow cell expected around January 2027
+TERMS_END_PLACEHOLDER_REMOVED

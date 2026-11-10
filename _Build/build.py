@@ -158,7 +158,7 @@ ARCHIVE_RX = [
     r"^roche investor day\.md$",      # Jun-2026 obesity-drug (ADA) call: pharma only
     r"^roche megatranscript\.md$",    # Sep-2026 Pharma Day: pharma only
 ]
-DECKS = {"49": "ILMN_2026Q2_Earnings_Slides.md", "50": "ILMN_2026Q1_Earnings_Slides.md",
+DECKS = {"55": "ILMN_2026Q3_Earnings_Slides.md", "49": "ILMN_2026Q2_Earnings_Slides.md", "50": "ILMN_2026Q1_Earnings_Slides.md",
          "51": "ILMN_2025Q4_Earnings_Slides.md", "52": "ILMN_2026-01-13_JPM_Healthcare_Conference_Slides.md",
          "53": "ILMN_2025Q3_Earnings_Slides.md", "54": "ILMN_2025Q2_Earnings_Slides.md"}
 PEER_TRANSCRIPT_PREFIX = {"Oxford Nanopore": "ONT", "Pacific Biosciences": "PACB", "Thermo Fisher": "TMO"}
@@ -204,6 +204,14 @@ def classify(name, text):
         return E("OTHER", "low_value", "archive", None)
     if any(re.search(rx, name) for rx in ARCHIVE_RX):
         return E("OTHER", "pharma", "archive", None)
+    # Moderated academic-KOL expert interviews ("Moderator: ... | Mon DD, YYYY | NN Min Read"), saved as
+    # "<title>_MM-DD-YYYY.md" (added 2026-11-09).
+    m = re.search(r"_(\d{2})-(\d{2})-(20\d\d)\.md$", name)
+    if m and "Moderator:" in text[:3000]:
+        title = next((l for l in text.splitlines() if l.strip()), name)
+        title = re.sub(r"[#*]", "", title).strip()
+        return E("ILMN", "expert_call", "core", "sonnet",
+                 f"Expert_{m.group(3)}-{m.group(1)}-{m.group(2)}_KOL_{safe_name(title, 90)}.md")
     if "_ROP-SW_" in name:
         if name.startswith(ROCHE_KEEP):
             return E("ROCHE", "research", "core", "sonnet")
@@ -486,7 +494,7 @@ Target length: about {tokens:,} tokens.
 === KNOWN GAPS ===
 {gaps}"""
 
-KNOWN_GAPS = """- Expert calls: 23 distinct calls (4 others were the same call saved from both Tegus and AlphaSense; the duplicates are archived). The goal was 29.
+KNOWN_GAPS = """- Expert calls: 101 distinct calls as of 9 Nov 2026 (23 AlphaSense and Tegus calls from the first build, plus 63 AlphaSense calls and 15 moderated academic KOL interviews added on 9 Nov 2026). Calls saved from both Tegus and AlphaSense, or in several AlphaSense compilations, were de-duplicated.
 - Illumina conference transcripts after the TD Cowen conference of 3 Mar 2026 are missing (likely Bernstein in May, Goldman in June, Morgan Stanley in Sep 2026).
 - Research reacting to Illumina's Q2 2026 results (30 Jul 2026) is in hand from JPM, Barclays, Freedom Broker, Ameriprise and Bloomberg Intelligence, but not from UBS.
 - Earnings call transcripts start at Q1 2023, while the SEC filings start at Q1 2022.
@@ -538,8 +546,13 @@ SECTIONS = [
          brief="Management's appearances at investor conferences and special events (including the 2024 strategy update and AGBT session): what they said beyond the earnings calls, new information, and changes in tone.",
          organize="chronological, one ## heading per event."),
     dict(key="07", file="07_ILMN_Expert_Calls.md", title="Expert Calls on Illumina and the Sequencing Market",
-         tokens=20000, select=lambda e: e["doctype"] == "expert_call", parts="halves", overview=1800,
-         brief="All expert-network calls (former employees, customers, competitors' employees and AI-run channel checks). For each call: who the expert is and their vantage point, then every distinct insight. Close each part with the themes that recur across its calls.",
+         # ~100 calls since the 2026-11-09 ingest; the user asked for as much room as the calls need (~600 tokens each).
+         tokens=68000, select=lambda e: e["doctype"] == "expert_call", overview=3000,
+         parts=lambda e: ("January-March 2026" if (e.get("date") or "") < "2026-04" else
+                          "April-June 2026" if e["date"] < "2026-07" else
+                          "July 1-21, 2026" if e["date"] < "2026-07-22" else
+                          "July 22-August 2026" if e["date"] < "2026-09" else "September-November 2026"),
+         brief="All expert-network calls (former employees, customers, competitors' employees, moderated academic KOL interviews and AI-run channel checks). For each call: who the expert is and their vantage point, then every distinct insight. Close each part with the themes that recur across its calls and how they shifted from earlier periods.",
          organize="one ## heading per call (expert role and date in the heading), then a closing ## Cross-call themes."),
     dict(key="08", file="08_ILMN_Equity_Research.md", title="Sell-Side and Independent Research on Illumina",
          tokens=16000, select=lambda e: e["company"] == "ILMN" and e["doctype"] == "research",
@@ -823,8 +836,12 @@ def build_index(state):
                 lines.append(f"  Extract: `{ex}` · Original: `{sr}`{status}")
             lines.append("")
     outs = sorted(p for p in OUTPUTS.rglob("*") if p.is_file())
+    # keep hand-written " — description" notes that chats add to Outputs entries
+    old = read(WORK / "INDEX.md") if (WORK / "INDEX.md").exists() else ""
+    notes = dict(re.findall(r"^- `(Outputs/[^`]+)`(.+)$", old, re.M))
     lines += ["## Outputs", ""]
-    lines += [f"- `{p.relative_to(WORK).as_posix()}`" for p in outs] or ["- (none yet)"]
+    lines += [f"- `{rel}`{notes.get(rel, '')}" for rel in (p.relative_to(WORK).as_posix() for p in outs)] \
+        or ["- (none yet)"]
     write_atomic(WORK / "INDEX.md", "\n".join(lines) + "\n")
     log("INDEX.md rebuilt.")
 
@@ -1093,10 +1110,12 @@ def cmd_ingest(args):
             entries.append(c)
         else:
             log(f"Could not classify {name}; left in Inbox.")
-    if not entries:
-        log("Inbox is empty; nothing to ingest.")
-        return
-    organize(state, from_dir=INBOX, entries=entries)
+    pending = [k for k, e in state["files"].items() if e["status"] != "done"]
+    if entries:
+        organize(state, from_dir=INBOX, entries=entries)
+    else:   # resume an interrupted ingest without rescanning the folder root (as `run` would);
+            # sections whose inputs are unchanged and already written are skipped, so this is cheap
+        log(f"Inbox is empty; resuming ({len(pending)} pending extract(s), then any unfinished sections).")
     run_extractions(state)
     build_index(state)
     run_sections(state)      # only sections whose inputs changed are rebuilt

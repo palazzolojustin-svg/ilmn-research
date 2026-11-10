@@ -1066,6 +1066,7 @@ def build_spec(inputs: dict, data: dict) -> dict:
                     # realised history of a gross-margin driver is the GM % row of the gross-profit line
                     gp_id = tgt.replace("cogs", "gp") if "cogs" in tgt else tgt + "_gp"
                     d["target"] = {"line": gp_id, "sub": "pct_of"}
+                    d["cost_target"] = tgt   # the cost line the driver projects (build_cost_blocks matches on it)
                 if dtype == "single":
                     # one typed constant lives in the first Drivers & Casing column
                     first = axis.drivers_start_pid()
@@ -1082,10 +1083,12 @@ def build_spec(inputs: dict, data: dict) -> dict:
     roots = {clean_id(r["id"]) for r in inputs.get("revenue_tree", []) if r.get("id") and not r.get("parent")}
     for lid, ln in rev_index.items():
         ln["_top"] = lid in roots and ln.get("kind", "amount") == "amount"
-    cost_blocks, cost_info = build_cost_blocks(inputs.get("cost_tree", []), [dict(d, target=(d.get("target") or {}).get("line")) for d in driver_specs],
+    cost_blocks, cost_info = build_cost_blocks(inputs.get("cost_tree", []), [dict(d, target=d.get("cost_target") or (d.get("target") or {}).get("line")) for d in driver_specs],
                                                dv, axis, rev_index, variance, deltas.get(MARGIN, []),
                                                yn(setup.get("incremental_blocks", "Y")), str(setup.get("sbc_split", "auto")).lower() != "no")
     is_cfg, cf_cfg, bs_cfg, extra = build_statement_blocks(dv, axis, rev_index, cost_info, driver_specs, setup, inputs.get("mapping"))
+    for d in driver_specs:
+        d.pop("cost_target", None)
     # drivers' realised-history targets for the Drivers sheet
     for d in driver_specs:
         if not d.get("target") and d["id"] in [x[0] for x in canon.DEFAULT_DRIVERS]:

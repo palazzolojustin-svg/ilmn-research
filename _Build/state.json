@@ -3947,18 +3947,1719 @@
     "topics": "Q3 2026 earnings, guidance raise, NovaSeq X placements, clinical sequencing, research and applied decline, X transition pricing, tariff refunds, Billion Cell Atlas, BioInsight, SpliceAI2, SomaLogic, multi-omics, AI biology, 2027 outlook, long-range targets, China unreliable entity list, operating leases, share repurchases, extra week in Q4"
    },
    "extract_hash": "59193e97a1007d1a1fd9dbdddc6cce42"
+  },
+  "WGS/transcript/GeneDx_2026-08-03_Q2_2026_Earnings_Call.md": {
+   "company": "WGS",
+   "doctype": "transcript",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "GeneDx_2026-08-03_Q2_2026_Earnings_Call.md",
+   "dest": "GeneDx_2026-08-03_Q2_2026_Earnings_Call.md",
+   "date": "2026-08-03",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "GeneDx (WGS) Q2 2026 Earnings Call: record genome volume, flat reimbursement per test, push to raise collection rates",
+    "company": "WGS",
+    "date": "2026-08-03",
+    "source": "The Motley Fool transcript of the GeneDx Q2 2026 earnings call; speakers Katherine Stueland (CEO), Kevin Feeley (CFO), Mark Gardner (President); analysts from TD Cowen, BTIG, Craig-Hallum, Piper Sandler, Canaccord Genuity, Jefferies, Guggenheim and Freedom Capital Markets",
+    "type": "earnings call",
+    "summary": "GeneDx, a large exome and genome testing lab and a major Illumina sequencing customer, reported Q2 2026 revenue of $114.4 million (up 11%) on a record 30,785 exome and genome tests (up 32%), returned to adjusted profitability a quarter early, and reaffirmed full-year 2026 guidance. Revenue grows slower than volume because the mix shifted toward lower-priced genomes and only about 32% of outpatient genome claims are paid; management says raising collection rates toward about 70% is its biggest opportunity, with real uplift in Q4 2026 and mostly in 2027. Genome costs nearly twice exome costs, mainly because of reagents, and management expects step improvements in 2027.",
+    "topics": "GeneDx, exome, genome, whole genome sequencing, reimbursement, average reimbursement rate, collection rate, Carelon, Medi-Cal, Medicaid coverage, reflex testing, genome mix, reagent cost, cost per test, gross margin, general pediatrics, NICU, Blackstone Life Sciences, debt facility, 2026 guidance, revenue cycle management, Infinity database, competition, sequencing fleet, capex, Illumina customer"
+   },
+   "extract_hash": "c66b7b744d722904d70cc1b37615b6e5"
+  },
+  "ILMN/filing/ILMN_10-Q_2026Q3.md": {
+   "company": "ILMN",
+   "doctype": "filing",
+   "tier": "working",
+   "model": "haiku",
+   "src": "0001110803-26-000207.md",
+   "dest": "ILMN_10-Q_2026Q3.md",
+   "date": "2026-09-28",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Illumina Form 10-Q for the quarter ended September 27, 2026 (Q3 2026)",
+    "company": "ILMN",
+    "date": "2026-10-30",
+    "source": "Illumina, Inc. SEC filing, signed by CEO Jacob Thaysen and CFO Ankur Dhingra",
+    "type": "SEC filing",
+    "summary": "Illumina's Q3 2026 quarterly report shows revenue up 4% to $1,129 million and operating margin up to 27.0%, helped by a net $42 million benefit from tariff refunds. Year-to-date revenue rose 6% and net income reached $561 million, and the company still has about $1.77 billion of buyback authorization. The filing also covers the January 2026 SomaLogic acquisition, a new $1 billion revolving credit facility and commercial paper program, the GRAIL contingent payment rights, and ongoing shareholder and securities litigation.",
+    "topics": "Illumina, ILMN, 10-Q, Q3 2026, sequencing, microarray, consumables, instruments, services, SomaLogic, proteomics, IEEPA tariffs, tariff refunds, gross margin, GRAIL, contingent value rights, share repurchases, term debt, revolving credit facility, commercial paper, China unreliable entities list, NIH funding, Greater China, securities litigation, derivative lawsuits, Standard BioTools, 10b5-1 trading plans, goodwill, intangible assets"
+   },
+   "extract_hash": "2658601006c2720c6842e71172359f78"
+  },
+  "ILMN/deck/ILMN_2026Q3_Earnings_Slides.md": {
+   "company": "ILMN",
+   "doctype": "deck",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "original (55).md",
+   "dest": "ILMN_2026Q3_Earnings_Slides.md",
+   "date": "2026-09-28",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Illumina Q3 2026 Earnings Presentation (slides, results, Q4 and FY26 guidance, non-GAAP reconciliations)",
+    "company": "ILMN",
+    "date": "2026-10-29",
+    "source": "Illumina, Inc. investor presentation; speakers Jacob Thaysen (CEO) and Ankur Dhingra (CFO)",
+    "type": "slides",
+    "summary": "Illumina's Q3 2026 deck shows revenue of $1.17B (excluding tariff refunds), up 4.8% organic and 7.6% reported, with non-GAAP operating margin of 25.0% and EPS of $1.44 (up 7%). More than 80 NovaSeq X instruments were placed, and clinical demand outside China remained the growth driver while research and applied demand kept shrinking. Guidance for FY26 was narrowed to $4.64B-$4.66B revenue and EPS of $5.40-$5.45, with Q4 revenue of $1.22B-$1.24B. A one-time IEEPA tariff refund boosted reported profit but is excluded from all headline metrics and guidance.",
+    "topics": "Q3 2026, NovaSeq X, consumables, instruments, clinical, research and applied, rest-of-world, Greater China, tariff refunds, IEEPA, guidance, FY26, Q4 2026, operating margin, EPS, free cash flow, share repurchase, leverage, microarray, SomaLogic, GRAIL, non-GAAP reconciliation"
+   },
+   "extract_hash": "e89252af44fff3f4f088673dd71bade4"
+  },
+  "ILMN/expert_call/Expert_2026-07-10_KOL_10x_Genomics_and_Illumina_Canadian_Genome_Center_Head_Shares_Perspectives_on_Atera_and_Shi.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "10x Genomics and Illumina_ Canadian Genome Center Head Share..._07-10-2026.md",
+   "dest": "Expert_2026-07-10_KOL_10x_Genomics_and_Illumina_Canadian_Genome_Center_Head_Shares_Perspectives_on_Atera_and_Shi.md",
+   "date": "2026-07-10",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with McGill Genome Centre head on Illumina, Ultima, Roche AXELIOS, and 10x Genomics Xenium and Atera",
+    "company": "ILMN",
+    "date": "2026-07-10",
+    "source": "Guidepoint expert network; moderator Andrew Carmen; expert Ioannis Ragoussis, Head of Genome Sciences at the McGill Genome Centre and Professor of Human Genetics, McGill University",
+    "type": "expert call",
+    "summary": "A Canadian genome centre head, who is a customer and evaluator of every major platform, says Illumina sequencers are fully booked and demand is rising because of national Canadian projects, so he is applying for another NovaSeq X Plus. He reports that Ultima sequencing costs about half of Illumina's but is held back by bespoke software and funding inertia, that Roche's AXELIOS is the one instrument he sees as able to replace Illumina, and that 10x Genomics' new Atera will coexist with Xenium rather than kill it. He does not expect spatial or single-cell shifts to reduce overall sequencing demand.",
+    "topics": "Illumina utilization, NovaSeq X Plus, Ultima UG100 UG200 Solaris 2.0, Roche AXELIOS, 10x Genomics Atera, Xenium, Visium, CosMx, single-cell, spatial transcriptomics, Canadian Personal Health Initiative, Marathon of Hope, Olink, Illumina Protein Prep, Constellation, PacBio Revio, Oxford Nanopore, liquid biopsy, MRD, pricing competition, Canadian funding"
+   },
+   "extract_hash": "4f64c4d2495d8f7e40d5265ed29622a2"
+  },
+  "ILMN/expert_call/Expert_2026-06-16_KOL_10x_Genomics_and_Illumina_Duke_University_School_of_Medicine_Professor_on_Atera_Proteintec.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "10x Genomics and Illumina_ Duke University School of Medicin..._06-16-2026.md",
+   "dest": "Expert_2026-06-16_KOL_10x_Genomics_and_Illumina_Duke_University_School_of_Medicine_Professor_on_Atera_Proteintec.md",
+   "date": "2026-06-16",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Duke genomics core director on 10x Genomics' Atera launch, Proteintech Genomics, the shift from single-cell to spatial, and implications for Illumina sequencing demand",
+    "company": "ILMN",
+    "date": "2026-06-16",
+    "source": "Guidepoint expert call; moderator Andrew Carmen (AC); expert Dr. Simon Gregory (SG), Vice Chair of Research in Neurology, Director of the Molecular Genomics Core, Professor of Neurosurgery, Duke University School of Medicine",
+    "type": "expert call",
+    "summary": "An academic core-facility director who attended the AACR 2026 launch of 10x Genomics' Atera in situ (in-tissue) spatial platform explains why he sees it as a major step beyond Xenium, and why he is raising money to buy one (about $500,000) with delivery hoped for January-February 2027. He reports his core's single-cell work has fallen sharply while spatial work holds steady, and says a move to in situ profiling means fewer sequencing libraries sent to Illumina-based sequencing. He is benchmarking Illumina's StrataMap spatial product against Visium HD, is not currently considering Roche's Axelios, and is looking at Ultima for cheaper sequencing.",
+    "topics": "Atera, Xenium, Visium HD, Chromium, single cell vs spatial, whole transcriptome, Proteintech Genomics, Illumina StrataMap, Bruker CosMx, Element, Singular, Roche Axelios, PacBio Revio, Oxford Nanopore, Ultima, academic funding, NIH grant pressure, sequencing demand, total cost of ownership"
+   },
+   "extract_hash": "2082f557e8dd75659cd154b48f2b8938"
+  },
+  "ILMN/expert_call/Expert_2026-04-21_KOL_AACR_2026_IGM_Executive_Director_Highlights_10x_Genomics_Launch_of_Atera_Illuminas_MultiOm.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "AACR 2026_ IGM Executive Director Highlights 10x Genomics' L..._04-21-2026.md",
+   "dest": "Expert_2026-04-21_KOL_AACR_2026_IGM_Executive_Director_Highlights_10x_Genomics_Launch_of_Atera_Illuminas_MultiOm.md",
+   "date": "2026-04-21",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "AACR 2026 expert call: UCSD genomics core director on 10x Genomics Atera launch, Roche Axelios, Illumina multiomics, ctDNA duplex sequencing and NIH funding pressure",
+    "company": "ILMN",
+    "date": "2026-04-21",
+    "source": "Guidepoint expert call; expert Dr. Kristen Jepsen (Executive Director, IGM Genomics Center, UC San Diego); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A university genomics core director who is a long-time Illumina-dominant customer reacts to AACR 2026. She is very enthusiastic about 10x Genomics' Atera spatial instrument ($495K, 50 units in first release, 2H 2026) and expects it to make Xenium obsolete, is lukewarm on Roche's Axelios (high throughput, not modular, slow library prep) and sees Illumina keeping the clinical market in the near term. She reports weak research demand: her sequencing runs fell about 20% in Q1 2026 versus Q4 2025, with NIH funding delays and multiyear funding hurting academic budgets.",
+    "topics": "10x Genomics, Atera, Xenium, spatial genomics, CosMx, Bruker, Stellaromics, single cell, Perturb-seq, Roche Axelios, SBX, ctDNA, duplex sequencing, Ultima ppmSeq, MRD, Illumina 5-base, multiomics, TAPS, Watchmaker, Oxford Nanopore, PacBio, NovaSeq X Plus, NIH funding, academic budgets, CRO competition, pricing, Illumina discounting"
+   },
+   "extract_hash": "fe9c03a7e58d1d274b1ff4258e33d1b1"
+  },
+  "ILMN/expert_call/Expert_2026-02-27_KOL_AGBT_2026_Genome_Center_Director_Discusses_Roche_Axelios_Challenges_to_Illumina.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "AGBT 2026_ Genome Center Director Discusses Roche Axelios Ch..._02-27-2026.md",
+   "dest": "Expert_2026-02-27_KOL_AGBT_2026_Genome_Center_Director_Discusses_Roche_Axelios_Challenges_to_Illumina.md",
+   "date": "2026-02-27",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "AGBT 2026 expert call: UMN Genomics Center director on Roche Axelios vs. Illumina, Ultima, and Element",
+    "company": "ILMN",
+    "date": "2026-02-27",
+    "source": "Guidepoint expert call; expert Kenneth Beckman (Director, University of Minnesota Genomics Center); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A university core-lab director who attended AGBT 2026 (the genomics industry conference) explains why Roche's new Axelios sequencer is generating excitement, how its announced pricing ($750,000 instrument, about $150 per 30x genome) compares with Illumina, and why he thinks Roche is best positioned to dominate clinical sequencing. He views Illumina's response (35B flow cell, 5-base and mapped-read modes, no new instrument needed) as sensible and attractive to existing owners. He also discusses Ultima, Element VITARI, core-lab outsourcing, and the conservatism of core directors.",
+    "topics": "Roche Axelios, SBX, Xpandomer, simplex vs duplex, NovaSeq X, 35B flow cell, TruPath constellation, 5-base sequencing, Ultima, Element VITARI, core labs, outsourcing, clinical sequencing, MRD, CMOS chip reuse, AGBT 2026, pricing, methylation"
+   },
+   "extract_hash": "60874a64315e4cf5f6132dbb6f8231c7"
+  },
+  "ILMN/expert_call/Expert_2026-01-06_KOL_Illumina_and_10x_4Q2025_and_2026_Trends_in_NGS_Single-Cell_and_Spatial_Genomics_With_a_VCU.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina and 10x_ 4Q2025 and 2026 Trends in NGS, Single-Cell..._01-06-2026.md",
+   "dest": "Expert_2026-01-06_KOL_Illumina_and_10x_4Q2025_and_2026_Trends_in_NGS_Single-Cell_and_Spatial_Genomics_With_a_VCU.md",
+   "date": "2026-01-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with VCU Genomics Core co-director on Illumina and 10x Genomics trends in sequencing, single-cell and spatial (4Q2025 and 2026 outlook)",
+    "company": "ILMN",
+    "date": "2026-01-06",
+    "source": "Guidepoint expert network; moderator Andrew Carmen; expert Gregory A. Buck, Professor and VCU Genomics Core Co-Director, Virginia Commonwealth University School of Medicine",
+    "type": "expert call",
+    "summary": "A long-time academic genomics core director describes his core's shift to higher-throughput Illumina sequencing (new NovaSeq X Plus and iSeq 100), steady 10-20% annual demand growth, and exposure to NIH grant cuts and indirect-cost-rate risk. He reports slow uptake of 10x's Visium HD spatial product, early signs of Illumina's single-cell (PIP-Seq) protocol taking share from 10x Chromium, and views Roche's Axelios as interesting but too early. He remains bullish on sequencing overall, driven by clinical use and falling cost per gigabase.",
+    "topics": "Illumina, NovaSeq X Plus, iSeq 100, NextSeq 2000, MiSeq, 10x Genomics, Chromium, Visium HD, Xenium, spatial genomics, single-cell, PIP-Seq, Parse, Scale, GeoMx, CosMx, NIH funding, indirect costs, tariffs, microbiome, epigenetics, 5-base, protein, SomaLogic, Olink, Roche Axelios, PacBio, Oxford Nanopore, Plasmidsaurus, core facility"
+   },
+   "extract_hash": "31941060052f57b02214721350183398"
+  },
+  "ILMN/expert_call/Expert_2026-02-18_KOL_Illumina_and_10x_Kristin_Beaumont_Previews_AGBT_on_Developments_in_Single_Cell_and_Sequenc.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina and 10x_ Kristin Beaumont Previews AGBT on Developm..._02-18-2026.md",
+   "dest": "Expert_2026-02-18_KOL_Illumina_and_10x_Kristin_Beaumont_Previews_AGBT_on_Developments_in_Single_Cell_and_Sequenc.md",
+   "date": "2026-02-18",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic KOL (Mount Sinai genomics core) previews AGBT 2026 and updates on Q4 2025 / Q1 2026 sequencing, single-cell and spatial spending",
+    "company": "ILMN",
+    "date": "2026-02-18",
+    "source": "Guidepoint expert call; expert Kristin Beaumont (Assistant Professor of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A core-facility director at Mount Sinai who is a customer of Illumina, PacBio and 10x Genomics describes a weak Q4 2025 (spend down at least 20% versus a normal year) followed by a much stronger start to Q1 2026, helped by better federal funding sentiment. She previews AGBT (Roche's new sequencer, Element's surprise high-throughput instrument, PacBio's reusable flow cells and SPRQ-Nx chemistry), explains why she is not shifting work from Illumina to PacBio yet, and discusses 10x Flex v2, spatial growth, methylation and protein. Her view is that Roche and Element are worth watching but it is too early to call them a threat to Illumina.",
+    "topics": "Illumina, 10x Genomics, PacBio, Roche SBX, Element AVITI HT, NovaSeq 6000, NovaSeq X, S4 flow cell, utilization, NIH funding, indirect rates, Flex v2, Visium HD, Xenium, spatial transcriptomics, Revio, SPRQ-Nx, reusable SMRT cells, SomaLogic, 5-base methylation, Scale Biosciences, Dana-Farber, CLIA, tariffs, AGBT 2026"
+   },
+   "extract_hash": "965d244614868bf8876e07bb69681960"
+  },
+  "ILMN/expert_call/Expert_2026-04-29_KOL_Illumina_10x_Genomics_and_Roche_Executive_Director_of_the_Yale_Genome_Center_Shrikant_Mane.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina, 10x Genomics, and Roche_ Executive Director of the..._04-29-2026.md",
+   "dest": "Expert_2026-04-29_KOL_Illumina_10x_Genomics_and_Roche_Executive_Director_of_the_Yale_Genome_Center_Shrikant_Mane.md",
+   "date": "2026-04-29",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Yale Genome Center Executive Director Shrikant Mane on 2026 NIH-funding headwinds, Roche Axelios, 10x Atera spatial platform, Illumina long reads and proteomics",
+    "company": "ILMN",
+    "date": "2026-04-29",
+    "source": "Guidepoint expert call (moderator Andrew Carmen); expert Shrikant Mane, Executive Director of the Yale Genome Center and Professor of Genetics, Yale School of Medicine (academic KOL, customer viewpoint)",
+    "type": "expert call",
+    "summary": "A large academic genome-core director says sequencing demand at his facility is falling (about 10% over the first 9 months of the period he discusses, led by DNA work) because NIH grant money is not being released, and that core labs he contacted are in the same position. He says Roche's Axelios is not a threat to Illumina's NovaSeq X (Illumina is already about $150 per genome and Axelios has unresolved library-prep, pipeline and error-rate issues), is enthusiastic about 10x's new Atera spatial platform but will not buy it soon, and is impressed by Illumina's new synthetic long-read data. He expects funding to stabilize only after roughly 3 to 4 years.",
+    "topics": "NIH funding, core labs, sequencing demand, NovaSeq X, Roche Axelios, SBX, 10x Genomics, Atera, Xenium, CosMx, Bruker, Resolve, Element AVITI, AVITI24, Ultima, PacBio Revio, Vega, Illumina TruePath synthetic long reads, Oxford Nanopore, proteomics, Olink, SomaLogic, Illumina PIPseq, Yale endowment tax, price per genome"
+   },
+   "extract_hash": "fd4a6260294502d13da764e0c942ec8a"
+  },
+  "ILMN/expert_call/Expert_2026-03-19_KOL_Illumina_10x_and_Roche_Nick_Banovich_Professor_and_Director_of_Single-Cell_and_Spatial_Mul.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina, 10x, and Roche_ Nick Banovich, Professor and Direc..._03-19-2026.md",
+   "dest": "Expert_2026-03-19_KOL_Illumina_10x_and_Roche_Nick_Banovich_Professor_and_Director_of_Single-Cell_and_Spatial_Mul.md",
+   "date": "2026-03-19",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Guidepoint expert call with TGen's Nick Banovich on NIH funding, single-cell and spatial platforms, Roche Axelios, Element AVITI24 and Microsoft GigaTIME (Mar 2026)",
+    "company": "ILMN",
+    "date": "2026-03-19",
+    "source": "Guidepoint expert network; moderator Andrew Carmen; expert Dr. Nicholas Banovich, Professor and Director of the Center for Single-Cell and Spatial Multiomics, TGen (City of Hope)",
+    "type": "expert call",
+    "summary": "An academic core-lab director and heavy 10x Genomics user explains that NIH grant success rates fell to 13% in 2025 and are likely to stay there in 2026, and that his lab has shifted spending from single-cell (about $50,000) to spatial (about $500,000) consumables. He sees Illumina's new spatial platform as promising but limited to fresh frozen tissue, and says Illumina's lower NovaSeq X flow-cell pricing makes him wait rather than buy a Roche Axelios or Element AVITI. He regards Roche's simplex mode (about $0.06 per million reads) as potentially transformative for very large single-cell experiments, but found Roche's workflow too slow for rapid clinical genomes, and he thinks Microsoft's GigaTIME is a net positive for spatial companies because AI models need much more measured data.",
+    "topics": "NIH funding, RO1 success rate, multiyear funding, single-cell, spatial biology, 10x Genomics, Xenium, Visium HD, Illumina spatial platform, PIPseq, Parse Biosciences, Flex Apex, Stellaromics Pyxa, Element AVITI24, Singular, CosMx, Roche Axelios, SBX, NovaSeq X, flow-cell pricing, virtual cell, Microsoft GigaTIME, AGBT 2026"
+   },
+   "extract_hash": "0b3af09edc5561a5443e40a97b8f5547"
+  },
+  "ILMN/expert_call/Expert_2026-02-02_KOL_Illumina_PacBio_and_10x_Genomics_2026_Sequencing_and_Single-Cell_Headwinds_and_Axelios_Com.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Illumina, PacBio, and 10x Genomics_ 2026 Sequencing and Sing..._02-02-2026.md",
+   "dest": "Expert_2026-02-02_KOL_Illumina_PacBio_and_10x_Genomics_2026_Sequencing_and_Single-Cell_Headwinds_and_Axelios_Com.md",
+   "date": "2026-02-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with Alvaro Hernandez (University of Illinois DNA core director) on 2026 sequencing and single-cell headwinds, Axelios competition, PacBio strength and new entrants",
+    "company": "ILMN",
+    "date": "2026-02-02",
+    "source": "Guidepoint expert network; moderator Andrew Carmen; expert Alvaro Hernandez, Director of DNA Services, University of Illinois Urbana-Champaign (academic KOL, physician scientist viewpoint)",
+    "type": "expert call",
+    "summary": "A long-time academic core-facility director says billing fell about 15% in the last four months of 2025 (mostly Illumina work) because of grant cancellations, a funding shift toward human research, and aggressive low-price entrants such as Parse, Plasmidsaurus, Ultima and reagent vendors turned service providers. He sees Illumina's new 5-base kit as a bright spot, Roche's Axelios as not yet a threat, PacBio as a surprise winner (10% to 20% of his revenue) and Oxford Nanopore as unreliable. He has paused buying a second NovaSeq X and expects sequencing demand to stay strong but revenues to be squeezed in the short term.",
+    "topics": "Illumina, NovaSeq X Plus, 5-base kit, whole genome methylation, SomaLogic, Roche Axelios, SBX, PacBio Revio, SPRQ, reusable flow cell, Vega, Oxford Nanopore, 10x Genomics, Parse, Ultima, Element, Plasmidsaurus, Visium, Xenium, NIH funding, grant cancellations, core facilities, pricing pressure, H-1B visas"
+   },
+   "extract_hash": "fc7818012f27ff4218e72bb0a5b969c7"
+  },
+  "ILMN/expert_call/Expert_2026-01-28_VP_at_Veritas_Intercontinental_Sees_Limited_Growth_in_NIPT_Market_Shifts_Focus_to_Preventi.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS01.md",
+   "dest": "Expert_2026-01-28_VP_at_Veritas_Intercontinental_Sees_Limited_Growth_in_NIPT_Market_Shifts_Focus_to_Preventi.md",
+   "date": "2026-01-28",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with VP of International Business Development at Veritas Intercontinental (NIPT lab operator, Europe/MEA): limited NIPT growth, commoditization, internalization risk, shift to preventive genomics",
+    "company": "ILMN",
+    "date": "2026-01-28",
+    "source": "Third-party expert network transcript (interview 28 Jan 2026, published 28 Apr 2026); expert is VP International Business Development and Sales Director EMEA at Veritas Intercontinental; interviewer is a buy-side investor (client)",
+    "type": "expert call",
+    "summary": "A senior executive at a large European genetic testing lab (a consultant-perspective expert, current operator) explains that the market for non-invasive prenatal testing (NIPT, a blood test screening a fetus for chromosomal conditions) has matured into a commodity with capped volume growth. Basic-test prices to labs have fallen 40-50% in five to six years while premium tests hold their price, so growth comes from mix shift toward premium tests, acquisitions of struggling small labs and new areas such as preventive genomics. Illumina is the dominant supplier of the sequencers and reagents (the chemical kits used for each run) used by Veritas, and the expert views Illumina as indifferent to customer fragmentation and as having made no major NIPT product update since 2019.",
+    "topics": "NIPT, Illumina VeriSeq, NextSeq 550, NovaSeq X Plus, commoditization, pricing, premium vs standard tests, internalization by public hospitals, reimbursement, Italy, Belgium, Netherlands, Spain, Nordics, Norway, Veritas Intercontinental, lab M&A, preventive genomics, COGS, Element Biosciences, Thermo Fisher, BGI, Invitae, logistics"
+   },
+   "extract_hash": "998e030ae98dca7fe18a939591e0394c"
+  },
+  "ILMN/expert_call/Expert_2026-03-05_Associate_Director_at_Natera_Is_Cautiously_Optimistic_About_New_Sequencing_Technologies_in.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS02.md",
+   "dest": "Expert_2026-03-05_Associate_Director_at_Natera_Is_Cautiously_Optimistic_About_New_Sequencing_Technologies_in.md",
+   "date": "2026-03-05",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Natera Oncology Lifecycle Director on AGBT 2026: NovaSeq X for MRD, Roche's SBX/AXELIOS, Element, and Switching Barriers",
+    "company": "ILMN",
+    "date": "2026-03-05",
+    "source": "Expert-network transcript (buy-side investor-led call; published 2026-06-03, interviewed 2026-03-05); expert is an Associate Director, Oncology Lifecycle Management at Natera",
+    "type": "expert call",
+    "summary": "A current Natera oncology executive, who helps decide on onboarding Illumina machines, gives a customer's reaction to AGBT 2026 (Illumina's annual sequencing conference). They are impressed by NovaSeq X's ultra-low error rate (Q70) and \"MRD at scale\" claims, see Roche's cheap SBX/AXELIOS sequencer as best suited to new labs, and say large established labs like Natera rarely switch from Illumina. They stress that all the data shown is analytical, not clinical, validation.",
+    "topics": "AGBT 2026, NovaSeq X, Q70, MRD, ctDNA, ultra-low limit of detection, Roche AXELIOS SBX, flow cell reuse, Element Biosciences, switching costs, Natera, whole genome sequencing, methylation, batching, price per genome, AACR"
+   },
+   "extract_hash": "be8cc8caaf280e9610fe387efa102e29"
+  },
+  "ILMN/expert_call/Expert_2026-03-06_Director_of_Sequencing_Center_at_University_Sees_Challenges_and_Opportunities_in_Roche_and.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS03.md",
+   "dest": "Expert_2026-03-06_Director_of_Sequencing_Center_at_University_Sees_Challenges_and_Opportunities_in_Roche_and.md",
+   "date": "2026-03-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Sequencing center director debriefs AGBT 2026: Roche AXELIOS, Illumina NovaSeq X upgrades and TruPath, and the pricing war",
+    "company": "ILMN",
+    "date": "2026-03-06",
+    "source": "Expert call (consultant expert, buy-side client); published 2026-06-04; interview 2026-03-06. Expert: Director of a university Sequencing and Technology Center, formerly Alliances & Partnership Ecosystems Manager at Complete Genomics (left Jan 2025)",
+    "type": "expert call",
+    "summary": "A university sequencing core director, who also worked at Complete Genomics until January 2025, reviews the AGBT 2026 conference. They see sequencing as fully commoditized, Roche's new platform (AXELIOS) as solid but with a long 19-20 hour upfront workflow and regulatory complexity around reusable flow cells, and Illumina as \"back\" with NovaSeq-centric launches that may push smaller labs out. They view TruPath (Illumina's synthetic long-read tech) as a credible clinical threat to PacBio and ONT, and Q70 accuracy as of little use.",
+    "topics": "AGBT 2026, Roche AXELIOS, SBX, Illumina NovaSeq X, 5B flow cell, TruPath, Constellation, synthetic long reads, Q70, Ultima UG200, Element, Complete Genomics T1, PacBio, Oxford Nanopore, 10x Genomics, single cell, $150 genome, flow cell reuse, FDA validation, core labs, CROs, pricing, commoditization"
+   },
+   "extract_hash": "f63c4b111977f04e65cf13cbf4e6e261"
+  },
+  "ILMN/expert_call/Expert_2026-03-26_Genomics_Education_Lead_at_Academic_Research_University_Sees_AI_and_Multi-Omics_Shaping_Fu.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS04.md",
+   "dest": "Expert_2026-03-26_Genomics_Education_Lead_at_Academic_Research_University_Sees_AI_and_Multi-Omics_Shaping_Fu.md",
+   "date": "2026-03-26",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a genomics education lead at a Maryland academic university on Illumina demand, long-read shift, AI and multi-omics (interview 2026-03-26)",
+    "company": "ILMN",
+    "date": "2026-03-26",
+    "source": "Channel check expert-call platform (AI Interviewer); expert is a genomics education lead at an academic research university in Maryland (unnamed); published 2026-03-31",
+    "type": "expert call",
+    "summary": "A customer-side academic user (NovaSeq, PacBio, Nanopore) says their Q1 2026 Illumina sequencing volume and consumables spend fell versus Q1 2025 only because the planned work was finished in 2025 after funding cuts forced them to spend faster, not because of price or loyalty problems. They plan to stay with Illumina (service and benchmarked kits), drop Nanopore for PacBio, expect no instrument purchases, and see long-read plus short-read hybrid sequencing, AI analysis and multi-omics (Illumina's SomaLogic deal) as the key trends. They are non-committal on Roche's AXELIOS (SBX) and have heard it may be less accurate than Illumina.",
+    "topics": "Illumina, NovaSeq, PacBio, Oxford Nanopore, Element, Roche AXELIOS, SBX, SomaLogic, proteomics, multi-omics, AI (SpliceAI, PromoterAI, PrimateAI), metagenomics, long-read vs short-read, academic funding, consumables, instrument purchases, core facilities, channel check"
+   },
+   "extract_hash": "73e0af46da80e60b43a6c64fc72d0e2c"
+  },
+  "ILMN/expert_call/Expert_2026-03-26_Director_of_Functional_Genomics_Core_at_University_Sees_Growth_in_Sequencing_Volume_and_Co.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS05.md",
+   "dest": "Expert_2026-03-26_Director_of_Functional_Genomics_Core_at_University_Sees_Growth_in_Sequencing_Volume_and_Co.md",
+   "date": "2026-03-26",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a university functional genomics core director: NovaSeq X volume growth, shift to outsourcing, and rising interest in Element AVITI24 and Ultima",
+    "company": "ILMN",
+    "date": "2026-03-26",
+    "source": "Channel check on an expert-network platform (published 30 Mar 2026; interview 26 Mar 2026); expert is a Director of a Functional Genomics Core at a university in South Carolina; interviewer is an AI interviewer",
+    "type": "expert call",
+    "summary": "A university core-lab director (customer of Illumina, also a heavy Oxford Nanopore user) says their sequencing volume is rising on cheaper NovaSeq X 25B flow cells and outsourcing, even as NIH grant cancellations weigh on demand. They expect 15-20% volume growth in 2026 but falling spending per unit of sequencing, see Illumina holding share while Ultima, Element and possibly a newly independent Complete Genomics gain, and plan to buy an Element AVITI24 because mid-range Illumina reagents are too expensive. Views on Roche AXELIOS, SomaLogic and Fluent BioSciences are explicitly limited or speculative.",
+    "topics": "channel check, university core lab, NovaSeq X Plus, 25B flow cell, NIH funding, NIH S10 grant, consumables pricing, Element AVITI24, Ultima Genomics, Oxford Nanopore, Complete Genomics, BGI, PacBio, Roche AXELIOS SBX, SomaLogic, Fluent BioSciences, single-cell, spatial omics, customer support"
+   },
+   "extract_hash": "4a4ae46b9e0d7d2e0f9606105dcd5919"
+  },
+  "ILMN/expert_call/Expert_2026-03-26_Executive_at_Life_Sciences_Company_Sees_Illumina_Losing_Market_Share_Amid_Rising_Competiti.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS06.md",
+   "dest": "Expert_2026-03-26_Executive_at_Life_Sciences_Company_Sees_Illumina_Losing_Market_Share_Amid_Rising_Competiti.md",
+   "date": "2026-03-26",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with the CEO of Complete Genomics: Illumina expected to lose share to Element, Ultima and Roche (interview 26 Mar 2026)",
+    "company": "ILMN",
+    "date": "2026-03-26",
+    "source": "AI-interviewed channel check (expert network \"Channel Check\" grid, published 29 Mar 2026); expert is the CEO of Complete Genomics (a sequencing competitor), classed as \"Consultant\" perspective; interviewer is an AI",
+    "type": "expert call",
+    "summary": "The CEO of Complete Genomics, a competing sequencing company with 13+ years in the field, says his customers' sequencing volume rose in Q1 2026 versus Q1 2025 because academic funding is less uncertain, but only \"barely\" met his expectations, and his full-year 2026 outlook is less optimistic than 90 days earlier. He sees consumable prices falling and all suppliers, Illumina included, discounting more to win share. He is confident Illumina will lose share as Element, Ultima and Roche (Axelios) bring new products, though he has no concrete evidence yet of who is winning.",
+    "topics": "Complete Genomics, Illumina market share, sequencing price per gigabase, consumables pricing, academic funding, Element Biosciences, Ultima Genomics, Roche Axelios, SomaLogic, multi-omics, NovaSeq, IVD customers, clinical adoption, channel check"
+   },
+   "extract_hash": "cb1e3badac7d9b854d376ad280a24d5b"
+  },
+  "ILMN/expert_call/Expert_2026-03-27_Head_of_Platform_at_Research_Center_Sees_Illumina_Dominance_but_Is_Open_to_New_Sequencing.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS07.md",
+   "dest": "Expert_2026-03-27_Head_of_Platform_at_Research_Center_Sees_Illumina_Dominance_but_Is_Open_to_New_Sequencing.md",
+   "date": "2026-03-27",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with the head of platforms at a Massachusetts biomedical research institute: flat Illumina demand, NIH funding drag, and openness to Roche and others",
+    "company": "ILMN",
+    "date": "2026-03-27",
+    "source": "Expert-network channel check (AI interviewer; published 31 Mar 2026), expert: Head of Platform / executive-team member at a large nonprofit biomedical research institute in Massachusetts (Doctor/Medical Professional perspective)",
+    "type": "expert call",
+    "summary": "A senior executive at a large nonprofit research institute that runs 15 Illumina NovaSeq X Plus instruments says sequencing volume, consumables spending and Illumina pricing were all flat in Q1 2026, with the only growth (about 25% more output) coming from a couple of added instruments. New NIH awards have largely stopped arriving, which makes the full-year 2026 outlook uncertain (hoped-for flat). The expert sees Illumina remaining dominant, long-read platforms losing share, Ultima possibly gaining a little, and Roche's AXELIOS as a credible future competitor on runtime; the expert would likely buy a Roche system when it is commercial if demand for their usual work grows.",
+    "topics": "Illumina, NovaSeq X Plus, NIH funding, consumables pricing, discounts, Roche AXELIOS (SBX), Ultima, Element, PacBio, Oxford Nanopore, 10x Genomics Flex v2, PIPseq, five-base sequencing, Constellation, SomaLogic, Olink, total cost of ownership, customer support, clinical sequencing, oncology, newborn sequencing, biobanks"
+   },
+   "extract_hash": "1e41dac5f8966f632b0a06672cf0b1de"
+  },
+  "ILMN/expert_call/Expert_2026-03-31_Director_at_Cancer_Center_Sees_Challenges_and_Innovations_in_Genomic_Sequencing_Amid_Fundi.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS08.md",
+   "dest": "Expert_2026-03-31_Director_at_Cancer_Center_Sees_Challenges_and_Innovations_in_Genomic_Sequencing_Amid_Fundi.md",
+   "date": "2026-03-31",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Cancer-center genomics core director on ILMN: weak academic funding, price increases, Roche Axelios interest (Q1 2026 channel check)",
+    "company": "ILMN",
+    "date": "2026-03-31",
+    "source": "Channel check expert interview (AI interviewer), published 2 Apr 2026; expert is the Director of a Genomics Shared Resource at a New York cancer center (unnamed)",
+    "type": "expert call",
+    "summary": "A director of a research-use-only genomics core facility at a New York comprehensive cancer center says Q1 2026 sequencing volume is slightly below Q1 2025 because academic funding is tight, with fewer and smaller projects and fewer exploratory studies. Illumina raised reagent, shipping, tariff and service-contract prices (new pricing mid-February), while single-cell and spatial work are growing. The expert would buy a NovaSeq X today, sees Roche's new sequencer (Axelios, formerly SBX) as the most exciting competitor, and rates Illumina's support as exceptional.",
+    "topics": "Illumina, NovaSeq 6000, NovaSeq X, academic funding, core facility, reagent pricing, tariff surcharge, Roche Axelios SBX, Element, Ultima, Oxford Nanopore, 5-base chemistry, constellation long read, SomaLogic, single-cell, spatial, cost per gigabase, customer support"
+   },
+   "extract_hash": "9f20b3dc465909af96d224428b3f2faf"
+  },
+  "ILMN/expert_call/Expert_2026-04-02_Assistant_Director_at_The_Centre_for_Applied_Genomics_Sees_Roches_Potential_in_Clinical_Se.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS09.md",
+   "dest": "Expert_2026-04-02_Assistant_Director_at_The_Centre_for_Applied_Genomics_Sees_Roches_Potential_in_Clinical_Se.md",
+   "date": "2026-04-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call: Canadian genome center director on Roche SBX, Illumina switching thresholds and cost per genome",
+    "company": "ILMN",
+    "date": "2026-04-02",
+    "source": "Expert network transcript (published 16 Apr 2026); Assistant Director at The Centre for Applied Genomics (Canada), interviewed by a buy-side investor; expert perspective \"Consultant\"",
+    "type": "expert call",
+    "summary": "A long-time Illumina customer running a large Canadian research genome center says Illumina is deeply entrenched and would only be displaced by a system that is much cheaper with equal or better data quality. He would switch to Roche's new SBX sequencer at roughly half the current fully loaded genome cost (about CA$200 versus somewhat over CA$400), but remains skeptical Roche can make its Xpandomer chemistry cheaply. He sees Roche's real opening in fast-turnaround clinical diagnostics, not research, and expects Illumina reagent prices to come under pressure.",
+    "topics": "Illumina, NovaSeq X Plus, Roche SBX, Xpandomers, Ultima, Element, PacBio, Oxford Nanopore, cost per genome, switching costs, clinical sequencing, turnaround time, duplex vs simplex, DRAGEN, flow cell reuse, pricing pressure, core facility"
+   },
+   "extract_hash": "8f5d4f061b6e6b80dcf41a16ed9280de"
+  },
+  "ILMN/expert_call/Expert_2026-04-02_Next_Generation_Sequencing_Manager_at_Vanderbilt_University_Medical_Center_Sees_Roche_as_S.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS10.md",
+   "dest": "Expert_2026-04-02_Next_Generation_Sequencing_Manager_at_Vanderbilt_University_Medical_Center_Sees_Roche_as_S.md",
+   "date": "2026-04-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with a Vanderbilt University Medical Center sequencing core manager (customer) on adding Roche, Ultima or Element alongside Illumina",
+    "company": "ILMN",
+    "date": "2026-04-02",
+    "source": "Expert-network transcript (published 16 Apr 2026); interviewer from an investor-led (buy-side) firm; expert is the Next Generation Sequencing Manager at Vanderbilt University Medical Center (name not given)",
+    "type": "expert call",
+    "summary": "A customer who runs an academic sequencing core with only Illumina machines says their leadership wants a second sequencing vendor to cut costs and add options, and that Roche's new sequencer is the leading candidate because of Roche's brand, clinical reach and very fast turnaround. Ultima and Element are also on the table. The expert does not expect to drop Illumina within five years, criticizes Illumina's product releases, support and customer service, but calls Illumina's DRAGEN data analysis a strong point that competitors lack.",
+    "topics": "Illumina, Roche SBX, Ultima Genomics, Element AVITI, 10x Genomics, second-vendor strategy, NovaSeq X, flow cell cost, turnaround time, library prep, DRAGEN, BaseSpace, clinical sequencing, single cell, spatial, customer service, index hopping, patent expiry"
+   },
+   "extract_hash": "755a72a89d350019e8631eeb7499f407"
+  },
+  "ILMN/expert_call/Expert_2026-04-02_Lead_Scientist_at_Healthcare_Company_Optimistic_About_Advances_in_Genomics_and_Sequencing.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS11.md",
+   "dest": "Expert_2026-04-02_Lead_Scientist_at_Healthcare_Company_Optimistic_About_Advances_in_Genomics_and_Sequencing.md",
+   "date": "2026-04-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a senior principal scientist (head of genomics) at a global biopharma, a NovaSeq X Plus customer evaluating Element AVITI24, on Illumina demand, pricing, competition and Roche Axelios (Apr 2026)",
+    "company": "ILMN",
+    "date": "2026-04-02",
+    "source": "Channel check grid / AI-interviewer expert call platform; interview 2 Apr 2026, published 6 Apr 2026; expert is a customer (Senior Principal Scientist, head of genomics at a global biopharmaceutical company); no named analyst (AI Interviewer)",
+    "type": "expert call",
+    "summary": "A customer in preclinical pharma research says its Illumina sequencing output is rising in Q1 2026 because 10x Genomics' new higher-volume Flex kits allow millions of single cells to be profiled, and expects full-year 2026 volume to be higher. Spending on Illumina reagents may be flat or lower because the move from NovaSeq 6000 to NovaSeq X Plus cut kit costs. The expert is price-insensitive, is evaluating Element Bio's AVITI24 for new capabilities (not cost), and sees Roche's Axelios competing mainly in cost-sensitive CRO (contract research organization) settings rather than in internal pharma labs.",
+    "topics": "NovaSeq X Plus, NovaSeq 6000, 10x Genomics Flex v2, single cell, functional genomics, Element AVITI24, Singular G4, in situ sequencing, Roche Axelios SBX, CRO, SomaLogic, Fluent PIPseq, service contracts, pricing, consumables, customer support, multiomics"
+   },
+   "extract_hash": "cfcac0d4a7b5992977ca59619e462d0f"
+  },
+  "ILMN/expert_call/Expert_2026-04-06_Director_at_Dana-Farber_Cancer_Institute_Cautiously_Optimistic_About_Roches_SBX_Sequencer.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS12.md",
+   "dest": "Expert_2026-04-06_Director_at_Dana-Farber_Cancer_Institute_Cautiously_Optimistic_About_Roches_SBX_Sequencer.md",
+   "date": "2026-04-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Dana-Farber core facility director on Roche's SBX sequencer versus Illumina (customer expert call, interview 6 Apr 2026)",
+    "company": "ILMN",
+    "date": "2026-04-06",
+    "source": "Third-party expert network transcript (published 20 Apr 2026); interview by a buy-side investor; expert is Director, Molecular Biology Core Facilities at Dana-Farber Cancer Institute (unnamed)",
+    "type": "expert call",
+    "summary": "A long-time Illumina customer who runs a research sequencing core (about 800-1,000 samples a month, mainly on a NovaSeq X Plus) explains how he would evaluate Roche's new SBX nanopore-based sequencer. He is cautiously optimistic: he expects Roche to cost roughly the same as the NovaSeq X to about 20% less in his real-world usage, to cut turnaround from roughly two weeks to about one week, and to offer better accuracy (duplex mode) and longer reads (simplex mode). He would likely add or switch to Roche over 12-18 months once commercial units ship and look good, and he views Element as more relevant for smaller labs and Ultima as a poor fit. He reports his Illumina spend is growing modestly.",
+    "topics": "Roche SBX, expandomer, nanopore, duplex, simplex, NovaSeq X Plus, Element AVITI, Ultima, Singular, cost per genome, turnaround time, core facility, liquid biopsy, RNA-seq, low allele frequency, switching behaviour, NIH funding, sequencing elasticity, service contract, data storage, Oxford Nanopore"
+   },
+   "extract_hash": "a6c81e9b03ae8a586b43d488b595aa52"
+  },
+  "ILMN/expert_call/Expert_2026-04-06_Executive_VP_at_Broad_Institute_Sees_Roches_Sequencing_Platform_as_Potentially_Disruptive.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS13.md",
+   "dest": "Expert_2026-04-06_Executive_VP_at_Broad_Institute_Sees_Roches_Sequencing_Platform_as_Potentially_Disruptive.md",
+   "date": "2026-04-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Broad Institute Executive VP on Roche's Axelios (SBX) sequencer as a potentially disruptive platform for rapid and counting applications",
+    "company": "ILMN",
+    "date": "2026-04-06",
+    "source": "Expert-call platform transcript (published 20 Apr 2026; interview 6 Apr 2026); expert is an Executive VP at the Broad Institute (consultant perspective); interviewer is a buy-side investor, unnamed",
+    "type": "expert call",
+    "summary": "A senior executive at the Broad Institute, which has run a pre-commercial Roche Axelios sequencer as one of two beta sites, says Roche will most likely enter Broad's production use, first for incremental, speed-sensitive work such as same-day NICU genomes and for \"counting\" applications. Roche's announced pricing (about $150 per genome versus about $200 on Illumina's list price) and fast runtime could be disruptive, but data flow, validation and commercial availability (expected later in 2026) remain open. The expert says Element and Ultima are used only at low volume, and that Broad's Illumina spend was flat in 2024-2025 while data output doubled, with NIH grant funding a key risk.",
+    "topics": "Roche Axelios, SBX, expandomers, nanopore, NovaSeq X Plus, 25B flow cell, price per genome, counting applications, NICU, simplex vs duplex, DRAGEN, Element, Ultima, Broad Institute, NIH funding, clinical labs, single-cell RNA, plasma proteomics, batching"
+   },
+   "extract_hash": "582b5863e180e92418b8d1d75efdd7d6"
+  },
+  "ILMN/expert_call/Expert_2026-04-07_Advisor_at_Biotechnology_Company_Sees_Major_Impact_from_Roches_Axelios_on_Sequencing_Marke.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS14.md",
+   "dest": "Expert_2026-04-07_Advisor_at_Biotechnology_Company_Sees_Major_Impact_from_Roches_Axelios_on_Sequencing_Marke.md",
+   "date": "2026-04-07",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a gene-therapy biotech strategic advisor: Illumina volumes down ~80% on pipeline shift; Roche Axelios seen as a major threat",
+    "company": "ILMN",
+    "date": "2026-04-07",
+    "source": "Expert network channel check (AI interviewer) with a Strategic Advisor at a gene therapy biotech in North Carolina; interview 2026-04-07, published 2026-04-09",
+    "type": "expert call",
+    "summary": "A former director of genomics and data science, now a strategic advisor at a gene therapy biotech, describes an internal core lab whose Illumina NextSeq 2000 sequencing output and consumables spend fell about 80% year over year in Q1 2026, and are expected to stay down about 80% for 2026, because the company stopped early discovery and preclinical work to focus on Phase I clinical development. The drop is company-specific, not caused by pricing or a competitor switch. The expert expects Roche's upcoming Axelios sequencer to have a \"major impact\" on Illumina, mainly among high-volume providers, but says Illumina's installed base, support, switching costs and clinical validation protect it for now.",
+    "topics": "Illumina, NextSeq 2000, Roche Axelios, Oxford Nanopore, PacBio, 10x Genomics, SomaLogic, Olink, TruPath, single-cell prep, consumables, pricing, switching costs, research use only, gene therapy, CRO outsourcing, multi-omics, proteomics, channel check"
+   },
+   "extract_hash": "6a16dae595854fbb0c6984c95a13a612"
+  },
+  "ILMN/expert_call/Expert_2026-04-10_Lab_Manager_at_Academic_Genomics_Lab_Concerned_About_High_Costs_and_Competition_in_Sequenc.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS15.md",
+   "dest": "Expert_2026-04-10_Lab_Manager_at_Academic_Genomics_Lab_Concerned_About_High_Costs_and_Competition_in_Sequenc.md",
+   "date": "2026-04-10",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic genomics lab manager (Massachusetts) on Illumina cost pressure, flat 2026 volumes, competition from commercial providers, and Roche AXELIOS threat",
+    "company": "ILMN",
+    "date": "2026-04-10",
+    "source": "Channel check expert call on an expert-network platform (published 14 Apr 2026; interview 10 Apr 2026), AI interviewer; expert is a lab manager at an academic genomics lab in Massachusetts",
+    "type": "expert call",
+    "summary": "A manager of a university DNA sequencing core facility that runs only older Illumina instruments (NextSeq 500/550 and iSeq 100) says sample submissions and sequencing output have fallen because their cost per sample is higher than commercial providers running NovaSeq X fleets. Output was down about 15% from 2024 to 2025 and about 5% in Q1 2026, and the expert expects no growth in 2026 and has no budget for new instruments. The expert reports higher Illumina list prices offset by discounts, slightly longer delivery times, weaker phone support, and sees Roche's AXELIOS as a mid-to-major threat while viewing the SomaLogic acquisition positively.",
+    "topics": "Illumina, NextSeq 500, NextSeq 550, iSeq 100, NovaSeq X, NovaSeq 6000, MiSeq i100, NextSeq 2000, XLEAP chemistry, cost per sample, multiplexing, academic funding, consumables pricing, lead times, discounting, Roche AXELIOS, SomaLogic, proteomics, PIPseq, QIAGEN GeneGlobe, technical support, secondhand instruments, channel check"
+   },
+   "extract_hash": "c006f5c17874bf3653ae8554ee39fcfa"
+  },
+  "ILMN/expert_call/Expert_2026-04-13_Director_of_Molecular_Pathology_at_Cedars-Sinai_Sees_Genome-Backbone_Testing_as_Future_of.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS16.md",
+   "dest": "Expert_2026-04-13_Director_of_Molecular_Pathology_at_Cedars-Sinai_Sees_Genome-Backbone_Testing_as_Future_of.md",
+   "date": "2026-04-13",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Cedars-Sinai molecular pathology director on genome-backbone testing, NovaSeq X economics and Roche's Axelios (SBX) adoption hurdles",
+    "company": "ILMN",
+    "date": "2026-04-13",
+    "source": "Expert-network transcript (interview 13 Apr 2026, published 27 Apr 2026); expert is a customer, Director of Molecular Pathology at Cedars-Sinai Medical Center; interviewer is an investor-led (buy-side) analyst, unnamed",
+    "type": "expert call",
+    "summary": "A clinical lab director who runs two NovaSeq X Plus systems explains how falling sequencing cost lets labs run one whole genome on every patient and \"slice\" out panels in software, and says he expects nearly every NGS assay to follow this \"genome backbone\" model within about 10 years. He is skeptical that Roche's new Axelios sequencer will win clinical labs already invested in Illumina, arguing Roche priced at $150 per genome when it needed to be $50-$100, and that validation costs make switching unattractive. He says his Illumina spend is rising because cheaper NovaSeq X sequencing let his lab launch new assays and volume that did not exist before.",
+    "topics": "Illumina, NovaSeq X Plus, NovaSeq 6000, Roche Axelios, Xpandomers, nanopore, genome backbone, whole genome sequencing, $200 genome, clinical validation, CLIA, Thermo Fisher Ion Torrent, GeneXus, Oxford Nanopore, Tempus, Guardant, Natera, MRD, ctDNA, consumables margin, flow cell pricing, AMP, AGBT"
+   },
+   "extract_hash": "11493fd66a3f9d6bddfcb268734800dc"
+  },
+  "ILMN/expert_call/Expert_2026-04-14_Manager_at_Genetics_Core_Lab_Sees_Funding_and_Competition_Challenges_Impacting_Sequencing.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS17.md",
+   "dest": "Expert_2026-04-14_Manager_at_Genetics_Core_Lab_Sees_Funding_and_Competition_Challenges_Impacting_Sequencing.md",
+   "date": "2026-04-14",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a genetics core lab manager in Arizona: falling Illumina volumes, Element AVITI24 adoption, funding pressure and Roche Axelios interest (Apr 2026)",
+    "company": "ILMN",
+    "date": "2026-04-14",
+    "source": "AI-interviewer channel check transcript (published 16 Apr 2026); expert is a manager at a university genetics core lab in Arizona; expert name not given",
+    "type": "expert call",
+    "summary": "A manager of a university genetics core lab (an Illumina customer that has also bought an Element AVITI24) reports that its Illumina sequencing output fell about 15%-20% in Q1 2026 versus Q1 2025 and will likely end 2026 at about 80% of 2025. Its spending on Illumina next-generation sequencing consumables is down about 80%, which the expert attributes to shifting work to the Element platform. Illumina's annual February price increase (3%-5%) plus a 3%-5% tariff surcharge raised consumable costs, funding uncertainty and cheap contract research organizations (CROs) are hurting volumes, and the expert has no plans to buy new sequencers in the next 12 months. The expert still describes Illumina technology as \"very proven and very highly favored\" and sees Roche's pre-release Axelios platform as a possible future source of pressure.",
+    "topics": "Illumina, core lab, channel check, Element AVITI24, NextSeq 550, consumables, price increase, tariff surcharge, federal research funding, contract research organizations, Roche Axelios, SBX, Singular, Ultima, SomaLogic, TruSeq genome, cost per base, multiomics"
+   },
+   "extract_hash": "fbaec1ce6f231c922da5a9479ea30c1e"
+  },
+  "ILMN/expert_call/Expert_2026-05-08_Director_of_Product_Marketing_at_Complete_Genomics_Inc_Sees_Roches_New_Platform_as_a_Major.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS18.md",
+   "dest": "Expert_2026-05-08_Director_of_Product_Marketing_at_Complete_Genomics_Inc_Sees_Roches_New_Platform_as_a_Major.md",
+   "date": "2026-05-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Complete Genomics product marketing director sees Roche's new nanopore-based short-read sequencer as the biggest threat to Illumina",
+    "company": "ILMN",
+    "date": "2026-05-08",
+    "source": "Expert network call (transcript published 12 May 2026; interview 8 May 2026). Expert: Director of Product Marketing at Complete Genomics Inc (competitor perspective, ex-Illumina product manager). Questions from a business-led client analyst.",
+    "type": "expert call",
+    "summary": "A current Complete Genomics executive, who previously managed Illumina's diagnostic sequencers (MiSeqDx, NextSeqDx), argues Illumina remains the leader through innovation, cost structure, reputation and a clinical ecosystem that is hard to switch away from. He calls Roche's new platform (nanopore-based, using Xpandomer, short-read output, $150 genome) the number-one threat, estimating a possible 20-30% short-read share in a couple of years, though Roche's pricing disappointed those who feared a price war. He also describes the loss of China as Illumina's first \"materialized\" threat and Illumina's likely responses (assays, instrument discounting, end-to-end solutions).",
+    "topics": "Roche, Xpandomer, nanopore, short-read vs long-read, Complete Genomics, MGI, China, NovaSeq X, TSO500, switching costs, pricing, GRAIL, ecosystem lock-in, Element, Ultima, clinical diagnostics, oncology, spatial, single-cell"
+   },
+   "extract_hash": "db3456368794f81ab9e3539b12fd93be"
+  },
+  "ILMN/expert_call/Expert_2026-05-12_Former_Associate_Director_at_Illumina_Inc._Sees_Sequencing_Market_Growth_Amid_Emerging_Com.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS19.md",
+   "dest": "Expert_2026-05-12_Former_Associate_Director_at_Illumina_Inc._Sees_Sequencing_Market_Growth_Amid_Emerging_Com.md",
+   "date": "2026-05-12",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Former Illumina Associate Director (Portfolio Strategy), now at Bio-Rad, on sequencing market growth, Roche's new platform, Ultima/Element competition and Illumina's strategic choices",
+    "company": "ILMN",
+    "date": "2026-05-12",
+    "source": "Expert-network transcript (published 14 May 2026; interview 12 May 2026); expert is a former Associate Director, Portfolio Strategy at Illumina (left April 2024), now Director, Global Product Marketing - Oncology at Bio-Rad; client analyst unnamed; \"Business-Led\" analyst perspective",
+    "type": "expert call",
+    "summary": "A former Illumina portfolio-strategy lead describes the sequencing market as two segments, research (driven by multi-omics and pharma) and clinical (driven by oncology, especially MRD). The main risks are research funding and non-sequencing technologies. Illumina's dominance rests on its broad platform range, installed base, ecosystem and the high cost of switching in clinical settings. Roche's new nanopore sequencer is seen as promising but not an \"Illumina killer\" in the next few years (maximum ~5% share loss in two years), while Ultima is making inroads in high-throughput, cost-sensitive work. The expert says Illumina must choose between research and clinical, build end-to-end clinical solutions, and may have to cut prices to defend MRD volume.",
+    "topics": "sequencing market growth, multi-omics, MRD, liquid biopsy, clinical oncology, research funding, NIH, long-read vs short-read, Roche nanopore sequencer, Ultima, Element, BGI/MGI, pricing pressure, switching costs, end-to-end solutions, Illumina Connected Insights, proteomics acquisition, 10x Genomics spatial, strategy research vs clinical"
+   },
+   "extract_hash": "2dc80b8c4a260a2da6972da5a9a9dfeb"
+  },
+  "ILMN/expert_call/Expert_2026-06-08_Former_Senior_Manager_at_Illumina_Inc._Believes_Competitive_Pressures_and_Strategic_Challe.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS20.md",
+   "dest": "Expert_2026-06-08_Former_Senior_Manager_at_Illumina_Inc._Believes_Competitive_Pressures_and_Strategic_Challe.md",
+   "date": "2026-06-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with former Illumina senior manager of commercial enablement on competition, strategy and market-share erosion (interview 8 Jun 2026)",
+    "company": "ILMN",
+    "date": "2026-06-08",
+    "source": "Expert-network transcript (published 10 Jun 2026); expert is a former Senior Manager / Associate Director of Commercial Enablement at Illumina (6 years, 2017-2023), business-led perspective; interviewer not named",
+    "type": "expert call",
+    "summary": "A former Illumina commercial-enablement leader (left Dec 2023) argues Illumina's share of the sequencing instrument market has fallen from about 92% in mid-2017 to roughly 70% and will keep eroding, possibly to below 60%, as Element, Ultima and Roche gain ground. He sees Illumina's pivot to software, data and \"bio-insights\" as slow and poorly executed, calls the current executive team a \"maintenance\" team, and names China, the closed-ecosystem model and strategic vacillation as the main headwinds. He is bearish on PacBio and Oxford Nanopore, expecting AI or acquisition to replace or absorb long-read sequencing. Much of the content is opinion and recollection, and some of his figures are unverified or inconsistent.",
+    "topics": "market share, Element Biosciences, Ultima Genomics, Roche SBX, PacBio, Oxford Nanopore, long-read, China, MGI, unreliable entity list, closed vs open ecosystem, bio-insights, AI, software, informatics, SomaLogic, DRAGEN, GRAIL, MRD, clinical sequencing, consumables, chief commercial officer, morale, 2026 revenue"
+   },
+   "extract_hash": "4ee1c9526e1d151aaa5b3ce0a63e5139"
+  },
+  "ILMN/expert_call/Expert_2026-06-25_Laboratory_Leader_at_Regional_Health_System_Believes_In-House_NGS_Testing_Offers_Benefits.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS21.md",
+   "dest": "Expert_2026-06-25_Laboratory_Leader_at_Regional_Health_System_Believes_In-House_NGS_Testing_Offers_Benefits.md",
+   "date": "2026-06-25",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Regional physician-office lab leader on bringing NGS tumor profiling in-house (Illumina NextSeq 2000, co-op partnership, economics, volumes, staffing)",
+    "company": "ILMN",
+    "date": "2026-06-25",
+    "source": "Expert call transcript (published 09 Jul 2026; interview 25 Jun 2026); expert is a laboratory leader at a regional physician office laboratory; interviewer is a buy-side (investor-led) analyst; platform not named",
+    "type": "expert call",
+    "summary": "A laboratory leader at a very large physician office lab explains why and how it brought tumor DNA/RNA next-generation sequencing (NGS) in-house about a year and a half ago, using an Illumina NextSeq 2000 and a bioinformatics partnership with a co-op. Economics are roughly break-even because the lab handles only about 6-10 samples a day versus an expected 50+, after high-ordering oncologists left. The expert says in-house testing beats send-outs on turnaround and control, rates ~90% first-pass collection, would not repeat the decision at current volumes, and sees break-even above about 20 samples a day.",
+    "topics": "in-house NGS, tumor profiling, NextSeq 2000, reagent rental, Genomic Testing Cooperative, bioinformatics, send-out labs, Foundation, Tempus, Guardant, CMS reimbursement, CPT codes, prior authorization, turnaround time, staffing, LDT, Roche sequencer, break-even volume, physician retention"
+   },
+   "extract_hash": "0c0bbc4bc4e16a93bcf1a80733edd783"
+  },
+  "ILMN/expert_call/Expert_2026-06-29_Senior_Director_of_Genomic_Technologies_at_EpiCypher_Believes_Long-Read_Sequencing_Will_Tr.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS22.md",
+   "dest": "Expert_2026-06-29_Senior_Director_of_Genomic_Technologies_at_EpiCypher_Believes_Long-Read_Sequencing_Will_Tr.md",
+   "date": "2026-06-29",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with EpiCypher Senior Director of Genomic Technologies: Illumina NextSeq 2000 user experience, Element and Roche competition, long-read displacement of short-read DNA methylation, MRD and spatial",
+    "company": "ILMN",
+    "date": "2026-06-29",
+    "source": "Expert-network platform transcript (published 2026-07-01), AI interviewer; expert is a Senior Director of Genomic Technologies at EpiCypher (small biotech); name not given",
+    "type": "expert call",
+    "summary": "A hands-on, 15-year Illumina user at a small epigenomics biotech describes why they stay on Illumina's NextSeq 2000 despite paying roughly 15-20% more than alternatives: reliability, support, ecosystem and track record. The expert's main forward-looking view is that long-read sequencing (PacBio, Oxford Nanopore) will take over whole-genome DNA methylation work within 2-3 years because price per gigabase is now at parity. The expert names Roche as the scariest competitor and Illumina's biggest risk as being spread too thin across proteomics, spatial and MRD (minimal residual disease testing).",
+    "topics": "Illumina, NextSeq 2000, P2 cartridge, cost per gigabase, Element, Ultima, BGI, Roche, long-read, PacBio Revio, Oxford Nanopore, DNA methylation, bisulfite, EM-seq, epigenomics, CUT&RUN, CUT&Tag, MRD, distributed whole genome MRD, spatial, single-cell, BaseSpace, Q scores, switching behaviour, competitive risk"
+   },
+   "extract_hash": "b644244909abc7298981f58f0cde2a6a"
+  },
+  "ILMN/expert_call/Expert_2026-07-06_Senior_Director_at_Biotech_Company_Optimistic_About_Sequencing_Technology_Growth_and_Marke.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS23.md",
+   "dest": "Expert_2026-07-06_Senior_Director_at_Biotech_Company_Optimistic_About_Sequencing_Technology_Growth_and_Marke.md",
+   "date": "2026-07-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a senior director of genomic technologies (core lab, epigenomics) on Illumina demand, pricing, competition and new products, July 2026",
+    "company": "ILMN",
+    "date": "2026-07-06",
+    "source": "AI-conducted channel check (expert-network platform, \"AI Channel Checks\", Advanced Sequencing: Illumina); expert is a senior director of genomic technologies at a biotech company (profile tagged \"Doctor/Medical Professional\"); AI Interviewer; published 2026-07-08, interview 2026-07-06",
+    "type": "expert call",
+    "summary": "A senior director who runs a sequencing lab (two Illumina NextSeq 2000s, a PacBio Revio, ONT devices) says their Illumina output and consumables spend are both up about 25% year over year in Q2 2026 and for full-year 2026, as academic spending has normalized after a weak 2025. Illumina list prices were unchanged, but freight charges rose and the product range (SKUs) widened. Their lab's consumables budget has shifted from 75/25 Illumina/PacBio to roughly 50/50 because of the long-read Fiber-seq assay. The expert sees Element as the most successful challenger, Roche's AXELIOS as an initial minor threat, and is most excited about Illumina's StrataMap spatial product, while having little interest in TruPath.",
+    "topics": "Illumina, NextSeq 2000, consumables, academic spending, NIH funding, freight, SKUs, pricing, Element AVITI, Ultima, BGI, Roche AXELIOS, PacBio Revio, Oxford Nanopore, Fiber-seq, StrataMap, TruPath, SomaLogic, multi-omics, spatial, epigenetics, channel check"
+   },
+   "extract_hash": "0ebad3b077d5fa2ed5a7139b3f8d7fce"
+  },
+  "ILMN/expert_call/Expert_2026-07-07_Director_of_NGS_Core_Lab_at_Pharmaceutical_Company_Evaluates_Sequencing_Technologies_and_A.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS24.md",
+   "dest": "Expert_2026-07-07_Director_of_NGS_Core_Lab_at_Pharmaceutical_Company_Evaluates_Sequencing_Technologies_and_A.md",
+   "date": "2026-07-07",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Pharma NGS core lab director (customer) on Illumina volumes, pricing, competitors (Roche, Complete Genomics, Element, Ultima, 10x) and new Illumina products, Q2 2026",
+    "company": "ILMN",
+    "date": "2026-07-07",
+    "source": "Channel check expert-call platform (AI interviewer; published 13 Jul 2026, interview 7 Jul 2026); expert is an unnamed Director of the NGS core lab at a pharmaceutical company (customer perspective)",
+    "type": "expert call",
+    "summary": "A pharma NGS core lab manager with 15 years of experience, who sends roughly 90% of sequencing to Illumina, reports Q2 2026 volume and consumables spend up 3%-5% year over year, driven by bulk sequencing and gene therapy work, with single-cell softer and spatial stronger. Roche and Complete Genomics reagents are about 50% cheaper than Illumina, but the lab will not switch this year because of capital budget priorities, Roche's library prep complexity and Complete Genomics' lack of small flow cells; Roche's AXELIOS is rated a minor threat. The expert is excited about Illumina's TruPath, 5-Base and new spatial products, is lukewarm on SomaLogic, and sees Illumina's customer outreach improving.",
+    "topics": "Illumina, NovaSeq X Plus, MiSeq i100, NextSeq, Roche AXELIOS, Complete Genomics, Element, Ultima, 10x Genomics Atera, Visium HD, TruPath, 5-Base methylation, spatial transcriptomics, SomaLogic, proteomics, ctDNA, consumables pricing, standing order, multi-omics, library prep, gene therapy, channel check"
+   },
+   "extract_hash": "08e9de71525910f054bab487c681738b"
+  },
+  "ILMN/expert_call/Expert_2026-07-07_Director_of_Integrative_Genomics_at_Biotechnology_Company_Sees_Competitive_Advancements_in.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS25.md",
+   "dest": "Expert_2026-07-07_Director_of_Integrative_Genomics_at_Biotechnology_Company_Sees_Competitive_Advancements_in.md",
+   "date": "2026-07-07",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call (channel check): Director of Integrative Genomics at a California biotech on Illumina volumes, discounting, competition (Element, Ultima, Roche AXELIOS), TruPath and SomaLogic, Q2 2026",
+    "company": "ILMN",
+    "date": "2026-07-07",
+    "source": "AI-interviewer channel check (expert network platform), published 13 Jul 2026; expert is a consultant, Director of Integrative Genomics at a biotechnology company in California (unnamed)",
+    "type": "expert call",
+    "summary": "A customer-side lab director with 20+ years in sequencing says their Illumina sequencing output and consumables spending rose about 20% year over year in Q2 2026, driven by volume (single-cell, multi-omic and AI/ML data demand), not price. Illumina applied an extra 30%-40% discount (no list price change) on the NextSeq 2000 largest flow cell used for single-cell work, which the expert reads as a response to cheaper competitors. The expert sees Element Bio (mid-output) and Ultima (very high output) gaining favor, Roche AXELIOS as a likely clinical niche, Illumina as behind in single-cell and spatial assays but strengthened by TruPath and SomaLogic, and capital purchases as budget-constrained.",
+    "topics": "channel check, Illumina, NextSeq 2000, NovaSeq X, MiSeq, consumables pricing, flow cell discount, Element Bio, Ultima Genomics, Roche AXELIOS, Oxford Nanopore, Complete Genomics, 10x Genomics, single-cell, spatial, in situ sequencing, TruPath, SomaLogic, proteomics, CapEx budgets, CROs, tech support, AI/ML data demand"
+   },
+   "extract_hash": "c1c0867a4f1060dc43a81869e4ace72f"
+  },
+  "ILMN/expert_call/Expert_2026-07-08_Senior_Principal_Scientist_at_Biopharmaceutical_Company_Optimistic_About_Growth_in_Genomic.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS26.md",
+   "dest": "Expert_2026-07-08_Senior_Principal_Scientist_at_Biopharmaceutical_Company_Optimistic_About_Growth_in_Genomic.md",
+   "date": "2026-07-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a pharma Head of Genomics: Perturb-seq boom lifts NovaSeq X Plus consumption, Atera and Axelios seen as limited threats (Jul 2026)",
+    "company": "ILMN",
+    "date": "2026-07-08",
+    "source": "Channel check expert-call platform (AI Interviewer); expert is a Senior Principal Scientist and Head of Genomics at a global biopharmaceutical company. Transcript published 13 Jul 2026, interview held 8 Jul 2026.",
+    "type": "expert call",
+    "summary": "A customer of Illumina inside a large pharma preclinical research group says their Q2 2026 sequencing output rose almost 50% year over year and full-year 2026 may roughly double, driven by large-scale Perturb-seq (CRISPR gene-editing screens read out in single cells) using 10x Genomics Flex kits on NovaSeq X Plus 25B flow cells. The expert is price-tolerant, sees Roche's Axelios as only a minor threat because of switching costs and depreciation rules, and sees a modest future risk from imaging-based spatial platforms such as Atera. They are satisfied with Illumina service and expect Illumina to remain relevant.",
+    "topics": "Perturb-seq, 10x Genomics Flex, NovaSeq X Plus, 25B flow cells, consumables, Atera, Element AVITI24, Ultima, Roche Axelios, switching costs, depreciation, long-read, SomaLogic, spatial, clinical adoption, channel check"
+   },
+   "extract_hash": "43ff6de4d42d58297db2454edf105787"
+  },
+  "ILMN/expert_call/Expert_2026-07-08_Director_at_Genomics_Research_Center_Confident_in_Sequencing_Market_Growth_and_Evaluates_E.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS27.md",
+   "dest": "Expert_2026-07-08_Director_at_Genomics_Research_Center_Confident_in_Sequencing_Market_Growth_and_Evaluates_E.md",
+   "date": "2026-07-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with an assistant director of a Canadian genome center on Illumina volumes, pricing, Roche AXELIOS and competitors (Q2 2026)",
+    "company": "ILMN",
+    "date": "2026-07-08",
+    "source": "Channel check grid (AI Interviewer; interview 08 Jul 2026, published 13 Jul 2026); expert is an Assistant Director at a Genomics Research Center in Canada",
+    "type": "expert call",
+    "summary": "A customer of Illumina (assistant director of a large hospital-based genome center in Canada) says their Illumina sequencing output rose about 15% in Q2 2026 versus Q2 2025 and is forecast to rise about 15% for full-year 2026, driven by high single-digit organic growth plus ramping federally funded projects. Prices, inventory and lead times are stable. The expert sees Roche's upcoming AXELIOS as a potential major threat to Illumina, but probably not for 6-12 months, and is not interested in Illumina's proteomics or TruPath offerings.",
+    "topics": "Illumina, NovaSeq X Plus, consumables, sequencing volume, Roche AXELIOS, Expandamer, Ultima Genomics, Oxford Nanopore, PacBio, TruPath, SomaLogic, proteomics, Complete Genomics, Element, genome centers, channel check, Canada, pricing, epigenetics"
+   },
+   "extract_hash": "6b310e8569da4b9157a46f5ede649a97"
+  },
+  "ILMN/expert_call/Expert_2026-07-09_Director_at_Academic_Research_Center_Sees_Competitive_Shifts_in_Sequencing_Platforms_Amid.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS28.md",
+   "dest": "Expert_2026-07-09_Director_at_Academic_Research_Center_Sees_Competitive_Shifts_in_Sequencing_Platforms_Amid.md",
+   "date": "2026-07-09",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Ivy League genomics core director (channel check) on Illumina demand, pricing, share loss to Element/Roche/Ultima, StrataMap spatial and TruPath",
+    "company": "ILMN",
+    "date": "2026-07-09",
+    "source": "AI-interviewer channel check on an expert-network platform; interview 9 Jul 2026, published 13 Jul 2026; speaker is an anonymous director of an Ivy League university genomics core facility (consultant perspective)",
+    "type": "expert call",
+    "summary": "A genomics core facility director who runs Illumina NovaSeq X and a PacBio Revio says Q2 2026 sequencing output rose about 15% year over year from a weak, funding-hit Q2 2025 base, with 10-15% growth expected for full-year 2026, helped by cheaper 10x single-cell and spatial reagents. Illumina consumable spending is flat to down up to 5% because of lower flow-cell pricing, and the expert sees Illumina's price only going down. The expert expects Illumina to lose share to Element (their pick), Roche AXELIOS and Ultima, with new-instrument share falling to roughly 60-70%, and is most hopeful about Illumina's new StrataMap spatial slides while calling TruPath niche.",
+    "topics": "Illumina, NovaSeq X, MiSeq i100 Plus, Roche AXELIOS SBX, Element AVITI, Ultima UG200, PacBio Revio, 10x Genomics Visium HD, Atera, Xenium, StrataMap, TruPath Genome, SomaLogic, Olink, academic funding, NIH, tariff surcharge, price per genome, market share, channel check"
+   },
+   "extract_hash": "483606faa35c9e0fb4055241a1121b91"
+  },
+  "ILMN/expert_call/Expert_2026-07-09_Next_Generation_Sequencing_Manager_at_Academic_Core_Lab_Sees_Competitive_Dynamics_Shaping.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS29.md",
+   "dest": "Expert_2026-07-09_Next_Generation_Sequencing_Manager_at_Academic_Core_Lab_Sees_Competitive_Dynamics_Shaping.md",
+   "date": "2026-07-09",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic Core Lab NGS Manager (Vanderbilt) Channel Check on Illumina: Q2 2026 Volume Rebound, Tariff Pricing Fight, and Share Loss Risk to Ultima and Element",
+    "company": "ILMN",
+    "date": "2026-07-09",
+    "source": "Channel check expert call on an expert-network platform (AI Interviewer), published 2026-07-13; expert is a Next Generation Sequencing Manager at an academic core lab serving Vanderbilt University Medical Center (Tennessee)",
+    "type": "expert call",
+    "summary": "A customer-side expert at an academic sequencing core lab reports that their Illumina sequencing output rose about 18% year over year in Q2 2026 (a rebound from a soft Q2 2025, helped by fiscal-year-end spending), and expects 8%-10% growth for full-year 2026. Net reagent price rose only about 1% after the lab fought a surprise tariff charge, and the expert believes Illumina will lose share, mainly to Ultima and secondarily to Element, while Roche's Axelios is seen as a slower, mid-level threat. The lab is likely to buy an Ultima instrument before December 2026 and is newly enthusiastic about Illumina's TruPath Genome and Constellation methylation products.",
+    "topics": "Illumina, channel check, core lab, Q2 2026, sequencing volume, consumables pricing, tariffs, Ultima Genomics, Element Biosciences, Roche Axelios, TruPath Genome, Constellation methylation, DRAGEN, SomaLogic, Olink, NIH funding, customer support, instrument pricing, share loss"
+   },
+   "extract_hash": "6b3e5b8a9f6d10b016faa30e883c0736"
+  },
+  "ILMN/expert_call/Expert_2026-07-10_Senior_Genomic_Medicine_Scientist_at_Clinical_Research_Organization_Sees_Spatial_Transcrip.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS30.md",
+   "dest": "Expert_2026-07-10_Senior_Genomic_Medicine_Scientist_at_Clinical_Research_Organization_Sees_Spatial_Transcrip.md",
+   "date": "2026-07-10",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a senior genomic medicine scientist at a clinical research organization: weak Q2 2026 sequencing volumes, spatial transcriptomics demand, Illumina loyalty",
+    "company": "ILMN",
+    "date": "2026-07-10",
+    "source": "AI-interviewer channel check (expert interview 10 Jul 2026, published 15 Jul 2026); expert is a senior genomic medicine scientist / associate scientific director at a North Carolina clinical research organization (name not given)",
+    "type": "expert call",
+    "summary": "A long-time Illumina customer at a clinical research organization (CRO) says her/their lab's Q2 2026 sequencing output and consumables spending were down roughly 10-15% versus Q2 2025 because of budget and funding uncertainty, with a very weak May and a strong June rebound. The expert expects full-year 2026 output to be about 15% below 2025 (worse than the 10% first expected), is loyal to Illumina, sees Roche's AXELIOS as only a minor threat and PacBio losing traction, and calls spatial transcriptomics the hottest trend with proteomics (helped by Illumina's SomaLogic acquisition) next. Equipment upgrade plans have been pushed back because utilization is lower.",
+    "topics": "channel check, CRO, sequencing volume, consumables, budget uncertainty, NovaSeq, NextSeq, MiSeq, NovaSeq X, spatial transcriptomics, proteomics, SomaLogic, TruPath Genome, Roche AXELIOS, PacBio Revio, Oxford Nanopore, pricing, equipment purchases, long-read vs short-read"
+   },
+   "extract_hash": "bd724cb1e38855a1dfe20e9ca8927933"
+  },
+  "ILMN/expert_call/Expert_2026-07-13_Senior_Director_at_Thermo_Fisher_Scientific_Inc_Sees_Outsourcing_and_Innovation_Driving_Co.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS31.md",
+   "dest": "Expert_2026-07-13_Senior_Director_at_Thermo_Fisher_Scientific_Inc_Sees_Outsourcing_and_Innovation_Driving_Co.md",
+   "date": "2026-07-13",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Thermo Fisher Senior Director on Outsourcing, Value Splits and Competitive Pressure on Illumina in Cancer Diagnostics Hardware (Expert Call, 13 Jul 2026)",
+    "company": "ILMN",
+    "date": "2026-07-13",
+    "source": "Expert call transcript (interview 13 Jul 2026, published 11 Oct 2026); expert is a Senior Director, Strategic Program Management at Thermo Fisher Scientific; client analyst unnamed",
+    "type": "expert call",
+    "summary": "A Thermo Fisher senior director describes how the hardware behind cancer tests (multi-cancer early detection, minimal residual disease, companion diagnostics) is built and how much of it is outsourced. They say Illumina's razor-blade model gives it a very high consumables attach rate, but that its dominant position is being eroded by Element, long-read players, 10x/Parse and especially Roche's new lower-cost sequencing platform. They say Illumina has cut prices and is likely to use more outsourcing to lower costs and to widen its ecosystem (single-cell, spatial, sample prep, AI software).",
+    "topics": "Illumina, outsourcing, contract manufacturing, MCED, MRD, companion diagnostics, razor-blade model, attach rate, Roche Axelios, sequencing by expansion, Element Biosciences, PacBio, Oxford Nanopore, 10x Genomics, Parse, QIAGEN, Fluent, GRAIL, Guardant, Hamamatsu, Jabil, microfluidics, flow cells, gross margins, AI in sequencing, price cuts"
+   },
+   "extract_hash": "b2567c4a67422f479e8ec3b4dba4264c"
+  },
+  "ILMN/expert_call/Expert_2026-07-13_Vice_President_at_Biotechnology_Company_Optimistic_About_Growth_in_Next-Generation_Sequenc.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS32.md",
+   "dest": "Expert_2026-07-13_Vice_President_at_Biotechnology_Company_Optimistic_About_Growth_in_Next-Generation_Sequenc.md",
+   "date": "2026-07-13",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a biotech bioinformatics VP: small in-house Illumina fleet (2 MiSeq, 1 NextSeq) expanding for turnaround time; Roche Axelios seen as a minor threat because of validation costs",
+    "company": "ILMN",
+    "date": "2026-07-13",
+    "source": "AI-interviewed expert call (channel check grid, \"Advanced Sequencing: Illumina, Inc. (ILMN)\"); expert is a Vice President at a biotechnology company who leads a bioinformatics core group; interview 13 Jul 2026, published 16 Jul 2026",
+    "type": "expert call",
+    "summary": "A bioinformatics lead at a biotech company with a small internal sequencing core (two MiSeq and one NextSeq, all Illumina) says Q2 2026 sequencing output and consumables spend are rising sharply because the lab added instruments to shorten turnaround time. The expert sees no change in pricing, lead times, inventory or support, rates Roche's Axelios as a minor threat because switching requires expensive validation against legacy Illumina data, and expects Oxford Nanopore to gain at PacBio's expense rather than Illumina's. The expert is not interested in Illumina's human-centric products (spatial, TruPath Genome) because their work is on non-model organisms. This is a single small-lab data point, not a broad market read.",
+    "topics": "channel check, MiSeq, NextSeq, NovaSeq, turnaround time, consumables, pricing, switching costs, validation, Roche Axelios, Oxford Nanopore, PacBio, TruPath Genome, spatial transcriptomics, SomaLogic, customer support, non-model organisms, clinical sequencing, infectious disease"
+   },
+   "extract_hash": "b28592042e1969e5c8eb6afdde013197"
+  },
+  "ILMN/expert_call/Expert_2026-07-14_Specialist_at_Massachusetts_Hospital_Discusses_Trends_in_Sequencing_and_Spatial_Transcript.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS33.md",
+   "dest": "Expert_2026-07-14_Specialist_at_Massachusetts_Hospital_Discusses_Trends_in_Sequencing_and_Spatial_Transcript.md",
+   "date": "2026-07-14",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a single-cell and spatial genomics core specialist at a Massachusetts hospital on Illumina sequencing demand, spatial transcriptomics and competition (Q2 2026)",
+    "company": "ILMN",
+    "date": "2026-07-14",
+    "source": "AI-conducted channel check (AI Interviewer) with a Doctor/Medical Professional expert; interview 14 Jul 2026, published 17 Jul 2026; expert unnamed",
+    "type": "expert call",
+    "summary": "A single-cell genomics specialist at a hospital-based cellular profiling core in Massachusetts reports that their Illumina sequencing output and consumables spend are down about 15%-20% year over year in Q2 2026 and are forecast to fall a similar amount for full-year 2026, because users are shifting from single-cell work to spatial transcriptomics platforms (especially 10x Genomics Xenium and the coming Atera) that bypass the sequencer. Academic demand is weaker (grants shrinking) while biotech demand for large atlas projects is rising. Illumina pricing has been unchanged for at least two years in the expert's experience; the expert sees Illumina's coming spatial product and SomaLogic protein platform as exciting but sees cost and data-analysis usability as hurdles, and sees Roche's Axelios as a major threat only if Illumina does not cut prices.",
+    "topics": "Illumina, NovaSeq X Plus, single-cell, FLEX, spatial transcriptomics, Xenium, Xenium 5K, 10x Genomics Atera, Visium, Illumina spatial, TruPath Genome, Roche Axelios, SomaLogic, BaseSpace Sequence Hub, academic funding, biotech demand, consumables, pricing, channel check"
+   },
+   "extract_hash": "f2620f4f5c50503819ef9e395e56feb7"
+  },
+  "ILMN/expert_call/Expert_2026-07-16_Director_at_Academic_Medical_Center_Optimistic_About_Sequencing_Growth_Amid_Competitive_Dy.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS34.md",
+   "dest": "Expert_2026-07-16_Director_at_Academic_Medical_Center_Optimistic_About_Sequencing_Growth_Amid_Competitive_Dy.md",
+   "date": "2026-07-16",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with an academic core-lab director (all-Illumina, New York): Q2 2026 sequencing volume up ~20%, library-prep share loss, Roche AXELIOS seen as minor-but-potentially-major threat",
+    "company": "ILMN",
+    "date": "2026-07-16",
+    "source": "Channel check expert call (AI Interviewer; published 20 Jul 2026, interview 16 Jul 2026). Expert: director and professor running a genomic sequencing core at an academic medical center in New York (anonymous); expert perspective \"Doctor/Medical Professional\"",
+    "type": "expert call",
+    "summary": "A director who has run an academic sequencing core for 14 years, using only Illumina sequencers (NovaSeq X Plus, NovaSeq 6000, NextSeq 2000), reports Q2 2026 sequencing output up about 20% year over year and expects about 15% growth for full-year 2026, helped by federal policy that steers work away from certain non-U.S. providers. Spending on Illumina consumables is falling because about 30% of the lab's library-prep volume has moved to other vendors on cost, miniaturization and performance, even as Illumina raised prices 5-10% in early 2026. The expert sees Roche's AXELIOS as a minor threat initially with potential to become major, expects Illumina to lose some share over 12 months, and is most excited about Illumina's StrataMap spatial product while being uninterested in TruPath Genome and SomaLogic.",
+    "topics": "academic core lab, NovaSeq X Plus, NovaSeq 6000, NextSeq 2000, MiSeq i100 Plus, sequencing volume, federal funding, tariffs, 1271 list, library prep share loss, consumables pricing, trade-in credits, Roche AXELIOS, Element AVITI, VITARI, Ultima, Singular, 10x Genomics Atera, StrataMap, TruPath Genome, SomaLogic, Olink, technical support, channel check"
+   },
+   "extract_hash": "f9e65412c8aef897f3953aef4ff1405f"
+  },
+  "ILMN/expert_call/Expert_2026-07-18_Research_Scientist_at_Academic_Research_Lab_Discusses_Genomic_Sequencing_Trends_and_Compet.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS35.md",
+   "dest": "Expert_2026-07-18_Research_Scientist_at_Academic_Research_Lab_Discusses_Genomic_Sequencing_Trends_and_Compet.md",
+   "date": "2026-07-18",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic cancer-research lab sequencing scientist (MD Anderson) on Illumina volumes, pricing, Roche AXELIOS threat and SomaLogic – channel check, Jul 2026",
+    "company": "ILMN",
+    "date": "2026-07-18",
+    "source": "AI-interviewer channel check on an expert-network platform (published 23 Jul 2026); expert is a research scientist at an academic research lab in Illinois who describes their employer as MD Anderson; expert perspective tagged \"Doctor/Medical Professional\"",
+    "type": "expert call",
+    "summary": "A customer-side channel check with an academic lab user of Illumina NextSeq 500/550 and NovaSeq 6000 instruments. The expert reports Q2 2026 sequencing output up about 10% year over year, full-year 2026 growth of 10-15%, and consumables spending up 10-15%, all volume-driven and funded by a new $2 million CPRIT grant. Prices rose only mildly (about 5% at most) and support is praised. The expert sees Roche's AXELIOS as a \"major to medium\" threat that could take 20-30% of the market, and views the SomaLogic acquisition as neutral to slightly negative.",
+    "topics": "channel check, academic lab, MD Anderson, NextSeq, NovaSeq 6000, CPRIT funding, NIH/government funding uncertainty, consumables, pricing, inventory, Roche AXELIOS, Xpandomer, MiSeq i100, TruPath Genome, SomaLogic, 10x Genomics, single-cell, spatial, customer support"
+   },
+   "extract_hash": "d6641e36d0b15f35b993753b907daa47"
+  },
+  "ILMN/expert_call/Expert_2026-07-21_Director_at_Cancer_Center_Discusses_NGS_Operations_Budget_Challenges_and_Emerging_Sequenci.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS36.md",
+   "dest": "Expert_2026-07-21_Director_at_Cancer_Center_Discusses_NGS_Operations_Budget_Challenges_and_Emerging_Sequenci.md",
+   "date": "2026-07-21",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert Call (Channel Check): Cancer Center Molecular Lab Director on Illumina Volumes, a Mid-Double-Digit Budget Cut, NovaSeq X Plus Fit, Roche Axelios, and TruPath Interest",
+    "company": "ILMN",
+    "date": "2026-07-21",
+    "source": "AI-interviewer channel check (published 2026-07-24); expert is an associate director of a molecular diagnosis lab at a large NCI-designated cancer center in Pennsylvania (clinical oncology NGS, Illumina short-read plus access to Oxford Nanopore long-read)",
+    "type": "expert call",
+    "summary": "A clinical cancer-center lab reports Q2 2026 sequencing volume and Illumina consumable spend up about 20% year over year, helped by a hospital policy to bring tests in-house, but essentially flat versus Q1 2026. A hospital budget for next year, passed in July, was cut by a mid-double-digit percent (far more than the 10-20% the lab feared a month earlier), so the expert expects flat-to-lower volume in Q3 and Q4, no new instrument purchases for about two years, and possibly a request for further Illumina discounts. The expert still rates Illumina best on quality and cost per sample, praises DRAGEN, sees Roche's Axelios as a potentially big threat in one to two or more years, and would be very likely to try Illumina's TruPath long-read approach if it ran on the same machines.",
+    "topics": "Illumina, clinical oncology NGS, hospital budget cut, NovaSeq X Plus, NextSeq 2000, consumables pricing, in-sourcing from Caris, DRAGEN, QIAGEN QCI, Roche Axelios, Oxford Nanopore, Complete Genomics/BGI, Element, TruPath Genome, SomaLogic protein sequencing, turnaround time, flow cell utilization, ctDNA, channel check"
+   },
+   "extract_hash": "697f6e0ccdeb887a86f75a9837c5a225"
+  },
+  "ILMN/expert_call/Expert_2026-07-21_Former_Director_at_Illumina_Inc_Believes_Strategic_Diversification_and_RD_Investment_Will.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS37.md",
+   "dest": "Expert_2026-07-21_Former_Director_at_Illumina_Inc_Believes_Strategic_Diversification_and_RD_Investment_Will.md",
+   "date": "2026-07-21",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Former Illumina Director of Commercial Excellence on Illumina's Durability, Competitors (Element, Roche SBX, MGI/BGI, Ultima, PacBio, ONT), Grail, Diversification and Reimbursement",
+    "company": "ILMN",
+    "date": "2026-07-21",
+    "source": "Expert-network interview transcript (published 23 Jul 2026; interview 21 Jul 2026); buy-side (investor-led) client interviewer; expert is a former Director, Commercial Excellence and Sales Enablement at Illumina",
+    "type": "expert call",
+    "summary": "A former Illumina commercial-enablement director (left roughly two months before the call) says Illumina is still the clear leader in high-throughput sequencing thanks to accuracy, installed base, service and software, though Element is the most real threat and Roche's SBX will start chipping away at NovaSeq X. The expert describes weaknesses (highest price, longer sample prep, leadership turnover after Grail, free giveaways by MGI/BGI), explains why bioinformatics was bundled free, and says clinical reimbursement is the biggest headache. The expert is more confident in Illumina's position than a year earlier, and favors partnering with pharma in the clinical realm.",
+    "topics": "Illumina durability, NovaSeq X, Element Biosciences, Roche SBX, MGI, BGI, Ultima Genomics, PacBio, Oxford Nanopore, Thermo Fisher, Grail divestiture, Fluent single-cell, 10x Genomics, DRAGEN bioinformatics, SomaLogic, multiomics, reimbursement, clinical adoption, Foundation Medicine, Guardant, China ban"
+   },
+   "extract_hash": "8e256cef569f5d6dc97665330ca2b1b5"
+  },
+  "ILMN/expert_call/Expert_2026-07-21_Director_of_Molecular_Biology_and_Virology_at_Solvias_Believes_Illumina_Maintains_Dominanc.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS38.md",
+   "dest": "Expert_2026-07-21_Director_of_Molecular_Biology_and_Virology_at_Solvias_Believes_Illumina_Maintains_Dominanc.md",
+   "date": "2026-07-21",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with a Solvias/Divergene molecular biology director (ex-Roche sequencing market development) on Illumina's clinical NGS dominance, Roche SBX, Element/Ultima, SomaLogic, Fluent and MRD",
+    "company": "ILMN",
+    "date": "2026-07-21",
+    "source": "Expert network transcript (published 23 Jul 2026; interview 21 Jul 2026), customer-perspective expert, buy-side (investor-led) client; names not given",
+    "type": "expert call",
+    "summary": "A long-time NGS customer (clinical diagnostics and CRO labs, former Roche global sequencing market development manager) says Illumina's base is still solid and that competitors mostly sell research-use-only (RUO) instruments, following the same playbook Illumina once used against Thermo Fisher. He calls Roche's SBX \"another choice,\" not a revolution, and is unsure Illumina's diversification (SomaLogic, Fluent) is smart, citing workflow and cost hurdles. He advises Illumina to focus on a few areas and sees point-of-care sequencing as the next big thing.",
+    "topics": "Illumina, clinical NGS, molecular diagnostics, RUO vs Dx, MiSeq i100, NovaSeq X, Roche SBX, Element, Singular, Ultima, Oxford Nanopore, MinION, Foundation Medicine, SomaLogic, Tecan liquid handler, Fluent, 10x Genomics, single-cell, spatial, MRD, CGP, Tempus, DRAGEN, bioinformatics, point of care"
+   },
+   "extract_hash": "3eb3a91ea0db84e228c735f959e9836d"
+  },
+  "ILMN/expert_call/Expert_2026-07-24_Head_of_Corporate_Development_at_Pacific_Biosciences_Believes_Illumina_Faces_Growing_Compe.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS39.md",
+   "dest": "Expert_2026-07-24_Head_of_Corporate_Development_at_Pacific_Biosciences_Believes_Illumina_Faces_Growing_Compe.md",
+   "date": "2026-07-24",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with PacBio's Head of Corporate Development on growing competition facing Illumina in the evolving NGS market",
+    "company": "ILMN",
+    "date": "2026-07-24",
+    "source": "Expert-network transcript (publication dated 2026-07-28), interview with a competitor-side expert (Head of Corporate Development at Pacific Biosciences), conducted by a buy-side (investor-led) client; names not given",
+    "type": "expert call",
+    "summary": "A PacBio corporate development executive, speaking from about 10 years in next-generation sequencing (NGS), argues that Illumina's leadership is being challenged from several angles at once: low-cost rivals (Ultima), clinical-speed rivals (Roche SBX), long-read and multi-omic rivals (ONT, PacBio, 10x), and national champions in China. Illumina remains the safe, scaled, lower-cost default for targeted, cost-driven and clinical work, and the expert expects switching to be slow (a couple of years at least in clinical). The main exposure is in AI-native, multi-omic, research and development (R&D) work, where Illumina's closed, modular, capital-heavy architecture is a disadvantage.",
+    "topics": "Illumina, competition, Ultima, Element, Roche SBX, Foundation Medicine, Oxford Nanopore, PacBio, long-read vs short-read, multi-omics, SomaLogic, Fluent, DRAGEN, MGI, GeneMind, China, data sovereignty, cloud compute cost, service model, clinical switching costs, liquid biopsy"
+   },
+   "extract_hash": "2c3e16d5b283bd808aa396c1097d322d"
+  },
+  "ILMN/expert_call/Expert_2026-07-28_RD_Director_of_Photonics_at_Fluxus_Inc._Believes_Illuminas_Ecosystem_Strengthens_Its_Marke.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS40.md",
+   "dest": "Expert_2026-07-28_RD_Director_of_Photonics_at_Fluxus_Inc._Believes_Illuminas_Ecosystem_Strengthens_Its_Marke.md",
+   "date": "2026-07-28",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with an R&D Director of Photonics at Fluxus, Inc. (Illumina customer): ecosystem lock-in, consumables cost, competition and switching costs",
+    "company": "ILMN",
+    "date": "2026-07-28",
+    "source": "Expert-network transcript (published 30 Jul 2026), buy-side (investor-led) client interviewing a customer expert, R&D Director of Photonics at Fluxus, Inc.",
+    "type": "expert call",
+    "summary": "A customer-side expert who owns and uses Illumina's NovaSeq (and casually the MiSeq), and has used PacBio and Oxford Nanopore, explains why Illumina remains the default choice. Reasons given are its broad ecosystem, compatible consumables, software and libraries, and very high switching costs. He sees competitors catching up on accuracy, consumables pricing as a pressure point, a saturated market, and data analysis (including AI) as the next growth area. He is lukewarm on the NovaSeq X upgrade and declined to keep paying for DRAGEN.",
+    "topics": "Illumina, NovaSeq, NovaSeq X, MiSeq, consumables pricing, switching costs, ecosystem lock-in, PacBio, Oxford Nanopore, MGI, accuracy, optics patents, DRAGEN, BaseSpace, data analysis, AI, market saturation, benchtop sequencers, utilization"
+   },
+   "extract_hash": "4c65f1753de2e72d9d9ee521d90b5b69"
+  },
+  "ILMN/expert_call/Expert_2026-10-02_Synthetic_Biology_Leader_at_Biotechnology_Company_Optimistic_About_Sequencing_Growth_and_V.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS42.md",
+   "dest": "Expert_2026-10-02_Synthetic_Biology_Leader_at_Biotechnology_Company_Optimistic_About_Sequencing_Growth_and_V.md",
+   "date": "2026-10-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a customer-side synthetic biology leader at a small private biotech on sequencing demand, vendor mix (Illumina, Oxford Nanopore) and Illumina product roadmap (Q3 2026)",
+    "company": "ILMN",
+    "date": "2026-10-02",
+    "source": "Channel Check (AI Interviewer) expert platform; expert is an unnamed synthetic biology leader at a privately held biotechnology start-up (customer perspective). Interview 2026-10-02, published 2026-10-09.",
+    "type": "expert call",
+    "summary": "A customer at a small, mid-range, research-use-only biotech lab says its sequencing output rose at least 100% (likely more) year over year in Q3 2026 and for full-year 2026, driven by a 300-400% jump in philanthropic grant funding and far more customer projects than expected. All of its short-read sequencing is on Illumina (MiniSeq and MiSeq in-house; NextSeq and NovaSeq outsourced to CROs) and all long-read is on Oxford Nanopore via Plasmidsaurus. The expert sees no vendor switching, no instrument purchases, about 5% annual consumable price increases, great Illumina support, and expects 2027 output to be flat to up 10-15% in the base case, with upside tied to a company decision on headcount and space.",
+    "topics": "Illumina, MiniSeq, MiSeq, NextSeq, NovaSeq, NovaSeq X, Oxford Nanopore, Plasmidsaurus, PacBio, AXELIOS (Roche), TruPath Genome, SomaLogic, CRO outsourcing, philanthropic grants, consumables pricing, vendor support, 2027 outlook, channel check"
+   },
+   "extract_hash": "893b689100946fe6bafb6c1491eb9899"
+  },
+  "ILMN/expert_call/Expert_2026-10-02_Director_of_NGS_Core_Lab_at_Pharmaceutical_Company_Sees_Incremental_Growth_in_Sequencing_O.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS43.md",
+   "dest": "Expert_2026-10-02_Director_of_NGS_Core_Lab_at_Pharmaceutical_Company_Sees_Incremental_Growth_in_Sequencing_O.md",
+   "date": "2026-10-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a pharma NGS core lab director (customer): steady 1-3% output growth, Illumina dominant, Roche Axelios interest cooling, PacBio and Ultima gaining on new assays",
+    "company": "ILMN",
+    "date": "2026-10-02",
+    "source": "Channel check on an expert-network platform (published 2026-10-06; interview 2026-10-02); AI interviewer; expert is a Director of an NGS core lab at a pharmaceutical company (customer perspective)",
+    "type": "expert call",
+    "summary": "A customer-side channel check with the director of a pharma-internal next-generation sequencing (NGS) core lab running about 20,000 bulk samples and 5 million single cells a year, roughly 100 Gb of output. The lab is about 97% Illumina on short-read, expects 1-3% output growth in Q3 2026, full-year 2026 and 2027, held consumable prices flat, and plans to replace old MiSeqs with a MiSeq i100. The expert's interest in Roche's Axelios has dropped since Q1 because of missing assays, library-prep worries, pod reuse and Roche support, while Illumina's TruPath and SomaLogic/proteomics push are not changing behaviour. PacBio and Ultima are expected to gain share through new assays, and imaging-based spatial (Atera) is flagged as a possible headwind to sequencing volume.",
+    "topics": "NGS core lab, pharma R&D, sequencing output, NovaSeq X Plus, MiSeq i100, NextSeq retirement, short-read vs long-read, PacBio, Oxford Nanopore, Ultima, Roche Axelios, Kapa, TruPath Genome, SomaLogic, proteomics, Alamar, spatial, Atera, single-cell, consumables pricing, vendor support, capex"
+   },
+   "extract_hash": "e08705cc464abf56514599d16cf05521"
+  },
+  "ILMN/expert_call/Expert_2026-10-02_Assistant_Director_at_Genomics_Research_Center_Optimistic_About_Sequencing_Growth_and_Emer.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS44.md",
+   "dest": "Expert_2026-10-02_Assistant_Director_at_Genomics_Research_Center_Optimistic_About_Sequencing_Growth_and_Emer.md",
+   "date": "2026-10-02",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Canadian genome center assistant director (customer) on sequencing output, Illumina dominance, and the Roche AXELIOS threat, Q3 2026 channel check",
+    "company": "ILMN",
+    "date": "2026-10-02",
+    "source": "Channel check expert call (AI interviewer) with an Assistant Director at a Genomics Research Center in Canada; interviewed 2026-10-02, published 2026-10-06",
+    "type": "expert call",
+    "summary": "A customer at a large, research-use-only Canadian academic genome center says its sequencing output grew more than 10% (under 20%) in Q3 2026 versus Q3 2025, with about 15% growth expected for 2026 and at least 10% for 2027, driven almost entirely by large federally funded projects. All of its short-read work runs on Illumina (NovaSeq X Plus), and it sees Roche's AXELIOS (a new Roche short-read sequencer) as a significant potential threat if its claims hold, while remaining skeptical of its reusable-reagent claim. Illumina's NovaSeq X roadmap and TruPath Genome are described as welcome but not revolutionary for this lab, and pricing, discounts, lead times and support were stable in Q3 2026.",
+    "topics": "channel check, NovaSeq X Plus, NovaSeq 6000, MiSeq, PacBio Revio, Oxford Nanopore PromethION 24, Roche AXELIOS, Ultima, Element AVITI, TruPath Genome, SomaLogic, federal grant funding, consumables, short-read vs long-read, genome center, ASHG"
+   },
+   "extract_hash": "a995bf475c2a02c92c7a372db8574c08"
+  },
+  "ILMN/expert_call/Expert_2026-10-03_Director_at_Cancer_Center_Optimistic_About_Sequencing_Growth_and_Evaluates_Emerging_Techno.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS45.md",
+   "dest": "Expert_2026-10-03_Director_at_Cancer_Center_Optimistic_About_Sequencing_Growth_and_Evaluates_Emerging_Techno.md",
+   "date": "2026-10-03",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Cancer center core-facility director on Illumina NovaSeq X, Roche AXELIOS, Oxford Nanopore and TruPath (channel check, Q3 2026)",
+    "company": "ILMN",
+    "date": "2026-10-03",
+    "source": "Channel check platform (AI Interviewer); expert is a customer, director at a cancer center sequencing core facility; interview 2026-10-03, published 2026-10-09",
+    "type": "expert call",
+    "summary": "A director of a research-use-only core lab at a cancer center, running essentially 100% Illumina short-read plus a new Oxford Nanopore instrument, reports Q3 2026 output above expectations (about +25% year over year, driven by one large RNA-Seq project) and expects 10-15% growth in 2026 and at least 20% in 2027 as a new NovaSeq X Plus cuts cost per sample. The expert sees Roche's AXELIOS as a real threat to Illumina if it delivers, but doubts its reusable-module model suits core labs, has not adopted Illumina's TruPath, and notes Illumina reagent prices rose roughly 2-8% in 2026 including a 6% tariff surcharge.",
+    "topics": "Illumina, NovaSeq X Plus, NovaSeq 6000, NextSeq 2000, MiSeq i100, Oxford Nanopore PromethION P2 Solo, Roche AXELIOS, TruPath Genome, SomaLogic, core facility, funding environment, reagent pricing, tariff surcharge, long-read vs short-read, bioinformatics support, spatial"
+   },
+   "extract_hash": "63e2bde7fe7f9b910be9bf164f714776"
+  },
+  "ILMN/expert_call/Expert_2026-10-03_Research_Scientist_at_Academic_Research_Lab_Discusses_Sequencing_Trends_and_Funding_Challe.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS46.md",
+   "dest": "Expert_2026-10-03_Research_Scientist_at_Academic_Research_Lab_Discusses_Sequencing_Trends_and_Funding_Challe.md",
+   "date": "2026-10-03",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with an academic oncology research lab scientist (Illumina customer): funding cuts, all-Illumina fleet, Roche Axelios skepticism, 2026-2027 volume outlook",
+    "company": "ILMN",
+    "date": "2026-10-03",
+    "source": "AI-interviewer channel check (expert call platform, published 2026-10-08); expert is an anonymous Research Scientist at an academic research lab (customer perspective)",
+    "type": "expert call",
+    "summary": "A research scientist who runs sequencing and makes purchasing decisions at a 40-person academic oncology lab says all of the lab's short-read output runs on Illumina (NextSeq 500/550 in-house, NovaSeq 6000 via a core facility), with no share change in Q3 2026 and none expected over the next 12 months. Federal and private funding cuts are the dominant headwind: the expert reports Q3 2026 volume flat to down 5-10% year over year, expects 2026 roughly flat, and expects 2027 down 10-15%. The expert sees Roche's Axelios 1 as a limited (~25%) threat for now because it lacks publications, views the SomaLogic deal as defensive, and has no plans to buy instruments or move to NovaSeq X.",
+    "topics": "academic funding cuts, NIH grants, NextSeq 500/550, NovaSeq 6000, NovaSeq X, Roche Axelios 1, SBX, SomaLogic, TruPath Genome, long-read, PacBio, Oxford Nanopore, 10x Genomics single-cell, spatial transcriptomics, consumables, pricing, customer support, 2027 outlook"
+   },
+   "extract_hash": "8bc297dcb5c5353a7a23bc5b007d8aaa"
+  },
+  "ILMN/expert_call/Expert_2026-10-05_Associate_Director_at_Cancer_Center_Discusses_Challenges_and_Future_of_Clinical_Sequencing.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS47.md",
+   "dest": "Expert_2026-10-05_Associate_Director_at_Cancer_Center_Discusses_Challenges_and_Future_of_Clinical_Sequencing.md",
+   "date": "2026-10-05",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Cancer center molecular diagnostics lab director on clinical sequencing volumes, a possible NovaSeq X Plus trade-in, Caris competition and Roche Axelios readiness (channel check, Oct 2026)",
+    "company": "ILMN",
+    "date": "2026-10-05",
+    "source": "Channel check expert call (AI interviewer), published 2026-10-09; expert is a customer: Associate Director of the Molecular Diagnostics Lab at a Cancer Center in Pennsylvania",
+    "type": "expert call",
+    "summary": "A customer who runs a CLIA-certified cancer center lab (about 50 samples a week, 100% Illumina on NovaSeq X Plus and NextSeq 2000) says Q3 2026 volume was below expectations but up 10-20% year over year, and expects about 10% growth in 2026. Leadership change has stalled two newly validated high-volume assays (a 1,500-gene panel and a ctDNA MRD assay) and may lead the lab to abandon them, so the expert expects volume to fall about 10% in 2027 and the lab is discussing trading the NovaSeq X Plus for two NextSeq 2000s. The expert sees Illumina as dominant in clinical sequencing, Roche Axelios 1 and Oxford Nanopore as not yet clinically viable, and reports no change in Illumina pricing, discounts, lead times or support.",
+    "topics": "clinical sequencing, oncology tumor profiling, NovaSeq X Plus, NextSeq 2000, flow cell utilization, trade-in, Caris, ctDNA MRD, DPYD pharmacogenetics, Roche Axelios 1, Oxford Nanopore, TruPath Genome, DRAGEN, CLIA validation, consumables pricing, channel check"
+   },
+   "extract_hash": "7db5e9d1830b55b4460d487c0a63b936"
+  },
+  "ILMN/expert_call/Expert_2026-10-06_Director_at_Genomics_Core_Facility_Discusses_Sequencing_Trends_and_Competitive_Landscape_i.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS48.md",
+   "dest": "Expert_2026-10-06_Director_at_Genomics_Core_Facility_Discusses_Sequencing_Trends_and_Competitive_Landscape_i.md",
+   "date": "2026-10-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Genomics core facility director (South Carolina, customer) on sequencing demand, shift from Illumina to Element AVITI24, and competitive landscape, Oct 2026",
+    "company": "ILMN",
+    "date": "2026-10-06",
+    "source": "Channel Check expert call (AI Interviewer); expert is a Director at a Genomics Core Facility in California per the bio, but describes serving University of South Carolina and other South Carolina universities; published 2026-10-08, interview 2026-10-06",
+    "type": "expert call",
+    "summary": "A customer-side director of a university genomics core facility (Research Use Only, about 6,000 gigabases a year) says demand grew about 40% in Q3 2026 versus Q3 2025, driven by single-cell and spatial work, and expects 20% growth in 2026 and 15-20% in 2027. The lab bought an Element Biosciences AVITI24 in September 2026 because reagents are cheaper than Illumina's (about $1,100 versus $1,600-1,700 per comparable unit), so its short-read work moves from 100% Illumina (via external providers) to roughly 70-80% Element, and the expert expects Illumina to lose share. The expert still sees NovaSeq X as unmatched for very large projects, regards Roche's AXELIOS one as lacking a clear niche, and names Ultima, Complete Genomics and Element as Illumina's real competitors.",
+    "topics": "core facility, NIH funding, single-cell, spatial omics, low-coverage whole genome, Element AVITI24, NovaSeq X, Oxford Nanopore, Flongle discontinuation, PromethION P2, PacBio, Roche AXELIOS one, Ultima, Complete Genomics, TruPath Genome, SomaLogic, reagent pricing, capex, pediatric oncology, in-cell sequencing, PIPseq, BD Rhapsody, Parse, channel check"
+   },
+   "extract_hash": "5ffe97215bd9b2ee55b133f3bbe9212e"
+  },
+  "ILMN/expert_call/Expert_2026-10-06_Director_at_Clinical_Research_Organization_Optimistic_About_Sequencing_Output_Growth_and_I.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS49.md",
+   "dest": "Expert_2026-10-06_Director_at_Clinical_Research_Organization_Optimistic_About_Sequencing_Output_Growth_and_I.md",
+   "date": "2026-10-06",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a clinical research organization scientific director on sequencing output, Illumina dominance, Roche AXELIOS switching barriers and NovaSeq X budget constraints (Oct 2026)",
+    "company": "ILMN",
+    "date": "2026-10-06",
+    "source": "AI-interviewer channel check (expert call platform), published 2026-10-08; expert is an Associate Scientific Director at a North Carolina clinical research organization (customer perspective)",
+    "type": "expert call",
+    "summary": "A customer of Illumina, running a mostly CLIA-certified contract research lab, says roughly 98-100% of its short-read work runs on Illumina and expects that to continue. The expert says Q3 2026 sequencing output and consumables spending were 5-10% below an unusually strong Q3 2025, and expects full-year 2026 output to fall about 15% before rebounding about 20% in 2027 on clinical trials and pharma acquisitions. Roche's AXELIOS is seen as interesting but would take about two years to adopt, and a NovaSeq X purchase is desired but hard to get budget approval for.",
+    "topics": "Illumina, NovaSeq X, NextSeq 2000, MiSeq, TruPath Genome, SomaLogic, Roche AXELIOS, Oxford Nanopore MinION, PacBio Revio, CLIA, CRO, oncology, cancer vaccines, spatial transcriptomics, consumables pricing, switching costs, capex, academic funding, channel check"
+   },
+   "extract_hash": "c4effd9f1b48165b53e212a3a8dfa500"
+  },
+  "ILMN/expert_call/Expert_2026-10-08_Director_of_Molecular_Biology_and_Virology_at_a_Contract_Research_Organization_Optimistic.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS50.md",
+   "dest": "Expert_2026-10-08_Director_of_Molecular_Biology_and_Virology_at_a_Contract_Research_Organization_Optimistic.md",
+   "date": "2026-10-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a Director of Molecular Biology and Virology at a clinical/CRO sequencing lab (Illumina customer): Q3 2026 volumes, MRD growth, Roche AXELIOS and Element evaluation",
+    "company": "ILMN",
+    "date": "2026-10-08",
+    "source": "AI-interviewer channel check on an expert-network platform (published 13 Oct 2026; interview 8 Oct 2026); expert is a customer, unnamed Director of Molecular Biology and Virology at a contract research organization",
+    "type": "expert call",
+    "summary": "A customer lab (about 70% CLIA clinical diagnostics, 30% biopharma/clinical-trial work) that runs 100% of its short-read sequencing on Illumina reports sample volume up about 18% year over year in Q3 2026, driven by biopharma contract wins and better MRD (minimal residual disease) reimbursement. It expects about 15% growth in 2027, and is evaluating Element Biosciences (cost) and Roche AXELIOS (speed) for possible additions around December 2026, while saying it is not worried about Roche taking share in the short term. Pricing, discounts, lead times and support were all unchanged, and reagent spend rose about 20%, all from volume.",
+    "topics": "Illumina, NovaSeq X, MiSeq i100, TruPath Genome, MRD, rare disease whole genome sequencing, tumor profiling, Roche AXELIOS, Element Biosciences, PacBio, Oxford Nanopore, DRAGEN, SomaLogic, CLIA validation, biopharma contracts, consumables pricing, channel check"
+   },
+   "extract_hash": "670c104593929be3998eb74dd2b8d627"
+  },
+  "ILMN/expert_call/Expert_2026-10-09_Director_at_Biotech_Company_Sees_Growth_in_Sequencing_Services_and_Stability_in_Funding_Tr.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS51.md",
+   "dest": "Expert_2026-10-09_Director_at_Biotech_Company_Sees_Growth_in_Sequencing_Services_and_Stability_in_Funding_Tr.md",
+   "date": "2026-10-09",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a North Carolina biotech genomics director (Illumina NextSeq 2000, PacBio Revio, ONT customer): services-led growth, NIH SBIR uncertainty, PacBio ~30% price cut, Roche AXELIOS threat view",
+    "company": "ILMN",
+    "date": "2026-10-09",
+    "source": "Expert-network channel check grid (AI Interviewer); expert is a customer, Director at a biotech company in North Carolina; interview 2026-10-09, published 2026-10-14",
+    "type": "expert call",
+    "summary": "A research-use-only (RUO) sequencing services and product-development lab that runs 100% Illumina for short-read work describes flat Q3 2026 output, down about low-double-digit percent versus Q3 2025, and a full-year 2026 expected to be down about 5%. The expert expects roughly small-double-digit growth in 2027 driven by pharma services, with no instrument purchases planned, no interest in NovaSeq X, TruPath or SomaLogic, a freight price increase from Illumina of about 10-15%, and a roughly 30% PacBio consumable price cut (SPRQ-Nx). The expert views Roche's AXELIOS one as technically impressive and a possible threat mainly in clinical settings, but would not adopt it.",
+    "topics": "Illumina, NextSeq 2000, NovaSeq X, TruPath Genome, SomaLogic, PacBio Revio, SPRQ-Nx, Oxford Nanopore, Roche AXELIOS one, NIH SBIR funding, sequencing services, epigenomics, EM-seq, ATAC-seq, Fiber-seq, short-read vs long-read, consumables inventory, price changes, vendor support, rep turnover"
+   },
+   "extract_hash": "54126f9ae73bab6f4aebe6ba9c4a8e5c"
+  },
+  "ILMN/expert_call/Expert_2026-10-09_Director_at_Core_Research_Facility_Sees_Evolving_Trends_in_Sequencing_Technology_and_Fundi.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS52.md",
+   "dest": "Expert_2026-10-09_Director_at_Core_Research_Facility_Sees_Evolving_Trends_in_Sequencing_Technology_and_Fundi.md",
+   "date": "2026-10-09",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with academic core-lab director (research-use-only, ~20,000 Gb/yr): funding squeeze, Illumina-centric fleet, TruPath and AXELIOS views, discount war",
+    "company": "ILMN",
+    "date": "2026-10-09",
+    "source": "AI Channel Checks (AI interviewer) expert call; expert is a Director at a Core Research Facility (customer); interview 2026-10-09, published 2026-10-14",
+    "type": "expert call",
+    "summary": "A director of an academic medical center core lab (research use only, over 20,000 gigabases per year, almost entirely Illumina short-read) says Q3 2026 sequencing output fell about 10% year over year because of erratic and delayed NIH funding, but expects about 5% growth in 2026 and mid-double-digit growth in 2027 as delayed grant awards arrive. The lab received larger Illumina trade-in discounts on NovaSeq X, describes a \"discount war\" among vendors, has not adopted Roche AXELIOS or Illumina TruPath, and expects 5-10% of demand to shift to Oxford Nanopore long-read if it can fund a GridION. Consumable spend fell 5-10% mainly by switching to cheaper third-party library prep kits, and the expert flags the US DoD 1260H list (Complete Genomics, Novogene) as a market-structure risk.",
+    "topics": "core lab, NIH funding, NOA delays, ARPA-H, NovaSeq X, NovaSeq 6000 trade-in, TruPath Genome, Roche AXELIOS, Oxford Nanopore MinION GridION, long-read, SomaLogic, Olink, 10x Atera, spatial, single-cell, library prep, consumables pricing, discounting, inventory, vendor support, DoD 1260H list, Complete Genomics, Novogene, MiSeq i Series"
+   },
+   "extract_hash": "552bff9fff3b1ffe7ab36a27128bca16"
+  },
+  "ILMN/expert_call/Expert_2026-10-09_Manager_at_Academic_Medical_Center_Believes_Cost_Efficiency_Drives_Sequencing_Platform_Sel.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS53.md",
+   "dest": "Expert_2026-10-09_Manager_at_Academic_Medical_Center_Believes_Cost_Efficiency_Drives_Sequencing_Platform_Sel.md",
+   "date": "2026-10-09",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with an academic medical center NGS manager (Tennessee): cost drives shift from Illumina to Ultima and Element; TruPath too expensive; Axelios not compelling",
+    "company": "ILMN",
+    "date": "2026-10-09",
+    "source": "Channel check on an expert-network platform (AI interviewer); expert is a Next Generation Sequencing Manager at a medical center in Tennessee (published 14 Oct 2026, interviewed 9 Oct 2026)",
+    "type": "expert call",
+    "summary": "A research-use-only sequencing core lab that runs about 1,000 gigabases a year, currently 100% on Illumina short-read instruments, plans to lease an Ultima instrument (over $1 million) and add an Element benchtop sequencer in June 2027, because their sequencing reagents are roughly 50-80% cheaper. The expert says Illumina's TruPath Genome is not cheaper than their own library-prep approach, Roche's Axelios is not cheap enough to be a competitor, and Illumina raised consumable prices 5-8% in 2026. Q3 2026 output fell about 8% year on year on weaker funding and a multi-omics shift, but they budget about +15% for 2027 on single-cell and spatial projects.",
+    "topics": "Illumina, Ultima, Element Biosciences, Roche Axelios, Oxford Nanopore, TruPath Genome, NovaSeq X, SomaLogic, Olink, spatial genomics, single-cell, long-read, pricing, tariffs, grant funding, multi-omics, methylation, channel check"
+   },
+   "extract_hash": "7f02f1f8154adf4e183ed2412eaa4273"
+  },
+  "ILMN/expert_call/Expert_2026-10-12_Manager_at_Genomics_Facility_Expresses_Concerns_Over_Funding_Constraints_and_Competitive_P.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS54.md",
+   "dest": "Expert_2026-10-12_Manager_at_Genomics_Facility_Expresses_Concerns_Over_Funding_Constraints_and_Competitive_P.md",
+   "date": "2026-10-12",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic genomics core manager on funding squeeze, CRO competition, Element-first fleet and Roche AXELIOS interest (channel check, Oct 2026)",
+    "company": "ILMN",
+    "date": "2026-10-12",
+    "source": "AlphaSense channel check (AI interviewer); expert is a customer, a manager at an academic genomics core facility (published 2026-10-15, interviewed 2026-10-12)",
+    "type": "expert call",
+    "summary": "A manager of a research-use-only academic sequencing core (about 45,000 Gb per year) says Q3 2026 output was down about 10% year over year because federal funding is shrinking and CROs and large sequencing centers can offer much lower prices. The lab runs 100% of its in-house data on Element Biosciences instruments and outsources about 15% of data to Illumina NovaSeq X for large projects. The expert plans no instrument purchases, is interested in Roche AXELIOS and Element VITARI if money appears, and expects output to be flat to down about 10% in 2026 and possibly down again in 2027.",
+    "topics": "academic core lab, federal funding, NIH grants, CRO competition, Element AVITI, NovaSeq X, Roche AXELIOS, Element VITARI, Ultima, TruPath Genome, SomaLogic, consumables pricing, capex, LIMS, vendor support, spatial and single-cell, reagent discounts"
+   },
+   "extract_hash": "32c29fdfaf3ba90dcba343e9b7f1ab6b"
+  },
+  "ILMN/expert_call/Expert_2026-10-12_Director_of_Genomics_Core_Facility_at_Research_Center_Sees_Stable_Growth_in_Sequencing_Tec.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS55.md",
+   "dest": "Expert_2026-10-12_Director_of_Genomics_Core_Facility_at_Research_Center_Sees_Stable_Growth_in_Sequencing_Tec.md",
+   "date": "2026-10-12",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Genomics core facility director (Ivy League university) on sequencing demand, Illumina vs. Roche/Ultima/PacBio, pricing and Q3 2026 trends",
+    "company": "ILMN",
+    "date": "2026-10-12",
+    "source": "Expert call on an AI-interviewer channel-check platform (published 15 Oct 2026; interview 12 Oct 2026). Speaker: unnamed director of a genomics core facility (customer perspective). Interviewer: AI.",
+    "type": "expert call",
+    "summary": "A customer-side channel check with the director of a genomics core facility at an Ivy League university, a research-use-only lab that runs about 18,000-20,000 gigabases a year, roughly 85-90% on Illumina short-read and 10-15% on PacBio long-read. The expert reports Q3 2026 output and consumable spending up about 5% year over year, expects about 5% (up to 10%) growth in 2027, and expects Illumina to gain slight share on single-cell and spatial growth. They see Roche AXELIOS one as a promising but niche competitor they are still evaluating, and Ultima (with falling cost per genome) as the bigger long-term threat to Illumina.",
+    "topics": "Illumina, NovaSeq X, MiSeq i100 Plus, StrataMap, TruPath Genome, SomaLogic, PacBio Revio, Iso-Seq, Fiber-seq, Roche AXELIOS one, SBX, Ultima, Element, Oxford Nanopore, 10x Genomics, Visium HD, Xenium, GEM-X Flex v2, OCM, core facility, NIH/federal funding, pricing, instrument incentives, channel check"
+   },
+   "extract_hash": "c3ee08bac5e28a04f2416496bba5dee9"
+  },
+  "ILMN/expert_call/Expert_2026-10-12_Integrative_Genomics_Executive_at_Biotechnology_Company_Sees_Growth_in_Sequencing_Output_a.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS56.md",
+   "dest": "Expert_2026-10-12_Integrative_Genomics_Executive_at_Biotechnology_Company_Sees_Growth_in_Sequencing_Output_a.md",
+   "date": "2026-10-12",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a California biotech Director of Integrative Genomics (Illumina customer): sequencing volume up 20-25%, Ultima cost pressure, Roche AXELIOS one seen as niche",
+    "company": "ILMN",
+    "date": "2026-10-12",
+    "source": "Channel check on an expert-network platform (AI interviewer; \"Channel Check Grid\"), interview 12 Oct 2026, published 14 Oct 2026; expert is a customer, Director of Integrative Genomics at a biotechnology company in California (unnamed)",
+    "type": "expert call",
+    "summary": "A customer who runs internal R&D sequencing (research-use-only) at a California biotech says their Q3 2026 output beat expectations and grew about 20-25% year over year, driven by more samples from single-cell and other high-throughput projects. Consumable spend rose about 20%, entirely from volume, with Illumina pricing flat to slightly lower thanks to discounts. The expert sees Ultima's roughly one-third list-price cost as the main share threat to Illumina, views Roche's AXELIOS one, TruPath and SomaLogic as interesting but niche, and has no instrument purchases planned.",
+    "topics": "sequencing volume, single-cell, NextSeq 2000, MiSeq, NovaSeq X, CRO, Ultima, Oxford Nanopore, Roche AXELIOS one, TruPath, SomaLogic, DRAGEN, consumables pricing, discounts, switching costs, capex, spatial/in situ sequencing, 2027 outlook"
+   },
+   "extract_hash": "fbd82ccf6c70571d7f2db11ddf51e575"
+  },
+  "ILMN/expert_call/Expert_2026-10-14_Specialist_at_Academic_Research_Core_Facility_Optimistic_About_Sequencing_Growth_Amid_Biop.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS57.md",
+   "dest": "Expert_2026-10-14_Specialist_at_Academic_Research_Core_Facility_Optimistic_About_Sequencing_Growth_Amid_Biop.md",
+   "date": "2026-10-14",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a research-core specialist (hospital-based cellular profiling core): biopharma-driven sequencing growth, weak NIH funding, 100% Illumina NovaSeq X Plus",
+    "company": "ILMN",
+    "date": "2026-10-14",
+    "source": "AlphaSense Channel Check (AI Interviewer) with an anonymous customer-side expert; interview 14 Oct 2026, published 16 Oct 2026",
+    "type": "expert call",
+    "summary": "A single-cell genomics specialist at a research-only core facility in an academic hospital says the core's sequencing output rose about 20-30% year over year in Q3 2026 and about 20% for full-year 2026, driven by a few very large biopharma-funded projects, even as NIH grant funding and academic sample counts fell. The core runs 100% of its sequencing on Illumina NovaSeq X Plus, sees no long-read demand, and has not adopted TruPath or Roche AXELIOS, but hopes new competitors push prices down. The expert expects flat volume in 1H 2027 and worries about a decline in 2H 2027 if biopharma projects do not repeat.",
+    "topics": "Illumina, NovaSeq X Plus, academic core facility, biopharma demand, NIH funding, indirect costs, flow cell pricing, Roche AXELIOS, Element, Ultima, MGI, long-read, TruPath, SomaLogic, 10x Genomics, Xenium, Visium HD, spatial transcriptomics, channel check, consumables"
+   },
+   "extract_hash": "da73b134a7a79810764819b776e0609c"
+  },
+  "ILMN/expert_call/Expert_2026-10-15_Executive_at_Childrens_Hospital_Optimistic_About_Sequencing_Growth_and_Technology_Integrat.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS58.md",
+   "dest": "Expert_2026-10-15_Executive_at_Childrens_Hospital_Optimistic_About_Sequencing_Growth_and_Technology_Integrat.md",
+   "date": "2026-10-15",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a Children's Hospital Chief Genomics Officer (CLIA lab, 100% Illumina short-read, Oxford Nanopore long-read) on Q3 2026 sequencing demand, pricing and competition",
+    "company": "ILMN",
+    "date": "2026-10-15",
+    "source": "Channel check platform (AI Interviewer); expert is a VP Chief Genomics Officer at a Children's Hospital in Colorado (customer); published 20 Oct 2026, interviewed 15 Oct 2026",
+    "type": "expert call",
+    "summary": "A customer at a pediatric hospital genomics lab, which is CLIA-certified and runs 100% of clinical short-read work on Illumina NovaSeq X Plus, says sequencing volume grew about 13%-18% year over year in Q3 2026 and about 15% for full-year 2026, with more modest growth expected in 2027. Consumable spending fell about 10% because of the move from NovaSeq 6000 to the cheaper-per-unit NovaSeq X Plus reagents, even as volumes rose; per-unit prices were unchanged. The expert sees Roche AXELIOS one as a \"wait and see\" item (CLIA validation alone costs roughly $100,000-$200,000), views Oxford Nanopore as additive to Illumina, not a replacement, and stresses that bioinformatics and ecosystem, not instruments, drive loyalty. Illumina support improved in Q3 after a restructuring.",
+    "topics": "Illumina, NovaSeq X Plus, NovaSeq 6000, Oxford Nanopore, Roche AXELIOS one, TruPath Genome, SomaLogic, proteomics, CLIA validation, pediatric genomics, rare disease, oncology, whole genome sequencing, consumables pricing, reimbursement, capex, customer support, bioinformatics, channel check"
+   },
+   "extract_hash": "8c9637756bb72e79eff660f09cc357ee"
+  },
+  "ILMN/expert_call/Expert_2026-10-16_Director_at_Medical_Laboratory_Sees_Sustained_Growth_in_Sequencing_Output_and_Evaluates_Em.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS59.md",
+   "dest": "Expert_2026-10-16_Director_at_Medical_Laboratory_Sees_Sustained_Growth_in_Sequencing_Output_and_Evaluates_Em.md",
+   "date": "2026-10-16",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a director of a CLIA-certified clinical sequencing lab (Illumina and PacBio user): growth, platform mix, pricing, Roche Axelios, NovaSeq X, TruPath",
+    "company": "ILMN",
+    "date": "2026-10-16",
+    "source": "AlphaSense Channel Check (AI Interviewer); expert is a customer, a Director at a Medical Laboratory (published 2026-10-20, interviewed 2026-10-16)",
+    "type": "expert call",
+    "summary": "A director of a small CLIA-certified patient-testing lab (1,000-3,000 gigabases per year, 100% Illumina for short-read, 100% PacBio for long-read) describes steady volume-driven growth, expecting at least 20% sequencing growth in both 2026 and 2027. Reagent spend rose about 15% year over year in Q3 2026, with 5-10% annual list price increases roughly offset by volume discounts. The lab sees Roche's Axelios as a real competitor and expects Illumina's short-read share to erode slowly, but it will switch platforms only if economics clearly justify revalidation. It has no plans for NovaSeq X and finds TruPath Genome ($395 per sample) too expensive versus its current under-$200 cost.",
+    "topics": "channel check, CLIA lab, clinical sequencing, MiniSeq, MiSeq, NextSeq, PacBio, long-read, short-read, Roche Axelios, NovaSeq X, TruPath Genome, SomaLogic, reagent pricing, discounts, instrument capex, utilization, vendor support, switching costs, LDT validation"
+   },
+   "extract_hash": "f26f744aeba3f17c1c06b29f2304222e"
+  },
+  "ILMN/expert_call/Expert_2026-10-16_Assistant_Director_at_Research_Institution_Discusses_Trends_and_Challenges_in_Clinical_Seq.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS60.md",
+   "dest": "Expert_2026-10-16_Assistant_Director_at_Research_Institution_Discusses_Trends_and_Challenges_in_Clinical_Seq.md",
+   "date": "2026-10-16",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a New York clinical genomics lab assistant director on sequencing demand, vendor mix and competition (interview 16 Oct 2026)",
+    "company": "ILMN",
+    "date": "2026-10-16",
+    "source": "Channel check platform expert transcript (AI interviewer); expert is an assistant director at a New York research institution running a CLIA lab; published 20 Oct 2026",
+    "type": "expert call",
+    "summary": "A customer of Illumina (a CLIA-certified clinical lab in New York doing about 5,000 30X whole genomes a year, mostly prenatal) says its short-read work is 100% Illumina NovaSeq X and will stay that way, because switching platforms means rebuilding all infrastructure. Volume is about 10% or more above Q3 2025 (a federal-funding trough) and about 5-10% above 2024. The main limits on growth are insurance reimbursement and a shortage of qualified report signers. The expert sees PacBio gaining a little share via carrier screening, rejects Ultima and Oxford Nanopore for clinical use, and is only evaluating Illumina's TruPath.",
+    "topics": "clinical sequencing, NovaSeq X, prenatal testing, reimbursement, New York State validation, PacBio Revio, Ultima homopolymer, Oxford Nanopore stability, Roche AXELIOS, TruPath Genome, switching costs, carrier screening, newborn screening, long-read, methylation, consumables pricing, channel check"
+   },
+   "extract_hash": "3c60df571309ed254cd5524413cb8ea4"
+  },
+  "ILMN/expert_call/Expert_2026-10-16_Vice_President_at_Clinical_Diagnostics_Laboratory_Optimistic_About_Growth_in_Infectious_Di.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS61.md",
+   "dest": "Expert_2026-10-16_Vice_President_at_Clinical_Diagnostics_Laboratory_Optimistic_About_Growth_in_Infectious_Di.md",
+   "date": "2026-10-16",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a VP at a Texas CLIA-certified infectious disease reference lab (all-Illumina clinical fleet; Roche Axelios, TruPath, pricing, reimbursement)",
+    "company": "ILMN",
+    "date": "2026-10-16",
+    "source": "AlphaSense AI Channel Check (AI interviewer); expert is a customer, Vice President at an independent commercial clinical diagnostics laboratory in Texas; published 2026-10-20, interviewed 2026-10-16",
+    "type": "expert call",
+    "summary": "A customer-side expert at a CLIA-certified reference lab running about 50,000 infectious-disease samples a year says all clinical sequencing runs on Illumina (MiSeq i100 Plus and one NovaSeq X), chosen for reliability, service and acquisition cost. Output grew roughly 5%-10% year over year in Q3 2026, with 5%-15% expected for 2026 and 3%-5% for 2027. The expert is open to evaluating Roche's Axelios one as a complement but says CLIA validation burden is a big switching barrier. Consumable prices rose across the board, offset by efficiency gains, and reimbursement is flagged as the main growth constraint.",
+    "topics": "Illumina, MiSeq i100 Plus, NovaSeq X, PacBio Sequel IIe, Roche Axelios one, TruPath Genome, SomaLogic, multiomics, infectious disease NGS, CLIA validation, switching costs, consumable pricing, inventory, vendor service, reimbursement, channel check"
+   },
+   "extract_hash": "157b390ff9c68c4d788a1cdba7a85c78"
+  },
+  "ILMN/expert_call/Expert_2026-10-18_Scientist_of_Genomics_at_Pharmaceutical_Company_Optimistic_About_Sequencing_Technology_Adv.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS62.md",
+   "dest": "Expert_2026-10-18_Scientist_of_Genomics_at_Pharmaceutical_Company_Optimistic_About_Sequencing_Technology_Adv.md",
+   "date": "2026-10-18",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Channel check with a pharma genomics scientist (customer): ~50% sequencing growth in 2026, 100% Illumina short-read, Roche AXELIOS as a future threat",
+    "company": "ILMN",
+    "date": "2026-10-18",
+    "source": "AlphaSense AI Channel Checks (AI interviewer); expert is a Senior Principal Scientist / Head of Genomics at a large pharmaceutical company; interview 2026-10-18, published 2026-10-21",
+    "type": "expert call",
+    "summary": "A customer at a large pharma's internal research-use-only omics lab says their sequencing output rose about 50% in 2026, helped by perturb-seq adoption and a rebound from an unusually weak 2025. All short-read work runs on Illumina (NovaSeq X Plus), and an eight-year capital depreciation rule means they cannot realistically replace it before 2030. Roche's AXELIOS is seen as a serious future threat on cost per read, but is limited by capital budgets and the lab's own data infrastructure. The lab is exploring in-house long-read (PacBio or Oxford Nanopore) and expects only 10-20% output growth in 2027.",
+    "topics": "Illumina, NovaSeq X Plus, perturb-seq, 10x Genomics, single-cell, Roche AXELIOS, PacBio, Oxford Nanopore, Element AVITI, Atera spatial, long-read, isoform profiling, capex depreciation, switching costs, TruPath, SomaLogic, cloud IT security, clinical adoption"
+   },
+   "extract_hash": "b54ad22858e9f26fe5eda4502d126025"
+  },
+  "ILMN/expert_call/Expert_2026-10-23_Sales_Director_EMEA_Central_at_Oxford_Nanopore_Technologies_Believes_Long-Read_Sequencing.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS63.md",
+   "dest": "Expert_2026-10-23_Sales_Director_EMEA_Central_at_Oxford_Nanopore_Technologies_Believes_Long-Read_Sequencing.md",
+   "date": "2026-10-23",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with Oxford Nanopore Sales Director (EMEA Central): long-read momentum in Europe and Illumina's vulnerable share",
+    "company": "ILMN",
+    "date": "2026-10-23",
+    "source": "Expert-network channel check (published 27 Oct 2026; interview 23 Oct 2026); expert is a Sales Director EMEA Central at Oxford Nanopore Technologies (competitor); questions from a buy-side investor-led interviewer",
+    "type": "expert call",
+    "summary": "A competitor-side expert (Oxford Nanopore) argues that long-read sequencing is gaining momentum in Europe as past bottlenecks (accuracy, end-to-end workflows) are solved, and that Illumina's European share will fall from about 75-85% to 55-60% over three to five years even as the market grows. The expert says Illumina keeps strengths in clinical entrenchment, workflows, accreditation, solid-tumour work and price-sensitive commercial labs, but is hurt by inflexibility, the MiSeq discontinuation and strong rivals (PacBio, ONT, Roche AXELIOS, Element, Ultima). The expert openly says they may be biased and declined to comment on several topics.",
+    "topics": "Illumina, Oxford Nanopore, PacBio, long-read, short-read, Europe, NovaSeq X, MiSeq discontinuation, Roche AXELIOS, Element, Ultima, IVDR, genomDE, pharmacogenomics, pathology, Dragen, SomaLogic, market share, switching barriers"
+   },
+   "extract_hash": "aa0763e800c69f7f8c826f1b6f8cbefa"
+  },
+  "ILMN/expert_call/Expert_2026-10-28_Former_Senior_Director_at_Illumina_Believes_the_Company_Is_Well_Positioned_in_Clinical_Seq.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN - ExpertCall AS64.md",
+   "dest": "Expert_2026-10-28_Former_Senior_Director_at_Illumina_Believes_the_Company_Is_Well_Positioned_in_Clinical_Seq.md",
+   "date": "2026-10-28",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Former Illumina Senior Director (Product Development) on Illumina's Clinical Positioning, Roche Threat, Turnaround Time, Switching Costs and Sequencing Economics",
+    "company": "ILMN",
+    "date": "2026-10-28",
+    "source": "Expert-network call (transcript published 30 Oct 2026; interview 28 Oct 2026); investor-led (buy-side) client, unnamed; expert is a former Illumina senior director, unnamed",
+    "type": "expert call",
+    "summary": "A former Illumina product-development leader (about a decade at the company, not customer-facing) says Illumina is very well positioned in clinical sequencing, especially oncology and minimal residual disease (MRD), thanks to its installed base, reputation and scalable NovaSeq platforms. He sees Roche as the most credible new challenger but says its real-world traction is unproven. He argues that turnaround-time and price-per-genome claims need to be judged on the full sample-to-answer workflow, that validation costs make switching existing assays unlikely, and that the main long-term risk is a disruptive technology such as nanopore applications or protein sequencing.",
+    "topics": "Illumina, clinical sequencing, MRD, oncology, Roche SBX sequencer, turnaround time, switching costs, validation, FDA, IVDR, NovaSeq X, price per genome, Oxford Nanopore, PacBio, Ultima, Element, Singular, synthetic long reads, multi-omics, five-base assay, SomaLogic, proteomics, market share, management, disruptive technology"
+   },
+   "extract_hash": "ac0b2561580e332b4ea79c4dd3ab436c"
+  },
+  "ILMN/expert_call/Expert_2026-10-20_KOL_ILMN_TMO_TXG_A_4Q26_Academic_Research_and_Core-Lab_Demand_With_UT_Austin_CBRS_Director_Sar.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN, TMO, TXG & A_ 4Q26 Academic Research and Core-Lab Dema..._10-20-2026.md",
+   "dest": "Expert_2026-10-20_KOL_ILMN_TMO_TXG_A_4Q26_Academic_Research_and_Core-Lab_Demand_With_UT_Austin_CBRS_Director_Sar.md",
+   "date": "2026-10-20",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with UT Austin core-facility director Sara Goodwin on 4Q26 academic research, core-lab demand, sequencing, single-cell, spatial and competitors",
+    "company": "ILMN",
+    "date": "2026-10-20",
+    "source": "Guidepoint expert call; expert Sara Goodwin (Director, Center of Biomedical Research Support, UT Austin; formerly Director of the Next Generation Sequencing Analysis Core Facility at Cold Spring Harbor Laboratory); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A university core-facility director says academic demand for Illumina sequencing, 10x single-cell and 10x spatial work is broadly flat going into 2027, with flow cytometry the one clear growth area. Rising reagent, labor and compute costs and tight grants are pushing institutions toward centralized sequencing hubs and outsourcing to commercial providers rather than buying their own NovaSeq instruments. She expects Roche's new sequencer to adopt slowly and does not see Element's Aviti as a threat to Illumina's market share.",
+    "topics": "Illumina, NovaSeq X, NovaSeq 6000, NextSeq 2000, 10B/30B/35B flow cells, 10x Genomics Chromium, Xenium, Xenium Protein/Altera, spatial biology, single-cell, core facilities, academic funding, NIH, outsourcing, Novogene, Genewiz, PacBio Revio, Vega, Oxford Nanopore PromethION, Element Aviti, Roche SBX, 5-base methylation, multi-omics, flow cytometry, BD FACSDiscover, helium, GPU costs, centralization"
+   },
+   "extract_hash": "370a43a7bad6f3d1a324b61617823345"
+  },
+  "ILMN/expert_call/Expert_2026-08-12_KOL_ILMN_TXG_and_PACB_2Q_2026_Single-Cell_and_Spatial_Biology_Updates_From_a_High-Volume_Lab_A.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN, TXG, and PACB_ 2Q 2026 Single-Cell and Spatial Biology..._08-12-2026.md",
+   "dest": "Expert_2026-08-12_KOL_ILMN_TXG_and_PACB_2Q_2026_Single-Cell_and_Spatial_Biology_Updates_From_a_High-Volume_Lab_A.md",
+   "date": "2026-08-12",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call (Guidepoint) with a university sequencing core associate director on Q2 2026 trends in Illumina, 10x Genomics and PacBio, single-cell, spatial and long-read demand",
+    "company": "ILMN",
+    "date": "2026-08-12",
+    "source": "Guidepoint expert call; expert Chris Wright (Associate Director of DNA Services, University of Illinois Urbana-Champaign); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A veteran academic core-lab manager says sample demand rebounded sharply from April 2026 after a weak first quarter, with August running 20-25% above normal. The lab may buy a second NovaSeq X Plus (a 50-50 chance, depending on a charitable grant), is trying Illumina's new StrataMap spatial product, and is seeing strong Revio (PacBio long-read) growth, while viewing 10x's Atera and Roche's Axelios as poor fits for its non-human, many-purpose workload.",
+    "topics": "NovaSeq X, NovaSeq X Plus, 25B flow cell, 35B flow cell, DRAGEN, StrataMap, Visium, Visium HD, Xenium, Atera, 10x Genomics, PacBio Revio, SPRQ-Nx, Kinnex, Constellation, ILCR, Roche Axelios, 5-base, multiomics, core lab demand, sample prep bottleneck, grant funding, Element, Ultima"
+   },
+   "extract_hash": "45116501620eae5dff08fe9e438585e3"
+  },
+  "ILMN/expert_call/Expert_2026-10-05_KOL_ILMN_TXG_and_PACB_3Q26_and_4Q26_Genomics_Demand_Sequencing_and_Spatial_Trends_With_Sanofis.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "ILMN, TXG, and PACB_ 3Q26 and 4Q26 Genomics Demand, Sequenci..._10-05-2026.md",
+   "dest": "Expert_2026-10-05_KOL_ILMN_TXG_and_PACB_3Q26_and_4Q26_Genomics_Demand_Sequencing_and_Spatial_Trends_With_Sanofis.md",
+   "date": "2026-10-05",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Sanofi Head of Genomics on sequencing, single-cell, long-read and spatial demand (Guidepoint expert call, Oct 2026)",
+    "company": "ILMN",
+    "date": "2026-10-05",
+    "source": "Guidepoint expert call; moderator Andrew Carmen; expert Dr. Seth Garren, Senior Principal Scientist and Head of Genomics at Sanofi (customer viewpoint)",
+    "type": "expert call",
+    "summary": "A current biopharma customer describes accelerating use of Illumina NovaSeq X consumables, driven by 10x Genomics Flex v2 (Apex) and CRISPR Perturb-seq experiments of 1 to 8 million cells, with sequencing spend about 25% higher year over year and reagent budget exhausted for the first time. He sees single-cell as the new default, is evaluating a 2027 long-read purchase (PacBio vs. Oxford Nanopore), has preordered two Atera spatial systems, and views AXELIOS SBX as a cost threat that is slowed by eight-year depreciation cycles. He believes vendor end-to-end workflows are largely unusable because of pharma data-security rules, and that AI-driven demand for proprietary data has not yet reached his organization.",
+    "topics": "NovaSeq X, NovaSeq X Plus, 25B flow cell, 10x Genomics Flex v2, Apex, Perturb-seq, CRISPR, single-cell, PacBio Revio, PacBio Vega, Kinnex, Oxford Nanopore, AXELIOS SBX, Roche, Atera, Xenium, GeoMx, Pyxa, spatial, capex depreciation, data security, AI demand, Claude coding, biopharma budgets, China biologics screening, tariffs"
+   },
+   "extract_hash": "3000b88207cddd3feb2ff1210f803a45"
+  },
+  "ILMN/expert_call/Expert_2026-05-05_KOL_PacBio_and_Illumina_2026_Sequencing_Outlook_With_Sequencing_and_Genotyping_Center_Director.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "PacBio and Illumina_ 2026 Sequencing Outlook With Sequencing..._05-05-2026.md",
+   "dest": "Expert_2026-05-05_KOL_PacBio_and_Illumina_2026_Sequencing_Outlook_With_Sequencing_and_Genotyping_Center_Director.md",
+   "date": "2026-05-05",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic sequencing core director on PacBio and Illumina: 2026 outlook, NovaSeq X skip, Revio reusable SMRT Cells, AVITI competition, TruPath skepticism",
+    "company": "ILMN",
+    "date": "2026-05-05",
+    "source": "Guidepoint expert call; expert Brewster Kingham (Director, Sequencing & Genotyping Center, University of Delaware); moderator Andrew Carmen",
+    "type": "expert call",
+    "summary": "A university core-lab director (customer of Illumina, PacBio, Element and Oxford Nanopore) says 2025 was his busiest revenue year, partly because grant holders pulled sequencing spend forward amid federal funding uncertainty, and 2026 is running similar. He chose not to upgrade to the NovaSeq X because of its cost of ownership and fill-rate challenges, sees Element's AVITI gaining share against Illumina's mid-throughput NextSeq 2000, and is highly skeptical of Illumina's TruPath as a rival to PacBio's Revio. He is positive on Illumina's 5-Base solution and single-cell products, and expects PacBio's reusable SMRT Cells to cut his spend initially but expand demand over time.",
+    "topics": "sequencing demand, NIH funding, spend pull-forward, NovaSeq X, NovaSeq 6000, NextSeq 2000, AVITI, AVITI24, Revio, reusable SMRT Cell, MAS-Seq, Iso-Seq, TruPath, 5-Base, multiomics, single-cell, spatial, PromethION, core labs, pricing competition"
+   },
+   "extract_hash": "ce970a1b0a9add6a57e1587de7b6e5af"
+  },
+  "ILMN/expert_call/Expert_2026-09-08_KOL_PacBio_Illumina_and_10x_Genomics_Sequencing_Center_Director_on_Sequencing_Trends_and_PacBi.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "PacBio, Illumina, and 10x Genomics_ Sequencing Center Direct..._09-08-2026.md",
+   "dest": "Expert_2026-09-08_KOL_PacBio_Illumina_and_10x_Genomics_Sequencing_Center_Director_on_Sequencing_Trends_and_PacBi.md",
+   "date": "2026-09-08",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Academic sequencing-center director (Louisville) on CRO price pressure on Illumina, PacBio long-read adoption, 10x vs Illumina in single-cell/spatial, and immune repertoire profiling",
+    "company": "ILMN",
+    "date": "2026-09-08",
+    "source": "Guidepoint expert call; moderator Andrew Carmen; expert Dr. Melissa Laird Smith, University of Louisville School of Medicine",
+    "type": "expert call",
+    "summary": "A university sequencing-center leader and CEO of a long-read immune profiling startup says academic demand for Illumina sequencing has been rerouted to low-priced CROs (contract research organizations), gutting small and mid-sized core facilities, while her center plans to buy an Illumina NovaSeq X Plus (the call text says \"Nova X Plus\") for single-cell, spatial and proteomics work. She sees Illumina's integrated multi-omics platform as a growing threat to 10x Genomics, whose Atera system is a pricier, single-purpose machine. She is very positive on PacBio's accuracy and chemistry improvements (SPRQ-Nx, Kinnex), but says PacBio under-markets long-read transcriptomics and under-supports analysis software.",
+    "topics": "Illumina academic demand, CRO pricing, Plasmidsaurus, Zymo, NextSeq 2000, NovaSeq X Plus, 10x Genomics, Atera, Visium HD, Xenium, Chromium, PIPseq, Illumina Protein Prep, SomaScan, DRAGEN, PacBio Revio, Vega, SPRQ-Nx, Kinnex, Iso-Seq, ArgenTag, Parse, Cellanome, Oxford Nanopore, Adaptive Biotechnologies, immune repertoire, TCR/BCR, AI, compute costs, grant funding, Clareo Biosciences"
+   },
+   "extract_hash": "a884518d2c8e230485fea9d6156db983"
+  },
+  "ILMN/expert_call/Expert_2026-03-04_KOL_Roche_and_Illumina_Kristen_Jepsen_Executive_Director_of_the_UCSD_IGM_Genomics_Center_Discu.md": {
+   "company": "ILMN",
+   "doctype": "expert_call",
+   "tier": "core",
+   "model": "sonnet",
+   "src": "Roche and Illumina_ Kristen Jepsen, Executive Director of th..._03-04-2026.md",
+   "dest": "Expert_2026-03-04_KOL_Roche_and_Illumina_Kristen_Jepsen_Executive_Director_of_the_UCSD_IGM_Genomics_Center_Discu.md",
+   "date": "2026-03-04",
+   "status": "done",
+   "attempts": 1,
+   "meta": {
+    "title": "Expert call with UCSD IGM Genomics Center director on Roche AXELIOS, Illumina pricing and TruePath, and academic sequencing demand (AGBT 2026 follow-up)",
+    "company": "ILMN",
+    "date": "2026-03-04",
+    "source": "Guidepoint expert network; moderator Andrew Carmen (AC); expert Dr. Kristen Jepsen (KJ), Executive Director, IGM Genomics Center, University of California San Diego",
+    "type": "expert call",
+    "summary": "An academic core-facility director gives a customer's view of the Roche AXELIOS sequencer after seeing it at AGBT (the genomics industry meeting) in 2026. She finds it less modular, harder to adopt and not much cheaper than Illumina's NovaSeq X Plus, expects little share loss for Illumina in 2026, and says Illumina is discounting hard and launching TruePath (long reads) in response. She also reports weak academic demand in early 2026, roughly 10% down on reagent volume, from slow NIH grant funding and competition from outside service labs.",
+    "topics": "Roche AXELIOS, Illumina NovaSeq X Plus, TruePath, constellation, 35B flow cell, Q70, Ultima UG200, Element AVITI/VITARI, PacBio, 10x Genomics Xenium, Singular G4X, Stellaromics, spatial transcriptomics, academic funding, NIH, outsourcing to CROs, pricing, discounting, field support, AGBT 2026"
+   },
+   "extract_hash": "9e53eeb7c0cba382224a7881c8baf7db"
   }
  },
  "sections": {
   "02": {
-   "sig": "bf70aa50260d3410eeb245b303c10fbc",
+   "sig": "c570dcd56cbdf0ec34bcb5970e835fab",
    "parts": {
     "1": "done",
     "2": "done",
     "3": "done"
    },
    "status": "done",
-   "condensed": "bf70aa50260d3410eeb245b303c10fbc"
+   "condensed": "c570dcd56cbdf0ec34bcb5970e835fab"
   },
   "03": {
    "sig": "ba1e1a6c8d765c6e5ef54d8424395d8a",
@@ -3978,12 +5679,12 @@
    "condensed": "31243cdaec0b7cccffbbeed1850e73b9"
   },
   "01": {
-   "sig": "6ff497b192e6f75dc2accc059e6171f3",
+   "sig": "a7ca8238934eb2256f10ccb8e54b8098",
    "parts": {
     "1": "done"
    },
    "status": "done",
-   "condensed": "6ff497b192e6f75dc2accc059e6171f3"
+   "condensed": "a7ca8238934eb2256f10ccb8e54b8098"
   },
   "06": {
    "sig": "6444c2b192c62902752e7a87fb76b9d0",
@@ -4004,14 +5705,17 @@
    "condensed": "de3ff37949392c32bcd70107b5db33d5"
   },
   "07": {
-   "sig": "7fe8e62e4303b45305b33f0169362de1",
+   "sig": "03df2a302e80deda7491798e7f1a81f2",
    "parts": {
     "1": "done",
-    "2": "done"
+    "2": "done",
+    "3": "done",
+    "4": "done",
+    "5": "done"
    },
    "overview": "done",
    "status": "done",
-   "condensed": "7fe8e62e4303b45305b33f0169362de1"
+   "condensed": "03df2a302e80deda7491798e7f1a81f2"
   },
   "08": {
    "sig": "f831cd18e8282ea0cbfbd3595c5daec3",
@@ -4073,17 +5777,17 @@
    "condensed": "f7aeba405797b8a7feafaa69def1ea29"
   },
   "09": {
-   "sig": "238235219f38733fe1d0262c454fd339",
+   "sig": "3f50ae9317e662130207a4bb72fb0287",
    "parts": {
     "1": "done"
    },
    "status": "done",
-   "condensed": "238235219f38733fe1d0262c454fd339"
+   "condensed": "3f50ae9317e662130207a4bb72fb0287"
   },
   "00": {
-   "sig": "d884efedf7ca236622a1ce3a362bd5aa",
+   "sig": "953a5191f15e4accb12b72d2674be1a3",
    "status": "done",
-   "condensed": "d884efedf7ca236622a1ce3a362bd5aa"
+   "condensed": "953a5191f15e4accb12b72d2674be1a3"
   }
  }
 }

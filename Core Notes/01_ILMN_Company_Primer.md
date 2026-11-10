@@ -1,386 +1,343 @@
 # Illumina: What the Company Does and How It Makes Money
 
-*Core Notes section 01. Synthesized from 10 source extracts as of 2026-10-10. Bracketed tags cite the source; full detail is in Working Notes (see INDEX.md).*
+*Core Notes section 01. Synthesized from 11 source extracts as of 2026-10-10. Bracketed tags cite the source; full detail is in Working Notes (see INDEX.md).*
 
-## DNA sequencing in plain English
+## The basics: what DNA sequencing is and why it matters
 
-Every living cell carries instructions written in DNA, a long molecule built from four chemical "letters" (A, C, G and T). **DNA sequencing** means reading the order of those letters. A human genome, the full set of DNA in a person, runs to roughly three billion letters. Reading genomes quickly and cheaply lets scientists study disease, lets doctors find the mutations driving a patient's cancer, lets labs screen pregnancies for chromosomal problems, and lets breeders improve crops and livestock.
+Every living cell carries instructions written in DNA, a long molecule spelled out in four chemical "letters" (bases). DNA sequencing means reading the order of those letters. A human genome, the full set of DNA instructions, runs to about three billion letters. Reading it lets scientists and doctors find the changes that cause inherited disease, drive cancer, or affect how a patient responds to a drug.
 
-Illumina is the market leader in **next-generation sequencing (NGS)**, the technology that reads millions of DNA fragments in massive parallel batches. Its core method is **sequencing by synthesis (SBS)**. In SBS, the machine copies DNA fragments one letter at a time using chemically tagged building blocks, and a camera records which letter was added at each step. The 10-K describes the technology as "proprietary reversible terminator-based sequencing by synthesis chemistry." The latest version, **XLEAP-SBS**, is called "our fastest, highest quality, and most robust version" [10-K FY2025, 2026-02-11].
+Illumina (ILMN) is the largest maker of the machines and chemicals used to do this reading. Its core method is called next-generation sequencing (NGS): the DNA is cut into millions of short fragments that are read at the same time, in massive parallel batches, and then pieced back together by software. Output is measured in gigabases (Gb), billions of DNA letters read. A whole human genome needs more than 120 Gb of data per sample, versus about 8 Gb for an exome (the roughly 2% of the genome that codes for proteins). That makes a genome about 15 times as data-hungry as an exome [JPM, 2026-01-13].
 
-Sequencing output is measured in **gigabases (Gb)**, meaning billions of DNA letters read. Cost is quoted per gigabase or per genome, and that cost has fallen dramatically. The HiSeq X Ten, first offered in 2014, broke the $1,000-per-genome barrier [Bloomberg Intelligence (BI), Palmer, 2025-11-13]. The NovaSeq X can produce a human genome for as little as $200 [10-K FY2025]. BI expects XLEAP-SBS to push costs below $200 per genome; that is BI's projection, not a reported company result.
+Bloomberg Intelligence analyst Jonathan Palmer describes Illumina's reach in genomic tools as "unparalleled for more than a decade" [BI, 2025-11-13]. The company says it has the largest installed base of sequencers in the world, about 21,000 active instruments, with more than 8,000 customers in about 160 countries [JPM, 2026-01-13].
 
-Illumina's technology traces back to Solexa, which it bought for $480 million in 2007. BI's opinion is that the Solexa purchase "may go down as one of the best health-care deals in history." The analyst notes that Illumina's market capitalization (the total stock-market value of the company) rose from $1.8 billion when the deal was announced to a peak of $76 billion in the third quarter of 2021. BI also says that almost all of Illumina's value comes from sequencing [BI, 2025-11-13].
+## The technology and where it came from
 
-Illumina also sells **microarrays**, an older technology. An array is a glass chip dotted with DNA probes that checks a sample for a pre-chosen set of known variants rather than reading every letter. Arrays are cheaper per sample but less comprehensive than sequencing.
+### Sequencing by synthesis
+
+Illumina's engine is a proprietary chemistry called sequencing by synthesis (SBS). The machine copies each DNA fragment one letter at a time, using "reversible terminator" building blocks that each carry a colored tag. A camera records which letter was added at every step. The latest version, XLEAP-SBS, is described by the company as "our fastest, highest quality, and most robust version" [10-K FY2025].
+
+The business grew out of the 2007 purchase of Solexa, which invented this approach, for $480 million. Bloomberg Intelligence says the deal "may go down as one of the best health-care deals in history." Illumina's market capitalization (the total stock-market value of the company) was $1.8 billion when the Solexa deal was announced and peaked at $76 billion in the third quarter of 2021. In the analyst's view, almost all of Illumina's value stems from sequencing [BI, 2025-11-13].
+
+### The falling cost of a genome
+
+Illumina's history is a story of driving down the cost per genome, which expands what customers can afford to sequence:
+
+- The **HiSeq X Ten**, first offered in 2014, broke the $1,000-per-genome barrier [BI, 2025-11-13].
+- The **NovaSeq X** series was unveiled at Illumina's 2022 Genomics Forum at its lowest cost per gigabase, with 2.5 times the throughput of earlier systems. Bloomberg calls it "a critical catalyst for the portfolio" [BI, 2025-11-13]. The company says the NovaSeq X Plus, launched in 2023, can sequence a human genome for as little as $200. It can generate 16 terabases (about 128 human genomes) in a single run and more than 20,000 genomes a year per instrument [10-K FY2025]. Bloomberg separately projected that XLEAP-SBS would push costs below $200 per genome; that is the analyst's projection, not a reported company result.
+
+The 10-K warns that cheaper sequencing does not guarantee proportionally more demand. Bloomberg adds an opinion that the research market is maturing, with each new instrument generation delivering smaller performance gains than the last [BI, 2025-11-13].
+
+### Intellectual property
+
+At the end of fiscal 2025 Illumina held about 14,371 patents and applications: 1,380 issued and 1,120 pending in the U.S., plus 7,653 issued and 4,218 pending abroad. Issued patents expire between 2026 and 2050. The company warns that "as issued patents expire, including those related to our sequencing-by-synthesis technology, we may lose some competitive advantage" [10-K FY2025].
 
 ## What Illumina sells
 
-Illumina makes money in four ways. It sells instruments (the sequencing machines). It sells consumables, the reagent kits and flow cells customers must buy for every run. It sells services, such as sequencing done in its own labs and support contracts. It also sells software. Newer "multiomics" products extend the same platform to RNA, proteins and chemical marks on DNA.
+Illumina sells four broad kinds of things: instruments, consumables, services, and software. It is now adding protein measurement and AI-driven data businesses on top.
 
-### The instrument family, from benchtop to factory-scale
+### Instruments: the sequencers
 
-Management says Illumina offers "a solution for every setting," and BI agrees that Illumina's reach in genomic tools was "unparalleled for more than a decade." Customers choose among machines based on the speed, data output and cost per run they need [BI, 2025-11-13].
+Illumina groups its sequencers by throughput, meaning how much data they produce:
 
-- **NovaSeq X series (high-throughput).** This is the flagship, a production-scale system. BI says it was unveiled at Illumina's 2022 Genomics Forum at the company's lowest-ever cost per gigabase, with 2.5x the throughput of earlier systems. BI calls it "a critical catalyst for the portfolio." The 10-K dates the NovaSeq X Plus launch to 2023, and the Q4 2025 deck dates first shipment to Q1 2023. One run can generate 16.0 terabases (trillions of letters), equivalent to 128 human genomes, and an instrument can sequence more than 20,000 human genomes per year [10-K FY2025]. It uses flow cells (the glass slides on which DNA is read) in 1.5B, 5B, 10B and 25B sizes. A NovaSeq X v1.4 update was slated for H1 2026. Management says it is optimized for clinical work, with dual flow cells and staggered runs, a 5B flow cell in 100-, 200- and 300-cycle kits, and a 1.5B flow cell in a 600-cycle kit [JPM, 2026-01-13].
-- **NovaSeq 6000 (high-throughput).** This is the predecessor, first shipped in Q1 2017, which customers are now replacing.
-- **NextSeq 1000/2000 and NextSeq 500/550 (mid-throughput).** BI says demand for the NextSeq line is a key driver of Illumina's expansion into clinical uses.
-- **MiSeq i100 series, MiSeq, MiniSeq and iSeq 100 (low-throughput benchtop).** BI says the small machines bring Illumina's chemistry to smaller labs in a small footprint at a competitive price. The MiSeq i100 launched in 2024 (first shipment Q4 2024). It uses room-temperature reagents and carries the slogan "empowering every lab, everywhere" [10-K FY2025]. It passed 500 placements by Q2 2025 and offered 18 proven workflows and 9 workflows running from library prep (preparing DNA for sequencing) through analysis [Q2 2025 slides].
-- **HiSeq.** This legacy line still generates some revenue [10-K FY2025].
+- **High-throughput (HT):** the NovaSeq X series (first shipped Q1 2023) and the older NovaSeq 6000 (first shipped Q1 2017). These are production machines for large genome centers and big clinical labs.
+- **Mid-throughput:** the NextSeq line. Bloomberg says demand for NextSeq is a key driver of Illumina's expansion into clinical uses [BI, 2025-11-13].
+- **Low-throughput (benchtop):** the MiSeq, the new MiSeq i100 series (launched 2024, first shipped Q4 2024, with room-temperature reagents), the MiniSeq and the iSeq 100. These serve smaller labs with Illumina chemistry in a small footprint at a competitive price.
+- **Legacy:** HiSeq systems still generate some revenue.
 
-### The installed base and "pull-through"
-
-The **installed base** is the number of Illumina instruments in active use at customer sites. It is the foundation of the business, because each machine generates years of consumable purchases. Management reports the largest installed base in NGS, about 21,000 active instruments as of FY2025. That total includes more than 12,000 low-throughput machines, more than 6,000 mid-throughput machines and about 2,000 high-throughput machines. "Active" excludes decommissioned units and includes reagent-rental units, which are machines placed with customers who pay through higher reagent purchases. Management says high-throughput capacity roughly doubled from 2022 to 2025, measured as theoretical maximum output [JPM, 2026-01-13].
-
-**Pull-through** is the average annual consumables revenue each installed instrument generates. The table below, from the Q4 2025 deck (as of 2026-02-05), shows FY2025 placements, the active installed base, average pull-through in thousands of dollars, and Illumina's FY2026 pull-through guidance. The key point is the gap between machine types. A NovaSeq X generates about twice the annual consumables of a NovaSeq 6000, and roughly 15 times a NextSeq. That is why moving customers onto NovaSeq X matters so much.
-
-| Instrument | First shipment | FY25 placements | Active installed base, end FY25 | FY25 avg pull-through | FY26 pull-through guide |
-|---|---|---|---|---|---|
-| NovaSeq X series | Q1'23 | ~270 | ~890 | ~$1,350K | $1,350K–$1,400K |
-| NovaSeq 6000 | Q1'17 | ~30 | ~1,360 | ~$670K | $600K–$650K |
-| NextSeq 1000/2000 | Q4'20 / Q1'20 | ~390 | ~2,990 | ~$90K | $80K–$100K |
-| NextSeq 500/550 | Q1'14 / Q1'15 | ~110 | ~3,460 | ~$100K | $90K–$110K (NS 550) |
-| MiSeq i100 / MiSeq | Q4'24 / Q3'11 | ~1,220 | ~8,590 | ~$30K (MiSeq) | not guided |
-| MiniSeq / iSeq 100 | Q1'16 / Q1'18 | ~90 | ~3,840 | ~$20K (MiniSeq) | not guided |
-
-The high-throughput figures exclude HiSeq. The NovaSeq 6000 base reflects about 330 decommissions during FY2025. The preliminary version of this table shown at JPM differed slightly. It gave about 260 NovaSeq X shipments, about 380 NextSeq 1000/2000, about 100 NextSeq 500/550, about 1,200 MiSeq-family units, and a MiSeq-family installed base of about 8,860 [JPM, 2026-01-13]. Use the February figures as final.
+Of the roughly 21,000 active instruments, more than 12,000 are low-throughput, more than 6,000 mid-throughput and about 2,000 high-throughput. High-throughput capacity roughly doubled from 2022 to 2025 [JPM, 2026-01-13]. The MiSeq i100 passed 500 placements by mid-2025, and Illumina cited 18 proven workflows for it [Q2 2025 slides].
 
 ### Consumables: the recurring engine
 
-**Consumables** are the reagent kits, flow cells and library-prep kits (such as the TruSeq line) consumed in every run. Customers cannot sequence without buying more, which makes this revenue recurring and high-margin. The proprietary chemistry gives Illumina pricing power, while instruments face more price competition. The 10-K cites "a more favorable product mix towards consumables" as something that supported margins in 2025.
+Consumables are the reagent kits and flow cells (the glass slides on which DNA is read) that customers must buy for every sequencing run. NovaSeq X uses flow cells in 1.5B, 5B, 10B and 25B sizes. A NovaSeq X v1.4 update, due in the first half of 2026, adds dual-flow-cell and staggered runs optimized for clinical labs [JPM, 2026-01-13]. Library-prep kits such as TruSeq, which prepare DNA for sequencing, are also consumables.
 
-Consumables in total, including array consumables, were $3,227 million in FY2025. That was 74% of revenue, up 2% from $3,155 million in FY2024 and up from $3,083 million in FY2023. The consumables share of revenue rose from 68% in FY2023 to 74% in FY2025 [10-K FY2025]. Sequencing consumables alone were $2,939 million, up 2% from $2,872 million [Q4 2025 deck]. BI separately says consumables are now 60% of sequencing revenue, which the analyst attributes to NovaSeq X volume and oncology demand [BI, update 2026-03-11]. BI's 60% does not match the roughly 74% the company's own figures imply (sequencing consumables of $2,939M divided by sequencing revenue of $3,985M). BI's figure appears to use a different base or older data.
+### Microarrays
 
-Management defines **recurring revenue** as consumables plus service and other. It puts this at about 90% of the company [JPM, 2026-01-13].
+Illumina also sells microarrays (BeadArray chips, read on the iScan system and the NextSeq 550). Arrays look for known DNA variations rather than reading every letter. They are used for genotyping, agricultural breeding, consumer genomics, pharmacogenomics and large population studies. Arrays brought in $358 million in fiscal 2025, about 8% of revenue, down from $379 million (9%) in 2024 [10-K FY2025]. This is a shrinking business: microarray revenue fell 20% organically in Q1 2026 and 6% in Q2 2026 [Q1 and Q2 2026 slides].
 
-### Services and other
+### Services
 
-This line includes several things [10-K FY2025]:
-
-- whole-genome sequencing services from a lab that is **CLIA-certified** and **CAP-accredited** (the U.S. quality certifications required for clinical labs);
-- genotyping services;
-- noninvasive prenatal testing (NIPT) services;
-- product support contracts;
-- development and licensing agreements.
-
-Services and other revenue was $634 million in FY2025, or 15% of revenue. That breaks down into $581 million from sequencing and $53 million from arrays. The 10-K notes describe the change from FY2024 inconsistently. One passage says $28 million or 4% lower; another says $716 million fell by $82 million, of which $55 million was lost GRAIL revenue. Either way, the decline came mainly from lower strategic-partnership revenue and the GRAIL separation. Since January 2026, SomaLogic's protein-measurement services also sit in this line [Q2 2026 10-Q].
-
-### Arrays
-
-Arrays use Illumina's **BeadArray** technology on the iScan System and the NextSeq 550. They serve several uses [10-K FY2025]:
-
-- **SNP genotyping** (checking single-letter variants);
-- copy-number variation analysis;
-- methylation analysis;
-- agrigenomics;
-- cytogenetics;
-- pharmacogenomics;
-- disease-risk screening;
-- large-scale research studies.
-
-Array revenue was $358 million in FY2025, or 8% of revenue, down from $379 million (9%) in FY2024. Sequencing revenue was $3,985 million (92%) versus $3,993 million (91%); the notes say "up," but the figures show a slight decline. The array business is shrinking. Q2 2026 microarray revenue was up 21% reported but down 6% organically, because acquisitions added 25 points. In Q1 2026 it was down 20% organically [Q1 and Q2 2026 slides].
+Services include whole-genome sequencing and genotyping run in Illumina's own certified lab, noninvasive prenatal testing (NIPT) services, instrument service contracts, and development and licensing deals [10-K FY2025].
 
 ### Software and informatics
 
-Illumina sells software that turns raw sequencer output into usable results [10-K FY2025]:
+Illumina sells a software stack around its machines. DRAGEN analyzes raw sequencing data quickly; version 4.4 improves detection of large structural variants. BaseSpace manages runs and data. Illumina Connected Analytics is a cloud data platform. Emedgene is AI-driven interpretation software for rare disease research. Connected Insights and Connected Multiomics (launched in the second half of 2025) help interpret and combine data types [10-K FY2025; JPM, 2026-01-13].
 
-- **BaseSpace**: run management, cloud storage, data sharing and community-built apps.
-- **DRAGEN**: secondary analysis (aligning reads and calling variants) for genomes, exomes, germline and somatic data, and RNA, marketed as having "industry leading accuracy, speed and efficiency." DRAGEN v4.4 improved accuracy on germline structural variants, which are large rearrangements of DNA [JPM, 2026-01-13].
-- **Illumina Connected Analytics**: a secure cloud data platform.
-- **Emedgene**: AI-driven interpretation for rare and inherited disease, labeled research use only.
-- **Illumina Connected Insights**: variant interpretation in research settings.
-- **Illumina Connected Multiomics**: integrated analysis across DNA, RNA, protein and other data, launched in FY2025 (H2 2025 per JPM).
+### Multiomics: proteins, methylation, single cells and spatial
 
-### Multiomics: reading more than DNA
+"Multiomics" means measuring more than one biological layer per sample, such as DNA, RNA, proteins, and chemical marks on DNA. Management calls this its second growth pillar. Recent launches and plans, by the company's account:
 
-**Multiomics** means measuring several biological layers from the same sample. Those layers include DNA, RNA (which genes are active), proteins, and chemical marks on DNA. Management's strategy is to make its sequencers the readout engine for all of them, so that more data runs through Illumina flow cells. Launches and plans are below [10-K FY2025; JPM, 2026-01-13; Q3 2025 deck].
+- **Illumina Single Cell 3' RNA Prep** (January 2025), with DRAGEN Single Cell, studies gene activity cell by cell across hundreds to millions of cells.
+- **Illumina Protein Prep** (September 2025) is a sequencing-based method for ultra-high-plex protein measurement. Its panel covers 9.5K proteins, which the company compares with a competitor's 5.4K-protein panel [JPM, 2026-01-13].
+- **5-Base Solution** (October 2025) reads the genome and the methylome (chemical methyl marks that switch genes on and off) in one workflow.
+- **Constellation** (launching first half of 2026) makes phasing, structural variants and hard-to-read genome regions "simple," according to the company.
+- **Ex-Situ Spatial** (first half of 2026) maps gene activity at single-cell level in tissue.
 
-- **Illumina Single Cell 3' RNA Prep** (January 2025, with DRAGEN Single Cell in H1 2025) measures gene activity in individual cells, at scales from hundreds to millions of cells.
-- **Illumina Protein Prep** (September 2025) is a sequencing-based proteomics assay. Proteomics is the large-scale measurement of proteins. The assay uses a 9.5K-protein panel and is designed for "high-performance, scalable protein analysis." The JPM deck lists it as launched in Q4 2025.
-- **5-Base Solution** (October 2025) reads the genome and the methylome, the pattern of methyl chemical tags that switch genes on and off, in one end-to-end workflow.
-- **Perturb-Seq** (launched 2025) runs genome-wide experiments that knock out genes to map what each one does.
-- **Constellation Mapped Reads** (launching H1 2026). Management says it makes phasing (telling which parent each variant came from), structural variants and difficult genome regions "simple."
-- **Ex-Situ Spatial** (available H1 2026) produces whole-transcriptome, single-cell-level maps of gene activity in tissue.
+The extracted JPM slide does not make every launch date clear. The deck also claims Illumina offers the lowest "total cost of workflow" per sample in proteomics and per cell in single-cell work, but the chart values and competitor were not legible [JPM, 2026-01-13].
 
-At JPM, management argued that Illumina offers the lowest "total cost of workflow." It compared list price per sample for proteomics (25B flow cell with Protein Prep 9.5K versus a competitor's 5.4K-protein panel) and price per cell for single-cell work (100K cells per run versus a competitor's 100K). The chart values were not legible, so the size of the claimed advantage is unknown.
+### SomaLogic: buying into proteomics
 
-### SomaLogic: buying a proteomics business
+Proteomics is the large-scale measurement of proteins. Illumina signed a deal on June 22, 2025 to buy SomaLogic, Inc. and certain other assets from Standard BioTools, and announced it with Q2 results on July 31, 2025. The deal brings SOMAmer technology (protein-binding reagents) along with SomaScan kits and services and SomaSignal tests. Headline terms were $350 million cash at closing, up to $75 million in near-term revenue milestones, and performance-based royalties. The deal needed Hart-Scott-Rodino antitrust clearance and initially targeted a first-half 2026 close [Q2 2025 slides].
 
-**What was announced.** On June 22, 2025, Illumina signed a deal to buy SomaLogic, Inc. and related assets from Standard BioTools. The deal was announced with Q2 results on July 31, 2025. SomaLogic's technology uses **SOMAmers**, engineered binding molecules that latch onto specific proteins so they can be counted. Illumina acquired the SomaScan kits and services, the SomaSignal Tests, and the related development capabilities. The announced consideration had three parts: $350 million in cash at closing, up to $75 million in near-term revenue-performance milestones, and performance-based royalties [Q2 2025 slides].
+Management's rationale was that the deal builds on an existing partnership, "accelerates product timelines," and positions Illumina in a "large and expanding proteomics market." Management described SomaLogic's end markets as growing at high-single-digit-plus to double-digit rates. It called SomaLogic a high-margin consumables business once run on NGS, and said it expects the business to be profitable on a non-GAAP operating basis in 2027 and to reach Illumina-level margins in 2028 [Q2 2025 slides; Q4 2025 deck].
 
-**Management's rationale.** Management gave four reasons. The deal builds on an existing partnership. It pairs SomaLogic's science with Illumina's "highly scalable NGS ecosystem." It "accelerates product timelines." And it positions Illumina in a "large and expanding proteomics market." Management said SomaLogic's end markets are growing at high-single-digit-plus to double-digit rates. It described SomaLogic as a high-margin consumables business when run on NGS. It expects SomaLogic to be profitable on a non-GAAP operating basis in 2027 and to match Illumina's non-GAAP operating margin in 2028 [Q2 2025 slides; Q4 2025 deck]. These are management targets, not results.
+The deal closed on January 30, 2026. Under purchase accounting the price was $460 million: $382 million cash plus $81 million fair value of contingent payments, less $3 million to settle a preexisting relationship. The acquired assets include $186 million of intangibles and $171 million of goodwill. The contingent terms were a $25 million milestone for 2025 revenue (earned and paid in Q2 2026), up to $50 million more for 2026 revenue, and a 2% royalty on SOMAmer-based NGS library-prep kits for 10 years. On July 27, 2026, Illumina paid $30 million to buy out the remaining 2026 milestone and royalty early [10-Q Q2 2026].
 
-**Closing and final terms.** The deal needed Hart-Scott-Rodino antitrust clearance in the U.S. and was originally expected to close in H1 2026. It closed on January 30, 2026, with no antitrust challenge disclosed [10-K FY2025]. The final terms differed from the headline figures [Q2 2026 10-Q]:
-
-- The accounting purchase price was $460 million: $382 million cash plus $81 million fair value of contingent payments, less $3 million to settle a preexisting relationship.
-- The milestone structure was $25 million tied to 2025 revenue, which was earned and paid in Q2 2026, plus up to $50 million tied to 2026 revenue.
-- The royalty was 2% on SOMAmer-based NGS library-prep kits, payable quarterly for 10 years through January 2036.
-- On July 27, 2026, Illumina paid $30 million to buy out the remaining 2026 milestone and royalty obligations early.
-
-**Accounting effects.** The acquisition added $171 million of tax-deductible goodwill. Intangibles of $186 million included developed technology worth $158 million (9-year life), a trade name worth $16 million (7 years) and customer relationships worth $12 million (8 years). Acquired inventory of $57 million included $22 million classified as non-current, a new Illumina policy for products with manufacturing cycles longer than a year. On a pro forma basis, as if SomaLogic had been owned from the start of 2025, Q2 2026 revenue would have been $1,159 million versus $1,076 million a year earlier, and H1 revenue $2,258 million versus $2,136 million [Q2 2026 10-Q].
-
-**Guidance impact.** Management guided that SomaLogic adds 1.5–2.0 points to FY2026 revenue growth, costs about 100 basis points of operating margin, and reduces EPS by about $0.18 [Q4 2025 deck]. The 10-Q notes that lower-margin SomaLogic revenue is a drag on gross margin.
+At the start of the year, management guided that SomaLogic would add 1.5–2.0 points to 2026 revenue growth, cut operating margin by about 100 basis points, and reduce non-GAAP EPS by about $0.18 [Q4 2025 deck]. A basis point is one hundredth of a percentage point. Acquisitions actually added 1.7 points to reported growth in Q1 2026, 2.1 points in Q2 and 2.4 points in Q3 [2026 slides]. The 10-Q also notes that lower-margin SomaLogic revenue weighs on gross margin.
 
 ### BioInsight: data and AI
 
-BioInsight was announced in October 2025 as a new business covering population sequencing, data partnerships, and software and AI [Q3 2025 deck]. Management describes it as aggregating biology at scale to train proprietary **foundation models** (large AI models trained on huge datasets). The inputs are genome-wide Perturb-Seq (to build causal maps of gene function), longitudinal datasets (data tracked over time) from sequencing at scale, computing power, and standardized pipelines that produce model-ready data. The intended customers are pharma partners doing drug discovery, plus clinical insight work. In 2025 Illumina signed a "billion-cell atlas" pharma partnership [JPM, 2026-01-13; Q4 2025 deck].
+BioInsight, announced in October 2025, is Illumina's third pillar. It aggregates biology at scale, including genome-wide Perturb-Seq experiments (which switch off genes to map what each one does), long-running population datasets, and compute power. It uses these to train proprietary foundation models (large AI models) for pharma drug discovery and clinical insight. Illumina signed a "billion-cell atlas" pharma partnership in 2025 [Q3 2025 deck; JPM, 2026-01-13; Q4 2025 deck].
 
-## Who the customers are
+## How Illumina makes money: the installed-base model
 
-**Research customers** include university and research-center labs, government labs, genome centers, and biotech and pharmaceutical companies. They do basic and translational research using targeted, exome and whole-genome sequencing, gene expression, epigenetics and metagenomics. **Clinical customers** are hospitals and commercial molecular-diagnostic labs working in oncology, genetic health and reproductive health. **Applied** customers include consumer-genomics companies and agrigenomics [10-K FY2025]. BI notes that commercial markets such as oncology, agriculture and reproductive health keep bringing in new customers.
+Illumina's model resembles razors and blades. It places sequencers with customers, and each machine then generates years of consumables purchases. That recurring stream is higher margin and more predictable than one-off instrument sales. Management says about 90% of revenue is recurring, defined as consumables plus service and other revenue [JPM, 2026-01-13].
 
-### The mix is shifting toward clinical
+### Revenue mix
 
-Measured by share of sequencing consumables, about 60% comes from Research & Applied and about 40% from Clinical. A further ~3% labeled "Other," mainly infectious disease, is excluded from those percentages. Within clinical, about 51% is oncology, about 25% genetic disease and about 21% reproductive health. Illumina serves more than 8,000 customers in about 160 countries [JPM, 2026-01-13].
+In fiscal 2025, the year ended December 28, 2025, total revenue was $4,343 million [10-K FY2025]. The table below shows how that splits by product type. Consumables include both sequencing and array consumables.
 
-The two groups are moving in opposite directions. The table below shows reported year-over-year growth in sequencing consumables outside Greater China, by customer group [Q3 2025, Q4 2025, Q1 2026 and Q2 2026 slides]. Clinical has grown every quarter, accelerating to 20% in Q4 2025 and Q1 2026 before easing to 15%. Research & Applied has shrunk in every quarter shown except a flat Q4 2025.
+| FY2025 | Revenue | Share | Change vs FY2024 |
+|---|---|---|---|
+| Consumables | $3,227M | 74% | +2% (from $3,155M; $3,083M in FY2023) |
+| Instruments | $482M | 11% | −4% (from $501M; $704M in FY2023) |
+| Services and other | $634M | 15% | from $716M, hurt by lower strategic-partnership revenue and the loss of $55M of GRAIL revenue |
+| Sequencing in total | $3,985M | 92% | vs $3,993M |
+| Arrays in total | $358M | 8% | vs $379M |
 
-| Ex-China consumables growth | Q1'24 | Q2'24 | Q3'24 | Q4'24 | FY24 | Q1'25 | Q2'25 | Q3'25 | Q4'25 | FY25 | Q1'26 | Q2'26 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Total | 1% | 2% | 9% | 2% | 4% | (0%) | 2% | 3% | 11% | 4% | 7% | 6% |
-| Clinical | 7% | 5% | 11% | 8% | 8% | 8% | 10% | 12% | 20% | 12% | 20% | 15% |
-| Research & Applied | (5%) | (3%) | 6% | (5%) | (2%) | (11%) | (9%) | (8%) | (0%) | (7%) | (12%) | (7%) |
+Within sequencing, consumables were $2,939 million (versus $2,872 million), instruments $465 million (versus $484 million) and services $581 million (versus $597 million) [Q4 2025 deck]. Consumables rose from 68% of revenue in FY2023 to 74% in FY2025 as instrument sales fell and the installed base kept running. The 10-K says consumables grew "primarily due to demand for high-throughput consumables as customers continue to transition to NovaSeq X."
 
-**Management's case for clinical headroom.** Management argues clinical NGS has large headroom, based on internal models that it calls "directional." It shows adoption below 20% for four applications:
+One source conflict should be noted. Bloomberg's March 2026 update says consumables are "now 60% of sequencing revenue," citing NovaSeq X volume and oncology demand. Company filings imply about 74% ($2,939M of $3,985M). The Bloomberg figure may describe something else; treat it with caution.
 
-- comprehensive genomic profiling (CGP, broad tumor testing);
-- minimal residual disease (MRD, detecting leftover cancer after treatment);
-- multi-cancer early detection (MCED);
-- genomic disease testing.
+### Pull-through: what each machine is worth
 
-Management also says doctors are shifting from small gene panels toward large panels, whole exomes and whole genomes. A whole genome uses about 15 times the data of an exome (more than 120 Gb versus about 8 Gb). Management projects future clinical gigabase growth at a compound annual rate above 30% [JPM, 2026-01-13]. BI similarly says clinical penetration depends on more biomarker profiling and greater physician use of downstream sequencing applications.
+"Pull-through" is the average annual consumables revenue generated per installed instrument. The table below, from the Q4 2025 deck, shows why the move to NovaSeq X matters. Each NovaSeq X brings in roughly twice the consumables of the NovaSeq 6000 it replaces, and about 15 times a NextSeq.
 
-### The size of the opportunity
-
-BI cites Illumina's own estimate of more than $125 billion in addressable markets, split into two categories. Illumina significantly penetrates only research, its core business, where it estimated 34% capture by 2027 "as of the 2022 investor day." That is a 2022 company estimate, not a current measurement. BI flags liquid biopsy as the next opportunity, an $800 million market. **Liquid biopsy** means blood tests that detect cancer from DNA shed into the bloodstream. BI notes Illumina "hoped to compete via Grail" in this market, which is no longer the plan [BI, 2025-11-13].
-
-### Dependence on government funding and on big labs
-
-BI says government funding accounts for almost half of Illumina's sales. It notes that U.S. budget sequestration (automatic federal spending cuts) and a federal shutdown temporarily capped growth in 2012 [BI, 2025-11-13].
-
-That risk returned in 2025. The 10-K cites reductions in U.S. National Institutes of Health (NIH) funding as a headwind. Uncertainty over NIH funding, together with the China listing, prompted an extra $100 million cost-reduction program in Q1 2025.
-
-BI also recalls that Covid-19 was expected to slow recovery until research labs reopened, but 2021 instead brought record instrument demand.
-
-No customer exceeds 10% of revenue. However, the 10-K warns that revenue "is increasingly derived from a small number of large, centralized laboratory customers." That raises pricing pressure, credit risk and quarter-to-quarter swings. Management also says "capital and cash flow constraints continue to impact our customer's purchasing behavior," which weighs on instrument sales.
-
-## Where the revenue comes from geographically
-
-The U.S. is the largest market. It provided $2,243 million, or 52% of FY2025 revenue, down from $2,441 million (56%) in FY2024. International sales were 48% of revenue in each of 2023, 2024 and 2025, and 53% of receivables are owed by international customers [10-K FY2025].
-
-The table below shows FY2025 revenue by the regions Illumina used through 2025. Europe was the growth region. Greater China fell by a fifth [Q4 2025 deck; 10-K].
-
-| Region | FY2025 | FY2024 | Change (constant currency) | Share |
+| Instrument | FY25 placements | Active installed base (FY25) | FY25 avg. pull-through | FY26 guide |
 |---|---|---|---|---|
-| Americas | $2,406M | $2,401M | flat | 55% |
-| Europe | $1,264M | $1,185M | +7% (+5%) | 29% |
-| Asia Pacific, Middle East & Africa (AMEA) | $430M | $438M | −2% (+1%) | 10% |
-| Greater China | $243M | $308M | −21% (−20%) | 6% |
+| NovaSeq X series | ~270 | ~890 | ~$1.35M | $1.35M–$1.40M |
+| NovaSeq 6000 | ~30 | ~1,360 (after ~330 decommissions) | ~$670K | $600K–$650K |
+| NextSeq 1k/2k | ~390 | ~2,990 | ~$90K | $80K–$100K |
+| NextSeq 500/550 | ~110 | ~3,460 | ~$100K | $90K–$110K (550) |
+| MiSeq i100 / MiSeq | ~1,220 | ~8,590 | ~$30K (MiSeq) | not guided |
+| MiniSeq / iSeq 100 | ~90 | ~3,840 | ~$20K (MiniSeq) | not guided |
 
-AMEA includes Russia and Turkey. Greater China includes Taiwan and Hong Kong. In Q1 2026 Illumina reorganized into four new regions and restated prior periods: USCAN (U.S. and Canada), EMEALA (Europe, Middle East, Africa and Latin America), APAC (Asia Pacific excluding China) and Greater China. For H1 2026 the figures were: USCAN $1,243 million (+10%), EMEALA $725 million (+6%), APAC $175 million (+14%) and Greater China $108 million (−20%) [Q2 2026 10-Q].
-
-Illumina sells directly in North America, Europe, Latin America and Asia-Pacific, and through distributors elsewhere. Even when a distributor is involved, Illumina usually ships the product itself [10-K].
-
-### China: the "unreliable entities list"
-
-China has become a shrinking and risky market for Illumina. The sequence of events was as follows [10-K FY2025]:
-
-- **February 4, 2025:** China added Illumina to its List of Unreliable Entities (UEL), a blacklist that allows fines and restrictions on trade, investment and staff.
-- **March 4, 2025:** China banned imports of Illumina sequencing instruments.
-- **November 5, 2025:** China granted permission to export instruments into China again, effective November 10, but "on a case-by-case basis."
-
-The 10-K attributes the $65 million drop in FY2025 Greater China revenue to the listing. Penalties available under the UEL include fines, sales and trade restrictions, investment restrictions, entry denial and the revocation of work permits. Management says it "cannot currently predict the duration" of the listing. It warns that curtailing or exiting China could bring "material impairment charges."
-
-China revenue kept falling after the listing. Q2 2025 revenue was $63 million (−14% in constant currency). Q3 2025 was $52 million (−31%). Q4 2025 was $55 million (−30%, versus $80 million a year earlier). Q1 2026 was $52 million (−29% organic). Q2 2026 was $56 million (−19% organic). FY2025 guidance for China moved from $190–$210 million in July 2025 to about $220 million in October 2025; the actual figure was $243 million. China's drag on growth was guided at about −1 point for FY2026 [Q2 2025–Q2 2026 slides]. Illumina leases an 86,000 sq ft office and lab in China and employs about 290 people there, about 3% of its workforce.
-
-## How the business model works
-
-Illumina follows a "razor and razor blades" model. It places instruments, sometimes through reagent rental, and then earns recurring revenue for years from the consumables each machine uses. Three levers drive revenue:
-
-1. the size of the installed base;
-2. how much each machine is used (pull-through);
-3. the price and mix of consumables.
-
-Cheaper sequencing per gigabase can lower revenue per unit of data. Management's bet is that lower costs unlock enough extra volume to more than compensate. The 10-K warns as a risk that demand "may not increase proportionately" as costs fall.
+"Active" excludes decommissioned units and includes reagent-rental units (machines placed for customers who pay through reagent purchases). The preliminary JPM appendix showed slightly different figures (about 260 NovaSeq X shipments and a MiSeq base of about 8,860), so use the Q4 deck numbers. Note that guided NovaSeq 6000 pull-through falls in 2026 as those machines are retired.
 
 ### The NovaSeq X transition
 
-The NovaSeq X transition is the clearest test of that bet. As customers moved from the NovaSeq 6000, they paid less per gigabase, which depressed revenue during 2023–2024. Illumina then tracked two targets for "towards the end of 2025": about 75% of high-throughput gigabases shipped and about 50% of high-throughput revenue on NovaSeq X [Q2 2025 slides]. It reported achieving both in Q3 2025, with "over 75%" and "over 50%" respectively [Q3 2025 deck].
+From 2023 through 2025, Illumina's central task was moving high-throughput customers from the NovaSeq 6000 to the NovaSeq X. This depressed revenue for a time, because the new chemistry is cheaper per gigabase and customers need time to grow volumes. With Q2 2025 results the company set targets for "towards the end of 2025": about 75% of HT gigabases shipped and about 50% of HT revenue on NovaSeq X. NovaSeq X consumables revenue grew more than 10% quarter on quarter in Q2 2025 [Q2 2025 slides]. Illumina said it hit both targets in Q3 2025, reaching over 75% and over 50% [Q3 2025 deck].
 
-By Q4 2025 the gigabase share was about 90%. Charts show it climbing from the mid-30s% in Q2 2024 to about 90–92% by Q2 2026. The revenue share rose from about 27% to the mid-50s%, with about 59% the apparent latest high point. Chart extraction was garbled, so the series-level values are uncertain. Data share running far ahead of revenue share is consistent with NovaSeq X delivering more data per dollar. Management said, "With transition milestones achieved, we will phase out transition-specific metrics after Q4 earnings" [Q4 2025 deck]. NovaSeq X consumables revenue grew more than 10% quarter over quarter in Q2 2025.
+The company also analyzed 40 clinical customers who had fully or largely switched. It says their consumables revenue and gigabase volume are growing at double-digit rates, which supports its argument that switched customers spend more [Q3 2025 deck].
 
-Management's evidence that the transition pays off comes from 40 clinical customers who have fully or largely moved to NovaSeq X. For these customers it shows double-digit growth in both consumables revenue and gigabase volume across 2023, 2024 and 2025E, with one label reading low single digit [Q3 2025 deck]. The 10-K credits FY2025 consumables growth "primarily" to customers continuing to move to NovaSeq X.
+Management said it would phase out transition metrics after Q4 2025 [Q4 2025 deck], yet the charts still appeared through Q3 2026. By then NovaSeq X carried roughly 90–92% of HT gigabases and about 59–60% of HT consumables revenue [Q2 and Q3 2026 slides]. The extracted chart values are jumbled and cannot be assigned precisely to segments. The gap between volume share and revenue share reflects the newer machine's lower price per gigabase. Bloomberg's opinion is that NovaSeq X volume is a key reason growth is shifting toward clinical markets [BI, 2026-03-11].
 
-NovaSeq X placements were more than 50 in Q2 2025, more than 55 in Q3 2025, and more than 100 in Q4 2025. The JPM preliminary figure for Q4 2025 was about 95. Placements were more than 80 in Q1 2026 and more than 95 in Q2 2026. The NovaSeq X installed base reached about 890 at the end of FY2025.
+NovaSeq X placements per quarter were more than 50 in Q2 2025, more than 55 in Q3 2025, more than 100 in Q4 2025 (the preliminary January figure was about 95), more than 80 in Q1 2026, more than 95 in Q2 2026 and more than 80 in Q3 2026.
 
-### Backlog
+## Who the customers are
 
-Backlog (orders received but not yet shipped) was $738 million at the end of FY2025, up 12% from $657 million. Management expected 77% to ship in 2026 and 13% in 2027 [10-K]. By mid-2026, remaining performance obligations were about $1.0 billion, with about 83% due within 12 months [Q2 2026 10-Q].
+### Research versus clinical
+
+Illumina divides its consumables customers into two groups:
+
+- **Research & Applied:** universities, research centers, government labs, and pharma and biotech companies doing basic and translational research, plus "applied" markets such as consumer genomics and agrigenomics (crop and livestock breeding) [10-K FY2025].
+- **Clinical:** hospitals and commercial molecular-diagnostic labs testing patients, mainly in oncology, genetic disease and reproductive health.
+
+Measured by sequencing consumables, about 60% comes from Research & Applied and about 40% from Clinical. A further roughly 3%, mainly infectious-disease testing, sits outside these figures. Within clinical, about 51% is oncology, about 25% genetic disease and about 21% reproductive health [JPM, 2026-01-13].
+
+The two groups are moving in opposite directions, and this is the most important trend in the business. The table below shows year-over-year growth in sequencing consumables outside Greater China, on a reported basis. Clinical growth accelerated through 2025 and stayed in the mid-teens in 2026. Research & Applied has shrunk in every period shown except Q3 2024.
+
+| Ex-China consumables growth | Q1'24 | Q2'24 | Q3'24 | Q4'24 | FY24 | Q1'25 | Q2'25 | Q3'25 | Q4'25 | FY25 | Q1'26 | Q2'26 | Q3'26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Total | 1% | 2% | 9% | 2% | 4% | 0% | 2% | 3% | 11% | 4% | 7% | 6% | 6% |
+| Clinical | 7% | 5% | 11% | 8% | 8% | 8% | 10% | 12% | 20% | 12% | 20% | 15% | 14% |
+| Research & Applied | (5%) | (3%) | 6% | (5%) | (2%) | (11%) | (9%) | (8%) | 0% | (7%) | (12%) | (7%) | (6%) |
+
+Sources: Q3 2025, Q4 2025, Q1–Q3 2026 slides. Ex-China consumables dollars rose from $2,645M in FY2024 to $2,750M in FY2025, and from $707M in Q3 2025 to $748M in Q3 2026.
+
+### Why clinical is growing
+
+Management argues that clinical sequencing still has large headroom. Its internal, "directional" models put adoption below 20% for four tests: comprehensive genomic profiling (CGP, broad tumor DNA panels), minimal residual disease (MRD, blood tests for leftover cancer after treatment), multi-cancer early detection (MCED), and genomic disease testing. Doctors are also shifting from small panels to larger panels, exomes and whole genomes, which multiplies data per sample. Management projects future clinical gigabase growth above 30% a year [JPM, 2026-01-13].
+
+Bloomberg says the clinical path depends on wider biomarker profiling (testing patients for specific molecular markers) and on physicians' use of sequencing-based tests [BI, 2025-11-13]. Bloomberg also cited, from Illumina's 2022 investor day, more than $125 billion of addressable market across two categories. On that view, Illumina significantly penetrates only research, with an estimated 34% of it captured by 2027. Bloomberg identified a $800 million liquid biopsy market (blood tests that detect cancer DNA) where Illumina "hoped to compete via Grail." These figures date from 2022 and are company estimates.
+
+### Why research is weak: government funding
+
+Research customers depend heavily on government grants. Bloomberg says government funding accounts for almost half of Illumina's sales, and that U.S. government action can temporarily cap growth. Its example is the 2012 budget sequestration (automatic federal spending cuts) and shutdown [BI, 2025-11-13]. In 2025, reductions in U.S. National Institutes of Health (NIH) funding were a headwind, and uncertainty about NIH funding was one reason for a $100 million cost-cutting program in Q1 2025 [10-K FY2025].
+
+Covid-19 showed demand can surprise in the other direction. Recovery was expected to track lab reopenings, but 2021 brought record instrument demand [BI, 2025-11-13].
+
+### Concentration and loyalty
+
+No customer accounts for more than 10% of revenue. However, the 10-K warns that "a portion of our revenue is increasingly derived from a small number of large, centralized laboratory customers." That raises the risk of pricing pressure and lumpier results. The company also believes customers "display a significant amount of loyalty to their initial supplier," which protects its base but makes winning rivals' customers harder [10-K FY2025].
+
+### Regulation of clinical use
+
+Most Illumina products are labeled "For Research Use Only" (RUO) and are not cleared by the FDA. Only the MiSeqDx (through the 510(k) pathway, the shorter route of showing equivalence to an existing device) and the NextSeq 550Dx (through premarket approval, PMA, the costlier route requiring clinical studies, for the TruSight Oncology Comprehensive panel) are FDA-regulated. Many clinical labs build RUO products into their own laboratory-developed tests. The company warns regulators could treat its support of such labs as evidence of diagnostic intent. Under the EU's diagnostics rules (IVDR, fully enforced from May 2022), a lab using RUO products for patients can be deemed the test manufacturer [10-K FY2025]. Payer reimbursement for new sequencing tests is another stated risk.
+
+## Geography and China
+
+### Regional split
+
+In fiscal 2025, Illumina reported revenue in four regions [10-K FY2025; Q4 2025 deck]:
+
+- **Americas:** $2,406M (55%), flat versus $2,401M. The U.S. alone was $2,243M (52%).
+- **Europe:** $1,264M (29%), up 7% (5% in constant currency) from $1,185M.
+- **Asia Pacific, Middle East and Africa (AMEA, including Russia and Turkey):** $430M (10%), down 2% (up 1% in constant currency).
+- **Greater China (China, Taiwan, Hong Kong):** $243M (6%), down 21% from $308M.
+
+International sales were 48% of revenue in each of 2023, 2024 and 2025. "Constant currency" (CC) strips out exchange-rate effects to show underlying growth.
+
+From Q1 2026, Illumina reorganized commercially and now reports four different regions: USCAN (U.S. and Canada), EMEALA (Europe, Middle East, Africa, Latin America), APAC (Asia Pacific excluding Greater China), and Greater China [10-Q Q2 2026]. In Q3 2026, USCAN was $665M (57%, +9% organic), EMEALA $356M (31%, −2% organic), APAC $86M (7%, +5%) and Greater China $59M (5%, +7%) [Q3 2026 slides]. Growth in 2026 has been led by the U.S. and Canada, while EMEALA has been flat to down organically.
+
+### China: the unreliable entities list
+
+China has been Illumina's biggest single headwind. The timeline below comes from the 10-K:
+
+- **February 4, 2025:** China added Illumina to its "List of Unreliable Entities" (UEL), a sanctions designation.
+- **March 4, 2025:** China banned exports of Illumina sequencers into China, effective immediately.
+- **November 5, 2025:** China granted permission to export again, effective November 10, 2025, but transactions "remain subject to approval on a case-by-case basis."
+
+The 10-K attributes the $65 million drop in 2025 China revenue to the listing. Quarterly Greater China revenue was $63M in Q2 2025 (−14% CC), $52M in Q3 2025 (−31%), $55M in Q4 2025 (−30%), $52M in Q1 2026 (−29% organic), $56M in Q2 2026 (−19% organic) and $59M in Q3 2026 (+7% organic, the first growth). Revenue for the first nine months of 2026 was still down 16% organically.
+
+Guidance shows how expectations for China drifted upward during 2025. In July 2025 management guided China revenue of $190–210M for the year; by October it guided about $220M; the actual was $243M. For 2026, China was guided as a 1-point drag on growth [Q2 and Q3 2025 slides; Q4 2025 deck].
+
+The company says it "cannot currently predict the duration" of the listing. Possible penalties include fines, sales bans and restrictions on staff. An exit from China could trigger "material impairment charges" [10-K FY2025]. Illumina has about 290 employees in Greater China. Because of this, management frames growth targets "ex-China" or "rest of world" (ROW).
+
+### Manufacturing and tariffs
+
+Illumina's main sites are San Diego (860,000 sq ft), Singapore (564,000 sq ft), Cambridge UK, the San Francisco Bay Area and Madison, Wisconsin. Singapore manufacturing benefits from tax holidays that expire in 2035, worth $37 million in 2025 [10-K FY2025].
+
+U.S. and other tariffs from April 2025 hit hardest on imports from Singapore and were the main reason GAAP gross margin fell 100 basis points in 2025. Illumina partly offset them through supply-chain changes, cost cuts and pricing actions.
+
+In February 2026, the U.S. Supreme Court ruled that IEEPA (the International Emergency Economic Powers Act) did not authorize these tariffs. In March 2026, the Court of International Trade ordered refunds [10-Q Q2 2026]. In Q3 2026, Illumina booked a one-time $79 million cut to cost of revenue from refunds. It also booked a $37 million revenue reduction for refunds it expects to pass on to customers. Management excludes both from headline results and guidance. The full-year effect is about −$37M of revenue, +90 basis points of margin and +$0.18 of EPS [Q3 2026 slides].
+
+In 2026 the company also cited higher memory-chip costs and higher freight and energy costs from conflict involving Iran and the Middle East as gross-margin headwinds [10-Q Q2 2026].
 
 ## How Illumina reports its results
 
-### Segments and revenue lines
+Several reporting conventions recur throughout the Core Notes:
 
-Illumina now reports a single segment. The CEO, as chief operating decision maker, reviews consolidated revenue and net income [Q2 2026 10-Q]. During 2024–2025 it also showed "Core Illumina" (excluding GRAIL) alongside "consolidated" results. After the GRAIL spin-off on June 24, 2024, the two are identical. GRAIL was not reclassified as a discontinued operation, so it remains in historical consolidated figures [10-K].
+- **One segment.** Illumina reports a single segment. The CEO, as chief operating decision maker, reviews consolidated results [10-Q Q2 2026].
+- **Revenue lines.** The decks report sequencing consumables, sequencing instruments, and sequencing service and other, plus a separate microarray line in 2026 reconciliations. Each is also shown ex-China.
+- **Clinical versus Research & Applied.** These splits are given only for ex-China sequencing consumables.
+- **Core versus consolidated.** "Core Illumina" excludes GRAIL. Figures for 2024 differ between the two because GRAIL was consolidated until June 24, 2024. For 2025 onward the two are identical.
+- **Non-GAAP.** Headline margins and EPS are "non-GAAP," meaning they exclude amortization of acquired intangibles, acquisition costs, restructuring and investment gains or losses. GAAP (standard accounting) results can differ sharply. For example, FY2025 GAAP EPS was $5.45 versus $4.84 non-GAAP, mainly because of a $2.13-per-share gain on strategic investments. The board uses non-GAAP operating margin and EPS to set management pay [JPM, 2026-01-13].
+- **Organic growth.** From 2026, Illumina reports "organic" growth, which removes currency and acquisitions (mainly SomaLogic). "ROW organic" also removes Greater China. Since Q3 2026, headline figures also exclude tariff refunds.
 
-Revenue is presented two ways:
+## Financial track record
 
-- **By line:** sequencing consumables, sequencing instruments, and sequencing service and other.
-- **By type:** consumables, instruments, and services across sequencing and arrays, with arrays reported separately as microarray.
+### Fiscal 2024 and 2025
 
-Totals differ depending on the cut. For example, FY2025 instruments were $482 million in total but $465 million for sequencing alone (down 4% from $484 million).
+The 2024 accounts were distorted by GRAIL. They include a $1,886 million GRAIL impairment (a write-down of goodwill and acquired research), and a gain of about $481 million from reversing a $489 million European Commission fine. Consolidated 2024 net loss was $1,223 million (−$7.69 per share) [10-K FY2025].
 
-### Adjusted measures
+In fiscal 2025, revenue was flat at $4,343 million versus $4,332 million for Core Illumina in 2024; ex-China revenue grew 2%. Non-GAAP gross margin was 68.2% versus 68.6%. Non-GAAP operating margin rose to 23.1% from 21.3%, mainly because costs fell. Non-GAAP EPS was $4.84 versus $4.16. GAAP net income was $850 million. Operating cash flow was $1,079 million and free cash flow (operating cash flow minus capital spending) was $931 million. Backlog grew 12% to $738 million [Q4 2025 deck; 10-K FY2025].
 
-**Non-GAAP** figures strip out items such as amortization of acquired intangibles, acquisition costs, restructuring, impairments and gains or losses on strategic investments. Non-GAAP operating margin and EPS drive executive pay. Since 2026 Illumina also reports two growth measures. **Organic growth** removes currency and acquisitions. **ROW (rest-of-world) organic** additionally removes Greater China. Growth was previously quoted in **constant currency (CC)**, which removes exchange-rate effects. All figures since Q1 2025 include price increases announced that quarter, which the decks do not describe.
+Guidance for 2025 moved up during the year:
 
-## Financial track record, 2025 to mid-2026
+- **July 2025:** revenue −2.5% to −0.5% CC; non-GAAP operating margin 22–22.5%; EPS $4.45–$4.55.
+- **October 2025:** total revenue −1.5% to −0.5%, with about +0.5% to +1.5% ex-China; margin 22.75–23%; EPS $4.65–$4.75.
+- **January 2026 (preliminary):** EPS $4.76–$4.79 [JPM, 2026-01-13].
+- **Reported in February 2026:** $4.84.
 
-The table below shows quarterly revenue and the main non-GAAP profit measures. Revenue was flat to down through mid-2025, turned to growth in Q4 2025, and accelerated in Q2 2026. Operating margin improved year over year through 2025 because of cost cuts, then slipped year over year in Q2 2026 as SG&A rose [Q2 2025 through Q2 2026 slides].
+The final figure came in above the January preliminary range. Q4 non-GAAP EPS was likewise $1.35 against a preliminary $1.27–$1.30. The sources do not explain the gap.
 
-| Quarter | Revenue | YoY growth | Non-GAAP gross margin | Non-GAAP op. margin | Non-GAAP EPS |
-|---|---|---|---|---|---|
-| Q1'25 | $1,041M | — | 67.4% | 20.4% | $0.97 |
-| Q2'25 | $1,059M | −3% CC (vs $1,092M) | 69.4% (flat) | 23.8% (vs 22.2%) | $1.19 (vs $1.09) |
-| Q3'25 | $1,084M | flat (vs $1,080M) | 69.2% (vs 70.5%) | 24.5% (vs 22.6%) | $1.34 (vs $1.14, +18%) |
-| Q4'25 | $1,159M | +4% CC, +5% reported (vs $1,104M) | 67.0% (vs 67.4%) | 23.7% (vs 19.7%) | $1.35 (vs $0.95, +42%) |
-| Q1'26 | $1,091M | +1.2% organic, +4.8% reported | 68.2% | 21.9% | $1.15 (+19%) |
-| Q2'26 | $1,159M | +6.5% organic, +9.5% reported | 68.2% (vs 69.4%) | 22.5% (vs 23.8%) | $1.31 (+10%) |
+### Quarter by quarter
 
-**Line-by-line detail:**
+The table below tracks the quarterly turnaround. Revenue growth returned in Q4 2025 and quickened in mid-2026, while margins dipped in the first half of 2026 (SomaLogic, higher selling costs, product mix) before recovering in Q3.
 
-- **Sequencing consumables:** $740M in Q2'25 (flat), $747M in Q3'25, $755M in Q4'25 (+8%), $726M in Q1'26 (+2% organic) and $775M in Q2'26 (+4% organic).
-- **Sequencing instruments:** $96M in Q2'25 (−18%), $107M in Q3'25 (+3%), $154M in Q4'25 (flat), $118M in Q1'26 (+8% organic) and $125M in Q2'26 (+30% organic). The 10-Q says instrument shipments rose 29% in Q2'26 on NovaSeq X and MiSeq i100.
-- **Service and other:** $136M in Q2'25 (−5%), $147M in Q3'25, $157M in Q4'25 (+3% CC), $151M in Q1'26 (+4% organic) and $154M in Q2'26 (+13% organic).
-
-**Full-year 2025.** Revenue was $4,343 million, flat against Core FY2024 of $4,332 million and down 1% from consolidated FY2024 of $4,372 million, which included $55 million of GRAIL revenue. FY2023 revenue was $4,438 million. Ex-China revenue grew 2% to $4,100 million, following a −1% decline in FY2024 ($4,019 million versus $4,054 million in constant currency). Non-GAAP results were:
-
-- operating margin 23.1% (versus 21.3% Core 2024);
-- gross margin 68.2% (versus 68.6%);
-- R&D $950 million (21.9% of revenue);
-- SG&A $1,009 million (23.2% of revenue);
-- EPS $4.84 (versus $4.16).
-
-At JPM management had pre-announced FY2025 non-GAAP EPS of $4.76–$4.79 and Q4 EPS of $1.27–$1.30. The final figures came in above those ranges [JPM, 2026-01-13; Q4 2025 deck].
-
-**GAAP results** are the standard accounting measures. FY2025 net income was $850 million (diluted EPS $5.45), versus a $1,223 million loss (−$7.69) in FY2024 and −$7.34 EPS in FY2023. GAAP operating income was $807 million (18.6% margin), versus losses of $833 million in FY2024 and $1,069 million in FY2023. The FY2024 losses reflected $1,886 million of GRAIL impairments, split into $1,466 million of goodwill and $420 million of in-process R&D.
-
-Core Illumina operating income was $1,473 million in FY2024. That figure was flattered by a $315 million gain on GRAIL contingent value rights and a $456 million SG&A gain from reversing the European Commission fine. The net legal gain from the fine reversal was $481 million: the $489 million fine plus interest, less an $8 million foreign-exchange loss.
-
-FY2025 GAAP gross margin was 66.1%. That was down 100 basis points on a Core basis (67.1% in FY2024) because of tariffs and a $23 million intangible impairment, and up 70 basis points against consolidated FY2024 (65.4%). FY2025 GAAP R&D was $967 million (22.3% of revenue), versus $988 million in FY2024 and $1,354 million in FY2023 including GRAIL. GAAP SG&A was $1,086 million. GAAP net income in 2025 was boosted by $328 million of net gains on strategic investments, mostly the retained GRAIL stake, compared with $312 million of net losses in FY2024 [10-K].
-
-**H1 2026 GAAP results.** Revenue was $2,251 million (+7%) and operating income $454 million (20.2% margin, versus 18.0%). Net income fell 7% to $340 million (EPS $2.22 versus $2.31) because the GRAIL stake produced a $23 million loss, compared with a $128 million gain a year earlier. GAAP SG&A rose 17% in Q2 2026 on higher compensation, intellectual-property litigation costs and ERP upgrade costs [Q2 2026 10-Q].
-
-**Gross margin pressures in 2026.** The 10-Q names tariffs, a mix shift toward lower-margin instruments and SomaLogic, rising memory-chip costs, and higher freight and energy costs tied to conflict in the Middle East and Iran. Lower field-service and warranty costs partly offset these.
-
-### Taxes
-
-Illumina's Singapore manufacturing operates under tax holidays expiring in 2035. These saved $37 million in FY2025, versus $33 million in FY2024 and $75 million in FY2023. The FY2025 GAAP tax rate was 21.7%. It was helped by a $74 million release of a Singapore valuation allowance (a reversal of an earlier write-down of tax assets). It was hurt by a $62 million valuation allowance on U.S. foreign tax credits, which followed U.S. tax legislation signed on July 4, 2025 that let companies deduct R&D immediately. In the non-GAAP figures the charge shows as $42 million, recorded in Q3 2025. The non-GAAP rate was 20.5% in FY2025, versus 23.6% in FY2024.
-
-The 2021–2024 federal tax returns are under IRS examination. Unrecognized tax benefits (tax positions the company may have to give up) total $253 million. The H1 2026 GAAP tax rate was 18.4%, helped by prior-year return adjustments [10-K; Q2 2026 10-Q].
-
-## Corporate history: Solexa, Helix, GRAIL and leadership
-
-BI's view is that Illumina's dominance normally rules out large acquisitions, so it tends to buy early-stage technologies that extend its sequencing workflow. Solexa fits that pattern, as did a planned PacBio deal, later terminated, that would have added **long-read sequencing** (reading much longer continuous DNA stretches).
-
-**Helix.** Illumina announced Helix, a consumer-genomics platform, in a press release on August 18, 2015. The release said Helix "will enable individuals to acquire an unprecedented amount of genetic information by providing affordable sequencing and database services," with an "open marketplace of on-demand applications." Two venture investors funded Helix with $100 million. After years of weighing on profit, Illumina deconsolidated Helix (removed it from its financial statements) effective 2019. BI called that "a prudent step to tighten the portfolio." BI adds context: the research market is maturing, and each new instrument generation offers smaller performance gains than the last. Illumina received $83 million in 2024 when a Helix contingent value right was settled [10-K].
-
-**GRAIL formation and acquisition.** Illumina formed GRAIL in 2016 to commercialize a sequencing-based blood test for early cancer detection, which BI calls a "holy grail" for clinicians. Illumina later reacquired GRAIL and closed the deal in August 2021 without first obtaining EU approval. After what BI calls an arduous dispute, Illumina was forced to divest GRAIL.
-
-**The spin-off.** The spin-off took place on June 24, 2024 [BI; 10-K]:
-
-- Illumina distributed 26,547,021 GRAIL shares, 85.5% of the company, at one GRAIL share for every six Illumina shares.
-- It retained a 14.5% stake.
-- It funded GRAIL with $974 million of cash, intended to cover about 2.5 years of operations.
-- BI cites $35–$50 million of incremental spin-off charges.
-- GRAIL's fair value had been estimated at $580 million in May 2024, against later estimates of $400–$770 million.
-
-BI's view is that the divestiture and "a fresh CEO" should help Illumina refocus on its core business. Without GRAIL, however, Illumina needs a new route into cancer screening, a field pursued by Guardant Health, Tempus AI, Exact Sciences and others.
-
-**The European Commission fine.** The EC fine tied to the GRAIL deal was reversed in Q3 2024, producing the $481–$488 million gain described above.
-
-**What GRAIL still costs or pays Illumina.** Two financial links remain.
-
-- *The retained stake.* It was worth $215 million at the end of 2025 after $103 million of sales during 2025. Illumina sold another $104 million by February 2026, and the stake stood at $88 million by June 28, 2026.
-- *Contingent value rights (CVRs).* These were issued in the 2021 deal and pay holders 2.5% of GRAIL's covered revenue (mainly the Galleri test) up to $1 billion a year, plus 9% above that, through August 2033. Covered revenue was $142 million from Q4 2024 to Q3 2025. Covered revenue for Q4 2025 to Q1 2026 was $84 million, up 20% from $70 million and generating $794,000 in payments. The liability was $71 million at end-2024, $54 million at end-2025 and $40 million at June 2026. It is valued by Monte Carlo simulation (a statistical method that simulates many possible outcomes), with a 3% revenue risk premium.
-
-**GRAIL-related litigation** is still pending [10-K; Q2 2026 10-Q]:
-
-- *Delaware derivative suits* (shareholder suits on the company's behalf against directors). Four suits were consolidated: Icahn Partners (filed October 17, 2023), City of Omaha (February 26, 2024), City of Roseville (April 16, 2024) and Pavers and Road Builders (December 23, 2024). They allege that directors caused Illumina to close the GRAIL deal unlawfully. The Icahn case settled with no payment. The 10-K dates the agreement in principle to April 11, 2025; the 10-Q dates the settlement to August 21, 2025; both give a September 19, 2025 dismissal. A motion to dismiss the amended consolidated complaint was heard on February 13, 2026 and was still pending as of July 31, 2026. The board has deferred shareholder litigation demands from Michael Warner (May 1, 2024; deferred again February 4, 2026) and Jane Davidson (August 21, 2024).
-- *Federal securities class action* (Southern District of California). The first complaints were filed November 11, 2023. Dismissal was granted with leave to amend on September 26, 2025. A third amended complaint followed on October 27, 2025. Illumina's motion to dismiss is fully briefed (reply March 6, 2026), with no hearing date set.
-- *California state class action* (San Mateo County, filed February 2, 2024). This case concerns the 2020–2021 GRAIL registration statements. Illumina's demurrer (motion to dismiss) was overruled on September 3, 2025, and its appeal writ was denied on October 31, 2025. Class certification was granted on May 15, 2026, and Illumina sought appellate review on July 28, 2026. A motion for judgment on the pleadings was denied on June 26, 2026. A hearing on amending Illumina's answer is set for October 30, 2026.
-
-**Leadership.** As of the 10-K, the executive team was:
-
-- CEO: Jacob Thaysen;
-- CFO: Ankur Dhingra;
-- Chief Legal Officer: Scott Davies;
-- Chief People Officer: Patricia Leckman.
-
-Chief Commercial Officer Everett Cunningham departed on January 16, 2026, having replaced Kathryne Reeves, who left in 2024. The defendants in the derivative suits are captioned "deSouza, et al." Board-change costs appear in the 2025 financial adjustments.
-
-## Operations, regulation and risks
-
-**Facilities.** Illumina occupies about 1.67 million sq ft of space. The main sites are San Diego (860,000 sq ft), Singapore (564,000), Cambridge UK (181,000), the San Francisco Bay Area (166,000), Madison WI (133,000), Eindhoven (90,000), China (86,000) and India (66,000). Key sites are certified to ISO 13485, the medical-device quality standard. Management plans to expand capacity and automation again in 2026 [10-K].
-
-**Tariffs.** Tariffs began in April 2025. The largest cost comes from importing products made in Singapore. In February 2026 the U.S. Supreme Court ruled that tariffs imposed under the International Emergency Economic Powers Act (IEEPA) were improper. In March 2026 the Court of International Trade ordered refunds. Illumina is pursuing refunds, but recoveries so far are immaterial. Management says it has "partially mitigated" tariff costs through supply-chain work, cost measures and pricing [10-K; Q2 2026 10-Q].
-
-**Intellectual property.** Illumina holds about 14,371 patents and applications: 1,380 issued and 1,120 pending in the U.S., and 7,653 issued and 4,218 pending abroad. Issued patents expire between 2026 and 2050. The 10-K warns that as SBS patents expire, "we may lose some competitive advantage."
-
-**Regulation.** Most products are labeled **Research Use Only (RUO)** and are not FDA-cleared. Two exceptions are the MiSeqDx (cleared through the 510(k) pathway, typically 3–6 months) and the NextSeq 550Dx (approved through the more costly PMA pathway, typically 9–18 months, for the TruSight Oncology Comprehensive panel). Planned oncology and NIPT diagnostics would go through PMA. The 10-K flags two regulatory risks. Labs may build RUO products into their own tests, and regulators could treat Illumina's support for such labs as diagnostic promotion. Under the EU's In Vitro Diagnostics Regulation (IVDR), a lab using RUO products for patient testing can be deemed the test's manufacturer.
-
-**Competition.** The 10-K names Oxford Nanopore, PacBio, Roche, Thermo Fisher, MGI Tech and 10x Genomics as competitors. BI adds Element Biosciences and Ultima Genomics, with Roche's return to sequencing "on the horizon." Illumina warns of "continued intense competition," pricing pressure and longer sales cycles. It also notes that customers "display a significant amount of loyalty to their initial supplier." Management points to scale as an advantage: users have published "hundreds of thousands" of papers using Illumina technology.
-
-**Workforce.** Illumina has about 10,080 workers: 8,600 full-time, 50 part-time and 1,430 contingent. By region, 55% are in the Americas, 15% in Europe, 27% in Africa, the Middle East and Asia, and 3% in Greater China. Voluntary turnover was 8% in 2025. Restructuring cost $47 million in FY2025, $62 million in FY2024 and $152 million in FY2023, for a cumulative $261 million. An ERP system upgrade began in Q3 2025 and is due to go live in H1 2027.
-
-## Capital, cash and the balance sheet
-
-Illumina is strongly cash-generative. FY2025 operating cash flow was $1,079 million and **free cash flow** (operating cash less capital spending) was $931 million, after $148 million of capital expenditures. FY2024 free cash flow was $695 million consolidated, or $1,070 million on a Core basis [Q4 2025 deck]; the 10-K notes give $709 million. FY2026 capex is guided at about $225 million. H1 2026 free cash flow was $412 million, unchanged from H1 2025.
-
-**Buybacks.** Illumina repurchased 7.79 million shares in FY2025 for $742 million at an average of $95.23, compared with $116 million in FY2024 and none in FY2023. In H1 2026 it bought 2.95 million shares for $366 million at an average of $124.03. The board added a new $1.5 billion authorization in April 2026 on top of the $279 million left from August 2024 [10-K; Q2 2026 10-Q].
-
-**Debt.** Debt totals $2.0 billion in four $500 million notes:
-
-- 4.65% due September 9, 2026;
-- 5.75% due December 13, 2027;
-- 4.75% due December 12, 2030, issued November 2025 to refinance notes that matured December 12, 2025;
-- 2.55% due March 23, 2031.
-
-A $750 million revolving credit facility, maturing January 2028, is undrawn. Gross leverage (gross debt divided by trailing earnings before interest, taxes, depreciation and amortization, EBITDA) was about 1.6x at June 2026. Cash and short-term investments were $1.63 billion at end-2025 and $1.17 billion at June 2026 after the SomaLogic payment. At JPM management cited return on invested capital above 20%, free-cash-flow conversion above 140% of non-GAAP net income, and a goal of keeping an investment-grade credit rating.
-
-## Current strategy, targets and guidance
-
-**Three pillars.** Management organizes its strategy around three pillars [all 2025–2026 decks]:
-
-1. core sequencing and the NovaSeq X transition, delivering complete clinical workflows with better turnaround time and test economics;
-2. scalable entry into multiomics;
-3. expansion of services, data and software.
-
-**Long-term vision.** At JPM, CEO Thaysen set out four developments management expects:
-
-- whole genomes become the diagnostic standard of care in local hospitals;
-- multiomics runs at scale;
-- "sovereign nations" move from "sick-care" to personalized health care using NGS;
-- pharma uses AI on large patient cohorts.
-
-The listed priorities are expanding the NGS ecosystem, leading clinical innovation, scaling proteomics with SomaLogic, expanding BioInsight, and commercial and operational excellence. Capital uses are investment in growth, bolt-on acquisitions judged on market expansion, EPS accretion and return on capital, and anti-dilutive buybacks.
-
-**FY2027 targets.** The 2024 goal was to return to revenue growth and improve margins by the end of 2027. Management restated the specific targets at JPM in January 2026:
-
-- **Revenue:** high-single-digit ex-China revenue growth in constant currency by FY2027, up from −1% in FY2024 and +2% in FY2025.
-- **Margin:** at least 500 basis points of non-GAAP operating margin expansion, from 21% in FY2024 to about 23% in FY2025 and 26% in FY2027, excluding China.
-- **EPS:** double-digit-to-teens EPS growth, from $4.16 in FY2024, with FY2027 shown at about 15%.
-
-**FY2026 guidance** has moved up twice, as the table below shows. The decks do not label the changes as raises, but the revenue and EPS ranges rose at each step.
-
-| Guidance date | FY26 revenue | Organic growth (total / ROW) | Non-GAAP op. margin | Non-GAAP EPS |
+| Quarter | Revenue | Growth vs year earlier | Non-GAAP op. margin (year earlier) | Non-GAAP EPS (year earlier) |
 |---|---|---|---|---|
-| 2026-02-05 | $4.50–$4.60B (+4–6%) | +1–3% / +2–4% | 23.3–23.5% | $5.05–$5.20 |
-| 2026-04-30 | $4.52–$4.62B | +1–3% / +2–4% | 23.4–23.6% | $5.15–$5.30 |
-| 2026-07-30 | $4.60–$4.64B | >4% / >5% | 23.4–23.6% | $5.30–$5.40 |
+| Q2'25 | $1,059M | −3% CC | 23.8% (22.2%) | $1.19 ($1.09) |
+| Q3'25 | $1,084M | ~flat | 24.5% (22.6%) | $1.34 ($1.14) |
+| Q4'25 | $1,159M | +4% CC, +5% reported | 23.7% (19.7%) | $1.35 ($0.95) |
+| Q1'26 | $1,091M | +1.2% organic, +4.8% reported | 21.9% (20.4%) | $1.15 ($0.97) |
+| Q2'26 | $1,159M | +6.5% organic, +9.5% reported | 22.5% (23.8%) | $1.31 ($1.19) |
+| Q3'26 | $1,166M* | +4.8% organic, +7.6% reported* | 25.0% (24.5%) | $1.44 ($1.34) |
 
-The July guidance calls for mid-single-digit ROW consumables growth and low-single-digit ROW instrument growth. For Q3 2026 it calls for revenue of $1.14–$1.16 billion, an operating margin of about 24% and EPS of $1.33–$1.38. That implies margin recovery in the second half from 22.5% in Q2.
+*Excluding tariff refunds. Including them, Q3 2026 reported growth was 4.2%.
 
-**Earlier guidance for context.** FY2025 guidance went from −2.5% to −0.5% constant-currency revenue growth with EPS of $4.45–$4.55 in July 2025, to EPS of $4.65–$4.75 in October 2025. The final result was $4.84.
+Some points behind the table:
 
-**Main uncertainties.** Management names China's blacklist, tariffs and refunds, NIH funding, a shrinking research market, competition, SomaLogic integration and GRAIL litigation as the main uncertainties. It calls their "size and duration… significantly uncertain."
+- Instrument revenue fell 18% in Q2 2025 but rose 30% organically in Q2 2026.
+- Q2 2026 gross margin fell 120 basis points, to 68.2%, as instruments and SomaLogic diluted the mix.
+- Q3 2026 free cash flow was $378 million versus $253 million a year earlier [2025–2026 slides].
+
+### 2026 guidance
+
+Management raised its fiscal 2026 outlook at each of the first three earnings reports. All figures are non-GAAP, and the October figures exclude tariff refunds.
+
+| Date | Revenue | Op. margin | EPS |
+|---|---|---|---|
+| Feb 5, 2026 | $4.50–4.60B (organic +1–3%; ROW organic +2–4%) | 23.3–23.5% | $5.05–5.20 |
+| Apr 30, 2026 | $4.52–4.62B | 23.4–23.6% | $5.15–5.30 |
+| Jul 30, 2026 | $4.60–4.64B (organic >4%; ROW organic >5%) | 23.4–23.6% | $5.30–5.40 |
+| Oct 29, 2026 | $4.64–4.66B (organic >4%; ROW organic >5%) | ~23.6% | $5.40–5.45 |
+
+Q4 2026 is guided at $1.22–1.24B of revenue, about 25% operating margin and $1.51–$1.56 EPS. Guidance for ROW consumables growth improved from "low- to mid-single digit" in February to "mid-single digit" by July [2026 slides].
+
+## Corporate history: deals, GRAIL and leadership
+
+### Acquisition style
+
+Bloomberg's view is that Illumina's dominance "typically precludes it from large-scale M&A." Instead the company buys early-stage technologies that extend its sequencing workflow, opportunistically [BI, 2025-11-13]. A planned purchase of PacBio, a long-read sequencing rival, was terminated. It would have added long-read technology, which reads much longer continuous stretches of DNA. Management now frames deals as "bolt-on" acquisitions judged on market expansion, EPS accretion and return on invested capital [JPM, 2026-01-13]. In Q1 2026 Illumina also acquired an intellectual-property portfolio, booked as $50 million of intangibles [10-Q Q2 2026].
+
+### Helix
+
+Illumina announced Helix, a consumer-genomics platform, on August 18, 2015. Two venture investors funded it with $100 million. The press release promised "an open marketplace of on-demand applications." Helix weighed on profits and was deconsolidated (removed from Illumina's accounts) effective 2019. Bloomberg called this "a prudent step to tighten the portfolio" [BI, 2025-11-13]. A related Helix contingent value right was settled in 2024, bringing in $83 million [10-K FY2025].
+
+### GRAIL
+
+GRAIL is the largest episode in Illumina's recent history:
+
+- **Formation and purchase.** Illumina formed GRAIL in 2016 to commercialize a sequencing-based blood test for early cancer detection (its product is the Galleri test). After spinning it out, Illumina bought it back, closing in August 2021 without EU approval. After what Bloomberg calls an "arduous dispute," Illumina was ordered to divest [BI, 2025-11-13].
+- **Spin-off.** GRAIL was spun off on June 24, 2024. Illumina distributed 85.5% of GRAIL shares (one GRAIL share per six Illumina shares), kept 14.5%, and gave GRAIL $974 million in cash to fund about 2.5 years of operations. Illumina had booked $1,886 million of GRAIL impairments in 2024. The European Commission fine was reversed, producing a $488 million gain in Q3 2024 including interest [10-K FY2025; Q3 2025 deck]. Bloomberg notes that Illumina expected $35–$50 million of incremental spin-off charges.
+- **The retained stake.** The stake swung from a $310 million loss in 2024 to a gain of about $315 million in 2025. Illumina sold $103 million of shares in 2025 and $104 million in early 2026. It held $88 million at June 28, 2026, and booked a $23 million net loss in the first half of 2026 [10-K FY2025; 10-Q Q2 2026].
+- **Contingent value rights (CVRs).** These are payments owed to former GRAIL holders: 2.5% of GRAIL's first $1 billion of annual covered revenue and 9% above that, through August 2033. The liability fell from $71 million to $54 million during 2025 and to $40 million at June 2026. Covered revenue was $84 million for Q4 2025–Q1 2026, versus $70 million a year earlier [10-Q Q2 2026].
+- **Litigation.** Shareholder suits continue in three forums.
+  - Delaware derivative cases: the lead Icahn suit settled with no payment in 2025. The motion to dismiss the remaining consolidated cases was heard February 13, 2026 and was still pending at July 31, 2026.
+  - A federal securities class action: dismissed with leave to amend in September 2025, then refiled; a new motion to dismiss is pending.
+  - A California state class action: the court certified the class on May 15, 2026, and Illumina sought appeal on July 28, 2026 [10-Q Q2 2026].
+
+Bloomberg's opinion is that without GRAIL, Illumina must find "a new strategy to participate in growth in cancer screening," a market also chased by Guardant Health, Tempus AI and Exact Sciences [BI, 2026-03-11].
+
+### Leadership and cost actions
+
+The GRAIL-era CEO, Francis deSouza, is named in the derivative suits. Jacob Thaysen is CEO and Ankur Dhingra is CFO. Chief Commercial Officer Everett Cunningham departed on January 16, 2026 [10-K FY2025]. Bloomberg's view is that the GRAIL divestiture and "a fresh CEO" should help refocus Illumina on core operations [BI, 2025-11-13].
+
+Restructuring charges were $47 million in 2025 (mostly severance), $62 million in 2024 and $152 million in 2023. An ERP (enterprise software) upgrade began in Q3 2025 and is due to go live in the first half of 2027. The company had about 8,600 full-time employees at the end of 2025 [10-K FY2025].
+
+### Balance sheet and capital returns
+
+At the end of 2025 Illumina held $1.63 billion of cash and short-term investments against $2.0 billion of notes. The notes come due in four $500 million tranches: September 2026, December 2027, December 2030 and March 2031. A $750 million credit line is undrawn.
+
+Buybacks have been large. In 2025 Illumina repurchased 7.79 million shares for $742 million at an average of $95.23. In 2026 it bought about 2.0 million shares in Q1 ($242M at $120.85), 0.94 million in Q2 ($122M at $129.07) and only 0.05 million in Q3 ($9M at $191.11). The board added a new $1.5 billion authorization in April 2026 [10-K FY2025; 2026 slides; 10-Q Q2 2026].
+
+Management cites return on invested capital above 20%, roughly $1 billion of annual free cash flow, and gross leverage of about 1.7x (0.6x net). Leverage measures debt against EBITDA, a measure of operating earnings. Management says it wants to keep an investment-grade rating [JPM, 2026-01-13]. By Q3 2026, total debt was about $1.79 billion and gross leverage about 1.4x.
+
+## Competition
+
+Illumina names Oxford Nanopore, PacBio, Roche, Thermo Fisher and MGI Tech as sequencing competitors, and 10x Genomics in single-cell and spatial work. It expects "continued intense competition," pricing pressure and longer sales cycles. It warns that some rivals have greater resources, including in AI [10-K FY2025]. Bloomberg adds new entrants Element Biosciences and Ultima Genomics, with Roche's return to sequencing "on the horizon" [BI, 2025-11-13].
+
+Illumina's claimed advantages are scale, proprietary chemistry, an integrated workflow from sample to answer, an open platform, and a user community that has published "hundreds of thousands" of papers using its tools [10-K FY2025; JPM, 2026-01-13].
+
+## Current strategy
+
+### Three pillars
+
+Management's strategy, stated consistently from mid-2025 onward, rests on three pillars [Q2 2025 slides through JPM, 2026-01-13]:
+
+1. **Core sequencing and the NovaSeq X transition.** This means complete application-specific workflows with faster turnaround and better test economics.
+2. **Scalable entry into multiomics.** This means more biological layers per sample, led by SomaLogic proteomics, Protein Prep, 5-Base, single-cell and spatial products.
+3. **Services, data and software.** This means BioInsight, DRAGEN and AI tools.
+
+Management's longer vision has four parts: whole genomes becoming standard of care in local hospitals worldwide; multiomics at scale; "sovereign nations" adopting NGS across health systems as they move from "sick-care" to personalized care; and pharma using AI on large patient cohorts [JPM, 2026-01-13].
+
+### FY2027 targets
+
+Illumina set goals in 2024 to return to revenue growth and improve margins by the end of 2027 [10-K FY2025]. At JPM in January 2026, it restated three targets:
+
+- **Revenue growth:** high-single-digit (HSD) ex-China revenue growth by 2027 in constant currency, up from −1% in 2024 and +2% in 2025.
+- **Margins:** more than 500 basis points of non-GAAP operating margin expansion, from 21% in 2024 to about 23% in 2025 and 26% in 2027 (excluding China).
+- **Earnings:** double-digit to teens EPS growth, about 15%, from $4.16 in 2024 and about $4.78 in 2025.
+
+The 2026 guidance, with ROW organic growth above 5% and a margin of about 23.6%, leaves a step up still needed in 2027 to reach those targets. The key test is whether clinical growth in the mid-teens can outrun a research market that is still shrinking in mid-single digits.

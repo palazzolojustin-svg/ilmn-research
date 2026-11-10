@@ -1,0 +1,6069 @@
+{
+ "company": {
+  "name": "Illumina, Inc.",
+  "ticker": "ILMN",
+  "exchange": "NASDAQ",
+  "reporting_currency": "USD",
+  "trading_currency": "USD",
+  "fx_rate": 1.0,
+  "units": "mm",
+  "fiscal_year_end_month": 12,
+  "fiscal_year_end_day": 31,
+  "author": "Palazzolo, Justin J",
+  "cover_tab": "Cover"
+ },
+ "horizon": {
+  "first_hist_quarter": "1Q25",
+  "last_actual_quarter": "3Q26",
+  "last_quarterly_estimate": "4Q28",
+  "annual_only_years": [
+   2029,
+   2030
+  ],
+  "annual_hist_years": [
+   2023,
+   2024
+  ],
+  "period_ends": {
+   "FY2023": "2023-12-31",
+   "FY2024": "2024-12-29",
+   "FY2025": "2025-12-28",
+   "FY2026": "2027-01-03",
+   "FY2027": "2028-01-02",
+   "FY2028": "2028-12-31",
+   "FY2029": "2029-12-30",
+   "FY2030": "2030-12-29",
+   "FY2031": "2031-12-28",
+   "FY2032": "2033-01-02",
+   "1Q25": "2025-03-30",
+   "2Q25": "2025-06-29",
+   "3Q25": "2025-09-28",
+   "4Q25": "2025-12-28",
+   "1Q26": "2026-03-29",
+   "2Q26": "2026-06-28",
+   "3Q26": "2026-09-27",
+   "4Q26": "2027-01-03",
+   "1Q27": "2027-04-04",
+   "2Q27": "2027-07-04",
+   "3Q27": "2027-10-03",
+   "4Q27": "2028-01-02",
+   "1Q28": "2028-04-02",
+   "2Q28": "2028-07-02",
+   "3Q28": "2028-10-01",
+   "4Q28": "2028-12-31",
+   "FY2022": "2023-01-01",
+   "FY2021": "2022-01-02",
+   "FY2020": "2021-01-03"
+  },
+  "report_dates": {}
+ },
+ "cases": [
+  "Disaster",
+  "Bear",
+  "Base",
+  "Bull",
+  "Blowout"
+ ],
+ "active_case": "Base",
+ "sheets": {
+  "Revenue Build": {
+   "blocks": [
+    {
+     "section": "Revenue Build"
+    },
+    {
+     "subtitle": "Totals:",
+     "marker": true
+    },
+    {
+     "line": {
+      "id": "total_rev",
+      "label": "Total Revenue",
+      "bold": true,
+      "dsl": "={product}+{service}+{tariff_refund}",
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "values": {
+       "FY2023": 4504.0,
+       "FY2024": 4372.0
+      }
+     }
+    },
+    {
+     "band": "Product Revenue:"
+    },
+    {
+     "line": {
+      "id": "product",
+      "label": "Product Revenue",
+      "bold": true,
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq",
+       "pct_total"
+      ],
+      "hist": "product",
+      "proj_dsl": "={consumables}+{instruments}"
+     }
+    },
+    {
+     "line": {
+      "id": "consumables",
+      "label": "Consumables",
+      "bold": true,
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "hist": "consumables",
+      "proj_dsl": "={seq_cons}+{array_cons}"
+     }
+    },
+    {
+     "line": {
+      "id": "seq_cons",
+      "label": "Sequencing Consumables",
+      "bold": true,
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "hist": "seq_cons",
+      "proj_dsl": "={seq_cons_exchina}+{china_seq_cons}"
+     }
+    },
+    {
+     "line": {
+      "id": "seq_cons_exchina",
+      "label": "Sequencing Consumables Ex-China",
+      "bold": true,
+      "dsl": "={clins_cons}+{research_cons}",
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "clins_cons",
+      "label": "Clinical Consumables Ex-China",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "proj_dsl": "={clins_cons@py}*(1+{clins_cons.pct_yoy})",
+      "driver": {
+       "id": "clins_cons_g",
+       "sub": "pct_yoy"
+      },
+      "values": {
+       "1Q25": "='Ex-China Consumables Mix'!N12",
+       "2Q25": "='Ex-China Consumables Mix'!O12",
+       "3Q25": "='Ex-China Consumables Mix'!P12",
+       "4Q25": "='Ex-China Consumables Mix'!Q12",
+       "1Q26": "='Ex-China Consumables Mix'!S12",
+       "2Q26": "='Ex-China Consumables Mix'!T12",
+       "3Q26": "='Ex-China Consumables Mix'!U12",
+       "FY2023": "='Ex-China Consumables Mix'!H12",
+       "FY2024": "='Ex-China Consumables Mix'!M12"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "research_cons",
+      "label": "Research & Applied Consumables Ex-China",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "proj_dsl": "={research_cons@py}*(1+{research_cons.pct_yoy})",
+      "driver": {
+       "id": "research_cons_g",
+       "sub": "pct_yoy"
+      },
+      "values": {
+       "1Q25": "='Ex-China Consumables Mix'!N11",
+       "2Q25": "='Ex-China Consumables Mix'!O11",
+       "3Q25": "='Ex-China Consumables Mix'!P11",
+       "4Q25": "='Ex-China Consumables Mix'!Q11",
+       "1Q26": "='Ex-China Consumables Mix'!S11",
+       "2Q26": "='Ex-China Consumables Mix'!T11",
+       "3Q26": "='Ex-China Consumables Mix'!U11",
+       "FY2023": "='Ex-China Consumables Mix'!H11",
+       "FY2024": "='Ex-China Consumables Mix'!M11"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "china_seq_cons",
+      "label": "Greater China Sequencing Consumables",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "proj_dsl": "={china_seq_cons@py}*(1+{china_seq_cons.pct_yoy})",
+      "driver": {
+       "id": "china_seq_cons_g",
+       "sub": "pct_yoy"
+      },
+      "values": {
+       "1Q25": "='Ex-China Consumables Mix'!N17",
+       "2Q25": "='Ex-China Consumables Mix'!O17",
+       "3Q25": "='Ex-China Consumables Mix'!P17",
+       "4Q25": "='Ex-China Consumables Mix'!Q17",
+       "1Q26": "='Ex-China Consumables Mix'!S17",
+       "2Q26": "='Ex-China Consumables Mix'!T17",
+       "3Q26": "='Ex-China Consumables Mix'!U17",
+       "FY2023": "='Ex-China Consumables Mix'!H17",
+       "FY2024": "='Ex-China Consumables Mix'!M17"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "array_cons",
+      "label": "Microarray Consumables",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "hist": "array_cons",
+      "proj_dsl": "={array_cons@py}*(1+{array_cons.pct_yoy})",
+      "driver": {
+       "id": "array_cons_g",
+       "sub": "pct_yoy"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "instruments",
+      "label": "Instruments",
+      "bold": true,
+      "fy": "sum",
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "hist": "instruments",
+      "proj_dsl": "={seq_inst}+{array_inst}"
+     }
+    },
+    {
+     "line": {
+      "id": "seq_inst",
+      "label": "Sequencing Instruments",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "hist": "seq_inst",
+      "proj_dsl": "={seq_inst@py}*(1+{seq_inst.pct_yoy})",
+      "driver": {
+       "id": "seq_inst_g",
+       "sub": "pct_yoy"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "array_inst",
+      "label": "Microarray Instruments",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "fy": "sum",
+      "hist": "array_inst",
+      "proj_dsl": "={array_inst@py}*(1+{array_inst.pct_yoy})",
+      "driver": {
+       "id": "array_inst_g",
+       "sub": "pct_yoy"
+      }
+     }
+    },
+    {
+     "band": "Service & Other Revenue:"
+    },
+    {
+     "line": {
+      "id": "service",
+      "label": "Service & Other Revenue",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq",
+       "pct_total"
+      ],
+      "fy": "sum",
+      "hist": "service",
+      "proj_dsl": "={service@py}*(1+{service.pct_yoy})",
+      "driver": {
+       "id": "service_g",
+       "sub": "pct_yoy"
+      }
+     }
+    },
+    {
+     "band": "Tariff Refunds (Revenue Reduction):"
+    },
+    {
+     "line": {
+      "id": "tariff_refund",
+      "label": "Tariff Refunds (Revenue Reduction)",
+      "kind": "amount",
+      "bold": true,
+      "subs": [
+       "usd_yoy"
+      ],
+      "fy": "sum",
+      "hist": "tariff_refund",
+      "proj_dsl": "={drv:tariff_refund_amt}",
+      "annual_dsl": "={drv:tariff_refund_amt}"
+     }
+    },
+    {
+     "blank": 1
+    },
+    {
+     "deltas": [
+      {
+       "label": "Total Revenue",
+       "line": "total_rev",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.06488602348606953,
+        "FY2027": 0.0634513924926483,
+        "FY2028": 0.07005947237330346,
+        "FY2029": 0.07351381958721759,
+        "FY2030": 0.07755265314502857,
+        "4Q26": 0.05244176013805002,
+        "1Q27": 0.06289642529789163,
+        "2Q27": 0.05070750647109579,
+        "3Q27": 0.08873339238263966,
+        "4Q27": 0.059428749446621465,
+        "1Q28": 0.07434331936323968,
+        "2Q28": 0.08107442292058442,
+        "3Q28": 0.08473128427081456,
+        "4Q28": 0.08349648293313328
+       }
+      },
+      {
+       "label": "Total Revenue",
+       "line": "total_rev",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Guidance",
+       "values": {
+        "FY2026": 0.07068846419525676,
+        "4Q26": 0.06125970664365843
+       }
+      },
+      {
+       "label": "Consumables",
+       "line": "consumables",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.054251626898047745,
+        "FY2027": 0.07833172156951496,
+        "FY2028": 0.0804648145321325,
+        "FY2029": 0.09523052664774534,
+        "FY2030": 0.10373811969907054,
+        "4Q26": 0.07478365384615393,
+        "1Q27": 0.08259723964868271,
+        "2Q27": 0.0728521126760564,
+        "3Q27": 0.06950631458094136,
+        "4Q27": 0.08095323298517143,
+        "1Q28": 0.0840142322357822,
+        "2Q28": 0.08907414093012567,
+        "3Q28": 0.0982781201021965,
+        "4Q28": 0.0899432035671055
+       }
+      },
+      {
+       "label": "Sequencing Consumables",
+       "line": "seq_cons",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.05629125552909153,
+        "FY2027": 0.08826068469675685,
+        "FY2028": 0.09346325523022458,
+        "FY2029": 0.0919928536624981,
+        "FY2030": 0.11025671535235149,
+        "4Q26": 0.07932450331125818,
+        "1Q27": 0.091046831955923,
+        "2Q27": 0.08246451612903227,
+        "3Q27": 0.08554292929292928,
+        "4Q27": 0.08987716133465873,
+        "1Q28": 0.09429364979169286,
+        "2Q28": 0.09979616407004333,
+        "3Q28": 0.10896190753125912,
+        "4Q28": 0.1001767759224439
+       }
+      },
+      {
+       "label": "Instruments",
+       "line": "instruments",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.038174273858921026,
+        "FY2027": -0.06139088729016784,
+        "FY2028": -0.002618804292284116,
+        "FY2029": -0.00817589924218165,
+        "FY2030": 0.03844001549653475,
+        "4Q26": -0.16759493670886072,
+        "1Q27": -0.07416666666666671,
+        "2Q27": -0.12338461538461543,
+        "3Q27": 0.02366972477064211,
+        "4Q27": -0.036116180048661906,
+        "1Q28": 0.026552655265526637,
+        "2Q28": 0.02149877149877155,
+        "3Q28": 0.023839397741530766,
+        "4Q28": 0.08361599747574355
+       }
+      },
+      {
+       "label": "Sequencing Instruments",
+       "line": "seq_inst",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.03789247311827948,
+        "FY2027": -0.060026521901288876,
+        "FY2028": 8.817370219338372e-05,
+        "FY2029": -0.018558927902312172,
+        "FY2030": 0.03034114132997945,
+        "4Q26": -0.1661688311688312,
+        "1Q27": -0.0703389830508474,
+        "2Q27": -0.11127999999999993,
+        "3Q27": 0.017547169811320762,
+        "4Q27": -0.038081146328167614,
+        "1Q28": 0.039471285323609884,
+        "2Q28": 0.04275812404356838,
+        "3Q28": 0.03254218431299827,
+        "4Q28": 0.09650259067357525
+       }
+      },
+      {
+       "label": "Service & Other",
+       "line": "service",
+       "sub": "pct_yoy",
+       "measure": "growth",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.13358044164037874,
+        "FY2027": 0.046723900429948895,
+        "FY2028": 0.04494396958538838,
+        "FY2029": 0.05154691634439246,
+        "FY2030": 0.059157996612630104,
+        "4Q26": 0.11940828402366876,
+        "1Q27": 0.039712643678160964,
+        "2Q27": 0.055932203389830626,
+        "3Q27": 0.0010752688172042113,
+        "4Q27": 0.04265778623533145,
+        "1Q28": 0.035266154441434994,
+        "2Q28": 0.04296415195291603,
+        "3Q28": 0.031632653061224536,
+        "4Q28": 0.042078580481622385
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "Margin Build": {
+   "blocks": [
+    {
+     "section": "Revenue",
+     "marker": false
+    },
+    {
+     "line": {
+      "id": "m_product",
+      "label": "Product Revenue",
+      "bold": true,
+      "dsl": "={Revenue Build!product}",
+      "fy": "sum",
+      "subs": [
+       "pct_yoy"
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "m_service",
+      "label": "Service & Other Revenue",
+      "bold": true,
+      "dsl": "={Revenue Build!service}",
+      "fy": "sum",
+      "subs": [
+       "pct_yoy"
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "m_tariff_refund",
+      "label": "Tariff Refunds (Revenue Reduction)",
+      "bold": true,
+      "dsl": "={Revenue Build!tariff_refund}",
+      "fy": "sum",
+      "subs": []
+     }
+    },
+    {
+     "line": {
+      "id": "m_total_rev",
+      "label": "Total Revenue",
+      "bold": true,
+      "dsl": "={Revenue Build!total_rev}",
+      "fy": "sum",
+      "subs": [
+       "pct_yoy"
+      ]
+     }
+    },
+    {
+     "section": "Cost of Revenue",
+     "marker": false
+    },
+    {
+     "line": {
+      "id": "total_cogs",
+      "label": "Total COGS",
+      "bold": true,
+      "dsl": "={cogs_product}+{cogs_service}+{other_cogs}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Total Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "values": {}
+     }
+    },
+    {
+     "line": {
+      "id": "total_gp",
+      "label": "Total Gross Profit",
+      "bold": true,
+      "dsl": "={m_total_rev}-{total_cogs}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "GM %",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ]
+     }
+    },
+    {
+     "band": "Product Revenue:"
+    },
+    {
+     "line": {
+      "id": "cogs_product",
+      "label": "Cost of Products Sold",
+      "bold": true,
+      "fy": "sum",
+      "hist": "cogs_product",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Product Revenue",
+        "dsl": "={id}/{m_product}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "proj_dsl": "={m_product}*(1-{drv:gm_product})"
+     }
+    },
+    {
+     "line": {
+      "id": "gp_product_chg",
+      "label": "y/y $ change in product revenue gross profit",
+      "italic": true,
+      "dsl": "={gp_product}-{gp_product@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "m_product_chg",
+      "label": "y/y $ change in product revenue",
+      "italic": true,
+      "dsl": "={m_product}-{m_product@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "cogs_product_inc",
+      "label": "Incremental product revenue COGS",
+      "italic": true,
+      "dsl": "={cogs_product}-{cogs_product@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "gp_product_inc_gm",
+      "label": "Incremental Product Revenue Gross Margin",
+      "kind": "pct",
+      "bold": true,
+      "dsl": "={gp_product_chg}/{m_product_chg}",
+      "needs": "py",
+      "fy": "formula",
+      "subs": [
+       "bps_yoy",
+       "bps_qoq"
+      ],
+      "sub_labels": {
+       "bps_yoy": "bps y/y",
+       "bps_qoq": "bps q/q"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "gp_product",
+      "label": "Product Revenue Gross Profit",
+      "bold": true,
+      "dsl": "={m_product}-{cogs_product}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "Product Revenue GM %",
+        "dsl": "={id}/{m_product}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ]
+     }
+    },
+    {
+     "band": "Service & Other Revenue:"
+    },
+    {
+     "line": {
+      "id": "cogs_service",
+      "label": "Cost of Services Sold",
+      "bold": true,
+      "fy": "sum",
+      "hist": "cogs_service",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Service & Other Revenue",
+        "dsl": "={id}/{m_service}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "proj_dsl": "={m_service}*(1-{drv:gm_service})"
+     }
+    },
+    {
+     "line": {
+      "id": "gp_service_chg",
+      "label": "y/y $ change in service & other revenue gross profit",
+      "italic": true,
+      "dsl": "={gp_service}-{gp_service@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "m_service_chg",
+      "label": "y/y $ change in service & other revenue",
+      "italic": true,
+      "dsl": "={m_service}-{m_service@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "cogs_service_inc",
+      "label": "Incremental service & other revenue COGS",
+      "italic": true,
+      "dsl": "={cogs_service}-{cogs_service@py}",
+      "needs": "py",
+      "fy": "formula",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "gp_service_inc_gm",
+      "label": "Incremental Service & Other Revenue Gross Margin",
+      "kind": "pct",
+      "bold": true,
+      "dsl": "={gp_service_chg}/{m_service_chg}",
+      "needs": "py",
+      "fy": "formula",
+      "subs": [
+       "bps_yoy",
+       "bps_qoq"
+      ],
+      "sub_labels": {
+       "bps_yoy": "bps y/y",
+       "bps_qoq": "bps q/q"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "gp_service",
+      "label": "Service & Other Revenue Gross Profit",
+      "bold": true,
+      "dsl": "={m_service}-{cogs_service}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "Service & Other Revenue GM %",
+        "dsl": "={id}/{m_service}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "pct_2y",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ]
+     }
+    },
+    {
+     "band": "Other:"
+    },
+    {
+     "line": {
+      "id": "other_cogs",
+      "label": "Other Cost of Revenue (amortization, other items)",
+      "bold": true,
+      "hist": "other_cogs",
+      "proj_dsl": "={other_cogs@py}",
+      "annual_dsl": "={other_cogs@py}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Total Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy"
+      ]
+     }
+    },
+    {
+     "section": "Operating Expenses",
+     "marker": false
+    },
+    {
+     "subtitle": "Selling, General & Administrative:"
+    },
+    {
+     "line": {
+      "id": "sga",
+      "label": "Selling, General & Administrative",
+      "bold": true,
+      "fy": "sum",
+      "hist": "sga",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "proj_dsl": "={m_total_rev}*{drv:sga_pct}"
+     },
+     "gap": true
+    },
+    {
+     "subtitle": "Research & Development:"
+    },
+    {
+     "line": {
+      "id": "rd",
+      "label": "Research & Development",
+      "bold": true,
+      "fy": "sum",
+      "hist": "rd",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq"
+      ],
+      "proj_dsl": "={m_total_rev}*{drv:rd_pct}"
+     },
+     "gap": true
+    },
+    {
+     "subtitle": "Other Operating Items:"
+    },
+    {
+     "line": {
+      "id": "other_opex",
+      "label": "Other Operating Expenses (plug for actuals)",
+      "bold": true,
+      "hist": "other_opex",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={other_opex@py}",
+       "FY2030": "={other_opex@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "total_opex",
+      "label": "Total Opex",
+      "bold": true,
+      "dsl": "={sga}+{rd}+{other_opex}",
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Revenue",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       "pct_yoy",
+       "usd_yoy",
+       "pct_qoq",
+       "usd_qoq",
+       {
+        "key": "inc_ratio",
+        "label": "Incremental Opex/Incremental Revenue (y/y)",
+        "dsl": "=({id}-{id@py})/({m_total_rev}-{m_total_rev@py})",
+        "fmt": "pct",
+        "italic": true,
+        "needs": "py"
+       }
+      ],
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "total_sbc",
+      "label": "Total SBC",
+      "bold": true,
+      "hist": "total_sbc",
+      "proj_dsl": "={drv:sbc}",
+      "dsl": null,
+      "fy": "sum",
+      "subs": []
+     }
+    },
+    {
+     "subtitle": "Operating Income:"
+    },
+    {
+     "line": {
+      "id": "op_inc",
+      "label": "Operating Income",
+      "bold": true,
+      "hist": "op_inc",
+      "proj_dsl": "={total_gp}-{total_opex}",
+      "dsl": null,
+      "fy": "sum",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% margin",
+        "dsl": "={id}/{m_total_rev}",
+        "fmt": "pct",
+        "italic": true
+       },
+       {
+        "key": "bps",
+        "label": "bps y/y",
+        "dsl": "=({id.pct_of}-{id.pct_of@py})*10000",
+        "fmt": "bps",
+        "italic": true,
+        "needs": "py"
+       },
+       "pct_yoy",
+       "usd_yoy",
+       {
+        "key": "inc_y",
+        "label": "Incremental Operating Margin (y/y)",
+        "dsl": "=({id}-{id@py})/({m_total_rev}-{m_total_rev@py})",
+        "fmt": "pct",
+        "italic": true,
+        "needs": "py"
+       },
+       {
+        "key": "inc_q",
+        "label": "Incremental Operating Margin (q/q)",
+        "dsl": "=({id}-{id@pq})/({m_total_rev}-{m_total_rev@pq})",
+        "fmt": "pct",
+        "italic": true,
+        "needs": "pq",
+        "q_only": true
+       },
+       {
+        "key": "check",
+        "label": "Check",
+        "dsl": "=ROUND({total_gp}-{total_opex}-{id},6)",
+        "fmt": "amount",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "deltas": [
+      {
+       "label": "Gross Margin %",
+       "line": "total_gp",
+       "sub": "pct_of",
+       "measure": "margin",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.6748999999999999,
+        "FY2027": 0.6823,
+        "FY2028": 0.6864,
+        "FY2029": 0.6897,
+        "FY2030": 0.69,
+        "4Q26": 0.6744,
+        "1Q27": 0.6799,
+        "2Q27": 0.6848000000000001,
+        "3Q27": 0.6846,
+        "4Q27": 0.6804000000000001,
+        "1Q28": 0.6812,
+        "2Q28": 0.6887000000000001,
+        "3Q28": 0.6889,
+        "4Q28": 0.6785
+       }
+      },
+      {
+       "label": "Operating Margin %",
+       "line": "op_inc",
+       "sub": "pct_of",
+       "measure": "margin",
+       "source": "Consensus",
+       "values": {
+        "FY2026": 0.2126,
+        "FY2027": 0.23190000000000002,
+        "FY2028": 0.25,
+        "FY2029": 0.2644,
+        "FY2030": 0.2789,
+        "4Q26": 0.2278,
+        "1Q27": 0.218,
+        "2Q27": 0.2302,
+        "3Q27": 0.2345,
+        "4Q27": 0.2432,
+        "1Q28": 0.23260000000000003,
+        "2Q28": 0.24989999999999998,
+        "3Q28": 0.25730000000000003,
+        "4Q28": 0.2716
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "Income Statement": {
+   "blocks": [
+    {
+     "section": "Income Statement",
+     "marker": false
+    },
+    {
+     "line": {
+      "id": "is_product",
+      "label": "Product Revenue",
+      "hist": "is_product",
+      "proj_dsl": "={Revenue Build!product}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "is_service",
+      "label": "Service & Other Revenue",
+      "hist": "is_service",
+      "proj_dsl": "={Revenue Build!service}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "is_tariff_refund",
+      "label": "Tariff Refunds (Revenue Reduction)",
+      "hist": "is_tariff_refund",
+      "proj_dsl": "={Revenue Build!tariff_refund}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "total_rev",
+      "label": "Total Revenue",
+      "bold": true,
+      "top": true,
+      "dsl": "={is_product}+{is_service}+{is_tariff_refund}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_yoy",
+        "label": "% YoY Growth",
+        "dsl": "={id}/{id@py}-1",
+        "fmt": "pct_s",
+        "italic": true,
+        "needs": "py"
+       }
+      ],
+      "values": {}
+     }
+    },
+    {
+     "line": {
+      "id": "cogs",
+      "label": "Cost of Revenue",
+      "hist": "cogs",
+      "proj_dsl": "={Margin Build!total_cogs}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "gp",
+      "label": "Gross Profit",
+      "bold": true,
+      "top": true,
+      "dsl": "={total_rev}-{cogs}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Gross Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "is_sga",
+      "label": "Selling, General & Administrative",
+      "hist": "is_sga",
+      "proj_dsl": "={Margin Build!sga}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "is_rd",
+      "label": "Research & Development",
+      "hist": "is_rd",
+      "proj_dsl": "={Margin Build!rd}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "is_other_opex",
+      "label": "Other Operating Expenses (plug for actuals)",
+      "hist": "is_other_opex",
+      "proj_dsl": "={Margin Build!other_opex}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "total_opex_is",
+      "label": "Total Operating Expenses",
+      "bold": true,
+      "top": true,
+      "dsl": "={is_sga}+{is_rd}+{is_other_opex}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% of Revenue",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "op_inc_is",
+      "label": "Operating Income",
+      "bold": true,
+      "dsl": "={gp}-{total_opex_is}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "interest_income",
+      "label": "Interest Income",
+      "hist": {
+       "kind": "blank"
+      },
+      "proj_dsl": "={drv:interest_income}",
+      "annual_dsl": "={drv:interest_income}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "interest_expense",
+      "label": "Interest Expense",
+      "hist": {
+       "kind": "blank"
+      },
+      "proj_dsl": "={drv:interest_expense}",
+      "annual_dsl": "={drv:interest_expense}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "other_nonop",
+      "label": "Other Non-Operating Income (Expense)",
+      "hist": "other_nonop",
+      "proj_dsl": "={drv:other_nonop}",
+      "annual_dsl": "={drv:other_nonop}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "nonop_net",
+      "label": "Total Non-Operating Income (Expense)",
+      "bold": true,
+      "top": true,
+      "dsl": "={interest_income}+{interest_expense}+{other_nonop}",
+      "fy": "sum",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "pretax",
+      "label": "Pre-Tax Income",
+      "bold": true,
+      "dsl": "={op_inc_is}+{nonop_net}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "tax",
+      "label": "Income Tax Expense",
+      "hist": "tax",
+      "proj_dsl": "={pretax}*{tax_rate}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "tax_rate",
+      "label": "% Tax Rate",
+      "kind": "pct",
+      "italic": true,
+      "fmt": "pct_s",
+      "hist": {
+       "kind": "formula",
+       "dsl": "={tax}/{pretax}"
+      },
+      "proj_dsl": "={drv:tax_rate}",
+      "annual_dsl": "={drv:tax_rate}",
+      "fy": "formula",
+      "fy_dsl": "={tax}/{pretax}"
+     }
+    },
+    {
+     "line": {
+      "id": "ni",
+      "label": "Net Income",
+      "bold": true,
+      "top": true,
+      "dsl": "={pretax}-{tax}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Net Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "subtitle": "memo"
+    },
+    {
+     "line": {
+      "id": "dep",
+      "label": "Depreciation",
+      "hist": "dep",
+      "proj_dsl": "={drv:dep}",
+      "annual_dsl": "={drv:dep}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "amort",
+      "label": "Amortization of Intangibles",
+      "hist": "amort",
+      "proj_dsl": "={drv:amort}",
+      "annual_dsl": "={drv:amort}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "ebitda",
+      "label": "EBITDA",
+      "bold": true,
+      "top": true,
+      "dsl": "={op_inc_is}+{dep}+{amort}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ],
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "sbc",
+      "label": "Stock-Based Compensation",
+      "hist": "sbc",
+      "proj_dsl": "={drv:sbc}",
+      "annual_dsl": "={drv:sbc}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "ebitda_ex",
+      "label": "EBITDA ex. SBC",
+      "bold": true,
+      "top": true,
+      "dsl": "={ebitda}+{sbc}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "subtitle": "Non-GAAP Reconciliation"
+    },
+    {
+     "line": {
+      "id": "adj_amort",
+      "label": "(+) Amortization of Acquired Intangibles",
+      "dsl": "={amort}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "adj_other",
+      "label": "(+) Other Adjustments (restructuring, legal, other)",
+      "hist": "adj_other",
+      "proj_dsl": "={drv:adj_other}",
+      "dsl": null,
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "adj_oi",
+      "label": "Adjusted Operating Income",
+      "bold": true,
+      "top": true,
+      "dsl": "={op_inc_is}+{adj_amort}+{adj_other}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Adjusted Operating Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "adj_pretax",
+      "label": "Adjusted Pre-Tax Income",
+      "dsl": "={adj_oi}+{nonop_net}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "adj_tax",
+      "label": "(-) Adjusted Income Tax",
+      "dsl": "={adj_pretax}*{adj_tax_rate}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "adj_tax_rate",
+      "label": "% Adjusted Tax Rate",
+      "kind": "pct",
+      "italic": true,
+      "fmt": "pct_s",
+      "hist": "adj_tax_rate",
+      "proj_dsl": "={drv:adj_tax_rate}",
+      "annual_dsl": "={drv:adj_tax_rate}",
+      "fy": "formula",
+      "fy_dsl": "={adj_tax}/{adj_pretax}",
+      "dsl": null
+     }
+    },
+    {
+     "line": {
+      "id": "adj_ni",
+      "label": "Adjusted Net Income",
+      "bold": true,
+      "top": true,
+      "dsl": "={adj_pretax}-{adj_tax}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Adjusted Net Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "line": {
+      "id": "adj_ebitda",
+      "label": "Adjusted EBITDA",
+      "bold": true,
+      "top": true,
+      "dsl": "={adj_oi}+{dep}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "subs": [
+       {
+        "key": "pct_of",
+        "label": "% Margin",
+        "dsl": "={id}/{total_rev}",
+        "fmt": "pct_s",
+        "italic": true
+       }
+      ]
+     }
+    },
+    {
+     "subtitle": "Per Share data"
+    },
+    {
+     "line": {
+      "id": "shares_basic",
+      "label": "Basic Weighted Avg Shares",
+      "kind": "shares",
+      "hist": "shares_basic",
+      "proj_dsl": "={drv:shares_basic}",
+      "dsl": null,
+      "fy": "avg",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "shares_dil",
+      "label": "Diluted Weighted Avg Shares",
+      "kind": "shares",
+      "hist": "shares_dil",
+      "proj_dsl": "={drv:shares_dil}",
+      "dsl": null,
+      "fy": "avg",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "eps_basic",
+      "label": "Basic EPS",
+      "kind": "eps",
+      "hist": null,
+      "proj_dsl": "={ni}/{shares_basic}",
+      "dsl": "={ni}/{shares_basic}",
+      "fy": "formula",
+      "fy_dsl": "={ni}/{shares_basic}",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "eps_dil",
+      "label": "Diluted EPS",
+      "kind": "eps",
+      "hist": "eps_dil",
+      "proj_dsl": "={ni}/{shares_dil}",
+      "dsl": null,
+      "fy": "formula",
+      "fy_dsl": "={ni}/{shares_dil}",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "adj_eps",
+      "label": "Adjusted Diluted EPS",
+      "kind": "eps",
+      "bold": true,
+      "hist": "adj_eps",
+      "proj_dsl": "={adj_ni}/{shares_dil}",
+      "dsl": null,
+      "fy": "formula",
+      "fy_dsl": "={adj_ni}/{shares_dil}"
+     }
+    }
+   ]
+  },
+  "Cash Flow Statement": {
+   "blocks": [
+    {
+     "section": "Cash Flow Statement",
+     "marker": false
+    },
+    {
+     "line": {
+      "id": "cf_ni",
+      "label": "Net Income",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "dsl": "={Income Statement!ni}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cf_da",
+      "label": "(+) Depreciation & Amortization",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "dsl": "={Income Statement!dep}+{Income Statement!amort}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cf_sbc",
+      "label": "(+) Stock-Based Compensation",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "dsl": "={Income Statement!sbc}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cf_deftax",
+      "label": "(+/-) Deferred Income Taxes",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "cf_deftax",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={cf_deftax@py}",
+       "FY2030": "={cf_deftax@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_recv",
+      "label": "(+/-) Change in Accounts Receivable",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_recv",
+      "proj_dsl": "=-({Balance Sheet!receivables}-{Balance Sheet!receivables@pq})"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_inv",
+      "label": "(+/-) Change in Inventories",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_inv",
+      "proj_dsl": "=-({Balance Sheet!inventory}-{Balance Sheet!inventory@pq})"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_prepaid",
+      "label": "(+/-) Change in Prepaid & Other Current Assets",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_prepaid",
+      "proj_dsl": "=-({Balance Sheet!prepaid}-{Balance Sheet!prepaid@pq})"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_pay",
+      "label": "(+/-) Change in Accounts Payable",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_pay",
+      "proj_dsl": "=({Balance Sheet!payables}-{Balance Sheet!payables@pq})"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_accrued",
+      "label": "(+/-) Change in Accrued Liabilities",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_accrued",
+      "proj_dsl": "=({Balance Sheet!accrued}-{Balance Sheet!accrued@pq})"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "wc_other",
+      "label": "(+/-) Change in Other Operating Assets & Liabilities",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "wc_other",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={wc_other@py}",
+       "FY2030": "={wc_other@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_op",
+      "label": "(+/-) Other Operating Items (plug for actuals)",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "other_op",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={other_op@py}",
+       "FY2030": "={other_op@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF",
+      "bottom": true
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cfo",
+      "label": "CFO",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({cf_ni}:{other_op})",
+      "fy": "sum",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "capex",
+      "label": "(-) Capital Expenditures",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "capex",
+      "proj_dsl": "={drv:capex}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "acquisitions",
+      "label": "(-) Acquisitions",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "acquisitions",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={acquisitions@py}",
+       "FY2030": "={acquisitions@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_inv",
+      "label": "(+/-) Other Investing",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "other_inv",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={other_inv@py}",
+       "FY2030": "={other_inv@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF",
+      "bottom": true
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cfi",
+      "label": "CFI",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({capex}:{other_inv})",
+      "fy": "sum",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "fcf",
+      "label": "FCF",
+      "bold": true,
+      "top": true,
+      "dsl": "={cfo}+{capex}",
+      "fy": "sum",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "debt_change",
+      "label": "(+/-) Change in Debt",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "debt_change",
+      "proj_dsl": "={drv:debt_change}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "debt_repaid",
+      "label": "(-) Debt Repayments",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "debt_repaid",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={debt_repaid@py}",
+       "FY2030": "={debt_repaid@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "buybacks",
+      "label": "(-) Share Repurchases",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "buybacks",
+      "proj_dsl": "={drv:buybacks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "stock_issued",
+      "label": "(+) Proceeds from Stock Issuance",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "stock_issued",
+      "proj_dsl": "={drv:stock_issued}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "rsu_tax",
+      "label": "(-) Taxes Paid on Net Share Settlement",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "rsu_tax",
+      "proj_dsl": "={drv:rsu_tax}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_fin",
+      "label": "(+/-) Other Financing",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "other_fin",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={other_fin@py}",
+       "FY2030": "={other_fin@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF",
+      "bottom": true
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "cff",
+      "label": "CFF",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({debt_change}:{other_fin})",
+      "fy": "sum",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "fx",
+      "label": "(+/-) FX Effect on Cash",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false,
+      "hist": "fx",
+      "values": {
+       "4Q26": 0,
+       "1Q27": 0,
+       "2Q27": 0,
+       "3Q27": 0,
+       "4Q27": 0,
+       "1Q28": 0,
+       "2Q28": 0,
+       "3Q28": 0,
+       "4Q28": 0,
+       "FY2029": "={fx@py}",
+       "FY2030": "={fx@py}"
+      },
+      "input_fill": true,
+      "input_color": "FF0000FF"
+     },
+     "gap": true
+    },
+    {
+     "line": {
+      "id": "net_change",
+      "label": "Net Change in Cash",
+      "bold": true,
+      "top": true,
+      "dsl": "={cfo}+{cfi}+{cff}+{fx}",
+      "fy": "sum",
+      "fmt": "amount_s",
+      "gap": false
+     }
+    },
+    {
+     "line": {
+      "id": "beg_cash",
+      "label": "Beginning Cash",
+      "hist": {
+       "kind": "formula",
+       "dsl": "={end_cash@pq}"
+      },
+      "proj_dsl": "={end_cash@pq}",
+      "annual_dsl": "={end_cash@py}",
+      "fy": "first",
+      "fmt": "amount_s",
+      "values": {
+       "FY2023": "={data:beg_cash}",
+       "1Q25": "={data:beg_cash}"
+      }
+     }
+    },
+    {
+     "line": {
+      "id": "end_cash",
+      "label": "Ending Cash",
+      "bold": true,
+      "top": true,
+      "dsl": "={net_change}+{beg_cash}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "cash_check",
+      "label": "check",
+      "bold": true,
+      "dsl": "={end_cash}-{Balance Sheet!cash}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    }
+   ]
+  },
+  "Balance Sheet": {
+   "blocks": [
+    {
+     "section": "Balance Sheet",
+     "marker": false
+    },
+    {
+     "subtitle": "Current Assets"
+    },
+    {
+     "line": {
+      "id": "cash",
+      "label": "Cash & Cash Equivalents",
+      "hist": "cash",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={Cash Flow Statement!end_cash}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "st_inv",
+      "label": "Short-Term Investments",
+      "hist": "st_inv",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={st_inv@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "receivables",
+      "label": "Accounts Receivable",
+      "hist": "receivables",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={drv:recv_pct}*{Income Statement!total_rev}*13/{weeks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "inventory",
+      "label": "Inventories",
+      "hist": "inventory",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={drv:inv_pct}*{Income Statement!cogs}*13/{weeks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "prepaid",
+      "label": "Prepaid Expenses & Other Current Assets",
+      "hist": "prepaid",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={drv:prepaid_pct}*{Income Statement!total_rev}*13/{weeks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "total_ca",
+      "label": "Total Current Assets",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({cash}:{prepaid})",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "label": "Non-Current Assets"
+    },
+    {
+     "line": {
+      "id": "ppe",
+      "label": "Property, Plant & Equipment",
+      "hist": "ppe",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={ppe@pq}-{Cash Flow Statement!capex}-{Income Statement!dep}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "rou",
+      "label": "Operating Lease Right-of-Use Assets",
+      "hist": "rou",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={rou@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "goodwill",
+      "label": "Goodwill",
+      "hist": "goodwill",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={goodwill@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "intangibles",
+      "label": "Intangible Assets",
+      "hist": "intangibles",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={intangibles@pq}-{Income Statement!amort}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "dta",
+      "label": "Deferred Tax Assets",
+      "hist": "dta",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={dta@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_nca",
+      "label": "Other Non-Current Assets",
+      "hist": "other_nca",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_nca@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_nca_plug",
+      "label": "Other Non-Current Assets (plug)",
+      "hist": "other_nca_plug",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_nca_plug@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "total_nca",
+      "label": "Total Non-Current Assets",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({ppe}:{other_nca_plug})",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "total_assets",
+      "label": "Total Assets",
+      "bold": true,
+      "top": true,
+      "dsl": "={total_ca}+{total_nca}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "label": "Current Liabilities"
+    },
+    {
+     "line": {
+      "id": "payables",
+      "label": "Accounts Payable",
+      "hist": "payables",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={drv:pay_pct}*({Income Statement!cogs}+{Income Statement!total_opex_is})*13/{weeks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "accrued",
+      "label": "Accrued Liabilities",
+      "hist": "accrued",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={drv:accrued_pct}*({Income Statement!cogs}+{Income Statement!total_opex_is})*13/{weeks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "st_debt",
+      "label": "Current Portion of Debt",
+      "hist": "st_debt",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={st_debt@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_cl_plug",
+      "label": "Other Current Liabilities (plug)",
+      "hist": "other_cl_plug",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_cl_plug@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "total_cl",
+      "label": "Total Current Liabilities",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({payables}:{other_cl_plug})",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "label": "Non-Current Liabilities"
+    },
+    {
+     "line": {
+      "id": "lt_debt",
+      "label": "Long-Term Debt",
+      "hist": "lt_debt",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={lt_debt@pq}+{Cash Flow Statement!debt_change}+{Cash Flow Statement!debt_repaid}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "lease_liab",
+      "label": "Operating Lease Liabilities",
+      "hist": "lease_liab",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={lease_liab@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_ncl",
+      "label": "Other Long-Term Liabilities",
+      "hist": "other_ncl",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_ncl@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_ncl_plug",
+      "label": "Other Non-Current Liabilities (plug)",
+      "hist": "other_ncl_plug",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_ncl_plug@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "total_ncl",
+      "label": "Total Non-Current Liabilities",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({lt_debt}:{other_ncl_plug})",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "total_liab",
+      "label": "Total Liabilities",
+      "bold": true,
+      "top": true,
+      "dsl": "={total_cl}+{total_ncl}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "subtitle": "Shareholders Equity"
+    },
+    {
+     "line": {
+      "id": "apic",
+      "label": "Additional Paid-In Capital",
+      "hist": "apic",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={apic@pq}+{Income Statement!sbc}+{Cash Flow Statement!stock_issued}+{Cash Flow Statement!rsu_tax}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "treasury",
+      "label": "Treasury Stock",
+      "hist": "treasury",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={treasury@pq}+{Cash Flow Statement!buybacks}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "retained",
+      "label": "Retained Earnings",
+      "hist": "retained",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={retained@pq}+{Income Statement!ni}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "aoci",
+      "label": "Accumulated Other Comprehensive Income",
+      "hist": "aoci",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={aoci@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "other_eq_plug",
+      "label": "Other Equity (plug)",
+      "hist": "other_eq_plug",
+      "fy": "last",
+      "fmt": "amount_s",
+      "gap": false,
+      "proj_dsl": "={other_eq_plug@pq}"
+     },
+     "gap": false
+    },
+    {
+     "line": {
+      "id": "total_equity",
+      "label": "Total Equity",
+      "bold": true,
+      "top": true,
+      "dsl": "=SUM({apic}:{other_eq_plug})",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "total_le",
+      "label": "Total Liabilities & Equity",
+      "bold": true,
+      "top": true,
+      "dsl": "={total_liab}+{total_equity}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    },
+    {
+     "line": {
+      "id": "bs_check",
+      "label": "check",
+      "bold": true,
+      "dsl": "={total_assets}-{total_le}",
+      "fy": "formula",
+      "fmt": "amount_s"
+     }
+    }
+   ]
+  }
+ },
+ "drivers": [
+  {
+   "id": "clins_cons_g",
+   "label": "Clinical Consumables Ex-China y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": 0.12,
+     "1Q27": 0.11,
+     "2Q27": 0.12,
+     "3Q27": 0.13,
+     "4Q27": 0.14,
+     "1Q28": 0.14,
+     "2Q28": 0.15,
+     "3Q28": 0.13,
+     "4Q28": 0.12,
+     "FY2029": 0.14,
+     "FY2030": 0.15
+    }
+   },
+   "notes": {
+    "Base": {
+     "4Q26": "Justin Palazzolo:\nimplied by guidance"
+    }
+   },
+   "fy": "sum",
+   "target": {
+    "line": "clins_cons",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "research_cons_g",
+   "label": "Research Consumables Ex-China y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": -0.07,
+     "1Q27": -0.05,
+     "2Q27": -0.06,
+     "3Q27": -0.06,
+     "4Q27": -0.05,
+     "1Q28": -0.02,
+     "2Q28": -0.02,
+     "3Q28": -0.02,
+     "4Q28": -0.02,
+     "FY2029": 0,
+     "FY2030": 0.03
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "research_cons",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "china_seq_cons_g",
+   "label": "China Seq Consumables y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {
+    "Active": {
+     "4Q26": -0.057091,
+     "1Q27": -0.140962,
+     "2Q27": -0.161964,
+     "3Q27": -0.212203,
+     "4Q27": -0.058427,
+     "1Q28": -0.04231,
+     "2Q28": -0.043469,
+     "3Q28": -0.004733,
+     "4Q28": -0.038296,
+     "FY2029": 0.228891,
+     "FY2030": -0.1005
+    }
+   },
+   "notes": {},
+   "fy": "formula",
+   "target": {
+    "line": "china_seq_cons",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "array_cons_g",
+   "label": "Microarray Consumables Growth y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": 0.048571,
+     "1Q27": 0.018732,
+     "2Q27": 0.001299,
+     "3Q27": -0.061899,
+     "4Q27": 0.005697,
+     "1Q28": 0.013273,
+     "2Q28": 0.013489,
+     "3Q28": 0.018486,
+     "4Q28": 0.023276,
+     "FY2029": -0.007015,
+     "FY2030": 0.004525
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "array_cons",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "seq_inst_g",
+   "label": "Sequencing Instruments Growth y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": -0.166169,
+     "1Q27": -0.070339,
+     "2Q27": -0.11128,
+     "3Q27": 0.017547,
+     "4Q27": -0.038081,
+     "1Q28": 0.039471,
+     "2Q28": 0.042758,
+     "3Q28": 0.032542,
+     "4Q28": 0.096503,
+     "FY2029": -0.018559,
+     "FY2030": 0.030341
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "seq_inst",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "array_inst_g",
+   "label": "Microarray Instruments Growth y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": 0.0825,
+     "1Q27": 0.16,
+     "2Q27": -0.03,
+     "3Q27": 0.36,
+     "4Q27": -0.027714,
+     "1Q28": 0.051724,
+     "2Q28": -0.030928,
+     "3Q28": -0.014706,
+     "4Q28": 0,
+     "FY2029": 0.019493,
+     "FY2030": -0.072658
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "array_inst",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "service_g",
+   "label": "Service & Other Revenue Growth y/y",
+   "section": "revenue",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": 0.119408,
+     "1Q27": 0.039713,
+     "2Q27": 0.055932,
+     "3Q27": 0.001075,
+     "4Q27": 0.042658,
+     "1Q28": 0.035266,
+     "2Q28": 0.042964,
+     "3Q28": 0.031633,
+     "4Q28": 0.042079,
+     "FY2029": 0.051547,
+     "FY2030": 0.059158
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "service",
+    "sub": "pct_yoy"
+   }
+  },
+  {
+   "id": "gm_product",
+   "label": "Product Gross Margin %",
+   "section": "cost",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": "=1-300.81/{Revenue Build!product}",
+     "1Q27": "=1-282.78/{Revenue Build!product}",
+     "2Q27": "=1-294.98/{Revenue Build!product}",
+     "3Q27": "=1-297.48/{Revenue Build!product}",
+     "4Q27": "=1-317.34/{Revenue Build!product}",
+     "1Q28": "=1-296.31/{Revenue Build!product}",
+     "2Q28": "=1-310.54/{Revenue Build!product}",
+     "3Q28": "=1-315.35/{Revenue Build!product}",
+     "4Q28": "=1-338.25/{Revenue Build!product}",
+     "FY2029": "=1-1353.69/{Revenue Build!product}",
+     "FY2030": "=1-1516.96/{Revenue Build!product}"
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "gp_product",
+    "sub": "pct_of"
+   }
+  },
+  {
+   "id": "gm_service",
+   "label": "Service Gross Margin %",
+   "section": "cost",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": "=1-82.38/{Revenue Build!service}",
+     "1Q27": "=1-82.21/{Revenue Build!service}",
+     "2Q27": "=1-81.48/{Revenue Build!service}",
+     "3Q27": "=1-83.15/{Revenue Build!service}",
+     "4Q27": "=1-84.67/{Revenue Build!service}",
+     "1Q28": "=1-83.63/{Revenue Build!service}",
+     "2Q28": "=1-82.81/{Revenue Build!service}",
+     "3Q28": "=1-84.73/{Revenue Build!service}",
+     "4Q28": "=1-86.71/{Revenue Build!service}",
+     "FY2029": "=1-353.6/{Revenue Build!service}",
+     "FY2030": "=1-365.61/{Revenue Build!service}"
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "gp_service",
+    "sub": "pct_of"
+   }
+  },
+  {
+   "id": "sga_pct",
+   "label": "SG&A % of Revenue",
+   "section": "cost",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": "=285.68/{Revenue Build!total_rev}",
+     "1Q27": "=285.82/{Revenue Build!total_rev}",
+     "2Q27": "=295.36/{Revenue Build!total_rev}",
+     "3Q27": "=294.61/{Revenue Build!total_rev}",
+     "4Q27": "=295.69/{Revenue Build!total_rev}",
+     "1Q28": "=296.37/{Revenue Build!total_rev}",
+     "2Q28": "=306.4/{Revenue Build!total_rev}",
+     "3Q28": "=305.7/{Revenue Build!total_rev}",
+     "4Q28": "=306.44/{Revenue Build!total_rev}",
+     "FY2029": "=1330.35/{Revenue Build!total_rev}",
+     "FY2030": "=1455.0/{Revenue Build!total_rev}"
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "sga",
+    "sub": "pct_of"
+   }
+  },
+  {
+   "id": "rd_pct",
+   "label": "R&D % of Revenue",
+   "section": "cost",
+   "fmt": "pct_plain",
+   "cased": true,
+   "values": {
+    "Base": {
+     "4Q26": "=244.2/{Revenue Build!total_rev}",
+     "1Q27": "=253.0/{Revenue Build!total_rev}",
+     "2Q27": "=253.0/{Revenue Build!total_rev}",
+     "3Q27": "=256.0/{Revenue Build!total_rev}",
+     "4Q27": "=256.0/{Revenue Build!total_rev}",
+     "1Q28": "=258.0/{Revenue Build!total_rev}",
+     "2Q28": "=258.0/{Revenue Build!total_rev}",
+     "3Q28": "=263.0/{Revenue Build!total_rev}",
+     "4Q28": "=263.0/{Revenue Build!total_rev}",
+     "FY2029": "=1098.7/{Revenue Build!total_rev}",
+     "FY2030": "=1095.77/{Revenue Build!total_rev}"
+    }
+   },
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "rd",
+    "sub": "pct_of"
+   }
+  },
+  {
+   "id": "interest_income",
+   "label": "Interest Income",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "interest_income",
+    "sub": null
+   }
+  },
+  {
+   "id": "interest_expense",
+   "label": "Interest Expense",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "interest_expense",
+    "sub": null
+   }
+  },
+  {
+   "id": "other_nonop",
+   "label": "Other Non-Operating Income (Expense)",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "other_nonop",
+    "sub": null
+   }
+  },
+  {
+   "id": "tax_rate",
+   "label": "Tax Rate",
+   "section": "is",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": {
+    "line": "tax_rate",
+    "sub": null
+   }
+  },
+  {
+   "id": "dep",
+   "label": "Depreciation",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "dep",
+    "sub": null
+   }
+  },
+  {
+   "id": "amort",
+   "label": "Amortization of Intangibles",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "amort",
+    "sub": null
+   }
+  },
+  {
+   "id": "sbc",
+   "label": "Stock-Based Compensation",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "sbc",
+    "sub": null
+   }
+  },
+  {
+   "id": "adj_other",
+   "label": "Other Non-GAAP Adjustments (pre-tax)",
+   "section": "is",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": null
+  },
+  {
+   "id": "adj_tax_rate",
+   "label": "Adjusted Tax Rate",
+   "section": "is",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": {
+    "line": "adj_tax_rate",
+    "sub": null
+   }
+  },
+  {
+   "id": "shares_basic",
+   "label": "Basic Weighted Avg Shares",
+   "section": "is",
+   "fmt": "shares",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "avg",
+   "target": {
+    "line": "shares_basic",
+    "sub": null
+   }
+  },
+  {
+   "id": "shares_dil",
+   "label": "Diluted Weighted Avg Shares",
+   "section": "is",
+   "fmt": "shares",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "avg",
+   "target": {
+    "line": "shares_dil",
+    "sub": null
+   }
+  },
+  {
+   "id": "recv_pct",
+   "label": "Accounts Receivable % of Qtr. Revenue",
+   "section": "bs",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": null
+  },
+  {
+   "id": "inv_pct",
+   "label": "Inventories % of Qtr. Cost of Revenue",
+   "section": "bs",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": null
+  },
+  {
+   "id": "prepaid_pct",
+   "label": "Prepaid & Other Current Assets % of Qtr. Revenue",
+   "section": "bs",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": null
+  },
+  {
+   "id": "pay_pct",
+   "label": "Accounts Payable % of Qtr. (CoR + Opex)",
+   "section": "bs",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": null
+  },
+  {
+   "id": "accrued_pct",
+   "label": "Accrued Liabilities % of Qtr. (CoR + Opex)",
+   "section": "bs",
+   "fmt": "pct_plain",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "last",
+   "target": null
+  },
+  {
+   "id": "capex",
+   "label": "Capital Expenditures",
+   "section": "cf",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "capex",
+    "sub": null
+   }
+  },
+  {
+   "id": "debt_change",
+   "label": "Net Debt Issued / (Repaid)",
+   "section": "cf",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "debt_change",
+    "sub": null
+   }
+  },
+  {
+   "id": "buybacks",
+   "label": "Share Repurchases",
+   "section": "cf",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "buybacks",
+    "sub": null
+   }
+  },
+  {
+   "id": "stock_issued",
+   "label": "Proceeds from Stock Issuance",
+   "section": "cf",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "stock_issued",
+    "sub": null
+   }
+  },
+  {
+   "id": "rsu_tax",
+   "label": "Taxes Paid on Net Share Settlement",
+   "section": "cf",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "rsu_tax",
+    "sub": null
+   }
+  },
+  {
+   "id": "tariff_refund_amt",
+   "label": "Tariff Refunds (Revenue Reduction)",
+   "section": "revenue",
+   "fmt": "amount_s",
+   "cased": false,
+   "values": {},
+   "notes": {},
+   "fy": "sum",
+   "target": {
+    "line": "tariff_refund",
+    "sub": null
+   }
+  }
+ ],
+ "dcf": {
+  "opex_lines": [
+   [
+    "is_sga",
+    "Selling, General & Administrative"
+   ],
+   [
+    "is_rd",
+    "Research & Development"
+   ],
+   [
+    "is_other_opex",
+    "Other Operating Expenses"
+   ]
+  ],
+  "da_lines": [
+   "dep",
+   "amort"
+  ],
+  "nwc_lines": [
+   "wc_recv",
+   "wc_inv",
+   "wc_prepaid",
+   "wc_pay",
+   "wc_accrued"
+  ],
+  "capex_line": "capex",
+  "ebitda_line": "adj_ebitda",
+  "bridge": {
+   "cash_lines": [
+    "cash",
+    "st_inv"
+   ],
+   "debt_lines": [
+    "st_debt",
+    "lt_debt",
+    "lease_liab"
+   ]
+  },
+  "valuation_date": "2026-11-02",
+  "tax_rate": 0.205,
+  "rfr": 0.0493,
+  "beta": 1.47,
+  "erp": 0.0442,
+  "kd_after_tax": 0.0445,
+  "equity_weight": 0.94,
+  "diluted_shares": 153,
+  "exit_multiples": {
+   "Disaster": 12.94,
+   "Bear": 48.86,
+   "Base": 19.89,
+   "Bull": 31.48,
+   "Blowout": 37.27
+  },
+  "notes": {
+   "exit_multiples": {}
+  }
+ },
+ "tearsheet": {
+  "metric_label": "Adj. EBITDA",
+  "metric_line": "adj_ebitda",
+  "multiple_label": "NTM Multiple",
+  "blocks": [
+   {
+    "label": "YE2027",
+    "basis": "YE",
+    "target_date": "2028-01-02",
+    "metric_period": "FY2028",
+    "blended_label": "Near Term Setup"
+   },
+   {
+    "label": "YE2028",
+    "basis": "YE",
+    "target_date": "2028-12-31",
+    "metric_period": "FY2029",
+    "blended_label": "YE2028"
+   }
+  ],
+  "multiples": {
+   "Disaster": {
+    "YE2027": 19.42,
+    "YE2028": 18.82
+   },
+   "Bear": {
+    "YE2027": 21.55,
+    "YE2028": 21.09
+   },
+   "Base": {
+    "YE2027": 23.67,
+    "YE2028": 23.36
+   },
+   "Bull": {
+    "YE2027": 31.33,
+    "YE2028": 32.45
+   },
+   "Blowout": {
+    "YE2027": 38.99,
+    "YE2028": 41.54
+   }
+  },
+  "multiple_notes": {},
+  "weights": {
+   "Disaster": 0.1,
+   "Bear": 0.2,
+   "Base": 0.4,
+   "Bull": 0.2,
+   "Blowout": 0.1
+  },
+  "case_metric_values": {},
+  "current_multiple_period": "FY2027",
+  "price": {
+   "source": "bloomberg",
+   "ticker_code": "ILMN US Equity",
+   "value": 235.99,
+   "date": "2026-10-30"
+  }
+ },
+ "side_builds": [
+  {
+   "name": "Ex-China Consumables Mix",
+   "zoom": 80,
+   "widths": {
+    "A": 2.0,
+    "B": 52.0,
+    "C": 2.0,
+    "D": 9.5,
+    "E": 9.5,
+    "F": 9.5,
+    "G": 9.5,
+    "H": 9.5,
+    "I": 9.5,
+    "J": 9.5,
+    "K": 9.5,
+    "L": 9.5,
+    "M": 9.5,
+    "N": 9.5,
+    "O": 9.5,
+    "P": 9.5,
+    "Q": 9.5,
+    "R": 9.5,
+    "S": 9.5,
+    "T": 9.5,
+    "U": 9.5
+   },
+   "cells": [
+    {
+     "cell": "B2",
+     "value": "Ex-China Sequencing Consumables: Clinical / Research & Applied Split",
+     "bold": true,
+     "top": true,
+     "bottom": true
+    },
+    {
+     "cell": "B4",
+     "value": "$M",
+     "bold": true
+    },
+    {
+     "cell": "D4",
+     "value": "1Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "E4",
+     "value": "2Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "F4",
+     "value": "3Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "G4",
+     "value": "4Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "H4",
+     "value": "FY 2023",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "I4",
+     "value": "1Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "J4",
+     "value": "2Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "K4",
+     "value": "3Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "L4",
+     "value": "4Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "M4",
+     "value": "FY 2024",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "N4",
+     "value": "1Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "O4",
+     "value": "2Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "P4",
+     "value": "3Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "Q4",
+     "value": "4Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "R4",
+     "value": "FY 2025",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "S4",
+     "value": "1Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "T4",
+     "value": "2Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "U4",
+     "value": "3Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "B5",
+     "value": "Total Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "N5",
+     "value": "={Revenue Build!seq_cons@1Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "O5",
+     "value": "={Revenue Build!seq_cons@2Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "P5",
+     "value": "={Revenue Build!seq_cons@3Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "Q5",
+     "value": "={Revenue Build!seq_cons@4Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "S5",
+     "value": "={Revenue Build!seq_cons@1Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "T5",
+     "value": "={Revenue Build!seq_cons@2Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "U5",
+     "value": "={Revenue Build!seq_cons@3Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "H5",
+     "value": "={Revenue Build!seq_cons@FY2023}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "M5",
+     "value": "={Revenue Build!seq_cons@FY2024}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "R5",
+     "value": "={Revenue Build!seq_cons@FY2025}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I5",
+     "value": 691,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J5",
+     "value": 729,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "K5",
+     "value": 741,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "L5",
+     "value": 698,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "B6",
+     "value": "Ex-China sequencing consumables y/y (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I6",
+     "value": 0.01,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K6",
+     "value": 0.09,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N6",
+     "value": 0.0,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P6",
+     "value": 0.03,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q6",
+     "value": 0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S6",
+     "value": 0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T6",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U6",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B7",
+     "value": "Clinical y/y, ex-China (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I7",
+     "value": 0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J7",
+     "value": 0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K7",
+     "value": 0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L7",
+     "value": 0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N7",
+     "value": 0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O7",
+     "value": 0.1,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P7",
+     "value": 0.12,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q7",
+     "value": 0.2,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S7",
+     "value": 0.2,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T7",
+     "value": 0.15,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U7",
+     "value": 0.14,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B8",
+     "value": "Research & Applied y/y, ex-China (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I8",
+     "value": -0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J8",
+     "value": -0.03,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K8",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L8",
+     "value": -0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N8",
+     "value": -0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O8",
+     "value": -0.09,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P8",
+     "value": -0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q8",
+     "value": 0.0,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S8",
+     "value": -0.12,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T8",
+     "value": -0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U8",
+     "value": -0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B10",
+     "value": "Ex-China Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "N10",
+     "value": 640,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O10",
+     "value": 690,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P10",
+     "value": 707,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q10",
+     "value": 713,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S10",
+     "value": 687,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T10",
+     "value": 734,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U10",
+     "value": 748,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "I10",
+     "value": "=N10/(1+N6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J10",
+     "value": "=O10/(1+O6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K10",
+     "value": 684,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L10",
+     "value": "=Q10/(1+Q6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D10",
+     "value": "=I10/(1+I6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E10",
+     "value": "=J10/(1+J6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F10",
+     "value": "=K10/(1+K6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G10",
+     "value": "=L10/(1+L6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B11",
+     "value": "Research & Applied Consumables (ex-China)",
+     "bold": true
+    },
+    {
+     "cell": "B12",
+     "value": "Clinical Consumables (ex-China)",
+     "bold": true
+    },
+    {
+     "cell": "I11",
+     "value": "=(N10-I10*(1+N7))/(N8-N7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "I12",
+     "value": "=I10-I11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J11",
+     "value": "=(O10-J10*(1+O7))/(O8-O7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J12",
+     "value": "=J10-J11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K11",
+     "value": "=(P10-K10*(1+P7))/(P8-P7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K12",
+     "value": "=K10-K11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L11",
+     "value": "=(Q10-L10*(1+Q7))/(Q8-Q7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L12",
+     "value": "=L10-L11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N11",
+     "value": "=I11*(1+N8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N12",
+     "value": "=I12*(1+N7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O11",
+     "value": "=J11*(1+O8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O12",
+     "value": "=J12*(1+O7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P11",
+     "value": "=K11*(1+P8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P12",
+     "value": "=K12*(1+P7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q11",
+     "value": "=L11*(1+Q8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q12",
+     "value": "=L12*(1+Q7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S12",
+     "value": "=N12*(1+S7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S11",
+     "value": "=S10-S12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T12",
+     "value": "=O12*(1+T7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T11",
+     "value": "=T10-T12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U12",
+     "value": "=P12*(1+U7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U11",
+     "value": "=U10-U12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D12",
+     "value": "=I12/(1+I7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D11",
+     "value": "=D10-D12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E12",
+     "value": "=J12/(1+J7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E11",
+     "value": "=E10-E12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F12",
+     "value": "=K12/(1+K7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F11",
+     "value": "=F10-F12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G12",
+     "value": "=L12/(1+L7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G11",
+     "value": "=G10-G12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H10",
+     "value": "=SUM(D10:G10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H11",
+     "value": "=SUM(D11:G11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H12",
+     "value": "=SUM(D12:G12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M10",
+     "value": "=SUM(I10:L10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M11",
+     "value": "=SUM(I11:L11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M12",
+     "value": "=SUM(I12:L12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R10",
+     "value": "=SUM(N10:Q10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R11",
+     "value": "=SUM(N11:Q11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R12",
+     "value": "=SUM(N12:Q12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B13",
+     "value": "Clinical share of ex-China sequencing consumables",
+     "italic": true
+    },
+    {
+     "cell": "D13",
+     "value": "=D12/D10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "E13",
+     "value": "=E12/E10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "F13",
+     "value": "=F12/F10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "G13",
+     "value": "=G12/G10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "H13",
+     "value": "=H12/H10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "I13",
+     "value": "=I12/I10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J13",
+     "value": "=J12/J10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K13",
+     "value": "=K12/K10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L13",
+     "value": "=L12/L10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M13",
+     "value": "=M12/M10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N13",
+     "value": "=N12/N10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O13",
+     "value": "=O12/O10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P13",
+     "value": "=P12/P10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q13",
+     "value": "=Q12/Q10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R13",
+     "value": "=R12/R10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S13",
+     "value": "=S12/S10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T13",
+     "value": "=T12/T10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U13",
+     "value": "=U12/U10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B14",
+     "value": "Research & Applied y/y, implied",
+     "italic": true
+    },
+    {
+     "cell": "B15",
+     "value": "Clinical y/y, implied",
+     "italic": true
+    },
+    {
+     "cell": "I14",
+     "value": "=I11/D11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "I15",
+     "value": "=I12/D12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J14",
+     "value": "=J11/E11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J15",
+     "value": "=J12/E12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K14",
+     "value": "=K11/F11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K15",
+     "value": "=K12/F12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L14",
+     "value": "=L11/G11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L15",
+     "value": "=L12/G12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N14",
+     "value": "=N11/I11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N15",
+     "value": "=N12/I12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O14",
+     "value": "=O11/J11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O15",
+     "value": "=O12/J12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P14",
+     "value": "=P11/K11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P15",
+     "value": "=P12/K12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q14",
+     "value": "=Q11/L11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q15",
+     "value": "=Q12/L12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S14",
+     "value": "=S11/N11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S15",
+     "value": "=S12/N12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T14",
+     "value": "=T11/O11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T15",
+     "value": "=T12/O12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U14",
+     "value": "=U11/P11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U15",
+     "value": "=U12/P12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M14",
+     "value": "=M11/H11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M15",
+     "value": "=M12/H12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R14",
+     "value": "=R11/M11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R15",
+     "value": "=R12/M12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B17",
+     "value": "Greater China Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "B18",
+     "value": "Greater China y/y",
+     "italic": true
+    },
+    {
+     "cell": "I17",
+     "value": "=I5-I10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J17",
+     "value": "=J5-J10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K17",
+     "value": "=K5-K10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L17",
+     "value": "=L5-L10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N17",
+     "value": "=N5-N10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O17",
+     "value": "=O5-O10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P17",
+     "value": "=P5-P10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q17",
+     "value": "=Q5-Q10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S17",
+     "value": "=S5-S10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T17",
+     "value": "=T5-T10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U17",
+     "value": "=U5-U10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H17",
+     "value": "=H5-H10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M17",
+     "value": "=M5-M10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R17",
+     "value": "=R5-R10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N18",
+     "value": "=N17/I17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O18",
+     "value": "=O17/J17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P18",
+     "value": "=P17/K17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q18",
+     "value": "=Q17/L17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S18",
+     "value": "=S17/N17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T18",
+     "value": "=T17/O17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U18",
+     "value": "=U17/P17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M18",
+     "value": "=M17/H17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R18",
+     "value": "=R17/M17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    }
+   ]
+  },
+  {
+   "name": "Implied Discounting Build",
+   "zoom": 90,
+   "widths": {
+    "A": 2.0,
+    "B": 44.0,
+    "C": 30.0,
+    "D": 20.0,
+    "E": 28.0
+   },
+   "cells": [
+    {
+     "cell": "B2",
+     "value": "Implied Sequencing Consumables Revenue per GB",
+     "bold": true,
+     "top": true,
+     "bottom": true
+    },
+    {
+     "cell": "B4",
+     "value": "Assumed sequencing volume growth y/y (GB)"
+    },
+    {
+     "cell": "C4",
+     "value": 0.3,
+     "fmt": "pct_plain",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "B6",
+     "value": "Period",
+     "bold": true,
+     "bottom": true
+    },
+    {
+     "cell": "C6",
+     "value": "Seq. Consumables Revenue y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "D6",
+     "value": "Volume Growth y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "E6",
+     "value": "Implied Revenue per GB y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "B7",
+     "value": "FY 2025",
+     "bold": true
+    },
+    {
+     "cell": "C7",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2025}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D7",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E7",
+     "value": "=(1+C7)/(1+D7)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B8",
+     "value": "1Q26",
+     "bold": false
+    },
+    {
+     "cell": "C8",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D8",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E8",
+     "value": "=(1+C8)/(1+D8)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B9",
+     "value": "2Q26",
+     "bold": false
+    },
+    {
+     "cell": "C9",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D9",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E9",
+     "value": "=(1+C9)/(1+D9)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B10",
+     "value": "3Q26",
+     "bold": false
+    },
+    {
+     "cell": "C10",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D10",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E10",
+     "value": "=(1+C10)/(1+D10)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B11",
+     "value": "4Q26E",
+     "bold": false
+    },
+    {
+     "cell": "C11",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D11",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E11",
+     "value": "=(1+C11)/(1+D11)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B12",
+     "value": "FY 2026E",
+     "bold": true
+    },
+    {
+     "cell": "C12",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2026}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D12",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E12",
+     "value": "=(1+C12)/(1+D12)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B13",
+     "value": "1Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C13",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D13",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E13",
+     "value": "=(1+C13)/(1+D13)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B14",
+     "value": "2Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C14",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D14",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E14",
+     "value": "=(1+C14)/(1+D14)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B15",
+     "value": "3Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C15",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D15",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E15",
+     "value": "=(1+C15)/(1+D15)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B16",
+     "value": "4Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C16",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D16",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E16",
+     "value": "=(1+C16)/(1+D16)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B17",
+     "value": "FY 2027E",
+     "bold": true
+    },
+    {
+     "cell": "C17",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2027}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D17",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E17",
+     "value": "=(1+C17)/(1+D17)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B18",
+     "value": "1Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C18",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D18",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E18",
+     "value": "=(1+C18)/(1+D18)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B19",
+     "value": "2Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C19",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D19",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E19",
+     "value": "=(1+C19)/(1+D19)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B20",
+     "value": "3Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C20",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D20",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E20",
+     "value": "=(1+C20)/(1+D20)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B21",
+     "value": "4Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C21",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D21",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E21",
+     "value": "=(1+C21)/(1+D21)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B22",
+     "value": "FY 2028E",
+     "bold": true
+    },
+    {
+     "cell": "C22",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2028}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D22",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E22",
+     "value": "=(1+C22)/(1+D22)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B23",
+     "value": "FY 2029E",
+     "bold": true
+    },
+    {
+     "cell": "C23",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2029}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D23",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E23",
+     "value": "=(1+C23)/(1+D23)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B24",
+     "value": "FY 2030E",
+     "bold": true
+    },
+    {
+     "cell": "C24",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2030}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D24",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E24",
+     "value": "=(1+C24)/(1+D24)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    }
+   ]
+  },
+  {
+   "name": "Multiples Build",
+   "zoom": 85,
+   "widths": {
+    "A": 2.0,
+    "B": 12.0,
+    "C": 12.0,
+    "D": 26.0,
+    "E": 26.0,
+    "F": 28.0,
+    "G": 32.0,
+    "H": 18.0,
+    "I": 24.0,
+    "J": 26.0,
+    "K": 26.0
+   },
+   "cells": [
+    {
+     "cell": "B2",
+     "value": "Multiples Implied by Target P/E",
+     "bold": true,
+     "top": true,
+     "bottom": true
+    },
+    {
+     "cell": "B4",
+     "value": "YE2027 target: P/E on FY2027E Adj. EPS, EV/EBITDA on FY2028E Adj. EBITDA",
+     "bold": true
+    },
+    {
+     "cell": "B5",
+     "value": "Case",
+     "bold": true,
+     "bottom": true,
+     "align": null
+    },
+    {
+     "cell": "C5",
+     "value": "Target P/E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "D5",
+     "value": "Adj. Net Income FY2027E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "E5",
+     "value": "Equity Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "F5",
+     "value": "(+) Debt & Leases",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "G5",
+     "value": "(-) Cash & Investments",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "H5",
+     "value": "Enterprise Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "I5",
+     "value": "Adj. EBITDA FY2028E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "J5",
+     "value": "Implied EV/EBITDA",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "B6",
+     "value": "Blowout"
+    },
+    {
+     "cell": "C6",
+     "value": 45,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D6",
+     "value": "={Income Statement!adj_ni@FY2027}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E6",
+     "value": "=C6*D6",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F6",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G6",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H6",
+     "value": "=E6+F6-G6",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I6",
+     "value": "=Tearsheet!E26",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J6",
+     "value": "=H6/I6",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B7",
+     "value": "Bull"
+    },
+    {
+     "cell": "C7",
+     "value": "=AVERAGE(C8,C6)",
+     "fmt": "mult"
+    },
+    {
+     "cell": "D7",
+     "value": "={Income Statement!adj_ni@FY2027}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E7",
+     "value": "=C7*D7",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F7",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G7",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H7",
+     "value": "=E7+F7-G7",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I7",
+     "value": "=Tearsheet!E12",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J7",
+     "value": "=H7/I7",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B8",
+     "value": "Base"
+    },
+    {
+     "cell": "C8",
+     "value": 27,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D8",
+     "value": "={Income Statement!adj_ni@FY2027}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E8",
+     "value": "=C8*D8",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F8",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G8",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H8",
+     "value": "=E8+F8-G8",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I8",
+     "value": "=Tearsheet!E5",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J8",
+     "value": "=H8/I8",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B9",
+     "value": "Bear"
+    },
+    {
+     "cell": "C9",
+     "value": "=AVERAGE(C10,C8)",
+     "fmt": "mult"
+    },
+    {
+     "cell": "D9",
+     "value": "={Income Statement!adj_ni@FY2027}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E9",
+     "value": "=C9*D9",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F9",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G9",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H9",
+     "value": "=E9+F9-G9",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I9",
+     "value": "=Tearsheet!E19",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J9",
+     "value": "=H9/I9",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B10",
+     "value": "Disaster"
+    },
+    {
+     "cell": "C10",
+     "value": 22,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D10",
+     "value": "={Income Statement!adj_ni@FY2027}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E10",
+     "value": "=C10*D10",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F10",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G10",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H10",
+     "value": "=E10+F10-G10",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I10",
+     "value": "=Tearsheet!E33",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J10",
+     "value": "=H10/I10",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B12",
+     "value": "YE2028 target: P/E on FY2028E Adj. EPS, EV/EBITDA on FY2029E Adj. EBITDA",
+     "bold": true
+    },
+    {
+     "cell": "B13",
+     "value": "Case",
+     "bold": true,
+     "bottom": true,
+     "align": null
+    },
+    {
+     "cell": "C13",
+     "value": "Target P/E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "D13",
+     "value": "Adj. Net Income FY2028E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "E13",
+     "value": "Equity Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "F13",
+     "value": "(+) Debt & Leases",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "G13",
+     "value": "(-) Cash & Investments",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "H13",
+     "value": "Enterprise Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "I13",
+     "value": "Adj. EBITDA FY2029E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "J13",
+     "value": "Implied EV/EBITDA",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "B14",
+     "value": "Blowout"
+    },
+    {
+     "cell": "C14",
+     "value": 45,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D14",
+     "value": "={Income Statement!adj_ni@FY2028}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E14",
+     "value": "=C14*D14",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F14",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G14",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H14",
+     "value": "=E14+F14-G14",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I14",
+     "value": "=Tearsheet!J26",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J14",
+     "value": "=H14/I14",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B15",
+     "value": "Bull"
+    },
+    {
+     "cell": "C15",
+     "value": "=AVERAGE(C16,C14)",
+     "fmt": "mult"
+    },
+    {
+     "cell": "D15",
+     "value": "={Income Statement!adj_ni@FY2028}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E15",
+     "value": "=C15*D15",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F15",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G15",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H15",
+     "value": "=E15+F15-G15",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I15",
+     "value": "=Tearsheet!J12",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J15",
+     "value": "=H15/I15",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B16",
+     "value": "Base"
+    },
+    {
+     "cell": "C16",
+     "value": 25,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D16",
+     "value": "={Income Statement!adj_ni@FY2028}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E16",
+     "value": "=C16*D16",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F16",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G16",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H16",
+     "value": "=E16+F16-G16",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I16",
+     "value": "=Tearsheet!J5",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J16",
+     "value": "=H16/I16",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B17",
+     "value": "Bear"
+    },
+    {
+     "cell": "C17",
+     "value": "=AVERAGE(C18,C16)",
+     "fmt": "mult"
+    },
+    {
+     "cell": "D17",
+     "value": "={Income Statement!adj_ni@FY2028}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E17",
+     "value": "=C17*D17",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F17",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G17",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H17",
+     "value": "=E17+F17-G17",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I17",
+     "value": "=Tearsheet!J19",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J17",
+     "value": "=H17/I17",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B18",
+     "value": "Disaster"
+    },
+    {
+     "cell": "C18",
+     "value": 20,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D18",
+     "value": "={Income Statement!adj_ni@FY2028}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E18",
+     "value": "=C18*D18",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F18",
+     "value": "=Tearsheet!$E$44",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G18",
+     "value": "=Tearsheet!$E$43",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H18",
+     "value": "=E18+F18-G18",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I18",
+     "value": "=Tearsheet!J33",
+     "fmt": "amount"
+    },
+    {
+     "cell": "J18",
+     "value": "=H18/I18",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B20",
+     "value": "DCF exit: EV/EBITDA on FY2030E Adj. EBITDA implied by P/E on FY2031E Adj. Net Income",
+     "bold": true
+    },
+    {
+     "cell": "B21",
+     "value": "FY2031E Adj. Net Income growth over FY2030E"
+    },
+    {
+     "cell": "C21",
+     "value": 0.1589,
+     "fmt": "pct_plain",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "B22",
+     "value": "Case",
+     "bold": true,
+     "bottom": true,
+     "align": null
+    },
+    {
+     "cell": "C22",
+     "value": "Target P/E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "D22",
+     "value": "Adj. Net Income FY2030E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "E22",
+     "value": "Adj. Net Income FY2031E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "F22",
+     "value": "Equity Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "G22",
+     "value": "(+) Debt & Leases FY2030E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "H22",
+     "value": "(-) Cash & Investments FY2030E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "I22",
+     "value": "Enterprise Value",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "J22",
+     "value": "Adj. EBITDA FY2030E",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "K22",
+     "value": "Implied Exit EV/EBITDA",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "B23",
+     "value": "Disaster"
+    },
+    {
+     "cell": "C23",
+     "value": 14,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D23",
+     "value": "={Income Statement!adj_ni@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E23",
+     "value": "=D23*(1+$C$21)",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F23",
+     "value": "=C23*E23",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G23",
+     "value": "={Balance Sheet!st_debt@FY2030}+{Balance Sheet!lt_debt@FY2030}+{Balance Sheet!lease_liab@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H23",
+     "value": "={Balance Sheet!cash@FY2030}+{Balance Sheet!st_inv@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "I23",
+     "value": "=F23+G23-H23",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J23",
+     "value": "={Income Statement!adj_ebitda@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "K23",
+     "value": "=I23/J23",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B24",
+     "value": "Bear"
+    },
+    {
+     "cell": "C24",
+     "value": 45,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D24",
+     "value": "={Income Statement!adj_ni@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E24",
+     "value": "=D24*(1+$C$21)",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F24",
+     "value": "=C24*E24",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G24",
+     "value": "={Balance Sheet!st_debt@FY2030}+{Balance Sheet!lt_debt@FY2030}+{Balance Sheet!lease_liab@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H24",
+     "value": "={Balance Sheet!cash@FY2030}+{Balance Sheet!st_inv@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "I24",
+     "value": "=F24+G24-H24",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J24",
+     "value": "={Income Statement!adj_ebitda@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "K24",
+     "value": "=I24/J24",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B25",
+     "value": "Base"
+    },
+    {
+     "cell": "C25",
+     "value": 20,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D25",
+     "value": "={Income Statement!adj_ni@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E25",
+     "value": "=D25*(1+$C$21)",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F25",
+     "value": "=C25*E25",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G25",
+     "value": "={Balance Sheet!st_debt@FY2030}+{Balance Sheet!lt_debt@FY2030}+{Balance Sheet!lease_liab@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H25",
+     "value": "={Balance Sheet!cash@FY2030}+{Balance Sheet!st_inv@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "I25",
+     "value": "=F25+G25-H25",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J25",
+     "value": "={Income Statement!adj_ebitda@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "K25",
+     "value": "=I25/J25",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B26",
+     "value": "Bull"
+    },
+    {
+     "cell": "C26",
+     "value": 30,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D26",
+     "value": "={Income Statement!adj_ni@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E26",
+     "value": "=D26*(1+$C$21)",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F26",
+     "value": "=C26*E26",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G26",
+     "value": "={Balance Sheet!st_debt@FY2030}+{Balance Sheet!lt_debt@FY2030}+{Balance Sheet!lease_liab@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H26",
+     "value": "={Balance Sheet!cash@FY2030}+{Balance Sheet!st_inv@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "I26",
+     "value": "=F26+G26-H26",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J26",
+     "value": "={Income Statement!adj_ebitda@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "K26",
+     "value": "=I26/J26",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B27",
+     "value": "Blowout"
+    },
+    {
+     "cell": "C27",
+     "value": 35,
+     "fmt": "mult",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "D27",
+     "value": "={Income Statement!adj_ni@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "E27",
+     "value": "=D27*(1+$C$21)",
+     "fmt": "amount"
+    },
+    {
+     "cell": "F27",
+     "value": "=C27*E27",
+     "fmt": "amount"
+    },
+    {
+     "cell": "G27",
+     "value": "={Balance Sheet!st_debt@FY2030}+{Balance Sheet!lt_debt@FY2030}+{Balance Sheet!lease_liab@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "H27",
+     "value": "={Balance Sheet!cash@FY2030}+{Balance Sheet!st_inv@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "I27",
+     "value": "=F27+G27-H27",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J27",
+     "value": "={Income Statement!adj_ebitda@FY2030}",
+     "fmt": "amount"
+    },
+    {
+     "cell": "K27",
+     "value": "=I27/J27",
+     "fmt": "mult",
+     "bold": true,
+     "fill": "E8E8E8"
+    }
+   ]
+  }
+ ],
+ "comments_policy": "From this workbook"
+}

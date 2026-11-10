@@ -1,0 +1,1844 @@
+{
+ "side_builds": [
+  {
+   "name": "Ex-China Consumables Mix",
+   "zoom": 80,
+   "widths": {
+    "A": 2.0,
+    "B": 52.0,
+    "C": 2.0,
+    "D": 9.5,
+    "E": 9.5,
+    "F": 9.5,
+    "G": 9.5,
+    "H": 9.5,
+    "I": 9.5,
+    "J": 9.5,
+    "K": 9.5,
+    "L": 9.5,
+    "M": 9.5,
+    "N": 9.5,
+    "O": 9.5,
+    "P": 9.5,
+    "Q": 9.5,
+    "R": 9.5,
+    "S": 9.5,
+    "T": 9.5,
+    "U": 9.5
+   },
+   "cells": [
+    {
+     "cell": "B2",
+     "value": "Ex-China Sequencing Consumables: Clinical / Research & Applied Split",
+     "bold": true,
+     "top": true,
+     "bottom": true
+    },
+    {
+     "cell": "B4",
+     "value": "$M",
+     "bold": true
+    },
+    {
+     "cell": "D4",
+     "value": "1Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "E4",
+     "value": "2Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "F4",
+     "value": "3Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "G4",
+     "value": "4Q23",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "H4",
+     "value": "FY 2023",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "I4",
+     "value": "1Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "J4",
+     "value": "2Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "K4",
+     "value": "3Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "L4",
+     "value": "4Q24",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "M4",
+     "value": "FY 2024",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "N4",
+     "value": "1Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "O4",
+     "value": "2Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "P4",
+     "value": "3Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "Q4",
+     "value": "4Q25",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "R4",
+     "value": "FY 2025",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "S4",
+     "value": "1Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "T4",
+     "value": "2Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "U4",
+     "value": "3Q26",
+     "bold": true,
+     "align": "right",
+     "bottom": true
+    },
+    {
+     "cell": "B5",
+     "value": "Total Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "N5",
+     "value": "={Revenue Build!seq_cons@1Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "O5",
+     "value": "={Revenue Build!seq_cons@2Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "P5",
+     "value": "={Revenue Build!seq_cons@3Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "Q5",
+     "value": "={Revenue Build!seq_cons@4Q25}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "S5",
+     "value": "={Revenue Build!seq_cons@1Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "T5",
+     "value": "={Revenue Build!seq_cons@2Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "U5",
+     "value": "={Revenue Build!seq_cons@3Q26}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "H5",
+     "value": "={Revenue Build!seq_cons@FY2023}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "M5",
+     "value": "={Revenue Build!seq_cons@FY2024}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "R5",
+     "value": "={Revenue Build!seq_cons@FY2025}",
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "I5",
+     "value": 691,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "J5",
+     "value": 729,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "K5",
+     "value": 741,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "L5",
+     "value": 698,
+     "fmt": "amount",
+     "bold": true
+    },
+    {
+     "cell": "B6",
+     "value": "Ex-China sequencing consumables y/y (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I6",
+     "value": 0.01,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K6",
+     "value": 0.09,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N6",
+     "value": 0.0,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O6",
+     "value": 0.02,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P6",
+     "value": 0.03,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q6",
+     "value": 0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S6",
+     "value": 0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T6",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U6",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B7",
+     "value": "Clinical y/y, ex-China (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I7",
+     "value": 0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J7",
+     "value": 0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K7",
+     "value": 0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L7",
+     "value": 0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N7",
+     "value": 0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O7",
+     "value": 0.1,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P7",
+     "value": 0.12,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q7",
+     "value": 0.2,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S7",
+     "value": 0.2,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T7",
+     "value": 0.15,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U7",
+     "value": 0.14,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B8",
+     "value": "Research & Applied y/y, ex-China (reported)",
+     "italic": true
+    },
+    {
+     "cell": "I8",
+     "value": -0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J8",
+     "value": -0.03,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K8",
+     "value": 0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L8",
+     "value": -0.05,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N8",
+     "value": -0.11,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O8",
+     "value": -0.09,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P8",
+     "value": -0.08,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q8",
+     "value": 0.0,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S8",
+     "value": -0.12,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T8",
+     "value": -0.07,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U8",
+     "value": -0.06,
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B10",
+     "value": "Ex-China Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "N10",
+     "value": 640,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O10",
+     "value": 690,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P10",
+     "value": 707,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q10",
+     "value": 713,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S10",
+     "value": 687,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T10",
+     "value": 734,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U10",
+     "value": 748,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "I10",
+     "value": "=N10/(1+N6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J10",
+     "value": "=O10/(1+O6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K10",
+     "value": 684,
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L10",
+     "value": "=Q10/(1+Q6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D10",
+     "value": "=I10/(1+I6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E10",
+     "value": "=J10/(1+J6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F10",
+     "value": "=K10/(1+K6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G10",
+     "value": "=L10/(1+L6)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B11",
+     "value": "Research & Applied Consumables (ex-China)",
+     "bold": true
+    },
+    {
+     "cell": "B12",
+     "value": "Clinical Consumables (ex-China)",
+     "bold": true
+    },
+    {
+     "cell": "I11",
+     "value": "=(N10-I10*(1+N7))/(N8-N7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "I12",
+     "value": "=I10-I11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J11",
+     "value": "=(O10-J10*(1+O7))/(O8-O7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J12",
+     "value": "=J10-J11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K11",
+     "value": "=(P10-K10*(1+P7))/(P8-P7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K12",
+     "value": "=K10-K11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L11",
+     "value": "=(Q10-L10*(1+Q7))/(Q8-Q7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L12",
+     "value": "=L10-L11",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N11",
+     "value": "=I11*(1+N8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N12",
+     "value": "=I12*(1+N7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O11",
+     "value": "=J11*(1+O8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O12",
+     "value": "=J12*(1+O7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P11",
+     "value": "=K11*(1+P8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P12",
+     "value": "=K12*(1+P7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q11",
+     "value": "=L11*(1+Q8)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q12",
+     "value": "=L12*(1+Q7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S12",
+     "value": "=N12*(1+S7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S11",
+     "value": "=S10-S12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T12",
+     "value": "=O12*(1+T7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T11",
+     "value": "=T10-T12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U12",
+     "value": "=P12*(1+U7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U11",
+     "value": "=U10-U12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D12",
+     "value": "=I12/(1+I7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "D11",
+     "value": "=D10-D12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E12",
+     "value": "=J12/(1+J7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "E11",
+     "value": "=E10-E12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F12",
+     "value": "=K12/(1+K7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "F11",
+     "value": "=F10-F12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G12",
+     "value": "=L12/(1+L7)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "G11",
+     "value": "=G10-G12",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H10",
+     "value": "=SUM(D10:G10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H11",
+     "value": "=SUM(D11:G11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H12",
+     "value": "=SUM(D12:G12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M10",
+     "value": "=SUM(I10:L10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M11",
+     "value": "=SUM(I11:L11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M12",
+     "value": "=SUM(I12:L12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R10",
+     "value": "=SUM(N10:Q10)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R11",
+     "value": "=SUM(N11:Q11)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R12",
+     "value": "=SUM(N12:Q12)",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B13",
+     "value": "Clinical share of ex-China sequencing consumables",
+     "italic": true
+    },
+    {
+     "cell": "D13",
+     "value": "=D12/D10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "E13",
+     "value": "=E12/E10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "F13",
+     "value": "=F12/F10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "G13",
+     "value": "=G12/G10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "H13",
+     "value": "=H12/H10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "I13",
+     "value": "=I12/I10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J13",
+     "value": "=J12/J10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K13",
+     "value": "=K12/K10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L13",
+     "value": "=L12/L10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M13",
+     "value": "=M12/M10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N13",
+     "value": "=N12/N10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O13",
+     "value": "=O12/O10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P13",
+     "value": "=P12/P10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q13",
+     "value": "=Q12/Q10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R13",
+     "value": "=R12/R10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S13",
+     "value": "=S12/S10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T13",
+     "value": "=T12/T10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U13",
+     "value": "=U12/U10",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B14",
+     "value": "Research & Applied y/y, implied",
+     "italic": true
+    },
+    {
+     "cell": "B15",
+     "value": "Clinical y/y, implied",
+     "italic": true
+    },
+    {
+     "cell": "I14",
+     "value": "=I11/D11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "I15",
+     "value": "=I12/D12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J14",
+     "value": "=J11/E11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "J15",
+     "value": "=J12/E12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K14",
+     "value": "=K11/F11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "K15",
+     "value": "=K12/F12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L14",
+     "value": "=L11/G11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "L15",
+     "value": "=L12/G12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N14",
+     "value": "=N11/I11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "N15",
+     "value": "=N12/I12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O14",
+     "value": "=O11/J11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O15",
+     "value": "=O12/J12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P14",
+     "value": "=P11/K11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P15",
+     "value": "=P12/K12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q14",
+     "value": "=Q11/L11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q15",
+     "value": "=Q12/L12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S14",
+     "value": "=S11/N11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S15",
+     "value": "=S12/N12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T14",
+     "value": "=T11/O11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T15",
+     "value": "=T12/O12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U14",
+     "value": "=U11/P11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U15",
+     "value": "=U12/P12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M14",
+     "value": "=M11/H11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M15",
+     "value": "=M12/H12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R14",
+     "value": "=R11/M11-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R15",
+     "value": "=R12/M12-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "B17",
+     "value": "Greater China Sequencing Consumables",
+     "bold": true
+    },
+    {
+     "cell": "B18",
+     "value": "Greater China y/y",
+     "italic": true
+    },
+    {
+     "cell": "I17",
+     "value": "=I5-I10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "J17",
+     "value": "=J5-J10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "K17",
+     "value": "=K5-K10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "L17",
+     "value": "=L5-L10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N17",
+     "value": "=N5-N10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "O17",
+     "value": "=O5-O10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "P17",
+     "value": "=P5-P10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "Q17",
+     "value": "=Q5-Q10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "S17",
+     "value": "=S5-S10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "T17",
+     "value": "=T5-T10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "U17",
+     "value": "=U5-U10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "H17",
+     "value": "=H5-H10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "M17",
+     "value": "=M5-M10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "R17",
+     "value": "=R5-R10",
+     "fmt": "amount",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "N18",
+     "value": "=N17/I17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "O18",
+     "value": "=O17/J17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "P18",
+     "value": "=P17/K17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "Q18",
+     "value": "=Q17/L17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "S18",
+     "value": "=S17/N17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "T18",
+     "value": "=T17/O17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "U18",
+     "value": "=U17/P17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "M18",
+     "value": "=M17/H17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    },
+    {
+     "cell": "R18",
+     "value": "=R17/M17-1",
+     "fmt": "pct_plain",
+     "italic": true
+    }
+   ]
+  },
+  {
+   "name": "Implied Discounting Build",
+   "zoom": 90,
+   "widths": {
+    "A": 2.0,
+    "B": 44.0,
+    "C": 30.0,
+    "D": 20.0,
+    "E": 28.0
+   },
+   "cells": [
+    {
+     "cell": "B2",
+     "value": "Implied Sequencing Consumables Revenue per GB",
+     "bold": true,
+     "top": true,
+     "bottom": true
+    },
+    {
+     "cell": "B4",
+     "value": "Assumed sequencing volume growth y/y (GB)"
+    },
+    {
+     "cell": "C4",
+     "value": 0.3,
+     "fmt": "pct_plain",
+     "fill": "FFFFCC"
+    },
+    {
+     "cell": "B6",
+     "value": "Period",
+     "bold": true,
+     "bottom": true
+    },
+    {
+     "cell": "C6",
+     "value": "Seq. Consumables Revenue y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "D6",
+     "value": "Volume Growth y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "E6",
+     "value": "Implied Revenue per GB y/y",
+     "bold": true,
+     "bottom": true,
+     "align": "right"
+    },
+    {
+     "cell": "B7",
+     "value": "FY 2025",
+     "bold": true
+    },
+    {
+     "cell": "C7",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2025}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D7",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E7",
+     "value": "=(1+C7)/(1+D7)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B8",
+     "value": "1Q26",
+     "bold": false
+    },
+    {
+     "cell": "C8",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D8",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E8",
+     "value": "=(1+C8)/(1+D8)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B9",
+     "value": "2Q26",
+     "bold": false
+    },
+    {
+     "cell": "C9",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D9",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E9",
+     "value": "=(1+C9)/(1+D9)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B10",
+     "value": "3Q26",
+     "bold": false
+    },
+    {
+     "cell": "C10",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D10",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E10",
+     "value": "=(1+C10)/(1+D10)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B11",
+     "value": "4Q26E",
+     "bold": false
+    },
+    {
+     "cell": "C11",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q26}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D11",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E11",
+     "value": "=(1+C11)/(1+D11)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B12",
+     "value": "FY 2026E",
+     "bold": true
+    },
+    {
+     "cell": "C12",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2026}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D12",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E12",
+     "value": "=(1+C12)/(1+D12)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B13",
+     "value": "1Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C13",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D13",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E13",
+     "value": "=(1+C13)/(1+D13)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B14",
+     "value": "2Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C14",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D14",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E14",
+     "value": "=(1+C14)/(1+D14)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B15",
+     "value": "3Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C15",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D15",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E15",
+     "value": "=(1+C15)/(1+D15)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B16",
+     "value": "4Q27E",
+     "bold": false
+    },
+    {
+     "cell": "C16",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q27}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D16",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E16",
+     "value": "=(1+C16)/(1+D16)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B17",
+     "value": "FY 2027E",
+     "bold": true
+    },
+    {
+     "cell": "C17",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2027}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D17",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E17",
+     "value": "=(1+C17)/(1+D17)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B18",
+     "value": "1Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C18",
+     "value": "={Revenue Build!seq_cons.pct_yoy@1Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D18",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E18",
+     "value": "=(1+C18)/(1+D18)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B19",
+     "value": "2Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C19",
+     "value": "={Revenue Build!seq_cons.pct_yoy@2Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D19",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E19",
+     "value": "=(1+C19)/(1+D19)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B20",
+     "value": "3Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C20",
+     "value": "={Revenue Build!seq_cons.pct_yoy@3Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D20",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E20",
+     "value": "=(1+C20)/(1+D20)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B21",
+     "value": "4Q28E",
+     "bold": false
+    },
+    {
+     "cell": "C21",
+     "value": "={Revenue Build!seq_cons.pct_yoy@4Q28}",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "D21",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": false
+    },
+    {
+     "cell": "E21",
+     "value": "=(1+C21)/(1+D21)-1",
+     "fmt": "pct_plain",
+     "bold": false,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B22",
+     "value": "FY 2028E",
+     "bold": true
+    },
+    {
+     "cell": "C22",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2028}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D22",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E22",
+     "value": "=(1+C22)/(1+D22)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B23",
+     "value": "FY 2029E",
+     "bold": true
+    },
+    {
+     "cell": "C23",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2029}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D23",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E23",
+     "value": "=(1+C23)/(1+D23)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    },
+    {
+     "cell": "B24",
+     "value": "FY 2030E",
+     "bold": true
+    },
+    {
+     "cell": "C24",
+     "value": "={Revenue Build!seq_cons.pct_yoy@FY2030}",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "D24",
+     "value": "=$C$4",
+     "fmt": "pct_plain",
+     "bold": true
+    },
+    {
+     "cell": "E24",
+     "value": "=(1+C24)/(1+D24)-1",
+     "fmt": "pct_plain",
+     "bold": true,
+     "fill": "E8E8E8"
+    }
+   ]
+  }
+ ],
+ "line_values": {
+  "Revenue Build": {
+   "clins_cons": {
+    "1Q25": "='Ex-China Consumables Mix'!N12",
+    "2Q25": "='Ex-China Consumables Mix'!O12",
+    "3Q25": "='Ex-China Consumables Mix'!P12",
+    "4Q25": "='Ex-China Consumables Mix'!Q12",
+    "1Q26": "='Ex-China Consumables Mix'!S12",
+    "2Q26": "='Ex-China Consumables Mix'!T12",
+    "3Q26": "='Ex-China Consumables Mix'!U12",
+    "FY2023": "='Ex-China Consumables Mix'!H12",
+    "FY2024": "='Ex-China Consumables Mix'!M12"
+   },
+   "research_cons": {
+    "1Q25": "='Ex-China Consumables Mix'!N11",
+    "2Q25": "='Ex-China Consumables Mix'!O11",
+    "3Q25": "='Ex-China Consumables Mix'!P11",
+    "4Q25": "='Ex-China Consumables Mix'!Q11",
+    "1Q26": "='Ex-China Consumables Mix'!S11",
+    "2Q26": "='Ex-China Consumables Mix'!T11",
+    "3Q26": "='Ex-China Consumables Mix'!U11",
+    "FY2023": "='Ex-China Consumables Mix'!H11",
+    "FY2024": "='Ex-China Consumables Mix'!M11"
+   },
+   "china_seq_cons": {
+    "1Q25": "='Ex-China Consumables Mix'!N17",
+    "2Q25": "='Ex-China Consumables Mix'!O17",
+    "3Q25": "='Ex-China Consumables Mix'!P17",
+    "4Q25": "='Ex-China Consumables Mix'!Q17",
+    "1Q26": "='Ex-China Consumables Mix'!S17",
+    "2Q26": "='Ex-China Consumables Mix'!T17",
+    "3Q26": "='Ex-China Consumables Mix'!U17",
+    "FY2023": "='Ex-China Consumables Mix'!H17",
+    "FY2024": "='Ex-China Consumables Mix'!M17"
+   }
+  }
+ },
+ "driver_links": {},
+ "line_subs": {
+  "Margin Build": {
+   "m_tariff_refund": []
+  },
+  "Revenue Build": {
+   "tariff_refund": [
+    "usd_yoy"
+   ]
+  }
+ }
+}

@@ -1,5 +1,21 @@
 # ILMN reverse DCF (2026-10-13; updated 2026-10-14)
 
+**Update 2026-10-31 (current; supersedes the price-dependent results below):**
+- **New inputs.** Share price $235.99 (per user, after the Q3'26 print), valuation date 31 Oct 2026. All other inputs are unchanged: consensus margins, 9.5% WACC, 30x 2031E P/E exit, $4,620M 2026E revenue, $823M net debt, 153M FDSO.
+- **Re-solved result.** Implied 2027E–2031E revenue CAGR is **10.5%**, down from 13.9% at $271.76.
+  - That gives 2031E revenue of about $7.6B against consensus of $6.7B, and 2031E adj. EPS of $10.86 against consensus of $11.01.
+  - Implied revenue growth runs about +420 bps above consensus in 2027E.
+  - The exit is 20.5x 2031E EV/EBITDA, equivalent to 30x P/E.
+  - Implied price/Gb change is about −12% a year at 25% Gb growth and −15% at 30%.
+- **Sensitivity tables (rows 66–75), re-solved at the new price.** Implied CAGR at a 9.5% WACC:
+
+  | 2031E P/E | 20x | 25x | 30x | 35x | 40x |
+  |---|---|---|---|---|---|
+  | Implied CAGR | 18.9% | 14.2% | 10.5% | 7.5% | 4.9% |
+
+  At a 30% 2028–31 operating margin and 30x P/E, it is 9.1%.
+- **Not updated:** net debt and FDSO are still at Q2'26. The slide `2026-10-14_ILMN_reverse_DCF_slide.pptx` still shows the old $271.76 results.
+
 **File:** `2026-10-13_ILMN_reverse_DCF.xlsx`. One sheet, "Reverse DCF", built with live formulas and recalculated in Excel (no formula errors).
 
 **What it does:** finds the 2027E–2031E revenue growth rate at which a DCF returns today's share price ($271.76, the 14 Oct 2026 close). It assumes management's margin targets and an exit at the **2031E EV/EBITDA equivalent to 30.0x 2031E P/E** (20.4x at the solved case). The equivalent multiple is computed live in L5 as (P/E x 2031 adj. net income + net debt) / 2031 adj. EBITDA, so the result is identical to a 30x P/E exit. The layout follows the user's template:

@@ -1,56 +1,65 @@
-short-read sequencing :: Reading DNA in fragments of a few hundred letters at very high volume and low cost, Illumina's core method.
-long-read sequencing :: Reading continuous DNA stretches of thousands of letters or more, useful for rearrangements, repeats and methylation.
-gigabase (Gb) :: One billion DNA letters, the unit used to price sequencing output.
-terabase :: One trillion DNA letters.
-30X coverage :: Each DNA position is read about 30 times on average, the standard depth for an inherited-DNA genome.
-flow cell :: The consumable chip on which a sequencing run takes place, labelled by billions of reads (e.g., 25B, 35B).
-consumables :: Reagent kits and chips customers must buy for every sequencing run, the main recurring revenue.
-pull-through :: Yearly consumables revenue generated per installed instrument.
-reagent rental :: A deal placing an instrument free or cheaply in return for a multi-year commitment to buy consumables.
-placement :: An instrument installed at a customer site.
-installed base :: The total number of a vendor's instruments in use at customers.
-Q score :: A logarithmic accuracy measure; Q30 is one error per 1,000 bases and Q60 one per million.
-duplex / simplex :: Duplex reads both strands of a DNA molecule for accuracy; simplex reads one strand for higher output.
-SBS (sequencing by synthesis) :: Illumina's chemistry, which builds a DNA copy one base at a time and images each step.
-SBX (sequencing by expansion) :: Roche's chemistry, which converts DNA into a stretched "Xpandomer" read through a nanopore sensor.
-nanopore sequencing :: Reading native DNA or RNA by pulling it through a tiny pore and measuring changes in electrical current.
-HiFi :: PacBio's long reads that are also highly accurate.
-synthetic long reads :: Long-range information reconstructed by stitching short reads together, as in Illumina's TruPath.
-methylation :: Chemical tags on DNA that affect gene activity, sometimes called the "fifth base."
-structural variant :: A large DNA rearrangement such as an inversion or translocation, often missed by short reads.
-phasing :: Assigning genetic variants to the copy inherited from each parent.
-clinical sequencing :: Using DNA sequencing to diagnose or treat patients, as opposed to research.
-LDT (laboratory-developed test) :: A test designed and validated by a single lab rather than sold as an approved kit.
-CLIA :: US federal certification for clinical laboratories.
-RUO (research use only) :: A product label meaning it is not cleared for diagnosing patients.
-IVD (in vitro diagnostic) :: A regulated test run on samples such as blood or tissue outside the body.
-liquid biopsy :: A blood test detecting cancer from DNA shed by tumors.
+short-read sequencing :: Reading DNA as many fragments of a few hundred letters each and reassembling them, Illumina's core approach.
+long-read sequencing :: Reading continuous DNA stretches of thousands to millions of letters, as PacBio and Oxford Nanopore do.
+high-throughput :: Describes large sequencers that produce very large amounts of data per run.
+mid-throughput :: Describes mid-sized benchtop sequencers suited to labs that cannot fill the largest machines.
+gigabase (Gb) :: One billion DNA letters read, the standard unit of sequencing output.
+terabase :: One trillion DNA letters read.
+flow cell :: The consumable chip or slide on which a sequencing run takes place.
+consumables :: Reagent kits and flow cells customers must buy for every sequencing run.
+pull-through :: Annual consumables revenue generated per installed instrument.
+installed base :: The number of a company's instruments in use at customers.
+placement :: An instrument installed at a customer, whether sold, leased or rented.
+reagent rental :: A deal where a vendor places an instrument free in exchange for committed reagent purchases.
+trade-in credit :: A discount on a new instrument in return for handing back an older one.
+30X coverage :: Reading each DNA position about 30 times on average, the standard for a human genome.
+fully loaded cost :: The cost of a result including sample prep, labor, quality control and data analysis, not just sequencing reagents.
+library prep :: The lab steps that convert a DNA or RNA sample into a form a sequencer can read.
+Q score :: A logarithmic accuracy measure; Q30 means one error per 1,000 bases and Q70 about one per 10 million.
+simplex :: Reading one strand of a DNA molecule, cheaper and adequate for counting.
+duplex :: Reading both strands of a DNA molecule for higher accuracy.
+counting applications :: Experiments that tally how often sequences appear, such as RNA-seq or single-cell work.
+SBX (sequencing by expansion) :: Roche's chemistry that copies DNA into enlarged Xpandomer molecules read through a nanopore.
+Xpandomer :: The stretched surrogate molecule Roche creates from DNA so a nanopore can read it clearly.
+sequencing by synthesis (SBS) :: Illumina's method of building a DNA copy one base at a time and imaging each step.
+RUO (research use only) :: Status of a product not yet cleared for diagnosing patients.
+nanopore sequencing :: Reading DNA or RNA by passing it through a tiny pore and measuring electrical changes.
+synthetic long reads :: Long-range genome structure inferred from short reads, as in Illumina's TruPath.
+methylation :: Chemical tags on DNA that help regulate gene activity.
+5-base :: Illumina's product that reads genetic variants and methylation in one run.
+DRAGEN :: Illumina's software for aligning reads and calling genetic variants.
+price elasticity :: How much demand rises when price falls.
+core lab :: A shared university facility that sells sequencing services to campus researchers.
+CRO (contract research organization) :: An outside firm that sells lab work or sequencing as a service.
+CLIA :: The US certification a lab needs to return test results to patients.
+LDT (laboratory-developed test) :: A test a single lab designs, validates and runs itself rather than buying an approved kit.
+IVD (in vitro diagnostic) :: A regulated test or device for analyzing patient samples outside the body.
+validation :: Proving a test performs reliably on a platform, required before clinical use.
+companion diagnostic :: A test required to determine whether a patient should receive a specific drug.
+CGP (comprehensive genomic profiling) :: A large-panel tumor DNA test used to guide cancer therapy.
+MRD (minimal residual disease) :: Blood testing for traces of cancer left after treatment.
 ctDNA :: Circulating tumor DNA, fragments of tumor DNA found in blood.
-MRD (minimal residual disease) :: Testing for traces of cancer left after treatment.
-CGP (comprehensive genomic profiling) :: A large-panel tumor DNA test covering hundreds of cancer genes to guide therapy.
-companion diagnostic :: A test required to decide whether a patient receives a specific drug.
-NIPT :: Non-invasive prenatal testing of fetal DNA in the mother's blood.
-technology transfer :: A test company training a hospital lab to run its test locally on the partner's equipment.
-switching cost :: The money, time and validation work needed to move a test to a new platform.
-import substitution :: Chinese buyers replacing foreign products with domestic ones.
-unreliable entity list :: A Chinese government list restricting trade with named foreign companies, including Illumina.
+liquid biopsy :: A blood test that detects cancer from circulating tumor DNA.
+ppm (parts per million) :: A detection threshold; below 5 ppm means finding one tumor fragment among more than 200,000 normal ones.
+NIPT :: Non-invasive prenatal testing, a maternal blood screen for fetal chromosome conditions.
+FFPE :: Formalin-fixed, paraffin-embedded tissue, the standard way hospitals preserve biopsies.
+fresh-frozen tissue :: Tissue frozen immediately after collection, less common in clinical archives than FFPE.
+germline :: Inherited DNA present in every cell.
+somatic :: DNA changes acquired in a tumor rather than inherited.
 proteomics :: Measuring proteins rather than DNA or RNA.
-multiomics :: Combining several molecular data types, such as DNA, RNA and proteins, in one analysis.
+aptamer :: A short molecule that binds a protein, used by SomaLogic to measure proteins via sequencing.
+multiomics :: Combining several molecular measurements, such as DNA, RNA and protein, from the same sample.
 single-cell analysis :: Measuring gene activity cell by cell instead of averaging across tissue.
 spatial biology :: Measuring gene activity while recording where in a tissue each molecule sits.
-imaging-based spatial :: Spatial methods that read molecules directly in tissue under an instrument, without a sequencer.
-counting applications :: Uses such as RNA-seq that are priced per million reads rather than per genome.
-DRAGEN :: Illumina's secondary-analysis software that aligns reads and calls variants.
-secondary analysis :: The step that aligns reads to a reference genome and identifies variants.
-basis point :: One hundredth of a percentage point.
+imaging-based spatial :: Spatial methods that read molecules in tissue optically and need no sequencer.
+whole transcriptome :: Measuring essentially all expressed genes rather than a preselected panel.
+Perturb-seq :: Gene-editing screens read out by single-cell sequencing.
+import substitution :: Chinese buyers replacing foreign products with domestic ones.
+unreliable entity list :: A Chinese government list that restricts business with named foreign companies.
+depreciation :: Spreading an instrument's cost over its useful life, which delays replacement.
+basis point :: One-hundredth of a percentage point.
 organic growth :: Revenue growth excluding acquisitions and currency effects.
-constant currency (cc) :: Growth with exchange-rate swings removed.
-operating margin :: Operating profit as a share of revenue.
-EBITDA :: Earnings before interest, taxes, depreciation and amortization, a proxy for operating cash earnings.
-EPS :: Earnings per share.
-capex :: Capital spending on long-lived equipment such as sequencers.
-consensus :: The average of analysts' forecasts.
+consensus :: The average forecast of analysts covering a company.
 price target :: The share price an analyst expects in about 12 months.
-Overweight / Underweight :: Ratings meaning a stock is expected to beat or trail the analyst's coverage.
-EV/sales :: Enterprise value (equity value plus net debt) divided by revenue, used to value unprofitable firms.
-TAM (total addressable market) :: The total revenue opportunity available for a product.
+Overweight / Underweight :: Ratings meaning a stock is expected to outperform or underperform its peers.
+P/E multiple :: Share price divided by earnings per share.
+TAM (total addressable market) :: The total revenue opportunity in a market.

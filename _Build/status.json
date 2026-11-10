@@ -3,9 +3,9 @@
  "done": 32,
  "total": 32,
  "failed": 0,
- "note": "ingested 1 file(s)",
- "heartbeat": 1793395522.3158486,
- "heartbeat_human": "2026-10-30 16:25:22",
- "pid": 51896,
+ "note": "ingested 0 file(s)",
+ "heartbeat": 1794274614.4948194,
+ "heartbeat_human": "2026-11-09 19:36:54",
+ "pid": 7324,
  "paused_until": null
 }

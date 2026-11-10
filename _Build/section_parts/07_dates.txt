@@ -1,39 +1,99 @@
-2021-01-01 :: Daisy Lab expert leaves University of Auckland genomics core (month only).
-2022-01-01 :: NovaSeq X released, per experts (year only).
-2023-01-01 :: Illumina layoff wave, per former FAS (year only).
-2024-01-01 :: Illumina layoff wave and stock near $40, per former FAS (year only).
-2024-10-01 :: Former Illumina FAS leaves Illumina (month only).
-2025-01-01 :: Fluent BioSciences acquisition closes, early 2025 (approx.).
-2025-02-01 :: Former Roche SBX base-caller engineer leaves Roche (month only).
-2025-07-01 :: Former Illumina associate director leaves Illumina (month only).
-2025-08-01 :: Former Illumina senior architect leaves after AI query tool reaches pre-alpha (month only).
-2025-11-01 :: Natera acquires Foresight Diagnostics, per expert (approx.).
-2026-01-15 :: Tegus call with former Illumina senior manager (estimated date).
-2026-06-01 :: Illumina launches StrataMap spatial product (month only).
-2026-06-01 :: Illumina announces 35B NovaSeq X flow cell, per expert (month only).
-2026-06-30 :: Roche SBX launches as research use only, end of June (approx.).
-2026-07-20 :: Tempus acquires Personalis, per Natera expert (approx.).
-2026-07-22 :: Natera expert and University of Arizona core calls.
-2026-07-23 :: Daisy Lab, former Illumina AD and ML scientist calls.
-2026-07-24 :: Former Illumina AD, former FAS and synthetic biology head calls.
-2026-07-25 :: LifeStrands Genomics lab director call.
-2026-07-27 :: Former Roche engineer and former Illumina architect calls.
-2008-01-01 :: Oxford Nanopore expert joins Illumina (early 2008, approximate), staying about six years
-2020-01-01 :: Illumina acquires an ARUP spin-out clinical sequencing start-up (year only)
-2021-06-01 :: PacBio segment lead leaves Illumina (Senior Health Analytics Manager), June 2021
-2024-09-01 :: Former Illumina Associate Director leaves Illumina; clinical was 52% of revenue at that point (month only)
-2024-12-01 :: Expert recollection: Illumina launches long-read offering around end-2024 / J.P. Morgan conference (approximate)
-2025-01-01 :: Roche first speaks publicly about its SBX sequencer at AGBT (January 2025, approximate)
-2025-01-01 :: NIH caps indirect costs, sharply cutting academic instrument funding (2025, per PacBio expert; year only)
-2025-11-01 :: Oxford Nanopore expert pitches Roche at AMP on running an MRD test on AXELIOS (November 2025, approximate)
-2026-07-01 :: Roche commercially launches AXELIOS (RUO version) in July 2026 (month only)
-2026-07-29 :: Expert calls: Roche UK precision medicine lead; Abbott senior scientist
-2026-07-30 :: Expert calls: South Carolina core director; former Illumina staff scientist
-2026-07-31 :: Channel checks: Georgia core director; VP at the largest academic genome center
-2026-08-03 :: Expert call: PacBio human-genomics segment lead (ex-Illumina)
-2026-08-05 :: Expert call: former Illumina medical-affairs scientist now at Roche
-2026-08-06 :: Expert call: former Illumina Associate Director now at Kailos Genetics
-2026-10-01 :: Expert call (date estimated): Oxford Nanopore senior director on Roche AXELIOS threat
-2026-10-10 :: Expert call (date estimated): Brigham and Women's single-cell specialist on AXELIOS vs Illumina
-2027-01-01 :: Illumina 35B flow cell expected (January 2027, per genome center VP)
-2027-01-01 :: Next J.P. Morgan conference, cited as when clinical labs should be evaluating long-read alternatives (approximate)
+2017-01-01 :: Illumina releases VeriSeq NIPT version 1 (year only)
+2019-01-01 :: Illumina releases genome-wide VeriSeq NIPT v2, its last major NIPT update per Veritas expert (year only)
+2021-01-01 :: Illumina releases 24-sample NIPT batch format (year only)
+2025-09-01 :: Last new NIH award received by Massachusetts research institute before Mar 2026 (month approximate)
+2025-10-01 :: NIH FY26 begins amid government shutdown, delaying new grant awards
+2026-01-06 :: Expert call: VCU Genomics Core co-director Gregory Buck (NovaSeq X Plus just installed; 10-20% growth outlook)
+2026-01-15 :: Expert call (approx. date): former Illumina Senior Manager, Global Market Development, on clinical bottlenecks and MRD
+2026-01-28 :: Expert call: Veritas Intercontinental VP on capped NIPT market and 40-50% B2B price decline
+2026-02-02 :: Expert call: UIUC DNA Services director Alvaro Hernandez reports ~15% billing drop in late 2025
+2026-02-15 :: NY cancer center core reports Illumina implemented new, higher pricing including tariff surcharges (mid-February)
+2026-02-18 :: Expert call: Mount Sinai core director Kristin Beaumont sees Q1 2026 rebound after Q4 2025 down 20%+
+2026-02-19 :: Element Biosciences "Beyond" event detailing new high-throughput sequencer (VITARI)
+2026-02-27 :: Expert call: UMN Genomics Center director Kenneth Beckman on Axelios pricing ($750K instrument, ~$150 genome) at AGBT 2026
+2026-03-04 :: Expert call: UCSD IGM director Kristen Jepsen reports ~10% reagent decline and Illumina X Plus discounting
+2026-03-05 :: Expert call: Natera oncology associate director on NovaSeq X "MRD at scale" and Q70
+2026-03-06 :: Expert call: university sequencing center director (ex-Complete Genomics) on Roche 19-20 hour prep and TruPath
+2026-03-19 :: OMB releases full FY26 funds to NIH; NIH has made 496 new R01 awards since Oct 1 vs 1,099 a year earlier
+2026-03-19 :: Expert call: TGen's Nick Banovich on 13% R01 success rate and deferring new sequencer purchase
+2026-03-26 :: Expert call: South Carolina core director expects 15-20% 2026 volume growth; plans Element AVITI24 purchase
+2026-03-26 :: Expert call: Complete Genomics CEO predicts Illumina will lose share; notes Complete Genomics sold by BGI to Swiss buyer
+2026-03-26 :: Expert call: Maryland university genomics education lead on Illumina volume decline from completed projects
+2026-03-27 :: Expert call: Massachusetts research institute head of platforms reports flat Q1 2026 on 15 NovaSeq X Plus
+2026-03-31 :: Expert call: NY cancer center core director reports slightly lower Q1 2026 volume and broad Illumina price increases
+2026-04-18 :: Date on 10x Genomics AGBT handout, ahead of rumored new Xenium announcement at AACR
+2026-05-01 :: PacBio reusable SPRQ flow cell and native 5hmC detection on Revio expected (month)
+2026-08-01 :: Natera expert's estimate for Roche Axelios research-use availability (approximate)
+2008-01-01 :: Approximate start of TCAG's Illumina use with the Genome Analyzer (year only).
+2013-01-01 :: MGI acquires Complete Genomics (year only).
+2018-12-31 :: Vanderbilt core manager leaves HudsonAlpha per bio (month only).
+2023-12-31 :: Former Illumina commercial-enablement senior manager leaves Illumina (month only).
+2024-04-30 :: Former Illumina Associate Director, Portfolio Strategy, leaves Illumina (month only).
+2026-01-01 :: Cedars-Sinai launches clinical whole-genome sequencing with sliced panels (month only).
+2026-04-01 :: Ultima meets Vanderbilt sequencing core; offers near-free instrument placement for reagent commitment.
+2026-04-02 :: Expert calls: TCAG assistant director (switch at ~half cost), biopharma genomics head (volume up on 10x Flex), Vanderbilt core manager (Roche leading second-vendor candidate).
+2026-04-06 :: Expert calls: Dana-Farber core director (Roche 0-20% cheaper, 12-18 month switch) and Broad EVP (Axelios beta site; Illumina spend flat 2024-25 on doubled data).
+2026-04-07 :: Gene-therapy biotech advisor reports ~80% Illumina volume drop from pipeline shift; sees Axelios "major impact".
+2026-04-10 :: Massachusetts academic core reports Q1 output down ~5% y/y, higher Illumina list prices offset by discounts.
+2026-04-13 :: Cedars-Sinai molecular pathology director says Roche's $150 genome mispriced; Illumina spend up on genome-backbone assays.
+2026-04-14 :: Arizona genetics core reports Q1 Illumina output down 15-20%, consumables spend down ~80% on Element AVITI24 shift.
+2026-04-21 :: UCSD's Kristen Jepsen post-AACR call: 10x Atera ($495K, 50 units 2H 2026), lukewarm on Axelios, Q1 runs down ~20% q/q.
+2026-04-28 :: Yale Genome Center presents ~10% sequencing demand decline to advisory committee.
+2026-04-29 :: Yale's Shrikant Mane: Axelios not a threat; Illumina spend fell from $6-7M to $3-4M; TruPath data "exceptionally good".
+2026-05-04 :: PacBio sends first pre-order email for reusable SMRT Cells (per Delaware core director).
+2026-05-05 :: Delaware's Brewster Kingham: 2025 record year on spend pull-forward; skipping NovaSeq X; places SMRT Cell pre-order.
+2026-05-08 :: Complete Genomics product marketing director calls Roche Illumina's number-one threat; 20-30% share possible in a couple of years.
+2026-05-12 :: Former Illumina portfolio-strategy AD: Roche "maximum 5%" share in two years; Ultima making inroads at high end.
+2026-06-08 :: Former Illumina commercial-enablement manager estimates Illumina instrument share fell from 92% to ~70%.
+2026-06-16 :: Duke's Simon Gregory: 10x spend halved FY25-FY26 on single-cell decline; benchmarking Illumina StrataMap; plans Atera purchase.
+2026-06-25 :: Physician-office lab leader reports in-house NGS on NextSeq 2000 at break-even with 6-10 samples/day.
+2026-06-29 :: EpiCypher genomics director: long reads to take ~50% of its methylation work in 2-3 years; Roche "scariest competitor".
+TERMS>>>
+2026-02-15 :: Illumina's annual list-price increase takes effect (per pharma core director, ~3%-5%)
+2026-04-18 :: 10x Genomics Atera released/announced around AACR (expert recollection)
+2026-05-01 :: Former Illumina commercial-excellence director leaves Illumina (approx.)
+2026-06-20 :: Illumina releases StrataMap specs and pricing (approx., "a couple of weeks" before 9 Jul)
+2026-06-30 :: Vanderbilt fiscal year end drives Q2 sequencing surge
+2026-07-06 :: Channel check: biotech epigenomics core senior director
+2026-07-07 :: Channel checks: California biotech genomics director; pharma NGS core director
+2026-07-07 :: Pharma combinatorial Perturb-seq project green-lit
+2026-07-08 :: Channel checks: Canadian genome center; pharma Head of Genomics
+2026-07-08 :: Vanderbilt core upgrades instrument to offer TruPath Genome
+2026-07-09 :: Channel checks: Ivy League core director; Vanderbilt NGS manager
+2026-07-10 :: Guidepoint call with McGill's Ioannis Ragoussis; CRO channel check
+2026-07-13 :: Expert calls: Thermo Fisher senior director; biotech bioinformatics VP
+2026-07-14 :: Channel check: Massachusetts hospital single-cell core
+2026-07-16 :: Channel check: New York academic core director
+2026-07-18 :: Channel check: MD Anderson research scientist
+2026-07-21 :: Calls: PA cancer center lab; Solvias/ex-Roche director; former Illumina director
+2026-07-31 :: PA cancer center budget cut by mid-double-digit percent (passed July 2026)
+2026-10-11 :: Thermo Fisher expert call transcript published
+2026-12-31 :: Expected availability window for StrataMap (Q4 2026) and Atera (end-2026)
+2027-01-01 :: Ivy League expert expects competitor sequencers to start taking Illumina share
+2026-06-30 :: Roche SBX/AXELIOS research-use launch (late June/July 2026, per experts)
+2026-06-30 :: Illumina StrataMap spatial launch (June 2026, per former Illumina AD)
+2026-07-20 :: Tempus acquisition of Personalis cited by Natera expert
+2026-07-22 :: Natera and University of Arizona expert calls
+2026-07-24 :: Former Illumina AD says share fell from ~80% to mid-60s
+2026-07-31 :: Largest academic genome center VP plans to buy AXELIOS
+2026-08-12 :: UIUC core reports demand 20-25% above normal
+2027-01-01 :: Expected NovaSeq X 35B flow cell availability (January 2027)
+2025-01-15 :: Roche first presents its SBX sequencer publicly at AGBT (approximate date; expert cites Jan/Feb 2025)
+2025-11-15 :: ONT product director pitches MRD-on-AXELIOS to Roche at AMP; no follow-up (approximate)
+2026-02-15 :: Roche presents AXELIOS workflow at AGBT 2026; library-prep concerns surface among core labs (approximate)
+2026-08-18 :: PacBio releases SPRQ-Nx chemistry for Vega
+2026-08-15 :: Roche announces AXELIOS one launch (per NC biotech director; approximate)
+2026-09-01 :: South Carolina-serving core buys Element AVITI24 via NIH STTR, shifting most short-read off Illumina (approximate)
+2026-09-08 :: Louisville center director call: academic Illumina demand rerouted to CROs; plans NovaSeq X Plus purchase
+2026-10-01 :: ONT senior director call (est.): Roche could take 10-20% of Illumina in three years
+2026-10-02 :: Canadian genome center check: Q3 output +10-20%, 100% Illumina short-read, skeptical of AXELIOS 20x reagent reuse
+2026-10-05 :: Sanofi head of genomics call: sequencing spend +25%, reagent budget exhausted, two Atera systems preordered
+2026-10-09 :: Academic core reports Illumina NovaSeq X trade-in "discount war"; Tennessee AMC leasing Ultima for >$1M
+2026-10-16 :: NY clinical lab rejects Ultima and ONT for clinical use; Texas ID lab "maxed out" on Illumina discounts
+2026-10-20 :: UT Austin core director call: genomics flat, centralization into hubs, skeptical of Roche uptake
+2026-10-23 :: ONT EMEA sales director forecasts Illumina European share falling from ~80% to 55-60% in 3-5 years
+2026-10-28 :: Former Illumina senior director call: Illumina well positioned in clinical; Roche placements unproven
+2027-01-01 :: Atera installations at Sanofi expected around Q1 2027
+2027-02-01 :: Oxford Nanopore discontinues Flongle flow cells
+2027-03-31 :: CRO molecular biology lab expects TruPath validation and launch in Q1 2027
+2027-06-01 :: Tennessee AMC budgets Element benchtop sequencer purchase
