@@ -1,0 +1,309 @@
+section,question,segment,metric,value,unit,base_n,source_line,notes
+Respondent profile,Full profile of respondents,All,Total respondents (ILMN customers),62,count,62,L15,
+Respondent profile,Full profile of respondents,Academic,Academic respondents,30,count,62,L15,
+Respondent profile,Full profile of respondents,Clinical,Clinical respondents,32,count,62,L15,
+Respondent profile,Full profile of respondents,All,North America respondents,40,count,62,L48,Chart; ~65% per L15 (40/62 = 64.5%)
+Respondent profile,Full profile of respondents,All,Europe respondents,22,count,62,L48,
+Respondent profile,Full profile of respondents,All,North America share of respondents,65,%,62,L15,Stated ~65%
+Respondent profile,Academic profile,Academic,North America respondents,22,count,30,L69,
+Respondent profile,Academic profile,Academic,Europe respondents,8,count,30,L69,
+Respondent profile,Clinical profile,Clinical,North America respondents,18,count,32,L86,
+Respondent profile,Clinical profile,Clinical,Europe respondents,14,count,32,L86,
+Respondent profile,Organization type,All,Respondents: Hospital-based clinical lab,14,count,62,L48,
+Respondent profile,Organization type,All,Respondents: Academic research lab (university/college),13,count,62,L48,
+Respondent profile,Organization type,All,Respondents: Reference lab (non-hospital),10,count,62,L48,
+Respondent profile,Organization type,All,Respondents: Non-profit research institute,10,count,62,L48,
+Respondent profile,Organization type,All,Respondents: Academic medical center lab,8,count,62,L48,
+Respondent profile,Organization type,All,Respondents: Core facility / shared resource lab,7,count,62,L48,
+Respondent profile,Organization type,Academic,Respondents: Academic research lab (university/college),13,count,30,L69,
+Respondent profile,Organization type,Academic,Respondents: Non-profit research institute,10,count,30,L69,
+Respondent profile,Organization type,Academic,Respondents: Core facility / shared resource lab,7,count,30,L69,
+Respondent profile,Organization type,Clinical,Respondents: Hospital-based clinical lab,14,count,32,L86,
+Respondent profile,Organization type,Clinical,Respondents: Reference lab (non-hospital),10,count,32,L86,
+Respondent profile,Organization type,Clinical,Respondents: Academic medical center lab,8,count,32,L86,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Single-cell biology,22,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Human genomics,22,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Cancer biology / oncology research,21,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Immunology,17,count,30,L67,Academic slide chart reads 17 for Immunology and 13 for Metagenomics/microbiome; combined-profile slide (L48) reads Immunology 13 and Metagenomics/microbiome 17. Labels look swapped in one slide; unresolved
+Respondent profile,Type of research (multi-select),Academic,Respondents: Metagenomics / microbiome,13,count,30,L67,See Immunology note: conflicts with combined slide (17)
+Respondent profile,Type of research (multi-select),Academic,Respondents: Infectious disease / microbiology,12,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Neuroscience,11,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Plant / animal genomics,8,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Regenerative medicine,1,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Neurodegeneration,1,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Drug discovery,1,count,30,L67,
+Respondent profile,Type of research (multi-select),Academic,Respondents: Recombinant DNA,1,count,30,L67,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Oncology somatic (tumor profiling),24,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Hematologic malignancy,22,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Infectious disease / pathogen sequencing,18,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Germline hereditary testing,17,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Pharmacogenomics,13,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: HLA / transplant,8,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Other,6,count,32,L84,
+Respondent profile,Type of clinical testing (multi-select),Clinical,Respondents: Reproductive / NIPT,5,count,32,L84,
+Respondent profile,Purchase influence,All,Respondents: Joint decision-maker (shared approval),23,count,62,L48/L52,
+Respondent profile,Purchase influence,All,Respondents: Strong influencer,18,count,62,L48/L52,
+Respondent profile,Purchase influence,All,Respondents: Primary decision-maker (final approval),15,count,62,L48/L52,
+Respondent profile,Purchase influence,All,Respondents: Some influence,6,count,62,L48/L52,
+Respondent profile,Purchase influence,Academic,Respondents: Joint decision-maker,16,count,30,L67/L69,
+Respondent profile,Purchase influence,Academic,Respondents: Primary decision-maker,8,count,30,L67/L69,
+Respondent profile,Purchase influence,Academic,Respondents: Strong influencer,6,count,30,L67/L69,Academic 'Strong influencer' 6 and Clinical 'Some influence' 6 inferred from chart plus totals
+Respondent profile,Purchase influence,Clinical,Respondents: Strong influencer,12,count,32,L84/L86,
+Respondent profile,Purchase influence,Clinical,Respondents: Joint decision-maker,7,count,32,L84/L86,
+Respondent profile,Purchase influence,Clinical,Respondents: Primary decision-maker,7,count,32,L84/L86,
+Respondent profile,Purchase influence,Clinical,Respondents: Some influence,6,count,32,L84/L86,
+Respondent profile,ILMN access,All,Respondents: ILMN owned by my lab,23,count,62,L50,
+Respondent profile,ILMN access,All,Respondents: accessed via core/shared facility,33,count,62,L50,
+Respondent profile,ILMN access,All,Respondents: leased/rented by my lab,6,count,62,L50,
+Respondent profile,ILMN access,Academic,Respondents: owned,9,count,30,L67,Inferred: chart numbers garbled; 9/18/3 reconcile to all-respondent totals 23/33/6 with clinical 14/15/3
+Respondent profile,ILMN access,Academic,Respondents: accessed via core/shared facility,18,count,30,L67,Inferred (see above)
+Respondent profile,ILMN access,Academic,Respondents: leased/rented,3,count,30,L67,Inferred (see above)
+Respondent profile,ILMN access,Clinical,Respondents: owned,14,count,32,L84,"Inferred; chart garbled, reconciles to totals"
+Respondent profile,ILMN access,Clinical,Respondents: accessed via core/shared facility,15,count,32,L84,Inferred (see above)
+Respondent profile,ILMN access,Clinical,Respondents: leased/rented,3,count,32,L84,Inferred (see above)
+Respondent profile,Primary role,All,Respondents: Scientist / Researcher,14,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Procurement / Purchasing,8,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Lab Manager / Supervisor,7,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Lab Director,7,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Lab Manager,5,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Lab Director / Core Facility Director,5,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Principal Investigator (PI),4,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Bioinformatician,4,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Technician,3,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Molecular scientist,3,count,62,L48,Sums to 62
+Respondent profile,Primary role,All,Respondents: Medical Director / Pathologist,2,count,62,L48,Sums to 62
+Respondent profile,Primary role,Academic,Respondents: Scientist / Researcher,14,count,30,L67,Sums to 30
+Respondent profile,Primary role,Academic,Respondents: Lab Manager,5,count,30,L67,Sums to 30
+Respondent profile,Primary role,Academic,Respondents: Lab Director / Core Facility Director,5,count,30,L67,Sums to 30
+Respondent profile,Primary role,Academic,Respondents: Principal Investigator (PI),4,count,30,L67,Sums to 30
+Respondent profile,Primary role,Academic,Respondents: Procurement / Purchasing,2,count,30,L67,Sums to 30
+Respondent profile,Primary role,Clinical,Respondents: Lab Manager / Supervisor,7,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Lab Director,7,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Procurement / Purchasing,6,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Bioinformatician,4,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Technician,3,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Molecular scientist,3,count,32,L84,Sums to 32
+Respondent profile,Primary role,Clinical,Respondents: Medical Director / Pathologist,2,count,32,L84,Sums to 32
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Oncology somatic (tumor profiling),24,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Human genomics,22,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Single-cell biology,22,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Hematologic malignancy,22,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Cancer biology / oncology research,21,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Infectious disease / pathogen sequencing,18,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Metagenomics / microbiome,17,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Germline hereditary testing,17,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Immunology,13,count,62,L48,Combined slide; mixes research and clinical categories
+Respondent profile,Top research and clinical testing types (multi-select),All,Respondents: Pharmacogenomics,13,count,62,L48,Combined slide; mixes research and clinical categories
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Academic,Average annual operating budget (midpoint-weighted),3.2,$M,30,L17/L103,Computed by JPM from bucket midpoints
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Academic,Share with budget $250k-$999k (small tier),27,%,30,L103,derived from stated % x base ~8 of 30; bucket-level chart counts not readable (OCR axis ticks mixed with bar labels)
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Academic,Share with budget $1.0M-$4.99M (medium tier),47,%,30,L103,~14 of 30
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Academic,Share with budget $5.0M-$9.99M (large tier),27,%,30,L103,~8 of 30; rounded shares sum to 101
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Clinical,Average patient samples per month (midpoint-weighted),2140,samples/month,32,L17/L107,Computed by JPM from bucket midpoints
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Clinical,Share processing 250-999 samples/month (small tier),50,%,32,L107,16 of 32
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Clinical,"Share processing 1,000-4,999 samples/month (medium tier)",41,%,32,L107,~13 of 32
+Lab size,Annual operating budget (academic) / patient samples per month (clinical),Clinical,"Share processing 5,000+ samples/month (large tier)",9,%,32,L107,~3 of 32
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",All,Share spending <$499k per year on instruments,53,%,62,L122,
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",All,Share spending $499k-$2.9M per year on instruments,40,%,62,L122,
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",All,Share spending >=$3.0M per year on instruments,5,%,62,L122,~3 of 62
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",All,Share answering Don't know on instrument spend,2,%,62,L122,~1 of 62
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",All,Share selecting $100k-$499k (most-selected bucket),34,%,62,L122,21 of 62 = 9 academic + 12 clinical (derived)
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Academic,Share selecting Under $100k,30,%,30,L124,9 of 30 (derived); bucket chart counts garbled
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Academic,Share selecting $100k-$499k,30,%,30,L124,9 of 30 (derived)
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Academic,Weighted-average annual instrument spend,516,$k,30,L124,JPM-computed
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Academic,Instrument spend as share of annual operating budget,16,%,30,L21/L124,$516k / $3.2M = 16.1%
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Clinical,Share selecting $100k-$499k,38,%,32,L126,12 of 32 (derived)
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Clinical,Share selecting $499k-$999k,31,%,32,L126,10 of 32 (derived)
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Clinical,Weighted-average annual instrument spend,965,$k,32,L126,JPM-computed
+Spend,"Annual spend on sequencing instruments (purchases, leases/rentals, upgrades)",Clinical,Clinical instrument spend vs academic (ratio),1.87,x,62,L124/L126,Derived: 965/516; deck headline says ~2x
+Spend,Annual spend on sequencing consumables,All,Share spending <$249k per year on consumables,42,%,62,L128,~26 of 62
+Spend,Annual spend on sequencing consumables,All,Share spending $250k-$999k per year on consumables,40,%,62,L128,~25 of 62
+Spend,Annual spend on sequencing consumables,All,Share spending >=$1.0M per year on consumables,18,%,62,L128,~11 of 62
+Spend,Annual spend on sequencing consumables,All,Share selecting $100k-$249k (most-selected bucket),27,%,62,L128,~17 of 62 (derived)
+Spend,Annual spend on sequencing consumables,Academic,Share selecting $100k-$249k,30,%,30,L130,9 of 30 (derived)
+Spend,Annual spend on sequencing consumables,Academic,Weighted-average annual consumables spend,428,$k,30,L130,JPM-computed
+Spend,Annual spend on sequencing consumables,Academic,Consumables spend as share of annual operating budget,13,%,30,L21/L130,$428k / $3.2M = 13.4%
+Spend,Annual spend on sequencing consumables,Clinical,Share selecting $100k-$249k,25,%,32,L132,8 of 32 (derived)
+Spend,Annual spend on sequencing consumables,Clinical,Share selecting $250k-$499k,25,%,32,L132,8 of 32 (derived)
+Spend,Annual spend on sequencing consumables,Clinical,Weighted-average annual consumables spend,857,$k,32,L132,JPM-computed
+Spend,Annual spend on sequencing consumables,Clinical,Clinical consumables spend vs academic (ratio),2.0,x,62,L130/L132,Derived: 857/428
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using MiSeq,20,count,30,L143,"Column mapping from OCR order; text confirms Other ~70%, NextSeq 1000/2000 ~70%, MiSeq ~66%"
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using NextSeq 1000/2000,21,count,30,L143,"Column mapping from OCR order; text confirms Other ~70%, NextSeq 1000/2000 ~70%, MiSeq ~66%"
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using NovaSeq X / X Plus,19,count,30,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using NextSeq 500/550,18,count,30,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using NovaSeq 6000,11,count,30,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using MiniSeq/iSeq,6,count,30,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Academic,Respondents owning/using Other,21,count,30,L143,"Column mapping from OCR order; text confirms Other ~70%, NextSeq 1000/2000 ~70%, MiSeq ~66%"
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using MiSeq,28,count,32,L143,Text confirms ~88% (28/32)
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using NextSeq 1000/2000,22,count,32,L143,Text confirms 69%
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using NovaSeq X / X Plus,17,count,32,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using NextSeq 500/550,6,count,32,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using NovaSeq 6000,24,count,32,L143,Text confirms ~75%
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using MiniSeq/iSeq,3,count,32,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Respondents owning/using Other,9,count,32,L143,Column mapping from OCR order (not confirmed by text)
+Installed base,What is your Illumina installed base? (multi-select),All,Share of respondents with MiSeq,77,%,62,L25/L143,48/62 = 77% (derived and matches stated)
+Installed base,What is your Illumina installed base? (multi-select),All,Share of respondents with NextSeq 1000/2000,69,%,62,L25/L143,43/62 = 69%
+Installed base,What is your Illumina installed base? (multi-select),All,Share of respondents with NovaSeq X / X Plus,58,%,62,L25/L143,36/62 = 58%
+Installed base,What is your Illumina installed base? (multi-select),All,Share of respondents with NovaSeq 6000,56,%,62,L25/L143,35/62 = 56%. CONFLICT: PM-summary bullet at L25 says 16% own NovaSeq 6000; chart slide (L143) and sums say 56%. 16% looks like a typo
+Installed base,What is your Illumina installed base? (multi-select),All,Share owning NovaSeq 6000 (PM-summary bullet),16,%,62,L25,"CONFLICT: summary bullet says 16%; chart slide says 56%. Recorded for completeness, likely typo"
+Installed base,What is your Illumina installed base? (multi-select),Academic,High-throughput share of total instruments selected,26,%,30,L147,Three shares sum to 82%; remainder presumably 'Other'/unclassified; unexplained
+Installed base,What is your Illumina installed base? (multi-select),Academic,Mid-throughput share of total instruments selected,34,%,30,L147,
+Installed base,What is your Illumina installed base? (multi-select),Academic,Low-throughput share of total instruments selected,22,%,30,L147,
+Installed base,What is your Illumina installed base? (multi-select),Clinical,High-throughput share of total instruments selected,38,%,32,L151,Three shares sum to 92%; remainder unexplained
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Mid-throughput share of total instruments selected,26,%,32,L151,
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Low-throughput share of total instruments selected,28,%,32,L151,
+Installed base,What is your Illumina installed base? (multi-select),Academic,Non-ILMN platforms named in 'Other' (text),,text,30,L145,"Oxford Nanopore PromethION, Singular Genomics G4, PacBio Revio, 10x Chromium, Thermo Fisher S5/3730xl/QuantStudio 5; most common ILMN 'Other' = HiSeq (discontinued). No counts given"
+Installed base,What is your Illumina installed base? (multi-select),Clinical,Non-ILMN platforms named in 'Other' (text),,text,32,L149,"Oxford Nanopore PromethION, Thermo Fisher S5 and Genexus; most common ILMN 'Other' = HiSeq. No counts given"
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share today: Whole genome sequencing (WGS),26,%,30,L168,Chart counts garbled; only text %
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share in 3 years: Whole genome sequencing (WGS),27,%,30,L168,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share today: Single-cell RNA-seq / multiomics,21,%,30,L168,Chart counts garbled; only text %
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share in 3 years: Single-cell RNA-seq / multiomics,21,%,30,L168,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share today: RNA-seq (bulk),19,%,30,L168,Chart counts garbled; only text %
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Academic,Share in 3 years: RNA-seq (bulk),19,%,30,L168,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share today: Oncology somatic panels,23,%,32,L170,Chart counts garbled; only text %
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share in 3 years: Oncology somatic panels,26,%,32,L170,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share today: WES / WGS (clinical),21,%,32,L170,Chart counts garbled; only text %
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share in 3 years: WES / WGS (clinical),21,%,32,L170,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share today: Hematologic malignancy panels,14,%,32,L170,Text: top-3 in 3 years
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share in 3 years: Hematologic malignancy panels,16,%,32,L170,
+Applications,Top three NGS applications by sample volume today vs in three years (share of top-3 ranked mentions),Clinical,Share today: RNA-seq / fusion panels,14,%,32,L170,3-year share not stated in text
+Acquisition timing,When did your lab most recently acquire an Illumina instrument?,All,Share most recently acquiring in 2022 or earlier,47,%,62,L189,~29 of 62 (derived); size-tier chart counts garbled/omitted
+Acquisition timing,When did your lab most recently acquire an Illumina instrument?,All,Share most recently acquiring in 2023,27,%,62,L189,~17 of 62 (derived); size-tier chart counts garbled/omitted
+Acquisition timing,When did your lab most recently acquire an Illumina instrument?,All,Share most recently acquiring in 2024,21,%,62,L189,~13 of 62 (derived); size-tier chart counts garbled/omitted
+Acquisition timing,When did your lab most recently acquire an Illumina instrument?,All,Share most recently acquiring in 2025-2026 YTD,5,%,62,L189,~3 of 62 (derived); size-tier chart counts garbled/omitted
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic small ($250k-$999k),Current weighted ILMN share of NGS activity,47,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic small ($250k-$999k),Expected weighted ILMN share 3 years from now,50,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic small ($250k-$999k),"Change in ILMN share, current to 3 years",3,pts,30,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic medium ($1.0M-$4.99M),Current weighted ILMN share of NGS activity,55,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic medium ($1.0M-$4.99M),Expected weighted ILMN share 3 years from now,57,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic medium ($1.0M-$4.99M),"Change in ILMN share, current to 3 years",2,pts,30,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic large ($5.0M-$9.99M),Current weighted ILMN share of NGS activity,71,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic large ($5.0M-$9.99M),Expected weighted ILMN share 3 years from now,72,%,30,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic large ($5.0M-$9.99M),"Change in ILMN share, current to 3 years",1,pts,30,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Clinical small (250-999 samples/mo),Current weighted ILMN share of NGS activity,63,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Clinical small (250-999 samples/mo),Expected weighted ILMN share 3 years from now,63,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Clinical small (250-999 samples/mo),"Change in ILMN share, current to 3 years",0,pts,32,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical medium (1,000-4,999)",Current weighted ILMN share of NGS activity,50,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical medium (1,000-4,999)",Expected weighted ILMN share 3 years from now,57,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical medium (1,000-4,999)","Change in ILMN share, current to 3 years",7,pts,32,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical large (5,000-8,000+)",Current weighted ILMN share of NGS activity,54,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical large (5,000-8,000+)",Expected weighted ILMN share 3 years from now,54,%,32,L212/L216,
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)","Clinical large (5,000-8,000+)","Change in ILMN share, current to 3 years",0,pts,32,L212/L216,Derived
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Clinical medium,Largest expected share gain of any segment,7,pts,32,L27/L218/N211,Deck and upgrade note both cite ~+7%
+ILMN share,"Share of lab's total NGS activity on Illumina, current vs 3 years from now (weighted)",Academic (all tiers),Expected change in ILMN share range,1-3,pts,30,L27/N211,Stated as ~+1-3%. L214 text says clinical medium/large 'cluster in mid-50s' while L216 chart shows medium 50% today; minor inconsistency in prose
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Average expected consumables spend change 2027 vs 2026,9.0,%,30,L233/L235/N211,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Average expected consumables spend change 2028 vs 2027,12.8,%,30,L235,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Step-up 2028 vs 2027 growth rate,3.8,pts,30,L235,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Share expecting an increase in 2027,93,%,30,L233,~28 of 30
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Respondents expecting +1-10% in 2027,18,count,30,L233,60% of 30; chart label '18' consistent
+Spend outlook 2027-28,Consumables spend growth vs prior year,Academic,Respondents expecting +11-25% in 2028,14,count,30,L233,47% of 30; chart label '14' consistent; other bucket counts garbled
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Average expected consumables spend change 2027 vs 2026,9.4,%,32,L237/L239,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Average expected consumables spend change 2028 vs 2027,14.0,%,32,L239,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Step-up 2028 vs 2027 growth rate,4.6,pts,32,L239,
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Share expecting an increase in 2027,94,%,32,L237,~30 of 32
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Respondents expecting +1-10% in 2027,18,count,32,L237,56% of 32 (derived)
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Respondents expecting +11-25% in 2027,12,count,32,L237,38% of 32 (derived)
+Spend outlook 2027-28,Consumables spend growth vs prior year,Clinical,Respondents expecting +11-25% in 2028,21,count,32,L237,66% of 32; chart label '21'
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Average expected consumables volume growth 2027 vs 2026,11.4,%,30,L256,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Average expected consumables volume growth 2028 vs 2027,17.3,%,30,L256,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Step-up 2028 vs 2027 volume growth,5.9,pts,30,L256,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Respondents expecting +1-10% volume in 2027,14,count,30,L254,46% of 30 (derived)
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Respondents expecting +11-25% volume in 2027,13,count,30,L254,43% of 30 (derived)
+Spend outlook 2027-28,Consumables volume growth vs prior year,Academic,Respondents expecting +11-25% volume in 2028,16,count,30,L254,53% of 30 (derived)
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Average expected consumables volume growth 2027 vs 2026,14.6,%,32,L260,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Average expected consumables volume growth 2028 vs 2027,19.1,%,32,L260,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Step-up 2028 vs 2027 volume growth,4.5,pts,32,L260,
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Respondents expecting +11-25% volume in 2027,21,count,32,L258,66% of 32 (derived)
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Respondents expecting +11-25% volume in 2028,22,count,32,L258,69% of 32 (derived)
+Spend outlook 2027-28,Consumables volume growth vs prior year,Clinical,Respondents expecting +26-50% volume in 2028,5,count,32,L258,"15% of 32 (derived, ~4.8)"
+Spend outlook 2027-28,Implied volume minus spend growth (pricing proxy),Academic,"Volume growth minus spend growth, 2027",2.4,pts,30,N211,Stated in upgrade note; matches 11.4-9.0
+Spend outlook 2027-28,Implied volume minus spend growth (pricing proxy),Academic,"Volume growth minus spend growth, 2028",4.5,pts,30,N211,17.3-12.8
+Spend outlook 2027-28,Implied volume minus spend growth (pricing proxy),Clinical,"Volume growth minus spend growth, 2027",5.2,pts,32,N211,14.6-9.4
+Spend outlook 2027-28,Implied volume minus spend growth (pricing proxy),Clinical,"Volume growth minus spend growth, 2028",5.1,pts,32,N211,19.1-14.0
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Average expected instrument spend change 2027 vs 2026,18.6,%,30,L271/L23/N211,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Average expected instrument spend change 2028 vs 2027,19.0,%,30,L271/L23/N211,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Step-up 2028 vs 2027,0.4,pts,30,L279,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Share expecting an increase in 2027,90,%,30,L273,27 of 30
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Respondents expecting +11-25% in 2027,16,count,30,L273,53% of 30; chart label '16'
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Respondents expecting +11-25% in 2028,10,count,30,L273,33% of 30; chart label '10'
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Respondents expecting +26-50% in 2028,10,count,30,L273,33% of 30; chart label '10'
+Spend outlook 2027-28,Instrument spend growth vs prior year,Academic,Share expecting decrease (26-50%) or flat in 2028,10,%,30,L273,~3 of 30; text wording ambiguous ('decrease of 26-50% or flat')
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Average expected instrument spend change 2027 vs 2026,22.2,%,32,L271/N211,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Average expected instrument spend change 2028 vs 2027,31.0,%,32,L271/N211,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Step-up 2028 vs 2027,8.8,pts,32,L279,
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Share expecting an increase in 2027,91,%,32,L275,~29 of 32
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Respondents expecting +11-25% in 2027,16,count,32,L275,50% of 32
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Respondents expecting +26-50% in 2027,11,count,32,L275,34% of 32 (derived)
+Spend outlook 2027-28,Instrument spend growth vs prior year,Clinical,Respondents expecting +26-50% in 2028,22,count,32,L275,69% of 32; chart label '22'
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Academic,Respondents familiar with Axelios 1 (answered likelihood),18,count,30,L292,Chart base; 60% of academic
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Clinical,Respondents familiar with Axelios 1 (answered likelihood),19,count,32,L292,Chart base; 59% of clinical
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,All,Respondents familiar with Axelios 1,37,count,62,L298,60% of 62
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,All,Share not familiar with Axelios 1,40,%,62,L300,~25 of 62
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Academic,Average purchase likelihood,6.2,score/10,18,L294/N211,
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Clinical,Average purchase likelihood,4.7,score/10,19,L294/N211,
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Academic,Modal purchase likelihood score,3,score/10,18,L296,
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Clinical,Modal purchase likelihood score,4,score/10,19,L296,
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,All,Share rating likelihood >=7,35,%,37,L298,~13 of 37
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,All,Share rating likelihood 5-6,22,%,37,L298,~8 of 37
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,All,Share rating likelihood <=4,43,%,37,L298,~16 of 37
+Axelios 1 awareness & intent,How likely is your lab to purchase a Roche Axelios 1 (1-10)?,Academic,Score-by-score distribution (2-10),,count,18,L292,OCR unreadable: bar counts (1-5) cannot be assigned to scores or segments
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",All,Share expecting purchase in 6-12 months,8,%,37,L317,~3 of 37; skews clinical
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",All,Share expecting purchase in 12-24 months,35,%,37,L317,~13 of 37; skews academic
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",All,Share expecting purchase in 24+ months,32,%,37,L317,~12 of 37; skews clinical
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",All,Share not sure,24,%,37,L317,~9 of 37; skews clinical. Shares sum to 99%
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Academic,Share expecting 6-12 months,6,%,18,L323,~1 of 18
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Academic,Share expecting 12-24 months,50,%,18,L319,9 of 18
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Academic,Share expecting 24+ months,22,%,18,L319,4 of 18
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Academic,Share not sure,22,%,18,L319,4 of 18
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Clinical,Share expecting 6-12 months,11,%,19,L323,~2 of 19
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Clinical,Share expecting 12-24 months,21,%,19,L321,4 of 19
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Clinical,Share expecting 24+ months,42,%,19,L321,8 of 19
+Axelios 1 awareness & intent,"If considering Axelios 1, when would you purchase?",Clinical,Share not sure,21,%,19,L321,"CONFLICT: 21% (4 of 19) here; the 24% 'not sure' in total (L317) implies 9 of 37, i.e. 5 clinical (26%). Clinical percentages sum to 95%"
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Academic,Respondents: reduce ILMN utilization (not decommission),12,count,19,L338,"Chart labels this slide N=19 academic / N=18 clinical, reversed from the 18/19 used on other slides; counts reconcile to stated % only with N=19 academic (12/19=63%)"
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Academic,Respondents: no change to ILMN footprint,5,count,19,L338,5/19 = 26%
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Academic,Respondents: decommission at least one ILMN instrument,2,count,19,L338,2/19 = ~11%
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Respondents: reduce ILMN utilization (not decommission),12,count,18,L338,12/18 = 66%
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Respondents: no change to ILMN footprint,3,count,18,L338,3/18 = ~17%
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Respondents: decommission at least one ILMN instrument,2,count,18,L338,2/18 = ~11%
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Respondents: not sure,1,count,18,L338,Assigned to clinical so that counts sum to 18; inferred from chart position
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Academic,Share reducing ILMN utilization,63,%,19,L338,
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Share reducing ILMN utilization,66,%,18,L338,
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",All,Share reducing ILMN footprint if buying Axelios 1,65,%,37,L33/L338,24 of 37 (derived)
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Academic,Share expecting no change to ILMN footprint,26,%,19,L340,
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",Clinical,Share expecting no change to ILMN footprint,17,%,18,L340,
+Axelios 1 impact,"If your lab purchases Axelios 1, impact on Illumina installed base",All,Share that would decommission at least one ILMN instrument (both groups),11,%,37,L342,~11% in each group
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Academic,Respondents: somewhat more likely,1,count,18,L357,"Inferred: OCR pairs (2/1, 10/9, 5/5, 2/2, 1) assigned by reconciling to base N and stated 39%/37%"
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Academic,Respondents: no impact,10,count,18,L357,Inferred (see above)
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Academic,Respondents: somewhat less likely,5,count,18,L357,
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Academic,Respondents: much less likely,2,count,18,L357,
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Respondents: somewhat more likely,2,count,19,L357,Inferred (see above)
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Respondents: no impact,9,count,19,L357,Inferred
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Respondents: somewhat less likely,5,count,19,L357,
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Respondents: much less likely,2,count,19,L357,
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Respondents: not applicable (already use reagent rental),1,count,19,L357,Inferred
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Academic,Share somewhat or much less likely to purchase,39,%,18,L357,7 of 18
+Reagent rental,"If Illumina offered a reagent rental option, how would it affect likelihood to purchase Axelios 1?",Clinical,Share somewhat or much less likely to purchase,37,%,19,L357,7 of 19
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Academic,Respondents answering 'evaluating or considering',18,count,30,L372,Chart base
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Respondents answering 'evaluating or considering',19,count,32,L372,Chart base
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Data quality,26,%,18,L378,"Chart count ~14 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Turnaround time,15,%,18,L378,"Chart count ~8 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Throughput / capacity,15,%,18,L378,"Chart count ~8 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Cost per sample,15,%,18,L378,"Chart count ~8 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Data quality,18,%,19,L378,"Chart count ~9 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Cost per sample,14,%,19,L378,"Chart count ~7 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Throughput / capacity,12,%,19,L378,"Chart count ~6 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Vendor service/support,12,%,19,L378,"Chart count ~6 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Turnaround time,12,%,19,L378,"Chart count ~6 (mapping inferred, reconciles to %)"
+Barriers,Top reasons for evaluating Axelios 1 (top three ranked),All,"Open-ended comment count (evaluating): academic 17, clinical 18",,text,37,L390/L413,Academic n=17; clinical n=18
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Respondents answering 'NOT evaluating',12,count,30,L372,Chart base
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Respondents answering 'NOT evaluating',13,count,32,L372,Chart base
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Cost per sample,18,%,12,L380,"Chart count ~5 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Data quality,18,%,12,L380,"Chart count ~5 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Workflow ease / automation,14,%,12,L380,"Chart count ~4 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Share of top-3 mentions: Assay/menu availability,14,%,12,L380,"Chart count ~4 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Data quality,21,%,13,L380,"Chart count ~8 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Cost per sample,13,%,13,L380,"Chart count ~5 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Throughput / capacity,13,%,13,L380,"Chart count ~5 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Share of top-3 mentions: Turnaround time,13,%,13,L380,"Chart count ~5 (inferred, reconciles to %)"
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Academic,Open-ended comments (not evaluating),8,count,12,L457,n=8
+Barriers,Top reasons for NOT evaluating Axelios 1 (top three ranked),Clinical,Open-ended comments (not evaluating),9,count,13,L475,n=9
+Barriers,"Reasons to stay with Illumina (open-ended, qualitative)",Clinical,Quoted: no need to add vendors / using almost every Illumina product,,text,9,L479/N169,Qualitative; no numeric value. Thermo Fisher and PromethION also named as current vendors by clinical respondents
